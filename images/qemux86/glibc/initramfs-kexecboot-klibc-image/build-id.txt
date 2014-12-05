@@ -1,7 +1,7 @@
 qemux86: initramfs-kexecboot-klibc-image configured for nodistro nodistro.0
 
 Build Configuration:
-BB_VERSION        = "1.24.0"
+BB_VERSION        = "1.25.0"
 BUILD_SYS         = "x86_64-linux"
 NATIVELSBSTRING   = "Ubuntu-12.04"
 TARGET_SYS        = "i586-oe-linux"
@@ -13,7 +13,7 @@ TARGET_FPU        = ""
 meta-shr          
 meta-aurora       
 meta-fso          
-meta-android      = "jansa/master:6ed1caa16c93938725e709e74d8cdddb048aa2ff"
+meta-android      = "jansa/master:0cc3f3f677ca6fb621f51f16a74e732cf9e8c0ba"
 meta-oe           
 meta-efl          
 meta-gnome        
@@ -27,14 +27,14 @@ meta-systemd
 meta-xfce         
 meta-initramfs    
 meta-ruby         
-meta-webserver    = "jansa/master:5d91015cc5c910deb3a178c226e1a5c82171c178"
+meta-webserver    = "jansa/master:02b187880497025c92d6d5c60b97e8bc11f970c2"
 meta-osmocombb    
 meta-nokia        
 meta-htc          
 meta-palm         
 meta-openmoko     
-meta-samsung      = "jansa/master:6ed1caa16c93938725e709e74d8cdddb048aa2ff"
+meta-samsung      = "jansa/master:0cc3f3f677ca6fb621f51f16a74e732cf9e8c0ba"
 meta-browser      = "jansa/master:65d14590890e6e7660ee719c7ce724713bcfc5ea"
 meta-qt5          = "jansa/master:e3051c98c47535717a3757038bf4adf7c0b8b6ff"
-meta              = "jansa/master:03da6555068f2e6e3ddc64e00b30e0f58cdf2ff1"
+meta              = "jansa/master:486002beabb93325740f19160ecc7f003c7b221b"
 
