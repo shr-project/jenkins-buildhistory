@@ -1,10 +1,10 @@
 PE = 2
-PV = 1.11.4
+PV = 1.12.1
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = ecore (>= 1.11.4) eina (>= 1.11.4) eo (>= 1.11.4) glib-2.0 (>= 2.40.0) glibc (>= 2.20)
+RDEPENDS = ecore (>= 1.12.1) eina (>= 1.12.1) eo (>= 1.12.1) glib-2.0 (>= 2.40.0) glibc (>= 2.20)
 RRECOMMENDS = 
-PKGSIZE = 87675
+PKGSIZE = 156219
 FILES = /usr/lib/*.so.* /usr/lib/edje/modules/efl/*/module.so /usr/lib/efl/plugins/*.so /usr/share/dbus-1/services/*
-FILELIST = /usr/lib/libecore_avahi.so.1 /usr/lib/libecore_avahi.so.1.11.4 /usr/lib/libeolian.so.1 /usr/lib/libeolian.so.1.11.4
+FILELIST = /usr/lib/libecore_avahi.so.1 /usr/lib/libecore_avahi.so.1.12.1 /usr/lib/libefl.so.1 /usr/lib/libefl.so.1.12.1 /usr/lib/libeolian.so.1 /usr/lib/libeolian.so.1.12.1
