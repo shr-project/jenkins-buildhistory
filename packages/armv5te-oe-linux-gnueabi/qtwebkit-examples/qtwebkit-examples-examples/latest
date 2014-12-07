@@ -1,9 +1,10 @@
-PV = 5.3.2
+PV = 5.3.99+5.4.0-rc1+gitAUTOINC+70bd4d5253
 PR = r0
-PKGR = r0.13
+PKGV = 5.3.99+5.4.0-rc1+git0+70bd4d5253
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = ca-certificates glibc (>= 2.20) libgcc (>= 4.9.1) libstdc++ (>= 4.9.1) qtbase (>= 5.3.2) qtdeclarative (>= 5.3.2) qtwebkit (>= 5.3.2) qtwebkit-qmlplugins qtxmlpatterns (>= 5.3.2)
+RDEPENDS = ca-certificates glibc (>= 2.20) libgcc (>= 4.9.1) libstdc++ (>= 4.9.1) qtbase (>= 5.3.99+5.4.0-rc1+git0+cc23ebace8) qtdeclarative (>= 5.3.99+5.4.0-rc1+git0+be6c91acc3) qtwebkit (>= 5.3.99+5.4.0-rc1+git0+18cb1a3ae9) qtwebkit-qmlplugins qtxmlpatterns (>= 5.3.99+5.4.0-rc1+git0+2e8b90b33d)
 RRECOMMENDS = 
-PKGSIZE = 1526160
+PKGSIZE = 1507312
 FILES = /usr/share/qt5/examples/*/*
 FILELIST = /usr/share/qt5/examples/webkitqml/flickrview/flickrview /usr/share/qt5/examples/webkitqml/shared/Button.qml /usr/share/qt5/examples/webkitqml/shared/LoadIndicator.qml /usr/share/qt5/examples/webkitqml/shared/images/arrow.png /usr/share/qt5/examples/webkitqml/shared/images/busy.png /usr/share/qt5/examples/webkitqml/shared/images/less.png /usr/share/qt5/examples/webkitqml/shared/images/more.png /usr/share/qt5/examples/webkitqml/shared/main.cpp /usr/share/qt5/examples/webkitqml/shared/qmldir /usr/share/qt5/examples/webkitqml/youtubeview/content/YouTubeDialog.qml /usr/share/qt5/examples/webkitqml/youtubeview/content/player.html /usr/share/qt5/examples/webkitqml/youtubeview/youtubeview /usr/share/qt5/examples/webkitqml/youtubeview/youtubeview.qml /usr/share/qt5/examples/webkitwidgets/browser/browser /usr/share/qt5/examples/webkitwidgets/domtraversal/domtraversal /usr/share/qt5/examples/webkitwidgets/embedded/anomaly/anomaly /usr/share/qt5/examples/webkitwidgets/fancybrowser/fancybrowser /usr/share/qt5/examples/webkitwidgets/formextractor/formextractor /usr/share/qt5/examples/webkitwidgets/framecapture/framecapture /usr/share/qt5/examples/webkitwidgets/previewer/previewer /usr/share/qt5/examples/webkitwidgets/scroller/plot/plot /usr/share/qt5/examples/webkitwidgets/scroller/wheel/wheel /usr/share/qt5/examples/webkitwidgets/simpleselector/simpleselector /usr/share/qt5/examples/webkitwidgets/xmlpatterns/qobjectxmlmodel/qobjectxmlmodel
