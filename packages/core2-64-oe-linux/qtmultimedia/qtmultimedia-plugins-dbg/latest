@@ -1,9 +1,10 @@
-PV = 5.3.2
+PV = 5.3.99+5.4.0-rc1+gitAUTOINC+59f2bf1864
 PR = r0
-PKGR = r0.11
+PKGV = 5.3.99+5.4.0-rc1+git0+59f2bf1864
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg libgl-mesa-dbg libpulse-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg qtmultimedia-dbg
-PKGSIZE = 4133350
+RRECOMMENDS = glibc-dbg libasound-dbg libgl-mesa-dbg libpulse-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg qtmultimedia-dbg
+PKGSIZE = 5267117
 FILES = /usr/lib/qt5/plugins/*/.debug/* /usr/lib/qt5/plugins/*/*/.debug/* /usr/lib/qt5/plugins/*/*/*/.debug/*
-FILELIST = /usr/lib/qt5/plugins/audio/.debug/libqtmedia_pulse.so /usr/lib/qt5/plugins/mediaservice/.debug/libqtmedia_audioengine.so /usr/lib/qt5/plugins/playlistformats/.debug/libqtmultimedia_m3u.so
+FILELIST = /usr/lib/qt5/plugins/audio/.debug/libqtaudio_alsa.so /usr/lib/qt5/plugins/audio/.debug/libqtmedia_pulse.so /usr/lib/qt5/plugins/mediaservice/.debug/libqtmedia_audioengine.so /usr/lib/qt5/plugins/playlistformats/.debug/libqtmultimedia_m3u.so

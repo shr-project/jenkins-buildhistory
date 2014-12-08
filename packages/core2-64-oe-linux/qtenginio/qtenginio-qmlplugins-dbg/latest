@@ -1,10 +1,11 @@
-PV = 5.3.2
+PV = 5.3.99+5.4.0-rc1+gitAUTOINC+f8ad37de2d
 PR = r0
-PKGR = r0.12
+PKGV = 5.3.99+5.4.0-rc1+git0+f8ad37de2d
+PKGR = r0.0
 PKG = libenginio-qmlplugins-dbg
 RPROVIDES = qtenginio-qmlplugins-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg qtenginio-dbg
-PKGSIZE = 2557946
+PKGSIZE = 2620847
 FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/imports/*/.debug /usr/lib/qt5/imports/*/*/.debug /usr/lib/qt5/imports/*/*/*/.debug
 FILELIST = /usr/lib/qt5/qml/Enginio/.debug/libenginioplugin.so

@@ -1,9 +1,10 @@
-PV = 5.3.2
+PV = 5.3.99+5.4.0-rc1+gitAUTOINC+64927e04f2
 PR = r0
-PKGR = r0.12
+PKGV = 5.3.99+5.4.0-rc1+git0+64927e04f2
+PKGR = r0.0
 PKG = libqt5websockets-staticdev
 RPROVIDES = qtwebsockets-staticdev
-RDEPENDS = qtwebsockets-dev (= 5.3.2-r0.12)
+RDEPENDS = qtwebsockets-dev (= 5.3.99+5.4.0-rc1+git0+64927e04f2-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/qtwebsockets/*.a /usr/lib/*.a
