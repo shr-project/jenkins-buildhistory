@@ -1,9 +1,10 @@
-PV = 5.3.2
+PV = 5.3.99+5.4.0-rc1+gitAUTOINC+18cb1a3ae9
 PR = r0
-PKGR = r0.12
+PKGV = 5.3.99+5.4.0-rc1+git0+18cb1a3ae9
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) libstdc++ (>= 4.9.1) qtbase (>= 5.3.2) qtdeclarative (>= 5.3.2) qtwebkit (>= 5.3.2)
+RDEPENDS = glibc (>= 2.20) libstdc++ (>= 4.9.1) qtbase (>= 5.3.99+5.4.0-rc1+git0+cc23ebace8) qtdeclarative (>= 5.3.99+5.4.0-rc1+git0+be6c91acc3) qtwebkit (>= 5.3.99+5.4.0-rc1+git0+18cb1a3ae9)
 RRECOMMENDS = 
-PKGSIZE = 97421
+PKGSIZE = 96717
 FILES = /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
 FILELIST = /usr/lib/qt5/qml/QtWebKit/experimental/libqmlwebkitexperimentalplugin.so /usr/lib/qt5/qml/QtWebKit/experimental/qmldir /usr/lib/qt5/qml/QtWebKit/libqmlwebkitplugin.so /usr/lib/qt5/qml/QtWebKit/plugins.qmltypes /usr/lib/qt5/qml/QtWebKit/qmldir
