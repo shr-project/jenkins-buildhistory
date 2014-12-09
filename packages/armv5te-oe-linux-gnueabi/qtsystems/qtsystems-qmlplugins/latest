@@ -1,10 +1,10 @@
-PV = 5.3.99+5.4.0-beta1+gitAUTOINC+aa651c73bf
+PV = 5.3.99+5.4.0-rc1+gitAUTOINC+3a0216301a
 PR = r0
-PKGV = 5.3.99+5.4.0-beta1+git0+aa651c73bf
-PKGR = r0.5
+PKGV = 5.3.99+5.4.0-rc1+git0+3a0216301a
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) libgcc (>= 4.9.1) libstdc++ (>= 4.9.1) qtbase (>= 5.3.2) qtdeclarative (>= 5.3.2) qtsystems (>= 5.3.99+5.4.0-beta1+git0+aa651c73bf)
+RDEPENDS = glibc (>= 2.20) libgcc (>= 4.9.1) libstdc++ (>= 4.9.1) qtbase (>= 5.3.99+5.4.0-rc1+git0+cc23ebace8) qtdeclarative (>= 5.3.99+5.4.0-rc1+git0+be6c91acc3) qtsystems (>= 5.3.99+5.4.0-rc1+git0+3a0216301a)
 RRECOMMENDS = 
-PKGSIZE = 179368
+PKGSIZE = 170896
 FILES = /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
 FILELIST = /usr/lib/qt5/qml/QtPublishSubscribe/libdeclarative_publishsubscribe.so /usr/lib/qt5/qml/QtPublishSubscribe/plugins.qmltypes /usr/lib/qt5/qml/QtPublishSubscribe/qmldir /usr/lib/qt5/qml/QtServiceFramework/libdeclarative_serviceframework.so /usr/lib/qt5/qml/QtServiceFramework/plugins.qmltypes /usr/lib/qt5/qml/QtServiceFramework/qmldir /usr/lib/qt5/qml/QtSystemInfo/libdeclarative_systeminfo.so /usr/lib/qt5/qml/QtSystemInfo/plugins.qmltypes /usr/lib/qt5/qml/QtSystemInfo/qmldir
