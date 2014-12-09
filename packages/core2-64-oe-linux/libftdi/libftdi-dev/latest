@@ -1,9 +1,9 @@
-PV = 0.19
-PR = r1
-PKGR = r1.23
+PV = 1.1
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libftdi (= 0.19-r1.23)
-RRECOMMENDS = eglibc-dev libusb-compat-dev libusb1-dev
-PKGSIZE = 18451
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libftdi/*.la /lib/*.la /usr/bin/*-config
-FILELIST = /usr/bin/libftdi-config /usr/include/ftdi.h /usr/lib/libftdi.la /usr/lib/libftdi.so /usr/lib/pkgconfig/libftdi.pc
+RDEPENDS = libftdi (= 1.1-r0.0)
+RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev libusb1-dev
+PKGSIZE = 31203
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libftdi/*.la /lib/*.la /usr/bin/*-config /usr/lib/cmake
+FILELIST = /usr/bin/libftdi1-config /usr/include/libftdi1/ftdi.h /usr/include/libftdi1/ftdi.hpp /usr/lib/cmake/libftdi1/LibFTDI1Config.cmake /usr/lib/cmake/libftdi1/UseLibFTDI1.cmake /usr/lib/libftdi1.so /usr/lib/libftdipp1.so /usr/lib/pkgconfig/libftdi1.pc /usr/lib/pkgconfig/libftdipp1.pc
