@@ -1,9 +1,8 @@
-PV = 5.3.99+5.4.0-rc1+gitAUTOINC+59f2bf1864
+PV = 5.4.0
 PR = r0
-PKGV = 5.3.99+5.4.0-rc1+git0+59f2bf1864
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) libasound (>= 1.0.28) libgcc (>= 4.9.1) libpulse (>= 5.0) libstdc++ (>= 4.9.1) qtbase (>= 5.3.99+5.4.0-rc1+git0+cc23ebace8) qtmultimedia (>= 5.3.99+5.4.0-rc1+git0+59f2bf1864)
+RDEPENDS = glibc (>= 2.20) libasound (>= 1.0.28) libgcc (>= 4.9.1) libpulse (>= 5.0) libstdc++ (>= 4.9.1) qtbase (>= 5.4.0) qtmultimedia (>= 5.4.0)
 RRECOMMENDS = 
 PKGSIZE = 242184
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so

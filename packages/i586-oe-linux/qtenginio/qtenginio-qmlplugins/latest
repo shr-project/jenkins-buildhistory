@@ -1,10 +1,9 @@
-PV = 5.3.99+5.4.0-rc1+gitAUTOINC+f8ad37de2d
+PV = 5.4.0
 PR = r0
-PKGV = 5.3.99+5.4.0-rc1+git0+f8ad37de2d
 PKGR = r0.0
 PKG = libenginio-qmlplugins
 RPROVIDES = qtenginio-qmlplugins
-RDEPENDS = glibc (>= 2.20) libstdc++ (>= 4.9.1) qtbase (>= 5.3.99+5.4.0-rc1+git0+cc23ebace8) qtdeclarative (>= 5.3.99+5.4.0-rc1+git0+be6c91acc3) qtenginio (>= 5.3.99+5.4.0-rc1+git0+f8ad37de2d)
+RDEPENDS = glibc (>= 2.20) libstdc++ (>= 4.9.1) qtbase (>= 5.4.0) qtdeclarative (>= 5.4.0) qtenginio (>= 5.4.0)
 RRECOMMENDS = 
 PKGSIZE = 198248
 FILES = /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
