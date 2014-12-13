@@ -10,6 +10,8 @@ DISTRO            = "nodistro"
 DISTRO_VERSION    = "nodistro.0"
 TUNE_FEATURES     = "m64 core2"
 TARGET_FPU        = ""
+meta-luneos       
+meta-luneui       = "jansa/master:fecd698277a063b87bda468f21935bef9d9de9ef"
 meta-shr          
 meta-aurora       
 meta-fso          
@@ -27,7 +29,7 @@ meta-systemd
 meta-xfce         
 meta-initramfs    
 meta-ruby         
-meta-webserver    = "jansa/master:0f29036e8ee27ee7faaa908e04b5c5d1dbb7b193"
+meta-webserver    = "jansa/master:97883a7f3299145579208165e93a6a7b8d59d35f"
 meta-osmocombb    
 meta-nokia        
 meta-htc          
@@ -35,6 +37,6 @@ meta-palm
 meta-openmoko     
 meta-samsung      = "jansa/master:cdc14804390fa6f5fd750cfe258f2475273d3538"
 meta-browser      = "jansa/master:63963cc56c8d0291779693e62b66cb16e5c86883"
-meta-qt5          = "jansa/master:e6506722301acd4068813a68e3392fbbc0ae7029"
+meta-qt5          = "jansa/master:5fbdfcfe0cc8dabdfc7ab9b798f2c739de63657a"
 meta              = "jansa/master:e33dd6d4b87038d54c0fa074b96cd0ba0bb7558f"
 
