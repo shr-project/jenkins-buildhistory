@@ -1,9 +1,10 @@
-PV = 5.4.0
+PV = 5.4.0+gitAUTOINC+47326b9c5c
 PR = r0
+PKGV = 5.4.0+git0+47326b9c5c
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = qtbase-dev (= 5.4.0-r0.0)
+RDEPENDS = qtbase-dev (= 5.4.0+git0+47326b9c5c-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 64513448
+PKGSIZE = 51003162
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/qtbase/*.a /usr/lib/*.a
 FILELIST = /usr/lib/libQt5Bootstrap.a /usr/lib/libQt5OpenGLExtensions.a /usr/lib/libQt5PlatformSupport.a
