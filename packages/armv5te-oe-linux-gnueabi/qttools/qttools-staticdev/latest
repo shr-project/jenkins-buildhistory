@@ -1,9 +1,10 @@
-PV = 5.4.0
+PV = 5.4.0+gitAUTOINC+33eb6cdf93
 PR = r0
+PKGV = 5.4.0+git0+33eb6cdf93
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = qttools-dev (= 5.4.0-r0.0)
+RDEPENDS = qttools-dev (= 5.4.0+git0+33eb6cdf93-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 12967896
+PKGSIZE = 12967932
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/qttools/*.a /usr/lib/*.a
 FILELIST = /usr/lib/libQt5UiTools.a
