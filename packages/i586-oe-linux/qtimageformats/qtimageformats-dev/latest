@@ -1,8 +1,9 @@
-PV = 5.4.0
+PV = 5.4.0+gitAUTOINC+9141782ada
 PR = r0
+PKGV = 5.4.0+git0+9141782ada
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = qtimageformats (= 5.4.0-r0.0)
+RDEPENDS = qtimageformats (= 5.4.0+git0+9141782ada-r0.0)
 RRECOMMENDS = qtbase-dev tiff-dev
 PKGSIZE = 1376
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtimageformats/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/share/qt5/* /usr/include/qt5/*
