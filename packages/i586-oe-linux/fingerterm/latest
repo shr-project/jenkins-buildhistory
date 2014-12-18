@@ -1,4 +1,4 @@
-PV = 1.0.2
+PV = 1.0.3+gitrAUTOINC+ec5794a31b
 PR = r0
-DEPENDS = pkgconfig-native qt4-tools-native qt4-x11 virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+DEPENDS = qtbase qtbase-native qtdeclarative virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = fingerterm-dbg fingerterm-staticdev fingerterm-dev fingerterm-doc fingerterm-locale fingerterm

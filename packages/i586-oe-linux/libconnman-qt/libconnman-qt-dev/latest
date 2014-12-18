@@ -1,11 +1,11 @@
-PV = 1.0.50+gitAUTOINC+80ac184d85
+PV = 1.0.74+gitrAUTOINC+b98abe1b7f
 PR = r0
-PKGV = 1.0.50+git0+80ac184d85
-PKGR = r0.33
-PKG = libconnman-qt4-dev
+PKGV = 1.0.74+gitr0+b98abe1b7f
+PKGR = r0.0
+PKG = libconnman-qt5-dev
 RPROVIDES = libconnman-qt-dev
-RDEPENDS = libconnman-qt (= 1.0.50+git0+80ac184d85-r0.33)
-RRECOMMENDS = connman-dev glibc-dev libgcc-dev libqtcore4-dev libqtdbus4-dev libqtdeclarative4-dev libqtnetwork4-dev libstdc++-dev qt4-x11-dev
-PKGSIZE = 30637
-FILES = /usr/include/connman-qt*/* /usr/lib/libconnman-qt*.so /usr/lib/libconnman-qt*.prl /usr/lib/pkgconfig/connman-qt*.pc
-FILELIST = /usr/include/connman-qt4/clockmodel.h /usr/include/connman-qt4/commondbustypes.h /usr/include/connman-qt4/connmannetworkproxyfactory.h /usr/include/connman-qt4/counter.h /usr/include/connman-qt4/networkmanager.h /usr/include/connman-qt4/networkservice.h /usr/include/connman-qt4/networksession.h /usr/include/connman-qt4/networktechnology.h /usr/include/connman-qt4/sessionagent.h /usr/include/connman-qt4/useragent.h /usr/lib/libconnman-qt4.prl /usr/lib/libconnman-qt4.so /usr/lib/pkgconfig/connman-qt4.pc
+RDEPENDS = libconnman-qt (= 1.0.74+gitr0+b98abe1b7f-r0.0)
+RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev qtbase-dev qtdeclarative-dev
+PKGSIZE = 31453
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libconnman-qt/*.la /lib/*.la /usr/lib/libconnman-qt5.prl /usr/lib/pkgconfig/connman-qt5.pc
+FILELIST = /usr/include/connman-qt5/clockmodel.h /usr/include/connman-qt5/commondbustypes.h /usr/include/connman-qt5/connmannetworkproxyfactory.h /usr/include/connman-qt5/counter.h /usr/include/connman-qt5/networkmanager.h /usr/include/connman-qt5/networkservice.h /usr/include/connman-qt5/networksession.h /usr/include/connman-qt5/networktechnology.h /usr/include/connman-qt5/sessionagent.h /usr/include/connman-qt5/useragent.h /usr/lib/libconnman-qt5.prl /usr/lib/libconnman-qt5.so /usr/lib/pkgconfig/connman-qt5.pc

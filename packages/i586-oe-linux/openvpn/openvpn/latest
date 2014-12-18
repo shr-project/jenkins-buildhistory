@@ -1,9 +1,9 @@
-PV = 2.3.4
+PV = 2.3.6
 PR = r0
-PKGR = r0.24
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.20) libcrypto (>= 1.0.1j) libssl (>= 1.0.1j) lzo (>= 2.08)
 RRECOMMENDS = kernel-module-tun
-PKGSIZE = 806353
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/openvpn/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/openvpn /usr/lib/openvpn/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/init.d/openvpn /usr/lib/openvpn/plugins/openvpn-plugin-down-root.la /usr/lib/openvpn/plugins/openvpn-plugin-down-root.so /usr/sbin/openvpn
+PKGSIZE = 804270
+FILES = /usr/bin/* /usr/sbin/* /usr/lib/openvpn/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/openvpn /usr/lib/openvpn/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/openvpn@.service /run /lib/systemd/system/openvpn@loopback-server.service /lib/systemd/system/openvpn@loopback-client.service
+FILELIST = /lib/systemd/system/openvpn@.service /usr/lib/openvpn/plugins/openvpn-plugin-down-root.la /usr/lib/openvpn/plugins/openvpn-plugin-down-root.so /usr/sbin/openvpn
