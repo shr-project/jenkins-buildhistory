@@ -1,0 +1,9 @@
+PV = 1.04
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = bash glibc (>= 2.20)
+RRECOMMENDS = 
+PKGSIZE = 107719
+FILES = /usr/bin/* /usr/sbin/* /usr/lib/mcelog/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mcelog /usr/lib/mcelog/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/cron.hourly/mcelog.cron /usr/sbin/mcelog

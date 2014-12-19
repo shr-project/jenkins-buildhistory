@@ -1,0 +1,14 @@
+#!/bin/sh
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	systemctl $OPTS disable  openvpn@loopback-server.service openvpn@loopback-client.service
+
+	if [ -z "$D" -a "disable" = "enable" ]; then
+		systemctl restart  openvpn@loopback-server.service openvpn@loopback-client.service
+	fi
+fi
