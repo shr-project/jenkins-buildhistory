@@ -1,0 +1,42 @@
+qemuarm: webos-ports-image configured for nodistro nodistro.0
+
+Build Configuration:
+BB_VERSION        = "1.25.0"
+BUILD_SYS         = "x86_64-linux"
+NATIVELSBSTRING   = "Ubuntu-12.04"
+TARGET_SYS        = "arm-oe-linux-gnueabi"
+MACHINE           = "qemuarm"
+DISTRO            = "nodistro"
+DISTRO_VERSION    = "nodistro.0"
+TUNE_FEATURES     = "arm armv5 thumb dsp"
+TARGET_FPU        = "soft"
+meta-luneos       
+meta-luneui       = "jansa/master:ab68ea2e28d49a939f8d2441781594ca49599d26"
+meta-shr          
+meta-aurora       
+meta-fso          
+meta-android      = "jansa/master:cdc14804390fa6f5fd750cfe258f2475273d3538"
+meta-oe           
+meta-efl          
+meta-gnome        
+meta-gpe          
+meta-perl         
+meta-python       
+meta-filesystems  
+meta-multimedia   
+meta-networking   
+meta-systemd      
+meta-xfce         
+meta-initramfs    
+meta-ruby         
+meta-webserver    = "jansa/master:e2aa1753c99210370868c4139b16a13bc3de769c"
+meta-osmocombb    
+meta-nokia        
+meta-htc          
+meta-palm         
+meta-openmoko     
+meta-samsung      = "jansa/master:cdc14804390fa6f5fd750cfe258f2475273d3538"
+meta-browser      = "jansa/master:63963cc56c8d0291779693e62b66cb16e5c86883"
+meta-qt5          = "jansa/master:0d778efbddd0c1342cc7c57aedcf6f157a82f788"
+meta              = "jansa/master:5f5814c1afb300cc1bd3d2c6053586e2b1777972"
+
