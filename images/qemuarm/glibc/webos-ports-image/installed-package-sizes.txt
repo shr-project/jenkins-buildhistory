@@ -7,7 +7,7 @@
 11408	KiB systemd
 10199	KiB nodejs
 7816	KiB enyo-1.0
-7526	KiB gstreamer1.0-libav
+7522	KiB gstreamer1.0-libav
 7152	KiB qtdeclarative
 6790	KiB luna-systemui
 5274	KiB luna-init-fonts
@@ -19,7 +19,7 @@
 3605	KiB libqt5xmlpatterns5
 3531	KiB org.webosports.app.pdf
 3359	KiB qtbase-fonts-ttf-dejavu
-2974	KiB libc6
+2975	KiB libc6
 2700	KiB loadable-frameworks
 2689	KiB xkeyboard-config
 2647	KiB libglib-2.0-0
@@ -30,7 +30,6 @@
 2216	KiB org.webosports.app.firstuse
 2087	KiB shared-mime-info
 1954	KiB qtbase-fonts-qpf
-1829	KiB gstreamer
 1825	KiB libicui18n53
 1791	KiB qtbase-fonts-pfa
 1780	KiB gstreamer1.0
@@ -58,13 +57,13 @@
 1021	KiB ofono
 999	KiB org.webosports.app.contacts
 970	KiB mojomail-imap
+958	KiB libgnutls28
 956	KiB luna-webappmanager
 952	KiB tzdata-right
 951	KiB org.webosports.app.settings
-947	KiB libgnutls28
 941	KiB org.webosports.cdav
 930	KiB activitymanager
-928	KiB udev
+924	KiB udev
 923	KiB python-core
 919	KiB qtmultimedia
 918	KiB openssh-sshd
@@ -105,7 +104,6 @@
 548	KiB libgl-mesa
 525	KiB libconnman-qt5-1
 511	KiB luna-service2
-504	KiB libhybris
 501	KiB foundation-frameworks
 499	KiB libpixman-1-0
 482	KiB qtwayland-plugins
@@ -121,7 +119,6 @@
 417	KiB liborc-0.4-0
 416	KiB e2fsprogs-mke2fs
 414	KiB libpulsecommon
-411	KiB libgstfarsight-0.10-0
 406	KiB python-pickle
 403	KiB gstreamer1.0-plugins-good-rtp
 400	KiB hunspell
@@ -144,7 +141,7 @@
 313	KiB iproute2
 310	KiB mojoservice-frameworks
 308	KiB libreadline6
-302	KiB libcurl5
+301	KiB libcurl5
 292	KiB qtbase-fonts-pfb
 291	KiB libnl-route-3-200
 289	KiB libqt5svg5
@@ -172,7 +169,6 @@
 230	KiB libglapi0
 217	KiB libmount1
 217	KiB gstreamer1.0-plugins-base-ogg
-214	KiB libnice
 213	KiB libgsttag-1.0-0
 212	KiB fingerterm
 210	KiB imlibpurpleservice
@@ -212,6 +208,7 @@
 144	KiB gstreamer1.0-plugins-good-rtsp
 143	KiB gstreamer1.0-plugins-bad-mpegtsdemux
 141	KiB libgstpbutils-1.0-0
+139	KiB libegl-mesa
 137	KiB curl
 136	KiB luna-universalsearchmgr
 136	KiB gstreamer1.0-plugins-good-audiofx
@@ -246,8 +243,8 @@
 99	KiB libvorbisidec1
 99	KiB gstreamer1.0-plugins-base-videoscale
 98	KiB webos-connman-adapter
-98	KiB kernel-module-nf-conntrack
 98	KiB gstreamer1.0-plugins-good-goom
+97	KiB kernel-module-nf-conntrack
 96	KiB libnl-3-200
 94	KiB tzdata
 93	KiB sleepd
@@ -265,7 +262,6 @@
 84	KiB libboost-filesystem1.57.0
 83	KiB libmad0
 81	KiB libmpeg2-0
-81	KiB libgstrtp-0.10-0
 80	KiB gstreamer1.0-plugins-bad-opengl
 79	KiB gstreamer1.0-plugins-base-audioconvert
 78	KiB novacomd
@@ -412,6 +408,7 @@
 27	KiB ptmalloc3
 27	KiB libwrap0
 27	KiB liborc-test-0.4-0
+27	KiB libgles2-mesa
 27	KiB gstreamer1.0-plugins-ugly-lame
 27	KiB gstreamer1.0-plugins-good-videocrop
 27	KiB gstreamer1.0-plugins-good-multipart
@@ -434,7 +431,6 @@
 24	KiB libcairo-gobject2
 24	KiB libacl1
 24	KiB kernel-module-x-tables
-24	KiB kernel-module-nf-nat
 24	KiB gstreamer1.0-plugins-ugly-mpeg2dec
 24	KiB gstreamer1.0-plugins-good-wavenc
 24	KiB gstreamer1.0-plugins-good-spectrum
@@ -448,6 +444,7 @@
 23	KiB libgstphotography-1.0-0
 23	KiB libgstbasecamerabinsrc-1.0-0
 23	KiB libe2p2
+23	KiB kernel-module-nf-nat
 23	KiB kernel-module-nf-conntrack-ipv4
 23	KiB gstreamer1.0-plugins-good-imagefreeze
 23	KiB gstreamer1.0-plugins-bad-y4mdec
@@ -531,12 +528,11 @@
 12	KiB pmklogd
 12	KiB location-service
 12	KiB libuuid1
-12	KiB kernel-3.17.0-yocto-standard
+12	KiB kernel-3.17.6-yocto-standard
 12	KiB gstreamer1.0-plugins-bad-festival
 12	KiB gstreamer1.0-plugins-bad-audiofxbad
 12	KiB gstreamer1.0-plugins-bad-adpcmenc
 12	KiB gstreamer1.0-plugins-bad-adpcmdec
-12	KiB gstreamer-locale-en-gb
 11	KiB tzdata-antarctica
 11	KiB mojoloader
 11	KiB makedevs
@@ -579,7 +575,6 @@
 7	KiB libxcomposite1
 7	KiB libxcb-shm0
 7	KiB libxau6
-7	KiB libgstnetbuffer-0.10-0
 5	KiB webos-systemd-services
 5	KiB update-rc.d
 5	KiB kernel-module-nf-defrag-ipv4
@@ -610,7 +605,6 @@
 1	KiB gstreamer1.0-plugins-good-locale-en-gb
 1	KiB gstreamer1.0-plugins-base-locale-en-gb
 1	KiB gstreamer1.0-plugins-bad-locale-en-gb
-1	KiB gst-plugins-base-locale-en-gb
 1	KiB glibc-locale-en-gb
 1	KiB distro-feed-configs
 1	KiB cpushareholder-stub

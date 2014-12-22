@@ -46,9 +46,6 @@ glibc-binary-localedata-en-gb
 glibc-binary-localedata-en-us
 glibc-locale-en-gb
 glibmm
-gst-plugins-base-locale-en-gb
-gstreamer
-gstreamer-locale-en-gb
 gstreamer1.0
 gstreamer1.0-libav
 gstreamer1.0-locale-en-gb
@@ -234,7 +231,7 @@ imlibpurpleservice
 iproute2
 iptables
 json-c
-kernel-3.17.0-yocto-standard
+kernel-3.17.6-yocto-standard
 kernel-module-ip-tables
 kernel-module-iptable-filter
 kernel-module-nf-conntrack
@@ -268,6 +265,7 @@ libdbus-1-3
 libdbus-glib-1-2
 libdrm2
 libe2p2
+libegl-mesa
 libemail-common2
 libexpat1
 libext2fs2
@@ -280,6 +278,7 @@ libgcc1
 libgcrypt
 libgl-mesa
 libglapi0
+libgles2-mesa
 libglib-2.0-0
 libglib-2.0-locale-en-gb
 libgmp10
@@ -292,16 +291,13 @@ libgstbadbase-1.0-0
 libgstbadvideo-1.0-0
 libgstbasecamerabinsrc-1.0-0
 libgstcodecparsers-1.0-0
-libgstfarsight-0.10-0
 libgstfft-1.0-0
 libgstgl-1.0-0
 libgstinsertbin-1.0-0
 libgstmpegts-1.0-0
-libgstnetbuffer-0.10-0
 libgstpbutils-1.0-0
 libgstphotography-1.0-0
 libgstriff-1.0-0
-libgstrtp-0.10-0
 libgstrtp-1.0-0
 libgstrtsp-1.0-0
 libgstsdp-1.0-0
@@ -309,7 +305,6 @@ libgsttag-1.0-0
 libgsturidownloader-1.0-0
 libgstvideo-1.0-0
 libgudev-1.0-0
-libhybris
 libice6
 libicudata53
 libicui18n53
@@ -330,7 +325,6 @@ libmpeg2-0
 libncurses5
 libncursesw5
 libneon27
-libnice
 libnl-3-200
 libnl-3-cli
 libnl-3-genl
