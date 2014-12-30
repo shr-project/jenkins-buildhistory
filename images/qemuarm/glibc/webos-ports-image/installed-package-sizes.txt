@@ -100,8 +100,10 @@
 577	KiB libsoup-2.4
 565	KiB qtbase-fonts-ttf-vera
 562	KiB mojomail-pop
+555	KiB libevent
 550	KiB libtheora
 548	KiB libgl-mesa
+537	KiB ca-certificates
 525	KiB libconnman-qt5-1
 511	KiB luna-service2
 501	KiB foundation-frameworks
@@ -129,8 +131,8 @@
 369	KiB libboost-program-options1.57.0
 365	KiB gstreamer1.0-plugins-good-isomp4
 365	KiB gstreamer1.0-plugins-bad-mxf
+364	KiB tar
 346	KiB libsndfile1
-344	KiB tar
 332	KiB mojomail-smtp
 326	KiB qtgraphicaleffects-qmlplugins
 325	KiB gstreamer1.0-plugins-base-playback
@@ -153,7 +155,6 @@
 275	KiB libfontconfig1
 273	KiB libxslt
 271	KiB python-textutils
-270	KiB ca-certificates
 269	KiB consolekit
 266	KiB libmp3lame0
 263	KiB tzdata-americas
@@ -184,6 +185,8 @@
 189	KiB wayland
 189	KiB org.webosinternals.tweaks
 188	KiB qtmultimedia-plugins
+186	KiB alsa-conf
+185	KiB sntp
 179	KiB luna-init
 176	KiB libflac8
 175	KiB python-shell
@@ -193,7 +196,6 @@
 169	KiB sbc
 168	KiB libproxy
 165	KiB libpbnjson
-165	KiB alsa-conf
 164	KiB libpng16-16
 164	KiB gstreamer1.0-plugins-good-avi
 162	KiB libicutu53
@@ -214,14 +216,13 @@
 136	KiB gstreamer1.0-plugins-good-audiofx
 133	KiB libgstmpegts-1.0-0
 133	KiB gdk-pixbuf
-132	KiB sntp
 132	KiB python-subprocess
 130	KiB mojoservicelauncher
 130	KiB gstreamer1.0-plugins-good-videomixer
 129	KiB tzdata-europe
 129	KiB libexpat1
+124	KiB liblzma5
 124	KiB gstreamer1.0-plugins-ugly-rmdemux
-123	KiB liblzma5
 123	KiB kmod
 122	KiB libgcc1
 121	KiB libneon27
@@ -579,13 +580,13 @@
 5	KiB update-rc.d
 5	KiB kernel-module-nf-defrag-ipv4
 5	KiB kernel-module-iptable-filter
+5	KiB base-files
 4	KiB update-alternatives-opkg
 4	KiB pulseaudio-distro-conf
 4	KiB org.webosports.service.licenses
 4	KiB libwayland-egl1
 4	KiB librdx-stub
 4	KiB gstreamer1.0-plugins-base-app
-4	KiB base-files
 3	KiB libx11-xcb1
 3	KiB glib-networking-locale-en-gb
 3	KiB busybox-udhcpc
@@ -606,7 +607,6 @@
 1	KiB gstreamer1.0-plugins-base-locale-en-gb
 1	KiB gstreamer1.0-plugins-bad-locale-en-gb
 1	KiB glibc-locale-en-gb
-1	KiB distro-feed-configs
 1	KiB cpushareholder-stub
 1	KiB connman-conf
 1	KiB busybox-syslog
@@ -631,4 +631,5 @@
 0	KiB gstreamer1.0-plugins-base-meta
 0	KiB gstreamer1.0-plugins-bad-meta
 0	KiB gstreamer1.0-plugins-bad
+0	KiB distro-feed-configs
 0	KiB base-passwd
