@@ -3406,6 +3406,7 @@ digraph depends {
 "sleepd" -> "libxml2";
 "sleepd" -> "luna-service2";
 "sleepd" -> "powerd";
+"sntp" -> "libevent";
 "sqlite3" -> "libreadline6";
 "sqlite3" -> "libsqlite3-0";
 "systemd" -> "base-files";

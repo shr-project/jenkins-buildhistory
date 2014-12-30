@@ -2010,6 +2010,7 @@ digraph depends {
 "libemail-common2" -> "libpalmsocket2";
 "libemail-common2" -> "libstdc++6";
 "libemail-common2" -> "libz1";
+"libevent" -> "libc6";
 "libexpat1" -> "libc6";
 "libext2fs2" -> "libblkid1";
 "libext2fs2" -> "libc6";
@@ -3955,6 +3956,8 @@ digraph depends {
 "sleepd" -> "luna-service2";
 "sleepd" -> "powerd";
 "sntp" -> "libc6";
+"sntp" -> "libevent";
+"sntp" -> "libgcc1";
 "speex" -> "libc6";
 "sqlite3" -> "libc6";
 "sqlite3" -> "libreadline6";
