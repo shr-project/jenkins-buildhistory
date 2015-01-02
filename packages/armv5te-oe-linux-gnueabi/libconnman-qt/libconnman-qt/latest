@@ -1,11 +1,11 @@
-PV = 1.0.74+gitrAUTOINC+b98abe1b7f
+PV = 1.0.50+gitAUTOINC+80ac184d85
 PR = r0
-PKGV = 1.0.74+gitr0+b98abe1b7f
-PKGR = r0.4
-PKG = libconnman-qt5-1
+PKGV = 1.0.50+git0+80ac184d85
+PKGR = r0.42
+PKG = libconnman-qt4-1
 RPROVIDES = libconnman-qt
-RDEPENDS = glibc (>= 2.20) libgcc (>= 4.9.1) libstdc++ (>= 4.9.1) qtbase (>= 5.4.0+git0+47326b9c5c) qtdeclarative (>= 5.4.0+git0+dbe67b8512)
-RRECOMMENDS = 
-PKGSIZE = 537262
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/libconnman-qt/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libconnman-qt /usr/lib/libconnman-qt/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/qt5/qml/Connman
-FILELIST = /usr/lib/libconnman-qt5.so.1 /usr/lib/libconnman-qt5.so.1.0 /usr/lib/libconnman-qt5.so.1.0.0 /usr/lib/qt5/qml/Connman/libConnmanQtDeclarative.so /usr/lib/qt5/qml/Connman/qmldir
+RDEPENDS = connman glibc (>= 2.20) libgcc (>= 4.9.1) libqtcore4 (>= 4.8.6) libqtdbus4 (>= 4.8.6) libqtnetwork4 (>= 4.8.6) libstdc++ (>= 4.9.1)
+RRECOMMENDS = libconnman-qt-plugin
+PKGSIZE = 329032
+FILES = /usr/lib/libconnman-qt*.so.*
+FILELIST = /usr/lib/libconnman-qt4.so.1 /usr/lib/libconnman-qt4.so.1.0 /usr/lib/libconnman-qt4.so.1.0.50
