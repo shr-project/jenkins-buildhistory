@@ -1,9 +1,9 @@
-PV = 5.4.33
+PV = 5.5.20
 PR = r0
-PKGR = r0.16
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) libcrypto (>= 1.0.1j) libmysqlclient (>= 5.5.40) libpam (>= 1.1.6) libsqlite3 (>= 3.8.7.4) libssl (>= 1.0.1j) libxml2 (>= 2.9.2) php zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.20) libbz2 (>= 1.0.6) libcrypto (>= 1.0.1j) libmcrypt (>= 2.5.8) libmysqlclient (>= 5.5.41) libsqlite3 (>= 3.8.7.4) libssl (>= 1.0.1j) libxml2 (>= 2.9.2) php zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 8654744
+PKGSIZE = 9059612
 FILES = /usr/bin/php
 FILELIST = /usr/bin/php
