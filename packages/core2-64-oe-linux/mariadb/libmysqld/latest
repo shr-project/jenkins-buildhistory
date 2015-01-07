@@ -1,10 +1,10 @@
-PV = 5.5.40
+PV = 5.5.41
 PR = r0
-PKGR = r0.9
+PKGR = r0.0
 PKG = libmysqld18
 RPROVIDES = libmysqld
 RDEPENDS = glibc (>= 2.20) libaio (>= 0.3.109) libstdc++ (>= 4.9.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 12835824
+PKGSIZE = 12848240
 FILES = /usr/lib/libmysqld.so.*
 FILELIST = /usr/lib/libmysqld.so.18

@@ -1,10 +1,10 @@
 PE = 2
 PV = 1.0.0+svnr82070
 PR = r2
-PKGR = r2.38
+PKGR = r2.39
 PKG = libazy-ver-pre-svn-09-tests
 RPROVIDES = azy-tests
-RDEPENDS = ecore (>= 1.12.1) eina (>= 1.12.1) glibc (>= 2.20)
+RDEPENDS = ecore (>= 1.12.2) eina (>= 1.12.2) glibc (>= 2.20)
 RRECOMMENDS = 
 PKGSIZE = 72728
 FILES = /usr/bin/azy /usr/bin/*_* /usr/share/azy
