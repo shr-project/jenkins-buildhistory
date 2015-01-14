@@ -1,10 +1,10 @@
-PV = 9.16
+PV = 0.8.15
 PR = r0
-PKGR = r0.30
-PKG = libavcodec54
+PKGR = r0.0
+PKG = libavcodec53
 RPROVIDES = libavcodec
-RDEPENDS = glibc (>= 2.20) libavutil (>= 9.16) libtheora (>= 1.1.1) x264 (>= r2265+git0+ffc3ad4945) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.20) libavutil (>= 0.8.15) libtheora (>= 1.1.1) x264 (>= r2265+git0+ffc3ad4945) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 8245601
-FILES = /usr/lib/libavcodec.so.54 /usr/lib/libavcodec.so.54.35.0
-FILELIST = /usr/lib/libavcodec.so.54 /usr/lib/libavcodec.so.54.35.0
+PKGSIZE = 8634849
+FILES = /usr/lib/libavcodec.so.53 /usr/lib/libavcodec.so.53.35.0
+FILELIST = /usr/lib/libavcodec.so.53 /usr/lib/libavcodec.so.53.35.0
