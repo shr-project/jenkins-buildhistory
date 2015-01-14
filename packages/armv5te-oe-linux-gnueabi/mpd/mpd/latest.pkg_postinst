@@ -6,9 +6,9 @@ if [ -n "$D" ]; then
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS enable mpd.service
+	systemctl $OPTS enable mpd.service mpd.socket
 
 	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl restart mpd.service
+		systemctl restart mpd.service mpd.socket
 	fi
 fi
