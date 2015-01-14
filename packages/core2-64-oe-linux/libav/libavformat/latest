@@ -1,10 +1,10 @@
-PV = 9.16
+PV = 0.8.15
 PR = r0
-PKGR = r0.28
-PKG = libavformat54
+PKGR = r0.0
+PKG = libavformat53
 RPROVIDES = libavformat
-RDEPENDS = glibc (>= 2.20) libavcodec (>= 9.16) libavutil (>= 9.16) libbz2 (>= 1.0.6) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.20) libavcodec (>= 0.8.15) libavutil (>= 0.8.15) libbz2 (>= 1.0.6) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 1236286
-FILES = /usr/lib/libavformat.so.54 /usr/lib/libavformat.so.54.20.4
-FILELIST = /usr/lib/libavformat.so.54 /usr/lib/libavformat.so.54.20.4
+PKGSIZE = 1098910
+FILES = /usr/lib/libavformat.so.53 /usr/lib/libavformat.so.53.21.1
+FILELIST = /usr/lib/libavformat.so.53 /usr/lib/libavformat.so.53.21.1
