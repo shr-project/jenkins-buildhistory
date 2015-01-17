@@ -7,8 +7,8 @@ fi
 
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop mpd.service mpd.socket
+		systemctl stop mpd.service
 	fi
 
-	systemctl $OPTS disable mpd.service mpd.socket
+	systemctl $OPTS disable mpd.service
 fi
