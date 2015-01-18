@@ -1,10 +1,10 @@
 PV = 3.17.6+gitAUTOINC+b81030f9ec_a1183153c5
 PR = r0
 PKGV = 3.17.6+git0+b81030f9ec_a1183153c5
-PKGR = r0.19
+PKGR = r0.21
 RPROVIDES = 
 RDEPENDS = kernel-3.17.6-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 10776
+PKGSIZE = 10780
 FILES = /lib/modules/3.17.6-yocto-standard/kernel/drivers/char/hw_random/rng-core.ko /etc/modules-load.d/rng-core.conf /etc/modprobe.d/rng-core.conf
 FILELIST = /lib/modules/3.17.6-yocto-standard/kernel/drivers/char/hw_random/rng-core.ko
