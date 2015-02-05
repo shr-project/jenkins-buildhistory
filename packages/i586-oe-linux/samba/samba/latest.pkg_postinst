@@ -11,9 +11,9 @@ if [ -n "$D" ]; then
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS enable nmb.service smb.service
+	systemctl $OPTS disable nmb.service smb.service
 
-	if [ -z "$D" -a "enable" = "enable" ]; then
+	if [ -z "$D" -a "disable" = "enable" ]; then
 		systemctl restart nmb.service smb.service
 	fi
 fi
