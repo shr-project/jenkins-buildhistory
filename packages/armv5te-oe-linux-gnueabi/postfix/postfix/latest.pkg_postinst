@@ -18,9 +18,9 @@ if [ -n "$D" ]; then
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS disable postfix.service
+	systemctl $OPTS enable postfix.service
 
-	if [ -z "$D" -a "disable" = "enable" ]; then
+	if [ -z "$D" -a "enable" = "enable" ]; then
 		systemctl restart postfix.service
 	fi
 fi

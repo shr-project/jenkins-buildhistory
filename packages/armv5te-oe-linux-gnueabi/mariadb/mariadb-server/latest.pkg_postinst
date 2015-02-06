@@ -10,6 +10,7 @@
 
     mysql_install_db --basedir=/usr --user=mysql
 
+    [ -x /sbin/restorecon ] && /sbin/restorecon -RF /var/lib/mysql
 OPTS=""
 
 if [ -n "$D" ]; then
