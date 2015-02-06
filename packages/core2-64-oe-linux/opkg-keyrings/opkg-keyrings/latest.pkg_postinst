@@ -1,0 +1,9 @@
+#! /bin/sh
+set -e
+
+if [ x"$D" = "x" ]; then
+    # On target
+    opkg-key populate
+else
+    exit 1
+fi
