@@ -28,6 +28,7 @@
 	update-alternatives --remove  halt /bin/busybox.nosuid
 	update-alternatives --remove  poweroff /bin/busybox.nosuid
 	update-alternatives --remove  reboot /bin/busybox.nosuid
+	update-alternatives --remove  mesg /bin/busybox.nosuid
 	update-alternatives --remove  rfkill /bin/busybox.nosuid
 	update-alternatives --remove  depmod /bin/busybox.nosuid
 	update-alternatives --remove  insmod /bin/busybox.nosuid

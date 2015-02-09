@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.16.2
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = xorg-abi-input-21 xorg-abi-video-18 xserver-xorg-extension-dbe xserver-xorg-extension-dri xserver-xorg-extension-dri2 xserver-xorg-extension-extmod xserver-xorg-extension-record
-RDEPENDS = glibc (>= 2.20) libcrypto (>= 1.0.1j) libdrm (>= 2.4.58) libpciaccess (>= 0.13.2) libudev (>= 216+git0+5d0ae62c66) libxau (>= 1.0.8) libxdmcp (>= 1.1.1) libxfont (>= 1.5.0) pixman (>= 0.32.6)
+RDEPENDS = glibc (>= 2.20) libcrypto (>= 1.0.1j) libdrm (>= 2.4.59) libpciaccess (>= 0.13.2) libudev (>= 216+git0+5d0ae62c66) libxau (>= 1.0.8) libxdmcp (>= 1.1.1) libxfont (>= 1.5.0) pixman (>= 0.32.6)
 RRECOMMENDS = rgb xkbcomp xkeyboard-config xserver-xf86-config xserver-xorg-security-policy
 RREPLACES = xserver-xorg-extension-dbe xserver-xorg-extension-dri xserver-xorg-extension-dri2 xserver-xorg-extension-extmod xserver-xorg-extension-record
 RCONFLICTS = xserver-xorg-extension-dbe xserver-xorg-extension-dri xserver-xorg-extension-dri2 xserver-xorg-extension-extmod xserver-xorg-extension-record
