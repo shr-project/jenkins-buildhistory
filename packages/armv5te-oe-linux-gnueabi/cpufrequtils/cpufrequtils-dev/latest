@@ -1,9 +1,9 @@
 PV = 008
 PR = r5
-PKGR = r5.41
+PKGR = r5.42
 PKG = libcpufreq0
 RPROVIDES = cpufrequtils-dev
-RDEPENDS = cpufrequtils (= 008-r5.41) glibc (>= 2.20)
+RDEPENDS = cpufrequtils (= 008-r5.42) glibc (>= 2.20)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 17130
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/cpufrequtils/*.la /lib/*.la
