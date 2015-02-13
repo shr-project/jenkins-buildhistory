@@ -1,0 +1,9 @@
+PV = 1.12.2
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glib-2.0 (>= 2.42.1) glibc (>= 2.20) libffi (>= 3.2.1) libgudev (>= 216+git0+5d0ae62c66) libudev (>= 216+git0+5d0ae62c66) zlib (>= 1.2.8)
+RRECOMMENDS = 
+PKGSIZE = 224842
+FILES = /usr/bin/* /usr/sbin/* /usr/lib/libmbim/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libmbim /usr/lib/libmbim/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/mbim-network /usr/bin/mbimcli /usr/lib/libmbim-glib.so.4 /usr/lib/libmbim-glib.so.4.1.0 /usr/lib/libmbim/mbim-proxy
