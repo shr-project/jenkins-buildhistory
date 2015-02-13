@@ -1,10 +1,10 @@
 PV = 5.4.0+gitAUTOINC+f420ac286a
 PR = r0
 PKGV = 5.4.0+git0+f420ac286a
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.42.1) glibc (>= 2.20) gstreamer (>= 0.10.36) libasound (>= 1.0.28) libgstapp-0.10 (>= 0.10.36) libgstinterfaces-0.10 (>= 0.10.36) libgstpbutils-0.10 (>= 0.10.36) libgstphotography-0.10 (>= 0.10.23) libpulse (>= 5.0) libstdc++ (>= 4.9.1) qtbase (>= 5.4.0+git0+47326b9c5c) qtmultimedia (>= 5.4.0+git0+f420ac286a)
+RDEPENDS = glibc (>= 2.20) libasound (>= 1.0.28) libpulse (>= 5.0) libstdc++ (>= 4.9.1) qtbase (>= 5.4.0+git0+47326b9c5c) qtmultimedia (>= 5.4.0+git0+f420ac286a)
 RRECOMMENDS = 
-PKGSIZE = 777640
+PKGSIZE = 245768
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
-FILELIST = /usr/lib/qt5/plugins/audio/libqtaudio_alsa.so /usr/lib/qt5/plugins/audio/libqtmedia_pulse.so /usr/lib/qt5/plugins/mediaservice/libgstaudiodecoder.so /usr/lib/qt5/plugins/mediaservice/libgstcamerabin.so /usr/lib/qt5/plugins/mediaservice/libgstmediacapture.so /usr/lib/qt5/plugins/mediaservice/libgstmediaplayer.so /usr/lib/qt5/plugins/playlistformats/libqtmultimedia_m3u.so
+FILELIST = /usr/lib/qt5/plugins/audio/libqtaudio_alsa.so /usr/lib/qt5/plugins/audio/libqtmedia_pulse.so /usr/lib/qt5/plugins/mediaservice/libqtmedia_audioengine.so /usr/lib/qt5/plugins/playlistformats/libqtmultimedia_m3u.so
