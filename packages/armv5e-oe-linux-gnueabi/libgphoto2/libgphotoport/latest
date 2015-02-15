@@ -1,0 +1,10 @@
+PV = 2.4.11
+PR = r5
+PKGR = r5.0
+PKG = libgphoto2-port0
+RPROVIDES = libgphotoport
+RDEPENDS = glibc (>= 2.20) libltdl (>= 2.4.5)
+RRECOMMENDS = 
+PKGSIZE = 27484
+FILES = /usr/lib/libgphoto2_port.so.*
+FILELIST = /usr/lib/libgphoto2_port.so.0 /usr/lib/libgphoto2_port.so.0.8.0
