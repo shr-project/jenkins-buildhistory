@@ -1,10 +1,10 @@
 PV = 3.17.8+gitAUTOINC+f24c2bf9c2_12991e8ac4
 PR = r0
 PKGV = 3.17.8+git0+f24c2bf9c2_12991e8ac4
-PKGR = r0.7
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = kernel-3.17.8-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 11652
+PKGSIZE = 11660
 FILES = /lib/modules/3.17.8-yocto-standard/kernel/net/sched/sch_tbf.ko /etc/modules-load.d/sch_tbf.conf /etc/modprobe.d/sch_tbf.conf
 FILELIST = /lib/modules/3.17.8-yocto-standard/kernel/net/sched/sch_tbf.ko

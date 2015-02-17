@@ -1,10 +1,10 @@
 PV = 3.17.8+gitAUTOINC+f24c2bf9c2_12991e8ac4
 PR = r0
 PKGV = 3.17.8+git0+f24c2bf9c2_12991e8ac4
-PKGR = r0.7
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = kernel-3.17.8-yocto-standard kernel-module-ppp-generic kernel-module-slhc
 RRECOMMENDS = 
-PKGSIZE = 9116
+PKGSIZE = 9112
 FILES = /lib/modules/3.17.8-yocto-standard/kernel/drivers/net/ppp/bsd_comp.ko /etc/modules-load.d/bsd_comp.conf /etc/modprobe.d/bsd_comp.conf
 FILELIST = /lib/modules/3.17.8-yocto-standard/kernel/drivers/net/ppp/bsd_comp.ko
