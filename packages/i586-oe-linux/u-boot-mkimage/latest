@@ -1,4 +1,4 @@
-PV = v2014.07+gitAUTOINC+524123a707
+PV = v2015.01+gitAUTOINC+92fa7f53f1
 PR = r0
-DEPENDS = virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+DEPENDS = openssl virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = u-boot-mkimage-dbg u-boot-mkimage-staticdev u-boot-mkimage-dev u-boot-mkimage-doc u-boot-mkimage-locale u-boot-mkimage
