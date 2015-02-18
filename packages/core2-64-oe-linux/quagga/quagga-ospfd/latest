@@ -1,9 +1,9 @@
 PV = 0.99.23
 PR = r0
-PKGR = r0.30
+PKGR = r0.31
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) quagga (>= 0.99.23)
+RDEPENDS = glibc (>= 2.21) quagga (>= 0.99.23)
 RRECOMMENDS = 
-PKGSIZE = 587645
+PKGSIZE = 587389
 FILES = /usr/sbin/ospfd /usr/lib/libospf.so.* /lib/systemd/system/ospfd.service
 FILELIST = /lib/systemd/system/ospfd.service /usr/lib/libospf.so.0 /usr/lib/libospf.so.0.0.0 /usr/sbin/ospfd

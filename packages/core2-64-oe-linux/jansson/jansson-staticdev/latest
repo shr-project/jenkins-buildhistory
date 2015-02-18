@@ -1,10 +1,10 @@
 PV = 2.4
 PR = r0
-PKGR = r0.33
+PKGR = r0.34
 PKG = libjansson-staticdev
 RPROVIDES = jansson-staticdev
-RDEPENDS = jansson-dev (= 2.4-r0.33)
+RDEPENDS = jansson-dev (= 2.4-r0.34)
 RRECOMMENDS = 
-PKGSIZE = 330476
+PKGSIZE = 330420
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/jansson/*.a
 FILELIST = /usr/lib/libjansson.a

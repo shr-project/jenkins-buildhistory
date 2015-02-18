@@ -1,8 +1,8 @@
 PV = 0.6
 PR = r5
-PKGR = r5.32
+PKGR = r5.33
 RPROVIDES = cloud9-systemd
-RDEPENDS = glibc (>= 2.20) gzip libgcc (>= 4.9.1) libstdc++ (>= 4.9.1) libxml2 (>= 2.9.2) nodejs nodejs4
+RDEPENDS = glibc (>= 2.21) gzip libgcc (>= 4.9.2) libstdc++ (>= 4.9.2) libxml2 (>= 2.9.2) nodejs nodejs4
 RRECOMMENDS = 
 RREPLACES = cloud9-systemd
 RCONFLICTS = cloud9-systemd

@@ -1,9 +1,9 @@
 PV = 0.82
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 PKG = libcdio-cdda0
 RPROVIDES = libcdio-cdda
-RDEPENDS = glibc (>= 2.20) libcdio (>= 0.82)
+RDEPENDS = glibc (>= 2.21) libcdio (>= 0.82)
 RRECOMMENDS = 
 PKGSIZE = 29949
 FILES = /usr/lib/libcdio_cdda.so.0 /usr/lib/libcdio_cdda.so.0.0.5

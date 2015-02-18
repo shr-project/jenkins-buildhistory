@@ -1,10 +1,10 @@
 PV = 0.2.7
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 PKG = libaudiofile-bin
 RPROVIDES = audiofile-bin
-RDEPENDS = audiofile (>= 0.2.7) glibc (>= 2.20)
+RDEPENDS = audiofile (>= 0.2.7) glibc (>= 2.21)
 RRECOMMENDS = 
-PKGSIZE = 21152
+PKGSIZE = 21168
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/sfconvert /usr/bin/sfinfo

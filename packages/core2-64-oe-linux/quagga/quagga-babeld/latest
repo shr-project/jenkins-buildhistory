@@ -1,9 +1,9 @@
 PV = 0.99.23
 PR = r0
-PKGR = r0.30
+PKGR = r0.31
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) quagga (>= 0.99.23)
+RDEPENDS = glibc (>= 2.21) quagga (>= 0.99.23)
 RRECOMMENDS = 
-PKGSIZE = 107314
+PKGSIZE = 107378
 FILES = /usr/sbin/babeld /lib/systemd/system/babeld.service
 FILELIST = /lib/systemd/system/babeld.service /usr/sbin/babeld
