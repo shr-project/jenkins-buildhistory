@@ -1,12 +1,12 @@
 PE = 1
-PV = 216+gitAUTOINC+5d0ae62c66
+PV = 218+gitAUTOINC+820aced6f6
 PR = r0
-PKGV = 216+git0+5d0ae62c66
-PKGR = r0.1
+PKGV = 218+git0+820aced6f6
+PKGR = r0.0
 PKG = libsystemd0
 RPROVIDES = libsystemd
-RDEPENDS = glibc (>= 2.20) liblzma (>= 5.2.0)
+RDEPENDS = glibc (>= 2.21) libcap (>= 2.24) liblzma (>= 5.2.0)
 RRECOMMENDS = 
-PKGSIZE = 177927
-FILES = /lib/libsystemd.so.0 /lib/libsystemd.so.0.4.0
-FILELIST = /lib/libsystemd.so.0 /lib/libsystemd.so.0.4.0
+PKGSIZE = 186155
+FILES = /lib/libsystemd.so.0 /lib/libsystemd.so.0.5.1
+FILELIST = /lib/libsystemd.so.0 /lib/libsystemd.so.0.5.1

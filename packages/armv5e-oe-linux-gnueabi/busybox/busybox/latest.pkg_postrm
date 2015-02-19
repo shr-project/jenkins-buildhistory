@@ -11,7 +11,9 @@
 	update-alternatives --remove  date /bin/busybox.nosuid
 	update-alternatives --remove  groups /bin/busybox.nosuid
 	update-alternatives --remove  id /bin/busybox.nosuid
+	update-alternatives --remove  shuf /bin/busybox.nosuid
 	update-alternatives --remove  touch /bin/busybox.nosuid
+	update-alternatives --remove  unlink /bin/busybox.nosuid
 	update-alternatives --remove  users /bin/busybox.nosuid
 	update-alternatives --remove  who /bin/busybox.nosuid
 	update-alternatives --remove  awk /bin/busybox.nosuid
@@ -37,6 +39,7 @@
 	update-alternatives --remove  rmmod /bin/busybox.nosuid
 	update-alternatives --remove  ash /bin/busybox.nosuid
 	update-alternatives --remove  sh /bin/busybox.nosuid
+	update-alternatives --remove  fatattr /bin/busybox.nosuid
 	update-alternatives --remove  fstrim /bin/busybox.nosuid
 	update-alternatives --remove  lbracket /bin/busybox.nosuid
 	update-alternatives --remove  [[ /bin/busybox.nosuid

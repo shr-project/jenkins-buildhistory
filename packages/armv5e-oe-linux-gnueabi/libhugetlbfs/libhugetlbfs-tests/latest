@@ -1,9 +1,9 @@
 PE = 1
 PV = 2.18
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.20) libhugetlbfs (>= 2.18)
+RDEPENDS = bash glibc (>= 2.21) libhugetlbfs (>= 2.18)
 RRECOMMENDS = 
 PKGSIZE = 2897420
 FILES = /usr/lib/libhugetlbfs/tests

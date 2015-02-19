@@ -1,8 +1,8 @@
 PV = 13.2.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) libpython2 (>= 2.7.3) python-twisted-core python-twisted-protocols
+RDEPENDS = glibc (>= 2.21) libpython2 (>= 2.7.3) python-twisted-core python-twisted-protocols
 RRECOMMENDS = 
 PKGSIZE = 36201
 FILES = /usr/lib/site-packages/twisted/runner/portmap.so /usr/lib/python2.7/site-packages/twisted/runner

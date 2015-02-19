@@ -1,9 +1,9 @@
 PV = 1.2.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 PKG = libaugeas0
 RPROVIDES = libaugeas
-RDEPENDS = augeas-lenses glibc (>= 2.20) libgcc (>= 4.9.2) libxml2 (>= 2.9.2) zlib (>= 1.2.8)
+RDEPENDS = augeas-lenses glibc (>= 2.21) libgcc (>= 4.9.2) libxml2 (>= 2.9.2) zlib (>= 1.2.8)
 RRECOMMENDS = augeas
 PKGSIZE = 464197
 FILES = /usr/lib/lib*.so.*

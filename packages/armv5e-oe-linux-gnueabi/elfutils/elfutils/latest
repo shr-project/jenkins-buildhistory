@@ -1,8 +1,8 @@
 PV = 0.161
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) libdw (>= 0.161) libelf (>= 0.161) libstdc++ (>= 4.9.2)
+RDEPENDS = glibc (>= 2.21) libdw (>= 0.161) libelf (>= 0.161) libstdc++ (>= 4.9.2)
 RRECOMMENDS = 
 PKGSIZE = 242463
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/elfutils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/elfutils /usr/lib/elfutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
