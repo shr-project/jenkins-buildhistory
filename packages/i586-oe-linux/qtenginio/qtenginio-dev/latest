@@ -1,10 +1,10 @@
 PV = 5.4.0+gitAUTOINC+f8ad37de2d
 PR = r0
 PKGV = 5.4.0+git0+f8ad37de2d
-PKGR = r0.14
+PKGR = r0.15
 PKG = libenginio-dev
 RPROVIDES = qtenginio-dev
-RDEPENDS = qtenginio (= 5.4.0+git0+f8ad37de2d-r0.14)
+RDEPENDS = qtenginio (= 5.4.0+git0+f8ad37de2d-r0.15)
 RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtdeclarative-dev qtxmlpatterns-dev
 PKGSIZE = 135708
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtenginio/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*
