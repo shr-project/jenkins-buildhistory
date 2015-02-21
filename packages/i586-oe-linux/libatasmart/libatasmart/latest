@@ -1,9 +1,9 @@
 PV = 0.19
 PR = r0
-PKGR = r0.44
+PKGR = r0.45
 PKG = libatasmart4
 RPROVIDES = libatasmart
-RDEPENDS = glibc (>= 2.21) libcap (>= 2.24) libudev (>= 218+git0+820aced6f6)
+RDEPENDS = glibc (>= 2.21) libcap (>= 2.24) libudev (>= 219+git0+a88abde721)
 RRECOMMENDS = 
 PKGSIZE = 50532
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/libatasmart/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libatasmart /usr/lib/libatasmart/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

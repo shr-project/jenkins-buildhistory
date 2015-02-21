@@ -1,10 +1,10 @@
-PV = 5.4.0+gitAUTOINC+47326b9c5c
+PV = 5.4.0+gitAUTOINC+02c5657a7d
 PR = r0
-PKGV = 5.4.0+git0+47326b9c5c
-PKGR = r0.15
+PKGV = 5.4.0+git1+02c5657a7d
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.42.1) glibc (>= 2.21) libgl-mesa (>= 10.4.4) libjpeg-turbo (>= 8d+1.4.0) libstdc++ (>= 4.9.2) libudev (>= 218+git0+820aced6f6) libx11 (>= 1.6.2) mtdev (>= 1.1.5) qtbase (>= 5.4.0+git0+47326b9c5c) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.42.1) glibc (>= 2.21) libgl-mesa (>= 10.4.4) libjpeg-turbo (>= 8d+1.4.0) libstdc++ (>= 4.9.2) libudev (>= 219+git0+a88abde721) libx11 (>= 1.6.2) mtdev (>= 1.1.5) qtbase (>= 5.4.0+git1+02c5657a7d) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 1668668
+PKGSIZE = 1668860
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
 FILELIST = /usr/lib/qt5/plugins/bearer/libqconnmanbearer.so /usr/lib/qt5/plugins/bearer/libqgenericbearer.so /usr/lib/qt5/plugins/bearer/libqnmbearer.so /usr/lib/qt5/plugins/generic/libqevdevkeyboardplugin.so /usr/lib/qt5/plugins/generic/libqevdevmouseplugin.so /usr/lib/qt5/plugins/generic/libqevdevtabletplugin.so /usr/lib/qt5/plugins/generic/libqevdevtouchplugin.so /usr/lib/qt5/plugins/imageformats/libqgif.so /usr/lib/qt5/plugins/imageformats/libqico.so /usr/lib/qt5/plugins/imageformats/libqjpeg.so /usr/lib/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so /usr/lib/qt5/plugins/platforms/libqminimal.so /usr/lib/qt5/plugins/platforms/libqoffscreen.so

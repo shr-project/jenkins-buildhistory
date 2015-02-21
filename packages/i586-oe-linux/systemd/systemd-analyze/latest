@@ -1,11 +1,11 @@
 PE = 1
-PV = 218+gitAUTOINC+820aced6f6
+PV = 219+gitAUTOINC+a88abde721
 PR = r0
-PKGV = 218+git0+820aced6f6
-PKGR = r0.1
+PKGV = 219+git0+a88abde721
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libcap (>= 2.24) libgcc (>= 4.9.2) util-linux-libs (>= 2.25.2)
+RDEPENDS = glibc (>= 2.21) libcap (>= 2.24) libgcc (>= 4.9.2) util-linux-libmount (>= 2.25.2)
 RRECOMMENDS = 
-PKGSIZE = 1317484
+PKGSIZE = 1346172
 FILES = /usr/bin/systemd-analyze
 FILELIST = /usr/bin/systemd-analyze
