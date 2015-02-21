@@ -1,0 +1,10 @@
+PV = 3.19+gitAUTOINC+8897ef68b3_91b64df8cd
+PR = r0
+PKGV = 3.19+git0+8897ef68b3_91b64df8cd
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.19.0-yocto-standard kernel-module-bridge kernel-module-llc kernel-module-stp
+RRECOMMENDS = 
+PKGSIZE = 16296
+FILES = /lib/modules/3.19.0-yocto-standard/kernel/net/bridge/br_netfilter.ko /etc/modules-load.d/br_netfilter.conf /etc/modprobe.d/br_netfilter.conf
+FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/net/bridge/br_netfilter.ko

@@ -1,0 +1,10 @@
+PV = 3.19+gitAUTOINC+8897ef68b3_91b64df8cd
+PR = r0
+PKGV = 3.19+git0+8897ef68b3_91b64df8cd
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.19.0-yocto-standard kernel-module-gre
+RRECOMMENDS = 
+PKGSIZE = 17868
+FILES = /lib/modules/3.19.0-yocto-standard/kernel/net/ipv4/ip_gre.ko /etc/modules-load.d/ip_gre.conf /etc/modprobe.d/ip_gre.conf
+FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/net/ipv4/ip_gre.ko
