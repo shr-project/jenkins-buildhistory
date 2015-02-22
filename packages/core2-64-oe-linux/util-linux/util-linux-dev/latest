@@ -1,9 +1,9 @@
 PV = 2.25.2
 PR = r1
-PKGR = r1.5
+PKGR = r1.6
 RPROVIDES = 
-RDEPENDS = util-linux (= 2.25.2-r1.5)
-RRECOMMENDS = glibc-dev libsystemd-dev ncurses-dev ncurses-libncursesw-dev ncurses-libtinfo-dev systemd-dev update-alternatives-opkg-dev util-linux-libs-dev util-linux-losetup-dev util-linux-swaponoff-dev util-linux-umount-dev zlib-dev
-PKGSIZE = 9602
+RDEPENDS = util-linux (= 2.25.2-r1.6)
+RRECOMMENDS = glibc-dev libsystemd-dev ncurses-dev ncurses-libncursesw-dev ncurses-libtinfo-dev systemd-dev update-alternatives-opkg-dev util-linux-libblkid-dev util-linux-libmount-dev util-linux-libs-dev util-linux-libuuid-dev util-linux-losetup-dev util-linux-swaponoff-dev util-linux-umount-dev zlib-dev
+PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/util-linux/*.la /lib/*.la
-FILELIST = /usr/include/libsmartcols/libsmartcols.h
+FILELIST = 

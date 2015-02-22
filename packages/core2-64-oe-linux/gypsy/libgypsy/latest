@@ -1,10 +1,10 @@
 PV = 0.9
 PR = r2
-PKGR = r2.42
+PKGR = r2.43
 PKG = libgypsy0
 RPROVIDES = libgypsy
-RDEPENDS = bluez4 (>= 4.101) dbus-glib (>= 0.102) dbus-lib (>= 1.8.10) glib-2.0 (>= 2.42.1) glibc (>= 2.21) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 218+git0+820aced6f6) libudev (>= 218+git0+820aced6f6) zlib (>= 1.2.8)
+RDEPENDS = bluez4 (>= 4.101) dbus-glib (>= 0.102) dbus-lib (>= 1.8.10) glib-2.0 (>= 2.42.1) glibc (>= 2.21) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 219+git0+a88abde721) libudev (>= 219+git0+a88abde721) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 33921
+PKGSIZE = 33969
 FILES = /usr/lib/libgypsy.so.*
 FILELIST = /usr/lib/libgypsy.so.0 /usr/lib/libgypsy.so.0.0.0

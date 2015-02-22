@@ -1,8 +1,8 @@
 PV = 2.25.2
 PR = r1
-PKGR = r1.5
+PKGR = r1.6
 RPROVIDES = util-linux-systemd
-RDEPENDS = glibc (>= 2.21) libsystemd (>= 218+git0+820aced6f6) ncurses-libncursesw (>= 5.9) ncurses-libtinfo (>= 5.9) update-alternatives-opkg util-linux-libs (>= 2.25.2) util-linux-losetup util-linux-swaponoff util-linux-umount
+RDEPENDS = glibc (>= 2.21) libsystemd (>= 219+git0+a88abde721) ncurses-libncursesw (>= 5.9) ncurses-libtinfo (>= 5.9) update-alternatives-opkg util-linux-libblkid (>= 2.25.2) util-linux-libmount (>= 2.25.2) util-linux-libs (>= 2.25.2) util-linux-libuuid (>= 2.25.2) util-linux-losetup util-linux-swaponoff util-linux-umount
 RRECOMMENDS = util-linux-cfdisk util-linux-fdisk util-linux-mkfs util-linux-mount util-linux-readprofile util-linux-sfdisk
 RREPLACES = util-linux-systemd
 RCONFLICTS = util-linux-systemd
