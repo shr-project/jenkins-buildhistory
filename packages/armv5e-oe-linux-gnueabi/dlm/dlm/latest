@@ -1,8 +1,8 @@
 PV = 4.0.2
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = corosync (>= 2.3.4) glibc (>= 2.21) libgcc (>= 4.9.2) libsystemd (>= 218+git0+820aced6f6)
+RDEPENDS = corosync (>= 2.3.4) glibc (>= 2.21) libgcc (>= 4.9.2) libsystemd (>= 219+git0+a88abde721)
 RRECOMMENDS = 
 PKGSIZE = 179936
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/dlm/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dlm /usr/lib/dlm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/dlm.service

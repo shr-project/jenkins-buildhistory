@@ -1,8 +1,8 @@
 PV = 0.5.0+gitaec68ab217
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) kpartx libaio (>= 0.3.110) libsystemd (>= 218+git0+820aced6f6) libudev (>= 218+git0+820aced6f6) lvm2 (>= 2.02.97) readline (>= 6.3)
+RDEPENDS = glibc (>= 2.21) kpartx libaio (>= 0.3.110) libsystemd (>= 219+git0+a88abde721) libudev (>= 219+git0+a88abde721) lvm2 (>= 2.02.97) readline (>= 6.3)
 RRECOMMENDS = 
 PKGSIZE = 454908
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/multipath-tools/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/multipath-tools /usr/lib/multipath-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/multipath /lib/systemd
