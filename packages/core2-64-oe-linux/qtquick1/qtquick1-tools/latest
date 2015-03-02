@@ -1,10 +1,9 @@
-PV = 5.4.0+gitAUTOINC+1f92491bd9
+PV = 5.4.1
 PR = r0
-PKGV = 5.4.0+git0+1f92491bd9
-PKGR = r0.18
+PKGR = r0.0
 PKG = libqt5declarative-tools
 RPROVIDES = qtquick1-tools
-RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.2) qtbase (>= 5.4.0+git1+02c5657a7d) qtquick1 (>= 5.4.0+git0+1f92491bd9)
+RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.2) qtbase (>= 5.4.1) qtquick1 (>= 5.4.1)
 RRECOMMENDS = 
 PKGSIZE = 397824
 FILES = /usr/bin/qt5/*

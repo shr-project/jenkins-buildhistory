@@ -1,8 +1,8 @@
 PV = 2.25.2
 PR = r1
-PKGR = r1.6
+PKGR = r1.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) util-linux-libblkid (>= 2.25.2) util-linux-libs (>= 2.25.2)
+RDEPENDS = glibc (>= 2.21) util-linux (>= 2.25.2) util-linux-libblkid (>= 2.25.2)
 RRECOMMENDS = 
 PKGSIZE = 66424
 FILES = /usr/sbin/partx
