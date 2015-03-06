@@ -6,9 +6,9 @@ if [ -n "$D" ]; then
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS enable minidlna-daemon.service
+	systemctl $OPTS enable minidlna.service
 
 	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl restart minidlna-daemon.service
+		systemctl restart minidlna.service
 	fi
 fi
