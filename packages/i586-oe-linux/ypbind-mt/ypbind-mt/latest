@@ -1,11 +1,11 @@
-PV = 2.2
+PV = 1.38
 PR = r0
 PKGR = r0.0
 RPROVIDES = ypbind-mt-systemd
-RDEPENDS = glibc (>= 2.21) libsystemd (>= 219+git0+a88abde721) libtirpc (>= 0.2.5) yp-tools (>= 3.3)
+RDEPENDS = glibc (>= 2.21) libsystemd (>= 219+git0+a88abde721)
 RRECOMMENDS = update-rc.d
 RREPLACES = ypbind-mt-systemd
 RCONFLICTS = ypbind-mt-systemd
-PKGSIZE = 43866
+PKGSIZE = 41490
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/ypbind-mt/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ypbind-mt /usr/lib/ypbind-mt/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/ypbind.service
 FILELIST = /lib/systemd/system/ypbind.service /usr/sbin/ypbind
