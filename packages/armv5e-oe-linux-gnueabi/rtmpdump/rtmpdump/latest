@@ -1,9 +1,9 @@
 PV = 2.4
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.1k) libssl (>= 1.0.1k) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2) libssl (>= 1.0.2) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 164912
+PKGSIZE = 164932
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/rtmpdump/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/rtmpdump /usr/lib/rtmpdump/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/rtmpdump /usr/lib/librtmp.so.0 /usr/sbin/rtmpgw /usr/sbin/rtmpsrv /usr/sbin/rtmpsuck

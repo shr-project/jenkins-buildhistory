@@ -1,10 +1,10 @@
 PV = 9.2.4
 PR = r0.0
-PKGR = r0.0.4
+PKGR = r0.0.5
 PKG = libpq5
 RPROVIDES = libpq
-RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.1k) libssl (>= 1.0.1k)
+RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2) libssl (>= 1.0.2)
 RRECOMMENDS = 
-PKGSIZE = 137984
+PKGSIZE = 137988
 FILES = /usr/lib/libpq*.so.*
 FILELIST = /usr/lib/libpq.so.5 /usr/lib/libpq.so.5.5
