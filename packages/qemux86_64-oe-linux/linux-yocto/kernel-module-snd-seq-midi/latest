@@ -1,0 +1,10 @@
+PV = 3.19+gitAUTOINC+f7a81274b4_43b9eced9b
+PR = r0
+PKGV = 3.19+git1+f7a81274b4_43b9eced9b
+PKGR = r0.5
+RPROVIDES = 
+RDEPENDS = kernel-3.19.0-yocto-standard kernel-module-snd-rawmidi
+RRECOMMENDS = 
+PKGSIZE = 13336
+FILES = /lib/modules/3.19.0-yocto-standard/kernel/sound/core/seq/snd-seq-midi.ko /etc/modules-load.d/snd-seq-midi.conf /etc/modprobe.d/snd-seq-midi.conf
+FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/sound/core/seq/snd-seq-midi.ko

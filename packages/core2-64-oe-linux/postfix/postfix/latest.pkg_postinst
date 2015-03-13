@@ -10,6 +10,11 @@
         newaliases -C $D/etc/postfix/main.cf -oA$D/etc/aliases
         touch $D/etc/postfix/virtual_alias
         postmap -c $D/etc/postfix $D/etc/postfix/virtual_alias
+
+        if false; then
+            # /usr/lib/sendmial is required by LSB core test
+            [ ! -L $D/usr/lib/sendmail ] && ln -sf /usr/sbin/sendmail $D/usr/lib/
+        fi
     fi
 OPTS=""
 

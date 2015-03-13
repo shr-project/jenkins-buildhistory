@@ -1,9 +1,9 @@
-PV = 1.0.1k
+PV = 1.0.2
 PR = r0
-PKGR = r0.3
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.1k) libssl (>= 1.0.1k)
+RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2) libssl (>= 1.0.2)
 RRECOMMENDS = 
-PKGSIZE = 524704
+PKGSIZE = 554144
 FILES = /usr/lib/ssl/* /usr/bin/* /usr/sbin/* /usr/lib/openssl/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/openssl /usr/lib/openssl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/openssl
