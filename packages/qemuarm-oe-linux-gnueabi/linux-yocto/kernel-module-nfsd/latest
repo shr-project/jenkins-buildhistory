@@ -1,10 +1,10 @@
-PV = 3.19+gitAUTOINC+f7a81274b4_91b64df8cd
+PV = 3.19.1+gitAUTOINC+e3303ca4bd_a40304a6df
 PR = r0
-PKGV = 3.19+git0+f7a81274b4_91b64df8cd
+PKGV = 3.19.1+git0+e3303ca4bd_a40304a6df
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.19.0-yocto-standard
+RDEPENDS = kernel-3.19.1-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 358944
-FILES = /lib/modules/3.19.0-yocto-standard/kernel/fs/nfsd/nfsd.ko /etc/modules-load.d/nfsd.conf /etc/modprobe.d/nfsd.conf
-FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/fs/nfsd/nfsd.ko
+FILES = /lib/modules/3.19.1-yocto-standard/kernel/fs/nfsd/nfsd.ko /etc/modules-load.d/nfsd.conf /etc/modprobe.d/nfsd.conf
+FILELIST = /lib/modules/3.19.1-yocto-standard/kernel/fs/nfsd/nfsd.ko

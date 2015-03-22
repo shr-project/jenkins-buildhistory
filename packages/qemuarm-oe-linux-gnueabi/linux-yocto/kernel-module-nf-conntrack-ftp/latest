@@ -1,10 +1,10 @@
-PV = 3.19+gitAUTOINC+f7a81274b4_91b64df8cd
+PV = 3.19.1+gitAUTOINC+e3303ca4bd_a40304a6df
 PR = r0
-PKGV = 3.19+git0+f7a81274b4_91b64df8cd
+PKGV = 3.19.1+git0+e3303ca4bd_a40304a6df
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.19.0-yocto-standard kernel-module-nf-conntrack
+RDEPENDS = kernel-3.19.1-yocto-standard kernel-module-nf-conntrack
 RRECOMMENDS = 
 PKGSIZE = 11864
-FILES = /lib/modules/3.19.0-yocto-standard/kernel/net/netfilter/nf_conntrack_ftp.ko /etc/modules-load.d/nf_conntrack_ftp.conf /etc/modprobe.d/nf_conntrack_ftp.conf
-FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/net/netfilter/nf_conntrack_ftp.ko
+FILES = /lib/modules/3.19.1-yocto-standard/kernel/net/netfilter/nf_conntrack_ftp.ko /etc/modules-load.d/nf_conntrack_ftp.conf /etc/modprobe.d/nf_conntrack_ftp.conf
+FILELIST = /lib/modules/3.19.1-yocto-standard/kernel/net/netfilter/nf_conntrack_ftp.ko
