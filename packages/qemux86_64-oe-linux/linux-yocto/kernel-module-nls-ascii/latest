@@ -1,10 +1,10 @@
-PV = 3.19+gitAUTOINC+f7a81274b4_43b9eced9b
+PV = 3.19.1+gitAUTOINC+e3303ca4bd_8c38c1015b
 PR = r0
-PKGV = 3.19+git0+f7a81274b4_43b9eced9b
+PKGV = 3.19.1+git0+e3303ca4bd_8c38c1015b
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.19.0-yocto-standard
+RDEPENDS = kernel-3.19.1-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 7816
-FILES = /lib/modules/3.19.0-yocto-standard/kernel/fs/nls/nls_ascii.ko /etc/modules-load.d/nls_ascii.conf /etc/modprobe.d/nls_ascii.conf
-FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/fs/nls/nls_ascii.ko
+FILES = /lib/modules/3.19.1-yocto-standard/kernel/fs/nls/nls_ascii.ko /etc/modules-load.d/nls_ascii.conf /etc/modprobe.d/nls_ascii.conf
+FILELIST = /lib/modules/3.19.1-yocto-standard/kernel/fs/nls/nls_ascii.ko
