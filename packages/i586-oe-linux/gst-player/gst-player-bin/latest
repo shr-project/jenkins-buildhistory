@@ -1,10 +1,10 @@
 PV = git
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 PKG = libgstplayer-0.0-bin
 RPROVIDES = gst-player-bin
 RDEPENDS = glib-2.0 (>= 2.42.1) glibc (>= 2.21) gst-player (>= git) gstreamer1.0 (>= 1.4.5) gstreamer1.0-plugins-base-playback gtk+ (>= 2.24.25)
-RRECOMMENDS = gstreamer1.0-plugins-bad-meta gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta gstreamer1.0-plugins-ugly-meta
-PKGSIZE = 31367
+RRECOMMENDS = gstreamer1.0-libav gstreamer1.0-plugins-bad-meta gstreamer1.0-plugins-base-meta gstreamer1.0-plugins-good-meta gstreamer1.0-plugins-ugly-meta
+PKGSIZE = 31363
 FILES = /usr/bin/* /usr/sbin/* /usr/share/applications/*.desktop
 FILELIST = /usr/bin/gst-play /usr/bin/gtk-play /usr/share/applications/gst-player.desktop
