@@ -1,10 +1,10 @@
 PE = 2
 PV = 1.13.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 PKG = libeet1
 RPROVIDES = libeet
-RDEPENDS = eina (>= 1.13.0) glibc (>= 2.21) libcrypto (>= 1.0.2) libjpeg-turbo (>= 8d+1.4.0) libssl (>= 1.0.2) zlib (>= 1.2.8)
+RDEPENDS = eina (>= 1.13.0) glibc (>= 2.21) libcrypto (>= 1.0.2a) libjpeg-turbo (>= 8d+1.4.0) libssl (>= 1.0.2a) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 150964
 FILES = /usr/lib/libeet.so.*
