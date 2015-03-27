@@ -1,8 +1,8 @@
 PV = 3.5.4.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = eventlog (>= 0.2.13) glib-2.0 (>= 2.42.1) glibc (>= 2.21) libcrypto (>= 1.0.2) libssl (>= 1.0.2) util-linux-libuuid (>= 2.25.2)
+RDEPENDS = eventlog (>= 0.2.13) glib-2.0 (>= 2.42.1) glibc (>= 2.21) libcrypto (>= 1.0.2a) libssl (>= 1.0.2a) util-linux-libuuid (>= 2.25.2)
 RRECOMMENDS = 
 PKGSIZE = 1238206
 FILES = /usr/lib/syslog-ng/*.so /usr/lib/libsyslog-ng-*.so*

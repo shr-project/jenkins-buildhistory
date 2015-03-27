@@ -1,2 +1,1 @@
     printf "$(grep -v "^/bin/dash$" $D/etc/shells)\n" > $D/etc/shells
-	update-alternatives --remove  sh /bin/dash
