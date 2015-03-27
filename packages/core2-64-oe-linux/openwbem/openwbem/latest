@@ -1,8 +1,8 @@
 PV = 3.2.3
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.21) libcrypto (>= 1.0.2) libgcc (>= 4.9.2) libpam (>= 1.1.6) libssl (>= 1.0.2) libstdc++ (>= 4.9.2) zlib (>= 1.2.8)
+RDEPENDS = bash glibc (>= 2.21) libcrypto (>= 1.0.2a) libgcc (>= 4.9.2) libpam (>= 1.1.6) libssl (>= 1.0.2a) libstdc++ (>= 4.9.2) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 9181100
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/openwbem/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/openwbem /usr/lib/openwbem/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib /usr/share/mof /lib/systemd /lib/systemd/system/owcimomd.service

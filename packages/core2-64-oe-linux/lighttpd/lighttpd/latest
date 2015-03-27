@@ -1,8 +1,8 @@
 PV = 1.4.35
 PR = r1
-PKGR = r1.1
+PKGR = r1.2
 RPROVIDES = lighttpd-systemd
-RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2) libpcre (>= 8.36) libssl (>= 1.0.2) lighttpd-module-access lighttpd-module-accesslog lighttpd-module-dirlisting lighttpd-module-indexfile lighttpd-module-staticfile
+RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2a) libpcre (>= 8.36) libssl (>= 1.0.2a) lighttpd-module-access lighttpd-module-accesslog lighttpd-module-dirlisting lighttpd-module-indexfile lighttpd-module-staticfile
 RRECOMMENDS = update-rc.d
 RREPLACES = lighttpd-systemd
 RCONFLICTS = lighttpd-systemd
