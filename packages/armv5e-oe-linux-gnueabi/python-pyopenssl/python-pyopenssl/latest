@@ -1,9 +1,10 @@
-PV = 0.14
+PE = 1
+PV = 0.13
 PR = r0
-PKGR = r0.2
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = python-threading
+RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2a) libpython2 (>= 2.7.9) libssl (>= 1.0.2a) python-threading
 RRECOMMENDS = 
-PKGSIZE = 253259
+PKGSIZE = 134624
 FILES = /usr/bin/* /usr/lib/* /usr/lib/python2.7/*
-FILELIST = /usr/lib/python2.7/site-packages/OpenSSL/SSL.py /usr/lib/python2.7/site-packages/OpenSSL/SSL.pyc /usr/lib/python2.7/site-packages/OpenSSL/__init__.py /usr/lib/python2.7/site-packages/OpenSSL/__init__.pyc /usr/lib/python2.7/site-packages/OpenSSL/_util.py /usr/lib/python2.7/site-packages/OpenSSL/_util.pyc /usr/lib/python2.7/site-packages/OpenSSL/crypto.py /usr/lib/python2.7/site-packages/OpenSSL/crypto.pyc /usr/lib/python2.7/site-packages/OpenSSL/rand.py /usr/lib/python2.7/site-packages/OpenSSL/rand.pyc /usr/lib/python2.7/site-packages/OpenSSL/tsafe.py /usr/lib/python2.7/site-packages/OpenSSL/tsafe.pyc /usr/lib/python2.7/site-packages/OpenSSL/version.py /usr/lib/python2.7/site-packages/OpenSSL/version.pyc /usr/lib/python2.7/site-packages/pyOpenSSL-0.14-py2.7.egg-info/PKG-INFO /usr/lib/python2.7/site-packages/pyOpenSSL-0.14-py2.7.egg-info/SOURCES.txt /usr/lib/python2.7/site-packages/pyOpenSSL-0.14-py2.7.egg-info/dependency_links.txt /usr/lib/python2.7/site-packages/pyOpenSSL-0.14-py2.7.egg-info/requires.txt /usr/lib/python2.7/site-packages/pyOpenSSL-0.14-py2.7.egg-info/top_level.txt
+FILELIST = /usr/lib/python2.7/site-packages/OpenSSL/SSL.so /usr/lib/python2.7/site-packages/OpenSSL/__init__.py /usr/lib/python2.7/site-packages/OpenSSL/__init__.pyc /usr/lib/python2.7/site-packages/OpenSSL/crypto.so /usr/lib/python2.7/site-packages/OpenSSL/rand.so /usr/lib/python2.7/site-packages/OpenSSL/tsafe.py /usr/lib/python2.7/site-packages/OpenSSL/tsafe.pyc /usr/lib/python2.7/site-packages/OpenSSL/version.py /usr/lib/python2.7/site-packages/OpenSSL/version.pyc /usr/lib/python2.7/site-packages/pyOpenSSL-0.13-py2.7.egg-info
