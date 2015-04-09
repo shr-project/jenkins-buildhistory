@@ -6,9 +6,9 @@ if [ -n "$D" ]; then
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS disable winbind.service
+	systemctl $OPTS enable winbind.service
 
-	if [ -z "$D" -a "disable" = "enable" ]; then
+	if [ -z "$D" -a "enable" = "enable" ]; then
 		systemctl restart winbind.service
 	fi
 fi

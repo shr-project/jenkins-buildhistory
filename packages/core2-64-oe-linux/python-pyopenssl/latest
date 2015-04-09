@@ -1,4 +1,5 @@
-PV = 0.14
+PE = 1
+PV = 0.13
 PR = r0
-DEPENDS = openssl python python-distribute-native python-native python-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = openssl python python-native python-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = python-pyopenssl-tests python-pyopenssl-staticdev python-pyopenssl-dev python-pyopenssl-dbg python-pyopenssl-doc python-pyopenssl

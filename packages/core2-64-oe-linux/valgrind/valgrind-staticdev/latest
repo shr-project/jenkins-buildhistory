@@ -1,9 +1,9 @@
 PV = 3.10.1
-PR = r0
-PKGR = r0.2
+PR = r1
+PKGR = r1.0
 RPROVIDES = 
-RDEPENDS = valgrind-dev (= 3.10.1-r0.2)
+RDEPENDS = valgrind-dev (= 3.10.1-r1.0)
 RRECOMMENDS = 
-PKGSIZE = 41944176
+PKGSIZE = 41944380
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/valgrind/*.a
 FILELIST = /usr/lib/valgrind/libcoregrind-amd64-linux.a /usr/lib/valgrind/libreplacemalloc_toolpreload-amd64-linux.a /usr/lib/valgrind/libvex-amd64-linux.a
