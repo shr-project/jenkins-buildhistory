@@ -1,8 +1,8 @@
 PV = 0.9
 PR = r2
-PKGR = r2.3
+PKGR = r2.4
 RPROVIDES = 
-RDEPENDS = bluez4 (>= 4.101) dbus-glib (>= 0.102) glib-2.0 (>= 2.42.1) glibc (>= 2.21) libgudev (>= 219+git0+a88abde721)
+RDEPENDS = bluez4 (>= 4.101) dbus-glib (>= 0.102) glib-2.0 (>= 2.44.0) glibc (>= 2.21) libgudev (>= 219+git0+a88abde721)
 RRECOMMENDS = 
 PKGSIZE = 55217
 FILES = /etc/gypsy.conf /etc/dbus-1 /usr/lib/gypsy/gypsy-daemon /usr/share/dbus-1
