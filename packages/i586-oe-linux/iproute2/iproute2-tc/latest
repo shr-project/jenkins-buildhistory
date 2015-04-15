@@ -1,9 +1,9 @@
 PV = 3.17.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) iptables (>= 1.4.21)
+RDEPENDS = glibc (>= 2.21) iptables (>= 1.4.21) linux-atm (>= 2.5.2)
 RRECOMMENDS = 
-PKGSIZE = 339967
+PKGSIZE = 348899
 FILES = /sbin/tc* /usr/lib/tc/*.so
-FILELIST = /sbin/tc /usr/lib/tc/m_ipt.so /usr/lib/tc/m_xt.so
+FILELIST = /sbin/tc /usr/lib/tc/m_ipt.so /usr/lib/tc/m_xt.so /usr/lib/tc/q_atm.so
