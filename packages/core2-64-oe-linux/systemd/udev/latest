@@ -2,9 +2,9 @@ PE = 1
 PV = 219+gitAUTOINC+a88abde721
 PR = r0
 PKGV = 219+git0+a88abde721
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = hotplug udev-systemd
-RDEPENDS = glibc (>= 2.21) libacl (>= 2.2.52) libattr (>= 2.4.47) libkmod (>= 19+git0+fd56638aed) util-linux-libblkid (>= 2.26.1)
+RDEPENDS = glibc (>= 2.21) libacl (>= 2.2.52) libattr (>= 2.4.47) libkmod (>= 20+git0+d9c7175859) util-linux-libblkid (>= 2.26.1)
 RRECOMMENDS = 
 RREPLACES = udev-systemd
 RCONFLICTS = udev-systemd
