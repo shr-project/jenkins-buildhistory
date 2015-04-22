@@ -1,12 +1,12 @@
 #!/bin/sh
 	update-alternatives --install /usr/bin/acpi acpi /bin/toybox 60
+	update-alternatives --install /usr/bin/base64 base64 /bin/toybox 60
 	update-alternatives --install /usr/bin/basename basename /bin/toybox 60
 	update-alternatives --install /bin/blkid blkid /bin/toybox 60
 	update-alternatives --install /usr/bin/blockdev blockdev /bin/toybox 60
 	update-alternatives --install /usr/bin/bzcat bzcat /bin/toybox 60
 	update-alternatives --install /usr/bin/cal cal /bin/toybox 60
 	update-alternatives --install /bin/cat cat /bin/toybox 60
-	update-alternatives --install /usr/bin/catv catv /bin/toybox 60
 	update-alternatives --install /bin/chattr chattr /bin/toybox 60
 	update-alternatives --install /bin/chgrp chgrp /bin/toybox 60
 	update-alternatives --install /bin/chmod chmod /bin/toybox 60
@@ -66,6 +66,7 @@
 	update-alternatives --install /usr/bin/lsusb lsusb /bin/toybox 60
 	update-alternatives --install /usr/bin/makedevs makedevs /bin/toybox 60
 	update-alternatives --install /usr/bin/md5sum md5sum /bin/toybox 60
+	update-alternatives --install /usr/bin/mix mix /bin/toybox 60
 	update-alternatives --install /bin/mkdir mkdir /bin/toybox 60
 	update-alternatives --install /usr/bin/mkfifo mkfifo /bin/toybox 60
 	update-alternatives --install /bin/mknod mknod /bin/toybox 60
@@ -93,6 +94,7 @@
 	update-alternatives --install /bin/pmap pmap /bin/toybox 60
 	update-alternatives --install /sbin/poweroff poweroff /bin/toybox 60
 	update-alternatives --install /usr/bin/printenv printenv /bin/toybox 60
+	update-alternatives --install /usr/bin/printf printf /bin/toybox 60
 	update-alternatives --install /bin/pwd pwd /bin/toybox 60
 	update-alternatives --install /usr/bin/pwdx pwdx /bin/toybox 60
 	update-alternatives --install /bin/readahead readahead /bin/toybox 60
@@ -105,6 +107,7 @@
 	update-alternatives --install /bin/rm rm /bin/toybox 60
 	update-alternatives --install /bin/rmdir rmdir /bin/toybox 60
 	update-alternatives --install /sbin/rmmod rmmod /bin/toybox 60
+	update-alternatives --install /usr/bin/sed sed /bin/toybox 60
 	update-alternatives --install /usr/bin/seq seq /bin/toybox 60
 	update-alternatives --install /usr/bin/setsid setsid /bin/toybox 60
 	update-alternatives --install /usr/bin/sha1sum sha1sum /bin/toybox 60

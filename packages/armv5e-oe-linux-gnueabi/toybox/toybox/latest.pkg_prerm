@@ -1,12 +1,12 @@
 #!/bin/sh
 	update-alternatives --remove  acpi /bin/toybox
+	update-alternatives --remove  base64 /bin/toybox
 	update-alternatives --remove  basename /bin/toybox
 	update-alternatives --remove  blkid /bin/toybox
 	update-alternatives --remove  blockdev /bin/toybox
 	update-alternatives --remove  bzcat /bin/toybox
 	update-alternatives --remove  cal /bin/toybox
 	update-alternatives --remove  cat /bin/toybox
-	update-alternatives --remove  catv /bin/toybox
 	update-alternatives --remove  chattr /bin/toybox
 	update-alternatives --remove  chgrp /bin/toybox
 	update-alternatives --remove  chmod /bin/toybox
@@ -66,6 +66,7 @@
 	update-alternatives --remove  lsusb /bin/toybox
 	update-alternatives --remove  makedevs /bin/toybox
 	update-alternatives --remove  md5sum /bin/toybox
+	update-alternatives --remove  mix /bin/toybox
 	update-alternatives --remove  mkdir /bin/toybox
 	update-alternatives --remove  mkfifo /bin/toybox
 	update-alternatives --remove  mknod /bin/toybox
@@ -93,6 +94,7 @@
 	update-alternatives --remove  pmap /bin/toybox
 	update-alternatives --remove  poweroff /bin/toybox
 	update-alternatives --remove  printenv /bin/toybox
+	update-alternatives --remove  printf /bin/toybox
 	update-alternatives --remove  pwd /bin/toybox
 	update-alternatives --remove  pwdx /bin/toybox
 	update-alternatives --remove  readahead /bin/toybox
@@ -105,6 +107,7 @@
 	update-alternatives --remove  rm /bin/toybox
 	update-alternatives --remove  rmdir /bin/toybox
 	update-alternatives --remove  rmmod /bin/toybox
+	update-alternatives --remove  sed /bin/toybox
 	update-alternatives --remove  seq /bin/toybox
 	update-alternatives --remove  setsid /bin/toybox
 	update-alternatives --remove  sha1sum /bin/toybox
