@@ -1,9 +1,9 @@
 PV = 4.8.6
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libgl-mesa (>= 10.4.4) libqtcore4 (>= 4.8.6) libqtdeclarative4 (>= 4.8.6) libqtgui4 (>= 4.8.6) libqtnetwork4 (>= 4.8.6) libqtopengl4 (>= 4.8.6) libqtwebkit4 (>= 4.8.6) libstdc++ (>= 4.9.2)
+RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libgles2-mesa (>= 10.4.4) libqtcore4 (>= 4.8.6) libqtdeclarative4 (>= 4.8.6) libqtgui4 (>= 4.8.6) libqtnetwork4 (>= 4.8.6) libqtopengl4 (>= 4.8.6) libqtwebkit4 (>= 4.8.6) libstdc++ (>= 4.9.2)
 RRECOMMENDS = 
-PKGSIZE = 487143
+PKGSIZE = 483815
 FILES = /usr/lib/qt4/imports/* /usr/lib/qt4/plugins/qmltooling/*
 FILELIST = /usr/lib/qt4/imports/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.so /usr/lib/qt4/imports/Qt/labs/folderlistmodel/qmldir /usr/lib/qt4/imports/Qt/labs/gestures/libqmlgesturesplugin.so /usr/lib/qt4/imports/Qt/labs/gestures/qmldir /usr/lib/qt4/imports/Qt/labs/particles/libqmlparticlesplugin.so /usr/lib/qt4/imports/Qt/labs/particles/qmldir /usr/lib/qt4/imports/Qt/labs/shaders/libqmlshadersplugin.so /usr/lib/qt4/imports/Qt/labs/shaders/qmldir /usr/lib/qt4/imports/QtWebKit/libqmlwebkitplugin.so /usr/lib/qt4/imports/QtWebKit/qmldir /usr/lib/qt4/plugins/qmltooling/libqmldbg_inspector.so /usr/lib/qt4/plugins/qmltooling/libqmldbg_tcp.so
