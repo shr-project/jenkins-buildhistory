@@ -1,9 +1,9 @@
 PV = 5.1.0
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libqtserialporte1
 RPROVIDES = qtserialport-e
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libqt-embeddedcore4 (>= 4.8.6) libstdc++ (>= 4.9.2) libudev (>= 219+git0+a88abde721)
+RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libqt-embeddedcore4 (>= 4.8.6) libstdc++ (>= 4.9.2) libudev (>= 219-stable+git0+85a6fabdd3)
 RRECOMMENDS = 
 PKGSIZE = 81478
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/qtserialport-e/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtserialport-e /usr/lib/qtserialport-e/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
