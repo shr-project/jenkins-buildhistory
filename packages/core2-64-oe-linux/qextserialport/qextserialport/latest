@@ -1,9 +1,9 @@
 PV = 1.1+1.2rc
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libqextserialport1
 RPROVIDES = qextserialport
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libqtcore4 (>= 4.8.6) libstdc++ (>= 4.9.2) libudev (>= 219+git0+a88abde721)
+RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libqtcore4 (>= 4.8.6) libstdc++ (>= 4.9.2) libudev (>= 219-stable+git0+85a6fabdd3)
 RRECOMMENDS = 
 PKGSIZE = 63420
 FILES = /usr/lib/libqextserialport.so.*
