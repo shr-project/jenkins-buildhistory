@@ -12,3 +12,4 @@ if type systemctl >/dev/null 2>/dev/null; then
 
 	systemctl $OPTS disable postfix.service
 fi
+	update-alternatives --remove  sendmail /usr/sbin/sendmail.postfix

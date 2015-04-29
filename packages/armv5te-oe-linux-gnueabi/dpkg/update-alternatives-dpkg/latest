@@ -1,9 +1,9 @@
 PV = 1.17.21
 PR = r0
-PKGR = r0.8
+PKGR = r0.0
 RPROVIDES = update-alternatives
-RDEPENDS = glibc (>= 2.20)
+RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
-PKGSIZE = 35076
-FILES = /usr/sbin/update-alternatives /var/lib/dpkg/alternatives /etc/alternatives
-FILELIST = /etc/alternatives/README /usr/sbin/update-alternatives
+PKGSIZE = 30980
+FILES = /usr/bin/update-alternatives /var/lib/dpkg/alternatives /etc/alternatives
+FILELIST = /etc/alternatives/README /usr/bin/update-alternatives

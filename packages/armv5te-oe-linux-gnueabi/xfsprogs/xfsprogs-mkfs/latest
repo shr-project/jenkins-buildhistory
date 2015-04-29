@@ -1,9 +1,9 @@
 PV = 3.1.11
 PR = r0
-PKGR = r0.42
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) util-linux-libblkid (>= 2.25.2) util-linux-libuuid (>= 2.25.2)
+RDEPENDS = glibc (>= 2.21) util-linux-libblkid (>= 2.26.1) util-linux-libuuid (>= 2.26.1)
 RRECOMMENDS = 
-PKGSIZE = 244380
+PKGSIZE = 191204
 FILES = /sbin/mkfs.xfs
 FILELIST = /sbin/mkfs.xfs

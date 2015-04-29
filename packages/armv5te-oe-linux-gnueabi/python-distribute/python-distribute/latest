@@ -1,8 +1,8 @@
 PV = 0.6.32
 PR = ml5
-PKGR = ml5.43
+PKGR = ml5.0
 RPROVIDES = python-setuptools
-RDEPENDS = python-compression python-distutils
+RDEPENDS = python-compression python-distutils python-email python-netclient python-shell
 RRECOMMENDS = 
 PKGSIZE = 1759065
 FILES = /usr/bin/* /usr/lib/* /usr/lib/python2.7/*

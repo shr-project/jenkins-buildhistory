@@ -1,9 +1,9 @@
-PV = 7.19.5
+PV = 7.19.5.1
 PR = r0
-PKGR = r0.16
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = curl glibc (>= 2.20) libcurl (>= 7.40.0) libpython2 (>= 2.7.3) python-core
+RDEPENDS = curl glibc (>= 2.21) libcurl (>= 7.42.0) libpython2 (>= 2.7.9) python-core
 RRECOMMENDS = 
-PKGSIZE = 108968
+PKGSIZE = 95766
 FILES = /usr/bin/* /usr/lib/* /usr/lib/python2.7/*
-FILELIST = /usr/lib/python2.7/site-packages/curl/__init__.py /usr/lib/python2.7/site-packages/curl/__init__.pyc /usr/lib/python2.7/site-packages/pycurl-7.19.5-py2.7.egg-info /usr/lib/python2.7/site-packages/pycurl.so
+FILELIST = /usr/lib/python2.7/site-packages/curl/__init__.py /usr/lib/python2.7/site-packages/curl/__init__.pyc /usr/lib/python2.7/site-packages/pycurl-7.19.5.1-py2.7.egg-info /usr/lib/python2.7/site-packages/pycurl.so
