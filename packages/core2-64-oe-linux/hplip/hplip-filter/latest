@@ -1,8 +1,8 @@
 PV = 3.12.6
-PR = r1
-PKGR = r1.7
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = cups-lib (>= 2.0.2) cups-libimage (>= 2.0.2) glibc (>= 2.21) libgcc (>= 4.9.2) libjpeg-turbo (>= 8d+1.4.0) libstdc++ (>= 4.9.2)
+RDEPENDS = cups-lib (>= 2.0.2) cups-libimage (>= 2.0.2) glibc (>= 2.21) libgcc (>= 4.9.2) libjpeg-turbo (>= 8d+1.4.0) libstdc++ (>= 4.9.2) perl
 RRECOMMENDS = 
 PKGSIZE = 624575
 FILES = /usr/lib/cups/filter

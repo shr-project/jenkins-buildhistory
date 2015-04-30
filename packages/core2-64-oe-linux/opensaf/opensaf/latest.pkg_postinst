@@ -1,4 +1,8 @@
-#!/bin/sh
+    if [ "x$D" != "x" ]; then
+        exit 1
+    fi
+
+    hostname -s > /etc/opensaf/node_name
 OPTS=""
 
 if [ -n "$D" ]; then
