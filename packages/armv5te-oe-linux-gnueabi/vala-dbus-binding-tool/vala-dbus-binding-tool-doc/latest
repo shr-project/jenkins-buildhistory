@@ -1,10 +1,11 @@
-PE = 2
-PV = 0.4.0
+PE = 1
+PV = 0.4.0+gitrAUTOINC+742c04c2bb
 PR = r0
-PKGR = r0.1
+PKGV = 0.4.0+gitr0+742c04c2bb
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 2887
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = 
+FILELIST = /usr/share/man/man1/vala-dbus-binding-tool.1

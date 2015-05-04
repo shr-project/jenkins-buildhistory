@@ -1,8 +1,8 @@
 PV = 5.4.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libasound (>= 1.0.29) libegl-mesa (>= 10.4.4) libgles2-mesa (>= 10.4.4) libpulse (>= 6.0) libstdc++ (>= 4.9.2) qtbase (>= 5.4.1) qtdeclarative (>= 5.4.1) qtmultimedia (>= 5.4.1)
+RDEPENDS = glibc (>= 2.21) libasound (>= 1.0.29) libegl-mesa (>= 10.5.4) libgles2-mesa (>= 10.5.4) libpulse (>= 6.0) libstdc++ (>= 4.9.2) qtbase (>= 5.4.1) qtdeclarative (>= 5.4.1) qtmultimedia (>= 5.4.1)
 RRECOMMENDS = 
 PKGSIZE = 265744
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
