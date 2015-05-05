@@ -1,11 +1,11 @@
 PE = 2
 PV = 1.13.2
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libeio1
 RPROVIDES = eio
 RDEPENDS = ecore (>= 1.13.2) efl (>= 1.13.2) eina (>= 1.13.2) eo (>= 1.13.2) glib-2.0 (>= 2.44.0) glibc (>= 2.21) libcrypto (>= 1.0.2a) libeet (>= 1.13.2) libjpeg-turbo (>= 8d+1.4.0) libssl (>= 1.0.2a) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 66124
+PKGSIZE = 65988
 FILES = /usr/lib/libeio.so.*
 FILELIST = /usr/lib/libeio.so.1 /usr/lib/libeio.so.1.13.2

@@ -1,10 +1,9 @@
-PV = 5.4.0+gitAUTOINC+44f70d99a2
+PV = 5.4.1
 PR = r0
-PKGV = 5.4.0+git0+44f70d99a2
-PKGR = r0.13
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = bluez4-dbg gconf-dbg glib-2.0-dbg glibc-dbg libgcc-dbg libstdc++-dbg libudev-dbg libx11-dbg qtbase-dbg qtdeclarative-dbg qtsystems-dbg
-PKGSIZE = 1203714
+RRECOMMENDS = gconf-dbg glib-2.0-dbg glibc-dbg libgcc-dbg libstdc++-dbg libudev-dbg libx11-dbg qtbase-dbg qtdeclarative-dbg qtsystems-dbg
+PKGSIZE = 1210088
 FILES = /usr/bin/qt5/.debug
 FILELIST = /usr/bin/qt5/.debug/servicefw /usr/bin/qt5/.debug/sfwlisten
