@@ -1,10 +1,9 @@
-PV = 0.102
-PR = r2
-PKGR = r2.37
-PKG = libpolkit-gtk-1-staticdev
-RPROVIDES = polkit-gnome-staticdev
-RDEPENDS = polkit-gnome-dev (= 0.102-r2.37)
+PV = 0.105
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = polkit-gnome-dev (= 0.105-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 100274
+PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/polkit-gnome/*.a
-FILELIST = /usr/lib/libpolkit-gtk-1.a
+FILELIST = 
