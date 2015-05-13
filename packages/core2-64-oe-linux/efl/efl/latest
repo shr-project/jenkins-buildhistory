@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.13.2
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.8.10) ecore (>= 1.13.2) eina (>= 1.13.2) eldbus (>= 1.13.2) eo (>= 1.13.2) glib-2.0 (>= 2.44.0) glibc (>= 2.21) luajit (>= 2.0.3)
+RDEPENDS = dbus-lib (>= 1.8.16) ecore (>= 1.13.2) eina (>= 1.13.2) eldbus (>= 1.13.2) eo (>= 1.13.2) glib-2.0 (>= 2.44.0) glibc (>= 2.21) luajit (>= 2.0.3)
 RRECOMMENDS = 
 PKGSIZE = 205858
 FILES = /usr/lib/*.so.* /usr/lib/edje/modules/efl/*/module.so /usr/lib/efl/plugins/*.so /usr/share/dbus-1/services/*
