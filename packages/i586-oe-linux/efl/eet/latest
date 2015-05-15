@@ -1,10 +1,10 @@
 PE = 2
-PV = 1.13.2
+PV = 1.14.0
 PR = r0
-PKGR = r0.12
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = eina (>= 1.13.2) glibc (>= 2.21) libeet (>= 1.13.2)
+RDEPENDS = ecore-evas (>= 1.14.0) eina (>= 1.14.0) evas (>= 1.14.0) glibc (>= 2.21) libeet (>= 1.14.0)
 RRECOMMENDS = 
-PKGSIZE = 15090
-FILES = /usr/bin/eet /usr/bin/vieet /usr/bin/diffeet /usr/lib/libeet.so.*
-FILELIST = /usr/bin/diffeet /usr/bin/eet /usr/bin/vieet
+PKGSIZE = 23914
+FILES = /usr/bin/eet /usr/bin/eetpack /usr/bin/vieet /usr/bin/diffeet /usr/lib/libeet.so.*
+FILELIST = /usr/bin/diffeet /usr/bin/eet /usr/bin/eetpack /usr/bin/vieet
