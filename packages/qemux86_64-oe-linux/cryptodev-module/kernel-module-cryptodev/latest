@@ -1,9 +1,9 @@
 PV = 1.7
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = kernel-3.19.5-yocto-standard
+RDEPENDS = kernel-3.19.5-yocto-tiny
 RRECOMMENDS = 
-PKGSIZE = 74824
-FILES = /lib/modules/3.19.5-yocto-standard/extra/cryptodev.ko /etc/modules-load.d/cryptodev.conf /etc/modprobe.d/cryptodev.conf
-FILELIST = /lib/modules/3.19.5-yocto-standard/extra/cryptodev.ko
+PKGSIZE = 34104
+FILES = /lib/modules/3.19.5-yocto-tiny/extra/cryptodev.ko /etc/modules-load.d/cryptodev.conf /etc/modprobe.d/cryptodev.conf
+FILELIST = /lib/modules/3.19.5-yocto-tiny/extra/cryptodev.ko
