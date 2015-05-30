@@ -1,9 +1,9 @@
 PV = 0.1
 PR = r3
-PKGR = r3.7
+PKGR = r3.8
 RPROVIDES = zram-systemd
 RDEPENDS = kmod util-linux-swaponoff
-RRECOMMENDS = kernel-module-zram update-rc.d
+RRECOMMENDS = kernel-module-zram
 RREPLACES = zram-systemd
 RCONFLICTS = zram-systemd
 PKGSIZE = 243
