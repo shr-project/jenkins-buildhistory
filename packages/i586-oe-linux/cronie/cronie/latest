@@ -1,9 +1,9 @@
 PV = 1.4.12
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = cronie-systemd
 RDEPENDS = base-files base-passwd glibc (>= 2.21) shadow
-RRECOMMENDS = update-rc.d
+RRECOMMENDS = 
 RREPLACES = cronie-systemd
 RCONFLICTS = cronie-systemd
 PKGSIZE = 94337

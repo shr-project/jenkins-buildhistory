@@ -1,9 +1,10 @@
-PV = 5.4.1
+PV = 5.4.1+gitAUTOINC+db784fb1c0
 PR = r0
-PKGR = r0.21
+PKGV = 5.4.1+git0+db784fb1c0
+PKGR = r0.0
 PKG = libqt5xmlpatterns-tools
 RPROVIDES = qtxmlpatterns-tools
-RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.2) qtbase (>= 5.4.1) qtxmlpatterns (>= 5.4.1)
+RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.2) qtbase (>= 5.4.1+git0+f58e882b75) qtxmlpatterns (>= 5.4.1+git0+db784fb1c0)
 RRECOMMENDS = 
 PKGSIZE = 71260
 FILES = /usr/bin/qt5/*
