@@ -1,9 +1,9 @@
 PV = 4.9.2
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 PKG = nativesdk-libgcc-s-dev
 RPROVIDES = nativesdk-libgcc-dev
-RDEPENDS = nativesdk-libgcc (= 4.9.2-r0.1)
+RDEPENDS = nativesdk-libgcc (= 4.9.2-r0.2)
 RRECOMMENDS = nativesdk-glibc-dev
 PKGSIZE = 7436769
 FILES = /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/lib/libgcc*.so /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/x86_64-oesdk-linux/4.9.2/*crt* /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/x86_64-oesdk-linux/4.9.2/64 /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/x86_64-oesdk-linux/4.9.2/32 /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/x86_64-oesdk-linux/4.9.2/x32 /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/x86_64-oesdk-linux/4.9.2/n32 /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/x86_64-oesdk-linux/4.9.2/libgcc* /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/x86_64-oesdk-linux/4.9.2/libgcov.a

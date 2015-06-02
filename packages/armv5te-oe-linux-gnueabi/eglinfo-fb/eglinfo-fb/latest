@@ -1,8 +1,8 @@
 PV = 1.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libegl-mesa (>= 10.5.4) libgcc (>= 4.9.2) libgles2-mesa (>= 10.5.4) libstdc++ (>= 4.9.2)
+RDEPENDS = glibc (>= 2.21) libegl-mesa (>= 10.5.6) libgcc (>= 4.9.2) libgles2-mesa (>= 10.5.6) libstdc++ (>= 4.9.2)
 RRECOMMENDS = 
 PKGSIZE = 45044
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/eglinfo-fb/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/eglinfo-fb /usr/lib/eglinfo-fb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
