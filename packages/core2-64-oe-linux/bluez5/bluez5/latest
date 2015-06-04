@@ -1,8 +1,8 @@
 PV = 5.30
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = bluez-hcidump
-RDEPENDS = dbus-lib (>= 1.8.16) glib-2.0 (>= 2.44.0) glibc (>= 2.21) libudev (>= 219-stable+git0+85a6fabdd3) readline (>= 6.3)
+RDEPENDS = dbus-lib (>= 1.8.16) glib-2.0 (>= 2.44.1) glibc (>= 2.21) libudev (>= 219-stable+git0+85a6fabdd3) readline (>= 6.3)
 RRECOMMENDS = 
 RCONFLICTS = bluez4
 PKGSIZE = 3105530
