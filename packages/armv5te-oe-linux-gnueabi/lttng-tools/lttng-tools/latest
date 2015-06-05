@@ -1,8 +1,8 @@
 PV = 2.6.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.21) liburcu (>= 0.8.7) libxml2 (>= 2.9.2) lttng-ust (>= 2.6.1) popt (>= 1.16) shadow util-linux-libuuid (>= 2.26.1) zlib (>= 1.2.8)
+RDEPENDS = base-files base-passwd glibc (>= 2.21) liburcu (>= 0.8.7) libxml2 (>= 2.9.2) lttng-ust (>= 2.6.1) popt (>= 1.16) shadow util-linux-libuuid (>= 2.26.2) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 1078390
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/lttng-tools/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lttng-tools /usr/lib/lttng-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lttng/libexec/* /usr/share/xml/lttng /usr/lib/python2.7/site-packages/*

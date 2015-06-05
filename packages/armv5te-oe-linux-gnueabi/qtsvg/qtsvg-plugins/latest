@@ -1,10 +1,10 @@
-PV = 5.4.1+gitAUTOINC+1fb79c9f2b
+PV = 5.4.2+gitAUTOINC+ccae23961e
 PR = r0
-PKGV = 5.4.1+git0+1fb79c9f2b
-PKGR = r0.1
+PKGV = 5.4.2+git0+ccae23961e
+PKGR = r0.0
 PKG = libqt5svg-plugins
 RPROVIDES = qtsvg-plugins
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libstdc++ (>= 4.9.2) qtbase (>= 5.4.1+git0+f58e882b75) qtsvg (>= 5.4.1+git0+1fb79c9f2b)
+RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libstdc++ (>= 4.9.2) qtbase (>= 5.4.2+git0+2cb17c1fb9) qtsvg (>= 5.4.2+git0+ccae23961e)
 RRECOMMENDS = 
 PKGSIZE = 43224
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so

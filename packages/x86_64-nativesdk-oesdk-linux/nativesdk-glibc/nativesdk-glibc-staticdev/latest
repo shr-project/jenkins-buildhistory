@@ -1,9 +1,9 @@
 PV = 2.21
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 PKG = nativesdk-libc6-staticdev
 RPROVIDES = nativesdk-eglibc-staticdev nativesdk-glibc-staticdev nativesdk-libc-staticdev
-RDEPENDS = nativesdk-glibc-dev (= 2.21-r0.4)
+RDEPENDS = nativesdk-glibc-dev (= 2.21-r0.5)
 RRECOMMENDS = 
 PKGSIZE = 8116424
 FILES = /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/*.a /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/lib/*.a /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/glibc/*.a /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/*.a /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/lib/*.a
