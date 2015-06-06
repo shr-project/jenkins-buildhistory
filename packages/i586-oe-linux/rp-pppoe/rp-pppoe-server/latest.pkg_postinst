@@ -1,9 +1,14 @@
 #!/bin/sh
-if type update-rc.d >/dev/null 2>/dev/null; then
-	if [ -n "$D" ]; then
-		OPT="-r $D"
-	else
-		OPT="-s"
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	systemctl $OPTS disable pppoe-server.service
+
+	if [ -z "$D" -a "disable" = "enable" ]; then
+		systemctl restart pppoe-server.service
 	fi
-	update-rc.d $OPT pppoe-server defaults 92 8
 fi

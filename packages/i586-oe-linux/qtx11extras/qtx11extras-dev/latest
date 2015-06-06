@@ -1,10 +1,10 @@
 PV = 5.4.2+gitAUTOINC+32b1ce9e1b
 PR = r0
 PKGV = 5.4.2+git0+32b1ce9e1b
-PKGR = r0.0
+PKGR = r0.1
 PKG = libqt5x11extras-dev
 RPROVIDES = qtx11extras-dev
-RDEPENDS = qtx11extras (= 5.4.2+git0+32b1ce9e1b-r0.0)
+RDEPENDS = qtx11extras (= 5.4.2+git0+32b1ce9e1b-r0.1)
 RRECOMMENDS = glibc-dev qtbase-dev
 PKGSIZE = 13673
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtx11extras/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*
