@@ -1,9 +1,10 @@
-PV = 5.4.1
+PV = 5.4.2+gitAUTOINC+37b614abbf
 PR = r0
-PKGR = r0.15
+PKGV = 5.4.2+git0+37b614abbf
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = gconf-dbg glib-2.0-dbg glibc-dbg libstdc++-dbg libudev-dbg libx11-dbg qtbase-dbg qtdeclarative-dbg qtsystems-dbg
-PKGSIZE = 3220544
+PKGSIZE = 3221512
 FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/imports/*/.debug /usr/lib/qt5/imports/*/*/.debug /usr/lib/qt5/imports/*/*/*/.debug
 FILELIST = /usr/lib/qt5/qml/QtPublishSubscribe/.debug/libdeclarative_publishsubscribe.so /usr/lib/qt5/qml/QtServiceFramework/.debug/libdeclarative_serviceframework.so /usr/lib/qt5/qml/QtSystemInfo/.debug/libdeclarative_systeminfo.so
