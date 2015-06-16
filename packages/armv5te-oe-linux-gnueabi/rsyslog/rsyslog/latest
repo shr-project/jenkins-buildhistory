@@ -1,8 +1,8 @@
 PV = 7.4.4
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = rsyslog-systemd
-RDEPENDS = glibc (>= 2.21) gmp (>= 6.0.0) gnutls (>= 3.3.14) json-c (>= 0.12) libcap (>= 2.24) libestr (>= 0.1.6) libgcrypt (>= 1.6.3) libgpg-error (>= 1.18) logrotate nettle (>= 2.7.1) update-alternatives-opkg util-linux-libuuid (>= 2.26.2) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.21) gmp (>= 6.0.0) gnutls (>= 3.3.14) json-c (>= 0.12) libcap (>= 2.24) libestr (>= 0.1.6) libgcrypt (>= 1.6.3) libgpg-error (>= 1.19) logrotate nettle (>= 2.7.1) update-alternatives-opkg util-linux-libuuid (>= 2.26.2) zlib (>= 1.2.8)
 RRECOMMENDS = 
 RREPLACES = rsyslog-systemd
 RCONFLICTS = rsyslog-systemd
