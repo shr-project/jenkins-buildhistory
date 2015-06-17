@@ -1,9 +1,9 @@
-PV = 1.3
+PV = 1.4.2
 PR = r0
-PKGR = r0.17
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
-PKGSIZE = 109289
+PKGSIZE = 131785
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/libevdev/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libevdev /usr/lib/libevdev/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/touchpad-edge-detector /usr/lib/libevdev.so.2 /usr/lib/libevdev.so.2.1.3
+FILELIST = /usr/bin/libevdev-tweak-device /usr/bin/mouse-dpi-tool /usr/bin/touchpad-edge-detector /usr/lib/libevdev.so.2 /usr/lib/libevdev.so.2.1.8
