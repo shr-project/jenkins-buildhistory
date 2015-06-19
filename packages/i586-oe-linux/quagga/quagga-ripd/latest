@@ -1,9 +1,9 @@
 PV = 0.99.23
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.21) quagga (>= 0.99.23)
 RRECOMMENDS = 
-PKGSIZE = 128344
+PKGSIZE = 128427
 FILES = /usr/sbin/ripd /lib/systemd/system/ripd.service
 FILELIST = /lib/systemd/system/ripd.service /usr/sbin/ripd
