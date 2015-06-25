@@ -1,10 +1,10 @@
 PE = 2
 PV = 1.7.9
 PR = r0
-PKGR = r0.26
+PKGR = r0.27
 PKG = libebluez1
 RPROVIDES = edbus-ebluez
-RDEPENDS = dbus-lib (>= 1.8.16) ecore (>= 1.14.1) edbus-edbus (>= 1.7.9) efl (>= 1.14.1) eina (>= 1.14.1) eo (>= 1.14.1) glib-2.0 (>= 2.44.1) glibc (>= 2.21)
+RDEPENDS = dbus-lib (>= 1.8.18) ecore (>= 1.14.1) edbus-edbus (>= 1.7.9) efl (>= 1.14.1) eina (>= 1.14.1) eo (>= 1.14.1) glib-2.0 (>= 2.44.1) glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 65526
 FILES = /usr/lib/libebluez.so.*
