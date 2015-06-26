@@ -1,9 +1,9 @@
 PV = 2.4.40
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libldap-2.4-staticdev
 RPROVIDES = openldap-staticdev
-RDEPENDS = openldap-dev (= 2.4.40-r0.3)
+RDEPENDS = openldap-dev (= 2.4.40-r0.4)
 RRECOMMENDS = 
 PKGSIZE = 5068890
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/openldap/*.a

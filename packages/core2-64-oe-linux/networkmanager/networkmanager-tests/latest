@@ -1,9 +1,9 @@
-PV = 0.9.8.10
+PV = 1.0.2
 PR = r0
-PKGR = r0.23
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.16) glib-2.0 (>= 2.44.1) glibc (>= 2.21) libnmglib (>= 0.9.8.10) libnmutil (>= 0.9.8.10)
+RDEPENDS = glib-2.0 (>= 2.44.1) glibc (>= 2.21) networkmanager (>= 1.0.2)
 RRECOMMENDS = 
-PKGSIZE = 45840
-FILES = /usr/bin/nm-tool /usr/bin/libnm-glib-test /usr/bin/nm-online
-FILELIST = /usr/bin/libnm-glib-test /usr/bin/nm-online /usr/bin/nm-tool
+PKGSIZE = 11272
+FILES = /usr/bin/nm-online
+FILELIST = /usr/bin/nm-online

@@ -1,10 +1,10 @@
 PE = 2
 PV = 1.14.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 PKG = libefreet1
 RPROVIDES = libefreet
-RDEPENDS = dbus-lib (>= 1.8.16) ecore (>= 1.14.1) ecore-con (>= 1.14.1) ecore-file (>= 1.14.1) efl (>= 1.14.1) eina (>= 1.14.1) eldbus (>= 1.14.1) eo (>= 1.14.1) glib-2.0 (>= 2.44.1) glibc (>= 2.21) libcrypto (>= 1.0.2a) libeet (>= 1.14.1) libjpeg-turbo (>= 8d+1.4.0) libssl (>= 1.0.2a) zlib (>= 1.2.8)
+RDEPENDS = dbus-lib (>= 1.8.18) ecore (>= 1.14.1) ecore-con (>= 1.14.1) ecore-file (>= 1.14.1) efl (>= 1.14.1) eina (>= 1.14.1) eldbus (>= 1.14.1) eo (>= 1.14.1) glib-2.0 (>= 2.44.1) glibc (>= 2.21) libcrypto (>= 1.0.2a) libeet (>= 1.14.1) libjpeg-turbo (>= 8d+1.4.0) libssl (>= 1.0.2a) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 139467
 FILES = /usr/lib/libefreet.so.*
