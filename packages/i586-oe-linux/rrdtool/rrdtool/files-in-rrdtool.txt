@@ -1,0 +1,14 @@
+drwxr-xr-x jenkins    jenkins            60 .
+drwxr-xr-x jenkins    jenkins            80 ./usr
+drwxr-xr-x jenkins    jenkins           160 ./usr/bin
+-rwxr-xr-x jenkins    jenkins         52092 ./usr/bin/rrdcached
+-rwxr-xr-x jenkins    jenkins         24812 ./usr/bin/rrdcgi
+lrwxrwxrwx jenkins    jenkins             9 ./usr/bin/rrdcreate -> rrdupdate
+lrwxrwxrwx jenkins    jenkins             9 ./usr/bin/rrdinfo -> rrdupdate
+-rwxr-xr-x jenkins    jenkins         25388 ./usr/bin/rrdtool
+-rwxr-xr-x jenkins    jenkins         98112 ./usr/bin/rrdupdate
+drwxr-xr-x jenkins    jenkins           120 ./usr/lib
+lrwxrwxrwx jenkins    jenkins            15 ./usr/lib/librrd.so.4 -> librrd.so.4.2.1
+-rwxr-xr-x jenkins    jenkins        268984 ./usr/lib/librrd.so.4.2.1
+lrwxrwxrwx jenkins    jenkins            18 ./usr/lib/librrd_th.so.4 -> librrd_th.so.4.2.1
+-rwxr-xr-x jenkins    jenkins        269884 ./usr/lib/librrd_th.so.4.2.1
