@@ -1,6 +1,6 @@
 PV = 3.14
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = gpsd-systemd
 RDEPENDS = dbus-lib (>= 1.8.18) glibc (>= 2.21) gpsd-gpsctl libgcc (>= 4.9.2) libgps (>= 3.14) libgpsd (>= 3.14) libqtcore4 (>= 4.8.7) libqtnetwork4 (>= 4.8.7) libstdc++ (>= 4.9.2) libusb1 (>= 1.0.19)
 RRECOMMENDS = gpsd-conf gpsd-machine-conf gpsd-udev
