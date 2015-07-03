@@ -10,7 +10,7 @@ drwxr-xr-x jenkins    jenkins            40 ./etc/syslog-ng/patterndb.d
 drwxr-xr-x jenkins    jenkins            60 ./lib
 drwxr-xr-x jenkins    jenkins            60 ./lib/systemd
 drwxr-xr-x jenkins    jenkins            60 ./lib/systemd/system
--rw-r--r-- jenkins    jenkins           282 ./lib/systemd/system/syslog-ng.service
+-rw-r--r-- jenkins    jenkins           294 ./lib/systemd/system/syslog-ng.service
 drwxr-xr-x jenkins    jenkins           100 ./usr
 drwxr-xr-x jenkins    jenkins           100 ./usr/bin
 -rwxr-xr-x jenkins    jenkins         21168 ./usr/bin/loggen
@@ -41,4 +41,6 @@ drwxr-xr-x jenkins    jenkins           120 ./usr/share/xsd
 -rw-r--r-- jenkins    jenkins          9794 ./usr/share/xsd/patterndb-2.xsd
 -rw-r--r-- jenkins    jenkins         12766 ./usr/share/xsd/patterndb-3.xsd
 -rw-r--r-- jenkins    jenkins         20798 ./usr/share/xsd/patterndb-4.xsd
-drwxr-xr-x jenkins    jenkins            40 ./var
+drwxr-xr-x jenkins    jenkins            60 ./var
+drwxr-xr-x jenkins    jenkins            60 ./var/lib
+drwxr-xr-x jenkins    jenkins            40 ./var/lib/syslog-ng
