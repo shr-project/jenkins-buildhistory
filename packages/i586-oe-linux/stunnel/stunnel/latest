@@ -1,8 +1,8 @@
 PV = 5.17
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libcap (>= 2.24) libcrypto (>= 1.0.2a) liblzma (>= 5.2.1) libssl (>= 1.0.2a) libsystemd (>= 219-stable+git0+85a6fabdd3) libwrap (>= 7.6) perl zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.21) libcap (>= 2.24) libcrypto (>= 1.0.2c) liblzma (>= 5.2.1) libssl (>= 1.0.2c) libsystemd (>= 219-stable+git0+85a6fabdd3) libwrap (>= 7.6) perl zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 186267
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/stunnel/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/stunnel /usr/lib/stunnel/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
