@@ -1,0 +1,79 @@
+drwxr-xr-x jenkins    jenkins           100 .
+drwxr-xr-x jenkins    jenkins            60 ./etc
+drwxr-xr-x jenkins    jenkins            80 ./etc/dovecot
+-rw-r--r-- jenkins    jenkins           116 ./etc/dovecot/README
+-rw-r--r-- jenkins    jenkins             0 ./etc/dovecot/dovecot.conf
+drwxr-xr-x jenkins    jenkins            60 ./lib
+drwxr-xr-x jenkins    jenkins            60 ./lib/systemd
+drwxr-xr-x jenkins    jenkins            80 ./lib/systemd/system
+-rw-r--r-- jenkins    jenkins           271 ./lib/systemd/system/dovecot.service
+-rw-r--r-- jenkins    jenkins           294 ./lib/systemd/system/dovecot.socket
+drwxr-xr-x jenkins    jenkins           100 ./usr
+drwxr-xr-x jenkins    jenkins           100 ./usr/bin
+-rwxr-xr-x jenkins    jenkins        405648 ./usr/bin/doveadm
+-rwxr-xr-x jenkins    jenkins        112448 ./usr/bin/doveconf
+lrwxrwxrwx jenkins    jenkins             7 ./usr/bin/dsync -> doveadm
+drwxr-xr-x jenkins    jenkins            60 ./usr/lib
+drwxr-xr-x jenkins    jenkins           360 ./usr/lib/dovecot
+drwxr-xr-x jenkins    jenkins            80 ./usr/lib/dovecot/auth
+-rwxr-xr-x jenkins    jenkins          1000 ./usr/lib/dovecot/auth/libauthdb_imap.la
+-rwxr-xr-x jenkins    jenkins         53744 ./usr/lib/dovecot/auth/libauthdb_imap.so
+drwxr-xr-x jenkins    jenkins           200 ./usr/lib/dovecot/doveadm
+-rwxr-xr-x jenkins    jenkins          1036 ./usr/lib/dovecot/doveadm/lib10_doveadm_acl_plugin.la
+-rwxr-xr-x jenkins    jenkins         17472 ./usr/lib/dovecot/doveadm/lib10_doveadm_acl_plugin.so
+-rwxr-xr-x jenkins    jenkins          1057 ./usr/lib/dovecot/doveadm/lib10_doveadm_expire_plugin.la
+-rwxr-xr-x jenkins    jenkins         13440 ./usr/lib/dovecot/doveadm/lib10_doveadm_expire_plugin.so
+-rwxr-xr-x jenkins    jenkins          1050 ./usr/lib/dovecot/doveadm/lib10_doveadm_quota_plugin.la
+-rwxr-xr-x jenkins    jenkins          7448 ./usr/lib/dovecot/doveadm/lib10_doveadm_quota_plugin.so
+-rwxr-xr-x jenkins    jenkins          1036 ./usr/lib/dovecot/doveadm/lib20_doveadm_fts_plugin.la
+-rwxr-xr-x jenkins    jenkins         10192 ./usr/lib/dovecot/doveadm/lib20_doveadm_fts_plugin.so
+drwxr-xr-x jenkins    jenkins           720 ./usr/lib/dovecot/dovecot
+-rw-r--r-- jenkins    jenkins           825 ./usr/lib/dovecot/dovecot-config
+-rwxr-xr-x jenkins    jenkins         18480 ./usr/lib/dovecot/dovecot/aggregator
+-rwxr-xr-x jenkins    jenkins         20080 ./usr/lib/dovecot/dovecot/anvil
+-rwxr-xr-x jenkins    jenkins        274864 ./usr/lib/dovecot/dovecot/auth
+-rwxr-xr-x jenkins    jenkins          8704 ./usr/lib/dovecot/dovecot/checkpassword-reply
+-rwxr-xr-x jenkins    jenkins        103552 ./usr/lib/dovecot/dovecot/config
+-rwxr-xr-x jenkins    jenkins          2839 ./usr/lib/dovecot/dovecot/decode2text.sh
+lrwxrwxrwx jenkins    jenkins            11 ./usr/lib/dovecot/dovecot/deliver -> dovecot-lda
+-rwxr-xr-x jenkins    jenkins         53872 ./usr/lib/dovecot/dovecot/dict
+-rwxr-xr-x jenkins    jenkins         75248 ./usr/lib/dovecot/dovecot/director
+-rwxr-xr-x jenkins    jenkins          9808 ./usr/lib/dovecot/dovecot/dns-client
+-rwxr-xr-x jenkins    jenkins        258840 ./usr/lib/dovecot/dovecot/doveadm-server
+-rwxr-xr-x jenkins    jenkins         19936 ./usr/lib/dovecot/dovecot/dovecot-lda
+-rwxr-xr-x jenkins    jenkins          7568 ./usr/lib/dovecot/dovecot/gdbhelper
+-rwxr-xr-x jenkins    jenkins        196400 ./usr/lib/dovecot/dovecot/imap
+-rwxr-xr-x jenkins    jenkins         26752 ./usr/lib/dovecot/dovecot/imap-login
+-rwxr-xr-x jenkins    jenkins         20120 ./usr/lib/dovecot/dovecot/imap-urlauth
+-rwxr-xr-x jenkins    jenkins         11800 ./usr/lib/dovecot/dovecot/imap-urlauth-login
+-rwxr-xr-x jenkins    jenkins         49432 ./usr/lib/dovecot/dovecot/imap-urlauth-worker
+-rwxr-xr-x jenkins    jenkins         26064 ./usr/lib/dovecot/dovecot/indexer
+-rwxr-xr-x jenkins    jenkins         15960 ./usr/lib/dovecot/dovecot/indexer-worker
+-rwxr-xr-x jenkins    jenkins         17128 ./usr/lib/dovecot/dovecot/ipc
+-rwxr-xr-x jenkins    jenkins         45584 ./usr/lib/dovecot/dovecot/lmtp
+-rwxr-xr-x jenkins    jenkins         20104 ./usr/lib/dovecot/dovecot/log
+-rwxr-xr-x jenkins    jenkins          8608 ./usr/lib/dovecot/dovecot/maildirlock
+-rwxr-xr-x jenkins    jenkins         45968 ./usr/lib/dovecot/dovecot/pop3
+-rwxr-xr-x jenkins    jenkins         24448 ./usr/lib/dovecot/dovecot/pop3-login
+-rwxr-xr-x jenkins    jenkins         75128 ./usr/lib/dovecot/dovecot/quota-status
+-rwxr-xr-x jenkins    jenkins         14352 ./usr/lib/dovecot/dovecot/rawlog
+-rwxr-xr-x jenkins    jenkins         32816 ./usr/lib/dovecot/dovecot/replicator
+-rwxr-xr-x jenkins    jenkins         11344 ./usr/lib/dovecot/dovecot/script
+-rwxr-xr-x jenkins    jenkins         12704 ./usr/lib/dovecot/dovecot/script-login
+-rwxr-xr-x jenkins    jenkins         16944 ./usr/lib/dovecot/dovecot/ssl-params
+-rwxr-xr-x jenkins    jenkins         45296 ./usr/lib/dovecot/dovecot/stats
+-rwxr-xr-x jenkins    jenkins         15296 ./usr/lib/dovecot/dovecot/xml2text
+lrwxrwxrwx jenkins    jenkins            31 ./usr/lib/dovecot/libdovecot-compression.so.0 -> libdovecot-compression.so.0.0.0
+-rwxr-xr-x jenkins    jenkins        439848 ./usr/lib/dovecot/libdovecot-compression.so.0.0.0
+lrwxrwxrwx jenkins    jenkins            23 ./usr/lib/dovecot/libdovecot-lda.so.0 -> libdovecot-lda.so.0.0.0
+-rwxr-xr-x jenkins    jenkins         50760 ./usr/lib/dovecot/libdovecot-lda.so.0.0.0
+lrwxrwxrwx jenkins    jenkins            25 ./usr/lib/dovecot/libdovecot-login.so.0 -> libdovecot-login.so.0.0.0
+-rwxr-xr-x jenkins    jenkins        107400 ./usr/lib/dovecot/libdovecot-login.so.0.0.0
+lrwxrwxrwx jenkins    jenkins            23 ./usr/lib/dovecot/libdovecot-sql.so.0 -> libdovecot-sql.so.0.0.0
+-rwxr-xr-x jenkins    jenkins         26296 ./usr/lib/dovecot/libdovecot-sql.so.0.0.0
+lrwxrwxrwx jenkins    jenkins            27 ./usr/lib/dovecot/libdovecot-storage.so.0 -> libdovecot-storage.so.0.0.0
+-rwxr-xr-x jenkins    jenkins       1173000 ./usr/lib/dovecot/libdovecot-storage.so.0.0.0
+lrwxrwxrwx jenkins    jenkins            19 ./usr/lib/dovecot/libdovecot.so.0 -> libdovecot.so.0.0.0
+-rwxr-xr-x jenkins    jenkins        867856 ./usr/lib/dovecot/libdovecot.so.0.0.0
+drwxr-xr-x jenkins    jenkins            60 ./usr/sbin
+-rwxr-xr-x jenkins    jenkins         78968 ./usr/sbin/dovecot

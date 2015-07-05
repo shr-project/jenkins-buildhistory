@@ -1,8 +1,8 @@
 PV = 2.2.10
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.21) libbz2 (>= 1.0.6) libcap (>= 2.24) libcrypto (>= 1.0.2a) liblzma (>= 5.2.1) libssl (>= 1.0.2a) shadow zlib (>= 1.2.8)
+RDEPENDS = base-files base-passwd glibc (>= 2.21) libbz2 (>= 1.0.6) libcap (>= 2.24) libcrypto (>= 1.0.2c) liblzma (>= 5.2.1) libssl (>= 1.0.2c) shadow zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 4957410
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/dovecot/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dovecot /usr/lib/dovecot/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/dovecot.service /lib/systemd/system/dovecot.socket
