@@ -1,5 +1,15 @@
 drwxr-xr-x jenkins    jenkins            60 .
-drwxr-xr-x jenkins    jenkins            60 ./usr
-drwxr-xr-x jenkins    jenkins            80 ./usr/lib
-lrwxrwxrwx jenkins    jenkins            17 ./usr/lib/libinput.so.5 -> libinput.so.5.1.0
--rwxr-xr-x jenkins    jenkins         61788 ./usr/lib/libinput.so.5.1.0
+drwxr-xr-x jenkins    jenkins            80 ./usr
+drwxr-xr-x jenkins    jenkins            80 ./usr/bin
+-rwxr-xr-x jenkins    jenkins         19028 ./usr/bin/libinput-debug-events
+-rwxr-xr-x jenkins    jenkins         15440 ./usr/bin/libinput-list-devices
+drwxr-xr-x jenkins    jenkins           100 ./usr/lib
+lrwxrwxrwx jenkins    jenkins            18 ./usr/lib/libinput.so.10 -> libinput.so.10.2.3
+-rwxr-xr-x jenkins    jenkins         83628 ./usr/lib/libinput.so.10.2.3
+drwxr-xr-x jenkins    jenkins           100 ./usr/lib/udev
+drwxr-xr-x jenkins    jenkins            60 ./usr/lib/udev/hwdb.d
+-rw-r--r-- jenkins    jenkins          2994 ./usr/lib/udev/hwdb.d/90-libinput-model-quirks.hwdb
+-rwxr-xr-x jenkins    jenkins          4388 ./usr/lib/udev/libinput-device-group
+drwxr-xr-x jenkins    jenkins            80 ./usr/lib/udev/rules.d
+-rw-r--r-- jenkins    jenkins           242 ./usr/lib/udev/rules.d/80-libinput-device-groups.rules
+-rw-r--r-- jenkins    jenkins           856 ./usr/lib/udev/rules.d/90-libinput-model-quirks.rules
