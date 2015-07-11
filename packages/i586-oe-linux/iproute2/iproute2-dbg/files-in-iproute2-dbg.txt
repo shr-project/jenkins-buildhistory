@@ -7,9 +7,8 @@ drwxr-xr-x jenkins    jenkins           100 ./sbin/.debug
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/tc
-drwxr-xr-x jenkins    jenkins            80 ./usr/lib/tc/.debug
+drwxr-xr-x jenkins    jenkins            60 ./usr/lib/tc/.debug
 -rwxr-xr-x jenkins    jenkins         20516 ./usr/lib/tc/.debug/m_xt.so
--rwxr-xr-x jenkins    jenkins         20116 ./usr/lib/tc/.debug/q_atm.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/iproute2
@@ -20,9 +19,7 @@ drwxr-xr-x jenkins    jenkins           220 ./usr/src/debug/iproute2/3.17.0-r0/i
 -rw-r--r-- jenkins    jenkins          1360 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/hlist.h
 -rw-r--r-- jenkins    jenkins           628 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/libgenl.h
 -rw-r--r-- jenkins    jenkins          5354 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/libnetlink.h
-drwxr-xr-x jenkins    jenkins           700 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/linux
--rw-r--r-- jenkins    jenkins          7825 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/linux/atm.h
--rw-r--r-- jenkins    jenkins          4907 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/linux/atmsap.h
+drwxr-xr-x jenkins    jenkins           660 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/linux
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/linux/can
 -rw-r--r-- jenkins    jenkins          7508 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/linux/can.h
 -rw-r--r-- jenkins    jenkins          3650 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/include/linux/can/netlink.h
@@ -133,7 +130,7 @@ drwxr-xr-x jenkins    jenkins           280 ./usr/src/debug/iproute2/3.17.0-r0/i
 -rw-r--r-- jenkins    jenkins          2578 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/lib/ll_types.c
 -rw-r--r-- jenkins    jenkins         10324 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/lib/rt_names.c
 -rw-r--r-- jenkins    jenkins         16430 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/lib/utils.c
-drwxr-xr-x jenkins    jenkins          1600 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc
+drwxr-xr-x jenkins    jenkins          1580 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc
 -rw-r--r-- jenkins    jenkins          5482 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/em_canid.c
 -rw-r--r-- jenkins    jenkins          4759 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/em_cmp.c
 -rw-r--r-- jenkins    jenkins          6414 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/em_ipset.c
@@ -171,7 +168,6 @@ drwxr-xr-x jenkins    jenkins          1600 ./usr/src/debug/iproute2/3.17.0-r0/i
 -rw-r--r-- jenkins    jenkins          3493 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/p_ip.c
 -rw-r--r-- jenkins    jenkins           810 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/p_tcp.c
 -rw-r--r-- jenkins    jenkins           810 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/p_udp.c
--rw-r--r-- jenkins    jenkins          5638 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/q_atm.c
 -rw-r--r-- jenkins    jenkins         15351 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/q_cbq.c
 -rw-r--r-- jenkins    jenkins          5690 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/q_choke.c
 -rw-r--r-- jenkins    jenkins          5826 ./usr/src/debug/iproute2/3.17.0-r0/iproute2-3.17.0/tc/q_codel.c
