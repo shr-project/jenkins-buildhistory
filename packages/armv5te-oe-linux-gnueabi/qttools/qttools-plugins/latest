@@ -1,10 +1,10 @@
 PV = 5.4.2+gitAUTOINC+a6ed9b418d
 PR = r0
 PKGV = 5.4.2+git0+a6ed9b418d
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libstdc++ (>= 4.9.2) qtbase (>= 5.4.2+git0+2cb17c1fb9) qtdeclarative (>= 5.4.2+git0+2fdb6eba0a) qttools (>= 5.4.2+git0+a6ed9b418d)
+RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3) qtbase (>= 5.4.2+git0+2cb17c1fb9) qtdeclarative (>= 5.4.2+git0+2fdb6eba0a) qttools (>= 5.4.2+git0+a6ed9b418d)
 RRECOMMENDS = 
-PKGSIZE = 109040
+PKGSIZE = 108688
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
 FILELIST = /usr/lib/qt5/plugins/designer/libcontainerextension.so /usr/lib/qt5/plugins/designer/libcustomwidgetplugin.so /usr/lib/qt5/plugins/designer/libqquickwidget.so /usr/lib/qt5/plugins/designer/libtaskmenuextension.so /usr/lib/qt5/plugins/designer/libworldtimeclockplugin.so

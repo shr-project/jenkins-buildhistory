@@ -1,9 +1,9 @@
 PV = 6.0.1
 PR = r1
-PKGR = r1.31
+PKGR = r1.32
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libqtcore4 (>= 4.8.7) libqtdesigner4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libstdc++ (>= 4.9.2) qwt (>= 6.0.1)
+RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libqtcore4 (>= 4.8.7) libqtdesigner4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libstdc++ (>= 4.9.3) qwt (>= 6.0.1)
 RRECOMMENDS = 
-PKGSIZE = 96912
+PKGSIZE = 96864
 FILES = /usr/lib/qt4/plugins/designer/*.so
 FILELIST = /usr/lib/qt4/plugins/designer/libqwt_designer_plugin.so

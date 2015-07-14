@@ -1,9 +1,9 @@
 PV = 4.0.1+gitAUTOINC+c061b303c0
 PR = r0
 PKGV = 4.0.1+git0+c061b303c0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = btrfs-tools (= 4.0.1+git0+c061b303c0-r0.6)
+RDEPENDS = btrfs-tools (= 4.0.1+git0+c061b303c0-r0.7)
 RRECOMMENDS = acl-dev attr-dev e2fsprogs-dev glibc-dev libcomerr-dev libext2fs-dev lzo-dev util-linux-dev util-linux-libblkid-dev util-linux-libuuid-dev zlib-dev
 PKGSIZE = 159321
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/btrfs-tools/*.la /lib/*.la

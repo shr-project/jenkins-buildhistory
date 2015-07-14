@@ -1,10 +1,10 @@
 PV = 1.4.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 PKG = libaugeas0
 RPROVIDES = libaugeas
-RDEPENDS = augeas-lenses glibc (>= 2.21) libgcc (>= 4.9.2) libxml2 (>= 2.9.2) zlib (>= 1.2.8)
+RDEPENDS = augeas-lenses glibc (>= 2.21) libgcc (>= 4.9.3) libxml2 (>= 2.9.2) zlib (>= 1.2.8)
 RRECOMMENDS = augeas
-PKGSIZE = 340313
+PKGSIZE = 340193
 FILES = /usr/lib/lib*.so.*
 FILELIST = /usr/lib/libaugeas.so.0 /usr/lib/libaugeas.so.0.20.0 /usr/lib/libfa.so.1 /usr/lib/libfa.so.1.4.1

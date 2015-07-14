@@ -1,10 +1,10 @@
 PV = 0.13.3
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 PKG = libtorrent17
 RPROVIDES = libtorrent
-RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2c) libgcc (>= 4.9.2) libstdc++ (>= 4.9.2)
+RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2d) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
-PKGSIZE = 690764
+PKGSIZE = 692124
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/libtorrent/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libtorrent /usr/lib/libtorrent/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libtorrent.so.17 /usr/lib/libtorrent.so.17.0.4

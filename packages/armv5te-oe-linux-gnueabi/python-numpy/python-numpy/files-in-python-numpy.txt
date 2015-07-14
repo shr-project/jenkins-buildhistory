@@ -29,7 +29,7 @@ drwxr-xr-x jenkins    jenkins           240 ./usr/lib/python2.7/site-packages/nu
 drwxr-xr-x jenkins    jenkins          1020 ./usr/lib/python2.7/site-packages/numpy/core
 -rw-r--r-- jenkins    jenkins          1753 ./usr/lib/python2.7/site-packages/numpy/core/__init__.py
 -rw-r--r-- jenkins    jenkins          2305 ./usr/lib/python2.7/site-packages/numpy/core/__init__.pyc
--rwxr-xr-x jenkins    jenkins          3400 ./usr/lib/python2.7/site-packages/numpy/core/_dummy.so
+-rwxr-xr-x jenkins    jenkins          3300 ./usr/lib/python2.7/site-packages/numpy/core/_dummy.so
 -rw-r--r-- jenkins    jenkins         16767 ./usr/lib/python2.7/site-packages/numpy/core/_internal.py
 -rw-r--r-- jenkins    jenkins         17193 ./usr/lib/python2.7/site-packages/numpy/core/_internal.pyc
 -rw-r--r-- jenkins    jenkins          3842 ./usr/lib/python2.7/site-packages/numpy/core/_methods.py
@@ -84,15 +84,15 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- jenkins    jenkins          9233 ./usr/lib/python2.7/site-packages/numpy/core/machar.pyc
 -rw-r--r-- jenkins    jenkins          9870 ./usr/lib/python2.7/site-packages/numpy/core/memmap.py
 -rw-r--r-- jenkins    jenkins         10362 ./usr/lib/python2.7/site-packages/numpy/core/memmap.pyc
--rwxr-xr-x jenkins    jenkins        832236 ./usr/lib/python2.7/site-packages/numpy/core/multiarray.so
--rwxr-xr-x jenkins    jenkins         10692 ./usr/lib/python2.7/site-packages/numpy/core/multiarray_tests.so
+-rwxr-xr-x jenkins    jenkins        832188 ./usr/lib/python2.7/site-packages/numpy/core/multiarray.so
+-rwxr-xr-x jenkins    jenkins         10592 ./usr/lib/python2.7/site-packages/numpy/core/multiarray_tests.so
 -rw-r--r-- jenkins    jenkins         74530 ./usr/lib/python2.7/site-packages/numpy/core/numeric.py
 -rw-r--r-- jenkins    jenkins         82868 ./usr/lib/python2.7/site-packages/numpy/core/numeric.pyc
 -rw-r--r-- jenkins    jenkins         28985 ./usr/lib/python2.7/site-packages/numpy/core/numerictypes.py
 -rw-r--r-- jenkins    jenkins         30584 ./usr/lib/python2.7/site-packages/numpy/core/numerictypes.pyc
 -rw-r--r-- jenkins    jenkins         27005 ./usr/lib/python2.7/site-packages/numpy/core/records.py
 -rw-r--r-- jenkins    jenkins         26982 ./usr/lib/python2.7/site-packages/numpy/core/records.pyc
--rwxr-xr-x jenkins    jenkins        111500 ./usr/lib/python2.7/site-packages/numpy/core/scalarmath.so
+-rwxr-xr-x jenkins    jenkins        111452 ./usr/lib/python2.7/site-packages/numpy/core/scalarmath.so
 -rw-r--r-- jenkins    jenkins          8352 ./usr/lib/python2.7/site-packages/numpy/core/scons_support.py
 -rw-r--r-- jenkins    jenkins         11210 ./usr/lib/python2.7/site-packages/numpy/core/scons_support.pyc
 -rw-r--r-- jenkins    jenkins         38561 ./usr/lib/python2.7/site-packages/numpy/core/setup.py
@@ -136,8 +136,8 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- jenkins    jenkins         45076 ./usr/lib/python2.7/site-packages/numpy/core/tests/test_umath.py
 -rw-r--r-- jenkins    jenkins         20535 ./usr/lib/python2.7/site-packages/numpy/core/tests/test_umath_complex.py
 -rw-r--r-- jenkins    jenkins         12474 ./usr/lib/python2.7/site-packages/numpy/core/tests/test_unicode.py
--rwxr-xr-x jenkins    jenkins        276004 ./usr/lib/python2.7/site-packages/numpy/core/umath.so
--rwxr-xr-x jenkins    jenkins         13344 ./usr/lib/python2.7/site-packages/numpy/core/umath_tests.so
+-rwxr-xr-x jenkins    jenkins        275932 ./usr/lib/python2.7/site-packages/numpy/core/umath.so
+-rwxr-xr-x jenkins    jenkins         13240 ./usr/lib/python2.7/site-packages/numpy/core/umath_tests.so
 -rw-r--r-- jenkins    jenkins         13874 ./usr/lib/python2.7/site-packages/numpy/ctypeslib.py
 -rw-r--r-- jenkins    jenkins         14834 ./usr/lib/python2.7/site-packages/numpy/ctypeslib.pyc
 drwxr-xr-x jenkins    jenkins          1200 ./usr/lib/python2.7/site-packages/numpy/distutils
@@ -480,7 +480,7 @@ drwxr-xr-x jenkins    jenkins           320 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- jenkins    jenkins           455 ./usr/lib/python2.7/site-packages/numpy/fft/__init__.pyc
 -rw-r--r-- jenkins    jenkins         39261 ./usr/lib/python2.7/site-packages/numpy/fft/fftpack.py
 -rw-r--r-- jenkins    jenkins         43209 ./usr/lib/python2.7/site-packages/numpy/fft/fftpack.pyc
--rwxr-xr-x jenkins    jenkins         39964 ./usr/lib/python2.7/site-packages/numpy/fft/fftpack_lite.so
+-rwxr-xr-x jenkins    jenkins         39860 ./usr/lib/python2.7/site-packages/numpy/fft/fftpack_lite.so
 -rw-r--r-- jenkins    jenkins          4149 ./usr/lib/python2.7/site-packages/numpy/fft/helper.py
 -rw-r--r-- jenkins    jenkins          5188 ./usr/lib/python2.7/site-packages/numpy/fft/helper.pyc
 -rw-r--r-- jenkins    jenkins          6751 ./usr/lib/python2.7/site-packages/numpy/fft/info.py
@@ -495,7 +495,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/lib/python2.7/site-packages/nu
 drwxr-xr-x jenkins    jenkins          1060 ./usr/lib/python2.7/site-packages/numpy/lib
 -rw-r--r-- jenkins    jenkins           972 ./usr/lib/python2.7/site-packages/numpy/lib/__init__.py
 -rw-r--r-- jenkins    jenkins          1148 ./usr/lib/python2.7/site-packages/numpy/lib/__init__.pyc
--rwxr-xr-x jenkins    jenkins         22940 ./usr/lib/python2.7/site-packages/numpy/lib/_compiled_base.so
+-rwxr-xr-x jenkins    jenkins         22892 ./usr/lib/python2.7/site-packages/numpy/lib/_compiled_base.so
 -rw-r--r-- jenkins    jenkins         20608 ./usr/lib/python2.7/site-packages/numpy/lib/_datasource.py
 -rw-r--r-- jenkins    jenkins         23888 ./usr/lib/python2.7/site-packages/numpy/lib/_datasource.pyc
 -rw-r--r-- jenkins    jenkins         30251 ./usr/lib/python2.7/site-packages/numpy/lib/_iotools.py
@@ -573,7 +573,7 @@ drwxr-xr-x jenkins    jenkins           280 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- jenkins    jenkins          2473 ./usr/lib/python2.7/site-packages/numpy/linalg/__init__.pyc
 -rw-r--r-- jenkins    jenkins          1133 ./usr/lib/python2.7/site-packages/numpy/linalg/info.py
 -rw-r--r-- jenkins    jenkins          1399 ./usr/lib/python2.7/site-packages/numpy/linalg/info.pyc
--rwxr-xr-x jenkins    jenkins        679500 ./usr/lib/python2.7/site-packages/numpy/linalg/lapack_lite.so
+-rwxr-xr-x jenkins    jenkins        679452 ./usr/lib/python2.7/site-packages/numpy/linalg/lapack_lite.so
 -rw-r--r-- jenkins    jenkins         62911 ./usr/lib/python2.7/site-packages/numpy/linalg/linalg.py
 -rw-r--r-- jenkins    jenkins         64723 ./usr/lib/python2.7/site-packages/numpy/linalg/linalg.pyc
 -rw-r--r-- jenkins    jenkins          1341 ./usr/lib/python2.7/site-packages/numpy/linalg/setup.py
@@ -631,7 +631,7 @@ drwxr-xr-x jenkins    jenkins           120 ./usr/lib/python2.7/site-packages/nu
 drwxr-xr-x jenkins    jenkins           880 ./usr/lib/python2.7/site-packages/numpy/numarray
 -rw-r--r-- jenkins    jenkins           554 ./usr/lib/python2.7/site-packages/numpy/numarray/__init__.py
 -rw-r--r-- jenkins    jenkins           740 ./usr/lib/python2.7/site-packages/numpy/numarray/__init__.pyc
--rwxr-xr-x jenkins    jenkins         49880 ./usr/lib/python2.7/site-packages/numpy/numarray/_capi.so
+-rwxr-xr-x jenkins    jenkins         49784 ./usr/lib/python2.7/site-packages/numpy/numarray/_capi.so
 -rw-r--r-- jenkins    jenkins          9390 ./usr/lib/python2.7/site-packages/numpy/numarray/alter_code1.py
 -rw-r--r-- jenkins    jenkins         11764 ./usr/lib/python2.7/site-packages/numpy/numarray/alter_code1.pyc
 -rw-r--r-- jenkins    jenkins          1572 ./usr/lib/python2.7/site-packages/numpy/numarray/alter_code2.py
@@ -764,7 +764,7 @@ drwxr-xr-x jenkins    jenkins           260 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- jenkins    jenkins          5711 ./usr/lib/python2.7/site-packages/numpy/random/__init__.pyc
 -rw-r--r-- jenkins    jenkins          5072 ./usr/lib/python2.7/site-packages/numpy/random/info.py
 -rw-r--r-- jenkins    jenkins          5433 ./usr/lib/python2.7/site-packages/numpy/random/info.pyc
--rwxr-xr-x jenkins    jenkins        408416 ./usr/lib/python2.7/site-packages/numpy/random/mtrand.so
+-rwxr-xr-x jenkins    jenkins        408368 ./usr/lib/python2.7/site-packages/numpy/random/mtrand.so
 -rw-r--r-- jenkins    jenkins          5380 ./usr/lib/python2.7/site-packages/numpy/random/randomkit.h
 -rw-r--r-- jenkins    jenkins          2207 ./usr/lib/python2.7/site-packages/numpy/random/setup.py
 -rw-r--r-- jenkins    jenkins          2979 ./usr/lib/python2.7/site-packages/numpy/random/setup.pyc

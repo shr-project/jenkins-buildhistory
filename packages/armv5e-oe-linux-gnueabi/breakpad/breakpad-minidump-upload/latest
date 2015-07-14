@@ -1,9 +1,9 @@
 PV = svn
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libstdc++ (>= 4.9.2)
+RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
-PKGSIZE = 15244
+PKGSIZE = 15240
 FILES = /usr/bin/minidump_upload
 FILELIST = /usr/bin/minidump_upload

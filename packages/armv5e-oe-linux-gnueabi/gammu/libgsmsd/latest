@@ -1,10 +1,10 @@
 PV = 1.32.0
 PR = r0
-PKGR = r0.26
+PKGR = r0.27
 PKG = libgsmsd7
 RPROVIDES = libgsmsd
 RDEPENDS = glibc (>= 2.21) libdbi (>= 0.8.4) libgammu (>= 1.32.0) libmysqlclient (>= 5.5.43)
 RRECOMMENDS = 
-PKGSIZE = 80772
+PKGSIZE = 80724
 FILES = /usr/lib/libgsmsd.so.*
 FILELIST = /usr/lib/libgsmsd.so.7 /usr/lib/libgsmsd.so.7.1.32.0

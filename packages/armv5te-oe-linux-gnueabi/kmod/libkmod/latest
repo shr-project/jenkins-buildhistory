@@ -1,11 +1,11 @@
 PV = 21+gitAUTOINC+0d833715ea
 PR = r0
 PKGV = 21+git0+0d833715ea
-PKGR = r0.2
+PKGR = r0.3
 PKG = libkmod2
 RPROVIDES = libkmod
 RDEPENDS = glibc (>= 2.21) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 49073
+PKGSIZE = 48969
 FILES = /lib/libkmod*.so.* /usr/lib/libkmod*.so.*
 FILELIST = /usr/lib/libkmod.so.2 /usr/lib/libkmod.so.2.2.11
