@@ -2,16 +2,16 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins           100 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins           120 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins       5031232 ./usr/bin/.debug/nautilus
--rwxr-xr-x jenkins    jenkins        182404 ./usr/bin/.debug/nautilus-autorun-software
--rwxr-xr-x jenkins    jenkins       1429920 ./usr/bin/.debug/nautilus-connect-server
--rwxr-xr-x jenkins    jenkins       1316368 ./usr/bin/.debug/nautilus-file-management-properties
+-rwxr-xr-x jenkins    jenkins       5814696 ./usr/bin/.debug/nautilus
+-rwxr-xr-x jenkins    jenkins        190768 ./usr/bin/.debug/nautilus-autorun-software
+-rwxr-xr-x jenkins    jenkins       1657180 ./usr/bin/.debug/nautilus-connect-server
+-rwxr-xr-x jenkins    jenkins       1534984 ./usr/bin/.debug/nautilus-file-management-properties
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins        100152 ./usr/lib/.debug/libnautilus-extension.so.1.2.0
+-rwxr-xr-x jenkins    jenkins        101156 ./usr/lib/.debug/libnautilus-extension.so.1.2.0
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/nautilus
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/nautilus/.debug
--rwxr-xr-x jenkins    jenkins         22548 ./usr/lib/nautilus/.debug/nautilus-convert-metadata
+-rwxr-xr-x jenkins    jenkins         28728 ./usr/lib/nautilus/.debug/nautilus-convert-metadata
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/nautilus
@@ -35,7 +35,7 @@ drwxr-xr-x jenkins    jenkins           200 ./usr/src/debug/nautilus/2.32.2-r6/n
 -rw-r--r-- jenkins    jenkins          4037 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/cut-n-paste-code/libegg/eggsmclient.h
 -rw-r--r-- jenkins    jenkins         11667 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/cut-n-paste-code/libegg/eggtreemultidnd.c
 -rw-r--r-- jenkins    jenkins          3170 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/cut-n-paste-code/libegg/eggtreemultidnd.h
-drwxr-xr-x jenkins    jenkins          1320 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/eel
+drwxr-xr-x jenkins    jenkins          1340 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/eel
 -rw-r--r-- jenkins    jenkins         11295 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/eel/eel-accessibility.c
 -rw-r--r-- jenkins    jenkins          7012 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/eel/eel-accessibility.h
 -rw-r--r-- jenkins    jenkins         14725 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/eel/eel-alert-dialog.c
@@ -100,6 +100,7 @@ drwxr-xr-x jenkins    jenkins          1320 ./usr/src/debug/nautilus/2.32.2-r6/n
 -rw-r--r-- jenkins    jenkins         28968 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/eel/eel-wrap-table.c
 -rw-r--r-- jenkins    jenkins          4149 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/eel/eel-wrap-table.h
 -rw-r--r-- jenkins    jenkins          4879 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/eel/eel-xml-extensions.c
+-rw-r--r-- jenkins    jenkins          2008 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/eel/eel-xml-extensions.h
 drwxr-xr-x jenkins    jenkins           480 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-extension
 -rw-r--r-- jenkins    jenkins          1943 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-extension/nautilus-column-provider.c
 -rw-r--r-- jenkins    jenkins          2423 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-extension/nautilus-column-provider.h
@@ -123,7 +124,7 @@ drwxr-xr-x jenkins    jenkins           480 ./usr/src/debug/nautilus/2.32.2-r6/n
 -rw-r--r-- jenkins    jenkins          2689 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-extension/nautilus-property-page-provider.h
 -rw-r--r-- jenkins    jenkins          5923 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-extension/nautilus-property-page.c
 -rw-r--r-- jenkins    jenkins          2699 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-extension/nautilus-property-page.h
-drwxr-xr-x jenkins    jenkins          2940 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private
+drwxr-xr-x jenkins    jenkins          3020 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private
 -rw-r--r-- jenkins    jenkins         38056 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-autorun.c
 -rw-r--r-- jenkins    jenkins          2963 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-autorun.h
 -rw-r--r-- jenkins    jenkins         17101 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-bookmark.c
@@ -139,6 +140,7 @@ drwxr-xr-x jenkins    jenkins          2940 ./usr/src/debug/nautilus/2.32.2-r6/n
 -rw-r--r-- jenkins    jenkins         16937 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-column-chooser.c
 -rw-r--r-- jenkins    jenkins          2776 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-column-chooser.h
 -rw-r--r-- jenkins    jenkins          8323 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-column-utilities.c
+-rw-r--r-- jenkins    jenkins          1607 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-column-utilities.h
 -rw-r--r-- jenkins    jenkins         13730 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-customization-data.c
 -rw-r--r-- jenkins    jenkins          2533 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-customization-data.h
 -rw-r--r-- jenkins    jenkins         14949 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-debug-log.c
@@ -157,6 +159,7 @@ drwxr-xr-x jenkins    jenkins          2940 ./usr/src/debug/nautilus/2.32.2-r6/n
 -rw-r--r-- jenkins    jenkins          3694 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-desktop-link.h
 -rw-r--r-- jenkins    jenkins        124161 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-directory-async.c
 -rw-r--r-- jenkins    jenkins         27063 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-directory-background.c
+-rw-r--r-- jenkins    jenkins          1765 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-directory-background.h
 -rw-r--r-- jenkins    jenkins          2781 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-directory-notify.h
 -rw-r--r-- jenkins    jenkins         11818 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-directory-private.h
 -rw-r--r-- jenkins    jenkins         51342 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-directory.c
@@ -203,6 +206,7 @@ drwxr-xr-x jenkins    jenkins          2940 ./usr/src/debug/nautilus/2.32.2-r6/n
 -rw-r--r-- jenkins    jenkins         14014 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-link.c
 -rw-r--r-- jenkins    jenkins          2283 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-link.h
 -rw-r--r-- jenkins    jenkins          2855 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-metadata.c
+-rw-r--r-- jenkins    jenkins          4175 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-metadata.h
 -rw-r--r-- jenkins    jenkins         65979 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-mime-actions.c
 -rw-r--r-- jenkins    jenkins          3005 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-mime-actions.h
 -rw-r--r-- jenkins    jenkins         19336 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-mime-application-chooser.c
@@ -220,6 +224,7 @@ drwxr-xr-x jenkins    jenkins          2940 ./usr/src/debug/nautilus/2.32.2-r6/n
 -rw-r--r-- jenkins    jenkins          8076 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-query.c
 -rw-r--r-- jenkins    jenkins          2776 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-query.h
 -rw-r--r-- jenkins    jenkins          2096 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-recent.c
+-rw-r--r-- jenkins    jenkins           246 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-recent.h
 -rw-r--r-- jenkins    jenkins          1545 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-saved-search-file.c
 -rw-r--r-- jenkins    jenkins          2200 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-saved-search-file.h
 -rw-r--r-- jenkins    jenkins          7021 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-search-directory-file.c
@@ -270,12 +275,13 @@ drwxr-xr-x jenkins    jenkins          2940 ./usr/src/debug/nautilus/2.32.2-r6/n
 -rw-r--r-- jenkins    jenkins          4178 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-window-slot-info.c
 -rw-r--r-- jenkins    jenkins          4617 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/libnautilus-private/nautilus-window-slot-info.h
 drwxr-xr-x jenkins    jenkins          1840 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src
-drwxr-xr-x jenkins    jenkins           480 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager
+drwxr-xr-x jenkins    jenkins           500 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager
 -rw-r--r-- jenkins    jenkins         26434 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager/fm-desktop-icon-view.c
 -rw-r--r-- jenkins    jenkins          2227 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager/fm-desktop-icon-view.h
 -rw-r--r-- jenkins    jenkins        321075 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager/fm-directory-view.c
 -rw-r--r-- jenkins    jenkins         24396 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager/fm-directory-view.h
 -rw-r--r-- jenkins    jenkins         13022 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager/fm-ditem-page.c
+-rw-r--r-- jenkins    jenkins          1443 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager/fm-ditem-page.h
 -rw-r--r-- jenkins    jenkins         10082 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager/fm-error-reporting.c
 -rw-r--r-- jenkins    jenkins          2164 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager/fm-error-reporting.h
 -rw-r--r-- jenkins    jenkins         16273 ./usr/src/debug/nautilus/2.32.2-r6/nautilus-2.32.2/src/file-manager/fm-icon-container.c

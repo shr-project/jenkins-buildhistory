@@ -2,11 +2,11 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins           140 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins        142528 ./usr/bin/.debug/redis-benchmark
+-rwxr-xr-x jenkins    jenkins        149820 ./usr/bin/.debug/redis-benchmark
 -rwxr-xr-x jenkins    jenkins         14964 ./usr/bin/.debug/redis-check-aof
--rwxr-xr-x jenkins    jenkins         25664 ./usr/bin/.debug/redis-check-dump
--rwxr-xr-x jenkins    jenkins        196544 ./usr/bin/.debug/redis-cli
--rwxr-xr-x jenkins    jenkins       1426116 ./usr/bin/.debug/redis-server
+-rwxr-xr-x jenkins    jenkins         27256 ./usr/bin/.debug/redis-check-dump
+-rwxr-xr-x jenkins    jenkins        210600 ./usr/bin/.debug/redis-cli
+-rwxr-xr-x jenkins    jenkins       1634340 ./usr/bin/.debug/redis-server
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/redis
@@ -82,7 +82,7 @@ drwxr-xr-x jenkins    jenkins          1120 ./usr/src/debug/redis/3.0.2-r0/redis
 -rw-r--r-- jenkins    jenkins          1556 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/deps/lua/src/lzio.h
 -rw-r--r-- jenkins    jenkins          6132 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/deps/lua/src/strbuf.c
 -rw-r--r-- jenkins    jenkins          4349 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/deps/lua/src/strbuf.h
-drwxr-xr-x jenkins    jenkins          1700 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src
+drwxr-xr-x jenkins    jenkins          1740 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src
 -rw-r--r-- jenkins    jenkins          9927 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/adlist.c
 -rw-r--r-- jenkins    jenkins          3451 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/adlist.h
 -rw-r--r-- jenkins    jenkins         15854 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/ae.c
@@ -125,6 +125,7 @@ drwxr-xr-x jenkins    jenkins          1700 ./usr/src/debug/redis/3.0.2-r0/redis
 -rw-r--r-- jenkins    jenkins          5571 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/notify.c
 -rw-r--r-- jenkins    jenkins         23739 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/object.c
 -rw-r--r-- jenkins    jenkins          5528 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/pqsort.c
+-rw-r--r-- jenkins    jenkins          1964 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/pqsort.h
 -rw-r--r-- jenkins    jenkins         13029 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/pubsub.c
 -rw-r--r-- jenkins    jenkins          3848 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/rand.c
 -rw-r--r-- jenkins    jenkins          1763 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/rand.h
@@ -164,5 +165,6 @@ drwxr-xr-x jenkins    jenkins          1700 ./usr/src/debug/redis/3.0.2-r0/redis
 -rw-r--r-- jenkins    jenkins         53340 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/ziplist.c
 -rw-r--r-- jenkins    jenkins          2692 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/ziplist.h
 -rw-r--r-- jenkins    jenkins         16780 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/zipmap.c
+-rw-r--r-- jenkins    jenkins          2585 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/zipmap.h
 -rw-r--r-- jenkins    jenkins         10753 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/zmalloc.c
 -rw-r--r-- jenkins    jenkins          3373 ./usr/src/debug/redis/3.0.2-r0/redis-3.0.2/src/zmalloc.h

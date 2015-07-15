@@ -6,14 +6,14 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/.debug
 -rwxr-xr-x jenkins    jenkins         33904 ./usr/bin/.debug/gsl-randist
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins       4819404 ./usr/lib/.debug/libgsl.so.0.16.0
+-rwxr-xr-x jenkins    jenkins       5263160 ./usr/lib/.debug/libgsl.so.0.16.0
 -rwxr-xr-x jenkins    jenkins        565468 ./usr/lib/.debug/libgslcblas.so.0.0.0
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/gsl
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/gsl/1.15-r0
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/gsl/1.15-r0/build
-drwxr-xr-x jenkins    jenkins          2380 ./usr/src/debug/gsl/1.15-r0/build/gsl
+drwxr-xr-x jenkins    jenkins          2420 ./usr/src/debug/gsl/1.15-r0/build/gsl
 -rw-r--r-- jenkins    jenkins         21934 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_blas.h
 -rw-r--r-- jenkins    jenkins          1579 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_blas_types.h
 -rw-r--r-- jenkins    jenkins          2290 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_block_char.h
@@ -86,6 +86,7 @@ drwxr-xr-x jenkins    jenkins          2380 ./usr/src/debug/gsl/1.15-r0/build/gs
 -rw-r--r-- jenkins    jenkins          7760 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_odeiv.h
 -rw-r--r-- jenkins    jenkins         13700 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_odeiv2.h
 -rw-r--r-- jenkins    jenkins          3346 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_permutation.h
+-rw-r--r-- jenkins    jenkins          1527 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_permute_vector_complex_double.h
 -rw-r--r-- jenkins    jenkins          1455 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_permute_vector_double.h
 -rw-r--r-- jenkins    jenkins          5248 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_poly.h
 -rw-r--r-- jenkins    jenkins          2301 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_pow_int.h
@@ -104,6 +105,7 @@ drwxr-xr-x jenkins    jenkins          2380 ./usr/src/debug/gsl/1.15-r0/build/gs
 -rw-r--r-- jenkins    jenkins          4397 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_sf_expint.h
 -rw-r--r-- jenkins    jenkins          7750 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_sf_gamma.h
 -rw-r--r-- jenkins    jenkins          4517 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_sf_hyperg.h
+-rw-r--r-- jenkins    jenkins          2000 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_sf_laguerre.h
 -rw-r--r-- jenkins    jenkins          2062 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_sf_log.h
 -rw-r--r-- jenkins    jenkins          3945 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_sf_mathieu.h
 -rw-r--r-- jenkins    jenkins          1390 ./usr/src/debug/gsl/1.15-r0/build/gsl/gsl_sf_pow_int.h
@@ -819,7 +821,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/src/debug/gsl/1.15-r0/gsl-1.15
 -rw-r--r-- jenkins    jenkins          2495 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/sort/sortvecind_source.c
 -rw-r--r-- jenkins    jenkins          2968 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/sort/subset_source.c
 -rw-r--r-- jenkins    jenkins          3041 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/sort/subsetind_source.c
-drwxr-xr-x jenkins    jenkins          1760 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc
+drwxr-xr-x jenkins    jenkins          1780 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc
 -rw-r--r-- jenkins    jenkins         23546 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/airy.c
 -rw-r--r-- jenkins    jenkins         25629 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/airy_der.c
 -rw-r--r-- jenkins    jenkins         13637 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/airy_zero.c
@@ -886,6 +888,7 @@ drwxr-xr-x jenkins    jenkins          1760 ./usr/src/debug/gsl/1.15-r0/gsl-1.15
 -rw-r--r-- jenkins    jenkins         56820 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/hyperg_U.c
 -rw-r--r-- jenkins    jenkins          9960 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/laguerre.c
 -rw-r--r-- jenkins    jenkins          6176 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/lambert.c
+-rw-r--r-- jenkins    jenkins          2367 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/legendre.h
 -rw-r--r-- jenkins    jenkins         17453 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/legendre_H3d.c
 -rw-r--r-- jenkins    jenkins          9717 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/legendre_Qn.c
 -rw-r--r-- jenkins    jenkins         43329 ./usr/src/debug/gsl/1.15-r0/gsl-1.15/specfunc/legendre_con.c

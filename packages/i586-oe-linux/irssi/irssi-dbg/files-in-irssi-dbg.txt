@@ -2,7 +2,7 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins       2386920 ./usr/bin/.debug/irssi
+-rwxr-xr-x jenkins    jenkins       2609300 ./usr/bin/.debug/irssi
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/irssi
@@ -225,7 +225,7 @@ drwxr-xr-x jenkins    jenkins           740 ./usr/src/debug/irssi/0.8.15+0.8.16-
 -rw-r--r-- jenkins    jenkins         13177 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/fe-text/textbuffer.c
 -rw-r--r-- jenkins    jenkins          3022 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/fe-text/textbuffer.h
 drwxr-xr-x jenkins    jenkins           120 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc
-drwxr-xr-x jenkins    jenkins           880 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core
+drwxr-xr-x jenkins    jenkins           900 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core
 -rw-r--r-- jenkins    jenkins          9473 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/bans.c
 -rw-r--r-- jenkins    jenkins           425 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/bans.h
 -rw-r--r-- jenkins    jenkins         11308 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/channel-events.c
@@ -244,6 +244,7 @@ drwxr-xr-x jenkins    jenkins           880 ./usr/src/debug/irssi/0.8.15+0.8.16-
 -rw-r--r-- jenkins    jenkins          3486 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/irc-core.c
 -rw-r--r-- jenkins    jenkins          5263 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/irc-expandos.c
 -rw-r--r-- jenkins    jenkins          2341 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/irc-masks.c
+-rw-r--r-- jenkins    jenkins           260 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/irc-masks.h
 -rw-r--r-- jenkins    jenkins         14531 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/irc-nicklist.c
 -rw-r--r-- jenkins    jenkins           679 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/irc-nicklist.h
 -rw-r--r-- jenkins    jenkins          3422 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/core/irc-queries.c
@@ -299,9 +300,10 @@ drwxr-xr-x jenkins    jenkins           200 ./usr/src/debug/irssi/0.8.15+0.8.16-
 -rw-r--r-- jenkins    jenkins          4373 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/notifylist/notify-whois.c
 -rw-r--r-- jenkins    jenkins          8988 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/notifylist/notifylist.c
 -rw-r--r-- jenkins    jenkins           869 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/irc/notifylist/notifylist.h
-drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/lib-config
+drwxr-xr-x jenkins    jenkins           160 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/lib-config
 -rw-r--r-- jenkins    jenkins          7215 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/lib-config/get.c
 -rw-r--r-- jenkins    jenkins          6241 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/lib-config/iconfig.h
+-rw-r--r-- jenkins    jenkins           109 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/lib-config/module.h
 -rw-r--r-- jenkins    jenkins          9265 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/lib-config/parse.c
 -rw-r--r-- jenkins    jenkins          4491 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/lib-config/set.c
 -rw-r--r-- jenkins    jenkins          8462 ./usr/src/debug/irssi/0.8.15+0.8.16-rc1-r0/irssi-0.8.16-rc1/src/lib-config/write.c

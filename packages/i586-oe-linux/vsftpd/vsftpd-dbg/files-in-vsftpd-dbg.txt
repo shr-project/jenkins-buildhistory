@@ -2,12 +2,12 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/sbin
 drwxr-xr-x jenkins    jenkins            60 ./usr/sbin/.debug
--rwxr-xr-x jenkins    jenkins        268664 ./usr/sbin/.debug/vsftpd
+-rwxr-xr-x jenkins    jenkins        320360 ./usr/sbin/.debug/vsftpd
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/vsftpd
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/vsftpd/3.0.2-r0
-drwxr-xr-x jenkins    jenkins          1540 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2
+drwxr-xr-x jenkins    jenkins          1620 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2
 -rw-r--r-- jenkins    jenkins          1325 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/access.c
 -rw-r--r-- jenkins    jenkins           770 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/access.h
 -rw-r--r-- jenkins    jenkins          2015 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/ascii.c
@@ -15,6 +15,7 @@ drwxr-xr-x jenkins    jenkins          1540 ./usr/src/debug/vsftpd/3.0.2-r0/vsft
 -rw-r--r-- jenkins    jenkins          2126 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/banner.c
 -rw-r--r-- jenkins    jenkins          1097 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/banner.h
 -rw-r--r-- jenkins    jenkins          1213 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/features.c
+-rw-r--r-- jenkins    jenkins           144 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/features.h
 -rw-r--r-- jenkins    jenkins           107 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/filesize.h
 -rw-r--r-- jenkins    jenkins          1431 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/filestr.c
 -rw-r--r-- jenkins    jenkins           834 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/filestr.h
@@ -27,6 +28,7 @@ drwxr-xr-x jenkins    jenkins          1540 ./usr/src/debug/vsftpd/3.0.2-r0/vsft
 -rw-r--r-- jenkins    jenkins          3337 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/hash.c
 -rw-r--r-- jenkins    jenkins           469 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/hash.h
 -rw-r--r-- jenkins    jenkins          5017 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/ipaddrparse.c
+-rw-r--r-- jenkins    jenkins           566 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/ipaddrparse.h
 -rw-r--r-- jenkins    jenkins         10458 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/logging.c
 -rw-r--r-- jenkins    jenkins          2337 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/logging.h
 -rw-r--r-- jenkins    jenkins         14316 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/ls.c
@@ -37,11 +39,13 @@ drwxr-xr-x jenkins    jenkins          1540 ./usr/src/debug/vsftpd/3.0.2-r0/vsft
 -rw-r--r-- jenkins    jenkins          4220 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/oneprocess.c
 -rw-r--r-- jenkins    jenkins          2386 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/oneprocess.h
 -rw-r--r-- jenkins    jenkins           481 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/opts.c
+-rw-r--r-- jenkins    jenkins           132 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/opts.h
 -rw-r--r-- jenkins    jenkins         12422 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/parseconf.c
 -rw-r--r-- jenkins    jenkins          1158 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/parseconf.h
 -rw-r--r-- jenkins    jenkins         59072 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/postlogin.c
 -rw-r--r-- jenkins    jenkins           317 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/postlogin.h
 -rw-r--r-- jenkins    jenkins          4782 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/postprivparent.c
+-rw-r--r-- jenkins    jenkins           397 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/postprivparent.h
 -rw-r--r-- jenkins    jenkins          8449 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/prelogin.c
 -rw-r--r-- jenkins    jenkins           419 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/prelogin.h
 -rw-r--r-- jenkins    jenkins         11444 ./usr/src/debug/vsftpd/3.0.2-r0/vsftpd-3.0.2/privops.c

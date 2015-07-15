@@ -2,7 +2,7 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins       3996620 ./usr/lib/.debug/libtelepathy-glib.so.0.84.1
+-rwxr-xr-x jenkins    jenkins       4310268 ./usr/lib/.debug/libtelepathy-glib.so.0.84.1
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/telepathy-glib
@@ -98,7 +98,7 @@ drwxr-xr-x jenkins    jenkins          1780 ./usr/src/debug/telepathy-glib/0.24.
 -rw-r--r-- jenkins    jenkins          6825 ./usr/src/debug/telepathy-glib/0.24.0-r0/build/telepathy-glib/_gen/tp-svc-tls-cert.c
 -rw-r--r-- jenkins    jenkins          2504 ./usr/src/debug/telepathy-glib/0.24.0-r0/build/telepathy-glib/_gen/tp-svc-tls-cert.h
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0
-drwxr-xr-x jenkins    jenkins          4540 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib
+drwxr-xr-x jenkins    jenkins          4620 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib
 -rw-r--r-- jenkins    jenkins         85521 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/account-channel-request.c
 -rw-r--r-- jenkins    jenkins         10035 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/account-channel-request.h
 -rw-r--r-- jenkins    jenkins         47817 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/account-manager.c
@@ -142,6 +142,7 @@ drwxr-xr-x jenkins    jenkins          4540 ./usr/src/debug/telepathy-glib/0.24.
 -rw-r--r-- jenkins    jenkins          5565 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/base-media-call-stream.h
 -rw-r--r-- jenkins    jenkins         20650 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/base-password-channel.c
 -rw-r--r-- jenkins    jenkins          2676 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/base-password-channel.h
+-rw-r--r-- jenkins    jenkins          1114 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/base-protocol-internal.h
 -rw-r--r-- jenkins    jenkins         58405 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/base-protocol.c
 -rw-r--r-- jenkins    jenkins          7745 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/base-protocol.h
 -rw-r--r-- jenkins    jenkins         40290 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/base-room-config.c
@@ -164,6 +165,7 @@ drwxr-xr-x jenkins    jenkins          4540 ./usr/src/debug/telepathy-glib/0.24.
 -rw-r--r-- jenkins    jenkins         32305 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/capabilities.c
 -rw-r--r-- jenkins    jenkins          3988 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/capabilities.h
 -rw-r--r-- jenkins    jenkins         34715 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/channel-contacts.c
+-rw-r--r-- jenkins    jenkins          1227 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/channel-dispatch-operation-internal.h
 -rw-r--r-- jenkins    jenkins         56764 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/channel-dispatch-operation.c
 -rw-r--r-- jenkins    jenkins          7511 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/channel-dispatch-operation.h
 -rw-r--r-- jenkins    jenkins          7665 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/channel-dispatcher.c
@@ -205,6 +207,7 @@ drwxr-xr-x jenkins    jenkins          4540 ./usr/src/debug/telepathy-glib/0.24.
 -rw-r--r-- jenkins    jenkins          4839 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/contact-list-channel-internal.h
 -rw-r--r-- jenkins    jenkins         14914 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/contact-list-channel.c
 -rw-r--r-- jenkins    jenkins         12740 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/contact-operations.c
+-rw-r--r-- jenkins    jenkins          1321 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/contact-search-internal.h
 -rw-r--r-- jenkins    jenkins          7137 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/contact-search-result.c
 -rw-r--r-- jenkins    jenkins          3103 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/contact-search-result.h
 -rw-r--r-- jenkins    jenkins         20922 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/contact-search.c
@@ -315,6 +318,7 @@ drwxr-xr-x jenkins    jenkins          4540 ./usr/src/debug/telepathy-glib/0.24.
 -rw-r--r-- jenkins    jenkins          5966 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/text-channel.h
 -rw-r--r-- jenkins    jenkins         19775 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/text-mixin.c
 -rw-r--r-- jenkins    jenkins          4415 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/text-mixin.h
+-rw-r--r-- jenkins    jenkins          1148 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/tls-certificate-rejection-internal.h
 -rw-r--r-- jenkins    jenkins          8956 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/tls-certificate-rejection.c
 -rw-r--r-- jenkins    jenkins          3095 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/tls-certificate-rejection.h
 -rw-r--r-- jenkins    jenkins         26480 ./usr/src/debug/telepathy-glib/0.24.0-r0/telepathy-glib-0.24.0/telepathy-glib/tls-certificate.c

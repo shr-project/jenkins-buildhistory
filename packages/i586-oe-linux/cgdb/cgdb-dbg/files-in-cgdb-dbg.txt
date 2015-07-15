@@ -2,13 +2,13 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins        388580 ./usr/bin/.debug/cgdb
+-rwxr-xr-x jenkins    jenkins        409336 ./usr/bin/.debug/cgdb
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/cgdb
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/cgdb/0.6.8-r0
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8
-drwxr-xr-x jenkins    jenkins           440 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb
+drwxr-xr-x jenkins    jenkins           460 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb
 -rw-r--r-- jenkins    jenkins         54396 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/cgdb.c
 -rw-r--r-- jenkins    jenkins           918 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/cgdb.h
 -rw-r--r-- jenkins    jenkins         27592 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/cgdbrc.c
@@ -23,6 +23,7 @@ drwxr-xr-x jenkins    jenkins           440 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0
 -rw-r--r-- jenkins    jenkins         43518 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/interface.c
 -rw-r--r-- jenkins    jenkins          5227 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/interface.h
 -rw-r--r-- jenkins    jenkins          4658 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/logo.c
+-rw-r--r-- jenkins    jenkins           625 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/logo.h
 -rw-r--r-- jenkins    jenkins          9107 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/scroller.c
 -rw-r--r-- jenkins    jenkins          3350 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/scroller.h
 -rw-r--r-- jenkins    jenkins         26778 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/cgdb/sources.c
@@ -52,10 +53,11 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0
 -rw-r--r-- jenkins    jenkins         11347 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/rline/rline.c
 -rw-r--r-- jenkins    jenkins          8234 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/rline/rline.h
 drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb
-drwxr-xr-x jenkins    jenkins           280 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb/annotate-two
+drwxr-xr-x jenkins    jenkins           300 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb/annotate-two
 -rw-r--r-- jenkins    jenkins         11521 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb/annotate-two/a2-tgdb.c
 -rw-r--r-- jenkins    jenkins         10390 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb/annotate-two/a2-tgdb.h
 -rw-r--r-- jenkins    jenkins          9526 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb/annotate-two/annotate.c
+-rw-r--r-- jenkins    jenkins           359 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb/annotate-two/annotate.h
 -rw-r--r-- jenkins    jenkins          1994 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb/annotate-two/annotate_two.h
 -rw-r--r-- jenkins    jenkins         34736 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb/annotate-two/commands.c
 -rw-r--r-- jenkins    jenkins          5546 ./usr/src/debug/cgdb/0.6.8-r0/cgdb-0.6.8/lib/tgdb/annotate-two/commands.h

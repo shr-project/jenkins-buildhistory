@@ -2,13 +2,13 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins           180 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins        397672 ./usr/bin/.debug/controller
--rwxr-xr-x jenkins    jenkins        397960 ./usr/bin/.debug/dpctl
--rwxr-xr-x jenkins    jenkins        568720 ./usr/bin/.debug/ofdatapath
--rwxr-xr-x jenkins    jenkins        239968 ./usr/bin/.debug/ofp-discover
--rwxr-xr-x jenkins    jenkins         75848 ./usr/bin/.debug/ofp-kill
--rwxr-xr-x jenkins    jenkins        658784 ./usr/bin/.debug/ofprotocol
--rwxr-xr-x jenkins    jenkins        110376 ./usr/bin/.debug/vlogconf
+-rwxr-xr-x jenkins    jenkins        417712 ./usr/bin/.debug/controller
+-rwxr-xr-x jenkins    jenkins        420056 ./usr/bin/.debug/dpctl
+-rwxr-xr-x jenkins    jenkins        607088 ./usr/bin/.debug/ofdatapath
+-rwxr-xr-x jenkins    jenkins        262208 ./usr/bin/.debug/ofp-discover
+-rwxr-xr-x jenkins    jenkins         77696 ./usr/bin/.debug/ofp-kill
+-rwxr-xr-x jenkins    jenkins        698216 ./usr/bin/.debug/ofprotocol
+-rwxr-xr-x jenkins    jenkins        115564 ./usr/bin/.debug/vlogconf
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/openflow
@@ -23,7 +23,7 @@ drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/openflow/1.0+gitAUTO
 -rw-r--r-- jenkins    jenkins          2843 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/include/openflow/openflow-netlink.h
 -rw-r--r-- jenkins    jenkins         42168 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/include/openflow/openflow.h
 -rw-r--r-- jenkins    jenkins          2729 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/include/openflow/private-ext.h
-drwxr-xr-x jenkins    jenkins          1840 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib
+drwxr-xr-x jenkins    jenkins          1860 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib
 -rw-r--r-- jenkins    jenkins          3622 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/backtrace.c
 -rw-r--r-- jenkins    jenkins          1968 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/backtrace.h
 -rw-r--r-- jenkins    jenkins          2643 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/command-line.c
@@ -74,6 +74,7 @@ drwxr-xr-x jenkins    jenkins          1840 ./usr/src/debug/openflow/1.0+gitAUTO
 -rw-r--r-- jenkins    jenkins          3289 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/ofpstat.h
 -rw-r--r-- jenkins    jenkins          9367 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/packets.h
 -rw-r--r-- jenkins    jenkins          5829 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/pcap.c
+-rw-r--r-- jenkins    jenkins          2009 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/pcap.h
 -rw-r--r-- jenkins    jenkins          9708 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/poll-loop.c
 -rw-r--r-- jenkins    jenkins          3252 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/poll-loop.h
 -rw-r--r-- jenkins    jenkins          5812 ./usr/src/debug/openflow/1.0+gitAUTOINC+c84f33f09d-r0/git/lib/port-array.c

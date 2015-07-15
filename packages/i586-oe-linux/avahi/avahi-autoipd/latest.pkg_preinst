@@ -1,12 +1,12 @@
 #!/bin/sh
 bbnote () {
-	echo "NOTE: $*"
+	printf "%b\0" "bbnote $*" > /home/jenkins/oe/world/shr-core/tmp-glibc/work/i586-oe-linux/avahi/0.6.31-r11.1/temp/fifo.31465
 }
 bbwarn () {
-	echo "WARNING: $*"
+	printf "%b\0" "bbwarn $*" > /home/jenkins/oe/world/shr-core/tmp-glibc/work/i586-oe-linux/avahi/0.6.31-r11.1/temp/fifo.31465
 }
 bbfatal () {
-	echo "ERROR: $*"
+	printf "%b\0" "bbfatal $*" > /home/jenkins/oe/world/shr-core/tmp-glibc/work/i586-oe-linux/avahi/0.6.31-r11.1/temp/fifo.31465
 	exit 1
 }
 perform_groupadd () {

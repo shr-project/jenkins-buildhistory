@@ -6,14 +6,14 @@ drwxr-xr-x jenkins    jenkins           320 ./usr/bin
 -rwxr-xr-x jenkins    jenkins         37044 ./usr/bin/qbs-config
 -rwxr-xr-x jenkins    jenkins         60984 ./usr/bin/qbs-config-ui
 -rwxr-xr-x jenkins    jenkins         16328 ./usr/bin/qbs-qmltypes
--rwxr-xr-x jenkins    jenkins         78324 ./usr/bin/qbs-setup-qt
+-rwxr-xr-x jenkins    jenkins         78332 ./usr/bin/qbs-setup-qt
 -rwxr-xr-x jenkins    jenkins        158740 ./usr/bin/qbs-setup-toolchains
--rwxr-xr-x jenkins    jenkins        708052 ./usr/bin/qml2puppet
--rwxr-xr-x jenkins    jenkins        668560 ./usr/bin/qmlpuppet
+-rwxr-xr-x jenkins    jenkins        715508 ./usr/bin/qml2puppet
+-rwxr-xr-x jenkins    jenkins        674000 ./usr/bin/qmlpuppet
 -rwxr-xr-x jenkins    jenkins         66740 ./usr/bin/qtcreator
 -rwxr-xr-x jenkins    jenkins           950 ./usr/bin/qtcreator.sh
 -rwxr-xr-x jenkins    jenkins          9328 ./usr/bin/qtcreator_process_stub
--rwxr-xr-x jenkins    jenkins         36608 ./usr/bin/qtpromaker
+-rwxr-xr-x jenkins    jenkins         36576 ./usr/bin/qtpromaker
 -rwxr-xr-x jenkins    jenkins        200280 ./usr/bin/sdktool
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qt5
@@ -23,13 +23,13 @@ lrwxrwxrwx jenkins    jenkins            23 ./usr/lib/qt5/qtcreator/libAggregati
 -rwxr-xr-x jenkins    jenkins         17268 ./usr/lib/qt5/qtcreator/libAggregation.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/qt5/qtcreator/libCPlusPlus.so.1 -> libCPlusPlus.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/qt5/qtcreator/libCPlusPlus.so.1.0 -> libCPlusPlus.so.1.0.0
--rwxr-xr-x jenkins    jenkins       2055676 ./usr/lib/qt5/qtcreator/libCPlusPlus.so.1.0.0
+-rwxr-xr-x jenkins    jenkins       2055420 ./usr/lib/qt5/qtcreator/libCPlusPlus.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            27 ./usr/lib/qt5/qtcreator/libExtensionSystem.so.1 -> libExtensionSystem.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            27 ./usr/lib/qt5/qtcreator/libExtensionSystem.so.1.0 -> libExtensionSystem.so.1.0.0
 -rwxr-xr-x jenkins    jenkins        230156 ./usr/lib/qt5/qtcreator/libExtensionSystem.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            16 ./usr/lib/qt5/qtcreator/libGLSL.so.1 -> libGLSL.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            16 ./usr/lib/qt5/qtcreator/libGLSL.so.1.0 -> libGLSL.so.1.0.0
--rwxr-xr-x jenkins    jenkins        306312 ./usr/lib/qt5/qtcreator/libGLSL.so.1.0.0
+-rwxr-xr-x jenkins    jenkins        306984 ./usr/lib/qt5/qtcreator/libGLSL.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            25 ./usr/lib/qt5/qtcreator/libLanguageUtils.so.1 -> libLanguageUtils.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            25 ./usr/lib/qt5/qtcreator/libLanguageUtils.so.1.0 -> libLanguageUtils.so.1.0.0
 -rwxr-xr-x jenkins    jenkins         55544 ./usr/lib/qt5/qtcreator/libLanguageUtils.so.1.0.0
@@ -41,10 +41,10 @@ lrwxrwxrwx jenkins    jenkins            28 ./usr/lib/qt5/qtcreator/libQmlEditor
 -rwxr-xr-x jenkins    jenkins        437888 ./usr/lib/qt5/qtcreator/libQmlEditorWidgets.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            17 ./usr/lib/qt5/qtcreator/libQmlJS.so.1 -> libQmlJS.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            17 ./usr/lib/qt5/qtcreator/libQmlJS.so.1.0 -> libQmlJS.so.1.0.0
--rwxr-xr-x jenkins    jenkins       1650812 ./usr/lib/qt5/qtcreator/libQmlJS.so.1.0.0
+-rwxr-xr-x jenkins    jenkins       1654908 ./usr/lib/qt5/qtcreator/libQmlJS.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            18 ./usr/lib/qt5/qtcreator/libQtcSsh.so.1 -> libQtcSsh.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            18 ./usr/lib/qt5/qtcreator/libQtcSsh.so.1.0 -> libQtcSsh.so.1.0.0
--rwxr-xr-x jenkins    jenkins       2442316 ./usr/lib/qt5/qtcreator/libQtcSsh.so.1.0.0
+-rwxr-xr-x jenkins    jenkins       2438220 ./usr/lib/qt5/qtcreator/libQtcSsh.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            17 ./usr/lib/qt5/qtcreator/libUtils.so.1 -> libUtils.so.1.0.0
 lrwxrwxrwx jenkins    jenkins            17 ./usr/lib/qt5/qtcreator/libUtils.so.1.0 -> libUtils.so.1.0.0
 -rwxr-xr-x jenkins    jenkins       1340460 ./usr/lib/qt5/qtcreator/libUtils.so.1.0.0
@@ -53,31 +53,31 @@ lrwxrwxrwx jenkins    jenkins            19 ./usr/lib/qt5/qtcreator/libqbscore.s
 -rwxr-xr-x jenkins    jenkins       2061484 ./usr/lib/qt5/qtcreator/libqbscore.so.1.3.4
 lrwxrwxrwx jenkins    jenkins            29 ./usr/lib/qt5/qtcreator/libqbsqtprofilesetup.so.1 -> libqbsqtprofilesetup.so.1.3.4
 lrwxrwxrwx jenkins    jenkins            29 ./usr/lib/qt5/qtcreator/libqbsqtprofilesetup.so.1.3 -> libqbsqtprofilesetup.so.1.3.4
--rwxr-xr-x jenkins    jenkins        144568 ./usr/lib/qt5/qtcreator/libqbsqtprofilesetup.so.1.3.4
+-rwxr-xr-x jenkins    jenkins        146020 ./usr/lib/qt5/qtcreator/libqbsqtprofilesetup.so.1.3.4
 drwxr-xr-x jenkins    jenkins          1100 ./usr/lib/qt5/qtcreator/plugins
 -rwxr-xr-x jenkins    jenkins        155096 ./usr/lib/qt5/qtcreator/plugins/libAnalyzerBase.so
--rwxr-xr-x jenkins    jenkins        832720 ./usr/lib/qt5/qtcreator/plugins/libAndroid.so
+-rwxr-xr-x jenkins    jenkins        834864 ./usr/lib/qt5/qtcreator/plugins/libAndroid.so
 -rwxr-xr-x jenkins    jenkins        213768 ./usr/lib/qt5/qtcreator/plugins/libAutotoolsProjectManager.so
 -rwxr-xr-x jenkins    jenkins        117440 ./usr/lib/qt5/qtcreator/plugins/libBareMetal.so
 -rwxr-xr-x jenkins    jenkins        226976 ./usr/lib/qt5/qtcreator/plugins/libBazaar.so
--rwxr-xr-x jenkins    jenkins        262760 ./usr/lib/qt5/qtcreator/plugins/libBeautifier.so
+-rwxr-xr-x jenkins    jenkins        262824 ./usr/lib/qt5/qtcreator/plugins/libBeautifier.so
 -rwxr-xr-x jenkins    jenkins        131576 ./usr/lib/qt5/qtcreator/plugins/libBinEditor.so
 -rwxr-xr-x jenkins    jenkins        112080 ./usr/lib/qt5/qtcreator/plugins/libBookmarks.so
 -rwxr-xr-x jenkins    jenkins        385140 ./usr/lib/qt5/qtcreator/plugins/libCMakeProjectManager.so
 -rwxr-xr-x jenkins    jenkins        201332 ./usr/lib/qt5/qtcreator/plugins/libCVS.so
--rwxr-xr-x jenkins    jenkins        132508 ./usr/lib/qt5/qtcreator/plugins/libClassView.so
+-rwxr-xr-x jenkins    jenkins        132540 ./usr/lib/qt5/qtcreator/plugins/libClassView.so
 -rwxr-xr-x jenkins    jenkins        282828 ./usr/lib/qt5/qtcreator/plugins/libClearCase.so
--rwxr-xr-x jenkins    jenkins        201516 ./usr/lib/qt5/qtcreator/plugins/libCodePaster.so
--rwxr-xr-x jenkins    jenkins       2505000 ./usr/lib/qt5/qtcreator/plugins/libCore.so
--rwxr-xr-x jenkins    jenkins       1070604 ./usr/lib/qt5/qtcreator/plugins/libCppEditor.so
--rwxr-xr-x jenkins    jenkins       1311596 ./usr/lib/qt5/qtcreator/plugins/libCppTools.so
--rwxr-xr-x jenkins    jenkins       3183092 ./usr/lib/qt5/qtcreator/plugins/libDebugger.so
+-rwxr-xr-x jenkins    jenkins        201548 ./usr/lib/qt5/qtcreator/plugins/libCodePaster.so
+-rwxr-xr-x jenkins    jenkins       2506056 ./usr/lib/qt5/qtcreator/plugins/libCore.so
+-rwxr-xr-x jenkins    jenkins       1073260 ./usr/lib/qt5/qtcreator/plugins/libCppEditor.so
+-rwxr-xr-x jenkins    jenkins       1314092 ./usr/lib/qt5/qtcreator/plugins/libCppTools.so
+-rwxr-xr-x jenkins    jenkins       3187188 ./usr/lib/qt5/qtcreator/plugins/libDebugger.so
 -rwxr-xr-x jenkins    jenkins        298256 ./usr/lib/qt5/qtcreator/plugins/libDesigner.so
 -rwxr-xr-x jenkins    jenkins        389516 ./usr/lib/qt5/qtcreator/plugins/libDiffEditor.so
 -rwxr-xr-x jenkins    jenkins         33920 ./usr/lib/qt5/qtcreator/plugins/libEmacsKeys.so
--rwxr-xr-x jenkins    jenkins        483752 ./usr/lib/qt5/qtcreator/plugins/libFakeVim.so
+-rwxr-xr-x jenkins    jenkins        486984 ./usr/lib/qt5/qtcreator/plugins/libFakeVim.so
 -rwxr-xr-x jenkins    jenkins        116164 ./usr/lib/qt5/qtcreator/plugins/libGLSLEditor.so
--rwxr-xr-x jenkins    jenkins        180064 ./usr/lib/qt5/qtcreator/plugins/libGenericProjectManager.so
+-rwxr-xr-x jenkins    jenkins        180640 ./usr/lib/qt5/qtcreator/plugins/libGenericProjectManager.so
 -rwxr-xr-x jenkins    jenkins        865388 ./usr/lib/qt5/qtcreator/plugins/libGit.so
 -rwxr-xr-x jenkins    jenkins         26124 ./usr/lib/qt5/qtcreator/plugins/libHelloWorld.so
 -rwxr-xr-x jenkins    jenkins        542164 ./usr/lib/qt5/qtcreator/plugins/libHelp.so
@@ -85,28 +85,28 @@ drwxr-xr-x jenkins    jenkins          1100 ./usr/lib/qt5/qtcreator/plugins
 -rwxr-xr-x jenkins    jenkins        477988 ./usr/lib/qt5/qtcreator/plugins/libIos.so
 -rwxr-xr-x jenkins    jenkins        136484 ./usr/lib/qt5/qtcreator/plugins/libMacros.so
 -rwxr-xr-x jenkins    jenkins        210400 ./usr/lib/qt5/qtcreator/plugins/libMercurial.so
--rwxr-xr-x jenkins    jenkins        227004 ./usr/lib/qt5/qtcreator/plugins/libPerforce.so
--rwxr-xr-x jenkins    jenkins       3466368 ./usr/lib/qt5/qtcreator/plugins/libProjectExplorer.so
+-rwxr-xr-x jenkins    jenkins        229052 ./usr/lib/qt5/qtcreator/plugins/libPerforce.so
+-rwxr-xr-x jenkins    jenkins       3470464 ./usr/lib/qt5/qtcreator/plugins/libProjectExplorer.so
 -rwxr-xr-x jenkins    jenkins         40344 ./usr/lib/qt5/qtcreator/plugins/libPythonEditor.so
 -rwxr-xr-x jenkins    jenkins        491372 ./usr/lib/qt5/qtcreator/plugins/libQbsProjectManager.so
 -rwxr-xr-x jenkins    jenkins        167476 ./usr/lib/qt5/qtcreator/plugins/libQmakeAndroidSupport.so
--rwxr-xr-x jenkins    jenkins       1242676 ./usr/lib/qt5/qtcreator/plugins/libQmakeProjectManager.so
+-rwxr-xr-x jenkins    jenkins       1242836 ./usr/lib/qt5/qtcreator/plugins/libQmakeProjectManager.so
 -rwxr-xr-x jenkins    jenkins        700936 ./usr/lib/qt5/qtcreator/plugins/libQmlJSEditor.so
--rwxr-xr-x jenkins    jenkins        336676 ./usr/lib/qt5/qtcreator/plugins/libQmlJSTools.so
--rwxr-xr-x jenkins    jenkins        680400 ./usr/lib/qt5/qtcreator/plugins/libQmlProfiler.so
--rwxr-xr-x jenkins    jenkins        262492 ./usr/lib/qt5/qtcreator/plugins/libQmlProjectManager.so
+-rwxr-xr-x jenkins    jenkins        336644 ./usr/lib/qt5/qtcreator/plugins/libQmlJSTools.so
+-rwxr-xr-x jenkins    jenkins        680528 ./usr/lib/qt5/qtcreator/plugins/libQmlProfiler.so
+-rwxr-xr-x jenkins    jenkins        262620 ./usr/lib/qt5/qtcreator/plugins/libQmlProjectManager.so
 -rwxr-xr-x jenkins    jenkins       1421608 ./usr/lib/qt5/qtcreator/plugins/libQnx.so
--rwxr-xr-x jenkins    jenkins        942068 ./usr/lib/qt5/qtcreator/plugins/libQtSupport.so
+-rwxr-xr-x jenkins    jenkins        945972 ./usr/lib/qt5/qtcreator/plugins/libQtSupport.so
 -rwxr-xr-x jenkins    jenkins        590904 ./usr/lib/qt5/qtcreator/plugins/libRemoteLinux.so
 -rwxr-xr-x jenkins    jenkins        237624 ./usr/lib/qt5/qtcreator/plugins/libResourceEditor.so
 -rwxr-xr-x jenkins    jenkins        197404 ./usr/lib/qt5/qtcreator/plugins/libSubversion.so
 -rwxr-xr-x jenkins    jenkins         31596 ./usr/lib/qt5/qtcreator/plugins/libTaskList.so
 -rwxr-xr-x jenkins    jenkins       1695508 ./usr/lib/qt5/qtcreator/plugins/libTextEditor.so
 -rwxr-xr-x jenkins    jenkins        176044 ./usr/lib/qt5/qtcreator/plugins/libTodo.so
--rwxr-xr-x jenkins    jenkins        699060 ./usr/lib/qt5/qtcreator/plugins/libValgrind.so
--rwxr-xr-x jenkins    jenkins        598972 ./usr/lib/qt5/qtcreator/plugins/libVcsBase.so
+-rwxr-xr-x jenkins    jenkins        699476 ./usr/lib/qt5/qtcreator/plugins/libValgrind.so
+-rwxr-xr-x jenkins    jenkins        598684 ./usr/lib/qt5/qtcreator/plugins/libVcsBase.so
 -rwxr-xr-x jenkins    jenkins         52172 ./usr/lib/qt5/qtcreator/plugins/libWelcome.so
--rwxr-xr-x jenkins    jenkins        170972 ./usr/lib/qt5/qtcreator/plugins/libWinRt.so
+-rwxr-xr-x jenkins    jenkins        170940 ./usr/lib/qt5/qtcreator/plugins/libWinRt.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qt5/qtcreator/plugins/qbs
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qt5/qtcreator/plugins/qbs/plugins
 -rwxr-xr-x jenkins    jenkins         24924 ./usr/lib/qt5/qtcreator/plugins/qbs/plugins/libqbs_cpp_scanner.so

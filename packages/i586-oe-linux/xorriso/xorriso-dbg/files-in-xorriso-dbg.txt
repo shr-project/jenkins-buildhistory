@@ -2,13 +2,13 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins       2318772 ./usr/bin/.debug/xorriso
+-rwxr-xr-x jenkins    jenkins       2895244 ./usr/bin/.debug/xorriso
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/xorriso
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/xorriso/1.4.0-r0
 drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0
-drwxr-xr-x jenkins    jenkins           940 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn
+drwxr-xr-x jenkins    jenkins           960 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn
 -rw-r--r-- jenkins    jenkins         19782 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/async.c
 -rw-r--r-- jenkins    jenkins           487 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/async.h
 -rw-r--r-- jenkins    jenkins          1712 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/back_hacks.h
@@ -49,6 +49,7 @@ drwxr-xr-x jenkins    jenkins           940 ./usr/src/debug/xorriso/1.4.0-r0/xor
 -rw-r--r-- jenkins    jenkins         52804 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/structure.c
 -rw-r--r-- jenkins    jenkins          4889 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/structure.h
 -rw-r--r-- jenkins    jenkins          4030 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/toc.c
+-rw-r--r-- jenkins    jenkins          1779 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/toc.h
 -rw-r--r-- jenkins    jenkins         14485 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/transport.h
 -rw-r--r-- jenkins    jenkins         12609 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/util.c
 -rw-r--r-- jenkins    jenkins           505 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libburn/util.h
@@ -124,10 +125,11 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/xorriso/1.4.0-r0/xor
 -rw-r--r-- jenkins    jenkins          8616 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libisofs/util_htable.c
 -rw-r--r-- jenkins    jenkins          7857 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libisofs/util_rbtree.c
 -rw-r--r-- jenkins    jenkins          1055 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libisofs/writer.h
-drwxr-xr-x jenkins    jenkins           400 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte
+drwxr-xr-x jenkins    jenkins           420 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte
 -rw-r--r-- jenkins    jenkins         14563 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/checksum.c
 -rw-r--r-- jenkins    jenkins          2625 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/checksum.h
 -rw-r--r-- jenkins    jenkins          4520 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/endian.c
+-rw-r--r-- jenkins    jenkins          1114 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/endianconv.h
 -rw-r--r-- jenkins    jenkins         36325 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/jte.c
 -rw-r--r-- jenkins    jenkins          3635 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/jte.h
 -rw-r--r-- jenkins    jenkins         12706 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/libjte.c
@@ -143,10 +145,11 @@ drwxr-xr-x jenkins    jenkins           400 ./usr/src/debug/xorriso/1.4.0-r0/xor
 -rw-r--r-- jenkins    jenkins          2325 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/sha256.h
 -rw-r--r-- jenkins    jenkins         14585 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/sha512.c
 -rw-r--r-- jenkins    jenkins          2326 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/libjte/sha512.h
-drwxr-xr-x jenkins    jenkins           960 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso
+drwxr-xr-x jenkins    jenkins          1000 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso
 -rw-r--r-- jenkins    jenkins         22940 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/aux_objects.c
 -rw-r--r-- jenkins    jenkins          6607 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/aux_objects.h
 -rw-r--r-- jenkins    jenkins         18990 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/base_obj.c
+-rw-r--r-- jenkins    jenkins           630 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/base_obj.h
 -rw-r--r-- jenkins    jenkins         32591 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/check_media.c
 -rw-r--r-- jenkins    jenkins          6950 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/check_media.h
 -rw-r--r-- jenkins    jenkins         32697 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/cmp_update.c
@@ -186,6 +189,7 @@ drwxr-xr-x jenkins    jenkins           960 ./usr/src/debug/xorriso/1.4.0-r0/xor
 -rw-r--r-- jenkins    jenkins        140087 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/text_io.c
 -rw-r--r-- jenkins    jenkins          4283 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/text_io.h
 -rw-r--r-- jenkins    jenkins        107112 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/write_run.c
+-rw-r--r-- jenkins    jenkins          1941 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/write_run.h
 -rw-r--r-- jenkins    jenkins         87560 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/xorriso.h
 -rw-r--r-- jenkins    jenkins         10520 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/xorriso_main.c
 -rw-r--r-- jenkins    jenkins         29590 ./usr/src/debug/xorriso/1.4.0-r0/xorriso-1.4.0/xorriso/xorriso_private.h

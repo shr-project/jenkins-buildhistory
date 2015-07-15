@@ -2,11 +2,11 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins           100 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            80 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins       1239276 ./usr/bin/.debug/bsdcpio
--rwxr-xr-x jenkins    jenkins       1308444 ./usr/bin/.debug/bsdtar
+-rwxr-xr-x jenkins    jenkins       1402588 ./usr/bin/.debug/bsdcpio
+-rwxr-xr-x jenkins    jenkins       1481852 ./usr/bin/.debug/bsdtar
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins       1244224 ./usr/lib/.debug/libarchive.so.13.1.2
+-rwxr-xr-x jenkins    jenkins       1449308 ./usr/lib/.debug/libarchive.so.13.1.2
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/libarchive
@@ -16,7 +16,7 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/libarchive/3.1.2-r0/
 -rw-r--r-- jenkins    jenkins         10666 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/cpio/cmdline.c
 -rw-r--r-- jenkins    jenkins         37709 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/cpio/cpio.c
 -rw-r--r-- jenkins    jenkins          3586 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/cpio/cpio.h
-drwxr-xr-x jenkins    jenkins          2420 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive
+drwxr-xr-x jenkins    jenkins          2440 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive
 -rw-r--r-- jenkins    jenkins         46254 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive.h
 -rw-r--r-- jenkins    jenkins         32188 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive_acl.c
 -rw-r--r-- jenkins    jenkins          3505 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive_acl_private.h
@@ -112,6 +112,7 @@ drwxr-xr-x jenkins    jenkins          2420 ./usr/src/debug/libarchive/3.1.2-r0/
 -rw-r--r-- jenkins    jenkins         14607 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive_write_add_filter_xz.c
 -rw-r--r-- jenkins    jenkins          8052 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive_write_disk_acl.c
 -rw-r--r-- jenkins    jenkins        107836 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive_write_disk_posix.c
+-rw-r--r-- jenkins    jenkins          1848 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive_write_disk_private.h
 -rw-r--r-- jenkins    jenkins          7230 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive_write_disk_set_standard_lookup.c
 -rw-r--r-- jenkins    jenkins          4031 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive_write_open_fd.c
 -rw-r--r-- jenkins    jenkins          3047 ./usr/src/debug/libarchive/3.1.2-r0/libarchive-3.1.2/libarchive/archive_write_open_file.c

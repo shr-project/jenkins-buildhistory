@@ -1,10 +1,10 @@
 PV = 5.4.2+gitAUTOINC+134dc76b7f
 PR = r0
 PKGV = 5.4.2+git0+134dc76b7f
-PKGR = r0.9
+PKGR = r0.10
 PKG = libenginio1
 RPROVIDES = qtenginio
-RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.2) qtbase (>= 5.4.2+git0+2cb17c1fb9)
+RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.3) qtbase (>= 5.4.2+git0+2cb17c1fb9)
 RRECOMMENDS = 
 PKGSIZE = 306026
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/qtenginio/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtenginio /usr/lib/qtenginio/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

@@ -2,10 +2,10 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins           120 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins        126616 ./usr/bin/.debug/cmp.diffutils
--rwxr-xr-x jenkins    jenkins        504420 ./usr/bin/.debug/diff.diffutils
--rwxr-xr-x jenkins    jenkins        148552 ./usr/bin/.debug/diff3
--rwxr-xr-x jenkins    jenkins        120756 ./usr/bin/.debug/sdiff
+-rwxr-xr-x jenkins    jenkins        132540 ./usr/bin/.debug/cmp.diffutils
+-rwxr-xr-x jenkins    jenkins        559680 ./usr/bin/.debug/diff.diffutils
+-rwxr-xr-x jenkins    jenkins        162772 ./usr/bin/.debug/diff3
+-rwxr-xr-x jenkins    jenkins        126680 ./usr/bin/.debug/sdiff
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/diffutils
@@ -21,7 +21,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/diffutils/3.3-r0/bui
 -rw-r--r-- jenkins    jenkins            49 ./usr/src/debug/diffutils/3.3-r0/build/src/version.c
 -rw-r--r-- jenkins    jenkins            28 ./usr/src/debug/diffutils/3.3-r0/build/src/version.h
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3
-drwxr-xr-x jenkins    jenkins          1980 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib
+drwxr-xr-x jenkins    jenkins          2040 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib
 -rw-r--r-- jenkins    jenkins           169 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/allocator.c
 -rw-r--r-- jenkins    jenkins          2204 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/allocator.h
 -rw-r--r-- jenkins    jenkins          1558 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/anytostr.c
@@ -49,6 +49,7 @@ drwxr-xr-x jenkins    jenkins          1980 ./usr/src/debug/diffutils/3.3-r0/dif
 -rw-r--r-- jenkins    jenkins           770 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/exitfail.h
 -rw-r--r-- jenkins    jenkins          9729 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/fcntl.c
 -rw-r--r-- jenkins    jenkins          1899 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/file-type.c
+-rw-r--r-- jenkins    jenkins          1024 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/file-type.h
 -rw-r--r-- jenkins    jenkins          2850 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/filenamecat-lgpl.c
 -rw-r--r-- jenkins    jenkins          1298 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/filenamecat.c
 -rw-r--r-- jenkins    jenkins          1060 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/filenamecat.h
@@ -100,6 +101,7 @@ drwxr-xr-x jenkins    jenkins          1980 ./usr/src/debug/diffutils/3.3-r0/dif
 -rw-r--r-- jenkins    jenkins          2880 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/striconv.h
 -rw-r--r-- jenkins    jenkins          1269 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/strnlen1.c
 -rw-r--r-- jenkins    jenkins          1223 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/strnlen1.h
+-rw-r--r-- jenkins    jenkins          3217 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/timespec.h
 -rw-r--r-- jenkins    jenkins          3184 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/trim.c
 -rw-r--r-- jenkins    jenkins          1197 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/trim.h
 -rw-r--r-- jenkins    jenkins          1154 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/version-etc-fsf.c
@@ -112,6 +114,7 @@ drwxr-xr-x jenkins    jenkins          1980 ./usr/src/debug/diffutils/3.3-r0/dif
 -rw-r--r-- jenkins    jenkins            85 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/xfreopen.h
 -rw-r--r-- jenkins    jenkins          3383 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/xmalloc.c
 -rw-r--r-- jenkins    jenkins          1472 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/xreadlink.c
+-rw-r--r-- jenkins    jenkins           970 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/xreadlink.h
 -rw-r--r-- jenkins    jenkins          3550 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/xsize.h
 -rw-r--r-- jenkins    jenkins          1615 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/xstriconv.c
 -rw-r--r-- jenkins    jenkins          3118 ./usr/src/debug/diffutils/3.3-r0/diffutils-3.3/lib/xstriconv.h

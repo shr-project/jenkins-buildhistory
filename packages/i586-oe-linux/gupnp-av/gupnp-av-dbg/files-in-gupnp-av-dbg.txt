@@ -2,13 +2,13 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins        382136 ./usr/lib/.debug/libgupnp-av-1.0.so.2.0.0
+-rwxr-xr-x jenkins    jenkins        415560 ./usr/lib/.debug/libgupnp-av-1.0.so.2.0.0
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/gupnp-av
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/gupnp-av/0.12.6-r0
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6
-drwxr-xr-x jenkins    jenkins          1080 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av
+drwxr-xr-x jenkins    jenkins          1140 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av
 -rw-r--r-- jenkins    jenkins         32313 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/fragment-util.c
 -rw-r--r-- jenkins    jenkins          1747 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/fragment-util.h
 -rw-r--r-- jenkins    jenkins          2414 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-av-enums.h
@@ -22,6 +22,7 @@ drwxr-xr-x jenkins    jenkins          1080 ./usr/src/debug/gupnp-av/0.12.6-r0/g
 -rw-r--r-- jenkins    jenkins          1349 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-contributor-private.h
 -rw-r--r-- jenkins    jenkins         12135 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-contributor.c
 -rw-r--r-- jenkins    jenkins          3330 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-contributor.h
+-rw-r--r-- jenkins    jenkins          1428 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-createclass-private.h
 -rw-r--r-- jenkins    jenkins         15746 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-createclass.c
 -rw-r--r-- jenkins    jenkins          4062 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-createclass.h
 -rw-r--r-- jenkins    jenkins          1349 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-descriptor-private.h
@@ -32,6 +33,7 @@ drwxr-xr-x jenkins    jenkins          1080 ./usr/src/debug/gupnp-av/0.12.6-r0/g
 -rw-r--r-- jenkins    jenkins          1784 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-object-private.h
 -rw-r--r-- jenkins    jenkins         86953 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-object.c
 -rw-r--r-- jenkins    jenkins         10415 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-object.h
+-rw-r--r-- jenkins    jenkins          1373 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-parser-private.h
 -rw-r--r-- jenkins    jenkins         14008 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-parser.c
 -rw-r--r-- jenkins    jenkins          3282 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-parser.h
 -rw-r--r-- jenkins    jenkins          1437 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-didl-lite-resource-private.h
@@ -55,6 +57,7 @@ drwxr-xr-x jenkins    jenkins          1080 ./usr/src/debug/gupnp-av/0.12.6-r0/g
 -rw-r--r-- jenkins    jenkins         21147 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-search-criteria-parser.c
 -rw-r--r-- jenkins    jenkins          5487 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gupnp-search-criteria-parser.h
 -rw-r--r-- jenkins    jenkins          4475 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gvalue-util.c
+-rw-r--r-- jenkins    jenkins          1100 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/gvalue-util.h
 -rw-r--r-- jenkins    jenkins          1871 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/time-utils.c
 -rw-r--r-- jenkins    jenkins          1077 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/time-utils.h
 -rw-r--r-- jenkins    jenkins         15660 ./usr/src/debug/gupnp-av/0.12.6-r0/gupnp-av-0.12.6/libgupnp-av/xml-util.c

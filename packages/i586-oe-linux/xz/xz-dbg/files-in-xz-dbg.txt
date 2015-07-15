@@ -2,13 +2,13 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins           100 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins           120 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins         18020 ./usr/bin/.debug/lzmadec
--rwxr-xr-x jenkins    jenkins         18292 ./usr/bin/.debug/lzmainfo
--rwxr-xr-x jenkins    jenkins        130072 ./usr/bin/.debug/xz
--rwxr-xr-x jenkins    jenkins         18108 ./usr/bin/.debug/xzdec
+-rwxr-xr-x jenkins    jenkins         18588 ./usr/bin/.debug/lzmadec
+-rwxr-xr-x jenkins    jenkins         18924 ./usr/bin/.debug/lzmainfo
+-rwxr-xr-x jenkins    jenkins        149152 ./usr/bin/.debug/xz
+-rwxr-xr-x jenkins    jenkins         18676 ./usr/bin/.debug/xzdec
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins        487344 ./usr/lib/.debug/liblzma.so.5.2.1
+-rwxr-xr-x jenkins    jenkins        500240 ./usr/lib/.debug/liblzma.so.5.2.1
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/xz
@@ -56,7 +56,7 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1
 -rw-r--r-- jenkins    jenkins         31882 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/check/crc64_table_le.h
 -rw-r--r-- jenkins    jenkins          6761 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/check/crc64_x86.S
 -rw-r--r-- jenkins    jenkins          5405 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/check/sha256.c
-drwxr-xr-x jenkins    jenkins          1140 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common
+drwxr-xr-x jenkins    jenkins          1160 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common
 -rw-r--r-- jenkins    jenkins          5615 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/alone_decoder.c
 -rw-r--r-- jenkins    jenkins           601 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/alone_decoder.h
 -rw-r--r-- jenkins    jenkins          3697 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/alone_encoder.c
@@ -95,6 +95,7 @@ drwxr-xr-x jenkins    jenkins          1140 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1
 -rw-r--r-- jenkins    jenkins          1978 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/index.h
 -rw-r--r-- jenkins    jenkins          8444 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/index_decoder.c
 -rw-r--r-- jenkins    jenkins          5792 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/index_encoder.c
+-rw-r--r-- jenkins    jenkins           584 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/index_encoder.h
 -rw-r--r-- jenkins    jenkins          8981 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/index_hash.c
 -rw-r--r-- jenkins    jenkins          5074 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/memcmplen.h
 -rw-r--r-- jenkins    jenkins          4586 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/common/outqueue.c
@@ -157,7 +158,7 @@ drwxr-xr-x jenkins    jenkins           240 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1
 -rw-r--r-- jenkins    jenkins          3465 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/liblzma/simple/x86.c
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/lzmainfo
 -rw-r--r-- jenkins    jenkins          4853 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/lzmainfo/lzmainfo.c
-drwxr-xr-x jenkins    jenkins           480 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz
+drwxr-xr-x jenkins    jenkins           520 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz
 -rw-r--r-- jenkins    jenkins         17340 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/args.c
 -rw-r--r-- jenkins    jenkins          1129 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/args.h
 -rw-r--r-- jenkins    jenkins         25592 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/coder.c
@@ -175,9 +176,11 @@ drwxr-xr-x jenkins    jenkins           480 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1
 -rw-r--r-- jenkins    jenkins          2056 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/mytime.c
 -rw-r--r-- jenkins    jenkins          1518 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/mytime.h
 -rw-r--r-- jenkins    jenkins          7693 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/options.c
+-rw-r--r-- jenkins    jenkins           977 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/options.h
 -rw-r--r-- jenkins    jenkins          4950 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/signals.c
 -rw-r--r-- jenkins    jenkins          1473 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/signals.h
 -rw-r--r-- jenkins    jenkins         10365 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/suffix.c
+-rw-r--r-- jenkins    jenkins          1109 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/suffix.h
 -rw-r--r-- jenkins    jenkins          6670 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/util.c
 -rw-r--r-- jenkins    jenkins          4450 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xz/util.h
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/xz/5.2.1-r0/xz-5.2.1/src/xzdec

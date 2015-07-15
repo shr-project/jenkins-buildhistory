@@ -2,7 +2,7 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins       2187752 ./usr/bin/.debug/x11vnc
+-rwxr-xr-x jenkins    jenkins       2742288 ./usr/bin/.debug/x11vnc
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/x11vnc
@@ -78,7 +78,7 @@ drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/x11vnc/0.9.13-r0/x11
 -rw-r--r-- jenkins    jenkins         13466 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/rfb/rfbclient.h
 -rw-r--r-- jenkins    jenkins         50418 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/rfb/rfbproto.h
 -rwxr-xr-x jenkins    jenkins          1875 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/rfb/rfbregion.h
-drwxr-xr-x jenkins    jenkins          1700 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc
+drwxr-xr-x jenkins    jenkins          1780 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc
 -rw-r--r-- jenkins    jenkins         48518 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/8to24.c
 -rw-r--r-- jenkins    jenkins          1663 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/8to24.h
 -rw-r--r-- jenkins    jenkins          1658 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/allowed_input_t.h
@@ -103,7 +103,9 @@ drwxr-xr-x jenkins    jenkins          1700 ./usr/src/debug/x11vnc/0.9.13-r0/x11
 -rw-r--r-- jenkins    jenkins         81538 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/keyboard.c
 -rw-r--r-- jenkins    jenkins          2612 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/keyboard.h
 -rw-r--r-- jenkins    jenkins          9706 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/linuxfb.c
+-rw-r--r-- jenkins    jenkins          1722 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/linuxfb.h
 -rw-r--r-- jenkins    jenkins         16813 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/macosx.c
+-rw-r--r-- jenkins    jenkins          2650 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/macosx.h
 -rw-r--r-- jenkins    jenkins         32495 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/macosxCG.c
 -rw-r--r-- jenkins    jenkins          5554 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/macosxCGP.c
 -rw-r--r-- jenkins    jenkins         16007 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/macosxCGS.c
@@ -133,6 +135,7 @@ drwxr-xr-x jenkins    jenkins          1700 ./usr/src/debug/x11vnc/0.9.13-r0/x11
 -rw-r--r-- jenkins    jenkins         76482 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/ssltools.h
 -rw-r--r-- jenkins    jenkins        212828 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/tkx11vnc.h
 -rw-r--r-- jenkins    jenkins         41615 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/uinput.c
+-rw-r--r-- jenkins    jenkins          2228 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/uinput.h
 -rw-r--r-- jenkins    jenkins         63669 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/unixpw.c
 -rw-r--r-- jenkins    jenkins          2524 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/unixpw.h
 -rw-r--r-- jenkins    jenkins         69930 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/user.c
@@ -142,6 +145,7 @@ drwxr-xr-x jenkins    jenkins          1700 ./usr/src/debug/x11vnc/0.9.13-r0/x11
 -rw-r--r-- jenkins    jenkins         14718 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/util.c
 -rw-r--r-- jenkins    jenkins          5137 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/util.h
 -rw-r--r-- jenkins    jenkins         42107 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/v4l.c
+-rw-r--r-- jenkins    jenkins          1694 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/v4l.h
 -rw-r--r-- jenkins    jenkins         17165 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/win_utils.c
 -rw-r--r-- jenkins    jenkins          2358 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/win_utils.h
 -rw-r--r-- jenkins    jenkins          1989 ./usr/src/debug/x11vnc/0.9.13-r0/x11vnc-0.9.13/x11vnc/winattr_t.h

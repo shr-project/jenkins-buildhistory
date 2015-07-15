@@ -5,12 +5,12 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
 -rwxr-xr-x jenkins    jenkins          9624 ./usr/bin/.debug/fontforge
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins           160 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins       5735480 ./usr/lib/.debug/libfontforge.so.2.0.0
--rwxr-xr-x jenkins    jenkins       4658768 ./usr/lib/.debug/libfontforgeexe.so.2.0.0
--rwxr-xr-x jenkins    jenkins       1273120 ./usr/lib/.debug/libgdraw.so.5.0.0
--rwxr-xr-x jenkins    jenkins         22436 ./usr/lib/.debug/libgioftp.so.2.0.0
--rwxr-xr-x jenkins    jenkins        487908 ./usr/lib/.debug/libgunicode.so.4.0.0
--rwxr-xr-x jenkins    jenkins        246084 ./usr/lib/.debug/libgutils.so.2.0.0
+-rwxr-xr-x jenkins    jenkins       7057028 ./usr/lib/.debug/libfontforge.so.2.0.0
+-rwxr-xr-x jenkins    jenkins       5441952 ./usr/lib/.debug/libfontforgeexe.so.2.0.0
+-rwxr-xr-x jenkins    jenkins       1460040 ./usr/lib/.debug/libgdraw.so.5.0.0
+-rwxr-xr-x jenkins    jenkins         29336 ./usr/lib/.debug/libgioftp.so.2.0.0
+-rwxr-xr-x jenkins    jenkins        488748 ./usr/lib/.debug/libgunicode.so.4.0.0
+-rwxr-xr-x jenkins    jenkins        277620 ./usr/lib/.debug/libgutils.so.2.0.0
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/fontforge
@@ -57,7 +57,7 @@ drwxr-xr-x jenkins    jenkins           580 ./usr/src/debug/fontforge/20141126-r
 -rw-r--r-- jenkins    jenkins        318474 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/Unicode/unialt.c
 -rw-r--r-- jenkins    jenkins         25699 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/Unicode/ustring.c
 -rw-r--r-- jenkins    jenkins       4730748 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/Unicode/utype.c
-drwxr-xr-x jenkins    jenkins          2860 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge
+drwxr-xr-x jenkins    jenkins          2920 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge
 -rw-r--r-- jenkins    jenkins          1567 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/activeinui.c
 -rw-r--r-- jenkins    jenkins         32823 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/asmfpst.c
 -rw-r--r-- jenkins    jenkins        101946 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/autohint.c
@@ -72,6 +72,7 @@ drwxr-xr-x jenkins    jenkins          2860 ./usr/src/debug/fontforge/20141126-r
 -rw-r--r-- jenkins    jenkins         11577 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/bitmapcontrol.c
 -rw-r--r-- jenkins    jenkins          1788 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/bitmapcontrol.h
 -rw-r--r-- jenkins    jenkins         31879 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/bvedit.c
+-rw-r--r-- jenkins    jenkins          7589 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/charview_private.h
 -rw-r--r-- jenkins    jenkins          2409 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/clipnoui.c
 -rw-r--r-- jenkins    jenkins          3461 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/collabclient.c
 -rw-r--r-- jenkins    jenkins          4442 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/collabclient.h
@@ -113,6 +114,7 @@ drwxr-xr-x jenkins    jenkins          2860 ./usr/src/debug/fontforge/20141126-r
 -rw-r--r-- jenkins    jenkins         45950 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/http.c
 -rw-r--r-- jenkins    jenkins         21261 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/ikarus.c
 -rw-r--r-- jenkins    jenkins          4504 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/is_LIGATURE.c
+-rw-r--r-- jenkins    jenkins            96 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/is_LIGATURE.h
 -rw-r--r-- jenkins    jenkins        271614 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/langfreq.c
 -rw-r--r-- jenkins    jenkins        171973 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/lookups.c
 -rw-r--r-- jenkins    jenkins          1266 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/lookups.h
@@ -162,6 +164,7 @@ drwxr-xr-x jenkins    jenkins          2860 ./usr/src/debug/fontforge/20141126-r
 -rw-r--r-- jenkins    jenkins         44033 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/sflayout.c
 -rw-r--r-- jenkins    jenkins          4841 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/sflayoutP.h
 -rw-r--r-- jenkins    jenkins          4577 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/sftextfieldP.h
+-rw-r--r-- jenkins    jenkins          2040 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/sfundo.h
 -rw-r--r-- jenkins    jenkins          8004 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/spiro.c
 -rw-r--r-- jenkins    jenkins         84367 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/splinechar.c
 -rw-r--r-- jenkins    jenkins         56318 ./usr/src/debug/fontforge/20141126-r0/fontforge-20141126/fontforge/splinefill.c

@@ -2,7 +2,7 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins           100 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins       2125364 ./usr/bin/.debug/mc
+-rwxr-xr-x jenkins    jenkins       2548668 ./usr/bin/.debug/mc
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/mc
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/mc/mc
@@ -13,7 +13,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/mc
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/mc/4.8.13-r0
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13
-drwxr-xr-x jenkins    jenkins           780 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib
+drwxr-xr-x jenkins    jenkins           800 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib
 -rw-r--r-- jenkins    jenkins         14640 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/charsets.c
 -rw-r--r-- jenkins    jenkins          2688 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/charsets.h
 drwxr-xr-x jenkins    jenkins           120 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/event
@@ -54,6 +54,7 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.
 -rw-r--r-- jenkins    jenkins         33041 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/search/regex.c
 -rw-r--r-- jenkins    jenkins         14835 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/search/search.c
 -rw-r--r-- jenkins    jenkins         10627 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/serialize.c
+-rw-r--r-- jenkins    jenkins          1039 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/serialize.h
 drwxr-xr-x jenkins    jenkins           180 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/skin
 -rw-r--r-- jenkins    jenkins          5736 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/skin.h
 -rw-r--r-- jenkins    jenkins          7034 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/skin/colors-old.c
@@ -153,7 +154,7 @@ drwxr-xr-x jenkins    jenkins           800 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.
 -rw-r--r-- jenkins    jenkins          7383 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/widget/widget-common.h
 -rw-r--r-- jenkins    jenkins         20848 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/widget/wtools.c
 -rw-r--r-- jenkins    jenkins          3967 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/lib/widget/wtools.h
-drwxr-xr-x jenkins    jenkins           660 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src
+drwxr-xr-x jenkins    jenkins           700 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src
 -rw-r--r-- jenkins    jenkins         26563 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/args.c
 -rw-r--r-- jenkins    jenkins          1893 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/args.h
 -rw-r--r-- jenkins    jenkins         18071 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/background.c
@@ -193,12 +194,15 @@ drwxr-xr-x jenkins    jenkins           420 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.
 -rw-r--r-- jenkins    jenkins           726 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/events_init.h
 -rw-r--r-- jenkins    jenkins         19413 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/execute.c
 -rw-r--r-- jenkins    jenkins          1718 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/execute.h
-drwxr-xr-x jenkins    jenkins           880 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager
+drwxr-xr-x jenkins    jenkins           960 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager
 -rw-r--r-- jenkins    jenkins         26088 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/achown.c
+-rw-r--r-- jenkins    jenkins           791 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/achown.h
 -rw-r--r-- jenkins    jenkins         43623 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/boxes.c
 -rw-r--r-- jenkins    jenkins          1372 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/boxes.h
 -rw-r--r-- jenkins    jenkins         16368 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/chmod.c
+-rw-r--r-- jenkins    jenkins           751 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/chmod.h
 -rw-r--r-- jenkins    jenkins         13255 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/chown.c
+-rw-r--r-- jenkins    jenkins           751 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/chown.h
 -rw-r--r-- jenkins    jenkins         48485 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/cmd.c
 -rw-r--r-- jenkins    jenkins          2790 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/cmd.h
 -rw-r--r-- jenkins    jenkins         14642 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/command.c
@@ -212,6 +216,7 @@ drwxr-xr-x jenkins    jenkins           880 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.
 -rw-r--r-- jenkins    jenkins         42516 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/filegui.c
 -rw-r--r-- jenkins    jenkins          1999 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/filegui.h
 -rw-r--r-- jenkins    jenkins          4127 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/filenot.c
+-rw-r--r-- jenkins    jenkins           887 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/filenot.h
 -rw-r--r-- jenkins    jenkins          4136 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/fileopctx.c
 -rw-r--r-- jenkins    jenkins          5619 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/fileopctx.h
 -rw-r--r-- jenkins    jenkins         59119 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/filemanager/find.c
@@ -240,6 +245,7 @@ drwxr-xr-x jenkins    jenkins           880 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.
 -rw-r--r-- jenkins    jenkins         18343 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/keybind-defaults.c
 -rw-r--r-- jenkins    jenkins          1806 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/keybind-defaults.h
 -rw-r--r-- jenkins    jenkins         12375 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/learn.c
+-rw-r--r-- jenkins    jenkins           756 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/learn.h
 -rw-r--r-- jenkins    jenkins         15252 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/main.c
 -rw-r--r-- jenkins    jenkins          5634 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/selcodepage.c
 -rw-r--r-- jenkins    jenkins          1560 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/selcodepage.h
@@ -250,6 +256,7 @@ drwxr-xr-x jenkins    jenkins           880 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.
 -rw-r--r-- jenkins    jenkins          6675 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/textconf.c
 -rw-r--r-- jenkins    jenkins           885 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/textconf.h
 -rw-r--r-- jenkins    jenkins          2763 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/util.c
+-rw-r--r-- jenkins    jenkins           834 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/util.h
 drwxr-xr-x jenkins    jenkins           220 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/vfs
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/vfs/cpio
 -rw-r--r-- jenkins    jenkins         25976 ./usr/src/debug/mc/4.8.13-r0/mc-4.8.13/src/vfs/cpio/cpio.c

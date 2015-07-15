@@ -2,13 +2,13 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins       6003880 ./usr/bin/.debug/claws-mail
+-rwxr-xr-x jenkins    jenkins       7590644 ./usr/bin/.debug/claws-mail
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/claws-mail
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/claws-mail/3.9.0-r0
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0
-drwxr-xr-x jenkins    jenkins          5080 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src
+drwxr-xr-x jenkins    jenkins          5260 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src
 -rw-r--r-- jenkins    jenkins         50390 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/account.c
 -rw-r--r-- jenkins    jenkins          2321 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/account.h
 -rw-r--r-- jenkins    jenkins         45679 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/action.c
@@ -31,6 +31,7 @@ drwxr-xr-x jenkins    jenkins          5080 ./usr/src/debug/claws-mail/3.9.0-r0/
 -rw-r--r-- jenkins    jenkins        179506 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/addressbook.c
 -rw-r--r-- jenkins    jenkins          2311 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/addressbook.h
 -rw-r--r-- jenkins    jenkins         13356 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/addressbook_foldersel.c
+-rw-r--r-- jenkins    jenkins          1115 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/addressbook_foldersel.h
 -rw-r--r-- jenkins    jenkins          3976 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/addressitem.h
 -rw-r--r-- jenkins    jenkins         19639 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/addrgather.c
 -rw-r--r-- jenkins    jenkins          1288 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/addrgather.h
@@ -52,11 +53,12 @@ drwxr-xr-x jenkins    jenkins          5080 ./usr/src/debug/claws-mail/3.9.0-r0/
 -rw-r--r-- jenkins    jenkins          1173 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/autofaces.h
 -rw-r--r-- jenkins    jenkins         44178 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/codeconv.c
 -rw-r--r-- jenkins    jenkins          5679 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/codeconv.h
-drwxr-xr-x jenkins    jenkins           980 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common
+drwxr-xr-x jenkins    jenkins          1020 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common
 -rw-r--r-- jenkins    jenkins          4452 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/base64.c
 -rw-r--r-- jenkins    jenkins          1427 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/base64.h
 -rw-r--r-- jenkins    jenkins          3243 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/claws.c
 -rw-r--r-- jenkins    jenkins          1111 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/claws.h
+-rw-r--r-- jenkins    jenkins          2926 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/fnmatch.h
 -rw-r--r-- jenkins    jenkins          3325 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/hooks.c
 -rw-r--r-- jenkins    jenkins          1235 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/hooks.h
 -rw-r--r-- jenkins    jenkins         10655 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/log.c
@@ -66,6 +68,7 @@ drwxr-xr-x jenkins    jenkins           980 ./usr/src/debug/claws-mail/3.9.0-r0/
 -rw-r--r-- jenkins    jenkins          8330 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/mgutils.c
 -rw-r--r-- jenkins    jenkins          2122 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/mgutils.h
 -rw-r--r-- jenkins    jenkins          4120 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/passcrypt.c
+-rw-r--r-- jenkins    jenkins           951 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/passcrypt.h
 -rw-r--r-- jenkins    jenkins         19397 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/plugin.c
 -rw-r--r-- jenkins    jenkins          2221 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/plugin.h
 -rw-r--r-- jenkins    jenkins          7262 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/common/prefs.c
@@ -151,6 +154,7 @@ drwxr-xr-x jenkins    jenkins           200 ./usr/src/debug/claws-mail/3.9.0-r0/
 -rw-r--r-- jenkins    jenkins         97965 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/folderview.c
 -rw-r--r-- jenkins    jenkins          4304 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/folderview.h
 -rw-r--r-- jenkins    jenkins         16692 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/grouplistdialog.c
+-rw-r--r-- jenkins    jenkins           974 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/grouplistdialog.h
 drwxr-xr-x jenkins    jenkins          1100 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/gtk
 -rw-r--r-- jenkins    jenkins         35273 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/gtk/about.c
 -rw-r--r-- jenkins    jenkins           884 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/gtk/about.h
@@ -218,8 +222,11 @@ drwxr-xr-x jenkins    jenkins          1100 ./usr/src/debug/claws-mail/3.9.0-r0/
 -rw-r--r-- jenkins    jenkins          8599 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/import.c
 -rw-r--r-- jenkins    jenkins           948 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/import.h
 -rw-r--r-- jenkins    jenkins         32254 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/importldif.c
+-rw-r--r-- jenkins    jenkins          1017 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/importldif.h
 -rw-r--r-- jenkins    jenkins          8876 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/importmutt.c
+-rw-r--r-- jenkins    jenkins          1018 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/importmutt.h
 -rw-r--r-- jenkins    jenkins          8884 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/importpine.c
+-rw-r--r-- jenkins    jenkins          1018 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/importpine.h
 -rw-r--r-- jenkins    jenkins         43611 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/inc.c
 -rw-r--r-- jenkins    jenkins          2626 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/inc.h
 -rw-r--r-- jenkins    jenkins         25688 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/ldif.c
@@ -472,6 +479,7 @@ drwxr-xr-x jenkins    jenkins          3180 ./usr/src/debug/claws-mail/3.9.0-r0/
 -rw-r--r-- jenkins    jenkins         28136 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/prefs_summary_column.c
 -rw-r--r-- jenkins    jenkins          1030 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/prefs_summary_column.h
 -rw-r--r-- jenkins    jenkins         20005 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/prefs_summary_open.c
+-rw-r--r-- jenkins    jenkins          1064 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/prefs_summary_open.h
 -rw-r--r-- jenkins    jenkins         38831 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/prefs_template.c
 -rw-r--r-- jenkins    jenkins          1044 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/prefs_template.h
 -rw-r--r-- jenkins    jenkins         29112 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/prefs_themes.c
@@ -499,7 +507,9 @@ drwxr-xr-x jenkins    jenkins          3180 ./usr/src/debug/claws-mail/3.9.0-r0/
 -rw-r--r-- jenkins    jenkins          1189 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/remotefolder.c
 -rw-r--r-- jenkins    jenkins          1309 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/remotefolder.h
 -rw-r--r-- jenkins    jenkins         18790 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/send_message.c
+-rw-r--r-- jenkins    jenkins          1356 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/send_message.h
 -rw-r--r-- jenkins    jenkins          3065 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/setup.c
+-rw-r--r-- jenkins    jenkins          1013 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/setup.h
 -rw-r--r-- jenkins    jenkins          6142 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/sourcewindow.c
 -rw-r--r-- jenkins    jenkins          1304 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/sourcewindow.h
 -rw-r--r-- jenkins    jenkins         11511 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/ssl_manager.c
@@ -521,6 +531,7 @@ drwxr-xr-x jenkins    jenkins          3180 ./usr/src/debug/claws-mail/3.9.0-r0/
 -rw-r--r-- jenkins    jenkins          4351 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/unmime.c
 -rw-r--r-- jenkins    jenkins           953 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/unmime.h
 -rw-r--r-- jenkins    jenkins         11194 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/uri_opener.c
+-rw-r--r-- jenkins    jenkins           981 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/uri_opener.h
 -rw-r--r-- jenkins    jenkins         19006 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/vcard.c
 -rw-r--r-- jenkins    jenkins          3174 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/vcard.h
 -rw-r--r-- jenkins    jenkins          1231 ./usr/src/debug/claws-mail/3.9.0-r0/claws-mail-3.9.0/src/viewtypes.h

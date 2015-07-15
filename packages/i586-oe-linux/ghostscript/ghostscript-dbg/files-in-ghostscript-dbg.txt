@@ -2,7 +2,7 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins      24619104 ./usr/bin/.debug/gs
+-rwxr-xr-x jenkins    jenkins      26052228 ./usr/bin/.debug/gs
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/ghostscript
@@ -18,7 +18,7 @@ drwxr-xr-x jenkins    jenkins           200 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins         48569 ./usr/src/debug/ghostscript/9.16-r0/build/obj/jpeglib.h
 -rw-r--r-- jenkins    jenkins         48569 ./usr/src/debug/ghostscript/9.16-r0/build/obj/jpeglib_.h
 drwxr-xr-x jenkins    jenkins           300 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16
-drwxr-xr-x jenkins    jenkins         12180 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base
+drwxr-xr-x jenkins    jenkins         12280 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base
 -rw-r--r-- jenkins    jenkins         21755 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/ConvertUTF.c
 -rw-r--r-- jenkins    jenkins          6338 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/ConvertUTF.h
 -rw-r--r-- jenkins    jenkins         37237 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/aes.c
@@ -146,6 +146,7 @@ drwxr-xr-x jenkins    jenkins         12180 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          1970 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gscoord.h
 -rw-r--r-- jenkins    jenkins         19744 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gscparam.c
 -rw-r--r-- jenkins    jenkins          4020 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gscpixel.c
+-rw-r--r-- jenkins    jenkins           904 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gscpixel.h
 -rw-r--r-- jenkins    jenkins          1411 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gscpm.h
 -rw-r--r-- jenkins    jenkins         12662 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gscrd.c
 -rw-r--r-- jenkins    jenkins          4018 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gscrd.h
@@ -283,6 +284,7 @@ drwxr-xr-x jenkins    jenkins         12180 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          4384 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gsptype2.h
 -rw-r--r-- jenkins    jenkins          6815 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gsrefct.h
 -rw-r--r-- jenkins    jenkins          2197 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gsrop.c
+-rw-r--r-- jenkins    jenkins          1231 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gsrop.h
 -rw-r--r-- jenkins    jenkins         52606 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gsroprun.c
 -rw-r--r-- jenkins    jenkins         11925 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gsroprun1.h
 -rw-r--r-- jenkins    jenkins          7626 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gsroprun24.h
@@ -503,6 +505,7 @@ drwxr-xr-x jenkins    jenkins         12180 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          2390 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gzacpath.h
 -rw-r--r-- jenkins    jenkins          3862 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gzcpath.h
 -rw-r--r-- jenkins    jenkins         10236 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gzht.h
+-rw-r--r-- jenkins    jenkins          1208 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gzline.h
 -rw-r--r-- jenkins    jenkins         15481 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gzpath.h
 -rw-r--r-- jenkins    jenkins         25774 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gzspotan.c
 -rw-r--r-- jenkins    jenkins          5432 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/gzspotan.h
@@ -625,7 +628,9 @@ drwxr-xr-x jenkins    jenkins         12180 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          2175 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/wrfont.c
 -rw-r--r-- jenkins    jenkins          1426 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/wrfont.h
 -rw-r--r-- jenkins    jenkins         17078 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/write_t1.c
+-rw-r--r-- jenkins    jenkins          1229 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/write_t1.h
 -rw-r--r-- jenkins    jenkins         17862 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/write_t2.c
+-rw-r--r-- jenkins    jenkins          1020 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/base/write_t2.h
 drwxr-xr-x jenkins    jenkins           400 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/eplaser
 -rw-r--r-- jenkins    jenkins         97303 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/eplaser/gdevescv.c
@@ -670,7 +675,7 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins         12342 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/opvp/opvp.h
 -rw-r--r-- jenkins    jenkins         10274 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/opvp/opvp_0_2_0.h
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3
-drwxr-xr-x jenkins    jenkins           200 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/eprn
+drwxr-xr-x jenkins    jenkins           220 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/eprn
 -rw-r--r-- jenkins    jenkins         19238 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/eprn/eprnfs.c
 -rw-r--r-- jenkins    jenkins         43733 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/eprn/eprnparm.c
 -rw-r--r-- jenkins    jenkins         40009 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/eprn/eprnrend.c
@@ -679,7 +684,8 @@ drwxr-xr-x jenkins    jenkins           200 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins         14788 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/eprn/mediasize.c
 -rw-r--r-- jenkins    jenkins         10781 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/eprn/mediasize.h
 -rw-r--r-- jenkins    jenkins          8024 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/eprn/pagecount.c
-drwxr-xr-x jenkins    jenkins           180 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/src
+-rw-r--r-- jenkins    jenkins          1628 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/eprn/pagecount.h
+drwxr-xr-x jenkins    jenkins           200 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/src
 -rw-r--r-- jenkins    jenkins         55838 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/src/gdevpcl3.c
 -rw-r--r-- jenkins    jenkins         39288 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/src/pclcap.c
 -rw-r--r-- jenkins    jenkins          2226 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/src/pclcap.h
@@ -687,6 +693,7 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins         43490 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/src/pclgen.c
 -rw-r--r-- jenkins    jenkins         20313 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/src/pclgen.h
 -rw-r--r-- jenkins    jenkins          6044 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/src/pclsize.c
+-rw-r--r-- jenkins    jenkins          1418 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/contrib/pcl3/src/pclsize.h
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/cups
 -rw-r--r-- jenkins    jenkins        155376 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/cups/gdevcups.c
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/cups/libs
@@ -694,7 +701,7 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          3189 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/cups/libs/cups/array.h
 -rw-r--r-- jenkins    jenkins         19050 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/cups/libs/cups/ppd.h
 -rw-r--r-- jenkins    jenkins         17892 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/cups/libs/cups/raster.h
-drwxr-xr-x jenkins    jenkins          1820 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices
+drwxr-xr-x jenkins    jenkins          1840 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices
 -rw-r--r-- jenkins    jenkins          8716 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdev3852.c
 -rw-r--r-- jenkins    jenkins          3215 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdev4081.c
 -rw-r--r-- jenkins    jenkins          7059 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdev4693.c
@@ -741,6 +748,7 @@ drwxr-xr-x jenkins    jenkins          1820 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins         14432 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdevlp8k.c
 -rw-r--r-- jenkins    jenkins         16387 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdevlxm.c
 -rw-r--r-- jenkins    jenkins          3761 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdevmeds.c
+-rw-r--r-- jenkins    jenkins           832 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdevmeds.h
 -rw-r--r-- jenkins    jenkins         16537 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdevmgr.c
 -rw-r--r-- jenkins    jenkins          3624 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdevmgr.h
 -rw-r--r-- jenkins    jenkins          2682 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gdevmiff.c
@@ -782,12 +790,13 @@ drwxr-xr-x jenkins    jenkins          1820 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          7702 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/gxfcopy.h
 -rw-r--r-- jenkins    jenkins         14774 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/minftrsz.c
 -rw-r--r-- jenkins    jenkins          1083 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/minftrsz.h
-drwxr-xr-x jenkins    jenkins           300 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj
+drwxr-xr-x jenkins    jenkins           320 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj
 -rw-r--r-- jenkins    jenkins         48515 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj/evenbetter-rll.c
 -rw-r--r-- jenkins    jenkins          2784 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj/evenbetter-rll.h
 -rw-r--r-- jenkins    jenkins          2365 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj/rinkj-byte-stream.c
 -rw-r--r-- jenkins    jenkins          1112 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj/rinkj-byte-stream.h
 -rw-r--r-- jenkins    jenkins          3794 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj/rinkj-config.c
+-rw-r--r-- jenkins    jenkins           837 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj/rinkj-config.h
 -rw-r--r-- jenkins    jenkins          2302 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj/rinkj-device.c
 -rw-r--r-- jenkins    jenkins          1633 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj/rinkj-device.h
 -rw-r--r-- jenkins    jenkins           878 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/rinkj/rinkj-dither.c
@@ -862,7 +871,7 @@ drwxr-xr-x jenkins    jenkins          1300 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins           842 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/devices/vector/whitelst.h
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include
-drwxr-xr-x jenkins    jenkins           560 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype
+drwxr-xr-x jenkins    jenkins           600 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/config
 -rw-r--r-- jenkins    jenkins         19680 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/config/ftconfig.h
 -rw-r--r-- jenkins    jenkins          1399 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/config/ftmodule.h
@@ -873,10 +882,12 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins         60826 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftcache.h
 -rw-r--r-- jenkins    jenkins          9467 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/fterrors.h
 -rw-r--r-- jenkins    jenkins         39819 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftglyph.h
+-rw-r--r-- jenkins    jenkins          4288 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftgzip.h
 -rw-r--r-- jenkins    jenkins         82550 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftimage.h
 -rw-r--r-- jenkins    jenkins         11406 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftincrem.h
 -rw-r--r-- jenkins    jenkins          7709 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftlcdfil.h
 -rw-r--r-- jenkins    jenkins         16764 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftlist.h
+-rw-r--r-- jenkins    jenkins          4256 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftlzw.h
 -rw-r--r-- jenkins    jenkins         22712 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftmm.h
 -rw-r--r-- jenkins    jenkins         26626 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftmodapi.h
 -rw-r--r-- jenkins    jenkins         32657 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/include/freetype/ftoutln.h
@@ -942,8 +953,9 @@ drwxr-xr-x jenkins    jenkins           380 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          2401 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/autofit/afloader.h
 -rw-r--r-- jenkins    jenkins          2950 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/autofit/afmodule.c
 -rw-r--r-- jenkins    jenkins         14199 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/autofit/aftypes.h
-drwxr-xr-x jenkins    jenkins           620 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/base
+drwxr-xr-x jenkins    jenkins           640 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/base
 -rw-r--r-- jenkins    jenkins          5140 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/base/ftadvanc.c
+-rw-r--r-- jenkins    jenkins          2947 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/base/ftbase.h
 -rw-r--r-- jenkins    jenkins         25564 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/base/ftbbox.c
 -rw-r--r-- jenkins    jenkins          2676 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/base/ftbdf.c
 -rw-r--r-- jenkins    jenkins         15618 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/base/ftbitmap.c
@@ -1081,7 +1093,7 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins        119808 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/raster/ftraster.c
 -rw-r--r-- jenkins    jenkins          1925 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/raster/ftraster.h
 -rw-r--r-- jenkins    jenkins          9896 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/raster/ftrend1.c
-drwxr-xr-x jenkins    jenkins           320 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt
+drwxr-xr-x jenkins    jenkins           340 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt
 -rw-r--r-- jenkins    jenkins         17459 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/sfdriver.c
 -rw-r--r-- jenkins    jenkins         39588 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/sfobjs.c
 -rw-r--r-- jenkins    jenkins          6990 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/ttbdf.c
@@ -1089,6 +1101,7 @@ drwxr-xr-x jenkins    jenkins           320 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins        106804 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/ttcmap.c
 -rw-r--r-- jenkins    jenkins          5208 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/ttcmap.h
 -rw-r--r-- jenkins    jenkins          7920 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/ttkern.c
+-rw-r--r-- jenkins    jenkins          1930 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/ttkern.h
 -rw-r--r-- jenkins    jenkins         47950 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/ttload.c
 -rw-r--r-- jenkins    jenkins          3247 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/ttload.h
 -rw-r--r-- jenkins    jenkins         15859 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/freetype/src/sfnt/ttmtx.c
@@ -1248,11 +1261,12 @@ drwxr-xr-x jenkins    jenkins           960 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          5335 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/openjpeg/src/lib/openjp2/tgt.h
 -rw-r--r-- jenkins    jenkins          4934 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/openjpeg/src/lib/openjp2/thix_manager.c
 -rw-r--r-- jenkins    jenkins          6676 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/openjpeg/src/lib/openjp2/tpix_manager.c
-drwxr-xr-x jenkins    jenkins          4440 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi
+drwxr-xr-x jenkins    jenkins          4580 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi
 -rw-r--r-- jenkins    jenkins          3689 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/bfont.h
 -rw-r--r-- jenkins    jenkins          1745 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/btoken.h
 -rw-r--r-- jenkins    jenkins        143777 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/dscparse.c
 -rw-r--r-- jenkins    jenkins         18678 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/dscparse.h
+-rw-r--r-- jenkins    jenkins          7436 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/estack.h
 -rw-r--r-- jenkins    jenkins          4995 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/files.h
 -rw-r--r-- jenkins    jenkins          4265 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/gs.c
 -rw-r--r-- jenkins    jenkins         13034 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ialloc.c
@@ -1271,6 +1285,7 @@ drwxr-xr-x jenkins    jenkins          4440 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins         12398 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/icontext.c
 -rw-r--r-- jenkins    jenkins          1829 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/icontext.h
 -rw-r--r-- jenkins    jenkins          1427 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/icremap.h
+-rw-r--r-- jenkins    jenkins          1596 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/icsmap.h
 -rw-r--r-- jenkins    jenkins          3473 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/icstate.h
 -rw-r--r-- jenkins    jenkins          1203 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iddstack.h
 -rw-r--r-- jenkins    jenkins          9663 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/idebug.c
@@ -1293,6 +1308,7 @@ drwxr-xr-x jenkins    jenkins          4440 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins           980 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ifilter2.h
 -rw-r--r-- jenkins    jenkins          4428 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ifont.h
 -rw-r--r-- jenkins    jenkins          2307 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ifont1.h
+-rw-r--r-- jenkins    jenkins          1039 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ifont2.h
 -rw-r--r-- jenkins    jenkins          2142 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ifont42.h
 -rw-r--r-- jenkins    jenkins           911 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ifrpred.h
 -rw-r--r-- jenkins    jenkins          3054 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ifunc.h
@@ -1326,6 +1342,7 @@ drwxr-xr-x jenkins    jenkins          4440 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          5450 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ipacked.h
 -rw-r--r-- jenkins    jenkins         38234 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iparam.c
 -rw-r--r-- jenkins    jenkins          4371 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iparam.h
+-rw-r--r-- jenkins    jenkins          1178 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iparray.h
 -rw-r--r-- jenkins    jenkins          1308 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/ipcolor.h
 -rw-r--r-- jenkins    jenkins          3170 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iplugin.c
 -rw-r--r-- jenkins    jenkins          2512 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iplugin.h
@@ -1336,6 +1353,7 @@ drwxr-xr-x jenkins    jenkins          4440 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins         43088 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iscan.c
 -rw-r--r-- jenkins    jenkins          8453 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iscan.h
 -rw-r--r-- jenkins    jenkins         34498 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iscanbin.c
+-rw-r--r-- jenkins    jenkins          1198 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iscanbin.h
 -rw-r--r-- jenkins    jenkins         11906 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iscannum.c
 -rw-r--r-- jenkins    jenkins          1068 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/iscannum.h
 -rw-r--r-- jenkins    jenkins          4036 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/isdata.h
@@ -1367,6 +1385,7 @@ drwxr-xr-x jenkins    jenkins          4440 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          1111 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zchar2.c
 -rw-r--r-- jenkins    jenkins          6017 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zchar32.c
 -rw-r--r-- jenkins    jenkins         10560 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zchar42.c
+-rw-r--r-- jenkins    jenkins           879 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zchar42.h
 -rw-r--r-- jenkins    jenkins         13249 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zcharout.c
 -rw-r--r-- jenkins    jenkins          5711 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zcharx.c
 -rw-r--r-- jenkins    jenkins          8193 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zcid.c
@@ -1403,6 +1422,7 @@ drwxr-xr-x jenkins    jenkins          4440 ./usr/src/debug/ghostscript/9.16-r0/
 -rw-r--r-- jenkins    jenkins          4481 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zfdcte.c
 -rw-r--r-- jenkins    jenkins         10564 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zfdecode.c
 -rw-r--r-- jenkins    jenkins         41658 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zfile.c
+-rw-r--r-- jenkins    jenkins           818 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zfile.h
 -rw-r--r-- jenkins    jenkins          3786 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zfile1.c
 -rw-r--r-- jenkins    jenkins         26434 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zfileio.c
 -rw-r--r-- jenkins    jenkins         14061 ./usr/src/debug/ghostscript/9.16-r0/ghostscript-9.16/psi/zfilter.c

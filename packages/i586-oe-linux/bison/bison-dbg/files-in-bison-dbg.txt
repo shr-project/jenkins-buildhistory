@@ -2,13 +2,13 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins        912092 ./usr/bin/.debug/bison
+-rwxr-xr-x jenkins    jenkins       1066988 ./usr/bin/.debug/bison
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/bison
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/bison/3.0.4-r0
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4
-drwxr-xr-x jenkins    jenkins          1940 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib
+drwxr-xr-x jenkins    jenkins          2000 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib
 -rw-r--r-- jenkins    jenkins         18954 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/abitset.c
 -rw-r--r-- jenkins    jenkins           985 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/abitset.h
 -rw-r--r-- jenkins    jenkins          7846 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/argmatch.c
@@ -81,6 +81,7 @@ drwxr-xr-x jenkins    jenkins          1940 ./usr/src/debug/bison/3.0.4-r0/bison
 -rw-r--r-- jenkins    jenkins          1919 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/sig-handler.h
 -rw-r--r-- jenkins    jenkins          1875 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/snprintf.c
 -rw-r--r-- jenkins    jenkins         14674 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/spawn-pipe.c
+-rw-r--r-- jenkins    jenkins          6350 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/spawn-pipe.h
 -rw-r--r-- jenkins    jenkins          2133 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/sprintf.c
 -rw-r--r-- jenkins    jenkins          1138 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/stdio-safer.h
 -rw-r--r-- jenkins    jenkins          9696 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/strerror_r.c
@@ -96,6 +97,7 @@ drwxr-xr-x jenkins    jenkins          1940 ./usr/src/debug/bison/3.0.4-r0/bison
 -rw-r--r-- jenkins    jenkins          1873 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/vsnprintf.c
 -rw-r--r-- jenkins    jenkins          2083 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/vsprintf.c
 -rw-r--r-- jenkins    jenkins         11324 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/wait-process.c
+-rw-r--r-- jenkins    jenkins          3014 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/wait-process.h
 -rw-r--r-- jenkins    jenkins          1308 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/xalloc-die.c
 -rw-r--r-- jenkins    jenkins          7644 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/xalloc.h
 -rw-r--r-- jenkins    jenkins          1452 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/xconcat-filename.c
@@ -104,7 +106,8 @@ drwxr-xr-x jenkins    jenkins          1940 ./usr/src/debug/bison/3.0.4-r0/bison
 -rw-r--r-- jenkins    jenkins          1304 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/xmemdup0.h
 -rw-r--r-- jenkins    jenkins          3630 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/xsize.h
 -rw-r--r-- jenkins    jenkins          1189 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/xstrndup.c
-drwxr-xr-x jenkins    jenkins          1360 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src
+-rw-r--r-- jenkins    jenkins          1020 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/lib/xstrndup.h
+drwxr-xr-x jenkins    jenkins          1380 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src
 -rw-r--r-- jenkins    jenkins         34413 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/AnnotationList.c
 -rw-r--r-- jenkins    jenkins          8714 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/AnnotationList.h
 -rw-r--r-- jenkins    jenkins          2433 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/InadequacyList.c
@@ -131,6 +134,7 @@ drwxr-xr-x jenkins    jenkins          1360 ./usr/src/debug/bison/3.0.4-r0/bison
 -rw-r--r-- jenkins    jenkins          7692 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/gram.c
 -rw-r--r-- jenkins    jenkins          8480 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/gram.h
 -rw-r--r-- jenkins    jenkins          6382 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/graphviz.c
+-rw-r--r-- jenkins    jenkins          2204 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/graphviz.h
 -rw-r--r-- jenkins    jenkins         47232 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/ielr.c
 -rw-r--r-- jenkins    jenkins          1606 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/ielr.h
 -rw-r--r-- jenkins    jenkins         13057 ./usr/src/debug/bison/3.0.4-r0/bison-3.0.4/src/lalr.c

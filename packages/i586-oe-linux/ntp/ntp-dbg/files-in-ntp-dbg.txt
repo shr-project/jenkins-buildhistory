@@ -2,13 +2,13 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/sbin
 drwxr-xr-x jenkins    jenkins           200 ./usr/sbin/.debug
--rwxr-xr-x jenkins    jenkins        357304 ./usr/sbin/.debug/ntp-keygen
--rwxr-xr-x jenkins    jenkins       1491612 ./usr/sbin/.debug/ntpd
--rwxr-xr-x jenkins    jenkins        327908 ./usr/sbin/.debug/ntpdate
--rwxr-xr-x jenkins    jenkins        545732 ./usr/sbin/.debug/ntpdc
--rwxr-xr-x jenkins    jenkins        568928 ./usr/sbin/.debug/ntpq
--rwxr-xr-x jenkins    jenkins        211224 ./usr/sbin/.debug/ntptime
--rwxr-xr-x jenkins    jenkins        509996 ./usr/sbin/.debug/sntp
+-rwxr-xr-x jenkins    jenkins        402592 ./usr/sbin/.debug/ntp-keygen
+-rwxr-xr-x jenkins    jenkins       1656380 ./usr/sbin/.debug/ntpd
+-rwxr-xr-x jenkins    jenkins        335244 ./usr/sbin/.debug/ntpdate
+-rwxr-xr-x jenkins    jenkins        598340 ./usr/sbin/.debug/ntpdc
+-rwxr-xr-x jenkins    jenkins        627420 ./usr/sbin/.debug/ntpq
+-rwxr-xr-x jenkins    jenkins        217728 ./usr/sbin/.debug/ntptime
+-rwxr-xr-x jenkins    jenkins        568932 ./usr/sbin/.debug/sntp
 -rwxr-xr-x jenkins    jenkins         10700 ./usr/sbin/.debug/tickadj
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
@@ -78,7 +78,7 @@ drwxr-xr-x jenkins    jenkins           360 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4
 -rw-r--r-- jenkins    jenkins         10308 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/buffer.c
 -rw-r--r-- jenkins    jenkins          2979 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/error.c
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include
-drwxr-xr-x jenkins    jenkins           420 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc
+drwxr-xr-x jenkins    jenkins           440 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc
 -rw-r--r-- jenkins    jenkins          3314 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc/assertions.h
 -rw-r--r-- jenkins    jenkins          4308 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc/backtrace.h
 -rw-r--r-- jenkins    jenkins          1212 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc/boolean.h
@@ -97,6 +97,7 @@ drwxr-xr-x jenkins    jenkins           420 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4
 -rw-r--r-- jenkins    jenkins          4778 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc/result.h
 -rw-r--r-- jenkins    jenkins          1806 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc/sha1.h
 -rw-r--r-- jenkins    jenkins          6578 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc/sockaddr.h
+-rw-r--r-- jenkins    jenkins          2193 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc/stdio.h
 -rw-r--r-- jenkins    jenkins          5829 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/include/isc/types.h
 -rw-r--r-- jenkins    jenkins          2736 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/lib.c
 -rw-r--r-- jenkins    jenkins         45926 ./usr/src/debug/ntp/4.2.8p2-r0/ntp-4.2.8p2/lib/isc/log.c
