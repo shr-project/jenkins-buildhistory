@@ -1,11 +1,11 @@
 PV = 5.4.2+gitAUTOINC+0002e93439
 PR = r0
 PKGV = 5.4.2+git0+0002e93439
-PKGR = r0.8
+PKGR = r0.9
 PKG = libqt5websockets5
 RPROVIDES = qtwebsockets
-RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.2) qtbase (>= 5.4.2+git0+2cb17c1fb9)
+RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.3) qtbase (>= 5.4.2+git0+2cb17c1fb9)
 RRECOMMENDS = 
-PKGSIZE = 161506
+PKGSIZE = 161762
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/qtwebsockets/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtwebsockets /usr/lib/qtwebsockets/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5WebSockets.so.5 /usr/lib/libQt5WebSockets.so.5.4 /usr/lib/libQt5WebSockets.so.5.4.3

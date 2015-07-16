@@ -1,8 +1,8 @@
 PV = 4.5.0
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = 
-RDEPENDS = base-files base-passwd bash glibc (>= 2.21) libgcc (>= 4.9.2) libstdc++ (>= 4.9.2) libxml2 (>= 2.9.2) python shadow
+RDEPENDS = base-files base-passwd bash glibc (>= 2.21) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3) libxml2 (>= 2.9.2) python shadow
 RRECOMMENDS = 
 PKGSIZE = 7836155
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/opensaf/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/opensaf /usr/lib/opensaf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /var/run /lib/systemd/system/opensafd.service

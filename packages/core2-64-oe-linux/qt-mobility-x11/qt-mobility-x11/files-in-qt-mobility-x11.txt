@@ -107,7 +107,7 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/bin/qt4/examples/QtMobility/xm
 -rwxr-xr-x jenkins    jenkins        225600 ./usr/bin/qt4/servicedbgen
 -rwxr-xr-x jenkins    jenkins         90096 ./usr/bin/qt4/servicefw
 -rwxr-xr-x jenkins    jenkins        157008 ./usr/bin/qt4/servicexmlgen
--rwxr-xr-x jenkins    jenkins         45336 ./usr/bin/qt4/vsexplorer
+-rwxr-xr-x jenkins    jenkins         45400 ./usr/bin/qt4/vsexplorer
 drwxr-xr-x jenkins    jenkins           900 ./usr/lib
 lrwxrwxrwx jenkins    jenkins            20 ./usr/lib/libQtBearer.so.1 -> libQtBearer.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            20 ./usr/lib/libQtBearer.so.1.2 -> libQtBearer.so.1.2.0
@@ -123,16 +123,16 @@ lrwxrwxrwx jenkins    jenkins            22 ./usr/lib/libQtFeedback.so.1.2 -> li
 -rwxr-xr-x jenkins    jenkins         75984 ./usr/lib/libQtFeedback.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/libQtGallery.so.1 -> libQtGallery.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/libQtGallery.so.1.2 -> libQtGallery.so.1.2.0
--rwxr-xr-x jenkins    jenkins        399160 ./usr/lib/libQtGallery.so.1.2.0
+-rwxr-xr-x jenkins    jenkins        399096 ./usr/lib/libQtGallery.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            22 ./usr/lib/libQtLocation.so.1 -> libQtLocation.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            22 ./usr/lib/libQtLocation.so.1.2 -> libQtLocation.so.1.2.0
--rwxr-xr-x jenkins    jenkins       1381256 ./usr/lib/libQtLocation.so.1.2.0
+-rwxr-xr-x jenkins    jenkins       1381448 ./usr/lib/libQtLocation.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            27 ./usr/lib/libQtMultimediaKit.so.1 -> libQtMultimediaKit.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            27 ./usr/lib/libQtMultimediaKit.so.1.2 -> libQtMultimediaKit.so.1.2.0
 -rwxr-xr-x jenkins    jenkins        804432 ./usr/lib/libQtMultimediaKit.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            23 ./usr/lib/libQtOrganizer.so.1 -> libQtOrganizer.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            23 ./usr/lib/libQtOrganizer.so.1.2 -> libQtOrganizer.so.1.2.0
--rwxr-xr-x jenkins    jenkins        882808 ./usr/lib/libQtOrganizer.so.1.2.0
+-rwxr-xr-x jenkins    jenkins        883000 ./usr/lib/libQtOrganizer.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            30 ./usr/lib/libQtPublishSubscribe.so.1 -> libQtPublishSubscribe.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            30 ./usr/lib/libQtPublishSubscribe.so.1.2 -> libQtPublishSubscribe.so.1.2.0
 -rwxr-xr-x jenkins    jenkins        196512 ./usr/lib/libQtPublishSubscribe.so.1.2.0
@@ -147,7 +147,7 @@ lrwxrwxrwx jenkins    jenkins            24 ./usr/lib/libQtSystemInfo.so.1.2 -> 
 -rwxr-xr-x jenkins    jenkins        452568 ./usr/lib/libQtSystemInfo.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            20 ./usr/lib/libQtVersit.so.1 -> libQtVersit.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            20 ./usr/lib/libQtVersit.so.1.2 -> libQtVersit.so.1.2.0
--rwxr-xr-x jenkins    jenkins        378328 ./usr/lib/libQtVersit.so.1.2.0
+-rwxr-xr-x jenkins    jenkins        378392 ./usr/lib/libQtVersit.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            29 ./usr/lib/libQtVersitOrganizer.so.1 -> libQtVersitOrganizer.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            29 ./usr/lib/libQtVersitOrganizer.so.1.2 -> libQtVersitOrganizer.so.1.2.0
 -rwxr-xr-x jenkins    jenkins        177600 ./usr/lib/libQtVersitOrganizer.so.1.2.0
@@ -167,7 +167,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qt4/imports/QtMobility/gal
 -rwxr-xr-x jenkins    jenkins        188944 ./usr/lib/qt4/imports/QtMobility/gallery/libdeclarative_gallery.so
 -rw-r--r-- jenkins    jenkins            28 ./usr/lib/qt4/imports/QtMobility/gallery/qmldir
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qt4/imports/QtMobility/location
--rwxr-xr-x jenkins    jenkins        477056 ./usr/lib/qt4/imports/QtMobility/location/libdeclarative_location.so
+-rwxr-xr-x jenkins    jenkins        476928 ./usr/lib/qt4/imports/QtMobility/location/libdeclarative_location.so
 -rw-r--r-- jenkins    jenkins            28 ./usr/lib/qt4/imports/QtMobility/location/qmldir
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qt4/imports/QtMobility/organizer
 -rwxr-xr-x jenkins    jenkins        586080 ./usr/lib/qt4/imports/QtMobility/organizer/libdeclarative_organizer.so
@@ -190,15 +190,15 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qt4/imports/QtMultimediaKi
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qt4/plugins
 drwxr-xr-x jenkins    jenkins           240 ./usr/lib/qt4/plugins/QtMobility
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qt4/plugins/QtMobility/audio
--rwxr-xr-x jenkins    jenkins         86872 ./usr/lib/qt4/plugins/QtMobility/audio/libqtmedia_pulse.so
+-rwxr-xr-x jenkins    jenkins         86936 ./usr/lib/qt4/plugins/QtMobility/audio/libqtmedia_pulse.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qt4/plugins/QtMobility/contacts
 -rwxr-xr-x jenkins    jenkins         29928 ./usr/lib/qt4/plugins/QtMobility/contacts/libqtcontacts_serviceactionmanager.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qt4/plugins/QtMobility/feedback
 -rwxr-xr-x jenkins    jenkins         25112 ./usr/lib/qt4/plugins/QtMobility/feedback/libqtfeedback_mmk.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qt4/plugins/QtMobility/geoservices
--rwxr-xr-x jenkins    jenkins        230328 ./usr/lib/qt4/plugins/QtMobility/geoservices/libqtgeoservices_nokia.so
+-rwxr-xr-x jenkins    jenkins        230264 ./usr/lib/qt4/plugins/QtMobility/geoservices/libqtgeoservices_nokia.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qt4/plugins/QtMobility/landmarks
--rwxr-xr-x jenkins    jenkins        411592 ./usr/lib/qt4/plugins/QtMobility/landmarks/libqtlandmarks_sqlite.so
+-rwxr-xr-x jenkins    jenkins        411848 ./usr/lib/qt4/plugins/QtMobility/landmarks/libqtlandmarks_sqlite.so
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qt4/plugins/QtMobility/mediaservice
 -rwxr-xr-x jenkins    jenkins        480560 ./usr/lib/qt4/plugins/QtMobility/mediaservice/libqgstengine.so
 -rwxr-xr-x jenkins    jenkins         29528 ./usr/lib/qt4/plugins/QtMobility/mediaservice/libqtmedia_v4lengine.so

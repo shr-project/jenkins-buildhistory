@@ -2,10 +2,10 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins           100 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins        369008 ./usr/bin/.debug/curl
+-rwxr-xr-x jenkins    jenkins        378736 ./usr/bin/.debug/curl
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins       1928368 ./usr/lib/.debug/libcurl.so.4.3.0
+-rwxr-xr-x jenkins    jenkins       2124112 ./usr/lib/.debug/libcurl.so.4.3.0
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/curl
@@ -22,7 +22,7 @@ drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/curl/7.43.0-r0/curl-
 -rw-r--r-- jenkins    jenkins          2565 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/include/curl/mprintf.h
 -rw-r--r-- jenkins    jenkins         14947 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/include/curl/multi.h
 -rw-r--r-- jenkins    jenkins         37557 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/include/curl/typecheck-gcc.h
-drwxr-xr-x jenkins    jenkins          2840 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib
+drwxr-xr-x jenkins    jenkins          2900 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib
 -rw-r--r-- jenkins    jenkins          3992 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/arpa_telnet.h
 -rw-r--r-- jenkins    jenkins          8418 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/base64.c
 -rw-r--r-- jenkins    jenkins          9462 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/conncache.c
@@ -47,6 +47,7 @@ drwxr-xr-x jenkins    jenkins          2840 ./usr/src/debug/curl/7.43.0-r0/curl-
 -rw-r--r-- jenkins    jenkins          2497 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/curl_md5.h
 -rw-r--r-- jenkins    jenkins          5529 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/curl_memory.h
 -rw-r--r-- jenkins    jenkins          1727 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/curl_memrchr.c
+-rw-r--r-- jenkins    jenkins          1426 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/curl_memrchr.h
 -rw-r--r-- jenkins    jenkins          6248 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/curl_ntlm.c
 -rw-r--r-- jenkins    jenkins          1550 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/curl_ntlm.h
 -rw-r--r-- jenkins    jenkins         22188 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/curl_ntlm_core.c
@@ -59,6 +60,7 @@ drwxr-xr-x jenkins    jenkins          2840 ./usr/src/debug/curl/7.43.0-r0/curl-
 -rw-r--r-- jenkins    jenkins          7784 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/dict.c
 -rw-r--r-- jenkins    jenkins          1198 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/dict.h
 -rw-r--r-- jenkins    jenkins          4915 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/dotdot.c
+-rw-r--r-- jenkins    jenkins          1133 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/dotdot.h
 -rw-r--r-- jenkins    jenkins         30161 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/easy.c
 -rw-r--r-- jenkins    jenkins          6496 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/escape.c
 -rw-r--r-- jenkins    jenkins          1457 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/escape.h
@@ -104,6 +106,7 @@ drwxr-xr-x jenkins    jenkins          2840 ./usr/src/debug/curl/7.43.0-r0/curl-
 -rw-r--r-- jenkins    jenkins          6307 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/multihandle.h
 -rw-r--r-- jenkins    jenkins          3785 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/multiif.h
 -rw-r--r-- jenkins    jenkins          5808 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/netrc.c
+-rw-r--r-- jenkins    jenkins          1568 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/netrc.h
 -rw-r--r-- jenkins    jenkins          2595 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/nonblock.c
 -rw-r--r-- jenkins    jenkins          1296 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/nonblock.h
 -rw-r--r-- jenkins    jenkins         16317 ./usr/src/debug/curl/7.43.0-r0/curl-7.43.0/lib/parsedate.c

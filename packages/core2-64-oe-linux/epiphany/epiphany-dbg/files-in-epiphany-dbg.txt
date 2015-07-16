@@ -2,7 +2,7 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins       3850224 ./usr/bin/.debug/epiphany
+-rwxr-xr-x jenkins    jenkins       3997320 ./usr/bin/.debug/epiphany
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/epiphany
@@ -20,8 +20,9 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/epiphany/2.30.6-r0/b
 -rw-r--r-- jenkins    jenkins           807 ./usr/src/debug/epiphany/2.30.6-r0/build/lib/ephy-lib-type-builtins.h
 -rw-r--r-- jenkins    jenkins         41061 ./usr/src/debug/epiphany/2.30.6-r0/build/lib/ephy-marshal.c
 drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/epiphany/2.30.6-r0/build/src
-drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/epiphany/2.30.6-r0/build/src/bookmarks
+drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/epiphany/2.30.6-r0/build/src/bookmarks
 -rw-r--r-- jenkins    jenkins          1508 ./usr/src/debug/epiphany/2.30.6-r0/build/src/bookmarks/ephy-bookmarks-type-builtins.c
+-rw-r--r-- jenkins    jenkins           582 ./usr/src/debug/epiphany/2.30.6-r0/build/src/bookmarks/ephy-bookmarks-type-builtins.h
 -rw-r--r-- jenkins    jenkins          4726 ./usr/src/debug/epiphany/2.30.6-r0/build/src/ephy-dbus-client-bindings.h
 -rw-r--r-- jenkins    jenkins         11527 ./usr/src/debug/epiphany/2.30.6-r0/build/src/ephy-dbus-server-bindings.h
 -rw-r--r-- jenkins    jenkins          5978 ./usr/src/debug/epiphany/2.30.6-r0/build/src/ephy-type-builtins.c
@@ -62,7 +63,7 @@ drwxr-xr-x jenkins    jenkins           720 ./usr/src/debug/epiphany/2.30.6-r0/e
 -rw-r--r-- jenkins    jenkins          4321 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/embed/ephy-permission-manager.h
 -rw-r--r-- jenkins    jenkins        105151 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/embed/ephy-web-view.c
 -rw-r--r-- jenkins    jenkins         11237 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/embed/ephy-web-view.h
-drwxr-xr-x jenkins    jenkins           960 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib
+drwxr-xr-x jenkins    jenkins          1000 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib
 -rw-r--r-- jenkins    jenkins         15077 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/eel-gconf-extensions.c
 -rw-r--r-- jenkins    jenkins          4039 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/eel-gconf-extensions.h
 drwxr-xr-x jenkins    jenkins           320 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/egg
@@ -81,6 +82,7 @@ drwxr-xr-x jenkins    jenkins           320 ./usr/src/debug/epiphany/2.30.6-r0/e
 -rw-r--r-- jenkins    jenkins         11725 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/egg/eggtreemultidnd.c
 -rw-r--r-- jenkins    jenkins          3170 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/egg/eggtreemultidnd.h
 -rw-r--r-- jenkins    jenkins          6808 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-debug.c
+-rw-r--r-- jenkins    jenkins          2003 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-debug.h
 -rw-r--r-- jenkins    jenkins         38934 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-dialog.c
 -rw-r--r-- jenkins    jenkins          4025 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-dialog.h
 -rw-r--r-- jenkins    jenkins          3351 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-dnd.c
@@ -116,6 +118,7 @@ drwxr-xr-x jenkins    jenkins           320 ./usr/src/debug/epiphany/2.30.6-r0/e
 -rw-r--r-- jenkins    jenkins         11867 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-state.c
 -rw-r--r-- jenkins    jenkins          1711 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-state.h
 -rw-r--r-- jenkins    jenkins          2803 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-stock-icons.c
+-rw-r--r-- jenkins    jenkins          1963 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-stock-icons.h
 -rw-r--r-- jenkins    jenkins         10825 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-string.c
 -rw-r--r-- jenkins    jenkins          1819 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-string.h
 -rw-r--r-- jenkins    jenkins          7860 ./usr/src/debug/epiphany/2.30.6-r0/epiphany-2.30.6/lib/ephy-time-helpers.c

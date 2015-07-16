@@ -4,15 +4,15 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/.debug
 -rwxr-xr-x jenkins    jenkins         20328 ./usr/bin/.debug/gtk-launch
 -rwxr-xr-x jenkins    jenkins         24400 ./usr/bin/.debug/gtk-query-immodules-3.0
--rwxr-xr-x jenkins    jenkins         91960 ./usr/bin/.debug/gtk-update-icon-cache-3.0
--rwxr-xr-x jenkins    jenkins        760072 ./usr/bin/.debug/gtk3-demo
+-rwxr-xr-x jenkins    jenkins         92152 ./usr/bin/.debug/gtk-update-icon-cache-3.0
+-rwxr-xr-x jenkins    jenkins        814112 ./usr/bin/.debug/gtk3-demo
 -rwxr-xr-x jenkins    jenkins         38552 ./usr/bin/.debug/gtk3-demo-application
 -rwxr-xr-x jenkins    jenkins         40808 ./usr/bin/.debug/gtk3-widget-factory
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib
 drwxr-xr-x jenkins    jenkins           100 ./usr/lib/.debug
 -rwxr-xr-x jenkins    jenkins         83496 ./usr/lib/.debug/libgailutil-3.so.0.0.0
--rwxr-xr-x jenkins    jenkins       2393856 ./usr/lib/.debug/libgdk-3.so.0.1200.2
--rwxr-xr-x jenkins    jenkins      20040808 ./usr/lib/.debug/libgtk-3.so.0.1200.2
+-rwxr-xr-x jenkins    jenkins       2547760 ./usr/lib/.debug/libgdk-3.so.0.1200.2
+-rwxr-xr-x jenkins    jenkins      20943152 ./usr/lib/.debug/libgtk-3.so.0.1200.2
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/gtk-3.0
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/gtk-3.0/3.0.0
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/gtk-3.0/3.0.0/immodules
@@ -27,7 +27,7 @@ drwxr-xr-x jenkins    jenkins           260 ./usr/lib/gtk-3.0/3.0.0/immodules/.d
 -rwxr-xr-x jenkins    jenkins         19440 ./usr/lib/gtk-3.0/3.0.0/immodules/.debug/im-ti-er.so
 -rwxr-xr-x jenkins    jenkins         19440 ./usr/lib/gtk-3.0/3.0.0/immodules/.debug/im-ti-et.so
 -rwxr-xr-x jenkins    jenkins         19424 ./usr/lib/gtk-3.0/3.0.0/immodules/.debug/im-viqr.so
--rwxr-xr-x jenkins    jenkins         87520 ./usr/lib/gtk-3.0/3.0.0/immodules/.debug/im-xim.so
+-rwxr-xr-x jenkins    jenkins         90152 ./usr/lib/gtk-3.0/3.0.0/immodules/.debug/im-xim.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/gtk-3.0/3.0.0/printbackends
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/gtk-3.0/3.0.0/printbackends/.debug
 -rwxr-xr-x jenkins    jenkins         58880 ./usr/lib/gtk-3.0/3.0.0/printbackends/.debug/libprintbackend-file.so
@@ -202,7 +202,7 @@ drwxr-xr-x jenkins    jenkins           360 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+
 -rw-r--r-- jenkins    jenkins          3262 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/wayland/gdkwaylandselection.h
 -rw-r--r-- jenkins    jenkins          2626 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/wayland/gdkwaylandwindow.h
 -rw-r--r-- jenkins    jenkins         72801 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/wayland/gdkwindow-wayland.c
-drwxr-xr-x jenkins    jenkins          1080 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11
+drwxr-xr-x jenkins    jenkins          1100 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11
 -rw-r--r-- jenkins    jenkins          3706 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/MwmUtil.h
 -rw-r--r-- jenkins    jenkins         12662 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/gdkapplaunchcontext-x11.c
 -rw-r--r-- jenkins    jenkins         19032 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/gdkasync.c
@@ -248,6 +248,7 @@ drwxr-xr-x jenkins    jenkins          1080 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+
 -rw-r--r-- jenkins    jenkins          2133 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/gdkx11keys.h
 -rw-r--r-- jenkins    jenkins          2534 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/gdkx11property.h
 -rw-r--r-- jenkins    jenkins          3765 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/gdkx11screen.h
+-rw-r--r-- jenkins    jenkins          2955 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/gdkx11selection.h
 -rw-r--r-- jenkins    jenkins          2457 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/gdkx11utils.h
 -rw-r--r-- jenkins    jenkins          2509 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/gdkx11visual.h
 -rw-r--r-- jenkins    jenkins          4677 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/gdkx11window.h
@@ -256,7 +257,7 @@ drwxr-xr-x jenkins    jenkins          1080 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+
 -rw-r--r-- jenkins    jenkins         16677 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/xsettings-client.c
 -rw-r--r-- jenkins    jenkins          1530 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gdk/x11/xsettings-client.h
 drwxr-xr-x jenkins    jenkins         14000 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk
-drwxr-xr-x jenkins    jenkins          2380 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y
+drwxr-xr-x jenkins    jenkins          2400 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y
 -rw-r--r-- jenkins    jenkins         30049 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtkaccessibility.c
 -rw-r--r-- jenkins    jenkins          1107 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtkaccessibility.h
 -rw-r--r-- jenkins    jenkins          1371 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtkaccessibilitymisc.c
@@ -362,6 +363,7 @@ drwxr-xr-x jenkins    jenkins          2380 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+
 -rw-r--r-- jenkins    jenkins          2341 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtktextcellaccessible.h
 -rw-r--r-- jenkins    jenkins         62808 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtktextviewaccessible.c
 -rw-r--r-- jenkins    jenkins          2353 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtktextviewaccessible.h
+-rw-r--r-- jenkins    jenkins          1117 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtktextviewaccessibleprivate.h
 -rw-r--r-- jenkins    jenkins          4149 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtktogglebuttonaccessible.c
 -rw-r--r-- jenkins    jenkins          2431 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtktogglebuttonaccessible.h
 -rw-r--r-- jenkins    jenkins          8433 ./usr/src/debug/gtk+3/3.12.2-r0/gtk+-3.12.2/gtk/a11y/gtktoplevelaccessible.c

@@ -2,18 +2,18 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins           100 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins           100 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins        378248 ./usr/bin/.debug/avconv
--rwxr-xr-x jenkins    jenkins        249120 ./usr/bin/.debug/avplay
--rwxr-xr-x jenkins    jenkins        196968 ./usr/bin/.debug/avprobe
+-rwxr-xr-x jenkins    jenkins        412680 ./usr/bin/.debug/avconv
+-rwxr-xr-x jenkins    jenkins        267432 ./usr/bin/.debug/avplay
+-rwxr-xr-x jenkins    jenkins        221112 ./usr/bin/.debug/avprobe
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins           180 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins      24833432 ./usr/lib/.debug/libavcodec.so.54.35.0
--rwxr-xr-x jenkins    jenkins        310408 ./usr/lib/.debug/libavdevice.so.53.2.0
--rwxr-xr-x jenkins    jenkins        774568 ./usr/lib/.debug/libavfilter.so.3.3.0
--rwxr-xr-x jenkins    jenkins       8258600 ./usr/lib/.debug/libavformat.so.54.20.4
--rwxr-xr-x jenkins    jenkins        202672 ./usr/lib/.debug/libavresample.so.1.0.1
--rwxr-xr-x jenkins    jenkins        369112 ./usr/lib/.debug/libavutil.so.52.3.0
--rwxr-xr-x jenkins    jenkins        946704 ./usr/lib/.debug/libswscale.so.2.1.1
+-rwxr-xr-x jenkins    jenkins      27571392 ./usr/lib/.debug/libavcodec.so.54.35.0
+-rwxr-xr-x jenkins    jenkins        332256 ./usr/lib/.debug/libavdevice.so.53.2.0
+-rwxr-xr-x jenkins    jenkins        841240 ./usr/lib/.debug/libavfilter.so.3.3.0
+-rwxr-xr-x jenkins    jenkins       8690544 ./usr/lib/.debug/libavformat.so.54.20.4
+-rwxr-xr-x jenkins    jenkins        235664 ./usr/lib/.debug/libavresample.so.1.0.1
+-rwxr-xr-x jenkins    jenkins        413192 ./usr/lib/.debug/libavutil.so.52.3.0
+-rwxr-xr-x jenkins    jenkins       1066784 ./usr/lib/.debug/libswscale.so.2.1.1
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/libav
@@ -41,7 +41,7 @@ drwxr-xr-x jenkins    jenkins           280 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- jenkins    jenkins        441767 ./usr/src/debug/libav/9.18-r0/libav-9.18/build.x86_64-oe-linux.x86_64-oe-linux/libavcodec/sinewin_tables.h
 -rw-r--r-- jenkins    jenkins         53853 ./usr/src/debug/libav/9.18-r0/libav-9.18/cmdutils.c
 -rw-r--r-- jenkins    jenkins         18435 ./usr/src/debug/libav/9.18-r0/libav-9.18/cmdutils.h
-drwxr-xr-x jenkins    jenkins         14420 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec
+drwxr-xr-x jenkins    jenkins         14480 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec
 -rw-r--r-- jenkins    jenkins         33428 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/4xm.c
 -rw-r--r-- jenkins    jenkins          6771 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/8bps.c
 -rw-r--r-- jenkins    jenkins          7761 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/8svx.c
@@ -97,6 +97,7 @@ drwxr-xr-x jenkins    jenkins         14420 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- jenkins    jenkins          4605 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/acelp_filters.c
 -rw-r--r-- jenkins    jenkins          4812 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/acelp_filters.h
 -rw-r--r-- jenkins    jenkins          5769 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/acelp_pitch_delay.c
+-rw-r--r-- jenkins    jenkins          9060 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/acelp_pitch_delay.h
 -rw-r--r-- jenkins    jenkins          6699 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/acelp_vectors.c
 -rw-r--r-- jenkins    jenkins          8522 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/acelp_vectors.h
 -rw-r--r-- jenkins    jenkins         52011 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/adpcm.c
@@ -199,6 +200,7 @@ drwxr-xr-x jenkins    jenkins         14420 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- jenkins    jenkins           982 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/dca.c
 -rw-r--r-- jenkins    jenkins          1431 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/dca.h
 -rw-r--r-- jenkins    jenkins          6357 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/dca_parser.c
+-rw-r--r-- jenkins    jenkins          1238 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/dca_parser.h
 -rw-r--r-- jenkins    jenkins        337195 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/dcadata.h
 -rw-r--r-- jenkins    jenkins         74364 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/dcadec.c
 -rw-r--r-- jenkins    jenkins          1633 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/dcadsp.c
@@ -500,6 +502,7 @@ drwxr-xr-x jenkins    jenkins         14420 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- jenkins    jenkins          2062 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mss2dsp.h
 -rw-r--r-- jenkins    jenkins         23693 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mss3.c
 -rw-r--r-- jenkins    jenkins          4168 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mss34dsp.c
+-rw-r--r-- jenkins    jenkins          1463 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mss34dsp.h
 -rw-r--r-- jenkins    jenkins         21585 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mss4.c
 -rw-r--r-- jenkins    jenkins         11446 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/msvideo1.c
 -rw-r--r-- jenkins    jenkins         11396 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mxpegdec.c
@@ -925,7 +928,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- jenkins    jenkins          2156 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavfilter/x86/yadif.c
 -rw-r--r-- jenkins    jenkins         10157 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavfilter/x86/yadif_template.c
 -rw-r--r-- jenkins    jenkins          1792 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavfilter/yadif.h
-drwxr-xr-x jenkins    jenkins          6800 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat
+drwxr-xr-x jenkins    jenkins          6840 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat
 -rw-r--r-- jenkins    jenkins         11997 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/4xm.c
 -rw-r--r-- jenkins    jenkins          1967 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/a64.c
 -rw-r--r-- jenkins    jenkins          2797 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/aacdec.c
@@ -946,6 +949,7 @@ drwxr-xr-x jenkins    jenkins          6800 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- jenkins    jenkins          6195 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/asf.c
 -rw-r--r-- jenkins    jenkins          7509 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/asf.h
 -rw-r--r-- jenkins    jenkins          5348 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/asfcrypt.c
+-rw-r--r-- jenkins    jenkins          1004 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/asfcrypt.h
 -rw-r--r-- jenkins    jenkins         50159 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/asfdec.c
 -rw-r--r-- jenkins    jenkins         31326 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/asfenc.c
 -rw-r--r-- jenkins    jenkins          6003 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/assdec.c
@@ -1242,6 +1246,7 @@ drwxr-xr-x jenkins    jenkins          6800 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- jenkins    jenkins         20585 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/udp.c
 -rw-r--r-- jenkins    jenkins          9150 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/url.h
 -rw-r--r-- jenkins    jenkins          2337 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/urldecode.c
+-rw-r--r-- jenkins    jenkins          1352 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/urldecode.h
 -rw-r--r-- jenkins    jenkins        119703 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/utils.c
 -rw-r--r-- jenkins    jenkins          3269 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/vc1test.c
 -rw-r--r-- jenkins    jenkins          2942 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavformat/vc1testenc.c

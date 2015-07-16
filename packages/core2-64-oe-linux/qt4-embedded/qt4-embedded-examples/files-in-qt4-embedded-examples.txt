@@ -75,25 +75,25 @@ drwxr-xr-x jenkins    jenkins           260 ./usr/bin/qtopia/examples/dbus/chat
 -rw-r--r-- jenkins    jenkins           505 ./usr/bin/qtopia/examples/dbus/chat/com.trolltech.chat.xml
 -rwxr-xr-x jenkins    jenkins         49376 ./usr/bin/qtopia/examples/dbus/chat/dbus-chat
 -rw-r--r-- jenkins    jenkins           774 ./usr/bin/qtopia/examples/dbus/chat/dbus-chat.pro
-drwxr-xr-x jenkins    jenkins           180 ./usr/bin/qtopia/examples/dbus/complexpingpong
--rwxr-xr-x jenkins    jenkins         22208 ./usr/bin/qtopia/examples/dbus/complexpingpong/complexping
--rw-r--r-- jenkins    jenkins          4383 ./usr/bin/qtopia/examples/dbus/complexpingpong/complexping.cpp
--rw-r--r-- jenkins    jenkins          2272 ./usr/bin/qtopia/examples/dbus/complexpingpong/complexping.h
+drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/dbus/complexpingpong
 -rw-r--r-- jenkins    jenkins           621 ./usr/bin/qtopia/examples/dbus/complexpingpong/complexping.pro
 -rw-r--r-- jenkins    jenkins           103 ./usr/bin/qtopia/examples/dbus/complexpingpong/complexpingpong.pro
+-rwxr-xr-x jenkins    jenkins         16112 ./usr/bin/qtopia/examples/dbus/complexpingpong/complexpong
+-rw-r--r-- jenkins    jenkins          3499 ./usr/bin/qtopia/examples/dbus/complexpingpong/complexpong.cpp
+-rw-r--r-- jenkins    jenkins          2576 ./usr/bin/qtopia/examples/dbus/complexpingpong/complexpong.h
 -rw-r--r-- jenkins    jenkins           607 ./usr/bin/qtopia/examples/dbus/complexpingpong/complexpong.pro
--rw-r--r-- jenkins    jenkins          2023 ./usr/bin/qtopia/examples/dbus/complexpingpong/ping-common.h
 -rw-r--r-- jenkins    jenkins           311 ./usr/bin/qtopia/examples/dbus/dbus.pro
 drwxr-xr-x jenkins    jenkins           100 ./usr/bin/qtopia/examples/dbus/listnames
 -rwxr-xr-x jenkins    jenkins         19576 ./usr/bin/qtopia/examples/dbus/listnames/listnames
 -rw-r--r-- jenkins    jenkins          3235 ./usr/bin/qtopia/examples/dbus/listnames/listnames.cpp
 -rw-r--r-- jenkins    jenkins           592 ./usr/bin/qtopia/examples/dbus/listnames/listnames.pro
-drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/dbus/pingpong
--rwxr-xr-x jenkins    jenkins         12352 ./usr/bin/qtopia/examples/dbus/pingpong/ping
+drwxr-xr-x jenkins    jenkins           180 ./usr/bin/qtopia/examples/dbus/pingpong
 -rw-r--r-- jenkins    jenkins          2023 ./usr/bin/qtopia/examples/dbus/pingpong/ping-common.h
--rw-r--r-- jenkins    jenkins          2929 ./usr/bin/qtopia/examples/dbus/pingpong/ping.cpp
 -rw-r--r-- jenkins    jenkins           600 ./usr/bin/qtopia/examples/dbus/pingpong/ping.pro
 -rw-r--r-- jenkins    jenkins            89 ./usr/bin/qtopia/examples/dbus/pingpong/pingpong.pro
+-rwxr-xr-x jenkins    jenkins         12192 ./usr/bin/qtopia/examples/dbus/pingpong/pong
+-rw-r--r-- jenkins    jenkins          2978 ./usr/bin/qtopia/examples/dbus/pingpong/pong.cpp
+-rw-r--r-- jenkins    jenkins          2132 ./usr/bin/qtopia/examples/dbus/pingpong/pong.h
 -rw-r--r-- jenkins    jenkins           607 ./usr/bin/qtopia/examples/dbus/pingpong/pong.pro
 drwxr-xr-x jenkins    jenkins           100 ./usr/bin/qtopia/examples/dbus/remotecontrolledcar
 drwxr-xr-x jenkins    jenkins           200 ./usr/bin/qtopia/examples/dbus/remotecontrolledcar/car
@@ -244,7 +244,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarativ
 -rw-r--r-- jenkins    jenkins          7709 ./usr/bin/qtopia/examples/declarative/cppextensions/plugins/.moc/release-shared-emb-x86_64/plugin.moc
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/plugins/.obj
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/plugins/.obj/release-shared-emb-x86_64
--rw-r--r-- jenkins    jenkins        430376 ./usr/bin/qtopia/examples/declarative/cppextensions/plugins/.obj/release-shared-emb-x86_64/plugin.o
+-rw-r--r-- jenkins    jenkins        433136 ./usr/bin/qtopia/examples/declarative/cppextensions/plugins/.obj/release-shared-emb-x86_64/plugin.o
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/plugins/.pch
 drwxr-xr-x jenkins    jenkins            40 ./usr/bin/qtopia/examples/declarative/cppextensions/plugins/.pch/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins         43080 ./usr/bin/qtopia/examples/declarative/cppextensions/plugins/Makefile
@@ -299,8 +299,8 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/declarativ
 -rw-r--r-- jenkins    jenkins          2557 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.moc/release-shared-emb-x86_64/moc_qmlapplicationviewer.cpp
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.obj
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.obj/release-shared-emb-x86_64
--rw-r--r-- jenkins    jenkins        453880 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.obj/release-shared-emb-x86_64/gridlayout.o
--rw-r--r-- jenkins    jenkins        487480 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        465976 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.obj/release-shared-emb-x86_64/gridlayout.o
+-rw-r--r-- jenkins    jenkins        487912 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        377520 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.obj/release-shared-emb-x86_64/moc_gridlayout.o
 -rw-r--r-- jenkins    jenkins        200496 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.obj/release-shared-emb-x86_64/moc_qmlapplicationviewer.o
 -rw-r--r-- jenkins    jenkins        365976 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicsgridlayout/.obj/release-shared-emb-x86_64/qmlapplicationviewer.o
@@ -330,7 +330,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/.obj
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        384392 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/.obj/release-shared-emb-x86_64/linearlayout.o
--rw-r--r-- jenkins    jenkins        560392 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        561296 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        384872 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/.obj/release-shared-emb-x86_64/moc_linearlayout.o
 -rw-r--r-- jenkins    jenkins        200496 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/.obj/release-shared-emb-x86_64/moc_qmlapplicationviewer.o
 -rw-r--r-- jenkins    jenkins        365976 ./usr/bin/qtopia/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/.obj/release-shared-emb-x86_64/qmlapplicationviewer.o
@@ -356,7 +356,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarativ
 -rw-r--r-- jenkins    jenkins          5934 ./usr/bin/qtopia/examples/declarative/cppextensions/qwidgets/.moc/release-shared-emb-x86_64/qwidgets.moc
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/qwidgets/.obj
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/qwidgets/.obj/release-shared-emb-x86_64
--rw-r--r-- jenkins    jenkins        481472 ./usr/bin/qtopia/examples/declarative/cppextensions/qwidgets/.obj/release-shared-emb-x86_64/qwidgets.o
+-rw-r--r-- jenkins    jenkins        485680 ./usr/bin/qtopia/examples/declarative/cppextensions/qwidgets/.obj/release-shared-emb-x86_64/qwidgets.o
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/qwidgets/.pch
 drwxr-xr-x jenkins    jenkins            40 ./usr/bin/qtopia/examples/declarative/cppextensions/qwidgets/.pch/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins         39412 ./usr/bin/qtopia/examples/declarative/cppextensions/qwidgets/Makefile
@@ -380,7 +380,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarativ
 -rw-r--r-- jenkins    jenkins          3401 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/adding/.moc/release-shared-emb-x86_64/moc_person.cpp
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/adding/.obj
 drwxr-xr-x jenkins    jenkins           120 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/adding/.obj/release-shared-emb-x86_64
--rw-r--r-- jenkins    jenkins        423152 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/adding/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        423608 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/adding/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        185976 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/adding/.obj/release-shared-emb-x86_64/moc_person.o
 -rw-r--r-- jenkins    jenkins        166336 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/adding/.obj/release-shared-emb-x86_64/person.o
 -rw-r--r-- jenkins    jenkins         18144 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/adding/.obj/release-shared-emb-x86_64/qrc_adding.o
@@ -405,7 +405,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/attached/.obj
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/attached/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        316848 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/attached/.obj/release-shared-emb-x86_64/birthdayparty.o
--rw-r--r-- jenkins    jenkins        799400 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/attached/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        800776 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/attached/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        312032 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/attached/.obj/release-shared-emb-x86_64/moc_birthdayparty.o
 -rw-r--r-- jenkins    jenkins        284352 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/attached/.obj/release-shared-emb-x86_64/moc_person.o
 -rw-r--r-- jenkins    jenkins        207512 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/attached/.obj/release-shared-emb-x86_64/person.o
@@ -435,7 +435,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins           200 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/binding/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        393992 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/binding/.obj/release-shared-emb-x86_64/birthdayparty.o
 -rw-r--r-- jenkins    jenkins        315592 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/binding/.obj/release-shared-emb-x86_64/happybirthdaysong.o
--rw-r--r-- jenkins    jenkins        873488 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/binding/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        875344 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/binding/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        368072 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/binding/.obj/release-shared-emb-x86_64/moc_birthdayparty.o
 -rw-r--r-- jenkins    jenkins        280040 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/binding/.obj/release-shared-emb-x86_64/moc_happybirthdaysong.o
 -rw-r--r-- jenkins    jenkins        293296 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/binding/.obj/release-shared-emb-x86_64/moc_person.o
@@ -466,7 +466,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/coercion/.obj
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/coercion/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        212144 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/coercion/.obj/release-shared-emb-x86_64/birthdayparty.o
--rw-r--r-- jenkins    jenkins        615616 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/coercion/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        617016 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/coercion/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        200232 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/coercion/.obj/release-shared-emb-x86_64/moc_birthdayparty.o
 -rw-r--r-- jenkins    jenkins        211968 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/coercion/.obj/release-shared-emb-x86_64/moc_person.o
 -rw-r--r-- jenkins    jenkins        169312 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/coercion/.obj/release-shared-emb-x86_64/person.o
@@ -494,7 +494,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/default/.obj
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/default/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        212144 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/default/.obj/release-shared-emb-x86_64/birthdayparty.o
--rw-r--r-- jenkins    jenkins        615616 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/default/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        617016 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/default/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        200232 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/default/.obj/release-shared-emb-x86_64/moc_birthdayparty.o
 -rw-r--r-- jenkins    jenkins        211960 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/default/.obj/release-shared-emb-x86_64/moc_person.o
 -rw-r--r-- jenkins    jenkins        169312 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/default/.obj/release-shared-emb-x86_64/person.o
@@ -521,7 +521,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/extended/.obj
 drwxr-xr-x jenkins    jenkins           120 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/extended/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        284432 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/extended/.obj/release-shared-emb-x86_64/lineedit.o
--rw-r--r-- jenkins    jenkins        456344 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/extended/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        456776 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/extended/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        206832 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/extended/.obj/release-shared-emb-x86_64/moc_lineedit.o
 -rw-r--r-- jenkins    jenkins         18168 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/extended/.obj/release-shared-emb-x86_64/qrc_extended.o
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/extended/.pch
@@ -545,7 +545,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/grouped/.obj
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/grouped/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        228720 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/grouped/.obj/release-shared-emb-x86_64/birthdayparty.o
--rw-r--r-- jenkins    jenkins        693408 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/grouped/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        694808 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/grouped/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        216808 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/grouped/.obj/release-shared-emb-x86_64/moc_birthdayparty.o
 -rw-r--r-- jenkins    jenkins        284352 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/grouped/.obj/release-shared-emb-x86_64/moc_person.o
 -rw-r--r-- jenkins    jenkins        207512 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/grouped/.obj/release-shared-emb-x86_64/person.o
@@ -573,7 +573,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/methods/.obj
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/methods/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        214656 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/methods/.obj/release-shared-emb-x86_64/birthdayparty.o
--rw-r--r-- jenkins    jenkins        514808 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/methods/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        515736 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/methods/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        203464 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/methods/.obj/release-shared-emb-x86_64/moc_birthdayparty.o
 -rw-r--r-- jenkins    jenkins        185976 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/methods/.obj/release-shared-emb-x86_64/moc_person.o
 -rw-r--r-- jenkins    jenkins        166344 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/methods/.obj/release-shared-emb-x86_64/person.o
@@ -601,7 +601,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/properties/.obj
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/properties/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        212144 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/properties/.obj/release-shared-emb-x86_64/birthdayparty.o
--rw-r--r-- jenkins    jenkins        514808 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/properties/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        515736 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/properties/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        200232 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/properties/.obj/release-shared-emb-x86_64/moc_birthdayparty.o
 -rw-r--r-- jenkins    jenkins        185984 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/properties/.obj/release-shared-emb-x86_64/moc_person.o
 -rw-r--r-- jenkins    jenkins        166344 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/properties/.obj/release-shared-emb-x86_64/person.o
@@ -631,7 +631,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/signal/.obj
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/signal/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        317976 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/signal/.obj/release-shared-emb-x86_64/birthdayparty.o
--rw-r--r-- jenkins    jenkins        797888 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/signal/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        799272 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/signal/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        316952 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/signal/.obj/release-shared-emb-x86_64/moc_birthdayparty.o
 -rw-r--r-- jenkins    jenkins        284352 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/signal/.obj/release-shared-emb-x86_64/moc_person.o
 -rw-r--r-- jenkins    jenkins        207512 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/signal/.obj/release-shared-emb-x86_64/person.o
@@ -661,7 +661,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/declarativ
 drwxr-xr-x jenkins    jenkins           200 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/valuesource/.obj/release-shared-emb-x86_64
 -rw-r--r-- jenkins    jenkins        392352 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/valuesource/.obj/release-shared-emb-x86_64/birthdayparty.o
 -rw-r--r-- jenkins    jenkins        324072 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/valuesource/.obj/release-shared-emb-x86_64/happybirthdaysong.o
--rw-r--r-- jenkins    jenkins        873496 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/valuesource/.obj/release-shared-emb-x86_64/main.o
+-rw-r--r-- jenkins    jenkins        875344 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/valuesource/.obj/release-shared-emb-x86_64/main.o
 -rw-r--r-- jenkins    jenkins        363920 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/valuesource/.obj/release-shared-emb-x86_64/moc_birthdayparty.o
 -rw-r--r-- jenkins    jenkins        289872 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/valuesource/.obj/release-shared-emb-x86_64/moc_happybirthdaysong.o
 -rw-r--r-- jenkins    jenkins        284352 ./usr/bin/qtopia/examples/declarative/cppextensions/referenceexamples/valuesource/.obj/release-shared-emb-x86_64/moc_person.o
@@ -1553,7 +1553,7 @@ drwxr-xr-x jenkins    jenkins           220 ./usr/bin/qtopia/examples/designer/t
 drwxr-xr-x jenkins    jenkins           140 ./usr/bin/qtopia/examples/designer/worldtimeclockbuilder
 -rw-r--r-- jenkins    jenkins          3748 ./usr/bin/qtopia/examples/designer/worldtimeclockbuilder/form.ui
 -rw-r--r-- jenkins    jenkins          2372 ./usr/bin/qtopia/examples/designer/worldtimeclockbuilder/main.cpp
--rwxr-xr-x jenkins    jenkins        597480 ./usr/bin/qtopia/examples/designer/worldtimeclockbuilder/worldtimeclockbuilder
+-rwxr-xr-x jenkins    jenkins        597288 ./usr/bin/qtopia/examples/designer/worldtimeclockbuilder/worldtimeclockbuilder
 -rw-r--r-- jenkins    jenkins           659 ./usr/bin/qtopia/examples/designer/worldtimeclockbuilder/worldtimeclockbuilder.pro
 -rw-r--r-- jenkins    jenkins           106 ./usr/bin/qtopia/examples/designer/worldtimeclockbuilder/worldtimeclockbuilder.qrc
 drwxr-xr-x jenkins    jenkins           140 ./usr/bin/qtopia/examples/designer/worldtimeclockplugin
@@ -2746,7 +2746,7 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/bin/qtopia/examples/qtconcurre
 -rw-r--r-- jenkins    jenkins           525 ./usr/bin/qtopia/examples/qtconcurrent/runfunction/runfunction.pro
 drwxr-xr-x jenkins    jenkins           100 ./usr/bin/qtopia/examples/qtconcurrent/wordcount
 -rw-r--r-- jenkins    jenkins          5408 ./usr/bin/qtopia/examples/qtconcurrent/wordcount/main.cpp
--rwxr-xr-x jenkins    jenkins         45928 ./usr/bin/qtopia/examples/qtconcurrent/wordcount/wordcount
+-rwxr-xr-x jenkins    jenkins         45992 ./usr/bin/qtopia/examples/qtconcurrent/wordcount/wordcount
 -rw-r--r-- jenkins    jenkins           521 ./usr/bin/qtopia/examples/qtconcurrent/wordcount/wordcount.pro
 drwxr-xr-x jenkins    jenkins           180 ./usr/bin/qtopia/examples/qtestlib
 -rw-r--r-- jenkins    jenkins          1308 ./usr/bin/qtopia/examples/qtestlib/README
@@ -2830,7 +2830,7 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/bin/qtopia/examples/richtext/t
 drwxr-xr-x jenkins    jenkins           240 ./usr/bin/qtopia/examples/script
 -rw-r--r-- jenkins    jenkins          1235 ./usr/bin/qtopia/examples/script/README
 drwxr-xr-x jenkins    jenkins           160 ./usr/bin/qtopia/examples/script/calculator
--rwxr-xr-x jenkins    jenkins        603352 ./usr/bin/qtopia/examples/script/calculator/calculator
+-rwxr-xr-x jenkins    jenkins        603096 ./usr/bin/qtopia/examples/script/calculator/calculator
 -rw-r--r-- jenkins    jenkins          8567 ./usr/bin/qtopia/examples/script/calculator/calculator.js
 -rw-r--r-- jenkins    jenkins           589 ./usr/bin/qtopia/examples/script/calculator/calculator.pro
 -rw-r--r-- jenkins    jenkins           128 ./usr/bin/qtopia/examples/script/calculator/calculator.qrc
@@ -3288,7 +3288,7 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/bin/qtopia/examples/tutorials/
 -rw-r--r-- jenkins    jenkins          3094 ./usr/bin/qtopia/examples/tutorials/addressbook/part5/finddialog.cpp
 -rw-r--r-- jenkins    jenkins          2396 ./usr/bin/qtopia/examples/tutorials/addressbook/part5/finddialog.h
 -rw-r--r-- jenkins    jenkins          2148 ./usr/bin/qtopia/examples/tutorials/addressbook/part5/main.cpp
--rwxr-xr-x jenkins    jenkins         37912 ./usr/bin/qtopia/examples/tutorials/addressbook/part5/part5
+-rwxr-xr-x jenkins    jenkins         37848 ./usr/bin/qtopia/examples/tutorials/addressbook/part5/part5
 -rw-r--r-- jenkins    jenkins           715 ./usr/bin/qtopia/examples/tutorials/addressbook/part5/part5.pro
 drwxr-xr-x jenkins    jenkins           180 ./usr/bin/qtopia/examples/tutorials/addressbook/part6
 -rw-r--r-- jenkins    jenkins         12351 ./usr/bin/qtopia/examples/tutorials/addressbook/part6/addressbook.cpp
@@ -3304,7 +3304,7 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/bin/qtopia/examples/tutorials/
 -rw-r--r-- jenkins    jenkins          2944 ./usr/bin/qtopia/examples/tutorials/addressbook/part7/finddialog.cpp
 -rw-r--r-- jenkins    jenkins          2350 ./usr/bin/qtopia/examples/tutorials/addressbook/part7/finddialog.h
 -rw-r--r-- jenkins    jenkins          2148 ./usr/bin/qtopia/examples/tutorials/addressbook/part7/main.cpp
--rwxr-xr-x jenkins    jenkins         50688 ./usr/bin/qtopia/examples/tutorials/addressbook/part7/part7
+-rwxr-xr-x jenkins    jenkins         50624 ./usr/bin/qtopia/examples/tutorials/addressbook/part7/part7
 -rw-r--r-- jenkins    jenkins           715 ./usr/bin/qtopia/examples/tutorials/addressbook/part7/part7.pro
 drwxr-xr-x jenkins    jenkins           200 ./usr/bin/qtopia/examples/tutorials/modelview
 drwxr-xr-x jenkins    jenkins           140 ./usr/bin/qtopia/examples/tutorials/modelview/1_readonly
@@ -3395,7 +3395,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/bin/qtopia/examples/uitools/te
 -rw-r--r-- jenkins    jenkins           806 ./usr/bin/qtopia/examples/uitools/textfinder/forms/input.txt
 -rw-r--r-- jenkins    jenkins          2006 ./usr/bin/qtopia/examples/uitools/textfinder/forms/textfinder.ui
 -rw-r--r-- jenkins    jenkins          2219 ./usr/bin/qtopia/examples/uitools/textfinder/main.cpp
--rwxr-xr-x jenkins    jenkins        607192 ./usr/bin/qtopia/examples/uitools/textfinder/textfinder
+-rwxr-xr-x jenkins    jenkins        606936 ./usr/bin/qtopia/examples/uitools/textfinder/textfinder
 -rw-r--r-- jenkins    jenkins          4704 ./usr/bin/qtopia/examples/uitools/textfinder/textfinder.cpp
 -rw-r--r-- jenkins    jenkins          2458 ./usr/bin/qtopia/examples/uitools/textfinder/textfinder.h
 -rw-r--r-- jenkins    jenkins           588 ./usr/bin/qtopia/examples/uitools/textfinder/textfinder.pro

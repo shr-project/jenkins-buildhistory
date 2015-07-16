@@ -1,9 +1,9 @@
 PV = 4.0.4
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.2) libstdc++ (>= 4.9.2)
+RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
-PKGSIZE = 344903
+PKGSIZE = 344775
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/zeromq/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/zeromq /usr/lib/zeromq/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/curve_keygen /usr/lib/libzmq.so.3 /usr/lib/libzmq.so.3.1.0

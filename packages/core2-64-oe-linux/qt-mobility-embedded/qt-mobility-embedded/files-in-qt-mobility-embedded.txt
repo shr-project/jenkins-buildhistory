@@ -48,7 +48,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/bin/qtopia/examples/QtMobility
 -rw-r--r-- jenkins    jenkins          2428 ./usr/bin/qtopia/examples/QtMobility/moreplaces.lmx
 -rw-r--r-- jenkins    jenkins          2018 ./usr/bin/qtopia/examples/QtMobility/mylm.lmx
 -rwxr-xr-x jenkins    jenkins         78424 ./usr/bin/qtopia/examples/QtMobility/ndefeditor
--rw-r--r-- jenkins    jenkins         82097 ./usr/bin/qtopia/examples/QtMobility/nmealog.txt
+-rwxr-xr-x jenkins    jenkins         82097 ./usr/bin/qtopia/examples/QtMobility/nmealog.txt
 -rwxr-xr-x jenkins    jenkins         21888 ./usr/bin/qtopia/examples/QtMobility/orientation
 -rw-r--r-- jenkins    jenkins          1061 ./usr/bin/qtopia/examples/QtMobility/places.gpx
 -rwxr-xr-x jenkins    jenkins         46504 ./usr/bin/qtopia/examples/QtMobility/publish-subscribe
@@ -106,7 +106,7 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/bin/qtopia/examples/QtMobility
 -rwxr-xr-x jenkins    jenkins        225600 ./usr/bin/qtopia/servicedbgen
 -rwxr-xr-x jenkins    jenkins         90096 ./usr/bin/qtopia/servicefw
 -rwxr-xr-x jenkins    jenkins        157008 ./usr/bin/qtopia/servicexmlgen
--rwxr-xr-x jenkins    jenkins         45336 ./usr/bin/qtopia/vsexplorer
+-rwxr-xr-x jenkins    jenkins         45400 ./usr/bin/qtopia/vsexplorer
 drwxr-xr-x jenkins    jenkins           900 ./usr/lib
 lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/libQtBearerE.so.1 -> libQtBearerE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/libQtBearerE.so.1.2 -> libQtBearerE.so.1.2.0
@@ -122,16 +122,16 @@ lrwxrwxrwx jenkins    jenkins            23 ./usr/lib/libQtFeedbackE.so.1.2 -> l
 -rwxr-xr-x jenkins    jenkins         75984 ./usr/lib/libQtFeedbackE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            22 ./usr/lib/libQtGalleryE.so.1 -> libQtGalleryE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            22 ./usr/lib/libQtGalleryE.so.1.2 -> libQtGalleryE.so.1.2.0
--rwxr-xr-x jenkins    jenkins        399160 ./usr/lib/libQtGalleryE.so.1.2.0
+-rwxr-xr-x jenkins    jenkins        399096 ./usr/lib/libQtGalleryE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            23 ./usr/lib/libQtLocationE.so.1 -> libQtLocationE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            23 ./usr/lib/libQtLocationE.so.1.2 -> libQtLocationE.so.1.2.0
--rwxr-xr-x jenkins    jenkins       1381256 ./usr/lib/libQtLocationE.so.1.2.0
+-rwxr-xr-x jenkins    jenkins       1381512 ./usr/lib/libQtLocationE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            28 ./usr/lib/libQtMultimediaKitE.so.1 -> libQtMultimediaKitE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            28 ./usr/lib/libQtMultimediaKitE.so.1.2 -> libQtMultimediaKitE.so.1.2.0
 -rwxr-xr-x jenkins    jenkins        778968 ./usr/lib/libQtMultimediaKitE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            24 ./usr/lib/libQtOrganizerE.so.1 -> libQtOrganizerE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            24 ./usr/lib/libQtOrganizerE.so.1.2 -> libQtOrganizerE.so.1.2.0
--rwxr-xr-x jenkins    jenkins        882872 ./usr/lib/libQtOrganizerE.so.1.2.0
+-rwxr-xr-x jenkins    jenkins        885176 ./usr/lib/libQtOrganizerE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            31 ./usr/lib/libQtPublishSubscribeE.so.1 -> libQtPublishSubscribeE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            31 ./usr/lib/libQtPublishSubscribeE.so.1.2 -> libQtPublishSubscribeE.so.1.2.0
 -rwxr-xr-x jenkins    jenkins        196512 ./usr/lib/libQtPublishSubscribeE.so.1.2.0
@@ -146,7 +146,7 @@ lrwxrwxrwx jenkins    jenkins            25 ./usr/lib/libQtSystemInfoE.so.1.2 ->
 -rwxr-xr-x jenkins    jenkins        448216 ./usr/lib/libQtSystemInfoE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/libQtVersitE.so.1 -> libQtVersitE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/libQtVersitE.so.1.2 -> libQtVersitE.so.1.2.0
--rwxr-xr-x jenkins    jenkins        378392 ./usr/lib/libQtVersitE.so.1.2.0
+-rwxr-xr-x jenkins    jenkins        378456 ./usr/lib/libQtVersitE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            30 ./usr/lib/libQtVersitOrganizerE.so.1 -> libQtVersitOrganizerE.so.1.2.0
 lrwxrwxrwx jenkins    jenkins            30 ./usr/lib/libQtVersitOrganizerE.so.1.2 -> libQtVersitOrganizerE.so.1.2.0
 -rwxr-xr-x jenkins    jenkins        177600 ./usr/lib/libQtVersitOrganizerE.so.1.2.0
@@ -166,7 +166,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qtopia/imports/QtMobility/
 -rwxr-xr-x jenkins    jenkins        189008 ./usr/lib/qtopia/imports/QtMobility/gallery/libdeclarative_gallery.so
 -rw-r--r-- jenkins    jenkins            28 ./usr/lib/qtopia/imports/QtMobility/gallery/qmldir
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qtopia/imports/QtMobility/location
--rwxr-xr-x jenkins    jenkins        477056 ./usr/lib/qtopia/imports/QtMobility/location/libdeclarative_location.so
+-rwxr-xr-x jenkins    jenkins        476928 ./usr/lib/qtopia/imports/QtMobility/location/libdeclarative_location.so
 -rw-r--r-- jenkins    jenkins            28 ./usr/lib/qtopia/imports/QtMobility/location/qmldir
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qtopia/imports/QtMobility/organizer
 -rwxr-xr-x jenkins    jenkins        586080 ./usr/lib/qtopia/imports/QtMobility/organizer/libdeclarative_organizer.so
@@ -189,15 +189,15 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qtopia/imports/QtMultimedi
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qtopia/plugins
 drwxr-xr-x jenkins    jenkins           240 ./usr/lib/qtopia/plugins/QtMobility
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qtopia/plugins/QtMobility/audio
--rwxr-xr-x jenkins    jenkins         86872 ./usr/lib/qtopia/plugins/QtMobility/audio/libqtmedia_pulse.so
+-rwxr-xr-x jenkins    jenkins         86936 ./usr/lib/qtopia/plugins/QtMobility/audio/libqtmedia_pulse.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qtopia/plugins/QtMobility/contacts
 -rwxr-xr-x jenkins    jenkins         29992 ./usr/lib/qtopia/plugins/QtMobility/contacts/libqtcontacts_serviceactionmanager.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qtopia/plugins/QtMobility/feedback
 -rwxr-xr-x jenkins    jenkins         25112 ./usr/lib/qtopia/plugins/QtMobility/feedback/libqtfeedback_mmk.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qtopia/plugins/QtMobility/geoservices
--rwxr-xr-x jenkins    jenkins        230392 ./usr/lib/qtopia/plugins/QtMobility/geoservices/libqtgeoservices_nokia.so
+-rwxr-xr-x jenkins    jenkins        230328 ./usr/lib/qtopia/plugins/QtMobility/geoservices/libqtgeoservices_nokia.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/qtopia/plugins/QtMobility/landmarks
--rwxr-xr-x jenkins    jenkins        411592 ./usr/lib/qtopia/plugins/QtMobility/landmarks/libqtlandmarks_sqlite.so
+-rwxr-xr-x jenkins    jenkins        411848 ./usr/lib/qtopia/plugins/QtMobility/landmarks/libqtlandmarks_sqlite.so
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/qtopia/plugins/QtMobility/mediaservice
 -rwxr-xr-x jenkins    jenkins        410592 ./usr/lib/qtopia/plugins/QtMobility/mediaservice/libqgstengine.so
 -rwxr-xr-x jenkins    jenkins         29528 ./usr/lib/qtopia/plugins/QtMobility/mediaservice/libqtmedia_v4lengine.so
