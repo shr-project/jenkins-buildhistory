@@ -11,13 +11,13 @@ if type update-rc.d >/dev/null 2>/dev/null; then
 	update-rc.d $OPT nginx remove
 fi
 bbnote () {
-	printf "%b\0" "bbnote $*" > /home/jenkins/oe/world/shr-core/tmp-glibc/work/armv5te-oe-linux-gnueabi/nginx/1.4.4-r0/temp/fifo.15081
+	echo "NOTE: $*"
 }
 bbwarn () {
-	printf "%b\0" "bbwarn $*" > /home/jenkins/oe/world/shr-core/tmp-glibc/work/armv5te-oe-linux-gnueabi/nginx/1.4.4-r0/temp/fifo.15081
+	echo "WARNING: $*"
 }
 bbfatal () {
-	printf "%b\0" "bbfatal $*" > /home/jenkins/oe/world/shr-core/tmp-glibc/work/armv5te-oe-linux-gnueabi/nginx/1.4.4-r0/temp/fifo.15081
+	echo "ERROR: $*"
 	exit 1
 }
 perform_groupadd () {

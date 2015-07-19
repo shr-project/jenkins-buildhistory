@@ -1,9 +1,9 @@
 PE = 2
 PV = 10.5.8
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = mesa-driver-kms-swrast mesa-driver-swrast
-RDEPENDS = expat (>= 2.1.0) glibc (>= 2.21) libdrm (>= 2.4.59) libgcc (>= 4.9.3) libllvm3.3-llvm-3.3 (>= 3.3) libstdc++ (>= 4.9.3)
+RDEPENDS = expat (>= 2.1.0) glibc (>= 2.21) libdrm (>= 2.4.62) libgcc (>= 4.9.3) libllvm3.3-llvm-3.3 (>= 3.3) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
 RREPLACES = mesa-driver-kms-swrast mesa-driver-swrast
 RCONFLICTS = mesa-driver-kms-swrast mesa-driver-swrast
