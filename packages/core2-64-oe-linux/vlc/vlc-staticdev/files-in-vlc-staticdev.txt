@@ -6,7 +6,7 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/lib
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/vlc
 -rw-r--r-- jenkins    jenkins          7748 ./usr/lib/vlc/libcompat.a
 drwxr-xr-x jenkins    jenkins           540 ./usr/lib/vlc/plugins
-drwxr-xr-x jenkins    jenkins           680 ./usr/lib/vlc/plugins/access
+drwxr-xr-x jenkins    jenkins           700 ./usr/lib/vlc/plugins/access
 -rw-r--r-- jenkins    jenkins         74022 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.a
 -rw-r--r-- jenkins    jenkins         29330 ./usr/lib/vlc/plugins/access/libaccess_attachment_plugin.a
 -rw-r--r-- jenkins    jenkins        407004 ./usr/lib/vlc/plugins/access/libaccess_bd_plugin.a
@@ -18,6 +18,7 @@ drwxr-xr-x jenkins    jenkins           680 ./usr/lib/vlc/plugins/access
 -rw-r--r-- jenkins    jenkins         41260 ./usr/lib/vlc/plugins/access/libaccess_mtp_plugin.a
 -rw-r--r-- jenkins    jenkins         73046 ./usr/lib/vlc/plugins/access/libaccess_rar_plugin.a
 -rw-r--r-- jenkins    jenkins        319092 ./usr/lib/vlc/plugins/access/libaccess_realrtsp_plugin.a
+-rw-r--r-- jenkins    jenkins         43918 ./usr/lib/vlc/plugins/access/libaccess_sftp_plugin.a
 -rw-r--r-- jenkins    jenkins         30316 ./usr/lib/vlc/plugins/access/libaccess_tcp_plugin.a
 -rw-r--r-- jenkins    jenkins         32124 ./usr/lib/vlc/plugins/access/libaccess_udp_plugin.a
 -rw-r--r-- jenkins    jenkins         95780 ./usr/lib/vlc/plugins/access/libaccess_vdr_plugin.a
@@ -204,7 +205,7 @@ drwxr-xr-x jenkins    jenkins           220 ./usr/lib/vlc/plugins/packetizer
 -rw-r--r-- jenkins    jenkins        131566 ./usr/lib/vlc/plugins/packetizer/libpacketizer_mpeg4video_plugin.a
 -rw-r--r-- jenkins    jenkins        111388 ./usr/lib/vlc/plugins/packetizer/libpacketizer_mpegvideo_plugin.a
 -rw-r--r-- jenkins    jenkins        179520 ./usr/lib/vlc/plugins/packetizer/libpacketizer_vc1_plugin.a
-drwxr-xr-x jenkins    jenkins           200 ./usr/lib/vlc/plugins/services_discovery
+drwxr-xr-x jenkins    jenkins           220 ./usr/lib/vlc/plugins/services_discovery
 -rw-r--r-- jenkins    jenkins         76548 ./usr/lib/vlc/plugins/services_discovery/libbonjour_plugin.a
 -rw-r--r-- jenkins    jenkins         62376 ./usr/lib/vlc/plugins/services_discovery/libmediadirs_plugin.a
 -rw-r--r-- jenkins    jenkins         57076 ./usr/lib/vlc/plugins/services_discovery/libmtp_plugin.a
@@ -212,6 +213,7 @@ drwxr-xr-x jenkins    jenkins           200 ./usr/lib/vlc/plugins/services_disco
 -rw-r--r-- jenkins    jenkins        109556 ./usr/lib/vlc/plugins/services_discovery/libpulselist_plugin.a
 -rw-r--r-- jenkins    jenkins        156756 ./usr/lib/vlc/plugins/services_discovery/libsap_plugin.a
 -rw-r--r-- jenkins    jenkins         79470 ./usr/lib/vlc/plugins/services_discovery/libudev_plugin.a
+-rw-r--r-- jenkins    jenkins        475958 ./usr/lib/vlc/plugins/services_discovery/libupnp_plugin.a
 -rw-r--r-- jenkins    jenkins         62718 ./usr/lib/vlc/plugins/services_discovery/libxcb_apps_plugin.a
 drwxr-xr-x jenkins    jenkins           100 ./usr/lib/vlc/plugins/sse2
 -rw-r--r-- jenkins    jenkins        226720 ./usr/lib/vlc/plugins/sse2/libi420_rgb_sse2_plugin.a
