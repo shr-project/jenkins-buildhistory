@@ -1,9 +1,9 @@
-PV = 2.3.0
+PV = 2.3.99+2.4.0-rc0
 PR = r1
-PKGR = r1.16
+PKGR = r1.0
 RPROVIDES = 
-RDEPENDS = qemu (= 2.3.0-r1.16)
-RRECOMMENDS = alsa-lib-dev bash-dev dtc-dev glib-2.0-dev glibc-dev libasound-dev libbz2-dev libgcc-dev libsdl-dev libstdc++-dev libx11-dev pixman-dev python-dev zlib-dev
+RDEPENDS = qemu (= 2.3.99+2.4.0-rc0-r1.0)
+RRECOMMENDS = alsa-lib-dev bash-dev dtc-dev glib-2.0-dev glibc-dev gnutls-dev libasound-dev libbz2-dev libgcc-dev libsdl-dev libstdc++-dev libx11-dev nettle-dev pixman-dev python-dev zlib-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qemu/*.la /lib/*.la
 FILELIST = 

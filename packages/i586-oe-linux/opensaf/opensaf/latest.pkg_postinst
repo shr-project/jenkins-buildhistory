@@ -1,8 +1,4 @@
-    if [ "x$D" != "x" ]; then
-        exit 1
-    fi
-
-    hostname -s > /etc/opensaf/node_name
+#!/bin/sh
 OPTS=""
 
 if [ -n "$D" ]; then
@@ -10,12 +6,9 @@ if [ -n "$D" ]; then
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS disable  opensafd.service
+	systemctl $OPTS disable  opensafd.service plmcboot.service plmcd.service
 
 	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl restart  opensafd.service
+		systemctl restart  opensafd.service plmcboot.service plmcd.service
 	fi
-fi
-if [ x"$D" = "x" ]; then
-	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
 fi

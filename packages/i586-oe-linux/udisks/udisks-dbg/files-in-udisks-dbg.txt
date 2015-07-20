@@ -2,8 +2,8 @@ drwxr-xr-x jenkins    jenkins           100 .
 drwxr-xr-x jenkins    jenkins            60 ./lib
 drwxr-xr-x jenkins    jenkins            60 ./lib/udev
 drwxr-xr-x jenkins    jenkins           120 ./lib/udev/.debug
--rwxr-xr-x jenkins    jenkins         14176 ./lib/udev/.debug/udisks-dm-export
--rwxr-xr-x jenkins    jenkins         41492 ./lib/udev/.debug/udisks-part-id
+-rwxr-xr-x jenkins    jenkins         16772 ./lib/udev/.debug/udisks-dm-export
+-rwxr-xr-x jenkins    jenkins         47964 ./lib/udev/.debug/udisks-part-id
 -rwxr-xr-x jenkins    jenkins         10632 ./lib/udev/.debug/udisks-probe-ata-smart
 -rwxr-xr-x jenkins    jenkins         12216 ./lib/udev/.debug/udisks-probe-sas-expander
 drwxr-xr-x jenkins    jenkins            60 ./sbin
@@ -12,15 +12,15 @@ drwxr-xr-x jenkins    jenkins            60 ./sbin/.debug
 drwxr-xr-x jenkins    jenkins           100 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/bin
 drwxr-xr-x jenkins    jenkins            80 ./usr/bin/.debug
--rwxr-xr-x jenkins    jenkins         60060 ./usr/bin/.debug/udisks
--rwxr-xr-x jenkins    jenkins         19360 ./usr/bin/.debug/udisks-tcp-bridge
+-rwxr-xr-x jenkins    jenkins         75068 ./usr/bin/.debug/udisks
+-rwxr-xr-x jenkins    jenkins         20828 ./usr/bin/.debug/udisks-tcp-bridge
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/udisks
 drwxr-xr-x jenkins    jenkins           260 ./usr/lib/udisks/.debug
--rwxr-xr-x jenkins    jenkins        433260 ./usr/lib/udisks/.debug/udisks-daemon
+-rwxr-xr-x jenkins    jenkins        505504 ./usr/lib/udisks/.debug/udisks-daemon
 -rwxr-xr-x jenkins    jenkins         11792 ./usr/lib/udisks/.debug/udisks-helper-ata-smart-collect
 -rwxr-xr-x jenkins    jenkins         13932 ./usr/lib/udisks/.debug/udisks-helper-ata-smart-selftest
--rwxr-xr-x jenkins    jenkins         13480 ./usr/lib/udisks/.debug/udisks-helper-change-filesystem-label
+-rwxr-xr-x jenkins    jenkins         14016 ./usr/lib/udisks/.debug/udisks-helper-change-filesystem-label
 -rwxr-xr-x jenkins    jenkins         26232 ./usr/lib/udisks/.debug/udisks-helper-drive-benchmark
 -rwxr-xr-x jenkins    jenkins         16092 ./usr/lib/udisks/.debug/udisks-helper-drive-detach
 -rwxr-xr-x jenkins    jenkins         10228 ./usr/lib/udisks/.debug/udisks-helper-drive-poll
@@ -43,7 +43,7 @@ drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/udisks/1.0.4-r9/buil
 -rw-r--r-- jenkins    jenkins         38134 ./usr/src/debug/udisks/1.0.4-r9/build/tools/udisks-daemon-glue.h
 -rw-r--r-- jenkins    jenkins         47400 ./usr/src/debug/udisks/1.0.4-r9/build/tools/udisks-device-glue.h
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4
-drwxr-xr-x jenkins    jenkins           700 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src
+drwxr-xr-x jenkins    jenkins           720 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src
 -rw-r--r-- jenkins    jenkins          3606 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/adapter-private.c
 -rw-r--r-- jenkins    jenkins          1801 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/adapter-private.h
 -rw-r--r-- jenkins    jenkins         20356 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/adapter.c
@@ -88,6 +88,7 @@ drwxr-xr-x jenkins    jenkins           300 ./usr/src/debug/udisks/1.0.4-r9/udis
 -rw-r--r-- jenkins    jenkins          1993 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/port-private.h
 -rw-r--r-- jenkins    jenkins         22043 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/port.c
 -rw-r--r-- jenkins    jenkins          2187 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/port.h
+-rw-r--r-- jenkins    jenkins          1048 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/private.h
 drwxr-xr-x jenkins    jenkins           120 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/probers
 -rw-r--r-- jenkins    jenkins         16808 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/probers/part-id.c
 -rw-r--r-- jenkins    jenkins          9502 ./usr/src/debug/udisks/1.0.4-r9/udisks-1.0.4/src/probers/udisks-dm-export.c

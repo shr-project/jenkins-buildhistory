@@ -13,7 +13,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/lib/vlc/.debug
 -rwxr-xr-x jenkins    jenkins         13788 ./usr/lib/vlc/.debug/vlc-cache-gen
 drwxr-xr-x jenkins    jenkins           540 ./usr/lib/vlc/plugins
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/vlc/plugins/access
-drwxr-xr-x jenkins    jenkins           700 ./usr/lib/vlc/plugins/access/.debug
+drwxr-xr-x jenkins    jenkins           680 ./usr/lib/vlc/plugins/access/.debug
 -rwxr-xr-x jenkins    jenkins         37492 ./usr/lib/vlc/plugins/access/.debug/libaccess_alsa_plugin.so
 -rwxr-xr-x jenkins    jenkins         16064 ./usr/lib/vlc/plugins/access/.debug/libaccess_attachment_plugin.so
 -rwxr-xr-x jenkins    jenkins        173060 ./usr/lib/vlc/plugins/access/.debug/libaccess_bd_plugin.so
@@ -25,7 +25,6 @@ drwxr-xr-x jenkins    jenkins           700 ./usr/lib/vlc/plugins/access/.debug
 -rwxr-xr-x jenkins    jenkins         20960 ./usr/lib/vlc/plugins/access/.debug/libaccess_mtp_plugin.so
 -rwxr-xr-x jenkins    jenkins         31432 ./usr/lib/vlc/plugins/access/.debug/libaccess_rar_plugin.so
 -rwxr-xr-x jenkins    jenkins        112940 ./usr/lib/vlc/plugins/access/.debug/libaccess_realrtsp_plugin.so
--rwxr-xr-x jenkins    jenkins         19972 ./usr/lib/vlc/plugins/access/.debug/libaccess_smb_plugin.so
 -rwxr-xr-x jenkins    jenkins         16928 ./usr/lib/vlc/plugins/access/.debug/libaccess_tcp_plugin.so
 -rwxr-xr-x jenkins    jenkins         17444 ./usr/lib/vlc/plugins/access/.debug/libaccess_udp_plugin.so
 -rwxr-xr-x jenkins    jenkins         41584 ./usr/lib/vlc/plugins/access/.debug/libaccess_vdr_plugin.so
@@ -74,7 +73,7 @@ drwxr-xr-x jenkins    jenkins           500 ./usr/lib/vlc/plugins/audio_filter/.
 -rwxr-xr-x jenkins    jenkins         30520 ./usr/lib/vlc/plugins/audio_filter/.debug/libscaletempo_plugin.so
 -rwxr-xr-x jenkins    jenkins         32844 ./usr/lib/vlc/plugins/audio_filter/.debug/libsimple_channel_mixer_plugin.so
 -rwxr-xr-x jenkins    jenkins         43852 ./usr/lib/vlc/plugins/audio_filter/.debug/libspatializer_plugin.so
--rwxr-xr-x jenkins    jenkins         25284 ./usr/lib/vlc/plugins/audio_filter/.debug/libspeex_resampler_plugin.so
+-rwxr-xr-x jenkins    jenkins         25292 ./usr/lib/vlc/plugins/audio_filter/.debug/libspeex_resampler_plugin.so
 -rwxr-xr-x jenkins    jenkins         22916 ./usr/lib/vlc/plugins/audio_filter/.debug/libstereo_widen_plugin.so
 -rwxr-xr-x jenkins    jenkins         23120 ./usr/lib/vlc/plugins/audio_filter/.debug/libtrivial_channel_mixer_plugin.so
 -rwxr-xr-x jenkins    jenkins         20364 ./usr/lib/vlc/plugins/audio_filter/.debug/libugly_resampler_plugin.so
@@ -573,7 +572,7 @@ drwxr-xr-x jenkins    jenkins           460 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1
 -rw-r--r-- jenkins    jenkins         26295 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/lib/video.c
 -rw-r--r-- jenkins    jenkins         25888 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/lib/vlm.c
 drwxr-xr-x jenkins    jenkins           520 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules
-drwxr-xr-x jenkins    jenkins           740 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access
+drwxr-xr-x jenkins    jenkins           720 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access
 -rw-r--r-- jenkins    jenkins         15803 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/alsa.c
 -rw-r--r-- jenkins    jenkins          4675 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/attachment.c
 drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/bd
@@ -640,7 +639,6 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1
 -rw-r--r-- jenkins    jenkins         16648 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/screen/xcb.c
 -rw-r--r-- jenkins    jenkins          3646 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/sdp.c
 -rw-r--r-- jenkins    jenkins          9693 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/shm.c
--rw-r--r-- jenkins    jenkins         11945 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/smb.c
 -rw-r--r-- jenkins    jenkins          6126 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/tcp.c
 -rw-r--r-- jenkins    jenkins          5494 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/timecode.c
 -rw-r--r-- jenkins    jenkins          7023 ./usr/src/debug/vlc/2.1.4-r0/vlc-2.1.4/modules/access/udp.c

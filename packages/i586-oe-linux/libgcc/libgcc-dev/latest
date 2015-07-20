@@ -1,9 +1,9 @@
 PV = 4.9.3
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 PKG = libgcc-s-dev
 RPROVIDES = libgcc-dev
-RDEPENDS = libgcc (= 4.9.3-r0.0)
+RDEPENDS = libgcc (= 4.9.3-r0.1)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 5290613
 FILES = /lib/libgcc*.so /usr/lib/i586-oe-linux/4.9.3/*crt* /usr/lib/i586-oe-linux/4.9.3/64 /usr/lib/i586-oe-linux/4.9.3/32 /usr/lib/i586-oe-linux/4.9.3/x32 /usr/lib/i586-oe-linux/4.9.3/n32 /usr/lib/i586-oe-linux/4.9.3/libgcc* /usr/lib/i586-oe-linux/4.9.3/libgcov.a
