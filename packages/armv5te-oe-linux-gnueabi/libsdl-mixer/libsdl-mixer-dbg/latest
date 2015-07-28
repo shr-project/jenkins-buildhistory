@@ -1,8 +1,8 @@
 PV = 1.2.12
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libsdl-mixer-1.2-dbg
-RPROVIDES = libsdl-mixer-dbg
+RPROVIDES = 1.2.12 libsdl-mixer-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libsdl-dbg tslib-dbg
 PKGSIZE = 977342

@@ -1,9 +1,9 @@
 PE = 1
 PV = 1.2.2
 PR = r1
-PKGR = r1.19
+PKGR = r1.20
 PKG = libgsm0710-0
-RPROVIDES = libgsm0710
+RPROVIDES = 1.2.2 libgsm0710
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 8167

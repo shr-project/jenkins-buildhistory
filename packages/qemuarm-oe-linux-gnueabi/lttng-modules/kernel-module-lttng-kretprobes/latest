@@ -1,9 +1,10 @@
-PV = 2.6.1
+PV = 2.6.2+gitAUTOINC+7a88f8b506
 PR = r0
-PKGR = r0.12
+PKGV = 2.6.2+git0+7a88f8b506
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = kernel-3.19.5-yocto-standard
+RDEPENDS = kernel-4.1.2-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 6428
-FILES = /lib/modules/3.19.5-yocto-standard/kernel/lttng-modules/probes/lttng-kretprobes.ko /etc/modules-load.d/lttng-kretprobes.conf /etc/modprobe.d/lttng-kretprobes.conf
-FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/lttng-modules/probes/lttng-kretprobes.ko
+PKGSIZE = 6432
+FILES = /lib/modules/4.1.2-yocto-standard/kernel/lttng-modules/probes/lttng-kretprobes.ko /etc/modules-load.d/lttng-kretprobes.conf /etc/modprobe.d/lttng-kretprobes.conf
+FILELIST = /lib/modules/4.1.2-yocto-standard/kernel/lttng-modules/probes/lttng-kretprobes.ko

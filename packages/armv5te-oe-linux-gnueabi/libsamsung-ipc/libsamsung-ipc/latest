@@ -1,9 +1,9 @@
 PE = 1
 PV = 0.2.0
 PR = r1
-PKGR = r1.19
+PKGR = r1.20
 PKG = libsamsung-ipc0
-RPROVIDES = libsamsung-ipc
+RPROVIDES = 0.2.0 libsamsung-ipc
 RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2d) libssl (>= 1.0.2d)
 RRECOMMENDS = 
 PKGSIZE = 77619

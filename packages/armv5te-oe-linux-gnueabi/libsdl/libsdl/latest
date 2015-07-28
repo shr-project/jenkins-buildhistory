@@ -1,8 +1,8 @@
 PV = 1.2.15
 PR = r3
-PKGR = r3.22
+PKGR = r3.23
 PKG = libsdl-1.2-0
-RPROVIDES = libsdl
+RPROVIDES = 1.2.15 libsdl
 RDEPENDS = glibc (>= 2.21) tslib (>= 1.1)
 RRECOMMENDS = 
 PKGSIZE = 238360

@@ -1,8 +1,8 @@
 PV = 1.6.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 PKG = libssh2-1
-RPROVIDES = libssh2
+RPROVIDES = 1.6.0 libssh2
 RDEPENDS = glibc (>= 2.21) libcrypto (>= 1.0.2d) libssl (>= 1.0.2d) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 107616

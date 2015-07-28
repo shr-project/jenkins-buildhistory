@@ -1,9 +1,9 @@
 PV = 2.7+gitAUTOINC+bf16266782
 PR = r0
 PKGV = 2.7+git0+bf16266782
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.21) libdw (>= 0.163) libelf (>= 0.163) libgcc (>= 4.9.3) libsqlite3 (>= 3.8.10.0) libstdc++ (>= 4.9.3) python
+RDEPENDS = bash glibc (>= 2.21) libdw (>= 0.163) libelf (>= 0.163) libgcc (>= 4.9.3) libsqlite3 (>= 3.8.10.2) libstdc++ (>= 4.9.3) python
 RRECOMMENDS = 
 PKGSIZE = 4638234
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/systemtap/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/systemtap /usr/lib/systemtap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

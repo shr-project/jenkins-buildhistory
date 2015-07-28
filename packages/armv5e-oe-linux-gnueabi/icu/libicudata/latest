@@ -1,8 +1,8 @@
 PV = 55.1
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 PKG = libicudata55
-RPROVIDES = libicudata
+RPROVIDES = 55.1 libicudata
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 25911582

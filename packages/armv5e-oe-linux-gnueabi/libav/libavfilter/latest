@@ -1,8 +1,8 @@
 PV = 9.18
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 PKG = libavfilter3
-RPROVIDES = libavfilter
+RPROVIDES = 9.18 libavfilter
 RDEPENDS = glibc (>= 2.21) libavcodec (>= 9.18) libavformat (>= 9.18) libavresample (>= 9.18) libavutil (>= 9.18) libswscale (>= 9.18)
 RRECOMMENDS = 
 PKGSIZE = 176120

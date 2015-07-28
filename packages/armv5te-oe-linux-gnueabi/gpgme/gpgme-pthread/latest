@@ -1,8 +1,8 @@
 PV = 1.5.4
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = libgpgme-pthread11
-RPROVIDES = gpgme-pthread
+RPROVIDES = 1.5.4 gpgme-pthread
 RDEPENDS = glibc (>= 2.21) libassuan (>= 2.2.1) libgpg-error (>= 1.19)
 RRECOMMENDS = 
 PKGSIZE = 148191

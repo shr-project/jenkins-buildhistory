@@ -1,9 +1,9 @@
 PV = 2.0.23
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = 
-RDEPENDS = acpid (= 2.0.23-r0.19)
-RRECOMMENDS = glibc-dev
+RDEPENDS = acpid (= 2.0.23-r0.20)
+RRECOMMENDS = glibc-dev update-rc.d-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/acpid/*.la /lib/*.la
 FILELIST = 

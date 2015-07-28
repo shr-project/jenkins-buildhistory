@@ -1,8 +1,8 @@
 PV = 1.3.0
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 PKG = libebml4
-RPROVIDES = libebml
+RPROVIDES = 1.3.0 libebml
 RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
 PKGSIZE = 91584

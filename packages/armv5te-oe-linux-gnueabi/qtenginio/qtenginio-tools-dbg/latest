@@ -1,9 +1,9 @@
 PV = 5.4.2+gitAUTOINC+134dc76b7f
 PR = r0
 PKGV = 5.4.2+git0+134dc76b7f
-PKGR = r0.11
+PKGR = r0.12
 PKG = libenginio-tools-dbg
-RPROVIDES = qtenginio-tools-dbg
+RPROVIDES = 5.4.2+git0+134dc76b7f qtenginio-tools-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg qtenginio-dbg
 PKGSIZE = 0

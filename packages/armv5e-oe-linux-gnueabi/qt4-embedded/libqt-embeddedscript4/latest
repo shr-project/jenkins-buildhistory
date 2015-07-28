@@ -1,8 +1,8 @@
 PV = 4.8.7
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libqtscripte4
-RPROVIDES = libqt-embeddedscript4
+RPROVIDES = 4.8.7 libqt-embeddedscript4
 RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libqt-embeddedcore4 (>= 4.8.7) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
 PKGSIZE = 2216526

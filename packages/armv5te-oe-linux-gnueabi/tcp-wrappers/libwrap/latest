@@ -1,8 +1,8 @@
 PV = 7.6
 PR = r10
-PKGR = r10.18
+PKGR = r10.19
 PKG = libwrap0
-RPROVIDES = libwrap
+RPROVIDES = 7.6 libwrap
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 23400

@@ -1,9 +1,9 @@
 PV = 0.8.14
 PR = r1
-PKGR = r1.18
+PKGR = r1.19
 PKG = libidl-2-staticdev
-RPROVIDES = libidl-staticdev
-RDEPENDS = libidl-dev (= 0.8.14-r1.18)
+RPROVIDES = 0.8.14 libidl-staticdev
+RDEPENDS = libidl-dev (= 0.8.14-r1.19)
 RRECOMMENDS = 
 PKGSIZE = 531626
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libidl/*.a

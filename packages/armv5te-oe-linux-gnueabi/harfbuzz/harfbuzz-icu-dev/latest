@@ -1,8 +1,8 @@
 PV = 0.9.41
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 PKG = libharfbuzz-icu-dev
-RPROVIDES = harfbuzz-icu-dev
+RPROVIDES = 0.9.41 harfbuzz-icu-dev
 RDEPENDS = harfbuzz-icu
 RRECOMMENDS = cairo-dev freetype-dev glib-2.0-dev glibc-dev harfbuzz-dev icu-dev libgcc-dev libicudata-dev libicuuc-dev libstdc++-dev
 PKGSIZE = 1378

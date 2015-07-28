@@ -1,8 +1,8 @@
 PV = 2.16.0
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 PKG = libatspi-dbg
-RPROVIDES = at-spi2-core-dbg
+RPROVIDES = 2.16.0 at-spi2-core-dbg
 RDEPENDS = 
 RRECOMMENDS = dbus-lib-dbg glib-2.0-dbg glibc-dbg libffi-dbg libice-dbg libsm-dbg libx11-dbg libxau-dbg libxcb-dbg libxdmcp-dbg libxtst-dbg
 PKGSIZE = 1589360

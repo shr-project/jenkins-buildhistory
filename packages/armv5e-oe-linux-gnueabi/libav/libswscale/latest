@@ -1,8 +1,8 @@
 PV = 9.18
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 PKG = libswscale2
-RPROVIDES = libswscale
+RPROVIDES = 9.18 libswscale
 RDEPENDS = glibc (>= 2.21) libavutil (>= 9.18)
 RRECOMMENDS = 
 PKGSIZE = 189851

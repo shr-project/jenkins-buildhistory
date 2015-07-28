@@ -1,8 +1,8 @@
 PV = 1.11
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 PKG = libgdbm-dbg
-RPROVIDES = gdbm-dbg
+RPROVIDES = 1.11 gdbm-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 791225

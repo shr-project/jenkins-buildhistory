@@ -1,8 +1,8 @@
 PV = 3.1.11
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 PKG = libhandle1
-RPROVIDES = libhandle
+RPROVIDES = 3.1.11 libhandle
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 6614

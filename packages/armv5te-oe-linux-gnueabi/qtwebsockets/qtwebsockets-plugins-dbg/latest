@@ -1,9 +1,9 @@
 PV = 5.4.2+gitAUTOINC+0002e93439
 PR = r0
 PKGV = 5.4.2+git0+0002e93439
-PKGR = r0.12
+PKGR = r0.13
 PKG = libqt5websockets-plugins-dbg
-RPROVIDES = qtwebsockets-plugins-dbg
+RPROVIDES = 5.4.2+git0+0002e93439 qtwebsockets-plugins-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg qtwebsockets-dbg
 PKGSIZE = 0

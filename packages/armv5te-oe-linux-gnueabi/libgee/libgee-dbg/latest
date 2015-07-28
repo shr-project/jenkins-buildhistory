@@ -1,9 +1,9 @@
 PE = 1
 PV = 0.16.1
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 PKG = libgee-0.8-dbg
-RPROVIDES = libgee-dbg
+RPROVIDES = 0.16.1 libgee-dbg
 RDEPENDS = 
 RRECOMMENDS = glib-2.0-dbg glibc-dbg libffi-dbg zlib-dbg
 PKGSIZE = 8540574

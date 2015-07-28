@@ -1,8 +1,8 @@
 PV = 2.2.1
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libassuan0
-RPROVIDES = libassuan
+RPROVIDES = 2.2.1 libassuan
 RDEPENDS = glibc (>= 2.21) libgpg-error (>= 1.19)
 RRECOMMENDS = 
 PKGSIZE = 43586

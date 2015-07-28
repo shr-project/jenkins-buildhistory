@@ -1,8 +1,8 @@
 PV = 0.4.4
 PR = r2
-PKGR = r2.18
+PKGR = r2.19
 PKG = liblightmediascanner-dbg
-RPROVIDES = lightmediascanner-dbg
+RPROVIDES = 0.4.4 lightmediascanner-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libflac-dbg libogg-dbg libsqlite3-dbg
 PKGSIZE = 694771
