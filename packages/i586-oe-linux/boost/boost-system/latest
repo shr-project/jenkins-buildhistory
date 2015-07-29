@@ -1,8 +1,8 @@
 PV = 1.58.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libboost-system1.58.0
-RPROVIDES = boost-system
+RPROVIDES = 1.58.0 boost-system
 RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
 PKGSIZE = 10496

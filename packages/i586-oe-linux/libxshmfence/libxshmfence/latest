@@ -1,8 +1,8 @@
 PV = 1.2
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libxshmfence1
-RPROVIDES = libxshmfence
+RPROVIDES = 1.2 libxshmfence
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 5041

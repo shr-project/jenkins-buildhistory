@@ -1,9 +1,9 @@
 PE = 1
 PV = 1.0.9
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 PKG = libice6
-RPROVIDES = libice
+RPROVIDES = 1.0.9 libice
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 102563

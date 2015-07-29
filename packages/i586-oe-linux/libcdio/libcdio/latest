@@ -1,8 +1,8 @@
 PV = 0.82
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 PKG = libcdio12
-RPROVIDES = libcdio
+RPROVIDES = 0.82 libcdio
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 141301

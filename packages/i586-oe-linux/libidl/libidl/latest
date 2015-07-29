@@ -1,8 +1,8 @@
 PV = 0.8.14
 PR = r1
-PKGR = r1.24
+PKGR = r1.25
 PKG = libidl-2-0
-RPROVIDES = libidl
+RPROVIDES = 0.8.14 libidl
 RDEPENDS = glib-2.0 (>= 2.44.1) glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 196429

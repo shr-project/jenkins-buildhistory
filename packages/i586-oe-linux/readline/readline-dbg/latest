@@ -1,8 +1,8 @@
 PV = 6.3
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 PKG = libreadline-dbg
-RPROVIDES = readline-dbg
+RPROVIDES = 6.3 readline-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg ncurses-libtinfo-dbg
 PKGSIZE = 1344333

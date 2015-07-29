@@ -1,9 +1,9 @@
 PE = 1
 PV = 1.0.8
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 PKG = libxau6
-RPROVIDES = libxau
+RPROVIDES = 1.0.8 libxau
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 10087

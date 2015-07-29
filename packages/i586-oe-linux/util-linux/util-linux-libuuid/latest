@@ -1,8 +1,8 @@
 PV = 2.26.2
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = libuuid1
-RPROVIDES = util-linux-libuuid
+RPROVIDES = 2.26.2 util-linux-libuuid
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 15724

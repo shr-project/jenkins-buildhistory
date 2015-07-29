@@ -1,8 +1,8 @@
 PV = 1.0.0
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 PKG = libnetfilter-cttimeout1
-RPROVIDES = libnetfilter-cttimeout
+RPROVIDES = 1.0.0 libnetfilter-cttimeout
 RDEPENDS = glibc (>= 2.21) libmnl (>= 1.0.3)
 RRECOMMENDS = 
 PKGSIZE = 13411

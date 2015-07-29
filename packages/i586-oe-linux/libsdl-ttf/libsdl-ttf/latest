@@ -1,8 +1,8 @@
 PV = 2.0.10
 PR = r2
-PKGR = r2.29
+PKGR = r2.30
 PKG = libsdl-ttf-2.0-0
-RPROVIDES = libsdl-ttf
+RPROVIDES = 2.0.10 libsdl-ttf
 RDEPENDS = freetype (>= 2.6) glibc (>= 2.21) libsdl (>= 1.2.15)
 RRECOMMENDS = 
 PKGSIZE = 23832

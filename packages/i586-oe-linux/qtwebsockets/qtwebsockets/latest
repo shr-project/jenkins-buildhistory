@@ -1,9 +1,9 @@
 PV = 5.4.2+gitAUTOINC+0002e93439
 PR = r0
 PKGV = 5.4.2+git0+0002e93439
-PKGR = r0.11
+PKGR = r0.12
 PKG = libqt5websockets5
-RPROVIDES = qtwebsockets
+RPROVIDES = 5.4.2+git0+0002e93439 qtwebsockets
 RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.3) qtbase (>= 5.4.2+git0+2cb17c1fb9)
 RRECOMMENDS = 
 PKGSIZE = 176058

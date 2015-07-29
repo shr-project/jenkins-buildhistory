@@ -1,8 +1,8 @@
 PV = 0.163
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 PKG = libasm1
-RPROVIDES = libasm
+RPROVIDES = 0.163 libasm
 RDEPENDS = glibc (>= 2.21) libelf (>= 0.163)
 RRECOMMENDS = 
 PKGSIZE = 31983

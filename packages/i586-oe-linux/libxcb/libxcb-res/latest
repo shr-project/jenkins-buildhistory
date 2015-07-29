@@ -1,8 +1,8 @@
 PV = 1.11
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 PKG = libxcb-res0
-RPROVIDES = libxcb-res
+RPROVIDES = 1.11 libxcb-res
 RDEPENDS = glibc (>= 2.21) libxau (>= 1.0.8) libxcb (>= 1.11) libxdmcp (>= 1.1.2)
 RRECOMMENDS = 
 PKGSIZE = 12083

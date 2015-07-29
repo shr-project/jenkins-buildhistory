@@ -2,9 +2,9 @@ PE = 1
 PV = 219-stable+gitAUTOINC+85a6fabdd3
 PR = r0
 PKGV = 219-stable+git0+85a6fabdd3
-PKGR = r0.22
+PKGR = r0.23
 PKG = libsystemd0
-RPROVIDES = libsystemd
+RPROVIDES = 219-stable+git0+85a6fabdd3 libsystemd
 RDEPENDS = glibc (>= 2.21) libcap (>= 2.24) libgcc (>= 4.9.3) liblzma (>= 5.2.1)
 RRECOMMENDS = 
 PKGSIZE = 177971

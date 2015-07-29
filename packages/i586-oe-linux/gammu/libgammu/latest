@@ -1,8 +1,8 @@
 PV = 1.32.0
 PR = r0
-PKGR = r0.26
+PKGR = r0.27
 PKG = libgammu7
-RPROVIDES = libgammu
+RPROVIDES = 1.32.0 libgammu
 RDEPENDS = glib-2.0 (>= 2.44.1) glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 1092568

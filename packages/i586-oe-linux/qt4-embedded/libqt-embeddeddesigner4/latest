@@ -1,8 +1,8 @@
 PV = 4.8.7
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libqtdesignere4
-RPROVIDES = libqt-embeddeddesigner4
+RPROVIDES = 4.8.7 libqt-embeddeddesigner4
 RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libqt-embeddedcore4 (>= 4.8.7) libqt-embeddedgui4 (>= 4.8.7) libqt-embeddedscript4 (>= 4.8.7) libqt-embeddedxml4 (>= 4.8.7) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
 PKGSIZE = 5506554

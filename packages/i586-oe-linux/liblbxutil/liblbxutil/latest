@@ -1,9 +1,9 @@
 PE = 1
 PV = 1.1.0
 PR = r11
-PKGR = r11.22
+PKGR = r11.23
 PKG = liblbxutil1
-RPROVIDES = liblbxutil
+RPROVIDES = 1.1.0 liblbxutil
 RDEPENDS = glibc (>= 2.21) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 163655

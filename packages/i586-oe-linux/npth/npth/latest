@@ -1,8 +1,8 @@
 PV = 1.2
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libnpth0
-RPROVIDES = npth
+RPROVIDES = 1.2 npth
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 14300

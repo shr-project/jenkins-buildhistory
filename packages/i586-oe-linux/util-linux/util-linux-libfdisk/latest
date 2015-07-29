@@ -1,8 +1,8 @@
 PV = 2.26.2
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = libfdisk1
-RPROVIDES = util-linux-libfdisk
+RPROVIDES = 2.26.2 util-linux-libfdisk
 RDEPENDS = glibc (>= 2.21) util-linux-libblkid (>= 2.26.2) util-linux-libuuid (>= 2.26.2)
 RRECOMMENDS = 
 PKGSIZE = 388729

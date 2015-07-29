@@ -1,8 +1,8 @@
 PV = 0.82
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 PKG = libcdio-paranoia0
-RPROVIDES = libcdio-paranoia
+RPROVIDES = 0.82 libcdio-paranoia
 RDEPENDS = glibc (>= 2.21) libcdio (>= 0.82) libcdio-cdda (>= 0.82)
 RRECOMMENDS = 
 PKGSIZE = 30681

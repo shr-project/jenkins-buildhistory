@@ -1,8 +1,8 @@
 PV = 1.900.1
 PR = r1
-PKGR = r1.24
+PKGR = r1.25
 PKG = libjasper-bin
-RPROVIDES = jasper-bin
+RPROVIDES = 1.900.1 jasper-bin
 RDEPENDS = glibc (>= 2.21) jasper (>= 1.900.1)
 RRECOMMENDS = 
 PKGSIZE = 33096

@@ -1,9 +1,9 @@
 PV = 5.4.2+gitAUTOINC+ccae23961e
 PR = r0
 PKGV = 5.4.2+git0+ccae23961e
-PKGR = r0.11
+PKGR = r0.12
 PKG = libqt5svg-plugins
-RPROVIDES = qtsvg-plugins
+RPROVIDES = 5.4.2+git0+ccae23961e qtsvg-plugins
 RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.3) qtbase (>= 5.4.2+git0+2cb17c1fb9) qtsvg (>= 5.4.2+git0+ccae23961e)
 RRECOMMENDS = 
 PKGSIZE = 57324

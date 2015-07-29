@@ -1,9 +1,9 @@
 PE = 2
 PV = 0.0.0+svnr82070
 PR = r0
-PKGR = r0.29
+PKGR = r0.30
 PKG = libengrave-dbg
-RPROVIDES = engrave-dbg
+RPROVIDES = 0.0.0+svnr82070 engrave-dbg
 RDEPENDS = 
 RRECOMMENDS = ecore-dbg ecore-evas-dbg ecore-input-dbg ecore-input-evas-dbg efl-dbg eina-dbg eo-dbg evas-dbg expat-dbg flex-dbg fontconfig-dbg freetype-dbg fribidi-dbg glib-2.0-dbg glibc-dbg libcrypto-dbg libeet-dbg libjpeg-turbo-dbg libpng-dbg libssl-dbg libstdc++-dbg luajit-dbg zlib-dbg
 PKGSIZE = 799300

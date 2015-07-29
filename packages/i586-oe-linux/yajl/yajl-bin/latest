@@ -1,8 +1,8 @@
 PV = 2.1.0
 PR = r0
-PKGR = r0.26
+PKGR = r0.27
 PKG = libyajl-bin
-RPROVIDES = yajl-bin
+RPROVIDES = 2.1.0 yajl-bin
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 58204

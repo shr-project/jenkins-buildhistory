@@ -1,9 +1,9 @@
 PV = 5.4.2+gitAUTOINC+c21924d67a
 PR = r0
 PKGV = 5.4.2+git0+c21924d67a
-PKGR = r0.11
+PKGR = r0.12
 PKG = libqt5xmlpatterns5
-RPROVIDES = qtxmlpatterns
+RPROVIDES = 5.4.2+git0+c21924d67a qtxmlpatterns
 RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3) qtbase (>= 5.4.2+git0+2cb17c1fb9)
 RRECOMMENDS = 
 PKGSIZE = 3881620

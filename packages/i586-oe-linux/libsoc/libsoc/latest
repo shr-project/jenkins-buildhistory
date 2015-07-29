@@ -1,8 +1,8 @@
 PV = 0.6
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libsoc2
-RPROVIDES = libsoc
+RPROVIDES = 0.6 libsoc
 RDEPENDS = glibc (>= 2.21) libgcc
 RRECOMMENDS = 
 PKGSIZE = 33551

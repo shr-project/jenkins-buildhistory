@@ -1,9 +1,9 @@
 PV = 0.4.3+gitAUTOINC+900d203aa9
 PR = r0
 PKGV = 0.4.3+git0+900d203aa9
-PKGR = r0.22
+PKGR = r0.23
 PKG = libck0
-RPROVIDES = concurrencykit
+RPROVIDES = 0.4.3+git0+900d203aa9 concurrencykit
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 18151
