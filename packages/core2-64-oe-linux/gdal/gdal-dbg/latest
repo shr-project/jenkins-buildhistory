@@ -1,8 +1,8 @@
 PV = 1.11.1
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 PKG = libgdal-dbg
-RPROVIDES = gdal-dbg
+RPROVIDES = 1.11.1 gdal-dbg
 RDEPENDS = 
 RRECOMMENDS = expat-dbg geos-c1-dbg geoslib-dbg glibc-dbg jasper-dbg json-c-dbg libgcc-dbg libjpeg-turbo-dbg liblzma-dbg libpng-dbg libsqlite3-dbg libstdc++-dbg tiff-dbg zlib-dbg
 PKGSIZE = 71081624

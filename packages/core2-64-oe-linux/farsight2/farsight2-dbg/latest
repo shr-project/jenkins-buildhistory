@@ -1,8 +1,8 @@
 PV = 0.0.22
 PR = r3
-PKGR = r3.24
+PKGR = r3.25
 PKG = libgstfarsight-0.10-dbg
-RPROVIDES = farsight2-dbg
+RPROVIDES = 0.0.22 farsight2-dbg
 RDEPENDS = 
 RRECOMMENDS = glib-2.0-dbg glibc-dbg gstreamer-dbg libffi-dbg libgstnetbuffer-0.10-dbg libgstrtp-0.10-dbg libnice-dbg libxml2-dbg zlib-dbg
 PKGSIZE = 2901389

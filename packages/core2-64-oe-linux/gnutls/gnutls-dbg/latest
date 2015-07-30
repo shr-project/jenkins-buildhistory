@@ -1,8 +1,8 @@
 PV = 3.3.14
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 PKG = libgnutls-dbg
-RPROVIDES = gnutls-dbg
+RPROVIDES = 3.3.14 gnutls-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg gmp-dbg libgcc-dbg libstdc++-dbg nettle-dbg zlib-dbg
 PKGSIZE = 13821132

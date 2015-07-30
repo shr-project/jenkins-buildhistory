@@ -1,8 +1,8 @@
 PV = 2.1.26
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libsasl2-3
-RPROVIDES = cyrus-sasl
+RPROVIDES = 2.1.26 cyrus-sasl
 RDEPENDS = db (>= 6.0.30) glibc (>= 2.21) libcrypto (>= 1.0.2d)
 RRECOMMENDS = 
 PKGSIZE = 386921

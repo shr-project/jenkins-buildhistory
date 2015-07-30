@@ -1,8 +1,8 @@
 PV = 1.11
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libgdbm4
-RPROVIDES = gdbm
+RPROVIDES = 1.11 gdbm
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 44952

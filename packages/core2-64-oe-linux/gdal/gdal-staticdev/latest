@@ -1,9 +1,9 @@
 PV = 1.11.1
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 PKG = libgdal-staticdev
-RPROVIDES = gdal-staticdev
-RDEPENDS = gdal-dev (= 1.11.1-r0.23)
+RPROVIDES = 1.11.1 gdal-staticdev
+RDEPENDS = gdal-dev (= 1.11.1-r0.24)
 RRECOMMENDS = 
 PKGSIZE = 121240598
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/gdal/*.a

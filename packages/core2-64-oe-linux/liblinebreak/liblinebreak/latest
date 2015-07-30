@@ -1,8 +1,8 @@
 PV = 1.2
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = liblinebreak1
-RPROVIDES = liblinebreak
+RPROVIDES = 1.2 liblinebreak
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 33717

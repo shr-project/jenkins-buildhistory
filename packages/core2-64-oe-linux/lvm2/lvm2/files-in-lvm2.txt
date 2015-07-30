@@ -1,44 +1,53 @@
 drwxr-xr-x jenkins    jenkins           100 .
 drwxr-xr-x jenkins    jenkins            60 ./etc
-drwxr-xr-x jenkins    jenkins            60 ./etc/lvm
--rw-r--r-- jenkins    jenkins         10538 ./etc/lvm/lvm.conf
+drwxr-xr-x jenkins    jenkins           100 ./etc/lvm
+-rw-r--r-- jenkins    jenkins         11866 ./etc/lvm/lvm.conf
+-rw-r--r-- jenkins    jenkins          2145 ./etc/lvm/lvmlocal.conf
+drwxr-xr-x jenkins    jenkins           120 ./etc/lvm/profile
+-rw-r--r-- jenkins    jenkins          2249 ./etc/lvm/profile/command_profile_template.profile
+-rw-r--r-- jenkins    jenkins           828 ./etc/lvm/profile/metadata_profile_template.profile
+-rw-r--r-- jenkins    jenkins            76 ./etc/lvm/profile/thin-generic.profile
+-rw-r--r-- jenkins    jenkins            80 ./etc/lvm/profile/thin-performance.profile
 drwxr-xr-x jenkins    jenkins            80 ./lib
 drwxr-xr-x jenkins    jenkins            60 ./lib/systemd
 drwxr-xr-x jenkins    jenkins           100 ./lib/systemd/system
--rw-r--r-- jenkins    jenkins           369 ./lib/systemd/system/dm-event.service
--rw-r--r-- jenkins    jenkins           238 ./lib/systemd/system/dm-event.socket
--rw-r--r-- jenkins    jenkins           596 ./lib/systemd/system/lvm2-monitor.service
+-rw-r--r-- jenkins    jenkins           334 ./lib/systemd/system/dm-event.service
+-rw-r--r-- jenkins    jenkins           248 ./lib/systemd/system/dm-event.socket
+-rw-r--r-- jenkins    jenkins           662 ./lib/systemd/system/lvm2-monitor.service
 drwxr-xr-x jenkins    jenkins            60 ./lib/udev
 drwxr-xr-x jenkins    jenkins           120 ./lib/udev/rules.d
--rw-r--r-- jenkins    jenkins          6304 ./lib/udev/rules.d/10-dm.rules
--rw-r--r-- jenkins    jenkins          1277 ./lib/udev/rules.d/11-dm-lvm.rules
--rw-r--r-- jenkins    jenkins          1446 ./lib/udev/rules.d/13-dm-disk.rules
+-rw-r--r-- jenkins    jenkins          6844 ./lib/udev/rules.d/10-dm.rules
+-rw-r--r-- jenkins    jenkins          2454 ./lib/udev/rules.d/11-dm-lvm.rules
+-rw-r--r-- jenkins    jenkins          1499 ./lib/udev/rules.d/13-dm-disk.rules
 -rw-r--r-- jenkins    jenkins           483 ./lib/udev/rules.d/95-dm-notify.rules
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins           160 ./usr/lib
-drwxr-xr-x jenkins    jenkins           100 ./usr/lib/device-mapper
--rwxr-xr-x jenkins    jenkins          8744 ./usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so
--rwxr-xr-x jenkins    jenkins          7552 ./usr/lib/device-mapper/libdevmapper-event-lvm2raid.so
--rwxr-xr-x jenkins    jenkins          9688 ./usr/lib/device-mapper/libdevmapper-event-lvm2snapshot.so
--rwxr-xr-x jenkins    jenkins          7776 ./usr/lib/libdevmapper-event-lvm2.so.2.02
--rwxr-xr-x jenkins    jenkins         22456 ./usr/lib/libdevmapper-event.so.1.02
--rwxr-xr-x jenkins    jenkins        235136 ./usr/lib/libdevmapper.so.1.02
--rwxr-xr-x jenkins    jenkins        645560 ./usr/lib/liblvm2app.so.2.2
--rwxr-xr-x jenkins    jenkins        926224 ./usr/lib/liblvm2cmd.so.2.02
-drwxr-xr-x jenkins    jenkins          1020 ./usr/sbin
--rwxr-xr-x jenkins    jenkins         32688 ./usr/sbin/dmeventd
--rwxr-xr-x jenkins    jenkins         67416 ./usr/sbin/dmsetup
--rwxr-xr-x jenkins    jenkins         14083 ./usr/sbin/fsadm
+drwxr-xr-x jenkins    jenkins           120 ./usr/lib/device-mapper
+-rwxr-xr-x jenkins    jenkins         10552 ./usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so
+-rwxr-xr-x jenkins    jenkins         10528 ./usr/lib/device-mapper/libdevmapper-event-lvm2raid.so
+-rwxr-xr-x jenkins    jenkins         10632 ./usr/lib/device-mapper/libdevmapper-event-lvm2snapshot.so
+-rwxr-xr-x jenkins    jenkins         14760 ./usr/lib/device-mapper/libdevmapper-event-lvm2thin.so
+-rwxr-xr-x jenkins    jenkins         10536 ./usr/lib/libdevmapper-event-lvm2.so.2.02
+-rwxr-xr-x jenkins    jenkins         27120 ./usr/lib/libdevmapper-event.so.1.02
+-rwxr-xr-x jenkins    jenkins        312408 ./usr/lib/libdevmapper.so.1.02
+-rwxr-xr-x jenkins    jenkins       1027752 ./usr/lib/liblvm2app.so.2.2
+-rwxr-xr-x jenkins    jenkins       1417952 ./usr/lib/liblvm2cmd.so.2.02
+drwxr-xr-x jenkins    jenkins          1060 ./usr/sbin
+-rwxr-xr-x jenkins    jenkins         11794 ./usr/sbin/blkdeactivate
+-rwxr-xr-x jenkins    jenkins         35096 ./usr/sbin/dmeventd
+-rwxr-xr-x jenkins    jenkins         79016 ./usr/sbin/dmsetup
+-rwxr-xr-x jenkins    jenkins         14404 ./usr/sbin/fsadm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvchange -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvconvert -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvcreate -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvdisplay -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvextend -> lvm
--rwxr-xr-x jenkins    jenkins        934200 ./usr/sbin/lvm
+-rwxr-xr-x jenkins    jenkins       1448352 ./usr/sbin/lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvmchange -> lvm
--rwxr-xr-x jenkins    jenkins          6691 ./usr/sbin/lvmconf
+-rwxr-xr-x jenkins    jenkins         12574 ./usr/sbin/lvmconf
+lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvmconfig -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvmdiskscan -> lvm
--rwxr-xr-x jenkins    jenkins          6590 ./usr/sbin/lvmdump
+-rwxr-xr-x jenkins    jenkins          9538 ./usr/sbin/lvmdump
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvmsadc -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvmsar -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/lvreduce -> lvm
@@ -66,7 +75,7 @@ lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/vgdisplay -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/vgexport -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/vgextend -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/vgimport -> lvm
--rwxr-xr-x jenkins    jenkins         10399 ./usr/sbin/vgimportclone
+-rwxr-xr-x jenkins    jenkins         10464 ./usr/sbin/vgimportclone
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/vgmerge -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/vgmknodes -> lvm
 lrwxrwxrwx jenkins    jenkins             3 ./usr/sbin/vgreduce -> lvm

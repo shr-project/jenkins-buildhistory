@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.14.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libeo1
-RPROVIDES = eo
+RPROVIDES = 1.14.1 eo
 RDEPENDS = eina (>= 1.14.1) glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 83375

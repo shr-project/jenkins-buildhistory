@@ -1,8 +1,8 @@
 PV = 0.2.5
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libtirpc1
-RPROVIDES = libtirpc
+RPROVIDES = 0.2.5 libtirpc
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 150857

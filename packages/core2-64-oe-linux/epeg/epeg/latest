@@ -1,9 +1,9 @@
 PE = 2
 PV = 0.9.0+svnr82070
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libepeg0
-RPROVIDES = epeg
+RPROVIDES = 0.9.0+svnr82070 epeg
 RDEPENDS = glibc (>= 2.21) libjpeg-turbo (>= 8d+1.4.1)
 RRECOMMENDS = 
 PKGSIZE = 20616

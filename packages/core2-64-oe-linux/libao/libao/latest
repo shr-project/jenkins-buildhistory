@@ -1,8 +1,8 @@
 PV = 1.1.0
 PR = r0
-PKGR = r0.26
+PKGR = r0.27
 PKG = libao4
-RPROVIDES = libao
+RPROVIDES = 1.1.0 libao
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 37790

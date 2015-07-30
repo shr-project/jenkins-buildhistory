@@ -1,8 +1,8 @@
 PV = 1.0.0
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libnetfilter-cthelper0
-RPROVIDES = libnetfilter-cthelper
+RPROVIDES = 1.0.0 libnetfilter-cthelper
 RDEPENDS = glibc (>= 2.21) libmnl (>= 1.0.3)
 RRECOMMENDS = 
 PKGSIZE = 13118

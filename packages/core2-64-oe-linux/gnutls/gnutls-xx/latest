@@ -1,8 +1,8 @@
 PV = 3.3.14
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 PKG = libgnutlsxx28
-RPROVIDES = gnutls-xx
+RPROVIDES = 3.3.14 gnutls-xx
 RDEPENDS = glibc (>= 2.21) gmp (>= 6.0.0) gnutls (>= 3.3.14) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3) nettle (>= 2.7.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 62893

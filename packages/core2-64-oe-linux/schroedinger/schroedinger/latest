@@ -1,8 +1,8 @@
 PV = 1.0.11
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libschroedinger-1.0-0
-RPROVIDES = schroedinger
+RPROVIDES = 1.0.11 schroedinger
 RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) liborc-0.4 (>= 0.4.23) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
 PKGSIZE = 907917

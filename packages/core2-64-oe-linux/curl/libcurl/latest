@@ -1,8 +1,8 @@
 PV = 7.43.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libcurl4
-RPROVIDES = libcurl
+RPROVIDES = 7.43.0 libcurl
 RDEPENDS = glibc (>= 2.21) gmp (>= 6.0.0) gnutls (>= 3.3.14) nettle (>= 2.7.1) zlib (>= 1.2.8)
 RRECOMMENDS = ca-certificates
 PKGSIZE = 385912

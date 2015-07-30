@@ -1,9 +1,9 @@
 PV = 5.4.2+gitAUTOINC+40e5aff531
 PR = r0
 PKGV = 5.4.2+git0+40e5aff531
-PKGR = r0.11
+PKGR = r0.12
 PKG = libqt5sensors-plugins-dbg
-RPROVIDES = qtsensors-plugins-dbg
+RPROVIDES = 5.4.2+git0+40e5aff531 qtsensors-plugins-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg qtdeclarative-dbg qtsensors-dbg qtsensors-examples-dbg
 PKGSIZE = 4792992

@@ -1,9 +1,9 @@
 PV = 1.0.0
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 PKG = libmenu-cache-staticdev
-RPROVIDES = menu-cache-staticdev
-RDEPENDS = menu-cache-dev (= 1.0.0-r0.23)
+RPROVIDES = 1.0.0 menu-cache-staticdev
+RDEPENDS = menu-cache-dev (= 1.0.0-r0.24)
 RRECOMMENDS = 
 PKGSIZE = 144740
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/menu-cache/*.a

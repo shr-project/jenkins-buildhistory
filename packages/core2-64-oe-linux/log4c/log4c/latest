@@ -1,8 +1,8 @@
 PV = 1.2.4
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 PKG = liblog4c3
-RPROVIDES = log4c
+RPROVIDES = 1.2.4 log4c
 RDEPENDS = expat (>= 2.1.0) glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 76957

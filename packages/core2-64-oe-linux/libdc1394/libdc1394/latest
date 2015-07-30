@@ -1,9 +1,9 @@
 PV = 2.2.1+gitrAUTOINC+b90342933b
 PR = r0
 PKGV = 2.2.1+gitr0+b90342933b
-PKGR = r0.29
+PKGR = r0.30
 PKG = libdc1394-22
-RPROVIDES = libdc1394
+RPROVIDES = 2.2.1+gitr0+b90342933b libdc1394
 RDEPENDS = glibc (>= 2.21) libraw1394 (>= 2.1.0) libusb1 (>= 1.0.19)
 RRECOMMENDS = 
 PKGSIZE = 215819

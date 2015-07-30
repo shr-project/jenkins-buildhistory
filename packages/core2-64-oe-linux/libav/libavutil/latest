@@ -1,8 +1,8 @@
 PV = 9.18
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libavutil52
-RPROVIDES = libavutil
+RPROVIDES = 9.18 libavutil
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 139123

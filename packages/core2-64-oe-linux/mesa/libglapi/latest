@@ -1,9 +1,9 @@
 PE = 2
 PV = 10.5.8
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libglapi0
-RPROVIDES = libglapi
+RPROVIDES = 10.5.8 libglapi
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
 PKGSIZE = 380273

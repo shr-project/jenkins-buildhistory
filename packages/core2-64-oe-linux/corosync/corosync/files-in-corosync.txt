@@ -1,10 +1,12 @@
 drwxr-xr-x jenkins    jenkins           120 .
-drwxr-xr-x jenkins    jenkins            80 ./etc
+drwxr-xr-x jenkins    jenkins           100 ./etc
 drwxr-xr-x jenkins    jenkins           120 ./etc/corosync
 -rw-r--r-- jenkins    jenkins          2881 ./etc/corosync/corosync.conf.example
 -rw-r--r-- jenkins    jenkins           767 ./etc/corosync/corosync.conf.example.udpu
 drwxr-xr-x jenkins    jenkins            40 ./etc/corosync/service.d
 drwxr-xr-x jenkins    jenkins            40 ./etc/corosync/uidgid.d
+drwxr-xr-x jenkins    jenkins            60 ./etc/logrotate.d
+-rw-r--r-- jenkins    jenkins           113 ./etc/logrotate.d/corosync
 drwxr-xr-x jenkins    jenkins           100 ./etc/sysconfig
 -rw-r--r-- jenkins    jenkins           358 ./etc/sysconfig/corosync
 -rw-r--r-- jenkins    jenkins          1150 ./etc/sysconfig/corosync-notifyd.conf
@@ -25,7 +27,7 @@ lrwxrwxrwx jenkins    jenkins            16 ./usr/lib/libcmap.so.4 -> libcmap.so
 lrwxrwxrwx jenkins    jenkins            27 ./usr/lib/libcorosync_common.so.4 -> libcorosync_common.so.4.0.0
 -rwxr-xr-x jenkins    jenkins         10392 ./usr/lib/libcorosync_common.so.4.0.0
 lrwxrwxrwx jenkins    jenkins            15 ./usr/lib/libcpg.so.4 -> libcpg.so.4.1.0
--rwxr-xr-x jenkins    jenkins         18704 ./usr/lib/libcpg.so.4.1.0
+-rwxr-xr-x jenkins    jenkins         22800 ./usr/lib/libcpg.so.4.1.0
 lrwxrwxrwx jenkins    jenkins            18 ./usr/lib/libquorum.so.5 -> libquorum.so.5.0.0
 -rwxr-xr-x jenkins    jenkins         10448 ./usr/lib/libquorum.so.5.0.0
 lrwxrwxrwx jenkins    jenkins            15 ./usr/lib/libsam.so.4 -> libsam.so.4.4.0
@@ -35,7 +37,7 @@ lrwxrwxrwx jenkins    jenkins            20 ./usr/lib/libtotem_pg.so.5 -> libtot
 lrwxrwxrwx jenkins    jenkins            22 ./usr/lib/libvotequorum.so.7 -> libvotequorum.so.7.0.0
 -rwxr-xr-x jenkins    jenkins         14552 ./usr/lib/libvotequorum.so.7.0.0
 drwxr-xr-x jenkins    jenkins           180 ./usr/sbin
--rwxr-xr-x jenkins    jenkins        273192 ./usr/sbin/corosync
+-rwxr-xr-x jenkins    jenkins        282024 ./usr/sbin/corosync
 -rwxr-xr-x jenkins    jenkins         14560 ./usr/sbin/corosync-cfgtool
 -rwxr-xr-x jenkins    jenkins         22992 ./usr/sbin/corosync-cmapctl
 -rwxr-xr-x jenkins    jenkins         10464 ./usr/sbin/corosync-cpgtool
@@ -44,7 +46,7 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/sbin
 -rwxr-xr-x jenkins    jenkins         22760 ./usr/sbin/corosync-quorumtool
 drwxr-xr-x jenkins    jenkins            60 ./usr/share
 drwxr-xr-x jenkins    jenkins            80 ./usr/share/corosync
--rwxr-xr-x jenkins    jenkins          3296 ./usr/share/corosync/corosync
+-rwxr-xr-x jenkins    jenkins          3322 ./usr/share/corosync/corosync
 -rwxr-xr-x jenkins    jenkins          2768 ./usr/share/corosync/corosync-notifyd
 drwxr-xr-x jenkins    jenkins           100 ./var
 drwxr-xr-x jenkins    jenkins            60 ./var/lib

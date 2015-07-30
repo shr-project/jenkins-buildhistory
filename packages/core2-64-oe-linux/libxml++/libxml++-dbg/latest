@@ -1,8 +1,8 @@
 PV = 2.37.1
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libxml++-2.6-dbg
-RPROVIDES = libxml++-dbg
+RPROVIDES = 2.37.1 libxml++-dbg
 RDEPENDS = 
 RRECOMMENDS = glib-2.0-dbg glibc-dbg glibmm-dbg libffi-dbg libgcc-dbg libsigc++-2.0-dbg libstdc++-dbg libxml2-dbg zlib-dbg
 PKGSIZE = 1695357
