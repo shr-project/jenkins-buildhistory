@@ -9,17 +9,17 @@ drwxr-xr-x jenkins    jenkins           640 ./etc/opensaf
 -rw-r--r-- jenkins    jenkins           365 ./etc/opensaf/ckptnd.conf
 -rw-r--r-- jenkins    jenkins           494 ./etc/opensaf/clmd.conf
 -rw-r--r-- jenkins    jenkins           433 ./etc/opensaf/clmna.conf
--rw-r--r-- jenkins    jenkins          2692 ./etc/opensaf/dtmd.conf
+-rw-r--r-- jenkins    jenkins          2825 ./etc/opensaf/dtmd.conf
 -rw-r--r-- jenkins    jenkins           416 ./etc/opensaf/evtd.conf
 -rw-r--r-- jenkins    jenkins           615 ./etc/opensaf/fmd.conf
 -rw-r--r-- jenkins    jenkins          1540 ./etc/opensaf/immd.conf
 -rw-r--r-- jenkins    jenkins          3707 ./etc/opensaf/immnd.conf
 -rw-r--r-- jenkins    jenkins           419 ./etc/opensaf/lckd.conf
 -rw-r--r-- jenkins    jenkins           422 ./etc/opensaf/lcknd.conf
--rw-r--r-- jenkins    jenkins          1548 ./etc/opensaf/logd.conf
+-rw-r--r-- jenkins    jenkins          1863 ./etc/opensaf/logd.conf
 -rw-r--r-- jenkins    jenkins           429 ./etc/opensaf/msgd.conf
 -rw-r--r-- jenkins    jenkins           433 ./etc/opensaf/msgnd.conf
--rw-r--r-- jenkins    jenkins          2006 ./etc/opensaf/nid.conf
+-rw-r--r-- jenkins    jenkins          2397 ./etc/opensaf/nid.conf
 -rw-r--r-- jenkins    jenkins             6 ./etc/opensaf/node_name
 -rw-r--r-- jenkins    jenkins            11 ./etc/opensaf/node_type
 -rw-r--r-- jenkins    jenkins          5591 ./etc/opensaf/nodeinit.conf.controller
@@ -39,17 +39,17 @@ drwxr-xr-x jenkins    jenkins           100 ./lib/systemd/system
 -rw-r--r-- jenkins    jenkins           362 ./lib/systemd/system/plmcd.service
 drwxr-xr-x jenkins    jenkins           120 ./usr
 drwxr-xr-x jenkins    jenkins           360 ./usr/bin
--rwxr-xr-x jenkins    jenkins          2034 ./usr/bin/amf-adm
+-rwxr-xr-x jenkins    jenkins          2033 ./usr/bin/amf-adm
 -rwxr-xr-x jenkins    jenkins          1153 ./usr/bin/amf-find
--rwxr-xr-x jenkins    jenkins         12080 ./usr/bin/amf-state
--rwxr-xr-x jenkins    jenkins         46248 ./usr/bin/immadm
--rwxr-xr-x jenkins    jenkins        116544 ./usr/bin/immcfg
--rwxr-xr-x jenkins    jenkins         45736 ./usr/bin/immdump
--rwxr-xr-x jenkins    jenkins         40936 ./usr/bin/immfind
--rwxr-xr-x jenkins    jenkins         45000 ./usr/bin/immlist
--rwxr-xr-x jenkins    jenkins         30320 ./usr/bin/ntfread
--rwxr-xr-x jenkins    jenkins         34288 ./usr/bin/ntfsend
--rwxr-xr-x jenkins    jenkins         30136 ./usr/bin/ntfsubscribe
+-rwxr-xr-x jenkins    jenkins         12855 ./usr/bin/amf-state
+-rwxr-xr-x jenkins    jenkins         46760 ./usr/bin/immadm
+-rwxr-xr-x jenkins    jenkins        120288 ./usr/bin/immcfg
+-rwxr-xr-x jenkins    jenkins         57768 ./usr/bin/immdump
+-rwxr-xr-x jenkins    jenkins         41704 ./usr/bin/immfind
+-rwxr-xr-x jenkins    jenkins         45768 ./usr/bin/immlist
+-rwxr-xr-x jenkins    jenkins         30640 ./usr/bin/ntfread
+-rwxr-xr-x jenkins    jenkins         36592 ./usr/bin/ntfsend
+-rwxr-xr-x jenkins    jenkins         34296 ./usr/bin/ntfsubscribe
 -rwxr-xr-x jenkins    jenkins          5248 ./usr/bin/rdegetrole
 -rwxr-xr-x jenkins    jenkins         13240 ./usr/bin/saflogger
 -rwxr-xr-x jenkins    jenkins          1120 ./usr/bin/smf-adm
@@ -71,10 +71,10 @@ lrwxrwxrwx jenkins    jenkins            17 ./usr/lib/opensaf/libSaEvt.so.1 -> l
 -rwxr-xr-x jenkins    jenkins         67280 ./usr/lib/opensaf/libSaEvt.so.1.0.3
 lrwxrwxrwx jenkins    jenkins            19 ./usr/lib/opensaf/libSaImmOi.so -> libSaImmOi.so.0.3.0
 lrwxrwxrwx jenkins    jenkins            19 ./usr/lib/opensaf/libSaImmOi.so.0 -> libSaImmOi.so.0.3.0
--rwxr-xr-x jenkins    jenkins        197320 ./usr/lib/opensaf/libSaImmOi.so.0.3.0
+-rwxr-xr-x jenkins    jenkins        201416 ./usr/lib/opensaf/libSaImmOi.so.0.3.0
 lrwxrwxrwx jenkins    jenkins            19 ./usr/lib/opensaf/libSaImmOm.so -> libSaImmOm.so.0.4.0
 lrwxrwxrwx jenkins    jenkins            19 ./usr/lib/opensaf/libSaImmOm.so.0 -> libSaImmOm.so.0.4.0
--rwxr-xr-x jenkins    jenkins        238536 ./usr/lib/opensaf/libSaImmOm.so.0.4.0
+-rwxr-xr-x jenkins    jenkins        250504 ./usr/lib/opensaf/libSaImmOm.so.0.4.0
 lrwxrwxrwx jenkins    jenkins            17 ./usr/lib/opensaf/libSaLck.so -> libSaLck.so.0.0.0
 lrwxrwxrwx jenkins    jenkins            17 ./usr/lib/opensaf/libSaLck.so.0 -> libSaLck.so.0.0.0
 -rwxr-xr-x jenkins    jenkins         74416 ./usr/lib/opensaf/libSaLck.so.0.0.0
@@ -92,7 +92,7 @@ lrwxrwxrwx jenkins    jenkins            17 ./usr/lib/opensaf/libSaSmf.so.0 -> l
 -rwxr-xr-x jenkins    jenkins         27728 ./usr/lib/opensaf/libSaSmf.so.0.0.0
 lrwxrwxrwx jenkins    jenkins            24 ./usr/lib/opensaf/libopensaf_core.so -> libopensaf_core.so.0.2.0
 lrwxrwxrwx jenkins    jenkins            24 ./usr/lib/opensaf/libopensaf_core.so.0 -> libopensaf_core.so.0.2.0
--rwxr-xr-x jenkins    jenkins        475648 ./usr/lib/opensaf/libopensaf_core.so.0.2.0
+-rwxr-xr-x jenkins    jenkins        479296 ./usr/lib/opensaf/libopensaf_core.so.0.2.0
 drwxr-xr-x jenkins    jenkins           840 ./usr/lib/opensaf/opensaf
 drwxr-xr-x jenkins    jenkins           500 ./usr/lib/opensaf/opensaf/clc-cli
 -rwxr-xr-x jenkins    jenkins          2166 ./usr/lib/opensaf/opensaf/clc-cli/osaf-amfd
@@ -129,28 +129,28 @@ lrwxrwxrwx jenkins    jenkins            24 ./usr/lib/opensaf/opensaf/libsmfsv_c
 -rwxr-xr-x jenkins    jenkins         19696 ./usr/lib/opensaf/opensaf/libsmfsv_common.so.0.0.0
 -rwxr-xr-x jenkins    jenkins          3456 ./usr/lib/opensaf/opensaf/opensaf_reboot
 -rwxr-xr-x jenkins    jenkins         23960 ./usr/lib/opensaf/opensaf/opensafd
--rwxr-xr-x jenkins    jenkins        743296 ./usr/lib/opensaf/opensaf/osafamfd
+-rwxr-xr-x jenkins    jenkins        780296 ./usr/lib/opensaf/opensaf/osafamfd
 -rwxr-xr-x jenkins    jenkins        392880 ./usr/lib/opensaf/opensaf/osafamfnd
 -rwxr-xr-x jenkins    jenkins         11240 ./usr/lib/opensaf/opensaf/osafamfwd
--rwxr-xr-x jenkins    jenkins        188968 ./usr/lib/opensaf/opensaf/osafckptd
+-rwxr-xr-x jenkins    jenkins        189672 ./usr/lib/opensaf/opensaf/osafckptd
 -rwxr-xr-x jenkins    jenkins        180464 ./usr/lib/opensaf/opensaf/osafckptnd
 -rwxr-xr-x jenkins    jenkins        168776 ./usr/lib/opensaf/opensaf/osafclmd
 -rwxr-xr-x jenkins    jenkins         21056 ./usr/lib/opensaf/opensaf/osafclmna
--rwxr-xr-x jenkins    jenkins        112280 ./usr/lib/opensaf/opensaf/osafdtmd
+-rwxr-xr-x jenkins    jenkins        114272 ./usr/lib/opensaf/opensaf/osafdtmd
 -rwxr-xr-x jenkins    jenkins        165184 ./usr/lib/opensaf/opensaf/osafevtd
 -rwxr-xr-x jenkins    jenkins         28216 ./usr/lib/opensaf/opensaf/osaffmd
 -rwxr-xr-x jenkins    jenkins        172680 ./usr/lib/opensaf/opensaf/osafimmd
--rwxr-xr-x jenkins    jenkins         66536 ./usr/lib/opensaf/opensaf/osafimmloadd
--rwxr-xr-x jenkins    jenkins        606512 ./usr/lib/opensaf/opensaf/osafimmnd
--rwxr-xr-x jenkins    jenkins        107384 ./usr/lib/opensaf/opensaf/osafimmpbed
--rwxr-xr-x jenkins    jenkins        116520 ./usr/lib/opensaf/opensaf/osaflckd
+-rwxr-xr-x jenkins    jenkins         66600 ./usr/lib/opensaf/opensaf/osafimmloadd
+-rwxr-xr-x jenkins    jenkins        614896 ./usr/lib/opensaf/opensaf/osafimmnd
+-rwxr-xr-x jenkins    jenkins        108472 ./usr/lib/opensaf/opensaf/osafimmpbed
+-rwxr-xr-x jenkins    jenkins        120616 ./usr/lib/opensaf/opensaf/osaflckd
 -rwxr-xr-x jenkins    jenkins        121056 ./usr/lib/opensaf/opensaf/osaflcknd
--rwxr-xr-x jenkins    jenkins        200488 ./usr/lib/opensaf/opensaf/osaflogd
--rwxr-xr-x jenkins    jenkins        152288 ./usr/lib/opensaf/opensaf/osafmsgd
--rwxr-xr-x jenkins    jenkins        165360 ./usr/lib/opensaf/opensaf/osafmsgnd
--rwxr-xr-x jenkins    jenkins        184616 ./usr/lib/opensaf/opensaf/osafntfd
+-rwxr-xr-x jenkins    jenkins        209328 ./usr/lib/opensaf/opensaf/osaflogd
+-rwxr-xr-x jenkins    jenkins        152608 ./usr/lib/opensaf/opensaf/osafmsgd
+-rwxr-xr-x jenkins    jenkins        168176 ./usr/lib/opensaf/opensaf/osafmsgnd
+-rwxr-xr-x jenkins    jenkins        184680 ./usr/lib/opensaf/opensaf/osafntfd
 -rwxr-xr-x jenkins    jenkins         25136 ./usr/lib/opensaf/opensaf/osafrded
--rwxr-xr-x jenkins    jenkins        641896 ./usr/lib/opensaf/opensaf/osafsmfd
+-rwxr-xr-x jenkins    jenkins        649704 ./usr/lib/opensaf/opensaf/osafsmfd
 -rwxr-xr-x jenkins    jenkins         21888 ./usr/lib/opensaf/opensaf/osafsmfnd
 -rwxr-xr-x jenkins    jenkins          6960 ./usr/lib/opensaf/opensaf/smf-backup-create
 -rwxr-xr-x jenkins    jenkins          1535 ./usr/lib/opensaf/opensaf/smf-bundle-check
@@ -183,7 +183,7 @@ drwxr-xr-x jenkins    jenkins           240 ./usr/share/opensaf/immxml
 -rwxr-xr-x jenkins    jenkins         10570 ./usr/share/opensaf/immxml/immxml-nodegen
 -rwxr-xr-x jenkins    jenkins         19326 ./usr/share/opensaf/immxml/immxml-validate
 drwxr-xr-x jenkins    jenkins           920 ./usr/share/opensaf/immxml/services
--rw-r--r-- jenkins    jenkins         34667 ./usr/share/opensaf/immxml/services/amf_classes.xml
+-rw-r--r-- jenkins    jenkins         34875 ./usr/share/opensaf/immxml/services/amf_classes.xml
 -rw-r--r-- jenkins    jenkins          5932 ./usr/share/opensaf/immxml/services/amf_objects.xml
 -rw-r--r-- jenkins    jenkins          2381 ./usr/share/opensaf/immxml/services/amfwdog_objects.xml
 -rw-r--r-- jenkins    jenkins           843 ./usr/share/opensaf/immxml/services/amfwdog_pl_template.xml
@@ -212,7 +212,7 @@ drwxr-xr-x jenkins    jenkins           920 ./usr/share/opensaf/immxml/services
 -rw-r--r-- jenkins    jenkins          5133 ./usr/share/opensaf/immxml/services/immsv_objects.xml
 -rw-r--r-- jenkins    jenkins           830 ./usr/share/opensaf/immxml/services/immsv_pl_template.xml
 -rw-r--r-- jenkins    jenkins          1212 ./usr/share/opensaf/immxml/services/immsv_sc_template.xml
--rw-r--r-- jenkins    jenkins          6464 ./usr/share/opensaf/immxml/services/logsv_classes.xml
+-rw-r--r-- jenkins    jenkins          6597 ./usr/share/opensaf/immxml/services/logsv_classes.xml
 -rw-r--r-- jenkins    jenkins          4844 ./usr/share/opensaf/immxml/services/logsv_objects.xml
 -rw-r--r-- jenkins    jenkins           615 ./usr/share/opensaf/immxml/services/logsv_sc_template.xml
 -rw-r--r-- jenkins    jenkins          3265 ./usr/share/opensaf/immxml/services/mqsv_classes.xml
@@ -223,8 +223,8 @@ drwxr-xr-x jenkins    jenkins           920 ./usr/share/opensaf/immxml/services
 -rw-r--r-- jenkins    jenkins           615 ./usr/share/opensaf/immxml/services/ntfsv_sc_template.xml
 -rw-r--r-- jenkins    jenkins          3204 ./usr/share/opensaf/immxml/services/rde_objects.xml
 -rw-r--r-- jenkins    jenkins           615 ./usr/share/opensaf/immxml/services/rde_sc_template.xml
--rw-r--r-- jenkins    jenkins         12800 ./usr/share/opensaf/immxml/services/smfsv_classes.xml
--rw-r--r-- jenkins    jenkins          6616 ./usr/share/opensaf/immxml/services/smfsv_objects.xml
+-rw-r--r-- jenkins    jenkins         13246 ./usr/share/opensaf/immxml/services/smfsv_classes.xml
+-rw-r--r-- jenkins    jenkins          6686 ./usr/share/opensaf/immxml/services/smfsv_objects.xml
 -rw-r--r-- jenkins    jenkins           830 ./usr/share/opensaf/immxml/services/smfsv_pl_template.xml
 -rw-r--r-- jenkins    jenkins          1208 ./usr/share/opensaf/immxml/services/smfsv_sc_template.xml
 -rwxr-xr-x jenkins    jenkins          1158 ./usr/share/opensaf/immxml/verify.sh
@@ -303,8 +303,8 @@ drwxr-xr-x jenkins    jenkins           140 ./usr/share/opensaf/samples/immsv/im
 -rw-r--r-- jenkins    jenkins          2262 ./usr/share/opensaf/samples/immsv/immsv_test_classes.xml
 -rw-r--r-- jenkins    jenkins          2065 ./usr/share/opensaf/samples/immsv/immsv_test_classes_rtobj.xml
 drwxr-xr-x jenkins    jenkins            80 ./usr/share/opensaf/samples/immsv/immutils
--rw-r--r-- jenkins    jenkins         65350 ./usr/share/opensaf/samples/immsv/immutils/immutil.c
--rw-r--r-- jenkins    jenkins         23022 ./usr/share/opensaf/samples/immsv/immutils/immutil.h
+-rw-r--r-- jenkins    jenkins         66751 ./usr/share/opensaf/samples/immsv/immutils/immutil.c
+-rw-r--r-- jenkins    jenkins         23260 ./usr/share/opensaf/samples/immsv/immutils/immutil.h
 drwxr-xr-x jenkins    jenkins            60 ./usr/share/opensaf/samples/m4
 -rw-r--r-- jenkins    jenkins             0 ./usr/share/opensaf/samples/m4/.emptydir_file_for_mercurial
 drwxr-xr-x jenkins    jenkins           100 ./usr/share/opensaf/samples/mqsv
