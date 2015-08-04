@@ -1,8 +1,8 @@
 PV = 4.9.3
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = gcc (= 4.9.3-r0.2) glibc (>= 2.21)
+RDEPENDS = gcc (= 4.9.3-r0.3) glibc (>= 2.21)
 RRECOMMENDS = cpp-dev g++-dev glibc-dev gmp-dev libmpc-dev mpfr-dev zlib-dev
 PKGSIZE = 158468
 FILES = /usr/lib/gcc/arm-oe-linux-gnueabi/4.9.3/lib*.so /usr/lib/gcc/gcc/arm-oe-linux-gnueabi/4.9.3/lib*.so /usr/lib/gcc/arm-oe-linux-gnueabi/4.9.3/plugin/include/ /usr/lib/gcc/gcc/arm-oe-linux-gnueabi/4.9.3/plugin/gengtype /usr/lib/gcc/arm-oe-linux-gnueabi/4.9.3/plugin/gtype.state
