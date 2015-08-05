@@ -1,9 +1,9 @@
 PV = git
 PR = r0
-PKGR = r0.28
+PKGR = r0.29
 PKG = libgstplayer-0.0-staticdev
 RPROVIDES = git gst-player-staticdev
-RDEPENDS = gst-player-dev (= git-r0.28)
+RDEPENDS = gst-player-dev (= git-r0.29)
 RRECOMMENDS = 
 PKGSIZE = 133544
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/gst-player/*.a
