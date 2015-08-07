@@ -1,10 +1,10 @@
-PV = 5.4.2+gitAUTOINC+37b614abbf
+PV = 5.5.0+gitAUTOINC+4e3a7ed3ef
 PR = r0
-PKGV = 5.4.2+git0+37b614abbf
-PKGR = r0.12
+PKGV = 5.5.0+git0+4e3a7ed3ef
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.3) qtbase (>= 5.4.2+git0+2cb17c1fb9) qtsystems (>= 5.4.2+git0+37b614abbf)
+RDEPENDS = glibc (>= 2.21) libstdc++ (>= 4.9.3) qtbase (>= 5.5.0+git0+2fde9f59ee) qtsystems (>= 5.5.0+git0+4e3a7ed3ef)
 RRECOMMENDS = 
-PKGSIZE = 96852
+PKGSIZE = 96404
 FILES = /usr/bin/qt5/*
 FILELIST = /usr/bin/qt5/servicefw /usr/bin/qt5/sfwlisten
