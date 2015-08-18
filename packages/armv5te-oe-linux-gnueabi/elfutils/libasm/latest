@@ -1,9 +1,9 @@
 PV = 0.163
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libasm1
 RPROVIDES = 0.163 libasm
-RDEPENDS = glibc (>= 2.21) libelf (>= 0.163)
+RDEPENDS = glibc (>= 2.22) libelf (>= 0.163)
 RRECOMMENDS = 
 PKGSIZE = 20919
 FILES = /usr/lib/libasm-0.163.so /usr/lib/libasm.so.*

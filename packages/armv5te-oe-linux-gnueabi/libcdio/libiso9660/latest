@@ -1,9 +1,9 @@
 PV = 0.82
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 PKG = libiso9660-7
 RPROVIDES = 0.82 libiso9660
-RDEPENDS = glibc (>= 2.21) libcdio (>= 0.82)
+RDEPENDS = glibc (>= 2.22) libcdio (>= 0.82)
 RRECOMMENDS = 
 PKGSIZE = 30883
 FILES = /usr/lib/libiso9660.so.7 /usr/lib/libiso9660.so.7.0.0

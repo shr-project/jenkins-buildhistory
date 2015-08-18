@@ -1,9 +1,9 @@
 PV = 3.6.25
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 PKG = libnetapi0
 RPROVIDES = 3.6.25 libnetapi
-RDEPENDS = glibc (>= 2.21) libtdb (>= 3.6.25) libtevent (>= 3.6.25) libwbclient (>= 3.6.25) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.22) libtdb (>= 3.6.25) libtevent (>= 3.6.25) libwbclient (>= 3.6.25) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 4189740
 FILES = /usr/lib/libnetapi.so.*

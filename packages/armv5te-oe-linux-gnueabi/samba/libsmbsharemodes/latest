@@ -1,9 +1,9 @@
 PV = 3.6.25
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 PKG = libsmbsharemodes0
 RPROVIDES = 3.6.25 libsmbsharemodes
-RDEPENDS = glibc (>= 2.21) libtdb (>= 3.6.25)
+RDEPENDS = glibc (>= 2.22) libtdb (>= 3.6.25)
 RRECOMMENDS = 
 PKGSIZE = 9856
 FILES = /usr/lib/libsmbsharemodes.so.*

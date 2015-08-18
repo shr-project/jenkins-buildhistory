@@ -1,9 +1,9 @@
 PV = 0.28+gitAUTOINC+40342dd0ea
 PR = r0
 PKGV = 0.28+git0+40342dd0ea
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = pkg-config pkgconfig
-RDEPENDS = glib-2.0 (>= 2.44.1) glibc (>= 2.21)
+RDEPENDS = glib-2.0 (>= 2.44.1) glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 70565
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/pkgconfig/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/pkgconfig /usr/lib/pkgconfig/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/aclocal/pkg.m4
