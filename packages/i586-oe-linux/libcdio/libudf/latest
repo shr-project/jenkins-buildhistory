@@ -1,9 +1,9 @@
 PV = 0.82
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 PKG = libudf0
 RPROVIDES = 0.82 libudf
-RDEPENDS = glibc (>= 2.21) libcdio (>= 0.82)
+RDEPENDS = glibc (>= 2.22) libcdio (>= 0.82)
 RRECOMMENDS = 
 PKGSIZE = 15763
 FILES = /usr/lib/libudf.so.0 /usr/lib/libudf.so.0.0.0

@@ -27,7 +27,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/lib/gio
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/gio/modules
 -rwxr-xr-x jenkins    jenkins         78180 ./usr/lib/gio/modules/libgioremote-volume-monitor.so
 -rwxr-xr-x jenkins    jenkins        196484 ./usr/lib/gio/modules/libgvfsdbus.so
-drwxr-xr-x jenkins    jenkins           340 ./usr/lib/gvfs
+drwxr-xr-x jenkins    jenkins           300 ./usr/lib/gvfs
 -rwxr-xr-x jenkins    jenkins         54208 ./usr/lib/gvfs/gvfs-gphoto2-volume-monitor
 -rwxr-xr-x jenkins    jenkins        164264 ./usr/lib/gvfs/gvfsd
 -rwxr-xr-x jenkins    jenkins        245548 ./usr/lib/gvfs/gvfsd-afp
@@ -41,29 +41,25 @@ drwxr-xr-x jenkins    jenkins           340 ./usr/lib/gvfs
 -rwxr-xr-x jenkins    jenkins        176784 ./usr/lib/gvfs/gvfsd-localtest
 -rwxr-xr-x jenkins    jenkins         58024 ./usr/lib/gvfs/gvfsd-metadata
 -rwxr-xr-x jenkins    jenkins        163888 ./usr/lib/gvfs/gvfsd-network
--rwxr-xr-x jenkins    jenkins        183628 ./usr/lib/gvfs/gvfsd-smb
--rwxr-xr-x jenkins    jenkins        175380 ./usr/lib/gvfs/gvfsd-smb-browse
 lrwxrwxrwx jenkins    jenkins            28 ./usr/lib/libgvfscommon-dnssd.so.0 -> libgvfscommon-dnssd.so.0.0.0
 -rwxr-xr-x jenkins    jenkins         28416 ./usr/lib/libgvfscommon-dnssd.so.0.0.0
 lrwxrwxrwx jenkins    jenkins            22 ./usr/lib/libgvfscommon.so.0 -> libgvfscommon.so.0.0.0
 -rwxr-xr-x jenkins    jenkins         98280 ./usr/lib/libgvfscommon.so.0.0.0
 drwxr-xr-x jenkins    jenkins           120 ./usr/share
 drwxr-xr-x jenkins    jenkins            60 ./usr/share/GConf
-drwxr-xr-x jenkins    jenkins            80 ./usr/share/GConf/gsettings
+drwxr-xr-x jenkins    jenkins            60 ./usr/share/GConf/gsettings
 -rw-r--r-- jenkins    jenkins           116 ./usr/share/GConf/gsettings/gvfs-dns-sd.convert
--rw-r--r-- jenkins    jenkins            57 ./usr/share/GConf/gsettings/gvfs-smb.convert
 drwxr-xr-x jenkins    jenkins            60 ./usr/share/dbus-1
 drwxr-xr-x jenkins    jenkins           100 ./usr/share/dbus-1/services
 -rw-r--r-- jenkins    jenkins            65 ./usr/share/dbus-1/services/gvfs-daemon.service
 -rw-r--r-- jenkins    jenkins            76 ./usr/share/dbus-1/services/gvfs-metadata.service
 -rw-r--r-- jenkins    jenkins           105 ./usr/share/dbus-1/services/org.gtk.Private.GPhoto2VolumeMonitor.service
 drwxr-xr-x jenkins    jenkins            60 ./usr/share/glib-2.0
-drwxr-xr-x jenkins    jenkins           100 ./usr/share/glib-2.0/schemas
+drwxr-xr-x jenkins    jenkins            80 ./usr/share/glib-2.0/schemas
 -rw-r--r-- jenkins    jenkins           651 ./usr/share/glib-2.0/schemas/org.gnome.system.dns_sd.gschema.xml
 -rw-r--r-- jenkins    jenkins           286 ./usr/share/glib-2.0/schemas/org.gnome.system.gvfs.enums.xml
--rw-r--r-- jenkins    jenkins           408 ./usr/share/glib-2.0/schemas/org.gnome.system.smb.gschema.xml
 drwxr-xr-x jenkins    jenkins            80 ./usr/share/gvfs
-drwxr-xr-x jenkins    jenkins           300 ./usr/share/gvfs/mounts
+drwxr-xr-x jenkins    jenkins           260 ./usr/share/gvfs/mounts
 -rw-r--r-- jenkins    jenkins           131 ./usr/share/gvfs/mounts/afp-browse.mount
 -rw-r--r-- jenkins    jenkins           122 ./usr/share/gvfs/mounts/afp.mount
 -rw-r--r-- jenkins    jenkins            64 ./usr/share/gvfs/mounts/burn.mount
@@ -75,7 +71,5 @@ drwxr-xr-x jenkins    jenkins           300 ./usr/share/gvfs/mounts
 -rw-r--r-- jenkins    jenkins           100 ./usr/share/gvfs/mounts/http.mount
 -rw-r--r-- jenkins    jenkins            74 ./usr/share/gvfs/mounts/localtest.mount
 -rw-r--r-- jenkins    jenkins            69 ./usr/share/gvfs/mounts/network.mount
--rw-r--r-- jenkins    jenkins           142 ./usr/share/gvfs/mounts/smb-browse.mount
--rw-r--r-- jenkins    jenkins            79 ./usr/share/gvfs/mounts/smb.mount
 drwxr-xr-x jenkins    jenkins            60 ./usr/share/gvfs/remote-volume-monitors
 -rw-r--r-- jenkins    jenkins           115 ./usr/share/gvfs/remote-volume-monitors/gphoto2.monitor

@@ -1,10 +1,10 @@
 PV = 2.9.3
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 PKG = libfuse-staticdev
 RPROVIDES = 2.9.3 fuse-staticdev
-RDEPENDS = fuse-dev (= 2.9.3-r0.25)
+RDEPENDS = fuse-dev (= 2.9.3-r0.26)
 RRECOMMENDS = 
-PKGSIZE = 855318
+PKGSIZE = 855558
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/fuse/*.a
 FILELIST = /usr/lib/libfuse.a /usr/lib/libulockmgr.a

@@ -1,9 +1,9 @@
-PV = 4.3.22
+PV = 4.3.30
 PR = r0
-PKGR = r0.25
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = kernel-3.19.5-yocto-tiny kernel-module-vboxguest
 RRECOMMENDS = 
-PKGSIZE = 39507
+PKGSIZE = 39151
 FILES = /lib/modules/3.19.5-yocto-tiny/kernel/misc/vboxsf.ko /etc/modules-load.d/vboxsf.conf /etc/modprobe.d/vboxsf.conf
 FILELIST = /etc/modules-load.d/vboxsf.conf /lib/modules/3.19.5-yocto-tiny/kernel/misc/vboxsf.ko

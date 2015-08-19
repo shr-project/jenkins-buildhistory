@@ -1,9 +1,9 @@
-PV = 5.5.43
+PV = 5.5.45
 PR = r0
-PKGR = r0.17
+PKGR = r0.0
 PKG = libmysqlclient18
-RPROVIDES = 5.5.43 libmysqlclient
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) zlib (>= 1.2.8)
+RPROVIDES = 5.5.45 libmysqlclient
+RDEPENDS = glibc (>= 2.22) libgcc (>= 4.9.3) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 2999678
 FILES = /usr/lib/libmysqlclient.so.* /etc/my.cnf.d/client.cnf

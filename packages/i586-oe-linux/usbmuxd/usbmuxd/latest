@@ -1,9 +1,9 @@
 PV = git
 PR = r0
 PKGV = 1.0.8
-PKGR = r0.30
+PKGR = r0.31
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libusb1 (>= 1.0.19)
+RDEPENDS = glibc (>= 2.22) libusb1 (>= 1.0.19)
 RRECOMMENDS = 
 PKGSIZE = 77934
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/usbmuxd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/usbmuxd /usr/lib/usbmuxd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/udev/rules.d/
