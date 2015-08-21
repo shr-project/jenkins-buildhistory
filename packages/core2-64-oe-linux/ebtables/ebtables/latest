@@ -1,8 +1,8 @@
 PV = 2.0.10-4
 PR = r3
-PKGR = r3.24
+PKGR = r3.25
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) perl
+RDEPENDS = glibc (>= 2.22) perl
 RRECOMMENDS = kernel-module-ebtables
 PKGSIZE = 245316
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/ebtables/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ebtables /usr/lib/ebtables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/ebtables/*.so /lib/systemd/system/ebtables.service

@@ -1,9 +1,9 @@
 PV = 1.8.3
 PR = r1
-PKGR = r1.31
+PKGR = r1.32
 PKG = libwebkitgtk-1.0-bin
 RPROVIDES = 1.8.3 webkit-gtk-bin
-RDEPENDS = glibc (>= 2.21) libjavascriptcore (>= 1.8.3) libstdc++ (>= 4.9.3)
+RDEPENDS = glibc (>= 2.22) libjavascriptcore (>= 1.8.3) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
 PKGSIZE = 49336
 FILES = /usr/bin/* /usr/sbin/*

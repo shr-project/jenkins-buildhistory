@@ -1,9 +1,9 @@
 PV = 3.14
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 PKG = libgpsd22
 RPROVIDES = 3.14 libgpsd
-RDEPENDS = dbus-lib (>= 1.8.20) glibc (>= 2.21) libgps (>= 3.14) libusb1 (>= 1.0.19)
+RDEPENDS = dbus-lib (>= 1.8.20) glibc (>= 2.22) libgps (>= 3.14) libusb1 (>= 1.0.19)
 RRECOMMENDS = 
 PKGSIZE = 491338
 FILES = /usr/lib/libgpsd.so.*

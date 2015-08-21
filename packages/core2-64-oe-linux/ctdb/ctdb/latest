@@ -1,8 +1,8 @@
 PV = 2.5.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libtalloc (>= 2.1.1) libtevent (>= 0.9.21) popt (>= 1.16)
+RDEPENDS = glibc (>= 2.22) libtalloc (>= 2.1.1) libtevent (>= 0.9.21) popt (>= 1.16)
 RRECOMMENDS = 
 PKGSIZE = 1233264
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/ctdb/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ctdb /usr/lib/ctdb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /run /lib/systemd/system/ctdb.service

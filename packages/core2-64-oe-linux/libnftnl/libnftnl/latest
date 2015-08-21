@@ -1,9 +1,9 @@
 PV = 1.0.3
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libnftnl0
 RPROVIDES = 1.0.3 libnftnl
-RDEPENDS = glibc (>= 2.21) libmnl (>= 1.0.3)
+RDEPENDS = glibc (>= 2.22) libmnl (>= 1.0.3)
 RRECOMMENDS = 
 PKGSIZE = 120553
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/libnftnl/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libnftnl /usr/lib/libnftnl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

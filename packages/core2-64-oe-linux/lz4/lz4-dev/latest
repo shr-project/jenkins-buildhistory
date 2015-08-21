@@ -1,9 +1,9 @@
 PV = 128+gitAUTOINC+5780864c0c
 PR = r0
 PKGV = 128+git0+5780864c0c
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = lz4 (= 128+git0+5780864c0c-r0.18)
+RDEPENDS = lz4 (= 128+git0+5780864c0c-r0.19)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 37257
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lz4/*.la /lib/*.la

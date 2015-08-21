@@ -27,8 +27,13 @@ drwxr-xr-x jenkins    jenkins            60 ./lib
 drwxr-xr-x jenkins    jenkins            60 ./lib/udev
 drwxr-xr-x jenkins    jenkins            60 ./lib/udev/rules.d
 -rw-r--r-- jenkins    jenkins          6538 ./lib/udev/rules.d/90-pulseaudio.rules
-drwxr-xr-x jenkins    jenkins            60 ./usr
+drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins           100 ./usr/bin
--rwxr-xr-x jenkins    jenkins         57528 ./usr/bin/pactl
--rwxr-xr-x jenkins    jenkins         86936 ./usr/bin/pulseaudio
+-rwxr-xr-x jenkins    jenkins         57576 ./usr/bin/pactl
+-rwxr-xr-x jenkins    jenkins         87000 ./usr/bin/pulseaudio
 -rwxr-xr-x jenkins    jenkins          1197 ./usr/bin/start-pulseaudio-x11
+drwxr-xr-x jenkins    jenkins            60 ./usr/lib
+drwxr-xr-x jenkins    jenkins            60 ./usr/lib/systemd
+drwxr-xr-x jenkins    jenkins            80 ./usr/lib/systemd/user
+-rw-r--r-- jenkins    jenkins           166 ./usr/lib/systemd/user/pulseaudio.service
+-rw-r--r-- jenkins    jenkins           127 ./usr/lib/systemd/user/pulseaudio.socket

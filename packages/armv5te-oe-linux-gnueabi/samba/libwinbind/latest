@@ -1,9 +1,9 @@
-PV = 3.6.25
+PV = 4.1.12
 PR = r0
-PKGR = r0.16
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22)
+RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 18132
-FILES = /usr/lib/idmap/*.so /usr/lib/pdb /usr/lib/gpext /usr/lib/perfcount /usr/lib/security/pam_winbind.so
-FILELIST = /usr/lib/idmap/autorid.so
+PKGSIZE = 315
+FILES = /usr/lib/security/pam_winbind.so /lib/systemd/system/winbind.service
+FILELIST = /lib/systemd/system/winbind.service

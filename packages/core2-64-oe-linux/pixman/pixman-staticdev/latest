@@ -1,10 +1,10 @@
 PE = 1
 PV = 0.32.6
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 PKG = libpixman-1-staticdev
 RPROVIDES = 0.32.6 pixman-staticdev
-RDEPENDS = pixman-dev (= 1:0.32.6-r0.24)
+RDEPENDS = pixman-dev (= 1:0.32.6-r0.25)
 RRECOMMENDS = 
 PKGSIZE = 10123688
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/pixman/*.a

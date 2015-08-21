@@ -1,9 +1,9 @@
 PV = 4.9.3
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libubsan0
 RPROVIDES = 4.9.3 libubsan
-RDEPENDS = glibc (>= 2.21) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3)
 RRECOMMENDS = 
 PKGSIZE = 212473
 FILES = /usr/lib/libubsan.so.*

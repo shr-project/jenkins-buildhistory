@@ -17,7 +17,7 @@ drwxr-xr-x jenkins    jenkins          1120 ./usr/include/mysql
 -rw-r--r-- jenkins    jenkins          1944 ./usr/include/mysql/my_alloc.h
 -rw-r--r-- jenkins    jenkins          2208 ./usr/include/mysql/my_attribute.h
 -rw-r--r-- jenkins    jenkins          4236 ./usr/include/mysql/my_compiler.h
--rw-r--r-- jenkins    jenkins         17221 ./usr/include/mysql/my_config.h
+-rw-r--r-- jenkins    jenkins         17241 ./usr/include/mysql/my_config.h
 -rw-r--r-- jenkins    jenkins          7749 ./usr/include/mysql/my_dbug.h
 -rw-r--r-- jenkins    jenkins          1765 ./usr/include/mysql/my_decimal_limits.h
 -rw-r--r-- jenkins    jenkins          3573 ./usr/include/mysql/my_dir.h
@@ -67,7 +67,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/include/mysql/private/atomic
 -rw-r--r-- jenkins    jenkins          3326 ./usr/include/mysql/private/event_queue.h
 -rw-r--r-- jenkins    jenkins          3251 ./usr/include/mysql/private/event_scheduler.h
 -rw-r--r-- jenkins    jenkins          4223 ./usr/include/mysql/private/events.h
--rw-r--r-- jenkins    jenkins         90969 ./usr/include/mysql/private/field.h
+-rw-r--r-- jenkins    jenkins         91043 ./usr/include/mysql/private/field.h
 -rw-r--r-- jenkins    jenkins          1499 ./usr/include/mysql/private/filesort.h
 -rw-r--r-- jenkins    jenkins           888 ./usr/include/mysql/private/frm_crypt.h
 -rw-r--r-- jenkins    jenkins          2501 ./usr/include/mysql/private/ft_global.h
@@ -86,7 +86,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/include/mysql/private/atomic
 -rw-r--r-- jenkins    jenkins          1234 ./usr/include/mysql/private/hostname.h
 -rw-r--r-- jenkins    jenkins           962 ./usr/include/mysql/private/init.h
 -rw-r--r-- jenkins    jenkins          1414 ./usr/include/mysql/private/innodb_priv.h
--rw-r--r-- jenkins    jenkins        145625 ./usr/include/mysql/private/item.h
+-rw-r--r-- jenkins    jenkins        145613 ./usr/include/mysql/private/item.h
 -rw-r--r-- jenkins    jenkins         61430 ./usr/include/mysql/private/item_cmpfunc.h
 -rw-r--r-- jenkins    jenkins          6212 ./usr/include/mysql/private/item_create.h
 -rw-r--r-- jenkins    jenkins         62847 ./usr/include/mysql/private/item_func.h
@@ -94,7 +94,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/include/mysql/private/atomic
 -rw-r--r-- jenkins    jenkins          2942 ./usr/include/mysql/private/item_row.h
 -rw-r--r-- jenkins    jenkins         29056 ./usr/include/mysql/private/item_strfunc.h
 -rw-r--r-- jenkins    jenkins         48928 ./usr/include/mysql/private/item_subselect.h
--rw-r--r-- jenkins    jenkins         49786 ./usr/include/mysql/private/item_sum.h
+-rw-r--r-- jenkins    jenkins         49814 ./usr/include/mysql/private/item_sum.h
 -rw-r--r-- jenkins    jenkins         30624 ./usr/include/mysql/private/item_timefunc.h
 -rw-r--r-- jenkins    jenkins          2020 ./usr/include/mysql/private/item_xmlfunc.h
 -rw-r--r-- jenkins    jenkins          2093 ./usr/include/mysql/private/key.h
@@ -103,14 +103,14 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/include/mysql/private/atomic
 -rw-r--r-- jenkins    jenkins          1323 ./usr/include/mysql/private/lex_symbol.h
 -rw-r--r-- jenkins    jenkins          9254 ./usr/include/mysql/private/lf.h
 -rw-r--r-- jenkins    jenkins          2092 ./usr/include/mysql/private/lock.h
--rw-r--r-- jenkins    jenkins         33251 ./usr/include/mysql/private/log.h
+-rw-r--r-- jenkins    jenkins         33149 ./usr/include/mysql/private/log.h
 -rw-r--r-- jenkins    jenkins        134535 ./usr/include/mysql/private/log_event.h
 -rw-r--r-- jenkins    jenkins         19884 ./usr/include/mysql/private/log_event_old.h
 -rw-r--r-- jenkins    jenkins          1361 ./usr/include/mysql/private/log_slow.h
 -rw-r--r-- jenkins    jenkins         17679 ./usr/include/mysql/private/maria.h
 -rw-r--r-- jenkins    jenkins         29220 ./usr/include/mysql/private/mdl.h
 -rw-r--r-- jenkins    jenkins          5042 ./usr/include/mysql/private/mem_root_array.h
--rw-r--r-- jenkins    jenkins          2189 ./usr/include/mysql/private/message.h
+-rw-r--r-- jenkins    jenkins          2112 ./usr/include/mysql/private/message.h
 -rw-r--r-- jenkins    jenkins         22680 ./usr/include/mysql/private/multi_range_read.h
 -rw-r--r-- jenkins    jenkins          2305 ./usr/include/mysql/private/my_aes.h
 -rw-r--r-- jenkins    jenkins          2033 ./usr/include/mysql/private/my_alarm.h
@@ -192,7 +192,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/include/mysql/private/atomic
 -rw-r--r-- jenkins    jenkins          6245 ./usr/include/mysql/private/sql_bitmap.h
 -rw-r--r-- jenkins    jenkins         20807 ./usr/include/mysql/private/sql_cache.h
 -rw-r--r-- jenkins    jenkins          1542 ./usr/include/mysql/private/sql_callback.h
--rw-r--r-- jenkins    jenkins        143048 ./usr/include/mysql/private/sql_class.h
+-rw-r--r-- jenkins    jenkins        143352 ./usr/include/mysql/private/sql_class.h
 -rw-r--r-- jenkins    jenkins          2779 ./usr/include/mysql/private/sql_connect.h
 -rw-r--r-- jenkins    jenkins          9183 ./usr/include/mysql/private/sql_const.h
 -rw-r--r-- jenkins    jenkins          1427 ./usr/include/mysql/private/sql_crypt.h
@@ -208,7 +208,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/include/mysql/private/atomic
 -rw-r--r-- jenkins    jenkins          2792 ./usr/include/mysql/private/sql_hset.h
 -rw-r--r-- jenkins    jenkins          2233 ./usr/include/mysql/private/sql_insert.h
 -rw-r--r-- jenkins    jenkins         47106 ./usr/include/mysql/private/sql_join_cache.h
--rw-r--r-- jenkins    jenkins         90491 ./usr/include/mysql/private/sql_lex.h
+-rw-r--r-- jenkins    jenkins         90453 ./usr/include/mysql/private/sql_lex.h
 -rw-r--r-- jenkins    jenkins          9440 ./usr/include/mysql/private/sql_lifo_buffer.h
 -rw-r--r-- jenkins    jenkins         20732 ./usr/include/mysql/private/sql_list.h
 -rw-r--r-- jenkins    jenkins          1270 ./usr/include/mysql/private/sql_load.h
@@ -227,7 +227,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/include/mysql/private/atomic
 -rw-r--r-- jenkins    jenkins          1031 ./usr/include/mysql/private/sql_reload.h
 -rw-r--r-- jenkins    jenkins          1096 ./usr/include/mysql/private/sql_rename.h
 -rw-r--r-- jenkins    jenkins          2379 ./usr/include/mysql/private/sql_repl.h
--rw-r--r-- jenkins    jenkins         64216 ./usr/include/mysql/private/sql_select.h
+-rw-r--r-- jenkins    jenkins         64343 ./usr/include/mysql/private/sql_select.h
 -rw-r--r-- jenkins    jenkins          1814 ./usr/include/mysql/private/sql_servers.h
 -rw-r--r-- jenkins    jenkins          5817 ./usr/include/mysql/private/sql_show.h
 -rw-r--r-- jenkins    jenkins          4396 ./usr/include/mysql/private/sql_signal.h
@@ -249,7 +249,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/include/mysql/private/atomic
 -rw-r--r-- jenkins    jenkins         62901 ./usr/include/mysql/private/sys_vars.h
 -rw-r--r-- jenkins    jenkins          2589 ./usr/include/mysql/private/sys_vars_shared.h
 -rw-r--r-- jenkins    jenkins          5639 ./usr/include/mysql/private/t_ctype.h
--rw-r--r-- jenkins    jenkins         84242 ./usr/include/mysql/private/table.h
+-rw-r--r-- jenkins    jenkins         84350 ./usr/include/mysql/private/table.h
 -rw-r--r-- jenkins    jenkins          2934 ./usr/include/mysql/private/thr_alarm.h
 -rw-r--r-- jenkins    jenkins          6309 ./usr/include/mysql/private/thr_lock.h
 -rw-r--r-- jenkins    jenkins          1386 ./usr/include/mysql/private/thr_malloc.h
@@ -262,7 +262,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/include/mysql/private/atomic
 -rw-r--r-- jenkins    jenkins          9590 ./usr/include/mysql/private/violite.h
 -rw-r--r-- jenkins    jenkins          4553 ./usr/include/mysql/private/waiting_threads.h
 -rw-r--r-- jenkins    jenkins          1218 ./usr/include/mysql/private/welcome_copyright_notice.h
--rw-r--r-- jenkins    jenkins          1231 ./usr/include/mysql/private/winservice.h
+-rw-r--r-- jenkins    jenkins          1191 ./usr/include/mysql/private/winservice.h
 -rw-r--r-- jenkins    jenkins          1585 ./usr/include/mysql/private/wqueue.h
 drwxr-xr-x jenkins    jenkins           140 ./usr/include/mysql/psi
 -rw-r--r-- jenkins    jenkins         40305 ./usr/include/mysql/psi/mysql_file.h

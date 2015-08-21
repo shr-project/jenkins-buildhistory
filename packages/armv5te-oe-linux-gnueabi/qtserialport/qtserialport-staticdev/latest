@@ -1,10 +1,10 @@
 PV = 5.5.0+gitAUTOINC+d9ab9258ca
 PR = r0
 PKGV = 5.5.0+git0+d9ab9258ca
-PKGR = r0.0
+PKGR = r0.1
 PKG = libqt5serialport-staticdev
 RPROVIDES = 5.5.0+git0+d9ab9258ca qtserialport-staticdev
-RDEPENDS = qtserialport-dev (= 5.5.0+git0+d9ab9258ca-r0.0)
+RDEPENDS = qtserialport-dev (= 5.5.0+git0+d9ab9258ca-r0.1)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/qtserialport/*.a /usr/lib/*.a
