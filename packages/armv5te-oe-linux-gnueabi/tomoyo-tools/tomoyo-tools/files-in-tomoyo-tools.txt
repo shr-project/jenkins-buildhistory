@@ -1,6 +1,6 @@
 drwxr-xr-x jenkins    jenkins            80 .
 drwxr-xr-x jenkins    jenkins            60 ./sbin
--rwx------ jenkins    jenkins          9632 ./sbin/tomoyo-init
+-rwx------ jenkins    jenkins          9664 ./sbin/tomoyo-init
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins           100 ./usr/lib
 lrwxrwxrwx jenkins    jenkins            23 ./usr/lib/libtomoyotools.so.3 -> libtomoyotools.so.3.0.2
@@ -9,9 +9,9 @@ drwxr-xr-x jenkins    jenkins           180 ./usr/lib/tomoyo
 -rw-r--r-- jenkins    jenkins         17987 ./usr/lib/tomoyo/COPYING.tomoyo
 -rw-r--r-- jenkins    jenkins          1694 ./usr/lib/tomoyo/README.tomoyo
 -rwxr-xr-x jenkins    jenkins          4288 ./usr/lib/tomoyo/audit-exec-param
--rwxr-xr-x jenkins    jenkins          5676 ./usr/lib/tomoyo/convert-audit-log
--rwxr-xr-x jenkins    jenkins          5204 ./usr/lib/tomoyo/convert-exec-param
--rwxr-xr-x jenkins    jenkins         44660 ./usr/lib/tomoyo/init_policy
+-rwxr-xr-x jenkins    jenkins          5708 ./usr/lib/tomoyo/convert-audit-log
+-rwxr-xr-x jenkins    jenkins          5244 ./usr/lib/tomoyo/convert-exec-param
+-rwxr-xr-x jenkins    jenkins         44692 ./usr/lib/tomoyo/init_policy
 -rwxr-xr-x jenkins    jenkins          8740 ./usr/lib/tomoyo/tomoyo-editpolicy-agent
 drwxr-xr-x jenkins    jenkins           360 ./usr/sbin
 -rwxr-xr-x jenkins    jenkins          9104 ./usr/sbin/tomoyo-auditd

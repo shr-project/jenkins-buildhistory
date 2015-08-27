@@ -135,7 +135,7 @@ drwxr-xr-x jenkins    jenkins          1620 ./usr/lib/samba/.debug
 -rwxr-xr-x jenkins    jenkins         10712 ./usr/lib/samba/.debug/libserver-role.so
 -rwxr-xr-x jenkins    jenkins         53204 ./usr/lib/samba/.debug/libshares.so
 -rwxr-xr-x jenkins    jenkins         31232 ./usr/lib/samba/.debug/libsmb_transport.so
--rwxr-xr-x jenkins    jenkins       6867620 ./usr/lib/samba/.debug/libsmbd_base.so
+-rwxr-xr-x jenkins    jenkins       6867516 ./usr/lib/samba/.debug/libsmbd_base.so
 -rwxr-xr-x jenkins    jenkins         37120 ./usr/lib/samba/.debug/libsmbd_conn.so
 -rwxr-xr-x jenkins    jenkins         27876 ./usr/lib/samba/.debug/libsmbd_shim.so
 -rwxr-xr-x jenkins    jenkins         10592 ./usr/lib/samba/.debug/libsmbpasswdparser.so
@@ -175,11 +175,10 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/lib/samba/pdb/.debug
 -rwxr-xr-x jenkins    jenkins         53484 ./usr/lib/samba/pdb/.debug/tdbsam.so
 -rwxr-xr-x jenkins    jenkins         29172 ./usr/lib/samba/pdb/.debug/wbc_sam.so
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/samba/vfs
-drwxr-xr-x jenkins    jenkins           740 ./usr/lib/samba/vfs/.debug
+drwxr-xr-x jenkins    jenkins           720 ./usr/lib/samba/vfs/.debug
 -rwxr-xr-x jenkins    jenkins         67876 ./usr/lib/samba/vfs/.debug/acl_tdb.so
 -rwxr-xr-x jenkins    jenkins         63996 ./usr/lib/samba/vfs/.debug/acl_xattr.so
 -rwxr-xr-x jenkins    jenkins         58208 ./usr/lib/samba/vfs/.debug/aio_fork.so
--rwxr-xr-x jenkins    jenkins         46280 ./usr/lib/samba/vfs/.debug/aio_linux.so
 -rwxr-xr-x jenkins    jenkins         43780 ./usr/lib/samba/vfs/.debug/aio_posix.so
 -rwxr-xr-x jenkins    jenkins         43772 ./usr/lib/samba/vfs/.debug/aio_pthread.so
 -rwxr-xr-x jenkins    jenkins         34936 ./usr/lib/samba/vfs/.debug/audit.so
@@ -653,7 +652,7 @@ drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/samba/4.1.12-r0/samb
 -rw-r--r-- jenkins    jenkins          7282 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/param/param_global.h
 -rw-r--r-- jenkins    jenkins         13654 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/param/param_proto.h
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/smbd
--rw-r--r-- jenkins    jenkins         85259 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/smbd/build_options.c
+-rw-r--r-- jenkins    jenkins         85034 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/smbd/build_options.c
 drwxr-xr-x jenkins    jenkins           180 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source4
 drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source4/auth
 -rw-r--r-- jenkins    jenkins          1064 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source4/auth/auth_sam.h
@@ -1654,14 +1653,13 @@ drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/samba/4.1.12-r0/samb
 -rw-r--r-- jenkins    jenkins         38336 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/locking/posix.c
 -rw-r--r-- jenkins    jenkins          8528 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/locking/proto.h
 -rw-r--r-- jenkins    jenkins         16484 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/locking/share_mode_lock.c
-drwxr-xr-x jenkins    jenkins           880 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules
+drwxr-xr-x jenkins    jenkins           860 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules
 -rw-r--r-- jenkins    jenkins          1235 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/getdate.h
 -rw-r--r-- jenkins    jenkins          2756 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/non_posix_acls.c
 -rw-r--r-- jenkins    jenkins         29673 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/vfs_acl_common.c
 -rw-r--r-- jenkins    jenkins         10655 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/vfs_acl_tdb.c
 -rw-r--r-- jenkins    jenkins          5915 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/vfs_acl_xattr.c
 -rw-r--r-- jenkins    jenkins         22317 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/vfs_aio_fork.c
--rw-r--r-- jenkins    jenkins          8937 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/vfs_aio_linux.c
 -rw-r--r-- jenkins    jenkins          7411 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/vfs_aio_posix.c
 -rw-r--r-- jenkins    jenkins         12262 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/vfs_aio_pthread.c
 -rw-r--r-- jenkins    jenkins          7400 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/source3/modules/vfs_audit.c

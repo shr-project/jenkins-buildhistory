@@ -1,9 +1,9 @@
 PV = 4.9.3
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 PKG = libgcc-s-dev
 RPROVIDES = 4.9.3 libgcc-dev
-RDEPENDS = libgcc (= 4.9.3-r0.5)
+RDEPENDS = libgcc (= 4.9.3-r0.6)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 6001840
 FILES = /lib/libgcc*.so /usr/lib/arm-oe-linux-gnueabi/4.9.3/*crt* /usr/lib/arm-oe-linux-gnueabi/4.9.3/64 /usr/lib/arm-oe-linux-gnueabi/4.9.3/32 /usr/lib/arm-oe-linux-gnueabi/4.9.3/x32 /usr/lib/arm-oe-linux-gnueabi/4.9.3/n32 /usr/lib/arm-oe-linux-gnueabi/4.9.3/libgcc* /usr/lib/arm-oe-linux /usr/lib/arm-oe-linux-gnueabi/4.9.3/libgcov.a

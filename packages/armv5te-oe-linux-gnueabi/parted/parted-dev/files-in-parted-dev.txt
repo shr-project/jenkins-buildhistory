@@ -1,23 +1,22 @@
 drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/include
-drwxr-xr-x jenkins    jenkins           340 ./usr/include/parted
--rw-r--r-- jenkins    jenkins          2698 ./usr/include/parted/constraint.h
--rw-r--r-- jenkins    jenkins          2620 ./usr/include/parted/debug.h
--rw-r--r-- jenkins    jenkins          5283 ./usr/include/parted/device.h
--rw-r--r-- jenkins    jenkins         13401 ./usr/include/parted/disk.h
--rw-r--r-- jenkins    jenkins          3886 ./usr/include/parted/exception.h
--rw-r--r-- jenkins    jenkins          7561 ./usr/include/parted/fdasd.h
--rw-r--r-- jenkins    jenkins          4022 ./usr/include/parted/filesys.h
--rw-r--r-- jenkins    jenkins          3014 ./usr/include/parted/geom.h
--rw-r--r-- jenkins    jenkins          1498 ./usr/include/parted/gnu.h
--rw-r--r-- jenkins    jenkins          1431 ./usr/include/parted/linux.h
--rw-r--r-- jenkins    jenkins          3326 ./usr/include/parted/natmath.h
--rw-r--r-- jenkins    jenkins          1857 ./usr/include/parted/parted.h
--rw-r--r-- jenkins    jenkins          2204 ./usr/include/parted/timer.h
--rw-r--r-- jenkins    jenkins          2778 ./usr/include/parted/unit.h
--rw-r--r-- jenkins    jenkins         12700 ./usr/include/parted/vtoc.h
-drwxr-xr-x jenkins    jenkins            80 ./usr/lib
-lrwxrwxrwx jenkins    jenkins            22 ./usr/lib/libparted.so -> libparted-1.8.so.6.0.0
+drwxr-xr-x jenkins    jenkins           260 ./usr/include/parted
+-rw-r--r-- jenkins    jenkins          2759 ./usr/include/parted/constraint.h
+-rw-r--r-- jenkins    jenkins          2467 ./usr/include/parted/debug.h
+-rw-r--r-- jenkins    jenkins          6116 ./usr/include/parted/device.h
+-rw-r--r-- jenkins    jenkins         16621 ./usr/include/parted/disk.h
+-rw-r--r-- jenkins    jenkins          4133 ./usr/include/parted/exception.h
+-rw-r--r-- jenkins    jenkins          3455 ./usr/include/parted/filesys.h
+-rw-r--r-- jenkins    jenkins          3577 ./usr/include/parted/geom.h
+-rw-r--r-- jenkins    jenkins          4185 ./usr/include/parted/natmath.h
+-rw-r--r-- jenkins    jenkins          1640 ./usr/include/parted/parted.h
+-rw-r--r-- jenkins    jenkins          2152 ./usr/include/parted/timer.h
+-rw-r--r-- jenkins    jenkins          3007 ./usr/include/parted/unit.h
+drwxr-xr-x jenkins    jenkins           140 ./usr/lib
+-rwxr-xr-x jenkins    jenkins           994 ./usr/lib/libparted-fs-resize.la
+lrwxrwxrwx jenkins    jenkins            28 ./usr/lib/libparted-fs-resize.so -> libparted-fs-resize.so.0.0.1
+-rwxr-xr-x jenkins    jenkins           993 ./usr/lib/libparted.la
+lrwxrwxrwx jenkins    jenkins            18 ./usr/lib/libparted.so -> libparted.so.2.0.1
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib/pkgconfig
--rw-r--r-- jenkins    jenkins           214 ./usr/lib/pkgconfig/libparted.pc
+-rw-r--r-- jenkins    jenkins           211 ./usr/lib/pkgconfig/libparted.pc
