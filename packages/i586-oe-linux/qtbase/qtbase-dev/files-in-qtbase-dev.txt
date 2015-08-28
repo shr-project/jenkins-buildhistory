@@ -2328,7 +2328,7 @@ drwxr-xr-x jenkins    jenkins            60 ./usr/include/qt5/QtXml/5.5.0/QtXml/
 -rw-r--r-- jenkins    jenkins          1898 ./usr/include/qt5/QtXml/qtxmlglobal.h
 -rw-r--r-- jenkins    jenkins           192 ./usr/include/qt5/QtXml/qtxmlversion.h
 -rw-r--r-- jenkins    jenkins         14380 ./usr/include/qt5/QtXml/qxml.h
-drwxr-xr-x jenkins    jenkins           980 ./usr/lib
+drwxr-xr-x jenkins    jenkins          1020 ./usr/lib
 drwxr-xr-x jenkins    jenkins           300 ./usr/lib/cmake
 drwxr-xr-x jenkins    jenkins            80 ./usr/lib/cmake/Qt5
 -rw-r--r-- jenkins    jenkins          1480 ./usr/lib/cmake/Qt5/Qt5Config.cmake
@@ -2348,7 +2348,7 @@ drwxr-xr-x jenkins    jenkins           120 ./usr/lib/cmake/Qt5DBus
 -rw-r--r-- jenkins    jenkins           775 ./usr/lib/cmake/Qt5DBus/Qt5DBusConfigExtras.cmake
 -rw-r--r-- jenkins    jenkins           307 ./usr/lib/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake
 -rw-r--r-- jenkins    jenkins          6207 ./usr/lib/cmake/Qt5DBus/Qt5DBusMacros.cmake
-drwxr-xr-x jenkins    jenkins           480 ./usr/lib/cmake/Qt5Gui
+drwxr-xr-x jenkins    jenkins           460 ./usr/lib/cmake/Qt5Gui
 -rw-r--r-- jenkins    jenkins          5895 ./usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
 -rw-r--r-- jenkins    jenkins          3418 ./usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
 -rw-r--r-- jenkins    jenkins           307 ./usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
@@ -2364,7 +2364,6 @@ drwxr-xr-x jenkins    jenkins           480 ./usr/lib/cmake/Qt5Gui
 -rw-r--r-- jenkins    jenkins           170 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
 -rw-r--r-- jenkins    jenkins           268 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake
 -rw-r--r-- jenkins    jenkins           174 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
--rw-r--r-- jenkins    jenkins           191 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake
 -rw-r--r-- jenkins    jenkins           228 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake
 -rw-r--r-- jenkins    jenkins           216 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
 -rw-r--r-- jenkins    jenkins           224 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
@@ -2411,8 +2410,8 @@ lrwxrwxrwx jenkins    jenkins            19 ./usr/lib/libQt5Core.so -> libQt5Cor
 -rw-r--r-- jenkins    jenkins           634 ./usr/lib/libQt5DBus.la
 -rw-r--r-- jenkins    jenkins          1075 ./usr/lib/libQt5DBus.prl
 lrwxrwxrwx jenkins    jenkins            19 ./usr/lib/libQt5DBus.so -> libQt5DBus.so.5.5.0
--rw-r--r-- jenkins    jenkins           899 ./usr/lib/libQt5EglDeviceIntegration.la
--rw-r--r-- jenkins    jenkins          1327 ./usr/lib/libQt5EglDeviceIntegration.prl
+-rw-r--r-- jenkins    jenkins           879 ./usr/lib/libQt5EglDeviceIntegration.la
+-rw-r--r-- jenkins    jenkins          1307 ./usr/lib/libQt5EglDeviceIntegration.prl
 lrwxrwxrwx jenkins    jenkins            35 ./usr/lib/libQt5EglDeviceIntegration.so -> libQt5EglDeviceIntegration.so.5.5.0
 -rw-r--r-- jenkins    jenkins           627 ./usr/lib/libQt5Gui.la
 -rw-r--r-- jenkins    jenkins          1116 ./usr/lib/libQt5Gui.prl
@@ -2426,7 +2425,7 @@ lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/libQt5OpenGL.so -> libQt5O
 -rw-r--r-- jenkins    jenkins           617 ./usr/lib/libQt5OpenGLExtensions.la
 -rw-r--r-- jenkins    jenkins          1137 ./usr/lib/libQt5OpenGLExtensions.prl
 -rw-r--r-- jenkins    jenkins           648 ./usr/lib/libQt5PlatformSupport.la
--rw-r--r-- jenkins    jenkins          1339 ./usr/lib/libQt5PlatformSupport.prl
+-rw-r--r-- jenkins    jenkins          1319 ./usr/lib/libQt5PlatformSupport.prl
 -rw-r--r-- jenkins    jenkins           712 ./usr/lib/libQt5PrintSupport.la
 -rw-r--r-- jenkins    jenkins          1117 ./usr/lib/libQt5PrintSupport.prl
 lrwxrwxrwx jenkins    jenkins            27 ./usr/lib/libQt5PrintSupport.so -> libQt5PrintSupport.so.5.5.0
@@ -2439,26 +2438,28 @@ lrwxrwxrwx jenkins    jenkins            19 ./usr/lib/libQt5Test.so -> libQt5Tes
 -rw-r--r-- jenkins    jenkins           664 ./usr/lib/libQt5Widgets.la
 -rw-r--r-- jenkins    jenkins          1107 ./usr/lib/libQt5Widgets.prl
 lrwxrwxrwx jenkins    jenkins            22 ./usr/lib/libQt5Widgets.so -> libQt5Widgets.so.5.5.0
--rw-r--r-- jenkins    jenkins           981 ./usr/lib/libQt5XcbQpa.la
--rw-r--r-- jenkins    jenkins          1482 ./usr/lib/libQt5XcbQpa.prl
+-rw-r--r-- jenkins    jenkins           973 ./usr/lib/libQt5XcbQpa.la
+-rw-r--r-- jenkins    jenkins          1474 ./usr/lib/libQt5XcbQpa.prl
 lrwxrwxrwx jenkins    jenkins            21 ./usr/lib/libQt5XcbQpa.so -> libQt5XcbQpa.so.5.5.0
 -rw-r--r-- jenkins    jenkins           627 ./usr/lib/libQt5Xml.la
 -rw-r--r-- jenkins    jenkins          1057 ./usr/lib/libQt5Xml.prl
 lrwxrwxrwx jenkins    jenkins            18 ./usr/lib/libQt5Xml.so -> libQt5Xml.so.5.5.0
+-rw-r--r-- jenkins    jenkins           894 ./usr/lib/libqtharfbuzzng.prl
+-rw-r--r-- jenkins    jenkins           874 ./usr/lib/libqtpcre.prl
 drwxr-xr-x jenkins    jenkins           360 ./usr/lib/pkgconfig
 -rw-r--r-- jenkins    jenkins           325 ./usr/lib/pkgconfig/Qt5Bootstrap.pc
 -rw-r--r-- jenkins    jenkins           357 ./usr/lib/pkgconfig/Qt5Concurrent.pc
--rw-r--r-- jenkins    jenkins          1005 ./usr/lib/pkgconfig/Qt5Core.pc
+-rw-r--r-- jenkins    jenkins           981 ./usr/lib/pkgconfig/Qt5Core.pc
 -rw-r--r-- jenkins    jenkins           329 ./usr/lib/pkgconfig/Qt5DBus.pc
--rw-r--r-- jenkins    jenkins           567 ./usr/lib/pkgconfig/Qt5EglDeviceIntegration.pc
+-rw-r--r-- jenkins    jenkins           547 ./usr/lib/pkgconfig/Qt5EglDeviceIntegration.pc
 -rw-r--r-- jenkins    jenkins           358 ./usr/lib/pkgconfig/Qt5Gui.pc
 -rw-r--r-- jenkins    jenkins           359 ./usr/lib/pkgconfig/Qt5Network.pc
 -rw-r--r-- jenkins    jenkins           385 ./usr/lib/pkgconfig/Qt5OpenGL.pc
 -rw-r--r-- jenkins    jenkins           401 ./usr/lib/pkgconfig/Qt5OpenGLExtensions.pc
--rw-r--r-- jenkins    jenkins           506 ./usr/lib/pkgconfig/Qt5PlatformSupport.pc
+-rw-r--r-- jenkins    jenkins           486 ./usr/lib/pkgconfig/Qt5PlatformSupport.pc
 -rw-r--r-- jenkins    jenkins           409 ./usr/lib/pkgconfig/Qt5PrintSupport.pc
 -rw-r--r-- jenkins    jenkins           325 ./usr/lib/pkgconfig/Qt5Sql.pc
 -rw-r--r-- jenkins    jenkins           338 ./usr/lib/pkgconfig/Qt5Test.pc
 -rw-r--r-- jenkins    jenkins           407 ./usr/lib/pkgconfig/Qt5Widgets.pc
--rw-r--r-- jenkins    jenkins           685 ./usr/lib/pkgconfig/Qt5XcbQpa.pc
+-rw-r--r-- jenkins    jenkins           677 ./usr/lib/pkgconfig/Qt5XcbQpa.pc
 -rw-r--r-- jenkins    jenkins           325 ./usr/lib/pkgconfig/Qt5Xml.pc
