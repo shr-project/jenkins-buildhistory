@@ -1,8 +1,8 @@
 PV = 1.0.4
 PR = r9
-PKGR = r9.32
+PKGR = r9.33
 RPROVIDES = udisks-systemd
-RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) glib-2.0 (>= 2.44.1) glibc (>= 2.22) libatasmart (>= 0.19) libgudev (>= 219-stable+git0+85a6fabdd3) libudev (>= 219-stable+git0+85a6fabdd3) lvm2 (>= 2.02.125) polkit (>= 0.113) sg3-utils (>= 1.40)
+RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) glib-2.0 (>= 2.44.1) glibc (>= 2.22) libatasmart (>= 0.19) libgudev (>= 219-stable+git0+85a6fabdd3) libudev (>= 219-stable+git0+85a6fabdd3) lvm2 (>= 2.02.125) polkit (>= 0.113) sg3-utils (>= 1.41)
 RRECOMMENDS = 
 RREPLACES = udisks-systemd
 RCONFLICTS = udisks-systemd

@@ -2,7 +2,7 @@ drwxr-xr-x jenkins    jenkins            60 .
 drwxr-xr-x jenkins    jenkins            80 ./usr
 drwxr-xr-x jenkins    jenkins            60 ./usr/lib
 drwxr-xr-x jenkins    jenkins           100 ./usr/lib/.debug
--rwxr-xr-x jenkins    jenkins      19694920 ./usr/lib/.debug/libQt5Multimedia.so.5.5.0
+-rwxr-xr-x jenkins    jenkins      20224336 ./usr/lib/.debug/libQt5Multimedia.so.5.5.0
 -rwxr-xr-x jenkins    jenkins       2709632 ./usr/lib/.debug/libQt5MultimediaQuick_p.so.5.5.0
 -rwxr-xr-x jenkins    jenkins       1649480 ./usr/lib/.debug/libQt5MultimediaWidgets.so.5.5.0
 drwxr-xr-x jenkins    jenkins            60 ./usr/src
@@ -127,7 +127,7 @@ drwxr-xr-x jenkins    jenkins           340 ./usr/src/debug/qtmultimedia/5.5.0+g
 -rw-r--r-- jenkins    jenkins          6661 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/imports/multimedia/.moc/moc_qdeclarativetorch_p.cpp
 -rw-r--r-- jenkins    jenkins          6732 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/imports/multimedia/.moc/multimedia.moc
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia
-drwxr-xr-x jenkins    jenkins          1600 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc
+drwxr-xr-x jenkins    jenkins          1620 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc
 -rw-r--r-- jenkins    jenkins          6863 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_playlistfileparser_p.cpp
 -rw-r--r-- jenkins    jenkins          5640 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qabstractvideofilter.cpp
 -rw-r--r-- jenkins    jenkins          7887 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qabstractvideosurface.cpp
@@ -196,7 +196,7 @@ drwxr-xr-x jenkins    jenkins          1600 ./usr/src/debug/qtmultimedia/5.5.0+g
 -rw-r--r-- jenkins    jenkins          7983 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qsamplecache_p.cpp
 -rw-r--r-- jenkins    jenkins          3565 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qsound.cpp
 -rw-r--r-- jenkins    jenkins         12183 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qsoundeffect.cpp
--rw-r--r-- jenkins    jenkins         11195 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qsoundeffect_qaudio_p.cpp
+-rw-r--r-- jenkins    jenkins          9959 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qsoundeffect_pulse_p.cpp
 -rw-r--r-- jenkins    jenkins          6108 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qvideodeviceselectorcontrol.cpp
 -rw-r--r-- jenkins    jenkins          3011 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qvideoencodersettingscontrol.cpp
 -rw-r--r-- jenkins    jenkins          5032 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qvideooutputorientationhandler_p.cpp
@@ -206,6 +206,7 @@ drwxr-xr-x jenkins    jenkins          1600 ./usr/src/debug/qtmultimedia/5.5.0+g
 -rw-r--r-- jenkins    jenkins          7778 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qvideowindowcontrol.cpp
 -rw-r--r-- jenkins    jenkins          4624 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/moc_qwavedecoder_p.cpp
 -rw-r--r-- jenkins    jenkins          7325 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/playlistfileparser.moc
+-rw-r--r-- jenkins    jenkins          5222 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimedia/.moc/qsoundeffect_pulse_p.moc
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimediawidgets
 drwxr-xr-x jenkins    jenkins           160 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimediawidgets/.moc
 -rw-r--r-- jenkins    jenkins          2797 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimediawidgets/.moc/moc_qcameraviewfinder.cpp
@@ -214,7 +215,7 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/src/debug/qtmultimedia/5.5.0+g
 -rw-r--r-- jenkins    jenkins         13750 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimediawidgets/.moc/moc_qvideowidget.cpp
 -rw-r--r-- jenkins    jenkins         14598 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimediawidgets/.moc/moc_qvideowidget_p.cpp
 -rw-r--r-- jenkins    jenkins          7226 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/multimediawidgets/.moc/moc_qvideowidgetcontrol.cpp
-drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins
+drwxr-xr-x jenkins    jenkins           120 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/audiocapture
 drwxr-xr-x jenkins    jenkins           200 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/audiocapture/.moc
 -rw-r--r-- jenkins    jenkins          2969 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/audiocapture/.moc/moc_audiocaptureprobecontrol.cpp
@@ -228,6 +229,13 @@ drwxr-xr-x jenkins    jenkins           200 ./usr/src/debug/qtmultimedia/5.5.0+g
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/m3u
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/m3u/.moc
 -rw-r--r-- jenkins    jenkins          6251 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/m3u/.moc/moc_qm3uhandler.cpp
+drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/pulseaudio
+drwxr-xr-x jenkins    jenkins           140 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/pulseaudio/.moc
+-rw-r--r-- jenkins    jenkins          2916 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/pulseaudio/.moc/moc_qaudiodeviceinfo_pulse.cpp
+-rw-r--r-- jenkins    jenkins          5873 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/pulseaudio/.moc/moc_qaudioinput_pulse.cpp
+-rw-r--r-- jenkins    jenkins          5686 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/pulseaudio/.moc/moc_qaudiooutput_pulse.cpp
+-rw-r--r-- jenkins    jenkins          4422 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/pulseaudio/.moc/moc_qpulseaudioengine.cpp
+-rw-r--r-- jenkins    jenkins          6350 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/pulseaudio/.moc/moc_qpulseaudioplugin.cpp
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/videonode
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/videonode/egl
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/build/src/plugins/videonode/egl/.moc
@@ -454,8 +462,8 @@ drwxr-xr-x jenkins    jenkins           720 ./usr/src/debug/qtmultimedia/5.5.0+g
 -rw-r--r-- jenkins    jenkins          2284 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/audio/qsound.h
 -rw-r--r-- jenkins    jenkins         18029 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/audio/qsoundeffect.cpp
 -rw-r--r-- jenkins    jenkins          3688 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/audio/qsoundeffect.h
--rw-r--r-- jenkins    jenkins         12394 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/audio/qsoundeffect_qaudio_p.cpp
--rw-r--r-- jenkins    jenkins          4034 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/audio/qsoundeffect_qaudio_p.h
+-rw-r--r-- jenkins    jenkins         36269 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/audio/qsoundeffect_pulse_p.cpp
+-rw-r--r-- jenkins    jenkins          5263 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/audio/qsoundeffect_pulse_p.h
 -rw-r--r-- jenkins    jenkins          9697 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/audio/qwavedecoder_p.cpp
 -rw-r--r-- jenkins    jenkins          3407 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/audio/qwavedecoder_p.h
 drwxr-xr-x jenkins    jenkins           340 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimedia/camera
@@ -651,7 +659,7 @@ drwxr-xr-x jenkins    jenkins           260 ./usr/src/debug/qtmultimedia/5.5.0+g
 -rw-r--r-- jenkins    jenkins          7605 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimediawidgets/qvideowidget_p.h
 -rw-r--r-- jenkins    jenkins          5833 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimediawidgets/qvideowidgetcontrol.cpp
 -rw-r--r-- jenkins    jenkins          2993 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/multimediawidgets/qvideowidgetcontrol.h
-drwxr-xr-x jenkins    jenkins           100 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins
+drwxr-xr-x jenkins    jenkins           120 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins
 drwxr-xr-x jenkins    jenkins           360 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/audiocapture
 -rw-r--r-- jenkins    jenkins          2162 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/audiocapture/audiocaptureprobecontrol.cpp
 -rw-r--r-- jenkins    jenkins          2039 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/audiocapture/audiocaptureprobecontrol.h
@@ -672,6 +680,19 @@ drwxr-xr-x jenkins    jenkins           360 ./usr/src/debug/qtmultimedia/5.5.0+g
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/m3u
 -rw-r--r-- jenkins    jenkins          6651 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/m3u/qm3uhandler.cpp
 -rw-r--r-- jenkins    jenkins          2559 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/m3u/qm3uhandler.h
+drwxr-xr-x jenkins    jenkins           280 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio
+-rw-r--r-- jenkins    jenkins          3214 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qaudiodeviceinfo_pulse.cpp
+-rw-r--r-- jenkins    jenkins          2744 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qaudiodeviceinfo_pulse.h
+-rw-r--r-- jenkins    jenkins         20453 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qaudioinput_pulse.cpp
+-rw-r--r-- jenkins    jenkins          4454 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qaudioinput_pulse.h
+-rw-r--r-- jenkins    jenkins         20039 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qaudiooutput_pulse.cpp
+-rw-r--r-- jenkins    jenkins          4416 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qaudiooutput_pulse.h
+-rw-r--r-- jenkins    jenkins         11183 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qpulseaudioengine.cpp
+-rw-r--r-- jenkins    jenkins          3330 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qpulseaudioengine.h
+-rw-r--r-- jenkins    jenkins          2612 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qpulseaudioplugin.cpp
+-rw-r--r-- jenkins    jenkins          2304 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qpulseaudioplugin.h
+-rw-r--r-- jenkins    jenkins          8051 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qpulsehelpers.cpp
+-rw-r--r-- jenkins    jenkins          2302 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/pulseaudio/qpulsehelpers.h
 drwxr-xr-x jenkins    jenkins            60 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/videonode
 drwxr-xr-x jenkins    jenkins            80 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/videonode/egl
 -rw-r--r-- jenkins    jenkins          7521 ./usr/src/debug/qtmultimedia/5.5.0+gitAUTOINC+3f15c1b17e-r0/git/src/plugins/videonode/egl/qsgvideonode_egl.cpp

@@ -1,10 +1,10 @@
 PV = 4.1.2+gitAUTOINC+45393dd54f_4e30e64c44
 PR = r0
 PKGV = 4.1.2+git0+45393dd54f_4e30e64c44
-PKGR = r0.12
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = kernel-3.19.5-yocto-standard
+RDEPENDS = kernel-4.1.2-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 8744
-FILES = /lib/modules/3.19.5-yocto-standard/kernel/fs/nls/nls_cp852.ko /etc/modules-load.d/nls_cp852.conf /etc/modprobe.d/nls_cp852.conf
-FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/fs/nls/nls_cp852.ko
+PKGSIZE = 8760
+FILES = /lib/modules/4.1.2-yocto-standard/kernel/fs/nls/nls_cp852.ko /etc/modules-load.d/nls_cp852.conf /etc/modprobe.d/nls_cp852.conf
+FILELIST = /lib/modules/4.1.2-yocto-standard/kernel/fs/nls/nls_cp852.ko
