@@ -19,8 +19,8 @@ drwxr-xr-x jenkins    jenkins           280 ./usr/lib/opensaf/.debug
 -rwxr-xr-x jenkins    jenkins        382036 ./usr/lib/opensaf/.debug/libSaCkpt.so.1.0.2
 -rwxr-xr-x jenkins    jenkins        134200 ./usr/lib/opensaf/.debug/libSaClm.so.0.0.0
 -rwxr-xr-x jenkins    jenkins        192524 ./usr/lib/opensaf/.debug/libSaEvt.so.1.0.3
--rwxr-xr-x jenkins    jenkins        385636 ./usr/lib/opensaf/.debug/libSaImmOi.so.0.3.0
--rwxr-xr-x jenkins    jenkins        472968 ./usr/lib/opensaf/.debug/libSaImmOm.so.0.4.0
+-rwxr-xr-x jenkins    jenkins        385820 ./usr/lib/opensaf/.debug/libSaImmOi.so.0.3.0
+-rwxr-xr-x jenkins    jenkins        473148 ./usr/lib/opensaf/.debug/libSaImmOm.so.0.4.0
 -rwxr-xr-x jenkins    jenkins        212904 ./usr/lib/opensaf/.debug/libSaLck.so.0.0.0
 -rwxr-xr-x jenkins    jenkins        111676 ./usr/lib/opensaf/.debug/libSaLog.so.1.0.2
 -rwxr-xr-x jenkins    jenkins        377604 ./usr/lib/opensaf/.debug/libSaMsg.so.1.0.2
@@ -110,14 +110,14 @@ drwxr-xr-x jenkins    jenkins           160 ./usr/src/debug/opensaf/4.6.0-r0/ope
 -rw-r--r-- jenkins    jenkins          5460 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/gla/gla_tmr.c
 drwxr-xr-x jenkins    jenkins           240 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma
 -rw-r--r-- jenkins    jenkins          2099 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma.h
--rw-r--r-- jenkins    jenkins         11876 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_cb.h
+-rw-r--r-- jenkins    jenkins         11885 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_cb.h
 -rw-r--r-- jenkins    jenkins         46415 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_db.c
 -rw-r--r-- jenkins    jenkins         16294 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_init.c
 -rw-r--r-- jenkins    jenkins         20933 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_mds.c
 -rw-r--r-- jenkins    jenkins          1680 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_mds.h
 -rw-r--r-- jenkins    jenkins        119510 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_oi_api.c
 -rw-r--r-- jenkins    jenkins        285658 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_om_api.c
--rw-r--r-- jenkins    jenkins        119870 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_proc.c
+-rw-r--r-- jenkins    jenkins        120105 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_proc.c
 -rw-r--r-- jenkins    jenkins          3992 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/imma/imma_proc.h
 drwxr-xr-x jenkins    jenkins           120 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/lga
 -rw-r--r-- jenkins    jenkins          4360 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/libs/agents/saf/lga/lga.h
@@ -629,7 +629,7 @@ drwxr-xr-x jenkins    jenkins           420 ./usr/src/debug/opensaf/4.6.0-r0/ope
 -rw-r--r-- jenkins    jenkins         33040 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/services/saf/amf/amfnd/sidb.cc
 -rw-r--r-- jenkins    jenkins         23195 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/services/saf/amf/amfnd/su.cc
 -rw-r--r-- jenkins    jenkins          7421 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/services/saf/amf/amfnd/sudb.cc
--rw-r--r-- jenkins    jenkins        112705 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/services/saf/amf/amfnd/susm.cc
+-rw-r--r-- jenkins    jenkins        112654 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/services/saf/amf/amfnd/susm.cc
 -rw-r--r-- jenkins    jenkins          6558 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/services/saf/amf/amfnd/term.cc
 -rw-r--r-- jenkins    jenkins          6607 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/services/saf/amf/amfnd/tmr.cc
 -rw-r--r-- jenkins    jenkins         17664 ./usr/src/debug/opensaf/4.6.0-r0/opensaf-4.6.0/osaf/services/saf/amf/amfnd/util.cc
