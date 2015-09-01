@@ -1,0 +1,37 @@
+drwxr-xr-x root       root              180 ./etc
+-rw-r--r-- root       root              795 ./etc/auto.master
+-rw-r--r-- root       root              524 ./etc/auto.misc
+-rwxr-xr-x root       root              900 ./etc/auto.net
+-rwxr-xr-x root       root             2189 ./etc/auto.smb
+-rw-r--r-- root       root            12592 ./etc/autofs.conf
+-rw------- root       root              232 ./etc/autofs_ldap_auth.conf
+drwxr-xr-x root       root               60 ./etc/default
+-rw-r--r-- root       root              339 ./etc/default/autofs
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              394 ./lib/systemd/system/autofs.service
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root              420 ./usr/lib/autofs
+-rwxr-xr-x root       root           118748 ./usr/lib/autofs/lookup_dir.so
+-rwxr-xr-x root       root           126988 ./usr/lib/autofs/lookup_file.so
+lrwxrwxrwx root       root               14 ./usr/lib/autofs/lookup_files.so -> lookup_file.so
+-rwxr-xr-x root       root           139560 ./usr/lib/autofs/lookup_hosts.so
+-rwxr-xr-x root       root           135280 ./usr/lib/autofs/lookup_multi.so
+lrwxrwxrwx root       root               12 ./usr/lib/autofs/lookup_nis.so -> lookup_yp.so
+-rwxr-xr-x root       root           122904 ./usr/lib/autofs/lookup_nisplus.so
+-rwxr-xr-x root       root           122884 ./usr/lib/autofs/lookup_program.so
+-rwxr-xr-x root       root           118752 ./usr/lib/autofs/lookup_userhome.so
+-rwxr-xr-x root       root           122944 ./usr/lib/autofs/lookup_yp.so
+-rwxr-xr-x root       root             6348 ./usr/lib/autofs/mount_afs.so
+-rwxr-xr-x root       root           122844 ./usr/lib/autofs/mount_autofs.so
+-rwxr-xr-x root       root             9640 ./usr/lib/autofs/mount_bind.so
+-rwxr-xr-x root       root             8604 ./usr/lib/autofs/mount_changer.so
+-rwxr-xr-x root       root             7232 ./usr/lib/autofs/mount_generic.so
+-rwxr-xr-x root       root           147768 ./usr/lib/autofs/mount_nfs.so
+lrwxrwxrwx root       root               12 ./usr/lib/autofs/mount_nfs4.so -> mount_nfs.so
+-rwxr-xr-x root       root           164024 ./usr/lib/autofs/parse_amd.so
+-rwxr-xr-x root       root           131104 ./usr/lib/autofs/parse_sun.so
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root           194904 ./usr/sbin/automount

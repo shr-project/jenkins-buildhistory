@@ -1,10 +1,10 @@
 PV = master+gitAUTOINC+a14a35b839
 PR = r0
 PKGV = master+git0+a14a35b839
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = kernel-4.1.2-yocto-standard
+RDEPENDS = kernel-4.1.6-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 122184
-FILES = /lib/modules/4.1.2-yocto-standard/kernel/netmap-modules/netmap.ko /etc/modules-load.d/netmap.conf /etc/modprobe.d/netmap.conf
-FILELIST = /lib/modules/4.1.2-yocto-standard/kernel/netmap-modules/netmap.ko
+FILES = /lib/modules/4.1.6-yocto-standard/kernel/netmap-modules/netmap.ko /etc/modules-load.d/netmap.conf /etc/modprobe.d/netmap.conf
+FILELIST = /lib/modules/4.1.6-yocto-standard/kernel/netmap-modules/netmap.ko

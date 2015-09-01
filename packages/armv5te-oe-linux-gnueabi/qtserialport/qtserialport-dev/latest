@@ -1,10 +1,10 @@
 PV = 5.5.0+gitAUTOINC+d9ab9258ca
 PR = r0
 PKGV = 5.5.0+git0+d9ab9258ca
-PKGR = r0.3
+PKGR = r0.4
 PKG = libqt5serialport-dev
 RPROVIDES = 5.5.0+git0+d9ab9258ca qtserialport-dev
-RDEPENDS = qtserialport (= 5.5.0+git0+d9ab9258ca-r0.3)
+RDEPENDS = qtserialport (= 5.5.0+git0+d9ab9258ca-r0.4)
 RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev libudev-dev qtbase-dev qtserialport qtserialport-mkspecs
 PKGSIZE = 41762
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtserialport/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*
