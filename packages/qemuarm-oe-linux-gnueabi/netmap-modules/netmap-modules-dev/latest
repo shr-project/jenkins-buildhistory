@@ -1,9 +1,9 @@
 PV = master+gitAUTOINC+a14a35b839
 PR = r0
 PKGV = master+git0+a14a35b839
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = netmap-modules (= master+git0+a14a35b839-r0.3)
+RDEPENDS = netmap-modules (= master+git0+a14a35b839-r0.4)
 RRECOMMENDS = kernel-4.1.6-yocto-standard-dev kernel-module-netmap-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/netmap-modules/*.la /lib/*.la
