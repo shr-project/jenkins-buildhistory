@@ -1,0 +1,21 @@
+drwxr-xr-x root       root              100 ./etc
+-rw-r--r-- root       root              220 ./etc/quotagrpadmins
+-rw-r--r-- root       root              261 ./etc/quotatab
+-rw-r--r-- root       root             3038 ./etc/warnquota.conf
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               80 ./usr/bin
+-r-xr-xr-x root       root            93308 ./usr/bin/quota
+-r-xr-xr-x root       root            73280 ./usr/bin/quotasync
+drwxr-xr-x root       root              280 ./usr/sbin
+-r-xr-xr-x root       root            77188 ./usr/sbin/convertquota
+-r-xr-xr-x root       root            89116 ./usr/sbin/edquota
+-r-xr-xr-x root       root            76508 ./usr/sbin/quot
+-r-xr-xr-x root       root           118016 ./usr/sbin/quotacheck
+lrwxrwxrwx root       root                7 ./usr/sbin/quotaoff -> quotaon
+-r-xr-xr-x root       root            81660 ./usr/sbin/quotaon
+-r-xr-xr-x root       root             9560 ./usr/sbin/quotastats
+-r-xr-xr-x root       root            80896 ./usr/sbin/repquota
+-r-xr-xr-x root       root            81504 ./usr/sbin/rpc.rquotad
+-r-xr-xr-x root       root            93184 ./usr/sbin/setquota
+-r-xr-xr-x root       root            89056 ./usr/sbin/warnquota
+-r-xr-xr-x root       root             8648 ./usr/sbin/xqmstats
