@@ -4,13 +4,11 @@ drwxr-xr-x root       root               60 ./etc/opkg
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              527 ./lib/systemd/system/opkg-configure.service
+-rw-r--r-- root       root              521 ./lib/systemd/system/opkg-configure.service
 drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root              120 ./usr/bin
-lrwxrwxrwx root       root                7 ./usr/bin/opkg -> opkg-cl
+drwxr-xr-x root       root               80 ./usr/bin
+-rwxr-xr-x root       root            15108 ./usr/bin/opkg
 -rwxr-xr-x root       root             1839 ./usr/bin/opkg-check-config
--rwxr-xr-x root       root            13932 ./usr/bin/opkg-cl
--rwxr-xr-x root       root             2438 ./usr/bin/opkg-key
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/opkg
 drwxr-xr-x root       root              100 ./usr/share/opkg/intercept

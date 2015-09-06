@@ -5,12 +5,12 @@ drwxr-xr-x root       root              400 ./usr/bin/.debug
 -rwxr-xr-x root       root           306100 ./usr/bin/.debug/arm-oe-linux-gnueabi-ar
 -rwxr-xr-x root       root          1594172 ./usr/bin/.debug/arm-oe-linux-gnueabi-as
 -rwxr-xr-x root       root           138528 ./usr/bin/.debug/arm-oe-linux-gnueabi-c++filt
--rwxr-xr-x root       root         42984268 ./usr/bin/.debug/arm-oe-linux-gnueabi-dwp
+-rwxr-xr-x root       root         42983644 ./usr/bin/.debug/arm-oe-linux-gnueabi-dwp
 -rwxr-xr-x root       root            69312 ./usr/bin/.debug/arm-oe-linux-gnueabi-elfedit
 -rwxr-xr-x root       root           637220 ./usr/bin/.debug/arm-oe-linux-gnueabi-gprof
--rwxr-xr-x root       root         66034680 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld
+-rwxr-xr-x root       root         66023840 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld
 -rwxr-xr-x root       root          1195444 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld.bfd
--rwxr-xr-x root       root         66034680 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld.gold
+-rwxr-xr-x root       root         66023840 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld.gold
 -rwxr-xr-x root       root           204460 ./usr/bin/.debug/arm-oe-linux-gnueabi-nm
 -rwxr-xr-x root       root           826636 ./usr/bin/.debug/arm-oe-linux-gnueabi-objcopy
 -rwxr-xr-x root       root          1093088 ./usr/bin/.debug/arm-oe-linux-gnueabi-objdump
@@ -130,10 +130,11 @@ drwxr-xr-x root       root               80 ./usr/src/debug/binutils/2.25.1-r0/g
 drwxr-xr-x root       root               80 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gold
 -rw-r--r-- root       root           129382 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gold/yyscript.c
 -rw-r--r-- root       root             7241 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gold/yyscript.h
-drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld
+drwxr-xr-x root       root              120 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld
 -rw-r--r-- root       root           199955 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/earmelf_linux_eabi.c
 -rw-r--r-- root       root           200001 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/earmelfb_linux_eabi.c
 -rw-r--r-- root       root              288 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/ldemul-list.h
+-rw-r--r-- root       root           142538 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/ldlex.c
 drwxr-xr-x root       root              300 ./usr/src/debug/binutils/2.25.1-r0/git/elfcpp
 -rw-r--r-- root       root             8731 ./usr/src/debug/binutils/2.25.1-r0/git/elfcpp/aarch64.h
 -rw-r--r-- root       root            12386 ./usr/src/debug/binutils/2.25.1-r0/git/elfcpp/arm.h
@@ -266,7 +267,7 @@ drwxr-xr-x root       root             2300 ./usr/src/debug/binutils/2.25.1-r0/g
 -rw-r--r-- root       root            65532 ./usr/src/debug/binutils/2.25.1-r0/git/gold/incremental.h
 -rw-r--r-- root       root             3553 ./usr/src/debug/binutils/2.25.1-r0/git/gold/int_encoding.cc
 -rw-r--r-- root       root             5002 ./usr/src/debug/binutils/2.25.1-r0/git/gold/int_encoding.h
--rw-r--r-- root       root           186538 ./usr/src/debug/binutils/2.25.1-r0/git/gold/layout.cc
+-rw-r--r-- root       root           186590 ./usr/src/debug/binutils/2.25.1-r0/git/gold/layout.cc
 -rw-r--r-- root       root            49980 ./usr/src/debug/binutils/2.25.1-r0/git/gold/layout.h
 -rw-r--r-- root       root            10560 ./usr/src/debug/binutils/2.25.1-r0/git/gold/main.cc
 -rw-r--r-- root       root            10212 ./usr/src/debug/binutils/2.25.1-r0/git/gold/mapfile.cc
@@ -278,7 +279,7 @@ drwxr-xr-x root       root             2300 ./usr/src/debug/binutils/2.25.1-r0/g
 -rw-r--r-- root       root             7044 ./usr/src/debug/binutils/2.25.1-r0/git/gold/nacl.h
 -rw-r--r-- root       root           102849 ./usr/src/debug/binutils/2.25.1-r0/git/gold/object.cc
 -rw-r--r-- root       root            92076 ./usr/src/debug/binutils/2.25.1-r0/git/gold/object.h
--rw-r--r-- root       root            41895 ./usr/src/debug/binutils/2.25.1-r0/git/gold/options.cc
+-rw-r--r-- root       root            41704 ./usr/src/debug/binutils/2.25.1-r0/git/gold/options.cc
 -rw-r--r-- root       root            78092 ./usr/src/debug/binutils/2.25.1-r0/git/gold/options.h
 -rw-r--r-- root       root           159210 ./usr/src/debug/binutils/2.25.1-r0/git/gold/output.cc
 -rw-r--r-- root       root           148099 ./usr/src/debug/binutils/2.25.1-r0/git/gold/output.h
@@ -304,7 +305,7 @@ drwxr-xr-x root       root             2300 ./usr/src/debug/binutils/2.25.1-r0/g
 -rw-r--r-- root       root            15626 ./usr/src/debug/binutils/2.25.1-r0/git/gold/stringpool.cc
 -rw-r--r-- root       root            12893 ./usr/src/debug/binutils/2.25.1-r0/git/gold/stringpool.h
 -rw-r--r-- root       root           111261 ./usr/src/debug/binutils/2.25.1-r0/git/gold/symtab.cc
--rw-r--r-- root       root            62927 ./usr/src/debug/binutils/2.25.1-r0/git/gold/symtab.h
+-rw-r--r-- root       root            62831 ./usr/src/debug/binutils/2.25.1-r0/git/gold/symtab.h
 -rw-r--r-- root       root            27774 ./usr/src/debug/binutils/2.25.1-r0/git/gold/target-reloc.h
 -rw-r--r-- root       root             5728 ./usr/src/debug/binutils/2.25.1-r0/git/gold/target-select.cc
 -rw-r--r-- root       root             8632 ./usr/src/debug/binutils/2.25.1-r0/git/gold/target-select.h
