@@ -1,9 +1,9 @@
 PV = 0.4.0
 PR = r0
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgl-mesa (>= 10.6.3) libwebp (>= 0.4.0) mesa-glut (>= 8.0.0+git0+ee89e9aeb4)
+RDEPENDS = glibc (>= 2.22) libwebp (>= 0.4.0)
 RRECOMMENDS = 
-PKGSIZE = 79544
+PKGSIZE = 65208
 FILES = /usr/bin/* /usr/sbin/*
-FILELIST = /usr/bin/cwebp /usr/bin/dwebp /usr/bin/vwebp /usr/bin/webpmux
+FILELIST = /usr/bin/cwebp /usr/bin/dwebp /usr/bin/webpmux
