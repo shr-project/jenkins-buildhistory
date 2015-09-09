@@ -1,10 +1,10 @@
 PV = 4.1.6+gitAUTOINC+429f9e2ff0_3c1245d162
 PR = r0
 PKGV = 4.1.6+git0+429f9e2ff0_3c1245d162
-PKGR = r0.7
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = kernel-4.1.6-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 23488
+PKGSIZE = 23384
 FILES = /lib/modules/4.1.6-yocto-standard/kernel/net/sched/sch_cbq.ko /etc/modules-load.d/sch_cbq.conf /etc/modprobe.d/sch_cbq.conf
 FILELIST = /lib/modules/4.1.6-yocto-standard/kernel/net/sched/sch_cbq.ko

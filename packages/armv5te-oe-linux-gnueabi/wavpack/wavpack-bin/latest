@@ -1,10 +1,10 @@
 PV = 4.60.1
 PR = r0
-PKGR = r0.26
+PKGR = r0.27
 PKG = libwavpack-bin
 RPROVIDES = 4.60.1 wavpack-bin
 RDEPENDS = glibc (>= 2.22) wavpack (>= 4.60.1)
 RRECOMMENDS = 
-PKGSIZE = 93996
+PKGSIZE = 93664
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/wavpack /usr/bin/wvgain /usr/bin/wvunpack

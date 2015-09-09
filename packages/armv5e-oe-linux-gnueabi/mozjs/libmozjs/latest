@@ -1,9 +1,9 @@
 PV = 17.0.0
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3) nspr (>= 4.10.8) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) nspr (>= 4.10.8) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 3132448
+PKGSIZE = 3009912
 FILES = /usr/lib/lib*.so
 FILELIST = /usr/lib/libmozjs-17.0.so

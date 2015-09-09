@@ -1,10 +1,10 @@
 PV = 4.8.7
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 PKG = libqtnetworke4
 RPROVIDES = 4.8.7 libqt-embeddednetwork4
-RDEPENDS = glibc (>= 2.22) libgcc (>= 4.9.3) libqt-embeddedcore4 (>= 4.8.7) libstdc++ (>= 4.9.3) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libqt-embeddedcore4 (>= 4.8.7) libstdc++ (>= 5.2.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 1225252
+PKGSIZE = 1215432
 FILES = /usr/lib/libQtNetworkE.so.*
 FILELIST = /usr/lib/libQtNetworkE.so.4 /usr/lib/libQtNetworkE.so.4.8 /usr/lib/libQtNetworkE.so.4.8.7

@@ -1,9 +1,9 @@
-PV = 4.9.1
+PV = 5.2.0
 PR = r0
-PKGR = r0.33
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20)
+RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
-PKGSIZE = 377856
-FILES = /usr/bin/arm-oe-linux-gnueabi-gcov
-FILELIST = /usr/bin/arm-oe-linux-gnueabi-gcov
+PKGSIZE = 594588
+FILES = /usr/bin/arm-oe-linux-gnueabi-gcov /usr/bin/arm-oe-linux-gnueabi-gcov-tool
+FILELIST = /usr/bin/arm-oe-linux-gnueabi-gcov /usr/bin/arm-oe-linux-gnueabi-gcov-tool
