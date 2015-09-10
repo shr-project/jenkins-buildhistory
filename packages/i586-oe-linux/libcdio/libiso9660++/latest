@@ -1,10 +1,10 @@
 PV = 0.82
 PR = r0
-PKGR = r0.30
+PKGR = r0.31
 PKG = libiso9660++0
 RPROVIDES = 0.82 libiso9660++
-RDEPENDS = glibc (>= 2.22) libcdio (>= 0.82) libgcc (>= 4.9.3) libiso9660 (>= 0.82) libstdc++ (>= 4.9.3)
+RDEPENDS = glibc (>= 2.22) libcdio (>= 0.82) libgcc (>= 5.2.0) libiso9660 (>= 0.82) libstdc++ (>= 5.2.0)
 RRECOMMENDS = 
-PKGSIZE = 10277
+PKGSIZE = 10321
 FILES = /usr/lib/libiso9660++.so.0 /usr/lib/libiso9660++.so.0.0.0
 FILELIST = /usr/lib/libiso9660++.so.0 /usr/lib/libiso9660++.so.0.0.0

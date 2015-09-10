@@ -7,6 +7,7 @@
 	update-alternatives --install /usr/bin/bzcat bzcat /bin/toybox 60
 	update-alternatives --install /usr/bin/cal cal /bin/toybox 60
 	update-alternatives --install /bin/cat cat /bin/toybox 60
+	update-alternatives --install /usr/bin/catv catv /bin/toybox 60
 	update-alternatives --install /bin/chattr chattr /bin/toybox 60
 	update-alternatives --install /bin/chgrp chgrp /bin/toybox 60
 	update-alternatives --install /bin/chmod chmod /bin/toybox 60
@@ -22,7 +23,7 @@
 	update-alternatives --install /bin/cpio cpio /bin/toybox 60
 	update-alternatives --install /usr/bin/cut cut /bin/toybox 60
 	update-alternatives --install /bin/date date /bin/toybox 60
-	update-alternatives --install /bin/df df /bin/toybox 60
+	update-alternatives --install /sbin/df df /bin/toybox 60
 	update-alternatives --install /usr/bin/dirname dirname /bin/toybox 60
 	update-alternatives --install /bin/dmesg dmesg /bin/toybox 60
 	update-alternatives --install /bin/dos2unix dos2unix /bin/toybox 60
@@ -46,12 +47,16 @@
 	update-alternatives --install /sbin/halt halt /bin/toybox 60
 	update-alternatives --install /usr/bin/head head /bin/toybox 60
 	update-alternatives --install /bin/help help /bin/toybox 60
+	update-alternatives --install /usr/bin/hexedit hexedit /bin/toybox 60
 	update-alternatives --install /bin/hostname hostname /bin/toybox 60
+	update-alternatives --install /usr/bin/hwclock hwclock /bin/toybox 60
 	update-alternatives --install /usr/bin/id id /bin/toybox 60
 	update-alternatives --install /sbin/ifconfig ifconfig /bin/toybox 60
 	update-alternatives --install /usr/bin/inotifyd inotifyd /bin/toybox 60
 	update-alternatives --install /sbin/insmod insmod /bin/toybox 60
 	update-alternatives --install /usr/bin/install install /bin/toybox 60
+	update-alternatives --install /usr/bin/ionice ionice /bin/toybox 60
+	update-alternatives --install /usr/bin/iorenice iorenice /bin/toybox 60
 	update-alternatives --install /bin/kill kill /bin/toybox 60
 	update-alternatives --install /usr/bin/killall killall /bin/toybox 60
 	update-alternatives --install /usr/bin/link link /bin/toybox 60
@@ -83,6 +88,8 @@
 	update-alternatives --install /usr/bin/nice nice /bin/toybox 60
 	update-alternatives --install /bin/nl nl /bin/toybox 60
 	update-alternatives --install /usr/bin/nohup nohup /bin/toybox 60
+	update-alternatives --install /usr/bin/nproc nproc /bin/toybox 60
+	update-alternatives --install /usr/bin/nsenter nsenter /bin/toybox 60
 	update-alternatives --install /usr/bin/od od /bin/toybox 60
 	update-alternatives --install /sbin/oneit oneit /bin/toybox 60
 	update-alternatives --install /sbin/partprobe partprobe /bin/toybox 60
@@ -102,6 +109,7 @@
 	update-alternatives --install /usr/bin/realpath realpath /bin/toybox 60
 	update-alternatives --install /sbin/reboot reboot /bin/toybox 60
 	update-alternatives --install /usr/bin/renice renice /bin/toybox 60
+	update-alternatives --install /usr/bin/reset reset /bin/toybox 60
 	update-alternatives --install /usr/bin/rev rev /bin/toybox 60
 	update-alternatives --install /usr/sbin/rfkill rfkill /bin/toybox 60
 	update-alternatives --install /bin/rm rm /bin/toybox 60
@@ -111,6 +119,7 @@
 	update-alternatives --install /usr/bin/seq seq /bin/toybox 60
 	update-alternatives --install /usr/bin/setsid setsid /bin/toybox 60
 	update-alternatives --install /usr/bin/sha1sum sha1sum /bin/toybox 60
+	update-alternatives --install /usr/bin/shred shred /bin/toybox 60
 	update-alternatives --install /bin/sleep sleep /bin/toybox 60
 	update-alternatives --install /usr/bin/sort sort /bin/toybox 60
 	update-alternatives --install /usr/bin/split split /bin/toybox 60
@@ -150,4 +159,5 @@
 	update-alternatives --install /usr/bin/who who /bin/toybox 60
 	update-alternatives --install /usr/bin/whoami whoami /bin/toybox 60
 	update-alternatives --install /usr/bin/xargs xargs /bin/toybox 60
+	update-alternatives --install /usr/bin/xxd xxd /bin/toybox 60
 	update-alternatives --install /usr/bin/yes yes /bin/toybox 60

@@ -1,9 +1,9 @@
 PV = 4.8.7
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgcc (>= 4.9.3) libqtcore4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libqthelp4 (>= 4.8.7) libqtnetwork4 (>= 4.8.7) libqtsql4 (>= 4.8.7) libqtwebkit4 (>= 4.8.7) libstdc++ (>= 4.9.3)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libqtcore4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libqthelp4 (>= 4.8.7) libqtnetwork4 (>= 4.8.7) libqtsql4 (>= 4.8.7) libqtwebkit4 (>= 4.8.7) libstdc++ (>= 5.2.0)
 RRECOMMENDS = 
-PKGSIZE = 1175704
+PKGSIZE = 1211068
 FILES = /usr/bin/*assistant* /usr/bin/qcollectiongenerator /usr/bin/qhelpconverter /usr/bin/qhelpgenerator
 FILELIST = /usr/bin/assistant /usr/bin/qcollectiongenerator /usr/bin/qhelpconverter /usr/bin/qhelpgenerator

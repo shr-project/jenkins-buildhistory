@@ -1,9 +1,9 @@
-PV = 3.5.0
-PR = r2
-PKGR = r2.33
+PV = 3.6.1
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 200
-FILES = /usr/share/gnome/
-FILELIST = /usr/share/gnome/wm-properties/openbox.desktop
+PKGSIZE = 479
+FILES = /usr/share/gnome /usr/share/gnome-session
+FILELIST = /usr/share/gnome-session/sessions/openbox-gnome-fallback.session /usr/share/gnome-session/sessions/openbox-gnome.session /usr/share/gnome/wm-properties/openbox.desktop

@@ -4,60 +4,50 @@ drwxr-xr-x root       root              240 ./etc
 drwxr-xr-x root       root               60 ./etc/default
 drwxr-xr-x root       root               60 ./etc/default/volatiles
 -rw-r--r-- root       root               91 ./etc/default/volatiles/volatiles.03_squid
--rw-r--r-- root       root             1823 ./etc/errorpage.css
--rw-r--r-- root       root             1823 ./etc/errorpage.css.default
+-rw-r--r-- root       root             1817 ./etc/errorpage.css
+-rw-r--r-- root       root             1817 ./etc/errorpage.css.default
 -rw-r--r-- root       root            12077 ./etc/mime.conf
 -rw-r--r-- root       root            12077 ./etc/mime.conf.default
 -rw-r--r-- root       root             2315 ./etc/squid.conf
 -rw-r--r-- root       root             2315 ./etc/squid.conf.default
--rw-r--r-- root       root           286369 ./etc/squid.conf.documented
+-rw-r--r-- root       root           286981 ./etc/squid.conf.documented
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root            39256 ./usr/bin/purge
--rwxr-xr-x root       root            75548 ./usr/bin/squidclient
+-rwxr-xr-x root       root            76700 ./usr/bin/squidclient
 drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root              780 ./usr/lib/squid
+drwxr-xr-x root       root              580 ./usr/lib/squid
 -rwxr-xr-x root       root             5398 ./usr/lib/squid/basic_db_auth
--rwxr-xr-x root       root             5432 ./usr/lib/squid/basic_fake_auth
--rwxr-xr-x root       root             7884 ./usr/lib/squid/basic_getpwnam_auth
--rwxr-xr-x root       root            19296 ./usr/lib/squid/basic_ldap_auth
--rwxr-xr-x root       root             5502 ./usr/lib/squid/basic_msnt_multi_domain_auth
--rwxr-xr-x root       root            16884 ./usr/lib/squid/basic_ncsa_auth
--rwxr-xr-x root       root             8764 ./usr/lib/squid/basic_nis_auth
--rwxr-xr-x root       root            12660 ./usr/lib/squid/basic_pam_auth
--rwxr-xr-x root       root             2975 ./usr/lib/squid/basic_pop3_auth
--rwxr-xr-x root       root            12488 ./usr/lib/squid/basic_radius_auth
--rwxr-xr-x root       root             8820 ./usr/lib/squid/basic_sasl_auth
--rwxr-xr-x root       root            10584 ./usr/lib/squid/basic_smb_auth
--rwxr-xr-x root       root             2500 ./usr/lib/squid/basic_smb_auth.sh
--rwxr-xr-x root       root            33676 ./usr/lib/squid/basic_smb_lm_auth
--rwxr-xr-x root       root            61560 ./usr/lib/squid/cachemgr.cgi
+-rwxr-xr-x root       root            19328 ./usr/lib/squid/basic_ldap_auth
+-rwxr-xr-x root       root             8620 ./usr/lib/squid/basic_nis_auth
+-rwxr-xr-x root       root             8884 ./usr/lib/squid/basic_sasl_auth
+-rwxr-xr-x root       root            61368 ./usr/lib/squid/cachemgr.cgi
 -rwxr-xr-x root       root            26740 ./usr/lib/squid/digest_edirectory_auth
--rwxr-xr-x root       root            16988 ./usr/lib/squid/digest_file_auth
+-rwxr-xr-x root       root            17116 ./usr/lib/squid/digest_file_auth
 -rwxr-xr-x root       root            22596 ./usr/lib/squid/digest_ldap_auth
--rwxr-xr-x root       root            14764 ./usr/lib/squid/diskd
+-rwxr-xr-x root       root            14828 ./usr/lib/squid/diskd
 -rwxr-xr-x root       root             7869 ./usr/lib/squid/ext_delayer_acl
--rwxr-xr-x root       root            37156 ./usr/lib/squid/ext_edirectory_userip_acl
--rwxr-xr-x root       root            11524 ./usr/lib/squid/ext_file_userip_acl
--rwxr-xr-x root       root            19796 ./usr/lib/squid/ext_ldap_group_acl
--rwxr-xr-x root       root             7484 ./usr/lib/squid/ext_session_acl
+-rwxr-xr-x root       root            37380 ./usr/lib/squid/ext_edirectory_userip_acl
+-rwxr-xr-x root       root            11620 ./usr/lib/squid/ext_file_userip_acl
+-rwxr-xr-x root       root            19828 ./usr/lib/squid/ext_ldap_group_acl
+-rwxr-xr-x root       root             7516 ./usr/lib/squid/ext_session_acl
 -rwxr-xr-x root       root             5050 ./usr/lib/squid/ext_sql_session_acl
 -rwxr-xr-x root       root            10196 ./usr/lib/squid/ext_unix_group_acl
 -rwxr-xr-x root       root             5063 ./usr/lib/squid/ext_wbinfo_group_acl
 -rwxr-xr-x root       root             5393 ./usr/lib/squid/helper-mux.pl
 -rwxr-xr-x root       root            12448 ./usr/lib/squid/log_db_daemon
--rwxr-xr-x root       root             7412 ./usr/lib/squid/log_file_daemon
+-rwxr-xr-x root       root             7444 ./usr/lib/squid/log_file_daemon
 -rwxr-xr-x root       root            14288 ./usr/lib/squid/negotiate_wrapper_auth
 -rwxr-xr-x root       root            18376 ./usr/lib/squid/ntlm_fake_auth
--rwxr-xr-x root       root            60280 ./usr/lib/squid/ntlm_smb_lm_auth
+-rwxr-xr-x root       root            60568 ./usr/lib/squid/ntlm_smb_lm_auth
 -rwxr-xr-x root       root             3907 ./usr/lib/squid/storeid_file_rewrite
 -rwxr-xr-x root       root             4616 ./usr/lib/squid/unlinkd
 -rwxr-xr-x root       root             6020 ./usr/lib/squid/url_fake_rewrite
 -rwxr-xr-x root       root             2526 ./usr/lib/squid/url_fake_rewrite.sh
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root          5330856 ./usr/sbin/squid
+-rwxr-xr-x root       root          5342856 ./usr/sbin/squid
 drwxr-xr-x root       root               80 ./usr/share
-drwxr-xr-x root       root             3360 ./usr/share/errors
+drwxr-xr-x root       root             3380 ./usr/share/errors
 -rw-r--r-- root       root             2241 ./usr/share/errors/COPYRIGHT
 -rw-r--r-- root       root             3720 ./usr/share/errors/TRANSLATORS
 drwxr-xr-x root       root              880 ./usr/share/errors/af
@@ -549,6 +539,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/es-pe -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-pr -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-py -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-sv -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-us -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-uy -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-ve -> es
 -rw-r--r-- root       root             1114 ./usr/share/errors/es/ERR_ACCESS_DENIED

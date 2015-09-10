@@ -1,10 +1,10 @@
 PV = 4.8.7
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = qmake2
-RDEPENDS = glibc (>= 2.22) libgcc (>= 4.9.3) libqt3support4 (>= 4.8.7) libqtcore4 (>= 4.8.7) libqtdeclarative4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libqtxml4 (>= 4.8.7) libstdc++ (>= 4.9.3) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libqt3support4 (>= 4.8.7) libqtcore4 (>= 4.8.7) libqtdeclarative4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libqtxml4 (>= 4.8.7) libstdc++ (>= 5.2.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
 RREPLACES = qmake2
-PKGSIZE = 10502484
+PKGSIZE = 11146768
 FILES = /usr/bin/qttracereplay /usr/bin/qdoc* /usr/bin/qmake /usr/bin/moc /usr/bin/uic* /usr/bin/rcc /usr/bin/qml /usr/bin/qmlplugindump
 FILELIST = /usr/bin/moc /usr/bin/qdoc3 /usr/bin/qmake /usr/bin/qmlplugindump /usr/bin/qttracereplay /usr/bin/rcc /usr/bin/uic /usr/bin/uic3

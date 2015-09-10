@@ -1,10 +1,10 @@
 PV = 0.4.0
 PR = r0
-PKGR = r0.31
+PKGR = r0.32
 PKG = libxcb-image-staticdev
 RPROVIDES = 0.4.0 xcb-util-image-staticdev
-RDEPENDS = xcb-util-image-dev (= 0.4.0-r0.31)
+RDEPENDS = xcb-util-image-dev (= 0.4.0-r0.32)
 RRECOMMENDS = 
-PKGSIZE = 44254
+PKGSIZE = 43850
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/xcb-util-image/*.a
 FILELIST = /usr/lib/libxcb-image.a
