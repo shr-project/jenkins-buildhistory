@@ -1,9 +1,9 @@
 PV = 4.8.7
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgcc (>= 4.9.3) libqtcore4 (>= 4.8.7) libqtxmlpatterns4 (>= 4.8.7) libstdc++ (>= 4.9.3)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libqtcore4 (>= 4.8.7) libqtxmlpatterns4 (>= 4.8.7) libstdc++ (>= 5.2.0)
 RRECOMMENDS = 
-PKGSIZE = 77256
+PKGSIZE = 81424
 FILES = /usr/bin/xmlpatterns*
 FILELIST = /usr/bin/xmlpatterns /usr/bin/xmlpatternsvalidator

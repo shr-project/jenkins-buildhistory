@@ -1,9 +1,9 @@
 PV = 5.2
 PR = r0
-PKGR = r0.27
+PKGR = r0.28
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) libwrap (>= 7.6)
 RRECOMMENDS = update-rc.d
-PKGSIZE = 43661
+PKGSIZE = 39917
 FILES = /usr/sbin /etc /var
 FILELIST = /etc/default/tftpd-hpa /etc/init.d/tftpd-hpa /usr/sbin/in.tftpd-hpa

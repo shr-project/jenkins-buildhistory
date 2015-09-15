@@ -1,9 +1,9 @@
 PV = 4.3.30
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = kernel-3.19.5-yocto-tiny
+RDEPENDS = kernel-3.19.5-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 5466
-FILES = /lib/modules/3.19.5-yocto-tiny/kernel/misc/vboxvideo.ko /etc/modules-load.d/vboxvideo.conf /etc/modprobe.d/vboxvideo.conf
-FILELIST = /etc/modules-load.d/vboxvideo.conf /lib/modules/3.19.5-yocto-tiny/kernel/misc/vboxvideo.ko
+PKGSIZE = 5874
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/misc/vboxvideo.ko /etc/modules-load.d/vboxvideo.conf /etc/modprobe.d/vboxvideo.conf
+FILELIST = /etc/modules-load.d/vboxvideo.conf /lib/modules/3.19.5-yocto-standard/kernel/misc/vboxvideo.ko

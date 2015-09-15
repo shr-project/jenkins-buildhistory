@@ -1,10 +1,10 @@
 PV = 4.8.7
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 PKG = libqtmultimediae4
 RPROVIDES = 4.8.7 libqt-embeddedmultimedia4
-RDEPENDS = glibc (>= 2.22) libasound (>= 1.0.29) libgcc (>= 4.9.3) libqt-embeddedcore4 (>= 4.8.7) libqt-embeddedgui4 (>= 4.8.7) libstdc++ (>= 4.9.3)
+RDEPENDS = glibc (>= 2.22) libasound (>= 1.0.29) libgcc (>= 5.2.0) libqt-embeddedcore4 (>= 4.8.7) libqt-embeddedgui4 (>= 4.8.7) libstdc++ (>= 5.2.0)
 RRECOMMENDS = 
-PKGSIZE = 170178
+PKGSIZE = 170370
 FILES = /usr/lib/libQtMultimediaE.so.*
 FILELIST = /usr/lib/libQtMultimediaE.so.4 /usr/lib/libQtMultimediaE.so.4.8 /usr/lib/libQtMultimediaE.so.4.8.7

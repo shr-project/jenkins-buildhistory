@@ -1,10 +1,10 @@
 PV = 4.8.7
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 PKG = libqtguie4
 RPROVIDES = 4.8.7 libqt-embeddedgui4
-RDEPENDS = freetype (>= 2.6) glib-2.0 (>= 2.44.1) glibc (>= 2.22) libgcc (>= 4.9.3) libpng (>= 1.6.17) libqt-embeddedcore4 (>= 4.8.7) libqt-embeddednetwork4 (>= 4.8.7) libstdc++ (>= 4.9.3) zlib (>= 1.2.8)
+RDEPENDS = freetype (>= 2.6) glib-2.0 (>= 2.44.1) glibc (>= 2.22) libgcc (>= 5.2.0) libpng (>= 1.6.17) libqt-embeddedcore4 (>= 4.8.7) libqt-embeddednetwork4 (>= 4.8.7) libstdc++ (>= 5.2.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 11345796
+PKGSIZE = 11264196
 FILES = /usr/lib/libQtGuiE.so.*
 FILELIST = /usr/lib/libQtGuiE.so.4 /usr/lib/libQtGuiE.so.4.8 /usr/lib/libQtGuiE.so.4.8.7

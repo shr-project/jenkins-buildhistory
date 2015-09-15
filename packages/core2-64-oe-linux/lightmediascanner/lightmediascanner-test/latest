@@ -1,10 +1,10 @@
 PV = 0.4.4
 PR = r2
-PKGR = r2.28
+PKGR = r2.29
 PKG = liblightmediascanner-test
 RPROVIDES = 0.4.4 lightmediascanner-test
 RDEPENDS = glibc (>= 2.22) glibc-gconv-utf-16 libsqlite3 (>= 3.8.10.2) lightmediascanner (>= 0.4.4)
 RRECOMMENDS = 
-PKGSIZE = 15624
+PKGSIZE = 15560
 FILES = /usr/bin/test-lms
 FILELIST = /usr/bin/test-lms

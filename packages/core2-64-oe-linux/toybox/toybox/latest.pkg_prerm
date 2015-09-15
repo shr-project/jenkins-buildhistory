@@ -7,6 +7,7 @@
 	update-alternatives --remove  bzcat /bin/toybox
 	update-alternatives --remove  cal /bin/toybox
 	update-alternatives --remove  cat /bin/toybox
+	update-alternatives --remove  catv /bin/toybox
 	update-alternatives --remove  chattr /bin/toybox
 	update-alternatives --remove  chgrp /bin/toybox
 	update-alternatives --remove  chmod /bin/toybox
@@ -46,12 +47,16 @@
 	update-alternatives --remove  halt /bin/toybox
 	update-alternatives --remove  head /bin/toybox
 	update-alternatives --remove  help /bin/toybox
+	update-alternatives --remove  hexedit /bin/toybox
 	update-alternatives --remove  hostname /bin/toybox
+	update-alternatives --remove  hwclock /bin/toybox
 	update-alternatives --remove  id /bin/toybox
 	update-alternatives --remove  ifconfig /bin/toybox
 	update-alternatives --remove  inotifyd /bin/toybox
 	update-alternatives --remove  insmod /bin/toybox
 	update-alternatives --remove  install /bin/toybox
+	update-alternatives --remove  ionice /bin/toybox
+	update-alternatives --remove  iorenice /bin/toybox
 	update-alternatives --remove  kill /bin/toybox
 	update-alternatives --remove  killall /bin/toybox
 	update-alternatives --remove  link /bin/toybox
@@ -83,6 +88,8 @@
 	update-alternatives --remove  nice /bin/toybox
 	update-alternatives --remove  nl /bin/toybox
 	update-alternatives --remove  nohup /bin/toybox
+	update-alternatives --remove  nproc /bin/toybox
+	update-alternatives --remove  nsenter /bin/toybox
 	update-alternatives --remove  od /bin/toybox
 	update-alternatives --remove  oneit /bin/toybox
 	update-alternatives --remove  partprobe /bin/toybox
@@ -102,6 +109,7 @@
 	update-alternatives --remove  realpath /bin/toybox
 	update-alternatives --remove  reboot /bin/toybox
 	update-alternatives --remove  renice /bin/toybox
+	update-alternatives --remove  reset /bin/toybox
 	update-alternatives --remove  rev /bin/toybox
 	update-alternatives --remove  rfkill /bin/toybox
 	update-alternatives --remove  rm /bin/toybox
@@ -111,6 +119,7 @@
 	update-alternatives --remove  seq /bin/toybox
 	update-alternatives --remove  setsid /bin/toybox
 	update-alternatives --remove  sha1sum /bin/toybox
+	update-alternatives --remove  shred /bin/toybox
 	update-alternatives --remove  sleep /bin/toybox
 	update-alternatives --remove  sort /bin/toybox
 	update-alternatives --remove  split /bin/toybox
@@ -150,4 +159,5 @@
 	update-alternatives --remove  who /bin/toybox
 	update-alternatives --remove  whoami /bin/toybox
 	update-alternatives --remove  xargs /bin/toybox
+	update-alternatives --remove  xxd /bin/toybox
 	update-alternatives --remove  yes /bin/toybox

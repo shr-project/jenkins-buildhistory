@@ -1,19 +1,6 @@
 drwxr-xr-x root       root               80 ./etc
 -rw-r--r-- root       root             1285 ./etc/dracut.conf
 drwxr-xr-x root       root               40 ./etc/dracut.conf.d
-drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root               60 ./lib/systemd
-drwxr-xr-x root       root               80 ./lib/systemd/system
-drwxr-xr-x root       root              180 ./lib/systemd/system/initrd.target.wants
-lrwxrwxrwx root       root               25 ./lib/systemd/system/initrd.target.wants/dracut-cmdline.service -> ../dracut-cmdline.service
-lrwxrwxrwx root       root               27 ./lib/systemd/system/initrd.target.wants/dracut-initqueue.service -> ../dracut-initqueue.service
-lrwxrwxrwx root       root               23 ./lib/systemd/system/initrd.target.wants/dracut-mount.service -> ../dracut-mount.service
-lrwxrwxrwx root       root               27 ./lib/systemd/system/initrd.target.wants/dracut-pre-mount.service -> ../dracut-pre-mount.service
-lrwxrwxrwx root       root               27 ./lib/systemd/system/initrd.target.wants/dracut-pre-pivot.service -> ../dracut-pre-pivot.service
-lrwxrwxrwx root       root               29 ./lib/systemd/system/initrd.target.wants/dracut-pre-trigger.service -> ../dracut-pre-trigger.service
-lrwxrwxrwx root       root               26 ./lib/systemd/system/initrd.target.wants/dracut-pre-udev.service -> ../dracut-pre-udev.service
-drwxr-xr-x root       root               60 ./lib/systemd/system/sysinit.target.wants
-lrwxrwxrwx root       root               26 ./lib/systemd/system/sysinit.target.wants/dracut-shutdown.service -> ../dracut-shutdown.service
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root            60134 ./usr/bin/dracut
@@ -25,7 +12,7 @@ drwxr-xr-x root       root              220 ./usr/lib/dracut
 lrwxrwxrwx root       root               19 ./usr/lib/dracut/dracut-functions -> dracut-functions.sh
 -rwxr-xr-x root       root            58241 ./usr/lib/dracut/dracut-functions.sh
 -rwxr-xr-x root       root             1150 ./usr/lib/dracut/dracut-initramfs-restore
--rwxr-xr-x root       root            48440 ./usr/lib/dracut/dracut-install
+-rwxr-xr-x root       root            48432 ./usr/lib/dracut/dracut-install
 -rwxr-xr-x root       root            13365 ./usr/lib/dracut/dracut-logger.sh
 -rwxr-xr-x root       root               19 ./usr/lib/dracut/dracut-version.sh
 drwxr-xr-x root       root               40 ./usr/lib/dracut/dracut.conf.d

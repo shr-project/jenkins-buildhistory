@@ -1,9 +1,9 @@
 PV = 1.03e
 PR = r0
-PKGR = r0.27
+PKGR = r0.28
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgcc (>= 4.9.3) libstdc++ (>= 4.9.3)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0)
 RRECOMMENDS = 
-PKGSIZE = 53936
+PKGSIZE = 54072
 FILES = /usr/sbin
 FILELIST = /usr/sbin/bonnie++ /usr/sbin/zcav

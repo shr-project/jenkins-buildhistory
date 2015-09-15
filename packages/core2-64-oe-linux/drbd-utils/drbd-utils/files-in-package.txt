@@ -12,10 +12,10 @@ drwxr-xr-x root       root               60 ./etc/xen/scripts
 drwxr-xr-x root       root              100 ./lib
 drwxr-xr-x root       root              140 ./lib/drbd
 -rwxr-xr-x root       root             7698 ./lib/drbd/drbd
--rwxr-xr-x root       root           153136 ./lib/drbd/drbdadm-83
--rwxr-xr-x root       root           208448 ./lib/drbd/drbdadm-84
--rwxr-xr-x root       root            73808 ./lib/drbd/drbdsetup-83
--rwxr-xr-x root       root           116992 ./lib/drbd/drbdsetup-84
+-rwxr-xr-x root       root           153488 ./lib/drbd/drbdadm-83
+-rwxr-xr-x root       root           209088 ./lib/drbd/drbdadm-84
+-rwxr-xr-x root       root            73328 ./lib/drbd/drbdsetup-83
+-rwxr-xr-x root       root           116064 ./lib/drbd/drbdsetup-84
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rwxr-xr-x root       root              366 ./lib/systemd/system/drbd.service
@@ -44,9 +44,9 @@ drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -r--r--r-- root       root               29 ./usr/lib/tmpfiles.d/drbd.conf
 drwxr-xr-x root       root              120 ./usr/sbin
 -rwxr-xr-x root       root            12172 ./usr/sbin/drbd-overview
--rwxr-xr-x root       root           212736 ./usr/sbin/drbdadm
--rwxr-xr-x root       root           108800 ./usr/sbin/drbdmeta
--rwxr-xr-x root       root           128056 ./usr/sbin/drbdsetup
+-rwxr-xr-x root       root           212480 ./usr/sbin/drbdadm
+-rwxr-xr-x root       root           108608 ./usr/sbin/drbdmeta
+-rwxr-xr-x root       root           127480 ./usr/sbin/drbdsetup
 drwxr-xr-x root       root               80 ./var
 drwxr-xr-x root       root               60 ./var/lib
 drwxr-xr-x root       root               40 ./var/lib/drbd
