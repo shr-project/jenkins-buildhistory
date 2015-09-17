@@ -1,9 +1,9 @@
 PV = 0.4.0
 PR = r0
-PKGR = r0.28
+PKGR = r0.29
 PKG = libxcb-keysyms-staticdev
 RPROVIDES = 0.4.0 xcb-util-keysyms-staticdev
-RDEPENDS = xcb-util-keysyms-dev (= 0.4.0-r0.28)
+RDEPENDS = xcb-util-keysyms-dev (= 0.4.0-r0.29)
 RRECOMMENDS = 
 PKGSIZE = 17080
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/xcb-util-keysyms/*.a
