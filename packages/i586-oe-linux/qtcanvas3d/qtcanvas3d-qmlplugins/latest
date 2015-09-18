@@ -1,10 +1,10 @@
 PV = 5.5.0+gitAUTOINC+f8fe29aab4
 PR = r0
 PKGV = 5.5.0+git0+f8fe29aab4
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) libgles2-mesa (>= 10.6.3) libstdc++ (>= 5.2.0) qtbase (>= 5.5.0+git0+2fde9f59ee) qtdeclarative (>= 5.5.0+git0+cc0df64bb0)
 RRECOMMENDS = 
-PKGSIZE = 653704
+PKGSIZE = 649078
 FILES = /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
-FILELIST = /usr/lib/qt5/qml/QtCanvas3D/designer/default/Canvas3D.qml /usr/lib/qt5/qml/QtCanvas3D/designer/images/canvas3d-icon.png /usr/lib/qt5/qml/QtCanvas3D/designer/images/canvas3d-icon16.png /usr/lib/qt5/qml/QtCanvas3D/libqtcanvas3d.so /usr/lib/qt5/qml/QtCanvas3D/plugins.qmltypes /usr/lib/qt5/qml/QtCanvas3D/qmldir
+FILELIST = /usr/lib/qt5/qml/QtCanvas3D/libqtcanvas3d.so /usr/lib/qt5/qml/QtCanvas3D/plugins.qmltypes /usr/lib/qt5/qml/QtCanvas3D/qmldir

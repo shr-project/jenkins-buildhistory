@@ -1,9 +1,9 @@
-PV = 1.9.2
+PV = 1.9.4
 PR = r0
-PKGR = r0.24
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.22) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 196520
+PKGSIZE = 200744
 FILES = /usr/bin/rsh.inetutils /usr/bin/rlogin.inetutils /usr/bin/rexec.inetutils /usr/bin/rcp.inetutils
 FILELIST = /usr/bin/rcp.inetutils /usr/bin/rexec.inetutils /usr/bin/rlogin.inetutils /usr/bin/rsh.inetutils
