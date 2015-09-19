@@ -1,10 +1,10 @@
-PV = 1.9.2
+PV = 1.9.4
 PR = r0
-PKGR = r0.23
+PKGR = r0.0
 RPROVIDES = telnetd
-RDEPENDS = glibc (>= 2.21) update-alternatives-opkg xinetd
+RDEPENDS = glibc (>= 2.22) update-alternatives-opkg xinetd
 RRECOMMENDS = 
 RCONFLICTS = netkit-telnetd
-PKGSIZE = 91613
+PKGSIZE = 91325
 FILES = /usr/sbin/in.telnetd /etc/xinetd.d/telnet
 FILELIST = /etc/xinetd.d/telnet /usr/sbin/in.telnetd
