@@ -12,7 +12,7 @@ drwxr-xr-x root       root              240 ./usr/lib/.debug
 -rwxr-xr-x root       root            54288 ./usr/lib/.debug/libgsturidownloader-1.0.so.0.405.0
 -rwxr-xr-x root       root            14948 ./usr/lib/.debug/libgstwayland-1.0.so.0.405.0
 drwxr-xr-x root       root               60 ./usr/lib/gstreamer-1.0
-drwxr-xr-x root       root             1440 ./usr/lib/gstreamer-1.0/.debug
+drwxr-xr-x root       root             1460 ./usr/lib/gstreamer-1.0/.debug
 -rwxr-xr-x root       root            44336 ./usr/lib/gstreamer-1.0/.debug/libgstaccurip.so
 -rwxr-xr-x root       root            44220 ./usr/lib/gstreamer-1.0/.debug/libgstadpcmdec.so
 -rwxr-xr-x root       root            46588 ./usr/lib/gstreamer-1.0/.debug/libgstadpcmenc.so
@@ -76,6 +76,7 @@ drwxr-xr-x root       root             1440 ./usr/lib/gstreamer-1.0/.debug
 -rwxr-xr-x root       root            53380 ./usr/lib/gstreamer-1.0/.debug/libgstspeed.so
 -rwxr-xr-x root       root            36648 ./usr/lib/gstreamer-1.0/.debug/libgststereo.so
 -rwxr-xr-x root       root            58768 ./usr/lib/gstreamer-1.0/.debug/libgstsubenc.so
+-rwxr-xr-x root       root           155712 ./usr/lib/gstreamer-1.0/.debug/libgstuvch264.so
 -rwxr-xr-x root       root            86624 ./usr/lib/gstreamer-1.0/.debug/libgstvideofiltersbad.so
 -rwxr-xr-x root       root           477568 ./usr/lib/gstreamer-1.0/.debug/libgstvideoparsersbad.so
 -rwxr-xr-x root       root           103200 ./usr/lib/gstreamer-1.0/.debug/libgstvideosignal.so
@@ -793,7 +794,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/gstreamer1.0-plugins
 -rw-r--r-- root       root             9834 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/gst/yadif/gstyadif.c
 -rw-r--r-- root       root             1951 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/gst/yadif/gstyadif.h
 -rw-r--r-- root       root             5562 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/gst/yadif/vf_yadif.c
-drwxr-xr-x root       root              120 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys
+drwxr-xr-x root       root              140 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys
 drwxr-xr-x root       root              220 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/decklink
 -rw-r--r-- root       root             4657 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/decklink/capture.cpp
 -rw-r--r-- root       root              768 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/decklink/capture.h
@@ -848,3 +849,11 @@ drwxr-xr-x root       root              220 ./usr/src/debug/gstreamer1.0-plugins
 -rw-r--r-- root       root             2408 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/shm/shmalloc.h
 -rw-r--r-- root       root            21126 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/shm/shmpipe.c
 -rw-r--r-- root       root             5088 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/shm/shmpipe.h
+drwxr-xr-x root       root              180 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/uvch264
+-rw-r--r-- root       root             1589 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/uvch264/gstuvch264.c
+-rwxr-xr-x root       root            24574 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/uvch264/gstuvch264_mjpgdemux.c
+-rw-r--r-- root       root             2276 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/uvch264/gstuvch264_mjpgdemux.h
+-rw-r--r-- root       root           107036 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/uvch264/gstuvch264_src.c
+-rw-r--r-- root       root             4055 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/uvch264/gstuvch264_src.h
+-rw-r--r-- root       root             3320 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/uvch264/uvc_h264.c
+-rw-r--r-- root       root             9793 ./usr/src/debug/gstreamer1.0-plugins-bad/1.4.5-r0/gst-plugins-bad-1.4.5/sys/uvch264/uvc_h264.h

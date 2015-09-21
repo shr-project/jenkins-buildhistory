@@ -28,7 +28,8 @@ drwxr-xr-x root       root               80 ./usr/lib/gio/modules/.debug
 -rwxr-xr-x root       root           147104 ./usr/lib/gio/modules/.debug/libgioremote-volume-monitor.so
 -rwxr-xr-x root       root           426680 ./usr/lib/gio/modules/.debug/libgvfsdbus.so
 drwxr-xr-x root       root               60 ./usr/lib/gvfs
-drwxr-xr-x root       root              320 ./usr/lib/gvfs/.debug
+drwxr-xr-x root       root              360 ./usr/lib/gvfs/.debug
+-rwxr-xr-x root       root            98072 ./usr/lib/gvfs/.debug/gvfs-gphoto2-volume-monitor
 -rwxr-xr-x root       root           690984 ./usr/lib/gvfs/.debug/gvfsd
 -rwxr-xr-x root       root           842592 ./usr/lib/gvfs/.debug/gvfsd-afp
 -rwxr-xr-x root       root           771816 ./usr/lib/gvfs/.debug/gvfsd-afp-browse
@@ -37,6 +38,7 @@ drwxr-xr-x root       root              320 ./usr/lib/gvfs/.debug
 -rwxr-xr-x root       root           813452 ./usr/lib/gvfs/.debug/gvfsd-dav
 -rwxr-xr-x root       root           696160 ./usr/lib/gvfs/.debug/gvfsd-dnssd
 -rwxr-xr-x root       root           810968 ./usr/lib/gvfs/.debug/gvfsd-ftp
+-rwxr-xr-x root       root           735980 ./usr/lib/gvfs/.debug/gvfsd-gphoto2
 -rwxr-xr-x root       root           724028 ./usr/lib/gvfs/.debug/gvfsd-http
 -rwxr-xr-x root       root           703724 ./usr/lib/gvfs/.debug/gvfsd-localtest
 -rwxr-xr-x root       root           135884 ./usr/lib/gvfs/.debug/gvfsd-metadata
@@ -100,7 +102,7 @@ drwxr-xr-x root       root              500 ./usr/src/debug/gvfs/1.10.1-r0.0/gvf
 -rw-r--r-- root       root             7648 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/common/gvfsicon.c
 -rw-r--r-- root       root             2177 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/common/gvfsicon.h
 -rw-r--r-- root       root            29848 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/common/gvfsmountinfo.c
-drwxr-xr-x root       root             2880 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon
+drwxr-xr-x root       root             2920 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon
 -rw-r--r-- root       root            69278 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/ParseFTPList.c
 -rw-r--r-- root       root             6174 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/ParseFTPList.h
 -rw-r--r-- root       root             1509 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/daemon-main-generic.c
@@ -129,6 +131,8 @@ drwxr-xr-x root       root             2880 ./usr/src/debug/gvfs/1.10.1-r0.0/gvf
 -rw-r--r-- root       root             2046 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/gvfsbackenddnssd.h
 -rw-r--r-- root       root            54186 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/gvfsbackendftp.c
 -rw-r--r-- root       root             5019 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/gvfsbackendftp.h
+-rw-r--r-- root       root           114767 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/gvfsbackendgphoto2.c
+-rw-r--r-- root       root             2045 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/gvfsbackendgphoto2.h
 -rw-r--r-- root       root            19602 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/gvfsbackendhttp.c
 -rw-r--r-- root       root             2981 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/gvfsbackendhttp.h
 -rw-r--r-- root       root            36590 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/daemon/gvfsbackendlocaltest.c
@@ -261,8 +265,14 @@ drwxr-xr-x root       root              180 ./usr/src/debug/gvfs/1.10.1-r0.0/gvf
 -rw-r--r-- root       root             2955 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/metadata/metabuilder.h
 -rw-r--r-- root       root            71235 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/metadata/metatree.c
 -rw-r--r-- root       root             4561 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/metadata/metatree.h
-drwxr-xr-x root       root               60 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor
-drwxr-xr-x root       root              300 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy
+drwxr-xr-x root       root               80 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor
+drwxr-xr-x root       root              140 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/gphoto2
+-rw-r--r-- root       root            18164 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/gphoto2/ggphoto2volume.c
+-rw-r--r-- root       root             2786 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/gphoto2/ggphoto2volume.h
+-rw-r--r-- root       root            23727 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/gphoto2/ggphoto2volumemonitor.c
+-rw-r--r-- root       root             2188 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/gphoto2/ggphoto2volumemonitor.h
+-rw-r--r-- root       root             1485 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/gphoto2/gphoto2-volume-monitor-daemon.c
+drwxr-xr-x root       root              340 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy
 -rw-r--r-- root       root            37495 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy/gproxydrive.c
 -rw-r--r-- root       root             2627 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy/gproxydrive.h
 -rw-r--r-- root       root            21818 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy/gproxymount.c
@@ -275,6 +285,8 @@ drwxr-xr-x root       root              300 ./usr/src/debug/gvfs/1.10.1-r0.0/gvf
 -rw-r--r-- root       root             2296 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy/gproxyvolume.h
 -rw-r--r-- root       root            45740 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy/gproxyvolumemonitor.c
 -rw-r--r-- root       root             3681 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy/gproxyvolumemonitor.h
+-rw-r--r-- root       root            70202 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy/gvfsproxyvolumemonitordaemon.c
+-rw-r--r-- root       root             1387 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy/gvfsproxyvolumemonitordaemon.h
 -rw-r--r-- root       root             2452 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/monitor/proxy/remote-volume-monitor-module.c
 drwxr-xr-x root       root              380 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/programs
 -rw-r--r-- root       root             5418 ./usr/src/debug/gvfs/1.10.1-r0.0/gvfs-1.10.1/programs/gvfs-cat.c
