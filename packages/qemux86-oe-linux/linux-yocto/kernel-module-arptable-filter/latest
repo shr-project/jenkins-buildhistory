@@ -1,10 +1,10 @@
-PV = 4.1.6+gitAUTOINC+ef417dc3db_79a31b9d23
+PV = 4.1.6+gitAUTOINC+d6b2416f39_79a31b9d23
 PR = r0
-PKGV = 4.1.6+git1+ef417dc3db_79a31b9d23
+PKGV = 4.1.6+git2+d6b2416f39_79a31b9d23
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.1.6-yocto-standard kernel-module-arp-tables kernel-module-x-tables
+RDEPENDS = kernel-3.19.5-yocto-standard kernel-module-arp-tables kernel-module-x-tables
 RRECOMMENDS = 
-PKGSIZE = 3704
-FILES = /lib/modules/4.1.6-yocto-standard/kernel/net/ipv4/netfilter/arptable_filter.ko /etc/modules-load.d/arptable_filter.conf /etc/modprobe.d/arptable_filter.conf
-FILELIST = /lib/modules/4.1.6-yocto-standard/kernel/net/ipv4/netfilter/arptable_filter.ko
+PKGSIZE = 3664
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/net/ipv4/netfilter/arptable_filter.ko /etc/modules-load.d/arptable_filter.conf /etc/modprobe.d/arptable_filter.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/net/ipv4/netfilter/arptable_filter.ko

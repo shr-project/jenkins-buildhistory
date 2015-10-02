@@ -1,10 +1,10 @@
-PV = 4.1.6+gitAUTOINC+ef417dc3db_79a31b9d23
+PV = 4.1.6+gitAUTOINC+d6b2416f39_79a31b9d23
 PR = r0
-PKGV = 4.1.6+git1+ef417dc3db_79a31b9d23
+PKGV = 4.1.6+git2+d6b2416f39_79a31b9d23
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.1.6-yocto-standard kernel-module-cast-common
+RDEPENDS = kernel-3.19.5-yocto-standard kernel-module-cast-common
 RRECOMMENDS = 
-PKGSIZE = 17544
-FILES = /lib/modules/4.1.6-yocto-standard/kernel/crypto/cast6_generic.ko /etc/modules-load.d/cast6_generic.conf /etc/modprobe.d/cast6_generic.conf
-FILELIST = /lib/modules/4.1.6-yocto-standard/kernel/crypto/cast6_generic.ko
+PKGSIZE = 17536
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/crypto/cast6_generic.ko /etc/modules-load.d/cast6_generic.conf /etc/modprobe.d/cast6_generic.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/crypto/cast6_generic.ko

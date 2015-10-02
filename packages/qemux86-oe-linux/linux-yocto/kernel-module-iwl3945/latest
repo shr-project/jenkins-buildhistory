@@ -1,10 +1,10 @@
-PV = 4.1.6+gitAUTOINC+ef417dc3db_79a31b9d23
+PV = 4.1.6+gitAUTOINC+d6b2416f39_79a31b9d23
 PR = r0
-PKGV = 4.1.6+git1+ef417dc3db_79a31b9d23
+PKGV = 4.1.6+git2+d6b2416f39_79a31b9d23
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.1.6-yocto-standard kernel-module-cfg80211 kernel-module-iwlegacy kernel-module-mac80211
+RDEPENDS = kernel-3.19.5-yocto-standard kernel-module-cfg80211 kernel-module-iwlegacy kernel-module-mac80211
 RRECOMMENDS = 
-PKGSIZE = 72144
-FILES = /lib/modules/4.1.6-yocto-standard/kernel/drivers/net/wireless/iwlegacy/iwl3945.ko /etc/modules-load.d/iwl3945.conf /etc/modprobe.d/iwl3945.conf
-FILELIST = /lib/modules/4.1.6-yocto-standard/kernel/drivers/net/wireless/iwlegacy/iwl3945.ko
+PKGSIZE = 72072
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/wireless/iwlegacy/iwl3945.ko /etc/modules-load.d/iwl3945.conf /etc/modprobe.d/iwl3945.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/drivers/net/wireless/iwlegacy/iwl3945.ko
