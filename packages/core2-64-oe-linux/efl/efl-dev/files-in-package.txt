@@ -1,7 +1,7 @@
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            36264 ./usr/bin/eldbus-codegen
-drwxr-xr-x root       root              660 ./usr/include
+drwxr-xr-x root       root              680 ./usr/include
 drwxr-xr-x root       root              500 ./usr/include/ecore-1
 -rw-r--r-- root       root            11103 ./usr/include/ecore-1/Ecore.h
 -rw-r--r-- root       root           124887 ./usr/include/ecore-1/Ecore_Common.h
@@ -83,6 +83,8 @@ drwxr-xr-x root       root               60 ./usr/include/ecore-input-evas-1
 -rw-r--r-- root       root             2871 ./usr/include/ecore-input-evas-1/Ecore_Input_Evas.h
 drwxr-xr-x root       root               60 ./usr/include/ecore-ipc-1
 -rw-r--r-- root       root            11392 ./usr/include/ecore-ipc-1/Ecore_Ipc.h
+drwxr-xr-x root       root               60 ./usr/include/ecore-wayland-1
+-rw-r--r-- root       root            27578 ./usr/include/ecore-wayland-1/Ecore_Wayland.h
 drwxr-xr-x root       root              120 ./usr/include/ecore-x-1
 -rw-r--r-- root       root           135731 ./usr/include/ecore-x-1/Ecore_X.h
 -rw-r--r-- root       root            17518 ./usr/include/ecore-x-1/Ecore_X_Atoms.h
@@ -301,12 +303,14 @@ drwxr-xr-x root       root               60 ./usr/include/ethumb-1
 -rw-r--r-- root       root            18621 ./usr/include/ethumb-1/Ethumb.h
 drwxr-xr-x root       root               60 ./usr/include/ethumb-client-1
 -rw-r--r-- root       root             8644 ./usr/include/ethumb-client-1/Ethumb_Client.h
-drwxr-xr-x root       root              240 ./usr/include/evas-1
+drwxr-xr-x root       root              280 ./usr/include/evas-1
 -rw-r--r-- root       root            11231 ./usr/include/evas-1/Evas.h
 -rw-r--r-- root       root           213585 ./usr/include/evas-1/Evas_Common.h
 -rw-r--r-- root       root             1116 ./usr/include/evas-1/Evas_Engine_Buffer.h
 -rw-r--r-- root       root             2111 ./usr/include/evas-1/Evas_Engine_GL_X11.h
 -rw-r--r-- root       root             1483 ./usr/include/evas-1/Evas_Engine_Software_X11.h
+-rw-r--r-- root       root             1391 ./usr/include/evas-1/Evas_Engine_Wayland_Egl.h
+-rw-r--r-- root       root              779 ./usr/include/evas-1/Evas_Engine_Wayland_Shm.h
 -rw-r--r-- root       root            27442 ./usr/include/evas-1/Evas_Eo.h
 -rw-r--r-- root       root           207547 ./usr/include/evas-1/Evas_GL.h
 -rw-r--r-- root       root           125065 ./usr/include/evas-1/Evas_Legacy.h
@@ -393,7 +397,7 @@ drwxr-xr-x root       root             1660 ./usr/include/evas-1/canvas
 -rw-r--r-- root       root              574 ./usr/include/evas-1/canvas/evas_vg.eo.legacy.h
 -rw-r--r-- root       root             1099 ./usr/include/evas-1/canvas/evas_zoomable_interface.eo.h
 -rw-r--r-- root       root              334 ./usr/include/evas-1/canvas/evas_zoomable_interface.eo.legacy.h
-drwxr-xr-x root       root             1560 ./usr/lib
+drwxr-xr-x root       root             1600 ./usr/lib
 drwxr-xr-x root       root              500 ./usr/lib/cmake
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Ecore
 -rw-r--r-- root       root             2689 ./usr/lib/cmake/Ecore/EcoreConfig.cmake
@@ -470,15 +474,21 @@ drwxr-xr-x root       root               60 ./usr/lib/ecore/system/upower
 drwxr-xr-x root       root               60 ./usr/lib/ecore/system/upower/v-1.15
 -rwxr-xr-x root       root             1152 ./usr/lib/ecore/system/upower/v-1.15/module.la
 drwxr-xr-x root       root               60 ./usr/lib/ecore_evas
-drwxr-xr-x root       root               80 ./usr/lib/ecore_evas/engines
+drwxr-xr-x root       root              100 ./usr/lib/ecore_evas/engines
 drwxr-xr-x root       root               60 ./usr/lib/ecore_evas/engines/extn
 drwxr-xr-x root       root               60 ./usr/lib/ecore_evas/engines/extn/v-1.15
 -rwxr-xr-x root       root             1697 ./usr/lib/ecore_evas/engines/extn/v-1.15/module.la
+drwxr-xr-x root       root               60 ./usr/lib/ecore_evas/engines/wayland
+drwxr-xr-x root       root               60 ./usr/lib/ecore_evas/engines/wayland/v-1.15
+-rwxr-xr-x root       root             1856 ./usr/lib/ecore_evas/engines/wayland/v-1.15/module.la
 drwxr-xr-x root       root               60 ./usr/lib/ecore_evas/engines/x
 drwxr-xr-x root       root               60 ./usr/lib/ecore_evas/engines/x/v-1.15
 -rwxr-xr-x root       root             2194 ./usr/lib/ecore_evas/engines/x/v-1.15/module.la
 drwxr-xr-x root       root               60 ./usr/lib/ecore_imf
-drwxr-xr-x root       root               60 ./usr/lib/ecore_imf/modules
+drwxr-xr-x root       root               80 ./usr/lib/ecore_imf/modules
+drwxr-xr-x root       root               60 ./usr/lib/ecore_imf/modules/wayland
+drwxr-xr-x root       root               60 ./usr/lib/ecore_imf/modules/wayland/v-1.15
+-rwxr-xr-x root       root             1881 ./usr/lib/ecore_imf/modules/wayland/v-1.15/module.la
 drwxr-xr-x root       root               60 ./usr/lib/ecore_imf/modules/xim
 drwxr-xr-x root       root               60 ./usr/lib/ecore_imf/modules/xim/v-1.15
 -rwxr-xr-x root       root             1796 ./usr/lib/ecore_imf/modules/xim/v-1.15/module.la
@@ -508,7 +518,7 @@ drwxr-xr-x root       root               60 ./usr/lib/ethumb/modules/emotion/v-1
 -rwxr-xr-x root       root             2857 ./usr/lib/ethumb/modules/emotion/v-1.15/module.la
 drwxr-xr-x root       root               60 ./usr/lib/evas
 drwxr-xr-x root       root              100 ./usr/lib/evas/modules
-drwxr-xr-x root       root              100 ./usr/lib/evas/modules/engines
+drwxr-xr-x root       root              140 ./usr/lib/evas/modules/engines
 drwxr-xr-x root       root               60 ./usr/lib/evas/modules/engines/gl_generic
 drwxr-xr-x root       root               60 ./usr/lib/evas/modules/engines/gl_generic/v-1.15
 -rwxr-xr-x root       root             2170 ./usr/lib/evas/modules/engines/gl_generic/v-1.15/module.la
@@ -518,6 +528,12 @@ drwxr-xr-x root       root               60 ./usr/lib/evas/modules/engines/gl_x1
 drwxr-xr-x root       root               60 ./usr/lib/evas/modules/engines/software_x11
 drwxr-xr-x root       root               60 ./usr/lib/evas/modules/engines/software_x11/v-1.15
 -rwxr-xr-x root       root             2147 ./usr/lib/evas/modules/engines/software_x11/v-1.15/module.la
+drwxr-xr-x root       root               60 ./usr/lib/evas/modules/engines/wayland_egl
+drwxr-xr-x root       root               60 ./usr/lib/evas/modules/engines/wayland_egl/v-1.15
+-rwxr-xr-x root       root             2266 ./usr/lib/evas/modules/engines/wayland_egl/v-1.15/module.la
+drwxr-xr-x root       root               60 ./usr/lib/evas/modules/engines/wayland_shm
+drwxr-xr-x root       root               60 ./usr/lib/evas/modules/engines/wayland_shm/v-1.15
+-rwxr-xr-x root       root             1556 ./usr/lib/evas/modules/engines/wayland_shm/v-1.15/module.la
 drwxr-xr-x root       root               80 ./usr/lib/evas/modules/image_loaders
 drwxr-xr-x root       root               60 ./usr/lib/evas/modules/image_loaders/gif
 drwxr-xr-x root       root               60 ./usr/lib/evas/modules/image_loaders/gif/v-1.15
@@ -551,6 +567,8 @@ lrwxrwxrwx root       root               24 ./usr/lib/libecore_input.so -> libec
 lrwxrwxrwx root       root               29 ./usr/lib/libecore_input_evas.so -> libecore_input_evas.so.1.15.1
 -rw-r--r-- root       root             1235 ./usr/lib/libecore_ipc.la
 lrwxrwxrwx root       root               22 ./usr/lib/libecore_ipc.so -> libecore_ipc.so.1.15.1
+-rw-r--r-- root       root             1357 ./usr/lib/libecore_wayland.la
+lrwxrwxrwx root       root               26 ./usr/lib/libecore_wayland.so -> libecore_wayland.so.1.15.1
 -rw-r--r-- root       root             1753 ./usr/lib/libecore_x.la
 lrwxrwxrwx root       root               20 ./usr/lib/libecore_x.so -> libecore_x.so.1.15.1
 -rw-r--r-- root       root              994 ./usr/lib/libector.la
@@ -595,7 +613,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/libethumb.so -> libethumb.
 lrwxrwxrwx root       root               26 ./usr/lib/libethumb_client.so -> libethumb_client.so.1.15.1
 -rw-r--r-- root       root             1419 ./usr/lib/libevas.la
 lrwxrwxrwx root       root               17 ./usr/lib/libevas.so -> libevas.so.1.15.1
-drwxr-xr-x root       root              780 ./usr/lib/pkgconfig
+drwxr-xr-x root       root              840 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              436 ./usr/lib/pkgconfig/ecore-audio-cxx.pc
 -rw-r--r-- root       root              390 ./usr/lib/pkgconfig/ecore-audio.pc
 -rw-r--r-- root       root              344 ./usr/lib/pkgconfig/ecore-avahi.pc
@@ -607,6 +625,7 @@ drwxr-xr-x root       root              780 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              414 ./usr/lib/pkgconfig/ecore-input-evas.pc
 -rw-r--r-- root       root              317 ./usr/lib/pkgconfig/ecore-input.pc
 -rw-r--r-- root       root              333 ./usr/lib/pkgconfig/ecore-ipc.pc
+-rw-r--r-- root       root              414 ./usr/lib/pkgconfig/ecore-wayland.pc
 -rw-r--r-- root       root              443 ./usr/lib/pkgconfig/ecore-x.pc
 -rw-r--r-- root       root              509 ./usr/lib/pkgconfig/ecore.pc
 -rw-r--r-- root       root              315 ./usr/lib/pkgconfig/ector.pc
@@ -632,6 +651,8 @@ drwxr-xr-x root       root              780 ./usr/lib/pkgconfig
 -rw-r--r-- root       root               91 ./usr/lib/pkgconfig/evas-opengl-x11.pc
 -rw-r--r-- root       root               84 ./usr/lib/pkgconfig/evas-software-buffer.pc
 -rw-r--r-- root       root               95 ./usr/lib/pkgconfig/evas-software-x11.pc
+-rw-r--r-- root       root               76 ./usr/lib/pkgconfig/evas-wayland-egl.pc
+-rw-r--r-- root       root               76 ./usr/lib/pkgconfig/evas-wayland-shm.pc
 -rw-r--r-- root       root              591 ./usr/lib/pkgconfig/evas.pc
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/eo

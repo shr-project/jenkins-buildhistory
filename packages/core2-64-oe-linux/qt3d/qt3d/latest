@@ -1,10 +1,10 @@
-PV = 5.5.0+gitAUTOINC+a3b9994175
+PV = 5.5.0+gitAUTOINC+0bcb6600db
 PR = r0
-PKGV = 5.5.0+git0+a3b9994175
-PKGR = r0.8
+PKGV = 5.5.0+git1+0bcb6600db
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libgles2-mesa (>= 10.6.3) libstdc++ (>= 5.2.0) qtbase (>= 5.5.0+git0+2fde9f59ee) qtdeclarative (>= 5.5.0+git0+cc0df64bb0)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libgles2-mesa (>= 10.6.3) libstdc++ (>= 5.2.0) qtbase (>= 5.5.0+git1+c619d2daac) qtdeclarative (>= 5.5.0+git1+9794e7d66c)
 RRECOMMENDS = qt3d-plugins qt3d-qmlplugins
-PKGSIZE = 2300704
+PKGSIZE = 2659704
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/qt3d/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qt3d /usr/lib/qt3d/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt53DCore.so.5 /usr/lib/libQt53DCore.so.5.5 /usr/lib/libQt53DCore.so.5.5.0 /usr/lib/libQt53DInput.so.5 /usr/lib/libQt53DInput.so.5.5 /usr/lib/libQt53DInput.so.5.5.0 /usr/lib/libQt53DQuick.so.5 /usr/lib/libQt53DQuick.so.5.5 /usr/lib/libQt53DQuick.so.5.5.0 /usr/lib/libQt53DQuickRenderer.so.5 /usr/lib/libQt53DQuickRenderer.so.5.5 /usr/lib/libQt53DQuickRenderer.so.5.5.0 /usr/lib/libQt53DRenderer.so.5 /usr/lib/libQt53DRenderer.so.5.5 /usr/lib/libQt53DRenderer.so.5.5.0
+FILELIST = /usr/lib/libQt53DCollision.so.5 /usr/lib/libQt53DCollision.so.5.5 /usr/lib/libQt53DCollision.so.5.5.1 /usr/lib/libQt53DCore.so.5 /usr/lib/libQt53DCore.so.5.5 /usr/lib/libQt53DCore.so.5.5.1 /usr/lib/libQt53DInput.so.5 /usr/lib/libQt53DInput.so.5.5 /usr/lib/libQt53DInput.so.5.5.1 /usr/lib/libQt53DLogic.so.5 /usr/lib/libQt53DLogic.so.5.5 /usr/lib/libQt53DLogic.so.5.5.1 /usr/lib/libQt53DQuick.so.5 /usr/lib/libQt53DQuick.so.5.5 /usr/lib/libQt53DQuick.so.5.5.1 /usr/lib/libQt53DQuickRenderer.so.5 /usr/lib/libQt53DQuickRenderer.so.5.5 /usr/lib/libQt53DQuickRenderer.so.5.5.1 /usr/lib/libQt53DRenderer.so.5 /usr/lib/libQt53DRenderer.so.5.5 /usr/lib/libQt53DRenderer.so.5.5.1
