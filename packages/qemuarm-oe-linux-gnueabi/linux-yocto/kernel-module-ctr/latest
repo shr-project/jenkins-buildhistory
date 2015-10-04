@@ -1,10 +1,10 @@
-PV = 4.1.6+gitAUTOINC+d6b2416f39_4f5c95b0f1
+PV = 4.1.8+gitAUTOINC+3d8f1378d0_c92614c6b9
 PR = r0
-PKGV = 4.1.6+git2+d6b2416f39_4f5c95b0f1
+PKGV = 4.1.8+git0+3d8f1378d0_c92614c6b9
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.1.6-yocto-standard
+RDEPENDS = kernel-4.1.8-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 8448
-FILES = /lib/modules/4.1.6-yocto-standard/kernel/crypto/ctr.ko /etc/modules-load.d/ctr.conf /etc/modprobe.d/ctr.conf
-FILELIST = /lib/modules/4.1.6-yocto-standard/kernel/crypto/ctr.ko
+FILES = /lib/modules/4.1.8-yocto-standard/kernel/crypto/ctr.ko /etc/modules-load.d/ctr.conf /etc/modprobe.d/ctr.conf
+FILELIST = /lib/modules/4.1.8-yocto-standard/kernel/crypto/ctr.ko

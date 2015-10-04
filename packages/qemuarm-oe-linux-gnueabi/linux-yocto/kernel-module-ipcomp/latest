@@ -1,10 +1,10 @@
-PV = 4.1.6+gitAUTOINC+d6b2416f39_4f5c95b0f1
+PV = 4.1.8+gitAUTOINC+3d8f1378d0_c92614c6b9
 PR = r0
-PKGV = 4.1.6+git2+d6b2416f39_4f5c95b0f1
+PKGV = 4.1.8+git0+3d8f1378d0_c92614c6b9
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.1.6-yocto-standard kernel-module-xfrm-ipcomp
+RDEPENDS = kernel-4.1.8-yocto-standard kernel-module-xfrm-ipcomp
 RRECOMMENDS = 
 PKGSIZE = 6148
-FILES = /lib/modules/4.1.6-yocto-standard/kernel/net/ipv4/ipcomp.ko /etc/modules-load.d/ipcomp.conf /etc/modprobe.d/ipcomp.conf
-FILELIST = /lib/modules/4.1.6-yocto-standard/kernel/net/ipv4/ipcomp.ko
+FILES = /lib/modules/4.1.8-yocto-standard/kernel/net/ipv4/ipcomp.ko /etc/modules-load.d/ipcomp.conf /etc/modprobe.d/ipcomp.conf
+FILELIST = /lib/modules/4.1.8-yocto-standard/kernel/net/ipv4/ipcomp.ko
