@@ -18,7 +18,7 @@ drwxr-xr-x root       root              300 ./usr/lib/.debug
 -rwxr-xr-x root       root           507568 ./usr/lib/.debug/libgsttag-0.10.so.0.25.0
 -rwxr-xr-x root       root           268740 ./usr/lib/.debug/libgstvideo-0.10.so.0.25.0
 drwxr-xr-x root       root               60 ./usr/lib/gstreamer-0.10
-drwxr-xr-x root       root              580 ./usr/lib/gstreamer-0.10/.debug
+drwxr-xr-x root       root              600 ./usr/lib/gstreamer-0.10/.debug
 -rwxr-xr-x root       root            87448 ./usr/lib/gstreamer-0.10/.debug/libgstadder.so
 -rwxr-xr-x root       root           287396 ./usr/lib/gstreamer-0.10/.debug/libgstalsa.so
 -rwxr-xr-x root       root            11348 ./usr/lib/gstreamer-0.10/.debug/libgstapp.so
@@ -26,6 +26,7 @@ drwxr-xr-x root       root              580 ./usr/lib/gstreamer-0.10/.debug
 -rwxr-xr-x root       root            66040 ./usr/lib/gstreamer-0.10/.debug/libgstaudiorate.so
 -rwxr-xr-x root       root           167648 ./usr/lib/gstreamer-0.10/.debug/libgstaudioresample.so
 -rwxr-xr-x root       root           104892 ./usr/lib/gstreamer-0.10/.debug/libgstaudiotestsrc.so
+-rwxr-xr-x root       root            58256 ./usr/lib/gstreamer-0.10/.debug/libgstcdparanoia.so
 -rwxr-xr-x root       root           113956 ./usr/lib/gstreamer-0.10/.debug/libgstdecodebin.so
 -rwxr-xr-x root       root           264380 ./usr/lib/gstreamer-0.10/.debug/libgstdecodebin2.so
 -rwxr-xr-x root       root           197968 ./usr/lib/gstreamer-0.10/.debug/libgstencodebin.so
@@ -98,7 +99,7 @@ drwxr-xr-x root       root               80 ./usr/src/debug/gst-plugins-base/0.1
 -rw-r--r-- root       root             3475 ./usr/src/debug/gst-plugins-base/0.10.36-r8/build/gst/volume/gstvolumeorc.h
 -rw-r--r-- root       root            65207 ./usr/src/debug/gst-plugins-base/0.10.36-r8/build/gst/volume/tmp-orc.c
 drwxr-xr-x root       root              140 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36
-drwxr-xr-x root       root              140 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext
+drwxr-xr-x root       root              160 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext
 drwxr-xr-x root       root              380 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/alsa
 -rw-r--r-- root       root            16840 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/alsa/gstalsa.c
 -rw-r--r-- root       root             2250 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/alsa/gstalsa.h
@@ -117,6 +118,9 @@ drwxr-xr-x root       root              380 ./usr/src/debug/gst-plugins-base/0.1
 -rw-r--r-- root       root             2551 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/alsa/gstalsasink.h
 -rw-r--r-- root       root            23973 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/alsa/gstalsasrc.c
 -rw-r--r-- root       root             2640 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/alsa/gstalsasrc.h
+drwxr-xr-x root       root               80 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/cdparanoia
+-rw-r--r-- root       root            16822 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/cdparanoia/gstcdparanoiasrc.c
+-rw-r--r-- root       root             3601 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/cdparanoia/gstcdparanoiasrc.h
 drwxr-xr-x root       root              320 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/gio
 -rw-r--r-- root       root             7247 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/gio/gstgio.c
 -rw-r--r-- root       root             1502 ./usr/src/debug/gst-plugins-base/0.10.36-r8/gst-plugins-base-0.10.36/ext/gio/gstgio.h
