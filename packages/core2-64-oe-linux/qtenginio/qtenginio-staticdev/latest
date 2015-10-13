@@ -1,10 +1,10 @@
 PV = 5.5.0+gitAUTOINC+e32bcb7b71
 PR = r0
 PKGV = 5.5.0+git1+e32bcb7b71
-PKGR = r0.1
+PKGR = r0.2
 PKG = libenginio-staticdev
 RPROVIDES = 5.5.0+git1+e32bcb7b71 qtenginio-staticdev
-RDEPENDS = qtenginio-dev (= 5.5.0+git1+e32bcb7b71-r0.1)
+RDEPENDS = qtenginio-dev (= 5.5.0+git1+e32bcb7b71-r0.2)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/qtenginio/*.a /usr/lib/*.a
