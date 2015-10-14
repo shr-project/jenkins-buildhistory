@@ -1,10 +1,10 @@
-PV = 5.2.0
+PV = 4.9.3
 PR = r0
-PKGR = r0.8
+PKGR = r0.10
 PKG = libstdc++6
-RPROVIDES = 5.2.0 libstdc++
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0)
+RPROVIDES = 4.9.3 libstdc++
+RDEPENDS = glibc (>= 2.22) libgcc (>= 4.9.3)
 RRECOMMENDS = 
-PKGSIZE = 1059635
+PKGSIZE = 701083
 FILES = /usr/lib/libstdc++.so.*
-FILELIST = /usr/lib/libstdc++.so.6 /usr/lib/libstdc++.so.6.0.21
+FILELIST = /usr/lib/libstdc++.so.6 /usr/lib/libstdc++.so.6.0.20

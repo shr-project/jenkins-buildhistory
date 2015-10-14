@@ -1,10 +1,10 @@
-PV = 5.2.0
+PV = 4.9.3
 PR = r0
-PKGR = r0.8
+PKGR = r0.10
 PKG = libgcc-s-dev
-RPROVIDES = 5.2.0 libgcc-dev
-RDEPENDS = libgcc (= 5.2.0-r0.8)
+RPROVIDES = 4.9.3 libgcc-dev
+RDEPENDS = libgcc (= 4.9.3-r0.10)
 RRECOMMENDS = glibc-dev
-PKGSIZE = 6051998
-FILES = /lib/libgcc*.so /usr/lib/arm-oe-linux /usr/lib/arm-oe-linux-gnueabi/5.2.0*
-FILELIST = /lib/libgcc_s.so /usr/lib/arm-oe-linux-gnueabi/5.2.0/crtbegin.o /usr/lib/arm-oe-linux-gnueabi/5.2.0/crtbeginS.o /usr/lib/arm-oe-linux-gnueabi/5.2.0/crtbeginT.o /usr/lib/arm-oe-linux-gnueabi/5.2.0/crtend.o /usr/lib/arm-oe-linux-gnueabi/5.2.0/crtendS.o /usr/lib/arm-oe-linux-gnueabi/5.2.0/libgcc.a /usr/lib/arm-oe-linux-gnueabi/5.2.0/libgcc_eh.a /usr/lib/arm-oe-linux-gnueabi/5.2.0/libgcov.a
+PKGSIZE = 6001840
+FILES = /lib/libgcc*.so /usr/lib/arm-oe-linux /usr/lib/arm-oe-linux-gnueabi/4.9.3*
+FILELIST = /lib/libgcc_s.so /usr/lib/arm-oe-linux-gnueabi/4.9.3/crtbegin.o /usr/lib/arm-oe-linux-gnueabi/4.9.3/crtbeginS.o /usr/lib/arm-oe-linux-gnueabi/4.9.3/crtbeginT.o /usr/lib/arm-oe-linux-gnueabi/4.9.3/crtend.o /usr/lib/arm-oe-linux-gnueabi/4.9.3/crtendS.o /usr/lib/arm-oe-linux-gnueabi/4.9.3/libgcc.a /usr/lib/arm-oe-linux-gnueabi/4.9.3/libgcc_eh.a /usr/lib/arm-oe-linux-gnueabi/4.9.3/libgcov.a
