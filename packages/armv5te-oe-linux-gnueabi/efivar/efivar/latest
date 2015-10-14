@@ -1,10 +1,9 @@
-PV = 0.7+gitAUTOINC+c9e1f24a81
+PV = 0.21
 PR = r0
-PKGV = 0.7+git0+c9e1f24a81
-PKGR = r0.30
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) popt (>= 1.16)
 RRECOMMENDS = 
-PKGSIZE = 21020
+PKGSIZE = 115163
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/efivar/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/efivar /usr/lib/efivar/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/efivar /usr/lib/libefivar.so.0
+FILELIST = /usr/bin/efivar /usr/lib/libefiboot.so.0 /usr/lib/libefiboot.so.0.21 /usr/lib/libefivar.so.0 /usr/lib/libefivar.so.0.21
