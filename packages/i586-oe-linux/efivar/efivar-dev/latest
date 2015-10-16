@@ -1,10 +1,9 @@
-PV = 0.7+gitAUTOINC+c9e1f24a81
+PV = 0.21
 PR = r0
-PKGV = 0.7+git0+c9e1f24a81
-PKGR = r0.33
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = efivar (= 0.7+git0+c9e1f24a81-r0.33)
+RDEPENDS = efivar (= 0.21-r0.0)
 RRECOMMENDS = glibc-dev popt-dev
-PKGSIZE = 2686
+PKGSIZE = 39001
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/efivar/*.la /lib/*.la
-FILELIST = /usr/include/efivar.h /usr/lib/libefivar.so /usr/lib/pkgconfig/efivar.pc
+FILELIST = /usr/include/efivar/efiboot-creator.h /usr/include/efivar/efiboot-loadopt.h /usr/include/efivar/efiboot.h /usr/include/efivar/efivar-dp.h /usr/include/efivar/efivar-guids.h /usr/include/efivar/efivar.h /usr/lib/libefiboot.so /usr/lib/libefivar.so /usr/lib/pkgconfig/efiboot.pc /usr/lib/pkgconfig/efivar.pc
