@@ -1,4 +1,4 @@
-PV = 0.6.0
+PV = 0.12
 PR = r0
-DEPENDS = pciutils virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
+DEPENDS = efivar pciutils pkgconfig-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
 PACKAGES = efibootmgr-dbg efibootmgr-staticdev efibootmgr-dev efibootmgr-doc efibootmgr-locale efibootmgr
