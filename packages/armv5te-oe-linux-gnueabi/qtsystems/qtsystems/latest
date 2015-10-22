@@ -1,9 +1,9 @@
-PV = 5.5.0+gitAUTOINC+0577ffca58
+PV = 5.5.1+gitAUTOINC+0577ffca58
 PR = r0
-PKGV = 5.5.0+git1+0577ffca58
-PKGR = r0.5
+PKGV = 5.5.1+git0+0577ffca58
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = bluez5 (>= 5.33) gconf (>= 3.2.6) glib-2.0 (>= 2.44.1) glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) libudev (>= 225+git0+e1439a1472) libx11 (>= 1.6.3) qtbase (>= 5.5.0+git1+c619d2daac)
+RDEPENDS = bluez5 (>= 5.33) gconf (>= 3.2.6) glib-2.0 (>= 2.44.1) glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) libudev (>= 225+git0+e1439a1472) libx11 (>= 1.6.3) qtbase (>= 5.5.1+git0+5afc431323)
 RRECOMMENDS = qtsystems-plugins qtsystems-qmlplugins
 PKGSIZE = 449818
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/qtsystems/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtsystems /usr/lib/qtsystems/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

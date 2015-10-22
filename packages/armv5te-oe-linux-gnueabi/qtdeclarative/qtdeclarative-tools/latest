@@ -1,10 +1,10 @@
-PV = 5.5.0+gitAUTOINC+9794e7d66c
+PV = 5.5.1+gitAUTOINC+3e9f61f305
 PR = r0
-PKGV = 5.5.0+git1+9794e7d66c
-PKGR = r0.5
+PKGV = 5.5.1+git0+3e9f61f305
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libgles2-mesa (>= 10.6.3) libstdc++ (>= 5.2.0) qtbase (>= 5.5.0+git1+c619d2daac) qtdeclarative (>= 5.5.0+git1+9794e7d66c)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libgles2-mesa (>= 10.6.3) libstdc++ (>= 5.2.0) qtbase (>= 5.5.1+git0+5afc431323) qtdeclarative (>= 5.5.1+git0+3e9f61f305)
 RRECOMMENDS = 
-PKGSIZE = 2615864
+PKGSIZE = 2615872
 FILES = /usr/bin/qt5/*
 FILELIST = /usr/bin/qt5/qml /usr/bin/qt5/qmleasing /usr/bin/qt5/qmlimportscanner /usr/bin/qt5/qmllint /usr/bin/qt5/qmlmin /usr/bin/qt5/qmlplugindump /usr/bin/qt5/qmlprofiler /usr/bin/qt5/qmlscene /usr/bin/qt5/qmltestrunner

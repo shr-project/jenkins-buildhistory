@@ -7,8 +7,8 @@ fi
 
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop sensord.service
+		systemctl stop sensord.service lm_sensors.service fancontrol.service
 	fi
 
-	systemctl $OPTS disable sensord.service
+	systemctl $OPTS disable sensord.service lm_sensors.service fancontrol.service
 fi
