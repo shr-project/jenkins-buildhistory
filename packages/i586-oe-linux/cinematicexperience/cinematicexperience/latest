@@ -1,8 +1,8 @@
 PV = 1.0
 PR = r0
-PKGR = r0.43
+PKGR = r0.44
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) qtbase (>= 5.5.0+git1+c619d2daac) qtdeclarative (>= 5.5.0+git1+9794e7d66c) qtdeclarative-qmlplugins qtgraphicaleffects-qmlplugins
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) qtbase (>= 5.5.1+git0+5afc431323) qtdeclarative (>= 5.5.1+git0+3e9f61f305) qtdeclarative-qmlplugins qtgraphicaleffects-qmlplugins
 RRECOMMENDS = cinematicexperience-plugins cinematicexperience-qmlplugins
 PKGSIZE = 3066847
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/cinematicexperience/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/cinematicexperience /usr/lib/cinematicexperience/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec /usr/share

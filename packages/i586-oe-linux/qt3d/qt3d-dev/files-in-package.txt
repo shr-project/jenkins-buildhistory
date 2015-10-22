@@ -28,10 +28,10 @@ drwxr-xr-x root       root              160 ./usr/include/qt5/Qt3DCollision/5.5.
 -rw-r--r-- root       root             2811 ./usr/include/qt5/Qt3DCollision/qspherecollider.h
 -rw-r--r-- root       root             2163 ./usr/include/qt5/Qt3DCollision/qt3dcollision_global.h
 -rw-r--r-- root       root              232 ./usr/include/qt5/Qt3DCollision/qt3dcollisionversion.h
-drwxr-xr-x root       root             2140 ./usr/include/qt5/Qt3DCore
+drwxr-xr-x root       root             2100 ./usr/include/qt5/Qt3DCore
 drwxr-xr-x root       root               60 ./usr/include/qt5/Qt3DCore/5.5.1
 drwxr-xr-x root       root               60 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore
-drwxr-xr-x root       root             1100 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private
+drwxr-xr-x root       root             1120 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private
 -rw-r--r-- root       root             2081 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/corelogging_p.h
 -rw-r--r-- root       root             3101 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/dependencyhandler_p.h
 -rw-r--r-- root       root             3603 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/nullservices_p.h
@@ -49,6 +49,7 @@ drwxr-xr-x root       root             1100 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3
 -rw-r--r-- root       root             2080 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/qaspectjob_p.h
 -rw-r--r-- root       root             2856 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/qaspectjobmanager_p.h
 -rw-r--r-- root       root             3274 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/qaspectmanager_p.h
+-rw-r--r-- root       root             2373 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/qaspectthread_p.h
 -rw-r--r-- root       root             2970 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/qbackendnode_p.h
 -rw-r--r-- root       root             2322 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/qbackendscenepropertychange_p.h
 -rw-r--r-- root       root             3896 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3DCore/private/qboundedcircularbuffer_p.h
@@ -100,7 +101,6 @@ drwxr-xr-x root       root             1100 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3
 -rw-r--r-- root       root               24 ./usr/include/qt5/Qt3DCore/QAspectJob
 -rw-r--r-- root       root               41 ./usr/include/qt5/Qt3DCore/QAspectJobProviderInterface
 -rw-r--r-- root       root               24 ./usr/include/qt5/Qt3DCore/QAspectJobPtr
--rw-r--r-- root       root               27 ./usr/include/qt5/Qt3DCore/QAspectThread
 -rw-r--r-- root       root               37 ./usr/include/qt5/Qt3DCore/QAxisAlignedBoundingBox
 -rw-r--r-- root       root               26 ./usr/include/qt5/Qt3DCore/QBackendNode
 -rw-r--r-- root       root               33 ./usr/include/qt5/Qt3DCore/QBackendNodeFactory
@@ -141,7 +141,7 @@ drwxr-xr-x root       root             1100 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3
 -rw-r--r-- root       root               39 ./usr/include/qt5/Qt3DCore/QSystemInformationService
 -rw-r--r-- root       root               24 ./usr/include/qt5/Qt3DCore/QTransform
 -rw-r--r-- root       root               33 ./usr/include/qt5/Qt3DCore/QTranslateTransform
--rw-r--r-- root       root             1417 ./usr/include/qt5/Qt3DCore/Qt3DCore
+-rw-r--r-- root       root             1390 ./usr/include/qt5/Qt3DCore/Qt3DCore
 -rw-r--r-- root       root              191 ./usr/include/qt5/Qt3DCore/Qt3DCoreDepends
 -rw-r--r-- root       root               29 ./usr/include/qt5/Qt3DCore/Qt3DCoreVersion
 -rw-r--r-- root       root             4036 ./usr/include/qt5/Qt3DCore/qabstractaspect.h
@@ -155,7 +155,6 @@ drwxr-xr-x root       root             1100 ./usr/include/qt5/Qt3DCore/5.5.1/Qt3
 -rw-r--r-- root       root             3751 ./usr/include/qt5/Qt3DCore/qaspectfactory.h
 -rw-r--r-- root       root             2437 ./usr/include/qt5/Qt3DCore/qaspectjob.h
 -rw-r--r-- root       root             2187 ./usr/include/qt5/Qt3DCore/qaspectjobproviderinterface.h
--rw-r--r-- root       root             2367 ./usr/include/qt5/Qt3DCore/qaspectthread.h
 -rw-r--r-- root       root             5092 ./usr/include/qt5/Qt3DCore/qaxisalignedboundingbox.h
 -rw-r--r-- root       root             3227 ./usr/include/qt5/Qt3DCore/qbackendnode.h
 -rw-r--r-- root       root             2171 ./usr/include/qt5/Qt3DCore/qbackendnodefactory.h
