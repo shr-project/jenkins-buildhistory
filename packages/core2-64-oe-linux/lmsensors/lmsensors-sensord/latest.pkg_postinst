@@ -6,9 +6,9 @@ if [ -n "$D" ]; then
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS disable sensord.service
+	systemctl $OPTS disable sensord.service lm_sensors.service fancontrol.service
 
 	if [ -z "$D" -a "disable" = "enable" ]; then
-		systemctl restart sensord.service
+		systemctl restart sensord.service lm_sensors.service fancontrol.service
 	fi
 fi
