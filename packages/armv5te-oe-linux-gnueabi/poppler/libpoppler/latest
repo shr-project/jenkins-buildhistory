@@ -1,10 +1,10 @@
-PV = 0.35.0
+PV = 0.37.0
 PR = r0
-PKGR = r0.15
-PKG = libpoppler54
-RPROVIDES = 0.35.0 libpoppler
+PKGR = r0.0
+PKG = libpoppler56
+RPROVIDES = 0.37.0 libpoppler
 RDEPENDS = expat (>= 2.1.0) fontconfig (>= 2.11.94) freetype (>= 2.6) glibc (>= 2.22) lcms (>= 2.7) libgcc (>= 5.2.0) libjpeg-turbo (>= 8d+1.4.1) liblzma (>= 5.2.1) libpng (>= 1.6.17) libstdc++ (>= 5.2.0) openjpeg (>= 2.1.0) tiff (>= 4.0.4) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 1721268
+PKGSIZE = 1729588
 FILES = /usr/lib/libpoppler.so.*
-FILELIST = /usr/lib/libpoppler.so.54 /usr/lib/libpoppler.so.54.0.0
+FILELIST = /usr/lib/libpoppler.so.56 /usr/lib/libpoppler.so.56.0.0
