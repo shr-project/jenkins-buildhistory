@@ -1,10 +1,10 @@
-PV = 0.4.4
-PR = r2
-PKGR = r2.39
-PKG = liblightmediascanner-staticdev
-RPROVIDES = 0.4.4 lightmediascanner-staticdev
-RDEPENDS = lightmediascanner-dev (= 0.4.4-r2.39)
+PV = 0.5.1+gitAUTOINC+adfddb3486
+PR = r0
+PKGV = 0.5.1+git0+adfddb3486
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = lightmediascanner-dev (= 0.5.1+git0+adfddb3486-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 480156
-FILES = /usr/lib/*.a /lib/*.a /usr/lib/lightmediascanner/*.a /usr/lib/lightmediascanner/plugins/*.a
-FILELIST = /usr/lib/liblightmediascanner.a /usr/lib/lightmediascanner/plugins/asf.a /usr/lib/lightmediascanner/plugins/audio-dummy.a /usr/lib/lightmediascanner/plugins/dummy.a /usr/lib/lightmediascanner/plugins/flac.a /usr/lib/lightmediascanner/plugins/id3.a /usr/lib/lightmediascanner/plugins/jpeg.a /usr/lib/lightmediascanner/plugins/m3u.a /usr/lib/lightmediascanner/plugins/pls.a /usr/lib/lightmediascanner/plugins/png.a /usr/lib/lightmediascanner/plugins/rm.a /usr/lib/lightmediascanner/plugins/video-dummy.a
+PKGSIZE = 690710
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/lightmediascanner/*.a
+FILELIST = /usr/lib/liblightmediascanner.a
