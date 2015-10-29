@@ -3,8 +3,7 @@
 if [ "x$D" != "x" ]; then
 	$INTERCEPT_DIR/postinst_intercept update_icon_cache ${PKG} \
 		mlprefix= \
-		libdir=/usr/lib \
-		STAGING_LIBDIR_NATIVE=/home/jenkins/oe/world/shr-core/tmp-glibc/sysroots/x86_64-linux/usr/lib
+		libdir=/usr/lib
 else
 	for icondir in /usr/share/icons/* ; do
 		if [ -d $icondir ] ; then
