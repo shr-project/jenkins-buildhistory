@@ -2,7 +2,7 @@ drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/gstreamer-1.0
 drwxr-xr-x root       root               60 ./usr/lib/gstreamer-1.0/.debug
--rwxr-xr-x root       root         33485596 ./usr/lib/gstreamer-1.0/.debug/libgstlibav.so
+-rwxr-xr-x root       root         33556944 ./usr/lib/gstreamer-1.0/.debug/libgstlibav.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/gstreamer1.0-libav
@@ -34,7 +34,7 @@ drwxr-xr-x root       root              460 ./usr/src/debug/gstreamer1.0-libav/1
 drwxr-xr-x root       root               60 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs
 drwxr-xr-x root       root               60 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext
 drwxr-xr-x root       root              100 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav
-drwxr-xr-x root       root            15740 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec
+drwxr-xr-x root       root            15800 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec
 -rw-r--r-- root       root            32451 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/4xm.c
 -rw-r--r-- root       root             6399 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/8bps.c
 -rw-r--r-- root       root             7639 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/8svx.c
@@ -557,6 +557,7 @@ drwxr-xr-x root       root              860 ./usr/src/debug/gstreamer1.0-libav/1
 -rw-r--r-- root       root           158080 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/mpegvideo_enc.c
 -rw-r--r-- root       root            37747 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/mpegvideo_motion.c
 -rw-r--r-- root       root             7694 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/mpegvideo_parser.c
+-rw-r--r-- root       root            12490 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/mpegvideo_xvmc.c
 -rw-r--r-- root       root             3213 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/mqc.c
 -rw-r--r-- root       root             1891 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/mqc.h
 -rw-r--r-- root       root             2419 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/mqcdec.c
@@ -854,6 +855,8 @@ drwxr-xr-x root       root              860 ./usr/src/debug/gstreamer1.0-libav/1
 -rw-r--r-- root       root             3925 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/xl.c
 -rw-r--r-- root       root             5137 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/xsubdec.c
 -rw-r--r-- root       root             7310 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/xsubenc.c
+-rw-r--r-- root       root             6101 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/xvmc.h
+-rw-r--r-- root       root             1276 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/xvmc_internal.h
 -rw-r--r-- root       root             8813 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/xwddec.c
 -rw-r--r-- root       root             9121 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/xwdenc.c
 -rw-r--r-- root       root            13399 ./usr/src/debug/gstreamer1.0-libav/1.4.5-r0/gst-libav-1.4.5/gst-libs/ext/libav/libavcodec/xxan.c

@@ -17,7 +17,7 @@ fi
 if [ "x$D" != "x" ]; then
 	$INTERCEPT_DIR/postinst_intercept update_icon_cache ${PKG} \
 		mlprefix= \
-		libdir=/usr/lib
+		libdir_native=/usr/lib
 else
 
 	# Update the pixbuf loaders in case they haven't been registered yet
