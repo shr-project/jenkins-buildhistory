@@ -1,11 +1,11 @@
-PV = 5.5.1+gitAUTOINC+ad108e9d56
+PV = 5.5.99+5.6.0-alpha1+gitAUTOINC+2575d33fab
 PR = r0
-PKGV = 5.5.1+git0+ad108e9d56
-PKGR = r0.3
+PKGV = 5.5.99+5.6.0-alpha1+git0+2575d33fab
+PKGR = r0.0
 PKG = libqt5serialport-mkspecs
-RPROVIDES = 5.5.1+git0+ad108e9d56 qtserialport-mkspecs
+RPROVIDES = 5.5.99+5.6.0-alpha1+git0+2575d33fab qtserialport-mkspecs
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 1165
+PKGSIZE = 1134
 FILES = /usr/lib/qt5/mkspecs
 FILELIST = /usr/lib/qt5/mkspecs/modules/qt_lib_serialport.pri /usr/lib/qt5/mkspecs/modules/qt_lib_serialport_private.pri
