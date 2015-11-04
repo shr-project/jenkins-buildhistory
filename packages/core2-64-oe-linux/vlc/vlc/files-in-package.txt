@@ -71,7 +71,7 @@ drwxr-xr-x root       root              140 ./usr/lib/vlc/lua/sd
 -rw-r--r-- root       root             6494 ./usr/lib/vlc/lua/sd/jamendo.luac
 -rw-r--r-- root       root             2721 ./usr/lib/vlc/lua/sd/metachannels.luac
 drwxr-xr-x root       root              520 ./usr/lib/vlc/plugins
-drwxr-xr-x root       root             1360 ./usr/lib/vlc/plugins/access
+drwxr-xr-x root       root             1400 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root             1109 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.la
 -rwxr-xr-x root       root            17232 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.so
 -rwxr-xr-x root       root             1074 ./usr/lib/vlc/plugins/access/libaccess_bd_plugin.la
@@ -92,6 +92,8 @@ drwxr-xr-x root       root             1360 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root            50800 ./usr/lib/vlc/plugins/access/libdtv_plugin.so
 -rwxr-xr-x root       root             1152 ./usr/lib/vlc/plugins/access/libdv1394_plugin.la
 -rwxr-xr-x root       root            14352 ./usr/lib/vlc/plugins/access/libdv1394_plugin.so
+-rwxr-xr-x root       root             1127 ./usr/lib/vlc/plugins/access/libdvdnav_plugin.la
+-rwxr-xr-x root       root            46792 ./usr/lib/vlc/plugins/access/libdvdnav_plugin.so
 -rwxr-xr-x root       root             1086 ./usr/lib/vlc/plugins/access/libdvdread_plugin.la
 -rwxr-xr-x root       root            27672 ./usr/lib/vlc/plugins/access/libdvdread_plugin.so
 -rwxr-xr-x root       root             1080 ./usr/lib/vlc/plugins/access/libfilesystem_plugin.la
@@ -385,8 +387,8 @@ drwxr-xr-x root       root               80 ./usr/lib/vlc/plugins/gui
 -rwxr-xr-x root       root             1070 ./usr/lib/vlc/plugins/gui/libncurses_plugin.la
 -rwxr-xr-x root       root            49152 ./usr/lib/vlc/plugins/gui/libncurses_plugin.so
 drwxr-xr-x root       root               80 ./usr/lib/vlc/plugins/lua
--rwxr-xr-x root       root             1041 ./usr/lib/vlc/plugins/lua/liblua_plugin.la
--rwxr-xr-x root       root           378984 ./usr/lib/vlc/plugins/lua/liblua_plugin.so
+-rwxr-xr-x root       root             1044 ./usr/lib/vlc/plugins/lua/liblua_plugin.la
+-rwxr-xr-x root       root           341528 ./usr/lib/vlc/plugins/lua/liblua_plugin.so
 drwxr-xr-x root       root              120 ./usr/lib/vlc/plugins/meta_engine
 -rwxr-xr-x root       root             1061 ./usr/lib/vlc/plugins/meta_engine/libfolder_plugin.la
 -rwxr-xr-x root       root             7640 ./usr/lib/vlc/plugins/meta_engine/libfolder_plugin.so
@@ -456,7 +458,7 @@ drwxr-xr-x root       root              440 ./usr/lib/vlc/plugins/packetizer
 -rwxr-xr-x root       root            19464 ./usr/lib/vlc/plugins/packetizer/libpacketizer_mpegvideo_plugin.so
 -rwxr-xr-x root       root             1108 ./usr/lib/vlc/plugins/packetizer/libpacketizer_vc1_plugin.la
 -rwxr-xr-x root       root            28608 ./usr/lib/vlc/plugins/packetizer/libpacketizer_vc1_plugin.so
-drwxr-xr-x root       root              360 ./usr/lib/vlc/plugins/services_discovery
+drwxr-xr-x root       root              400 ./usr/lib/vlc/plugins/services_discovery
 -rwxr-xr-x root       root             1193 ./usr/lib/vlc/plugins/services_discovery/libbonjour_plugin.la
 -rwxr-xr-x root       root            12464 ./usr/lib/vlc/plugins/services_discovery/libbonjour_plugin.so
 -rwxr-xr-x root       root             1086 ./usr/lib/vlc/plugins/services_discovery/libmediadirs_plugin.la
@@ -471,6 +473,8 @@ drwxr-xr-x root       root              360 ./usr/lib/vlc/plugins/services_disco
 -rwxr-xr-x root       root            37784 ./usr/lib/vlc/plugins/services_discovery/libsap_plugin.so
 -rwxr-xr-x root       root             1124 ./usr/lib/vlc/plugins/services_discovery/libudev_plugin.la
 -rwxr-xr-x root       root            18144 ./usr/lib/vlc/plugins/services_discovery/libudev_plugin.so
+-rwxr-xr-x root       root             1249 ./usr/lib/vlc/plugins/services_discovery/libupnp_plugin.la
+-rwxr-xr-x root       root            30904 ./usr/lib/vlc/plugins/services_discovery/libupnp_plugin.so
 -rwxr-xr-x root       root             1184 ./usr/lib/vlc/plugins/services_discovery/libxcb_apps_plugin.la
 -rwxr-xr-x root       root            12464 ./usr/lib/vlc/plugins/services_discovery/libxcb_apps_plugin.so
 drwxr-xr-x root       root              200 ./usr/lib/vlc/plugins/stream_filter
