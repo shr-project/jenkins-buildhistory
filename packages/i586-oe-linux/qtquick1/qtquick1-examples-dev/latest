@@ -1,10 +1,10 @@
-PV = 5.5.1+gitAUTOINC+f079636a3e
+PV = 5.5.99+5.6.0-alpha1+gitAUTOINC+b0382acf65
 PR = r0
-PKGV = 5.5.1+git0+f079636a3e
-PKGR = r0.2
+PKGV = 5.5.99+5.6.0-alpha1+git0+b0382acf65
+PKGR = r0.0
 PKG = libqt5declarative-examples-dev
-RPROVIDES = 5.5.1+git0+f079636a3e qtquick1-examples-dev
-RDEPENDS = glibc (>= 2.22) libstdc++ (>= 5.2.0) qtbase (>= 5.5.1+git0+5afc431323) qtquick1 (>= 5.5.1+git0+f079636a3e)
+RPROVIDES = 5.5.99+5.6.0-alpha1+git0+b0382acf65 qtquick1-examples-dev
+RDEPENDS = glibc (>= 2.22) libstdc++ (>= 5.2.0) qtbase (>= 5.5.99+5.6.0-alpha1+git0+f7f4dde80e) qtquick1 (>= 5.5.99+5.6.0-alpha1+git0+b0382acf65)
 RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtquick1-dev qtscript-dev qtsvg-dev qtwebkit-dev qtxmlpatterns-dev
 PKGSIZE = 136244
 FILES = /usr/share/qt5/examples/*.so /usr/share/qt5/examples/*/*.so /usr/share/qt5/examples/*/*/*.so /usr/share/qt5/examples/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*/*.so
