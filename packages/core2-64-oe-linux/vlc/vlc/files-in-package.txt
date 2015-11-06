@@ -70,7 +70,7 @@ drwxr-xr-x root       root              140 ./usr/lib/vlc/lua/sd
 -rw-r--r-- root       root             2220 ./usr/lib/vlc/lua/sd/icecast.luac
 -rw-r--r-- root       root             6494 ./usr/lib/vlc/lua/sd/jamendo.luac
 -rw-r--r-- root       root             2721 ./usr/lib/vlc/lua/sd/metachannels.luac
-drwxr-xr-x root       root              520 ./usr/lib/vlc/plugins
+drwxr-xr-x root       root              500 ./usr/lib/vlc/plugins
 drwxr-xr-x root       root             1400 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root             1109 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.la
 -rwxr-xr-x root       root            17232 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.so
@@ -100,8 +100,6 @@ drwxr-xr-x root       root             1400 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root            18472 ./usr/lib/vlc/plugins/access/libfilesystem_plugin.so
 -rwxr-xr-x root       root             1038 ./usr/lib/vlc/plugins/access/libftp_plugin.la
 -rwxr-xr-x root       root            31824 ./usr/lib/vlc/plugins/access/libftp_plugin.so
--rwxr-xr-x root       root             1788 ./usr/lib/vlc/plugins/access/libgnomevfs_plugin.la
--rwxr-xr-x root       root            11536 ./usr/lib/vlc/plugins/access/libgnomevfs_plugin.so
 -rwxr-xr-x root       root             1048 ./usr/lib/vlc/plugins/access/libhttp_plugin.la
 -rwxr-xr-x root       root            31984 ./usr/lib/vlc/plugins/access/libhttp_plugin.so
 -rwxr-xr-x root       root             1056 ./usr/lib/vlc/plugins/access/libidummy_plugin.la
@@ -120,6 +118,8 @@ drwxr-xr-x root       root             1400 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root            28024 ./usr/lib/vlc/plugins/access/librtp_plugin.so
 -rwxr-xr-x root       root             1038 ./usr/lib/vlc/plugins/access/libsdp_plugin.la
 -rwxr-xr-x root       root             7000 ./usr/lib/vlc/plugins/access/libsdp_plugin.so
+-rwxr-xr-x root       root             1084 ./usr/lib/vlc/plugins/access/libsftp_plugin.la
+-rwxr-xr-x root       root            11776 ./usr/lib/vlc/plugins/access/libsftp_plugin.so
 -rwxr-xr-x root       root             1038 ./usr/lib/vlc/plugins/access/libshm_plugin.la
 -rwxr-xr-x root       root            11568 ./usr/lib/vlc/plugins/access/libshm_plugin.so
 -rwxr-xr-x root       root             1050 ./usr/lib/vlc/plugins/access/libsmb_plugin.la
@@ -434,9 +434,6 @@ drwxr-xr-x root       root              360 ./usr/lib/vlc/plugins/mux
 -rwxr-xr-x root       root            62008 ./usr/lib/vlc/plugins/mux/libmux_ps_plugin.so
 -rwxr-xr-x root       root             1059 ./usr/lib/vlc/plugins/mux/libmux_wav_plugin.la
 -rwxr-xr-x root       root            12272 ./usr/lib/vlc/plugins/mux/libmux_wav_plugin.so
-drwxr-xr-x root       root               80 ./usr/lib/vlc/plugins/notify
--rwxr-xr-x root       root             2401 ./usr/lib/vlc/plugins/notify/libnotify_plugin.la
--rwxr-xr-x root       root            12696 ./usr/lib/vlc/plugins/notify/libnotify_plugin.so
 drwxr-xr-x root       root              440 ./usr/lib/vlc/plugins/packetizer
 -rwxr-xr-x root       root             1114 ./usr/lib/vlc/plugins/packetizer/libpacketizer_copy_plugin.la
 -rwxr-xr-x root       root             8232 ./usr/lib/vlc/plugins/packetizer/libpacketizer_copy_plugin.so

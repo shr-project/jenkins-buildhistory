@@ -10,7 +10,7 @@ drwxr-xr-x root       root               80 ./usr/lib/.debug
 drwxr-xr-x root       root               80 ./usr/lib/vlc
 drwxr-xr-x root       root               60 ./usr/lib/vlc/.debug
 -rwxr-xr-x root       root            15920 ./usr/lib/vlc/.debug/vlc-cache-gen
-drwxr-xr-x root       root              520 ./usr/lib/vlc/plugins
+drwxr-xr-x root       root              500 ./usr/lib/vlc/plugins
 drwxr-xr-x root       root               60 ./usr/lib/vlc/plugins/access
 drwxr-xr-x root       root              720 ./usr/lib/vlc/plugins/access/.debug
 -rwxr-xr-x root       root            45232 ./usr/lib/vlc/plugins/access/.debug/libaccess_alsa_plugin.so
@@ -27,7 +27,6 @@ drwxr-xr-x root       root              720 ./usr/lib/vlc/plugins/access/.debug
 -rwxr-xr-x root       root            84344 ./usr/lib/vlc/plugins/access/.debug/libdvdread_plugin.so
 -rwxr-xr-x root       root            53976 ./usr/lib/vlc/plugins/access/.debug/libfilesystem_plugin.so
 -rwxr-xr-x root       root           104880 ./usr/lib/vlc/plugins/access/.debug/libftp_plugin.so
--rwxr-xr-x root       root            32408 ./usr/lib/vlc/plugins/access/.debug/libgnomevfs_plugin.so
 -rwxr-xr-x root       root            89928 ./usr/lib/vlc/plugins/access/.debug/libhttp_plugin.so
 -rwxr-xr-x root       root            26120 ./usr/lib/vlc/plugins/access/.debug/libidummy_plugin.so
 -rwxr-xr-x root       root            49056 ./usr/lib/vlc/plugins/access/.debug/libimem_plugin.so
@@ -37,6 +36,7 @@ drwxr-xr-x root       root              720 ./usr/lib/vlc/plugins/access/.debug
 -rwxr-xr-x root       root            54520 ./usr/lib/vlc/plugins/access/.debug/librar_plugin.so
 -rwxr-xr-x root       root           116048 ./usr/lib/vlc/plugins/access/.debug/librtp_plugin.so
 -rwxr-xr-x root       root            18344 ./usr/lib/vlc/plugins/access/.debug/libsdp_plugin.so
+-rwxr-xr-x root       root            28536 ./usr/lib/vlc/plugins/access/.debug/libsftp_plugin.so
 -rwxr-xr-x root       root            33664 ./usr/lib/vlc/plugins/access/.debug/libshm_plugin.so
 -rwxr-xr-x root       root            26264 ./usr/lib/vlc/plugins/access/.debug/libsmb_plugin.so
 -rwxr-xr-x root       root            22104 ./usr/lib/vlc/plugins/access/.debug/libtcp_plugin.so
@@ -212,9 +212,6 @@ drwxr-xr-x root       root              200 ./usr/lib/vlc/plugins/mux/.debug
 -rwxr-xr-x root       root           115760 ./usr/lib/vlc/plugins/mux/.debug/libmux_ogg_plugin.so
 -rwxr-xr-x root       root           235080 ./usr/lib/vlc/plugins/mux/.debug/libmux_ps_plugin.so
 -rwxr-xr-x root       root            33200 ./usr/lib/vlc/plugins/mux/.debug/libmux_wav_plugin.so
-drwxr-xr-x root       root               60 ./usr/lib/vlc/plugins/notify
-drwxr-xr-x root       root               60 ./usr/lib/vlc/plugins/notify/.debug
--rwxr-xr-x root       root            37016 ./usr/lib/vlc/plugins/notify/.debug/libnotify_plugin.so
 drwxr-xr-x root       root               60 ./usr/lib/vlc/plugins/packetizer
 drwxr-xr-x root       root              240 ./usr/lib/vlc/plugins/packetizer/.debug
 -rwxr-xr-x root       root            31624 ./usr/lib/vlc/plugins/packetizer/.debug/libpacketizer_copy_plugin.so
@@ -484,7 +481,7 @@ drwxr-xr-x root       root              460 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2
 -rw-r--r-- root       root             2138 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/lib/playlist.c
 -rw-r--r-- root       root            26359 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/lib/video.c
 -rw-r--r-- root       root            25888 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/lib/vlm.c
-drwxr-xr-x root       root              520 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules
+drwxr-xr-x root       root              500 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules
 drwxr-xr-x root       root              780 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access
 -rw-r--r-- root       root            15852 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/alsa.c
 -rw-r--r-- root       root             4675 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/attachment.c
@@ -508,7 +505,6 @@ drwxr-xr-x root       root              100 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2
 -rw-r--r-- root       root             3885 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/fs.c
 -rw-r--r-- root       root             1344 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/fs.h
 -rw-r--r-- root       root            31668 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/ftp.c
--rw-r--r-- root       root            12321 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/gnomevfs.c
 -rw-r--r-- root       root            55082 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/http.c
 -rw-r--r-- root       root             6356 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/idummy.c
 -rw-r--r-- root       root            19432 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/imem.c
@@ -554,6 +550,7 @@ drwxr-xr-x root       root              240 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2
 drwxr-xr-x root       root               60 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/screen
 -rw-r--r-- root       root            16844 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/screen/xcb.c
 -rw-r--r-- root       root             3646 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/sdp.c
+-rw-r--r-- root       root            10932 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/sftp.c
 -rw-r--r-- root       root             9800 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/shm.c
 -rw-r--r-- root       root            11892 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/smb.c
 -rw-r--r-- root       root             5813 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/access/tcp.c
@@ -877,8 +874,6 @@ drwxr-xr-x root       root              120 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2
 -rw-r--r-- root       root             5749 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/mux/mpjpeg.c
 -rw-r--r-- root       root            61887 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/mux/ogg.c
 -rw-r--r-- root       root            10367 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/mux/wav.c
-drwxr-xr-x root       root               60 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/notify
--rw-r--r-- root       root            11241 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/notify/notify.c
 drwxr-xr-x root       root              260 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/packetizer
 -rw-r--r-- root       root             7603 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/packetizer/copy.c
 -rw-r--r-- root       root            50117 ./usr/src/debug/vlc/2.2.1-r0/vlc-2.2.1/modules/packetizer/dirac.c
