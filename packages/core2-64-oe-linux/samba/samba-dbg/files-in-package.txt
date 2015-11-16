@@ -8,7 +8,7 @@ drwxr-xr-x root       root              820 ./usr/bin/.debug
 -rwxr-xr-x root       root           251072 ./usr/bin/.debug/locktest
 -rwxr-xr-x root       root           246800 ./usr/bin/.debug/masktest
 -rwxr-xr-x root       root            48520 ./usr/bin/.debug/ndrdump
--rwxr-xr-x root       root          2267768 ./usr/bin/.debug/net
+-rwxr-xr-x root       root          2267808 ./usr/bin/.debug/net
 -rwxr-xr-x root       root           264552 ./usr/bin/.debug/nmblookup
 -rwxr-xr-x root       root            43944 ./usr/bin/.debug/nmblookup4
 -rwxr-xr-x root       root            26200 ./usr/bin/.debug/ntdbbackup
@@ -135,7 +135,7 @@ drwxr-xr-x root       root             1640 ./usr/lib/samba/.debug
 -rwxr-xr-x root       root            11792 ./usr/lib/samba/.debug/libserver-role.so
 -rwxr-xr-x root       root            70968 ./usr/lib/samba/.debug/libshares.so
 -rwxr-xr-x root       root            40984 ./usr/lib/samba/.debug/libsmb_transport.so
--rwxr-xr-x root       root          9028920 ./usr/lib/samba/.debug/libsmbd_base.so
+-rwxr-xr-x root       root          9020816 ./usr/lib/samba/.debug/libsmbd_base.so
 -rwxr-xr-x root       root            41032 ./usr/lib/samba/.debug/libsmbd_conn.so
 -rwxr-xr-x root       root            30816 ./usr/lib/samba/.debug/libsmbd_shim.so
 -rwxr-xr-x root       root            30712 ./usr/lib/samba/.debug/libsmbldaphelper.so
@@ -221,7 +221,7 @@ drwxr-xr-x root       root              740 ./usr/lib/samba/vfs/.debug
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root              100 ./usr/sbin/.debug
 -rwxr-xr-x root       root           670480 ./usr/sbin/.debug/nmbd
--rwxr-xr-x root       root           163680 ./usr/sbin/.debug/smbd
+-rwxr-xr-x root       root           163656 ./usr/sbin/.debug/smbd
 -rwxr-xr-x root       root          3166040 ./usr/sbin/.debug/winbindd
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
@@ -660,7 +660,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/samba/4.1.12-r0/samb
 -rw-r--r-- root       root             7282 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/param/param_global.h
 -rw-r--r-- root       root            13654 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/param/param_proto.h
 drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/smbd
--rw-r--r-- root       root            87633 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/smbd/build_options.c
+-rw-r--r-- root       root            87244 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/smbd/build_options.c
 drwxr-xr-x root       root              180 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source4
 drwxr-xr-x root       root              140 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source4/auth
 -rw-r--r-- root       root             1064 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source4/auth/auth_sam.h
