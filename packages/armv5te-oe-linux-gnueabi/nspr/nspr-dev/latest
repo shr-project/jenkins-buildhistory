@@ -1,8 +1,8 @@
 PV = 4.10.8
 PR = r1
-PKGR = r1.38
+PKGR = r1.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) nspr (= 4.10.8-r1.38) nspr (>= 4.10.8) perl
+RDEPENDS = glibc (>= 2.22) nspr (= 4.10.8-r1.0) nspr (>= 4.10.8) perl
 RRECOMMENDS = glibc-dev perl-dev
 PKGSIZE = 1439575
 FILES = /usr/bin/* /usr/lib/nspr/tests/* /usr/lib/pkgconfig /usr/include/* /usr/share/aclocal/*

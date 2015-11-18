@@ -1,8 +1,8 @@
 PV = 5.5.0
 PR = r0
-PKGR = r0.17
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = cairo (>= 1.14.2) expat (>= 2.1.0) fontconfig (>= 2.11.94) freetype (>= 2.6) glib-2.0 (>= 2.44.1) glibc (>= 2.22) gmp (>= 6.0.0) gnutls (>= 3.3.17.1) harfbuzz (>= 1.0.2) libcap (>= 2.24) libcurl (>= 7.44.0) libffi (>= 3.2.1) libltdl (>= 2.4.6) libpcap (>= 1.6.2) libpng (>= 1.6.17) libudev (>= 225+git0+e1439a1472) libx11 (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.11) libxcb-render (>= 1.11) libxcb-shm (>= 1.11) libxdmcp (>= 1.1.2) libxext (>= 1.3.3) libxml2 (>= 2.9.2) libxrender (>= 0.9.9) lvm2 (>= 2.02.125) nettle (>= 3.1.1) pango (>= 1.36.8) pixman (>= 0.32.6) rrdtool (>= 1.5.4) yajl (>= 2.1.0) zlib (>= 1.2.8)
+RDEPENDS = cairo (>= 1.14.4) expat (>= 2.1.0) fontconfig (>= 2.11.94) freetype (>= 2.6) glib-2.0 (>= 2.44.1) glibc (>= 2.22) gmp (>= 6.0.0) gnutls (>= 3.3.17.1) harfbuzz (>= 1.0.2) libcap (>= 2.24) libcurl (>= 7.44.0) libffi (>= 3.2.1) libltdl (>= 2.4.6) libpcap (>= 1.6.2) libpng (>= 1.6.17) libudev (>= 225+git0+e1439a1472) libx11 (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.11) libxcb-render (>= 1.11) libxcb-shm (>= 1.11) libxdmcp (>= 1.1.2) libxext (>= 1.3.3) libxml2 (>= 2.9.2) libxrender (>= 0.9.9) lvm2 (>= 2.02.125) nettle (>= 3.1.1) pango (>= 1.36.8) pixman (>= 0.32.6) rrdtool (>= 1.5.4) yajl (>= 2.1.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 1265636
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/collectd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/collectd /usr/lib/collectd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/collectd.service

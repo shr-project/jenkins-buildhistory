@@ -1,4 +1,4 @@
 PV = 3.14
 PR = r0
-DEPENDS = chrpath-replacement-native dbus dbus-glib initscripts libusb1 ncurses pps-tools python python-native python-scons-native qt4-x11-free systemd-systemctl-native update-rc.d update-rc.d-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = bluez5 chrpath-replacement-native dbus dbus-glib initscripts libusb1 ncurses pps-tools python python-native python-scons-native qt4-x11-free systemd-systemctl-native update-rc.d update-rc.d-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = libgps libgpsd python-pygps-dbg python-pygps gpsd-udev gpsd-conf gpsd-gpsctl gps-utils gpsd-dbg gpsd-staticdev gpsd-dev gpsd-doc gpsd-locale gpsd

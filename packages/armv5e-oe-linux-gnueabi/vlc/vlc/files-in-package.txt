@@ -71,7 +71,7 @@ drwxr-xr-x root       root              140 ./usr/lib/vlc/lua/sd
 -rw-r--r-- root       root             6500 ./usr/lib/vlc/lua/sd/jamendo.luac
 -rw-r--r-- root       root             2727 ./usr/lib/vlc/lua/sd/metachannels.luac
 drwxr-xr-x root       root              540 ./usr/lib/vlc/plugins
-drwxr-xr-x root       root             1400 ./usr/lib/vlc/plugins/access
+drwxr-xr-x root       root             1200 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root             1109 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.la
 -rwxr-xr-x root       root            14648 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.so
 -rwxr-xr-x root       root             1074 ./usr/lib/vlc/plugins/access/libaccess_bd_plugin.la
@@ -86,14 +86,8 @@ drwxr-xr-x root       root             1400 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root             5008 ./usr/lib/vlc/plugins/access/libattachment_plugin.so
 -rwxr-xr-x root       root             1044 ./usr/lib/vlc/plugins/access/libcdda_plugin.la
 -rwxr-xr-x root       root            18596 ./usr/lib/vlc/plugins/access/libcdda_plugin.so
--rwxr-xr-x root       root             1176 ./usr/lib/vlc/plugins/access/libdc1394_plugin.la
--rwxr-xr-x root       root            14364 ./usr/lib/vlc/plugins/access/libdc1394_plugin.so
 -rwxr-xr-x root       root             1038 ./usr/lib/vlc/plugins/access/libdtv_plugin.la
 -rwxr-xr-x root       root            47736 ./usr/lib/vlc/plugins/access/libdtv_plugin.so
--rwxr-xr-x root       root             1152 ./usr/lib/vlc/plugins/access/libdv1394_plugin.la
--rwxr-xr-x root       root            10780 ./usr/lib/vlc/plugins/access/libdv1394_plugin.so
--rwxr-xr-x root       root             1127 ./usr/lib/vlc/plugins/access/libdvdnav_plugin.la
--rwxr-xr-x root       root            42004 ./usr/lib/vlc/plugins/access/libdvdnav_plugin.so
 -rwxr-xr-x root       root             1086 ./usr/lib/vlc/plugins/access/libdvdread_plugin.la
 -rwxr-xr-x root       root            27772 ./usr/lib/vlc/plugins/access/libdvdread_plugin.so
 -rwxr-xr-x root       root             1080 ./usr/lib/vlc/plugins/access/libfilesystem_plugin.la
@@ -118,12 +112,8 @@ drwxr-xr-x root       root             1400 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root            24660 ./usr/lib/vlc/plugins/access/librtp_plugin.so
 -rwxr-xr-x root       root             1038 ./usr/lib/vlc/plugins/access/libsdp_plugin.la
 -rwxr-xr-x root       root             4548 ./usr/lib/vlc/plugins/access/libsdp_plugin.so
--rwxr-xr-x root       root             1084 ./usr/lib/vlc/plugins/access/libsftp_plugin.la
--rwxr-xr-x root       root             9084 ./usr/lib/vlc/plugins/access/libsftp_plugin.so
 -rwxr-xr-x root       root             1038 ./usr/lib/vlc/plugins/access/libshm_plugin.la
 -rwxr-xr-x root       root            10264 ./usr/lib/vlc/plugins/access/libshm_plugin.so
--rwxr-xr-x root       root             1050 ./usr/lib/vlc/plugins/access/libsmb_plugin.la
--rwxr-xr-x root       root             7572 ./usr/lib/vlc/plugins/access/libsmb_plugin.so
 -rwxr-xr-x root       root             1038 ./usr/lib/vlc/plugins/access/libtcp_plugin.la
 -rwxr-xr-x root       root             5200 ./usr/lib/vlc/plugins/access/libtcp_plugin.so
 -rwxr-xr-x root       root             1068 ./usr/lib/vlc/plugins/access/libtimecode_plugin.la
@@ -219,7 +209,7 @@ drwxr-xr-x root       root              240 ./usr/lib/vlc/plugins/audio_output
 -rwxr-xr-x root       root             7544 ./usr/lib/vlc/plugins/audio_output/libamem_plugin.so
 -rwxr-xr-x root       root             1807 ./usr/lib/vlc/plugins/audio_output/libpulse_plugin.la
 -rwxr-xr-x root       root            23356 ./usr/lib/vlc/plugins/audio_output/libpulse_plugin.so
-drwxr-xr-x root       root             1600 ./usr/lib/vlc/plugins/codec
+drwxr-xr-x root       root             1520 ./usr/lib/vlc/plugins/codec
 -rwxr-xr-x root       root             1037 ./usr/lib/vlc/plugins/codec/liba52_plugin.la
 -rwxr-xr-x root       root             9608 ./usr/lib/vlc/plugins/codec/liba52_plugin.so
 -rwxr-xr-x root       root             1049 ./usr/lib/vlc/plugins/codec/libadpcm_plugin.la
@@ -280,8 +270,6 @@ drwxr-xr-x root       root             1600 ./usr/lib/vlc/plugins/codec
 -rwxr-xr-x root       root            16820 ./usr/lib/vlc/plugins/codec/libsubsusf_plugin.so
 -rwxr-xr-x root       root             1061 ./usr/lib/vlc/plugins/codec/libsvcdsub_plugin.la
 -rwxr-xr-x root       root             8552 ./usr/lib/vlc/plugins/codec/libsvcdsub_plugin.so
--rwxr-xr-x root       root             2426 ./usr/lib/vlc/plugins/codec/libsvgdec_plugin.la
--rwxr-xr-x root       root            10500 ./usr/lib/vlc/plugins/codec/libsvgdec_plugin.so
 -rwxr-xr-x root       root             1043 ./usr/lib/vlc/plugins/codec/libt140_plugin.la
 -rwxr-xr-x root       root             4456 ./usr/lib/vlc/plugins/codec/libt140_plugin.so
 -rwxr-xr-x root       root             1043 ./usr/lib/vlc/plugins/codec/libtelx_plugin.la
@@ -292,8 +280,6 @@ drwxr-xr-x root       root             1600 ./usr/lib/vlc/plugins/codec
 -rwxr-xr-x root       root            11932 ./usr/lib/vlc/plugins/codec/libtremor_plugin.so
 -rwxr-xr-x root       root             1091 ./usr/lib/vlc/plugins/codec/libuleaddvaudio_plugin.la
 -rwxr-xr-x root       root             6060 ./usr/lib/vlc/plugins/codec/libuleaddvaudio_plugin.so
--rwxr-xr-x root       root             1167 ./usr/lib/vlc/plugins/codec/libvorbis_plugin.la
--rwxr-xr-x root       root            23060 ./usr/lib/vlc/plugins/codec/libvorbis_plugin.so
 -rwxr-xr-x root       root             1050 ./usr/lib/vlc/plugins/codec/libx264_plugin.la
 -rwxr-xr-x root       root            45272 ./usr/lib/vlc/plugins/codec/libx264_plugin.so
 -rwxr-xr-x root       root             1037 ./usr/lib/vlc/plugins/codec/libxwd_plugin.la
@@ -315,7 +301,7 @@ drwxr-xr-x root       root              360 ./usr/lib/vlc/plugins/control
 -rwxr-xr-x root       root            40040 ./usr/lib/vlc/plugins/control/liboldrc_plugin.so
 -rwxr-xr-x root       root             1239 ./usr/lib/vlc/plugins/control/libxcb_hotkeys_plugin.la
 -rwxr-xr-x root       root             9312 ./usr/lib/vlc/plugins/control/libxcb_hotkeys_plugin.so
-drwxr-xr-x root       root             1560 ./usr/lib/vlc/plugins/demux
+drwxr-xr-x root       root             1520 ./usr/lib/vlc/plugins/demux
 -rwxr-xr-x root       root             1043 ./usr/lib/vlc/plugins/demux/libaiff_plugin.la
 -rwxr-xr-x root       root            10596 ./usr/lib/vlc/plugins/demux/libaiff_plugin.so
 -rwxr-xr-x root       root             1037 ./usr/lib/vlc/plugins/demux/libasf_plugin.la
@@ -358,8 +344,6 @@ drwxr-xr-x root       root             1560 ./usr/lib/vlc/plugins/demux
 -rwxr-xr-x root       root            13160 ./usr/lib/vlc/plugins/demux/libnsv_plugin.so
 -rwxr-xr-x root       root             1037 ./usr/lib/vlc/plugins/demux/libnuv_plugin.la
 -rwxr-xr-x root       root            15352 ./usr/lib/vlc/plugins/demux/libnuv_plugin.so
--rwxr-xr-x root       root             1100 ./usr/lib/vlc/plugins/demux/libogg_plugin.la
--rwxr-xr-x root       root            89312 ./usr/lib/vlc/plugins/demux/libogg_plugin.so
 -rwxr-xr-x root       root             1067 ./usr/lib/vlc/plugins/demux/libplaylist_plugin.la
 -rwxr-xr-x root       root            76876 ./usr/lib/vlc/plugins/demux/libplaylist_plugin.so
 -rwxr-xr-x root       root             1031 ./usr/lib/vlc/plugins/demux/libps_plugin.la
@@ -467,7 +451,7 @@ drwxr-xr-x root       root              440 ./usr/lib/vlc/plugins/packetizer
 -rwxr-xr-x root       root            18460 ./usr/lib/vlc/plugins/packetizer/libpacketizer_mpegvideo_plugin.so
 -rwxr-xr-x root       root             1108 ./usr/lib/vlc/plugins/packetizer/libpacketizer_vc1_plugin.la
 -rwxr-xr-x root       root            26652 ./usr/lib/vlc/plugins/packetizer/libpacketizer_vc1_plugin.so
-drwxr-xr-x root       root              400 ./usr/lib/vlc/plugins/services_discovery
+drwxr-xr-x root       root              360 ./usr/lib/vlc/plugins/services_discovery
 -rwxr-xr-x root       root             1193 ./usr/lib/vlc/plugins/services_discovery/libbonjour_plugin.la
 -rwxr-xr-x root       root            10344 ./usr/lib/vlc/plugins/services_discovery/libbonjour_plugin.so
 -rwxr-xr-x root       root             1086 ./usr/lib/vlc/plugins/services_discovery/libmediadirs_plugin.la
@@ -482,8 +466,6 @@ drwxr-xr-x root       root              400 ./usr/lib/vlc/plugins/services_disco
 -rwxr-xr-x root       root            32484 ./usr/lib/vlc/plugins/services_discovery/libsap_plugin.so
 -rwxr-xr-x root       root             1124 ./usr/lib/vlc/plugins/services_discovery/libudev_plugin.la
 -rwxr-xr-x root       root            13584 ./usr/lib/vlc/plugins/services_discovery/libudev_plugin.so
--rwxr-xr-x root       root             1201 ./usr/lib/vlc/plugins/services_discovery/libupnp_plugin.la
--rwxr-xr-x root       root            25568 ./usr/lib/vlc/plugins/services_discovery/libupnp_plugin.so
 -rwxr-xr-x root       root             1184 ./usr/lib/vlc/plugins/services_discovery/libxcb_apps_plugin.la
 -rwxr-xr-x root       root             9092 ./usr/lib/vlc/plugins/services_discovery/libxcb_apps_plugin.so
 drwxr-xr-x root       root              200 ./usr/lib/vlc/plugins/stream_filter
@@ -532,11 +514,9 @@ drwxr-xr-x root       root              760 ./usr/lib/vlc/plugins/stream_out
 -rwxr-xr-x root       root             7916 ./usr/lib/vlc/plugins/stream_out/libstream_out_stats_plugin.so
 -rwxr-xr-x root       root             1144 ./usr/lib/vlc/plugins/stream_out/libstream_out_transcode_plugin.la
 -rwxr-xr-x root       root            40828 ./usr/lib/vlc/plugins/stream_out/libstream_out_transcode_plugin.so
-drwxr-xr-x root       root              160 ./usr/lib/vlc/plugins/text_renderer
+drwxr-xr-x root       root              120 ./usr/lib/vlc/plugins/text_renderer
 -rwxr-xr-x root       root             1229 ./usr/lib/vlc/plugins/text_renderer/libfreetype_plugin.la
 -rwxr-xr-x root       root            61136 ./usr/lib/vlc/plugins/text_renderer/libfreetype_plugin.so
--rwxr-xr-x root       root             2416 ./usr/lib/vlc/plugins/text_renderer/libsvg_plugin.la
--rwxr-xr-x root       root            11812 ./usr/lib/vlc/plugins/text_renderer/libsvg_plugin.so
 -rwxr-xr-x root       root             1063 ./usr/lib/vlc/plugins/text_renderer/libtdummy_plugin.la
 -rwxr-xr-x root       root             3832 ./usr/lib/vlc/plugins/text_renderer/libtdummy_plugin.so
 drwxr-xr-x root       root              440 ./usr/lib/vlc/plugins/video_chroma

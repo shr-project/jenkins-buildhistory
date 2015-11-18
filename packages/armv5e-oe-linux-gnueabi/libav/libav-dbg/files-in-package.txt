@@ -6,7 +6,7 @@ drwxr-xr-x root       root              100 ./usr/bin/.debug
 -rwxr-xr-x root       root           180716 ./usr/bin/.debug/avprobe
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              180 ./usr/lib/.debug
--rwxr-xr-x root       root         23961440 ./usr/lib/.debug/libavcodec.so.54.35.0
+-rwxr-xr-x root       root         23886536 ./usr/lib/.debug/libavcodec.so.54.35.0
 -rwxr-xr-x root       root           314992 ./usr/lib/.debug/libavdevice.so.53.2.0
 -rwxr-xr-x root       root           702736 ./usr/lib/.debug/libavfilter.so.3.3.0
 -rwxr-xr-x root       root          7594040 ./usr/lib/.debug/libavformat.so.54.20.4
@@ -40,7 +40,7 @@ drwxr-xr-x root       root              280 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- root       root           441767 ./usr/src/debug/libav/9.18-r0/libav-9.18/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/libavcodec/sinewin_tables.h
 -rw-r--r-- root       root            53853 ./usr/src/debug/libav/9.18-r0/libav-9.18/cmdutils.c
 -rw-r--r-- root       root            18435 ./usr/src/debug/libav/9.18-r0/libav-9.18/cmdutils.h
-drwxr-xr-x root       root            14540 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec
+drwxr-xr-x root       root            14480 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec
 -rw-r--r-- root       root            33428 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/4xm.c
 -rw-r--r-- root       root             6771 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/8bps.c
 -rw-r--r-- root       root             7761 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/8svx.c
@@ -556,7 +556,6 @@ drwxr-xr-x root       root             1480 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- root       root           155949 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mpegvideo_enc.c
 -rw-r--r-- root       root            34324 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mpegvideo_motion.c
 -rw-r--r-- root       root             7327 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mpegvideo_parser.c
--rw-r--r-- root       root            12439 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/mpegvideo_xvmc.c
 -rw-r--r-- root       root             1345 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/msgsmdec.c
 -rw-r--r-- root       root             1094 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/msgsmdec.h
 -rw-r--r-- root       root            41614 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/msmpeg4.c
@@ -829,8 +828,6 @@ drwxr-xr-x root       root             1480 ./usr/src/debug/libav/9.18-r0/libav-
 -rw-r--r-- root       root             4518 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/xl.c
 -rw-r--r-- root       root             5137 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/xsubdec.c
 -rw-r--r-- root       root             7310 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/xsubenc.c
--rw-r--r-- root       root             5982 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/xvmc.h
--rw-r--r-- root       root             1212 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/xvmc_internal.h
 -rw-r--r-- root       root             9367 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/xwddec.c
 -rw-r--r-- root       root             9118 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/xwdenc.c
 -rw-r--r-- root       root            13335 ./usr/src/debug/libav/9.18-r0/libav-9.18/libavcodec/xxan.c

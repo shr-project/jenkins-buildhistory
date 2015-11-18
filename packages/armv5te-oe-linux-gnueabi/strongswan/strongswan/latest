@@ -1,8 +1,8 @@
 PV = 5.3.2
 PR = r0
-PKGR = r0.19
+PKGR = r0.0
 RPROVIDES = strongswan-systemd
-RDEPENDS = glibc (>= 2.22) gmp (>= 6.0.0) gnutls (>= 3.3.17.1) libcrypto (>= 1.0.2d) libcurl (>= 7.44.0) libsqlite3 (>= 3.8.10.2) nettle (>= 3.1.1) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.22) gmp (>= 6.0.0) gnutls (>= 3.3.17.1) libcrypto (>= 1.0.2d) libcurl (>= 7.44.0) libsqlite3 (>= 3.9.0) nettle (>= 3.1.1) zlib (>= 1.2.8)
 RRECOMMENDS = kernel-module-ipsec
 RREPLACES = strongswan-systemd
 RCONFLICTS = strongswan-systemd

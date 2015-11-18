@@ -30,8 +30,8 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/weston
 drwxr-xr-x root       root              320 ./usr/lib/weston/.debug
 -rwxr-xr-x root       root           308708 ./usr/lib/weston/.debug/desktop-shell.so
--rwxr-xr-x root       root           226700 ./usr/lib/weston/.debug/drm-backend.so
--rwxr-xr-x root       root           162672 ./usr/lib/weston/.debug/fbdev-backend.so
+-rwxr-xr-x root       root           275720 ./usr/lib/weston/.debug/drm-backend.so
+-rwxr-xr-x root       root           211620 ./usr/lib/weston/.debug/fbdev-backend.so
 -rwxr-xr-x root       root            51528 ./usr/lib/weston/.debug/fullscreen-shell.so
 -rwxr-xr-x root       root           107048 ./usr/lib/weston/.debug/gl-renderer.so
 -rwxr-xr-x root       root           114044 ./usr/lib/weston/.debug/hmi-controller.so
@@ -149,7 +149,7 @@ drwxr-xr-x root       root              360 ./usr/src/debug/weston/1.8.0-r0/west
 -rw-r--r-- root       root             1675 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/shared/os-compatibility.h
 -rw-r--r-- root       root             3730 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/shared/platform.h
 -rw-r--r-- root       root             1432 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/shared/zalloc.h
-drwxr-xr-x root       root              740 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src
+drwxr-xr-x root       root              800 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src
 -rw-r--r-- root       root            13062 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/animation.c
 -rw-r--r-- root       root            15763 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/bindings.c
 -rw-r--r-- root       root             7681 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/clipboard.c
@@ -160,6 +160,8 @@ drwxr-xr-x root       root              740 ./usr/src/debug/weston/1.8.0-r0/west
 -rw-r--r-- root       root           144839 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/compositor.c
 -rw-r--r-- root       root            44687 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/compositor.h
 -rw-r--r-- root       root            25777 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/data-device.c
+-rw-r--r-- root       root             9887 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/dbus.c
+-rw-r--r-- root       root             4102 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/dbus.h
 -rw-r--r-- root       root            70802 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/gl-renderer.c
 -rw-r--r-- root       root             4187 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/gl-renderer.h
 -rw-r--r-- root       root            63182 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/input.c
@@ -172,6 +174,7 @@ drwxr-xr-x root       root              740 ./usr/src/debug/weston/1.8.0-r0/west
 -rw-r--r-- root       root            10117 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/libinput-seat.c
 -rw-r--r-- root       root             1995 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/libinput-seat.h
 -rw-r--r-- root       root             3253 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/log.c
+-rw-r--r-- root       root            21679 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/logind-util.c
 -rw-r--r-- root       root             2993 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/logind-util.h
 -rw-r--r-- root       root             3564 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/noop-renderer.c
 -rw-r--r-- root       root            25584 ./usr/src/debug/weston/1.8.0-r0/weston-1.8.0/src/pixman-renderer.c
