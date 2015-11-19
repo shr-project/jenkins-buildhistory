@@ -8,7 +8,7 @@ drwxr-xr-x root       root               60 ./etc/dbus-1
 drwxr-xr-x root       root              100 ./etc/dbus-1/system.d
 -rw-r--r-- root       root              475 ./etc/dbus-1/system.d/nm-avahi-autoipd.conf
 -rw-r--r-- root       root              465 ./etc/dbus-1/system.d/nm-dispatcher.conf
--rw-r--r-- root       root             8119 ./etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf
+-rw-r--r-- root       root             8284 ./etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf
 drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root              120 ./lib/systemd/system
@@ -19,29 +19,24 @@ drwxr-xr-x root       root               60 ./lib/systemd/system/network-online.
 lrwxrwxrwx root       root               54 ./lib/systemd/system/network-online.target.wants/NetworkManager-wait-online.service -> /lib/systemd/system/NetworkManager-wait-online.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/rules.d
--rw-r--r-- root       root             1816 ./lib/udev/rules.d/85-nm-unmanaged.rules
+-rw-r--r-- root       root             1817 ./lib/udev/rules.d/85-nm-unmanaged.rules
 drwxr-xr-x root       root              120 ./usr
-drwxr-xr-x root       root              140 ./usr/bin
--rwxr-xr-x root       root           508160 ./usr/bin/nmcli
--rwxr-xr-x root       root           274568 ./usr/bin/nmtui
--rwxr-xr-x root       root           274568 ./usr/bin/nmtui-connect
--rwxr-xr-x root       root           274568 ./usr/bin/nmtui-edit
--rwxr-xr-x root       root           274568 ./usr/bin/nmtui-hostname
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root           512320 ./usr/bin/nmcli
 drwxr-xr-x root       root              120 ./usr/lib
-drwxr-xr-x root       root              120 ./usr/lib/NetworkManager
--rwxr-xr-x root       root            26932 ./usr/lib/NetworkManager/libnm-device-plugin-adsl.so
--rwxr-xr-x root       root           126540 ./usr/lib/NetworkManager/libnm-device-plugin-wifi.so
+drwxr-xr-x root       root              100 ./usr/lib/NetworkManager
+-rwxr-xr-x root       root           127788 ./usr/lib/NetworkManager/libnm-device-plugin-wifi.so
 -rwxr-xr-x root       root            20872 ./usr/lib/NetworkManager/libnm-settings-plugin-ibft.so
 -rwxr-xr-x root       root            50516 ./usr/lib/NetworkManager/libnm-settings-plugin-ifupdown.so
 lrwxrwxrwx root       root               14 ./usr/lib/libnm.so.0 -> libnm.so.0.0.0
--rwxr-xr-x root       root          1493936 ./usr/lib/libnm.so.0.0.0
+-rwxr-xr-x root       root          1502768 ./usr/lib/libnm.so.0.0.0
 drwxr-xr-x root       root              120 ./usr/lib/networkmanager
 -rwxr-xr-x root       root             5976 ./usr/lib/networkmanager/nm-avahi-autoipd.action
 -rwxr-xr-x root       root             6232 ./usr/lib/networkmanager/nm-dhcp-helper
 -rwxr-xr-x root       root            40472 ./usr/lib/networkmanager/nm-dispatcher
--rwxr-xr-x root       root          1165276 ./usr/lib/networkmanager/nm-iface-helper
+-rwxr-xr-x root       root          1178748 ./usr/lib/networkmanager/nm-iface-helper
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root          2189136 ./usr/sbin/NetworkManager
+-rwxr-xr-x root       root          2219984 ./usr/sbin/NetworkManager
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               80 ./usr/share/dbus-1/system-services

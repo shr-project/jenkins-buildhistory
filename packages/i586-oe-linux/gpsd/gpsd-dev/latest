@@ -1,9 +1,9 @@
 PV = 3.14
 PR = r0
-PKGR = r0.37
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = gpsd (= 3.14-r0.37) libgps libgpsd
-RRECOMMENDS = dbus-dev dbus-glib-dev dbus-lib-dev glibc-dev gpsd-conf-dev gpsd-gpsctl-dev initscripts-dev libgcc-dev libgps-dev libgpsd-dev libqtcore4-dev libqtnetwork4-dev libstdc++-dev libusb1-dev ncurses-dev ncurses-libncurses-dev ncurses-libtinfo-dev pps-tools-dev python-core-dev python-curses-dev python-dev python-json-dev python-pygps-dev qt4-x11-free-dev udev-dev update-rc.d-dev
+RDEPENDS = gpsd (= 3.14-r0.0) libgps libgpsd
+RRECOMMENDS = bluez5-dev dbus-dev dbus-glib-dev dbus-lib-dev glibc-dev gpsd-conf-dev gpsd-gpsctl-dev initscripts-dev libgcc-dev libgps-dev libgpsd-dev libqtcore4-dev libqtnetwork4-dev libstdc++-dev libusb1-dev ncurses-dev ncurses-libncurses-dev ncurses-libtinfo-dev pps-tools-dev python-core-dev python-curses-dev python-dev python-json-dev python-pygps-dev qt4-x11-free-dev udev-dev update-rc.d-dev
 PKGSIZE = 83125
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gpsd/*.la /lib/*.la /usr/lib/pkgconfdir/libgpsd.pc /usr/lib/pkgconfdir/libgps.pc /usr/lib/libQgpsmm.prl
 FILELIST = /usr/include/gps.h /usr/include/libgpsmm.h /usr/lib/libQgpsmm.prl /usr/lib/libQgpsmm.so /usr/lib/libgps.so /usr/lib/libgpsd.so /usr/lib/pkgconfig/Qgpsmm.pc /usr/lib/pkgconfig/libgps.pc /usr/lib/pkgconfig/libgpsd.pc

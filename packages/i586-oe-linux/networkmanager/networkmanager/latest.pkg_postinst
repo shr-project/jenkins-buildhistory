@@ -6,10 +6,10 @@ if [ -n "$D" ]; then
 fi
 
 if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS enable NetworkManager.service
+	systemctl $OPTS enable NetworkManager.service NetworkManager-dispatcher.service
 
 	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl restart NetworkManager.service
+		systemctl restart NetworkManager.service NetworkManager-dispatcher.service
 	fi
 fi
 if [ x"$D" = "x" ]; then

@@ -1,9 +1,9 @@
 PV = 0.14.8
 PR = r0
-PKGR = r0.46
+PKGR = r0.0
 PKG = libgssdp-1.0-3
 RPROVIDES = 0.14.8 gssdp
-RDEPENDS = glib-2.0 (>= 2.44.1) glibc (>= 2.22) libffi (>= 3.2.1) libsoup-2.4 (>= 2.50.0) libsqlite3 (>= 3.8.10.2) libxml2 (>= 2.9.2) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.44.1) glibc (>= 2.22) libffi (>= 3.2.1) libsoup-2.4 (>= 2.50.0) libsqlite3 (>= 3.9.0) libxml2 (>= 2.9.2) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 88995
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/gssdp/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gssdp /usr/lib/gssdp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,8 +1,8 @@
 PV = 1.5.4
 PR = r0
-PKGR = r0.22
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = gpgme (= 1.5.4-r0.22) gpgme-pthread
+RDEPENDS = gpgme (= 1.5.4-r0.0) gpgme-pthread
 RRECOMMENDS = glibc-dev gpgme-pthread-dev libassuan-dev libgpg-error-dev
 PKGSIZE = 140658
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gpgme/*.la /lib/*.la /usr/bin/*-config /usr/share/common-lisp/source/gpgme/*

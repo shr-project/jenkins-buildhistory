@@ -1,10 +1,10 @@
 PV = 3.14
 PR = r0
-PKGR = r0.37
+PKGR = r0.0
 PKG = libgps22
 RPROVIDES = 3.14 libgps
-RDEPENDS = dbus-lib (>= 1.8.20) glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0)
+RDEPENDS = bluez5 (>= 5.33) dbus-lib (>= 1.8.20) glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0)
 RRECOMMENDS = 
-PKGSIZE = 115316
+PKGSIZE = 115380
 FILES = /usr/lib/libgps.so.*
 FILELIST = /usr/lib/libgps.so.22 /usr/lib/libgps.so.22.0 /usr/lib/libgps.so.22.0.0

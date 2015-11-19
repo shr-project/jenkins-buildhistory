@@ -1,8 +1,8 @@
 PV = 3.0.8
 PR = r0
-PKGR = r0.15
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = clutter-gst-3.0 (= 3.0.8-r0.15)
+RDEPENDS = clutter-gst-3.0 (= 3.0.8-r0.0)
 RRECOMMENDS = atk-dev cairo-dev cairo-gobject-dev clutter-1.0-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gstreamer1.0-dev gstreamer1.0-meta-base-dev gstreamer1.0-plugins-bad-dev gstreamer1.0-plugins-base-dev harfbuzz-dev json-glib-dev libcap-dev libcogl-dev libcogl-pango-dev libcogl-path-dev libdrm-dev libegl-mesa-dev libffi-dev libgbm-dev libgstaudio-1.0-dev libgstpbutils-1.0-dev libgsttag-1.0-dev libgstvideo-1.0-dev libgudev-dev liborc-0.4-dev libpng-dev libudev-dev libwayland-egl-dev libx11-dev libx11-xcb-dev libxau-dev libxcb-dev libxcb-dri2-dev libxcb-render-dev libxcb-shape-dev libxcb-shm-dev libxcb-xfixes-dev libxcomposite-dev libxdamage-dev libxdmcp-dev libxext-dev libxfixes-dev libxi-dev libxkbcommon-dev libxrandr-dev libxrender-dev pango-dev pixman-dev wayland-dev zlib-dev
 PKGSIZE = 66095
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/clutter-gst-3.0/*.la /lib/*.la /usr/lib/gstreamer-1.0/*.la

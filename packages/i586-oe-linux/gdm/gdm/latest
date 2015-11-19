@@ -1,8 +1,8 @@
 PV = 2.32.2
 PR = r18
-PKGR = r18.34
+PKGR = r18.0
 RPROVIDES = 
-RDEPENDS = base-files base-passwd cairo (>= 1.14.2) dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) dbus-x11 fontconfig (>= 2.11.94) gconf (>= 3.2.6) gdk-pixbuf (>= 2.30.8) glib-2.0 (>= 2.44.1) glibc (>= 2.22) grep gtk+ (>= 2.24.28) hicolor-icon-theme libcanberra (>= 0.30) libcanberra-gtk2 (>= 0.30) libpam (>= 1.2.1) libwrap (>= 7.6) libx11 (>= 1.6.3) libxau (>= 1.0.8) libxdmcp (>= 1.1.2) libxklavier (>= 5.3) pango (>= 1.36.8) shadow upower (>= 0.9.14)
+RDEPENDS = base-files base-passwd cairo (>= 1.14.4) dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) dbus-x11 fontconfig (>= 2.11.94) gconf (>= 3.2.6) gdk-pixbuf (>= 2.30.8) glib-2.0 (>= 2.44.1) glibc (>= 2.22) grep gtk+ (>= 2.24.28) hicolor-icon-theme libcanberra (>= 0.30) libcanberra-gtk2 (>= 0.30) libpam (>= 1.2.1) libwrap (>= 7.6) libx11 (>= 1.6.3) libxau (>= 1.0.8) libxdmcp (>= 1.1.2) libxklavier (>= 5.3) pango (>= 1.36.8) shadow upower (>= 0.9.14)
 RRECOMMENDS = consolekit desktop-file-utils glib-2.0-utils gnome-session metacity openssh-misc polkit-gnome
 RREPLACES = gdm-systemd
 RCONFLICTS = gdm-systemd
