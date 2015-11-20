@@ -1,9 +1,9 @@
-PV = 1.0+gitAUTOINC+cdee5a4dd2
+PV = 1.0+gitAUTOINC+927979bbd1
 PR = r0
-PKGV = 1.0+git2+cdee5a4dd2
-PKGR = r0.7
+PKGV = 1.0+git0+927979bbd1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = prelink (= 1.0+git2+cdee5a4dd2-r0.7)
+RDEPENDS = prelink (= 1.0+git0+927979bbd1-r0.0)
 RRECOMMENDS = binutils-dev elfutils-dev glibc-dev libelf-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/prelink/*.la /lib/*.la

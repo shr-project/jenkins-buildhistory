@@ -1,10 +1,10 @@
-PV = 1.0.4
+PV = 1.0.6
 PR = r0
-PKGR = r0.13
+PKGR = r0.0
 PKG = libnm-util2
-RPROVIDES = 1.0.4 libnmutil
+RPROVIDES = 1.0.6 libnmutil
 RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) glib-2.0 (>= 2.44.1) glibc (>= 2.22) libffi (>= 3.2.1) nspr (>= 4.10.8) nss (>= 3.19.2) util-linux-libuuid (>= 2.26.2) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 445947
+PKGSIZE = 446171
 FILES = /usr/lib/libnm-util.so.*
 FILELIST = /usr/lib/libnm-util.so.2 /usr/lib/libnm-util.so.2.7.0

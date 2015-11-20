@@ -3,61 +3,61 @@ drwxr-xr-x root       root               60 ./etc/init.d
 -rwxr-xr-x root       root             2353 ./etc/init.d/snort
 drwxr-xr-x root       root              240 ./etc/snort
 -rw-r--r-- root       root             1281 ./etc/snort/attribute_table.dtd
--rw-r--r-- root       root             3793 ./etc/snort/classification.config
--rw-r--r-- root       root            20894 ./etc/snort/file_magic.conf
--rw-r--r-- root       root            31162 ./etc/snort/gen-msg.map
+-rw-r--r-- root       root             3820 ./etc/snort/classification.config
+-rw-r--r-- root       root            23058 ./etc/snort/file_magic.conf
+-rw-r--r-- root       root            31762 ./etc/snort/gen-msg.map
 drwxr-xr-x root       root              100 ./etc/snort/preproc_rules
--rw-r--r-- root       root            20345 ./etc/snort/preproc_rules/decoder.rules
--rw-r--r-- root       root            42521 ./etc/snort/preproc_rules/preprocessor.rules
+-rw-r--r-- root       root            20462 ./etc/snort/preproc_rules/decoder.rules
+-rw-r--r-- root       root            43516 ./etc/snort/preproc_rules/preprocessor.rules
 -rw-r--r-- root       root             1309 ./etc/snort/preproc_rules/sensitive-data.rules
--rw-r--r-- root       root              687 ./etc/snort/reference.config
+-rw-r--r-- root       root              741 ./etc/snort/reference.config
 drwxr-xr-x root       root               40 ./etc/snort/rules
--rw-r--r-- root       root            27840 ./etc/snort/snort.conf
--rw-r--r-- root       root             2556 ./etc/snort/threshold.conf
+-rw-r--r-- root       root            29554 ./etc/snort/snort.conf
+-rw-r--r-- root       root             2335 ./etc/snort/threshold.conf
 -rw-r--r-- root       root           160606 ./etc/snort/unicode.map
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root          1384768 ./usr/bin/snort
+-rwxr-xr-x root       root          1446720 ./usr/bin/snort
 -rwxr-xr-x root       root             9240 ./usr/bin/u2boat
--rwxr-xr-x root       root            12328 ./usr/bin/u2spewfoo
+-rwxr-xr-x root       root            12408 ./usr/bin/u2spewfoo
 drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/snort
 drwxr-xr-x root       root               60 ./usr/lib/snort/dynamic_output
--rwxr-xr-x root       root             1074 ./usr/lib/snort/dynamic_output/libsf_dynamic_output.la
+-rwxr-xr-x root       root             1088 ./usr/lib/snort/dynamic_output/libsf_dynamic_output.la
 drwxr-xr-x root       root               60 ./usr/lib/snort/dynamic_preproc
--rwxr-xr-x root       root             1078 ./usr/lib/snort/dynamic_preproc/libsf_dynamic_preproc.la
+-rwxr-xr-x root       root             1092 ./usr/lib/snort/dynamic_preproc/libsf_dynamic_preproc.la
 drwxr-xr-x root       root               80 ./usr/lib/snort_dynamicengine
 lrwxrwxrwx root       root               21 ./usr/lib/snort_dynamicengine/libsf_engine.so.0 -> libsf_engine.so.0.0.0
--rwxr-xr-x root       root            64872 ./usr/lib/snort_dynamicengine/libsf_engine.so.0.0.0
+-rwxr-xr-x root       root            66336 ./usr/lib/snort_dynamicengine/libsf_engine.so.0.0.0
 drwxr-xr-x root       root              600 ./usr/lib/snort_dynamicpreprocessor
 lrwxrwxrwx root       root               27 ./usr/lib/snort_dynamicpreprocessor/libsf_dce2_preproc.so.0 -> libsf_dce2_preproc.so.0.0.0
--rwxr-xr-x root       root           232936 ./usr/lib/snort_dynamicpreprocessor/libsf_dce2_preproc.so.0.0.0
+-rwxr-xr-x root       root           233288 ./usr/lib/snort_dynamicpreprocessor/libsf_dce2_preproc.so.0.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/snort_dynamicpreprocessor/libsf_dnp3_preproc.so.0 -> libsf_dnp3_preproc.so.0.0.0
--rwxr-xr-x root       root            29368 ./usr/lib/snort_dynamicpreprocessor/libsf_dnp3_preproc.so.0.0.0
+-rwxr-xr-x root       root            32792 ./usr/lib/snort_dynamicpreprocessor/libsf_dnp3_preproc.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_dns_preproc.so.0 -> libsf_dns_preproc.so.0.0.0
--rwxr-xr-x root       root            17232 ./usr/lib/snort_dynamicpreprocessor/libsf_dns_preproc.so.0.0.0
+-rwxr-xr-x root       root            19488 ./usr/lib/snort_dynamicpreprocessor/libsf_dns_preproc.so.0.0.0
 lrwxrwxrwx root       root               32 ./usr/lib/snort_dynamicpreprocessor/libsf_ftptelnet_preproc.so.0 -> libsf_ftptelnet_preproc.so.0.0.0
--rwxr-xr-x root       root            89928 ./usr/lib/snort_dynamicpreprocessor/libsf_ftptelnet_preproc.so.0.0.0
+-rwxr-xr-x root       root           109928 ./usr/lib/snort_dynamicpreprocessor/libsf_ftptelnet_preproc.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_gtp_preproc.so.0 -> libsf_gtp_preproc.so.0.0.0
--rwxr-xr-x root       root            43656 ./usr/lib/snort_dynamicpreprocessor/libsf_gtp_preproc.so.0.0.0
+-rwxr-xr-x root       root            44360 ./usr/lib/snort_dynamicpreprocessor/libsf_gtp_preproc.so.0.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/snort_dynamicpreprocessor/libsf_imap_preproc.so.0 -> libsf_imap_preproc.so.0.0.0
--rwxr-xr-x root       root            45800 ./usr/lib/snort_dynamicpreprocessor/libsf_imap_preproc.so.0.0.0
+-rwxr-xr-x root       root            50984 ./usr/lib/snort_dynamicpreprocessor/libsf_imap_preproc.so.0.0.0
 lrwxrwxrwx root       root               29 ./usr/lib/snort_dynamicpreprocessor/libsf_modbus_preproc.so.0 -> libsf_modbus_preproc.so.0.0.0
--rwxr-xr-x root       root            20216 ./usr/lib/snort_dynamicpreprocessor/libsf_modbus_preproc.so.0.0.0
+-rwxr-xr-x root       root            20664 ./usr/lib/snort_dynamicpreprocessor/libsf_modbus_preproc.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_pop_preproc.so.0 -> libsf_pop_preproc.so.0.0.0
--rwxr-xr-x root       root            42792 ./usr/lib/snort_dynamicpreprocessor/libsf_pop_preproc.so.0.0.0
+-rwxr-xr-x root       root            48872 ./usr/lib/snort_dynamicpreprocessor/libsf_pop_preproc.so.0.0.0
 lrwxrwxrwx root       root               33 ./usr/lib/snort_dynamicpreprocessor/libsf_reputation_preproc.so.0 -> libsf_reputation_preproc.so.0.0.0
--rwxr-xr-x root       root            40160 ./usr/lib/snort_dynamicpreprocessor/libsf_reputation_preproc.so.0.0.0
+-rwxr-xr-x root       root            40192 ./usr/lib/snort_dynamicpreprocessor/libsf_reputation_preproc.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_sdf_preproc.so.0 -> libsf_sdf_preproc.so.0.0.0
--rwxr-xr-x root       root            36040 ./usr/lib/snort_dynamicpreprocessor/libsf_sdf_preproc.so.0.0.0
+-rwxr-xr-x root       root            36056 ./usr/lib/snort_dynamicpreprocessor/libsf_sdf_preproc.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_sip_preproc.so.0 -> libsf_sip_preproc.so.0.0.0
--rwxr-xr-x root       root            44888 ./usr/lib/snort_dynamicpreprocessor/libsf_sip_preproc.so.0.0.0
+-rwxr-xr-x root       root            49080 ./usr/lib/snort_dynamicpreprocessor/libsf_sip_preproc.so.0.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/snort_dynamicpreprocessor/libsf_smtp_preproc.so.0 -> libsf_smtp_preproc.so.0.0.0
--rwxr-xr-x root       root            67144 ./usr/lib/snort_dynamicpreprocessor/libsf_smtp_preproc.so.0.0.0
+-rwxr-xr-x root       root            69000 ./usr/lib/snort_dynamicpreprocessor/libsf_smtp_preproc.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_ssh_preproc.so.0 -> libsf_ssh_preproc.so.0.0.0
--rwxr-xr-x root       root            17280 ./usr/lib/snort_dynamicpreprocessor/libsf_ssh_preproc.so.0.0.0
+-rwxr-xr-x root       root            19504 ./usr/lib/snort_dynamicpreprocessor/libsf_ssh_preproc.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_ssl_preproc.so.0 -> libsf_ssl_preproc.so.0.0.0
--rwxr-xr-x root       root            20264 ./usr/lib/snort_dynamicpreprocessor/libsf_ssl_preproc.so.0.0.0
+-rwxr-xr-x root       root            27808 ./usr/lib/snort_dynamicpreprocessor/libsf_ssl_preproc.so.0.0.0
 drwxr-xr-x root       root               80 ./var
 lrwxrwxrwx root       root               12 ./var/log -> volatile/log
 drwxr-xr-x root       root               60 ./var/volatile

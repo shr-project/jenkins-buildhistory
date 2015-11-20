@@ -1,4 +1,5 @@
 #!/bin/sh
+	update-alternatives --install /etc/systemd/system/syslog.service syslog-service /lib/systemd/system/syslog-ng.service 10
 OPTS=""
 
 if [ -n "$D" ]; then

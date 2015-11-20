@@ -1,0 +1,10 @@
+PV = 0.6.0
+PR = r0
+PKGR = r0.0
+PKG = libdleyna-core-1.0-dev
+RPROVIDES = 0.6.0 dleyna-core-dev
+RDEPENDS = dleyna-core (= 0.6.0-r0.0)
+RRECOMMENDS = glib-2.0-dev glibc-dev gssdp-dev gupnp-dev libffi-dev libsoup-2.4-dev libsqlite3-dev libxml2-dev util-linux-libuuid-dev zlib-dev
+PKGSIZE = 26674
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dleyna-core/*.la /lib/*.la
+FILELIST = /usr/include/dleyna-1.0/libdleyna/core/connector-mgr.h /usr/include/dleyna-1.0/libdleyna/core/connector.h /usr/include/dleyna-1.0/libdleyna/core/control-point.h /usr/include/dleyna-1.0/libdleyna/core/core.h /usr/include/dleyna-1.0/libdleyna/core/error.h /usr/include/dleyna-1.0/libdleyna/core/log.h /usr/include/dleyna-1.0/libdleyna/core/main-loop.h /usr/include/dleyna-1.0/libdleyna/core/service-task.h /usr/include/dleyna-1.0/libdleyna/core/settings.h /usr/include/dleyna-1.0/libdleyna/core/task-atom.h /usr/include/dleyna-1.0/libdleyna/core/task-processor.h /usr/include/dleyna-1.0/libdleyna/core/white-list.h /usr/lib/libdleyna-core-1.0.la /usr/lib/libdleyna-core-1.0.so /usr/lib/pkgconfig/dleyna-core-1.0.pc

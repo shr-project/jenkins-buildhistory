@@ -1,9 +1,9 @@
 PV = 3.14
 PR = r0
-PKGR = r0.38
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.8.20) glibc (>= 2.22) libgps (>= 3.14) libgpsd (>= 3.14) libusb1 (>= 1.0.19) ncurses-libncurses (>= 5.9) ncurses-libtinfo (>= 5.9) python-pygps
+RDEPENDS = bluez5 (>= 5.33) dbus-lib (>= 1.8.20) glibc (>= 2.22) libgps (>= 3.14) libgpsd (>= 3.14) libusb1 (>= 1.0.19) ncurses-libncurses (>= 5.9) ncurses-libtinfo (>= 5.9) python-pygps
 RRECOMMENDS = 
-PKGSIZE = 287958
+PKGSIZE = 288166
 FILES = /usr/bin/*
 FILELIST = /usr/bin/cgps /usr/bin/gegps /usr/bin/gps2udp /usr/bin/gpscat /usr/bin/gpsdecode /usr/bin/gpsfake /usr/bin/gpsmon /usr/bin/gpspipe /usr/bin/gpsprof /usr/bin/gpxlogger /usr/bin/lcdgps /usr/bin/ntpshmmon /usr/bin/xgps /usr/bin/xgpsspeed

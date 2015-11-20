@@ -7,8 +7,8 @@ fi
 
 if type systemctl >/dev/null 2>/dev/null; then
 	if [ -z "$D" ]; then
-		systemctl stop NetworkManager.service
+		systemctl stop NetworkManager.service NetworkManager-dispatcher.service
 	fi
 
-	systemctl $OPTS disable NetworkManager.service
+	systemctl $OPTS disable NetworkManager.service NetworkManager-dispatcher.service
 fi
