@@ -1,8 +1,8 @@
 PV = 2.0.4
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = base-files base-passwd cups-lib (>= 2.0.4) cups-libimage (>= 2.0.4) dbus-lib (>= 1.8.20) glibc (>= 2.22) libavahi-client (>= 0.6.31) libavahi-common (>= 0.6.31) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) libusb1 (>= 1.0.19) shadow zlib (>= 1.2.8)
+RDEPENDS = base-files base-passwd cups-lib (>= 2.0.4) cups-libimage (>= 2.0.4) dbus-lib (>= 1.8.20) glibc (>= 2.22) libavahi-client (>= 0.6.31) libavahi-common (>= 0.6.31) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) libusb1 (>= 1.0.20) shadow zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 8015348
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/cups/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/cups /usr/lib/cups/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/cups/backend /usr/lib/cups/cgi-bin /usr/lib/cups/filter /usr/lib/cups/monitor /usr/lib/cups/notifier /usr/lib/cups/daemon /usr/share/doc/cups/images /usr/share/doc/cups/*html /usr/share/doc/cups/*.css /usr/share/icons/ /lib/systemd/system/cups.socket /lib/systemd/system/cups.service /lib/systemd/system/cups.path

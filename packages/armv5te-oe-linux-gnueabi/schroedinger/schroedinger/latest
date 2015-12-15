@@ -1,9 +1,9 @@
 PV = 1.0.11
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 PKG = libschroedinger-1.0-0
 RPROVIDES = 1.0.11 schroedinger
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) liborc-0.4 (>= 0.4.23) libstdc++ (>= 5.2.0)
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) liborc-0.4 (>= 0.4.24) libstdc++ (>= 5.2.0)
 RRECOMMENDS = 
 PKGSIZE = 621361
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/schroedinger/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/schroedinger /usr/lib/schroedinger/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,9 +1,9 @@
 PV = 2.1
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libevent (>= 2.0.22) libutempter (>= 1.1.6-alt2+git0+3ef74fff31) ncurses-libtinfo (>= 5.9)
+RDEPENDS = glibc (>= 2.22) libevent (>= 2.0.22) ncurses-libtinfo (>= 5.9)
 RRECOMMENDS = 
-PKGSIZE = 260760
+PKGSIZE = 260568
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/tmux/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/tmux /usr/lib/tmux/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/tmux

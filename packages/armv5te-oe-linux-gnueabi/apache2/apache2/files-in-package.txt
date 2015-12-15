@@ -35,7 +35,7 @@ drwxr-xr-x root       root              160 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/apache2
 drwxr-xr-x root       root             1740 ./usr/lib/apache2/modules
--rw-r--r-- 3004       3004            14181 ./usr/lib/apache2/modules/httpd.exp
+-rw-r--r-- root       root            14181 ./usr/lib/apache2/modules/httpd.exp
 -rwxr-xr-x root       root             6764 ./usr/lib/apache2/modules/mod_access_compat.so
 -rwxr-xr-x root       root             6200 ./usr/lib/apache2/modules/mod_actions.so
 -rwxr-xr-x root       root             9424 ./usr/lib/apache2/modules/mod_alias.so
@@ -102,7 +102,7 @@ drwxr-xr-x root       root             1740 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root             9648 ./usr/lib/apache2/modules/mod_reqtimeout.so
 -rwxr-xr-x root       root             7244 ./usr/lib/apache2/modules/mod_request.so
 -rwxr-xr-x root       root            48864 ./usr/lib/apache2/modules/mod_rewrite.so
--rwxr-xr-x root       root            21996 ./usr/lib/apache2/modules/mod_sed.so
+-rwxr-xr-x root       root            22000 ./usr/lib/apache2/modules/mod_sed.so
 -rwxr-xr-x root       root            12188 ./usr/lib/apache2/modules/mod_session.so
 -rwxr-xr-x root       root             6244 ./usr/lib/apache2/modules/mod_session_cookie.so
 -rwxr-xr-x root       root            10496 ./usr/lib/apache2/modules/mod_session_dbd.so
@@ -121,10 +121,10 @@ drwxr-xr-x root       root             1740 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root             5636 ./usr/lib/apache2/modules/mod_version.so
 -rwxr-xr-x root       root             7060 ./usr/lib/apache2/modules/mod_vhost_alias.so
 drwxr-xr-x root       root              200 ./usr/sbin
--rwxr-xr-x 3004       3004             3547 ./usr/sbin/apachectl
+-rwxr-xr-x root       root             3547 ./usr/sbin/apachectl
 -rwxr-xr-x root       root             3892 ./usr/sbin/checkgid
--rw-r--r-- 3004       3004             1045 ./usr/sbin/envvars
--rw-r--r-- 3004       3004             1045 ./usr/sbin/envvars-std
+-rw-r--r-- root       root             1045 ./usr/sbin/envvars
+-rw-r--r-- root       root             1045 ./usr/sbin/envvars-std
 -rwxr-xr-x root       root             6168 ./usr/sbin/fcgistarter
 -rwxr-xr-x root       root            20848 ./usr/sbin/htcacheclean
 -rwxr-xr-x root       root           313076 ./usr/sbin/httpd
@@ -132,10 +132,10 @@ drwxr-xr-x root       root              200 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/apache2
 drwxr-xr-x root       root              120 ./usr/share/apache2/cgi-bin
--rw-r--r-- 3004       3004              820 ./usr/share/apache2/cgi-bin/printenv
--rw-r--r-- 3004       3004             1074 ./usr/share/apache2/cgi-bin/printenv.vbs
--rw-r--r-- 3004       3004             1133 ./usr/share/apache2/cgi-bin/printenv.wsf
--rw-r--r-- 3004       3004             1261 ./usr/share/apache2/cgi-bin/test-cgi
+-rw-r--r-- root       root              820 ./usr/share/apache2/cgi-bin/printenv
+-rw-r--r-- root       root             1074 ./usr/share/apache2/cgi-bin/printenv.vbs
+-rw-r--r-- root       root             1133 ./usr/share/apache2/cgi-bin/printenv.wsf
+-rw-r--r-- root       root             1261 ./usr/share/apache2/cgi-bin/test-cgi
 drwxr-xr-x root       root               60 ./usr/share/apache2/htdocs
 -rw-r--r-- root       root               45 ./usr/share/apache2/htdocs/index.html
 drwxr-xr-x root       root               60 ./var

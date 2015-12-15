@@ -1,5 +1,5 @@
 drwxr-xr-x root       root              100 ./etc
--rw-r--r-- root       root              558 ./etc/my.cnf
+-rw-r--r-- root       root              524 ./etc/my.cnf
 drwxr-xr-x root       root               60 ./etc/my.cnf.d
 -rw-r--r-- root       root              744 ./etc/my.cnf.d/server.cnf
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
@@ -7,14 +7,15 @@ drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              279 ./lib/systemd/system/mysqld.service
+-rw-r--r-- root       root              460 ./lib/systemd/system/mysqld.service
 drwxr-xr-x root       root              120 ./usr
-drwxr-xr-x root       root              480 ./usr/bin
+drwxr-xr-x root       root              500 ./usr/bin
 -rwxr-xr-x root       root             1446 ./usr/bin/msql2mysql
 -rwxr-xr-x root       root          2687580 ./usr/bin/my_print_defaults
 -rwxr-xr-x root       root          2962420 ./usr/bin/myisamchk
 -rwxr-xr-x root       root          2868476 ./usr/bin/myisamlog
 -rwxr-xr-x root       root          2892388 ./usr/bin/myisampack
+-rwxr-xr-x root       root             1828 ./usr/bin/mysql-systemd-start
 -rwxr-xr-x root       root             4247 ./usr/bin/mysql_convert_table_format
 -rwxr-xr-x root       root            16220 ./usr/bin/mysql_install_db
 -rwxr-xr-x root       root          2693988 ./usr/bin/mysql_plugin
@@ -62,7 +63,7 @@ drwxr-xr-x root       root              580 ./usr/lib/plugin
 -rwxr-xr-x root       root          2713640 ./usr/lib/plugin/sphinx.so
 -rwxr-xr-x root       root             5040 ./usr/lib/plugin/sql_errlog.so
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root          8261960 ./usr/sbin/mysqld
+-rwxr-xr-x root       root          8261936 ./usr/sbin/mysqld
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              860 ./usr/share/mysql
 drwxr-xr-x root       root               60 ./usr/share/mysql/SELinux

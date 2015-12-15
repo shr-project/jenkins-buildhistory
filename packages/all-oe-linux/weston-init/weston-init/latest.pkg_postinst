@@ -1,9 +1,14 @@
 #!/bin/sh
-if type update-rc.d >/dev/null 2>/dev/null; then
-	if [ -n "$D" ]; then
-		OPT="-r $D"
-	else
-		OPT="-s"
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	systemctl $OPTS enable weston.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl restart weston.service
 	fi
-	update-rc.d $OPT weston start 9 5 2 . stop 20 0 1 6 .
 fi
