@@ -1,9 +1,9 @@
 PV = 1.09
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.22)
+RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
-PKGSIZE = 104759
+PKGSIZE = 96398
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/mcelog/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mcelog /usr/lib/mcelog/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/cron.hourly/mcelog.cron /usr/sbin/mcelog
+FILELIST = /etc/cron.hourly/mcelog.cron /etc/mcelog/bus-error-trigger /etc/mcelog/cache-error-trigger /etc/mcelog/dimm-error-trigger /etc/mcelog/iomca-error-trigger /etc/mcelog/mcelog.conf /etc/mcelog/page-error-trigger /etc/mcelog/socket-memory-error-trigger /etc/mcelog/unknown-error-trigger /usr/sbin/mcelog

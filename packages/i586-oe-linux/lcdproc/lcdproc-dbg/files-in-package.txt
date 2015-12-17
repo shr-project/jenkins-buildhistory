@@ -4,7 +4,7 @@ drwxr-xr-x root       root               60 ./usr/bin/.debug
 -rwxr-xr-x root       root           123328 ./usr/bin/.debug/lcdproc
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/lcdproc
-drwxr-xr-x root       root              760 ./usr/lib/lcdproc/.debug
+drwxr-xr-x root       root              780 ./usr/lib/lcdproc/.debug
 -rwxr-xr-x root       root            36916 ./usr/lib/lcdproc/.debug/CFontz.so
 -rwxr-xr-x root       root            49380 ./usr/lib/lcdproc/.debug/CFontzPacket.so
 -rwxr-xr-x root       root            36636 ./usr/lib/lcdproc/.debug/CwLnx.so
@@ -27,6 +27,7 @@ drwxr-xr-x root       root              760 ./usr/lib/lcdproc/.debug
 -rwxr-xr-x root       root            19408 ./usr/lib/lcdproc/.debug/lb216.so
 -rwxr-xr-x root       root            16668 ./usr/lib/lcdproc/.debug/lcdm001.so
 -rwxr-xr-x root       root            28376 ./usr/lib/lcdproc/.debug/lcterm.so
+-rwxr-xr-x root       root            11516 ./usr/lib/lcdproc/.debug/lirc.so
 -rwxr-xr-x root       root            17752 ./usr/lib/lcdproc/.debug/ms6931.so
 -rwxr-xr-x root       root            20180 ./usr/lib/lcdproc/.debug/mtc_s16209x.so
 -rwxr-xr-x root       root            35604 ./usr/lib/lcdproc/.debug/pyramid.so
@@ -92,7 +93,7 @@ drwxr-xr-x root       root              180 ./usr/src/debug/lcdproc/0.5.6-r0/lcd
 -rw-r--r-- root       root            11272 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/commands/widget_commands.c
 -rw-r--r-- root       root            18168 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/driver.c
 -rw-r--r-- root       root             1265 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/driver.h
-drwxr-xr-x root       root             1760 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers
+drwxr-xr-x root       root             1780 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers
 -rw-r--r-- root       root            11641 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers.c
 -rw-r--r-- root       root             1553 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers.h
 -rw-r--r-- root       root             2821 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers/CFontz-charmap.h
@@ -154,6 +155,7 @@ drwxr-xr-x root       root             1760 ./usr/src/debug/lcdproc/0.5.6-r0/lcd
 -rw-r--r-- root       root              193 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers/lcd_sem.h
 -rw-r--r-- root       root            12373 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers/lcdm001.c
 -rw-r--r-- root       root            15277 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers/lcterm.c
+-rw-r--r-- root       root             5600 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers/lircin.c
 -rw-r--r-- root       root            13798 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers/ms6931.c
 -rw-r--r-- root       root            16425 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers/mtc_s16209x.c
 -rw-r--r-- root       root             9850 ./usr/src/debug/lcdproc/0.5.6-r0/lcdproc-0.5.6/server/drivers/port.h

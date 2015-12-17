@@ -26,8 +26,8 @@ drwxr-xr-x root       root              580 ./etc/openldap/schema
 -r--r--r-- root       root             1514 ./etc/openldap/schema/openldap.schema
 -r--r--r-- root       root             6904 ./etc/openldap/schema/pmi.ldif
 -r--r--r-- root       root            20467 ./etc/openldap/schema/pmi.schema
--r--r--r-- root       root             4356 ./etc/openldap/schema/ppolicy.ldif
--r--r--r-- root       root            19963 ./etc/openldap/schema/ppolicy.schema
+-r--r--r-- root       root             4570 ./etc/openldap/schema/ppolicy.ldif
+-r--r--r-- root       root            20489 ./etc/openldap/schema/ppolicy.schema
 -rw------- root       root             2088 ./etc/openldap/slapd.conf
 -rw------- root       root             2088 ./etc/openldap/slapd.conf.default
 -rw------- root       root             2610 ./etc/openldap/slapd.ldif
@@ -42,7 +42,7 @@ lrwxrwxrwx root       root                5 ./usr/sbin/slapacl -> slapd
 lrwxrwxrwx root       root                5 ./usr/sbin/slapadd -> slapd
 lrwxrwxrwx root       root                5 ./usr/sbin/slapauth -> slapd
 lrwxrwxrwx root       root                5 ./usr/sbin/slapcat -> slapd
--rwxr-xr-x root       root          1286376 ./usr/sbin/slapd
+-rwxr-xr-x root       root          1289864 ./usr/sbin/slapd
 lrwxrwxrwx root       root                5 ./usr/sbin/slapdn -> slapd
 lrwxrwxrwx root       root                5 ./usr/sbin/slapindex -> slapd
 lrwxrwxrwx root       root                5 ./usr/sbin/slappasswd -> slapd

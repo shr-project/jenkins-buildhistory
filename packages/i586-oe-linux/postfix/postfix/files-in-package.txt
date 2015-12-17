@@ -24,7 +24,7 @@ drwxr-xr-x root       root               40 ./etc/postfix/postfix-files.d
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              370 ./lib/systemd/system/postfix.service
+-rw-r--r-- root       root              412 ./lib/systemd/system/postfix.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 lrwxrwxrwx root       root               31 ./usr/bin/mailq -> ../../usr/sbin/sendmail.postfix
@@ -64,7 +64,8 @@ drwxr-xr-x root       root              700 ./usr/lib/postfix
 -rwxr-xr-x root       root           282524 ./usr/lib/postfix/trivial-rewrite
 -rwxr-xr-x root       root           282548 ./usr/lib/postfix/verify
 -rwxr-xr-x root       root           306388 ./usr/lib/postfix/virtual
-drwxr-xr-x root       root              320 ./usr/sbin
+drwxr-xr-x root       root              340 ./usr/sbin
+-rwxr-xr-x root       root              373 ./usr/sbin/check_hostname.sh
 -rwxr-xr-x root       root           236600 ./usr/sbin/postalias
 -rwxr-xr-x root       root           195864 ./usr/sbin/postcat
 -rwxr-xr-x root       root           288600 ./usr/sbin/postconf

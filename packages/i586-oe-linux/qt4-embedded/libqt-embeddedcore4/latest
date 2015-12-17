@@ -1,9 +1,9 @@
 PV = 4.8.7
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 PKG = libqtcoree4
 RPROVIDES = 4.8.7 libqt-embeddedcore4
-RDEPENDS = glib-2.0 (>= 2.44.1) glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) zlib (>= 1.2.8)
 RRECOMMENDS = glibc-gconv-utf-16
 PKGSIZE = 3607934
 FILES = /usr/lib/libQtCoreE.so.*

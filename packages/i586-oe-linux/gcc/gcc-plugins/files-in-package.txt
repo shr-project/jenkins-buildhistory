@@ -59,14 +59,14 @@ drwxr-xr-x root       root              260 ./usr/lib/gcc/i586-oe-linux/5.2.0/pl
 -rw-r--r-- root       root            13622 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/i386/i386-protos.h
 -rw-r--r-- root       root           102839 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/i386/i386.h
 -rw-r--r-- root       root             3193 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/i386/linux-common.h
--rw-r--r-- root       root              939 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/i386/linux.h
+-rw-r--r-- root       root             1002 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/i386/linux.h
 -rw-r--r-- root       root             1121 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/i386/stringop.def
 -rw-r--r-- root       root             2878 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/i386/unix.h
 -rw-r--r-- root       root            25687 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/i386/x86-tune.def
 -rw-r--r-- root       root             1628 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/initfini-array.h
 -rw-r--r-- root       root             1947 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/linux-android.h
 -rw-r--r-- root       root              805 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/linux-protos.h
--rw-r--r-- root       root             5396 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/linux.h
+-rw-r--r-- root       root             7873 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/linux.h
 -rw-r--r-- root       root             1470 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/config/vxworks-dummy.h
 -rw-r--r-- root       root             1618 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/configargs.h
 -rw-r--r-- root       root             1641 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/context.h
@@ -264,7 +264,7 @@ drwxr-xr-x root       root               60 ./usr/lib/gcc/i586-oe-linux/5.2.0/pl
 -rw-r--r-- root       root            20664 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/langhooks.h
 -rw-r--r-- root       root             1327 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/lcm.h
 -rw-r--r-- root       root            31483 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/line-map.h
--rw-r--r-- root       root             5396 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/linux.h
+-rw-r--r-- root       root             7873 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/linux.h
 -rw-r--r-- root       root            12720 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/machmode.h
 -rw-r--r-- root       root             5335 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/md5.h
 -rw-r--r-- root       root             1756 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/mm_malloc.h
@@ -274,7 +274,7 @@ drwxr-xr-x root       root               60 ./usr/lib/gcc/i586-oe-linux/5.2.0/pl
 -rw-r--r-- root       root             3378 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/objc/objc-tree.def
 -rw-r--r-- root       root            20889 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/obstack.h
 -rw-r--r-- root       root            13003 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/omp-builtins.def
--rw-r--r-- root       root           263057 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/options.h
+-rw-r--r-- root       root           263115 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/options.h
 -rw-r--r-- root       root            14620 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/opts.h
 -rw-r--r-- root       root            24664 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/output.h
 -rw-r--r-- root       root            44462 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/params.def
@@ -321,7 +321,7 @@ drwxr-xr-x root       root               60 ./usr/lib/gcc/i586-oe-linux/5.2.0/pl
 -rw-r--r-- root       root             3949 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/timevar.h
 -rw-r--r-- root       root             9271 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/tm-constrs.h
 -rw-r--r-- root       root            11940 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/tm-preds.h
--rw-r--r-- root       root             1196 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/tm.h
+-rw-r--r-- root       root             1242 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/tm.h
 -rw-r--r-- root       root              178 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/tm_p.h
 -rw-r--r-- root       root             5382 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/tmp-limits.h
 -rw-r--r-- root       root             2990 ./usr/lib/gcc/i586-oe-linux/5.2.0/plugin/include/toplev.h

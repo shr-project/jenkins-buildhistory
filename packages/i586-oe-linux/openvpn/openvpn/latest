@@ -1,8 +1,8 @@
 PV = 2.3.7
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2d) libssl (>= 1.0.2d) lzo (>= 2.09)
+RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2e) libssl (>= 1.0.2e) lzo (>= 2.09)
 RRECOMMENDS = kernel-module-tun
 PKGSIZE = 800201
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/openvpn/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/openvpn /usr/lib/openvpn/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/openvpn@.service /run /lib/systemd/system/openvpn@loopback-server.service /lib/systemd/system/openvpn@loopback-client.service

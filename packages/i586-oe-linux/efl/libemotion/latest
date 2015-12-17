@@ -1,10 +1,10 @@
 PE = 2
 PV = 1.15.1
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 PKG = libemotion1
 RPROVIDES = 1.15.1 libemotion
-RDEPENDS = ecore (>= 1.15.1) ecore-con (>= 1.15.1) ecore-file (>= 1.15.1) eeze (>= 1.15.1) efl (>= 1.15.1) eina (>= 1.15.1) eio (>= 1.15.1) eo (>= 1.15.1) evas (>= 1.15.1) expat (>= 2.1.0) fontconfig (>= 2.11.94) freetype (>= 2.6) fribidi (>= 0.19.2) glib-2.0 (>= 2.44.1) glibc (>= 2.22) libcap (>= 2.24) libcrypto (>= 1.0.2d) libeet (>= 1.15.1) libgcc (>= 5.2.0) libjpeg-turbo (>= 8d+1.4.1) libpng (>= 1.6.17) libssl (>= 1.0.2d) libstdc++ (>= 5.2.0) libudev (>= 225+git0+e1439a1472) libunwind (>= 1.1) luajit (>= 2.0.4) util-linux-libblkid (>= 2.26.2) util-linux-libmount (>= 2.26.2) util-linux-libuuid (>= 2.26.2) zlib (>= 1.2.8)
+RDEPENDS = ecore (>= 1.15.1) ecore-con (>= 1.15.1) ecore-file (>= 1.15.1) eeze (>= 1.15.1) efl (>= 1.15.1) eina (>= 1.15.1) eio (>= 1.15.1) eo (>= 1.15.1) evas (>= 1.15.1) expat (>= 2.1.0) fontconfig (>= 2.11.94) freetype (>= 2.6) fribidi (>= 0.19.2) glib-2.0 (>= 2.46.1) glibc (>= 2.22) libcap (>= 2.24) libcrypto (>= 1.0.2e) libeet (>= 1.15.1) libgcc (>= 5.2.0) libjpeg-turbo (>= 8d+1.4.2) libpng (>= 1.6.20) libssl (>= 1.0.2e) libstdc++ (>= 5.2.0) libudev (>= 225+git0+e1439a1472) libunwind (>= 1.1) luajit (>= 2.0.4) util-linux-libblkid (>= 2.26.2) util-linux-libmount (>= 2.26.2) util-linux-libuuid (>= 2.26.2) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 115844
 FILES = /usr/lib/libemotion.so.*

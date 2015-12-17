@@ -1,8 +1,8 @@
 PV = 2.9.7.5
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = daq (>= 2.0.6) glibc (>= 2.22) libcrypto (>= 1.0.2d) libdnet (>= 1.12) liblzma (>= 5.2.1) libpcap (>= 1.6.2) libpcre (>= 8.37) util-linux-libuuid (>= 2.26.2) zlib (>= 1.2.8)
+RDEPENDS = daq (>= 2.0.6) glibc (>= 2.22) libcrypto (>= 1.0.2e) libdnet (>= 1.12) liblzma (>= 5.2.1) libpcap (>= 1.7.4) libpcre (>= 8.38) util-linux-libuuid (>= 2.26.2) zlib (>= 1.2.8)
 RRECOMMENDS = update-rc.d
 PKGSIZE = 2833774
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/snort/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/snort /usr/lib/snort/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/snort_dynamicengine/*.so.* /usr/lib/snort_dynamicpreprocessor/*.so.* /usr/lib/snort_dynamicrules/*.so.*

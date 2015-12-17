@@ -1,5 +1,5 @@
 drwxr-xr-x root       root              100 ./etc
--rw-r--r-- root       root              558 ./etc/my.cnf
+-rw-r--r-- root       root              524 ./etc/my.cnf
 drwxr-xr-x root       root               60 ./etc/my.cnf.d
 -rw-r--r-- root       root              744 ./etc/my.cnf.d/server.cnf
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
@@ -7,14 +7,15 @@ drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              279 ./lib/systemd/system/mysqld.service
+-rw-r--r-- root       root              460 ./lib/systemd/system/mysqld.service
 drwxr-xr-x root       root              120 ./usr
-drwxr-xr-x root       root              480 ./usr/bin
+drwxr-xr-x root       root              500 ./usr/bin
 -rwxr-xr-x root       root             1446 ./usr/bin/msql2mysql
 -rwxr-xr-x root       root          2782996 ./usr/bin/my_print_defaults
 -rwxr-xr-x root       root          3260460 ./usr/bin/myisamchk
 -rwxr-xr-x root       root          3107244 ./usr/bin/myisamlog
 -rwxr-xr-x root       root          3146668 ./usr/bin/myisampack
+-rwxr-xr-x root       root             1828 ./usr/bin/mysql-systemd-start
 -rwxr-xr-x root       root             4247 ./usr/bin/mysql_convert_table_format
 -rwxr-xr-x root       root            16220 ./usr/bin/mysql_install_db
 -rwxr-xr-x root       root          2789068 ./usr/bin/mysql_plugin

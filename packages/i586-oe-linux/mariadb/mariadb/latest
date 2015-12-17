@@ -1,8 +1,8 @@
 PV = 5.5.46
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 RPROVIDES = mysql5
-RDEPENDS = mariadb-client mariadb-server
+RDEPENDS = mariadb-client mariadb-server mariadb-setupdb
 RRECOMMENDS = 
 RREPLACES = mysql5
 RCONFLICTS = mysql5
