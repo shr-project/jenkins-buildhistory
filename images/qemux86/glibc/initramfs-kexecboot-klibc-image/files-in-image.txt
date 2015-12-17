@@ -1,8 +1,16 @@
 drwxr-xr-x root       root               40 ./dev
-drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root              100 ./etc
+drwxr-xr-x root       root               60 ./etc/systemd
+drwxr-xr-x root       root               60 ./etc/systemd/system
+drwxr-xr-x root       root               60 ./etc/systemd/system/sysinit.target.wants
+lrwxrwxrwx root       root               41 ./etc/systemd/system/sysinit.target.wants/run-postinsts.service -> /lib/systemd/system/run-postinsts.service
 -rw-r--r-- root       root               15 ./etc/timestamp
 -rw-r--r-- root       root               15 ./etc/version
 lrwxrwxrwx root       root               18 ./init -> /usr/bin/kexecboot
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              385 ./lib/systemd/system/run-postinsts.service
 drwxr-xr-x root       root               40 ./mnt
 drwxr-xr-x root       root               40 ./proc
 drwxr-xr-x root       root               40 ./run
@@ -10,8 +18,9 @@ drwxr-xr-x root       root               40 ./sys
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            87572 ./usr/bin/kexecboot
-drwxr-xr-x root       root               80 ./usr/sbin
+drwxr-xr-x root       root              100 ./usr/sbin
 -rwxr-xr-x root       root           194836 ./usr/sbin/kexec
+-rwxr-xr-x root       root             1713 ./usr/sbin/run-postinsts
 -rwxr-xr-x root       root            34900 ./usr/sbin/ubiattach
 drwxr-xr-x root       root               80 ./var
 drwxr-xr-x root       root               60 ./var/cache
