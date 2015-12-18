@@ -1,8 +1,8 @@
 PV = 0.8.15+0.8.16-rc1
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.44.1) glibc (>= 2.22) libcrypto (>= 1.0.2d) libssl (>= 1.0.2d) ncurses-libtinfo (>= 5.9)
+RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) libcrypto (>= 1.0.2e) libssl (>= 1.0.2e) ncurses-libtinfo (>= 5.9)
 RRECOMMENDS = 
 PKGSIZE = 1014415
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/irssi/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/irssi /usr/lib/irssi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

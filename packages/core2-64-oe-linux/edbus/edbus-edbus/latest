@@ -1,10 +1,10 @@
 PE = 2
 PV = 1.7.9
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 PKG = libedbus1
 RPROVIDES = 1.7.9 edbus-edbus
-RDEPENDS = dbus-lib (>= 1.8.20) ecore (>= 1.15.1) efl (>= 1.15.1) eina (>= 1.15.1) eo (>= 1.15.1) glib-2.0 (>= 2.44.1) glibc (>= 2.22) libgcc (>= 5.2.0) libunwind (>= 1.1)
+RDEPENDS = dbus-lib (>= 1.8.20) ecore (>= 1.15.1) efl (>= 1.15.1) eina (>= 1.15.1) eo (>= 1.15.1) glib-2.0 (>= 2.46.1) glibc (>= 2.22) libgcc (>= 5.2.0) libunwind (>= 1.1)
 RRECOMMENDS = 
 PKGSIZE = 53425
 FILES = /usr/lib/libedbus.so.*

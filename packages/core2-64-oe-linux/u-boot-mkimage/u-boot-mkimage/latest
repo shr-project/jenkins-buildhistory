@@ -1,10 +1,10 @@
-PV = v2015.07+gitAUTOINC+33711bdd4a
+PV = v2015.10+gitAUTOINC+5ec0003b19
 PR = r0
-PKGV = v2015.07+git0+33711bdd4a
+PKGV = v2015.10+git0+5ec0003b19
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2d) libssl (>= 1.0.2d)
+RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2e) libssl (>= 1.0.2e)
 RRECOMMENDS = 
-PKGSIZE = 131237
+PKGSIZE = 137501
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/u-boot-mkimage/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/u-boot-mkimage /usr/lib/u-boot-mkimage/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/mkimage /usr/bin/uboot-mkimage

@@ -1,8 +1,8 @@
 PV = 1.0.6
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) dhcp-client glib-2.0 (>= 2.44.1) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 230) libndp (>= 1.5) libnl (>= 3.2.25) libnl-genl (>= 3.2.25) libnl-route (>= 3.2.25) libsystemd (>= 225+git0+e1439a1472) libudev (>= 225+git0+e1439a1472) nspr (>= 4.10.8) nss (>= 3.19.2) polkit (>= 0.113) readline (>= 6.3) util-linux-libuuid (>= 2.26.2) wireless-tools wpa-supplicant zlib (>= 1.2.8)
+RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) dhcp-client glib-2.0 (>= 2.46.1) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 230) libndp (>= 1.5) libnl (>= 3.2.25) libnl-genl (>= 3.2.25) libnl-route (>= 3.2.25) libsystemd (>= 225+git0+e1439a1472) libudev (>= 225+git0+e1439a1472) nspr (>= 4.11) nss (>= 3.19.2) polkit (>= 0.113) readline (>= 6.3) util-linux-libuuid (>= 2.26.2) wireless-tools wpa-supplicant zlib (>= 1.2.8)
 RRECOMMENDS = dnsmasq iptables
 RCONFLICTS = connman
 PKGSIZE = 5061536

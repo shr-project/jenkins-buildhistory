@@ -1,0 +1,9 @@
+PV = 1.4.20.3+svn502
+PR = r0
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.19.5-yocto-tiny
+RRECOMMENDS = 
+PKGSIZE = 120976
+FILES = /lib/modules/3.19.5-yocto-tiny/kernel/iscsi/iscsi_trgt.ko /etc/modules-load.d/iscsi_trgt.conf /etc/modprobe.d/iscsi_trgt.conf
+FILELIST = /lib/modules/3.19.5-yocto-tiny/kernel/iscsi/iscsi_trgt.ko

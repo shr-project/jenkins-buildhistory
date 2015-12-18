@@ -1,15 +1,16 @@
 drwxr-xr-x root       root              100 ./usr
-drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root           227880 ./usr/bin/lttng
--rwxr-xr-x root       root           212264 ./usr/bin/lttng-relayd
--rwxr-xr-x root       root           517160 ./usr/bin/lttng-sessiond
+drwxr-xr-x root       root              120 ./usr/bin
+-rwxr-xr-x root       root           265800 ./usr/bin/lttng
+-rwxr-xr-x root       root            41632 ./usr/bin/lttng-crash
+-rwxr-xr-x root       root           257456 ./usr/bin/lttng-relayd
+-rwxr-xr-x root       root           598416 ./usr/bin/lttng-sessiond
 drwxr-xr-x root       root              100 ./usr/lib
 lrwxrwxrwx root       root               21 ./usr/lib/liblttng-ctl.so.0 -> liblttng-ctl.so.0.0.0
--rwxr-xr-x root       root           235088 ./usr/lib/liblttng-ctl.so.0.0.0
+-rwxr-xr-x root       root           239280 ./usr/lib/liblttng-ctl.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/lib/lttng
 drwxr-xr-x root       root               60 ./usr/lib/lttng/libexec
--rwxr-xr-x root       root           249008 ./usr/lib/lttng/libexec/lttng-consumerd
+-rwxr-xr-x root       root           274608 ./usr/lib/lttng/libexec/lttng-consumerd
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/xml
 drwxr-xr-x root       root               60 ./usr/share/xml/lttng
--rw-r--r-- root       root            10329 ./usr/share/xml/lttng/session.xsd
+-rw-r--r-- root       root            11289 ./usr/share/xml/lttng/session.xsd

@@ -1,9 +1,9 @@
 PV = 1.3.0+gitAUTOINC+b9a735e9c7
 PR = r0
 PKGV = 1.3.0+git0+b9a735e9c7
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = tcf-agent (= 1.3.0+git0+b9a735e9c7-r0.0)
+RDEPENDS = tcf-agent (= 1.3.0+git0+b9a735e9c7-r0.1)
 RRECOMMENDS = bash-dev glibc-dev initscripts-dev libcrypto-dev libssl-dev openssl-dev update-rc.d-dev util-linux-dev util-linux-libuuid-dev
 PKGSIZE = 348487
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tcf-agent/*.la /lib/*.la

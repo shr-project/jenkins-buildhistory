@@ -1,4 +1,4 @@
 PV = 1.09
 PR = r0
-DEPENDS = bash virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = mcelog-dbg mcelog-staticdev mcelog-dev mcelog-doc mcelog-locale mcelog

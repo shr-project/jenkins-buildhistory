@@ -71,7 +71,7 @@ drwxr-xr-x root       root              140 ./usr/lib/vlc/lua/sd
 -rw-r--r-- root       root             6494 ./usr/lib/vlc/lua/sd/jamendo.luac
 -rw-r--r-- root       root             2721 ./usr/lib/vlc/lua/sd/metachannels.luac
 drwxr-xr-x root       root              520 ./usr/lib/vlc/plugins
-drwxr-xr-x root       root             1200 ./usr/lib/vlc/plugins/access
+drwxr-xr-x root       root             1320 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root             1109 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.la
 -rwxr-xr-x root       root            17232 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.so
 -rwxr-xr-x root       root             1074 ./usr/lib/vlc/plugins/access/libaccess_bd_plugin.la
@@ -86,8 +86,12 @@ drwxr-xr-x root       root             1200 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root             7032 ./usr/lib/vlc/plugins/access/libattachment_plugin.so
 -rwxr-xr-x root       root             1044 ./usr/lib/vlc/plugins/access/libcdda_plugin.la
 -rwxr-xr-x root       root            23712 ./usr/lib/vlc/plugins/access/libcdda_plugin.so
+-rwxr-xr-x root       root             1176 ./usr/lib/vlc/plugins/access/libdc1394_plugin.la
+-rwxr-xr-x root       root            15456 ./usr/lib/vlc/plugins/access/libdc1394_plugin.so
 -rwxr-xr-x root       root             1038 ./usr/lib/vlc/plugins/access/libdtv_plugin.la
 -rwxr-xr-x root       root            50800 ./usr/lib/vlc/plugins/access/libdtv_plugin.so
+-rwxr-xr-x root       root             1152 ./usr/lib/vlc/plugins/access/libdv1394_plugin.la
+-rwxr-xr-x root       root            14352 ./usr/lib/vlc/plugins/access/libdv1394_plugin.so
 -rwxr-xr-x root       root             1086 ./usr/lib/vlc/plugins/access/libdvdread_plugin.la
 -rwxr-xr-x root       root            27672 ./usr/lib/vlc/plugins/access/libdvdread_plugin.so
 -rwxr-xr-x root       root             1080 ./usr/lib/vlc/plugins/access/libfilesystem_plugin.la
@@ -126,6 +130,8 @@ drwxr-xr-x root       root             1200 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root            24592 ./usr/lib/vlc/plugins/access/libvcd_plugin.so
 -rwxr-xr-x root       root             1038 ./usr/lib/vlc/plugins/access/libvdr_plugin.la
 -rwxr-xr-x root       root            20912 ./usr/lib/vlc/plugins/access/libvdr_plugin.so
+-rwxr-xr-x root       root             1389 ./usr/lib/vlc/plugins/access/libvnc_plugin.la
+-rwxr-xr-x root       root            16352 ./usr/lib/vlc/plugins/access/libvnc_plugin.so
 -rwxr-xr-x root       root             1338 ./usr/lib/vlc/plugins/access/libxcb_screen_plugin.la
 -rwxr-xr-x root       root            16456 ./usr/lib/vlc/plugins/access/libxcb_screen_plugin.so
 -rwxr-xr-x root       root             1042 ./usr/lib/vlc/plugins/access/libzip_plugin.la
@@ -247,8 +253,8 @@ drwxr-xr-x root       root             1520 ./usr/lib/vlc/plugins/codec
 -rwxr-xr-x root       root            38048 ./usr/lib/vlc/plugins/codec/libschroedinger_plugin.so
 -rwxr-xr-x root       root             1055 ./usr/lib/vlc/plugins/codec/libscte27_plugin.la
 -rwxr-xr-x root       root            24080 ./usr/lib/vlc/plugins/codec/libscte27_plugin.so
--rwxr-xr-x root       root             1356 ./usr/lib/vlc/plugins/codec/libsdl_image_plugin.la
--rwxr-xr-x root       root             9424 ./usr/lib/vlc/plugins/codec/libsdl_image_plugin.so
+-rwxr-xr-x root       root             1618 ./usr/lib/vlc/plugins/codec/libsdl_image_plugin.la
+-rwxr-xr-x root       root             9616 ./usr/lib/vlc/plugins/codec/libsdl_image_plugin.so
 -rwxr-xr-x root       root             1055 ./usr/lib/vlc/plugins/codec/libspudec_plugin.la
 -rwxr-xr-x root       root            13296 ./usr/lib/vlc/plugins/codec/libspudec_plugin.so
 -rwxr-xr-x root       root             1037 ./usr/lib/vlc/plugins/codec/libstl_plugin.la
@@ -651,8 +657,8 @@ drwxr-xr-x root       root              520 ./usr/lib/vlc/plugins/video_output
 -rwxr-xr-x root       root             8040 ./usr/lib/vlc/plugins/video_output/libvdummy_plugin.so
 -rwxr-xr-x root       root             1050 ./usr/lib/vlc/plugins/video_output/libvmem_plugin.la
 -rwxr-xr-x root       root            11344 ./usr/lib/vlc/plugins/video_output/libvmem_plugin.so
--rwxr-xr-x root       root             1335 ./usr/lib/vlc/plugins/video_output/libvout_sdl_plugin.la
--rwxr-xr-x root       root            17408 ./usr/lib/vlc/plugins/video_output/libvout_sdl_plugin.so
+-rwxr-xr-x root       root             1453 ./usr/lib/vlc/plugins/video_output/libvout_sdl_plugin.la
+-rwxr-xr-x root       root            17472 ./usr/lib/vlc/plugins/video_output/libvout_sdl_plugin.so
 -rwxr-xr-x root       root             1718 ./usr/lib/vlc/plugins/video_output/libxcb_glx_plugin.la
 -rwxr-xr-x root       root            37000 ./usr/lib/vlc/plugins/video_output/libxcb_glx_plugin.so
 -rwxr-xr-x root       root             1238 ./usr/lib/vlc/plugins/video_output/libxcb_window_plugin.la
