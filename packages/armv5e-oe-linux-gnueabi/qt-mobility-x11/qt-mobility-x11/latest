@@ -1,8 +1,8 @@
 PV = 1.2.0
 PR = r8
-PKGR = r8.1
+PKGR = r8.2
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) gstreamer (>= 0.10.36) libasound (>= 1.0.29) libgcc (>= 5.2.0) libgl-mesa (>= 10.6.3) libgstapp-0.10 (>= 0.10.36) libgstinterfaces-0.10 (>= 0.10.36) libgstvideo-0.10 (>= 0.10.36) libpulse (>= 6.0) libqtcore4 (>= 4.8.7) libqtdbus4 (>= 4.8.7) libqtdeclarative4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libqtnetwork4 (>= 4.8.7) libqtopengl4 (>= 4.8.7) libqtscript4 (>= 4.8.7) libqtsql4 (>= 4.8.7) libqtsvg4 (>= 4.8.7) libqtxml4 (>= 4.8.7) libstdc++ (>= 5.2.0) libudev (>= 225+git0+e1439a1472) libx11 (>= 1.6.3) libxext (>= 1.3.3) libxrandr (>= 1.5.0) libxv (>= 1.0.10) util-linux-libblkid (>= 2.26.2)
+RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) gstreamer (>= 0.10.36) libasound (>= 1.0.29) libgcc (>= 5.2.0) libgl-mesa (>= 10.6.3) libgstapp-0.10 (>= 0.10.36) libgstinterfaces-0.10 (>= 0.10.36) libgstvideo-0.10 (>= 0.10.36) libpulse (>= 6.0) libqtcore4 (>= 4.8.7) libqtdbus4 (>= 4.8.7) libqtdeclarative4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libqtnetwork4 (>= 4.8.7) libqtopengl4 (>= 4.8.7) libqtscript4 (>= 4.8.7) libqtsql4 (>= 4.8.7) libqtsvg4 (>= 4.8.7) libqtxml4 (>= 4.8.7) libstdc++ (>= 5.2.0) libudev (>= 228+git0+dd050decb6) libx11 (>= 1.6.3) libxext (>= 1.3.3) libxrandr (>= 1.5.0) libxv (>= 1.0.10) util-linux-libblkid (>= 2.27.1)
 RRECOMMENDS = 
 PKGSIZE = 13902957
 FILES = /usr/bin/qt4 /usr/bin/qt4/examples/QtMobility /usr/bin/qt4/demos/QtMobility /usr/lib/*.so.1* /usr/lib/qt4/plugins/QtMobility /usr/lib/qt4/imports

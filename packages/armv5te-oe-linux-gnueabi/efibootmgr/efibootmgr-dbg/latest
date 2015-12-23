@@ -1,9 +1,9 @@
 PV = 0.12
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = efivar-dbg glibc-dbg
 PKGSIZE = 120699
-FILES = /usr/bin/.debug /usr/sbin/.debug /usr/lib/efibootmgr/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/efibootmgr/.debug /usr/lib/matchbox-panel/.debug /usr/lib/efibootmgr/efibootmgr/.debug /usr/src/debug
+FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/sbin/.debug/efibootmgr /usr/src/debug/efibootmgr/0.12-r0/efibootmgr-0.12/src/efibootmgr/efibootmgr.c /usr/src/debug/efibootmgr/0.12-r0/efibootmgr-0.12/src/include/efi.h /usr/src/debug/efibootmgr/0.12-r0/efibootmgr-0.12/src/include/efibootmgr.h /usr/src/debug/efibootmgr/0.12-r0/efibootmgr-0.12/src/include/list.h /usr/src/debug/efibootmgr/0.12-r0/efibootmgr-0.12/src/include/unparse_path.h /usr/src/debug/efibootmgr/0.12-r0/efibootmgr-0.12/src/lib/efi.c /usr/src/debug/efibootmgr/0.12-r0/efibootmgr-0.12/src/lib/unparse_path.c
