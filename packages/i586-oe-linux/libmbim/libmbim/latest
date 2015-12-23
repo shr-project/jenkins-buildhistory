@@ -1,8 +1,8 @@
 PV = 1.12.2
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 230) libudev (>= 225+git0+e1439a1472) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 230) libudev (>= 228+git0+dd050decb6) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 285666
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/libmbim/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libmbim /usr/lib/libmbim/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

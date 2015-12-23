@@ -1,8 +1,8 @@
 PV = 0.5
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) gmp (>= 6.0.0) libmnl (>= 1.0.3) libnftnl (>= 1.0.5) readline (>= 6.3)
+RDEPENDS = glibc (>= 2.22) gmp (>= 6.1.0) libmnl (>= 1.0.3) libnftnl (>= 1.0.5) readline (>= 6.3)
 RRECOMMENDS = kernel-module-nf-tables
 PKGSIZE = 316096
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/nftables/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/nftables /usr/lib/nftables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

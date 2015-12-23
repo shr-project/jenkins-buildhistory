@@ -1,9 +1,9 @@
 PV = 1.4.20.3+svn502
 PR = r0
-PKGR = r0.7
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22)
+RDEPENDS = glibc (>= 2.22) kernel-module-iscsi-trgt
 RRECOMMENDS = kernel-module-crc32c kernel-module-libcrc32c
-PKGSIZE = 231937
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/iscsitarget/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/iscsitarget /usr/lib/iscsitarget/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/sbin /lib /etc
-FILELIST = /etc/iet/ietd.conf /etc/iet/initiators.allow /etc/iet/initiators.deny /etc/iet/targets.allow /etc/init.d/iscsi-target /lib/modules/4.1.8-yocto-standard/kernel/iscsi/iscsi_trgt.ko /usr/sbin/ietadm /usr/sbin/ietd
+PKGSIZE = 108197
+FILES = /usr/sbin /etc
+FILELIST = /etc/iet/ietd.conf /etc/iet/initiators.allow /etc/iet/initiators.deny /etc/iet/targets.allow /etc/init.d/iscsi-target /usr/sbin/ietadm /usr/sbin/ietd

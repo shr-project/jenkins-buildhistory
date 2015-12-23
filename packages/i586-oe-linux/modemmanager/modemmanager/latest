@@ -1,8 +1,8 @@
 PV = 1.4.12
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 230) libmbim (>= 1.12.2) libqmi (>= 1.12.6) libudev (>= 225+git0+e1439a1472) polkit (>= 0.113) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 230) libmbim (>= 1.12.2) libqmi (>= 1.12.6) libudev (>= 228+git0+dd050decb6) polkit (>= 0.113) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 3292824
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/modemmanager/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/modemmanager /usr/lib/modemmanager/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/share/icons /usr/share/polkit-1 /usr/share/dbus-1 /usr/lib/ModemManager /lib/systemd/system /lib/systemd/system/ModemManager.service
