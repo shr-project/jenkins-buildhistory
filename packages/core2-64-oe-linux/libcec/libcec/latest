@@ -1,8 +1,8 @@
 PV = 2.1.4
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libcap (>= 2.24) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) libudev (>= 225+git0+e1439a1472) lockdev (>= 1.0.3+git0+16b899645d)
+RDEPENDS = glibc (>= 2.22) libcap (>= 2.24) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) libudev (>= 228+git0+dd050decb6) lockdev (>= 1.0.3+git0+16b899645d)
 RRECOMMENDS = kernel-module-cdc-acm
 PKGSIZE = 631335
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/libcec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libcec /usr/lib/libcec/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so

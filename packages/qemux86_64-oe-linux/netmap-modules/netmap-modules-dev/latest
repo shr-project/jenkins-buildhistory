@@ -1,9 +1,9 @@
 PV = master+gitAUTOINC+da9e19e69b
 PR = r0
 PKGV = master+git0+da9e19e69b
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = netmap-modules (= master+git0+da9e19e69b-r0.1)
+RDEPENDS = netmap-modules (= master+git0+da9e19e69b-r0.2)
 RRECOMMENDS = kernel-3.19.5-yocto-tiny-dev kernel-module-netmap-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/netmap-modules/*.la /lib/*.la

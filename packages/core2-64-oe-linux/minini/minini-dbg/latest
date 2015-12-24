@@ -1,10 +1,10 @@
 PV = 1.2.b
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 PKG = libminini-dbg
 RPROVIDES = 1.2.b minini-dbg
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 76600
-FILES = /usr/bin/.debug /usr/sbin/.debug /usr/lib/minini/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/minini/.debug /usr/lib/matchbox-panel/.debug /usr/lib/minini/minini/.debug /usr/src/debug
+FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/lib/.debug/libminini.so.0.0 /usr/src/debug/minini/1.2.b-r0/minini-1.2.b/minIni.c /usr/src/debug/minini/1.2.b-r0/minini-1.2.b/minIni.h

@@ -10,7 +10,7 @@ drwxr-xr-x root       root               40 ./etc/ipsec.d/ocspcerts
 drwxr-x--- root       root               40 ./etc/ipsec.d/private
 drwxr-xr-x root       root               40 ./etc/ipsec.d/reqs
 -rw-r--r-- root       root              281 ./etc/strongswan.conf
-drwxr-xr-x root       root              160 ./etc/strongswan.d
+drwxr-xr-x root       root              140 ./etc/strongswan.d
 drwxr-xr-x root       root              740 ./etc/strongswan.d/charon
 -rw-r--r-- root       root             1587 ./etc/strongswan.d/charon-logging.conf
 -rw-r--r-- root       root             8929 ./etc/strongswan.d/charon.conf
@@ -50,7 +50,6 @@ drwxr-xr-x root       root              740 ./etc/strongswan.d/charon
 -rw-r--r-- root       root              140 ./etc/strongswan.d/charon/xauth-generic.conf
 -rw-r--r-- root       root              131 ./etc/strongswan.d/charon/xcbc.conf
 -rw-r--r-- root       root               65 ./etc/strongswan.d/pki.conf
--rw-r--r-- root       root               79 ./etc/strongswan.d/scepclient.conf
 -rw-r--r-- root       root              221 ./etc/strongswan.d/starter.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
@@ -72,7 +71,7 @@ drwxr-xr-x root       root              740 ./usr/lib/ipsec/plugins
 -rwxr-xr-x root       root            10344 ./usr/lib/ipsec/plugins/libstrongswan-attr.so
 -rwxr-xr-x root       root             9576 ./usr/lib/ipsec/plugins/libstrongswan-cmac.so
 -rwxr-xr-x root       root            11888 ./usr/lib/ipsec/plugins/libstrongswan-constraints.so
--rwxr-xr-x root       root            11232 ./usr/lib/ipsec/plugins/libstrongswan-curl.so
+-rwxr-xr-x root       root            11248 ./usr/lib/ipsec/plugins/libstrongswan-curl.so
 -rwxr-xr-x root       root            27512 ./usr/lib/ipsec/plugins/libstrongswan-des.so
 -rwxr-xr-x root       root             7256 ./usr/lib/ipsec/plugins/libstrongswan-dnskey.so
 -rwxr-xr-x root       root             7392 ./usr/lib/ipsec/plugins/libstrongswan-fips-prf.so
@@ -104,12 +103,11 @@ drwxr-xr-x root       root              740 ./usr/lib/ipsec/plugins
 -rwxr-xr-x root       root             8864 ./usr/lib/ipsec/plugins/libstrongswan-xauth-generic.so
 -rwxr-xr-x root       root             9832 ./usr/lib/ipsec/plugins/libstrongswan-xcbc.so
 drwxr-xr-x root       root               60 ./usr/lib/strongswan
-drwxr-xr-x root       root              160 ./usr/lib/strongswan/ipsec
+drwxr-xr-x root       root              140 ./usr/lib/strongswan/ipsec
 -rwxr-xr-x root       root             8112 ./usr/lib/strongswan/ipsec/_copyright
 -rwxr-xr-x root       root            18863 ./usr/lib/strongswan/ipsec/_updown
 -rwxr-xr-x root       root            14272 ./usr/lib/strongswan/ipsec/charon
--rwxr-xr-x root       root            32496 ./usr/lib/strongswan/ipsec/scepclient
--rwxr-xr-x root       root            74032 ./usr/lib/strongswan/ipsec/starter
+-rwxr-xr-x root       root            74000 ./usr/lib/strongswan/ipsec/starter
 -rwxr-xr-x root       root            17664 ./usr/lib/strongswan/ipsec/stroke
 drwxr-xr-x root       root               60 ./usr/sbin
 -rwxr-xr-x root       root             7394 ./usr/sbin/ipsec
@@ -154,9 +152,8 @@ drwxr-xr-x root       root              740 ./usr/share/strongswan/templates/con
 -rw-r--r-- root       root              140 ./usr/share/strongswan/templates/config/plugins/xauth-generic.conf
 -rw-r--r-- root       root              131 ./usr/share/strongswan/templates/config/plugins/xcbc.conf
 -rw-r--r-- root       root              281 ./usr/share/strongswan/templates/config/strongswan.conf
-drwxr-xr-x root       root              140 ./usr/share/strongswan/templates/config/strongswan.d
+drwxr-xr-x root       root              120 ./usr/share/strongswan/templates/config/strongswan.d
 -rw-r--r-- root       root             1587 ./usr/share/strongswan/templates/config/strongswan.d/charon-logging.conf
 -rw-r--r-- root       root             8929 ./usr/share/strongswan/templates/config/strongswan.d/charon.conf
 -rw-r--r-- root       root               65 ./usr/share/strongswan/templates/config/strongswan.d/pki.conf
--rw-r--r-- root       root               79 ./usr/share/strongswan/templates/config/strongswan.d/scepclient.conf
 -rw-r--r-- root       root              221 ./usr/share/strongswan/templates/config/strongswan.d/starter.conf
