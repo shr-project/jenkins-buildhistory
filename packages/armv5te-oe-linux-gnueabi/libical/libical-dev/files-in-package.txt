@@ -1,22 +1,22 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/include
--rw-r--r-- root       root              752 ./usr/include/ical.h
+-rw-r--r-- root       root              747 ./usr/include/ical.h
 drwxr-xr-x root       root              940 ./usr/include/libical
--rw-r--r-- root       root           137968 ./usr/include/libical/ical.h
+-rw-r--r-- root       root           144904 ./usr/include/libical/ical.h
 -rw-r--r-- root       root             1664 ./usr/include/libical/icalarray.h
 -rw-r--r-- root       root             1851 ./usr/include/libical/icalattach.h
 -rw-r--r-- root       root             1795 ./usr/include/libical/icalcalendar.h
 -rw-r--r-- root       root             1166 ./usr/include/libical/icalclassify.h
 -rw-r--r-- root       root             1901 ./usr/include/libical/icalcluster.h
--rw-r--r-- root       root            10323 ./usr/include/libical/icalcomponent.h
--rw-r--r-- root       root            15301 ./usr/include/libical/icalderivedparameter.h
--rw-r--r-- root       root            31602 ./usr/include/libical/icalderivedproperty.h
--rw-r--r-- root       root            12063 ./usr/include/libical/icalderivedvalue.h
+-rw-r--r-- root       root            10474 ./usr/include/libical/icalcomponent.h
+-rw-r--r-- root       root            16355 ./usr/include/libical/icalderivedparameter.h
+-rw-r--r-- root       root            34989 ./usr/include/libical/icalderivedproperty.h
+-rw-r--r-- root       root            13030 ./usr/include/libical/icalderivedvalue.h
 -rw-r--r-- root       root             3276 ./usr/include/libical/icaldirset.h
 -rw-r--r-- root       root             1472 ./usr/include/libical/icaldirsetimpl.h
 -rw-r--r-- root       root             1865 ./usr/include/libical/icalduration.h
--rw-r--r-- root       root             5584 ./usr/include/libical/icalenums.h
--rw-r--r-- root       root             5460 ./usr/include/libical/icalerror.h
+-rw-r--r-- root       root             5679 ./usr/include/libical/icalenums.h
+-rw-r--r-- root       root             5454 ./usr/include/libical/icalerror.h
 -rw-r--r-- root       root             4129 ./usr/include/libical/icalfileset.h
 -rw-r--r-- root       root             1543 ./usr/include/libical/icalfilesetimpl.h
 -rw-r--r-- root       root             1656 ./usr/include/libical/icalgauge.h
@@ -33,10 +33,10 @@ drwxr-xr-x root       root              940 ./usr/include/libical
 -rw-r--r-- root       root             1751 ./usr/include/libical/icalrestriction.h
 -rw-r--r-- root       root             6077 ./usr/include/libical/icalset.h
 -rw-r--r-- root       root             2259 ./usr/include/libical/icalspanlist.h
--rw-r--r-- root       root            23362 ./usr/include/libical/icalss.h
+-rw-r--r-- root       root            24032 ./usr/include/libical/icalss.h
 -rw-r--r-- root       root             2821 ./usr/include/libical/icalssyacc.h
--rw-r--r-- root       root            10054 ./usr/include/libical/icaltime.h
--rw-r--r-- root       root             5608 ./usr/include/libical/icaltimezone.h
+-rw-r--r-- root       root             9895 ./usr/include/libical/icaltime.h
+-rw-r--r-- root       root             5761 ./usr/include/libical/icaltimezone.h
 -rw-r--r-- root       root             3385 ./usr/include/libical/icaltypes.h
 -rw-r--r-- root       root             1250 ./usr/include/libical/icaltz-util.h
 -rw-r--r-- root       root             3213 ./usr/include/libical/icalvalue.h
@@ -45,14 +45,17 @@ drwxr-xr-x root       root              940 ./usr/include/libical
 -rw-r--r-- root       root             2979 ./usr/include/libical/pvl.h
 -rw-r--r-- root       root             3849 ./usr/include/libical/sspm.h
 -rw-r--r-- root       root             4242 ./usr/include/libical/vcaltmp.h
--rw-r--r-- root       root             3893 ./usr/include/libical/vcc.h
+-rw-r--r-- root       root             2823 ./usr/include/libical/vcc.h
 -rw-r--r-- root       root            14278 ./usr/include/libical/vobject.h
-drwxr-xr-x root       root              180 ./usr/lib
--rwxr-xr-x root       root              923 ./usr/lib/libical.la
-lrwxrwxrwx root       root               17 ./usr/lib/libical.so -> libical.so.0.48.0
--rwxr-xr-x root       root              958 ./usr/lib/libicalss.la
-lrwxrwxrwx root       root               19 ./usr/lib/libicalss.so -> libicalss.so.0.48.0
--rwxr-xr-x root       root              972 ./usr/lib/libicalvcal.la
-lrwxrwxrwx root       root               21 ./usr/lib/libicalvcal.so -> libicalvcal.so.0.48.0
+drwxr-xr-x root       root              140 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/cmake
+drwxr-xr-x root       root              120 ./usr/lib/cmake/LibIcal
+-rw-r--r-- root       root             1613 ./usr/lib/cmake/LibIcal/LibIcalConfig.cmake
+-rw-r--r-- root       root             1646 ./usr/lib/cmake/LibIcal/LibIcalConfigVersion.cmake
+-rw-r--r-- root       root             2929 ./usr/lib/cmake/LibIcal/LibIcalTargets-noconfig.cmake
+-rw-r--r-- root       root             3181 ./usr/lib/cmake/LibIcal/LibIcalTargets.cmake
+lrwxrwxrwx root       root               12 ./usr/lib/libical.so -> libical.so.1
+lrwxrwxrwx root       root               14 ./usr/lib/libicalss.so -> libicalss.so.1
+lrwxrwxrwx root       root               16 ./usr/lib/libicalvcal.so -> libicalvcal.so.1
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
--rw-r--r-- root       root              267 ./usr/lib/pkgconfig/libical.pc
+-rw-r--r-- root       root              277 ./usr/lib/pkgconfig/libical.pc

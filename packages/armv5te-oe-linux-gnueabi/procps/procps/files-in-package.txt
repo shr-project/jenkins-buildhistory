@@ -1,8 +1,8 @@
 drwxr-xr-x root       root              120 ./bin
 -rwxr-xr-x root       root            15200 ./bin/kill.procps
--rwxr-xr-x root       root             8468 ./bin/pidof.procps
--rwxr-xr-x root       root            63940 ./bin/ps.procps
--rwxr-xr-x root       root            15912 ./bin/watch.procps
+-rwxr-xr-x root       root             8460 ./bin/pidof.procps
+-rwxr-xr-x root       root            63928 ./bin/ps.procps
+-rwxr-xr-x root       root            15952 ./bin/watch.procps
 drwxr-xr-x root       root               80 ./etc
 -rw-r--r-- root       root             2049 ./etc/sysctl.conf
 drwxr-xr-x root       root               60 ./etc/sysctl.d
@@ -11,19 +11,19 @@ drwxr-xr-x root       root               60 ./sbin
 -rwxr-xr-x root       root            14440 ./sbin/sysctl.procps
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              300 ./usr/bin
--rwxr-xr-x root       root            13532 ./usr/bin/free.procps
--rwxr-xr-x root       root            16476 ./usr/bin/pgrep.procps
--rwxr-xr-x root       root            16476 ./usr/bin/pkill.procps
--rwxr-xr-x root       root            19624 ./usr/bin/pmap.procps
--rwxr-xr-x root       root             6336 ./usr/bin/pwdx.procps
+-rwxr-xr-x root       root            14924 ./usr/bin/free.procps
+-rwxr-xr-x root       root            16548 ./usr/bin/pgrep.procps
+-rwxr-xr-x root       root            16548 ./usr/bin/pkill.procps
+-rwxr-xr-x root       root            19608 ./usr/bin/pmap.procps
+-rwxr-xr-x root       root             6360 ./usr/bin/pwdx.procps
 -rwxr-xr-x root       root            15204 ./usr/bin/skill.procps
--rwxr-xr-x root       root            13180 ./usr/bin/slabtop
+-rwxr-xr-x root       root            13264 ./usr/bin/slabtop
 -rwxr-xr-x root       root            15204 ./usr/bin/snice.procps
 -rwxr-xr-x root       root            10496 ./usr/bin/tload
--rwxr-xr-x root       root            78668 ./usr/bin/top.procps
+-rwxr-xr-x root       root            78684 ./usr/bin/top.procps
 -rwxr-xr-x root       root             8200 ./usr/bin/uptime.procps
 -rwxr-xr-x root       root            21356 ./usr/bin/vmstat
 -rwxr-xr-x root       root            14432 ./usr/bin/w
 drwxr-xr-x root       root               80 ./usr/lib
-lrwxrwxrwx root       root               18 ./usr/lib/libprocps.so.4 -> libprocps.so.4.0.0
--rwxr-xr-x root       root            49328 ./usr/lib/libprocps.so.4.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libprocps.so.5 -> libprocps.so.5.0.0
+-rwxr-xr-x root       root            45316 ./usr/lib/libprocps.so.5.0.0

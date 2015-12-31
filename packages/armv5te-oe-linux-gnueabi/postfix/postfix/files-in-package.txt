@@ -12,7 +12,7 @@ drwxr-xr-x root       root              460 ./etc/postfix
 -rw-r--r-- root       root             3495 ./etc/postfix/main.cf
 -rw-r--r-- root       root              122 ./etc/postfix/main.cf.default
 -rw-r--r-- root       root            26851 ./etc/postfix/main.cf.proto
--rw-r--r-- root       root             1911 ./etc/postfix/makedefs.out
+-rw-r--r-- root       root             1893 ./etc/postfix/makedefs.out
 -rw-r--r-- root       root             6200 ./etc/postfix/master.cf
 -rw-r--r-- root       root             6200 ./etc/postfix/master.cf.proto
 -rw-r--r-- root       root            20122 ./etc/postfix/postfix-files
@@ -44,8 +44,8 @@ drwxr-xr-x root       root              700 ./usr/lib/postfix
 -rwxr-xr-x root       root           122048 ./usr/lib/postfix/master
 -rwxr-xr-x root       root           187648 ./usr/lib/postfix/nqmgr
 -rwxr-xr-x root       root           180072 ./usr/lib/postfix/oqmgr
--rwxr-xr-x root       root           150956 ./usr/lib/postfix/pickup
--rwxr-xr-x root       root           172504 ./usr/lib/postfix/pipe
+-rwxr-xr-x root       root           150948 ./usr/lib/postfix/pickup
+-rwxr-xr-x root       root           172496 ./usr/lib/postfix/pipe
 -rwxr-xr-x root       root            29364 ./usr/lib/postfix/post-install
 -rwxr-xr-x root       root             8758 ./usr/lib/postfix/postfix-script
 -rwxr-xr-x root       root             6543 ./usr/lib/postfix/postfix-wrapper
@@ -53,11 +53,11 @@ drwxr-xr-x root       root              700 ./usr/lib/postfix
 -rwxr-xr-x root       root           183572 ./usr/lib/postfix/postscreen
 -rwxr-xr-x root       root           138748 ./usr/lib/postfix/proxymap
 -rwxr-xr-x root       root           187648 ./usr/lib/postfix/qmgr
--rwxr-xr-x root       root           163200 ./usr/lib/postfix/qmqpd
--rwxr-xr-x root       root           143160 ./usr/lib/postfix/scache
+-rwxr-xr-x root       root           160328 ./usr/lib/postfix/qmqpd
+-rwxr-xr-x root       root           143152 ./usr/lib/postfix/scache
 -rwxr-xr-x root       root           154928 ./usr/lib/postfix/showq
 -rwxr-xr-x root       root           274920 ./usr/lib/postfix/smtp
--rwxr-xr-x root       root           334004 ./usr/lib/postfix/smtpd
+-rwxr-xr-x root       root           333996 ./usr/lib/postfix/smtpd
 -rwxr-xr-x root       root           146768 ./usr/lib/postfix/spawn
 -rwxr-xr-x root       root           159196 ./usr/lib/postfix/tlsmgr
 -rwxr-xr-x root       root           180164 ./usr/lib/postfix/tlsproxy
@@ -76,7 +76,7 @@ drwxr-xr-x root       root              340 ./usr/sbin
 -rwxr-xr-x root       root            97584 ./usr/sbin/postlog
 -rwxr-xr-x root       root           130564 ./usr/sbin/postmap
 -rwxr-xr-x root       root           109872 ./usr/sbin/postmulti
--rwxr-sr-x root       postdrop       131172 ./usr/sbin/postqueue
+-rwxr-sr-x root       postdrop       131164 ./usr/sbin/postqueue
 -rwxr-xr-x root       root           109864 ./usr/sbin/postsuper
 -rwxr-xr-x root       root           139764 ./usr/sbin/sendmail.postfix
 -rwxr-xr-x root       root            50296 ./usr/sbin/smtp-sink

@@ -1,10 +1,10 @@
-PV = 2.7.0+gitAUTOINC+4247236df9
+PV = 2.7.0+gitAUTOINC+f4b27072a7
 PR = r0
-PKGV = 2.7.0+git0+4247236df9
-PKGR = r0.1
+PKGV = 2.7.0+git1+f4b27072a7
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = kernel-4.1.13-yocto-standard kernel-module-lttng-ftrace kernel-module-lttng-kprobes kernel-module-lttng-kretprobes kernel-module-lttng-lib-ring-buffer kernel-module-lttng-statedump kernel-module-lttng-tracer
+RDEPENDS = kernel-4.1.15-yocto-standard kernel-module-lttng-ftrace kernel-module-lttng-kprobes kernel-module-lttng-kretprobes kernel-module-lttng-lib-ring-buffer kernel-module-lttng-statedump kernel-module-lttng-tracer
 RRECOMMENDS = 
 PKGSIZE = 12868
-FILES = /lib/modules/4.1.13-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-metadata-mmap-client.ko /etc/modules-load.d/lttng-ring-buffer-metadata-mmap-client.conf /etc/modprobe.d/lttng-ring-buffer-metadata-mmap-client.conf
-FILELIST = /lib/modules/4.1.13-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-metadata-mmap-client.ko
+FILES = /lib/modules/4.1.15-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-metadata-mmap-client.ko /etc/modules-load.d/lttng-ring-buffer-metadata-mmap-client.conf /etc/modprobe.d/lttng-ring-buffer-metadata-mmap-client.conf
+FILELIST = /lib/modules/4.1.15-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-metadata-mmap-client.ko

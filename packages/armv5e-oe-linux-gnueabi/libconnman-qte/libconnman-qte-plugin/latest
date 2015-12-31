@@ -1,10 +1,10 @@
 PV = 1.0.50+gitAUTOINC+80ac184d85
 PR = r0
 PKGV = 1.0.50+git0+80ac184d85
-PKGR = r0.3
+PKGR = r0.5
 PKG = libconnman-qtopia-plugin
 RPROVIDES = 1.0.50+git0+80ac184d85 libconnman-qte-plugin
-RDEPENDS = glibc (>= 2.22) libconnman-qte (>= 1.0.50+git0+80ac184d85) libgcc (>= 5.2.0) libqt-embeddedcore4 (>= 4.8.7) libqt-embeddeddbus4 (>= 4.8.7) libqt-embeddeddeclarative4 (>= 4.8.7) libstdc++ (>= 5.2.0)
+RDEPENDS = glibc (>= 2.22) libconnman-qte (>= 1.0.50+git0+80ac184d85) libgcc (>= 5.3.0) libqt-embeddedcore4 (>= 4.8.7) libqt-embeddeddbus4 (>= 4.8.7) libqt-embeddeddeclarative4 (>= 4.8.7) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 116164
 FILES = /usr/lib/qtopia/imports/MeeGo/Connman/qmldir /usr/lib/qtopia/imports/MeeGo/Connman/lib*.so
