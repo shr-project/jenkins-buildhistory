@@ -2,10 +2,10 @@ PE = 2
 PV = 2.7.0+gitAUTOINC+826c6c686f
 PR = r0
 PKGV = 2.7.0+git0+826c6c686f
-PKGR = r0.1
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = lttng-ust-dev (= 2:2.7.0+git0+826c6c686f-r0.1)
+RDEPENDS = lttng-ust-dev (= 2:2.7.0+git0+826c6c686f-r0.3)
 RRECOMMENDS = 
-PKGSIZE = 5348610
+PKGSIZE = 5111054
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/lttng-ust/*.a
 FILELIST = /usr/lib/liblttng-ust-ctl.a /usr/lib/liblttng-ust-cyg-profile-fast.a /usr/lib/liblttng-ust-cyg-profile.a /usr/lib/liblttng-ust-dl.a /usr/lib/liblttng-ust-fork.a /usr/lib/liblttng-ust-libc-wrapper.a /usr/lib/liblttng-ust-pthread-wrapper.a /usr/lib/liblttng-ust-tracepoint.a /usr/lib/liblttng-ust.a

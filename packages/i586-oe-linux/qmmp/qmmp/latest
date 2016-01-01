@@ -1,9 +1,9 @@
 PV = 0.8.6
 PR = r0
-PKGR = r0.3
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = alsa-lib curl glibc (>= 2.22) libgcc (>= 5.2.0) libicui18n libmad libqtcore4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libqtnetwork4 (>= 4.8.7) libstdc++ (>= 5.2.0) taglib
+RDEPENDS = alsa-lib curl glibc (>= 2.22) libgcc (>= 5.3.0) libicui18n libmad libqtcore4 (>= 4.8.7) libqtgui4 (>= 4.8.7) libqtnetwork4 (>= 4.8.7) libstdc++ (>= 5.3.0) taglib
 RRECOMMENDS = 
-PKGSIZE = 1477560
+PKGSIZE = 1477628
 FILES = /usr/bin/qmmp /usr/lib/lib*.so.* /usr/share/icons/* /usr/share/qmmp/images/* /usr/share/applications/*
 FILELIST = /usr/bin/qmmp /usr/lib/libqmmp.so.0 /usr/lib/libqmmp.so.0.8.6 /usr/lib/libqmmpui.so.0 /usr/lib/libqmmpui.so.0.8.6 /usr/share/applications/qmmp.desktop /usr/share/applications/qmmp_cue.desktop /usr/share/applications/qmmp_dir.desktop /usr/share/applications/qmmp_enqueue.desktop /usr/share/icons/hicolor/16x16/apps/qmmp.png /usr/share/icons/hicolor/32x32/apps/qmmp.png /usr/share/icons/hicolor/48x48/apps/qmmp.png /usr/share/icons/hicolor/scalable/apps/qmmp-simple.svgz /usr/share/icons/hicolor/scalable/apps/qmmp.svgz /usr/share/qmmp/images/app_icon.png /usr/share/qmmp/images/empty_cover.png

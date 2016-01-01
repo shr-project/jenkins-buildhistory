@@ -1,9 +1,9 @@
 PV = 2.5
 PR = r0
-PKGR = r0.2
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2e) libnl (>= 3.2.25) libnl-genl (>= 3.2.25) libssl (>= 1.0.2e)
 RRECOMMENDS = 
-PKGSIZE = 1075481
+PKGSIZE = 1075513
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/hostapd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/hostapd /usr/lib/hostapd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/hostapd.service
 FILELIST = /etc/hostapd.conf /lib/systemd/system/hostapd.service /usr/sbin/hostapd /usr/sbin/hostapd_cli

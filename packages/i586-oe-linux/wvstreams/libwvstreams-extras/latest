@@ -1,9 +1,9 @@
 PV = 4.6.1
 PR = r0
-PKGR = r0.3
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2e) libgcc (>= 5.2.0) libssl (>= 1.0.2e) libstdc++ (>= 5.2.0) libwvstreams-base (>= 4.6.1) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2e) libgcc (>= 5.3.0) libssl (>= 1.0.2e) libstdc++ (>= 5.3.0) libwvstreams-base (>= 4.6.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 1381928
+PKGSIZE = 1383176
 FILES = /usr/lib/libwvbase.so.* /usr/lib/libwvstreams.so.*
 FILELIST = /usr/lib/libwvbase.so.4.6 /usr/lib/libwvstreams.so.4.6

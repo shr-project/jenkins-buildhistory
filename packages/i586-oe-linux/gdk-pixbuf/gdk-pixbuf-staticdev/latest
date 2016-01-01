@@ -1,9 +1,9 @@
 PV = 2.32.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.3
 PKG = libgdk-pixbuf-2.0-staticdev
 RPROVIDES = 2.32.1 gdk-pixbuf-staticdev
-RDEPENDS = gdk-pixbuf-dev (= 2.32.1-r0.1)
+RDEPENDS = gdk-pixbuf-dev (= 2.32.1-r0.3)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/gdk-pixbuf/*.a

@@ -1,9 +1,9 @@
 PV = 0.99.24.1
 PR = r0
-PKGR = r0.3
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) quagga (>= 0.99.24.1)
 RRECOMMENDS = 
-PKGSIZE = 319689
+PKGSIZE = 319657
 FILES = /usr/sbin/ospf6d /lib/systemd/system/ospf6d.service
 FILELIST = /lib/systemd/system/ospf6d.service /usr/sbin/ospf6d

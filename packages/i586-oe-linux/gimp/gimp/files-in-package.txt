@@ -13,7 +13,7 @@ drwxr-xr-x root       root              140 ./usr/bin
 lrwxrwxrwx root       root                8 ./usr/bin/gimp -> gimp-2.8
 -rwxr-xr-x root       root          6921724 ./usr/bin/gimp-2.8
 lrwxrwxrwx root       root               16 ./usr/bin/gimp-console -> gimp-console-2.8
--rwxr-xr-x root       root          3222148 ./usr/bin/gimp-console-2.8
+-rwxr-xr-x root       root          3222340 ./usr/bin/gimp-console-2.8
 -rwxr-xr-x root       root            14348 ./usr/bin/gimptool-2.0
 drwxr-xr-x root       root              420 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/gimp
@@ -46,7 +46,7 @@ drwxr-xr-x root       root              440 ./usr/lib/gimp/2.0/modules
 drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            19912 ./usr/lib/gimp/2.0/plug-ins/alien-map
 -rwxr-xr-x root       root            15840 ./usr/lib/gimp/2.0/plug-ins/align-layers
--rwxr-xr-x root       root            19340 ./usr/lib/gimp/2.0/plug-ins/animation-optimize
+-rwxr-xr-x root       root            19404 ./usr/lib/gimp/2.0/plug-ins/animation-optimize
 -rwxr-xr-x root       root            32808 ./usr/lib/gimp/2.0/plug-ins/animation-play
 -rwxr-xr-x root       root             9600 ./usr/lib/gimp/2.0/plug-ins/antialias
 -rwxr-xr-x root       root            29888 ./usr/lib/gimp/2.0/plug-ins/apply-canvas
@@ -78,14 +78,14 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root             8616 ./usr/lib/gimp/2.0/plug-ins/crop-zealous
 -rwxr-xr-x root       root            19236 ./usr/lib/gimp/2.0/plug-ins/cubism
 -rwxr-xr-x root       root            53328 ./usr/lib/gimp/2.0/plug-ins/curve-bend
--rwxr-xr-x root       root            29008 ./usr/lib/gimp/2.0/plug-ins/decompose
+-rwxr-xr-x root       root            28976 ./usr/lib/gimp/2.0/plug-ins/decompose
 -rwxr-xr-x root       root            12304 ./usr/lib/gimp/2.0/plug-ins/deinterlace
 -rwxr-xr-x root       root            25188 ./usr/lib/gimp/2.0/plug-ins/depth-merge
 -rwxr-xr-x root       root            22772 ./usr/lib/gimp/2.0/plug-ins/despeckle
 -rwxr-xr-x root       root            13648 ./usr/lib/gimp/2.0/plug-ins/destripe
 -rwxr-xr-x root       root            22996 ./usr/lib/gimp/2.0/plug-ins/diffraction
 -rwxr-xr-x root       root            21928 ./usr/lib/gimp/2.0/plug-ins/displace
--rwxr-xr-x root       root            21060 ./usr/lib/gimp/2.0/plug-ins/edge
+-rwxr-xr-x root       root            21188 ./usr/lib/gimp/2.0/plug-ins/edge
 -rwxr-xr-x root       root            23092 ./usr/lib/gimp/2.0/plug-ins/edge-dog
 -rwxr-xr-x root       root            10248 ./usr/lib/gimp/2.0/plug-ins/edge-laplace
 -rwxr-xr-x root       root            18652 ./usr/lib/gimp/2.0/plug-ins/edge-neon
@@ -97,11 +97,11 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            12612 ./usr/lib/gimp/2.0/plug-ins/file-compressor
 -rwxr-xr-x root       root            23360 ./usr/lib/gimp/2.0/plug-ins/file-csource
 -rwxr-xr-x root       root             6284 ./usr/lib/gimp/2.0/plug-ins/file-desktop-link
--rwxr-xr-x root       root            21892 ./usr/lib/gimp/2.0/plug-ins/file-dicom
+-rwxr-xr-x root       root            21860 ./usr/lib/gimp/2.0/plug-ins/file-dicom
 -rwxr-xr-x root       root            17476 ./usr/lib/gimp/2.0/plug-ins/file-faxg3
--rwxr-xr-x root       root            45596 ./usr/lib/gimp/2.0/plug-ins/file-fits
+-rwxr-xr-x root       root            45436 ./usr/lib/gimp/2.0/plug-ins/file-fits
 -rwxr-xr-x root       root            32284 ./usr/lib/gimp/2.0/plug-ins/file-fli
--rwxr-xr-x root       root            16708 ./usr/lib/gimp/2.0/plug-ins/file-gbr
+-rwxr-xr-x root       root            16772 ./usr/lib/gimp/2.0/plug-ins/file-gbr
 -rwxr-xr-x root       root            18664 ./usr/lib/gimp/2.0/plug-ins/file-gif-load
 -rwxr-xr-x root       root            31280 ./usr/lib/gimp/2.0/plug-ins/file-gif-save
 -rwxr-xr-x root       root            31648 ./usr/lib/gimp/2.0/plug-ins/file-gih
@@ -118,11 +118,11 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            10788 ./usr/lib/gimp/2.0/plug-ins/file-pix
 -rwxr-xr-x root       root            41188 ./usr/lib/gimp/2.0/plug-ins/file-png
 -rwxr-xr-x root       root            22972 ./usr/lib/gimp/2.0/plug-ins/file-pnm
--rwxr-xr-x root       root            55900 ./usr/lib/gimp/2.0/plug-ins/file-psd-load
+-rwxr-xr-x root       root            55996 ./usr/lib/gimp/2.0/plug-ins/file-psd-load
 -rwxr-xr-x root       root            25208 ./usr/lib/gimp/2.0/plug-ins/file-psd-save
 -rwxr-xr-x root       root            22980 ./usr/lib/gimp/2.0/plug-ins/file-psp
 -rwxr-xr-x root       root            27044 ./usr/lib/gimp/2.0/plug-ins/file-raw
--rwxr-xr-x root       root            21700 ./usr/lib/gimp/2.0/plug-ins/file-sgi
+-rwxr-xr-x root       root            21668 ./usr/lib/gimp/2.0/plug-ins/file-sgi
 -rwxr-xr-x root       root            24516 ./usr/lib/gimp/2.0/plug-ins/file-sunras
 -rwxr-xr-x root       root            27188 ./usr/lib/gimp/2.0/plug-ins/file-svg
 -rwxr-xr-x root       root            22884 ./usr/lib/gimp/2.0/plug-ins/file-tga
@@ -130,7 +130,7 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            24140 ./usr/lib/gimp/2.0/plug-ins/file-tiff-save
 -rwxr-xr-x root       root            13636 ./usr/lib/gimp/2.0/plug-ins/file-uri
 -rwxr-xr-x root       root            27364 ./usr/lib/gimp/2.0/plug-ins/file-xbm
--rwxr-xr-x root       root            58748 ./usr/lib/gimp/2.0/plug-ins/file-xjt
+-rwxr-xr-x root       root            58780 ./usr/lib/gimp/2.0/plug-ins/file-xjt
 -rwxr-xr-x root       root            41808 ./usr/lib/gimp/2.0/plug-ins/file-xmc
 -rwxr-xr-x root       root            16740 ./usr/lib/gimp/2.0/plug-ins/file-xpm
 -rwxr-xr-x root       root            28932 ./usr/lib/gimp/2.0/plug-ins/file-xwd
@@ -140,8 +140,8 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            64720 ./usr/lib/gimp/2.0/plug-ins/fractal-explorer
 -rwxr-xr-x root       root            20432 ./usr/lib/gimp/2.0/plug-ins/fractal-trace
 -rwxr-xr-x root       root           164396 ./usr/lib/gimp/2.0/plug-ins/gfig
--rwxr-xr-x root       root           145652 ./usr/lib/gimp/2.0/plug-ins/gimpressionist
--rwxr-xr-x root       root            82372 ./usr/lib/gimp/2.0/plug-ins/gradient-flare
+-rwxr-xr-x root       root           145684 ./usr/lib/gimp/2.0/plug-ins/gimpressionist
+-rwxr-xr-x root       root            82244 ./usr/lib/gimp/2.0/plug-ins/gradient-flare
 -rwxr-xr-x root       root             9128 ./usr/lib/gimp/2.0/plug-ins/gradient-map
 -rwxr-xr-x root       root            28788 ./usr/lib/gimp/2.0/plug-ins/grid
 -rwxr-xr-x root       root             8932 ./usr/lib/gimp/2.0/plug-ins/guillotine
@@ -149,9 +149,9 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            15168 ./usr/lib/gimp/2.0/plug-ins/hot
 -rwxr-xr-x root       root            77456 ./usr/lib/gimp/2.0/plug-ins/ifs-compose
 -rwxr-xr-x root       root            15004 ./usr/lib/gimp/2.0/plug-ins/illusion
--rwxr-xr-x root       root           234032 ./usr/lib/gimp/2.0/plug-ins/imagemap
+-rwxr-xr-x root       root           234000 ./usr/lib/gimp/2.0/plug-ins/imagemap
 -rwxr-xr-x root       root            39424 ./usr/lib/gimp/2.0/plug-ins/iwarp
--rwxr-xr-x root       root            48060 ./usr/lib/gimp/2.0/plug-ins/jigsaw
+-rwxr-xr-x root       root            48092 ./usr/lib/gimp/2.0/plug-ins/jigsaw
 -rwxr-xr-x root       root            31696 ./usr/lib/gimp/2.0/plug-ins/lcms
 -rwxr-xr-x root       root            16372 ./usr/lib/gimp/2.0/plug-ins/lens-apply
 -rwxr-xr-x root       root            14628 ./usr/lib/gimp/2.0/plug-ins/lens-distortion
@@ -162,7 +162,7 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            10348 ./usr/lib/gimp/2.0/plug-ins/max-rgb
 -rwxr-xr-x root       root            31924 ./usr/lib/gimp/2.0/plug-ins/maze
 -rwxr-xr-x root       root            74456 ./usr/lib/gimp/2.0/plug-ins/metadata
--rwxr-xr-x root       root            44656 ./usr/lib/gimp/2.0/plug-ins/mosaic
+-rwxr-xr-x root       root            44592 ./usr/lib/gimp/2.0/plug-ins/mosaic
 -rwxr-xr-x root       root            36728 ./usr/lib/gimp/2.0/plug-ins/newsprint
 -rwxr-xr-x root       root            22824 ./usr/lib/gimp/2.0/plug-ins/nl-filter
 -rwxr-xr-x root       root            14580 ./usr/lib/gimp/2.0/plug-ins/noise-hsv
@@ -178,7 +178,7 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            15992 ./usr/lib/gimp/2.0/plug-ins/plasma
 -rwxr-xr-x root       root            21696 ./usr/lib/gimp/2.0/plug-ins/plugin-browser
 -rwxr-xr-x root       root            19428 ./usr/lib/gimp/2.0/plug-ins/polar-coords
--rwxr-xr-x root       root            58312 ./usr/lib/gimp/2.0/plug-ins/print
+-rwxr-xr-x root       root            58280 ./usr/lib/gimp/2.0/plug-ins/print
 -rwxr-xr-x root       root             6092 ./usr/lib/gimp/2.0/plug-ins/procedure-browser
 -rwxr-xr-x root       root            22804 ./usr/lib/gimp/2.0/plug-ins/qbist
 -rwxr-xr-x root       root            12596 ./usr/lib/gimp/2.0/plug-ins/red-eye-removal
@@ -208,7 +208,7 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            23920 ./usr/lib/gimp/2.0/plug-ins/value-propagate
 -rwxr-xr-x root       root            22824 ./usr/lib/gimp/2.0/plug-ins/van-gogh-lic
 -rwxr-xr-x root       root            47312 ./usr/lib/gimp/2.0/plug-ins/video
--rwxr-xr-x root       root            37384 ./usr/lib/gimp/2.0/plug-ins/warp
+-rwxr-xr-x root       root            37352 ./usr/lib/gimp/2.0/plug-ins/warp
 -rwxr-xr-x root       root            15868 ./usr/lib/gimp/2.0/plug-ins/waves
 -rwxr-xr-x root       root             5244 ./usr/lib/gimp/2.0/plug-ins/web-browser
 -rwxr-xr-x root       root            17768 ./usr/lib/gimp/2.0/plug-ins/whirl-pinch

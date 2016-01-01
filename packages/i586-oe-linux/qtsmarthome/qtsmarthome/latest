@@ -1,8 +1,8 @@
 PV = 1.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0) qtbase (>= 5.5.99+5.6.0-alpha1+git0+f7f4dde80e) qtdeclarative (>= 5.5.99+5.6.0-alpha1+git0+1064d5100f) qtdeclarative-qmlplugins qtgraphicaleffects-qmlplugins
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) qtbase (>= 5.5.99+5.6.0-alpha1+git0+f7f4dde80e) qtdeclarative (>= 5.5.99+5.6.0-alpha1+git0+1064d5100f) qtdeclarative-qmlplugins qtgraphicaleffects-qmlplugins
 RRECOMMENDS = qtsmarthome-plugins qtsmarthome-qmlplugins
 PKGSIZE = 3670059
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/qtsmarthome/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtsmarthome /usr/lib/qtsmarthome/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec /usr/share
