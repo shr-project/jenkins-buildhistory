@@ -12,8 +12,8 @@ drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              500 ./usr/bin
 -rwxr-xr-x root       root             1446 ./usr/bin/msql2mysql
 -rwxr-xr-x root       root          2793784 ./usr/bin/my_print_defaults
--rwxr-xr-x root       root          3185136 ./usr/bin/myisamchk
--rwxr-xr-x root       root          3064336 ./usr/bin/myisamlog
+-rwxr-xr-x root       root          3185168 ./usr/bin/myisamchk
+-rwxr-xr-x root       root          3064368 ./usr/bin/myisamlog
 -rwxr-xr-x root       root          3098576 ./usr/bin/myisampack
 -rwxr-xr-x root       root             1828 ./usr/bin/mysql-systemd-start
 -rwxr-xr-x root       root             4247 ./usr/bin/mysql_convert_table_format
@@ -28,7 +28,7 @@ drwxr-xr-x root       root              500 ./usr/bin
 -rwxr-xr-x root       root            24523 ./usr/bin/mysqld_multi
 -rwxr-xr-x root       root            27664 ./usr/bin/mysqld_safe
 -rwxr-xr-x root       root            34941 ./usr/bin/mysqlhotcopy
--rwxr-xr-x root       root          3206448 ./usr/bin/mysqltest
+-rwxr-xr-x root       root          3206416 ./usr/bin/mysqltest
 -rwxr-xr-x root       root          2880456 ./usr/bin/perror
 -rwxr-xr-x root       root          2775752 ./usr/bin/replace
 -rwxr-xr-x root       root          2792888 ./usr/bin/resolve_stack_dump
@@ -44,12 +44,12 @@ drwxr-xr-x root       root              580 ./usr/lib/plugin
 -rwxr-xr-x root       root            42480 ./usr/lib/plugin/feedback.so
 -rwxr-xr-x root       root            54472 ./usr/lib/plugin/ha_archive.so
 -rwxr-xr-x root       root            26280 ./usr/lib/plugin/ha_blackhole.so
--rwxr-xr-x root       root            28592 ./usr/lib/plugin/ha_example.so
+-rwxr-xr-x root       root            30416 ./usr/lib/plugin/ha_example.so
 -rwxr-xr-x root       root            54256 ./usr/lib/plugin/ha_federated.so
 -rwxr-xr-x root       root            79744 ./usr/lib/plugin/ha_federatedx.so
--rwxr-xr-x root       root          1511432 ./usr/lib/plugin/ha_innodb.so
+-rwxr-xr-x root       root          1511272 ./usr/lib/plugin/ha_innodb.so
 -rwxr-xr-x root       root            70864 ./usr/lib/plugin/ha_sphinx.so
--rwxr-xr-x root       root           138256 ./usr/lib/plugin/handlersocket.so
+-rwxr-xr-x root       root           139984 ./usr/lib/plugin/handlersocket.so
 -rwxr-xr-x root       root             8600 ./usr/lib/plugin/libdaemon_example.so
 -rwxr-xr-x root       root             7768 ./usr/lib/plugin/mypluglib.so
 -rwxr-xr-x root       root             4768 ./usr/lib/plugin/mysql_clear_password.so
@@ -63,7 +63,7 @@ drwxr-xr-x root       root              580 ./usr/lib/plugin
 -rwxr-xr-x root       root          2876376 ./usr/lib/plugin/sphinx.so
 -rwxr-xr-x root       root             7776 ./usr/lib/plugin/sql_errlog.so
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root         11018888 ./usr/sbin/mysqld
+-rwxr-xr-x root       root         11018728 ./usr/sbin/mysqld
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              860 ./usr/share/mysql
 drwxr-xr-x root       root               60 ./usr/share/mysql/SELinux

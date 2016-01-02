@@ -1,9 +1,9 @@
 PV = 4.3.30
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = kernel-3.19.5-yocto-tiny
+RDEPENDS = kernel-4.1.15-yocto-tiny
 RRECOMMENDS = 
-PKGSIZE = 330650
-FILES = /lib/modules/3.19.5-yocto-tiny/kernel/misc/vboxguest.ko /etc/modules-load.d/vboxguest.conf /etc/modprobe.d/vboxguest.conf
-FILELIST = /etc/modules-load.d/vboxguest.conf /lib/modules/3.19.5-yocto-tiny/kernel/misc/vboxguest.ko
+PKGSIZE = 330610
+FILES = /lib/modules/4.1.15-yocto-tiny/kernel/misc/vboxguest.ko /etc/modules-load.d/vboxguest.conf /etc/modprobe.d/vboxguest.conf
+FILELIST = /etc/modules-load.d/vboxguest.conf /lib/modules/4.1.15-yocto-tiny/kernel/misc/vboxguest.ko

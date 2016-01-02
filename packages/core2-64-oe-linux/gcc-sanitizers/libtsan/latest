@@ -1,9 +1,9 @@
-PV = 5.2.0
+PV = 5.3.0
 PR = r0
-PKGR = r0.2
+PKGR = r0.0
 PKG = libtsan0
-RPROVIDES = 5.2.0 libtsan
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libstdc++ (>= 5.2.0)
+RPROVIDES = 5.3.0 libtsan
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 823456
 FILES = /usr/lib/libtsan.so.*

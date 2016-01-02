@@ -5,7 +5,7 @@ drwxr-xr-x root       root              100 ./etc
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -r-xr-xr-x root       root            78952 ./usr/bin/quota
--r-xr-xr-x root       root            62736 ./usr/bin/quotasync
+-r-xr-xr-x root       root            62480 ./usr/bin/quotasync
 drwxr-xr-x root       root              280 ./usr/sbin
 -r-xr-xr-x root       root            66096 ./usr/sbin/convertquota
 -r-xr-xr-x root       root            78696 ./usr/sbin/edquota
@@ -13,9 +13,9 @@ drwxr-xr-x root       root              280 ./usr/sbin
 -r-xr-xr-x root       root            99600 ./usr/sbin/quotacheck
 lrwxrwxrwx root       root                7 ./usr/sbin/quotaoff -> quotaon
 -r-xr-xr-x root       root            70344 ./usr/sbin/quotaon
--r-xr-xr-x root       root            11392 ./usr/sbin/quotastats
+-r-xr-xr-x root       root            11264 ./usr/sbin/quotastats
 -r-xr-xr-x root       root            70512 ./usr/sbin/repquota
--r-xr-xr-x root       root            70640 ./usr/sbin/rpc.rquotad
+-r-xr-xr-x root       root            70576 ./usr/sbin/rpc.rquotad
 -r-xr-xr-x root       root            78736 ./usr/sbin/setquota
--r-xr-xr-x root       root            75248 ./usr/sbin/warnquota
--r-xr-xr-x root       root            11240 ./usr/sbin/xqmstats
+-r-xr-xr-x root       root            74992 ./usr/sbin/warnquota
+-r-xr-xr-x root       root            10344 ./usr/sbin/xqmstats

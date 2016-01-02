@@ -11,9 +11,9 @@ drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              280 ./usr/bin
 -rwxr-xr-x root       root            11528 ./usr/bin/sfcbdump
 -rwxr-xr-x root       root            16232 ./usr/bin/sfcbinst2mof
--rwxr-xr-x root       root            49728 ./usr/bin/sfcbmof
+-rwxr-xr-x root       root            49760 ./usr/bin/sfcbmof
 -rwxr-xr-x root       root             7496 ./usr/bin/sfcbmofpp
--rwxr-xr-x root       root            15344 ./usr/bin/sfcbproc
+-rwxr-xr-x root       root            15376 ./usr/bin/sfcbproc
 -rwxr-xr-x root       root             6355 ./usr/bin/sfcbrepos
 -rwxr-xr-x root       root             1615 ./usr/bin/sfcbstage
 -rwxr-xr-x root       root             7008 ./usr/bin/sfcbtrace
@@ -34,13 +34,13 @@ lrwxrwxrwx root       root               37 ./usr/lib/sfcb/libsfcBasicPAMAuthent
 -rwxr-xr-x root       root             7728 ./usr/lib/sfcb/libsfcBasicPAMAuthentication.so.0.0.0
 lrwxrwxrwx root       root               25 ./usr/lib/sfcb/libsfcBrokerCore.so -> libsfcBrokerCore.so.0.0.0
 lrwxrwxrwx root       root               25 ./usr/lib/sfcb/libsfcBrokerCore.so.0 -> libsfcBrokerCore.so.0.0.0
--rwxr-xr-x root       root           398040 ./usr/lib/sfcb/libsfcBrokerCore.so.0.0.0
+-rwxr-xr-x root       root           398072 ./usr/lib/sfcb/libsfcBrokerCore.so.0.0.0
 lrwxrwxrwx root       root               40 ./usr/lib/sfcb/libsfcCertificateAuthentication.so -> libsfcCertificateAuthentication.so.0.0.0
 lrwxrwxrwx root       root               40 ./usr/lib/sfcb/libsfcCertificateAuthentication.so.0 -> libsfcCertificateAuthentication.so.0.0.0
 -rwxr-xr-x root       root             7184 ./usr/lib/sfcb/libsfcCertificateAuthentication.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/sfcb/libsfcCimXmlCodec.so -> libsfcCimXmlCodec.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/sfcb/libsfcCimXmlCodec.so.0 -> libsfcCimXmlCodec.so.0.0.0
--rwxr-xr-x root       root           194328 ./usr/lib/sfcb/libsfcCimXmlCodec.so.0.0.0
+-rwxr-xr-x root       root           194360 ./usr/lib/sfcb/libsfcCimXmlCodec.so.0.0.0
 lrwxrwxrwx root       root               28 ./usr/lib/sfcb/libsfcClassProvider.so -> libsfcClassProvider.so.0.0.0
 lrwxrwxrwx root       root               28 ./usr/lib/sfcb/libsfcClassProvider.so.0 -> libsfcClassProvider.so.0.0.0
 -rwxr-xr-x root       root            30064 ./usr/lib/sfcb/libsfcClassProvider.so.0.0.0
@@ -70,7 +70,7 @@ lrwxrwxrwx root       root               31 ./usr/lib/sfcb/libsfcIndCIMXMLHandle
 -rwxr-xr-x root       root            37040 ./usr/lib/sfcb/libsfcIndCIMXMLHandler.so.0.0.0
 lrwxrwxrwx root       root               31 ./usr/lib/sfcb/libsfcInternalProvider.so -> libsfcInternalProvider.so.0.0.0
 lrwxrwxrwx root       root               31 ./usr/lib/sfcb/libsfcInternalProvider.so.0 -> libsfcInternalProvider.so.0.0.0
--rwxr-xr-x root       root            25232 ./usr/lib/sfcb/libsfcInternalProvider.so.0.0.0
+-rwxr-xr-x root       root            25264 ./usr/lib/sfcb/libsfcInternalProvider.so.0.0.0
 lrwxrwxrwx root       root               30 ./usr/lib/sfcb/libsfcInteropProvider.so -> libsfcInteropProvider.so.0.0.0
 lrwxrwxrwx root       root               30 ./usr/lib/sfcb/libsfcInteropProvider.so.0 -> libsfcInteropProvider.so.0.0.0
 -rwxr-xr-x root       root            42320 ./usr/lib/sfcb/libsfcInteropProvider.so.0.0.0

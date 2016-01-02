@@ -37,15 +37,15 @@ drwxr-xr-x root       root              360 ./usr/bin
 drwxr-xr-x root       root              120 ./usr/lib
 drwxr-xr-x root       root              160 ./usr/lib/cups
 drwxr-xr-x root       root              220 ./usr/lib/cups/backend
--rwx------ root       root            18360 ./usr/lib/cups/backend/dnssd
+-rwx------ root       root            18376 ./usr/lib/cups/backend/dnssd
 lrwxrwxrwx root       root                3 ./usr/lib/cups/backend/http -> ipp
 lrwxrwxrwx root       root                3 ./usr/lib/cups/backend/https -> ipp
--rwx------ root       root            75608 ./usr/lib/cups/backend/ipp
+-rwx------ root       root            75672 ./usr/lib/cups/backend/ipp
 lrwxrwxrwx root       root                3 ./usr/lib/cups/backend/ipps -> ipp
--rwx------ root       root            43128 ./usr/lib/cups/backend/lpd
--r-xr-xr-x root       root            24608 ./usr/lib/cups/backend/snmp
+-rwx------ root       root            43160 ./usr/lib/cups/backend/lpd
+-r-xr-xr-x root       root            24640 ./usr/lib/cups/backend/snmp
 -r-xr-xr-x root       root            37304 ./usr/lib/cups/backend/socket
--r-xr-xr-x root       root            33704 ./usr/lib/cups/backend/usb
+-r-xr-xr-x root       root            33768 ./usr/lib/cups/backend/usb
 drwxr-xr-x root       root              140 ./usr/lib/cups/cgi-bin
 -r-xr-xr-x root       root            57280 ./usr/lib/cups/cgi-bin/admin.cgi
 -r-xr-xr-x root       root            13472 ./usr/lib/cups/cgi-bin/classes.cgi
@@ -70,26 +70,26 @@ drwxr-xr-x root       root               80 ./usr/lib/cups/monitor
 -r-xr-xr-x root       root             8296 ./usr/lib/cups/monitor/bcp
 -r-xr-xr-x root       root             7752 ./usr/lib/cups/monitor/tbcp
 drwxr-xr-x root       root              100 ./usr/lib/cups/notifier
--r-xr-xr-x root       root            12736 ./usr/lib/cups/notifier/dbus
+-r-xr-xr-x root       root            12864 ./usr/lib/cups/notifier/dbus
 -r-xr-xr-x root       root            15552 ./usr/lib/cups/notifier/mailto
 -r-xr-xr-x root       root            15696 ./usr/lib/cups/notifier/rss
 -r-xr-xr-x root       root            58040 ./usr/lib/libcupscgi.so.1
--r-xr-xr-x root       root            24056 ./usr/lib/libcupsmime.so.1
+-r-xr-xr-x root       root            24072 ./usr/lib/libcupsmime.so.1
 -r-xr-xr-x root       root           120352 ./usr/lib/libcupsppdc.so.1
 drwxr-xr-x root       root              320 ./usr/sbin
 lrwxrwxrwx root       root               10 ./usr/sbin/accept -> cupsaccept
 -r-xr-xr-x root       root             8696 ./usr/sbin/cupsaccept
 -r-xr-xr-x root       root             9880 ./usr/sbin/cupsaddsmb
 -r-xr-xr-x root       root             9920 ./usr/sbin/cupsctl
--r-x------ root       root           394280 ./usr/sbin/cupsd
+-r-x------ root       root           394312 ./usr/sbin/cupsd
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsdisable -> cupsaccept
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsenable -> cupsaccept
--r-xr-xr-x root       root            25520 ./usr/sbin/cupsfilter
+-r-xr-xr-x root       root            25488 ./usr/sbin/cupsfilter
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsreject -> cupsaccept
--r-xr-xr-x root       root            23856 ./usr/sbin/lpadmin
+-r-xr-xr-x root       root            23848 ./usr/sbin/lpadmin
 -r-xr-xr-x root       root            10288 ./usr/sbin/lpc
 -r-xr-xr-x root       root            10240 ./usr/sbin/lpinfo
--r-xr-xr-x root       root             9480 ./usr/sbin/lpmove
+-r-xr-xr-x root       root             9464 ./usr/sbin/lpmove
 lrwxrwxrwx root       root               10 ./usr/sbin/reject -> cupsaccept
 drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/applications
