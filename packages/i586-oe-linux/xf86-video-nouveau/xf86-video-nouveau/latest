@@ -1,10 +1,10 @@
 PE = 2
-PV = 1.0.9
+PV = 1.0.12
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libcap (>= 2.24) libdrm (>= 2.4.62) libdrm-nouveau (>= 2.4.62) libudev (>= 225+git0+e1439a1472) xorg-abi-video-19 xserver-xorg-module-exa
+RDEPENDS = glibc (>= 2.22) libcap (>= 2.24) libdrm (>= 2.4.65) libdrm-nouveau (>= 2.4.65) libudev (>= 228+git0+dd050decb6) xorg-abi-video-20 xserver-xorg-module-exa
 RRECOMMENDS = 
-PKGSIZE = 214132
+PKGSIZE = 218248
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/xf86-video-nouveau/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/xf86-video-nouveau /usr/lib/xf86-video-nouveau/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/xorg/modules/drivers/*.so
 FILELIST = /usr/lib/xorg/modules/drivers/nouveau_drv.so
