@@ -2,7 +2,7 @@ drwxr-xr-x root       root               80 ./etc
 drwxr-xr-x root       root               60 ./etc/pam.d
 -rw-r--r-- root       root              266 ./etc/pam.d/sfcb
 drwxr-xr-x root       root               60 ./etc/sfcb
--rw-r--r-- root       root            18333 ./etc/sfcb/sfcb.cfg
+-rw-r--r-- root       root            19039 ./etc/sfcb/sfcb.cfg
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
@@ -34,7 +34,7 @@ lrwxrwxrwx root       root               37 ./usr/lib/sfcb/libsfcBasicPAMAuthent
 -rwxr-xr-x root       root             7728 ./usr/lib/sfcb/libsfcBasicPAMAuthentication.so.0.0.0
 lrwxrwxrwx root       root               25 ./usr/lib/sfcb/libsfcBrokerCore.so -> libsfcBrokerCore.so.0.0.0
 lrwxrwxrwx root       root               25 ./usr/lib/sfcb/libsfcBrokerCore.so.0 -> libsfcBrokerCore.so.0.0.0
--rwxr-xr-x root       root           398072 ./usr/lib/sfcb/libsfcBrokerCore.so.0.0.0
+-rwxr-xr-x root       root           401816 ./usr/lib/sfcb/libsfcBrokerCore.so.0.0.0
 lrwxrwxrwx root       root               40 ./usr/lib/sfcb/libsfcCertificateAuthentication.so -> libsfcCertificateAuthentication.so.0.0.0
 lrwxrwxrwx root       root               40 ./usr/lib/sfcb/libsfcCertificateAuthentication.so.0 -> libsfcCertificateAuthentication.so.0.0.0
 -rwxr-xr-x root       root             7184 ./usr/lib/sfcb/libsfcCertificateAuthentication.so.0.0.0
@@ -91,7 +91,7 @@ drwxr-xr-x root       root              180 ./usr/share/sfcb
 -rw-r--r-- root       root              907 ./usr/share/sfcb/20_indication.mof
 -rw-r--r-- root       root             3299 ./usr/share/sfcb/default.reg
 -rwxr-xr-x root       root             1239 ./usr/share/sfcb/genSslCert.sh
--rwxr-xr-x root       root             2186 ./usr/share/sfcb/getSchema.sh
+-rwxr-xr-x root       root             2242 ./usr/share/sfcb/getSchema.sh
 -rw-r--r-- root       root              612 ./usr/share/sfcb/indication.mof
 -rwxr-xr-x root       root             2529 ./usr/share/sfcb/stageschema.sh
 drwxr-xr-x root       root               60 ./var
