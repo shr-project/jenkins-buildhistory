@@ -2,9 +2,9 @@ PE = 2
 PV = 2.7.0+gitAUTOINC+826c6c686f
 PR = r0
 PKGV = 2.7.0+git0+826c6c686f
-PKGR = r0.3
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = lttng-ust (= 2:2.7.0+git0+826c6c686f-r0.3)
+RDEPENDS = lttng-ust (= 2:2.7.0+git0+826c6c686f-r0.0)
 RRECOMMENDS = glibc-dev liburcu-dev python-core-dev util-linux-dev
 PKGSIZE = 164301
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lttng-ust/*.la /lib/*.la

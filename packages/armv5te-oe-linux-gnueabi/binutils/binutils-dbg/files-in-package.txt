@@ -7,7 +7,7 @@ drwxr-xr-x root       root              400 ./usr/bin/.debug
 -rwxr-xr-x root       root           136784 ./usr/bin/.debug/arm-oe-linux-gnueabi-c++filt
 -rwxr-xr-x root       root         41958232 ./usr/bin/.debug/arm-oe-linux-gnueabi-dwp
 -rwxr-xr-x root       root            67764 ./usr/bin/.debug/arm-oe-linux-gnueabi-elfedit
--rwxr-xr-x root       root           630720 ./usr/bin/.debug/arm-oe-linux-gnueabi-gprof
+-rwxr-xr-x root       root           630920 ./usr/bin/.debug/arm-oe-linux-gnueabi-gprof
 -rwxr-xr-x root       root         62635364 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld
 -rwxr-xr-x root       root          1179140 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld.bfd
 -rwxr-xr-x root       root         62635364 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld.gold
@@ -123,15 +123,13 @@ drwxr-xr-x root       root              860 ./usr/src/debug/binutils/2.25.1-r0/g
 -rw-r--r-- root       root             1314 ./usr/src/debug/binutils/2.25.1-r0/git/binutils/unwind-ia64.h
 -rw-r--r-- root       root             1533 ./usr/src/debug/binutils/2.25.1-r0/git/binutils/version.c
 -rw-r--r-- root       root            56497 ./usr/src/debug/binutils/2.25.1-r0/git/binutils/wrstabs.c
-drwxr-xr-x root       root              120 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi
+drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi
 drwxr-xr-x root       root               80 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/bfd
 -rw-r--r-- root       root           242253 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/bfd/bfd.h
 -rw-r--r-- root       root            31239 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/bfd/elf32-target.h
 drwxr-xr-x root       root               80 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gold
 -rw-r--r-- root       root           129382 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gold/yyscript.c
 -rw-r--r-- root       root             7241 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gold/yyscript.h
-drwxr-xr-x root       root               60 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gprof
--rw-r--r-- root       root             2205 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gprof/flat_bl.c
 drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld
 -rw-r--r-- root       root           199955 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/earmelf_linux_eabi.c
 -rw-r--r-- root       root           200001 ./usr/src/debug/binutils/2.25.1-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/earmelfb_linux_eabi.c
@@ -323,7 +321,7 @@ drwxr-xr-x root       root             2300 ./usr/src/debug/binutils/2.25.1-r0/g
 -rw-r--r-- root       root            11832 ./usr/src/debug/binutils/2.25.1-r0/git/gold/workqueue.cc
 -rw-r--r-- root       root             7565 ./usr/src/debug/binutils/2.25.1-r0/git/gold/workqueue.h
 -rw-r--r-- root       root           159743 ./usr/src/debug/binutils/2.25.1-r0/git/gold/x86_64.cc
-drwxr-xr-x root       root              840 ./usr/src/debug/binutils/2.25.1-r0/git/gprof
+drwxr-xr-x root       root              860 ./usr/src/debug/binutils/2.25.1-r0/git/gprof
 -rw-r--r-- root       root             3279 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/aarch64.c
 -rw-r--r-- root       root             5575 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/alpha.c
 -rw-r--r-- root       root            14993 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/basic_blocks.c
@@ -339,6 +337,7 @@ drwxr-xr-x root       root              840 ./usr/src/debug/binutils/2.25.1-r0/g
 -rw-r--r-- root       root             1158 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/cg_print.h
 -rw-r--r-- root       root            25291 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/corefile.c
 -rw-r--r-- root       root             1684 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/corefile.h
+-rw-r--r-- root       root             2205 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/flat_bl.c
 -rw-r--r-- root       root             5758 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/fsf_callg_bl.c
 -rw-r--r-- root       root            17372 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/gmon_io.c
 -rw-r--r-- root       root             1620 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/gmon_io.h

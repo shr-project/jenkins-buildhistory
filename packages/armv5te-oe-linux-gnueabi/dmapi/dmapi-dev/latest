@@ -1,9 +1,9 @@
 PV = 2.2.12
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 PKG = libdm-dev
 RPROVIDES = 2.2.12 dmapi-dev
-RDEPENDS = dmapi (= 2.2.12-r0.4)
+RDEPENDS = dmapi (= 2.2.12-r0.0)
 RRECOMMENDS = glibc-dev xfsprogs-dev
 PKGSIZE = 22688
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dmapi/*.la /lib/*.la
