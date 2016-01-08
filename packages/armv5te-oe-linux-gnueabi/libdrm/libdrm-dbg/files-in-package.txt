@@ -1,6 +1,7 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
-drwxr-xr-x root       root              180 ./usr/bin/.debug
+drwxr-xr-x root       root              200 ./usr/bin/.debug
+-rwxr-xr-x root       root           104692 ./usr/bin/.debug/amdgpu_test
 -rwxr-xr-x root       root           101576 ./usr/bin/.debug/dristat
 -rwxr-xr-x root       root            26440 ./usr/bin/.debug/drmstat
 -rwxr-xr-x root       root            13104 ./usr/bin/.debug/kmstest
@@ -91,7 +92,17 @@ drwxr-xr-x root       root              300 ./usr/src/debug/libdrm/2.4.65-r0/lib
 -rw-r--r-- root       root             7940 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/radeon/radeon_cs_space.c
 -rw-r--r-- root       root            82985 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/radeon/radeon_surface.c
 -rw-r--r-- root       root             5968 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/radeon/radeon_surface.h
-drwxr-xr-x root       root              180 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests
+drwxr-xr-x root       root              200 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests
+drwxr-xr-x root       root              220 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu
+-rw-r--r-- root       root             6156 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu/amdgpu_test.c
+-rw-r--r-- root       root             5397 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu/amdgpu_test.h
+-rw-r--r-- root       root            23318 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu/basic_tests.c
+-rw-r--r-- root       root             4721 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu/bo_tests.c
+-rw-r--r-- root       root             9815 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu/cs_tests.c
+-rw-r--r-- root       root           187450 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu/frame.h
+-rw-r--r-- root       root            64676 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu/uvd_messages.h
+-rw-r--r-- root       root             5070 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu/vce_ib.h
+-rw-r--r-- root       root            13929 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/amdgpu/vce_tests.c
 -rw-r--r-- root       root             8593 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/dristat.c
 -rw-r--r-- root       root            11805 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/drmstat.c
 drwxr-xr-x root       root               60 ./usr/src/debug/libdrm/2.4.65-r0/libdrm-2.4.65/tests/kmstest

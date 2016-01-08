@@ -1,11 +1,11 @@
 PV = 3.14
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = gpsd-systemd
-RDEPENDS = bluez5 (>= 5.36) dbus-lib (>= 1.8.20) glibc (>= 2.22) gpsd-gpsctl libgcc (>= 5.3.0) libgps (>= 3.14) libgpsd (>= 3.14) libqtcore4 (>= 4.8.7) libqtnetwork4 (>= 4.8.7) libstdc++ (>= 5.3.0) libusb1 (>= 1.0.20)
+RDEPENDS = bluez5 (>= 5.36) dbus-lib (>= 1.8.20) glibc (>= 2.22) gpsd-gpsctl libgps (>= 3.14) libgpsd (>= 3.14) libusb1 (>= 1.0.20)
 RRECOMMENDS = gpsd-conf gpsd-machine-conf gpsd-udev
 RREPLACES = gpsd-systemd
 RCONFLICTS = gpsd-systemd
-PKGSIZE = 231862
+PKGSIZE = 54208
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/gpsd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gpsd /usr/lib/gpsd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/gpsd.socket /lib/systemd/system/gpsd.service
-FILELIST = /lib/systemd/system/gpsd.service /lib/systemd/system/gpsd.socket /usr/lib/libQgpsmm.so.22 /usr/lib/libQgpsmm.so.22.0 /usr/lib/libQgpsmm.so.22.0.0 /usr/sbin/gpsd /usr/sbin/gpsdctl
+FILELIST = /lib/systemd/system/gpsd.service /lib/systemd/system/gpsd.socket /usr/sbin/gpsd /usr/sbin/gpsdctl

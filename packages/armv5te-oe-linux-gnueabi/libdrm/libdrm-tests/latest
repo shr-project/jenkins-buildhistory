@@ -1,9 +1,9 @@
 PV = 2.4.65
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libdrm (>= 2.4.65) libdrm-kms (>= 2.4.65)
+RDEPENDS = glibc (>= 2.22) libdrm (>= 2.4.65) libdrm-amdgpu (>= 2.4.65) libdrm-kms (>= 2.4.65)
 RRECOMMENDS = 
-PKGSIZE = 104520
+PKGSIZE = 177000
 FILES = /usr/bin/dr* /usr/bin/mode* /usr/bin/*test
-FILELIST = /usr/bin/dristat /usr/bin/drmstat /usr/bin/kmstest /usr/bin/modeprint /usr/bin/modetest /usr/bin/proptest /usr/bin/vbltest
+FILELIST = /usr/bin/amdgpu_test /usr/bin/dristat /usr/bin/drmstat /usr/bin/kmstest /usr/bin/modeprint /usr/bin/modetest /usr/bin/proptest /usr/bin/vbltest

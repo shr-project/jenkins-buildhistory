@@ -1,8 +1,10 @@
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root              100 ./etc/lvm
 -rw-r--r-- root       root            11866 ./etc/lvm/lvm.conf
--rw-r--r-- root       root             2145 ./etc/lvm/lvmlocal.conf
-drwxr-xr-x root       root              120 ./etc/lvm/profile
+-rw-r--r-- root       root             2244 ./etc/lvm/lvmlocal.conf
+drwxr-xr-x root       root              160 ./etc/lvm/profile
+-r--r--r-- root       root              531 ./etc/lvm/profile/cache-mq.profile
+-r--r--r-- root       root              338 ./etc/lvm/profile/cache-smq.profile
 -r--r--r-- root       root             2249 ./etc/lvm/profile/command_profile_template.profile
 -r--r--r-- root       root              828 ./etc/lvm/profile/metadata_profile_template.profile
 -r--r--r-- root       root               76 ./etc/lvm/profile/thin-generic.profile
@@ -11,48 +13,49 @@ drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root              180 ./lib/systemd/system
 -r--r--r-- root       root              360 ./lib/systemd/system/blk-availability.service
--r--r--r-- root       root              334 ./lib/systemd/system/dm-event.service
+-r--r--r-- root       root              338 ./lib/systemd/system/dm-event.service
 -r--r--r-- root       root              248 ./lib/systemd/system/dm-event.socket
 -r--r--r-- root       root              349 ./lib/systemd/system/lvm2-lvmetad.service
 -r--r--r-- root       root              215 ./lib/systemd/system/lvm2-lvmetad.socket
--r--r--r-- root       root              662 ./lib/systemd/system/lvm2-monitor.service
+-r--r--r-- root       root              666 ./lib/systemd/system/lvm2-monitor.service
 -r--r--r-- root       root              390 ./lib/systemd/system/lvm2-pvscan@.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root              140 ./lib/udev/rules.d
 -r--r--r-- root       root             6844 ./lib/udev/rules.d/10-dm.rules
 -r--r--r-- root       root             2454 ./lib/udev/rules.d/11-dm-lvm.rules
 -r--r--r-- root       root             1499 ./lib/udev/rules.d/13-dm-disk.rules
--r--r--r-- root       root             4355 ./lib/udev/rules.d/69-dm-lvm-metad.rules
+-r--r--r-- root       root             4356 ./lib/udev/rules.d/69-dm-lvm-metad.rules
 -r--r--r-- root       root              483 ./lib/udev/rules.d/95-dm-notify.rules
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              160 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/lib/device-mapper
--r-xr-xr-x root       root             9868 ./usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so
--r-xr-xr-x root       root             5756 ./usr/lib/device-mapper/libdevmapper-event-lvm2raid.so
--r-xr-xr-x root       root            10012 ./usr/lib/device-mapper/libdevmapper-event-lvm2snapshot.so
--r-xr-xr-x root       root            10032 ./usr/lib/device-mapper/libdevmapper-event-lvm2thin.so
--r-xr-xr-x root       root             5764 ./usr/lib/libdevmapper-event-lvm2.so.2.02
--r-xr-xr-x root       root            18176 ./usr/lib/libdevmapper-event.so.1.02
--r-xr-xr-x root       root           244664 ./usr/lib/libdevmapper.so.1.02
--r-xr-xr-x root       root           735400 ./usr/lib/liblvm2app.so.2.2
--r-xr-xr-x root       root          1019292 ./usr/lib/liblvm2cmd.so.2.02
-drwxr-xr-x root       root             1080 ./usr/sbin
--r-xr-xr-x root       root            11794 ./usr/sbin/blkdeactivate
--r-xr-xr-x root       root            26320 ./usr/sbin/dmeventd
--r-xr-xr-x root       root            56548 ./usr/sbin/dmsetup
--r-xr-xr-x root       root            14404 ./usr/sbin/fsadm
+-r-xr-xr-x root       root             9860 ./usr/lib/device-mapper/libdevmapper-event-lvm2mirror.so
+-r-xr-xr-x root       root             9860 ./usr/lib/device-mapper/libdevmapper-event-lvm2raid.so
+-r-xr-xr-x root       root             9932 ./usr/lib/device-mapper/libdevmapper-event-lvm2snapshot.so
+-r-xr-xr-x root       root             9948 ./usr/lib/device-mapper/libdevmapper-event-lvm2thin.so
+-r-xr-xr-x root       root             5756 ./usr/lib/libdevmapper-event-lvm2.so.2.02
+-r-xr-xr-x root       root            22328 ./usr/lib/libdevmapper-event.so.1.02
+-r-xr-xr-x root       root           286104 ./usr/lib/libdevmapper.so.1.02
+-r-xr-xr-x root       root           743892 ./usr/lib/liblvm2app.so.2.2
+-r-xr-xr-x root       root          1027788 ./usr/lib/liblvm2cmd.so.2.02
+drwxr-xr-x root       root             1100 ./usr/sbin
+-r-xr-xr-x root       root            12482 ./usr/sbin/blkdeactivate
+-r-xr-xr-x root       root            34516 ./usr/sbin/dmeventd
+-r-xr-xr-x root       root           118780 ./usr/sbin/dmsetup
+lrwxrwxrwx root       root                7 ./usr/sbin/dmstats -> dmsetup
+-r-xr-xr-x root       root            14410 ./usr/sbin/fsadm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvchange -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvconvert -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvcreate -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvdisplay -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvextend -> lvm
--r-xr-xr-x root       root          1057480 ./usr/sbin/lvm
+-r-xr-xr-x root       root          1065640 ./usr/sbin/lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvmchange -> lvm
--r-xr-xr-x root       root            12574 ./usr/sbin/lvmconf
+-r-xr-xr-x root       root            12688 ./usr/sbin/lvmconf
 lrwxrwxrwx root       root                3 ./usr/sbin/lvmconfig -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvmdiskscan -> lvm
 -r-xr-xr-x root       root             9538 ./usr/sbin/lvmdump
--r-xr-xr-x root       root            38640 ./usr/sbin/lvmetad
+-r-xr-xr-x root       root            46832 ./usr/sbin/lvmetad
 lrwxrwxrwx root       root                3 ./usr/sbin/lvmsadc -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvmsar -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvreduce -> lvm
@@ -80,7 +83,7 @@ lrwxrwxrwx root       root                3 ./usr/sbin/vgdisplay -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/vgexport -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/vgextend -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/vgimport -> lvm
--r-xr-xr-x root       root            10464 ./usr/sbin/vgimportclone
+-r-xr-xr-x root       root             9625 ./usr/sbin/vgimportclone
 lrwxrwxrwx root       root                3 ./usr/sbin/vgmerge -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/vgmknodes -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/vgreduce -> lvm
