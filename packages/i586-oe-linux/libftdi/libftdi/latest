@@ -1,10 +1,9 @@
 PV = 1.2
 PR = r0
-PKGR = r0.0
-PKG = libftdi1-2
-RPROVIDES = 1.2 libftdi
-RDEPENDS = glibc (>= 2.22) libusb1 (>= 1.0.20)
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) libusb1 (>= 1.0.20)
 RRECOMMENDS = 
-PKGSIZE = 57133
+PKGSIZE = 82984
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/libftdi/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libftdi /usr/lib/libftdi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libftdi1.so.2 /usr/lib/libftdi1.so.2.2.0
+FILELIST = /usr/lib/libftdi1.so.2 /usr/lib/libftdi1.so.2.2.0 /usr/lib/libftdipp1.so.2 /usr/lib/libftdipp1.so.2.2.0

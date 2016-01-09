@@ -1,10 +1,10 @@
 PV = 3.4.4+gitAUTOINC+1b565c7b59
 PR = r0
 PKGV = 3.4.4+git0+1b565c7b59
-PKGR = r0.5
+PKGR = r0.0
 PKG = libqrencode-staticdev
 RPROVIDES = 3.4.4+git0+1b565c7b59 qrencode-staticdev
-RDEPENDS = qrencode-dev (= 3.4.4+git0+1b565c7b59-r0.5)
+RDEPENDS = qrencode-dev (= 3.4.4+git0+1b565c7b59-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/qrencode/*.a

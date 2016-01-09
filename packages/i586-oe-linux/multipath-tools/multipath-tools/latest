@@ -1,8 +1,8 @@
 PV = 0.5.0+git770e6d0da0
 PR = r0
-PKGR = r0.5
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) kpartx libaio (>= 0.3.110) libsystemd (>= 228+git0+dd050decb6) libudev (>= 228+git0+dd050decb6) lvm2 (>= 2.02.125) readline (>= 6.3)
+RDEPENDS = glibc (>= 2.22) kpartx libaio (>= 0.3.110) libsystemd (>= 228+git0+dd050decb6) libudev (>= 228+git0+dd050decb6) lvm2 (>= 2.02.138) readline (>= 6.3)
 RRECOMMENDS = 
 PKGSIZE = 581165
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/multipath-tools/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/multipath-tools /usr/lib/multipath-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/multipath /lib/systemd

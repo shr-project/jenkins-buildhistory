@@ -7,7 +7,7 @@ drwxr-xr-x root       root              400 ./usr/bin/.debug
 -rwxr-xr-x root       root           128556 ./usr/bin/.debug/i586-oe-linux-c++filt
 -rwxr-xr-x root       root         39197428 ./usr/bin/.debug/i586-oe-linux-dwp
 -rwxr-xr-x root       root            54016 ./usr/bin/.debug/i586-oe-linux-elfedit
--rwxr-xr-x root       root           586860 ./usr/bin/.debug/i586-oe-linux-gprof
+-rwxr-xr-x root       root           586684 ./usr/bin/.debug/i586-oe-linux-gprof
 -rwxr-xr-x root       root         58662144 ./usr/bin/.debug/i586-oe-linux-ld
 -rwxr-xr-x root       root          1094088 ./usr/bin/.debug/i586-oe-linux-ld.bfd
 -rwxr-xr-x root       root         58662144 ./usr/bin/.debug/i586-oe-linux-ld.gold
@@ -133,7 +133,7 @@ drwxr-xr-x root       root              860 ./usr/src/debug/binutils/2.25.1-r0/g
 -rw-r--r-- root       root             1314 ./usr/src/debug/binutils/2.25.1-r0/git/binutils/unwind-ia64.h
 -rw-r--r-- root       root             1533 ./usr/src/debug/binutils/2.25.1-r0/git/binutils/version.c
 -rw-r--r-- root       root            56497 ./usr/src/debug/binutils/2.25.1-r0/git/binutils/wrstabs.c
-drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux
+drwxr-xr-x root       root              120 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux
 drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/bfd
 -rw-r--r-- root       root           242253 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/bfd/bfd.h
 -rw-r--r-- root       root            31239 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/bfd/elf32-target.h
@@ -141,6 +141,8 @@ drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.25.1-r0/g
 drwxr-xr-x root       root               80 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/gold
 -rw-r--r-- root       root           129382 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/gold/yyscript.c
 -rw-r--r-- root       root             7241 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/gold/yyscript.h
+drwxr-xr-x root       root               60 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/gprof
+-rw-r--r-- root       root             6120 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/gprof/bsd_callg_bl.c
 drwxr-xr-x root       root              120 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/ld
 -rw-r--r-- root       root           174730 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/ld/eelf32_x86_64.c
 -rw-r--r-- root       root           166467 ./usr/src/debug/binutils/2.25.1-r0/git/build.i586-oe-linux.i586-oe-linux/ld/eelf_i386.c
@@ -334,12 +336,11 @@ drwxr-xr-x root       root             2300 ./usr/src/debug/binutils/2.25.1-r0/g
 -rw-r--r-- root       root            11832 ./usr/src/debug/binutils/2.25.1-r0/git/gold/workqueue.cc
 -rw-r--r-- root       root             7565 ./usr/src/debug/binutils/2.25.1-r0/git/gold/workqueue.h
 -rw-r--r-- root       root           159743 ./usr/src/debug/binutils/2.25.1-r0/git/gold/x86_64.cc
-drwxr-xr-x root       root              860 ./usr/src/debug/binutils/2.25.1-r0/git/gprof
+drwxr-xr-x root       root              840 ./usr/src/debug/binutils/2.25.1-r0/git/gprof
 -rw-r--r-- root       root             3279 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/aarch64.c
 -rw-r--r-- root       root             5575 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/alpha.c
 -rw-r--r-- root       root            14993 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/basic_blocks.c
 -rw-r--r-- root       root             1397 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/basic_blocks.h
--rw-r--r-- root       root             6120 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/bsd_callg_bl.c
 -rw-r--r-- root       root             4024 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/call_graph.c
 -rw-r--r-- root       root             1070 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/call_graph.h
 -rw-r--r-- root       root            18799 ./usr/src/debug/binutils/2.25.1-r0/git/gprof/cg_arcs.c

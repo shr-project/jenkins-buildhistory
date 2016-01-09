@@ -40,7 +40,7 @@ drwxr-xr-x root       root             4120 ./usr/lib/grub/i386-efi/.debug
 -rw-r--r-- root       root            26256 ./usr/lib/grub/i386-efi/.debug/cpio_be.module
 -rw-r--r-- root       root            10372 ./usr/lib/grub/i386-efi/.debug/cpuid.module
 -rw-r--r-- root       root             9784 ./usr/lib/grub/i386-efi/.debug/crc64.module
--rw-r--r-- root       root            29904 ./usr/lib/grub/i386-efi/.debug/crypto.module
+-rw-r--r-- root       root            29896 ./usr/lib/grub/i386-efi/.debug/crypto.module
 -rw-r--r-- root       root            50144 ./usr/lib/grub/i386-efi/.debug/cryptodisk.module
 -rw-r--r-- root       root            22848 ./usr/lib/grub/i386-efi/.debug/cs5536.module
 -rw-r--r-- root       root            11068 ./usr/lib/grub/i386-efi/.debug/date.module
@@ -139,7 +139,7 @@ drwxr-xr-x root       root             4120 ./usr/lib/grub/i386-efi/.debug
 -rw-r--r-- root       root           262904 ./usr/lib/grub/i386-efi/.debug/net.module
 -rw-r--r-- root       root            28280 ./usr/lib/grub/i386-efi/.debug/newc.module
 -rw-r--r-- root       root            43900 ./usr/lib/grub/i386-efi/.debug/nilfs2.module
--rw-r--r-- root       root           524128 ./usr/lib/grub/i386-efi/.debug/normal.module
+-rw-r--r-- root       root           524156 ./usr/lib/grub/i386-efi/.debug/normal.module
 -rw-r--r-- root       root            55448 ./usr/lib/grub/i386-efi/.debug/ntfs.module
 -rw-r--r-- root       root            19832 ./usr/lib/grub/i386-efi/.debug/ntfscomp.module
 -rw-r--r-- root       root            27492 ./usr/lib/grub/i386-efi/.debug/odc.module
@@ -494,7 +494,7 @@ drwxr-xr-x root       root              520 ./usr/src/debug/grub-efi/2.00-r3/gru
 -rw-r--r-- root       root             2069 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/lib/cmdline.c
 -rw-r--r-- root       root             1902 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/lib/crc.c
 -rw-r--r-- root       root             2595 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/lib/crc64.c
--rw-r--r-- root       root            11125 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/lib/crypto.c
+-rw-r--r-- root       root            11143 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/lib/crypto.c
 drwxr-xr-x root       root              100 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/lib/efi
 -rw-r--r-- root       root             2413 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/lib/efi/datetime.c
 -rw-r--r-- root       root             1181 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/lib/efi/halt.c
@@ -619,7 +619,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/grub-efi/2.00-r3/gru
 -rw-r--r-- root       root            12023 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/net/tftp.c
 -rw-r--r-- root       root             5664 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/net/udp.c
 drwxr-xr-x root       root              360 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/normal
--rw-r--r-- root       root             5744 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/normal/auth.c
+-rw-r--r-- root       root             5782 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/normal/auth.c
 -rw-r--r-- root       root             3234 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/normal/autofs.c
 -rw-r--r-- root       root            30425 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/normal/charset.c
 -rw-r--r-- root       root            14564 ./usr/src/debug/grub-efi/2.00-r3/grub-2.00/grub-core/normal/cmdline.c
