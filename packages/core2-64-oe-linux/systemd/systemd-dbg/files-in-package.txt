@@ -16,7 +16,11 @@ drwxr-xr-x root       root              340 ./bin/.debug
 -rwxr-xr-x root       root           260112 ./bin/.debug/systemd-tty-ask-password-agent
 -rwxr-xr-x root       root          1569272 ./bin/.debug/udevadm
 drwxr-xr-x root       root              100 ./lib
-drwxr-xr-x root       root               80 ./lib/.debug
+drwxr-xr-x root       root              160 ./lib/.debug
+-rwxr-xr-x root       root            55848 ./lib/.debug/libsystemd-daemon.so.0.0.12
+-rwxr-xr-x root       root            45984 ./lib/.debug/libsystemd-id128.so.0.0.28
+-rwxr-xr-x root       root           517568 ./lib/.debug/libsystemd-journal.so.0.11.5
+-rwxr-xr-x root       root           183384 ./lib/.debug/libsystemd-login.so.0.9.3
 -rwxr-xr-x root       root          1966656 ./lib/.debug/libsystemd.so.0.13.0
 -rwxr-xr-x root       root           490496 ./lib/.debug/libudev.so.1.6.4
 drwxr-xr-x root       root               80 ./lib/systemd
@@ -98,7 +102,11 @@ drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/systemd
 drwxr-xr-x root       root               80 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0
-drwxr-xr-x root       root               60 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0/build
+drwxr-xr-x root       root              140 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0/build
+-rw-r--r-- root       root              458 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0/build/libsystemd-daemon.c
+-rw-r--r-- root       root              258 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0/build/libsystemd-id128.c
+-rw-r--r-- root       root             2974 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0/build/libsystemd-journal.c
+-rw-r--r-- root       root             1829 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0/build/libsystemd-login.c
 drwxr-xr-x root       root              180 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0/build/src
 drwxr-xr-x root       root              140 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0/build/src/basic
 -rw-r--r-- root       root             1038 ./usr/src/debug/systemd/1_228+gitAUTOINC+dd050decb6-r0/build/src/basic/af-to-name.h

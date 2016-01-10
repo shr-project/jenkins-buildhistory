@@ -10,7 +10,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/samba/4.1.12-r0/samb
 drwxr-xr-x root       root              240 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/credentials
 -rw-r--r-- root       root            30493 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/credentials/credentials.c
 -rw-r--r-- root       root            13492 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/credentials/credentials.h
--rw-rw-r-- root       root             3699 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/credentials/credentials_internal.h
+-rw-r--r-- root       root             3699 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/credentials/credentials_internal.h
 -rw-r--r-- root       root            29098 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/credentials/credentials_krb5.c
 -rw-r--r-- root       root             1367 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/credentials/credentials_krb5.h
 -rw-r--r-- root       root             8064 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/credentials/credentials_ntlm.c
@@ -23,10 +23,10 @@ drwxr-xr-x root       root              200 ./usr/src/debug/samba/4.1.12-r0/samb
 -rw-rw-r-- root       root             2446 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/external.c
 -rw-r--r-- root       root            19472 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/gensec.c
 -rw-r--r-- root       root            11174 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/gensec.h
--rw-rw-r-- root       root             5002 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/gensec_internal.h
+-rw-r--r-- root       root             5002 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/gensec_internal.h
 -rw-r--r-- root       root            26023 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/gensec_start.c
 -rw-r--r-- root       root             6530 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/gensec_util.c
--rw-rw-r-- root       root            20572 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/schannel.c
+-rw-r--r-- root       root            20572 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/schannel.c
 -rw-r--r-- root       root            43526 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/gensec/spnego.c
 drwxr-xr-x root       root              100 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/kerberos
 -rw-r--r-- root       root            10226 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/auth/kerberos/gssapi_pac.c
@@ -436,7 +436,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/samba/4.1.12-r0/samb
 -rw-r--r-- root       root             7282 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/param/param_global.h
 -rw-r--r-- root       root            13654 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/param/param_proto.h
 drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/smbd
--rw-r--r-- root       root            86746 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/smbd/build_options.c
+-rw-r--r-- root       root            86596 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source3/smbd/build_options.c
 drwxr-xr-x root       root              180 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source4
 drwxr-xr-x root       root              140 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source4/auth
 -rw-r--r-- root       root             1064 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/bin/default/source4/auth/auth_sam.h
@@ -842,8 +842,8 @@ drwxr-xr-x root       root              420 ./usr/src/debug/samba/4.1.12-r0/samb
 -rw-r--r-- root       root            24248 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/credentials.c
 -rw-r--r-- root       root             9920 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/msrpc_parse.c
 -rw-r--r-- root       root             1842 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/msrpc_parse.h
--rw-rw-r-- root       root            68769 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/netlogon_creds_cli.c
--rw-rw-r-- root       root             5349 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/netlogon_creds_cli.h
+-rw-r--r-- root       root            68769 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/netlogon_creds_cli.c
+-rw-r--r-- root       root             5349 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/netlogon_creds_cli.h
 -rw-r--r-- root       root            20158 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/ntlm_check.c
 -rw-r--r-- root       root             3226 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/ntlm_check.h
 -rw-r--r-- root       root             5094 ./usr/src/debug/samba/4.1.12-r0/samba-4.1.12/libcli/auth/pam_errors.c

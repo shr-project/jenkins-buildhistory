@@ -1,0 +1,10 @@
+PV = 1.6.1
+PR = r0
+PKGR = r0.0
+PKG = libpocodata31
+RPROVIDES = 1.6.1 poco-data
+RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) poco-foundation (>= 1.6.1)
+RRECOMMENDS = 
+PKGSIZE = 1929752
+FILES = /usr/lib/libPocoData.so.*
+FILELIST = /usr/lib/libPocoData.so.31

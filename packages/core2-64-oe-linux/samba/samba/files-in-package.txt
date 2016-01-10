@@ -2,7 +2,7 @@ drwxr-xr-x root       root               80 ./etc
 drwxr-xr-x root       root               60 ./etc/sysconfig
 -rw-r--r-- root       root              428 ./etc/sysconfig/samba
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
--rw-r--r-- root       root               34 ./etc/tmpfiles.d/99-samba.conf
+-rw-r--r-- root       root               66 ./etc/tmpfiles.d/samba.conf
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              820 ./usr/bin
 -rwxr-xr-x root       root            86488 ./usr/bin/cifsdd
@@ -44,7 +44,7 @@ drwxr-xr-x root       root              820 ./usr/bin
 -rwxr-xr-x root       root          5266144 ./usr/bin/smbtorture
 -rwxr-xr-x root       root            31024 ./usr/bin/smbtree
 -rwxr-xr-x root       root            26840 ./usr/bin/testparm
-drwxr-xr-x root       root              380 ./usr/lib
+drwxr-xr-x root       root              360 ./usr/lib
 lrwxrwxrwx root       root               24 ./usr/lib/libdcerpc-atsvc.so.0 -> libdcerpc-atsvc.so.0.0.1
 -rwxr-xr-x root       root             6224 ./usr/lib/libdcerpc-atsvc.so.0.0.1
 lrwxrwxrwx root       root               23 ./usr/lib/libdcerpc-samr.so.0 -> libdcerpc-samr.so.0.0.1
@@ -147,8 +147,6 @@ drwxr-xr-x root       root              740 ./usr/lib/samba/vfs
 -rwxr-xr-x root       root            15320 ./usr/lib/samba/vfs/syncops.so
 -rwxr-xr-x root       root            48096 ./usr/lib/samba/vfs/time_audit.so
 -rwxr-xr-x root       root            19424 ./usr/lib/samba/vfs/xattr_tdb.so
-drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
--rw-r--r-- root       root               32 ./usr/lib/tmpfiles.d/samba.conf
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/samba
 drwxr-xr-x root       root              100 ./usr/share/samba/codepages
