@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              100 ./usr/include
-drwxr-xr-x root       root              700 ./usr/include/NetworkManager
--rw-r--r-- root       root            27217 ./usr/include/NetworkManager/NetworkManager.h
+drwxr-xr-x root       root              720 ./usr/include/NetworkManager
+-rw-r--r-- root       root            27275 ./usr/include/NetworkManager/NetworkManager.h
 -rw-r--r-- root       root            12344 ./usr/include/NetworkManager/NetworkManagerVPN.h
 -rw-r--r-- root       root            11738 ./usr/include/NetworkManager/nm-connection.h
 -rw-r--r-- root       root            17357 ./usr/include/NetworkManager/nm-setting-8021x.h
@@ -33,8 +33,9 @@ drwxr-xr-x root       root              700 ./usr/include/NetworkManager
 -rw-r--r-- root       root            14335 ./usr/include/NetworkManager/nm-setting.h
 -rw-r--r-- root       root             5892 ./usr/include/NetworkManager/nm-utils-enum-types.h
 -rw-r--r-- root       root             7645 ./usr/include/NetworkManager/nm-utils.h
--rw-r--r-- root       root             4495 ./usr/include/NetworkManager/nm-version.h
-drwxr-xr-x root       root             1360 ./usr/include/libnm
+-rw-r--r-- root       root             2824 ./usr/include/NetworkManager/nm-version-macros.h
+-rw-r--r-- root       root             2842 ./usr/include/NetworkManager/nm-version.h
+drwxr-xr-x root       root             1380 ./usr/include/libnm
 drwxr-xr-x root       root              720 ./usr/include/libnm-glib
 -rw-r--r-- root       root             2080 ./usr/include/libnm-glib/libnm_glib.h
 -rw-r--r-- root       root             3972 ./usr/include/libnm-glib/nm-access-point.h
@@ -76,8 +77,8 @@ drwxr-xr-x root       root              720 ./usr/include/libnm-glib
 -rw-r--r-- root       root            16848 ./usr/include/libnm/nm-client.h
 -rw-r--r-- root       root            10466 ./usr/include/libnm/nm-connection.h
 -rw-r--r-- root       root             5877 ./usr/include/libnm/nm-core-enum-types.h
--rw-r--r-- root       root             2838 ./usr/include/libnm/nm-core-types.h
--rw-r--r-- root       root            30238 ./usr/include/libnm/nm-dbus-interface.h
+-rw-r--r-- root       root             2862 ./usr/include/libnm/nm-core-types.h
+-rw-r--r-- root       root            30381 ./usr/include/libnm/nm-dbus-interface.h
 -rw-r--r-- root       root             2075 ./usr/include/libnm/nm-device-adsl.h
 -rw-r--r-- root       root             2297 ./usr/include/libnm/nm-device-bond.h
 -rw-r--r-- root       root             2364 ./usr/include/libnm/nm-device-bridge.h
@@ -123,14 +124,15 @@ drwxr-xr-x root       root              720 ./usr/include/libnm-glib
 -rw-r--r-- root       root             5352 ./usr/include/libnm/nm-setting-vlan.h
 -rw-r--r-- root       root             4487 ./usr/include/libnm/nm-setting-vpn.h
 -rw-r--r-- root       root             2362 ./usr/include/libnm/nm-setting-wimax.h
--rw-r--r-- root       root             7224 ./usr/include/libnm/nm-setting-wired.h
+-rw-r--r-- root       root             7720 ./usr/include/libnm/nm-setting-wired.h
 -rw-r--r-- root       root             8301 ./usr/include/libnm/nm-setting-wireless-security.h
--rw-r--r-- root       root             6527 ./usr/include/libnm/nm-setting-wireless.h
+-rw-r--r-- root       root             6496 ./usr/include/libnm/nm-setting-wireless.h
 -rw-r--r-- root       root            12291 ./usr/include/libnm/nm-setting.h
 -rw-r--r-- root       root             2360 ./usr/include/libnm/nm-simple-connection.h
 -rw-r--r-- root       root             2201 ./usr/include/libnm/nm-types.h
--rw-r--r-- root       root             8392 ./usr/include/libnm/nm-utils.h
--rw-r--r-- root       root             4495 ./usr/include/libnm/nm-version.h
+-rw-r--r-- root       root             8361 ./usr/include/libnm/nm-utils.h
+-rw-r--r-- root       root             2824 ./usr/include/libnm/nm-version-macros.h
+-rw-r--r-- root       root             2848 ./usr/include/libnm/nm-version.h
 -rw-r--r-- root       root             2558 ./usr/include/libnm/nm-vpn-connection.h
 -rw-r--r-- root       root            12286 ./usr/include/libnm/nm-vpn-dbus-interface.h
 -rw-r--r-- root       root             8136 ./usr/include/libnm/nm-vpn-editor-plugin.h
@@ -151,8 +153,8 @@ lrwxrwxrwx root       root               19 ./usr/lib/libnm-util.so -> libnm-uti
 -rwxr-xr-x root       root             1348 ./usr/lib/libnm.la
 lrwxrwxrwx root       root               14 ./usr/lib/libnm.so -> libnm.so.0.0.0
 drwxr-xr-x root       root              140 ./usr/lib/pkgconfig
--rw-r--r-- root       root              324 ./usr/lib/pkgconfig/NetworkManager.pc
--rw-r--r-- root       root              294 ./usr/lib/pkgconfig/libnm-glib-vpn.pc
--rw-r--r-- root       root              308 ./usr/lib/pkgconfig/libnm-glib.pc
--rw-r--r-- root       root              289 ./usr/lib/pkgconfig/libnm-util.pc
--rw-r--r-- root       root              233 ./usr/lib/pkgconfig/libnm.pc
+-rw-r--r-- root       root              325 ./usr/lib/pkgconfig/NetworkManager.pc
+-rw-r--r-- root       root              296 ./usr/lib/pkgconfig/libnm-glib-vpn.pc
+-rw-r--r-- root       root              311 ./usr/lib/pkgconfig/libnm-glib.pc
+-rw-r--r-- root       root              291 ./usr/lib/pkgconfig/libnm-util.pc
+-rw-r--r-- root       root              234 ./usr/lib/pkgconfig/libnm.pc

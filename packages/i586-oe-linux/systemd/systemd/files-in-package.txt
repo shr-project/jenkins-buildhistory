@@ -13,7 +13,7 @@ drwxr-xr-x root       root              320 ./bin
 -rwxr-xr-x root       root            96016 ./bin/systemd-sysusers
 -rwxr-xr-x root       root           145168 ./bin/systemd-tmpfiles
 -rwxr-xr-x root       root            67276 ./bin/systemd-tty-ask-password-agent
-drwxr-xr-x root       root              180 ./etc
+drwxr-xr-x root       root              200 ./etc
 drwxr-xr-x root       root               60 ./etc/dbus-1
 drwxr-xr-x root       root              160 ./etc/dbus-1/system.d
 -rw-r--r-- root       root              947 ./etc/dbus-1/system.d/org.freedesktop.hostname1.conf
@@ -24,6 +24,7 @@ drwxr-xr-x root       root              160 ./etc/dbus-1/system.d
 -rw-r--r-- root       root              947 ./etc/dbus-1/system.d/org.freedesktop.timedate1.conf
 -rw-r--r-- root       root                0 ./etc/machine-id
 drwxr-xr-x root       root               40 ./etc/modules-load.d
+lrwxrwxrwx root       root               18 ./etc/resolv.conf -> ../run/resolv.conf
 drwxr-xr-x root       root               40 ./etc/sysctl.d
 drwxr-xr-x root       root              220 ./etc/systemd
 -rw-r--r-- root       root              720 ./etc/systemd/bootchart.conf
@@ -361,13 +362,13 @@ drwxr-xr-x root       root               80 ./usr/lib/sysusers.d
 -rw-r--r-- root       root             1105 ./usr/lib/sysusers.d/basic.conf
 -rw-r--r-- root       root              411 ./usr/lib/sysusers.d/systemd.conf
 drwxr-xr-x root       root              240 ./usr/lib/tmpfiles.d
--rw-r--r-- root       root              494 ./usr/lib/tmpfiles.d/etc.conf
+-rw-r--r-- root       root              541 ./usr/lib/tmpfiles.d/etc.conf
 -rw-r--r-- root       root              362 ./usr/lib/tmpfiles.d/home.conf
 -rw-r--r-- root       root             1098 ./usr/lib/tmpfiles.d/journal-nocow.conf
 -rw-r--r-- root       root             1181 ./usr/lib/tmpfiles.d/legacy.conf
 -rw-r--r-- root       root              496 ./usr/lib/tmpfiles.d/systemd-nologin.conf
 -rw-r--r-- root       root              981 ./usr/lib/tmpfiles.d/systemd-nspawn.conf
--rw-r--r-- root       root             1244 ./usr/lib/tmpfiles.d/systemd.conf
+-rw-r--r-- root       root             1278 ./usr/lib/tmpfiles.d/systemd.conf
 -rw-r--r-- root       root              638 ./usr/lib/tmpfiles.d/tmp.conf
 -rw-r--r-- root       root              532 ./usr/lib/tmpfiles.d/var.conf
 -rw-r--r-- root       root              623 ./usr/lib/tmpfiles.d/x11.conf

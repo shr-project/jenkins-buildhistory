@@ -39,9 +39,7 @@ drwxr-xr-x root       root               60 ./etc/sudoers.d
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              306 ./lib/systemd/system/ctdb.service
-drwxr-xr-x root       root               60 ./run
-drwxr-xr-x root       root               40 ./run/ctdb
+-rw-r--r-- root       root              349 ./lib/systemd/system/ctdb.service
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              180 ./usr/bin
 -rwxr-xr-x root       root           371468 ./usr/bin/ctdb
@@ -54,10 +52,9 @@ drwxr-xr-x root       root              180 ./usr/bin
 drwxr-xr-x root       root               80 ./usr/sbin
 -rwxr-xr-x root       root           705132 ./usr/sbin/ctdbd
 -rwxr-xr-x root       root             7657 ./usr/sbin/ctdbd_wrapper
-drwxr-xr-x root       root              120 ./var
+drwxr-xr-x root       root              100 ./var
 drwxr-xr-x root       root               60 ./var/lib
 drwxr-xr-x root       root               40 ./var/lib/ctdb
 lrwxrwxrwx root       root               12 ./var/log -> volatile/log
-lrwxrwxrwx root       root                4 ./var/run -> /run
 drwxr-xr-x root       root               60 ./var/volatile
 drwxr-xr-x root       root               40 ./var/volatile/log

@@ -20,7 +20,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system/sockets.target.
 lrwxrwxrwx root       root               14 ./lib/systemd/system/sockets.target.wants/dbus.socket -> ../dbus.socket
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              180 ./usr/bin
--rwxr-xr-x root       root             7760 ./usr/bin/dbus-cleanup-sockets
+-rwxr-xr-x root       root             7792 ./usr/bin/dbus-cleanup-sockets
 -rwxr-xr-x root       root           507348 ./usr/bin/dbus-daemon
 -rwxr-xr-x root       root            20904 ./usr/bin/dbus-launch
 -rwxr-xr-x root       root            13552 ./usr/bin/dbus-monitor
@@ -29,7 +29,7 @@ drwxr-xr-x root       root              180 ./usr/bin
 -rwxr-xr-x root       root             5544 ./usr/bin/dbus-uuidgen
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/dbus
--rwsr-xr-x root       messagebus     351668 ./usr/lib/dbus/dbus-daemon-launch-helper
+-rwsr-xr-x root       messagebus     351892 ./usr/lib/dbus/dbus-daemon-launch-helper
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root               40 ./usr/share/dbus-1/services

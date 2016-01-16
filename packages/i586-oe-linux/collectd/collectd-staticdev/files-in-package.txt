@@ -2,11 +2,11 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root             1860 ./usr/lib/collectd
 -rw-r--r-- root       root            71890 ./usr/lib/collectd/aggregation.a
--rw-r--r-- root       root            55788 ./usr/lib/collectd/apache.a
+-rw-r--r-- root       root            55904 ./usr/lib/collectd/apache.a
 -rw-r--r-- root       root            24816 ./usr/lib/collectd/apcups.a
--rw-r--r-- root       root            47928 ./usr/lib/collectd/ascent.a
+-rw-r--r-- root       root            48044 ./usr/lib/collectd/ascent.a
 -rw-r--r-- root       root            28680 ./usr/lib/collectd/battery.a
--rw-r--r-- root       root            83728 ./usr/lib/collectd/bind.a
+-rw-r--r-- root       root            83844 ./usr/lib/collectd/bind.a
 -rw-r--r-- root       root            52904 ./usr/lib/collectd/ceph.a
 -rw-r--r-- root       root           119274 ./usr/lib/collectd/cgroups.a
 -rw-r--r-- root       root            11016 ./usr/lib/collectd/conntrack.a
@@ -14,9 +14,9 @@ drwxr-xr-x root       root             1860 ./usr/lib/collectd
 -rw-r--r-- root       root            24608 ./usr/lib/collectd/cpu.a
 -rw-r--r-- root       root            11828 ./usr/lib/collectd/cpufreq.a
 -rw-r--r-- root       root            23436 ./usr/lib/collectd/csv.a
--rw-r--r-- root       root            49012 ./usr/lib/collectd/curl.a
--rw-r--r-- root       root            60798 ./usr/lib/collectd/curl_json.a
--rw-r--r-- root       root            68392 ./usr/lib/collectd/curl_xml.a
+-rw-r--r-- root       root            49124 ./usr/lib/collectd/curl.a
+-rw-r--r-- root       root            60910 ./usr/lib/collectd/curl_json.a
+-rw-r--r-- root       root            68508 ./usr/lib/collectd/curl_xml.a
 -rw-r--r-- root       root           121954 ./usr/lib/collectd/df.a
 -rw-r--r-- root       root            44032 ./usr/lib/collectd/disk.a
 -rw-r--r-- root       root            65126 ./usr/lib/collectd/dns.a
@@ -50,7 +50,7 @@ drwxr-xr-x root       root             1860 ./usr/lib/collectd
 -rw-r--r-- root       root            14840 ./usr/lib/collectd/multimeter.a
 -rw-r--r-- root       root           113746 ./usr/lib/collectd/network.a
 -rw-r--r-- root       root            20548 ./usr/lib/collectd/nfs.a
--rw-r--r-- root       root            33778 ./usr/lib/collectd/nginx.a
+-rw-r--r-- root       root            33894 ./usr/lib/collectd/nginx.a
 -rw-r--r-- root       root            40584 ./usr/lib/collectd/ntpd.a
 -rw-r--r-- root       root            13148 ./usr/lib/collectd/numa.a
 -rw-r--r-- root       root            32420 ./usr/lib/collectd/olsrd.a
@@ -86,7 +86,7 @@ drwxr-xr-x root       root             1860 ./usr/lib/collectd
 -rw-r--r-- root       root            22912 ./usr/lib/collectd/vserver.a
 -rw-r--r-- root       root            13068 ./usr/lib/collectd/wireless.a
 -rw-r--r-- root       root            78156 ./usr/lib/collectd/write_graphite.a
--rw-r--r-- root       root            73692 ./usr/lib/collectd/write_http.a
+-rw-r--r-- root       root            73808 ./usr/lib/collectd/write_http.a
 -rw-r--r-- root       root            28822 ./usr/lib/collectd/write_log.a
 -rw-r--r-- root       root            52290 ./usr/lib/collectd/write_sensu.a
 -rw-r--r-- root       root            35404 ./usr/lib/collectd/write_tsdb.a

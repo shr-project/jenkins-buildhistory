@@ -1,10 +1,10 @@
-PV = 1.0.6
+PV = 1.0.10
 PR = r0
 PKGR = r0.0
 PKG = libnm-glib4
-RPROVIDES = 1.0.6 libnmglib
-RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) glib-2.0 (>= 2.46.1) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 230) libnmutil (>= 1.0.6) libudev (>= 228+git0+dd050decb6) nspr (>= 4.11) nss (>= 3.19.2) util-linux-libuuid (>= 2.27.1) zlib (>= 1.2.8)
+RPROVIDES = 1.0.10 libnmglib
+RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) glib-2.0 (>= 2.46.1) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) libgudev (>= 230) libnmutil (>= 1.0.10) libudev (>= 228+git0+dd050decb6) nspr (>= 4.11) nss (>= 3.19.2) util-linux-libuuid (>= 2.27.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 330915
+PKGSIZE = 330947
 FILES = /usr/lib/libnm-glib.so.*
 FILELIST = /usr/lib/libnm-glib.so.4 /usr/lib/libnm-glib.so.4.9.0
