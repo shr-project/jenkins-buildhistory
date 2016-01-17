@@ -11,7 +11,7 @@ drwxr-xr-x root       root             1320 ./usr/lib/libgphoto2/2.5.8/.debug
 -rwxr-xr-x root       root            28984 ./usr/lib/libgphoto2/2.5.8/.debug/adc65.so
 -rwxr-xr-x root       root            36776 ./usr/lib/libgphoto2/2.5.8/.debug/agfa_cl20.so
 -rwxr-xr-x root       root            36752 ./usr/lib/libgphoto2/2.5.8/.debug/aox.so
--rwxr-xr-x root       root           123208 ./usr/lib/libgphoto2/2.5.8/.debug/ax203.so
+-rwxr-xr-x root       root           138600 ./usr/lib/libgphoto2/2.5.8/.debug/ax203.so
 -rwxr-xr-x root       root            30688 ./usr/lib/libgphoto2/2.5.8/.debug/barbie.so
 -rwxr-xr-x root       root           289976 ./usr/lib/libgphoto2/2.5.8/.debug/canon.so
 -rwxr-xr-x root       root            60864 ./usr/lib/libgphoto2/2.5.8/.debug/casio_qv.so
@@ -29,7 +29,7 @@ drwxr-xr-x root       root             1320 ./usr/lib/libgphoto2/2.5.8/.debug
 -rwxr-xr-x root       root            54336 ./usr/lib/libgphoto2/2.5.8/.debug/jamcam.so
 -rwxr-xr-x root       root            60888 ./usr/lib/libgphoto2/2.5.8/.debug/jd11.so
 -rwxr-xr-x root       root            41616 ./usr/lib/libgphoto2/2.5.8/.debug/jl2005a.so
--rwxr-xr-x root       root            73488 ./usr/lib/libgphoto2/2.5.8/.debug/jl2005c.so
+-rwxr-xr-x root       root            84784 ./usr/lib/libgphoto2/2.5.8/.debug/jl2005c.so
 -rwxr-xr-x root       root            53400 ./usr/lib/libgphoto2/2.5.8/.debug/kodak_dc120.so
 -rwxr-xr-x root       root            77608 ./usr/lib/libgphoto2/2.5.8/.debug/kodak_dc210.so
 -rwxr-xr-x root       root            57240 ./usr/lib/libgphoto2/2.5.8/.debug/kodak_dc240.so
@@ -56,7 +56,7 @@ drwxr-xr-x root       root             1320 ./usr/lib/libgphoto2/2.5.8/.debug
 -rwxr-xr-x root       root            55792 ./usr/lib/libgphoto2/2.5.8/.debug/ricoh_g3.so
 -rwxr-xr-x root       root            33176 ./usr/lib/libgphoto2/2.5.8/.debug/samsung.so
 -rwxr-xr-x root       root           235152 ./usr/lib/libgphoto2/2.5.8/.debug/sierra.so
--rwxr-xr-x root       root            39880 ./usr/lib/libgphoto2/2.5.8/.debug/sipix_blink2.so
+-rwxr-xr-x root       root            39712 ./usr/lib/libgphoto2/2.5.8/.debug/sipix_blink2.so
 -rwxr-xr-x root       root            37216 ./usr/lib/libgphoto2/2.5.8/.debug/sipix_web2.so
 -rwxr-xr-x root       root            58888 ./usr/lib/libgphoto2/2.5.8/.debug/smal.so
 -rwxr-xr-x root       root            67736 ./usr/lib/libgphoto2/2.5.8/.debug/sonix.so
@@ -94,11 +94,12 @@ drwxr-xr-x root       root              100 ./usr/src/debug/libgphoto2/2.5.8-r0/
 -rw-r--r-- root       root             3693 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/aox/aox.c
 -rw-r--r-- root       root             1285 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/aox/aox.h
 -rw-r--r-- root       root             9704 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/aox/library.c
-drwxr-xr-x root       root              200 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203
+drwxr-xr-x root       root              220 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203
 -rw-r--r-- root       root            48482 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203/ax203.c
 -rw-r--r-- root       root             5164 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203/ax203.h
 -rw-r--r-- root       root            10913 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203/ax203_decode_yuv_delta.c
 -rw-r--r-- root       root            10245 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203/jidctflt.c
+-rw-r--r-- root       root             9396 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203/jpeg_memsrcdest.c
 -rw-r--r-- root       root            14086 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203/library.c
 -rw-r--r-- root       root             4294 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203/tinyjpeg-internal.h
 -rw-r--r-- root       root            27060 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/ax203/tinyjpeg.c
@@ -183,13 +184,14 @@ drwxr-xr-x root       root              100 ./usr/src/debug/libgphoto2/2.5.8-r0/
 -rw-r--r-- root       root             6723 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005a/jl2005a.c
 -rw-r--r-- root       root             1798 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005a/jl2005a.h
 -rw-r--r-- root       root             9075 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005a/library.c
-drwxr-xr-x root       root              180 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c
+drwxr-xr-x root       root              200 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c
 -rw-r--r-- root       root             6816 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c/img_enhance.c
 -rw-r--r-- root       root             1145 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c/img_enhance.h
 -rw-r--r-- root       root             8332 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c/jl2005bcd_decompress.c
 -rw-r--r-- root       root             1035 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c/jl2005bcd_decompress.h
 -rw-r--r-- root       root             8614 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c/jl2005c.c
 -rw-r--r-- root       root             1890 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c/jl2005c.h
+-rw-r--r-- root       root             9409 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c/jpeg_memsrcdest.c
 -rw-r--r-- root       root            15426 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/jl2005c/library.c
 drwxr-xr-x root       root              140 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/kodak
 drwxr-xr-x root       root              100 ./usr/src/debug/libgphoto2/2.5.8-r0/libgphoto2-2.5.8/camlibs/kodak/dc120

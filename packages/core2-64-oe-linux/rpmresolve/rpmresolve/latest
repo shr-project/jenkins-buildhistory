@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r2
-PKGR = r2.0
+PKGR = r2.1
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) rpm-libs (>= 5.4.14)
 RRECOMMENDS = 
-PKGSIZE = 13000
+PKGSIZE = 12992
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/rpmresolve/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/rpmresolve /usr/lib/rpmresolve/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/rpmresolve
