@@ -1,7 +1,7 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
 lrwxrwxrwx root       root               15 ./usr/bin/gnumeric -> gnumeric-1.12.0
--rwxr-xr-x root       root           337016 ./usr/bin/gnumeric-1.12.0
+-rwxr-xr-x root       root           336848 ./usr/bin/gnumeric-1.12.0
 -rwxr-xr-x root       root            16472 ./usr/bin/ssconvert
 -rwxr-xr-x root       root            12644 ./usr/bin/ssgrep
 -rwxr-xr-x root       root             9752 ./usr/bin/ssindex
@@ -19,11 +19,11 @@ drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/di
 -rw-r--r-- root       root            19305 ./usr/lib/gnumeric/1.12.0/plugins/dif/plugin.xml
 drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/excel
 -rwxr-xr-x root       root              918 ./usr/lib/gnumeric/1.12.0/plugins/excel/excel.la
--rwxr-xr-x root       root           580840 ./usr/lib/gnumeric/1.12.0/plugins/excel/excel.so
+-rwxr-xr-x root       root           580512 ./usr/lib/gnumeric/1.12.0/plugins/excel/excel.so
 -rw-r--r-- root       root            20090 ./usr/lib/gnumeric/1.12.0/plugins/excel/plugin.xml
 drwxr-xr-x root       root              140 ./usr/lib/gnumeric/1.12.0/plugins/excelplugins
 -rwxr-xr-x root       root             2678 ./usr/lib/gnumeric/1.12.0/plugins/excelplugins/plugin.la
--rwxr-xr-x root       root            17648 ./usr/lib/gnumeric/1.12.0/plugins/excelplugins/plugin.so
+-rwxr-xr-x root       root            17568 ./usr/lib/gnumeric/1.12.0/plugins/excelplugins/plugin.so
 -rw-r--r-- root       root             5218 ./usr/lib/gnumeric/1.12.0/plugins/excelplugins/plugin.xml
 -rwxr-xr-x root       root              939 ./usr/lib/gnumeric/1.12.0/plugins/excelplugins/xlcall32.la
 -rwxr-xr-x root       root             3352 ./usr/lib/gnumeric/1.12.0/plugins/excelplugins/xlcall32.so
@@ -73,7 +73,7 @@ drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/fn
 -rw-r--r-- root       root             8645 ./usr/lib/gnumeric/1.12.0/plugins/fn-logical/plugin.xml
 drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/fn-lookup
 -rwxr-xr-x root       root              924 ./usr/lib/gnumeric/1.12.0/plugins/fn-lookup/plugin.la
--rwxr-xr-x root       root            29856 ./usr/lib/gnumeric/1.12.0/plugins/fn-lookup/plugin.so
+-rwxr-xr-x root       root            29772 ./usr/lib/gnumeric/1.12.0/plugins/fn-lookup/plugin.so
 -rw-r--r-- root       root             9244 ./usr/lib/gnumeric/1.12.0/plugins/fn-lookup/plugin.xml
 drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/fn-math
 -rwxr-xr-x root       root              922 ./usr/lib/gnumeric/1.12.0/plugins/fn-math/plugin.la
@@ -105,7 +105,7 @@ drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/fn
 -rw-r--r-- root       root             5396 ./usr/lib/gnumeric/1.12.0/plugins/fn-tsa/plugin.xml
 drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/glpk
 -rwxr-xr-x root       root              907 ./usr/lib/gnumeric/1.12.0/plugins/glpk/glpk.la
--rwxr-xr-x root       root            16768 ./usr/lib/gnumeric/1.12.0/plugins/glpk/glpk.so
+-rwxr-xr-x root       root            16684 ./usr/lib/gnumeric/1.12.0/plugins/glpk/glpk.so
 -rw-r--r-- root       root             5261 ./usr/lib/gnumeric/1.12.0/plugins/glpk/plugin.xml
 drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/html
 -rwxr-xr-x root       root              907 ./usr/lib/gnumeric/1.12.0/plugins/html/html.la
@@ -117,15 +117,15 @@ drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/lo
 -rw-r--r-- root       root             9641 ./usr/lib/gnumeric/1.12.0/plugins/lotus/plugin.xml
 drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/lpsolve
 -rwxr-xr-x root       root              928 ./usr/lib/gnumeric/1.12.0/plugins/lpsolve/lpsolve.la
--rwxr-xr-x root       root            16456 ./usr/lib/gnumeric/1.12.0/plugins/lpsolve/lpsolve.so
+-rwxr-xr-x root       root            16376 ./usr/lib/gnumeric/1.12.0/plugins/lpsolve/lpsolve.so
 -rw-r--r-- root       root             5416 ./usr/lib/gnumeric/1.12.0/plugins/lpsolve/plugin.xml
 drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/mps
 -rwxr-xr-x root       root              900 ./usr/lib/gnumeric/1.12.0/plugins/mps/mps.la
--rwxr-xr-x root       root            14748 ./usr/lib/gnumeric/1.12.0/plugins/mps/mps.so
+-rwxr-xr-x root       root            14664 ./usr/lib/gnumeric/1.12.0/plugins/mps/mps.so
 -rw-r--r-- root       root            12813 ./usr/lib/gnumeric/1.12.0/plugins/mps/plugin.xml
 drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/nlsolve
 -rwxr-xr-x root       root              928 ./usr/lib/gnumeric/1.12.0/plugins/nlsolve/nlsolve.la
--rwxr-xr-x root       root            15856 ./usr/lib/gnumeric/1.12.0/plugins/nlsolve/nlsolve.so
+-rwxr-xr-x root       root            15772 ./usr/lib/gnumeric/1.12.0/plugins/nlsolve/nlsolve.so
 -rw-r--r-- root       root             3485 ./usr/lib/gnumeric/1.12.0/plugins/nlsolve/plugin.xml
 drwxr-xr-x root       root              100 ./usr/lib/gnumeric/1.12.0/plugins/oleo
 -rwxr-xr-x root       root              907 ./usr/lib/gnumeric/1.12.0/plugins/oleo/oleo.la

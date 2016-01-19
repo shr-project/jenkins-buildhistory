@@ -1,10 +1,10 @@
-PV = 4.1.15+gitAUTOINC+46bb64d605_cf760f381c
+PV = 4.4+gitAUTOINC+ad9d3f0130_bcfc111e6c
 PR = r0
-PKGV = 4.1.15+git0+46bb64d605_cf760f381c
-PKGR = r0.9
+PKGV = 4.4+git0+ad9d3f0130_bcfc111e6c
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.1.15-yocto-standard
+RDEPENDS = kernel-4.4.0-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 23260
-FILES = /lib/modules/4.1.15-yocto-standard/kernel/net/sched/sch_cbq.ko /etc/modules-load.d/sch_cbq.conf /etc/modprobe.d/sch_cbq.conf
-FILELIST = /lib/modules/4.1.15-yocto-standard/kernel/net/sched/sch_cbq.ko
+PKGSIZE = 23344
+FILES = /lib/modules/4.4.0-yocto-standard/kernel/net/sched/sch_cbq.ko /etc/modules-load.d/sch_cbq.conf /etc/modprobe.d/sch_cbq.conf
+FILELIST = /lib/modules/4.4.0-yocto-standard/kernel/net/sched/sch_cbq.ko

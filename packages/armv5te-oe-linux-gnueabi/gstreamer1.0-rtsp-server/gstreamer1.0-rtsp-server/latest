@@ -1,10 +1,10 @@
 PV = 1.6.2
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 PKG = libgstrtspserver-1.0-0
 RPROVIDES = 1.6.2 gstreamer1.0-rtsp-server
 RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) gstreamer1.0 (>= 1.6.2) libffi (>= 3.2.1) libgstapp-1.0 (>= 1.6.2) libgstrtp-1.0 (>= 1.6.2) libgstrtsp-1.0 (>= 1.6.2) libgstsdp-1.0 (>= 1.6.2) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 213375
+PKGSIZE = 210095
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/gstreamer1.0-rtsp-server/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gstreamer1.0-rtsp-server /usr/lib/gstreamer1.0-rtsp-server/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libgstrtspserver-1.0.so.0 /usr/lib/libgstrtspserver-1.0.so.0.602.0

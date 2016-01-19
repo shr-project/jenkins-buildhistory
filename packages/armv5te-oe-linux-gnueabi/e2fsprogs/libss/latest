@@ -1,10 +1,11 @@
-PV = 1.42.9
+PV = 1.42+1.43-gitAUTOINC+0f26747167
 PR = r0
-PKGR = r0.3
+PKGV = 1.42+1.43-git0+0f26747167
+PKGR = r0.0
 PKG = libss2
-RPROVIDES = 1.42.9 libss
-RDEPENDS = glibc (>= 2.22) libcomerr (>= 1.42.9)
+RPROVIDES = 1.42+1.43-git0+0f26747167 libss
+RDEPENDS = glibc (>= 2.22) libcomerr (>= 1.42+1.43-git0+0f26747167)
 RRECOMMENDS = 
-PKGSIZE = 16352
+PKGSIZE = 16276
 FILES = /lib/libss.so.*
 FILELIST = /lib/libss.so.2 /lib/libss.so.2.0

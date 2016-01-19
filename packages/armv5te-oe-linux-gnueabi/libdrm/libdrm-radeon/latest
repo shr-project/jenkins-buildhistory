@@ -1,10 +1,10 @@
 PV = 2.4.65
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libdrm-radeon1
 RPROVIDES = 2.4.65 libdrm-radeon
 RDEPENDS = glibc (>= 2.22) libdrm (>= 2.4.65)
 RRECOMMENDS = 
-PKGSIZE = 34910
+PKGSIZE = 34906
 FILES = /usr/lib/libdrm_radeon.so.*
 FILELIST = /usr/lib/libdrm_radeon.so.1 /usr/lib/libdrm_radeon.so.1.0.1

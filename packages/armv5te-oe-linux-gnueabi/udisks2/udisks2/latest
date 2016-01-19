@@ -1,9 +1,9 @@
 PV = 2.1.5
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = acl glib-2.0 (>= 2.46.1) glibc (>= 2.22) libacl (>= 2.2.52) libatasmart (>= 0.19) libgudev (>= 230) libsystemd (>= 228+git0+dd050decb6) polkit (>= 0.113) udisks2-libs (>= 2.1.5)
 RRECOMMENDS = 
-PKGSIZE = 572596
+PKGSIZE = 558672
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/udisks2/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/udisks2 /usr/lib/udisks2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/polkit-1/extensions/*.so /usr/share/dbus-1/ /usr/share/polkit-1 /lib/udev/* /usr/lib/udisks2/* /usr/share/bash-completion /lib/systemd/system/udisks2.service
 FILELIST = /etc/dbus-1/system.d/org.freedesktop.UDisks2.conf /lib/systemd/system/udisks2.service /lib/udev/rules.d/80-udisks2.rules /usr/bin/udisksctl /usr/lib/udisks2/udisksd /usr/sbin/umount.udisks2 /usr/share/bash-completion/completions/udisksctl /usr/share/dbus-1/system-services/org.freedesktop.UDisks2.service /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy

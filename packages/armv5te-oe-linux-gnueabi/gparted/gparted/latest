@@ -1,9 +1,9 @@
 PV = 0.24.0
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = atkmm (>= 2.22.7) dosfstools e2fsprogs glib-2.0 (>= 2.46.1) glibc (>= 2.22) glibmm (>= 2.44.0) gtk+ (>= 2.24.28) gtkmm (>= 2.24.3) hicolor-icon-theme libgcc (>= 5.3.0) libsigc++-2.0 (>= 2.2.11) libstdc++ (>= 5.3.0) mtools pangomm (>= 2.36.0) parted (>= 3.2) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = 
-PKGSIZE = 860732
+PKGSIZE = 860564
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/gparted/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gparted /usr/lib/gparted/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/icons/hicolor /usr/share/appdata /usr/share/icons /usr/share/polkit-1
 FILELIST = /usr/sbin/gparted /usr/sbin/gparted_polkit /usr/sbin/gpartedbin /usr/share/appdata/gparted.appdata.xml /usr/share/applications/gparted.desktop /usr/share/icons/hicolor/16x16/apps/gparted.png /usr/share/icons/hicolor/22x22/apps/gparted.png /usr/share/icons/hicolor/24x24/apps/gparted.png /usr/share/icons/hicolor/32x32/apps/gparted.png /usr/share/icons/hicolor/48x48/apps/gparted.png /usr/share/icons/hicolor/scalable/apps/gparted.svg /usr/share/polkit-1/actions/org.yoctoproject.pkexec.run-gparted.policy

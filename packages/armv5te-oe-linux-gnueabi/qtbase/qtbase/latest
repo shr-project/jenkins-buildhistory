@@ -1,9 +1,9 @@
 PV = 5.5.99+5.6.0-alpha1+gitAUTOINC+f7f4dde80e
 PR = r0
 PKGV = 5.5.99+5.6.0-alpha1+git0+f7f4dde80e
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.8.20) fontconfig (>= 2.11.94) freetype (>= 2.6) glib-2.0 (>= 2.46.1) glibc (>= 2.22) libegl-mesa (>= 10.6.3) libgcc (>= 5.3.0) libgles2-mesa (>= 10.6.3) libicui18n (>= 56.1) libicuuc (>= 56.1) libpng (>= 1.6.20) libsqlite3 (>= 3.9.2) libssl libstdc++ (>= 5.3.0) libudev (>= 228+git0+dd050decb6) libx11 (>= 1.6.3) libx11-xcb (>= 1.6.3) libxcb (>= 1.11.1) libxcb-randr (>= 1.11.1) libxcb-render (>= 1.11.1) libxcb-shape (>= 1.11.1) libxcb-shm (>= 1.11.1) libxcb-sync (>= 1.11.1) libxcb-xfixes (>= 1.11.1) libxcb-xkb (>= 1.11.1) libxi (>= 1.7.5) libxkbcommon (>= 0.5.0) mtdev (>= 1.1.5) xcb-util-image (>= 0.4.0) xcb-util-keysyms (>= 0.4.0) xcb-util-renderutil (>= 0.3.9) xcb-util-wm (>= 0.4.1) zlib (>= 1.2.8)
+RDEPENDS = dbus-lib (>= 1.8.20) fontconfig (>= 2.11.94) freetype (>= 2.6) glib-2.0 (>= 2.46.1) glibc (>= 2.22) libegl-mesa (>= 10.6.3) libgcc (>= 5.3.0) libgles2-mesa (>= 10.6.3) libicui18n (>= 56.1) libicuuc (>= 56.1) libpng (>= 1.6.20) libsqlite3 (>= 3.10.0) libssl libstdc++ (>= 5.3.0) libudev (>= 228+git0+dd050decb6) libx11 (>= 1.6.3) libx11-xcb (>= 1.6.3) libxcb (>= 1.11.1) libxcb-randr (>= 1.11.1) libxcb-render (>= 1.11.1) libxcb-shape (>= 1.11.1) libxcb-shm (>= 1.11.1) libxcb-sync (>= 1.11.1) libxcb-xfixes (>= 1.11.1) libxcb-xkb (>= 1.11.1) libxi (>= 1.7.6) libxkbcommon (>= 0.5.0) mtdev (>= 1.1.5) xcb-util-image (>= 0.4.0) xcb-util-keysyms (>= 0.4.0) xcb-util-renderutil (>= 0.3.9) xcb-util-wm (>= 0.4.1) zlib (>= 1.2.8)
 RRECOMMENDS = qtbase-plugins qtbase-qmlplugins
 PKGSIZE = 14929536
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/qtbase/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtbase /usr/lib/qtbase/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

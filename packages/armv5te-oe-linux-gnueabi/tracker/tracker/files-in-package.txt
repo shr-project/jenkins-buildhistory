@@ -11,10 +11,10 @@ drwxr-xr-x root       root              100 ./lib/systemd/system
 -rw-r--r-- root       root              277 ./lib/systemd/system/tracker-store.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              220 ./usr/bin
--rwxr-xr-x root       root            36180 ./usr/bin/tracker-control
+-rwxr-xr-x root       root            34236 ./usr/bin/tracker-control
 -rwxr-xr-x root       root             6272 ./usr/bin/tracker-import
 -rwxr-xr-x root       root             9200 ./usr/bin/tracker-info
--rwxr-xr-x root       root           123452 ./usr/bin/tracker-needle
+-rwxr-xr-x root       root           122816 ./usr/bin/tracker-needle
 -rwxr-xr-x root       root            60476 ./usr/bin/tracker-preferences
 -rwxr-xr-x root       root            19160 ./usr/bin/tracker-search
 -rwxr-xr-x root       root            10628 ./usr/bin/tracker-sparql
@@ -24,7 +24,7 @@ drwxr-xr-x root       root              220 ./usr/lib
 lrwxrwxrwx root       root               35 ./usr/lib/libtracker-extract-0.14.so.0 -> libtracker-extract-0.14.so.0.1400.2
 -rwxr-xr-x root       root            41940 ./usr/lib/libtracker-extract-0.14.so.0.1400.2
 lrwxrwxrwx root       root               33 ./usr/lib/libtracker-miner-0.14.so.0 -> libtracker-miner-0.14.so.0.1400.2
--rwxr-xr-x root       root           152036 ./usr/lib/libtracker-miner-0.14.so.0.1400.2
+-rwxr-xr-x root       root           147940 ./usr/lib/libtracker-miner-0.14.so.0.1400.2
 lrwxrwxrwx root       root               34 ./usr/lib/libtracker-sparql-0.14.so.0 -> libtracker-sparql-0.14.so.0.1400.2
 -rwxr-xr-x root       root            81284 ./usr/lib/libtracker-sparql-0.14.so.0.1400.2
 drwxr-xr-x root       root               60 ./usr/lib/nautilus
@@ -33,11 +33,11 @@ drwxr-xr-x root       root               60 ./usr/lib/nautilus/extensions-2.0
 drwxr-xr-x root       root              120 ./usr/lib/tracker
 drwxr-xr-x root       root              120 ./usr/lib/tracker-0.14
 lrwxrwxrwx root       root               29 ./usr/lib/tracker-0.14/libtracker-common.so.0 -> libtracker-common.so.0.1400.2
--rwxr-xr-x root       root           152460 ./usr/lib/tracker-0.14/libtracker-common.so.0.1400.2
+-rwxr-xr-x root       root           152216 ./usr/lib/tracker-0.14/libtracker-common.so.0.1400.2
 lrwxrwxrwx root       root               27 ./usr/lib/tracker-0.14/libtracker-data.so.0 -> libtracker-data.so.0.1400.2
 -rwxr-xr-x root       root           401068 ./usr/lib/tracker-0.14/libtracker-data.so.0.1400.2
 -rwxr-xr-x root       root            52728 ./usr/lib/tracker/tracker-extract
--rwxr-xr-x root       root            94152 ./usr/lib/tracker/tracker-miner-fs
+-rwxr-xr-x root       root            91420 ./usr/lib/tracker/tracker-miner-fs
 -rwxr-xr-x root       root            81044 ./usr/lib/tracker/tracker-store
 -rwxr-xr-x root       root            27460 ./usr/lib/tracker/tracker-writeback
 drwxr-xr-x root       root              140 ./usr/share

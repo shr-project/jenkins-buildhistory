@@ -9,7 +9,7 @@ drwxr-xr-x root       root              160 ./sbin
 -rwxr-xr-x root       root            19272 ./sbin/blockdev.util-linux
 -rwxr-xr-x root       root             6160 ./sbin/ctrlaltdel
 -rwxr-xr-x root       root            51664 ./sbin/mkfs.minix.util-linux
--rwxr-xr-x root       root            45896 ./sbin/mkswap.util-linux
+-rwxr-xr-x root       root            45808 ./sbin/mkswap.util-linux
 -rwxr-xr-x root       root             5592 ./sbin/pivot_root.util-linux
 -rwxr-xr-x root       root             7868 ./sbin/switch_root.util-linux
 drwxr-xr-x root       root               80 ./usr
@@ -38,14 +38,14 @@ lrwxrwxrwx root       root                7 ./usr/bin/linux64 -> setarch
 -rwxr-xr-x root       root             7696 ./usr/bin/look
 -rwxr-xr-x root       root            51840 ./usr/bin/lsblk
 -rwxr-xr-x root       root            39260 ./usr/bin/lsipc
--rwxr-xr-x root       root            21664 ./usr/bin/lslocks
+-rwxr-xr-x root       root            21576 ./usr/bin/lslocks
 -rwxr-xr-x root       root            33544 ./usr/bin/lslogins
 -rwxr-xr-x root       root             6368 ./usr/bin/mesg.util-linux
 -rwxr-xr-x root       root             7704 ./usr/bin/mountpoint
 -rwxr-xr-x root       root            17788 ./usr/bin/namei
--rwxr-xr-x root       root            19080 ./usr/bin/nsenter
+-rwxr-xr-x root       root            18992 ./usr/bin/nsenter
 -rwxr-xr-x root       root            28732 ./usr/bin/pg
--rwxr-xr-x root       root            21704 ./usr/bin/prlimit
+-rwxr-xr-x root       root            21616 ./usr/bin/prlimit
 -rwxr-xr-x root       root             7376 ./usr/bin/rename
 -rwxr-xr-x root       root             6936 ./usr/bin/renice.util-linux
 -rwxr-xr-x root       root             6540 ./usr/bin/rev
@@ -61,8 +61,8 @@ lrwxrwxrwx root       root                7 ./usr/bin/uname26 -> setarch
 -rwxr-xr-x root       root            11012 ./usr/bin/unshare
 -rwxr-xr-x root       root             9684 ./usr/bin/utmpdump.util-linux
 -rwxr-xr-x root       root            18868 ./usr/bin/wall.util-linux
--rwxr-xr-x root       root            21568 ./usr/bin/wdctl
--rwxr-xr-x root       root            14708 ./usr/bin/whereis
+-rwxr-xr-x root       root            21480 ./usr/bin/wdctl
+-rwxr-xr-x root       root            13892 ./usr/bin/whereis
 -rwxr-xr-x root       root             9512 ./usr/bin/write
 drwxr-xr-x root       root              340 ./usr/sbin
 -rwxr-xr-x root       root            13892 ./usr/sbin/addpart
@@ -79,4 +79,4 @@ drwxr-xr-x root       root              340 ./usr/sbin
 -rwxr-xr-x root       root            27460 ./usr/sbin/rtcwake
 -rwxr-xr-x root       root             8272 ./usr/sbin/swaplabel
 -rwxr-xr-x root       root            21244 ./usr/sbin/wipefs
--rwxr-xr-x root       root            48836 ./usr/sbin/zramctl
+-rwxr-xr-x root       root            48660 ./usr/sbin/zramctl

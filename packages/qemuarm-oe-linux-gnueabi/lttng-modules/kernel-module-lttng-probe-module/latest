@@ -1,10 +1,10 @@
-PV = 2.7.0+gitAUTOINC+f4b27072a7
+PV = 2.7.1+gitAUTOINC+45e0ebd91f
 PR = r0
-PKGV = 2.7.0+git0+f4b27072a7
-PKGR = r0.2
+PKGV = 2.7.1+git0+45e0ebd91f
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = kernel-4.1.15-yocto-standard kernel-module-lttng-ftrace kernel-module-lttng-kprobes kernel-module-lttng-kretprobes kernel-module-lttng-lib-ring-buffer kernel-module-lttng-statedump kernel-module-lttng-tracer
+RDEPENDS = kernel-4.4.0-yocto-standard kernel-module-lttng-ftrace kernel-module-lttng-kprobes kernel-module-lttng-kretprobes kernel-module-lttng-lib-ring-buffer kernel-module-lttng-statedump kernel-module-lttng-tracer
 RRECOMMENDS = 
-PKGSIZE = 7228
-FILES = /lib/modules/4.1.15-yocto-standard/kernel/lttng-modules/probes/lttng-probe-module.ko /etc/modules-load.d/lttng-probe-module.conf /etc/modprobe.d/lttng-probe-module.conf
-FILELIST = /lib/modules/4.1.15-yocto-standard/kernel/lttng-modules/probes/lttng-probe-module.ko
+PKGSIZE = 7360
+FILES = /lib/modules/4.4.0-yocto-standard/kernel/lttng-modules/probes/lttng-probe-module.ko /etc/modules-load.d/lttng-probe-module.conf /etc/modprobe.d/lttng-probe-module.conf
+FILELIST = /lib/modules/4.4.0-yocto-standard/kernel/lttng-modules/probes/lttng-probe-module.ko
