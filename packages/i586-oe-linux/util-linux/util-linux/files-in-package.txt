@@ -9,7 +9,7 @@ drwxr-xr-x root       root              160 ./sbin
 -rwxr-xr-x root       root            32580 ./sbin/blockdev.util-linux
 -rwxr-xr-x root       root             6612 ./sbin/ctrlaltdel
 -rwxr-xr-x root       root            84232 ./sbin/mkfs.minix.util-linux
--rwxr-xr-x root       root            75160 ./sbin/mkswap.util-linux
+-rwxr-xr-x root       root            75064 ./sbin/mkswap.util-linux
 -rwxr-xr-x root       root             6388 ./sbin/pivot_root.util-linux
 -rwxr-xr-x root       root            10136 ./sbin/switch_root.util-linux
 drwxr-xr-x root       root               80 ./usr
@@ -39,12 +39,12 @@ lrwxrwxrwx root       root                7 ./usr/bin/linux64 -> setarch
 -rwxr-xr-x root       root             8808 ./usr/bin/look
 -rwxr-xr-x root       root            76216 ./usr/bin/lsblk
 -rwxr-xr-x root       root            55452 ./usr/bin/lsipc
--rwxr-xr-x root       root            27696 ./usr/bin/lslocks
+-rwxr-xr-x root       root            27600 ./usr/bin/lslocks
 -rwxr-xr-x root       root            45276 ./usr/bin/lslogins
 -rwxr-xr-x root       root             7296 ./usr/bin/mesg.util-linux
 -rwxr-xr-x root       root             8768 ./usr/bin/mountpoint
 -rwxr-xr-x root       root            22468 ./usr/bin/namei
--rwxr-xr-x root       root            23452 ./usr/bin/nsenter
+-rwxr-xr-x root       root            23388 ./usr/bin/nsenter
 -rwxr-xr-x root       root            39032 ./usr/bin/pg
 -rwxr-xr-x root       root            27016 ./usr/bin/prlimit
 -rwxr-xr-x root       root             9260 ./usr/bin/rename
@@ -77,7 +77,7 @@ drwxr-xr-x root       root              340 ./usr/sbin
 -rwxr-xr-x root       root             5448 ./usr/sbin/nologin
 -rwxr-xr-x root       root             9108 ./usr/sbin/raw
 -rwxr-xr-x root       root            35708 ./usr/sbin/resizepart
--rwxr-xr-x root       root            35516 ./usr/sbin/rtcwake
+-rwxr-xr-x root       root            35388 ./usr/sbin/rtcwake
 -rwxr-xr-x root       root             9548 ./usr/sbin/swaplabel
 -rwxr-xr-x root       root            27092 ./usr/sbin/wipefs
--rwxr-xr-x root       root            82968 ./usr/sbin/zramctl
+-rwxr-xr-x root       root            82840 ./usr/sbin/zramctl

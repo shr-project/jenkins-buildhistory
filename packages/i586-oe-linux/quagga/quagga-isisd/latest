@@ -1,9 +1,9 @@
 PV = 0.99.24.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) quagga (>= 0.99.24.1)
 RRECOMMENDS = 
-PKGSIZE = 273542
+PKGSIZE = 270246
 FILES = /usr/sbin/isisd /lib/systemd/system/isisd.service
 FILELIST = /lib/systemd/system/isisd.service /usr/sbin/isisd

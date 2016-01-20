@@ -8,9 +8,9 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              516 ./lib/systemd/system/e18.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              180 ./usr/bin
--rwxr-xr-x root       root          1632496 ./usr/bin/enlightenment
+-rwxr-xr-x root       root          1628464 ./usr/bin/enlightenment
 -rwxr-xr-x root       root             8196 ./usr/bin/enlightenment_filemanager
--rwxr-xr-x root       root             9496 ./usr/bin/enlightenment_imc
+-rwxr-xr-x root       root             9432 ./usr/bin/enlightenment_imc
 -rwxr-xr-x root       root            12308 ./usr/bin/enlightenment_open
 -rwxr-xr-x root       root            37941 ./usr/bin/enlightenment_remote
 -rwxr-xr-x root       root            12964 ./usr/bin/enlightenment_start
@@ -30,12 +30,12 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/appm
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/backlight
 -rw-r--r-- root       root             8910 ./usr/lib/enlightenment/modules/backlight/e-module-backlight.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/backlight/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            17008 ./usr/lib/enlightenment/modules/backlight/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            16944 ./usr/lib/enlightenment/modules/backlight/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root              943 ./usr/lib/enlightenment/modules/backlight/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/battery
 -rw-r--r-- root       root             7340 ./usr/lib/enlightenment/modules/battery/e-module-battery.edj
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/battery/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            20904 ./usr/lib/enlightenment/modules/battery/linux-gnu-i586-ver-00/batget
+-rwxr-xr-x root       root            20840 ./usr/lib/enlightenment/modules/battery/linux-gnu-i586-ver-00/batget
 -rwxr-xr-x root       root            35920 ./usr/lib/enlightenment/modules/battery/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root             1336 ./usr/lib/enlightenment/modules/battery/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/bluez4
@@ -46,7 +46,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/blue
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/clock
 -rw-r--r-- root       root            26710 ./usr/lib/enlightenment/modules/clock/e-module-clock.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/clock/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            32080 ./usr/lib/enlightenment/modules/clock/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            32016 ./usr/lib/enlightenment/modules/clock/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root             1257 ./usr/lib/enlightenment/modules/clock/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/conf
 -rw-r--r-- root       root            16107 ./usr/lib/enlightenment/modules/conf/e-module-conf.edj
@@ -64,7 +64,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf
 -rw-r--r-- root       root             1222 ./usr/lib/enlightenment/modules/conf_bindings/module.desktop
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/conf_comp
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf_comp/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            48656 ./usr/lib/enlightenment/modules/conf_comp/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            48592 ./usr/lib/enlightenment/modules/conf_comp/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root              805 ./usr/lib/enlightenment/modules/conf_comp/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/conf_dialogs
 -rw-r--r-- root       root            16671 ./usr/lib/enlightenment/modules/conf_dialogs/e-module-conf_dialogs.edj
@@ -107,7 +107,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/conf_shelves
 -rw-r--r-- root       root            15421 ./usr/lib/enlightenment/modules/conf_shelves/e-module-conf_shelves.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf_shelves/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            19924 ./usr/lib/enlightenment/modules/conf_shelves/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            19856 ./usr/lib/enlightenment/modules/conf_shelves/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root             1005 ./usr/lib/enlightenment/modules/conf_shelves/module.desktop
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/conf_theme
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf_theme/linux-gnu-i586-ver-00
@@ -146,7 +146,7 @@ drwxr-xr-x root       root              120 ./usr/lib/enlightenment/modules/ever
 -rw-r--r-- root       root            24666 ./usr/lib/enlightenment/modules/everything/e-module-everything-start.edj
 -rw-r--r-- root       root            17660 ./usr/lib/enlightenment/modules/everything/e-module-everything.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/everything/linux-gnu-i586-ver-00
--rwxr-xr-x root       root           210180 ./usr/lib/enlightenment/modules/everything/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root           210116 ./usr/lib/enlightenment/modules/everything/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root             1768 ./usr/lib/enlightenment/modules/everything/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/fileman
 -rw-r--r-- root       root            15937 ./usr/lib/enlightenment/modules/fileman/e-module-fileman.edj
@@ -161,12 +161,12 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/file
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/gadman
 -rw-r--r-- root       root            22903 ./usr/lib/enlightenment/modules/gadman/e-module-gadman.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/gadman/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            57272 ./usr/lib/enlightenment/modules/gadman/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            57208 ./usr/lib/enlightenment/modules/gadman/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root             1296 ./usr/lib/enlightenment/modules/gadman/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/ibar
 -rw-r--r-- root       root            13065 ./usr/lib/enlightenment/modules/ibar/e-module-ibar.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/ibar/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            57480 ./usr/lib/enlightenment/modules/ibar/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            57416 ./usr/lib/enlightenment/modules/ibar/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root             1032 ./usr/lib/enlightenment/modules/ibar/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/ibox
 -rw-r--r-- root       root            13065 ./usr/lib/enlightenment/modules/ibox/e-module-ibox.edj
@@ -191,7 +191,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/illu
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/illume-indicator
 -rw-r--r-- root       root            12144 ./usr/lib/enlightenment/modules/illume-indicator/e-module-illume-indicator.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/illume-indicator/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            24428 ./usr/lib/enlightenment/modules/illume-indicator/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            24360 ./usr/lib/enlightenment/modules/illume-indicator/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root              221 ./usr/lib/enlightenment/modules/illume-indicator/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/illume-kbd-toggle
 -rw-r--r-- root       root            14225 ./usr/lib/enlightenment/modules/illume-kbd-toggle/e-module-illume-kbd-toggle.edj
@@ -239,7 +239,7 @@ drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/illu
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/mixer
 -rw-r--r-- root       root            16865 ./usr/lib/enlightenment/modules/mixer/e-module-mixer.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/mixer/linux-gnu-i586-ver-00
--rwxr-xr-x root       root           111524 ./usr/lib/enlightenment/modules/mixer/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root           111140 ./usr/lib/enlightenment/modules/mixer/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root             1283 ./usr/lib/enlightenment/modules/mixer/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/msgbus
 -rw-r--r-- root       root            23422 ./usr/lib/enlightenment/modules/msgbus/e-module-msgbus.edj
@@ -254,7 +254,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/musi
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/notification
 -rw-r--r-- root       root             7877 ./usr/lib/enlightenment/modules/notification/e-module-notification.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/notification/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            28404 ./usr/lib/enlightenment/modules/notification/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            28340 ./usr/lib/enlightenment/modules/notification/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root             1825 ./usr/lib/enlightenment/modules/notification/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/pager
 -rw-r--r-- root       root            12522 ./usr/lib/enlightenment/modules/pager/e-module-pager.edj
@@ -264,12 +264,12 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/page
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/quickaccess
 -rw-r--r-- root       root            12056 ./usr/lib/enlightenment/modules/quickaccess/e-module-quickaccess.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/quickaccess/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            57572 ./usr/lib/enlightenment/modules/quickaccess/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            57444 ./usr/lib/enlightenment/modules/quickaccess/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root              857 ./usr/lib/enlightenment/modules/quickaccess/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/shot
 -rw-r--r-- root       root             9475 ./usr/lib/enlightenment/modules/shot/e-module-shot.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/shot/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            36652 ./usr/lib/enlightenment/modules/shot/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            36588 ./usr/lib/enlightenment/modules/shot/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root             1151 ./usr/lib/enlightenment/modules/shot/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/start
 -rw-r--r-- root       root            24666 ./usr/lib/enlightenment/modules/start/e-module-start.edj
@@ -305,7 +305,7 @@ drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/temp
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/tiling
 -rw-r--r-- root       root            40762 ./usr/lib/enlightenment/modules/tiling/e-module-tiling.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/tiling/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            70528 ./usr/lib/enlightenment/modules/tiling/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            70400 ./usr/lib/enlightenment/modules/tiling/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root              940 ./usr/lib/enlightenment/modules/tiling/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/winlist
 -rw-r--r-- root       root            12858 ./usr/lib/enlightenment/modules/winlist/e-module-winlist.edj
@@ -319,7 +319,7 @@ drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/wiza
 -rw-r--r-- root       root              632 ./usr/lib/enlightenment/modules/wizard/desktop/root.desktop
 -rw-r--r-- root       root              587 ./usr/lib/enlightenment/modules/wizard/desktop/tmp.desktop
 drwxr-xr-x root       root              480 ./usr/lib/enlightenment/modules/wizard/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            16688 ./usr/lib/enlightenment/modules/wizard/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            16620 ./usr/lib/enlightenment/modules/wizard/linux-gnu-i586-ver-00/module.so
 -rwxr-xr-x root       root             6636 ./usr/lib/enlightenment/modules/wizard/linux-gnu-i586-ver-00/page_000.so
 -rwxr-xr-x root       root            15512 ./usr/lib/enlightenment/modules/wizard/linux-gnu-i586-ver-00/page_010.so
 -rwxr-xr-x root       root            10920 ./usr/lib/enlightenment/modules/wizard/linux-gnu-i586-ver-00/page_011.so
@@ -344,7 +344,7 @@ drwxr-xr-x root       root              480 ./usr/lib/enlightenment/modules/wiza
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/xkbswitch
 -rw-r--r-- root       root             9213 ./usr/lib/enlightenment/modules/xkbswitch/e-module-xkbswitch.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/xkbswitch/linux-gnu-i586-ver-00
--rwxr-xr-x root       root            37104 ./usr/lib/enlightenment/modules/xkbswitch/linux-gnu-i586-ver-00/module.so
+-rwxr-xr-x root       root            37040 ./usr/lib/enlightenment/modules/xkbswitch/linux-gnu-i586-ver-00/module.so
 -rw-r--r-- root       root              992 ./usr/lib/enlightenment/modules/xkbswitch/module.desktop
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root              100 ./usr/share/enlightenment
