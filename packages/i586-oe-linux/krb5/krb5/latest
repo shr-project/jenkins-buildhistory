@@ -1,8 +1,8 @@
 PV = 1.13.2
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) initscripts-functions libcomerr (>= 1.42+1.43-git0+0f26747167) libcrypto (>= 1.0.2e) libssl (>= 1.0.2e)
+RDEPENDS = glibc (>= 2.22) initscripts-functions libcomerr (>= 1.42.13+git0+0f26747167) libcrypto (>= 1.0.2e) libssl (>= 1.0.2e)
 RRECOMMENDS = 
 PKGSIZE = 2928699
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/krb5/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/krb5 /usr/lib/krb5/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/gnats

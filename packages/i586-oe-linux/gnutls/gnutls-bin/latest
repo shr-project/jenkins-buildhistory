@@ -1,10 +1,10 @@
-PV = 3.4.7
+PV = 3.4.8
 PR = r0
-PKGR = r0.2
+PKGR = r0.0
 PKG = libgnutls-bin
-RPROVIDES = 3.4.7 gnutls-bin
-RDEPENDS = glibc (>= 2.22) gnutls (>= 3.4.7) libidn (>= 1.32)
+RPROVIDES = 3.4.8 gnutls-bin
+RDEPENDS = glibc (>= 2.22) gnutls (>= 3.4.8) libidn (>= 1.32)
 RRECOMMENDS = 
-PKGSIZE = 997496
+PKGSIZE = 979032
 FILES = /usr/bin/* /usr/sbin/*
-FILELIST = /usr/bin/certtool /usr/bin/crywrap /usr/bin/gnutls-cli /usr/bin/gnutls-serv /usr/bin/ocsptool /usr/bin/psktool /usr/bin/srptool
+FILELIST = /usr/bin/certtool /usr/bin/gnutls-cli /usr/bin/gnutls-serv /usr/bin/ocsptool /usr/bin/psktool /usr/bin/srptool
