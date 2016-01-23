@@ -1,8 +1,8 @@
 PV = 0.4
 PR = ml2
-PKGR = ml2.1
+PKGR = ml2.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libasound (>= 1.0.29) python-core
+RDEPENDS = glibc (>= 2.22) libasound (>= 1.1.0) python-core
 RRECOMMENDS = 
 PKGSIZE = 45938
 FILES = /usr/bin/* /usr/sbin/* /usr/lib/python-pyalsaaudio/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/python-pyalsaaudio /usr/lib/python-pyalsaaudio/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*

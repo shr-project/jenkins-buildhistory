@@ -8,7 +8,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              516 ./lib/systemd/system/e18.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              180 ./usr/bin
--rwxr-xr-x root       root          1437120 ./usr/bin/enlightenment
+-rwxr-xr-x root       root          1433664 ./usr/bin/enlightenment
 -rwxr-xr-x root       root            10192 ./usr/bin/enlightenment_filemanager
 -rwxr-xr-x root       root            11200 ./usr/bin/enlightenment_imc
 -rwxr-xr-x root       root            15576 ./usr/bin/enlightenment_open
@@ -35,7 +35,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/back
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/battery
 -rw-r--r-- root       root             7340 ./usr/lib/enlightenment/modules/battery/e-module-battery.edj
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root            20168 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00/batget
+-rwxr-xr-x root       root            20104 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00/batget
 -rwxr-xr-x root       root            38160 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root             1336 ./usr/lib/enlightenment/modules/battery/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/bluez4
@@ -107,11 +107,11 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/conf_shelves
 -rw-r--r-- root       root            15421 ./usr/lib/enlightenment/modules/conf_shelves/e-module-conf_shelves.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf_shelves/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root            22088 ./usr/lib/enlightenment/modules/conf_shelves/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root            22008 ./usr/lib/enlightenment/modules/conf_shelves/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root             1005 ./usr/lib/enlightenment/modules/conf_shelves/module.desktop
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/conf_theme
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf_theme/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root           111704 ./usr/lib/enlightenment/modules/conf_theme/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root           111672 ./usr/lib/enlightenment/modules/conf_theme/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root             1104 ./usr/lib/enlightenment/modules/conf_theme/module.desktop
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/conf_wallpaper2
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf_wallpaper2/linux-gnu-x86_64-ver-00
@@ -129,7 +129,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/conf
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/connman
 -rw-r--r-- root       root            19913 ./usr/lib/enlightenment/modules/connman/e-module-connman.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/connman/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root            52912 ./usr/lib/enlightenment/modules/connman/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root            52624 ./usr/lib/enlightenment/modules/connman/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root             1604 ./usr/lib/enlightenment/modules/connman/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/contact
 -rw-r--r-- root       root             9866 ./usr/lib/enlightenment/modules/contact/e-module-contact.edj
@@ -239,7 +239,7 @@ drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/illu
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/mixer
 -rw-r--r-- root       root            16865 ./usr/lib/enlightenment/modules/mixer/e-module-mixer.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/mixer/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root           108216 ./usr/lib/enlightenment/modules/mixer/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root           107800 ./usr/lib/enlightenment/modules/mixer/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root             1283 ./usr/lib/enlightenment/modules/mixer/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/msgbus
 -rw-r--r-- root       root            23422 ./usr/lib/enlightenment/modules/msgbus/e-module-msgbus.edj
@@ -249,12 +249,12 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/msgb
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/music-control
 -rw-r--r-- root       root            46337 ./usr/lib/enlightenment/modules/music-control/e-module-music-control.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/music-control/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root            74544 ./usr/lib/enlightenment/modules/music-control/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root            74320 ./usr/lib/enlightenment/modules/music-control/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root              639 ./usr/lib/enlightenment/modules/music-control/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/notification
 -rw-r--r-- root       root             7877 ./usr/lib/enlightenment/modules/notification/e-module-notification.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/notification/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root            30544 ./usr/lib/enlightenment/modules/notification/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root            30480 ./usr/lib/enlightenment/modules/notification/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root             1825 ./usr/lib/enlightenment/modules/notification/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/pager
 -rw-r--r-- root       root            12522 ./usr/lib/enlightenment/modules/pager/e-module-pager.edj
@@ -269,7 +269,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/quic
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/shot
 -rw-r--r-- root       root             9475 ./usr/lib/enlightenment/modules/shot/e-module-shot.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/shot/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root            36968 ./usr/lib/enlightenment/modules/shot/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root            36904 ./usr/lib/enlightenment/modules/shot/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root             1151 ./usr/lib/enlightenment/modules/shot/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/start
 -rw-r--r-- root       root            24666 ./usr/lib/enlightenment/modules/start/e-module-start.edj
@@ -284,7 +284,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/sysc
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/systray
 -rw-r--r-- root       root            10045 ./usr/lib/enlightenment/modules/systray/e-module-systray.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/systray/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root            56568 ./usr/lib/enlightenment/modules/systray/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root            56216 ./usr/lib/enlightenment/modules/systray/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root             2037 ./usr/lib/enlightenment/modules/systray/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/tasks
 -rw-r--r-- root       root            12522 ./usr/lib/enlightenment/modules/tasks/e-module-tasks.edj
@@ -294,7 +294,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/task
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/teamwork
 -rw-r--r-- root       root            13926 ./usr/lib/enlightenment/modules/teamwork/e-module-teamwork.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/teamwork/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root            49064 ./usr/lib/enlightenment/modules/teamwork/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root            48904 ./usr/lib/enlightenment/modules/teamwork/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root              437 ./usr/lib/enlightenment/modules/teamwork/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/temperature
 -rw-r--r-- root       root            16980 ./usr/lib/enlightenment/modules/temperature/e-module-temperature.edj
@@ -305,7 +305,7 @@ drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/temp
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/tiling
 -rw-r--r-- root       root            40762 ./usr/lib/enlightenment/modules/tiling/e-module-tiling.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/tiling/linux-gnu-x86_64-ver-00
--rwxr-xr-x root       root            70952 ./usr/lib/enlightenment/modules/tiling/linux-gnu-x86_64-ver-00/module.so
+-rwxr-xr-x root       root            67176 ./usr/lib/enlightenment/modules/tiling/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root              940 ./usr/lib/enlightenment/modules/tiling/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/winlist
 -rw-r--r-- root       root            12858 ./usr/lib/enlightenment/modules/winlist/e-module-winlist.edj

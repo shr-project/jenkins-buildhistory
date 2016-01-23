@@ -12,10 +12,12 @@ drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
 -r--r--r-- root       root              460 ./etc/dbus-1/system.d/cups.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
-drwxr-xr-x root       root              100 ./lib/systemd/system
--rw-r--r-- root       root              126 ./lib/systemd/system/cups.path
--rw-r--r-- root       root              159 ./lib/systemd/system/cups.service
--rw-r--r-- root       root              131 ./lib/systemd/system/cups.socket
+drwxr-xr-x root       root              140 ./lib/systemd/system
+-r--r--r-- root       root              115 ./lib/systemd/system/org.cups.cups-lpd.socket
+-r--r--r-- root       root              147 ./lib/systemd/system/org.cups.cups-lpd@.service
+-r--r--r-- root       root              122 ./lib/systemd/system/org.cups.cupsd.path
+-r--r--r-- root       root              195 ./lib/systemd/system/org.cups.cupsd.service
+-r--r--r-- root       root              116 ./lib/systemd/system/org.cups.cupsd.socket
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              360 ./usr/bin
 -r-xr-xr-x root       root            11272 ./usr/bin/cancel
