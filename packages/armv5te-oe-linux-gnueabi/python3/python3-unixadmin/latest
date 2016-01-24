@@ -1,9 +1,9 @@
-PV = 3.5.0
+PV = 3.5.1
 PR = r1.0
-PKGR = r1.0.4
+PKGR = r1.0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libpython3 (>= 3.5.0) python3-core
+RDEPENDS = glibc (>= 2.22) libpython3 (>= 3.5.1) python3-core
 RRECOMMENDS = 
-PKGSIZE = 22489
+PKGSIZE = 22472
 FILES = /usr/lib/python3.5/lib-dynload/nis.*.so /usr/lib/python3.5/lib-dynload/grp.*.so /usr/lib/python3.5/lib-dynload/pwd.*.so /usr/lib/python3.5/getpass.*
 FILELIST = /usr/lib/python3.5/getpass.py /usr/lib/python3.5/lib-dynload/grp.cpython-35m-arm-linux-gnueabi.so /usr/lib/python3.5/lib-dynload/nis.cpython-35m-arm-linux-gnueabi.so
