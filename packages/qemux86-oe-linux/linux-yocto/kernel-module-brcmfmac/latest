@@ -1,10 +1,10 @@
 PV = 4.4+gitAUTOINC+ad9d3f0130_2dadc3524f
 PR = r0
 PKGV = 4.4+git0+ad9d3f0130_2dadc3524f
-PKGR = r0.4
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = kernel-4.4.0-yocto-standard kernel-module-brcmutil kernel-module-cfg80211
+RDEPENDS = kernel-4.1.15-yocto-standard kernel-module-brcmutil kernel-module-cfg80211
 RRECOMMENDS = 
-PKGSIZE = 174808
-FILES = /lib/modules/4.4.0-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko /etc/modules-load.d/brcmfmac.conf /etc/modprobe.d/brcmfmac.conf
-FILELIST = /lib/modules/4.4.0-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko
+PKGSIZE = 166176
+FILES = /lib/modules/4.1.15-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko /etc/modules-load.d/brcmfmac.conf /etc/modprobe.d/brcmfmac.conf
+FILELIST = /lib/modules/4.1.15-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko
