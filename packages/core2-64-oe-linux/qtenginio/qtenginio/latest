@@ -1,11 +1,11 @@
 PV = 5.5.99+5.6.0-alpha1+gitAUTOINC+34d66f3836
 PR = r0
 PKGV = 5.5.99+5.6.0-alpha1+git0+34d66f3836
-PKGR = r0.2
+PKGR = r0.3
 PKG = libenginio1
 RPROVIDES = 5.5.99+5.6.0-alpha1+git0+34d66f3836 qtenginio
 RDEPENDS = glibc (>= 2.22) libstdc++ (>= 5.3.0) qtbase (>= 5.5.99+5.6.0-alpha1+git0+f7f4dde80e)
 RRECOMMENDS = qtenginio-plugins qtenginio-qmlplugins
 PKGSIZE = 286358
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/qtenginio/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtenginio /usr/lib/qtenginio/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtenginio /usr/lib/qtenginio/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libEnginio.so.1 /usr/lib/libEnginio.so.1.6 /usr/lib/libEnginio.so.1.6.0

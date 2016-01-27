@@ -1,9 +1,9 @@
 PV = 0.3
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) gnupg gpgme (>= 1.5.4) python-core
+RDEPENDS = glibc (>= 2.22) gnupg gpgme (>= 1.6.0) python-core
 RRECOMMENDS = 
 PKGSIZE = 90184
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/python-pygpgme/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/python-pygpgme /usr/lib/python-pygpgme/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/python-pygpgme /usr/lib/python-pygpgme/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*
 FILELIST = /usr/lib/python2.7/site-packages/gpgme/__init__.py /usr/lib/python2.7/site-packages/gpgme/__init__.pyc /usr/lib/python2.7/site-packages/gpgme/_gpgme.so /usr/lib/python2.7/site-packages/gpgme/editutil.py /usr/lib/python2.7/site-packages/gpgme/editutil.pyc /usr/lib/python2.7/site-packages/pygpgme-0.3-py2.7.egg-info

@@ -1,8 +1,8 @@
 PV = 6.03
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libext2fs (>= 1.42.9)
+RDEPENDS = glibc (>= 2.22) libext2fs (>= 1.42.99+1.43+git0+0f26747167)
 RRECOMMENDS = 
 PKGSIZE = 221368
 FILES = /usr/bin/syslinux-nomtools

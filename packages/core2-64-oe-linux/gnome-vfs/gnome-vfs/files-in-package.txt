@@ -9,7 +9,7 @@ drwxr-xr-x root       root              140 ./etc/gconf/schemas
 drwxr-xr-x root       root               60 ./etc/gnome-vfs-2.0
 drwxr-xr-x root       root               60 ./etc/gnome-vfs-2.0/modules
 -rw-r--r-- root       root              358 ./etc/gnome-vfs-2.0/modules/default-modules.conf
-drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              220 ./usr/bin
 -rwxr-xr-x root       root            11216 ./usr/bin/gnomevfs-cat
 -rwxr-xr-x root       root            11208 ./usr/bin/gnomevfs-copy
@@ -20,12 +20,12 @@ drwxr-xr-x root       root              220 ./usr/bin
 -rwxr-xr-x root       root            12240 ./usr/bin/gnomevfs-monitor
 -rwxr-xr-x root       root            11152 ./usr/bin/gnomevfs-mv
 -rwxr-xr-x root       root            10256 ./usr/bin/gnomevfs-rm
-drwxr-xr-x root       root              100 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/gnome-vfs
--rwxr-xr-x root       root            70208 ./usr/lib/gnome-vfs/gnome-vfs-daemon
+drwxr-xr-x root       root               80 ./usr/lib
 lrwxrwxrwx root       root               25 ./usr/lib/libgnomevfs-2.so.0 -> libgnomevfs-2.so.0.2400.4
 -rwxr-xr-x root       root           420016 ./usr/lib/libgnomevfs-2.so.0.2400.4
+drwxr-xr-x root       root               60 ./usr/libexec
+-rwxr-xr-x root       root            70208 ./usr/libexec/gnome-vfs-daemon
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/services
--rw-r--r-- root       root               88 ./usr/share/dbus-1/services/gnome-vfs-daemon.service
+-rw-r--r-- root       root               82 ./usr/share/dbus-1/services/gnome-vfs-daemon.service

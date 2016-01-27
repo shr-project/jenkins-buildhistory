@@ -1,10 +1,10 @@
 PV = 5.5.99+5.6.0-alpha1+gitAUTOINC+93cc8d306f
 PR = r0
 PKGV = 5.5.99+5.6.0-alpha1+git0+93cc8d306f
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) gstreamer1.0 (>= 1.6.2) libegl-mesa (>= 10.6.3) libgles2-mesa (>= 10.6.3) libgstapp-1.0 (>= 1.6.2) libgstaudio-1.0 (>= 1.6.2) libgstpbutils-1.0 (>= 1.6.2) libgstvideo-1.0 (>= 1.6.2) libicui18n (>= 56.1) libicuuc (>= 56.1) libjpeg-turbo (>= 8d+1.4.2) libpng (>= 1.6.20) libsqlite3 (>= 3.10.0) libstdc++ (>= 5.3.0) libx11 (>= 1.6.3) libxml2 (>= 2.9.3) libxslt (>= 1.1.28) qtbase (>= 5.5.99+5.6.0-alpha1+git0+f7f4dde80e) qtdeclarative (>= 5.5.99+5.6.0-alpha1+git0+1064d5100f) qtlocation (>= 5.5.99+5.6.0-alpha1+git0+1fd85dd942) qtsensors (>= 5.5.99+5.6.0-alpha1+git0+d8d4a5e9ac) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) gstreamer1.0 (>= 1.6.3) libegl-mesa (>= 10.6.3) libgles2-mesa (>= 10.6.3) libgstapp-1.0 (>= 1.6.3) libgstaudio-1.0 (>= 1.6.3) libgstpbutils-1.0 (>= 1.6.3) libgstvideo-1.0 (>= 1.6.3) libicui18n (>= 56.1) libicuuc (>= 56.1) libjpeg-turbo (>= 8d+1.4.2) libpng (>= 1.6.21) libsqlite3 (>= 3.10.2) libstdc++ (>= 5.3.0) libx11 (>= 1.6.3) libxml2 (>= 2.9.3) libxslt (>= 1.1.28) qtbase (>= 5.5.99+5.6.0-alpha1+git0+f7f4dde80e) qtdeclarative (>= 5.5.99+5.6.0-alpha1+git0+1064d5100f) qtlocation (>= 5.5.99+5.6.0-alpha1+git0+1fd85dd942) qtsensors (>= 5.5.99+5.6.0-alpha1+git0+d8d4a5e9ac) zlib (>= 1.2.8)
 RRECOMMENDS = qtwebkit-plugins qtwebkit-qmlplugins
 PKGSIZE = 37867922
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/qtwebkit/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtwebkit /usr/lib/qtwebkit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtwebkit /usr/lib/qtwebkit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5WebKit.so.5 /usr/lib/libQt5WebKit.so.5.6 /usr/lib/libQt5WebKit.so.5.6.0 /usr/lib/libQt5WebKitWidgets.so.5 /usr/lib/libQt5WebKitWidgets.so.5.6 /usr/lib/libQt5WebKitWidgets.so.5.6.0 /usr/lib/qt5/libexec/QtWebPluginProcess /usr/lib/qt5/libexec/QtWebProcess

@@ -1,9 +1,9 @@
 PV = 0.5
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) gmp (>= 6.1.0) libmnl (>= 1.0.3) libnftnl (>= 1.0.5) readline (>= 6.3)
 RRECOMMENDS = kernel-module-nf-tables
 PKGSIZE = 330892
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/nftables/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/nftables /usr/lib/nftables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/nftables /usr/lib/nftables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/nftables/bridge-filter /etc/nftables/inet-filter /etc/nftables/ipv4-filter /etc/nftables/ipv4-mangle /etc/nftables/ipv4-nat /etc/nftables/ipv6-filter /etc/nftables/ipv6-mangle /etc/nftables/ipv6-nat /usr/sbin/nft

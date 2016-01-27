@@ -16,14 +16,14 @@ drwxr-xr-x root       root              220 ./lib/udev/rules.d
 -rw-r--r-- root       root             1622 ./lib/udev/rules.d/95-upower-csr.rules
 -rw-r--r-- root       root             6100 ./lib/udev/rules.d/95-upower-hid.rules
 -rw-r--r-- root       root              354 ./lib/udev/rules.d/95-upower-wup.rules
-drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            12384 ./usr/bin/upower
-drwxr-xr-x root       root              100 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib
 lrwxrwxrwx root       root               23 ./usr/lib/libupower-glib.so.1 -> libupower-glib.so.1.0.1
 -rwxr-xr-x root       root            69480 ./usr/lib/libupower-glib.so.1.0.1
-drwxr-xr-x root       root               60 ./usr/lib/upower
--rwxr-xr-x root       root           140376 ./usr/lib/upower/upowerd
+drwxr-xr-x root       root               60 ./usr/libexec
+-rwxr-xr-x root       root           140376 ./usr/libexec/upowerd
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root              140 ./usr/share/dbus-1/interfaces
@@ -33,7 +33,7 @@ drwxr-xr-x root       root              140 ./usr/share/dbus-1/interfaces
 -rw-r--r-- root       root             4137 ./usr/share/dbus-1/interfaces/org.freedesktop.UPower.Wakeups.xml
 -rw-r--r-- root       root            13404 ./usr/share/dbus-1/interfaces/org.freedesktop.UPower.xml
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/system-services
--rw-r--r-- root       root               84 ./usr/share/dbus-1/system-services/org.freedesktop.UPower.service
+-rw-r--r-- root       root               81 ./usr/share/dbus-1/system-services/org.freedesktop.UPower.service
 drwxr-xr-x root       root               60 ./usr/share/polkit-1
 drwxr-xr-x root       root               80 ./usr/share/polkit-1/actions
 -rw-r--r-- root       root             2290 ./usr/share/polkit-1/actions/org.freedesktop.upower.policy

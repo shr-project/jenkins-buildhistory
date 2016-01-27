@@ -1,9 +1,9 @@
 PV = 1.0.26
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 PKG = libsndfile-bin
 RPROVIDES = 1.0.26 libsndfile1-bin
-RDEPENDS = glibc (>= 2.22) libasound (>= 1.1.0) libsndfile1 (>= 1.0.26) libsqlite3 (>= 3.10.0)
+RDEPENDS = glibc (>= 2.22) libasound (>= 1.1.0) libsndfile1 (>= 1.0.26) libsqlite3 (>= 3.10.2)
 RRECOMMENDS = 
 PKGSIZE = 194128
 FILES = /usr/bin/* /usr/sbin/*

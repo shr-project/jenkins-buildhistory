@@ -1,10 +1,10 @@
 PV = 20150325-3.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.3
 PKG = libedit0
 RPROVIDES = 20150325-3.1 libedit
-RDEPENDS = glibc (>= 2.22) ncurses-libtinfo (>= 5.9)
+RDEPENDS = glibc (>= 2.22) ncurses-libtinfo (>= 6.0)
 RRECOMMENDS = 
-PKGSIZE = 190569
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/libedit/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libedit /usr/lib/libedit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+PKGSIZE = 190473
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libedit /usr/lib/libedit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libedit.so.0 /usr/lib/libedit.so.0.0.53

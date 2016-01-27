@@ -1,10 +1,10 @@
 PV = 4.4+gitAUTOINC+ad9d3f0130_2dadc3524f
 PR = r0
 PKGV = 4.4+git0+ad9d3f0130_2dadc3524f
-PKGR = r0.1
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = kernel-4.1.15-yocto-standard kernel-module-slhc
+RDEPENDS = kernel-4.4.0-yocto-standard kernel-module-slhc
 RRECOMMENDS = 
-PKGSIZE = 24096
-FILES = /lib/modules/4.1.15-yocto-standard/kernel/drivers/net/slip/slip.ko /etc/modules-load.d/slip.conf /etc/modprobe.d/slip.conf
-FILELIST = /lib/modules/4.1.15-yocto-standard/kernel/drivers/net/slip/slip.ko
+PKGSIZE = 23496
+FILES = /lib/modules/4.4.0-yocto-standard/kernel/drivers/net/slip/slip.ko /etc/modules-load.d/slip.conf /etc/modprobe.d/slip.conf
+FILELIST = /lib/modules/4.4.0-yocto-standard/kernel/drivers/net/slip/slip.ko

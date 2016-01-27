@@ -1,9 +1,9 @@
 PV = 1.12.6
 PR = r0
-PKGR = r0.1
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) libffi (>= 3.2.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 1858163
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/libqmi/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libqmi /usr/lib/libqmi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/qmi-network /usr/bin/qmicli /usr/lib/libqmi-glib.so.1 /usr/lib/libqmi-glib.so.1.3.0 /usr/lib/libqmi/qmi-proxy
+PKGSIZE = 1858099
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libqmi /usr/lib/libqmi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/qmi-network /usr/bin/qmicli /usr/lib/libqmi-glib.so.1 /usr/lib/libqmi-glib.so.1.3.0 /usr/libexec/qmi-proxy

@@ -1,15 +1,15 @@
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              352 ./lib/systemd/system/netcf-transaction.service
-drwxr-xr-x root       root              100 ./usr
+-rw-r--r-- root       root              350 ./lib/systemd/system/netcf-transaction.service
+drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root            21696 ./usr/bin/ncftool
-drwxr-xr-x root       root              100 ./usr/lib
+-rwxr-xr-x root       root            21600 ./usr/bin/ncftool
+drwxr-xr-x root       root               80 ./usr/lib
 lrwxrwxrwx root       root               17 ./usr/lib/libnetcf.so.1 -> libnetcf.so.1.4.0
--rwxr-xr-x root       root            75168 ./usr/lib/libnetcf.so.1.4.0
-drwxr-xr-x root       root               60 ./usr/lib/netcf
--rwxr-xr-x root       root             7383 ./usr/lib/netcf/netcf-transaction.sh
+-rwxr-xr-x root       root            74784 ./usr/lib/libnetcf.so.1.4.0
+drwxr-xr-x root       root               60 ./usr/libexec
+-rwxr-xr-x root       root             7383 ./usr/libexec/netcf-transaction.sh
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/netcf
 drwxr-xr-x root       root              100 ./usr/share/netcf/lenses

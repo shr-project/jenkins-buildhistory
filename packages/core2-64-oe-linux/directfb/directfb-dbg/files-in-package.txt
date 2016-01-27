@@ -22,8 +22,8 @@ drwxr-xr-x root       root              400 ./usr/bin/.debug
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/lib/.debug
 -rwxr-xr-x root       root          1241752 ./usr/lib/.debug/lib++dfb-1.7.so.7.0.0
--rwxr-xr-x root       root           664312 ./usr/lib/.debug/libdirect-1.7.so.7.0.0
--rwxr-xr-x root       root          8356824 ./usr/lib/.debug/libdirectfb-1.7.so.7.0.0
+-rwxr-xr-x root       root           664296 ./usr/lib/.debug/libdirect-1.7.so.7.0.0
+-rwxr-xr-x root       root          8356960 ./usr/lib/.debug/libdirectfb-1.7.so.7.0.0
 -rwxr-xr-x root       root           311568 ./usr/lib/.debug/libfusion-1.7.so.7.0.0
 drwxr-xr-x root       root              120 ./usr/lib/directfb-1.7-7
 drwxr-xr-x root       root               60 ./usr/lib/directfb-1.7-7/inputdrivers
@@ -125,7 +125,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/directfb/1.7.7-r0/Di
 drwxr-xr-x root       root               60 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/inputdrivers/linux_input
 -rw-r--r-- root       root            71045 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/inputdrivers/linux_input/linux_input.c
 drwxr-xr-x root       root               60 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/inputdrivers/lirc
--rw-r--r-- root       root            10103 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/inputdrivers/lirc/lirc.c
+-rw-r--r-- root       root            10223 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/inputdrivers/lirc/lirc.c
 drwxr-xr-x root       root               60 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/inputdrivers/mutouch
 -rw-r--r-- root       root            17174 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/inputdrivers/mutouch/mutouch.c
 drwxr-xr-x root       root               60 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/inputdrivers/penmount
@@ -262,9 +262,9 @@ drwxr-xr-x root       root              340 ./usr/src/debug/directfb/1.7.7-r0/Di
 -rw-r--r-- root       root             8641 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/log.c
 -rw-r--r-- root       root             5344 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/mem.c
 -rw-r--r-- root       root             2972 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/mutex.c
--rw-r--r-- root       root             1914 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/mutex.h
+-rw-r--r-- root       root             1821 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/mutex.h
 -rw-r--r-- root       root             2025 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/signals.c
--rw-r--r-- root       root             6389 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/system.c
+-rw-r--r-- root       root             6393 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/system.c
 -rw-r--r-- root       root            14448 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/thread.c
 -rw-r--r-- root       root             5335 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/thread.h
 -rw-r--r-- root       root             3142 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/os/linux/glibc/types.h
@@ -293,7 +293,7 @@ drwxr-xr-x root       root              340 ./usr/src/debug/directfb/1.7.7-r0/Di
 -rw-r--r-- root       root             1756 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/system.h
 -rw-r--r-- root       root            11129 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/thread.c
 -rw-r--r-- root       root             6924 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/thread.h
--rw-r--r-- root       root            18440 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/trace.c
+-rw-r--r-- root       root            18910 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/trace.c
 -rw-r--r-- root       root             3283 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/trace.h
 -rw-r--r-- root       root             8039 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/tree.c
 -rw-r--r-- root       root             2141 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/lib/direct/tree.h
@@ -482,7 +482,7 @@ drwxr-xr-x root       root             2880 ./usr/src/debug/directfb/1.7.7-r0/Di
 -rw-r--r-- root       root            55703 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/core/wm.c
 -rw-r--r-- root       root            20969 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/core/wm.h
 -rw-r--r-- root       root            13977 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/core/wm_module.h
--rw-r--r-- root       root             9258 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/directfb.c
+-rw-r--r-- root       root             9391 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/directfb.c
 -rw-r--r-- root       root             1030 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/directfb_result.c
 drwxr-xr-x root       root              280 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/display
 -rw-r--r-- root       root            39662 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/display/idirectfbdisplaylayer.c

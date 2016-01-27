@@ -1,4 +1,4 @@
-drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              280 ./usr/bin
 -rwxr-xr-x root       root            11960 ./usr/bin/gst-feedback
 -rwxr-xr-x root       root             3173 ./usr/bin/gst-feedback-0.10
@@ -12,13 +12,10 @@ drwxr-xr-x root       root              280 ./usr/bin
 -rwxr-xr-x root       root            20368 ./usr/bin/gst-xmlinspect-0.10
 -rwxr-xr-x root       root            11960 ./usr/bin/gst-xmllaunch
 -rwxr-xr-x root       root            32488 ./usr/bin/gst-xmllaunch-0.10
-drwxr-xr-x root       root              280 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/gstreamer
+drwxr-xr-x root       root              260 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/gstreamer-0.10
 -rwxr-xr-x root       root           283944 ./usr/lib/gstreamer-0.10/libgstcoreelements.so
 -rwxr-xr-x root       root            25248 ./usr/lib/gstreamer-0.10/libgstcoreindexers.so
-drwxr-xr-x root       root               60 ./usr/lib/gstreamer/gstreamer-0.10
--rwxr-xr-x root       root             5512 ./usr/lib/gstreamer/gstreamer-0.10/gst-plugin-scanner
 lrwxrwxrwx root       root               25 ./usr/lib/libgstbase-0.10.so.0 -> libgstbase-0.10.so.0.30.0
 -rwxr-xr-x root       root           366288 ./usr/lib/libgstbase-0.10.so.0.30.0
 lrwxrwxrwx root       root               31 ./usr/lib/libgstcontroller-0.10.so.0 -> libgstcontroller-0.10.so.0.30.0
@@ -29,3 +26,6 @@ lrwxrwxrwx root       root               24 ./usr/lib/libgstnet-0.10.so.0 -> lib
 -rwxr-xr-x root       root            25184 ./usr/lib/libgstnet-0.10.so.0.30.0
 lrwxrwxrwx root       root               27 ./usr/lib/libgstreamer-0.10.so.0 -> libgstreamer-0.10.so.0.30.0
 -rwxr-xr-x root       root           973200 ./usr/lib/libgstreamer-0.10.so.0.30.0
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root               60 ./usr/libexec/gstreamer-0.10
+-rwxr-xr-x root       root             5512 ./usr/libexec/gstreamer-0.10/gst-plugin-scanner

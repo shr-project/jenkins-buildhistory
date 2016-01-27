@@ -1,9 +1,9 @@
 PV = 3.18
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) libgcrypt (>= 1.6.4) libnl (>= 3.2.25) libnl-genl (>= 3.2.25) udev
 RRECOMMENDS = 
 PKGSIZE = 40361
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/crda/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/crda /usr/lib/crda/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/libcrda/regulatory.bin /lib/udev/rules.d/85-regulatory.rules
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/crda /usr/lib/crda/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/libcrda/regulatory.bin /lib/udev/rules.d/85-regulatory.rules
 FILELIST = /lib/udev/rules.d/85-regulatory.rules /usr/lib/crda/libreg.so /usr/lib/crda/regulatory.bin /usr/sbin/crda /usr/sbin/regdbdump
