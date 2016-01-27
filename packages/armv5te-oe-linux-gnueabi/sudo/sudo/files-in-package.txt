@@ -1,21 +1,22 @@
 drwxr-xr-x root       root               80 ./etc
 -r--r----- root       root             3174 ./etc/sudoers
 drwxr-x--- root       root               40 ./etc/sudoers.d
-drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
 ---s--x--x root       root            83068 ./usr/bin/sudo
 lrwxrwxrwx root       root                4 ./usr/bin/sudoedit -> sudo
 -rwxr-xr-x root       root            35116 ./usr/bin/sudoreplay
-drwxr-xr-x root       root               80 ./usr/lib
-drwxr-xr-x root       root              160 ./usr/lib/sudo
--rw-r--r-- root       root             5772 ./usr/lib/sudo/group_file.so
-lrwxrwxrwx root       root               21 ./usr/lib/sudo/libsudo_util.so.0 -> libsudo_util.so.0.0.0
--rwxr-xr-x root       root            72272 ./usr/lib/sudo/libsudo_util.so.0.0.0
--rw-r--r-- root       root             5640 ./usr/lib/sudo/sudo_noexec.so
--rw-r--r-- root       root           215720 ./usr/lib/sudo/sudoers.so
--rw-r--r-- root       root             5736 ./usr/lib/sudo/system_group.so
+drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root              313 ./usr/lib/tmpfiles.d/sudo.conf
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root              160 ./usr/libexec/sudo
+-rw-r--r-- root       root             5772 ./usr/libexec/sudo/group_file.so
+lrwxrwxrwx root       root               21 ./usr/libexec/sudo/libsudo_util.so.0 -> libsudo_util.so.0.0.0
+-rwxr-xr-x root       root            72272 ./usr/libexec/sudo/libsudo_util.so.0.0.0
+-rw-r--r-- root       root             5640 ./usr/libexec/sudo/sudo_noexec.so
+-rw-r--r-- root       root           215720 ./usr/libexec/sudo/sudoers.so
+-rw-r--r-- root       root             5736 ./usr/libexec/sudo/system_group.so
 drwxr-xr-x root       root               60 ./usr/sbin
 -rwxr-xr-x root       root           141308 ./usr/sbin/visudo
 drwxr-xr-x root       root               60 ./var

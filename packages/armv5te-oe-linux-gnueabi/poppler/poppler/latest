@@ -1,9 +1,9 @@
 PV = 0.37.0
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = cairo (>= 1.14.6) expat (>= 2.1.0) fontconfig (>= 2.11.94) freetype (>= 2.6) glibc (>= 2.22) lcms (>= 2.7) libgcc (>= 5.3.0) libjpeg-turbo (>= 8d+1.4.2) liblzma (>= 5.2.2) libpng (>= 1.6.20) libpoppler (>= 0.37.0) libstdc++ (>= 5.3.0) openjpeg (>= 2.1.0) qtbase (>= 5.5.99+5.6.0-alpha1+git0+f7f4dde80e) tiff (>= 4.0.6) zlib (>= 1.2.8)
+RDEPENDS = cairo (>= 1.14.6) expat (>= 2.1.0) fontconfig (>= 2.11.94) freetype (>= 2.6) glibc (>= 2.22) lcms (>= 2.7) libgcc (>= 5.3.0) libjpeg-turbo (>= 8d+1.4.2) liblzma (>= 5.2.2) libpng (>= 1.6.21) libpoppler (>= 0.37.0) libstdc++ (>= 5.3.0) openjpeg (>= 2.1.0) qtbase (>= 5.5.99+5.6.0-alpha1+git0+f7f4dde80e) tiff (>= 4.0.6) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 635018
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/poppler/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/poppler /usr/lib/poppler/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/poppler /usr/lib/poppler/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/pdfdetach /usr/bin/pdffonts /usr/bin/pdfimages /usr/bin/pdfinfo /usr/bin/pdfseparate /usr/bin/pdftocairo /usr/bin/pdftohtml /usr/bin/pdftoppm /usr/bin/pdftops /usr/bin/pdftotext /usr/bin/pdfunite /usr/lib/libpoppler-cpp.so.0 /usr/lib/libpoppler-cpp.so.0.2.1 /usr/lib/libpoppler-qt5.so.1 /usr/lib/libpoppler-qt5.so.1.6.0

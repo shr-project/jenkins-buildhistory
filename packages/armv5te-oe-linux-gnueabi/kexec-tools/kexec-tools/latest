@@ -1,9 +1,9 @@
 PV = 2.0.11
 PR = r1
-PKGR = r1.5
+PKGR = r1.6
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = kdump kexec vmcore-dmesg
 PKGSIZE = 3906
-FILES = ${sysconfig}/init.d/kdump ${sysconfig}/sysconfig/kdump.conf /usr/bin/* /usr/sbin/* /usr/lib/kexec-tools/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/kexec-tools /usr/lib/kexec-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = ${sysconfig}/init.d/kdump ${sysconfig}/sysconfig/kdump.conf /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/kexec-tools /usr/lib/kexec-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/init.d/kdump /etc/sysconfig/kdump.conf
