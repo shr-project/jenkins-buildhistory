@@ -42,7 +42,7 @@ drwxr-xr-x root       root               60 ./usr/include/gtk-3.0/gdk/deprecated
 -rw-r--r-- root       root             5660 ./usr/include/gtk-3.0/gdk/gdkselection.h
 -rw-r--r-- root       root             2307 ./usr/include/gtk-3.0/gdk/gdktestutils.h
 -rw-r--r-- root       root             4398 ./usr/include/gtk-3.0/gdk/gdkthreads.h
--rw-r--r-- root       root            18356 ./usr/include/gtk-3.0/gdk/gdktypes.h
+-rw-r--r-- root       root            18431 ./usr/include/gtk-3.0/gdk/gdktypes.h
 -rw-r--r-- root       root            11313 ./usr/include/gtk-3.0/gdk/gdkversionmacros.h
 -rw-r--r-- root       root             5577 ./usr/include/gtk-3.0/gdk/gdkvisual.h
 -rw-r--r-- root       root             1416 ./usr/include/gtk-3.0/gdk/gdkwayland.h
@@ -296,7 +296,7 @@ drwxr-xr-x root       root              840 ./usr/include/gtk-3.0/gtk/deprecated
 -rw-r--r-- root       root             5355 ./usr/include/gtk-3.0/gtk/gtkpagesetup.h
 -rw-r--r-- root       root             4417 ./usr/include/gtk-3.0/gtk/gtkpaned.h
 -rw-r--r-- root       root             4994 ./usr/include/gtk-3.0/gtk/gtkpapersize.h
--rw-r--r-- root       root             8329 ./usr/include/gtk-3.0/gtk/gtkplacessidebar.h
+-rw-r--r-- root       root             8279 ./usr/include/gtk-3.0/gtk/gtkplacessidebar.h
 -rw-r--r-- root       root             3329 ./usr/include/gtk-3.0/gtk/gtkplug.h
 -rw-r--r-- root       root             4336 ./usr/include/gtk-3.0/gtk/gtkpopover.h
 -rw-r--r-- root       root             2188 ./usr/include/gtk-3.0/gtk/gtkpopovermenu.h
@@ -314,7 +314,7 @@ drwxr-xr-x root       root              840 ./usr/include/gtk-3.0/gtk/deprecated
 -rw-r--r-- root       root             2924 ./usr/include/gtk-3.0/gtk/gtkrecentchoosermenu.h
 -rw-r--r-- root       root             2760 ./usr/include/gtk-3.0/gtk/gtkrecentchooserwidget.h
 -rw-r--r-- root       root             5531 ./usr/include/gtk-3.0/gtk/gtkrecentfilter.h
--rw-r--r-- root       root            10134 ./usr/include/gtk-3.0/gtk/gtkrecentmanager.h
+-rw-r--r-- root       root            10122 ./usr/include/gtk-3.0/gtk/gtkrecentmanager.h
 -rw-r--r-- root       root             7752 ./usr/include/gtk-3.0/gtk/gtkrender.h
 -rw-r--r-- root       root             3450 ./usr/include/gtk-3.0/gtk/gtkrevealer.h
 -rw-r--r-- root       root             4914 ./usr/include/gtk-3.0/gtk/gtkscale.h
@@ -412,9 +412,9 @@ drwxr-xr-x root       root               80 ./usr/lib/gtk-3.0/3.0.0/printbackend
 -rwxr-xr-x root       root             2806 ./usr/lib/libgailutil-3.la
 lrwxrwxrwx root       root               22 ./usr/lib/libgailutil-3.so -> libgailutil-3.so.0.0.0
 -rw-r--r-- root       root              925 ./usr/lib/libgdk-3.la
-lrwxrwxrwx root       root               20 ./usr/lib/libgdk-3.so -> libgdk-3.so.0.1800.2
+lrwxrwxrwx root       root               20 ./usr/lib/libgdk-3.so -> libgdk-3.so.0.1800.6
 -rw-r--r-- root       root              925 ./usr/lib/libgtk-3.la
-lrwxrwxrwx root       root               20 ./usr/lib/libgtk-3.so -> libgtk-3.so.0.1800.2
+lrwxrwxrwx root       root               20 ./usr/lib/libgtk-3.so -> libgtk-3.so.0.1800.6
 drwxr-xr-x root       root              200 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              240 ./usr/lib/pkgconfig/gail-3.0.pc
 -rw-r--r-- root       root              516 ./usr/lib/pkgconfig/gdk-3.0.pc
@@ -426,6 +426,6 @@ drwxr-xr-x root       root              200 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              551 ./usr/lib/pkgconfig/gtk+-x11-3.0.pc
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/aclocal
--rw-r--r-- root       root             8421 ./usr/share/aclocal/gtk-3.0.m4
+-rw-r--r-- root       root             8322 ./usr/share/aclocal/gtk-3.0.m4
 drwxr-xr-x root       root               60 ./usr/share/gtk-3.0
 -rw-r--r-- root       root             7978 ./usr/share/gtk-3.0/gtkbuilder.rng

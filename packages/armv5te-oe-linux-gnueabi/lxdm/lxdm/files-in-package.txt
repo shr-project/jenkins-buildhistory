@@ -7,7 +7,7 @@ drwxr-xr-x root       root              200 ./etc/lxdm
 -rwxr-xr-x root       root               64 ./etc/lxdm/PreReboot
 -rwxr-xr-x root       root               64 ./etc/lxdm/PreShutdown
 -rwxr-xr-x root       root             1127 ./etc/lxdm/Xsession
--rw-r----- root       root             1230 ./etc/lxdm/lxdm.conf
+-rw-r----- root       root             1229 ./etc/lxdm/lxdm.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
@@ -15,12 +15,11 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            15548 ./usr/bin/lxdm-config
-drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root              120 ./usr/lib/lxdm
--rwxr-xr-x root       root            12172 ./usr/lib/lxdm/lxdm-greeter-gdk
--rwxr-xr-x root       root            40008 ./usr/lib/lxdm/lxdm-greeter-gtk
--rwxr-xr-x root       root             4100 ./usr/lib/lxdm/lxdm-numlock
--rwxr-xr-x root       root             8076 ./usr/lib/lxdm/lxdm-session
+drwxr-xr-x root       root              120 ./usr/libexec
+-rwxr-xr-x root       root            12172 ./usr/libexec/lxdm-greeter-gdk
+-rwxr-xr-x root       root            40008 ./usr/libexec/lxdm-greeter-gtk
+-rwxr-xr-x root       root             4100 ./usr/libexec/lxdm-numlock
+-rwxr-xr-x root       root             8076 ./usr/libexec/lxdm-session
 drwxr-xr-x root       root               80 ./usr/sbin
 -rwxr-xr-x root       root              551 ./usr/sbin/lxdm
 -rwxr-xr-x root       root            28796 ./usr/sbin/lxdm-binary

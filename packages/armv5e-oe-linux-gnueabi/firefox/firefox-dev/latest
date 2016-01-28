@@ -1,8 +1,8 @@
 PV = 38.4.0esr
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = atk (>= 2.18.0) cairo (>= 1.14.6) dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) firefox (= 38.4.0esr-r0.6) firefox (>= 38.4.0esr) fontconfig (>= 2.11.94) freetype (>= 2.6) gdk-pixbuf (>= 2.32.1) glib-2.0 (>= 2.46.1) glibc (>= 2.22) gtk+ (>= 2.24.28) libasound (>= 1.1.0) libevent (>= 2.0.22) libffi (>= 3.2.1) libgcc (>= 5.3.0) libicui18n (>= 56.1) libicuuc (>= 56.1) libstdc++ (>= 5.3.0) libvpx (>= 1.4.0) libx11 (>= 1.6.3) libxcomposite (>= 0.4.4) libxdamage (>= 1.1.4) libxext (>= 1.3.3) libxfixes (>= 5.0.1) libxrender (>= 0.9.9) libxt (>= 1.1.5) pango (>= 1.38.1) pixman (>= 0.32.8) startup-notification (>= 0.12) zlib (>= 1.2.8)
+RDEPENDS = atk (>= 2.18.0) cairo (>= 1.14.6) dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) firefox (= 38.4.0esr-r0.7) firefox (>= 38.4.0esr) fontconfig (>= 2.11.94) freetype (>= 2.6.2) gdk-pixbuf (>= 2.32.3) glib-2.0 (>= 2.46.2) glibc (>= 2.22) gtk+ (>= 2.24.29) libasound (>= 1.1.0) libevent (>= 2.0.22) libffi (>= 3.2.1) libgcc (>= 5.3.0) libicui18n (>= 56.1) libicuuc (>= 56.1) libstdc++ (>= 5.3.0) libvpx (>= 1.4.0) libx11 (>= 1.6.3) libxcomposite (>= 0.4.4) libxdamage (>= 1.1.4) libxext (>= 1.3.3) libxfixes (>= 5.0.1) libxrender (>= 0.9.9) libxt (>= 1.1.5) pango (>= 1.38.1) pixman (>= 0.32.8) startup-notification (>= 0.12) zlib (>= 1.2.8)
 RRECOMMENDS = alsa-lib-dev atk-dev cairo-dev curl-dev dbus-glib-dev dbus-lib-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gtk+-dev icu-dev libasound-dev libevent-dev libffi-dev libgcc-dev libicui18n-dev libicuuc-dev libnotify-dev libstdc++-dev libvpx-dev libx11-dev libxcomposite-dev libxdamage-dev libxext-dev libxfixes-dev libxi-dev libxrender-dev libxt-dev nspr-dev nss-dev orbit2-dev pango-dev pixman-dev pulseaudio-dev startup-notification-dev zlib-dev
 PKGSIZE = 79311577
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/firefox/*.la /lib/*.la /usr/share/idl /usr/bin/firefox-config /usr/lib/firefox-devel-*

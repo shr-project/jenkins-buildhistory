@@ -2,12 +2,12 @@ PE = 1
 PV = 0.8+gitrAUTOINC+39e8108991
 PR = r9
 PKGV = 0.8+gitr0+39e8108991
-PKGR = r9.5
+PKGR = r9.6
 RPROVIDES = gpsd
-RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) frameworkd glib-2.0 (>= 2.46.1) glibc (>= 2.22)
+RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) frameworkd glib-2.0 (>= 2.46.2) glibc (>= 2.22)
 RRECOMMENDS = 
 RREPLACES = fso-gpsd-systemd
 RCONFLICTS = fso-gpsd-systemd
 PKGSIZE = 35343
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/fso-gpsd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/fso-gpsd /usr/lib/fso-gpsd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc /lib/systemd/system/fso-gpsd.service
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/fso-gpsd /usr/lib/fso-gpsd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc /lib/systemd/system/fso-gpsd.service
 FILELIST = /lib/systemd/system/fso-gpsd.service /usr/sbin/fso-gpsd

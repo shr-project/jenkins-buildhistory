@@ -1,5 +1,5 @@
 PE = 1
 PV = 0.0+gitAUTOINC+346584bf6e
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native gtk+ libtool-cross libtool-native libxt virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native gnu-config-native gtk+ libtool-cross libtool-native libxt pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = puzzles-dbg puzzles-staticdev puzzles-dev puzzles-doc puzzles-locale puzzles

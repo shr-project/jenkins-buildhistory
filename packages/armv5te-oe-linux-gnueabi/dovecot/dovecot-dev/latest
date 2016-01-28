@@ -1,8 +1,8 @@
 PV = 2.2.21
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = dovecot (= 2.2.21-r0.3) dovecot (>= 2.2.21) glibc (>= 2.22) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2e) libicudata (>= 56.1) libicui18n (>= 56.1) libicuuc (>= 56.1) liblzma (>= 5.2.2) libssl (>= 1.0.2e) zlib (>= 1.2.8)
+RDEPENDS = dovecot (= 2.2.21-r0.4) dovecot (>= 2.2.21) glibc (>= 2.22) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2e) libicudata (>= 56.1) libicui18n (>= 56.1) libicuuc (>= 56.1) liblzma (>= 5.2.2) libssl (>= 1.0.2e) zlib (>= 1.2.8)
 RRECOMMENDS = base-files-dev base-passwd-dev bzip2-dev glibc-dev icu-dev libbz2-dev libcap-dev libcrypto-dev libicudata-dev libicui18n-dev libicuuc-dev liblzma-dev libssl-dev openssl-dev shadow-dev shadow-sysroot-dev xz-dev zlib-dev
 PKGSIZE = 1821172
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dovecot/*.la /lib/*.la /usr/lib/dovecot/*.so

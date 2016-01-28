@@ -1,9 +1,9 @@
 PV = 1.750
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = webmin
 RRECOMMENDS = 
 PKGSIZE = 1391
-FILES = /usr/lib/webmin/webmin/mediatomb
-FILELIST = /usr/lib/webmin/webmin/mediatomb/index.cgi /usr/lib/webmin/webmin/mediatomb/lang/en /usr/lib/webmin/webmin/mediatomb/mediatomb-lib.pl /usr/lib/webmin/webmin/mediatomb/module.info
+FILES = /usr/libexec/webmin/mediatomb
+FILELIST = /usr/libexec/webmin/mediatomb/index.cgi /usr/libexec/webmin/mediatomb/lang/en /usr/libexec/webmin/mediatomb/mediatomb-lib.pl /usr/libexec/webmin/mediatomb/module.info
