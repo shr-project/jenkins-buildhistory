@@ -1,4 +1,4 @@
-drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              220 ./usr/bin/.debug
 -rwxr-xr-x root       root            72628 ./usr/bin/.debug/tracker-control
@@ -10,7 +10,7 @@ drwxr-xr-x root       root              220 ./usr/bin/.debug
 -rwxr-xr-x root       root            19208 ./usr/bin/.debug/tracker-sparql
 -rwxr-xr-x root       root            12296 ./usr/bin/.debug/tracker-stats
 -rwxr-xr-x root       root            28020 ./usr/bin/.debug/tracker-tag
-drwxr-xr-x root       root              120 ./usr/lib
+drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root              100 ./usr/lib/.debug
 -rwxr-xr-x root       root            99284 ./usr/lib/.debug/libtracker-extract-0.14.so.0.1400.2
 -rwxr-xr-x root       root           453776 ./usr/lib/.debug/libtracker-miner-0.14.so.0.1400.2
@@ -19,7 +19,6 @@ drwxr-xr-x root       root               60 ./usr/lib/nautilus
 drwxr-xr-x root       root               60 ./usr/lib/nautilus/extensions-2.0
 drwxr-xr-x root       root               60 ./usr/lib/nautilus/extensions-2.0/.debug
 -rwxr-xr-x root       root            86980 ./usr/lib/nautilus/extensions-2.0/.debug/libnautilus-tracker-tags.so
-drwxr-xr-x root       root               60 ./usr/lib/tracker
 drwxr-xr-x root       root              100 ./usr/lib/tracker-0.14
 drwxr-xr-x root       root               80 ./usr/lib/tracker-0.14/.debug
 -rwxr-xr-x root       root           401180 ./usr/lib/tracker-0.14/.debug/libtracker-common.so.0.1400.2
@@ -45,11 +44,12 @@ drwxr-xr-x root       root              360 ./usr/lib/tracker-0.14/extract-modul
 drwxr-xr-x root       root               60 ./usr/lib/tracker-0.14/writeback-modules
 drwxr-xr-x root       root               60 ./usr/lib/tracker-0.14/writeback-modules/.debug
 -rwxr-xr-x root       root            18832 ./usr/lib/tracker-0.14/writeback-modules/.debug/libwriteback-taglib.so
-drwxr-xr-x root       root              120 ./usr/lib/tracker/.debug
--rwxr-xr-x root       root           142672 ./usr/lib/tracker/.debug/tracker-extract
--rwxr-xr-x root       root           236124 ./usr/lib/tracker/.debug/tracker-miner-fs
--rwxr-xr-x root       root           369504 ./usr/lib/tracker/.debug/tracker-store
--rwxr-xr-x root       root            82220 ./usr/lib/tracker/.debug/tracker-writeback
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root              120 ./usr/libexec/.debug
+-rwxr-xr-x root       root           142672 ./usr/libexec/.debug/tracker-extract
+-rwxr-xr-x root       root           236124 ./usr/libexec/.debug/tracker-miner-fs
+-rwxr-xr-x root       root           369504 ./usr/libexec/.debug/tracker-store
+-rwxr-xr-x root       root            82220 ./usr/libexec/.debug/tracker-writeback
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/tracker

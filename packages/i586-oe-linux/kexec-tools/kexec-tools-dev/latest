@@ -1,9 +1,9 @@
 PV = 2.0.11
 PR = r1
-PKGR = r1.4
+PKGR = r1.5
 RPROVIDES = 
-RDEPENDS = kexec-tools (= 2.0.11-r1.4)
-RRECOMMENDS = glibc-dev liblzma-dev xz-dev zlib-dev
+RDEPENDS = kexec-tools (= 2.0.11-r1.5)
+RRECOMMENDS = glibc-dev initscripts-dev liblzma-dev update-rc.d-dev xz-dev zlib-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/kexec-tools/*.la /lib/*.la
 FILELIST = 

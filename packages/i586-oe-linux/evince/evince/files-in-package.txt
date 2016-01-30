@@ -3,13 +3,13 @@ drwxr-xr-x root       root               60 ./etc/gconf
 drwxr-xr-x root       root               80 ./etc/gconf/schemas
 -rw-r--r-- root       root             3528 ./etc/gconf/schemas/evince-thumbnailer-comics.schemas
 -rw-r--r-- root       root           133419 ./etc/gconf/schemas/evince-thumbnailer.schemas
-drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
 -rwxr-xr-x root       root           433884 ./usr/bin/evince
 -rwxr-xr-x root       root            39528 ./usr/bin/evince-previewer
 -rwxr-xr-x root       root             8424 ./usr/bin/evince-thumbnailer
 drwxr-xr-x root       root              140 ./usr/lib
-drwxr-xr-x root       root              100 ./usr/lib/evince
+drwxr-xr-x root       root               60 ./usr/lib/evince
 drwxr-xr-x root       root               60 ./usr/lib/evince/3
 drwxr-xr-x root       root              200 ./usr/lib/evince/3/backends
 -rw-r--r-- root       root             3486 ./usr/lib/evince/3/backends/comicsdocument.evince-backend
@@ -20,12 +20,13 @@ drwxr-xr-x root       root              200 ./usr/lib/evince/3/backends
 -rw-r--r-- root       root             3535 ./usr/lib/evince/3/backends/pdfdocument.evince-backend
 -rw-r--r-- root       root              409 ./usr/lib/evince/3/backends/pixbufdocument.evince-backend
 -rw-r--r-- root       root               88 ./usr/lib/evince/3/backends/tiffdocument.evince-backend
--rwxr-xr-x root       root            10240 ./usr/lib/evince/evince-convert-metadata
--rwxr-xr-x root       root            13380 ./usr/lib/evince/evinced
 lrwxrwxrwx root       root               22 ./usr/lib/libevdocument.so.3 -> libevdocument.so.3.0.0
 -rwxr-xr-x root       root           227724 ./usr/lib/libevdocument.so.3.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libevview.so.3 -> libevview.so.3.0.0
 -rwxr-xr-x root       root           295196 ./usr/lib/libevview.so.3.0.0
+drwxr-xr-x root       root               80 ./usr/libexec
+-rwxr-xr-x root       root            10240 ./usr/libexec/evince-convert-metadata
+-rwxr-xr-x root       root            13380 ./usr/libexec/evinced
 drwxr-xr-x root       root              180 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/GConf
 drwxr-xr-x root       root               60 ./usr/share/GConf/gsettings
@@ -34,7 +35,7 @@ drwxr-xr-x root       root               60 ./usr/share/applications
 -rw-r--r-- root       root             6609 ./usr/share/applications/evince.desktop
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/services
--rw-r--r-- root       root               74 ./usr/share/dbus-1/services/org.gnome.evince.Daemon.service
+-rw-r--r-- root       root               71 ./usr/share/dbus-1/services/org.gnome.evince.Daemon.service
 drwxr-xr-x root       root              140 ./usr/share/evince
 -rw-r--r-- root       root             1575 ./usr/share/evince/evince-previewer-ui.xml
 -rw-r--r-- root       root             1235 ./usr/share/evince/evince-toolbar.xml

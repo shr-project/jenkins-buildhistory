@@ -1,28 +1,28 @@
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/bonobo-activation
 -rw-r--r-- root       root              351 ./etc/bonobo-activation/bonobo-activation-config.xml
-drwxr-xr-x root       root              120 ./usr
+drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root             9144 ./usr/bin/activation-client
 -rwxr-xr-x root       root             6428 ./usr/bin/bonobo-activation-run-query
 -rwxr-xr-x root       root             5410 ./usr/bin/bonobo-slay
 -rwxr-xr-x root       root             6140 ./usr/bin/echo-client-2
-drwxr-xr-x root       root              180 ./usr/lib
+drwxr-xr-x root       root              160 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/bonobo
 drwxr-xr-x root       root               60 ./usr/lib/bonobo/monikers
 -rwxr-xr-x root       root            18740 ./usr/lib/bonobo/monikers/libmoniker_std_2.so
 drwxr-xr-x root       root              100 ./usr/lib/bonobo/servers
--rw-r--r-- root       root            31038 ./usr/lib/bonobo/servers/Bonobo_CosNaming_NamingContext.server
+-rw-r--r-- root       root            31026 ./usr/lib/bonobo/servers/Bonobo_CosNaming_NamingContext.server
 -rw-r--r-- root       root            63728 ./usr/lib/bonobo/servers/Bonobo_Moniker_std.server
 -rw-r--r-- root       root            32216 ./usr/lib/bonobo/servers/Bonobo_Sample_Echo.server
-drwxr-xr-x root       root               60 ./usr/lib/libbonobo
 lrwxrwxrwx root       root               20 ./usr/lib/libbonobo-2.so.0 -> libbonobo-2.so.0.0.0
 -rwxr-xr-x root       root           446596 ./usr/lib/libbonobo-2.so.0.0.0
 lrwxrwxrwx root       root               29 ./usr/lib/libbonobo-activation.so.4 -> libbonobo-activation.so.4.0.0
 -rwxr-xr-x root       root           100224 ./usr/lib/libbonobo-activation.so.4.0.0
--rwxr-xr-x root       root           101604 ./usr/lib/libbonobo/bonobo-activation-server
 drwxr-xr-x root       root               60 ./usr/lib/orbit-2.0
 -rwxr-xr-x root       root            69952 ./usr/lib/orbit-2.0/Bonobo_module.so
+drwxr-xr-x root       root               60 ./usr/libexec
+-rwxr-xr-x root       root           101604 ./usr/libexec/bonobo-activation-server
 drwxr-xr-x root       root               60 ./usr/sbin
 -rwxr-xr-x root       root             8544 ./usr/sbin/bonobo-activation-sysconf
 drwxr-xr-x root       root               60 ./usr/share

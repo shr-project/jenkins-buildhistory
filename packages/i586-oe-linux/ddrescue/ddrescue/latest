@@ -1,9 +1,9 @@
 PV = 1.19
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 186728
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/ddrescue/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ddrescue /usr/lib/ddrescue/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ddrescue /usr/lib/ddrescue/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/ddrescue /usr/bin/ddrescuelog

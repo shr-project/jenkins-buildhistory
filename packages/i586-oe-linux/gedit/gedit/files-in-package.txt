@@ -3,12 +3,11 @@ drwxr-xr-x root       root               60 ./etc/gconf
 drwxr-xr-x root       root               80 ./etc/gconf/schemas
 -rw-r--r-- root       root           155570 ./etc/gconf/schemas/gedit-file-browser.schemas
 -rw-r--r-- root       root           881276 ./etc/gconf/schemas/gedit.schemas
-drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root           780316 ./usr/bin/gedit
 lrwxrwxrwx root       root                5 ./usr/bin/gnome-text-editor -> gedit
-drwxr-xr-x root       root               80 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/gedit
+drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/gedit-2
 drwxr-xr-x root       root               80 ./usr/lib/gedit-2/plugin-loaders
 -rwxr-xr-x root       root             2573 ./usr/lib/gedit-2/plugin-loaders/libcloader.la
@@ -38,11 +37,12 @@ drwxr-xr-x root       root              520 ./usr/lib/gedit-2/plugins
 -rw-r--r-- root       root             9143 ./usr/lib/gedit-2/plugins/spell.gedit-plugin
 -rw-r--r-- root       root             9873 ./usr/lib/gedit-2/plugins/taglist.gedit-plugin
 -rw-r--r-- root       root            11849 ./usr/lib/gedit-2/plugins/time.gedit-plugin
-drwxr-xr-x root       root               60 ./usr/lib/gedit/gedit-2
--rwxr-xr-x root       root             1578 ./usr/lib/gedit/gedit-2/gedit-bugreport.sh
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root               60 ./usr/libexec/gedit-2
+-rwxr-xr-x root       root             1578 ./usr/libexec/gedit-2/gedit-bugreport.sh
 drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/applications
--rw-r--r-- root       root            13141 ./usr/share/applications/gedit.desktop
+-rw-r--r-- root       root            13139 ./usr/share/applications/gedit.desktop
 drwxr-xr-x root       root              120 ./usr/share/gedit-2
 drwxr-xr-x root       root               60 ./usr/share/gedit-2/icons
 -rw-r--r-- root       root             2525 ./usr/share/gedit-2/icons/gedit-plugin.png

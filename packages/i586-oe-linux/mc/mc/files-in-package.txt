@@ -4,7 +4,7 @@ drwxr-xr-x root       root              240 ./etc/mc
 -rw-r--r-- root       root             1119 ./etc/mc/filehighlight.ini
 -rw-r--r-- root       root             8626 ./etc/mc/mc.default.keymap
 -rw-r--r-- root       root             8564 ./etc/mc/mc.emacs.keymap
--rw-r--r-- root       root            19381 ./etc/mc/mc.ext
+-rw-r--r-- root       root            19522 ./etc/mc/mc.ext
 -rw-r--r-- root       root             8626 ./etc/mc/mc.keymap
 -rw-r--r-- root       root             9024 ./etc/mc/mc.menu
 -rw-r--r-- root       root            10409 ./etc/mc/mc.menu.sr
@@ -16,14 +16,13 @@ drwxr-xr-x root       root              120 ./usr/bin
 lrwxrwxrwx root       root                2 ./usr/bin/mcdiff -> mc
 lrwxrwxrwx root       root                2 ./usr/bin/mcedit -> mc
 lrwxrwxrwx root       root                2 ./usr/bin/mcview -> mc
-drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/mc
-drwxr-xr-x root       root              140 ./usr/lib/mc/mc
--rwxr-xr-x root       root             6024 ./usr/lib/mc/mc/cons.saver
--rwxr-xr-x root       root              389 ./usr/lib/mc/mc/mc-wrapper.csh
--rwxr-xr-x root       root              315 ./usr/lib/mc/mc/mc-wrapper.sh
--rwxr-xr-x root       root               48 ./usr/lib/mc/mc/mc.csh
--rwxr-xr-x root       root              152 ./usr/lib/mc/mc/mc.sh
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root              140 ./usr/libexec/mc
+-rwxr-xr-x root       root             6024 ./usr/libexec/mc/cons.saver
+-rwxr-xr-x root       root              389 ./usr/libexec/mc/mc-wrapper.csh
+-rwxr-xr-x root       root              315 ./usr/libexec/mc/mc-wrapper.sh
+-rwxr-xr-x root       root               49 ./usr/libexec/mc/mc.csh
+-rwxr-xr-x root       root              153 ./usr/libexec/mc/mc.sh
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              180 ./usr/share/mc
 drwxr-xr-x root       root               60 ./usr/share/mc/examples
@@ -36,13 +35,13 @@ drwxr-xr-x root       root              180 ./usr/share/mc/examples/macros.d
 -rw-r--r-- root       root              149 ./usr/share/mc/examples/macros.d/macro.6.sh
 -rw-r--r-- root       root              179 ./usr/share/mc/examples/macros.d/macro.7.sh
 drwxr-xr-x root       root              180 ./usr/share/mc/help
--rw-r--r-- root       root           164549 ./usr/share/mc/help/mc.hlp
--rw-r--r-- root       root           218955 ./usr/share/mc/help/mc.hlp.es
--rw-r--r-- root       root           155814 ./usr/share/mc/help/mc.hlp.hu
--rw-r--r-- root       root           149528 ./usr/share/mc/help/mc.hlp.it
+-rw-r--r-- root       root           164551 ./usr/share/mc/help/mc.hlp
+-rw-r--r-- root       root           218957 ./usr/share/mc/help/mc.hlp.es
+-rw-r--r-- root       root           155816 ./usr/share/mc/help/mc.hlp.hu
+-rw-r--r-- root       root           149530 ./usr/share/mc/help/mc.hlp.it
 -rw-r--r-- root       root           149558 ./usr/share/mc/help/mc.hlp.pl
--rw-r--r-- root       root           309000 ./usr/share/mc/help/mc.hlp.ru
--rw-r--r-- root       root           217377 ./usr/share/mc/help/mc.hlp.sr
+-rw-r--r-- root       root           309002 ./usr/share/mc/help/mc.hlp.ru
+-rw-r--r-- root       root           217379 ./usr/share/mc/help/mc.hlp.sr
 drwxr-xr-x root       root             1020 ./usr/share/mc/hints
 -rw-r--r-- root       root             3023 ./usr/share/mc/hints/mc.hint
 -rw-r--r-- root       root             3019 ./usr/share/mc/hints/mc.hint.ar

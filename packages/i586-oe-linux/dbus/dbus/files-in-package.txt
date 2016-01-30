@@ -2,7 +2,7 @@ drwxr-xr-x root       root               80 ./etc
 drwxr-xr-x root       root              120 ./etc/dbus-1
 -rw-r--r-- root       root             3382 ./etc/dbus-1/session.conf
 drwxr-xr-x root       root               40 ./etc/dbus-1/session.d
--rw-r--r-- root       root             3340 ./etc/dbus-1/system.conf
+-rw-r--r-- root       root             3339 ./etc/dbus-1/system.conf
 drwxr-xr-x root       root               40 ./etc/dbus-1/system.d
 drwxr-xr-x root       root               60 ./etc/default
 drwxr-xr-x root       root               60 ./etc/default/volatiles
@@ -27,9 +27,8 @@ drwxr-xr-x root       root              180 ./usr/bin
 -rwxr-xr-x root       root             8144 ./usr/bin/dbus-run-session
 -rwxr-xr-x root       root            17068 ./usr/bin/dbus-send
 -rwxr-xr-x root       root             5544 ./usr/bin/dbus-uuidgen
-drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/dbus
--rwsr-xr-x root       messagebus     351572 ./usr/lib/dbus/dbus-daemon-launch-helper
+drwxr-xr-x root       root               60 ./usr/libexec
+-rwsr-xr-x root       messagebus     351572 ./usr/libexec/dbus-daemon-launch-helper
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root               40 ./usr/share/dbus-1/services

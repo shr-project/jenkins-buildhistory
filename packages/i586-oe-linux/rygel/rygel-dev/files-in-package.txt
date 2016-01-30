@@ -1,14 +1,17 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/include
-drwxr-xr-x root       root              140 ./usr/include/rygel-2.6
--rw-r--r-- root       root            50562 ./usr/include/rygel-2.6/rygel-core.h
--rw-r--r-- root       root             3735 ./usr/include/rygel-2.6/rygel-renderer-gst.h
--rw-r--r-- root       root            13815 ./usr/include/rygel-2.6/rygel-renderer.h
--rw-r--r-- root       root            13449 ./usr/include/rygel-2.6/rygel-ruih.h
--rw-r--r-- root       root           112262 ./usr/include/rygel-2.6/rygel-server.h
-drwxr-xr-x root       root              260 ./usr/lib
+drwxr-xr-x root       root              160 ./usr/include/rygel-2.6
+-rw-r--r-- root       root            52077 ./usr/include/rygel-2.6/rygel-core.h
+-rw-r--r-- root       root            11304 ./usr/include/rygel-2.6/rygel-db.h
+-rw-r--r-- root       root             3230 ./usr/include/rygel-2.6/rygel-renderer-gst.h
+-rw-r--r-- root       root            14227 ./usr/include/rygel-2.6/rygel-renderer.h
+-rw-r--r-- root       root            13451 ./usr/include/rygel-2.6/rygel-ruih.h
+-rw-r--r-- root       root           112258 ./usr/include/rygel-2.6/rygel-server.h
+drwxr-xr-x root       root              300 ./usr/lib
 -rwxr-xr-x root       root             1536 ./usr/lib/librygel-core-2.6.la
 lrwxrwxrwx root       root               26 ./usr/lib/librygel-core-2.6.so -> librygel-core-2.6.so.2.0.4
+-rwxr-xr-x root       root             1636 ./usr/lib/librygel-db-2.6.la
+lrwxrwxrwx root       root               24 ./usr/lib/librygel-db-2.6.so -> librygel-db-2.6.so.2.0.4
 -rwxr-xr-x root       root             1646 ./usr/lib/librygel-renderer-2.6.la
 lrwxrwxrwx root       root               30 ./usr/lib/librygel-renderer-2.6.so -> librygel-renderer-2.6.so.2.0.4
 -rwxr-xr-x root       root             1957 ./usr/lib/librygel-renderer-gst-2.6.la
@@ -18,20 +21,22 @@ lrwxrwxrwx root       root               26 ./usr/lib/librygel-ruih-2.0.so -> li
 -rwxr-xr-x root       root             1769 ./usr/lib/librygel-server-2.6.la
 lrwxrwxrwx root       root               28 ./usr/lib/librygel-server-2.6.so -> librygel-server-2.6.so.2.0.4
 drwxr-xr-x root       root              120 ./usr/lib/pkgconfig
--rw-r--r-- root       root              369 ./usr/lib/pkgconfig/rygel-core-2.6.pc
--rw-r--r-- root       root              326 ./usr/lib/pkgconfig/rygel-renderer-2.6.pc
--rw-r--r-- root       root              348 ./usr/lib/pkgconfig/rygel-renderer-gst-2.6.pc
--rw-r--r-- root       root              358 ./usr/lib/pkgconfig/rygel-server-2.6.pc
+-rw-r--r-- root       root              424 ./usr/lib/pkgconfig/rygel-core-2.6.pc
+-rw-r--r-- root       root              321 ./usr/lib/pkgconfig/rygel-renderer-2.6.pc
+-rw-r--r-- root       root              343 ./usr/lib/pkgconfig/rygel-renderer-gst-2.6.pc
+-rw-r--r-- root       root              459 ./usr/lib/pkgconfig/rygel-server-2.6.pc
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/vala
-drwxr-xr-x root       root              240 ./usr/share/vala/vapi
+drwxr-xr-x root       root              280 ./usr/share/vala/vapi
 -rw-r--r-- root       root               37 ./usr/share/vala/vapi/rygel-core-2.6.deps
--rw-r--r-- root       root            13219 ./usr/share/vala/vapi/rygel-core-2.6.vapi
+-rw-r--r-- root       root            13548 ./usr/share/vala/vapi/rygel-core-2.6.vapi
+-rw-r--r-- root       root               21 ./usr/share/vala/vapi/rygel-db-2.6.deps
+-rw-r--r-- root       root             2854 ./usr/share/vala/vapi/rygel-db-2.6.vapi
 -rw-r--r-- root       root               28 ./usr/share/vala/vapi/rygel-renderer-2.6.deps
--rw-r--r-- root       root             3563 ./usr/share/vala/vapi/rygel-renderer-2.6.vapi
+-rw-r--r-- root       root             3664 ./usr/share/vala/vapi/rygel-renderer-2.6.vapi
 -rw-r--r-- root       root               33 ./usr/share/vala/vapi/rygel-renderer-gst-2.6.deps
--rw-r--r-- root       root              984 ./usr/share/vala/vapi/rygel-renderer-gst-2.6.vapi
+-rw-r--r-- root       root              720 ./usr/share/vala/vapi/rygel-renderer-gst-2.6.vapi
 -rw-r--r-- root       root               54 ./usr/share/vala/vapi/rygel-ruih-2.0.deps
--rw-r--r-- root       root             3537 ./usr/share/vala/vapi/rygel-ruih-2.0.vapi
+-rw-r--r-- root       root             3539 ./usr/share/vala/vapi/rygel-ruih-2.0.vapi
 -rw-r--r-- root       root               54 ./usr/share/vala/vapi/rygel-server-2.6.deps
--rw-r--r-- root       root            30757 ./usr/share/vala/vapi/rygel-server-2.6.vapi
+-rw-r--r-- root       root            30759 ./usr/share/vala/vapi/rygel-server-2.6.vapi

@@ -1,10 +1,10 @@
 PV = 2.4
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 PKG = libjansson4
 RPROVIDES = 2.4 jansson
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 45823
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/jansson/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/jansson /usr/lib/jansson/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/jansson /usr/lib/jansson/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libjansson.so.4 /usr/lib/libjansson.so.4.4.0

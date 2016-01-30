@@ -1,11 +1,11 @@
 PE = 1
 PV = 0.2.0
 PR = r1
-PKGR = r1.4
+PKGR = r1.5
 PKG = libsamsung-ipc0
 RPROVIDES = 0.2.0 libsamsung-ipc
 RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2e) libssl (>= 1.0.2e)
 RRECOMMENDS = 
 PKGSIZE = 114763
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/libsamsung-ipc/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libsamsung-ipc /usr/lib/libsamsung-ipc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libsamsung-ipc /usr/lib/libsamsung-ipc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libsamsung-ipc.so.0 /usr/lib/libsamsung-ipc.so.0.0.0

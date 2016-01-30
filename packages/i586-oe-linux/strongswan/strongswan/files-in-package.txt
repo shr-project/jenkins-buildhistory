@@ -55,10 +55,10 @@ drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              204 ./lib/systemd/system/strongswan.service
-drwxr-xr-x root       root              120 ./usr
+drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            72788 ./usr/bin/pki
-drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              180 ./usr/lib/ipsec
 lrwxrwxrwx root       root               18 ./usr/lib/ipsec/libcharon.so.0 -> libcharon.so.0.0.0
 -rwxr-xr-x root       root           593412 ./usr/lib/ipsec/libcharon.so.0.0.0
@@ -102,15 +102,15 @@ drwxr-xr-x root       root              740 ./usr/lib/ipsec/plugins
 -rwxr-xr-x root       root            91616 ./usr/lib/ipsec/plugins/libstrongswan-x509.so
 -rwxr-xr-x root       root             7824 ./usr/lib/ipsec/plugins/libstrongswan-xauth-generic.so
 -rwxr-xr-x root       root             8840 ./usr/lib/ipsec/plugins/libstrongswan-xcbc.so
-drwxr-xr-x root       root               60 ./usr/lib/strongswan
-drwxr-xr-x root       root              140 ./usr/lib/strongswan/ipsec
--rwxr-xr-x root       root             6412 ./usr/lib/strongswan/ipsec/_copyright
--rwxr-xr-x root       root            18863 ./usr/lib/strongswan/ipsec/_updown
--rwxr-xr-x root       root            11216 ./usr/lib/strongswan/ipsec/charon
--rwxr-xr-x root       root            72248 ./usr/lib/strongswan/ipsec/starter
--rwxr-xr-x root       root            15660 ./usr/lib/strongswan/ipsec/stroke
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root              140 ./usr/libexec/ipsec
+-rwxr-xr-x root       root             6412 ./usr/libexec/ipsec/_copyright
+-rwxr-xr-x root       root            18863 ./usr/libexec/ipsec/_updown
+-rwxr-xr-x root       root            11216 ./usr/libexec/ipsec/charon
+-rwxr-xr-x root       root            72248 ./usr/libexec/ipsec/starter
+-rwxr-xr-x root       root            15660 ./usr/libexec/ipsec/stroke
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root             7394 ./usr/sbin/ipsec
+-rwxr-xr-x root       root             7387 ./usr/sbin/ipsec
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/strongswan
 drwxr-xr-x root       root               60 ./usr/share/strongswan/templates

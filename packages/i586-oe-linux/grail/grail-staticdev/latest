@@ -1,0 +1,10 @@
+PV = 3.1.0
+PR = r0
+PKGR = r0.0
+PKG = libgrail-staticdev
+RPROVIDES = 3.1.0 grail-staticdev
+RDEPENDS = grail-dev (= 3.1.0-r0.0)
+RRECOMMENDS = 
+PKGSIZE = 3982396
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/grail/*.a
+FILELIST = /usr/lib/libgrail.a

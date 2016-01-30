@@ -1,9 +1,9 @@
 PV = 0.48
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = bluez5 (>= 5.37) dbus-lib (>= 1.8.20) glib-2.0 (>= 2.46.1) glibc (>= 2.22)
+RDEPENDS = bluez5 (>= 5.37) dbus-lib (>= 1.8.20) glib-2.0 (>= 2.46.2) glibc (>= 2.22)
 RRECOMMENDS = 
-PKGSIZE = 180771
-FILES = /usr/lib/obexd/obex-client /usr/share/dbus-1/services/obex-client.service
-FILELIST = /usr/lib/obexd/obex-client /usr/share/dbus-1/services/obex-client.service
+PKGSIZE = 180769
+FILES = /usr/libexec/obex-client /usr/share/dbus-1/services/obex-client.service
+FILELIST = /usr/libexec/obex-client /usr/share/dbus-1/services/obex-client.service

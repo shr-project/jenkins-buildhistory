@@ -12,15 +12,14 @@ lrwxrwxrwx root       root                4 ./usr/bin/gpg -> gpg2
 -rwxr-xr-x root       root           489248 ./usr/bin/gpgsm
 -rwxr-xr-x root       root           123552 ./usr/bin/gpgtar
 lrwxrwxrwx root       root                5 ./usr/bin/gpgv -> gpgv2
--rwxr-xr-x root       root           425320 ./usr/bin/gpgv2
+-rwxr-xr-x root       root           425352 ./usr/bin/gpgv2
 -rwxr-xr-x root       root           139740 ./usr/bin/kbxutil
 -rwxr-xr-x root       root            10704 ./usr/bin/watchgnupg
-drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root              120 ./usr/lib/gnupg
--rwxr-xr-x root       root            88444 ./usr/lib/gnupg/gpg-check-pattern
--rwxr-xr-x root       root            64848 ./usr/lib/gnupg/gpg-preset-passphrase
--rwxr-xr-x root       root           142860 ./usr/lib/gnupg/gpg-protect-tool
--rwxr-xr-x root       root           368776 ./usr/lib/gnupg/scdaemon
+drwxr-xr-x root       root              120 ./usr/libexec
+-rwxr-xr-x root       root            88444 ./usr/libexec/gpg-check-pattern
+-rwxr-xr-x root       root            64848 ./usr/libexec/gpg-preset-passphrase
+-rwxr-xr-x root       root           142892 ./usr/libexec/gpg-protect-tool
+-rwxr-xr-x root       root           368776 ./usr/libexec/scdaemon
 drwxr-xr-x root       root               80 ./usr/sbin
 -rwxr-xr-x root       root             3078 ./usr/sbin/addgnupghome
 -rwxr-xr-x root       root             2215 ./usr/sbin/applygnupgdefaults
