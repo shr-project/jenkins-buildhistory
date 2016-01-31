@@ -4,8 +4,8 @@ drwxr-xr-x root       root              140 ./usr/lib/.debug
 -rwxr-xr-x root       root            15088 ./usr/lib/.debug/libdevmapper-event-lvm2.so.2.02
 -rwxr-xr-x root       root            48928 ./usr/lib/.debug/libdevmapper-event.so.1.02
 -rwxr-xr-x root       root           871808 ./usr/lib/.debug/libdevmapper.so.1.02
--rwxr-xr-x root       root          3088880 ./usr/lib/.debug/liblvm2app.so.2.2
--rwxr-xr-x root       root          4501224 ./usr/lib/.debug/liblvm2cmd.so.2.02
+-rwxr-xr-x root       root          3088832 ./usr/lib/.debug/liblvm2app.so.2.2
+-rwxr-xr-x root       root          4501248 ./usr/lib/.debug/liblvm2cmd.so.2.02
 drwxr-xr-x root       root               60 ./usr/lib/device-mapper
 drwxr-xr-x root       root              120 ./usr/lib/device-mapper/.debug
 -rwxr-xr-x root       root            19800 ./usr/lib/device-mapper/.debug/libdevmapper-event-lvm2mirror.so
@@ -16,7 +16,7 @@ drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root              120 ./usr/sbin/.debug
 -rwxr-xr-x root       root            91784 ./usr/sbin/.debug/dmeventd
 -rwxr-xr-x root       root           307976 ./usr/sbin/.debug/dmsetup
--rwxr-xr-x root       root          4424328 ./usr/sbin/.debug/lvm
+-rwxr-xr-x root       root          4424344 ./usr/sbin/.debug/lvm
 -rwxr-xr-x root       root           189776 ./usr/sbin/.debug/lvmetad
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
@@ -42,7 +42,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/lvm2/2.02.138-r0/LVM
 drwxr-xr-x root       root               60 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/daemons/dmeventd/plugins/thin
 -rw-r--r-- root       root             9699 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/daemons/dmeventd/plugins/thin/dmeventd_thin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/daemons/lvmetad
--rw-r--r-- root       root            90215 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/daemons/lvmetad/lvmetad-core.c
+-rw-r--r-- root       root            90209 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/daemons/lvmetad/lvmetad-core.c
 drwxr-xr-x root       root             1220 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/include
 -rw-r--r-- root       root             9205 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/include/activate.h
 -rw-r--r-- root       root             2461 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/include/archiver.h
@@ -119,7 +119,7 @@ drwxr-xr-x root       root              120 ./usr/src/debug/lvm2/2.02.138-r0/LVM
 drwxr-xr-x root       root               60 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/cache_segtype
 -rw-r--r-- root       root            13949 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/cache_segtype/cache.c
 drwxr-xr-x root       root               80 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/commands
--rw-r--r-- root       root            57205 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/commands/toolcontext.c
+-rw-r--r-- root       root            57232 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/commands/toolcontext.c
 -rw-r--r-- root       root             6535 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/commands/toolcontext.h
 drwxr-xr-x root       root               80 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/config
 -rw-r--r-- root       root            69748 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/config/config.c
@@ -243,7 +243,7 @@ drwxr-xr-x root       root              320 ./usr/src/debug/lvm2/2.02.138-r0/LVM
 -rw-r--r-- root       root             2977 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/misc/lvm-wrappers.c
 -rw-r--r-- root       root             1984 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/misc/sharedlib.c
 drwxr-xr-x root       root               60 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/mm
--rw-r--r-- root       root            17624 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/mm/memlock.c
+-rw-r--r-- root       root            17652 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/mm/memlock.c
 drwxr-xr-x root       root               80 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/properties
 -rw-r--r-- root       root             2007 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/properties/prop_common.c
 -rw-r--r-- root       root             5361 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/lib/properties/prop_common.h
@@ -278,7 +278,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/lvm2/2.02.138-r0/LVM
 drwxr-xr-x root       root              120 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/libdaemon/server
 -rw-r--r-- root       root             4649 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/libdaemon/server/daemon-log.c
 -rw-r--r-- root       root             1346 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/libdaemon/server/daemon-log.h
--rw-r--r-- root       root            15748 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/libdaemon/server/daemon-server.c
+-rw-r--r-- root       root            15767 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/libdaemon/server/daemon-server.c
 -rw-r--r-- root       root             5883 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/libdaemon/server/daemon-server.h
 drwxr-xr-x root       root              320 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/libdm
 drwxr-xr-x root       root              100 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/libdm/datastruct
@@ -336,7 +336,7 @@ drwxr-xr-x root       root             1220 ./usr/src/debug/lvm2/2.02.138-r0/LVM
 -rw-r--r-- root       root             1319 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/tools/lvm2cmdline.h
 -rw-r--r-- root       root              852 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/tools/lvmchange.c
 -rw-r--r-- root       root             2618 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/tools/lvmcmdlib.c
--rw-r--r-- root       root            51074 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/tools/lvmcmdline.c
+-rw-r--r-- root       root            51071 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/tools/lvmcmdline.c
 -rw-r--r-- root       root             3781 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/tools/lvmdiskscan.c
 -rw-r--r-- root       root             3212 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/tools/lvpoll.c
 -rw-r--r-- root       root              707 ./usr/src/debug/lvm2/2.02.138-r0/LVM2.2.02.138/tools/lvreduce.c

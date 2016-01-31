@@ -1,8 +1,8 @@
 PV = 2.6
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.46.1) glibc (>= 2.22) gtk+ (>= 2.24.28) libxml2 (>= 2.9.3) pango (>= 1.38.1) trace-cmd
+RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.22) gtk+ (>= 2.24.29) libxml2 (>= 2.9.3) pango (>= 1.38.1) trace-cmd
 RRECOMMENDS = 
 PKGSIZE = 765856
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/kernelshark /usr/lib/kernelshark/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

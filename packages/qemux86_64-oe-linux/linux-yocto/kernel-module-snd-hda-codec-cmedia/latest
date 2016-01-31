@@ -1,10 +1,10 @@
 PV = 4.4+gitAUTOINC+ad9d3f0130_2dadc3524f
 PR = r0
 PKGV = 4.4+git0+ad9d3f0130_2dadc3524f
-PKGR = r0.4
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = kernel-4.4.0-yocto-standard kernel-module-snd-hda-codec kernel-module-snd-hda-codec-generic kernel-module-snd-hda-core
+RDEPENDS = kernel-4.1.15-yocto-standard kernel-module-snd-hda-codec kernel-module-snd-hda-codec-generic kernel-module-snd-hda-core
 RRECOMMENDS = 
-PKGSIZE = 7304
-FILES = /lib/modules/4.4.0-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-cmedia.ko /etc/modules-load.d/snd-hda-codec-cmedia.conf /etc/modprobe.d/snd-hda-codec-cmedia.conf
-FILELIST = /lib/modules/4.4.0-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-cmedia.ko
+PKGSIZE = 7072
+FILES = /lib/modules/4.1.15-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-cmedia.ko /etc/modules-load.d/snd-hda-codec-cmedia.conf /etc/modprobe.d/snd-hda-codec-cmedia.conf
+FILELIST = /lib/modules/4.1.15-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-cmedia.ko
