@@ -1,10 +1,10 @@
 PV = 20150107
 PR = r1
-PKGR = r1.8
+PKGR = r1.10
 PKG = libvorbisidec-staticdev
 RPROVIDES = 20150107 tremor-staticdev
-RDEPENDS = tremor-dev (= 20150107-r1.8)
+RDEPENDS = tremor-dev (= 20150107-r1.10)
 RRECOMMENDS = 
-PKGSIZE = 402908
+PKGSIZE = 402920
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/tremor/*.a
 FILELIST = /usr/lib/libvorbisidec.a

@@ -1,4 +1,4 @@
-PV = 1.0
+PV = 2.0+gitAUTOINC+8bfdf946e7
 PR = r0
-DEPENDS = 
+DEPENDS = virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = ptest-runner-dbg ptest-runner-staticdev ptest-runner-dev ptest-runner-doc ptest-runner-locale ptest-runner

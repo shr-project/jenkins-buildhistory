@@ -1,11 +1,11 @@
 PV = 3.2.3+gitAUTOINC+a9e4e74ec4
 PR = r0
 PKGV = 3.2.3+git0+a9e4e74ec4
-PKGR = r0.7
+PKGR = r0.9
 PKG = libedata-cal-1.2-13
 RPROVIDES = 3.2.3+git0+a9e4e74ec4 libedata-cal
-RDEPENDS = db (>= 6.0.30) dbus-glib (>= 0.104) dbus-lib (>= 1.8.20) evolution-data-server (>= 3.2.3+git0+a9e4e74ec4) gconf (>= 3.2.6) glib-2.0 (>= 2.46.2) glibc (>= 2.22) libecal (>= 3.2.3+git0+a9e4e74ec4) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libffi (>= 3.2.1) libical (>= 1.0.1) libsoup-2.4 (>= 2.52.2) libsqlite3 (>= 3.10.2) libxml2 (>= 2.9.3) nspr (>= 4.11) zlib (>= 1.2.8)
+RDEPENDS = db (>= 6.0.30) dbus-glib (>= 0.104) dbus-lib (>= 1.10.6) evolution-data-server (>= 3.2.3+git0+a9e4e74ec4) gconf (>= 3.2.6) glib-2.0 (>= 2.46.2) glibc (>= 2.22) libcap (>= 2.24) libecal (>= 3.2.3+git0+a9e4e74ec4) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libffi (>= 3.2.1) libical (>= 2.0.0) liblzma (>= 5.2.2) libsoup-2.4 (>= 2.52.2) libsqlite3 (>= 3.10.2) libsystemd (>= 228+git0+dd050decb6) libxml2 (>= 2.9.3) nspr (>= 4.11) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 200081
+PKGSIZE = 200149
 FILES = /usr/libexec/e-calendar-factory /usr/share/dbus-1/services/*.Calendar.service /usr/lib/libedata-cal-*.so.* /usr/lib/evolution-data-server-*/extensions/libecal*.so
 FILELIST = /usr/lib/libedata-cal-1.2.so.13 /usr/lib/libedata-cal-1.2.so.13.0.0 /usr/libexec/e-calendar-factory /usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service

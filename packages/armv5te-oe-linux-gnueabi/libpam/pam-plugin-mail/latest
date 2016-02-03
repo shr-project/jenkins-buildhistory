@@ -1,9 +1,9 @@
 PV = 1.2.1
 PR = r5
-PKGR = r5.8
+PKGR = r5.10
 RPROVIDES = pam-plugin-mail-suffix
 RDEPENDS = glibc (>= 2.22) libpam (>= 1.2.1) libpam-suffix
 RRECOMMENDS = 
-PKGSIZE = 7184
+PKGSIZE = 7188
 FILES = /lib/security/pam_mail.so
 FILELIST = /lib/security/pam_mail.so

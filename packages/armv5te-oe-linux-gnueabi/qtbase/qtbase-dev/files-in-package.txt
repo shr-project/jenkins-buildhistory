@@ -2300,7 +2300,7 @@ drwxr-xr-x root       root               60 ./usr/include/qt5/QtXml/5.6.0/QtXml/
 -rw-r--r-- root       root             1898 ./usr/include/qt5/QtXml/qtxmlglobal.h
 -rw-r--r-- root       root              192 ./usr/include/qt5/QtXml/qtxmlversion.h
 -rw-r--r-- root       root            14412 ./usr/include/qt5/QtXml/qxml.h
-drwxr-xr-x root       root             1000 ./usr/lib
+drwxr-xr-x root       root             1020 ./usr/lib
 drwxr-xr-x root       root              300 ./usr/lib/cmake
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5
 -rw-r--r-- root       root             1480 ./usr/lib/cmake/Qt5/Qt5Config.cmake
@@ -2373,50 +2373,51 @@ drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5Xml
 -rw-r--r-- root       root              307 ./usr/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake
 -rw-r--r-- root       root              633 ./usr/lib/libQt5Bootstrap.la
 -rw-r--r-- root       root             1092 ./usr/lib/libQt5Bootstrap.prl
--rw-r--r-- root       root              676 ./usr/lib/libQt5Concurrent.la
--rw-r--r-- root       root             1112 ./usr/lib/libQt5Concurrent.prl
+-rw-r--r-- root       root              796 ./usr/lib/libQt5BootstrapDBus.la
+-rw-r--r-- root       root             1260 ./usr/lib/libQt5BootstrapDBus.prl
+-rw-r--r-- root       root              811 ./usr/lib/libQt5Concurrent.la
+-rw-r--r-- root       root             1247 ./usr/lib/libQt5Concurrent.prl
 lrwxrwxrwx root       root               25 ./usr/lib/libQt5Concurrent.so -> libQt5Concurrent.so.5.6.0
 -rw-r--r-- root       root              623 ./usr/lib/libQt5Core.la
 -rw-r--r-- root       root             1108 ./usr/lib/libQt5Core.prl
 lrwxrwxrwx root       root               19 ./usr/lib/libQt5Core.so -> libQt5Core.so.5.6.0
--rw-r--r-- root       root              634 ./usr/lib/libQt5DBus.la
--rw-r--r-- root       root             1102 ./usr/lib/libQt5DBus.prl
+-rw-r--r-- root       root              769 ./usr/lib/libQt5DBus.la
+-rw-r--r-- root       root             1237 ./usr/lib/libQt5DBus.prl
 lrwxrwxrwx root       root               19 ./usr/lib/libQt5DBus.so -> libQt5DBus.so.5.6.0
--rw-r--r-- root       root              879 ./usr/lib/libQt5EglDeviceIntegration.la
--rw-r--r-- root       root             1334 ./usr/lib/libQt5EglDeviceIntegration.prl
+-rw-r--r-- root       root             1014 ./usr/lib/libQt5EglDeviceIntegration.la
+-rw-r--r-- root       root             1469 ./usr/lib/libQt5EglDeviceIntegration.prl
 lrwxrwxrwx root       root               35 ./usr/lib/libQt5EglDeviceIntegration.so -> libQt5EglDeviceIntegration.so.5.6.0
--rw-r--r-- root       root              627 ./usr/lib/libQt5Gui.la
--rw-r--r-- root       root             1143 ./usr/lib/libQt5Gui.prl
+-rw-r--r-- root       root              762 ./usr/lib/libQt5Gui.la
+-rw-r--r-- root       root             1278 ./usr/lib/libQt5Gui.prl
 lrwxrwxrwx root       root               18 ./usr/lib/libQt5Gui.so -> libQt5Gui.so.5.6.0
--rw-r--r-- root       root              655 ./usr/lib/libQt5Network.la
--rw-r--r-- root       root             1096 ./usr/lib/libQt5Network.prl
+-rw-r--r-- root       root              790 ./usr/lib/libQt5Network.la
+-rw-r--r-- root       root             1231 ./usr/lib/libQt5Network.prl
 lrwxrwxrwx root       root               22 ./usr/lib/libQt5Network.so -> libQt5Network.so.5.6.0
--rw-r--r-- root       root              670 ./usr/lib/libQt5OpenGL.la
--rw-r--r-- root       root             1143 ./usr/lib/libQt5OpenGL.prl
+-rw-r--r-- root       root              805 ./usr/lib/libQt5OpenGL.la
+-rw-r--r-- root       root             1278 ./usr/lib/libQt5OpenGL.prl
 lrwxrwxrwx root       root               21 ./usr/lib/libQt5OpenGL.so -> libQt5OpenGL.so.5.6.0
--rw-r--r-- root       root              617 ./usr/lib/libQt5OpenGLExtensions.la
--rw-r--r-- root       root             1164 ./usr/lib/libQt5OpenGLExtensions.prl
--rw-r--r-- root       root              648 ./usr/lib/libQt5PlatformSupport.la
--rw-r--r-- root       root             1346 ./usr/lib/libQt5PlatformSupport.prl
--rw-r--r-- root       root              712 ./usr/lib/libQt5PrintSupport.la
--rw-r--r-- root       root             1144 ./usr/lib/libQt5PrintSupport.prl
+-rw-r--r-- root       root              752 ./usr/lib/libQt5OpenGLExtensions.la
+-rw-r--r-- root       root             1299 ./usr/lib/libQt5OpenGLExtensions.prl
+-rw-r--r-- root       root              783 ./usr/lib/libQt5PlatformSupport.la
+-rw-r--r-- root       root             1481 ./usr/lib/libQt5PlatformSupport.prl
+-rw-r--r-- root       root              847 ./usr/lib/libQt5PrintSupport.la
+-rw-r--r-- root       root             1279 ./usr/lib/libQt5PrintSupport.prl
 lrwxrwxrwx root       root               27 ./usr/lib/libQt5PrintSupport.so -> libQt5PrintSupport.so.5.6.0
--rw-r--r-- root       root              637 ./usr/lib/libQt5Sql.la
--rw-r--r-- root       root             1094 ./usr/lib/libQt5Sql.prl
+-rw-r--r-- root       root              772 ./usr/lib/libQt5Sql.la
+-rw-r--r-- root       root             1229 ./usr/lib/libQt5Sql.prl
 lrwxrwxrwx root       root               18 ./usr/lib/libQt5Sql.so -> libQt5Sql.so.5.6.0
--rw-r--r-- root       root              634 ./usr/lib/libQt5Test.la
--rw-r--r-- root       root             1100 ./usr/lib/libQt5Test.prl
+-rw-r--r-- root       root              769 ./usr/lib/libQt5Test.la
+-rw-r--r-- root       root             1235 ./usr/lib/libQt5Test.prl
 lrwxrwxrwx root       root               19 ./usr/lib/libQt5Test.so -> libQt5Test.so.5.6.0
--rw-r--r-- root       root              664 ./usr/lib/libQt5Widgets.la
--rw-r--r-- root       root             1134 ./usr/lib/libQt5Widgets.prl
+-rw-r--r-- root       root              799 ./usr/lib/libQt5Widgets.la
+-rw-r--r-- root       root             1269 ./usr/lib/libQt5Widgets.prl
 lrwxrwxrwx root       root               22 ./usr/lib/libQt5Widgets.so -> libQt5Widgets.so.5.6.0
--rw-r--r-- root       root              982 ./usr/lib/libQt5XcbQpa.la
--rw-r--r-- root       root             1538 ./usr/lib/libQt5XcbQpa.prl
+-rw-r--r-- root       root             1117 ./usr/lib/libQt5XcbQpa.la
+-rw-r--r-- root       root             1673 ./usr/lib/libQt5XcbQpa.prl
 lrwxrwxrwx root       root               21 ./usr/lib/libQt5XcbQpa.so -> libQt5XcbQpa.so.5.6.0
--rw-r--r-- root       root              627 ./usr/lib/libQt5Xml.la
--rw-r--r-- root       root             1084 ./usr/lib/libQt5Xml.prl
+-rw-r--r-- root       root              762 ./usr/lib/libQt5Xml.la
+-rw-r--r-- root       root             1219 ./usr/lib/libQt5Xml.prl
 lrwxrwxrwx root       root               18 ./usr/lib/libQt5Xml.so -> libQt5Xml.so.5.6.0
--rw-r--r-- root       root              880 ./usr/lib/libqtpcre.prl
 drwxr-xr-x root       root              360 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              325 ./usr/lib/pkgconfig/Qt5Bootstrap.pc
 -rw-r--r-- root       root              357 ./usr/lib/pkgconfig/Qt5Concurrent.pc

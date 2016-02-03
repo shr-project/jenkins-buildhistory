@@ -1,11 +1,11 @@
 PE = 2
 PV = 0.0.0+svnr82070
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = libengrave-tests
 RPROVIDES = 0.0.0+svnr82070 engrave-tests
 RDEPENDS = ecore (>= 1.15.1) ecore-evas (>= 1.15.1) engrave (>= 0.0.0+svnr82070) evas (>= 1.15.1) glibc (>= 2.22)
 RRECOMMENDS = 
-PKGSIZE = 10360
+PKGSIZE = 10396
 FILES = /usr/bin/engrave /usr/bin/*_* /usr/share/engrave
 FILELIST = /usr/bin/engrave_canvas_test /usr/bin/engrave_test

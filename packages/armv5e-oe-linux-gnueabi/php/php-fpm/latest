@@ -1,8 +1,8 @@
 PV = 5.6.17
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2e) libmcrypt (>= 2.5.8) libmysqlclient (>= 5.5.46) libsqlite3 (>= 3.10.2) libssl (>= 1.0.2e) libxml2 (>= 2.9.3) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.22) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2f) libmcrypt (>= 2.5.8) libmysqlclient (>= 5.5.46) libsqlite3 (>= 3.10.2) libssl (>= 1.0.2f) libxml2 (>= 2.9.3) zlib (>= 1.2.8)
 RRECOMMENDS = update-rc.d
 PKGSIZE = 9834018
 FILES = /usr/sbin/php-fpm /etc/php-fpm.conf /usr/share/fpm /etc/init.d/php-fpm /lib/systemd/system/php-fpm.service

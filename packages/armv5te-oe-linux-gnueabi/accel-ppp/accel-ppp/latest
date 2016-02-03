@@ -1,9 +1,9 @@
 PV = 1.7.3+git
 PR = r1
-PKGR = r1.6
+PKGR = r1.7
 RPROVIDES = 
-RDEPENDS = accel-ppp-libs (>= 1.7.3+git) glibc (>= 2.22) libcrypto (>= 1.0.2e) libpcre (>= 8.38) libssl (>= 1.0.2e)
+RDEPENDS = accel-ppp-libs (>= 1.7.3+git) glibc (>= 2.22) libcrypto (>= 1.0.2f) libpcre (>= 8.38) libssl (>= 1.0.2f)
 RRECOMMENDS = 
-PKGSIZE = 98354
+PKGSIZE = 98362
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/accel-ppp /usr/lib/accel-ppp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/accel-ppp.conf.dist /usr/sbin/accel-pppd /usr/share/accel-ppp/l2tp/dictionary /usr/share/accel-ppp/l2tp/dictionary.rfc2661 /usr/share/accel-ppp/l2tp/dictionary.rfc3931

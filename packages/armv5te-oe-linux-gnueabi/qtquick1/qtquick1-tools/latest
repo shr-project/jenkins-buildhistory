@@ -1,11 +1,11 @@
 PV = 5.5.99+5.6.0-alpha1+gitAUTOINC+b0382acf65
 PR = r0
 PKGV = 5.5.99+5.6.0-alpha1+git0+b0382acf65
-PKGR = r0.7
+PKGR = r0.9
 PKG = libqt5declarative-tools
 RPROVIDES = 5.5.99+5.6.0-alpha1+git0+b0382acf65 qtquick1-tools
 RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) qtbase (>= 5.5.99+5.6.0-alpha1+git0+f7f4dde80e) qtquick1 (>= 5.5.99+5.6.0-alpha1+git0+b0382acf65)
 RRECOMMENDS = 
-PKGSIZE = 282420
+PKGSIZE = 290092
 FILES = /usr/bin/qt5/*
 FILELIST = /usr/bin/qt5/qml1plugindump /usr/bin/qt5/qmlviewer
