@@ -1,10 +1,10 @@
 PV = 0.2.13
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 PKG = libevtlog-staticdev
 RPROVIDES = 0.2.13 eventlog-staticdev
-RDEPENDS = eventlog-dev (= 0.2.13-r0.5)
+RDEPENDS = eventlog-dev (= 0.2.13-r0.6)
 RRECOMMENDS = 
-PKGSIZE = 64266
+PKGSIZE = 64202
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/eventlog/*.a
 FILELIST = /usr/lib/libevtlog.a

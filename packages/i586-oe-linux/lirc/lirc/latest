@@ -1,9 +1,9 @@
 PV = 0.9.2
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = bash glibc (>= 2.22) libsystemd (>= 228+git0+dd050decb6) libx11 (>= 1.6.3) lirc-python
 RRECOMMENDS = lirc-exec lirc-plugins
-PKGSIZE = 532339
+PKGSIZE = 532195
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lirc /usr/lib/lirc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/lircexec.init /lib/systemd/system/lircd.service /lib/systemd/system/lircd.socket /usr/lib/tmpfiles.d/lirc.conf /lib/systemd/system/lircd.service /lib/systemd/system/lircmd.service
 FILELIST = /etc/lirc/lirc_options.conf /etc/lirc/lircd.conf /etc/lirc/lircd.conf.d/README.conf.d /etc/lirc/lircmd.conf /lib/systemd/system/lircd.service /lib/systemd/system/lircd.socket /lib/systemd/system/lircexec.init /lib/systemd/system/lircmd.service /usr/bin/ircat /usr/bin/irdb-get /usr/bin/irpty /usr/bin/irrecord /usr/bin/irsend /usr/bin/irsimreceive /usr/bin/irsimsend /usr/bin/irtestcase /usr/bin/irw /usr/bin/irxevent /usr/bin/lirc-config-tool /usr/bin/lirc-lsremotes /usr/bin/lirc-setup /usr/bin/lircrcd /usr/bin/mode2 /usr/bin/pronto2lirc /usr/bin/xmode2 /usr/lib/liblirc.so.0 /usr/lib/liblirc.so.0.0.0 /usr/lib/liblirc_client.so.0 /usr/lib/liblirc_client.so.0.3.0 /usr/lib/liblirc_driver.so.0 /usr/lib/liblirc_driver.so.0.0.0 /usr/lib/tmpfiles.d/lirc.conf /usr/sbin/lirc-lsplugins /usr/sbin/lircd /usr/sbin/lircmd

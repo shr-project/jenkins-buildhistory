@@ -1,9 +1,9 @@
 PV = 1.2.1
 PR = r5
-PKGR = r5.5
+PKGR = r5.6
 RPROVIDES = pam-plugin-time-suffix
 RDEPENDS = glibc (>= 2.22) libpam (>= 1.2.1) libpam-suffix
 RRECOMMENDS = 
-PKGSIZE = 10460
+PKGSIZE = 10428
 FILES = /lib/security/pam_time.so
 FILELIST = /lib/security/pam_time.so

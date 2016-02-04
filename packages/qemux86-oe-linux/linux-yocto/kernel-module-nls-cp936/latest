@@ -1,10 +1,10 @@
-PV = 4.4+gitAUTOINC+ad9d3f0130_2dadc3524f
+PV = 4.4+gitAUTOINC+dc760c3189_57af322eec
 PR = r0
-PKGV = 4.4+git0+ad9d3f0130_2dadc3524f
-PKGR = r0.10
+PKGV = 4.4+git1+dc760c3189_57af322eec
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.1.15-yocto-standard
+RDEPENDS = kernel-4.1.17-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 130176
-FILES = /lib/modules/4.1.15-yocto-standard/kernel/fs/nls/nls_cp936.ko /etc/modules-load.d/nls_cp936.conf /etc/modprobe.d/nls_cp936.conf
-FILELIST = /lib/modules/4.1.15-yocto-standard/kernel/fs/nls/nls_cp936.ko
+FILES = /lib/modules/4.1.17-yocto-standard/kernel/fs/nls/nls_cp936.ko /etc/modules-load.d/nls_cp936.conf /etc/modprobe.d/nls_cp936.conf
+FILELIST = /lib/modules/4.1.17-yocto-standard/kernel/fs/nls/nls_cp936.ko

@@ -20,24 +20,24 @@ drwxr-xr-x root       root               60 ./run/openct
 -rw-r--r-- root       root                0 ./run/openct/status
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root             8992 ./usr/bin/openct-tool
+-rwxr-xr-x root       root             8980 ./usr/bin/openct-tool
 drwxr-xr-x root       root              140 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/ctapi
--rwxr-xr-x root       root            11352 ./usr/lib/ctapi/libopenctapi.so
+-rwxr-xr-x root       root            11356 ./usr/lib/ctapi/libopenctapi.so
 lrwxrwxrwx root       root               18 ./usr/lib/libopenct.so.1 -> libopenct.so.1.0.0
--rwxr-xr-x root       root            35380 ./usr/lib/libopenct.so.1.0.0
--rwxr-xr-x root       root             6660 ./usr/lib/openct-ifd.so
+-rwxr-xr-x root       root            35348 ./usr/lib/libopenct.so.1.0.0
+-rwxr-xr-x root       root             6640 ./usr/lib/openct-ifd.so
 drwxr-xr-x root       root               60 ./usr/lib/pcsc
 drwxr-xr-x root       root               60 ./usr/lib/pcsc/drivers
 drwxr-xr-x root       root               60 ./usr/lib/pcsc/drivers/openct-ifd.bundle
 drwxr-xr-x root       root              100 ./usr/lib/pcsc/drivers/openct-ifd.bundle/Contents
 -rw-r--r-- root       root             4964 ./usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/Info.plist
 drwxr-xr-x root       root               60 ./usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/Linux
--rwxr-xr-x root       root             6660 ./usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/Linux/openct-ifd.so
+-rwxr-xr-x root       root             6640 ./usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/Linux/openct-ifd.so
 -rw-r--r-- root       root                9 ./usr/lib/pcsc/drivers/openct-ifd.bundle/Contents/PkgInfo
 drwxr-xr-x root       root              100 ./usr/sbin
--rwxr-xr-x root       root           233456 ./usr/sbin/ifdhandler
--rwxr-xr-x root       root           233008 ./usr/sbin/ifdproxy
--rwxr-xr-x root       root           225620 ./usr/sbin/openct-control
+-rwxr-xr-x root       root           233392 ./usr/sbin/ifdhandler
+-rwxr-xr-x root       root           232912 ./usr/sbin/ifdproxy
+-rwxr-xr-x root       root           225556 ./usr/sbin/openct-control
 drwxr-xr-x root       root               60 ./var
 lrwxrwxrwx root       root                4 ./var/run -> /run

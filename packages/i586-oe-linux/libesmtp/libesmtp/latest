@@ -1,10 +1,10 @@
 PV = 1.0.6
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 PKG = libesmtp6
 RPROVIDES = 1.0.6 libesmtp
-RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2e) libssl (>= 1.0.2e)
+RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2f) libssl (>= 1.0.2f)
 RRECOMMENDS = 
-PKGSIZE = 101113
+PKGSIZE = 101081
 FILES = /usr/lib/lib*.so.* /usr/lib/esmtp-plugins/*.so
 FILELIST = /usr/lib/esmtp-plugins/sasl-cram-md5.so /usr/lib/esmtp-plugins/sasl-login.so /usr/lib/esmtp-plugins/sasl-plain.so /usr/lib/libesmtp.so.6 /usr/lib/libesmtp.so.6.1.6

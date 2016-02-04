@@ -1,10 +1,10 @@
 PV = master+gitAUTOINC+da9e19e69b
 PR = r0
 PKGV = master+git0+da9e19e69b
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) kernel-module-netmap
 RRECOMMENDS = kernel-module-netmap
-PKGSIZE = 141840
+PKGSIZE = 141756
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/netmap /usr/lib/netmap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/bin
 FILELIST = /usr/bin/bridge /usr/bin/pkt-gen /usr/bin/pkt-gen-b /usr/bin/test_select /usr/bin/testmmap /usr/bin/vale-ctl

@@ -1,9 +1,9 @@
 PV = 1.4.20.3+svn502
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = kernel-4.1.15-yocto-standard
+RDEPENDS = kernel-4.1.17-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 123708
-FILES = /lib/modules/4.1.15-yocto-standard/kernel/iscsi/iscsi_trgt.ko /etc/modules-load.d/iscsi_trgt.conf /etc/modprobe.d/iscsi_trgt.conf
-FILELIST = /lib/modules/4.1.15-yocto-standard/kernel/iscsi/iscsi_trgt.ko
+PKGSIZE = 123596
+FILES = /lib/modules/4.1.17-yocto-standard/kernel/iscsi/iscsi_trgt.ko /etc/modules-load.d/iscsi_trgt.conf /etc/modprobe.d/iscsi_trgt.conf
+FILELIST = /lib/modules/4.1.17-yocto-standard/kernel/iscsi/iscsi_trgt.ko

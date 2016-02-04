@@ -1,10 +1,10 @@
-PV = 4.4+gitAUTOINC+ad9d3f0130_2dadc3524f
+PV = 4.4+gitAUTOINC+dc760c3189_57af322eec
 PR = r0
-PKGV = 4.4+git0+ad9d3f0130_2dadc3524f
-PKGR = r0.10
+PKGV = 4.4+git1+dc760c3189_57af322eec
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.1.15-yocto-standard kernel-module-ac97-bus kernel-module-snd-ac97-codec
+RDEPENDS = kernel-4.1.17-yocto-standard kernel-module-ac97-bus kernel-module-snd-ac97-codec
 RRECOMMENDS = 
-PKGSIZE = 41168
-FILES = /lib/modules/4.1.15-yocto-standard/kernel/sound/pci/snd-intel8x0.ko /etc/modules-load.d/snd-intel8x0.conf /etc/modprobe.d/snd-intel8x0.conf
-FILELIST = /lib/modules/4.1.15-yocto-standard/kernel/sound/pci/snd-intel8x0.ko
+PKGSIZE = 41040
+FILES = /lib/modules/4.1.17-yocto-standard/kernel/sound/pci/snd-intel8x0.ko /etc/modules-load.d/snd-intel8x0.conf /etc/modprobe.d/snd-intel8x0.conf
+FILELIST = /lib/modules/4.1.17-yocto-standard/kernel/sound/pci/snd-intel8x0.ko

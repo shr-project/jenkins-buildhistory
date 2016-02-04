@@ -1,10 +1,10 @@
 PV = 1.16
 PR = r3
-PKGR = r3.5
+PKGR = r3.6
 PKG = libpopt-staticdev
 RPROVIDES = 1.16 popt-staticdev
-RDEPENDS = popt-dev (= 1.16-r3.5)
+RDEPENDS = popt-dev (= 1.16-r3.6)
 RRECOMMENDS = 
-PKGSIZE = 188600
+PKGSIZE = 188576
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/popt/*.a
 FILELIST = /usr/lib/libpopt.a

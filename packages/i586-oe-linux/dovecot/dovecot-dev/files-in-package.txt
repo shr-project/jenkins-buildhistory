@@ -511,7 +511,7 @@ drwxr-xr-x root       root             1440 ./usr/lib/dovecot
 -rwxr-xr-x root       root              972 ./usr/lib/dovecot/lib01_acl_plugin.la
 -rwxr-xr-x root       root            89464 ./usr/lib/dovecot/lib01_acl_plugin.so
 -rwxr-xr-x root       root             1045 ./usr/lib/dovecot/lib02_imap_acl_plugin.la
--rwxr-xr-x root       root            16980 ./usr/lib/dovecot/lib02_imap_acl_plugin.so
+-rwxr-xr-x root       root            16948 ./usr/lib/dovecot/lib02_imap_acl_plugin.so
 -rwxr-xr-x root       root             1035 ./usr/lib/dovecot/lib02_lazy_expunge_plugin.la
 -rwxr-xr-x root       root            13656 ./usr/lib/dovecot/lib02_lazy_expunge_plugin.so
 -rwxr-xr-x root       root             1049 ./usr/lib/dovecot/lib05_pop3_migration_plugin.la
@@ -525,7 +525,7 @@ drwxr-xr-x root       root             1440 ./usr/lib/dovecot
 -rwxr-xr-x root       root              986 ./usr/lib/dovecot/lib10_quota_plugin.la
 -rwxr-xr-x root       root            81272 ./usr/lib/dovecot/lib10_quota_plugin.so
 -rwxr-xr-x root       root             1061 ./usr/lib/dovecot/lib11_imap_quota_plugin.la
--rwxr-xr-x root       root            10172 ./usr/lib/dovecot/lib11_imap_quota_plugin.so
+-rwxr-xr-x root       root            10176 ./usr/lib/dovecot/lib11_imap_quota_plugin.so
 -rwxr-xr-x root       root             1026 ./usr/lib/dovecot/lib11_trash_plugin.la
 -rwxr-xr-x root       root            10944 ./usr/lib/dovecot/lib11_trash_plugin.so
 -rwxr-xr-x root       root              993 ./usr/lib/dovecot/lib15_notify_plugin.la
@@ -537,15 +537,15 @@ drwxr-xr-x root       root             1440 ./usr/lib/dovecot
 -rwxr-xr-x root       root             1000 ./usr/lib/dovecot/lib20_fts_plugin.la
 -rwxr-xr-x root       root           245728 ./usr/lib/dovecot/lib20_fts_plugin.so
 -rwxr-xr-x root       root             1021 ./usr/lib/dovecot/lib20_listescape_plugin.la
--rwxr-xr-x root       root             4084 ./usr/lib/dovecot/lib20_listescape_plugin.so
+-rwxr-xr-x root       root             4052 ./usr/lib/dovecot/lib20_listescape_plugin.so
 -rwxr-xr-x root       root             1048 ./usr/lib/dovecot/lib20_mail_log_plugin.la
 -rwxr-xr-x root       root            12856 ./usr/lib/dovecot/lib20_mail_log_plugin.so
 -rwxr-xr-x root       root             1042 ./usr/lib/dovecot/lib20_mailbox_alias_plugin.la
--rwxr-xr-x root       root            10920 ./usr/lib/dovecot/lib20_mailbox_alias_plugin.so
+-rwxr-xr-x root       root            10888 ./usr/lib/dovecot/lib20_mailbox_alias_plugin.so
 -rwxr-xr-x root       root             1111 ./usr/lib/dovecot/lib20_push_notification_plugin.la
 -rwxr-xr-x root       root            44428 ./usr/lib/dovecot/lib20_push_notification_plugin.so
 -rwxr-xr-x root       root             1028 ./usr/lib/dovecot/lib20_quota_clone_plugin.la
--rwxr-xr-x root       root             7920 ./usr/lib/dovecot/lib20_quota_clone_plugin.so
+-rwxr-xr-x root       root             7888 ./usr/lib/dovecot/lib20_quota_clone_plugin.so
 -rwxr-xr-x root       root             1069 ./usr/lib/dovecot/lib20_replication_plugin.la
 -rwxr-xr-x root       root            11824 ./usr/lib/dovecot/lib20_replication_plugin.so
 -rwxr-xr-x root       root             1000 ./usr/lib/dovecot/lib20_virtual_plugin.la
@@ -555,11 +555,11 @@ drwxr-xr-x root       root             1440 ./usr/lib/dovecot
 -rwxr-xr-x root       root             1080 ./usr/lib/dovecot/lib21_fts_squat_plugin.la
 -rwxr-xr-x root       root            63940 ./usr/lib/dovecot/lib21_fts_squat_plugin.so
 -rwxr-xr-x root       root             1068 ./usr/lib/dovecot/lib30_imap_zlib_plugin.la
--rwxr-xr-x root       root            36868 ./usr/lib/dovecot/lib30_imap_zlib_plugin.so
+-rwxr-xr-x root       root            36836 ./usr/lib/dovecot/lib30_imap_zlib_plugin.so
 -rwxr-xr-x root       root              986 ./usr/lib/dovecot/lib90_stats_plugin.la
 -rwxr-xr-x root       root            23128 ./usr/lib/dovecot/lib90_stats_plugin.so
 -rwxr-xr-x root       root             1061 ./usr/lib/dovecot/lib95_imap_stats_plugin.la
--rwxr-xr-x root       root             7260 ./usr/lib/dovecot/lib95_imap_stats_plugin.so
+-rwxr-xr-x root       root             7264 ./usr/lib/dovecot/lib95_imap_stats_plugin.so
 -rwxr-xr-x root       root             1114 ./usr/lib/dovecot/libdovecot-compression.la
 lrwxrwxrwx root       root               31 ./usr/lib/dovecot/libdovecot-compression.so -> libdovecot-compression.so.0.0.0
 -rwxr-xr-x root       root             1058 ./usr/lib/dovecot/libdovecot-dsync.la
@@ -575,7 +575,7 @@ lrwxrwxrwx root       root               27 ./usr/lib/dovecot/libdovecot-storage
 -rwxr-xr-x root       root              944 ./usr/lib/dovecot/libdovecot.la
 lrwxrwxrwx root       root               19 ./usr/lib/dovecot/libdovecot.so -> libdovecot.so.0.0.0
 -rwxr-xr-x root       root             1093 ./usr/lib/dovecot/libfs_compress.la
--rwxr-xr-x root       root            12744 ./usr/lib/dovecot/libfs_compress.so
+-rwxr-xr-x root       root            12712 ./usr/lib/dovecot/libfs_compress.so
 -rwxr-xr-x root       root             1036 ./usr/lib/dovecot/libssl_iostream_openssl.la
 -rwxr-xr-x root       root            42112 ./usr/lib/dovecot/libssl_iostream_openssl.so
 drwxr-xr-x root       root               60 ./usr/share
