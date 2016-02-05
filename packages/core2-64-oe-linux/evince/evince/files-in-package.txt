@@ -6,8 +6,8 @@ drwxr-xr-x root       root               80 ./etc/gconf/schemas
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
 -rwxr-xr-x root       root           403832 ./usr/bin/evince
--rwxr-xr-x root       root            41872 ./usr/bin/evince-previewer
--rwxr-xr-x root       root            11376 ./usr/bin/evince-thumbnailer
+-rwxr-xr-x root       root            41984 ./usr/bin/evince-previewer
+-rwxr-xr-x root       root            11392 ./usr/bin/evince-thumbnailer
 drwxr-xr-x root       root              140 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/evince
 drwxr-xr-x root       root               60 ./usr/lib/evince/3
@@ -15,7 +15,7 @@ drwxr-xr-x root       root              200 ./usr/lib/evince/3/backends
 -rw-r--r-- root       root             3486 ./usr/lib/evince/3/backends/comicsdocument.evince-backend
 -rwxr-xr-x root       root            21184 ./usr/lib/evince/3/backends/libcomicsdocument.so
 -rwxr-xr-x root       root            71472 ./usr/lib/evince/3/backends/libpdfdocument.so
--rwxr-xr-x root       root             9576 ./usr/lib/evince/3/backends/libpixbufdocument.so
+-rwxr-xr-x root       root             9560 ./usr/lib/evince/3/backends/libpixbufdocument.so
 -rwxr-xr-x root       root            42080 ./usr/lib/evince/3/backends/libtiffdocument.so
 -rw-r--r-- root       root             3535 ./usr/lib/evince/3/backends/pdfdocument.evince-backend
 -rw-r--r-- root       root              409 ./usr/lib/evince/3/backends/pixbufdocument.evince-backend
@@ -23,9 +23,9 @@ drwxr-xr-x root       root              200 ./usr/lib/evince/3/backends
 lrwxrwxrwx root       root               22 ./usr/lib/libevdocument.so.3 -> libevdocument.so.3.0.0
 -rwxr-xr-x root       root           212096 ./usr/lib/libevdocument.so.3.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libevview.so.3 -> libevview.so.3.0.0
--rwxr-xr-x root       root           269472 ./usr/lib/libevview.so.3.0.0
+-rwxr-xr-x root       root           269216 ./usr/lib/libevview.so.3.0.0
 drwxr-xr-x root       root               80 ./usr/libexec
--rwxr-xr-x root       root            12880 ./usr/libexec/evince-convert-metadata
+-rwxr-xr-x root       root            13016 ./usr/libexec/evince-convert-metadata
 -rwxr-xr-x root       root            15552 ./usr/libexec/evinced
 drwxr-xr-x root       root              180 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/GConf

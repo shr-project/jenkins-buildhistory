@@ -1,9 +1,9 @@
 PV = 4.2.4
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2e) libgcc (>= 5.3.0) libssl (>= 1.0.2e) libstdc++ (>= 5.3.0)
+RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2f) libgcc (>= 5.3.0) libssl (>= 1.0.2f) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
-PKGSIZE = 10151096
+PKGSIZE = 10151128
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/nodejs /usr/lib/nodejs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/node

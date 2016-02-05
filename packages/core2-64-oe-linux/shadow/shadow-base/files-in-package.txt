@@ -1,10 +1,10 @@
 drwxr-xr-x root       root               80 ./bin
--rwxr-xr-x root       root            64000 ./bin/login.shadow
--rwsr-xr-x root       root            52024 ./bin/su.shadow
+-rwxr-xr-x root       root            64096 ./bin/login.shadow
+-rwsr-xr-x root       root            52152 ./bin/su.shadow
 drwxr-xr-x root       root               60 ./etc
 -rw-r--r-- root       root            10929 ./etc/login.defs
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root             9944 ./usr/bin/groups.shadow
+-rwxr-xr-x root       root            10032 ./usr/bin/groups.shadow
 -rwsr-xr-x root       root            33400 ./usr/bin/newgrp.shadow
 lrwxrwxrwx root       root               13 ./usr/bin/sg -> newgrp.shadow

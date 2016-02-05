@@ -1,9 +1,9 @@
 PV = 0.22.1
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) libffi (>= 3.2.1) libtasn1 (>= 4.7)
 RRECOMMENDS = 
-PKGSIZE = 628160
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/p11-kit /usr/lib/p11-kit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/pkcs11/pkcs11.conf.example /usr/bin/p11-kit /usr/bin/trust /usr/lib/libp11-kit.so.0 /usr/lib/libp11-kit.so.0.1.0 /usr/lib/p11-kit/p11-kit-remote /usr/lib/p11-kit/trust-extract-compat /usr/share/p11-kit/modules/p11-kit-trust.module
+PKGSIZE = 871079
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/p11-kit /usr/lib/p11-kit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/p11-kit-proxy.so /usr/lib/pkcs11/*.so /usr/lib/pkcs11/*.la
+FILELIST = /etc/pkcs11/pkcs11.conf.example /usr/bin/p11-kit /usr/bin/trust /usr/lib/libp11-kit.so.0 /usr/lib/libp11-kit.so.0.1.0 /usr/lib/p11-kit-proxy.so /usr/lib/p11-kit/p11-kit-remote /usr/lib/p11-kit/trust-extract-compat /usr/lib/pkcs11/p11-kit-trust.la /usr/lib/pkcs11/p11-kit-trust.so /usr/share/p11-kit/modules/p11-kit-trust.module

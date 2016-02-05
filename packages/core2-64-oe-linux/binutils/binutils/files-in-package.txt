@@ -1,28 +1,28 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              400 ./usr/bin
 -rwxr-xr-x root       root            28352 ./usr/bin/x86_64-oe-linux-addr2line
--rwxr-xr-x root       root            57088 ./usr/bin/x86_64-oe-linux-ar
--rwxr-xr-x root       root           357672 ./usr/bin/x86_64-oe-linux-as
--rwxr-xr-x root       root            23752 ./usr/bin/x86_64-oe-linux-c++filt
--rwxr-xr-x root       root          3119448 ./usr/bin/x86_64-oe-linux-dwp
--rwxr-xr-x root       root            28464 ./usr/bin/x86_64-oe-linux-elfedit
--rwxr-xr-x root       root            93096 ./usr/bin/x86_64-oe-linux-gprof
--rwxr-xr-x root       root          4863928 ./usr/bin/x86_64-oe-linux-ld
--rwxr-xr-x root       root           853240 ./usr/bin/x86_64-oe-linux-ld.bfd
--rwxr-xr-x root       root          4863928 ./usr/bin/x86_64-oe-linux-ld.gold
--rwxr-xr-x root       root            39088 ./usr/bin/x86_64-oe-linux-nm
--rwxr-xr-x root       root           217072 ./usr/bin/x86_64-oe-linux-objcopy
--rwxr-xr-x root       root           344744 ./usr/bin/x86_64-oe-linux-objdump
--rwxr-xr-x root       root            57064 ./usr/bin/x86_64-oe-linux-ranlib
--rwxr-xr-x root       root           464656 ./usr/bin/x86_64-oe-linux-readelf
+-rwxr-xr-x root       root            57216 ./usr/bin/x86_64-oe-linux-ar
+-rwxr-xr-x root       root           362320 ./usr/bin/x86_64-oe-linux-as
+-rwxr-xr-x root       root            23856 ./usr/bin/x86_64-oe-linux-c++filt
+-rwxr-xr-x root       root          3143192 ./usr/bin/x86_64-oe-linux-dwp
+-rwxr-xr-x root       root            28816 ./usr/bin/x86_64-oe-linux-elfedit
+-rwxr-xr-x root       root            93192 ./usr/bin/x86_64-oe-linux-gprof
+-rwxr-xr-x root       root          5149848 ./usr/bin/x86_64-oe-linux-ld
+-rwxr-xr-x root       root           975616 ./usr/bin/x86_64-oe-linux-ld.bfd
+-rwxr-xr-x root       root          5149848 ./usr/bin/x86_64-oe-linux-ld.gold
+-rwxr-xr-x root       root            39248 ./usr/bin/x86_64-oe-linux-nm
+-rwxr-xr-x root       root           221536 ./usr/bin/x86_64-oe-linux-objcopy
+-rwxr-xr-x root       root           349192 ./usr/bin/x86_64-oe-linux-objdump
+-rwxr-xr-x root       root            57224 ./usr/bin/x86_64-oe-linux-ranlib
+-rwxr-xr-x root       root           482768 ./usr/bin/x86_64-oe-linux-readelf
 -rwxr-xr-x root       root            28200 ./usr/bin/x86_64-oe-linux-size
--rwxr-xr-x root       root            28288 ./usr/bin/x86_64-oe-linux-strings
--rwxr-xr-x root       root           217080 ./usr/bin/x86_64-oe-linux-strip
+-rwxr-xr-x root       root            28320 ./usr/bin/x86_64-oe-linux-strings
+-rwxr-xr-x root       root           221544 ./usr/bin/x86_64-oe-linux-strip
 drwxr-xr-x root       root               80 ./usr/lib
--rwxr-xr-x root       root          1203416 ./usr/lib/libbfd-2.25.1.so
--rwxr-xr-x root       root          1601784 ./usr/lib/libopcodes-2.25.1.so
+-rwxr-xr-x root       root          1257664 ./usr/lib/libbfd-2.26.0.20160130.so
+-rwxr-xr-x root       root          1728520 ./usr/lib/libopcodes-2.26.0.20160130.so
 drwxr-xr-x root       root               60 ./usr/x86_64-oe-linux
-drwxr-xr-x root       root              240 ./usr/x86_64-oe-linux/bin
+drwxr-xr-x root       root              260 ./usr/x86_64-oe-linux/bin
 lrwxrwxrwx root       root               35 ./usr/x86_64-oe-linux/bin/ar -> ../../../usr/bin/x86_64-oe-linux-ar
 lrwxrwxrwx root       root               35 ./usr/x86_64-oe-linux/bin/as -> ../../../usr/bin/x86_64-oe-linux-as
 lrwxrwxrwx root       root               35 ./usr/x86_64-oe-linux/bin/ld -> ../../../usr/bin/x86_64-oe-linux-ld
@@ -32,4 +32,5 @@ lrwxrwxrwx root       root               35 ./usr/x86_64-oe-linux/bin/nm -> ../.
 lrwxrwxrwx root       root               40 ./usr/x86_64-oe-linux/bin/objcopy -> ../../../usr/bin/x86_64-oe-linux-objcopy
 lrwxrwxrwx root       root               40 ./usr/x86_64-oe-linux/bin/objdump -> ../../../usr/bin/x86_64-oe-linux-objdump
 lrwxrwxrwx root       root               39 ./usr/x86_64-oe-linux/bin/ranlib -> ../../../usr/bin/x86_64-oe-linux-ranlib
+lrwxrwxrwx root       root               40 ./usr/x86_64-oe-linux/bin/readelf -> ../../../usr/bin/x86_64-oe-linux-readelf
 lrwxrwxrwx root       root               38 ./usr/x86_64-oe-linux/bin/strip -> ../../../usr/bin/x86_64-oe-linux-strip
