@@ -1,10 +1,10 @@
 PV = 4.4+gitAUTOINC+dc760c3189_57af322eec
 PR = r0
 PKGV = 4.4+git1+dc760c3189_57af322eec
-PKGR = r0.1
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = kernel-4.4.0-yocto-standard kernel-module-x-tables
+RDEPENDS = kernel-4.1.17-yocto-standard kernel-module-x-tables
 RRECOMMENDS = 
-PKGSIZE = 5296
-FILES = /lib/modules/4.4.0-yocto-standard/kernel/net/bridge/netfilter/ebt_arp.ko /etc/modules-load.d/ebt_arp.conf /etc/modprobe.d/ebt_arp.conf
-FILELIST = /lib/modules/4.4.0-yocto-standard/kernel/net/bridge/netfilter/ebt_arp.ko
+PKGSIZE = 5136
+FILES = /lib/modules/4.1.17-yocto-standard/kernel/net/bridge/netfilter/ebt_arp.ko /etc/modules-load.d/ebt_arp.conf /etc/modprobe.d/ebt_arp.conf
+FILELIST = /lib/modules/4.1.17-yocto-standard/kernel/net/bridge/netfilter/ebt_arp.ko
