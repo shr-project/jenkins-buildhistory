@@ -1,9 +1,9 @@
 PV = 1.2.1
 PR = r5
-PKGR = r5.10
+PKGR = r5.11
 RPROVIDES = pam-plugin-stress-suffix
 RDEPENDS = glibc (>= 2.22) libpam (>= 1.2.1) libpam-suffix
 RRECOMMENDS = 
-PKGSIZE = 8580
+PKGSIZE = 8596
 FILES = /lib/security/pam_stress.so
 FILELIST = /lib/security/pam_stress.so

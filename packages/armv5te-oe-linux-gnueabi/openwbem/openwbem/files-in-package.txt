@@ -15,23 +15,23 @@ drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              280 ./usr/bin
 -rwxr-xr-x root       root             2365 ./usr/bin/ow-loadmof.sh
 -rwxr-xr-x root       root             1028 ./usr/bin/ow-rmmof.sh
--rwxr-xr-x root       root            16228 ./usr/bin/owcimindicationlistener
--rwxr-xr-x root       root            12572 ./usr/bin/owcreatenamespace
--rwxr-xr-x root       root            12572 ./usr/bin/owdeletenamespace
--rwxr-xr-x root       root            13212 ./usr/bin/owenumclasses
--rwxr-xr-x root       root            13148 ./usr/bin/owenumclassnames
+-rwxr-xr-x root       root            16232 ./usr/bin/owcimindicationlistener
+-rwxr-xr-x root       root            12576 ./usr/bin/owcreatenamespace
+-rwxr-xr-x root       root            12576 ./usr/bin/owdeletenamespace
+-rwxr-xr-x root       root            13216 ./usr/bin/owenumclasses
+-rwxr-xr-x root       root            13152 ./usr/bin/owenumclassnames
 -rwxr-xr-x root       root            14808 ./usr/bin/owenumnamespace
--rwxr-xr-x root       root            13028 ./usr/bin/owenumqualifiers
--rwxr-xr-x root       root            13916 ./usr/bin/owexecwql
--rwxr-xr-x root       root            12672 ./usr/bin/owgetclass
--rwxr-xr-x root       root            37004 ./usr/bin/owmofc
+-rwxr-xr-x root       root            13032 ./usr/bin/owenumqualifiers
+-rwxr-xr-x root       root            13920 ./usr/bin/owexecwql
+-rwxr-xr-x root       root            12676 ./usr/bin/owgetclass
+-rwxr-xr-x root       root            37008 ./usr/bin/owmofc
 drwxr-xr-x root       root             1140 ./usr/lib
 lrwxrwxrwx root       root               19 ./usr/lib/libcmpisupport.so -> libcmpisupport.so.4
 -rwxr-xr-x root       root           139992 ./usr/lib/libcmpisupport.so.4
 lrwxrwxrwx root       root               39 ./usr/lib/libnonauthenticatingauthentication.so -> libnonauthenticatingauthentication.so.4
--rwxr-xr-x root       root             6732 ./usr/lib/libnonauthenticatingauthentication.so.4
+-rwxr-xr-x root       root             6748 ./usr/lib/libnonauthenticatingauthentication.so.4
 lrwxrwxrwx root       root               18 ./usr/lib/libnpisupport.so -> libnpisupport.so.4
--rwxr-xr-x root       root            46300 ./usr/lib/libnpisupport.so.4
+-rwxr-xr-x root       root            46316 ./usr/lib/libnpisupport.so.4
 lrwxrwxrwx root       root               16 ./usr/lib/libopenwbem.so -> libopenwbem.so.4
 -rwxr-xr-x root       root          1195228 ./usr/lib/libopenwbem.so.4
 lrwxrwxrwx root       root               21 ./usr/lib/libowcimomcommon.so -> libowcimomcommon.so.4
@@ -39,31 +39,31 @@ lrwxrwxrwx root       root               21 ./usr/lib/libowcimomcommon.so -> lib
 lrwxrwxrwx root       root               24 ./usr/lib/libowcimxmllistener.so -> libowcimxmllistener.so.4
 -rwxr-xr-x root       root            44116 ./usr/lib/libowcimxmllistener.so.4
 lrwxrwxrwx root       root               16 ./usr/lib/libowclient.so -> libowclient.so.4
--rwxr-xr-x root       root           156872 ./usr/lib/libowclient.so.4
+-rwxr-xr-x root       root           156888 ./usr/lib/libowclient.so.4
 lrwxrwxrwx root       root               20 ./usr/lib/libowcppprovifc.so -> libowcppprovifc.so.4
 -rwxr-xr-x root       root           144900 ./usr/lib/libowcppprovifc.so.4
 lrwxrwxrwx root       root               12 ./usr/lib/libowdb.so -> libowdb.so.4
--rwxr-xr-x root       root            21272 ./usr/lib/libowdb.so.4
+-rwxr-xr-x root       root            21288 ./usr/lib/libowdb.so.4
 lrwxrwxrwx root       root               23 ./usr/lib/libowembeddedcimom.so -> libowembeddedcimom.so.4
--rwxr-xr-x root       root            86836 ./usr/lib/libowembeddedcimom.so.4
+-rwxr-xr-x root       root            86852 ./usr/lib/libowembeddedcimom.so.4
 lrwxrwxrwx root       root               20 ./usr/lib/libowhttpclient.so -> libowhttpclient.so.4
--rwxr-xr-x root       root            54276 ./usr/lib/libowhttpclient.so.4
+-rwxr-xr-x root       root            54292 ./usr/lib/libowhttpclient.so.4
 lrwxrwxrwx root       root               20 ./usr/lib/libowhttpcommon.so -> libowhttpcommon.so.4
 -rwxr-xr-x root       root            74512 ./usr/lib/libowhttpcommon.so.4
 lrwxrwxrwx root       root               25 ./usr/lib/libowhttpxmllistener.so -> libowhttpxmllistener.so.4
 -rwxr-xr-x root       root            93732 ./usr/lib/libowhttpxmllistener.so.4
 lrwxrwxrwx root       root               14 ./usr/lib/libowmofc.so -> libowmofc.so.4
--rwxr-xr-x root       root           290976 ./usr/lib/libowmofc.so.4
+-rwxr-xr-x root       root           290992 ./usr/lib/libowmofc.so.4
 lrwxrwxrwx root       root               18 ./usr/lib/libowprovider.so -> libowprovider.so.4
--rwxr-xr-x root       root            41912 ./usr/lib/libowprovider.so.4
+-rwxr-xr-x root       root            41928 ./usr/lib/libowprovider.so.4
 lrwxrwxrwx root       root               23 ./usr/lib/libowprovideragent.so -> libowprovideragent.so.4
 -rwxr-xr-x root       root           106492 ./usr/lib/libowprovideragent.so.4
 lrwxrwxrwx root       root               23 ./usr/lib/libowrepositoryhdb.so -> libowrepositoryhdb.so.4
--rwxr-xr-x root       root           284692 ./usr/lib/libowrepositoryhdb.so.4
+-rwxr-xr-x root       root           284708 ./usr/lib/libowrepositoryhdb.so.4
 lrwxrwxrwx root       root               30 ./usr/lib/libowrequesthandlerbinary.so -> libowrequesthandlerbinary.so.4
--rwxr-xr-x root       root            57672 ./usr/lib/libowrequesthandlerbinary.so.4
+-rwxr-xr-x root       root            57688 ./usr/lib/libowrequesthandlerbinary.so.4
 lrwxrwxrwx root       root               30 ./usr/lib/libowrequesthandlercimxml.so -> libowrequesthandlercimxml.so.4
--rwxr-xr-x root       root            87112 ./usr/lib/libowrequesthandlercimxml.so.4
+-rwxr-xr-x root       root            87128 ./usr/lib/libowrequesthandlercimxml.so.4
 lrwxrwxrwx root       root               16 ./usr/lib/libowserver.so -> libowserver.so.4
 -rwxr-xr-x root       root            39928 ./usr/lib/libowserver.so.4
 lrwxrwxrwx root       root               21 ./usr/lib/libowservicehttp.so -> libowservicehttp.so.4
@@ -71,15 +71,15 @@ lrwxrwxrwx root       root               21 ./usr/lib/libowservicehttp.so -> lib
 lrwxrwxrwx root       root               13 ./usr/lib/libowwql.so -> libowwql.so.4
 -rwxr-xr-x root       root           449160 ./usr/lib/libowwql.so.4
 lrwxrwxrwx root       root               19 ./usr/lib/libowwqlcommon.so -> libowwqlcommon.so.4
--rwxr-xr-x root       root            85856 ./usr/lib/libowwqlcommon.so.4
+-rwxr-xr-x root       root            85872 ./usr/lib/libowwqlcommon.so.4
 lrwxrwxrwx root       root               13 ./usr/lib/libowxml.so -> libowxml.so.4
--rwxr-xr-x root       root           208300 ./usr/lib/libowxml.so.4
+-rwxr-xr-x root       root           208316 ./usr/lib/libowxml.so.4
 lrwxrwxrwx root       root               25 ./usr/lib/libpamauthentication.so -> libpamauthentication.so.4
 -rwxr-xr-x root       root            10448 ./usr/lib/libpamauthentication.so.4
 lrwxrwxrwx root       root               27 ./usr/lib/libpamclauthentication.so -> libpamclauthentication.so.4
--rwxr-xr-x root       root            10640 ./usr/lib/libpamclauthentication.so.4
+-rwxr-xr-x root       root            10656 ./usr/lib/libpamclauthentication.so.4
 lrwxrwxrwx root       root               28 ./usr/lib/libsimpleauthentication.so -> libsimpleauthentication.so.4
--rwxr-xr-x root       root            15240 ./usr/lib/libsimpleauthentication.so.4
+-rwxr-xr-x root       root            15256 ./usr/lib/libsimpleauthentication.so.4
 drwxr-xr-x root       root              340 ./usr/lib/openwbem
 drwxr-xr-x root       root              120 ./usr/lib/openwbem/authentication
 lrwxrwxrwx root       root               46 ./usr/lib/openwbem/authentication/libnonauthenticatingauthentication.so -> /usr/lib/libnonauthenticatingauthentication.so
@@ -88,15 +88,15 @@ lrwxrwxrwx root       root               34 ./usr/lib/openwbem/authentication/li
 lrwxrwxrwx root       root               35 ./usr/lib/openwbem/authentication/libsimpleauthentication.so -> /usr/lib/libsimpleauthentication.so
 drwxr-xr-x root       root               60 ./usr/lib/openwbem/bin
 drwxr-xr-x root       root               80 ./usr/lib/openwbem/bin/openwbem
--rwxr-xr-x root       root             5556 ./usr/lib/openwbem/bin/openwbem/OW_PAMAuth
+-rwxr-xr-x root       root             5560 ./usr/lib/openwbem/bin/openwbem/OW_PAMAuth
 -rwxr-xr-x root       root           830084 ./usr/lib/openwbem/bin/openwbem/owlocalhelper
 drwxr-xr-x root       root              480 ./usr/lib/openwbem/c++providers
 lrwxrwxrwx root       root               42 ./usr/lib/openwbem/c++providers/libcppindicationexportxmlhttpprovider.so -> libcppindicationexportxmlhttpprovider.so.4
--rwxr-xr-x root       root            29296 ./usr/lib/openwbem/c++providers/libcppindicationexportxmlhttpprovider.so.4
+-rwxr-xr-x root       root            29312 ./usr/lib/openwbem/c++providers/libcppindicationexportxmlhttpprovider.so.4
 lrwxrwxrwx root       root               40 ./usr/lib/openwbem/c++providers/libowprovCIM_IndicationSubscription.so -> libowprovCIM_IndicationSubscription.so.4
--rwxr-xr-x root       root            15228 ./usr/lib/openwbem/c++providers/libowprovCIM_IndicationSubscription.so.4
+-rwxr-xr-x root       root            15244 ./usr/lib/openwbem/c++providers/libowprovCIM_IndicationSubscription.so.4
 lrwxrwxrwx root       root               35 ./usr/lib/openwbem/c++providers/libowprovindIndicationRepLayer.so -> libowprovindIndicationRepLayer.so.4
--rwxr-xr-x root       root            11976 ./usr/lib/openwbem/c++providers/libowprovindIndicationRepLayer.so.4
+-rwxr-xr-x root       root            11992 ./usr/lib/openwbem/c++providers/libowprovindIndicationRepLayer.so.4
 lrwxrwxrwx root       root               38 ./usr/lib/openwbem/c++providers/libowprovinstCIM_IndicationFilter.so -> libowprovinstCIM_IndicationFilter.so.4
 -rwxr-xr-x root       root            15144 ./usr/lib/openwbem/c++providers/libowprovinstCIM_IndicationFilter.so.4
 lrwxrwxrwx root       root               31 ./usr/lib/openwbem/c++providers/libowprovinstCIM_Namespace.so -> libowprovinstCIM_Namespace.so.4
@@ -104,29 +104,29 @@ lrwxrwxrwx root       root               31 ./usr/lib/openwbem/c++providers/libo
 lrwxrwxrwx root       root               40 ./usr/lib/openwbem/c++providers/libowprovinstCIM_NamespaceInManager.so -> libowprovinstCIM_NamespaceInManager.so.4
 -rwxr-xr-x root       root            36164 ./usr/lib/openwbem/c++providers/libowprovinstCIM_NamespaceInManager.so.4
 lrwxrwxrwx root       root               30 ./usr/lib/openwbem/c++providers/libowprovinstOW_NameSpace.so -> libowprovinstOW_NameSpace.so.4
--rwxr-xr-x root       root            30300 ./usr/lib/openwbem/c++providers/libowprovinstOW_NameSpace.so.4
+-rwxr-xr-x root       root            30316 ./usr/lib/openwbem/c++providers/libowprovinstOW_NameSpace.so.4
 lrwxrwxrwx root       root               44 ./usr/lib/openwbem/c++providers/libowprovinstOpenWBEM_ConfigSettingData.so -> libowprovinstOpenWBEM_ConfigSettingData.so.4
--rwxr-xr-x root       root            66276 ./usr/lib/openwbem/c++providers/libowprovinstOpenWBEM_ConfigSettingData.so.4
+-rwxr-xr-x root       root            66292 ./usr/lib/openwbem/c++providers/libowprovinstOpenWBEM_ConfigSettingData.so.4
 lrwxrwxrwx root       root               40 ./usr/lib/openwbem/c++providers/libowprovinstOpenWBEM_ObjectManager.so -> libowprovinstOpenWBEM_ObjectManager.so.4
 -rwxr-xr-x root       root            41964 ./usr/lib/openwbem/c++providers/libowprovinstOpenWBEM_ObjectManager.so.4
 lrwxrwxrwx root       root               48 ./usr/lib/openwbem/c++providers/libowprovinstOpenWBEM_UnitaryComputerSystem.so -> libowprovinstOpenWBEM_UnitaryComputerSystem.so.4
 -rwxr-xr-x root       root            20012 ./usr/lib/openwbem/c++providers/libowprovinstOpenWBEM_UnitaryComputerSystem.so.4
 lrwxrwxrwx root       root               26 ./usr/lib/openwbem/c++providers/libowprovpollUnloader.so -> libowprovpollUnloader.so.4
--rwxr-xr-x root       root            11760 ./usr/lib/openwbem/c++providers/libowprovpollUnloader.so.4
+-rwxr-xr-x root       root            11776 ./usr/lib/openwbem/c++providers/libowprovpollUnloader.so.4
 drwxr-xr-x root       root               40 ./usr/lib/openwbem/cmpiproviders
 lrwxrwxrwx root       root               28 ./usr/lib/openwbem/libowindicationreplayer.so -> libowindicationreplayer.so.4
--rwxr-xr-x root       root            36364 ./usr/lib/openwbem/libowindicationreplayer.so.4
+-rwxr-xr-x root       root            36380 ./usr/lib/openwbem/libowindicationreplayer.so.4
 lrwxrwxrwx root       root               26 ./usr/lib/openwbem/libowindicationserver.so -> libowindicationserver.so.4
--rwxr-xr-x root       root           140564 ./usr/lib/openwbem/libowindicationserver.so.4
+-rwxr-xr-x root       root           140580 ./usr/lib/openwbem/libowindicationserver.so.4
 lrwxrwxrwx root       root               26 ./usr/lib/openwbem/libowsimpleauthorizer.so -> libowsimpleauthorizer.so.4
--rwxr-xr-x root       root            37568 ./usr/lib/openwbem/libowsimpleauthorizer.so.4
+-rwxr-xr-x root       root            37584 ./usr/lib/openwbem/libowsimpleauthorizer.so.4
 lrwxrwxrwx root       root               27 ./usr/lib/openwbem/libowsimpleauthorizer2.so -> libowsimpleauthorizer2.so.4
--rwxr-xr-x root       root            17140 ./usr/lib/openwbem/libowsimpleauthorizer2.so.4
+-rwxr-xr-x root       root            17156 ./usr/lib/openwbem/libowsimpleauthorizer2.so.4
 drwxr-xr-x root       root              160 ./usr/lib/openwbem/provifcs
 lrwxrwxrwx root       root               19 ./usr/lib/openwbem/provifcs/libcmpiprovifc.so -> libcmpiprovifc.so.4
--rwxr-xr-x root       root            98296 ./usr/lib/openwbem/provifcs/libcmpiprovifc.so.4
+-rwxr-xr-x root       root            98312 ./usr/lib/openwbem/provifcs/libcmpiprovifc.so.4
 lrwxrwxrwx root       root               18 ./usr/lib/openwbem/provifcs/libnpiprovifc.so -> libnpiprovifc.so.4
--rwxr-xr-x root       root            95844 ./usr/lib/openwbem/provifcs/libnpiprovifc.so.4
+-rwxr-xr-x root       root            95860 ./usr/lib/openwbem/provifcs/libnpiprovifc.so.4
 lrwxrwxrwx root       root               23 ./usr/lib/openwbem/provifcs/libowremoteprovifc.so -> libowremoteprovifc.so.4
 -rwxr-xr-x root       root           110320 ./usr/lib/openwbem/provifcs/libowremoteprovifc.so.4
 drwxr-xr-x root       root               80 ./usr/lib/openwbem/requesthandlers
@@ -139,7 +139,7 @@ drwxr-xr-x root       root              160 ./usr/sbin
 -rwxr-xr-x root       root            23318 ./usr/sbin/owcimomd_init
 -rwxr-xr-x root       root            14904 ./usr/sbin/owdigestgenpass
 -rwxr-xr-x root       root            64432 ./usr/sbin/owprovideragent
--rwxr-xr-x root       root            21208 ./usr/sbin/owrepositorydump
+-rwxr-xr-x root       root            21212 ./usr/sbin/owrepositorydump
 lrwxrwxrwx root       root               25 ./usr/sbin/rcowcimomd -> ../../etc/init.d/owcimomd
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/mof

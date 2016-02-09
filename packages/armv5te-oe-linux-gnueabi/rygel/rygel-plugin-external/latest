@@ -1,9 +1,9 @@
 PV = 0.28.2
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = gdk-pixbuf (>= 2.32.3) glib-2.0 (>= 2.46.2) glibc (>= 2.22) gssdp (>= 0.14.8) gupnp (>= 0.20.14) gupnp-av (>= 0.12.6) libffi (>= 3.2.1) libgee (>= 0.16.1) libmediaart-2.0 (>= 1.9.0) libpng (>= 1.6.21) libsoup-2.4 (>= 2.52.2) libsqlite3 (>= 3.10.2) libxml2 (>= 2.9.3) rygel (>= 0.28.2) util-linux-libuuid (>= 2.27.1) zlib (>= 1.2.8)
+RDEPENDS = gdk-pixbuf (>= 2.32.3) glib-2.0 (>= 2.46.2) glibc (>= 2.22) gssdp (>= 0.14.8) gupnp (>= 0.20.14) gupnp-av (>= 0.12.6) libffi (>= 3.2.1) libgee (>= 0.16.1) libmediaart-2.0 (>= 1.9.0) libpcre (>= 8.38) libpng (>= 1.6.21) libsoup-2.4 (>= 2.52.2) libsqlite3 (>= 3.10.2) libxml2 (>= 2.9.3) rygel (>= 0.28.2) util-linux-libuuid (>= 2.27.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 99746
+PKGSIZE = 99754
 FILES = /usr/lib/rygel-2.6/plugins/librygel-external.so /usr/lib/rygel-2.6/plugins/external.plugin
 FILELIST = /usr/lib/rygel-2.6/plugins/external.plugin /usr/lib/rygel-2.6/plugins/librygel-external.so

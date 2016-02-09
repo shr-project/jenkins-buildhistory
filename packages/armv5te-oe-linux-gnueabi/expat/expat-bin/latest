@@ -1,10 +1,10 @@
 PV = 2.1.0
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libexpat-bin
 RPROVIDES = 2.1.0 expat-bin
 RDEPENDS = expat (>= 2.1.0) glibc (>= 2.22) libgcc (>= 5.3.0)
 RRECOMMENDS = 
-PKGSIZE = 14708
+PKGSIZE = 14712
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/xmlwf

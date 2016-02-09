@@ -1,9 +1,9 @@
 PV = 1.5.1
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = update-alternatives-opkg
+RDEPENDS = glibc (>= 2.22) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 78425
+PKGSIZE = 55825
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/sysklogd /usr/lib/sysklogd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/init.d/syslog.sysklogd /etc/syslog.conf.sysklogd /sbin/klogd.sysklogd /sbin/syslogd.sysklogd
