@@ -1,10 +1,10 @@
 PV = 0.3.3
 PR = r5
-PKGR = r5.5
+PKGR = r5.6
 PKG = libtelepathy2
 RPROVIDES = 0.3.3 libtelepathy
-RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.10.6) glib-2.0 (>= 2.46.2) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) liblzma (>= 5.2.2) libsystemd (>= 228+git0+dd050decb6) telepathy-glib (>= 0.24.0) zlib (>= 1.2.8)
+RDEPENDS = dbus-glib (>= 0.104) dbus-lib (>= 1.10.6) glib-2.0 (>= 2.46.2) glibc (>= 2.22) libcap (>= 2.24) libffi (>= 3.2.1) liblzma (>= 5.2.2) libpcre (>= 8.38) libsystemd (>= 228+git0+dd050decb6) telepathy-glib (>= 0.24.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 62345
+PKGSIZE = 62473
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libtelepathy /usr/lib/libtelepathy/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/telepathy /usr/share/dbus-1
 FILELIST = /usr/lib/libtelepathy.so.2 /usr/lib/libtelepathy.so.2.7.1

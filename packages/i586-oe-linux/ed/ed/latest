@@ -1,9 +1,9 @@
 PV = 1.9
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = 
+RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 47253
 FILES = /bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ed /usr/lib/ed/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = 
+FILELIST = /bin/ed /bin/red

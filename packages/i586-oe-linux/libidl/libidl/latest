@@ -1,10 +1,10 @@
 PV = 0.8.14
 PR = r1
-PKGR = r1.6
+PKGR = r1.7
 PKG = libidl-2-0
 RPROVIDES = 0.8.14 libidl
-RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.22)
+RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.22) libpcre (>= 8.38)
 RRECOMMENDS = 
-PKGSIZE = 188813
+PKGSIZE = 189165
 FILES = /usr/lib/*.so.*
 FILELIST = /usr/lib/libIDL-2.so.0 /usr/lib/libIDL-2.so.0.0.0

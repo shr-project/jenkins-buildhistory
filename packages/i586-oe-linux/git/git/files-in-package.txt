@@ -2,9 +2,9 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
 -rwxr-xr-x root       root          2062104 ./usr/bin/git
 -rwxr-xr-x root       root          2062104 ./usr/bin/git-receive-pack
--rwxr-xr-x root       root           960964 ./usr/bin/git-shell
+-rwxr-xr-x root       root           961412 ./usr/bin/git-shell
 -rwxr-xr-x root       root          2062104 ./usr/bin/git-upload-archive
--rwxr-xr-x root       root          1054600 ./usr/bin/git-upload-pack
+-rwxr-xr-x root       root          1055208 ./usr/bin/git-upload-pack
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root             3060 ./usr/libexec/git-core
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git
@@ -34,9 +34,9 @@ drwxr-xr-x root       root             3060 ./usr/libexec/git-core
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-config
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-count-objects
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-credential
--rwxr-xr-x root       root           961200 ./usr/libexec/git-core/git-credential-cache
+-rwxr-xr-x root       root           961648 ./usr/libexec/git-core/git-credential-cache
 -rwxr-xr-x root       root           973080 ./usr/libexec/git-core/git-credential-cache--daemon
--rwxr-xr-x root       root           969648 ./usr/libexec/git-core/git-credential-store
+-rwxr-xr-x root       root           973040 ./usr/libexec/git-core/git-credential-store
 -rwxr-xr-x root       root           973156 ./usr/libexec/git-core/git-daemon
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-describe
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-diff
@@ -60,9 +60,9 @@ drwxr-xr-x root       root             3060 ./usr/libexec/git-core
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-hash-object
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-help
 -rwxr-xr-x root       root           973164 ./usr/libexec/git-core/git-http-backend
--rwxr-xr-x root       root          1092812 ./usr/libexec/git-core/git-http-fetch
--rwxr-xr-x root       root          1105224 ./usr/libexec/git-core/git-http-push
--rwxr-xr-x root       root          1104952 ./usr/libexec/git-core/git-imap-send
+-rwxr-xr-x root       root          1093260 ./usr/libexec/git-core/git-http-fetch
+-rwxr-xr-x root       root          1105672 ./usr/libexec/git-core/git-http-push
+-rwxr-xr-x root       root          1105400 ./usr/libexec/git-core/git-imap-send
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-index-pack
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-init
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-init-db
@@ -116,7 +116,7 @@ drwxr-xr-x root       root             3060 ./usr/libexec/git-core
 -rwxr-xr-x root       root          1104616 ./usr/libexec/git-core/git-remote-ftps
 -rwxr-xr-x root       root          1104616 ./usr/libexec/git-core/git-remote-http
 -rwxr-xr-x root       root          1104616 ./usr/libexec/git-core/git-remote-https
--rwxr-xr-x root       root           986240 ./usr/libexec/git-core/git-remote-testsvn
+-rwxr-xr-x root       root           986688 ./usr/libexec/git-core/git-remote-testsvn
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-repack
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-replace
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-rerere
@@ -129,7 +129,7 @@ drwxr-xr-x root       root             3060 ./usr/libexec/git-core
 -rw-r--r-- root       root             1994 ./usr/libexec/git-core/git-sh-i18n
 -rwxr-xr-x root       root           960688 ./usr/libexec/git-core/git-sh-i18n--envsubst
 -rw-r--r-- root       root             8306 ./usr/libexec/git-core/git-sh-setup
--rwxr-xr-x root       root           960964 ./usr/libexec/git-core/git-shell
+-rwxr-xr-x root       root           961412 ./usr/libexec/git-core/git-shell
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-shortlog
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-show
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-show-branch
@@ -148,7 +148,7 @@ drwxr-xr-x root       root             3060 ./usr/libexec/git-core
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-update-ref
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-update-server-info
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-upload-archive
--rwxr-xr-x root       root          1054600 ./usr/libexec/git-core/git-upload-pack
+-rwxr-xr-x root       root          1055208 ./usr/libexec/git-core/git-upload-pack
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-var
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-verify-commit
 -rwxr-xr-x root       root          2062104 ./usr/libexec/git-core/git-verify-pack
