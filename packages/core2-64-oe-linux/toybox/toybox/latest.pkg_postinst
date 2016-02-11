@@ -4,6 +4,7 @@
 	update-alternatives --install /usr/bin/basename basename /bin/toybox 60
 	update-alternatives --install /bin/blkid blkid /bin/toybox 60
 	update-alternatives --install /usr/bin/blockdev blockdev /bin/toybox 60
+	update-alternatives --install /usr/bin/bunzip2 bunzip2 /bin/toybox 60
 	update-alternatives --install /usr/bin/bzcat bzcat /bin/toybox 60
 	update-alternatives --install /usr/bin/cal cal /bin/toybox 60
 	update-alternatives --install /bin/cat cat /bin/toybox 60
@@ -38,16 +39,19 @@
 	update-alternatives --install /bin/false false /bin/toybox 60
 	update-alternatives --install /bin/fgrep fgrep /bin/toybox 60
 	update-alternatives --install /usr/bin/find find /bin/toybox 60
+	update-alternatives --install /usr/bin/flock flock /bin/toybox 60
 	update-alternatives --install /usr/bin/free free /bin/toybox 60
 	update-alternatives --install /sbin/freeramdisk freeramdisk /bin/toybox 60
 	update-alternatives --install /usr/sbin/fsfreeze fsfreeze /bin/toybox 60
 	update-alternatives --install /bin/fstype fstype /bin/toybox 60
+	update-alternatives --install /bin/fsync fsync /bin/toybox 60
 	update-alternatives --install /bin/grep grep /bin/toybox 60
 	update-alternatives --install /usr/bin/groups groups /bin/toybox 60
 	update-alternatives --install /sbin/halt halt /bin/toybox 60
 	update-alternatives --install /usr/bin/head head /bin/toybox 60
 	update-alternatives --install /bin/help help /bin/toybox 60
 	update-alternatives --install /usr/bin/hexedit hexedit /bin/toybox 60
+	update-alternatives --install /usr/bin/hostid hostid /bin/toybox 60
 	update-alternatives --install /bin/hostname hostname /bin/toybox 60
 	update-alternatives --install /usr/bin/hwclock hwclock /bin/toybox 60
 	update-alternatives --install /usr/bin/id id /bin/toybox 60
@@ -57,6 +61,7 @@
 	update-alternatives --install /usr/bin/install install /bin/toybox 60
 	update-alternatives --install /usr/bin/ionice ionice /bin/toybox 60
 	update-alternatives --install /usr/bin/iorenice iorenice /bin/toybox 60
+	update-alternatives --install /usr/bin/iotop iotop /bin/toybox 60
 	update-alternatives --install /bin/kill kill /bin/toybox 60
 	update-alternatives --install /usr/bin/killall killall /bin/toybox 60
 	update-alternatives --install /usr/bin/link link /bin/toybox 60
@@ -96,12 +101,15 @@
 	update-alternatives --install /usr/bin/passwd passwd /bin/toybox 60
 	update-alternatives --install /bin/paste paste /bin/toybox 60
 	update-alternatives --install /usr/bin/patch patch /bin/toybox 60
+	update-alternatives --install /usr/bin/pgrep pgrep /bin/toybox 60
 	update-alternatives --install /bin/pidof pidof /bin/toybox 60
 	update-alternatives --install /sbin/pivot_root pivot_root /bin/toybox 60
+	update-alternatives --install /usr/bin/pkill pkill /bin/toybox 60
 	update-alternatives --install /bin/pmap pmap /bin/toybox 60
 	update-alternatives --install /sbin/poweroff poweroff /bin/toybox 60
 	update-alternatives --install /usr/bin/printenv printenv /bin/toybox 60
 	update-alternatives --install /usr/bin/printf printf /bin/toybox 60
+	update-alternatives --install /usr/bin/ps ps /bin/toybox 60
 	update-alternatives --install /bin/pwd pwd /bin/toybox 60
 	update-alternatives --install /usr/bin/pwdx pwdx /bin/toybox 60
 	update-alternatives --install /bin/readahead readahead /bin/toybox 60
@@ -137,6 +145,7 @@
 	update-alternatives --install /usr/bin/tee tee /bin/toybox 60
 	update-alternatives --install /usr/bin/time time /bin/toybox 60
 	update-alternatives --install /bin/timeout timeout /bin/toybox 60
+	update-alternatives --install /usr/bin/top top /bin/toybox 60
 	update-alternatives --install /bin/touch touch /bin/toybox 60
 	update-alternatives --install /bin/true true /bin/toybox 60
 	update-alternatives --install /bin/truncate truncate /bin/toybox 60

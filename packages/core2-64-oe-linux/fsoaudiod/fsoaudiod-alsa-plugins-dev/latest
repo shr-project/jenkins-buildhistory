@@ -1,10 +1,10 @@
 PE = 2
 PV = 0.12.0
 PR = r6.0
-PKGR = r6.0.5
+PKGR = r6.0.6
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = alsa-lib-dev glib-2.0-dev glibc-dev initscripts-dev libasound-dev libcmtspeechdata-dev libffi-dev libfso-glib-dev libfsoframework-dev libgee-dev libsamplerate0-dev update-rc.d-dev vala-dev zlib-dev
-PKGSIZE = 1269
+RRECOMMENDS = alsa-lib-dev glib-2.0-dev glibc-dev initscripts-dev libasound-dev libcmtspeechdata-dev libffi-dev libfso-glib-dev libfsoframework-dev libgee-dev libpcre-dev libsamplerate0-dev update-rc.d-dev vala-dev zlib-dev
+PKGSIZE = 1292
 FILES = /usr/lib/alsa-lib/fsoaudio_session.la
 FILELIST = /usr/lib/alsa-lib/fsoaudio_session.la

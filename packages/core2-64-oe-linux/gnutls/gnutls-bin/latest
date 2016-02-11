@@ -1,9 +1,9 @@
-PV = 3.4.8
+PV = 3.4.9
 PR = r0
-PKGR = r0.3
+PKGR = r0.0
 PKG = libgnutls-bin
-RPROVIDES = 3.4.8 gnutls-bin
-RDEPENDS = glibc (>= 2.22) gnutls (>= 3.4.8) libidn (>= 1.32)
+RPROVIDES = 3.4.9 gnutls-bin
+RDEPENDS = glibc (>= 2.22) gnutls (>= 3.4.9) libidn (>= 1.32)
 RRECOMMENDS = 
 PKGSIZE = 915760
 FILES = /usr/bin/* /usr/sbin/*
