@@ -17,7 +17,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/alsa-lib
 drwxr-xr-x root       root               60 ./usr/src/debug/alsa-lib/1.1.0-r0
 drwxr-xr-x root       root              120 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0
 drwxr-xr-x root       root               60 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/aserver
--rw-r--r-- root       root            25715 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/aserver/aserver.c
+-rw-r--r-- root       root            25711 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/aserver/aserver.c
 drwxr-xr-x root       root              640 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include
 -rw-r--r-- root       root             2204 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/alisp.h
 drwxr-xr-x root       root              180 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/alsa
@@ -38,7 +38,7 @@ drwxr-xr-x root       root              180 ./usr/src/debug/alsa-lib/1.1.0-r0/al
 -rw-r--r-- root       root             4575 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/iatomic.h
 -rw-r--r-- root       root             2586 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/input.h
 -rw-r--r-- root       root             2813 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/list.h
--rw-r--r-- root       root            10407 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/local.h
+-rw-r--r-- root       root            10403 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/local.h
 -rw-r--r-- root       root            14396 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/mixer.h
 -rw-r--r-- root       root             4214 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/mixer_abst.h
 -rw-r--r-- root       root             2754 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/include/output.h
@@ -77,11 +77,11 @@ drwxr-xr-x root       root              100 ./usr/src/debug/alsa-lib/1.1.0-r0/al
 -rw-r--r-- root       root            34420 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/confmisc.c
 drwxr-xr-x root       root              260 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control
 -rw-r--r-- root       root             5622 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/cards.c
--rw-r--r-- root       root            69250 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/control.c
+-rw-r--r-- root       root            69246 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/control.c
 -rw-r--r-- root       root            23189 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/control_ext.c
 -rw-r--r-- root       root            12195 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/control_hw.c
 -rw-r--r-- root       root             4187 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/control_local.h
--rw-r--r-- root       root            15631 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/control_shm.c
+-rw-r--r-- root       root            15627 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/control_shm.c
 -rw-r--r-- root       root             9798 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/ctlparse.c
 -rw-r--r-- root       root            24508 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/hcontrol.c
 -rw-r--r-- root       root            18441 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/control/namehint.c
@@ -117,7 +117,7 @@ drwxr-xr-x root       root             1060 ./usr/src/debug/alsa-lib/1.1.0-r0/al
 -rw-r--r-- root       root            15710 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_alaw.c
 -rw-r--r-- root       root             3113 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_asym.c
 -rw-r--r-- root       root             8677 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_copy.c
--rw-r--r-- root       root            44986 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_direct.c
+-rw-r--r-- root       root            44982 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_direct.c
 -rw-r--r-- root       root            11675 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_direct.h
 -rw-r--r-- root       root            36949 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_dmix.c
 -rw-r--r-- root       root            12956 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_dmix_generic.c
@@ -139,7 +139,7 @@ drwxr-xr-x root       root             1060 ./usr/src/debug/alsa-lib/1.1.0-r0/al
 -rw-r--r-- root       root            46422 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_local.h
 -rw-r--r-- root       root            33149 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_meter.c
 -rw-r--r-- root       root            22492 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_misc.c
--rw-r--r-- root       root            17841 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_mmap.c
+-rw-r--r-- root       root            17837 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_mmap.c
 -rw-r--r-- root       root            14560 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_mmap_emul.c
 -rw-r--r-- root       root            16772 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_mulaw.c
 -rw-r--r-- root       root            38440 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_multi.c
@@ -151,8 +151,8 @@ drwxr-xr-x root       root             1060 ./usr/src/debug/alsa-lib/1.1.0-r0/al
 -rw-r--r-- root       root            43345 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_rate.c
 -rw-r--r-- root       root            13442 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_rate_linear.c
 -rw-r--r-- root       root            38750 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_route.c
--rw-r--r-- root       root            48816 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_share.c
--rw-r--r-- root       root            23261 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_shm.c
+-rw-r--r-- root       root            48812 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_share.c
+-rw-r--r-- root       root            23257 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_shm.c
 -rw-r--r-- root       root             7945 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_simple.c
 -rw-r--r-- root       root            32912 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/pcm_softvol.c
 -rw-r--r-- root       root            40832 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/pcm/plugin_ops.h
@@ -162,14 +162,14 @@ drwxr-xr-x root       root              120 ./usr/src/debug/alsa-lib/1.1.0-r0/al
 -rw-r--r-- root       root             2165 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/rawmidi/rawmidi_local.h
 -rw-r--r-- root       root            11986 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/rawmidi/rawmidi_virt.c
 drwxr-xr-x root       root              180 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/seq
--rw-r--r-- root       root           133898 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/seq/seq.c
+-rw-r--r-- root       root           133894 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/seq/seq.c
 -rw-r--r-- root       root             1909 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/seq/seq_event.c
 -rw-r--r-- root       root            14863 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/seq/seq_hw.c
 -rw-r--r-- root       root             4222 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/seq/seq_local.h
 -rw-r--r-- root       root            21894 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/seq/seq_midi_event.c
 -rw-r--r-- root       root             4465 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/seq/seq_old.c
 -rw-r--r-- root       root            11815 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/seq/seqmid.c
--rw-r--r-- root       root             2956 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/shmarea.c
+-rw-r--r-- root       root             2952 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/shmarea.c
 -rw-r--r-- root       root             2687 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/socket.c
 drwxr-xr-x root       root              140 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/timer
 -rw-r--r-- root       root            24382 ./usr/src/debug/alsa-lib/1.1.0-r0/alsa-lib-1.1.0/src/timer/timer.c

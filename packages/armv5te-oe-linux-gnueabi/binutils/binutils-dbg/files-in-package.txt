@@ -9,7 +9,7 @@ drwxr-xr-x root       root              400 ./usr/bin/.debug
 -rwxr-xr-x root       root            65416 ./usr/bin/.debug/arm-oe-linux-gnueabi-elfedit
 -rwxr-xr-x root       root           644972 ./usr/bin/.debug/arm-oe-linux-gnueabi-gprof
 -rwxr-xr-x root       root         66148564 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld
--rwxr-xr-x root       root          1218832 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld.bfd
+-rwxr-xr-x root       root          1218840 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld.bfd
 -rwxr-xr-x root       root         66148564 ./usr/bin/.debug/arm-oe-linux-gnueabi-ld.gold
 -rwxr-xr-x root       root           206016 ./usr/bin/.debug/arm-oe-linux-gnueabi-nm
 -rwxr-xr-x root       root           814116 ./usr/bin/.debug/arm-oe-linux-gnueabi-objcopy
@@ -131,12 +131,10 @@ drwxr-xr-x root       root               80 ./usr/src/debug/binutils/2.26-r0/git
 drwxr-xr-x root       root               80 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gold
 -rw-r--r-- root       root           133630 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gold/yyscript.c
 -rw-r--r-- root       root             7455 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/gold/yyscript.h
-drwxr-xr-x root       root              140 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld
+drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld
 -rw-r--r-- root       root           202228 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/earmelf_linux_eabi.c
 -rw-r--r-- root       root           202277 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/earmelfb_linux_eabi.c
 -rw-r--r-- root       root              288 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/ldemul-list.h
--rw-r--r-- root       root           168070 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/ldgram.c
--rw-r--r-- root       root             8097 ./usr/src/debug/binutils/2.26-r0/git/build.arm-oe-linux-gnueabi.arm-oe-linux-gnueabi/ld/ldgram.h
 drwxr-xr-x root       root              320 ./usr/src/debug/binutils/2.26-r0/git/elfcpp
 -rw-r--r-- root       root             8736 ./usr/src/debug/binutils/2.26-r0/git/elfcpp/aarch64.h
 -rw-r--r-- root       root            12800 ./usr/src/debug/binutils/2.26-r0/git/elfcpp/arm.h
@@ -482,7 +480,7 @@ drwxr-xr-x root       root              620 ./usr/src/debug/binutils/2.26-r0/git
 -rw-r--r-- root       root             6064 ./usr/src/debug/binutils/2.26-r0/git/ld/ldexp.h
 -rw-r--r-- root       root            17659 ./usr/src/debug/binutils/2.26-r0/git/ld/ldfile.c
 -rw-r--r-- root       root             2057 ./usr/src/debug/binutils/2.26-r0/git/ld/ldfile.h
--rw-r--r-- root       root            32463 ./usr/src/debug/binutils/2.26-r0/git/ld/ldgram.y
+-rw-r--r-- root       root             8084 ./usr/src/debug/binutils/2.26-r0/git/ld/ldgram.h
 -rw-r--r-- root       root           230065 ./usr/src/debug/binutils/2.26-r0/git/ld/ldlang.c
 -rw-r--r-- root       root            20638 ./usr/src/debug/binutils/2.26-r0/git/ld/ldlang.h
 -rw-r--r-- root       root             5069 ./usr/src/debug/binutils/2.26-r0/git/ld/ldlex.h
