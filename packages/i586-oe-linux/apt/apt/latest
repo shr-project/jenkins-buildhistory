@@ -1,8 +1,8 @@
 PV = 1.0.10.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = bash debianutils dpkg glibc (>= 2.22) libcurl (>= 7.47.0) libgcc (>= 5.3.0) liblzma (>= 5.2.2) libstdc++ (>= 5.3.0) zlib (>= 1.2.8)
+RDEPENDS = bash debianutils dpkg glibc (>= 2.22) libcurl (>= 7.47.1) libgcc (>= 5.3.0) liblzma (>= 5.2.2) libstdc++ (>= 5.3.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 2326870
 FILES = /usr/bin/apt-cdrom /usr/bin/apt-get /usr/bin/apt-config /usr/bin/apt-cache /usr/lib/apt /usr/lib/libapt*.so.* /var /etc /usr/lib/dpkg /usr/bin/apt-key
