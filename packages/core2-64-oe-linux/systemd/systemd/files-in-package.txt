@@ -1,18 +1,14 @@
-drwxr-xr-x root       root              320 ./bin
+drwxr-xr-x root       root              240 ./bin
 -rwxr-xr-x root       root           462096 ./bin/journalctl
 -rwxr-xr-x root       root           445688 ./bin/loginctl
 -rwxr-xr-x root       root           478480 ./bin/machinectl
--rwxr-xr-x root       root           647440 ./bin/systemctl
--rwxr-xr-x root       root            47600 ./bin/systemd-ask-password
--rwxr-xr-x root       root            39384 ./bin/systemd-escape
+-rwxr-xr-x root       root           643344 ./bin/systemctl
 -rwxr-xr-x root       root            84608 ./bin/systemd-firstboot
 -rwxr-xr-x root       root            64112 ./bin/systemd-hwdb
--rwxr-xr-x root       root           277776 ./bin/systemd-inhibit
 -rwxr-xr-x root       root            47592 ./bin/systemd-machine-id-setup
 -rwxr-xr-x root       root            35288 ./bin/systemd-notify
 -rwxr-xr-x root       root            92792 ./bin/systemd-sysusers
 -rwxr-xr-x root       root           129664 ./bin/systemd-tmpfiles
--rwxr-xr-x root       root            68080 ./bin/systemd-tty-ask-password-agent
 drwxr-xr-x root       root              200 ./etc
 drwxr-xr-x root       root               60 ./etc/dbus-1
 drwxr-xr-x root       root              160 ./etc/dbus-1/system.d
@@ -48,18 +44,17 @@ drwxr-xr-x root       root               60 ./etc/xdg
 drwxr-xr-x root       root               60 ./etc/xdg/systemd
 lrwxrwxrwx root       root               18 ./etc/xdg/systemd/user -> ../../systemd/user
 drwxr-xr-x root       root               60 ./lib
-drwxr-xr-x root       root              760 ./lib/systemd
+drwxr-xr-x root       root              580 ./lib/systemd
 drwxr-xr-x root       root              100 ./lib/systemd/network
 -rw-r--r-- root       root              404 ./lib/systemd/network/80-container-host0.network
 -rw-r--r-- root       root              482 ./lib/systemd/network/80-container-ve.network
 -rw-r--r-- root       root               80 ./lib/systemd/network/99-default.link
-drwxr-xr-x root       root             3300 ./lib/systemd/system
-drwxr-xr-x root       root              220 ./lib/systemd/system-generators
+drwxr-xr-x root       root             3040 ./lib/systemd/system
+drwxr-xr-x root       root              200 ./lib/systemd/system-generators
 -rwxr-xr-x root       root            59888 ./lib/systemd/system-generators/systemd-dbus1-generator
 -rwxr-xr-x root       root            43496 ./lib/systemd/system-generators/systemd-debug-generator
 -rwxr-xr-x root       root            80376 ./lib/systemd/system-generators/systemd-fstab-generator
 -rwxr-xr-x root       root            39408 ./lib/systemd/system-generators/systemd-getty-generator
--rwxr-xr-x root       root           121472 ./lib/systemd/system-generators/systemd-gpt-auto-generator
 -rwxr-xr-x root       root            39416 ./lib/systemd/system-generators/systemd-hibernate-resume-generator
 -rwxr-xr-x root       root            35312 ./lib/systemd/system-generators/systemd-rc-local-generator
 -rwxr-xr-x root       root            31216 ./lib/systemd/system-generators/systemd-system-update-generator
@@ -67,7 +62,6 @@ drwxr-xr-x root       root              220 ./lib/systemd/system-generators
 drwxr-xr-x root       root               60 ./lib/systemd/system-preset
 -rw-r--r-- root       root              869 ./lib/systemd/system-preset/90-systemd.preset
 drwxr-xr-x root       root               40 ./lib/systemd/system-shutdown
-drwxr-xr-x root       root               40 ./lib/systemd/system-sleep
 -rw-r--r-- root       root              403 ./lib/systemd/system/-.slice
 lrwxrwxrwx root       root               14 ./lib/systemd/system/autovt@.service -> getty@.service
 -rw-r--r-- root       root              685 ./lib/systemd/system/basic.target
@@ -125,9 +119,8 @@ lrwxrwxrwx root       root               25 ./lib/systemd/system/local-fs.target
 -rw-r--r-- root       root              405 ./lib/systemd/system/machine.slice
 -rw-r--r-- root       root              531 ./lib/systemd/system/machines.target
 -rw-r--r-- root       root              492 ./lib/systemd/system/multi-user.target
-drwxr-xr-x root       root              120 ./lib/systemd/system/multi-user.target.wants
+drwxr-xr-x root       root              100 ./lib/systemd/system/multi-user.target.wants
 lrwxrwxrwx root       root               15 ./lib/systemd/system/multi-user.target.wants/getty.target -> ../getty.target
-lrwxrwxrwx root       root               33 ./lib/systemd/system/multi-user.target.wants/systemd-ask-password-wall.path -> ../systemd-ask-password-wall.path
 lrwxrwxrwx root       root               25 ./lib/systemd/system/multi-user.target.wants/systemd-logind.service -> ../systemd-logind.service
 lrwxrwxrwx root       root               39 ./lib/systemd/system/multi-user.target.wants/systemd-update-utmp-runlevel.service -> ../systemd-update-utmp-runlevel.service
 -rw-r--r-- root       root              464 ./lib/systemd/system/network-online.target
@@ -172,12 +165,10 @@ drwxr-xr-x root       root               40 ./lib/systemd/system/runlevel5.targe
 lrwxrwxrwx root       root               13 ./lib/systemd/system/runlevel6.target -> reboot.target
 -rw-r--r-- root       root              402 ./lib/systemd/system/shutdown.target
 -rw-r--r-- root       root              362 ./lib/systemd/system/sigpwr.target
--rw-r--r-- root       root              420 ./lib/systemd/system/sleep.target
 -rw-r--r-- root       root              409 ./lib/systemd/system/slices.target
 -rw-r--r-- root       root              380 ./lib/systemd/system/smartcard.target
 -rw-r--r-- root       root              356 ./lib/systemd/system/sockets.target
-drwxr-xr-x root       root              120 ./lib/systemd/system/sockets.target.wants
-lrwxrwxrwx root       root               25 ./lib/systemd/system/sockets.target.wants/systemd-initctl.socket -> ../systemd-initctl.socket
+drwxr-xr-x root       root              100 ./lib/systemd/system/sockets.target.wants
 lrwxrwxrwx root       root               32 ./lib/systemd/system/sockets.target.wants/systemd-journald-audit.socket -> ../systemd-journald-audit.socket
 lrwxrwxrwx root       root               34 ./lib/systemd/system/sockets.target.wants/systemd-journald-dev-log.socket -> ../systemd-journald-dev-log.socket
 lrwxrwxrwx root       root               26 ./lib/systemd/system/sockets.target.wants/systemd-journald.socket -> ../systemd-journald.socket
@@ -188,7 +179,7 @@ lrwxrwxrwx root       root               26 ./lib/systemd/system/sockets.target.
 -rw-r--r-- root       root              719 ./lib/systemd/system/sys-kernel-config.mount
 -rw-r--r-- root       root              662 ./lib/systemd/system/sys-kernel-debug.mount
 -rw-r--r-- root       root              518 ./lib/systemd/system/sysinit.target
-drwxr-xr-x root       root              480 ./lib/systemd/system/sysinit.target.wants
+drwxr-xr-x root       root              460 ./lib/systemd/system/sysinit.target.wants
 lrwxrwxrwx root       root               22 ./lib/systemd/system/sysinit.target.wants/dev-hugepages.mount -> ../dev-hugepages.mount
 lrwxrwxrwx root       root               19 ./lib/systemd/system/sysinit.target.wants/dev-mqueue.mount -> ../dev-mqueue.mount
 lrwxrwxrwx root       root               28 ./lib/systemd/system/sysinit.target.wants/kmod-static-nodes.service -> ../kmod-static-nodes.service
@@ -196,7 +187,6 @@ lrwxrwxrwx root       root               19 ./lib/systemd/system/sysinit.target.
 lrwxrwxrwx root       root               32 ./lib/systemd/system/sysinit.target.wants/sys-fs-fuse-connections.mount -> ../sys-fs-fuse-connections.mount
 lrwxrwxrwx root       root               26 ./lib/systemd/system/sysinit.target.wants/sys-kernel-config.mount -> ../sys-kernel-config.mount
 lrwxrwxrwx root       root               25 ./lib/systemd/system/sysinit.target.wants/sys-kernel-debug.mount -> ../sys-kernel-debug.mount
-lrwxrwxrwx root       root               36 ./lib/systemd/system/sysinit.target.wants/systemd-ask-password-console.path -> ../systemd-ask-password-console.path
 lrwxrwxrwx root       root               28 ./lib/systemd/system/sysinit.target.wants/systemd-firstboot.service -> ../systemd-firstboot.service
 lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.wants/systemd-hwdb-update.service -> ../systemd-hwdb-update.service
 lrwxrwxrwx root       root               41 ./lib/systemd/system/sysinit.target.wants/systemd-journal-catalog-update.service -> ../systemd-journal-catalog-update.service
@@ -214,26 +204,16 @@ lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root             1235 ./lib/systemd/system/syslog.socket
 -rw-r--r-- root       root              585 ./lib/systemd/system/system-update.target
 -rw-r--r-- root       root              436 ./lib/systemd/system/system.slice
--rw-r--r-- root       root              646 ./lib/systemd/system/systemd-ask-password-console.path
--rw-r--r-- root       root              653 ./lib/systemd/system/systemd-ask-password-console.service
--rw-r--r-- root       root              574 ./lib/systemd/system/systemd-ask-password-wall.path
--rw-r--r-- root       root              681 ./lib/systemd/system/systemd-ask-password-wall.service
 -rw-r--r-- root       root              724 ./lib/systemd/system/systemd-backlight@.service
 -rw-r--r-- root       root              650 ./lib/systemd/system/systemd-bootchart.service
--rw-r--r-- root       root             1024 ./lib/systemd/system/systemd-bus-proxyd.service
--rw-r--r-- root       root              409 ./lib/systemd/system/systemd-bus-proxyd.socket
 -rw-r--r-- root       root              497 ./lib/systemd/system/systemd-exit.service
 -rw-r--r-- root       root              755 ./lib/systemd/system/systemd-firstboot.service
 -rw-r--r-- root       root              574 ./lib/systemd/system/systemd-fsck-root.service
 -rw-r--r-- root       root              600 ./lib/systemd/system/systemd-fsck@.service
 -rw-r--r-- root       root              544 ./lib/systemd/system/systemd-halt.service
 -rw-r--r-- root       root              631 ./lib/systemd/system/systemd-hibernate-resume@.service
--rw-r--r-- root       root              501 ./lib/systemd/system/systemd-hibernate.service
 -rw-r--r-- root       root              710 ./lib/systemd/system/systemd-hostnamed.service
 -rw-r--r-- root       root              778 ./lib/systemd/system/systemd-hwdb-update.service
--rw-r--r-- root       root              519 ./lib/systemd/system/systemd-hybrid-sleep.service
--rw-r--r-- root       root              480 ./lib/systemd/system/systemd-initctl.service
--rw-r--r-- root       root              524 ./lib/systemd/system/systemd-initctl.socket
 -rw-r--r-- root       root              667 ./lib/systemd/system/systemd-journal-catalog-update.service
 -rw-r--r-- root       root              731 ./lib/systemd/system/systemd-journal-flush.service
 -rw-r--r-- root       root              607 ./lib/systemd/system/systemd-journald-audit.socket
@@ -246,7 +226,6 @@ lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root              693 ./lib/systemd/system/systemd-machine-id-commit.service
 -rw-r--r-- root       root              948 ./lib/systemd/system/systemd-machined.service
 -rw-r--r-- root       root              967 ./lib/systemd/system/systemd-modules-load.service
--rw-r--r-- root       root             1378 ./lib/systemd/system/systemd-nspawn@.service
 -rw-r--r-- root       root              553 ./lib/systemd/system/systemd-poweroff.service
 -rw-r--r-- root       root              618 ./lib/systemd/system/systemd-quotacheck.service
 -rw-r--r-- root       root              717 ./lib/systemd/system/systemd-random-seed.service
@@ -254,7 +233,6 @@ lrwxrwxrwx root       root               30 ./lib/systemd/system/sysinit.target.
 -rw-r--r-- root       root              757 ./lib/systemd/system/systemd-remount-fs.service
 -rw-r--r-- root       root              696 ./lib/systemd/system/systemd-rfkill.service
 -rw-r--r-- root       root              617 ./lib/systemd/system/systemd-rfkill.socket
--rw-r--r-- root       root              497 ./lib/systemd/system/systemd-suspend.service
 -rw-r--r-- root       root              649 ./lib/systemd/system/systemd-sysctl.service
 -rw-r--r-- root       root              660 ./lib/systemd/system/systemd-sysusers.service
 -rw-r--r-- root       root              655 ./lib/systemd/system/systemd-timedated.service
@@ -275,30 +253,22 @@ lrwxrwxrwx root       root               31 ./lib/systemd/system/timers.target.w
 -rw-r--r-- root       root              392 ./lib/systemd/system/user.slice
 -rw-r--r-- root       root              510 ./lib/systemd/system/user@.service
 -rw-r--r-- root       root              475 ./lib/systemd/system/var-lib-machines.mount
--rwxr-xr-x root       root          1499336 ./lib/systemd/systemd
--rwxr-xr-x root       root            14632 ./lib/systemd/systemd-ac-power
--rwxr-xr-x root       root            51680 ./lib/systemd/systemd-activate
+-rwxr-xr-x root       root          1499320 ./lib/systemd/systemd
 -rwxr-xr-x root       root            92792 ./lib/systemd/systemd-backlight
 -rwxr-xr-x root       root           101024 ./lib/systemd/systemd-bootchart
--rwxr-xr-x root       root           359672 ./lib/systemd/systemd-bus-proxyd
--rwxr-xr-x root       root           273656 ./lib/systemd/systemd-cgroups-agent
 -rwxr-xr-x root       root           307120 ./lib/systemd/systemd-fsck
 -rwxr-xr-x root       root            31200 ./lib/systemd/systemd-hibernate-resume
 -rwxr-xr-x root       root           335096 ./lib/systemd/systemd-hostnamed
--rwxr-xr-x root       root           277744 ./lib/systemd/systemd-initctl
 -rwxr-xr-x root       root           305784 ./lib/systemd/systemd-journald
 -rwxr-xr-x root       root           347384 ./lib/systemd/systemd-localed
--rwxr-xr-x root       root           610232 ./lib/systemd/systemd-logind
+-rwxr-xr-x root       root           606136 ./lib/systemd/systemd-logind
 -rwxr-xr-x root       root           487352 ./lib/systemd/systemd-machined
 -rwxr-xr-x root       root            51832 ./lib/systemd/systemd-modules-load
 -rwxr-xr-x root       root            35360 ./lib/systemd/systemd-quotacheck
 -rwxr-xr-x root       root            35296 ./lib/systemd/systemd-random-seed
 -rwxr-xr-x root       root            51840 ./lib/systemd/systemd-remount-fs
--rwxr-xr-x root       root            31200 ./lib/systemd/systemd-reply-password
 -rwxr-xr-x root       root            92784 ./lib/systemd/systemd-rfkill
 -rwxr-xr-x root       root           141960 ./lib/systemd/systemd-shutdown
--rwxr-xr-x root       root            72304 ./lib/systemd/systemd-sleep
--rwxr-xr-x root       root            92792 ./lib/systemd/systemd-socket-proxyd
 -rwxr-xr-x root       root            51824 ./lib/systemd/systemd-sysctl
 -rwxr-xr-x root       root             1246 ./lib/systemd/systemd-sysv-install
 -rwxr-xr-x root       root           331736 ./lib/systemd/systemd-timedated
@@ -306,20 +276,10 @@ lrwxrwxrwx root       root               31 ./lib/systemd/system/timers.target.w
 -rwxr-xr-x root       root            31192 ./lib/systemd/systemd-update-done
 -rwxr-xr-x root       root           277752 ./lib/systemd/systemd-update-utmp
 drwxr-xr-x root       root              100 ./usr
-drwxr-xr-x root       root              320 ./usr/bin
--rwxr-xr-x root       root            76256 ./usr/bin/bootctl
+drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root           371952 ./usr/bin/busctl
 -rwxr-xr-x root       root           290032 ./usr/bin/hostnamectl
 -rwxr-xr-x root       root           298232 ./usr/bin/localectl
--rwxr-xr-x root       root            35288 ./usr/bin/systemd-cat
--rwxr-xr-x root       root           294136 ./usr/bin/systemd-cgls
--rwxr-xr-x root       root           306512 ./usr/bin/systemd-cgtop
--rwxr-xr-x root       root            64112 ./usr/bin/systemd-delta
--rwxr-xr-x root       root            35288 ./usr/bin/systemd-detect-virt
--rwxr-xr-x root       root           573096 ./usr/bin/systemd-nspawn
--rwxr-xr-x root       root            43480 ./usr/bin/systemd-path
--rwxr-xr-x root       root           368184 ./usr/bin/systemd-run
--rwxr-xr-x root       root           351480 ./usr/bin/systemd-stdio-bridge
 -rwxr-xr-x root       root           302336 ./usr/bin/timedatectl
 drwxr-xr-x root       root              180 ./usr/lib
 -rwxr-xr-x root       root            72088 ./usr/lib/libnss_myhostname.so.2
@@ -361,38 +321,17 @@ lrwxrwxrwx root       root               44 ./usr/lib/systemd/user/timers.target
 drwxr-xr-x root       root               80 ./usr/lib/sysusers.d
 -rw-r--r-- root       root             1105 ./usr/lib/sysusers.d/basic.conf
 -rw-r--r-- root       root              411 ./usr/lib/sysusers.d/systemd.conf
-drwxr-xr-x root       root              240 ./usr/lib/tmpfiles.d
+drwxr-xr-x root       root              220 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root              541 ./usr/lib/tmpfiles.d/etc.conf
 -rw-r--r-- root       root              362 ./usr/lib/tmpfiles.d/home.conf
 -rw-r--r-- root       root             1098 ./usr/lib/tmpfiles.d/journal-nocow.conf
 -rw-r--r-- root       root             1181 ./usr/lib/tmpfiles.d/legacy.conf
 -rw-r--r-- root       root              496 ./usr/lib/tmpfiles.d/systemd-nologin.conf
--rw-r--r-- root       root              981 ./usr/lib/tmpfiles.d/systemd-nspawn.conf
 -rw-r--r-- root       root             1278 ./usr/lib/tmpfiles.d/systemd.conf
 -rw-r--r-- root       root              638 ./usr/lib/tmpfiles.d/tmp.conf
 -rw-r--r-- root       root              532 ./usr/lib/tmpfiles.d/var.conf
 -rw-r--r-- root       root              623 ./usr/lib/tmpfiles.d/x11.conf
-drwxr-xr-x root       root              140 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/bash-completion
-drwxr-xr-x root       root              400 ./usr/share/bash-completion/completions
--rw-r--r-- root       root             1836 ./usr/share/bash-completion/completions/bootctl
--rw-r--r-- root       root             7723 ./usr/share/bash-completion/completions/busctl
--rw-r--r-- root       root             2226 ./usr/share/bash-completion/completions/hostnamectl
--rw-r--r-- root       root             5812 ./usr/share/bash-completion/completions/journalctl
--rw-r--r-- root       root             1792 ./usr/share/bash-completion/completions/kernel-install
--rw-r--r-- root       root             3436 ./usr/share/bash-completion/completions/localectl
--rw-r--r-- root       root             4127 ./usr/share/bash-completion/completions/loginctl
--rw-r--r-- root       root             3503 ./usr/share/bash-completion/completions/machinectl
--rw-r--r-- root       root            12309 ./usr/share/bash-completion/completions/systemctl
--rw-r--r-- root       root             4028 ./usr/share/bash-completion/completions/systemd-analyze
--rw-r--r-- root       root             1912 ./usr/share/bash-completion/completions/systemd-cat
--rw-r--r-- root       root             1792 ./usr/share/bash-completion/completions/systemd-cgls
--rw-r--r-- root       root             2097 ./usr/share/bash-completion/completions/systemd-cgtop
--rw-r--r-- root       root             1952 ./usr/share/bash-completion/completions/systemd-delta
--rw-r--r-- root       root             1317 ./usr/share/bash-completion/completions/systemd-detect-virt
--rw-r--r-- root       root             5895 ./usr/share/bash-completion/completions/systemd-nspawn
--rw-r--r-- root       root             4742 ./usr/share/bash-completion/completions/systemd-run
--rw-r--r-- root       root             2580 ./usr/share/bash-completion/completions/timedatectl
+drwxr-xr-x root       root              120 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/services
 lrwxrwxrwx root       root               51 ./usr/share/dbus-1/services/org.freedesktop.systemd1.service -> ../system-services/org.freedesktop.systemd1.service

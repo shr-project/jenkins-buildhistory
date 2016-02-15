@@ -1,9 +1,9 @@
 PV = 2.0.10
 PR = r2
-PKGR = r2.6
+PKGR = r2.7
 PKG = libsdl-ttf-2.0-0
 RPROVIDES = 2.0.10 libsdl-ttf
-RDEPENDS = freetype (>= 2.6.2) glibc (>= 2.22) libsdl (>= 1.2.15)
+RDEPENDS = freetype (>= 2.6.3) glibc (>= 2.22) libsdl (>= 1.2.15)
 RRECOMMENDS = 
 PKGSIZE = 24840
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libsdl-ttf /usr/lib/libsdl-ttf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
