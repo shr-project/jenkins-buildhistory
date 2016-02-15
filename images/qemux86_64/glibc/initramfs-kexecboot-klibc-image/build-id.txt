@@ -1,7 +1,7 @@
 qemux86-64: initramfs-kexecboot-klibc-image configured for nodistro nodistro.0
 
 Build Configuration:
-BB_VERSION        = "1.28.0"
+BB_VERSION        = "1.29.0"
 BUILD_SYS         = "x86_64-linux"
 NATIVELSBSTRING   = "Ubuntu-14.04"
 TARGET_SYS        = "x86_64-oe-linux"
@@ -36,5 +36,5 @@ meta-openmoko
 meta-samsung      = "jansa/master:49e8a456ac714cb9c45d74419cafbea013bf3760"
 meta-browser      = "jansa/master:b6d46d69a261fe6bd7c1e9811dc2a9bbd0b79aeb"
 meta-qt5          = "jansa/master:909858baf064216a3b221edb59b40cc93d536a44"
-meta              = "jansa/master:2f26ee94c9950e164820558eb8fd56b0387bd5b3"
+meta              = "jansa/master:33aed58299a0833bd846f63025761eda575f2ec4"
 
