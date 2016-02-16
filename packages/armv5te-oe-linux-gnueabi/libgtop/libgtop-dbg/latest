@@ -1,8 +1,8 @@
 PV = 2.30.0
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libgtop-2.0-dbg
-RPROVIDES = 2.30.0 libgtop-dbg
+RPROVIDES = libgtop-dbg (=2.30.0)
 RDEPENDS = 
 RRECOMMENDS = glib-2.0-dbg glibc-dbg libpcre-dbg libxau-dbg
 PKGSIZE = 601789

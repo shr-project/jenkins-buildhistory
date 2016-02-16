@@ -1,8 +1,8 @@
 PV = 1.4.3
 PR = r2
-PKGR = r2.10
+PKGR = r2.11
 PKG = libloudmouth-1-dbg
-RPROVIDES = 1.4.3 loudmouth-dbg
+RPROVIDES = loudmouth-dbg (=1.4.3)
 RDEPENDS = 
 RRECOMMENDS = glib-2.0-dbg glibc-dbg libcrypto-dbg libidn-dbg libpcre-dbg libssl-dbg
 PKGSIZE = 614924

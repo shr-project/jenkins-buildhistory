@@ -1,8 +1,8 @@
 PV = 0.13.4
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 PKG = libpciaccess0
-RPROVIDES = 0.13.4 libpciaccess
+RPROVIDES = libpciaccess (=0.13.4)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 20542

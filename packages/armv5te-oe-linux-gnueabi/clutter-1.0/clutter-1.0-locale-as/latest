@@ -1,8 +1,8 @@
 PV = 1.24.2
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libclutter-1.0-locale-as
-RPROVIDES = 1.24.2 as-translation clutter-1.0-locale clutter-1.0-locale-as
+RPROVIDES = as-translation clutter-1.0-locale clutter-1.0-locale-as (=1.24.2)
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-as
 PKGSIZE = 75615

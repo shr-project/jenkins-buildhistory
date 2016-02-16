@@ -1,8 +1,8 @@
 PV = 3.2.2-15
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libapm1
-RPROVIDES = 3.2.2-15 libapm
+RPROVIDES = libapm (=3.2.2-15)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 8987

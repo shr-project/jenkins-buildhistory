@@ -1,8 +1,8 @@
 PV = 1.1.6
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libfluidsynth-bin
-RPROVIDES = 1.1.6 fluidsynth-bin
+RPROVIDES = fluidsynth-bin (=1.1.6)
 RDEPENDS = fluidsynth (>= 1.1.6) glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 17656

@@ -1,8 +1,8 @@
 PV = 1.5.4
 PR = r1
-PKGR = r1.11
+PKGR = r1.12
 PKG = libaprutil-1-doc
-RPROVIDES = 1.5.4 apr-util-doc
+RPROVIDES = apr-util-doc (=1.5.4)
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 0

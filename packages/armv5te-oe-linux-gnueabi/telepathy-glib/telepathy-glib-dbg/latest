@@ -1,8 +1,8 @@
 PV = 0.24.0
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libtelepathy-glib-dbg
-RPROVIDES = 0.24.0 telepathy-glib-dbg
+RPROVIDES = telepathy-glib-dbg (=0.24.0)
 RDEPENDS = 
 RRECOMMENDS = dbus-glib-dbg dbus-lib-dbg glib-2.0-dbg glibc-dbg libcap-dbg libffi-dbg liblzma-dbg libpcre-dbg libsystemd-dbg zlib-dbg
 PKGSIZE = 12446423

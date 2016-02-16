@@ -1,8 +1,8 @@
 PV = 9.4.5
 PR = r0.0
-PKGR = r0.0.9
+PKGR = r0.0.10
 PKG = libecpg-compat3
-RPROVIDES = 9.4.5 libecpg-compat
+RPROVIDES = libecpg-compat (=9.4.5)
 RDEPENDS = glibc (>= 2.22) libecpg (>= 9.4.5) libpgtypes (>= 9.4.5)
 RRECOMMENDS = 
 PKGSIZE = 20289

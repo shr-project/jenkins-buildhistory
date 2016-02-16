@@ -1,8 +1,8 @@
 PV = 1.2.b
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libminini0
-RPROVIDES = 1.2.b minini
+RPROVIDES = minini (=1.2.b)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 12008

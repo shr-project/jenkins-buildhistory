@@ -1,8 +1,8 @@
 PV = 2.5.8
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libgphoto2-port12
-RPROVIDES = 2.5.8 libgphotoport
+RPROVIDES = libgphotoport (=2.5.8)
 RDEPENDS = glibc (>= 2.22) libltdl (>= 2.4.6)
 RRECOMMENDS = 
 PKGSIZE = 30169

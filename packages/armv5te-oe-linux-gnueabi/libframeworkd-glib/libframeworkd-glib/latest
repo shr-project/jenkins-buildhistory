@@ -2,9 +2,9 @@ PE = 1
 PV = 0.0.1+gitrAUTOINC+d710365454
 PR = r0
 PKGV = 0.0.1+gitr0+d710365454
-PKGR = r0.9
+PKGR = r0.10
 PKG = libframeworkd-glib0
-RPROVIDES = 0.0.1+gitr0+d710365454 libframeworkd-glib
+RPROVIDES = libframeworkd-glib (=0.0.1+gitr0+d710365454)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 93083

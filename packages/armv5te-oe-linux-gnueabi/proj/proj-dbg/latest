@@ -1,8 +1,8 @@
 PV = 4.8.0
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libproj-dbg
-RPROVIDES = 4.8.0 proj-dbg
+RPROVIDES = proj-dbg (=4.8.0)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 1597729

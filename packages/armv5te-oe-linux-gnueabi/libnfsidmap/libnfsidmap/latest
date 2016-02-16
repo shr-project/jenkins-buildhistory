@@ -1,8 +1,8 @@
 PV = 0.25
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libnfsidmap0
-RPROVIDES = 0.25 libnfsidmap
+RPROVIDES = libnfsidmap (=0.25)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 32543

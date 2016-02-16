@@ -1,8 +1,8 @@
 PV = 1.0.20
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 PKG = libusb-1.0-dbg
-RPROVIDES = 1.0.20 libusb1-dbg
+RPROVIDES = libusb1-dbg (=1.0.20)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 679972

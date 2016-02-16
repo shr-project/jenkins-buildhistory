@@ -1,8 +1,8 @@
 PV = 2.22
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 PKG = libc6-pic
-RPROVIDES = 2.22 eglibc-pic glibc-pic
+RPROVIDES = eglibc-pic glibc-pic (=2.22)
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 29364232

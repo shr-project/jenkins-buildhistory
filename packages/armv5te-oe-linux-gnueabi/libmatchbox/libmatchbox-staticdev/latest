@@ -1,9 +1,9 @@
 PV = 1.11
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libmb-staticdev
-RPROVIDES = 1.11 libmatchbox-staticdev
-RDEPENDS = libmatchbox-dev (= 1.11-r0.11)
+RPROVIDES = libmatchbox-staticdev (=1.11)
+RDEPENDS = libmatchbox-dev (= 1.11-r0.12)
 RRECOMMENDS = 
 PKGSIZE = 378798
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libmatchbox/*.a

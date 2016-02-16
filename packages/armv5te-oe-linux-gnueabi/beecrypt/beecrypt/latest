@@ -1,8 +1,8 @@
 PV = 4.2.1
 PR = r3
-PKGR = r3.12
+PKGR = r3.13
 PKG = libbeecrypt7
-RPROVIDES = 4.2.1 beecrypt
+RPROVIDES = beecrypt (=4.2.1)
 RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 207460

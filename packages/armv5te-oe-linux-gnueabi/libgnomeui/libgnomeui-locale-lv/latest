@@ -1,8 +1,8 @@
 PV = 2.24.3
 PR = r1
-PKGR = r1.11
+PKGR = r1.12
 PKG = libgnomeui-2-locale-lv
-RPROVIDES = 2.24.3 libgnomeui-locale libgnomeui-locale-lv lv-translation
+RPROVIDES = libgnomeui-locale libgnomeui-locale-lv (=2.24.3) lv-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-lv
 PKGSIZE = 23430

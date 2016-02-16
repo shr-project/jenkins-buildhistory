@@ -1,8 +1,8 @@
 PV = 1.6.21
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = libpng16-dbg
-RPROVIDES = 1.6.21 libpng-dbg
+RPROVIDES = libpng-dbg (=1.6.21)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg zlib-dbg
 PKGSIZE = 1998235

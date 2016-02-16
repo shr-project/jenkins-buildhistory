@@ -1,8 +1,8 @@
 PV = 0.4.0
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libxcb-keysyms-dbg
-RPROVIDES = 0.4.0 xcb-util-keysyms-dbg
+RPROVIDES = xcb-util-keysyms-dbg (=0.4.0)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libxau-dbg libxcb-dbg libxdmcp-dbg
 PKGSIZE = 34173

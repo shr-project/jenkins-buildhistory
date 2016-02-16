@@ -1,9 +1,9 @@
 PV = 2.1.0-20+gitAUTOINC+b293a3f8b0
 PR = r0
 PKGV = 2.1.0-20+git0+b293a3f8b0
-PKGR = r0.13
+PKGR = r0.14
 PKG = librolegen2
-RPROVIDES = 2.1.0-20+git0+b293a3f8b0 librolegen
+RPROVIDES = librolegen (=2.1.0-20+git0+b293a3f8b0)
 RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 17952

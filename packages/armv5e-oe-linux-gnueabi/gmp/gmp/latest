@@ -1,8 +1,8 @@
 PV = 6.1.0
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 PKG = libgmp10
-RPROVIDES = 6.1.0 gmp
+RPROVIDES = gmp (=6.1.0)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 380832

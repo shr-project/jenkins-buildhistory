@@ -1,8 +1,8 @@
 PV = 0.13.3
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libtorrent17
-RPROVIDES = 0.13.3 libtorrent
+RPROVIDES = libtorrent (=0.13.3)
 RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2f) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 710184

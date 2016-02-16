@@ -1,8 +1,8 @@
 PV = 0.7.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libmediaart-1.0-dbg
-RPROVIDES = 0.7.0 libmediaart-dbg
+RPROVIDES = libmediaart-dbg (=0.7.0)
 RDEPENDS = 
 RRECOMMENDS = gdk-pixbuf-dbg glib-2.0-dbg glibc-dbg libffi-dbg libpcre-dbg libpng-dbg zlib-dbg
 PKGSIZE = 241105

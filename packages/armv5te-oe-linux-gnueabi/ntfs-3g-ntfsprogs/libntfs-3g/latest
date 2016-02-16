@@ -1,8 +1,8 @@
 PV = 2013.1.13
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libntfs-3g84
-RPROVIDES = 2013.1.13 libntfs-3g
+RPROVIDES = libntfs-3g (=2013.1.13)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 245296

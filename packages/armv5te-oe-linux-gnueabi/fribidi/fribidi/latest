@@ -1,8 +1,8 @@
 PV = 0.19.2
 PR = r1
-PKGR = r1.13
+PKGR = r1.14
 PKG = libfribidi0
-RPROVIDES = 0.19.2 fribidi
+RPROVIDES = fribidi (=0.19.2)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 81103

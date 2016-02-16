@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.15.1
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libembryo-tests
-RPROVIDES = 1.15.1 embryo-tests
+RPROVIDES = embryo-tests (=1.15.1)
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 10370

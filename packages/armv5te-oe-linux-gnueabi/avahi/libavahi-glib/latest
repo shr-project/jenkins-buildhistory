@@ -1,8 +1,8 @@
 PV = 0.6.31
 PR = r11.1
-PKGR = r11.1.12
+PKGR = r11.1.13
 PKG = libavahi-glib1
-RPROVIDES = 0.6.31 libavahi-glib
+RPROVIDES = libavahi-glib (=0.6.31)
 RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.22) libavahi-common (>= 0.6.31) libpcre (>= 8.38)
 RRECOMMENDS = 
 PKGSIZE = 8822

@@ -1,8 +1,8 @@
 PV = 1.3
 PR = r1
-PKGR = r1.10
+PKGR = r1.11
 PKG = libflite1
-RPROVIDES = 1.3 libflite-alsa
+RPROVIDES = libflite-alsa (=1.3)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 4570966

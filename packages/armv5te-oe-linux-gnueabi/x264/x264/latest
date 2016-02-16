@@ -1,9 +1,9 @@
 PV = r2491+gitAUTOINC+c8a773ebfc
 PR = r0
 PKGV = r2491+git0+c8a773ebfc
-PKGR = r0.13
+PKGR = r0.14
 PKG = libx264-144
-RPROVIDES = r2491+git0+c8a773ebfc x264
+RPROVIDES = x264 (=r2491+git0+c8a773ebfc)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 621724

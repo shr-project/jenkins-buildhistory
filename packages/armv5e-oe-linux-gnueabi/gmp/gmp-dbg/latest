@@ -1,8 +1,8 @@
 PV = 6.1.0
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 PKG = libgmp-dbg
-RPROVIDES = 6.1.0 gmp-dbg
+RPROVIDES = gmp-dbg (=6.1.0)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
 PKGSIZE = 4066791

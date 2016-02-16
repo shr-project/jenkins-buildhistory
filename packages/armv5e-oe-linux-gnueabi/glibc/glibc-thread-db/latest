@@ -1,8 +1,8 @@
 PV = 2.22
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 PKG = libc6-thread-db
-RPROVIDES = 2.22 eglibc-thread-db glibc-thread-db
+RPROVIDES = eglibc-thread-db glibc-thread-db (=2.22)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 26379

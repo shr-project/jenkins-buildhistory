@@ -1,10 +1,10 @@
-PV = 4.4+gitAUTOINC+dc760c3189_f7bc1fb5f4
+PV = 4.4.1+gitAUTOINC+4940c6e551_fae04a40c8
 PR = r0
-PKGV = 4.4+git1+dc760c3189_f7bc1fb5f4
-PKGR = r0.13
+PKGV = 4.4.1+git0+4940c6e551_fae04a40c8
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.0-yocto-standard kernel-module-nf-conntrack kernel-module-nf-conntrack-proto-gre
+RDEPENDS = kernel-4.4.1-yocto-standard kernel-module-nf-conntrack kernel-module-nf-conntrack-proto-gre
 RRECOMMENDS = 
 PKGSIZE = 10084
-FILES = /lib/modules/4.4.0-yocto-standard/kernel/net/netfilter/nf_conntrack_pptp.ko /etc/modules-load.d/nf_conntrack_pptp.conf /etc/modprobe.d/nf_conntrack_pptp.conf
-FILELIST = /lib/modules/4.4.0-yocto-standard/kernel/net/netfilter/nf_conntrack_pptp.ko
+FILES = /lib/modules/4.4.1-yocto-standard/kernel/net/netfilter/nf_conntrack_pptp.ko /etc/modules-load.d/nf_conntrack_pptp.conf /etc/modprobe.d/nf_conntrack_pptp.conf
+FILELIST = /lib/modules/4.4.1-yocto-standard/kernel/net/netfilter/nf_conntrack_pptp.ko

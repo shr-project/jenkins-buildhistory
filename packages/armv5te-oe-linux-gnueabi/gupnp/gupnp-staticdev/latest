@@ -1,9 +1,9 @@
 PV = 0.20.14
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 PKG = libgupnp-1.0-staticdev
-RPROVIDES = 0.20.14 gupnp-staticdev
-RDEPENDS = gupnp-dev (= 0.20.14-r0.4)
+RPROVIDES = gupnp-staticdev (=0.20.14)
+RDEPENDS = gupnp-dev (= 0.20.14-r0.5)
 RRECOMMENDS = 
 PKGSIZE = 992712
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/gupnp/*.a

@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.15.1
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = efl-libeolian
-RPROVIDES = 1.15.1 efl-eolian
+RPROVIDES = efl-eolian (=1.15.1)
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 518825

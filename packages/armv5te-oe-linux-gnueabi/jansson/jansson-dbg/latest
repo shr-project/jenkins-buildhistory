@@ -1,8 +1,8 @@
 PV = 2.4
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libjansson-dbg
-RPROVIDES = 2.4 jansson-dbg
+RPROVIDES = jansson-dbg (=2.4)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 233011

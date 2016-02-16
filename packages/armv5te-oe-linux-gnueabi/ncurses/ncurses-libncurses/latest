@@ -1,8 +1,8 @@
 PV = 6.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libncurses5
-RPROVIDES = 6.0 ncurses-libncurses
+RPROVIDES = ncurses-libncurses (=6.0)
 RDEPENDS = glibc (>= 2.22) ncurses-libtinfo (>= 6.0)
 RRECOMMENDS = 
 PKGSIZE = 101129

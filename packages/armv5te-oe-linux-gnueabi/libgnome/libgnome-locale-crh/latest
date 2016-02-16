@@ -1,8 +1,8 @@
 PV = 2.32.1
 PR = r2
-PKGR = r2.12
+PKGR = r2.13
 PKG = libgnome-2-locale-crh
-RPROVIDES = 2.32.1 crh-translation libgnome-locale libgnome-locale-crh
+RPROVIDES = crh-translation libgnome-locale libgnome-locale-crh (=2.32.1)
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-crh
 PKGSIZE = 32422

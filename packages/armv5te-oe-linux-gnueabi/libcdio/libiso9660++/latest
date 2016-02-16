@@ -1,8 +1,8 @@
 PV = 0.93
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libiso9660++0
-RPROVIDES = 0.93 libiso9660++
+RPROVIDES = libiso9660++ (=0.93)
 RDEPENDS = glibc (>= 2.22) libcdio (>= 0.93) libgcc (>= 5.3.0) libiso9660 (>= 0.93) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 8513

@@ -1,8 +1,8 @@
 PV = 4.60.1
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libwavpack-dbg
-RPROVIDES = 4.60.1 wavpack-dbg
+RPROVIDES = wavpack-dbg (=4.60.1)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 1316020

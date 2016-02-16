@@ -1,8 +1,8 @@
 PV = 0.10.1
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libgoffice-0.10-locale-nb
-RPROVIDES = 0.10.1 goffice-locale goffice-locale-nb nb-translation
+RPROVIDES = goffice-locale goffice-locale-nb (=0.10.1) nb-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-nb
 PKGSIZE = 69102
