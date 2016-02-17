@@ -1,8 +1,8 @@
 PV = 0.6.31
 PR = r11.1
-PKGR = r11.1.8
+PKGR = r11.1.9
 PKG = libavahi-client3
-RPROVIDES = 0.6.31 libavahi-client
+RPROVIDES = libavahi-client (=0.6.31)
 RDEPENDS = dbus-lib (>= 1.10.6) glibc (>= 2.22) libavahi-common (>= 0.6.31) libcap (>= 2.24) liblzma (>= 5.2.2) libsystemd (>= 228+git0+dd050decb6)
 RRECOMMENDS = 
 PKGSIZE = 75044

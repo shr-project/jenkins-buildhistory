@@ -1,8 +1,8 @@
 PV = 1.6.1
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libpocoxml31
-RPROVIDES = 1.6.1 poco-xml
+RPROVIDES = poco-xml (=1.6.1)
 RDEPENDS = expat (>= 2.1.0) glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) poco-foundation (>= 1.6.1)
 RRECOMMENDS = 
 PKGSIZE = 481480

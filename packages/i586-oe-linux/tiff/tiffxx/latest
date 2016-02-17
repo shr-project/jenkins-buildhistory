@@ -1,8 +1,8 @@
 PV = 4.0.6
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libtiffxx5
-RPROVIDES = 4.0.6 tiffxx
+RPROVIDES = tiffxx (=4.0.6)
 RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libjpeg-turbo (>= 8d+1.4.2) liblzma (>= 5.2.2) libstdc++ (>= 5.3.0) tiff (>= 4.0.6) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 8438

@@ -1,8 +1,8 @@
 PV = 2.22
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libc6
-RPROVIDES = 2.22 GNU HASH eglibc glibc rtld
+RPROVIDES = GNU HASH eglibc glibc (=2.22) rtld
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 3189220

@@ -1,8 +1,8 @@
 PV = 4.7
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libtasn1-6
-RPROVIDES = 4.7 libtasn1
+RPROVIDES = libtasn1 (=4.7)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 77109

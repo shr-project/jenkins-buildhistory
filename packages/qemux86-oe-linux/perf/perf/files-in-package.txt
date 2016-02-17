@@ -3,8 +3,8 @@ drwxr-xr-x root       root               60 ./etc/bash_completion.d
 -rwxr-xr-x root       root             5466 ./etc/bash_completion.d/perf
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root          1265696 ./usr/bin/perf
--rwxr-xr-x root       root          1265696 ./usr/bin/trace
+-rwxr-xr-x root       root          1636832 ./usr/bin/perf
+-rwxr-xr-x root       root          1636832 ./usr/bin/trace
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/traceevent
 drwxr-xr-x root       root              240 ./usr/lib/traceevent/plugins
@@ -13,7 +13,7 @@ drwxr-xr-x root       root              240 ./usr/lib/traceevent/plugins
 -rwxr-xr-x root       root             3116 ./usr/lib/traceevent/plugins/plugin_hrtimer.so
 -rwxr-xr-x root       root             2532 ./usr/lib/traceevent/plugins/plugin_jbd2.so
 -rwxr-xr-x root       root             3204 ./usr/lib/traceevent/plugins/plugin_kmem.so
--rwxr-xr-x root       root            10816 ./usr/lib/traceevent/plugins/plugin_kvm.so
+-rwxr-xr-x root       root            11040 ./usr/lib/traceevent/plugins/plugin_kvm.so
 -rwxr-xr-x root       root             4372 ./usr/lib/traceevent/plugins/plugin_mac80211.so
 -rwxr-xr-x root       root             4312 ./usr/lib/traceevent/plugins/plugin_sched_switch.so
 -rwxr-xr-x root       root             6036 ./usr/lib/traceevent/plugins/plugin_scsi.so
@@ -21,7 +21,7 @@ drwxr-xr-x root       root              240 ./usr/lib/traceevent/plugins
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root              120 ./usr/libexec/perf-core
 -rwxr-xr-x root       root             1298 ./usr/libexec/perf-core/perf-archive
--rwxr-xr-x root       root             6842 ./usr/libexec/perf-core/perf-with-kcore
+-rwxr-xr-x root       root             6894 ./usr/libexec/perf-core/perf-with-kcore
 drwxr-xr-x root       root               80 ./usr/libexec/perf-core/scripts
 drwxr-xr-x root       root              200 ./usr/libexec/perf-core/scripts/perl
 drwxr-xr-x root       root               60 ./usr/libexec/perf-core/scripts/perl/Perf-Trace-Util
@@ -49,7 +49,7 @@ drwxr-xr-x root       root              260 ./usr/libexec/perf-core/scripts/perl
 -rwxr-xr-x root       root             5206 ./usr/libexec/perf-core/scripts/perl/rw-by-pid.pl
 -rwxr-xr-x root       root             4570 ./usr/libexec/perf-core/scripts/perl/rwtop.pl
 -rwxr-xr-x root       root             2784 ./usr/libexec/perf-core/scripts/perl/wakeup-latency.pl
-drwxr-xr-x root       root              300 ./usr/libexec/perf-core/scripts/python
+drwxr-xr-x root       root              340 ./usr/libexec/perf-core/scripts/python
 drwxr-xr-x root       root               60 ./usr/libexec/perf-core/scripts/python/Perf-Trace-Util
 drwxr-xr-x root       root               60 ./usr/libexec/perf-core/scripts/python/Perf-Trace-Util/lib
 drwxr-xr-x root       root               60 ./usr/libexec/perf-core/scripts/python/Perf-Trace-Util/lib/Perf
@@ -58,7 +58,9 @@ drwxr-xr-x root       root              120 ./usr/libexec/perf-core/scripts/pyth
 -rwxr-xr-x root       root             3596 ./usr/libexec/perf-core/scripts/python/Perf-Trace-Util/lib/Perf/Trace/EventClass.py
 -rwxr-xr-x root       root             5411 ./usr/libexec/perf-core/scripts/python/Perf-Trace-Util/lib/Perf/Trace/SchedGui.py
 -rwxr-xr-x root       root             1935 ./usr/libexec/perf-core/scripts/python/Perf-Trace-Util/lib/Perf/Trace/Util.py
-drwxr-xr-x root       root              440 ./usr/libexec/perf-core/scripts/python/bin
+drwxr-xr-x root       root              480 ./usr/libexec/perf-core/scripts/python/bin
+-rwxr-xr-x root       root              229 ./usr/libexec/perf-core/scripts/python/bin/compaction-times-record
+-rwxr-xr-x root       root              210 ./usr/libexec/perf-core/scripts/python/bin/compaction-times-report
 -rwxr-xr-x root       root              199 ./usr/libexec/perf-core/scripts/python/bin/event_analyzing_sample-record
 -rwxr-xr-x root       root              129 ./usr/libexec/perf-core/scripts/python/bin/event_analyzing_sample-report
 -rwxr-xr-x root       root              205 ./usr/libexec/perf-core/scripts/python/bin/export-to-postgresql-record
@@ -79,9 +81,11 @@ drwxr-xr-x root       root              440 ./usr/libexec/perf-core/scripts/pyth
 -rwxr-xr-x root       root              256 ./usr/libexec/perf-core/scripts/python/bin/syscall-counts-by-pid-report
 -rwxr-xr-x root       root              111 ./usr/libexec/perf-core/scripts/python/bin/syscall-counts-record
 -rwxr-xr-x root       root              241 ./usr/libexec/perf-core/scripts/python/bin/syscall-counts-report
+-rwxr-xr-x root       root            11125 ./usr/libexec/perf-core/scripts/python/call-graph-from-postgresql.py
 -rwxr-xr-x root       root             2539 ./usr/libexec/perf-core/scripts/python/check-perf-trace.py
+-rwxr-xr-x root       root             7950 ./usr/libexec/perf-core/scripts/python/compaction-times.py
 -rwxr-xr-x root       root             7393 ./usr/libexec/perf-core/scripts/python/event_analyzing_sample.py
--rwxr-xr-x root       root            16128 ./usr/libexec/perf-core/scripts/python/export-to-postgresql.py
+-rwxr-xr-x root       root            25591 ./usr/libexec/perf-core/scripts/python/export-to-postgresql.py
 -rwxr-xr-x root       root             2233 ./usr/libexec/perf-core/scripts/python/failed-syscalls-by-pid.py
 -rwxr-xr-x root       root             1508 ./usr/libexec/perf-core/scripts/python/futex-contention.py
 -rwxr-xr-x root       root             1749 ./usr/libexec/perf-core/scripts/python/net_dropmonitor.py

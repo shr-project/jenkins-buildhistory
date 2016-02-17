@@ -1,9 +1,9 @@
 PE = 1
 PV = 3.2.25
 PR = r1
-PKGR = r1.9
+PKGR = r1.10
 PKG = libnl-idiag-3-200
-RPROVIDES = 3.2.25 libnl-idiag
+RPROVIDES = libnl-idiag (=3.2.25)
 RDEPENDS = glibc (>= 2.22) libnl (>= 3.2.25)
 RRECOMMENDS = 
 PKGSIZE = 28645

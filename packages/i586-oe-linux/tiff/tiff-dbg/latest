@@ -1,8 +1,8 @@
 PV = 4.0.6
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libtiff-dbg
-RPROVIDES = 4.0.6 tiff-dbg
+RPROVIDES = tiff-dbg (=4.0.6)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libgcc-dbg libjpeg-turbo-dbg liblzma-dbg libstdc++-dbg zlib-dbg
 PKGSIZE = 3801891

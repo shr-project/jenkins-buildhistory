@@ -1,8 +1,8 @@
 PV = 1.3
 PR = r1
-PKGR = r1.9
+PKGR = r1.10
 PKG = libflite-cmu-us-kal1
-RPROVIDES = 1.3 libflite-alsa-vox8
+RPROVIDES = libflite-alsa-vox8 (=1.3)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 1976898

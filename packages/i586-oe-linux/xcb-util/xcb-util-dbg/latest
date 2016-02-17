@@ -1,8 +1,8 @@
 PV = 0.4.0
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libxcb-util-dbg
-RPROVIDES = 0.4.0 xcb-util-dbg
+RPROVIDES = xcb-util-dbg (=0.4.0)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libxau-dbg libxcb-dbg libxdmcp-dbg
 PKGSIZE = 48892

@@ -1,8 +1,8 @@
 PV = 2.0.3
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libcmpicppimpl-dbg
-RPROVIDES = 2.0.3 sblim-cmpi-devel-dbg
+RPROVIDES = sblim-cmpi-devel-dbg (=2.0.3)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
 PKGSIZE = 405701

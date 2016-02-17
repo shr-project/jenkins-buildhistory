@@ -1,8 +1,8 @@
 PV = 1.0.6
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libesmtp6
-RPROVIDES = 1.0.6 libesmtp
+RPROVIDES = libesmtp (=1.0.6)
 RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2f) libssl (>= 1.0.2f)
 RRECOMMENDS = 
 PKGSIZE = 101273

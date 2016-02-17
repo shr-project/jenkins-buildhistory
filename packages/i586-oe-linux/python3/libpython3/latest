@@ -1,8 +1,8 @@
 PV = 3.5.1
 PR = r1.0
-PKGR = r1.0.5
+PKGR = r1.0.6
 PKG = libpython3.5m1.0
-RPROVIDES = 3.5.1 libpython3
+RPROVIDES = libpython3 (=3.5.1)
 RDEPENDS = glibc (>= 2.22) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 2769804

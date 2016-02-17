@@ -1,8 +1,8 @@
 PV = 6.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libpanel5
-RPROVIDES = 6.0 ncurses-libpanel
+RPROVIDES = ncurses-libpanel (=6.0)
 RDEPENDS = glibc (>= 2.22) ncurses-libncurses (>= 6.0) ncurses-libtinfo (>= 6.0)
 RRECOMMENDS = 
 PKGSIZE = 11563

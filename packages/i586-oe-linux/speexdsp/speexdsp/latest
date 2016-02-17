@@ -1,8 +1,8 @@
 PV = 1.2rc3
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libspeexdsp1
-RPROVIDES = 1.2rc3 speexdsp
+RPROVIDES = speexdsp (=1.2rc3)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 RCONFLICTS = speex (< 1.2rc2)

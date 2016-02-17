@@ -1,9 +1,9 @@
 PV = 2.2.12
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libdm-staticdev
-RPROVIDES = 2.2.12 dmapi-staticdev
-RDEPENDS = dmapi-dev (= 2.2.12-r0.8)
+RPROVIDES = dmapi-staticdev (=2.2.12)
+RDEPENDS = dmapi-dev (= 2.2.12-r0.9)
 RRECOMMENDS = 
 PKGSIZE = 124672
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/dmapi/*.a

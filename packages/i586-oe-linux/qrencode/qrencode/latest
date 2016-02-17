@@ -1,9 +1,9 @@
 PV = 3.4.4+gitAUTOINC+1b565c7b59
 PR = r0
 PKGV = 3.4.4+git0+1b565c7b59
-PKGR = r0.9
+PKGR = r0.10
 PKG = libqrencode3
-RPROVIDES = 3.4.4+git0+1b565c7b59 qrencode
+RPROVIDES = qrencode (=3.4.4+git0+1b565c7b59)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 44948

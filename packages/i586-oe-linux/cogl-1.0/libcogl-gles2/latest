@@ -1,8 +1,8 @@
 PV = 1.22.0
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libcogl-gles2-20
-RPROVIDES = 1.22.0 libcogl-gles2
+RPROVIDES = libcogl-gles2 (=1.22.0)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 24311

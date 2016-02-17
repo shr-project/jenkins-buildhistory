@@ -1,8 +1,8 @@
 PV = 2.11.94
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libfontconfig-dbg
-RPROVIDES = 2.11.94 fontconfig-dbg
+RPROVIDES = fontconfig-dbg (=2.11.94)
 RDEPENDS = 
 RRECOMMENDS = expat-dbg freetype-dbg glibc-dbg zlib-dbg
 PKGSIZE = 1531420

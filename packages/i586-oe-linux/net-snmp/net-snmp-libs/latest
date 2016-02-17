@@ -1,8 +1,8 @@
 PV = 5.7.3
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libnetsnmp30
-RPROVIDES = 5.7.3 net-snmp-libs
+RPROVIDES = net-snmp-libs (=5.7.3)
 RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2f) libpci (>= 3.4.1)
 RRECOMMENDS = 
 PKGSIZE = 2862761

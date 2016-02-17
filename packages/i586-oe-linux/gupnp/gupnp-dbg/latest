@@ -1,8 +1,8 @@
 PV = 0.20.14
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libgupnp-1.0-dbg
-RPROVIDES = 0.20.14 gupnp-dbg
+RPROVIDES = gupnp-dbg (=0.20.14)
 RDEPENDS = 
 RRECOMMENDS = glib-2.0-dbg glibc-dbg gssdp-dbg libffi-dbg libpcre-dbg libsoup-2.4-dbg libsqlite3-dbg libxml2-dbg util-linux-libuuid-dbg zlib-dbg
 PKGSIZE = 1086842

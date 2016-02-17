@@ -1,8 +1,8 @@
 PV = 1.5.4
 PR = r1
-PKGR = r1.8
+PKGR = r1.9
 PKG = libaprutil-1-dbg
-RPROVIDES = 1.5.4 apr-util-dbg
+RPROVIDES = apr-util-dbg (=1.5.4)
 RDEPENDS = 
 RRECOMMENDS = apr-dbg expat-dbg gdbm-dbg glibc-dbg util-linux-libuuid-dbg
 PKGSIZE = 1073362

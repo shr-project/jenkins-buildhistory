@@ -1,8 +1,8 @@
 PV = 1.14.6
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libcairo-dbg
-RPROVIDES = 1.14.6 cairo-dbg
+RPROVIDES = cairo-dbg (=1.14.6)
 RDEPENDS = 
 RRECOMMENDS = expat-dbg fontconfig-dbg freetype-dbg glib-2.0-dbg glibc-dbg libffi-dbg libpcre-dbg libpng-dbg libx11-dbg libxau-dbg libxcb-dbg libxcb-render-dbg libxcb-shm-dbg libxdmcp-dbg libxext-dbg libxrender-dbg pixman-dbg zlib-dbg
 PKGSIZE = 9588044

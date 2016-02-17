@@ -1,8 +1,8 @@
 PV = 8.38
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libpcreposix0
-RPROVIDES = 8.38 libpcreposix
+RPROVIDES = libpcreposix (=8.38)
 RDEPENDS = glibc (>= 2.22) libpcre (>= 8.38)
 RRECOMMENDS = 
 PKGSIZE = 6797

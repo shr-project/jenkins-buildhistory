@@ -1,8 +1,8 @@
 PV = 2.22
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libc6-dbg
-RPROVIDES = 2.22 eglibc-dbg glibc-dbg libc-dbg
+RPROVIDES = eglibc-dbg glibc-dbg (=2.22) libc-dbg
 RDEPENDS = 
 RRECOMMENDS = 
 RREPLACES = libc-dbg

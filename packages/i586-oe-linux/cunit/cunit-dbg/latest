@@ -1,8 +1,8 @@
 PV = 2.1-3
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libcunit-dbg
-RPROVIDES = 2.1-3 cunit-dbg
+RPROVIDES = cunit-dbg (=2.1-3)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 481433

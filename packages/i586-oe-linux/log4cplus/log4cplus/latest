@@ -1,8 +1,8 @@
 PV = 1.1.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = liblog4cplus-1.1-7
-RPROVIDES = 1.1.1 log4cplus
+RPROVIDES = log4cplus (=1.1.1)
 RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 425425

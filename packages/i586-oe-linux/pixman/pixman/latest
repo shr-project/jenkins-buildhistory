@@ -1,9 +1,9 @@
 PE = 1
 PV = 0.32.8
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libpixman-1-0
-RPROVIDES = 0.32.8 pixman
+RPROVIDES = pixman (=0.32.8)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 746073

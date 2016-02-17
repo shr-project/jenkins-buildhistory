@@ -1,9 +1,9 @@
 PV = 1.2.8
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libz-staticdev
-RPROVIDES = 1.2.8 zlib-staticdev
-RDEPENDS = zlib-dev (= 1.2.8-r0.9)
+RPROVIDES = zlib-staticdev (=1.2.8)
+RDEPENDS = zlib-dev (= 1.2.8-r0.10)
 RRECOMMENDS = 
 PKGSIZE = 272946
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/zlib/*.a

@@ -1,8 +1,8 @@
 PV = 0.2.7
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libaudiofile0
-RPROVIDES = 0.2.7 audiofile
+RPROVIDES = audiofile (=0.2.7)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 173577

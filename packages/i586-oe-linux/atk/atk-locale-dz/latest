@@ -1,8 +1,8 @@
 PV = 2.18.0
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libatk-1.0-locale-dz
-RPROVIDES = 2.18.0 atk-locale atk-locale-dz dz-translation
+RPROVIDES = atk-locale atk-locale-dz (=2.18.0) dz-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-dz
 PKGSIZE = 15564

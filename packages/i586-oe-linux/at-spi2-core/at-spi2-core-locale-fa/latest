@@ -1,8 +1,8 @@
 PV = 2.18.3
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libatspi-locale-fa
-RPROVIDES = 2.18.3 at-spi2-core-locale at-spi2-core-locale-fa fa-translation
+RPROVIDES = at-spi2-core-locale at-spi2-core-locale-fa (=2.18.3) fa-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-fa
 PKGSIZE = 807

@@ -1,8 +1,8 @@
 PV = 1.3.3
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libksba8
-RPROVIDES = 1.3.3 libksba
+RPROVIDES = libksba (=1.3.3)
 RDEPENDS = glibc (>= 2.22) libgpg-error (>= 1.21)
 RRECOMMENDS = 
 PKGSIZE = 246461

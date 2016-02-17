@@ -1,9 +1,9 @@
 PE = 1
 PV = 1.2.2
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libsm6
-RPROVIDES = 1.2.2 libsm
+RPROVIDES = libsm (=1.2.2)
 RDEPENDS = glibc (>= 2.22) libice (>= 1.0.9)
 RRECOMMENDS = 
 PKGSIZE = 33202

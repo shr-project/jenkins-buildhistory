@@ -1,8 +1,8 @@
 PV = git
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libgstplayer-0.0-locale
-RPROVIDES = git gst-player-locale
+RPROVIDES = gst-player-locale (=git)
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 0

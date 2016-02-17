@@ -1,8 +1,8 @@
 PV = 2.18.8
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libgnomeprint-2-2-locale-gu
-RPROVIDES = 2.18.8 gu-translation libgnomeprint-locale libgnomeprint-locale-gu
+RPROVIDES = gu-translation libgnomeprint-locale libgnomeprint-locale-gu (=2.18.8)
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-gu
 PKGSIZE = 5503

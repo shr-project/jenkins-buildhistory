@@ -1,8 +1,8 @@
 PV = 1.6.2
 PR = r2
-PKGR = r2.9
+PKGR = r2.10
 PKG = libossp-uuid16
-RPROVIDES = 1.6.2 ossp-uuid
+RPROVIDES = ossp-uuid (=1.6.2)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 47911

@@ -1,8 +1,8 @@
 PV = 2.22.7
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libatkmm-1.6-dbg
-RPROVIDES = 2.22.7 atkmm-dbg
+RPROVIDES = atkmm-dbg (=2.22.7)
 RDEPENDS = 
 RRECOMMENDS = atk-dbg glib-2.0-dbg glibc-dbg glibmm-dbg libffi-dbg libgcc-dbg libpcre-dbg libsigc++-2.0-dbg libstdc++-dbg
 PKGSIZE = 1754208

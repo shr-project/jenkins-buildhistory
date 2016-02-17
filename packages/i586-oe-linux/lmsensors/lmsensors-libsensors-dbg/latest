@@ -1,8 +1,8 @@
 PV = 3.4.0
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libsensors-dbg
-RPROVIDES = 3.4.0 lmsensors-libsensors-dbg
+RPROVIDES = lmsensors-libsensors-dbg (=3.4.0)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg rrdtool-dbg
 PKGSIZE = 0

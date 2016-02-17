@@ -1,10 +1,10 @@
 PE = 1
 PV = 0.16.1
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libgee-0.8-staticdev
-RPROVIDES = 0.16.1 libgee-staticdev
-RDEPENDS = libgee-dev (= 1:0.16.1-r0.8)
+RPROVIDES = libgee-staticdev (=0.16.1)
+RDEPENDS = libgee-dev (= 1:0.16.1-r0.9)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libgee/*.a

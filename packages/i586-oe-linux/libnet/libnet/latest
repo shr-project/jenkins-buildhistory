@@ -1,8 +1,8 @@
 PV = 1.2-rc3
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libnet9
-RPROVIDES = 1.2-rc3 libnet
+RPROVIDES = libnet (=1.2-rc3)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 100463

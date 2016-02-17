@@ -2,7 +2,7 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              400 ./usr/bin/.debug
 -rwxr-xr-x root       root           181700 ./usr/bin/.debug/i586-oe-linux-addr2line
--rwxr-xr-x root       root           287120 ./usr/bin/.debug/i586-oe-linux-ar
+-rwxr-xr-x root       root           287104 ./usr/bin/.debug/i586-oe-linux-ar
 -rwxr-xr-x root       root          1305304 ./usr/bin/.debug/i586-oe-linux-as
 -rwxr-xr-x root       root           131956 ./usr/bin/.debug/i586-oe-linux-c++filt
 -rwxr-xr-x root       root         39784668 ./usr/bin/.debug/i586-oe-linux-dwp
@@ -14,7 +14,7 @@ drwxr-xr-x root       root              400 ./usr/bin/.debug
 -rwxr-xr-x root       root           190456 ./usr/bin/.debug/i586-oe-linux-nm
 -rwxr-xr-x root       root           725768 ./usr/bin/.debug/i586-oe-linux-objcopy
 -rwxr-xr-x root       root           932772 ./usr/bin/.debug/i586-oe-linux-objdump
--rwxr-xr-x root       root           287120 ./usr/bin/.debug/i586-oe-linux-ranlib
+-rwxr-xr-x root       root           287104 ./usr/bin/.debug/i586-oe-linux-ranlib
 -rwxr-xr-x root       root           625616 ./usr/bin/.debug/i586-oe-linux-readelf
 -rwxr-xr-x root       root           160516 ./usr/bin/.debug/i586-oe-linux-size
 -rwxr-xr-x root       root           159576 ./usr/bin/.debug/i586-oe-linux-strings
@@ -94,10 +94,11 @@ drwxr-xr-x root       root             1340 ./usr/src/debug/binutils/2.26-r0/git
 -rw-r--r-- root       root            27385 ./usr/src/debug/binutils/2.26-r0/git/bfd/tekhex.c
 -rw-r--r-- root       root             9687 ./usr/src/debug/binutils/2.26-r0/git/bfd/trad-core.c
 -rw-r--r-- root       root            10853 ./usr/src/debug/binutils/2.26-r0/git/bfd/verilog.c
-drwxr-xr-x root       root              860 ./usr/src/debug/binutils/2.26-r0/git/binutils
+drwxr-xr-x root       root              880 ./usr/src/debug/binutils/2.26-r0/git/binutils
 -rw-r--r-- root       root            13434 ./usr/src/debug/binutils/2.26-r0/git/binutils/addr2line.c
 -rw-r--r-- root       root            38676 ./usr/src/debug/binutils/2.26-r0/git/binutils/ar.c
 -rw-r--r-- root       root             2847 ./usr/src/debug/binutils/2.26-r0/git/binutils/arparse.h
+-rw-r--r-- root       root             3197 ./usr/src/debug/binutils/2.26-r0/git/binutils/arparse.y
 -rw-r--r-- root       root             9543 ./usr/src/debug/binutils/2.26-r0/git/binutils/arsup.c
 -rw-r--r-- root       root             1497 ./usr/src/debug/binutils/2.26-r0/git/binutils/arsup.h
 -rw-r--r-- root       root             3696 ./usr/src/debug/binutils/2.26-r0/git/binutils/binemul.c
@@ -136,11 +137,14 @@ drwxr-xr-x root       root              860 ./usr/src/debug/binutils/2.26-r0/git
 -rw-r--r-- root       root             1337 ./usr/src/debug/binutils/2.26-r0/git/binutils/unwind-ia64.h
 -rw-r--r-- root       root             1533 ./usr/src/debug/binutils/2.26-r0/git/binutils/version.c
 -rw-r--r-- root       root            56497 ./usr/src/debug/binutils/2.26-r0/git/binutils/wrstabs.c
-drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux
+drwxr-xr-x root       root              120 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux
 drwxr-xr-x root       root              100 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/bfd
 -rw-r--r-- root       root           251054 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/bfd/bfd.h
 -rw-r--r-- root       root            31943 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/bfd/elf32-target.h
 -rw-r--r-- root       root           138540 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/bfd/peigen.c
+drwxr-xr-x root       root               80 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/binutils
+-rw-r--r-- root       root            51439 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/binutils/arparse.c
+-rw-r--r-- root       root             2866 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/binutils/arparse.h
 drwxr-xr-x root       root               80 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/gold
 -rw-r--r-- root       root           133630 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/gold/yyscript.c
 -rw-r--r-- root       root             7455 ./usr/src/debug/binutils/2.26-r0/git/build.i586-oe-linux.i586-oe-linux/gold/yyscript.h

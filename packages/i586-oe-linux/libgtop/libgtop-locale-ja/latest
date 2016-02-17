@@ -1,8 +1,8 @@
 PV = 2.30.0
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libgtop-2.0-locale-ja
-RPROVIDES = 2.30.0 ja-translation libgtop-locale libgtop-locale-ja
+RPROVIDES = ja-translation libgtop-locale libgtop-locale-ja (=2.30.0)
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-ja
 PKGSIZE = 3432

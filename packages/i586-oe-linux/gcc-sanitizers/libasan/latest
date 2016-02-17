@@ -1,8 +1,8 @@
 PV = 5.3.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libasan2
-RPROVIDES = 5.3.0 libasan
+RPROVIDES = libasan (=5.3.0)
 RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 1060432

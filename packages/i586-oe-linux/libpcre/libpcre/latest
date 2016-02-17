@@ -1,8 +1,8 @@
 PV = 8.38
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libpcre1
-RPROVIDES = 8.38 libpcre
+RPROVIDES = libpcre (=8.38)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 280004

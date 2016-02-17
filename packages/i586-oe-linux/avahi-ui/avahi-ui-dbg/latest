@@ -1,8 +1,8 @@
 PV = 0.6.31
 PR = r11.0
-PKGR = r11.0.8
+PKGR = r11.0.9
 PKG = libavahi-ui-dbg
-RPROVIDES = 0.6.31 avahi-ui-dbg
+RPROVIDES = avahi-ui-dbg (=0.6.31)
 RDEPENDS = 
 RRECOMMENDS = atk-dbg cairo-dbg dbus-lib-dbg expat-dbg fontconfig-dbg freetype-dbg gdk-pixbuf-dbg glib-2.0-dbg glibc-dbg gtk+-dbg harfbuzz-dbg libavahi-client-dbg libavahi-common-dbg libavahi-core-dbg libavahi-glib-dbg libcap-dbg libffi-dbg liblzma-dbg libpcre-dbg libpng-dbg libsystemd-dbg libx11-dbg libxau-dbg libxcb-dbg libxcb-render-dbg libxcb-shm-dbg libxdmcp-dbg libxext-dbg libxrender-dbg pango-dbg pixman-dbg zlib-dbg
 PKGSIZE = 330835

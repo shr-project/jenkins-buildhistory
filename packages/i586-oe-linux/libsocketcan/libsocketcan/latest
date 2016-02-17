@@ -1,8 +1,8 @@
 PV = 0.0.9
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libsocketcan2
-RPROVIDES = 0.0.9 libsocketcan
+RPROVIDES = libsocketcan (=0.0.9)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 12593

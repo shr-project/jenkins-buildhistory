@@ -1,8 +1,8 @@
 PV = 1.2.12
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libsdl-image-1.2-dbg
-RPROVIDES = 1.2.12 libsdl-image-dbg
+RPROVIDES = libsdl-image-dbg (=1.2.12)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libjpeg-turbo-dbg liblzma-dbg libpng-dbg libsdl-dbg libx11-dbg libxau-dbg libxcb-dbg libxdmcp-dbg libxext-dbg libxrandr-dbg libxrender-dbg tiff-dbg zlib-dbg
 PKGSIZE = 302222

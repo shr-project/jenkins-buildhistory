@@ -1,8 +1,8 @@
 PV = 2.1.1
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libgd-dbg
-RPROVIDES = 2.1.1 gd-dbg
+RPROVIDES = gd-dbg (=2.1.1)
 RDEPENDS = 
 RRECOMMENDS = freetype-dbg glibc-dbg libjpeg-turbo-dbg liblzma-dbg libpng-dbg tiff-dbg zlib-dbg
 PKGSIZE = 1843447
