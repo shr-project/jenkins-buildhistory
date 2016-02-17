@@ -1,8 +1,8 @@
 PV = 3.4.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libsensors4
-RPROVIDES = 3.4.0 lmsensors-libsensors
+RPROVIDES = lmsensors-libsensors (=3.4.0)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = lmsensors-config-libsensors
 PKGSIZE = 73218

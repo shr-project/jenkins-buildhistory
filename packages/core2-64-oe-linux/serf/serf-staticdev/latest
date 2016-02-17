@@ -1,9 +1,9 @@
 PV = 1.3.8
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libserf-1-staticdev
-RPROVIDES = 1.3.8 serf-staticdev
-RDEPENDS = serf-dev (= 1.3.8-r0.7)
+RPROVIDES = serf-staticdev (=1.3.8)
+RDEPENDS = serf-dev (= 1.3.8-r0.8)
 RRECOMMENDS = 
 PKGSIZE = 953634
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/serf/*.a

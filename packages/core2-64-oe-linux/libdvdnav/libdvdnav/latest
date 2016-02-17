@@ -1,8 +1,8 @@
 PV = 5.0.3
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libdvdnav4
-RPROVIDES = 5.0.3 libdvdnav
+RPROVIDES = libdvdnav (=5.0.3)
 RDEPENDS = glibc (>= 2.22) libdvdread (>= 5.0.3)
 RRECOMMENDS = 
 PKGSIZE = 81842

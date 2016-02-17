@@ -1,8 +1,8 @@
 PV = 4.1.12
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libwbclient0
-RPROVIDES = 4.1.12 libwbclient
+RPROVIDES = libwbclient (=4.1.12)
 RDEPENDS = glibc (>= 2.22) libbsd (>= 0.8.2)
 RRECOMMENDS = 
 PKGSIZE = 61835

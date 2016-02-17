@@ -1,8 +1,8 @@
 PV = 1.16
 PR = r3
-PKGR = r3.7
+PKGR = r3.8
 PKG = libpopt0
-RPROVIDES = 1.16 popt
+RPROVIDES = popt (=1.16)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 49056

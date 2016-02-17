@@ -1,9 +1,9 @@
 PE = 1
 PV = 3.5.11
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libxpm4
-RPROVIDES = 3.5.11 libxpm
+RPROVIDES = libxpm (=3.5.11)
 RDEPENDS = glibc (>= 2.22) libx11 (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.11.1) libxdmcp (>= 1.1.2)
 RRECOMMENDS = 
 PKGSIZE = 69608

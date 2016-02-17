@@ -1,8 +1,8 @@
 PV = 1.8
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libplist++1
-RPROVIDES = 1.8 libplist++
+RPROVIDES = libplist++ (=1.8)
 RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libplist (>= 1.8) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 53923

@@ -1,8 +1,8 @@
 PV = 0.60.6.1
 PR = r1
-PKGR = r1.7
+PKGR = r1.8
 PKG = libaspell15
-RPROVIDES = 0.60.6.1 libaspell
+RPROVIDES = libaspell (=0.60.6.1)
 RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 2004654

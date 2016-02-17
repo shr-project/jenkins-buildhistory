@@ -1,10 +1,10 @@
 PV = 3.4.4+gitAUTOINC+1b565c7b59
 PR = r0
 PKGV = 3.4.4+git0+1b565c7b59
-PKGR = r0.7
+PKGR = r0.8
 PKG = libqrencode-dev
-RPROVIDES = 3.4.4+git0+1b565c7b59 qrencode-dev
-RDEPENDS = qrencode (= 3.4.4+git0+1b565c7b59-r0.7)
+RPROVIDES = qrencode-dev (=3.4.4+git0+1b565c7b59)
+RDEPENDS = qrencode (= 3.4.4+git0+1b565c7b59-r0.8)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 21917
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qrencode/*.la /lib/*.la

@@ -1,8 +1,8 @@
 PV = 0.2
 PR = r6
-PKGR = r6.7
+PKGR = r6.8
 PKG = libacpi0
-RPROVIDES = 0.2 libacpi
+RPROVIDES = libacpi (=0.2)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 15496

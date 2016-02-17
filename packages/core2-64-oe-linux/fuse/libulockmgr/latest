@@ -1,8 +1,8 @@
 PV = 2.9.4
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libulockmgr1
-RPROVIDES = 2.9.4 libulockmgr
+RPROVIDES = libulockmgr (=2.9.4)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 11260

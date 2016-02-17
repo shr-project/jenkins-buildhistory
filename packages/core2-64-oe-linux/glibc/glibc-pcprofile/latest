@@ -1,8 +1,8 @@
 PV = 2.22
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libc6-pcprofile
-RPROVIDES = 2.22 eglibc-pcprofile glibc-pcprofile
+RPROVIDES = eglibc-pcprofile glibc-pcprofile (=2.22)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 6208

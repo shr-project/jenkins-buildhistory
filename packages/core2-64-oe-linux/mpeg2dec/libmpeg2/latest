@@ -1,8 +1,8 @@
 PV = 0.4.1
 PR = r2
-PKGR = r2.7
+PKGR = r2.8
 PKG = libmpeg2-0
-RPROVIDES = 0.4.1 libmpeg2
+RPROVIDES = libmpeg2 (=0.4.1)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 127105

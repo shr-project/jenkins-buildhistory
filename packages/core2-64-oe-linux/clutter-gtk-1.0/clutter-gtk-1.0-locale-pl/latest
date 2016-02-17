@@ -1,8 +1,8 @@
 PV = 1.6.6
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libclutter-gtk-1.0-locale-pl
-RPROVIDES = 1.6.6 clutter-gtk-1.0-locale clutter-gtk-1.0-locale-pl pl-translation
+RPROVIDES = clutter-gtk-1.0-locale clutter-gtk-1.0-locale-pl (=1.6.6) pl-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-pl
 PKGSIZE = 713

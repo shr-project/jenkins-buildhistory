@@ -1,8 +1,8 @@
 PV = 0.2.13
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libevtlog-dbg
-RPROVIDES = 0.2.13 eventlog-dbg
+RPROVIDES = eventlog-dbg (=0.2.13)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 85463

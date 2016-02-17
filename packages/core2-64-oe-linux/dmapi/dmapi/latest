@@ -1,8 +1,8 @@
 PV = 2.2.12
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = libdm0
-RPROVIDES = 2.2.12 dmapi
+RPROVIDES = dmapi (=2.2.12)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 27598

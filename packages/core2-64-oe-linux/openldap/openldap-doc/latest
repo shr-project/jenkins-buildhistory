@@ -1,8 +1,8 @@
 PV = 2.4.43
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libldap-2.4-doc
-RPROVIDES = 2.4.43 openldap-doc
+RPROVIDES = openldap-doc (=2.4.43)
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 788539

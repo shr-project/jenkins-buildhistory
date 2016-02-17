@@ -1,8 +1,8 @@
 PV = 0.30.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libneon-dbg
-RPROVIDES = 0.30.1 neon-dbg
+RPROVIDES = neon-dbg (=0.30.1)
 RDEPENDS = 
 RRECOMMENDS = expat-dbg glibc-dbg gmp-dbg gnutls-dbg libidn-dbg libproxy-dbg nettle-dbg zlib-dbg
 PKGSIZE = 1002326

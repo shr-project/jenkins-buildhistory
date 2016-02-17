@@ -1,8 +1,8 @@
 PV = 4.1.6
 PR = r3
-PKGR = r3.8
+PKGR = r3.9
 PKG = libgif-utils
-RPROVIDES = 4.1.6 giflib-utils
+RPROVIDES = giflib-utils (=4.1.6)
 RDEPENDS = giflib (>= 4.1.6) glibc (>= 2.22) perl
 RRECOMMENDS = 
 PKGSIZE = 415552

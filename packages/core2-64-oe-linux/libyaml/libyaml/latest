@@ -1,8 +1,8 @@
 PV = 0.1.6
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libyaml-0-2
-RPROVIDES = 0.1.6 libyaml
+RPROVIDES = libyaml (=0.1.6)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 120506

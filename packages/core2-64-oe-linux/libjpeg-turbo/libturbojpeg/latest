@@ -1,8 +1,8 @@
 PV = 8d+1.4.2
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libturbojpeg0
-RPROVIDES = 8d+1.4.2 libturbojpeg
+RPROVIDES = libturbojpeg (=8d+1.4.2)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 394357

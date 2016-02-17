@@ -1,8 +1,8 @@
 PV = 1.0.2f
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libcrypto1.0.0
-RPROVIDES = 1.0.2f libcrypto
+RPROVIDES = libcrypto (=1.0.2f)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = openssl-conf
 PKGSIZE = 2390200

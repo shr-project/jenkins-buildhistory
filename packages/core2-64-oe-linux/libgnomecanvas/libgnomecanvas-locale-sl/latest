@@ -1,8 +1,8 @@
 PV = 2.30.3
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libgnomecanvas-2-locale-sl
-RPROVIDES = 2.30.3 libgnomecanvas-locale libgnomecanvas-locale-sl sl-translation
+RPROVIDES = libgnomecanvas-locale libgnomecanvas-locale-sl (=2.30.3) sl-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-sl
 PKGSIZE = 7298

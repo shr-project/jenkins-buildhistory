@@ -1,8 +1,8 @@
 PV = 0.2.3
 PR = r2
-PKGR = r2.7
+PKGR = r2.8
 PKG = libgnomecups-1.0-locale-ja
-RPROVIDES = 0.2.3 ja-translation libgnomecups-locale libgnomecups-locale-ja
+RPROVIDES = ja-translation libgnomecups-locale libgnomecups-locale-ja (=0.2.3)
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-ja
 PKGSIZE = 5082

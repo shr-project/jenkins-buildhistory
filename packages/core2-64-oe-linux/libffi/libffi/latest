@@ -1,8 +1,8 @@
 PV = 3.2.1
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libffi6
-RPROVIDES = 3.2.1 libffi
+RPROVIDES = libffi (=3.2.1)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 32207

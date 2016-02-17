@@ -1,8 +1,8 @@
 PV = 0.9.6
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libunistring2
-RPROVIDES = 0.9.6 libunistring
+RPROVIDES = libunistring (=0.9.6)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 1525829

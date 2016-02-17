@@ -1,9 +1,9 @@
 PV = 2.5.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libframe-staticdev
-RPROVIDES = 2.5.0 frame-staticdev
-RDEPENDS = frame-dev (= 2.5.0-r0.3)
+RPROVIDES = frame-staticdev (=2.5.0)
+RDEPENDS = frame-dev (= 2.5.0-r0.4)
 RRECOMMENDS = 
 PKGSIZE = 7272142
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/frame/*.a

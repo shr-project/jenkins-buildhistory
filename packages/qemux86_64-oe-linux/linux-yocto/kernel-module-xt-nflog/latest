@@ -1,10 +1,10 @@
 PV = 4.4.1+gitAUTOINC+4940c6e551_0194c76586
 PR = r0
 PKGV = 4.4.1+git0+4940c6e551_0194c76586
-PKGR = r0.1
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = kernel-4.1.17-yocto-standard kernel-module-nfnetlink kernel-module-nfnetlink-log kernel-module-x-tables
+RDEPENDS = kernel-4.4.1-yocto-standard kernel-module-nfnetlink kernel-module-nfnetlink-log kernel-module-x-tables
 RRECOMMENDS = 
-PKGSIZE = 4440
-FILES = /lib/modules/4.1.17-yocto-standard/kernel/net/netfilter/xt_NFLOG.ko /etc/modules-load.d/xt_NFLOG.conf /etc/modprobe.d/xt_NFLOG.conf
-FILELIST = /lib/modules/4.1.17-yocto-standard/kernel/net/netfilter/xt_NFLOG.ko
+PKGSIZE = 4632
+FILES = /lib/modules/4.4.1-yocto-standard/kernel/net/netfilter/xt_NFLOG.ko /etc/modules-load.d/xt_NFLOG.conf /etc/modprobe.d/xt_NFLOG.conf
+FILELIST = /lib/modules/4.4.1-yocto-standard/kernel/net/netfilter/xt_NFLOG.ko

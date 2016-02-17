@@ -1,8 +1,8 @@
 PV = 1.0.26
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libsndfile-dbg
-RPROVIDES = 1.0.26 libsndfile1-dbg
+RPROVIDES = libsndfile1-dbg (=1.0.26)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libasound-dbg libflac-dbg libogg-dbg libsqlite3-dbg libvorbis-dbg
 PKGSIZE = 3960160

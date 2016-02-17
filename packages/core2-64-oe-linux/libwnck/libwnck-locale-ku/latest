@@ -1,8 +1,8 @@
 PV = 2.31.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libwnck-1-locale-ku
-RPROVIDES = 2.31.0 ku-translation libwnck-locale libwnck-locale-ku
+RPROVIDES = ku-translation libwnck-locale libwnck-locale-ku (=2.31.0)
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-ku
 PKGSIZE = 2192

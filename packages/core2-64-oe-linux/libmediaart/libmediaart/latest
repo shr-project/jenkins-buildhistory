@@ -1,8 +1,8 @@
 PV = 0.7.0
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = libmediaart-1.0-0
-RPROVIDES = 0.7.0 libmediaart
+RPROVIDES = libmediaart (=0.7.0)
 RDEPENDS = gdk-pixbuf (>= 2.32.3) glib-2.0 (>= 2.46.2) glibc (>= 2.22) libffi (>= 3.2.1) libpcre (>= 8.38) libpng (>= 1.6.21) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 53594

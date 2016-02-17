@@ -1,9 +1,9 @@
 PV = 2.11.0+svnr1161
 PR = r5
-PKGR = r5.6
+PKGR = r5.7
 PKG = libgtkhtml-2-staticdev
-RPROVIDES = 2.11.0+svnr1161 gtkhtml2-staticdev
-RDEPENDS = gtkhtml2-dev (= 2.11.0+svnr1161-r5.6)
+RPROVIDES = gtkhtml2-staticdev (=2.11.0+svnr1161)
+RDEPENDS = gtkhtml2-dev (= 2.11.0+svnr1161-r5.7)
 RRECOMMENDS = 
 PKGSIZE = 5511528
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/gtkhtml2/*.a

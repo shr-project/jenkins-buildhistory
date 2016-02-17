@@ -1,9 +1,9 @@
 PV = 0.2.36
 PR = r1
-PKGR = r1.7
+PKGR = r1.8
 PKG = libesd-staticdev
-RPROVIDES = 0.2.36 esound-staticdev
-RDEPENDS = esound-dev (= 0.2.36-r1.7)
+RPROVIDES = esound-staticdev (=0.2.36)
+RDEPENDS = esound-dev (= 0.2.36-r1.8)
 RRECOMMENDS = 
 PKGSIZE = 235498
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/esound/*.a

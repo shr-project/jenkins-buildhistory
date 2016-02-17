@@ -1,8 +1,8 @@
 PV = 2.09
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = liblzo2-2
-RPROVIDES = 2.09 lzo
+RPROVIDES = lzo (=2.09)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 131296

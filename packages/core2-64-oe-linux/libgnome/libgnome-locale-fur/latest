@@ -1,8 +1,8 @@
 PV = 2.32.1
 PR = r2
-PKGR = r2.7
+PKGR = r2.8
 PKG = libgnome-2-locale-fur
-RPROVIDES = 2.32.1 fur-translation libgnome-locale libgnome-locale-fur
+RPROVIDES = fur-translation libgnome-locale libgnome-locale-fur (=2.32.1)
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-fur
 PKGSIZE = 19989

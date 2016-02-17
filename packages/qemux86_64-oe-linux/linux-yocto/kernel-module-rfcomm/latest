@@ -1,10 +1,10 @@
 PV = 4.4.1+gitAUTOINC+4940c6e551_0194c76586
 PR = r0
 PKGV = 4.4.1+git0+4940c6e551_0194c76586
-PKGR = r0.1
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = kernel-4.1.17-yocto-standard
+RDEPENDS = kernel-4.4.1-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 70592
-FILES = /lib/modules/4.1.17-yocto-standard/kernel/net/bluetooth/rfcomm/rfcomm.ko /etc/modules-load.d/rfcomm.conf /etc/modprobe.d/rfcomm.conf
-FILELIST = /lib/modules/4.1.17-yocto-standard/kernel/net/bluetooth/rfcomm/rfcomm.ko
+PKGSIZE = 69808
+FILES = /lib/modules/4.4.1-yocto-standard/kernel/net/bluetooth/rfcomm/rfcomm.ko /etc/modules-load.d/rfcomm.conf /etc/modprobe.d/rfcomm.conf
+FILELIST = /lib/modules/4.4.1-yocto-standard/kernel/net/bluetooth/rfcomm/rfcomm.ko

@@ -1,8 +1,8 @@
 PV = 1.4.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libaugeas0
-RPROVIDES = 1.4.0 libaugeas
+RPROVIDES = libaugeas (=1.4.0)
 RDEPENDS = augeas-lenses glibc (>= 2.22) libxml2 (>= 2.9.3) zlib (>= 1.2.8)
 RRECOMMENDS = augeas
 PKGSIZE = 558513

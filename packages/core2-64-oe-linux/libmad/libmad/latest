@@ -1,8 +1,8 @@
 PV = 0.15.1b
 PR = r3
-PKGR = r3.8
+PKGR = r3.9
 PKG = libmad0
-RPROVIDES = 0.15.1b libmad
+RPROVIDES = libmad (=0.15.1b)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 124263

@@ -1,8 +1,8 @@
 PV = 0.7.0
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = librabbitmq4
-RPROVIDES = 0.7.0 rabbitmq-c
+RPROVIDES = rabbitmq-c (=0.7.0)
 RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2f) libssl (>= 1.0.2f)
 RRECOMMENDS = 
 PKGSIZE = 77956

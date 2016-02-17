@@ -1,8 +1,8 @@
 PV = 4.1.6
 PR = r3
-PKGR = r3.8
+PKGR = r3.9
 PKG = libgif-dbg
-RPROVIDES = 4.1.6 giflib-dbg
+RPROVIDES = giflib-dbg (=4.1.6)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
 PKGSIZE = 1456231

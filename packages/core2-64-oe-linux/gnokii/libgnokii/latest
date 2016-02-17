@@ -1,8 +1,8 @@
 PV = 0.6.31
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = libgnokii7
-RPROVIDES = 0.6.31 libgnokii
+RPROVIDES = libgnokii (=0.6.31)
 RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.22) libpcre (>= 8.38) libx11 (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.11.1) libxdmcp (>= 1.1.2) libxpm (>= 3.5.11)
 RRECOMMENDS = 
 PKGSIZE = 654178

@@ -1,8 +1,8 @@
 PV = 0.2.36
 PR = r1
-PKGR = r1.7
+PKGR = r1.8
 PKG = libesd0
-RPROVIDES = 0.2.36 esound
+RPROVIDES = esound (=0.2.36)
 RDEPENDS = audiofile (>= 0.2.7) glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 37558

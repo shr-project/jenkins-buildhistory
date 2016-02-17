@@ -1,9 +1,9 @@
 PV = 1.0.11
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libschroedinger-1.0-staticdev
-RPROVIDES = 1.0.11 schroedinger-staticdev
-RDEPENDS = schroedinger-dev (= 1.0.11-r0.7)
+RPROVIDES = schroedinger-staticdev (=1.0.11)
+RDEPENDS = schroedinger-dev (= 1.0.11-r0.8)
 RRECOMMENDS = 
 PKGSIZE = 6419072
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/schroedinger/*.a

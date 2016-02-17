@@ -1,8 +1,8 @@
 PV = 1.60.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libboost-signals1.60.0
-RPROVIDES = 1.60.0 boost-signals
+RPROVIDES = boost-signals (=1.60.0)
 RDEPENDS = libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 90600

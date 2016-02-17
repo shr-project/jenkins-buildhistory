@@ -1,8 +1,8 @@
 PV = 1.0.4
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libnetfilter-conntrack3
-RPROVIDES = 1.0.4 libnetfilter-conntrack
+RPROVIDES = libnetfilter-conntrack (=1.0.4)
 RDEPENDS = glibc (>= 2.22) libmnl (>= 1.0.3) libnfnetlink (>= 1.0.1)
 RRECOMMENDS = 
 PKGSIZE = 112271

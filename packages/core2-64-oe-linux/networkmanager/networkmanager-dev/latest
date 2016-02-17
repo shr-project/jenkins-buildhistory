@@ -1,8 +1,8 @@
 PV = 1.0.10
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = libnmglib libnmglib-vpn libnmutil networkmanager (= 1.0.10-r0.6)
+RDEPENDS = libnmglib libnmglib-vpn libnmutil networkmanager (= 1.0.10-r0.7)
 RRECOMMENDS = bash-completion-dev bluez5-dev dbus-dev dbus-glib-dev dbus-lib-dev dhcp-client-dev glib-2.0-dev glibc-dev libcap-dev libffi-dev libgudev-dev liblzma-dev libndp-dev libnewt-dev libnl-dev libnl-genl-dev libnl-route-dev libnmglib-dev libnmglib-vpn-dev libnmutil-dev libpcre-dev libsystemd-dev libudev-dev nspr-dev nss-dev polkit-dev readline-dev util-linux-dev util-linux-libuuid-dev wireless-tools-dev wpa-supplicant-dev zlib-dev
 PKGSIZE = 755589
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/networkmanager/*.la /lib/*.la /usr/share/NetworkManager/gdb-cmd /usr/lib/pppd/*/*.la /usr/lib/NetworkManager/*.la

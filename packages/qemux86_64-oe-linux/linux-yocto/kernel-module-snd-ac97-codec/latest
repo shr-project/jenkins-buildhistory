@@ -1,10 +1,10 @@
 PV = 4.4.1+gitAUTOINC+4940c6e551_0194c76586
 PR = r0
 PKGV = 4.4.1+git0+4940c6e551_0194c76586
-PKGR = r0.1
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = kernel-4.1.17-yocto-standard kernel-module-ac97-bus
+RDEPENDS = kernel-4.4.1-yocto-standard kernel-module-ac97-bus
 RRECOMMENDS = 
-PKGSIZE = 214928
-FILES = /lib/modules/4.1.17-yocto-standard/kernel/sound/pci/ac97/snd-ac97-codec.ko /etc/modules-load.d/snd-ac97-codec.conf /etc/modprobe.d/snd-ac97-codec.conf
-FILELIST = /lib/modules/4.1.17-yocto-standard/kernel/sound/pci/ac97/snd-ac97-codec.ko
+PKGSIZE = 212520
+FILES = /lib/modules/4.4.1-yocto-standard/kernel/sound/pci/ac97/snd-ac97-codec.ko /etc/modules-load.d/snd-ac97-codec.conf /etc/modprobe.d/snd-ac97-codec.conf
+FILELIST = /lib/modules/4.4.1-yocto-standard/kernel/sound/pci/ac97/snd-ac97-codec.ko

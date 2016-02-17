@@ -1,10 +1,10 @@
 PV = 4.4.1+gitAUTOINC+4940c6e551_0194c76586
 PR = r0
 PKGV = 4.4.1+git0+4940c6e551_0194c76586
-PKGR = r0.1
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = kernel-4.1.17-yocto-standard kernel-module-cfg80211 kernel-module-mac80211
+RDEPENDS = kernel-4.4.1-yocto-standard kernel-module-cfg80211 kernel-module-mac80211
 RRECOMMENDS = 
-PKGSIZE = 68672
-FILES = /lib/modules/4.1.17-yocto-standard/kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko /etc/modules-load.d/rt2x00lib.conf /etc/modprobe.d/rt2x00lib.conf
-FILELIST = /lib/modules/4.1.17-yocto-standard/kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko
+PKGSIZE = 66944
+FILES = /lib/modules/4.4.1-yocto-standard/kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko /etc/modules-load.d/rt2x00lib.conf /etc/modprobe.d/rt2x00lib.conf
+FILELIST = /lib/modules/4.4.1-yocto-standard/kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko

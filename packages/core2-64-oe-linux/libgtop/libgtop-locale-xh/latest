@@ -1,8 +1,8 @@
 PV = 2.30.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libgtop-2.0-locale-xh
-RPROVIDES = 2.30.0 libgtop-locale libgtop-locale-xh xh-translation
+RPROVIDES = libgtop-locale libgtop-locale-xh (=2.30.0) xh-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-xh
 PKGSIZE = 3499

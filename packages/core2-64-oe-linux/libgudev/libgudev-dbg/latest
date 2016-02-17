@@ -1,8 +1,8 @@
 PV = 230
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libgudev-1.0-dbg
-RPROVIDES = 230 libgudev-dbg
+RPROVIDES = libgudev-dbg (=230)
 RDEPENDS = 
 RRECOMMENDS = glib-2.0-dbg glibc-dbg libcap-dbg libffi-dbg libpcre-dbg libudev-dbg zlib-dbg
 PKGSIZE = 200991

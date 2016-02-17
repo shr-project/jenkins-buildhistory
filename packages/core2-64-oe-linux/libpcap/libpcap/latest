@@ -1,8 +1,8 @@
 PV = 1.7.4
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libpcap1
-RPROVIDES = 1.7.4 libpcap
+RPROVIDES = libpcap (=1.7.4)
 RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 267824

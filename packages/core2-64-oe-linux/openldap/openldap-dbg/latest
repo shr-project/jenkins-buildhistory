@@ -1,8 +1,8 @@
 PV = 2.4.43
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libldap-2.4-dbg
-RPROVIDES = 2.4.43 openldap-dbg
+RPROVIDES = openldap-dbg (=2.4.43)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg gmp-dbg gnutls-dbg libcap-dbg libgcrypt-dbg libgpg-error-dbg libidn-dbg libltdl-dbg nettle-dbg util-linux-libuuid-dbg zlib-dbg
 PKGSIZE = 15407376
