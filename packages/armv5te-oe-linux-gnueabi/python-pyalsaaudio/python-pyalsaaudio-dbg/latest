@@ -1,9 +1,9 @@
 PV = 0.4
 PR = ml2
-PKGR = ml2.13
+PKGR = ml2.14
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libasound-dbg libpython2-dbg
-PKGSIZE = 120192
+PKGSIZE = 60660
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python2.7/site-packages/.debug/alsaaudio.so /usr/src/debug/python-pyalsaaudio/0.4-ml2/pyalsaaudio-0.4/alsaaudio.c
+FILELIST = /usr/lib/python2.7/site-packages/.debug/alsaaudio.so

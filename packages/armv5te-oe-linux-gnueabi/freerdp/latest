@@ -1,4 +1,4 @@
 PV = 1.2.5+gitrAUTOINC+62da9d28c6
 PR = r0
-DEPENDS = alsa-lib autoconf-native automake-native cmake-native cups gnu-config-native gstreamer1.0 gstreamer1.0-plugins-base libtool-cross libtool-native libxcursor libxdamage libxext libxfixes libxi libxinerama libxkbfile libxrandr libxrender libxv openssl pcsc-lite pkgconfig-native pulseaudio virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc virtual/libx11 wayland
+DEPENDS = alsa-lib cmake-native cups gstreamer1.0 gstreamer1.0-plugins-base libxcursor libxdamage libxext libxfixes libxi libxinerama libxkbfile libxrandr libxrender libxv openssl pcsc-lite pkgconfig-native pulseaudio virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc virtual/libx11 wayland
 PACKAGES = libfreerdp freerdp-dbg freerdp-staticdev freerdp-dev freerdp-doc freerdp-locale freerdp
