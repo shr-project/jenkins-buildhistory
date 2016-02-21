@@ -1,10 +1,9 @@
-PV = 1.12.0
+PV = 1.13.0
 PR = r0
-PKGR = r0.9
-PKG = libglew-dbg
-RPROVIDES = glew-dbg (=1.12.0)
+PKGR = r0.0
+RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = expat-dbg glibc-dbg libdrm-dbg libgl-mesa-dbg libglapi-dbg libglu-dbg libice-dbg libsm-dbg libstdc++-dbg libx11-dbg libx11-xcb-dbg libxau-dbg libxcb-dbg libxcb-dri2-dbg libxcb-glx-dbg libxdamage-dbg libxdmcp-dbg libxext-dbg libxfixes-dbg libxi-dbg libxmu-dbg libxt-dbg libxxf86vm-dbg
-PKGSIZE = 3692667
+RRECOMMENDS = glibc-dbg libgl-mesa-dbg libx11-dbg
+PKGSIZE = 1710180
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/glewinfo /usr/bin/.debug/visualinfo /usr/lib/.debug/libGLEW.so.1.9.0 /usr/src/debug/glew/1.12.0-r0/glew-1.12.0/include/GL/glew.h /usr/src/debug/glew/1.12.0-r0/glew-1.12.0/include/GL/glxew.h /usr/src/debug/glew/1.12.0-r0/glew-1.12.0/src/glew.c /usr/src/debug/glew/1.12.0-r0/glew-1.12.0/src/glewinfo.c /usr/src/debug/glew/1.12.0-r0/glew-1.12.0/src/visualinfo.c
+FILELIST = /usr/bin/.debug/glewinfo /usr/bin/.debug/visualinfo /usr/lib/.debug/libGLEW.so.1.13.0 /usr/lib/.debug/libGLEWmx.so.1.13.0

@@ -1,4 +1,4 @@
 PV = git
 PR = r0
-DEPENDS = autoconf-native automake-native cmake-native gnu-config-native libtool-cross libtool-native python python-native sblim-cmpi-devel swig-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+DEPENDS = cmake-native python python-native sblim-cmpi-devel swig-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = cmpi-bindings-dbg cmpi-bindings-staticdev cmpi-bindings-dev cmpi-bindings-doc cmpi-bindings-locale cmpi-bindings
