@@ -448,15 +448,15 @@ drwxr-xr-x root       root             1740 ./usr/include/sys
 -rw-r--r-- root       root             1689 ./usr/include/xlocale.h
 drwxr-xr-x root       root              620 ./usr/lib
 -rw-r--r-- root       root             1312 ./usr/lib/Mcrt1.o
--rw-r--r-- root       root             4208 ./usr/lib/Scrt1.o
--rw-r--r-- root       root             4160 ./usr/lib/crt1.o
--rw-r--r-- root       root             2720 ./usr/lib/crti.o
--rw-r--r-- root       root             2440 ./usr/lib/crtn.o
--rw-r--r-- root       root             7312 ./usr/lib/gcrt1.o
+-rw-r--r-- root       root             4072 ./usr/lib/Scrt1.o
+-rw-r--r-- root       root             4024 ./usr/lib/crt1.o
+-rw-r--r-- root       root             2656 ./usr/lib/crti.o
+-rw-r--r-- root       root             2360 ./usr/lib/crtn.o
+-rw-r--r-- root       root             7112 ./usr/lib/gcrt1.o
 lrwxrwxrwx root       root               30 ./usr/lib/libBrokenLocale.so -> ../../lib/libBrokenLocale.so.1
 lrwxrwxrwx root       root               21 ./usr/lib/libanl.so -> ../../lib/libanl.so.1
 -rw-r--r-- root       root              247 ./usr/lib/libc.so
--rw-r--r-- root       root            75436 ./usr/lib/libc_nonshared.a
+-rw-r--r-- root       root            74364 ./usr/lib/libc_nonshared.a
 lrwxrwxrwx root       root               22 ./usr/lib/libcidn.so -> ../../lib/libcidn.so.1
 lrwxrwxrwx root       root               23 ./usr/lib/libcrypt.so -> ../../lib/libcrypt.so.1
 lrwxrwxrwx root       root               20 ./usr/lib/libdl.so -> ../../lib/libdl.so.2
@@ -471,7 +471,7 @@ lrwxrwxrwx root       root               28 ./usr/lib/libnss_hesiod.so -> ../../
 lrwxrwxrwx root       root               25 ./usr/lib/libnss_nis.so -> ../../lib/libnss_nis.so.2
 lrwxrwxrwx root       root               29 ./usr/lib/libnss_nisplus.so -> ../../lib/libnss_nisplus.so.2
 -rw-r--r-- root       root              218 ./usr/lib/libpthread.so
--rw-r--r-- root       root             7780 ./usr/lib/libpthread_nonshared.a
+-rw-r--r-- root       root             7716 ./usr/lib/libpthread_nonshared.a
 lrwxrwxrwx root       root               24 ./usr/lib/libresolv.so -> ../../lib/libresolv.so.2
 lrwxrwxrwx root       root               20 ./usr/lib/librt.so -> ../../lib/librt.so.1
 lrwxrwxrwx root       root               27 ./usr/lib/libthread_db.so -> ../../lib/libthread_db.so.1

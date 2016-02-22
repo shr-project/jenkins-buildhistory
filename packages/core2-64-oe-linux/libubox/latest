@@ -1,4 +1,4 @@
 PV = git
 PR = r0
-DEPENDS = autoconf-native automake-native cmake-native gnu-config-native json-c libtool-cross libtool-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = cmake-native json-c virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = libubox-dbg libubox-staticdev libubox-dev libubox-doc libubox-locale libubox

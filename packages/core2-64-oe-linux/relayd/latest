@@ -1,4 +1,4 @@
 PV = git
 PR = r0
-DEPENDS = autoconf-native automake-native cmake-native gnu-config-native libtool-cross libtool-native libubox virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = cmake-native libubox virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = relayd-dbg relayd-staticdev relayd-dev relayd-doc relayd-locale relayd

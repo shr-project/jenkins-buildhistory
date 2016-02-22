@@ -1,10 +1,10 @@
 PV = 4.60.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libwavpack-staticdev
 RPROVIDES = wavpack-staticdev (=4.60.1)
-RDEPENDS = wavpack-dev (= 4.60.1-r0.9)
+RDEPENDS = wavpack-dev (= 4.60.1-r0.10)
 RRECOMMENDS = 
-PKGSIZE = 781184
+PKGSIZE = 777704
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/wavpack/*.a
 FILELIST = /usr/lib/libwavpack.a
