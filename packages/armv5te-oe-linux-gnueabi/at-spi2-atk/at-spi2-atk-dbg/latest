@@ -1,10 +1,10 @@
 PV = 2.18.1
 PR = r0
-PKGR = r0.15
+PKGR = r0.17
 PKG = libatk-bridge-2.0-dbg
 RPROVIDES = at-spi2-atk-dbg (=2.18.1)
 RDEPENDS = 
 RRECOMMENDS = at-spi2-core-dbg atk-dbg dbus-lib-dbg glib-2.0-dbg glibc-dbg libcap-dbg libffi-dbg libice-dbg liblzma-dbg libpcre-dbg libsm-dbg libsystemd-dbg libx11-dbg libxau-dbg libxcb-dbg libxdmcp-dbg
-PKGSIZE = 484080
+PKGSIZE = 484064
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/lib/.debug/libatk-bridge-2.0.so.0.0.0 /usr/lib/gtk-2.0/modules/.debug/libatk-bridge.so

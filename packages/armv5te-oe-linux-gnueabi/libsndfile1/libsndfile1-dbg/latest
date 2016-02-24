@@ -1,10 +1,10 @@
 PV = 1.0.26
 PR = r0
-PKGR = r0.15
+PKGR = r0.17
 PKG = libsndfile-dbg
 RPROVIDES = libsndfile1-dbg (=1.0.26)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libasound-dbg libflac-dbg libogg-dbg libsqlite3-dbg libvorbis-dbg
-PKGSIZE = 1961956
+PKGSIZE = 1961924
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/bin/.debug/sndfile-cmp /usr/bin/.debug/sndfile-concat /usr/bin/.debug/sndfile-convert /usr/bin/.debug/sndfile-deinterleave /usr/bin/.debug/sndfile-info /usr/bin/.debug/sndfile-interleave /usr/bin/.debug/sndfile-metadata-get /usr/bin/.debug/sndfile-metadata-set /usr/bin/.debug/sndfile-play /usr/bin/.debug/sndfile-regtest /usr/bin/.debug/sndfile-salvage /usr/lib/.debug/libsndfile.so.1.0.26
