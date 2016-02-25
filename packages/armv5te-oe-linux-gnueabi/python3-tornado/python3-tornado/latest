@@ -1,8 +1,8 @@
 PV = 4.3
 PR = r0
-PKGR = r0.6
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libpython3 (>= 3.5.1) python3-certifi python3-compression python3-core python3-email python3-html python3-json python3-numbers python3-pkgutil python3-subprocess
+RDEPENDS = glibc (>= 2.23) libpython3 (>= 3.5.1) python3-certifi python3-compression python3-core python3-email python3-html python3-json python3-numbers python3-pkgutil python3-subprocess
 RRECOMMENDS = 
 PKGSIZE = 2823824
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/python3-tornado /usr/lib/python3-tornado/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/*

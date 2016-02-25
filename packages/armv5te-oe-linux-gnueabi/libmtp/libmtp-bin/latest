@@ -1,9 +1,9 @@
 PV = 1.1.5
 PR = r0
-PKGR = r0.14
+PKGR = r0.16
 PKG = mtp-tools
 RPROVIDES = libmtp-bin (=1.1.5)
-RDEPENDS = glibc (>= 2.22) libmtp (>= 1.1.5)
+RDEPENDS = glibc (>= 2.23) libmtp (>= 1.1.5)
 RRECOMMENDS = 
 PKGSIZE = 123067
 FILES = /usr/bin/* /usr/sbin/*

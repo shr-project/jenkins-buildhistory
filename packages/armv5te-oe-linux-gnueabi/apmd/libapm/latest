@@ -1,9 +1,9 @@
 PV = 3.2.2-15
 PR = r0
-PKGR = r0.12
+PKGR = r0.14
 PKG = libapm1
 RPROVIDES = libapm (=3.2.2-15)
-RDEPENDS = glibc (>= 2.22)
+RDEPENDS = glibc (>= 2.23)
 RRECOMMENDS = 
 PKGSIZE = 8987
 FILES = /usr/lib/libapm.so.*

@@ -1,9 +1,9 @@
 PV = 2.2.12
 PR = r0
-PKGR = r0.12
+PKGR = r0.14
 PKG = libdm0
 RPROVIDES = dmapi (=2.2.12)
-RDEPENDS = glibc (>= 2.22)
+RDEPENDS = glibc (>= 2.23)
 RRECOMMENDS = 
 PKGSIZE = 14286
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dmapi /usr/lib/dmapi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,10 +1,10 @@
 PV = 1.6.2
 PR = r0
-PKGR = r0.12
+PKGR = r0.14
 PKG = libgstrtspserver-1.0-dbg
 RPROVIDES = gstreamer1.0-rtsp-server-dbg (=1.6.2)
 RDEPENDS = 
 RRECOMMENDS = glib-2.0-dbg glibc-dbg gstreamer1.0-dbg libffi-dbg libgstapp-1.0-dbg libgstrtp-1.0-dbg libgstrtsp-1.0-dbg libgstsdp-1.0-dbg libpcre-dbg zlib-dbg
-PKGSIZE = 755332
+PKGSIZE = 755324
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/lib/.debug/libgstrtspserver-1.0.so.0.602.0

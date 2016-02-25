@@ -1,10 +1,10 @@
 PV = 1.0
 PR = r9
 PKGV = 4.4.1
-PKGR = r9.12
+PKGR = r9.14
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.22) libgcc (>= 5.3.0) libpython2 (>= 2.7.11) python
+RDEPENDS = bash glibc (>= 2.23) libgcc (>= 5.3.0) libpython2 (>= 2.7.11) python
 RRECOMMENDS = 
-PKGSIZE = 405337
+PKGSIZE = 405477
 FILES = /usr/lib/python*/site-packages /usr/lib/perf/perf-core/scripts/python
 FILELIST = /usr/lib/python2.7/site-packages/hweight.o /usr/lib/python2.7/site-packages/perf-0.1-py2.7.egg-info /usr/lib/python2.7/site-packages/perf.so /usr/lib/python2.7/site-packages/rbtree.o

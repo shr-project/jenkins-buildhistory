@@ -1,9 +1,9 @@
 PV = 0.16+gitAUTOINC+f9aa96205f
 PR = r0
 PKGV = 0.16+git0+f9aa96205f
-PKGR = r0.13
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = dmidecode glibc (>= 2.22) libsysfs (>= 2.1.0) perl-module-file-basename perl-module-file-find perl-module-getopt-long perl-module-posix
+RDEPENDS = dmidecode glibc (>= 2.23) libsysfs (>= 2.1.0) perl-module-file-basename perl-module-file-find perl-module-getopt-long perl-module-posix
 RRECOMMENDS = 
 PKGSIZE = 47052
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/edac-utils /usr/lib/edac-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
