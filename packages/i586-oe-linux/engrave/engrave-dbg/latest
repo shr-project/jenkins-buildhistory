@@ -1,11 +1,11 @@
 PE = 2
 PV = 0.0.0+svnr82070
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libengrave-dbg
 RPROVIDES = engrave-dbg (=0.0.0+svnr82070)
 RDEPENDS = 
 RRECOMMENDS = ecore-dbg ecore-evas-dbg ecore-input-dbg ecore-input-evas-dbg efl-dbg eina-dbg eo-dbg evas-dbg expat-dbg flex-dbg fontconfig-dbg freetype-dbg fribidi-dbg glib-2.0-dbg glibc-dbg libcrypto-dbg libeet-dbg libgcc-dbg libjpeg-turbo-dbg libpcre-dbg libpng-dbg libssl-dbg libstdc++-dbg libunwind-dbg luajit-dbg zlib-dbg
-PKGSIZE = 268800
+PKGSIZE = 268768
 FILES = /usr/lib/debug /usr/src/debug /usr/lib/engrave/.debug /usr/lib/engrave/*/.debug /usr/lib/edje/modules/engrave/*/.debug/module.so
 FILELIST = /usr/bin/.debug/engrave_canvas_test /usr/bin/.debug/engrave_test /usr/lib/.debug/libengrave.so.0.1.0

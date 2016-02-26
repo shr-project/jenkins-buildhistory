@@ -1,11 +1,11 @@
-PV = 5.5.99+5.6.0-alpha1+gitAUTOINC+34d66f3836
+PV = 5.5.99+5.6.0-rc+gitAUTOINC+60a135102a
 PR = r0
-PKGV = 5.5.99+5.6.0-alpha1+git0+34d66f3836
-PKGR = r0.6
+PKGV = 5.5.99+5.6.0-rc+git0+60a135102a
+PKGR = r0.0
 PKG = libenginio-mkspecs
-RPROVIDES = 5.5.99+5.6.0-alpha1+git0+34d66f3836 qtenginio-mkspecs
+RPROVIDES = qtenginio-mkspecs (=5.5.99+5.6.0-rc+git0+60a135102a)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 1031
+PKGSIZE = 1154
 FILES = /usr/lib/qt5/mkspecs
 FILELIST = /usr/lib/qt5/mkspecs/modules/qt_lib_enginio.pri /usr/lib/qt5/mkspecs/modules/qt_lib_enginio_private.pri

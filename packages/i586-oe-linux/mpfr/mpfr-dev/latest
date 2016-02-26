@@ -1,9 +1,9 @@
 PV = 3.1.3
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libmpfr-dev
 RPROVIDES = mpfr-dev (=3.1.3)
-RDEPENDS = mpfr (= 3.1.3-r0.11)
+RDEPENDS = mpfr (= 3.1.3-r0.12)
 RRECOMMENDS = glibc-dev gmp-dev
 PKGSIZE = 58489
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mpfr/*.la /lib/*.la

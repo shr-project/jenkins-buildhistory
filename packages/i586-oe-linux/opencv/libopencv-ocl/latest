@@ -1,10 +1,10 @@
 PV = 2.4.11+gitAUTOINC+2c9547e314
 PR = r0
 PKGV = 2.4.11+git0+2c9547e314
-PKGR = r0.10
+PKGR = r0.11
 PKG = libopencv-ocl2.4
 RPROVIDES = libopencv-ocl (=2.4.11+git0+2c9547e314)
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libopencv-core (>= 2.4.11+git0+2c9547e314) libopencv-imgproc (>= 2.4.11+git0+2c9547e314) libopencv-ml (>= 2.4.11+git0+2c9547e314) libopencv-objdetect (>= 2.4.11+git0+2c9547e314) libstdc++ (>= 5.3.0)
+RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libopencv-core (>= 2.4.11+git0+2c9547e314) libopencv-imgproc (>= 2.4.11+git0+2c9547e314) libopencv-ml (>= 2.4.11+git0+2c9547e314) libopencv-objdetect (>= 2.4.11+git0+2c9547e314) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 1860655
 FILES = /usr/lib/libopencv_ocl.so /usr/lib/libopencv_ocl.so.2.4 /usr/lib/libopencv_ocl.so.2.4.11

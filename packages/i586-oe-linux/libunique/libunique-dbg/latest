@@ -1,10 +1,10 @@
 PV = 1.1.6
 PR = r7
-PKGR = r7.10
+PKGR = r7.11
 PKG = libunique-1.0-dbg
 RPROVIDES = libunique-dbg (=1.1.6)
 RDEPENDS = 
 RRECOMMENDS = atk-dbg cairo-dbg dbus-glib-dbg dbus-lib-dbg expat-dbg fontconfig-dbg freetype-dbg gdk-pixbuf-dbg glib-2.0-dbg glibc-dbg gtk+-dbg harfbuzz-dbg libcap-dbg libffi-dbg liblzma-dbg libpcre-dbg libpng-dbg libsystemd-dbg libx11-dbg libxau-dbg libxcb-dbg libxcb-render-dbg libxcb-shm-dbg libxdmcp-dbg libxext-dbg libxrender-dbg pango-dbg pixman-dbg zlib-dbg
-PKGSIZE = 144384
+PKGSIZE = 144352
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/lib/.debug/libunique-1.0.so.0.100.6

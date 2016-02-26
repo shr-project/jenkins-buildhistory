@@ -1,8 +1,8 @@
 PV = 0.26
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = bash fuse (>= 2.9.4) glibc (>= 2.22)
+RDEPENDS = bash fuse (>= 2.9.4) glibc (>= 2.23)
 RRECOMMENDS = 
 PKGSIZE = 109260
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/unionfs-fuse /usr/lib/unionfs-fuse/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

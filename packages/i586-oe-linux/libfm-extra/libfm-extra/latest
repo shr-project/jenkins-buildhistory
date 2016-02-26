@@ -1,9 +1,9 @@
 PV = 1.2.3
 PR = r1
-PKGR = r1.10
+PKGR = r1.11
 PKG = libfm-extra4
 RPROVIDES = libfm-extra (=1.2.3)
-RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.22) libffi (>= 3.2.1) libpcre (>= 8.38) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.23) libffi (>= 3.2.1) libpcre (>= 8.38) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 22940
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libfm-extra /usr/lib/libfm-extra/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

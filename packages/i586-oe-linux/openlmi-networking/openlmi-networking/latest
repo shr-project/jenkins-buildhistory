@@ -1,9 +1,9 @@
 PV = 0.3.1
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = dbus-glib (>= 0.106) glib-2.0 (>= 2.46.2) glibc (>= 2.22) konkretcmpi (>= 0.9.2) openlmi-providers (>= 0.6.0) util-linux-libuuid (>= 2.27.1)
+RDEPENDS = dbus-glib (>= 0.106) glib-2.0 (>= 2.46.2) glibc (>= 2.23) konkretcmpi (>= 0.9.2) openlmi-providers (>= 0.6.0) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = 
-PKGSIZE = 634317
+PKGSIZE = 631149
 FILES = /usr/lib/cmpi/libcmpiLMI_Networking.so /usr/libexec* /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/openlmi-networking /usr/lib/openlmi-networking/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/cmpi/libcmpiLMI_Networking.so /usr/libexec/pegasus/cmpiLMI_Networking-cimprovagt /usr/share/openlmi-networking/60_LMI_Networking.mof /usr/share/openlmi-networking/60_LMI_Networking.reg /usr/share/openlmi-networking/70_LMI_NetworkingIndicationFilters.mof /usr/share/openlmi-networking/90_LMI_Networking_Profile.mof

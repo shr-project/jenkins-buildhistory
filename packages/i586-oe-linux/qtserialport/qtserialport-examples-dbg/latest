@@ -1,9 +1,9 @@
-PV = 5.5.99+5.6.0-alpha1+gitAUTOINC+2575d33fab
+PV = 5.5.99+5.6.0-rc+gitAUTOINC+02e4a66a8b
 PR = r0
-PKGV = 5.5.99+5.6.0-alpha1+git0+2575d33fab
-PKGR = r0.6
+PKGV = 5.5.99+5.6.0-rc+git0+02e4a66a8b
+PKGR = r0.0
 PKG = libqt5serialport-examples-dbg
-RPROVIDES = 5.5.99+5.6.0-alpha1+git0+2575d33fab qtserialport-examples-dbg
+RPROVIDES = qtserialport-examples-dbg (=5.5.99+5.6.0-rc+git0+02e4a66a8b)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libstdc++-dbg libudev-dbg qtbase-dbg
 PKGSIZE = 0

@@ -1,8 +1,8 @@
 PV = 6.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) ncurses-libtinfo (>= 6.0)
+RDEPENDS = glibc (>= 2.23) ncurses-libtinfo (>= 6.0)
 RRECOMMENDS = 
 PKGSIZE = 26510
 FILES = /usr/bin/tput /usr/bin/tset /usr/bin/ncurses5-config /usr/bin/ncursesw5-config /usr/share/tabset

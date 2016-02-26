@@ -1,10 +1,10 @@
 PV = 2.7
 PR = r1
-PKGR = r1.11
+PKGR = r1.12
 PKG = libfaad2
 RPROVIDES = libfaad (=2.7)
-RDEPENDS = glibc (>= 2.22)
+RDEPENDS = glibc (>= 2.23)
 RRECOMMENDS = 
-PKGSIZE = 270700
+PKGSIZE = 270732
 FILES = /usr/lib/libfaad.so.*
 FILELIST = /usr/lib/libfaad.so.2 /usr/lib/libfaad.so.2.0.0

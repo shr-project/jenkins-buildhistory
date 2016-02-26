@@ -1,10 +1,10 @@
 PV = 1.11
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libpkcs11-helper1
 RPROVIDES = pkcs11-helper (=1.11)
-RDEPENDS = glibc (>= 2.22) gmp (>= 6.1.0) gnutls (>= 3.4.9) libcrypto (>= 1.0.2f) libidn (>= 1.32) nettle (>= 3.1.1) nspr (>= 4.11) nss (>= 3.21) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.23) gmp (>= 6.1.0) gnutls (>= 3.4.9) libcrypto (>= 1.0.2f) libidn (>= 1.32) nettle (>= 3.1.1) nspr (>= 4.11) nss (>= 3.21) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 127641
+PKGSIZE = 127193
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/pkcs11-helper /usr/lib/pkcs11-helper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libpkcs11-helper.so.1 /usr/lib/libpkcs11-helper.so.1.0.0

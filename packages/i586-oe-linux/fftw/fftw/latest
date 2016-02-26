@@ -1,8 +1,8 @@
 PV = 3.3.4
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = libfftw3
-RDEPENDS = glibc (>= 2.22) libfftw (>= 3.3.4)
+RDEPENDS = glibc (>= 2.23) libfftw (>= 3.3.4)
 RRECOMMENDS = 
 PKGSIZE = 39515
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/fftw /usr/lib/fftw/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

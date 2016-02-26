@@ -1,9 +1,9 @@
 PV = 1.11.1
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libxcb-record0
 RPROVIDES = libxcb-record (=1.11.1)
-RDEPENDS = glibc (>= 2.22) libxau (>= 1.0.8) libxcb (>= 1.11.1) libxdmcp (>= 1.1.2)
+RDEPENDS = glibc (>= 2.23) libxau (>= 1.0.8) libxcb (>= 1.11.1) libxdmcp (>= 1.1.2)
 RRECOMMENDS = 
 PKGSIZE = 12334
 FILES = /usr/lib/libxcb-record.so.0 /usr/lib/libxcb-record.so.0.0.0
