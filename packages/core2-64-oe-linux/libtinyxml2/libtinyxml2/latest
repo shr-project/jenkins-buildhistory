@@ -1,10 +1,10 @@
 PV = 2.2.0+gitAUTOINC+d211bb1351
 PR = r0
 PKGV = 2.2.0+git0+d211bb1351
-PKGR = r0.3
+PKGR = r0.4
 PKG = libtinyxml2-2.2.0+gitautoinc+d211bb1351
-RPROVIDES = 2.2.0+git0+d211bb1351 libtinyxml2
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
+RPROVIDES = libtinyxml2 (=2.2.0+git0+d211bb1351)
+RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 PKGSIZE = 76040
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libtinyxml2 /usr/lib/libtinyxml2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

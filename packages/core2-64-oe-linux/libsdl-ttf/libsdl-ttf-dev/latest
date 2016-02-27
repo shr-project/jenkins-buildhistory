@@ -1,9 +1,9 @@
 PV = 2.0.11
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 PKG = libsdl-ttf-2.0-dev
 RPROVIDES = libsdl-ttf-dev (=2.0.11)
-RDEPENDS = libsdl-ttf (= 2.0.11-r0.0)
+RDEPENDS = libsdl-ttf (= 2.0.11-r0.1)
 RRECOMMENDS = freetype-dev glibc-dev libsdl-dev libx11-dev libxau-dev libxcb-dev libxdmcp-dev libxext-dev libxrandr-dev libxrender-dev zlib-dev
 PKGSIZE = 12307
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libsdl-ttf/*.la /lib/*.la

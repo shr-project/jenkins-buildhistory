@@ -1,10 +1,10 @@
 PV = 2.9.4
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libfuse-dbg
 RPROVIDES = fuse-dbg (=2.9.4)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 779104
+PKGSIZE = 779120
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /sbin/.debug/mount.fuse /usr/bin/.debug/fusermount /usr/bin/.debug/ulockmgr_server /usr/lib/.debug/libfuse.so.2.9.4 /usr/lib/.debug/libulockmgr.so.1.0.1

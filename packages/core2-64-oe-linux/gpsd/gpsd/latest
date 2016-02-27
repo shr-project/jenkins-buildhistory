@@ -1,11 +1,11 @@
 PV = 3.14
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = gpsd-systemd
-RDEPENDS = bluez5 (>= 5.37) dbus-lib (>= 1.10.6) glibc (>= 2.22) gpsd-gpsctl libgps (>= 3.14) libgpsd (>= 3.14) libusb1 (>= 1.0.20)
+RDEPENDS = bluez5 (>= 5.37) dbus-lib (>= 1.10.6) glibc (>= 2.23) gpsd-gpsctl libgps (>= 3.14) libgpsd (>= 3.14) libusb1 (>= 1.0.20)
 RRECOMMENDS = gpsd-conf gpsd-machine-conf gpsd-udev
 RREPLACES = gpsd-systemd
 RCONFLICTS = gpsd-systemd
-PKGSIZE = 65756
+PKGSIZE = 65748
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gpsd /usr/lib/gpsd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/gpsd.socket /lib/systemd/system/gpsd.service
 FILELIST = /lib/systemd/system/gpsd.service /lib/systemd/system/gpsd.socket /usr/sbin/gpsd /usr/sbin/gpsdctl

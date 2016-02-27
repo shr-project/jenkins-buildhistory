@@ -1,10 +1,10 @@
 PV = 2.7.1+gitAUTOINC+45e0ebd91f
 PR = r0
 PKGV = 2.7.1+git0+45e0ebd91f
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = kernel-4.4.1-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 17104
+PKGSIZE = 17128
 FILES = /lib/modules/4.4.1-yocto-standard/kernel/lttng-modules/lttng-statedump.ko /etc/modules-load.d/lttng-statedump.conf /etc/modprobe.d/lttng-statedump.conf
 FILELIST = /lib/modules/4.4.1-yocto-standard/kernel/lttng-modules/lttng-statedump.ko

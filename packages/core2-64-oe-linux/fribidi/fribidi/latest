@@ -1,9 +1,9 @@
 PV = 0.19.2
 PR = r1
-PKGR = r1.10
+PKGR = r1.11
 PKG = libfribidi0
 RPROVIDES = fribidi (=0.19.2)
-RDEPENDS = glibc (>= 2.22)
+RDEPENDS = glibc (>= 2.23)
 RRECOMMENDS = 
 PKGSIZE = 93683
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/fribidi /usr/lib/fribidi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

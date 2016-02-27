@@ -1,9 +1,9 @@
 PV = 1.1.5
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libmtp9
 RPROVIDES = libmtp (=1.1.5)
-RDEPENDS = glibc (>= 2.22) libmtp-common libusb1 (>= 1.0.20)
+RDEPENDS = glibc (>= 2.23) libmtp-common libusb1 (>= 1.0.20)
 RRECOMMENDS = libmtp-runtime mtp-tools
 PKGSIZE = 324327
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libmtp /usr/lib/libmtp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
