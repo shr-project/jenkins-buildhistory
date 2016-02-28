@@ -1,9 +1,9 @@
 PV = 1.9.1
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = haveged (= 1.9.1-r0.15)
+RDEPENDS = haveged (= 1.9.1-r0.16)
 RRECOMMENDS = glibc-dev
-PKGSIZE = 15921
+PKGSIZE = 15910
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/haveged/*.la /lib/*.la
 FILELIST = /usr/include/haveged/havege.h /usr/lib/libhavege.la /usr/lib/libhavege.so

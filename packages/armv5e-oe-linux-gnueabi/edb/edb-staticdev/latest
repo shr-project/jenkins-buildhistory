@@ -1,11 +1,11 @@
 PE = 2
 PV = 1.0.5.050+svnr82070
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 PKG = libedb-staticdev
 RPROVIDES = edb-staticdev (=1.0.5.050+svnr82070)
-RDEPENDS = edb-dev (= 2:1.0.5.050+svnr82070-r0.14)
+RDEPENDS = edb-dev (= 2:1.0.5.050+svnr82070-r0.15)
 RRECOMMENDS = 
-PKGSIZE = 2013470
+PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/edb/*.a /usr/lib/edb/*/*.a
-FILELIST = /usr/lib/libedb.a
+FILELIST = 

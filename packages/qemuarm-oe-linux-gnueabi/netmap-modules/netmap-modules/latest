@@ -1,9 +1,9 @@
 PV = master+gitAUTOINC+da9e19e69b
 PR = r0
 PKGV = master+git0+da9e19e69b
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
-RDEPENDS = kernel-module-netmap
+RDEPENDS = kernel-module-netmap kernel-module-virtio-net-netmap
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = 
