@@ -1,10 +1,10 @@
 PV = 4.0.6
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libtiff-staticdev
 RPROVIDES = tiff-staticdev (=4.0.6)
-RDEPENDS = tiff-dev (= 4.0.6-r0.11)
+RDEPENDS = tiff-dev (= 4.0.6-r0.12)
 RRECOMMENDS = 
-PKGSIZE = 1824382
+PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/tiff/*.a
-FILELIST = /usr/lib/libtiff.a /usr/lib/libtiffxx.a
+FILELIST = 
