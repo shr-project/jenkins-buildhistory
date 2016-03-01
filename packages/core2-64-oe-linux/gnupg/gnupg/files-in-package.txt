@@ -1,19 +1,18 @@
 drwxr-xr-x root       root              120 ./usr
-drwxr-xr-x root       root              340 ./usr/bin
--rwxr-xr-x root       root           315296 ./usr/bin/dirmngr
+drwxr-xr-x root       root              320 ./usr/bin
+-rwxr-xr-x root       root           316640 ./usr/bin/dirmngr
 -rwxr-xr-x root       root            90408 ./usr/bin/dirmngr-client
 lrwxrwxrwx root       root                4 ./usr/bin/gpg -> gpg2
--rwxr-xr-x root       root           327456 ./usr/bin/gpg-agent
--rwxr-xr-x root       root           135048 ./usr/bin/gpg-connect-agent
--rwxr-xr-x root       root           816064 ./usr/bin/gpg2
--rwxr-xr-x root       root           119936 ./usr/bin/gpgconf
--rwxr-xr-x root       root            28472 ./usr/bin/gpgkey2ssh
+-rwxr-xr-x root       root           331616 ./usr/bin/gpg-agent
+-rwxr-xr-x root       root           135848 ./usr/bin/gpg-connect-agent
+-rwxr-xr-x root       root           825184 ./usr/bin/gpg2
+-rwxr-xr-x root       root           120896 ./usr/bin/gpgconf
 -rwxr-xr-x root       root            23560 ./usr/bin/gpgparsemail
--rwxr-xr-x root       root           436704 ./usr/bin/gpgsm
--rwxr-xr-x root       root           120000 ./usr/bin/gpgtar
+-rwxr-xr-x root       root           440800 ./usr/bin/gpgsm
+-rwxr-xr-x root       root            99008 ./usr/bin/gpgtar
 lrwxrwxrwx root       root                5 ./usr/bin/gpgv -> gpgv2
--rwxr-xr-x root       root           381928 ./usr/bin/gpgv2
--rwxr-xr-x root       root           131480 ./usr/bin/kbxutil
+-rwxr-xr-x root       root           387432 ./usr/bin/gpgv2
+-rwxr-xr-x root       root           139736 ./usr/bin/kbxutil
 -rwxr-xr-x root       root            12752 ./usr/bin/watchgnupg
 drwxr-xr-x root       root              120 ./usr/libexec
 -rwxr-xr-x root       root            85928 ./usr/libexec/gpg-check-pattern
@@ -24,11 +23,11 @@ drwxr-xr-x root       root               80 ./usr/sbin
 -rwxr-xr-x root       root             3078 ./usr/sbin/addgnupghome
 -rwxr-xr-x root       root             2215 ./usr/sbin/applygnupgdefaults
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root              700 ./usr/share/gnupg
+drwxr-xr-x root       root              720 ./usr/share/gnupg
 -rw-r--r-- root       root             3781 ./usr/share/gnupg/com-certs.pem
--rw-r--r-- root       root             2752 ./usr/share/gnupg/dirmngr-conf.skel
+-rw-r--r-- root       root             2758 ./usr/share/gnupg/dirmngr-conf.skel
 -rw-r--r-- root       root             4114 ./usr/share/gnupg/distsigkey.gpg
--rw-r--r-- root       root             6557 ./usr/share/gnupg/gpg-conf.skel
+-rw-r--r-- root       root             5291 ./usr/share/gnupg/gpg-conf.skel
 -rw-r--r-- root       root             9740 ./usr/share/gnupg/help.be.txt
 -rw-r--r-- root       root             9740 ./usr/share/gnupg/help.ca.txt
 -rw-r--r-- root       root             9740 ./usr/share/gnupg/help.cs.txt
@@ -58,3 +57,4 @@ drwxr-xr-x root       root              700 ./usr/share/gnupg
 -rw-r--r-- root       root             7070 ./usr/share/gnupg/help.zh_CN.txt
 -rw-r--r-- root       root             7101 ./usr/share/gnupg/help.zh_TW.txt
 -rw-r--r-- root       root             9606 ./usr/share/gnupg/qualified.txt
+-rw-r--r-- root       root             1984 ./usr/share/gnupg/sks-keyservers.netCA.pem

@@ -14,7 +14,7 @@ drwxr-xr-x root       root              280 ./etc/apache2/extra
 -rw-r--r-- root       root              694 ./etc/apache2/extra/httpd-userdir.conf
 -rw-r--r-- root       root             1491 ./etc/apache2/extra/httpd-vhosts.conf
 -rw-r--r-- root       root             3161 ./etc/apache2/extra/proxy-html.conf
--rw-r--r-- root       root            19174 ./etc/apache2/httpd.conf
+-rw-r--r-- root       root            19250 ./etc/apache2/httpd.conf
 -rw-r--r-- root       root            13077 ./etc/apache2/magic
 -rw-r--r-- root       root            53011 ./etc/apache2/mime.types
 drwxr-xr-x root       root               40 ./etc/apache2/modules.d
@@ -34,7 +34,7 @@ drwxr-xr-x root       root              160 ./usr/bin
 -rwxr-xr-x root       root             9696 ./usr/bin/logresolve
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/apache2
-drwxr-xr-x root       root             1740 ./usr/lib/apache2/modules
+drwxr-xr-x root       root             1760 ./usr/lib/apache2/modules
 -rw-r--r-- root       root            14716 ./usr/lib/apache2/modules/httpd.exp
 -rwxr-xr-x root       root            10088 ./usr/lib/apache2/modules/mod_access_compat.so
 -rwxr-xr-x root       root             8816 ./usr/lib/apache2/modules/mod_actions.so
@@ -105,6 +105,7 @@ drwxr-xr-x root       root             1740 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root            34328 ./usr/lib/apache2/modules/mod_sed.so
 -rwxr-xr-x root       root            19984 ./usr/lib/apache2/modules/mod_session.so
 -rwxr-xr-x root       root             9440 ./usr/lib/apache2/modules/mod_session_cookie.so
+-rwxr-xr-x root       root            20552 ./usr/lib/apache2/modules/mod_session_crypto.so
 -rwxr-xr-x root       root            15872 ./usr/lib/apache2/modules/mod_session_dbd.so
 -rwxr-xr-x root       root            13640 ./usr/lib/apache2/modules/mod_setenvif.so
 -rwxr-xr-x root       root            16040 ./usr/lib/apache2/modules/mod_slotmem_shm.so

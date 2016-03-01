@@ -1,9 +1,9 @@
 PV = 2014.03+AUTOINC+fa71af2dfa
 PR = r0
 PKGV = 2014.03+0+fa71af2dfa
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libdrm (>= 2.4.66) libegl-mesa (>= 11.1.1) libgbm (>= 11.1.1) libgcc (>= 5.3.0) libgl-mesa (>= 11.1.1) libgles2-mesa (>= 11.1.1) libjpeg-turbo (>= 8d+1.4.2) libpng12 (>= 1.2.56) libstdc++ (>= 5.3.0) libwayland-egl (>= 11.1.1) libx11 (>= 1.6.3) wayland (>= 1.9.0)
+RDEPENDS = glibc (>= 2.23) libdrm (>= 2.4.67) libegl-mesa (>= 11.1.1) libgbm (>= 11.1.1) libgcc (>= 5.3.0) libgl-mesa (>= 11.1.1) libgles2-mesa (>= 11.1.1) libjpeg-turbo (>= 8d+1.4.2) libpng12 (>= 1.2.56) libstdc++ (>= 5.3.0) libwayland-egl (>= 11.1.1) libx11 (>= 1.6.3) wayland (>= 1.9.0)
 RRECOMMENDS = 
 PKGSIZE = 16414846
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/glmark2 /usr/lib/glmark2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

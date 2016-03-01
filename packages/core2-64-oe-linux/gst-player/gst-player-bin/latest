@@ -1,6 +1,6 @@
 PV = git
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libgstplayer-0.0-bin
 RPROVIDES = gst-player-bin (=git)
 RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.23) gst-player (>= git) gstreamer1.0 (>= 1.6.3) gstreamer1.0-plugins-base-playback gtk+ (>= 2.24.29)

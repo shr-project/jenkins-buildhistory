@@ -1,9 +1,9 @@
 PV = 1.2.56
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = libpng12 (= 1.2.56-r0.8)
+RDEPENDS = libpng12 (= 1.2.56-r0.9)
 RRECOMMENDS = glibc-dev zlib-dev
-PKGSIZE = 200446
+PKGSIZE = 200436
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libpng12/*.la /lib/*.la /usr/bin/*-config
 FILELIST = /usr/bin/libpng12-config /usr/include/libpng12/png.h /usr/include/libpng12/pngconf.h /usr/lib/libpng12.la /usr/lib/libpng12.so /usr/lib/pkgconfig/libpng12.pc
