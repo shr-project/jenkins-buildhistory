@@ -1,8 +1,8 @@
 PV = 3.5.1
 PR = r1.0
-PKGR = r1.0.12
+PKGR = r1.0.13
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libpython3 (>= 3.5.1) ncurses-libncurses (>= 6.0) ncurses-libpanel (>= 6.0) ncurses-libtinfo (>= 6.0) python3-core
+RDEPENDS = glibc (>= 2.23) libpython3 (>= 3.5.1) ncurses-libncurses (>= 6.0+20160213) ncurses-libpanel (>= 6.0+20160213) ncurses-libtinfo (>= 6.0+20160213) python3-core
 RRECOMMENDS = 
 PKGSIZE = 82413
 FILES = /usr/lib/python3.5/curses /usr/lib/python3.5/lib-dynload/_curses.*.so /usr/lib/python3.5/lib-dynload/_curses_panel.*.so

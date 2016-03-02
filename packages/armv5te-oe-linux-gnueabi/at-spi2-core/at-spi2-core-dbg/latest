@@ -1,10 +1,10 @@
 PV = 2.18.3
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libatspi-dbg
 RPROVIDES = at-spi2-core-dbg (=2.18.3)
 RDEPENDS = 
 RRECOMMENDS = dbus-lib-dbg glib-2.0-dbg glibc-dbg libcap-dbg libffi-dbg libice-dbg liblzma-dbg libpcre-dbg libsm-dbg libsystemd-dbg libx11-dbg libxau-dbg libxcb-dbg libxdmcp-dbg libxtst-dbg
-PKGSIZE = 685540
+PKGSIZE = 686140
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/lib/.debug/libatspi.so.0.0.1 /usr/libexec/.debug/at-spi-bus-launcher /usr/libexec/.debug/at-spi2-registryd

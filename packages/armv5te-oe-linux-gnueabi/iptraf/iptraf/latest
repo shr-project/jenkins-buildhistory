@@ -1,8 +1,8 @@
 PV = 3.0.0
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) ncurses ncurses-libncurses (>= 6.0) ncurses-libpanel (>= 6.0) ncurses-libtinfo (>= 6.0)
+RDEPENDS = glibc (>= 2.23) ncurses ncurses-libncurses (>= 6.0+20160213) ncurses-libpanel (>= 6.0+20160213) ncurses-libtinfo (>= 6.0+20160213)
 RRECOMMENDS = 
 PKGSIZE = 116838
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/iptraf /usr/lib/iptraf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/bin /var /run
