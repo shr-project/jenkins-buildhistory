@@ -1,10 +1,10 @@
-PV = 4.4.1+gitAUTOINC+4940c6e551_fae04a40c8
+PV = 4.4.3+gitAUTOINC+8b6a7d8034_fa6a2f888d
 PR = r0
-PKGV = 4.4.1+git0+4940c6e551_fae04a40c8
-PKGR = r0.19
+PKGV = 4.4.3+git0+8b6a7d8034_fa6a2f888d
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.1-yocto-standard
+RDEPENDS = kernel-4.4.3-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 13152
-FILES = /lib/modules/4.4.1-yocto-standard/kernel/fs/binfmt_misc.ko /etc/modules-load.d/binfmt_misc.conf /etc/modprobe.d/binfmt_misc.conf
-FILELIST = /lib/modules/4.4.1-yocto-standard/kernel/fs/binfmt_misc.ko
+FILES = /lib/modules/4.4.3-yocto-standard/kernel/fs/binfmt_misc.ko /etc/modules-load.d/binfmt_misc.conf /etc/modprobe.d/binfmt_misc.conf
+FILELIST = /lib/modules/4.4.3-yocto-standard/kernel/fs/binfmt_misc.ko
