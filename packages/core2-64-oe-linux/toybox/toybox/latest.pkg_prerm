@@ -4,7 +4,6 @@
 	update-alternatives --remove  basename /bin/toybox
 	update-alternatives --remove  blkid /bin/toybox
 	update-alternatives --remove  blockdev /bin/toybox
-	update-alternatives --remove  bunzip2 /bin/toybox
 	update-alternatives --remove  bzcat /bin/toybox
 	update-alternatives --remove  cal /bin/toybox
 	update-alternatives --remove  cat /bin/toybox
@@ -39,19 +38,16 @@
 	update-alternatives --remove  false /bin/toybox
 	update-alternatives --remove  fgrep /bin/toybox
 	update-alternatives --remove  find /bin/toybox
-	update-alternatives --remove  flock /bin/toybox
 	update-alternatives --remove  free /bin/toybox
 	update-alternatives --remove  freeramdisk /bin/toybox
 	update-alternatives --remove  fsfreeze /bin/toybox
 	update-alternatives --remove  fstype /bin/toybox
-	update-alternatives --remove  fsync /bin/toybox
 	update-alternatives --remove  grep /bin/toybox
 	update-alternatives --remove  groups /bin/toybox
 	update-alternatives --remove  halt /bin/toybox
 	update-alternatives --remove  head /bin/toybox
 	update-alternatives --remove  help /bin/toybox
 	update-alternatives --remove  hexedit /bin/toybox
-	update-alternatives --remove  hostid /bin/toybox
 	update-alternatives --remove  hostname /bin/toybox
 	update-alternatives --remove  hwclock /bin/toybox
 	update-alternatives --remove  id /bin/toybox
@@ -61,7 +57,6 @@
 	update-alternatives --remove  install /bin/toybox
 	update-alternatives --remove  ionice /bin/toybox
 	update-alternatives --remove  iorenice /bin/toybox
-	update-alternatives --remove  iotop /bin/toybox
 	update-alternatives --remove  kill /bin/toybox
 	update-alternatives --remove  killall /bin/toybox
 	update-alternatives --remove  link /bin/toybox
@@ -101,15 +96,12 @@
 	update-alternatives --remove  passwd /bin/toybox
 	update-alternatives --remove  paste /bin/toybox
 	update-alternatives --remove  patch /bin/toybox
-	update-alternatives --remove  pgrep /bin/toybox
 	update-alternatives --remove  pidof /bin/toybox
 	update-alternatives --remove  pivot_root /bin/toybox
-	update-alternatives --remove  pkill /bin/toybox
 	update-alternatives --remove  pmap /bin/toybox
 	update-alternatives --remove  poweroff /bin/toybox
 	update-alternatives --remove  printenv /bin/toybox
 	update-alternatives --remove  printf /bin/toybox
-	update-alternatives --remove  ps /bin/toybox
 	update-alternatives --remove  pwd /bin/toybox
 	update-alternatives --remove  pwdx /bin/toybox
 	update-alternatives --remove  readahead /bin/toybox
@@ -145,7 +137,6 @@
 	update-alternatives --remove  tee /bin/toybox
 	update-alternatives --remove  time /bin/toybox
 	update-alternatives --remove  timeout /bin/toybox
-	update-alternatives --remove  top /bin/toybox
 	update-alternatives --remove  touch /bin/toybox
 	update-alternatives --remove  true /bin/toybox
 	update-alternatives --remove  truncate /bin/toybox
