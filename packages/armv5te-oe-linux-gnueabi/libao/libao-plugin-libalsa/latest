@@ -1,9 +1,9 @@
-PV = 1.1.0
+PV = 1.2.0
 PR = r0
-PKGR = r0.19
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libao libasound (>= 1.1.0)
+RDEPENDS = glibc (>= 2.23) libao (>= 1.2.0) libasound (>= 1.1.0)
 RRECOMMENDS = 
-PKGSIZE = 23784
+PKGSIZE = 28780
 FILES = /usr/lib/ao/plugins-4/libalsa.so
 FILELIST = /usr/lib/ao/plugins-4/libalsa.so
