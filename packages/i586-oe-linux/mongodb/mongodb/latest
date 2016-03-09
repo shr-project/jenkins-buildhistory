@@ -1,10 +1,10 @@
 PV = 3.3.0+gitAUTOINC+aacd231be0
 PR = r0
 PKGV = 3.3.0+git0+aacd231be0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) gperftools (>= 2.4) libcrypto (>= 1.0.2f) libgcc (>= 5.3.0) libpcap (>= 1.7.4) libpcrecpp (>= 8.38) libssl (>= 1.0.2f) libstdc++ (>= 5.3.0) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.23) gperftools (>= 2.4) libcrypto (>= 1.0.2g) libgcc (>= 5.3.0) libpcap (>= 1.7.4) libpcrecpp (>= 8.38) libssl (>= 1.0.2g) libstdc++ (>= 5.3.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 70064456
+PKGSIZE = 70064424
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mongodb /usr/lib/mongodb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/mongod /usr/bin/mongoperf /usr/bin/mongos /usr/bin/mongosniff
