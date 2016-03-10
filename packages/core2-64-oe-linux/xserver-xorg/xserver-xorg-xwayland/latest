@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.18.0
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libcrypto (>= 1.0.2f) libgl-mesa (>= 11.1.1) libsystemd (>= 229+git0+714c62b463) libxau (>= 1.0.8) libxdmcp (>= 1.1.2) libxfont (>= 1.5.1) pixman (>= 0.32.8) wayland (>= 1.9.0)
+RDEPENDS = glibc (>= 2.23) libcrypto (>= 1.0.2g) libgl-mesa (>= 11.1.1) libsystemd (>= 229+git0+714c62b463) libxau (>= 1.0.8) libxdmcp (>= 1.1.2) libxfont (>= 1.5.1) pixman (>= 0.32.8) wayland (>= 1.9.0)
 RRECOMMENDS = rgb xkbcomp xkeyboard-config xserver-xf86-config
 PKGSIZE = 1747544
 FILES = /usr/bin/Xwayland

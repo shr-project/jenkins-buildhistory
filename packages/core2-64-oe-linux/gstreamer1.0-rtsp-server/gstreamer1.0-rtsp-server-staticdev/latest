@@ -1,9 +1,9 @@
 PV = 1.6.2
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 PKG = libgstrtspserver-1.0-staticdev
 RPROVIDES = gstreamer1.0-rtsp-server-staticdev (=1.6.2)
-RDEPENDS = gstreamer1.0-rtsp-server-dev (= 1.6.2-r0.11)
+RDEPENDS = gstreamer1.0-rtsp-server-dev (= 1.6.2-r0.12)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/gstreamer1.0-rtsp-server/*.a
