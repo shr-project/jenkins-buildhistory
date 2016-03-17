@@ -1,0 +1,10 @@
+PV = 2.30.0
+PR = r0
+PKGR = r0.1
+PKG = libgtop-2.0-locale-hu
+RPROVIDES = hu-translation libgtop-locale libgtop-locale-hu (=2.30.0)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-hu
+PKGSIZE = 3084
+FILES = /usr/share/locale/hu
+FILELIST = /usr/share/locale/hu/LC_MESSAGES/libgtop-2.0.mo

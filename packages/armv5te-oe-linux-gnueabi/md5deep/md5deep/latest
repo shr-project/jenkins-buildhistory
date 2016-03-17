@@ -1,0 +1,9 @@
+PV = 4.4
+PR = r0
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
+RRECOMMENDS = 
+PKGSIZE = 925728
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/md5deep /usr/lib/md5deep/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/hashdeep /usr/bin/md5deep /usr/bin/sha1deep /usr/bin/sha256deep /usr/bin/tigerdeep /usr/bin/whirlpooldeep

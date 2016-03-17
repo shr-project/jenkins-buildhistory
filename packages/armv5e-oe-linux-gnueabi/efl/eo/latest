@@ -1,0 +1,11 @@
+PE = 2
+PV = 1.15.1
+PR = r0
+PKGR = r0.0
+PKG = libeo1
+RPROVIDES = eo (=1.15.1)
+RDEPENDS = eina (>= 1.15.1) glibc (>= 2.23) libgcc (>= 5.3.0) libunwind (>= 1.1)
+RRECOMMENDS = 
+PKGSIZE = 72987
+FILES = /usr/lib/libeo.so.*
+FILELIST = /usr/lib/libeo.so.1 /usr/lib/libeo.so.1.15.1

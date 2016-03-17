@@ -1,0 +1,9 @@
+PV = 1.0.5
+PR = r0
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libpam-dbg
+PKGSIZE = 40008
+FILES = /usr/lib/debug /usr/src/debug /lib/security/.debug
+FILELIST = /lib/security/.debug/pam_passwdqc.so

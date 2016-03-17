@@ -1,0 +1,9 @@
+PV = 0.5.6
+PR = r0
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.23)
+RRECOMMENDS = update-rc.d
+PKGSIZE = 125993
+FILES = /etc/LCDd.conf /usr/sbin/LCDd /etc/init.d/lcdd
+FILELIST = /etc/LCDd.conf /etc/init.d/lcdd /usr/sbin/LCDd

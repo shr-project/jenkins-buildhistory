@@ -1,0 +1,10 @@
+PV = 1.2.12
+PR = r0
+PKGR = r0.1
+PKG = libsdl-mixer-1.2-dbg
+RPROVIDES = libsdl-mixer-dbg (=1.2.12)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libsdl-dbg libx11-dbg libxau-dbg libxcb-dbg libxdmcp-dbg libxext-dbg libxrandr-dbg libxrender-dbg
+PKGSIZE = 390192
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libSDL_mixer-1.2.so.0.12.0

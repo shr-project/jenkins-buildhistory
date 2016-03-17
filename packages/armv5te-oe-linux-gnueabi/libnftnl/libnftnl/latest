@@ -1,0 +1,10 @@
+PV = 1.0.5
+PR = r0
+PKGR = r0.1
+PKG = libnftnl4
+RPROVIDES = libnftnl (=1.0.5)
+RDEPENDS = glibc (>= 2.23) libmnl (>= 1.0.3)
+RRECOMMENDS = 
+PKGSIZE = 85737
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libnftnl /usr/lib/libnftnl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libnftnl.so.4 /usr/lib/libnftnl.so.4.0.0

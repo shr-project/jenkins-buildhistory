@@ -1,0 +1,15 @@
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc/default
+-rwxr-xr-x root       root              407 ./etc/default/splashfuncs
+drwxr-xr-x root       root               60 ./etc/init.d
+-rwxr-xr-x root       root              863 ./etc/init.d/exquisite
+drwxr-xr-x root       root               60 ./mnt
+drwxr-xr-x root       root               40 ./mnt/.splash
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr/bin
+-rwxr-xr-x root       root            15288 ./usr/bin/exquisite
+-rwxr-xr-x root       root             6872 ./usr/bin/exquisite-write
+lrwxrwxrwx root       root               15 ./usr/bin/splash-write -> exquisite-write
+drwxr-xr-x root       root               80 ./usr/lib
+lrwxrwxrwx root       root               22 ./usr/lib/libexquisite.so.1 -> libexquisite.so.1.6.99
+-rwxr-xr-x root       root             9064 ./usr/lib/libexquisite.so.1.6.99

@@ -1,0 +1,10 @@
+PV = 1.24.2
+PR = r0
+PKGR = r0.1
+PKG = libclutter-1.0-locale-en-gb
+RPROVIDES = clutter-1.0-locale clutter-1.0-locale-en-gb (=1.24.2) en-gb-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-en-gb
+PKGSIZE = 49591
+FILES = /usr/share/locale/en_GB
+FILELIST = /usr/share/locale/en_GB/LC_MESSAGES/clutter-1.0.mo

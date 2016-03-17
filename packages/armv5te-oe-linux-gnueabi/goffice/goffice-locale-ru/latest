@@ -1,0 +1,10 @@
+PV = 0.10.1
+PR = r0
+PKGR = r0.1
+PKG = libgoffice-0.10-locale-ru
+RPROVIDES = goffice-locale goffice-locale-ru (=0.10.1) ru-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ru
+PKGSIZE = 97059
+FILES = /usr/share/locale/ru
+FILELIST = /usr/share/locale/ru/LC_MESSAGES/goffice-0.10.1.mo

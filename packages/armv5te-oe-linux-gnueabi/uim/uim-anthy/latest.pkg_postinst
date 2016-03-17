@@ -1,0 +1,3 @@
+    if [ -f /usr/bin/uim-module-manager ]; then
+        /usr/bin/uim-module-manager --register anthy --path /etc/uim
+    fi

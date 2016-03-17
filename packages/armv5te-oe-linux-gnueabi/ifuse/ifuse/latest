@@ -1,0 +1,9 @@
+PV = 1.1.2
+PR = r0
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = fuse (>= 2.9.4) glibc (>= 2.23) libcrypto (>= 1.0.2g) libimobiledevice (>= 1.1.4) libplist (>= 1.8) libssl (>= 1.0.2g) usbmuxd (>= 1.0.8)
+RRECOMMENDS = 
+PKGSIZE = 14840
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ifuse /usr/lib/ifuse/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/ifuse

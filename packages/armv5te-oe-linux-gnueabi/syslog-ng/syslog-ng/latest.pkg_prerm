@@ -1,0 +1,15 @@
+#!/bin/sh
+	update-alternatives --remove  syslog-service /lib/systemd/system/syslog-ng.service
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop syslog-ng.service
+	fi
+
+	systemctl $OPTS disable syslog-ng.service
+fi

@@ -1,0 +1,11 @@
+PE = 1
+PV = 1.2.2
+PR = r0
+PKGR = r0.1
+PKG = libxss-dbg
+RPROVIDES = libxscrnsaver-dbg (=1.2.2)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libx11-dbg libxau-dbg libxcb-dbg libxdmcp-dbg libxext-dbg
+PKGSIZE = 46740
+FILES = /usr/lib/debug /usr/src/debug
+FILELIST = /usr/lib/.debug/libXss.so.1.0.0

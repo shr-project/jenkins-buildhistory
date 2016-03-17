@@ -1,0 +1,10 @@
+PV = 0.10.1
+PR = r0
+PKGR = r0.1
+PKG = libgoffice-0.10-locale-cs
+RPROVIDES = cs-translation goffice-locale goffice-locale-cs (=0.10.1)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-cs
+PKGSIZE = 130854
+FILES = /usr/share/locale/cs
+FILELIST = /usr/share/locale/cs/LC_MESSAGES/goffice-0.10.1.mo

@@ -1,0 +1,4 @@
+PV = 1.6.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native gobject-introspection gobject-introspection-native gstreamer1.0 gstreamer1.0-plugins-base libcgroup libtool-cross libtool-native pkgconfig-native qemu-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = gstreamer1.0-rtsp-server-dbg gstreamer1.0-rtsp-server-staticdev gstreamer1.0-rtsp-server-dev gstreamer1.0-rtsp-server-doc gstreamer1.0-rtsp-server-locale gstreamer1.0-rtsp-server

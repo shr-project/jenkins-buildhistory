@@ -1,0 +1,14 @@
+#!/bin/sh
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	systemctl $OPTS enable phoromatic-client.service phoromatic-server.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl restart phoromatic-client.service phoromatic-server.service
+	fi
+fi

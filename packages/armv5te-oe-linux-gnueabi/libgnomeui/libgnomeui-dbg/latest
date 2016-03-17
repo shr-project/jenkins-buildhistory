@@ -1,0 +1,10 @@
+PV = 2.24.3
+PR = r1
+PKGR = r1.1
+PKG = libgnomeui-2-dbg
+RPROVIDES = libgnomeui-dbg (=2.24.3)
+RDEPENDS = 
+RRECOMMENDS = atk-dbg cairo-dbg dbus-glib-dbg dbus-lib-dbg expat-dbg fontconfig-dbg freetype-dbg gconf-dbg gdk-pixbuf-dbg glib-2.0-dbg glibc-dbg gnome-vfs-dbg gtk+-dbg harfbuzz-dbg libart-lgpl-dbg libavahi-client-dbg libavahi-common-dbg libavahi-glib-dbg libbonobo-dbg libbonoboui-dbg libcanberra-dbg libcap-dbg libffi-dbg libgcrypt-dbg libglade-dbg libgnome-dbg libgnome-keyring-dbg libgnomecanvas-dbg libgpg-error-dbg libice-dbg libltdl-dbg liblzma-dbg libogg-dbg libpcre-dbg libpng-dbg libsm-dbg libsystemd-dbg libvorbis-dbg libx11-dbg libxau-dbg libxcb-dbg libxcb-render-dbg libxcb-shm-dbg libxcomposite-dbg libxcursor-dbg libxdamage-dbg libxdmcp-dbg libxext-dbg libxfixes-dbg libxml2-dbg libxrandr-dbg libxrender-dbg orbit2-dbg pango-dbg pixman-dbg popt-dbg zlib-dbg
+PKGSIZE = 1886588
+FILES = /usr/lib/debug /usr/src/debug /usr/lib/gtk-2.0/*/filesystems/.debug/ /usr/lib/libglade/*/.debug/
+FILELIST = /usr/lib/.debug/libgnomeui-2.so.0.2400.3 /usr/lib/libglade/2.0/.debug/libgnome.so

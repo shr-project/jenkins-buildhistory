@@ -1,0 +1,4 @@
+PV = git
+PR = r0
+DEPENDS = cmake-native libubox virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = relayd-dbg relayd-staticdev relayd-dev relayd-doc relayd-locale relayd

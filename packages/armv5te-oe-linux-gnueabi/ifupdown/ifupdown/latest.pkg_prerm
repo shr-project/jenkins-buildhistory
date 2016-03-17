@@ -1,0 +1,6 @@
+#!/bin/sh
+	update-alternatives --remove  ifup /sbin/ifup.ifupdown
+	update-alternatives --remove  ifdown /sbin/ifdown.ifupdown
+if [ -z "$D" ]; then
+	/etc/init.d/ifup stop
+fi
