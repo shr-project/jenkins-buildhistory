@@ -1,27 +1,189 @@
-meta-luneui       = jansa/master:155805dc85e631775220ca26a9cd7a11d837ad90
-meta-shr          = jansa/master:d706e099e3687b08d2af63abf55873ae6e98c081
-meta-fso          = jansa/master:d706e099e3687b08d2af63abf55873ae6e98c081
-meta-android      = jansa/master:d706e099e3687b08d2af63abf55873ae6e98c081
-meta-oe           = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-efl          = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-gnome        = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-gpe          = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-perl         = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-python       = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-filesystems  = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-multimedia   = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-networking   = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-systemd      = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-xfce         = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-initramfs    = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-ruby         = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-webserver    = jansa/master:45f9db50fe81cd5c52624c04bdaebcc86e2e885e
-meta-osmocombb    = jansa/master:d706e099e3687b08d2af63abf55873ae6e98c081
-meta-nokia        = jansa/master:d706e099e3687b08d2af63abf55873ae6e98c081
-meta-htc          = jansa/master:d706e099e3687b08d2af63abf55873ae6e98c081
-meta-palm         = jansa/master:d706e099e3687b08d2af63abf55873ae6e98c081
-meta-openmoko     = jansa/master:d706e099e3687b08d2af63abf55873ae6e98c081
-meta-samsung      = jansa/master:d706e099e3687b08d2af63abf55873ae6e98c081
-meta-browser      = jansa/master:a8d1d6d888b0c1f3441d82b0ed05704172c1b3fb
-meta-qt5          = jansa/master:b2d5376b41625521b9a081fe800345fff33d8dd6
-meta              = jansa/master:8599ead40951e215030fd37295a067f64647b892
+origin	git://github.com/webOS-ports/meta-webos-ports.git (fetch)
+origin	git://github.com/webOS-ports/meta-webos-ports.git (push)
+	layer:  ../meta-webos-ports/meta-luneui
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   155805dc85e631775220ca26a9cd7a11d837ad90
+
+origin	git://github.com/shr-distribution/meta-smartphone.git (fetch)
+origin	git://github.com/shr-distribution/meta-smartphone.git (push)
+	layer:  ../meta-smartphone/meta-shr
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   537444cb4e5aa6ac0f8e73fc0b333a57d56c2b5f
+
+origin	git://github.com/shr-distribution/meta-smartphone.git (fetch)
+origin	git://github.com/shr-distribution/meta-smartphone.git (push)
+	layer:  ../meta-smartphone/meta-fso
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   537444cb4e5aa6ac0f8e73fc0b333a57d56c2b5f
+
+origin	git://github.com/shr-distribution/meta-smartphone.git (fetch)
+origin	git://github.com/shr-distribution/meta-smartphone.git (push)
+	layer:  ../meta-smartphone/meta-android
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   537444cb4e5aa6ac0f8e73fc0b333a57d56c2b5f
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-oe
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-efl
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-gnome
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-gpe
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-perl
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-python
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-filesystems
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-multimedia
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-networking
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-systemd
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-xfce
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-initramfs
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-ruby
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (fetch)
+origin	git://git.openembedded.org/meta-openembedded-contrib.git (push)
+	layer:  ../meta-openembedded/meta-webserver
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   1444ccf441c095226b7d253367690db146e51c83
+
+origin	git://github.com/shr-distribution/meta-smartphone.git (fetch)
+origin	git://github.com/shr-distribution/meta-smartphone.git (push)
+	layer:  ../meta-smartphone/meta-osmocombb
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   537444cb4e5aa6ac0f8e73fc0b333a57d56c2b5f
+
+origin	git://github.com/shr-distribution/meta-smartphone.git (fetch)
+origin	git://github.com/shr-distribution/meta-smartphone.git (push)
+	layer:  ../meta-smartphone/meta-nokia
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   537444cb4e5aa6ac0f8e73fc0b333a57d56c2b5f
+
+origin	git://github.com/shr-distribution/meta-smartphone.git (fetch)
+origin	git://github.com/shr-distribution/meta-smartphone.git (push)
+	layer:  ../meta-smartphone/meta-htc
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   537444cb4e5aa6ac0f8e73fc0b333a57d56c2b5f
+
+origin	git://github.com/shr-distribution/meta-smartphone.git (fetch)
+origin	git://github.com/shr-distribution/meta-smartphone.git (push)
+	layer:  ../meta-smartphone/meta-palm
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   537444cb4e5aa6ac0f8e73fc0b333a57d56c2b5f
+
+origin	git://github.com/shr-distribution/meta-smartphone.git (fetch)
+origin	git://github.com/shr-distribution/meta-smartphone.git (push)
+	layer:  ../meta-smartphone/meta-openmoko
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   537444cb4e5aa6ac0f8e73fc0b333a57d56c2b5f
+
+origin	git://github.com/shr-distribution/meta-smartphone.git (fetch)
+origin	git://github.com/shr-distribution/meta-smartphone.git (push)
+	layer:  ../meta-smartphone/meta-samsung
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   537444cb4e5aa6ac0f8e73fc0b333a57d56c2b5f
+
+origin	git://github.com/shr-distribution/meta-browser.git (fetch)
+origin	git://github.com/shr-distribution/meta-browser.git (push)
+	layer:  ../meta-browser
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   a42392f95fb57e6450c8da6bbea9519c76e74d46
+
+origin	git://github.com/meta-qt5/meta-qt5.git (fetch)
+origin	git://github.com/meta-qt5/meta-qt5.git (push)
+	layer:  ../meta-qt5
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   b2d5376b41625521b9a081fe800345fff33d8dd6
+
+origin	git://git.openembedded.org/openembedded-core-contrib.git (fetch)
+origin	git://git.openembedded.org/openembedded-core-contrib.git (push)
+	layer:  meta
+	branch: jansa/master
+	remote: origin/jansa/master
+	HEAD:   c278358a96204ec383bda66ce5e06bbc985e2127
+
