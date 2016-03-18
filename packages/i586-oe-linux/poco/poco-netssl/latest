@@ -1,10 +1,10 @@
-PV = 1.6.1
+PV = 1.7.1
 PR = r0
-PKGR = r0.14
-PKG = libpoconetssl31
-RPROVIDES = poco-netssl (=1.6.1)
-RDEPENDS = glibc (>= 2.23) libcrypto (>= 1.0.2g) libgcc (>= 5.3.0) libssl (>= 1.0.2g) libstdc++ (>= 5.3.0) poco-crypto (>= 1.6.1) poco-foundation (>= 1.6.1) poco-net (>= 1.6.1) poco-util (>= 1.6.1)
+PKGR = r0.0
+PKG = libpoconetssl41
+RPROVIDES = poco-netssl (=1.7.1)
+RDEPENDS = glibc (>= 2.23) libcrypto (>= 1.0.2g) libgcc (>= 5.3.0) libssl (>= 1.0.2g) libstdc++ (>= 5.3.0) poco-crypto (>= 1.7.1) poco-foundation (>= 1.7.1) poco-net (>= 1.7.1) poco-util (>= 1.7.1)
 RRECOMMENDS = 
-PKGSIZE = 271368
+PKGSIZE = 281100
 FILES = /usr/lib/libPocoNetSSL.so.*
-FILELIST = /usr/lib/libPocoNetSSL.so.31
+FILELIST = /usr/lib/libPocoNetSSL.so.41

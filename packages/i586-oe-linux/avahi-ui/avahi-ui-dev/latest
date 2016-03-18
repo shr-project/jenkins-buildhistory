@@ -1,10 +1,10 @@
 PV = 0.6.32
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 PKG = libavahi-ui-dev
 RPROVIDES = avahi-ui-dev (=0.6.32)
-RDEPENDS = avahi-daemon (= 0.6.32-r0.4) avahi-ui libavahi-client (= 0.6.32-r0.4) libavahi-core (= 0.6.32-r0.4)
-RRECOMMENDS = atk-dev avahi-daemon-dev avahi-dev base-files-dev cairo-dev dbus-dev dbus-lib-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gtk+-dev harfbuzz-dev initscripts-dev libavahi-client-dev libavahi-common-dev libavahi-core-dev libavahi-glib-dev libcap-dev libdaemon-dev libffi-dev libglade-dev liblzma-dev libpcre-dev libpng-dev libsystemd-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxrender-dev pango-dev pixman-dev python-avahi-dev python-core-dev python-dbus-dev python-dev python-pygtk-dev shadow-dev shadow-sysroot-dev update-rc.d-dev zlib-dev
+RDEPENDS = avahi-daemon (= 0.6.32-r0.0) avahi-ui libavahi-client (= 0.6.32-r0.0) libavahi-core (= 0.6.32-r0.0)
+RRECOMMENDS = atk-dev avahi-daemon-dev avahi-dev base-files-dev cairo-dev dbus-dev dbus-lib-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+-dev harfbuzz-dev initscripts-dev libavahi-client-dev libavahi-common-dev libavahi-core-dev libavahi-glib-dev libcap-dev libdaemon-dev libffi-dev libglade-dev liblzma-dev libpcre-dev libpng-dev libsystemd-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxrender-dev pango-dev pixman-dev python-core-dev python-dbus-dev python-dev shadow-dev shadow-sysroot-dev update-rc.d-dev zlib-dev
 PKGSIZE = 9903
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/avahi-ui/*.la /lib/*.la /usr/lib/libavahi-ui.so
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/avahi-ui/*.la /lib/*.la /usr/lib/libavahi-ui.so /usr/share/gir-*/*.gir
 FILELIST = /usr/include/avahi-ui/avahi-ui.h /usr/lib/libavahi-ui.la /usr/lib/libavahi-ui.so /usr/lib/pkgconfig/avahi-ui.pc
