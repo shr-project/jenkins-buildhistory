@@ -1,10 +1,9 @@
 PV = 1.2
 PR = r0
-PKGR = r0.1
-PKG = libftdi1-dbg
-RPROVIDES = libftdi-dbg (=1.2)
+PKGR = r0.0
+RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg libusb1-dbg
-PKGSIZE = 86864
+RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg libusb1-dbg
+PKGSIZE = 233852
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/.debug/libftdi1.so.2.2.0
+FILELIST = /usr/lib/.debug/libftdi1.so.2.2.0 /usr/lib/.debug/libftdipp1.so.2.2.0
