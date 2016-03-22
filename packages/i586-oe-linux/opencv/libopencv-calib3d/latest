@@ -1,11 +1,11 @@
-PV = 2.4.11+gitAUTOINC+2c9547e314
+PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
-PKGV = 2.4.11+git0+2c9547e314
-PKGR = r0.11
-PKG = libopencv-calib3d2.4
-RPROVIDES = libopencv-calib3d (=2.4.11+git0+2c9547e314)
-RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libopencv-core (>= 2.4.11+git0+2c9547e314) libopencv-features2d (>= 2.4.11+git0+2c9547e314) libopencv-flann (>= 2.4.11+git0+2c9547e314) libopencv-imgproc (>= 2.4.11+git0+2c9547e314) libstdc++ (>= 5.3.0)
+PKGV = 3.1+git0+92387b1ef8
+PKGR = r0.1
+PKG = libopencv-calib3d3.1
+RPROVIDES = libopencv-calib3d (=3.1+git0+92387b1ef8)
+RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libopencv-core (>= 3.1+git0+92387b1ef8) libopencv-flann (>= 3.1+git0+92387b1ef8) libopencv-imgproc (>= 3.1+git0+92387b1ef8) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
-PKGSIZE = 819671
-FILES = /usr/lib/libopencv_calib3d.so /usr/lib/libopencv_calib3d.so.2.4 /usr/lib/libopencv_calib3d.so.2.4.11
-FILELIST = /usr/lib/libopencv_calib3d.so.2.4 /usr/lib/libopencv_calib3d.so.2.4.11
+PKGSIZE = 1295622
+FILES = /usr/lib/libopencv_calib3d.so /usr/lib/libopencv_calib3d.so.3.1 /usr/lib/libopencv_calib3d.so.3.1.0
+FILELIST = /usr/lib/libopencv_calib3d.so.3.1 /usr/lib/libopencv_calib3d.so.3.1.0
