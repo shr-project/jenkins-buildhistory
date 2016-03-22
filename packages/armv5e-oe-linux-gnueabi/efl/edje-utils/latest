@@ -1,11 +1,11 @@
 PE = 2
 PV = 1.15.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 PKG = libedje-utils
 RPROVIDES = edje-utils (=1.15.1)
-RDEPENDS = ecore (>= 1.15.1) ecore-evas (>= 1.15.1) ecore-file (>= 1.15.1) edje (>= 1.15.1) eina (>= 1.15.1) eio (>= 1.15.1) evas (>= 1.15.1) glibc (>= 2.23) libeet (>= 1.15.1) libgcc (>= 5.3.0)
+RDEPENDS = ecore (>= 1.15.1) ecore-evas (>= 1.15.1) ecore-file (>= 1.15.1) edje (>= 1.15.1) eina (>= 1.15.1) eio (>= 1.15.1) evas (>= 1.15.1) glibc (>= 2.23) libeet (>= 1.15.1) libgcc (>= 5.3.0) luajit (>= 2.0.4)
 RRECOMMENDS = 
-PKGSIZE = 392577
+PKGSIZE = 392605
 FILES = /usr/bin/edje_* /usr/share/edje/include/edje.inc
 FILELIST = /usr/bin/edje_cc /usr/bin/edje_codegen /usr/bin/edje_decc /usr/bin/edje_external_inspector /usr/bin/edje_inspector /usr/bin/edje_pick /usr/bin/edje_player /usr/bin/edje_recc /usr/bin/edje_watch /usr/share/edje/include/edje.inc

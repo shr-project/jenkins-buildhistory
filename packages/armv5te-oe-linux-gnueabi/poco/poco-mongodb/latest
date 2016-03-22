@@ -1,10 +1,10 @@
 PV = 1.7.1
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 PKG = libpocomongodb41
 RPROVIDES = poco-mongodb (=1.7.1)
 RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) poco-foundation (>= 1.7.1) poco-net (>= 1.7.1)
 RRECOMMENDS = 
-PKGSIZE = 103440
+PKGSIZE = 103152
 FILES = /usr/lib/libPocoMongoDB.so.*
 FILELIST = /usr/lib/libPocoMongoDB.so.41
