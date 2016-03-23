@@ -1,4 +1,4 @@
 PV = 0.9.4
 PR = r0
-DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native gstreamer1.0 gstreamer1.0-plugins-base libtool-cross libtool-native libxml2 pkgconfig-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native gobject-introspection gobject-introspection-native gstreamer1.0 gstreamer1.0-plugins-base libtool-cross libtool-native libxml2 pkgconfig-native qemu-native vala vala-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = gupnp-dlna-dbg gupnp-dlna-staticdev gupnp-dlna-dev gupnp-dlna-doc gupnp-dlna-locale gupnp-dlna

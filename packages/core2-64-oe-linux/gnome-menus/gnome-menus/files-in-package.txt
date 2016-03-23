@@ -3,11 +3,17 @@ drwxr-xr-x root       root               60 ./etc/xdg
 drwxr-xr-x root       root               80 ./etc/xdg/menus
 -rw-r--r-- root       root             3804 ./etc/xdg/menus/applications.menu
 -rw-r--r-- root       root             1387 ./etc/xdg/menus/settings.menu
-drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root             1024 ./usr/bin/gmenu-simple-editor
+drwxr-xr-x root       root              100 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
+-rw-r--r-- root       root             1796 ./usr/lib/girepository-1.0/GMenu-2.0.typelib
 lrwxrwxrwx root       root               23 ./usr/lib/libgnome-menu.so.2 -> libgnome-menu.so.2.4.10
 -rwxr-xr-x root       root            85952 ./usr/lib/libgnome-menu.so.2.4.10
-drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root              100 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/applications
+-rw-r--r-- root       root             3452 ./usr/share/applications/gmenu-simple-editor.desktop
 drwxr-xr-x root       root              440 ./usr/share/desktop-directories
 -rw-r--r-- root       root             7320 ./usr/share/desktop-directories/AudioVideo.directory
 -rw-r--r-- root       root             9018 ./usr/share/desktop-directories/Development.directory
@@ -29,3 +35,8 @@ drwxr-xr-x root       root              440 ./usr/share/desktop-directories
 -rw-r--r-- root       root             5739 ./usr/share/desktop-directories/X-GNOME-Menu-Applications.directory
 -rw-r--r-- root       root             9604 ./usr/share/desktop-directories/X-GNOME-Menu-System.directory
 -rw-r--r-- root       root            10008 ./usr/share/desktop-directories/X-GNOME-Other.directory
+drwxr-xr-x root       root               80 ./usr/share/gnome-menus
+drwxr-xr-x root       root               60 ./usr/share/gnome-menus/examples
+-rw-r--r-- root       root             2901 ./usr/share/gnome-menus/examples/gnome-menus-ls.py
+drwxr-xr-x root       root               60 ./usr/share/gnome-menus/ui
+-rw-r--r-- root       root            11138 ./usr/share/gnome-menus/ui/gmenu-simple-editor.ui

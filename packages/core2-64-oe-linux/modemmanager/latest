@@ -1,4 +1,4 @@
 PV = 1.4.12
 PR = r0
-DEPENDS = autoconf-native automake-native dbus-glib gettext-native glib-2.0 gnu-config-native libgudev libmbim libqmi libtool-cross libtool-native pkgconfig-native polkit systemd-systemctl-native virtual/gettext virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = autoconf-native automake-native dbus-glib gettext-native glib-2.0 gnu-config-native gobject-introspection gobject-introspection-native libgudev libmbim libqmi libtool-cross libtool-native pkgconfig-native polkit qemu-native systemd-systemctl-native vala vala-native virtual/gettext virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = modemmanager-dbg modemmanager-staticdev modemmanager-dev modemmanager-doc modemmanager modemmanager-locale-de modemmanager-locale-uk

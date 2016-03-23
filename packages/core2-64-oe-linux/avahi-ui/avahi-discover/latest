@@ -1,9 +1,9 @@
 PV = 0.6.32
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = python-avahi python-pygtk
+RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.23) gtk+ (>= 2.24.29) libavahi-common (>= 0.6.32) libavahi-core (>= 0.6.32) libavahi-glib (>= 0.6.32)
 RRECOMMENDS = 
-PKGSIZE = 4101
-FILES = /usr/bin/avahi-discover /usr/share/applications/avahi-discover.desktop /usr/share/avahi/interfaces/avahi-discover*
-FILELIST = /usr/share/avahi/interfaces/avahi-discover.ui
+PKGSIZE = 19797
+FILES = /usr/share/applications/avahi-discover.desktop /usr/share/avahi/interfaces/avahi-discover* /usr/bin/avahi-discover-standalone /usr/share/avahi/interfaces/avahi-discover.glade
+FILELIST = /usr/bin/avahi-discover-standalone /usr/share/avahi/interfaces/avahi-discover.ui

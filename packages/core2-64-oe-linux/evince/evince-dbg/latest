@@ -1,9 +1,9 @@
-PV = 2.32.0
+PV = 3.18.2
 PR = r5
-PKGR = r5.9
+PKGR = r5.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = atk-dbg cairo-dbg expat-dbg fontconfig-dbg freetype-dbg gconf-dbg gdk-pixbuf-dbg glib-2.0-dbg glibc-dbg gtk+-dbg harfbuzz-dbg lcms-dbg libffi-dbg libgcc-dbg libgnome-keyring-dbg libice-dbg libjpeg-turbo-dbg liblzma-dbg libpcre-dbg libpng-dbg libpoppler-dbg libpoppler-glib-dbg libsm-dbg libstdc++-dbg libx11-dbg libxau-dbg libxcb-dbg libxcb-render-dbg libxcb-shm-dbg libxcomposite-dbg libxcursor-dbg libxdamage-dbg libxdmcp-dbg libxext-dbg libxfixes-dbg libxml2-dbg libxrandr-dbg libxrender-dbg openjpeg-dbg pango-dbg pixman-dbg tiff-dbg zlib-dbg
-PKGSIZE = 3694040
+RRECOMMENDS = atk-dbg cairo-dbg cairo-gobject-dbg expat-dbg fontconfig-dbg freetype-dbg gdk-pixbuf-dbg glib-2.0-dbg glibc-dbg gstreamer1.0-dbg gtk+3-dbg harfbuzz-dbg lcms-dbg libffi-dbg libgcc-dbg libgnome-desktop3-dbg libgstvideo-1.0-dbg libjpeg-turbo-dbg liblzma-dbg liborc-0.4-dbg libpcre-dbg libpng-dbg libpoppler-dbg libpoppler-glib-dbg libsecret-dbg libstdc++-dbg libx11-dbg libxau-dbg libxcb-dbg libxcb-render-dbg libxcb-shm-dbg libxdmcp-dbg libxext-dbg libxml2-dbg libxrender-dbg openjpeg-dbg pango-dbg pixman-dbg tiff-dbg zlib-dbg
+PKGSIZE = 4041160
 FILES = /usr/lib/debug /usr/src/debug /usr/lib/*/*/.debug /usr/lib/*/*/*/.debug
-FILELIST = /usr/bin/.debug/evince /usr/bin/.debug/evince-previewer /usr/bin/.debug/evince-thumbnailer /usr/lib/.debug/libevdocument.so.3.0.0 /usr/lib/.debug/libevview.so.3.0.0 /usr/lib/evince/3/backends/.debug/libcomicsdocument.so /usr/lib/evince/3/backends/.debug/libpdfdocument.so /usr/lib/evince/3/backends/.debug/libpixbufdocument.so /usr/lib/evince/3/backends/.debug/libtiffdocument.so /usr/libexec/.debug/evince-convert-metadata /usr/libexec/.debug/evinced
+FILELIST = /usr/bin/.debug/evince /usr/bin/.debug/evince-previewer /usr/bin/.debug/evince-thumbnailer /usr/lib/.debug/libevdocument3.so.4.0.0 /usr/lib/.debug/libevview3.so.3.0.0 /usr/lib/evince/4/backends/.debug/libcomicsdocument.so /usr/lib/evince/4/backends/.debug/libpdfdocument.so /usr/lib/evince/4/backends/.debug/libtiffdocument.so /usr/libexec/.debug/evinced

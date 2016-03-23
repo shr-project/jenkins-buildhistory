@@ -1,4 +1,4 @@
 PV = 1.7.3+1.7.4-rc8+AUTOINC+588fb4b805
 PR = r0
-DEPENDS = cmake-native libxinerama libxtst virtual/libc virtual/libx11 virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = cmake-native curl libxinerama libxtst openssl unzip-native virtual/libc virtual/libx11 virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = synergy-dbg synergy-staticdev synergy-dev synergy-doc synergy-locale synergy

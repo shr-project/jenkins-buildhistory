@@ -6,5 +6,5 @@ RPROVIDES = libcrypto (=1.0.2g)
 RDEPENDS = glibc (>= 2.23)
 RRECOMMENDS = openssl-conf
 PKGSIZE = 2395032
-FILES = /lib/libcrypto.so.*
-FILELIST = /lib/libcrypto.so.1.0.0
+FILES = /usr/lib/libcrypto.so.*
+FILELIST = /usr/lib/libcrypto.so.1.0.0

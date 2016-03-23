@@ -1,9 +1,9 @@
 PV = 280796
 PR = r0
-PKGR = r0.2
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = cairo expat (>= 2.1.0) fontconfig fontconfig-utils freetype (>= 2.6) glibc (>= 2.22) harfbuzz (>= 1.1.2) libcap (>= 2.24) libdrm (>= 2.4.62) libegl-mesa (>= 10.6.3) libgcc (>= 5.2.0) libgles2-mesa (>= 10.6.3) libstdc++ (>= 5.2.0) pango pciutils pulseaudio
+RDEPENDS = cairo expat (>= 2.1.0) fontconfig fontconfig-utils freetype (>= 2.6.3) glibc (>= 2.23) harfbuzz (>= 1.2.3) libcap (>= 2.24) libdrm (>= 2.4.67) libegl-mesa (>= 11.1.1) libgcc (>= 5.3.0) libgles2-mesa (>= 11.1.1) libstdc++ (>= 5.3.0) pango pciutils pulseaudio
 RRECOMMENDS = 
-PKGSIZE = 78726213
+PKGSIZE = 78623813
 FILES = /usr/bin/cef3 /usr/share/applications /usr/sbin/ /usr/lib/cef3/ /usr/bin /usr/lib /usr/bin/cef3/*.pak /usr/bin/cef3/locales/*.pak
 FILELIST = /usr/bin/cef-simple /usr/bin/cef3/cef.pak /usr/bin/cef3/cef_100_percent.pak /usr/bin/cef3/cef_200_percent.pak /usr/bin/cef3/cef_resources.pak /usr/bin/cef3/cefsimple /usr/bin/cef3/content_resources.pak /usr/bin/cef3/icudtl.dat /usr/bin/cef3/locales/en-US.pak /usr/lib/cef3/libcef.so /usr/lib/cef3/libosmesa.so

@@ -1,4 +1,4 @@
 PV = 4.3.3
 PR = r0
-DEPENDS = autoconf-native automake-native bind gnu-config-native libtool-cross libtool-native openssl systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = autoconf-native automake-native base-files bind gnu-config-native libtool-cross libtool-native openssl shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = dhcp-dbg dhcp-staticdev dhcp-dev dhcp-doc dhcp-locale dhcp dhcp-server dhcp-server-config dhcp-client dhcp-relay dhcp-omshell

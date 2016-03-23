@@ -1,9 +1,9 @@
-PV = 2.32.0
-PR = r1
-PKGR = r1.12
+PV = 3.18.2
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = gnome-bluetooth (= 2.32.0-r1.12)
-RRECOMMENDS = atk-dev bluez5-dev cairo-dev dbus-glib-dev dbus-lib-dev expat-dev fontconfig-dev freetype-dev gconf-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gnome-doc-utils-dev gtk+-dev harfbuzz-dev hicolor-icon-theme-dev libcap-dev libffi-dev libgnome-keyring-dev liblzma-dev libnotify-dev libpcre-dev libpng-dev libsystemd-dev libunique-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxi-dev libxrender-dev obexd-dev pango-dev pixman-dev zlib-dev
-PKGSIZE = 21117
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gnome-bluetooth/*.la /lib/*.la
-FILELIST = /usr/include/gnome-bluetooth/bluetooth-chooser-button.h /usr/include/gnome-bluetooth/bluetooth-chooser.h /usr/include/gnome-bluetooth/bluetooth-client.h /usr/include/gnome-bluetooth/bluetooth-enums.h /usr/include/gnome-bluetooth/bluetooth-filter-widget.h /usr/include/gnome-bluetooth/bluetooth-plugin.h /usr/lib/libgnome-bluetooth.la /usr/lib/libgnome-bluetooth.so /usr/lib/pkgconfig/gnome-bluetooth-1.0.pc
+RDEPENDS = gnome-bluetooth (= 3.18.2-r0.0)
+RRECOMMENDS = atk-dev bluez5-dev cairo-dev cairo-gobject-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev harfbuzz-dev hicolor-icon-theme-dev libcanberra-dev libcanberra-gtk3-dev libcap-dev libffi-dev libltdl-dev libnotify-dev libogg-dev libpcre-dev libpng-dev libudev-dev libvorbis-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxrender-dev pango-dev pixman-dev udev-dev zlib-dev
+PKGSIZE = 87599
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gnome-bluetooth/*.la /lib/*.la /usr/share/gir-*/*.gir
+FILELIST = /usr/include/gnome-bluetooth/bluetooth-chooser-button.h /usr/include/gnome-bluetooth/bluetooth-chooser-combo.h /usr/include/gnome-bluetooth/bluetooth-chooser.h /usr/include/gnome-bluetooth/bluetooth-client.h /usr/include/gnome-bluetooth/bluetooth-enums.h /usr/include/gnome-bluetooth/bluetooth-filter-widget.h /usr/include/gnome-bluetooth/bluetooth-settings-widget.h /usr/include/gnome-bluetooth/bluetooth-utils.h /usr/lib/libgnome-bluetooth.la /usr/lib/libgnome-bluetooth.so /usr/lib/pkgconfig/gnome-bluetooth-1.0.pc /usr/share/gir-1.0/GnomeBluetooth-1.0.gir
