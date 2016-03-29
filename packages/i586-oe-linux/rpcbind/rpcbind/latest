@@ -1,11 +1,9 @@
 PV = 0.2.3
 PR = r0
-PKGR = r0.1
-RPROVIDES = rpcbind-systemd
-RDEPENDS = base-files base-passwd glibc (>= 2.23) libsystemd (>= 229+git0+714c62b463) libtirpc (>= 1.0.1) shadow
-RRECOMMENDS = 
-RREPLACES = rpcbind-systemd
-RCONFLICTS = rpcbind-systemd
-PKGSIZE = 70306
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/rpcbind /usr/lib/rpcbind/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/rpcbind.service /lib/systemd/system/rpcbind.socket
-FILELIST = /etc/rpcbind.conf /lib/systemd/system/rpcbind.service /lib/systemd/system/rpcbind.socket /usr/sbin/rpcbind /usr/sbin/rpcinfo
+PKGR = r0.2
+RPROVIDES = 
+RDEPENDS = base-files base-passwd glibc (>= 2.23) initscripts-functions libtirpc (>= 1.0.1) shadow
+RRECOMMENDS = update-rc.d
+PKGSIZE = 72373
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/rpcbind /usr/lib/rpcbind/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /etc/init.d/rpcbind /etc/rpcbind.conf /usr/sbin/rpcbind /usr/sbin/rpcinfo

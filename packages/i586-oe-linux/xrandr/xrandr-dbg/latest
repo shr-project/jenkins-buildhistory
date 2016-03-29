@@ -1,10 +1,10 @@
 PE = 1
 PV = 1.4.3
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libx11-dbg libxrandr-dbg
-PKGSIZE = 143508
+PKGSIZE = 245175
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/xrandr
+FILELIST = /usr/bin/.debug/xrandr /usr/src/debug/xrandr/1_1.4.3-r0/xrandr-1.4.3/xrandr.c
