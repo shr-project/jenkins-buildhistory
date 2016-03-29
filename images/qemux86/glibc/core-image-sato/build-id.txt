@@ -1,0 +1,14 @@
+qemux86: core-image-sato configured for nodistro nodistro.0
+
+Build Configuration:
+BB_VERSION        = "1.29.0"
+BUILD_SYS         = "x86_64-linux"
+NATIVELSBSTRING   = "Ubuntu-14.04"
+TARGET_SYS        = "i586-oe-linux"
+MACHINE           = "qemux86"
+DISTRO            = "nodistro"
+DISTRO_VERSION    = "nodistro.0"
+TUNE_FEATURES     = "m32 i586"
+TARGET_FPU        = ""
+meta              = "jansa/master:15bfd6c135bcc04451a020353848d9d3f5914783"
+
