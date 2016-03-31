@@ -1,0 +1,13 @@
+DISTRO = nodistro
+DISTRO_VERSION = nodistro.0
+USER_CLASSES = 
+IMAGE_CLASSES = image_types
+IMAGE_FEATURES = debug-tweaks tools-debug package-management tools-testapps dev-pkgs x11-sato splash x11-base hwcodecs tools-sdk tools-profile eclipse-debug ssh-server-openssh
+IMAGE_LINGUAS = en-us en-gb
+IMAGE_INSTALL = packagegroup-core-boot packagegroup-base-extended packagegroup-core-x11-sato-games kernel-devsrc
+BAD_RECOMMENDATIONS = 
+NO_RECOMMENDATIONS = 
+PACKAGE_EXCLUDE = 
+ROOTFS_POSTPROCESS_COMMAND = write_package_manifest; write_deploy_manifest; license_create_manifest;   ssh_allow_empty_password;  postinst_enable_logging;  rootfs_update_timestamp ;   set_systemd_default_target;  empty_var_volatile; ssh_disable_dns_lookup ; 
+IMAGE_POSTPROCESS_COMMAND =   buildhistory_get_imageinfo ; 
+IMAGESIZE = 1685636
