@@ -1,10 +1,17 @@
-drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               80 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root              100 ./lib/systemd/system
+-rw-r--r-- root       root              506 ./lib/systemd/system/alsa-restore.service
+-rw-r--r-- root       root              410 ./lib/systemd/system/alsa-state.service
+drwxr-xr-x root       root               80 ./lib/systemd/system/basic.target.wants
+lrwxrwxrwx root       root               23 ./lib/systemd/system/basic.target.wants/alsa-restore.service -> ../alsa-restore.service
+lrwxrwxrwx root       root               21 ./lib/systemd/system/basic.target.wants/alsa-state.service -> ../alsa-state.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/rules.d
 -rw-r--r-- root       root              399 ./lib/udev/rules.d/90-alsa-restore.rules
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root            93320 ./usr/sbin/alsactl
+-rwxr-xr-x root       root            93444 ./usr/sbin/alsactl
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/alsa
 drwxr-xr-x root       root              180 ./usr/share/alsa/init

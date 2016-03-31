@@ -16,8 +16,13 @@ drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/rules.d
 -rw-r--r-- root       root             6640 ./lib/udev/rules.d/90-pulseaudio.rules
-drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root            59760 ./usr/bin/pactl
--rwxr-xr-x root       root            81452 ./usr/bin/pulseaudio
+-rwxr-xr-x root       root            59960 ./usr/bin/pactl
+-rwxr-xr-x root       root            81284 ./usr/bin/pulseaudio
 -rwxr-xr-x root       root             1197 ./usr/bin/start-pulseaudio-x11
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/systemd
+drwxr-xr-x root       root               80 ./usr/lib/systemd/user
+-rw-r--r-- root       root              230 ./usr/lib/systemd/user/pulseaudio.service
+-rw-r--r-- root       root              127 ./usr/lib/systemd/user/pulseaudio.socket
