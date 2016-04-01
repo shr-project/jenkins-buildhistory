@@ -1,4 +1,4 @@
 PV = 1.0
 PR = r7
-DEPENDS = initscripts update-rc.d update-rc.d-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+DEPENDS = initscripts systemd-systemctl-native update-rc.d update-rc.d-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = modutils-initscripts-dbg modutils-initscripts-staticdev modutils-initscripts-dev modutils-initscripts-doc modutils-initscripts-locale modutils-initscripts

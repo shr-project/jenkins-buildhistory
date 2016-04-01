@@ -1,9 +1,9 @@
 PV = 0.04
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libcrypto-dbg
-PKGSIZE = 44452
+PKGSIZE = 56309
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/perl/vendor_perl/5.22.1/auto/Crypt/OpenSSL/Random/.debug/Random.so
+FILELIST = /usr/lib/perl/vendor_perl/5.22.1/auto/Crypt/OpenSSL/Random/.debug/Random.so /usr/src/debug/libcrypt-openssl-random-perl/0.04-r0/Crypt-OpenSSL-Random-0.04/Random.c /usr/src/debug/libcrypt-openssl-random-perl/0.04-r0/Crypt-OpenSSL-Random-0.04/Random.xs

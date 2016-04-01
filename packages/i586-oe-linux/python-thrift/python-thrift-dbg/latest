@@ -1,9 +1,9 @@
 PV = 0.9.2
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 39348
+PKGSIZE = 66711
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python2.7/site-packages/thrift/protocol/.debug/fastbinary.so
+FILELIST = /usr/lib/python2.7/site-packages/thrift/protocol/.debug/fastbinary.so /usr/src/debug/python-thrift/0.9.2-r0/thrift-0.9.2/src/protocol/fastbinary.c

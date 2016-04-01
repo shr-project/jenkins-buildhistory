@@ -1,9 +1,9 @@
-PV = 2.2.1
+PV = 4.1.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 38076
+PKGSIZE = 81750
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python2.7/site-packages/.debug/_psutil_linux.so /usr/lib/python2.7/site-packages/.debug/_psutil_posix.so
+FILELIST = /usr/lib/python2.7/site-packages/psutil/.debug/_psutil_linux.so /usr/lib/python2.7/site-packages/psutil/.debug/_psutil_posix.so /usr/src/debug/python-psutil/4.1.0-r0/psutil-4.1.0/psutil/_psutil_linux.c /usr/src/debug/python-psutil/4.1.0-r0/psutil-4.1.0/psutil/_psutil_posix.c

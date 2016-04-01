@@ -1,9 +1,9 @@
 PV = 4.3.36
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.23) kernel-module-vboxguest kernel-module-vboxsf kernel-module-vboxvideo
 RRECOMMENDS = kernel-module-vboxguest kernel-module-vboxsf kernel-module-vboxvideo
-PKGSIZE = 11960
+PKGSIZE = 12232
 FILES = /sbin
 FILELIST = /sbin/mount.vboxsf
