@@ -1,7 +1,8 @@
-drwxr-xr-x root       root              160 ./sbin
--rwxr-xr-x root       root            48116 ./sbin/dumpexfat
--rwxr-xr-x root       root            47220 ./sbin/exfatfsck
--rwxr-xr-x root       root            45576 ./sbin/exfatlabel
-lrwxrwxrwx root       root                9 ./sbin/fsck.exfat -> exfatfsck
--rwxr-xr-x root       root            56984 ./sbin/mkexfatfs
-lrwxrwxrwx root       root                9 ./sbin/mkfs.exfat -> mkexfatfs
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              160 ./usr/sbin
+-rwxr-xr-x root       root            51088 ./usr/sbin/dumpexfat
+-rwxr-xr-x root       root            50492 ./usr/sbin/exfatfsck
+-rwxr-xr-x root       root            48684 ./usr/sbin/exfatlabel
+lrwxrwxrwx root       root                9 ./usr/sbin/fsck.exfat -> exfatfsck
+-rwxr-xr-x root       root            57816 ./usr/sbin/mkexfatfs
+lrwxrwxrwx root       root                9 ./usr/sbin/mkfs.exfat -> mkexfatfs
