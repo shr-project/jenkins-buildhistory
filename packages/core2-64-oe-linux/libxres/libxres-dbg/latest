@@ -1,10 +1,10 @@
 PE = 1
 PV = 1.0.7
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libx11-dbg libxau-dbg libxcb-dbg libxdmcp-dbg libxext-dbg
-PKGSIZE = 42648
+PKGSIZE = 50091
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/.debug/libXRes.so.1.0.0
+FILELIST = /usr/lib/.debug/libXRes.so.1.0.0 /usr/src/debug/libxres/1_1.0.7-r0/libXres-1.0.7/include/X11/extensions/XRes.h /usr/src/debug/libxres/1_1.0.7-r0/libXres-1.0.7/src/XRes.c

@@ -1,9 +1,9 @@
 PV = git
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libubox-dbg
-PKGSIZE = 190232
+PKGSIZE = 228104
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/sbin/.debug/relayd
+FILELIST = /usr/sbin/.debug/relayd /usr/src/debug/relayd/git-r0/git/dhcp.c /usr/src/debug/relayd/git-r0/git/main.c /usr/src/debug/relayd/git-r0/git/relayd.h /usr/src/debug/relayd/git-r0/git/route.c
