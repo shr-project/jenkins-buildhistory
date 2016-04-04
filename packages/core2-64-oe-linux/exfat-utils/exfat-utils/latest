@@ -1,9 +1,9 @@
-PV = 1.0.1
+PV = 1.2.3
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.23)
 RRECOMMENDS = 
-PKGSIZE = 206570
+PKGSIZE = 175658
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/exfat-utils /usr/lib/exfat-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /sbin/dumpexfat /sbin/exfatfsck /sbin/exfatlabel /sbin/fsck.exfat /sbin/mkexfatfs /sbin/mkfs.exfat
+FILELIST = /usr/sbin/dumpexfat /usr/sbin/exfatfsck /usr/sbin/exfatlabel /usr/sbin/fsck.exfat /usr/sbin/mkexfatfs /usr/sbin/mkfs.exfat

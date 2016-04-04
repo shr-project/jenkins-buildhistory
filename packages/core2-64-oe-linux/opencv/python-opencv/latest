@@ -1,10 +1,10 @@
-PV = 2.4.11+gitAUTOINC+2c9547e314
+PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
-PKGV = 2.4.11+git0+2c9547e314
-PKGR = r0.1
+PKGV = 3.1+git0+92387b1ef8
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgcc (>= 5.2.0) libopencv-calib3d (>= 2.4.11+git0+2c9547e314) libopencv-contrib (>= 2.4.11+git0+2c9547e314) libopencv-core (>= 2.4.11+git0+2c9547e314) libopencv-features2d (>= 2.4.11+git0+2c9547e314) libopencv-flann (>= 2.4.11+git0+2c9547e314) libopencv-highgui (>= 2.4.11+git0+2c9547e314) libopencv-imgproc (>= 2.4.11+git0+2c9547e314) libopencv-legacy (>= 2.4.11+git0+2c9547e314) libopencv-ml (>= 2.4.11+git0+2c9547e314) libopencv-nonfree (>= 2.4.11+git0+2c9547e314) libopencv-objdetect (>= 2.4.11+git0+2c9547e314) libopencv-photo (>= 2.4.11+git0+2c9547e314) libopencv-video (>= 2.4.11+git0+2c9547e314) libpython2 (>= 2.7.9) libstdc++ (>= 5.2.0) python-core python-numpy
+RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libopencv-bgsegm (>= 3.1+git0+92387b1ef8) libopencv-bioinspired (>= 3.1+git0+92387b1ef8) libopencv-calib3d (>= 3.1+git0+92387b1ef8) libopencv-ccalib (>= 3.1+git0+92387b1ef8) libopencv-core (>= 3.1+git0+92387b1ef8) libopencv-face (>= 3.1+git0+92387b1ef8) libopencv-features2d (>= 3.1+git0+92387b1ef8) libopencv-flann (>= 3.1+git0+92387b1ef8) libopencv-highgui (>= 3.1+git0+92387b1ef8) libopencv-imgcodecs (>= 3.1+git0+92387b1ef8) libopencv-imgproc (>= 3.1+git0+92387b1ef8) libopencv-ml (>= 3.1+git0+92387b1ef8) libopencv-objdetect (>= 3.1+git0+92387b1ef8) libopencv-optflow (>= 3.1+git0+92387b1ef8) libopencv-photo (>= 3.1+git0+92387b1ef8) libopencv-shape (>= 3.1+git0+92387b1ef8) libopencv-stitching (>= 3.1+git0+92387b1ef8) libopencv-text (>= 3.1+git0+92387b1ef8) libopencv-tracking (>= 3.1+git0+92387b1ef8) libopencv-video (>= 3.1+git0+92387b1ef8) libopencv-videoio (>= 3.1+git0+92387b1ef8) libopencv-xfeatures2d (>= 3.1+git0+92387b1ef8) libopencv-ximgproc (>= 3.1+git0+92387b1ef8) libopencv-xphoto (>= 3.1+git0+92387b1ef8) libpython2 (>= 2.7.11) libstdc++ (>= 5.3.0) python-core python-numpy
 RRECOMMENDS = 
-PKGSIZE = 1370317
+PKGSIZE = 1816272
 FILES = /usr/lib/python2.7/site-packages/*
-FILELIST = /usr/lib/python2.7/site-packages/cv.py /usr/lib/python2.7/site-packages/cv2.so
+FILELIST = /usr/lib/python2.7/site-packages/cv2.so
