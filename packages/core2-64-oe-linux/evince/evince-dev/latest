@@ -1,8 +1,8 @@
 PV = 3.18.2
 PR = r5
-PKGR = r5.2
+PKGR = r5.3
 RPROVIDES = 
-RDEPENDS = evince (= 3.18.2-r5.2)
+RDEPENDS = evince (= 3.18.2-r5.3)
 RRECOMMENDS = adwaita-icon-theme-dev atk-dev cairo-dev cairo-gobject-dev expat-dev fontconfig-dev freetype-dev gconf-dev gdk-pixbuf-dev glib-2.0-dev glib-2.0-utils-dev glibc-dev gnome-desktop3-dev gobject-introspection-dev gstreamer1.0-dev gstreamer1.0-plugins-base-dev gtk+3-dev harfbuzz-dev hicolor-icon-theme-dev lcms-dev libffi-dev libgcc-dev libgnome-desktop3-dev libgstvideo-1.0-dev libjpeg-turbo-dev liblzma-dev liborc-0.4-dev libpcre-dev libpng-dev libpoppler-dev libpoppler-glib-dev libsecret-dev libstdc++-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxml2-dev libxrender-dev openjpeg-dev orc-dev pango-dev pixman-dev poppler-dev shared-mime-info-dev tiff-dev zlib-dev
 PKGSIZE = 685126
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/evince/*.la /lib/*.la /usr/lib/nautilus/extensions-2.0/*.la /usr/lib/evince/*/backends/*.la /usr/share/gir-*/*.gir
