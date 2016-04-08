@@ -1,9 +1,9 @@
 PV = 2.18.8
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 PKG = libgnomeprint-2-2-dev
 RPROVIDES = libgnomeprint-dev (=2.18.8)
-RDEPENDS = libgnomeprint (= 2.18.8-r0.3)
+RDEPENDS = libgnomeprint (= 2.18.8-r0.4)
 RRECOMMENDS = cups-lib-dev expat-dev fontconfig-dev freetype-dev glib-2.0-dev glibc-dev gmp-dev gnome-common-dev gnutls-dev harfbuzz-dev libart-lgpl-dev libffi-dev libgnomecups-dev libidn-dev libpcre-dev libxml2-dev nettle-dev pango-dev popt-dev zlib-dev
 PKGSIZE = 121983
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libgnomeprint/*.la /lib/*.la
