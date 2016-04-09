@@ -1,10 +1,10 @@
 PV = 1.2.b
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 PKG = libminini-dbg
 RPROVIDES = minini-dbg (=1.2.b)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 33360
+PKGSIZE = 68432
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/.debug/libminini.so.0.0
+FILELIST = /usr/lib/.debug/libminini.so.0.0 /usr/src/debug/minini/1.2.b-r0/minini-1.2.b/minIni.c /usr/src/debug/minini/1.2.b-r0/minini-1.2.b/minIni.h

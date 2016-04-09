@@ -1,0 +1,43 @@
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/include
+drwxr-xr-x root       root              240 ./usr/include/corosync
+-rw-r--r-- root       root             4757 ./usr/include/corosync/cfg.h
+-rw-r--r-- root       root            11519 ./usr/include/corosync/cmap.h
+-rw-r--r-- root       root             2206 ./usr/include/corosync/corodefs.h
+-rw-r--r-- root       root             4323 ./usr/include/corosync/corotypes.h
+-rw-r--r-- root       root             7320 ./usr/include/corosync/cpg.h
+-rw-r--r-- root       root             4671 ./usr/include/corosync/hdb.h
+-rw-r--r-- root       root             3284 ./usr/include/corosync/quorum.h
+-rw-r--r-- root       root             9167 ./usr/include/corosync/sam.h
+drwxr-xr-x root       root              100 ./usr/include/corosync/totem
+-rw-r--r-- root       root             7128 ./usr/include/corosync/totem/totem.h
+-rw-r--r-- root       root             4253 ./usr/include/corosync/totem/totemip.h
+-rw-r--r-- root       root             5367 ./usr/include/corosync/totem/totempg.h
+-rw-r--r-- root       root             6160 ./usr/include/corosync/votequorum.h
+drwxr-xr-x root       root              380 ./usr/lib
+-rwxr-xr-x root       root              966 ./usr/lib/libcfg.la
+lrwxrwxrwx root       root               15 ./usr/lib/libcfg.so -> libcfg.so.6.0.0
+-rwxr-xr-x root       root              972 ./usr/lib/libcmap.la
+lrwxrwxrwx root       root               16 ./usr/lib/libcmap.so -> libcmap.so.4.1.0
+-rwxr-xr-x root       root              982 ./usr/lib/libcorosync_common.la
+lrwxrwxrwx root       root               27 ./usr/lib/libcorosync_common.so -> libcorosync_common.so.4.0.0
+-rwxr-xr-x root       root              966 ./usr/lib/libcpg.la
+lrwxrwxrwx root       root               15 ./usr/lib/libcpg.so -> libcpg.so.4.1.0
+-rwxr-xr-x root       root              984 ./usr/lib/libquorum.la
+lrwxrwxrwx root       root               18 ./usr/lib/libquorum.so -> libquorum.so.5.0.0
+-rwxr-xr-x root       root             1010 ./usr/lib/libsam.la
+lrwxrwxrwx root       root               15 ./usr/lib/libsam.so -> libsam.so.4.4.0
+-rwxr-xr-x root       root             1032 ./usr/lib/libtotem_pg.la
+lrwxrwxrwx root       root               20 ./usr/lib/libtotem_pg.so -> libtotem_pg.so.5.0.0
+-rwxr-xr-x root       root             1008 ./usr/lib/libvotequorum.la
+lrwxrwxrwx root       root               22 ./usr/lib/libvotequorum.so -> libvotequorum.so.7.0.0
+drwxr-xr-x root       root              220 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              172 ./usr/lib/pkgconfig/corosync.pc
+-rw-r--r-- root       root              180 ./usr/lib/pkgconfig/libcfg.pc
+-rw-r--r-- root       root              183 ./usr/lib/pkgconfig/libcmap.pc
+-rw-r--r-- root       root              216 ./usr/lib/pkgconfig/libcorosync_common.pc
+-rw-r--r-- root       root              180 ./usr/lib/pkgconfig/libcpg.pc
+-rw-r--r-- root       root              189 ./usr/lib/pkgconfig/libquorum.pc
+-rw-r--r-- root       root              180 ./usr/lib/pkgconfig/libsam.pc
+-rw-r--r-- root       root              195 ./usr/lib/pkgconfig/libtotem_pg.pc
+-rw-r--r-- root       root              201 ./usr/lib/pkgconfig/libvotequorum.pc

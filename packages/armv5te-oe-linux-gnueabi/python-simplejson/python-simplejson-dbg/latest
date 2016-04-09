@@ -1,9 +1,9 @@
-PV = 3.8.1
+PV = 3.8.2
 PR = r1
-PKGR = r1.1
+PKGR = r1.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libpython2-dbg
-PKGSIZE = 92264
+PKGSIZE = 201574
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/python2.7/site-packages/simplejson-3.8.1-py2.7-linux-x86_64.egg/simplejson/.debug/_speedups.so
+FILELIST = /usr/lib/python2.7/site-packages/simplejson-3.8.2-py2.7-linux-x86_64.egg/simplejson/.debug/_speedups.so /usr/src/debug/python-simplejson/3.8.2-r1/simplejson-3.8.2/simplejson/_speedups.c

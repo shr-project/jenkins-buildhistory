@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r2
-PKGR = r2.1
+PKGR = r2.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg rpm-libs-dbg
-PKGSIZE = 34400
+PKGSIZE = 47425
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/rpmresolve
+FILELIST = /usr/bin/.debug/rpmresolve /usr/src/debug/rpmresolve/1.0-r2/rpmresolve.c

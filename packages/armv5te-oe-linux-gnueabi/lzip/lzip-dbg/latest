@@ -1,9 +1,9 @@
 PV = 1.16
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libgcc-dbg libstdc++-dbg
-PKGSIZE = 630652
+PKGSIZE = 754856
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/lzip
+FILELIST = /usr/bin/.debug/lzip /usr/src/debug/lzip/1.16-r0/lzip-1.16/arg_parser.cc /usr/src/debug/lzip/1.16-r0/lzip-1.16/arg_parser.h /usr/src/debug/lzip/1.16-r0/lzip-1.16/decoder.cc /usr/src/debug/lzip/1.16-r0/lzip-1.16/decoder.h /usr/src/debug/lzip/1.16-r0/lzip-1.16/encoder.cc /usr/src/debug/lzip/1.16-r0/lzip-1.16/encoder.h /usr/src/debug/lzip/1.16-r0/lzip-1.16/fast_encoder.cc /usr/src/debug/lzip/1.16-r0/lzip-1.16/fast_encoder.h /usr/src/debug/lzip/1.16-r0/lzip-1.16/lzip.h /usr/src/debug/lzip/1.16-r0/lzip-1.16/main.cc
