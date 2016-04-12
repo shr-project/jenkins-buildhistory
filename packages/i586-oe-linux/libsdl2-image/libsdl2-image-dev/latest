@@ -1,9 +1,9 @@
 PV = 2.0.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.7
 PKG = libsdl2-image-2.0-dev
 RPROVIDES = libsdl2-image-dev (=2.0.1)
-RDEPENDS = libsdl2-image (= 2.0.1-r0.5)
+RDEPENDS = libsdl2-image (= 2.0.1-r0.7)
 RRECOMMENDS = glibc-dev jpeg-dev libjpeg-turbo-dev liblzma-dev libpng-dev libsdl2-dev libwebp-dev tiff-dev zlib-dev
 PKGSIZE = 7501
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libsdl2-image/*.la /lib/*.la
