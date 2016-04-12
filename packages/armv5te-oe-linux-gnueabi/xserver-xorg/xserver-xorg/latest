@@ -1,7 +1,7 @@
 PE = 2
 PV = 1.18.0
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = xorg-abi-input-22 xorg-abi-video-20 xserver-xorg-extension-dbe xserver-xorg-extension-dri xserver-xorg-extension-dri2 xserver-xorg-extension-extmod xserver-xorg-extension-record
 RDEPENDS = glibc (>= 2.23) libcrypto (>= 1.0.2g) libdrm (>= 2.4.67) libpciaccess (>= 0.13.4) libsystemd (>= 229+git0+714c62b463) libudev (>= 229+git0+714c62b463) libxau (>= 1.0.8) libxdmcp (>= 1.1.2) libxfont (>= 1.5.1) pixman (>= 0.32.8)
 RRECOMMENDS = rgb xkbcomp xkeyboard-config xserver-xf86-config
