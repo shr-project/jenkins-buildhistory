@@ -1,7 +1,8 @@
 PV = 2.32.1
 PR = r0
-PKGR = r0.6
-RPROVIDES = libbonobo-locale mn-translation
+PKGR = r0.7
+PKG = libbonobo-2-locale-mn
+RPROVIDES = libbonobo-locale libbonobo-locale-mn (=2.32.1) mn-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-mn
 PKGSIZE = 12840

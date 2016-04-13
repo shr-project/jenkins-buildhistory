@@ -1,8 +1,9 @@
 PV = 2.32.1
 PR = r0
-PKGR = r0.6
-RPROVIDES = 
-RDEPENDS = libbonobo-dev (= 2.32.1-r0.6)
+PKGR = r0.7
+PKG = libbonobo-2-staticdev
+RPROVIDES = libbonobo-staticdev (=2.32.1)
+RDEPENDS = libbonobo-dev (= 2.32.1-r0.7)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libbonobo/*.a /usr/lib/orbit-2.0/*.a /usr/lib/bonobo/monikers/*.a
