@@ -21,21 +21,21 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root             3308 ./usr/bin/bind9-config
--rwxr-xr-x root       root          1327976 ./usr/bin/delv
+-rwxr-xr-x root       root          1328120 ./usr/bin/delv
 -rwxr-xr-x root       root             3308 ./usr/bin/isc-config.sh
--rwxr-xr-x root       root          1296820 ./usr/bin/nsupdate
+-rwxr-xr-x root       root          1296964 ./usr/bin/nsupdate
 drwxr-xr-x root       root              560 ./usr/sbin
 -rwxr-xr-x root       root             4688 ./usr/sbin/arpaname
 -rwxr-xr-x root       root          1232560 ./usr/sbin/ddns-confgen
 -rwxr-xr-x root       root            10921 ./usr/sbin/dnssec-checkds
 -rwxr-xr-x root       root            28743 ./usr/sbin/dnssec-coverage
--rwxr-xr-x root       root          1246612 ./usr/sbin/dnssec-dsfromkey
--rwxr-xr-x root       root          1245204 ./usr/sbin/dnssec-importkey
+-rwxr-xr-x root       root          1246748 ./usr/sbin/dnssec-dsfromkey
+-rwxr-xr-x root       root          1245340 ./usr/sbin/dnssec-importkey
 -rwxr-xr-x root       root          1253040 ./usr/sbin/dnssec-keyfromlabel
 -rwxr-xr-x root       root          1257140 ./usr/sbin/dnssec-keygen
 -rwxr-xr-x root       root          1244848 ./usr/sbin/dnssec-revoke
 -rwxr-xr-x root       root          1248940 ./usr/sbin/dnssec-settime
--rwxr-xr-x root       root          1274228 ./usr/sbin/dnssec-signzone
+-rwxr-xr-x root       root          1274372 ./usr/sbin/dnssec-signzone
 -rwxr-xr-x root       root          1244844 ./usr/sbin/dnssec-verify
 -rwxr-xr-x root       root              183 ./usr/sbin/generate-rndc-key.sh
 -rwxr-xr-x root       root           163164 ./usr/sbin/genrandom
@@ -48,7 +48,7 @@ lrwxrwxrwx root       root               15 ./usr/sbin/named-compilezone -> name
 -rwxr-xr-x root       root          1228436 ./usr/sbin/named-journalprint
 -rwxr-xr-x root       root          1232544 ./usr/sbin/named-rrchecker
 -rwxr-xr-x root       root           192044 ./usr/sbin/nsec3hash
--rwxr-xr-x root       root           264528 ./usr/sbin/rndc
+-rwxr-xr-x root       root           264664 ./usr/sbin/rndc
 -rwxr-xr-x root       root          1232556 ./usr/sbin/rndc-confgen
 lrwxrwxrwx root       root               12 ./usr/sbin/tsig-keygen -> ddns-confgen
 drwxr-xr-x root       root               60 ./var

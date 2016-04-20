@@ -1,11 +1,11 @@
-PV = 4.4.3+gitAUTOINC+770996a263_8809b2c36a
+PV = 4.4.3+gitAUTOINC+bcc6509084_ec9167bcb0
 PR = r0
-PKGV = 4.4.3+git1+770996a263_8809b2c36a
-PKGR = r0.4
+PKGV = 4.4.3+git2+bcc6509084_ec9167bcb0
+PKGR = r0.1
 PKG = kernel-image-4.4.3-yocto-standard
-RPROVIDES = kernel-image (=4.4.3+git1+770996a263_8809b2c36a)
+RPROVIDES = kernel-image (=4.4.3+git2+bcc6509084_ec9167bcb0)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 4529248
+PKGSIZE = 4530720
 FILES = /boot/zImage*
 FILELIST = /boot/zImage-4.4.3-yocto-standard
