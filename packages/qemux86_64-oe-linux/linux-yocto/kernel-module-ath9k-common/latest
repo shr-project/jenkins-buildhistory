@@ -1,10 +1,10 @@
-PV = 4.4.3+gitAUTOINC+770996a263_73481a3abd
+PV = 4.4.3+gitAUTOINC+bcc6509084_1a72cec834
 PR = r0
-PKGV = 4.4.3+git2+770996a263_73481a3abd
-PKGR = r0.7
+PKGV = 4.4.3+git3+bcc6509084_1a72cec834
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = kernel-4.4.3-yocto-standard kernel-module-ath kernel-module-ath9k-hw kernel-module-cfg80211
 RRECOMMENDS = 
-PKGSIZE = 42216
+PKGSIZE = 42280
 FILES = /lib/modules/4.4.3-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k_common.ko /etc/modules-load.d/ath9k_common.conf /etc/modprobe.d/ath9k_common.conf
 FILELIST = /lib/modules/4.4.3-yocto-standard/kernel/drivers/net/wireless/ath/ath9k/ath9k_common.ko

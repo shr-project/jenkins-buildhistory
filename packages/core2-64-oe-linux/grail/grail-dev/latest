@@ -1,9 +1,9 @@
 PV = 3.1.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 PKG = libgrail-dev
 RPROVIDES = grail-dev (=3.1.0)
-RDEPENDS = grail (= 3.1.0-r0.4)
+RDEPENDS = grail (= 3.1.0-r0.5)
 RRECOMMENDS = frame-dev glibc-dev libgcc-dev libstdc++-dev libx11-dev libxau-dev libxcb-dev libxdmcp-dev libxext-dev libxi-dev
 PKGSIZE = 22972
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/grail/*.la /lib/*.la
