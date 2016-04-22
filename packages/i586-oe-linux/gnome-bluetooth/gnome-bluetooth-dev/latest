@@ -1,8 +1,8 @@
 PV = 3.18.2
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = gnome-bluetooth (= 3.18.2-r0.10)
+RDEPENDS = gnome-bluetooth (= 3.18.2-r0.11)
 RRECOMMENDS = atk-dev bluez5-dev cairo-dev cairo-gobject-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev harfbuzz-dev hicolor-icon-theme-dev libcanberra-dev libcanberra-gtk3-dev libcap-dev libffi-dev libltdl-dev libnotify-dev libogg-dev libpcre-dev libpng-dev libudev-dev libvorbis-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxrender-dev pango-dev pixman-dev udev-dev zlib-dev
 PKGSIZE = 87599
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gnome-bluetooth/*.la /lib/*.la /usr/share/gir-*/*.gir
