@@ -1,4 +1,4 @@
-PV = 0.284
+PV = 0.288
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
-PACKAGES = hwdata hwdata-dbg hwdata-doc hwdata-locale hwdata-ivi
+DEPENDS = virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+PACKAGES = hwdata-dbg hwdata-staticdev hwdata-dev hwdata-doc hwdata-locale hwdata
