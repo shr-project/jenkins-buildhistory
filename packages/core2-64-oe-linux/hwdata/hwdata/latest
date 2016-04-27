@@ -1,9 +1,9 @@
-PV = 0.284
+PV = 0.288
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 7343896
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/hwdata /usr/lib/hwdata/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/modprobe.d/blacklist.conf /usr/share/hwdata/iab.txt /usr/share/hwdata/oui.txt /usr/share/hwdata/pci.ids /usr/share/hwdata/pnp.ids /usr/share/hwdata/usb.ids
+PKGSIZE = 7305652
+FILES = /usr/lib/* /usr/share/*
+FILELIST = /usr/lib/modprobe.d/dist-blacklist.conf /usr/share/hwdata/iab.txt /usr/share/hwdata/oui.txt /usr/share/hwdata/pci.ids /usr/share/hwdata/pnp.ids /usr/share/hwdata/usb.ids

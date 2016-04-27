@@ -2,10 +2,10 @@ PE = 1
 PV = 7.3+gitAUTOINC+01b10e191e
 PR = r0
 PKGV = 7.3+git1+01b10e191e
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = elfutils glibc (>= 2.23) libelf (>= 0.164)
 RRECOMMENDS = 
-PKGSIZE = 316453
+PKGSIZE = 316421
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ltrace /usr/lib/ltrace/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/ltrace /usr/share/ltrace/libacl.so.conf /usr/share/ltrace/libc.so.conf /usr/share/ltrace/libm.so.conf /usr/share/ltrace/syscalls.conf

@@ -1,86 +1,35 @@
-drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root               60 ./etc/default
+drwxr-xr-x root       root               60 ./etc/default/volatiles
+-rw-r--r-- root       root              126 ./etc/default/volatiles/03_samba
 drwxr-xr-x root       root               80 ./etc/samba
 -rw-r--r-- root       root               20 ./etc/samba/lmhosts
 -rw-r--r-- root       root            10530 ./etc/samba/smb.conf
 drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root              560 ./usr/lib
+drwxr-xr-x root       root              480 ./usr/lib
 lrwxrwxrwx root       root               26 ./usr/lib/libdcerpc-binding.so.0 -> libdcerpc-binding.so.0.0.1
--rwxr-xr-x root       root           108784 ./usr/lib/libdcerpc-binding.so.0.0.1
-lrwxrwxrwx root       root               18 ./usr/lib/libgensec.so.0 -> libgensec.so.0.0.1
--rwxr-xr-x root       root           149912 ./usr/lib/libgensec.so.0.0.1
+-rwxr-xr-x root       root           125168 ./usr/lib/libdcerpc-binding.so.0.0.1
 lrwxrwxrwx root       root               23 ./usr/lib/libndr-krb5pac.so.0 -> libndr-krb5pac.so.0.0.1
 -rwxr-xr-x root       root            43320 ./usr/lib/libndr-krb5pac.so.0.0.1
 lrwxrwxrwx root       root               19 ./usr/lib/libndr-nbt.so.0 -> libndr-nbt.so.0.0.1
 -rwxr-xr-x root       root            88368 ./usr/lib/libndr-nbt.so.0.0.1
 lrwxrwxrwx root       root               24 ./usr/lib/libndr-standard.so.0 -> libndr-standard.so.0.0.1
--rwxr-xr-x root       root          3291448 ./usr/lib/libndr-standard.so.0.0.1
-lrwxrwxrwx root       root               15 ./usr/lib/libndr.so.0 -> libndr.so.0.0.2
--rwxr-xr-x root       root            88288 ./usr/lib/libndr.so.0.0.2
-lrwxrwxrwx root       root               15 ./usr/lib/libpdb.so.0 -> libpdb.so.0.1.0
--rwxr-xr-x root       root           215344 ./usr/lib/libpdb.so.0.1.0
+-rwxr-xr-x root       root          3320120 ./usr/lib/libndr-standard.so.0.0.1
+lrwxrwxrwx root       root               15 ./usr/lib/libndr.so.0 -> libndr.so.0.0.5
+-rwxr-xr-x root       root            88288 ./usr/lib/libndr.so.0.0.5
 lrwxrwxrwx root       root               29 ./usr/lib/libsamba-credentials.so.0 -> libsamba-credentials.so.0.0.1
--rwxr-xr-x root       root            67744 ./usr/lib/libsamba-credentials.so.0.0.1
+-rwxr-xr-x root       root            71840 ./usr/lib/libsamba-credentials.so.0.0.1
 lrwxrwxrwx root       root               28 ./usr/lib/libsamba-hostconfig.so.0 -> libsamba-hostconfig.so.0.0.1
--rwxr-xr-x root       root           221312 ./usr/lib/libsamba-hostconfig.so.0.0.1
+-rwxr-xr-x root       root           175976 ./usr/lib/libsamba-hostconfig.so.0.0.1
 lrwxrwxrwx root       root               22 ./usr/lib/libsamba-util.so.0 -> libsamba-util.so.0.0.1
--rwxr-xr-x root       root           216024 ./usr/lib/libsamba-util.so.0.0.1
+-rwxr-xr-x root       root           473736 ./usr/lib/libsamba-util.so.0.0.1
 lrwxrwxrwx root       root               17 ./usr/lib/libsamdb.so.0 -> libsamdb.so.0.0.1
--rwxr-xr-x root       root            88744 ./usr/lib/libsamdb.so.0.0.1
--rwxr-xr-x root       root           591384 ./usr/lib/libsmbconf.so.0
+-rwxr-xr-x root       root            92944 ./usr/lib/libsamdb.so.0.0.1
+-rwxr-xr-x root       root           446296 ./usr/lib/libsmbconf.so.0
 lrwxrwxrwx root       root               23 ./usr/lib/libtevent-util.so.0 -> libtevent-util.so.0.0.1
 -rwxr-xr-x root       root            10392 ./usr/lib/libtevent-util.so.0.0.1
-drwxr-xr-x root       root             1080 ./usr/lib/samba
--rwxr-xr-x root       root            14480 ./usr/lib/samba/libCHARSET3.so
--rwxr-xr-x root       root            51424 ./usr/lib/samba/libaddns.so
--rwxr-xr-x root       root           178744 ./usr/lib/samba/libads.so
--rwxr-xr-x root       root            22672 ./usr/lib/samba/libasn1util.so
--rwxr-xr-x root       root           141448 ./usr/lib/samba/libauth.so
--rwxr-xr-x root       root            14488 ./usr/lib/samba/libauth_sam_reply.so
--rwxr-xr-x root       root            47368 ./usr/lib/samba/libauthkrb5.so
--rwxr-xr-x root       root            18568 ./usr/lib/samba/libccan.so
--rwxr-xr-x root       root            26776 ./usr/lib/samba/libcli-ldap-common.so
--rwxr-xr-x root       root            43152 ./usr/lib/samba/libcli-nbt.so
--rwxr-xr-x root       root            30944 ./usr/lib/samba/libcli_cldap.so
--rwxr-xr-x root       root           129256 ./usr/lib/samba/libcli_smb_common.so
--rwxr-xr-x root       root            22672 ./usr/lib/samba/libcli_spoolss.so
--rwxr-xr-x root       root            71824 ./usr/lib/samba/libcliauth.so
--rwxr-xr-x root       root            55440 ./usr/lib/samba/libdbwrap.so
--rwxr-xr-x root       root          1599632 ./usr/lib/samba/libdcerpc-samba.so
--rwxr-xr-x root       root           542944 ./usr/lib/samba/liberrors.so
--rwxr-xr-x root       root            10384 ./usr/lib/samba/libflag_mapping.so
--rwxr-xr-x root       root           162208 ./usr/lib/samba/libgse.so
--rwxr-xr-x root       root            10384 ./usr/lib/samba/libinterfaces.so
--rwxr-xr-x root       root            43152 ./usr/lib/samba/libkrb5samba.so
--rwxr-xr-x root       root           170744 ./usr/lib/samba/libldbsamba.so
--rwxr-xr-x root       root            14480 ./usr/lib/samba/liblibcli_lsa3.so
--rwxr-xr-x root       root            18584 ./usr/lib/samba/liblibcli_netlogon3.so
--rwxr-xr-x root       root           416072 ./usr/lib/samba/liblibsmb.so
--rwxr-xr-x root       root           112864 ./usr/lib/samba/libmsrpc3.so
--rwxr-xr-x root       root           948528 ./usr/lib/samba/libndr-samba.so
--rwxr-xr-x root       root           993592 ./usr/lib/samba/libndr-samba4.so
--rwxr-xr-x root       root            35048 ./usr/lib/samba/libnpa_tstream.so
-lrwxrwxrwx root       root               14 ./usr/lib/samba/libntdb.so.0 -> libntdb.so.0.9
--rwxr-xr-x root       root            80096 ./usr/lib/samba/libntdb.so.0.9
--rwxr-xr-x root       root            24608 ./usr/lib/samba/libpopt_samba3.so
--rwxr-xr-x root       root            88296 ./usr/lib/samba/libprinting_migrate.so
--rwxr-xr-x root       root            10384 ./usr/lib/samba/libsamba-modules.so
--rwxr-xr-x root       root           121240 ./usr/lib/samba/libsamba-security.so
--rwxr-xr-x root       root            96488 ./usr/lib/samba/libsamba-sockets.so
--rwxr-xr-x root       root            39056 ./usr/lib/samba/libsamba3-util.so
--rwxr-xr-x root       root           121112 ./usr/lib/samba/libsamdb-common.so
--rwxr-xr-x root       root            43152 ./usr/lib/samba/libsecrets3.so
--rwxr-xr-x root       root            10472 ./usr/lib/samba/libserver-role.so
--rwxr-xr-x root       root            22672 ./usr/lib/samba/libsmb_transport.so
--rwxr-xr-x root       root          3339536 ./usr/lib/samba/libsmbd_base.so
--rwxr-xr-x root       root            10384 ./usr/lib/samba/libsmbd_conn.so
--rwxr-xr-x root       root             6216 ./usr/lib/samba/libsmbd_shim.so
--rwxr-xr-x root       root           121424 ./usr/lib/samba/libsmbregistry.so
--rwxr-xr-x root       root            10384 ./usr/lib/samba/libtdb-wrap.so
--rwxr-xr-x root       root            14480 ./usr/lib/samba/libutil_cmdline.so
--rwxr-xr-x root       root            14480 ./usr/lib/samba/libutil_ntdb.so
--rwxr-xr-x root       root            10464 ./usr/lib/samba/libutil_reg.so
--rwxr-xr-x root       root             6216 ./usr/lib/samba/libutil_setid.so
--rwxr-xr-x root       root            14480 ./usr/lib/samba/libutil_tdb.so
+drwxr-xr-x root       root               80 ./usr/lib/samba
+-rwxr-xr-x root       root          1300792 ./usr/lib/samba/libndr-samba4.so
 drwxr-xr-x root       root              100 ./usr/lib/samba/pdb
 -rwxr-xr-x root       root            43152 ./usr/lib/samba/pdb/smbpasswd.so
 -rwxr-xr-x root       root            34952 ./usr/lib/samba/pdb/tdbsam.so

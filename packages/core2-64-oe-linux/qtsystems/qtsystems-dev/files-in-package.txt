@@ -20,8 +20,8 @@ drwxr-xr-x root       root              180 ./usr/include/qt5/QtPublishSubscribe
 -rw-r--r-- root       root             2278 ./usr/include/qt5/QtPublishSubscribe/qpublishsubscribeglobal.h
 -rw-r--r-- root       root              257 ./usr/include/qt5/QtPublishSubscribe/qtpublishsubscribeversion.h
 -rw-r--r-- root       root             2590 ./usr/include/qt5/QtPublishSubscribe/qvaluespace.h
--rw-r--r-- root       root             2721 ./usr/include/qt5/QtPublishSubscribe/qvaluespacepublisher.h
--rw-r--r-- root       root             3172 ./usr/include/qt5/QtPublishSubscribe/qvaluespacesubscriber.h
+-rw-r--r-- root       root             2763 ./usr/include/qt5/QtPublishSubscribe/qvaluespacepublisher.h
+-rw-r--r-- root       root             3222 ./usr/include/qt5/QtPublishSubscribe/qvaluespacesubscriber.h
 drwxr-xr-x root       root              480 ./usr/include/qt5/QtServiceFramework
 drwxr-xr-x root       root               60 ./usr/include/qt5/QtServiceFramework/5.4.0
 drwxr-xr-x root       root               60 ./usr/include/qt5/QtServiceFramework/5.4.0/QtServiceFramework
@@ -61,15 +61,15 @@ drwxr-xr-x root       root              520 ./usr/include/qt5/QtServiceFramework
 -rw-r--r-- root       root              476 ./usr/include/qt5/QtServiceFramework/QtServiceFramework
 -rw-r--r-- root       root              192 ./usr/include/qt5/QtServiceFramework/QtServiceFrameworkDepends
 -rw-r--r-- root       root               39 ./usr/include/qt5/QtServiceFramework/QtServiceFrameworkVersion
--rw-r--r-- root       root             6140 ./usr/include/qt5/QtServiceFramework/qremoteserviceregister.h
+-rw-r--r-- root       root             6157 ./usr/include/qt5/QtServiceFramework/qremoteserviceregister.h
 -rw-r--r-- root       root             2137 ./usr/include/qt5/QtServiceFramework/qservice.h
 -rw-r--r-- root       root             2736 ./usr/include/qt5/QtServiceFramework/qserviceclientcredentials.h
 -rw-r--r-- root       root             3906 ./usr/include/qt5/QtServiceFramework/qservicefilter.h
 -rw-r--r-- root       root             1957 ./usr/include/qt5/QtServiceFramework/qserviceframeworkglobal.h
 -rw-r--r-- root       root             4044 ./usr/include/qt5/QtServiceFramework/qserviceinterfacedescriptor.h
--rw-r--r-- root       root             5903 ./usr/include/qt5/QtServiceFramework/qservicemanager.h
+-rw-r--r-- root       root             5907 ./usr/include/qt5/QtServiceFramework/qservicemanager.h
 -rw-r--r-- root       root             2209 ./usr/include/qt5/QtServiceFramework/qserviceplugininterface.h
--rw-r--r-- root       root             3096 ./usr/include/qt5/QtServiceFramework/qservicereply.h
+-rw-r--r-- root       root             3129 ./usr/include/qt5/QtServiceFramework/qservicereply.h
 -rw-r--r-- root       root              257 ./usr/include/qt5/QtServiceFramework/qtserviceframeworkversion.h
 drwxr-xr-x root       root              320 ./usr/include/qt5/QtSystemInfo
 drwxr-xr-x root       root               60 ./usr/include/qt5/QtSystemInfo/5.4.0
@@ -107,10 +107,10 @@ drwxr-xr-x root       root              540 ./usr/include/qt5/QtSystemInfo/5.4.0
 -rw-r--r-- root       root              284 ./usr/include/qt5/QtSystemInfo/QtSystemInfo
 -rw-r--r-- root       root              236 ./usr/include/qt5/QtSystemInfo/QtSystemInfoDepends
 -rw-r--r-- root       root               33 ./usr/include/qt5/QtSystemInfo/QtSystemInfoVersion
--rw-r--r-- root       root             5517 ./usr/include/qt5/QtSystemInfo/qbatteryinfo.h
--rw-r--r-- root       root             4638 ./usr/include/qt5/QtSystemInfo/qdeviceinfo.h
--rw-r--r-- root       root             5126 ./usr/include/qt5/QtSystemInfo/qnetworkinfo.h
--rw-r--r-- root       root             2274 ./usr/include/qt5/QtSystemInfo/qscreensaver.h
+-rw-r--r-- root       root             5551 ./usr/include/qt5/QtSystemInfo/qbatteryinfo.h
+-rw-r--r-- root       root             4655 ./usr/include/qt5/QtSystemInfo/qdeviceinfo.h
+-rw-r--r-- root       root             5143 ./usr/include/qt5/QtSystemInfo/qnetworkinfo.h
+-rw-r--r-- root       root             2291 ./usr/include/qt5/QtSystemInfo/qscreensaver.h
 -rw-r--r-- root       root             2240 ./usr/include/qt5/QtSystemInfo/qsysteminfoglobal.h
 -rw-r--r-- root       root              227 ./usr/include/qt5/QtSystemInfo/qtsysteminfoversion.h
 drwxr-xr-x root       root              200 ./usr/lib
@@ -124,13 +124,13 @@ drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5ServiceFramework
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5SystemInfo
 -rw-r--r-- root       root             6418 ./usr/lib/cmake/Qt5SystemInfo/Qt5SystemInfoConfig.cmake
 -rw-r--r-- root       root              287 ./usr/lib/cmake/Qt5SystemInfo/Qt5SystemInfoConfigVersion.cmake
--rw-r--r-- root       root             1240 ./usr/lib/libQt5PublishSubscribe.prl
+-rw-r--r-- root       root             1329 ./usr/lib/libQt5PublishSubscribe.prl
 lrwxrwxrwx root       root               31 ./usr/lib/libQt5PublishSubscribe.so -> libQt5PublishSubscribe.so.5.4.0
--rw-r--r-- root       root             1253 ./usr/lib/libQt5ServiceFramework.prl
+-rw-r--r-- root       root             1349 ./usr/lib/libQt5ServiceFramework.prl
 lrwxrwxrwx root       root               31 ./usr/lib/libQt5ServiceFramework.so -> libQt5ServiceFramework.so.5.4.0
--rw-r--r-- root       root             1269 ./usr/lib/libQt5SystemInfo.prl
+-rw-r--r-- root       root             1371 ./usr/lib/libQt5SystemInfo.prl
 lrwxrwxrwx root       root               25 ./usr/lib/libQt5SystemInfo.so -> libQt5SystemInfo.so.5.4.0
 drwxr-xr-x root       root              100 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              353 ./usr/lib/pkgconfig/Qt5PublishSubscribe.pc
--rw-r--r-- root       root              350 ./usr/lib/pkgconfig/Qt5ServiceFramework.pc
+-rw-r--r-- root       root              360 ./usr/lib/pkgconfig/Qt5ServiceFramework.pc
 -rw-r--r-- root       root              361 ./usr/lib/pkgconfig/Qt5SystemInfo.pc
