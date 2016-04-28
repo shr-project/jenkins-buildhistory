@@ -1,10 +1,10 @@
-PV = 5.6.0+gitAUTOINC+dedff12a89
+PV = 5.6.99+5.7.0-beta+gitAUTOINC+f8759f683c
 PR = r0
-PKGV = 5.6.0+git0+dedff12a89
+PKGV = 5.6.99+5.7.0-beta+git0+f8759f683c
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libstdc++ (>= 5.3.0) qtbase (>= 5.6.0+git0+cec15a89d0) qtconnectivity (>= 5.6.0+git0+dedff12a89) qtdeclarative (>= 5.6.0+git0+26ff8f9029)
+RDEPENDS = glibc (>= 2.23) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtconnectivity (>= 5.6.99+5.7.0-beta+git0+f8759f683c) qtdeclarative (>= 5.6.99+5.7.0-beta+git0+31ef2e858c)
 RRECOMMENDS = 
-PKGSIZE = 156870
+PKGSIZE = 156774
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
 FILELIST = /usr/lib/qt5/qml/QtBluetooth/libdeclarative_bluetooth.so /usr/lib/qt5/qml/QtBluetooth/plugins.qmltypes /usr/lib/qt5/qml/QtBluetooth/qmldir /usr/lib/qt5/qml/QtNfc/libdeclarative_nfc.so /usr/lib/qt5/qml/QtNfc/plugins.qmltypes /usr/lib/qt5/qml/QtNfc/qmldir
