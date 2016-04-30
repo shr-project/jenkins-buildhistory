@@ -1,10 +1,10 @@
-PV = 5.6.0+gitAUTOINC+7a208d76ed
+PV = 5.6.99+5.7.0-beta+gitAUTOINC+be29a39ede
 PR = r0
-PKGV = 5.6.0+git0+7a208d76ed
-PKGR = r0.1
+PKGV = 5.6.99+5.7.0-beta+git0+be29a39ede
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libgles2-mesa (>= 11.1.1) libstdc++ (>= 5.3.0) qtbase (>= 5.6.0+git0+cec15a89d0) qtdeclarative (>= 5.6.0+git0+26ff8f9029)
+RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libgles2-mesa (>= 11.1.1) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtdeclarative (>= 5.6.99+5.7.0-beta+git0+31ef2e858c)
 RRECOMMENDS = qt3d-plugins qt3d-qmlplugins
-PKGSIZE = 2136422
+PKGSIZE = 2410904
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qt3d /usr/lib/qt3d/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt53DCore.so.5 /usr/lib/libQt53DCore.so.5.6 /usr/lib/libQt53DCore.so.5.6.0 /usr/lib/libQt53DInput.so.5 /usr/lib/libQt53DInput.so.5.6 /usr/lib/libQt53DInput.so.5.6.0 /usr/lib/libQt53DLogic.so.5 /usr/lib/libQt53DLogic.so.5.6 /usr/lib/libQt53DLogic.so.5.6.0 /usr/lib/libQt53DQuick.so.5 /usr/lib/libQt53DQuick.so.5.6 /usr/lib/libQt53DQuick.so.5.6.0 /usr/lib/libQt53DQuickInput.so.5 /usr/lib/libQt53DQuickInput.so.5.6 /usr/lib/libQt53DQuickInput.so.5.6.0 /usr/lib/libQt53DQuickRender.so.5 /usr/lib/libQt53DQuickRender.so.5.6 /usr/lib/libQt53DQuickRender.so.5.6.0 /usr/lib/libQt53DRender.so.5 /usr/lib/libQt53DRender.so.5.6 /usr/lib/libQt53DRender.so.5.6.0
+FILELIST = /usr/lib/libQt53DCore.so.5 /usr/lib/libQt53DCore.so.5.7 /usr/lib/libQt53DCore.so.5.7.0 /usr/lib/libQt53DExtras.so.5 /usr/lib/libQt53DExtras.so.5.7 /usr/lib/libQt53DExtras.so.5.7.0 /usr/lib/libQt53DInput.so.5 /usr/lib/libQt53DInput.so.5.7 /usr/lib/libQt53DInput.so.5.7.0 /usr/lib/libQt53DLogic.so.5 /usr/lib/libQt53DLogic.so.5.7 /usr/lib/libQt53DLogic.so.5.7.0 /usr/lib/libQt53DQuick.so.5 /usr/lib/libQt53DQuick.so.5.7 /usr/lib/libQt53DQuick.so.5.7.0 /usr/lib/libQt53DQuickInput.so.5 /usr/lib/libQt53DQuickInput.so.5.7 /usr/lib/libQt53DQuickInput.so.5.7.0 /usr/lib/libQt53DQuickRender.so.5 /usr/lib/libQt53DQuickRender.so.5.7 /usr/lib/libQt53DQuickRender.so.5.7.0 /usr/lib/libQt53DRender.so.5 /usr/lib/libQt53DRender.so.5.7 /usr/lib/libQt53DRender.so.5.7.0

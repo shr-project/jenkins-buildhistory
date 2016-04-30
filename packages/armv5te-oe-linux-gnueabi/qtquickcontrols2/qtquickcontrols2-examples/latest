@@ -1,11 +1,10 @@
-PV = 5.6.0+gitAUTOINC+ac152bfcd3
+PV = 5.6.99+5.7.0-beta+gitAUTOINC+2a5c64a1dd
 PR = r0
-PKGV = 5.6.0+git0+ac152bfcd3
-PKGR = r0.1
-PKG = libqt5labstemplates-examples
-RPROVIDES = qtquickcontrols2-examples (=5.6.0+git0+ac152bfcd3)
-RDEPENDS = glibc (>= 2.23) libstdc++ (>= 5.3.0) qtbase (>= 5.6.0+git0+cec15a89d0) qtdeclarative (>= 5.6.0+git0+26ff8f9029)
+PKGV = 5.6.99+5.7.0-beta+git0+2a5c64a1dd
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtdeclarative (>= 5.6.99+5.7.0-beta+git0+31ef2e858c) qtquickcontrols2 (>= 5.6.99+5.7.0-beta+git0+2a5c64a1dd)
 RRECOMMENDS = 
-PKGSIZE = 109892
+PKGSIZE = 1084252
 FILES = /usr/share/qt5/examples/*
-FILELIST = /usr/share/qt5/examples/quickcontrols2/gallery/gallery
+FILELIST = /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter1-settingup/chapter1-settingup /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter2-lists/chapter2-lists /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter3-navigation/chapter3-navigation /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter4-models/chapter4-models /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter5-styling/chapter5-styling /usr/share/qt5/examples/quickcontrols2/gallery/gallery
