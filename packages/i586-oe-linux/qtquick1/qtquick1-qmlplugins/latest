@@ -1,11 +1,11 @@
-PV = 5.6.0+gitAUTOINC+563ce3888f
+PV = 5.6.99+5.7.0-beta+gitAUTOINC+5e3bd5cb28
 PR = r0
-PKGV = 5.6.0+git0+563ce3888f
+PKGV = 5.6.99+5.7.0-beta+git0+5e3bd5cb28
 PKGR = r0.1
 PKG = libqt5declarative-qmlplugins
-RPROVIDES = qtquick1-qmlplugins (=5.6.0+git0+563ce3888f)
-RDEPENDS = glibc (>= 2.23) libgles2-mesa (>= 11.1.1) libstdc++ (>= 5.3.0) qtbase (>= 5.6.0+git0+cec15a89d0) qtquick1 (>= 5.6.0+git0+563ce3888f)
+RPROVIDES = qtquick1-qmlplugins (=5.6.99+5.7.0-beta+git0+5e3bd5cb28)
+RDEPENDS = glibc (>= 2.23) libgles2-mesa (>= 11.1.1) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtquick1 (>= 5.6.99+5.7.0-beta+git0+5e3bd5cb28)
 RRECOMMENDS = 
-PKGSIZE = 434269
+PKGSIZE = 426657
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
 FILELIST = /usr/lib/qt5/imports/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.so /usr/lib/qt5/imports/Qt/labs/folderlistmodel/plugins.qmltypes /usr/lib/qt5/imports/Qt/labs/folderlistmodel/qmldir /usr/lib/qt5/imports/Qt/labs/gestures/libqmlgesturesplugin.so /usr/lib/qt5/imports/Qt/labs/gestures/plugins.qmltypes /usr/lib/qt5/imports/Qt/labs/gestures/qmldir /usr/lib/qt5/imports/Qt/labs/particles/libqmlparticlesplugin.so /usr/lib/qt5/imports/Qt/labs/particles/plugins.qmltypes /usr/lib/qt5/imports/Qt/labs/particles/qmldir /usr/lib/qt5/imports/Qt/labs/shaders/libqmlshadersplugin.so /usr/lib/qt5/imports/Qt/labs/shaders/plugins.qmltypes /usr/lib/qt5/imports/Qt/labs/shaders/qmldir /usr/lib/qt5/imports/builtins.qmltypes

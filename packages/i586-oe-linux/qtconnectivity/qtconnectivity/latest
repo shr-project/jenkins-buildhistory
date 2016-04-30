@@ -1,10 +1,10 @@
-PV = 5.6.0+gitAUTOINC+dedff12a89
+PV = 5.6.99+5.7.0-beta+gitAUTOINC+f8759f683c
 PR = r0
-PKGV = 5.6.0+git0+dedff12a89
+PKGV = 5.6.99+5.7.0-beta+git0+f8759f683c
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libstdc++ (>= 5.3.0) qtbase (>= 5.6.0+git0+cec15a89d0)
+RDEPENDS = glibc (>= 2.23) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1)
 RRECOMMENDS = qtconnectivity-plugins qtconnectivity-qmlplugins
-PKGSIZE = 1309004
+PKGSIZE = 1473724
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtconnectivity /usr/lib/qtconnectivity/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5Bluetooth.so.5 /usr/lib/libQt5Bluetooth.so.5.6 /usr/lib/libQt5Bluetooth.so.5.6.1 /usr/lib/libQt5Nfc.so.5 /usr/lib/libQt5Nfc.so.5.6 /usr/lib/libQt5Nfc.so.5.6.1
+FILELIST = /usr/lib/libQt5Bluetooth.so.5 /usr/lib/libQt5Bluetooth.so.5.7 /usr/lib/libQt5Bluetooth.so.5.7.0 /usr/lib/libQt5Nfc.so.5 /usr/lib/libQt5Nfc.so.5.7 /usr/lib/libQt5Nfc.so.5.7.0

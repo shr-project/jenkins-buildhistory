@@ -1,10 +1,10 @@
-PV = 5.6.0+gitAUTOINC+d1f66746ab
+PV = 5.6.99+5.7.0-beta+gitAUTOINC+e41c3a9b34
 PR = r0
-PKGV = 5.6.0+git0+d1f66746ab
+PKGV = 5.6.99+5.7.0-beta+git0+e41c3a9b34
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libstdc++ (>= 5.3.0) qtbase (>= 5.6.0+git0+cec15a89d0) qtlocation (>= 5.6.0+git0+d1f66746ab)
+RDEPENDS = glibc (>= 2.23) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtlocation (>= 5.6.99+5.7.0-beta+git0+e41c3a9b34)
 RRECOMMENDS = 
-PKGSIZE = 865240
+PKGSIZE = 862784
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
 FILELIST = /usr/lib/qt5/plugins/geoservices/libqtgeoservices_mapbox.so /usr/lib/qt5/plugins/geoservices/libqtgeoservices_nokia.so /usr/lib/qt5/plugins/geoservices/libqtgeoservices_osm.so /usr/lib/qt5/plugins/position/libqtposition_geoclue.so /usr/lib/qt5/plugins/position/libqtposition_positionpoll.so
