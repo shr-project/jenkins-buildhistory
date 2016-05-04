@@ -22,8 +22,8 @@ drwxr-xr-x root       root             1020 ./usr/include/net-snmp/agent
 -rw-r--r-- root       root             3861 ./usr/include/net-snmp/agent/ds_agent.h
 -rw-r--r-- root       root             6270 ./usr/include/net-snmp/agent/instance.h
 -rw-r--r-- root       root             2686 ./usr/include/net-snmp/agent/mfd.h
--rw-r--r-- root       root            28805 ./usr/include/net-snmp/agent/mib_module_config.h
--rw-r--r-- root       root            11559 ./usr/include/net-snmp/agent/mib_module_includes.h
+-rw-r--r-- root       root            28902 ./usr/include/net-snmp/agent/mib_module_config.h
+-rw-r--r-- root       root            11592 ./usr/include/net-snmp/agent/mib_module_includes.h
 -rw-r--r-- root       root              428 ./usr/include/net-snmp/agent/mib_modules.h
 -rw-r--r-- root       root              871 ./usr/include/net-snmp/agent/mode_end_call.h
 -rw-r--r-- root       root              975 ./usr/include/net-snmp/agent/multiplexer.h
@@ -59,7 +59,7 @@ drwxr-xr-x root       root              100 ./usr/include/net-snmp/agent/util_fu
 -rw-r--r-- root       root             5556 ./usr/include/net-snmp/agent/watcher.h
 -rw-r--r-- root       root             4043 ./usr/include/net-snmp/config_api.h
 -rw-r--r-- root       root              947 ./usr/include/net-snmp/definitions.h
-drwxr-xr-x root       root             1340 ./usr/include/net-snmp/library
+drwxr-xr-x root       root             1400 ./usr/include/net-snmp/library
 -rw-r--r-- root       root             3396 ./usr/include/net-snmp/library/README
 -rw-r--r-- root       root            18574 ./usr/include/net-snmp/library/asn1.h
 -rw-r--r-- root       root             2727 ./usr/include/net-snmp/library/callback.h
@@ -94,12 +94,15 @@ drwxr-xr-x root       root             1340 ./usr/include/net-snmp/library
 -rw-r--r-- root       root              678 ./usr/include/net-snmp/library/snmpAliasDomain.h
 -rw-r--r-- root       root             2874 ./usr/include/net-snmp/library/snmpCallbackDomain.h
 -rw-r--r-- root       root              875 ./usr/include/net-snmp/library/snmpIPv4BaseDomain.h
+-rw-r--r-- root       root              785 ./usr/include/net-snmp/library/snmpIPv6BaseDomain.h
 -rw-r--r-- root       root              501 ./usr/include/net-snmp/library/snmpSocketBaseDomain.h
 -rw-r--r-- root       root              506 ./usr/include/net-snmp/library/snmpTCPBaseDomain.h
 -rw-r--r-- root       root              838 ./usr/include/net-snmp/library/snmpTCPDomain.h
+-rw-r--r-- root       root              774 ./usr/include/net-snmp/library/snmpTCPIPv6Domain.h
 -rw-r--r-- root       root             1159 ./usr/include/net-snmp/library/snmpUDPBaseDomain.h
 -rw-r--r-- root       root             1700 ./usr/include/net-snmp/library/snmpUDPDomain.h
 -rw-r--r-- root       root             1116 ./usr/include/net-snmp/library/snmpUDPIPv4BaseDomain.h
+-rw-r--r-- root       root             1698 ./usr/include/net-snmp/library/snmpUDPIPv6Domain.h
 -rw-r--r-- root       root             1613 ./usr/include/net-snmp/library/snmpUnixDomain.h
 -rw-r--r-- root       root             2455 ./usr/include/net-snmp/library/snmp_alarm.h
 -rw-r--r-- root       root            29441 ./usr/include/net-snmp/library/snmp_api.h
@@ -128,7 +131,7 @@ drwxr-xr-x root       root             1340 ./usr/include/net-snmp/library
 drwxr-xr-x root       root               60 ./usr/include/net-snmp/machine
 -rw-r--r-- root       root               45 ./usr/include/net-snmp/machine/generic.h
 -rw-r--r-- root       root             3476 ./usr/include/net-snmp/mib_api.h
--rw-r--r-- root       root            76963 ./usr/include/net-snmp/net-snmp-config.h
+-rw-r--r-- root       root            77019 ./usr/include/net-snmp/net-snmp-config.h
 -rw-r--r-- root       root              927 ./usr/include/net-snmp/net-snmp-features.h
 -rw-r--r-- root       root             1575 ./usr/include/net-snmp/net-snmp-includes.h
 -rw-r--r-- root       root             5539 ./usr/include/net-snmp/output_api.h
