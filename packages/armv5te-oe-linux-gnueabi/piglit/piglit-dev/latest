@@ -1,9 +1,9 @@
 PV = 1.0+gitrAUTOINC+c458542791
 PR = r0
 PKGV = 1.0+gitr0+c458542791
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = piglit (= 1.0+gitr0+c458542791-r0.6)
+RDEPENDS = piglit (= 1.0+gitr0+c458542791-r0.7)
 RRECOMMENDS = bash-dev glibc-dev libegl-mesa-dev libgcc-dev libgl-mesa-dev libglu-dev libstdc++-dev libx11-dev libxrender-dev mesa-demos-dev python-argparse-dev python-dev python-importlib-dev python-json-dev python-mako-dev python-multiprocessing-dev python-netserver-dev python-shell-dev python-subprocess-dev python-textutils-dev python-unixadmin-dev python-xml-dev waffle-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/piglit/*.la /lib/*.la
