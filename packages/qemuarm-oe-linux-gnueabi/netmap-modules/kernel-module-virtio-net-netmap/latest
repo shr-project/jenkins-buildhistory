@@ -1,10 +1,10 @@
 PV = master+gitAUTOINC+da9e19e69b
 PR = r0
 PKGV = master+git0+da9e19e69b
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = kernel-4.4.3-yocto-standard kernel-module-netmap
+RDEPENDS = kernel-4.4.8-yocto-standard kernel-module-netmap
 RRECOMMENDS = 
 PKGSIZE = 37660
-FILES = /lib/modules/4.4.3-yocto-standard/kernel/netmap-modules/virtio_net-netmap.ko /etc/modules-load.d/virtio_net-netmap.conf /etc/modprobe.d/virtio_net-netmap.conf
-FILELIST = /lib/modules/4.4.3-yocto-standard/kernel/netmap-modules/virtio_net-netmap.ko
+FILES = /lib/modules/4.4.8-yocto-standard/kernel/netmap-modules/virtio_net-netmap.ko /etc/modules-load.d/virtio_net-netmap.conf /etc/modprobe.d/virtio_net-netmap.conf
+FILELIST = /lib/modules/4.4.8-yocto-standard/kernel/netmap-modules/virtio_net-netmap.ko

@@ -1,10 +1,10 @@
-PV = 4.4.3+gitAUTOINC+bcc6509084_ec9167bcb0
+PV = 4.4.3+gitAUTOINC+9ab4787fe2_1394eb1f0a
 PR = r0
-PKGV = 4.4.3+git2+bcc6509084_ec9167bcb0
-PKGR = r0.9
+PKGV = 4.4.3+git3+9ab4787fe2_1394eb1f0a
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.3-yocto-standard kernel-module-x-tables
+RDEPENDS = kernel-4.4.8-yocto-standard kernel-module-x-tables
 RRECOMMENDS = 
 PKGSIZE = 5056
-FILES = /lib/modules/4.4.3-yocto-standard/kernel/net/bridge/netfilter/ebt_arp.ko /etc/modules-load.d/ebt_arp.conf /etc/modprobe.d/ebt_arp.conf
-FILELIST = /lib/modules/4.4.3-yocto-standard/kernel/net/bridge/netfilter/ebt_arp.ko
+FILES = /lib/modules/4.4.8-yocto-standard/kernel/net/bridge/netfilter/ebt_arp.ko /etc/modules-load.d/ebt_arp.conf /etc/modprobe.d/ebt_arp.conf
+FILELIST = /lib/modules/4.4.8-yocto-standard/kernel/net/bridge/netfilter/ebt_arp.ko

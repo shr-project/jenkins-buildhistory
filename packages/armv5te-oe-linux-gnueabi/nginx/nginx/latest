@@ -1,8 +1,8 @@
 PV = 1.10.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.23) libcrypto (>= 1.0.2g) libpcre (>= 8.38) libssl (>= 1.0.2g) shadow zlib (>= 1.2.8)
+RDEPENDS = base-files base-passwd glibc (>= 2.23) libcrypto (>= 1.0.2h) libpcre (>= 8.38) libssl (>= 1.0.2h) shadow zlib (>= 1.2.8)
 RRECOMMENDS = update-rc.d
 PKGSIZE = 530391
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/nginx /usr/lib/nginx/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /var/ /lib/systemd/system/nginx.service
