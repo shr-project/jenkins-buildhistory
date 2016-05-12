@@ -1,9 +1,9 @@
-PV = 0.21
+PV = 0.23
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) popt (>= 1.16)
+RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) popt (>= 1.16)
 RRECOMMENDS = 
-PKGSIZE = 151347
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/efivar/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/efivar /usr/lib/efivar/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/efivar /usr/lib/libefiboot.so.0 /usr/lib/libefiboot.so.0.21 /usr/lib/libefivar.so.0 /usr/lib/libefivar.so.0.21
+PKGSIZE = 153139
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/efivar /usr/lib/efivar/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/bin/efivar /usr/lib/libefiboot.so.0 /usr/lib/libefiboot.so.0.23 /usr/lib/libefivar.so.0 /usr/lib/libefivar.so.0.23

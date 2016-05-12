@@ -1,10 +1,10 @@
-PV = 4.4.3+gitAUTOINC+bcc6509084_1a72cec834
+PV = 4.4.3+gitAUTOINC+9ab4787fe2_b18090556c
 PR = r0
-PKGV = 4.4.3+git5+bcc6509084_1a72cec834
-PKGR = r0.9
+PKGV = 4.4.3+git6+9ab4787fe2_b18090556c
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.3-yocto-standard kernel-module-nf-conntrack kernel-module-x-tables
+RDEPENDS = kernel-4.4.8-yocto-standard kernel-module-nf-conntrack kernel-module-x-tables
 RRECOMMENDS = 
 PKGSIZE = 3572
-FILES = /lib/modules/4.4.3-yocto-standard/kernel/net/netfilter/xt_state.ko /etc/modules-load.d/xt_state.conf /etc/modprobe.d/xt_state.conf
-FILELIST = /lib/modules/4.4.3-yocto-standard/kernel/net/netfilter/xt_state.ko
+FILES = /lib/modules/4.4.8-yocto-standard/kernel/net/netfilter/xt_state.ko /etc/modules-load.d/xt_state.conf /etc/modprobe.d/xt_state.conf
+FILELIST = /lib/modules/4.4.8-yocto-standard/kernel/net/netfilter/xt_state.ko
