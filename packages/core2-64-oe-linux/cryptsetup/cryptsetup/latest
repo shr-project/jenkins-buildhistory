@@ -1,8 +1,8 @@
 PV = 1.7.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libcrypto (>= 1.0.2g) libssl (>= 1.0.2g) lvm2 (>= 2.02.138) popt (>= 1.16) util-linux-libuuid (>= 2.27.1)
+RDEPENDS = glibc (>= 2.23) libcrypto (>= 1.0.2h) libssl (>= 1.0.2h) lvm2 (>= 2.02.138) popt (>= 1.16) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = kernel-module-aes-generic kernel-module-cbc kernel-module-dm-crypt kernel-module-md5 kernel-module-sha256-generic
 PKGSIZE = 244734
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/cryptsetup /usr/lib/cryptsetup/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

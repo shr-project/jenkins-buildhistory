@@ -1,10 +1,10 @@
-PV = 4.4.3+gitAUTOINC+bcc6509084_1a72cec834
+PV = 4.4.3+gitAUTOINC+9ab4787fe2_b18090556c
 PR = r0
-PKGV = 4.4.3+git3+bcc6509084_1a72cec834
-PKGR = r0.8
+PKGV = 4.4.3+git4+9ab4787fe2_b18090556c
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.3-yocto-standard kernel-module-gspca-main kernel-module-media kernel-module-v4l2-common kernel-module-videodev
+RDEPENDS = kernel-4.4.8-yocto-standard kernel-module-gspca-main kernel-module-media kernel-module-v4l2-common kernel-module-videodev
 RRECOMMENDS = 
 PKGSIZE = 17304
-FILES = /lib/modules/4.4.3-yocto-standard/kernel/drivers/media/usb/gspca/gspca_sn9c2028.ko /etc/modules-load.d/gspca_sn9c2028.conf /etc/modprobe.d/gspca_sn9c2028.conf
-FILELIST = /lib/modules/4.4.3-yocto-standard/kernel/drivers/media/usb/gspca/gspca_sn9c2028.ko
+FILES = /lib/modules/4.4.8-yocto-standard/kernel/drivers/media/usb/gspca/gspca_sn9c2028.ko /etc/modules-load.d/gspca_sn9c2028.conf /etc/modprobe.d/gspca_sn9c2028.conf
+FILELIST = /lib/modules/4.4.8-yocto-standard/kernel/drivers/media/usb/gspca/gspca_sn9c2028.ko
