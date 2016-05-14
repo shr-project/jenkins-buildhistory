@@ -1,12 +1,12 @@
 PE = 2
-PV = 11.1.1
+PV = 11.2.2
 PR = r0
-PKGR = r0.8
+PKGR = r0.0
 RPROVIDES = mesa-driver-kms-swrast mesa-driver-swrast
-RDEPENDS = expat (>= 2.1.0) glibc (>= 2.23) libcrypto (>= 1.0.2h) libdrm (>= 2.4.67) libgcc (>= 5.3.0) libllvm3.3-llvm-3.3 (>= 3.3) libstdc++ (>= 5.3.0)
+RDEPENDS = expat (>= 2.1.0) glibc (>= 2.23) libcrypto (>= 1.0.2h) libdrm (>= 2.4.68) libgcc (>= 5.3.0) libllvm3.3-llvm-3.3 (>= 3.3) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
 RREPLACES = mesa-driver-kms-swrast mesa-driver-swrast
 RCONFLICTS = mesa-driver-kms-swrast mesa-driver-swrast
-PKGSIZE = 8482368
+PKGSIZE = 8468504
 FILES = /usr/lib/dri/*
 FILELIST = /usr/lib/dri/kms_swrast_dri.so /usr/lib/dri/swrast_dri.so
