@@ -1,10 +1,10 @@
-PV = 4.4.3+gitAUTOINC+9ab4787fe2_b18090556c
+PV = 4.4.10+gitAUTOINC+b7ce076447_fe7ff38448
 PR = r0
-PKGV = 4.4.3+git6+9ab4787fe2_b18090556c
+PKGV = 4.4.10+git0+b7ce076447_fe7ff38448
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.8-yocto-standard
+RDEPENDS = kernel-4.4.10-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 6564
-FILES = /lib/modules/4.4.8-yocto-standard/kernel/fs/nls/nls_cp775.ko /etc/modules-load.d/nls_cp775.conf /etc/modprobe.d/nls_cp775.conf
-FILELIST = /lib/modules/4.4.8-yocto-standard/kernel/fs/nls/nls_cp775.ko
+FILES = /lib/modules/4.4.10-yocto-standard/kernel/fs/nls/nls_cp775.ko /etc/modules-load.d/nls_cp775.conf /etc/modprobe.d/nls_cp775.conf
+FILELIST = /lib/modules/4.4.10-yocto-standard/kernel/fs/nls/nls_cp775.ko

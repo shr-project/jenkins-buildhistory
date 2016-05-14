@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.15.1
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libunwind (>= 1.1)
+RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libunwind (>= 1.1+git0+bc8698fd7e)
 RRECOMMENDS = 
 PKGSIZE = 488952
 FILES = /usr/lib/libeina.so.* /usr/bin/eina-bench-cmp
