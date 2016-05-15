@@ -1,10 +1,10 @@
 PV = master+gitAUTOINC+da9e19e69b
 PR = r0
 PKGV = master+git0+da9e19e69b
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = kernel-4.4.8-yocto-standard kernel-module-netmap
+RDEPENDS = kernel-4.4.10-yocto-standard kernel-module-netmap
 RRECOMMENDS = 
 PKGSIZE = 169936
-FILES = /lib/modules/4.4.8-yocto-standard/kernel/netmap-modules/e1000/e1000-netmap.ko /etc/modules-load.d/e1000-netmap.conf /etc/modprobe.d/e1000-netmap.conf
-FILELIST = /lib/modules/4.4.8-yocto-standard/kernel/netmap-modules/e1000/e1000-netmap.ko
+FILES = /lib/modules/4.4.10-yocto-standard/kernel/netmap-modules/e1000/e1000-netmap.ko /etc/modules-load.d/e1000-netmap.conf /etc/modprobe.d/e1000-netmap.conf
+FILELIST = /lib/modules/4.4.10-yocto-standard/kernel/netmap-modules/e1000/e1000-netmap.ko
