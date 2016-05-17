@@ -1,8 +1,8 @@
 PV = 2.2.3
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) ncurses-libncurses (>= 6.0+20160213) ncurses-libtinfo (>= 6.0+20160213) procps zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.24) ncurses-libncurses (>= 6.0+20160213) ncurses-libtinfo (>= 6.0+20160213) procps zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 321845
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/atop /usr/lib/atop/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system-sleep /lib/systemd/system/atop.service

@@ -99,7 +99,7 @@ drwxr-xr-x root       root             1280 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root             1152 ./usr/lib/vlc/plugins/access/libftp_plugin.la
 -rwxr-xr-x root       root            28296 ./usr/lib/vlc/plugins/access/libftp_plugin.so
 -rwxr-xr-x root       root             1162 ./usr/lib/vlc/plugins/access/libhttp_plugin.la
--rwxr-xr-x root       root            28496 ./usr/lib/vlc/plugins/access/libhttp_plugin.so
+-rwxr-xr-x root       root            28832 ./usr/lib/vlc/plugins/access/libhttp_plugin.so
 -rwxr-xr-x root       root             1170 ./usr/lib/vlc/plugins/access/libidummy_plugin.la
 -rwxr-xr-x root       root             8556 ./usr/lib/vlc/plugins/access/libidummy_plugin.so
 -rwxr-xr-x root       root             1158 ./usr/lib/vlc/plugins/access/libimem_plugin.la
@@ -125,7 +125,7 @@ drwxr-xr-x root       root             1280 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root             1152 ./usr/lib/vlc/plugins/access/libudp_plugin.la
 -rwxr-xr-x root       root             7152 ./usr/lib/vlc/plugins/access/libudp_plugin.so
 -rwxr-xr-x root       root             1158 ./usr/lib/vlc/plugins/access/libv4l2_plugin.la
--rwxr-xr-x root       root            52732 ./usr/lib/vlc/plugins/access/libv4l2_plugin.so
+-rwxr-xr-x root       root            52772 ./usr/lib/vlc/plugins/access/libv4l2_plugin.so
 -rwxr-xr-x root       root             1152 ./usr/lib/vlc/plugins/access/libvcd_plugin.la
 -rwxr-xr-x root       root            19956 ./usr/lib/vlc/plugins/access/libvcd_plugin.so
 -rwxr-xr-x root       root             1152 ./usr/lib/vlc/plugins/access/libvdr_plugin.la
@@ -140,7 +140,7 @@ drwxr-xr-x root       root              200 ./usr/lib/vlc/plugins/access_output
 -rwxr-xr-x root       root             1249 ./usr/lib/vlc/plugins/access_output/libaccess_output_file_plugin.la
 -rwxr-xr-x root       root             8504 ./usr/lib/vlc/plugins/access_output/libaccess_output_file_plugin.so
 -rwxr-xr-x root       root             1249 ./usr/lib/vlc/plugins/access_output/libaccess_output_http_plugin.la
--rwxr-xr-x root       root            10456 ./usr/lib/vlc/plugins/access_output/libaccess_output_http_plugin.so
+-rwxr-xr-x root       root            10524 ./usr/lib/vlc/plugins/access_output/libaccess_output_http_plugin.so
 -rwxr-xr-x root       root             1243 ./usr/lib/vlc/plugins/access_output/libaccess_output_udp_plugin.la
 -rwxr-xr-x root       root            10608 ./usr/lib/vlc/plugins/access_output/libaccess_output_udp_plugin.so
 drwxr-xr-x root       root              200 ./usr/lib/vlc/plugins/arm_neon
@@ -267,11 +267,11 @@ drwxr-xr-x root       root             1520 ./usr/lib/vlc/plugins/codec
 -rwxr-xr-x root       root             1151 ./usr/lib/vlc/plugins/codec/libstl_plugin.la
 -rwxr-xr-x root       root             6320 ./usr/lib/vlc/plugins/codec/libstl_plugin.so
 -rwxr-xr-x root       root             1175 ./usr/lib/vlc/plugins/codec/libsubsdec_plugin.la
--rwxr-xr-x root       root            27116 ./usr/lib/vlc/plugins/codec/libsubsdec_plugin.so
+-rwxr-xr-x root       root            27124 ./usr/lib/vlc/plugins/codec/libsubsdec_plugin.so
 -rwxr-xr-x root       root             1181 ./usr/lib/vlc/plugins/codec/libsubstx3g_plugin.la
 -rwxr-xr-x root       root            14304 ./usr/lib/vlc/plugins/codec/libsubstx3g_plugin.so
 -rwxr-xr-x root       root             1175 ./usr/lib/vlc/plugins/codec/libsubsusf_plugin.la
--rwxr-xr-x root       root            16928 ./usr/lib/vlc/plugins/codec/libsubsusf_plugin.so
+-rwxr-xr-x root       root            16640 ./usr/lib/vlc/plugins/codec/libsubsusf_plugin.so
 -rwxr-xr-x root       root             1175 ./usr/lib/vlc/plugins/codec/libsvcdsub_plugin.la
 -rwxr-xr-x root       root             8660 ./usr/lib/vlc/plugins/codec/libsvcdsub_plugin.so
 -rwxr-xr-x root       root             1157 ./usr/lib/vlc/plugins/codec/libt140_plugin.la
@@ -339,7 +339,7 @@ drwxr-xr-x root       root             1520 ./usr/lib/vlc/plugins/demux
 -rwxr-xr-x root       root             1221 ./usr/lib/vlc/plugins/demux/libmod_plugin.la
 -rwxr-xr-x root       root            19280 ./usr/lib/vlc/plugins/demux/libmod_plugin.so
 -rwxr-xr-x root       root             1155 ./usr/lib/vlc/plugins/demux/libmp4_plugin.la
--rwxr-xr-x root       root           172276 ./usr/lib/vlc/plugins/demux/libmp4_plugin.so
+-rwxr-xr-x root       root           172312 ./usr/lib/vlc/plugins/demux/libmp4_plugin.so
 -rwxr-xr-x root       root             1157 ./usr/lib/vlc/plugins/demux/libmpgv_plugin.la
 -rwxr-xr-x root       root             5492 ./usr/lib/vlc/plugins/demux/libmpgv_plugin.so
 -rwxr-xr-x root       root             1151 ./usr/lib/vlc/plugins/demux/libnsc_plugin.la
@@ -382,7 +382,7 @@ drwxr-xr-x root       root             1520 ./usr/lib/vlc/plugins/demux
 -rwxr-xr-x root       root             6540 ./usr/lib/vlc/plugins/demux/libxa_plugin.so
 drwxr-xr-x root       root               80 ./usr/lib/vlc/plugins/gui
 -rwxr-xr-x root       root             1192 ./usr/lib/vlc/plugins/gui/libncurses_plugin.la
--rwxr-xr-x root       root            45852 ./usr/lib/vlc/plugins/gui/libncurses_plugin.so
+-rwxr-xr-x root       root            45872 ./usr/lib/vlc/plugins/gui/libncurses_plugin.so
 drwxr-xr-x root       root               80 ./usr/lib/vlc/plugins/lua
 -rwxr-xr-x root       root             1155 ./usr/lib/vlc/plugins/lua/liblua_plugin.la
 -rwxr-xr-x root       root           253364 ./usr/lib/vlc/plugins/lua/liblua_plugin.so
@@ -397,7 +397,7 @@ drwxr-xr-x root       root              480 ./usr/lib/vlc/plugins/misc
 -rwxr-xr-x root       root             1240 ./usr/lib/vlc/plugins/misc/libaddonsvorepository_plugin.la
 -rwxr-xr-x root       root            14360 ./usr/lib/vlc/plugins/misc/libaddonsvorepository_plugin.so
 -rwxr-xr-x root       root             1216 ./usr/lib/vlc/plugins/misc/libaudioscrobbler_plugin.la
--rwxr-xr-x root       root            16672 ./usr/lib/vlc/plugins/misc/libaudioscrobbler_plugin.so
+-rwxr-xr-x root       root            16696 ./usr/lib/vlc/plugins/misc/libaudioscrobbler_plugin.so
 -rwxr-xr-x root       root             1228 ./usr/lib/vlc/plugins/misc/libdbus_screensaver_plugin.la
 -rwxr-xr-x root       root             6952 ./usr/lib/vlc/plugins/misc/libdbus_screensaver_plugin.so
 -rwxr-xr-x root       root             1168 ./usr/lib/vlc/plugins/misc/libexport_plugin.la
@@ -630,7 +630,7 @@ drwxr-xr-x root       root             1920 ./usr/lib/vlc/plugins/video_filter
 -rwxr-xr-x root       root             1182 ./usr/lib/vlc/plugins/video_filter/libsharpen_plugin.la
 -rwxr-xr-x root       root             8936 ./usr/lib/vlc/plugins/video_filter/libsharpen_plugin.so
 -rwxr-xr-x root       root             1194 ./usr/lib/vlc/plugins/video_filter/libsubsdelay_plugin.la
--rwxr-xr-x root       root            21268 ./usr/lib/vlc/plugins/video_filter/libsubsdelay_plugin.so
+-rwxr-xr-x root       root            21332 ./usr/lib/vlc/plugins/video_filter/libsubsdelay_plugin.so
 -rwxr-xr-x root       root             1194 ./usr/lib/vlc/plugins/video_filter/libtransform_plugin.la
 -rwxr-xr-x root       root            19152 ./usr/lib/vlc/plugins/video_filter/libtransform_plugin.so
 -rwxr-xr-x root       root             1158 ./usr/lib/vlc/plugins/video_filter/libvhs_plugin.la
@@ -647,7 +647,7 @@ drwxr-xr-x root       root              520 ./usr/lib/vlc/plugins/video_output
 -rwxr-xr-x root       root             1793 ./usr/lib/vlc/plugins/video_output/libgl_plugin.la
 -rwxr-xr-x root       root            30992 ./usr/lib/vlc/plugins/video_output/libgl_plugin.so
 -rwxr-xr-x root       root             1858 ./usr/lib/vlc/plugins/video_output/libglx_plugin.la
--rwxr-xr-x root       root             8452 ./usr/lib/vlc/plugins/video_output/libglx_plugin.so
+-rwxr-xr-x root       root             8540 ./usr/lib/vlc/plugins/video_output/libglx_plugin.so
 -rwxr-xr-x root       root             1176 ./usr/lib/vlc/plugins/video_output/libvdummy_plugin.la
 -rwxr-xr-x root       root             6988 ./usr/lib/vlc/plugins/video_output/libvdummy_plugin.so
 -rwxr-xr-x root       root             1164 ./usr/lib/vlc/plugins/video_output/libvmem_plugin.la

@@ -1,9 +1,9 @@
 PE = 1
 PV = 2.19
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.23) perl python python-io python-lang python-resource python-subprocess
+RDEPENDS = bash glibc (>= 2.24) perl python python-io python-lang python-resource python-subprocess
 RRECOMMENDS = 
 PKGSIZE = 318506
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libhugetlbfs /usr/lib/libhugetlbfs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so

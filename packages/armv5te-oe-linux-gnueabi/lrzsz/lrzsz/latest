@@ -1,9 +1,9 @@
 PV = 0.12.20
 PR = r6
-PKGR = r6.7
+PKGR = r6.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.24) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 102124
+PKGSIZE = 102128
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lrzsz /usr/lib/lrzsz/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/lrz /usr/bin/lsz

@@ -1,8 +1,8 @@
 PV = 14.7.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libpython2 (>= 2.7.11) python-core python-multiprocessing zeromq (>= 4.1.4)
+RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.11) python-core python-multiprocessing zeromq (>= 4.1.4)
 RRECOMMENDS = 
 PKGSIZE = 1174710
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/python-pyzmq /usr/lib/python-pyzmq/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*

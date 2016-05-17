@@ -1,10 +1,10 @@
 PV = 1.0.98+gitAUTOINC+8d4580a55c
 PR = r0
 PKGV = 1.0.98+git0+8d4580a55c
-PKGR = r0.13
+PKGR = r0.14
 PKG = libconnman-qt5-1
 RPROVIDES = libconnman-qt5 (=1.0.98+git0+8d4580a55c)
-RDEPENDS = connman glibc (>= 2.23) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1)
+RDEPENDS = connman glibc (>= 2.24) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1)
 RRECOMMENDS = libconnman-qt5-plugins libconnman-qt5-qmlplugins
 PKGSIZE = 310670
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libconnman-qt5 /usr/lib/libconnman-qt5/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

@@ -1,9 +1,9 @@
 PV = 3.12.0.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.23) ncurses-libmenuw (>= 6.0+20160213) ncurses-libncursesw (>= 6.0+20160213) ncurses-libpanelw (>= 6.0+20160213) ncurses-libtinfo (>= 6.0+20160213) python
+RDEPENDS = bash glibc (>= 2.24) ncurses-libmenuw (>= 6.0+20160213) ncurses-libncursesw (>= 6.0+20160213) ncurses-libpanelw (>= 6.0+20160213) ncurses-libtinfo (>= 6.0+20160213) python
 RRECOMMENDS = 
-PKGSIZE = 176850
+PKGSIZE = 176958
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*-3.12.0.so /etc /com /var /bin/* /sbin/* /lib/*-3.12.0.so /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/kconfig-frontends /usr/lib/kconfig-frontends/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/conf /usr/bin/kconfig-conf /usr/bin/kconfig-diff /usr/bin/kconfig-gettext /usr/bin/kconfig-mconf /usr/bin/kconfig-merge /usr/bin/kconfig-nconf /usr/bin/kconfig-tweak /usr/bin/mconf /usr/lib/libkconfig-parser-3.12.0.so

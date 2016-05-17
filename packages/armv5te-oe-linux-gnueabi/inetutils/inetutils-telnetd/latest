@@ -1,8 +1,8 @@
 PV = 1.9.4
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = telnetd
-RDEPENDS = glibc (>= 2.23) update-alternatives-opkg xinetd
+RDEPENDS = glibc (>= 2.24) update-alternatives-opkg xinetd
 RRECOMMENDS = 
 RCONFLICTS = netkit-telnetd
 PKGSIZE = 56757

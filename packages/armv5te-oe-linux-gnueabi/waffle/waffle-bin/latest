@@ -1,9 +1,9 @@
 PV = 1.5.2
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libwaffle-1-bin
 RPROVIDES = waffle-bin (=1.5.2)
-RDEPENDS = glibc (>= 2.23) waffle (>= 1.5.2)
+RDEPENDS = glibc (>= 2.24) waffle (>= 1.5.2)
 RRECOMMENDS = 
 PKGSIZE = 13520
 FILES = /usr/bin/* /usr/sbin/*

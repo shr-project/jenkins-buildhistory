@@ -1,8 +1,8 @@
 PV = 0.17
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) initscripts-functions
+RDEPENDS = glibc (>= 2.24) initscripts-functions
 RRECOMMENDS = update-rc.d
 PKGSIZE = 15620
 FILES = /usr/bin/*
