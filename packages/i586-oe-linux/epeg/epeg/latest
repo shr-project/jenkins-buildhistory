@@ -1,8 +1,8 @@
 PV = git
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libexif (>= 0.6.21) libjpeg-turbo (>= 8d+1.4.2)
+RDEPENDS = glibc (>= 2.24) libexif (>= 0.6.21) libjpeg-turbo (>= 8d+1.4.2)
 RRECOMMENDS = 
 PKGSIZE = 30272
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/epeg /usr/lib/epeg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

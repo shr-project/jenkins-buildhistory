@@ -1,8 +1,8 @@
 PV = 3.2.2-15
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libapm (>= 3.2.2-15)
+RDEPENDS = glibc (>= 2.24) libapm (>= 3.2.2-15)
 RRECOMMENDS = 
 PKGSIZE = 24550
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/apmd /usr/lib/apmd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/apmd.service

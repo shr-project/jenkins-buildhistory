@@ -1,9 +1,9 @@
 PV = 4.4.2
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libwbclient0
 RPROVIDES = libwbclient (=4.4.2)
-RDEPENDS = glibc (>= 2.23) libbsd (>= 0.8.2) samba (>= 4.4.2)
+RDEPENDS = glibc (>= 2.24) libbsd (>= 0.8.2) samba (>= 4.4.2)
 RRECOMMENDS = 
 PKGSIZE = 58855
 FILES = /usr/lib/libwbclient.so.* /usr/lib/samba/libwinbind-client.so

@@ -1,8 +1,8 @@
 PV = 1.2.1
 PR = r5
-PKGR = r5.10
+PKGR = r5.11
 RPROVIDES = pam-plugin-namespace-suffix
-RDEPENDS = glibc (>= 2.23) libpam (>= 1.2.1) libpam-suffix
+RDEPENDS = glibc (>= 2.24) libpam (>= 1.2.1) libpam-suffix
 RRECOMMENDS = 
 PKGSIZE = 34924
 FILES = /lib/security/pam_namespace.so

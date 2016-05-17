@@ -1,8 +1,8 @@
 PV = 1.2.1
 PR = r5
-PKGR = r5.10
+PKGR = r5.11
 RPROVIDES = pam-plugin-umask-suffix
-RDEPENDS = glibc (>= 2.23) libpam (>= 1.2.1) libpam-suffix
+RDEPENDS = glibc (>= 2.24) libpam (>= 1.2.1) libpam-suffix
 RRECOMMENDS = 
 PKGSIZE = 7368
 FILES = /lib/security/pam_umask.so

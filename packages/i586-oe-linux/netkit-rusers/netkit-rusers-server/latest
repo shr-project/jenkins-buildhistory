@@ -1,8 +1,8 @@
 PV = 0.17
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) rpcbind tcp-wrappers xinetd
+RDEPENDS = glibc (>= 2.24) rpcbind tcp-wrappers xinetd
 RRECOMMENDS = 
 PKGSIZE = 10568
 FILES = /usr/sbin/* /etc

@@ -1,8 +1,8 @@
 PV = 0.99.24.1
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.23) iproute2 quagga-babeld quagga-bgpd quagga-isisd quagga-ospf6d quagga-ospfd quagga-ripd quagga-ripngd readline (>= 6.3) shadow
+RDEPENDS = base-files base-passwd glibc (>= 2.24) iproute2 quagga-babeld quagga-bgpd quagga-isisd quagga-ospf6d quagga-ospfd quagga-ripd quagga-ripngd readline (>= 6.3) shadow
 RRECOMMENDS = 
 PKGSIZE = 1416276
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quagga /usr/lib/quagga/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/zebra.service

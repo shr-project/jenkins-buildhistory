@@ -1,8 +1,8 @@
 PV = git
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = base-files base-passwd bash glibc (>= 2.23) shadow zlib (>= 1.2.8)
+RDEPENDS = base-files base-passwd bash glibc (>= 2.24) shadow zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 3577461
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/netdata /usr/lib/netdata/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/netdata.service

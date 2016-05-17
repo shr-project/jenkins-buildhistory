@@ -1,8 +1,8 @@
 PV = 3.2
 PR = r1
-PKGR = r1.10
+PKGR = r1.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) ncurses-libtinfo (>= 6.0+20160213) readline (>= 6.3) util-linux-libblkid (>= 2.27.1) util-linux-libuuid (>= 2.27.1)
+RDEPENDS = glibc (>= 2.24) ncurses-libtinfo (>= 6.0+20160213) readline (>= 6.3) util-linux-libblkid (>= 2.27.1) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = 
 PKGSIZE = 615734
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/parted /usr/lib/parted/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

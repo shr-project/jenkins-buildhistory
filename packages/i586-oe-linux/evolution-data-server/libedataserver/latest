@@ -1,10 +1,10 @@
 PV = 3.2.3+gitAUTOINC+a9e4e74ec4
 PR = r0
 PKGV = 3.2.3+git0+a9e4e74ec4
-PKGR = r0.16
+PKGR = r0.17
 PKG = libedataserver-1.2-15
 RPROVIDES = libedataserver (=3.2.3+git0+a9e4e74ec4)
-RDEPENDS = dbus-glib (>= 0.106) dbus-lib (>= 1.10.6) gconf (>= 3.2.6) glib-2.0 (>= 2.46.2) glibc (>= 2.23) libcap (>= 2.24) libffi (>= 3.2.1) liblzma (>= 5.2.2) libpcre (>= 8.38) libsoup-2.4 (>= 2.52.2) libsqlite3 (>= 3.12.2) libsystemd (>= 229+git0+714c62b463) libxml2 (>= 2.9.3) nspr (>= 4.12) zlib (>= 1.2.8)
+RDEPENDS = dbus-glib (>= 0.106) dbus-lib (>= 1.10.6) gconf (>= 3.2.6) glib-2.0 (>= 2.46.2) glibc (>= 2.24) libcap (>= 2.24) libffi (>= 3.2.1) liblzma (>= 5.2.2) libpcre (>= 8.38) libsoup-2.4 (>= 2.52.2) libsqlite3 (>= 3.12.2) libsystemd (>= 229+git0+714c62b463) libxml2 (>= 2.9.3) nspr (>= 4.12) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 320364
 FILES = /usr/lib/libedataserver-*.so.*

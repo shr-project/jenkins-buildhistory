@@ -1,8 +1,8 @@
 PV = 3.12
 PR = r10
-PKGR = r10.11
+PKGR = r10.12
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) ppp
+RDEPENDS = glibc (>= 2.24) ppp
 RRECOMMENDS = ppp-oe
 PKGSIZE = 72520
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/rp-pppoe /usr/lib/rp-pppoe/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

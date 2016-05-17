@@ -1,9 +1,9 @@
 PV = 1.3
 PR = r1
-PKGR = r1.10
+PKGR = r1.11
 PKG = libflite-cmu-us-kal16-1
 RPROVIDES = libflite-alsa-vox16 (=1.3)
-RDEPENDS = glibc (>= 2.23)
+RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
 PKGSIZE = 3704232
 FILES = /usr/lib/libflite_cmu_us_kal16.so.*
