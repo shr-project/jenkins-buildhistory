@@ -1,9 +1,9 @@
 PV = 3.1.2
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23)
+RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 104352
+PKGSIZE = 104056
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/i2c-tools /usr/lib/i2c-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/sbin/eeprog /usr/sbin/eeprom /usr/sbin/eepromer /usr/sbin/i2cdetect /usr/sbin/i2cdump /usr/sbin/i2cget /usr/sbin/i2cset

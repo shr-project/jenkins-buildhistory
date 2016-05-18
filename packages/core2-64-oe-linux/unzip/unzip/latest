@@ -1,10 +1,10 @@
 PE = 1
 PV = 6.0
 PR = r5
-PKGR = r5.8
+PKGR = r5.9
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.24) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 464585
+PKGSIZE = 464481
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/unzip /usr/lib/unzip/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/funzip /usr/bin/unzip.unzip /usr/bin/unzipsfx /usr/bin/zipgrep /usr/bin/zipinfo

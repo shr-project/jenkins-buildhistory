@@ -1,9 +1,9 @@
 PV = 2.11
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.23) shadow
+RDEPENDS = base-files base-passwd glibc (>= 2.24) shadow
 RRECOMMENDS = 
-PKGSIZE = 115361
+PKGSIZE = 115297
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/radvd /usr/lib/radvd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/radvd.service
 FILELIST = /etc/default/radvd /etc/default/volatiles/volatiles.03_radvd /lib/systemd/system/radvd.service /usr/sbin/radvd /usr/sbin/radvdump

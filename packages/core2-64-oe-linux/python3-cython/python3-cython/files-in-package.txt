@@ -46,7 +46,7 @@ drwxr-xr-x root       root             1120 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root            29851 ./usr/lib/python3.5/site-packages/Cython/Compiler/Buffer.py
 -rw-r--r-- root       root            21709 ./usr/lib/python3.5/site-packages/Cython/Compiler/Builtin.py
 -rw-r--r-- root       root             8890 ./usr/lib/python3.5/site-packages/Cython/Compiler/CmdLine.py
--rwxr-xr-x root       root          1206704 ./usr/lib/python3.5/site-packages/Cython/Compiler/Code.cpython-35m-x86_64-linux-gnu.so
+-rwxr-xr-x root       root          1206640 ./usr/lib/python3.5/site-packages/Cython/Compiler/Code.cpython-35m-x86_64-linux-gnu.so
 -rw-r--r-- root       root             2570 ./usr/lib/python3.5/site-packages/Cython/Compiler/Code.pxd
 -rw-r--r-- root       root            87760 ./usr/lib/python3.5/site-packages/Cython/Compiler/Code.py
 -rw-r--r-- root       root             1108 ./usr/lib/python3.5/site-packages/Cython/Compiler/CodeGeneration.py
@@ -60,7 +60,7 @@ drwxr-xr-x root       root             1120 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root            33517 ./usr/lib/python3.5/site-packages/Cython/Compiler/FusedNode.py
 -rw-r--r-- root       root              578 ./usr/lib/python3.5/site-packages/Cython/Compiler/Future.py
 -rw-r--r-- root       root             2106 ./usr/lib/python3.5/site-packages/Cython/Compiler/Interpreter.py
--rwxr-xr-x root       root           154920 ./usr/lib/python3.5/site-packages/Cython/Compiler/Lexicon.cpython-35m-x86_64-linux-gnu.so
+-rwxr-xr-x root       root           154856 ./usr/lib/python3.5/site-packages/Cython/Compiler/Lexicon.cpython-35m-x86_64-linux-gnu.so
 -rw-r--r-- root       root             4837 ./usr/lib/python3.5/site-packages/Cython/Compiler/Lexicon.py
 -rw-r--r-- root       root            30240 ./usr/lib/python3.5/site-packages/Cython/Compiler/Main.py
 -rw-r--r-- root       root            30061 ./usr/lib/python3.5/site-packages/Cython/Compiler/MemoryView.py
@@ -71,12 +71,12 @@ drwxr-xr-x root       root             1120 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root            13417 ./usr/lib/python3.5/site-packages/Cython/Compiler/Options.py
 -rw-r--r-- root       root             2118 ./usr/lib/python3.5/site-packages/Cython/Compiler/ParseTreeTransforms.pxd
 -rw-r--r-- root       root           122032 ./usr/lib/python3.5/site-packages/Cython/Compiler/ParseTreeTransforms.py
--rwxr-xr-x root       root           882472 ./usr/lib/python3.5/site-packages/Cython/Compiler/Parsing.cpython-35m-x86_64-linux-gnu.so
+-rwxr-xr-x root       root           882440 ./usr/lib/python3.5/site-packages/Cython/Compiler/Parsing.cpython-35m-x86_64-linux-gnu.so
 -rw-r--r-- root       root             8698 ./usr/lib/python3.5/site-packages/Cython/Compiler/Parsing.pxd
 -rw-r--r-- root       root           122435 ./usr/lib/python3.5/site-packages/Cython/Compiler/Parsing.py
 -rw-r--r-- root       root            14249 ./usr/lib/python3.5/site-packages/Cython/Compiler/Pipeline.py
 -rw-r--r-- root       root           164196 ./usr/lib/python3.5/site-packages/Cython/Compiler/PyrexTypes.py
--rwxr-xr-x root       root           209840 ./usr/lib/python3.5/site-packages/Cython/Compiler/Scanning.cpython-35m-x86_64-linux-gnu.so
+-rwxr-xr-x root       root           209808 ./usr/lib/python3.5/site-packages/Cython/Compiler/Scanning.cpython-35m-x86_64-linux-gnu.so
 -rw-r--r-- root       root             2004 ./usr/lib/python3.5/site-packages/Cython/Compiler/Scanning.pxd
 -rw-r--r-- root       root            17775 ./usr/lib/python3.5/site-packages/Cython/Compiler/Scanning.py
 -rw-r--r-- root       root             9632 ./usr/lib/python3.5/site-packages/Cython/Compiler/StringEncoding.py
@@ -328,7 +328,7 @@ drwxr-xr-x root       root              360 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root             8059 ./usr/lib/python3.5/site-packages/Cython/Includes/posix/unistd.pxd
 -rw-r--r-- root       root             1242 ./usr/lib/python3.5/site-packages/Cython/Includes/posix/wait.pxd
 drwxr-xr-x root       root               60 ./usr/lib/python3.5/site-packages/Cython/Parser
--rwxr-xr-x root       root           127080 ./usr/lib/python3.5/site-packages/Cython/Parser/ConcreteSyntaxTree.cpython-35m-x86_64-linux-gnu.so
+-rwxr-xr-x root       root           127048 ./usr/lib/python3.5/site-packages/Cython/Parser/ConcreteSyntaxTree.cpython-35m-x86_64-linux-gnu.so
 drwxr-xr-x root       root              360 ./usr/lib/python3.5/site-packages/Cython/Plex
 -rwxr-xr-x root       root            39560 ./usr/lib/python3.5/site-packages/Cython/Plex/Actions.cpython-35m-x86_64-linux-gnu.so
 -rw-r--r-- root       root              585 ./usr/lib/python3.5/site-packages/Cython/Plex/Actions.pxd
@@ -338,7 +338,7 @@ drwxr-xr-x root       root              360 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root             6907 ./usr/lib/python3.5/site-packages/Cython/Plex/Lexicons.py
 -rw-r--r-- root       root             7760 ./usr/lib/python3.5/site-packages/Cython/Plex/Machines.py
 -rw-r--r-- root       root            16208 ./usr/lib/python3.5/site-packages/Cython/Plex/Regexps.py
--rwxr-xr-x root       root            73192 ./usr/lib/python3.5/site-packages/Cython/Plex/Scanners.cpython-35m-x86_64-linux-gnu.so
+-rwxr-xr-x root       root            73160 ./usr/lib/python3.5/site-packages/Cython/Plex/Scanners.cpython-35m-x86_64-linux-gnu.so
 -rw-r--r-- root       root             1308 ./usr/lib/python3.5/site-packages/Cython/Plex/Scanners.pxd
 -rw-r--r-- root       root            12237 ./usr/lib/python3.5/site-packages/Cython/Plex/Scanners.py
 -rw-r--r-- root       root              472 ./usr/lib/python3.5/site-packages/Cython/Plex/Timing.py
@@ -361,7 +361,7 @@ drwxr-xr-x root       root              120 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root               13 ./usr/lib/python3.5/site-packages/Cython/Runtime/__init__.py
 drwxr-xr-x root       root               60 ./usr/lib/python3.5/site-packages/Cython/Runtime/__pycache__
 -rw-r--r-- root       root              142 ./usr/lib/python3.5/site-packages/Cython/Runtime/__pycache__/__init__.cpython-35.pyc
--rwxr-xr-x root       root            62136 ./usr/lib/python3.5/site-packages/Cython/Runtime/refnanny.cpython-35m-x86_64-linux-gnu.so
+-rwxr-xr-x root       root            62072 ./usr/lib/python3.5/site-packages/Cython/Runtime/refnanny.cpython-35m-x86_64-linux-gnu.so
 -rw-r--r-- root       root             6260 ./usr/lib/python3.5/site-packages/Cython/Runtime/refnanny.pyx
 -rw-r--r-- root       root            12295 ./usr/lib/python3.5/site-packages/Cython/Shadow.py
 -rw-r--r-- root       root             3215 ./usr/lib/python3.5/site-packages/Cython/StringIOTree.py
@@ -373,7 +373,7 @@ drwxr-xr-x root       root              120 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root            34514 ./usr/lib/python3.5/site-packages/Cython/Tempita/__pycache__/_tempita.cpython-35.pyc
 -rw-r--r-- root       root             1194 ./usr/lib/python3.5/site-packages/Cython/Tempita/__pycache__/compat3.cpython-35.pyc
 -rw-r--r-- root       root             4168 ./usr/lib/python3.5/site-packages/Cython/Tempita/_looper.py
--rwxr-xr-x root       root           552624 ./usr/lib/python3.5/site-packages/Cython/Tempita/_tempita.cpython-35m-x86_64-linux-gnu.so
+-rwxr-xr-x root       root           552592 ./usr/lib/python3.5/site-packages/Cython/Tempita/_tempita.cpython-35m-x86_64-linux-gnu.so
 -rw-r--r-- root       root            39596 ./usr/lib/python3.5/site-packages/Cython/Tempita/_tempita.py
 -rw-r--r-- root       root              903 ./usr/lib/python3.5/site-packages/Cython/Tempita/compat3.py
 -rw-r--r-- root       root             7979 ./usr/lib/python3.5/site-packages/Cython/TestUtils.py

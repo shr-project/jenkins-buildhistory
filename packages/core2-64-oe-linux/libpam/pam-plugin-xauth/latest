@@ -1,9 +1,9 @@
 PV = 1.2.1
 PR = r5
-PKGR = r5.8
+PKGR = r5.9
 RPROVIDES = pam-plugin-xauth-suffix
-RDEPENDS = glibc (>= 2.23) libpam (>= 1.2.1) libpam-suffix
+RDEPENDS = glibc (>= 2.24) libpam (>= 1.2.1) libpam-suffix
 RRECOMMENDS = 
-PKGSIZE = 17080
+PKGSIZE = 17048
 FILES = /lib/security/pam_xauth.so
 FILELIST = /lib/security/pam_xauth.so

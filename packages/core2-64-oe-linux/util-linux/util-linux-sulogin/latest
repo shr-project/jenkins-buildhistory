@@ -1,9 +1,9 @@
 PV = 2.27.1
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.24) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 40568
+PKGSIZE = 40560
 FILES = /sbin/sulogin*
 FILELIST = /sbin/sulogin.util-linux

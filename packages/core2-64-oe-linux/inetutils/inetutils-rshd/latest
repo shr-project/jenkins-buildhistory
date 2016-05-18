@@ -1,8 +1,8 @@
 PV = 1.9.4
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = rshd
-RDEPENDS = glibc (>= 2.23) tcp-wrappers update-alternatives-opkg xinetd
+RDEPENDS = glibc (>= 2.24) tcp-wrappers update-alternatives-opkg xinetd
 RRECOMMENDS = 
 RCONFLICTS = netkit-rshd
 PKGSIZE = 174831

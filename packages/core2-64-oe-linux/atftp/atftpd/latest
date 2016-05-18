@@ -1,12 +1,12 @@
 PV = 0.7.1+gitAUTOINC+be3291a18c
 PR = r3
 PKGV = 0.7.1+git0+be3291a18c
-PKGR = r3.8
+PKGR = r3.9
 RPROVIDES = atftpd-systemd
-RDEPENDS = base-files base-passwd glibc (>= 2.23) libwrap (>= 7.6) shadow
+RDEPENDS = base-files base-passwd glibc (>= 2.24) libwrap (>= 7.6) shadow
 RRECOMMENDS = 
 RREPLACES = atftpd-systemd
 RCONFLICTS = atftpd-systemd
-PKGSIZE = 62295
+PKGSIZE = 62231
 FILES = /usr/sbin/* /etc /srv/tftp /lib/systemd/system/atftpd.service /lib/systemd/system/atftpd.service
 FILELIST = /lib/systemd/system/atftpd.service /usr/sbin/atftpd

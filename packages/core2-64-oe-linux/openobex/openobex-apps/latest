@@ -1,9 +1,9 @@
 PV = 1.5
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libusb-compat (>= 0.1.5) libusb1 (>= 1.0.20) openobex (>= 1.5)
+RDEPENDS = glibc (>= 2.24) libusb-compat (>= 0.1.5) libusb1 (>= 1.0.20) openobex (>= 1.5)
 RRECOMMENDS = 
-PKGSIZE = 50960
+PKGSIZE = 50800
 FILES = /usr/bin/*
 FILELIST = /usr/bin/ircp /usr/bin/irobex_palm3 /usr/bin/irxfer /usr/bin/obex_tcp

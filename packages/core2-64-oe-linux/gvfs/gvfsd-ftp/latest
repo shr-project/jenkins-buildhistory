@@ -1,9 +1,9 @@
 PV = 1.24.2
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.23) gvfs (>= 1.24.2)
+RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.24) gvfs (>= 1.24.2)
 RRECOMMENDS = openssh-sftp openssh-ssh
-PKGSIZE = 87378
+PKGSIZE = 87346
 FILES = /usr/libexec/gvfsd-ftp /usr/share/gvfs/mounts/ftp.mount
 FILELIST = /usr/libexec/gvfsd-ftp /usr/share/gvfs/mounts/ftp.mount

@@ -1,9 +1,9 @@
 PV = 2.9.4
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 PKG = libulockmgr1
 RPROVIDES = libulockmgr (=2.9.4)
-RDEPENDS = glibc (>= 2.23)
+RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
 PKGSIZE = 11260
 FILES = /usr/lib/libulockmgr.so.*

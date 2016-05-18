@@ -1,9 +1,9 @@
 PV = 4.6.3a
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = bash expat (>= 2.1.0) glibc (>= 2.23) libcrypto (>= 1.0.2h) libgcc (>= 5.3.0) libidn (>= 1.32) libssl (>= 1.0.2h) libstdc++ (>= 5.3.0) ncurses-libtinfo (>= 6.0+20160213) perl readline (>= 6.3) zlib (>= 1.2.8)
+RDEPENDS = bash expat (>= 2.1.0) glibc (>= 2.24) libcrypto (>= 1.0.2h) libgcc (>= 5.3.0) libidn (>= 1.32) libssl (>= 1.0.2h) libstdc++ (>= 5.3.0) ncurses-libtinfo (>= 6.0+20160213) perl readline (>= 6.3) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 1990586
+PKGSIZE = 1990162
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lftp /usr/lib/lftp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/lftp.conf /usr/bin/lftp /usr/bin/lftpget /usr/lib/lftp/4.6.3a/cmd-mirror.so /usr/lib/lftp/4.6.3a/cmd-sleep.so /usr/lib/lftp/4.6.3a/cmd-torrent.so /usr/lib/lftp/4.6.3a/liblftp-network.so /usr/lib/lftp/4.6.3a/liblftp-pty.so /usr/lib/lftp/4.6.3a/proto-file.so /usr/lib/lftp/4.6.3a/proto-fish.so /usr/lib/lftp/4.6.3a/proto-ftp.so /usr/lib/lftp/4.6.3a/proto-http.so /usr/lib/lftp/4.6.3a/proto-sftp.so /usr/lib/liblftp-jobs.so.0 /usr/lib/liblftp-jobs.so.0.0.0 /usr/lib/liblftp-tasks.so.0 /usr/lib/liblftp-tasks.so.0.0.0 /usr/share/lftp/convert-mozilla-cookies /usr/share/lftp/import-ncftp /usr/share/lftp/import-netscape /usr/share/lftp/verify-file /usr/share/lftp/xdg-move

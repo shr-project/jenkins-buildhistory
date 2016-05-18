@@ -1,9 +1,9 @@
 PV = 2.4.9
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = bdwgc (>= 7.4.2) glibc (>= 2.23) ncurses-libncursesw (>= 6.0+20160213) ncurses-libtinfo (>= 6.0+20160213)
+RDEPENDS = bdwgc (>= 7.4.2) glibc (>= 2.24) ncurses-libncursesw (>= 6.0+20160213) ncurses-libtinfo (>= 6.0+20160213)
 RRECOMMENDS = 
-PKGSIZE = 264128
+PKGSIZE = 264096
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/zile /usr/lib/zile/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/zile

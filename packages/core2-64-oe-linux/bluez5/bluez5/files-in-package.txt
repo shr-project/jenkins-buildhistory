@@ -10,21 +10,21 @@ drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              388 ./lib/systemd/system/bluetooth.service
 drwxr-xr-x root       root               80 ./lib/udev
--rwxr-xr-x root       root            11152 ./lib/udev/hid2hci
+-rwxr-xr-x root       root            11144 ./lib/udev/hid2hci
 drwxr-xr-x root       root               60 ./lib/udev/rules.d
 -rw-r--r-- root       root             1357 ./lib/udev/rules.d/97-hid2hci.rules
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              360 ./usr/bin
 -rwxr-xr-x root       root           165200 ./usr/bin/bccmd
--rwxr-xr-x root       root            31712 ./usr/bin/bluemoon
--rwxr-xr-x root       root           116272 ./usr/bin/bluetoothctl
+-rwxr-xr-x root       root            31704 ./usr/bin/bluemoon
+-rwxr-xr-x root       root           116240 ./usr/bin/bluetoothctl
 -rwxr-xr-x root       root           505168 ./usr/bin/btmon
--rwxr-xr-x root       root           121840 ./usr/bin/ciptool
--rwxr-xr-x root       root           118096 ./usr/bin/hciattach
+-rwxr-xr-x root       root           121808 ./usr/bin/ciptool
+-rwxr-xr-x root       root           118032 ./usr/bin/hciattach
 -rwxr-xr-x root       root           160784 ./usr/bin/hciconfig
--rwxr-xr-x root       root           366192 ./usr/bin/hcidump
+-rwxr-xr-x root       root           366160 ./usr/bin/hcidump
 -rwxr-xr-x root       root           123472 ./usr/bin/hcitool
--rwxr-xr-x root       root            11288 ./usr/bin/hex2hcd
+-rwxr-xr-x root       root            11248 ./usr/bin/hex2hcd
 -rwxr-xr-x root       root            82800 ./usr/bin/l2ping
 -rwxr-xr-x root       root            95440 ./usr/bin/l2test
 -rwxr-xr-x root       root            83184 ./usr/bin/mpris-proxy
@@ -33,7 +33,7 @@ drwxr-xr-x root       root              360 ./usr/bin
 -rwxr-xr-x root       root           182288 ./usr/bin/sdptool
 drwxr-xr-x root       root               80 ./usr/lib
 lrwxrwxrwx root       root               23 ./usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.11
--rwxr-xr-x root       root           140696 ./usr/lib/libbluetooth.so.3.18.11
+-rwxr-xr-x root       root           140664 ./usr/lib/libbluetooth.so.3.18.11
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/bluetooth
 -rwxr-xr-x root       root           881624 ./usr/libexec/bluetooth/bluetoothd

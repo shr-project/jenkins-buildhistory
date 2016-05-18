@@ -1,8 +1,8 @@
 PV = git
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libpython2 (>= 2.7.11)
+RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.11)
 RRECOMMENDS = 
 PKGSIZE = 579626
 FILES = /usr/lib/cmpi/libpyCmpiProvider.so /usr/lib/python2.7/site-packages/* /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/cmpi-bindings /usr/lib/cmpi-bindings/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,9 +1,9 @@
 PV = 1.2.1
 PR = r5
-PKGR = r5.8
+PKGR = r5.9
 RPROVIDES = pam-plugin-access-suffix
-RDEPENDS = glibc (>= 2.23) libpam (>= 1.2.1) libpam-suffix
+RDEPENDS = glibc (>= 2.24) libpam (>= 1.2.1) libpam-suffix
 RRECOMMENDS = 
-PKGSIZE = 15312
+PKGSIZE = 15304
 FILES = /lib/security/pam_access.so
 FILELIST = /lib/security/pam_access.so

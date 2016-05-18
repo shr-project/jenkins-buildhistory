@@ -1,10 +1,10 @@
 PE = 1
 PV = 0.34.0
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 PKG = libpixman-1-0
 RPROVIDES = pixman (=0.34.0)
-RDEPENDS = glibc (>= 2.23)
+RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
 PKGSIZE = 672085
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/pixman /usr/lib/pixman/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

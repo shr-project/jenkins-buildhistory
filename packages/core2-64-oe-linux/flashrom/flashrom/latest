@@ -1,9 +1,9 @@
 PV = 0.9.6.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) libpci (>= 3.4.1)
+RDEPENDS = glibc (>= 2.24) libpci (>= 3.4.1)
 RRECOMMENDS = 
-PKGSIZE = 388920
+PKGSIZE = 388856
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/flashrom /usr/lib/flashrom/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/sbin/flashrom

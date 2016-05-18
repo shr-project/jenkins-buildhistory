@@ -1,9 +1,9 @@
 PV = 0.8.8
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.23)
+RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 13474
+PKGSIZE = 13418
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/system-setup-keyboard /usr/lib/system-setup-keyboard/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/system-setup-keyboard.service
 FILELIST = /etc/X11/xorg.conf.d/00-system-setup-keyboard.conf /etc/init/system-setup-keyboard.conf /lib/systemd/system/system-setup-keyboard.service /usr/bin/system-setup-keyboard
