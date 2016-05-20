@@ -1,8 +1,8 @@
 PV = 4.4.2
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = libnetapi libnss-winbind libsamba-base libwbclient samba (= 4.4.2-r0.8)
+RDEPENDS = libnetapi libnss-winbind libsamba-base libwbclient samba (= 4.4.2-r0.9)
 RRECOMMENDS = acl-dev avahi-dev cups-dev cups-lib-dev dbus-lib-dev glibc-dev krb5-dev libacl-dev libaio-dev libattr-dev libavahi-client-dev libavahi-common-dev libbsd-dev libcomerr-dev libldb-dev libnetapi-dev libpam-dev libpython2-dev libsamba-base-dev libsmbclient-dev libtalloc-dev libtdb-dev libtevent-dev libwbclient-dev ncurses-libform-dev ncurses-libncurses-dev ncurses-libpanel-dev ncurses-libtinfo-dev openldap-dev perl-dev popt-dev python-dev readline-dev samba-base-dev samba-ctdb-tests-dev systemd-dev zlib-dev
 PKGSIZE = 4376
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/samba/*.la /lib/*.la
