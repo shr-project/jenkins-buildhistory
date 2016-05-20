@@ -1,10 +1,10 @@
 PV = 3.6.4
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 PKG = libsyslog-ng-3.5-0
 RPROVIDES = syslog-ng-libs (=3.6.4)
-RDEPENDS = eventlog (>= 0.2.13) glib-2.0 (>= 2.46.2) glibc (>= 2.24) libcap (>= 2.24) libcrypto (>= 1.0.2h) liblzma (>= 5.2.2) libpcre (>= 8.38) libssl (>= 1.0.2h) libsystemd (>= 229+git0+714c62b463) util-linux-libuuid (>= 2.27.1)
+RDEPENDS = eventlog (>= 0.2.13) glib-2.0 (>= 2.48.1) glibc (>= 2.24) libcap (>= 2.24) libcrypto (>= 1.0.2h) liblzma (>= 5.2.2) libpcre (>= 8.38) libssl (>= 1.0.2h) libsystemd (>= 229+git0+714c62b463) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = 
-PKGSIZE = 1039723
+PKGSIZE = 1039811
 FILES = /usr/lib/syslog-ng/*.so /usr/lib/libsyslog-ng-*.so*
 FILELIST = /usr/lib/libsyslog-ng-3.5.so.0 /usr/lib/libsyslog-ng-3.5.so.0.0.0 /usr/lib/syslog-ng/libaffile.so /usr/lib/syslog-ng/libafprog.so /usr/lib/syslog-ng/libafsocket-notls.so /usr/lib/syslog-ng/libafsocket-tls.so /usr/lib/syslog-ng/libafsocket.so /usr/lib/syslog-ng/libafstomp.so /usr/lib/syslog-ng/libafuser.so /usr/lib/syslog-ng/libbasicfuncs.so /usr/lib/syslog-ng/libconfgen.so /usr/lib/syslog-ng/libcryptofuncs.so /usr/lib/syslog-ng/libcsvparser.so /usr/lib/syslog-ng/libdbparser.so /usr/lib/syslog-ng/libgraphite.so /usr/lib/syslog-ng/liblinux-kmsg-format.so /usr/lib/syslog-ng/libpseudofile.so /usr/lib/syslog-ng/libsdjournal.so /usr/lib/syslog-ng/libsyslog-ng-crypto.so /usr/lib/syslog-ng/libsyslogformat.so /usr/lib/syslog-ng/libsystem-source.so
