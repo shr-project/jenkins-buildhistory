@@ -1,8 +1,8 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              100 ./usr/bin/.debug
--rwxr-xr-x root       root         24437240 ./usr/bin/.debug/gimp-2.8
--rwxr-xr-x root       root         10100720 ./usr/bin/.debug/gimp-console-2.8
+-rwxr-xr-x root       root         24437168 ./usr/bin/.debug/gimp-2.8
+-rwxr-xr-x root       root         10100632 ./usr/bin/.debug/gimp-console-2.8
 -rwxr-xr-x root       root            36432 ./usr/bin/.debug/gimptool-2.0
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              220 ./usr/lib/.debug
@@ -14,7 +14,7 @@ drwxr-xr-x root       root              220 ./usr/lib/.debug
 -rwxr-xr-x root       root            47456 ./usr/lib/.debug/libgimpmodule-2.0.so.0.800.14
 -rwxr-xr-x root       root            91112 ./usr/lib/.debug/libgimpthumb-2.0.so.0.800.14
 -rwxr-xr-x root       root           667544 ./usr/lib/.debug/libgimpui-2.0.so.0.800.14
--rwxr-xr-x root       root          2141704 ./usr/lib/.debug/libgimpwidgets-2.0.so.0.800.14
+-rwxr-xr-x root       root          2141728 ./usr/lib/.debug/libgimpwidgets-2.0.so.0.800.14
 drwxr-xr-x root       root               60 ./usr/lib/gimp
 drwxr-xr-x root       root               80 ./usr/lib/gimp/2.0
 drwxr-xr-x root       root               60 ./usr/lib/gimp/2.0/modules
@@ -97,7 +97,7 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins/.debug
 -rwxr-xr-x root       root            54480 ./usr/lib/gimp/2.0/plug-ins/.debug/file-html-table
 -rwxr-xr-x root       root           132096 ./usr/lib/gimp/2.0/plug-ins/.debug/file-ico
 -rwxr-xr-x root       root            36216 ./usr/lib/gimp/2.0/plug-ins/.debug/file-jp2-load
--rwxr-xr-x root       root           204440 ./usr/lib/gimp/2.0/plug-ins/.debug/file-jpeg
+-rwxr-xr-x root       root           204464 ./usr/lib/gimp/2.0/plug-ins/.debug/file-jpeg
 -rwxr-xr-x root       root            47464 ./usr/lib/gimp/2.0/plug-ins/.debug/file-pat
 -rwxr-xr-x root       root            44696 ./usr/lib/gimp/2.0/plug-ins/.debug/file-pcx
 -rwxr-xr-x root       root           113328 ./usr/lib/gimp/2.0/plug-ins/.debug/file-pdf-load
@@ -115,7 +115,7 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins/.debug
 -rwxr-xr-x root       root            67456 ./usr/lib/gimp/2.0/plug-ins/.debug/file-tga
 -rwxr-xr-x root       root            88616 ./usr/lib/gimp/2.0/plug-ins/.debug/file-tiff-load
 -rwxr-xr-x root       root            67040 ./usr/lib/gimp/2.0/plug-ins/.debug/file-tiff-save
--rwxr-xr-x root       root            43608 ./usr/lib/gimp/2.0/plug-ins/.debug/file-uri
+-rwxr-xr-x root       root            43656 ./usr/lib/gimp/2.0/plug-ins/.debug/file-uri
 -rwxr-xr-x root       root            68384 ./usr/lib/gimp/2.0/plug-ins/.debug/file-xbm
 -rwxr-xr-x root       root           148856 ./usr/lib/gimp/2.0/plug-ins/.debug/file-xjt
 -rwxr-xr-x root       root           105792 ./usr/lib/gimp/2.0/plug-ins/.debug/file-xmc
@@ -132,12 +132,12 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins/.debug
 -rwxr-xr-x root       root            25616 ./usr/lib/gimp/2.0/plug-ins/.debug/gradient-map
 -rwxr-xr-x root       root            65680 ./usr/lib/gimp/2.0/plug-ins/.debug/grid
 -rwxr-xr-x root       root            26352 ./usr/lib/gimp/2.0/plug-ins/.debug/guillotine
--rwxr-xr-x root       root            72976 ./usr/lib/gimp/2.0/plug-ins/.debug/help
+-rwxr-xr-x root       root            73008 ./usr/lib/gimp/2.0/plug-ins/.debug/help
 -rwxr-xr-x root       root            45104 ./usr/lib/gimp/2.0/plug-ins/.debug/hot
 -rwxr-xr-x root       root           182144 ./usr/lib/gimp/2.0/plug-ins/.debug/ifs-compose
 -rwxr-xr-x root       root            45728 ./usr/lib/gimp/2.0/plug-ins/.debug/illusion
 -rwxr-xr-x root       root          1016488 ./usr/lib/gimp/2.0/plug-ins/.debug/imagemap
--rwxr-xr-x root       root           101312 ./usr/lib/gimp/2.0/plug-ins/.debug/iwarp
+-rwxr-xr-x root       root           101392 ./usr/lib/gimp/2.0/plug-ins/.debug/iwarp
 -rwxr-xr-x root       root           109328 ./usr/lib/gimp/2.0/plug-ins/.debug/jigsaw
 -rwxr-xr-x root       root            92032 ./usr/lib/gimp/2.0/plug-ins/.debug/lcms
 -rwxr-xr-x root       root            47896 ./usr/lib/gimp/2.0/plug-ins/.debug/lens-apply
@@ -252,7 +252,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/gimp/2.8.14-r0/build
 drwxr-xr-x root       root               60 ./usr/src/debug/gimp/2.8.14-r0/build/themes/Default
 drwxr-xr-x root       root               80 ./usr/src/debug/gimp/2.8.14-r0/build/themes/Default/images
 -rw-r--r-- root       root            55428 ./usr/src/debug/gimp/2.8.14-r0/build/themes/Default/images/gimp-core-pixbufs.h
--rw-r--r-- root       root          2587732 ./usr/src/debug/gimp/2.8.14-r0/build/themes/Default/images/gimp-stock-pixbufs.h
+-rw-r--r-- root       root          2587731 ./usr/src/debug/gimp/2.8.14-r0/build/themes/Default/images/gimp-stock-pixbufs.h
 drwxr-xr-x root       root              280 ./usr/src/debug/gimp/2.8.14-r0/gimp-2.8.14
 drwxr-xr-x root       root              920 ./usr/src/debug/gimp/2.8.14-r0/gimp-2.8.14/app
 drwxr-xr-x root       root             1840 ./usr/src/debug/gimp/2.8.14-r0/gimp-2.8.14/app/actions

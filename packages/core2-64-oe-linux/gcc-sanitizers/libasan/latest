@@ -1,10 +1,10 @@
 PV = 5.3.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 PKG = libasan2
 RPROVIDES = libasan (=5.3.0)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
 RRECOMMENDS = 
-PKGSIZE = 1012296
+PKGSIZE = 999240
 FILES = /usr/lib/libasan.so.*
 FILELIST = /usr/lib/libasan.so.2 /usr/lib/libasan.so.2.0.0

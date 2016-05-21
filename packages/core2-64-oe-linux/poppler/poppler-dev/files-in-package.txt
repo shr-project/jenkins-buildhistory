@@ -1,6 +1,6 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/include
-drwxr-xr-x root       root             1660 ./usr/include/poppler
+drwxr-xr-x root       root             1700 ./usr/include/poppler
 -rw-r--r-- root       root            47405 ./usr/include/poppler/Annot.h
 -rw-r--r-- root       root             2037 ./usr/include/poppler/Array.h
 -rw-r--r-- root       root             1042 ./usr/include/poppler/BuiltinFont.h
@@ -11,7 +11,7 @@ drwxr-xr-x root       root             1660 ./usr/include/poppler
 -rw-r--r-- root       root             4438 ./usr/include/poppler/CharCodeToUnicode.h
 -rw-r--r-- root       root              526 ./usr/include/poppler/CharTypes.h
 -rw-r--r-- root       root             8959 ./usr/include/poppler/CompactFontTables.h
--rw-r--r-- root       root             1098 ./usr/include/poppler/DateInfo.h
+-rw-r--r-- root       root             1268 ./usr/include/poppler/DateInfo.h
 -rw-r--r-- root       root             5041 ./usr/include/poppler/Decrypt.h
 -rw-r--r-- root       root             3072 ./usr/include/poppler/Dict.h
 -rw-r--r-- root       root             2226 ./usr/include/poppler/Error.h
@@ -19,11 +19,11 @@ drwxr-xr-x root       root             1660 ./usr/include/poppler
 -rw-r--r-- root       root             1904 ./usr/include/poppler/FileSpec.h
 -rw-r--r-- root       root              564 ./usr/include/poppler/FontEncodingTables.h
 -rw-r--r-- root       root             2465 ./usr/include/poppler/FontInfo.h
--rw-r--r-- root       root            15750 ./usr/include/poppler/Form.h
+-rw-r--r-- root       root            16260 ./usr/include/poppler/Form.h
 -rw-r--r-- root       root             7532 ./usr/include/poppler/Function.h
 -rw-r--r-- root       root            13083 ./usr/include/poppler/Gfx.h
 -rw-r--r-- root       root            13774 ./usr/include/poppler/GfxFont.h
--rw-r--r-- root       root            55357 ./usr/include/poppler/GfxState.h
+-rw-r--r-- root       root            55578 ./usr/include/poppler/GfxState.h
 -rw-r--r-- root       root             2412 ./usr/include/poppler/GfxState_helpers.h
 -rw-r--r-- root       root            11456 ./usr/include/poppler/GlobalParams.h
 -rw-r--r-- root       root             2149 ./usr/include/poppler/Hints.h
@@ -37,15 +37,15 @@ drwxr-xr-x root       root             1660 ./usr/include/poppler
 -rw-r--r-- root       root             3298 ./usr/include/poppler/Movie.h
 -rw-r--r-- root       root              706 ./usr/include/poppler/NameToCharCode.h
 -rw-r--r-- root       root           121808 ./usr/include/poppler/NameToUnicodeTable.h
--rw-r--r-- root       root            12791 ./usr/include/poppler/Object.h
+-rw-r--r-- root       root            13304 ./usr/include/poppler/Object.h
 -rw-r--r-- root       root             3407 ./usr/include/poppler/OptionalContent.h
 -rw-r--r-- root       root             2084 ./usr/include/poppler/Outline.h
 -rw-r--r-- root       root            13564 ./usr/include/poppler/OutputDev.h
--rw-r--r-- root       root            13170 ./usr/include/poppler/PDFDoc.h
+-rw-r--r-- root       root            13575 ./usr/include/poppler/PDFDoc.h
 -rw-r--r-- root       root             1256 ./usr/include/poppler/PDFDocBuilder.h
 -rw-r--r-- root       root              971 ./usr/include/poppler/PDFDocEncoding.h
 -rw-r--r-- root       root             1618 ./usr/include/poppler/PDFDocFactory.h
--rw-r--r-- root       root            21919 ./usr/include/poppler/PSOutputDev.h
+-rw-r--r-- root       root            22283 ./usr/include/poppler/PSOutputDev.h
 -rw-r--r-- root       root             1326 ./usr/include/poppler/PSTokenizer.h
 -rw-r--r-- root       root             9685 ./usr/include/poppler/Page.h
 -rw-r--r-- root       root             3001 ./usr/include/poppler/PageTransition.h
@@ -55,15 +55,17 @@ drwxr-xr-x root       root             1660 ./usr/include/poppler
 -rw-r--r-- root       root              956 ./usr/include/poppler/ProfileData.h
 -rw-r--r-- root       root             4258 ./usr/include/poppler/Rendition.h
 -rw-r--r-- root       root             5888 ./usr/include/poppler/SecurityHandler.h
+-rw-r--r-- root       root             1966 ./usr/include/poppler/SignatureHandler.h
+-rw-r--r-- root       root             1858 ./usr/include/poppler/SignatureInfo.h
 -rw-r--r-- root       root             2033 ./usr/include/poppler/Sound.h
--rw-r--r-- root       root            15905 ./usr/include/poppler/SplashOutputDev.h
+-rw-r--r-- root       root            16907 ./usr/include/poppler/SplashOutputDev.h
 -rw-r--r-- root       root              617 ./usr/include/poppler/StdinCachedFile.h
 -rw-r--r-- root       root              947 ./usr/include/poppler/StdinPDFDocBuilder.h
 -rw-r--r-- root       root            18056 ./usr/include/poppler/Stream-CCITT.h
--rw-r--r-- root       root            37210 ./usr/include/poppler/Stream.h
+-rw-r--r-- root       root            38121 ./usr/include/poppler/Stream.h
 -rw-r--r-- root       root            10295 ./usr/include/poppler/StructElement.h
 -rw-r--r-- root       root             2025 ./usr/include/poppler/StructTreeRoot.h
--rw-r--r-- root       root            27481 ./usr/include/poppler/TextOutputDev.h
+-rw-r--r-- root       root            27647 ./usr/include/poppler/TextOutputDev.h
 -rw-r--r-- root       root             1112 ./usr/include/poppler/UTF.h
 -rw-r--r-- root       root             2185 ./usr/include/poppler/UTF8.h
 -rw-r--r-- root       root            66205 ./usr/include/poppler/UnicodeCClassTables.h
@@ -73,7 +75,7 @@ drwxr-xr-x root       root             1660 ./usr/include/poppler
 -rw-r--r-- root       root            11501 ./usr/include/poppler/UnicodeMapTables.h
 -rw-r--r-- root       root             1461 ./usr/include/poppler/UnicodeTypeTable.h
 -rw-r--r-- root       root             1883 ./usr/include/poppler/ViewerPreferences.h
--rw-r--r-- root       root             9594 ./usr/include/poppler/XRef.h
+-rw-r--r-- root       root             9677 ./usr/include/poppler/XRef.h
 -rw-r--r-- root       root            10343 ./usr/include/poppler/XpdfPluginAPI.h
 drwxr-xr-x root       root              260 ./usr/include/poppler/cpp
 -rw-r--r-- root       root             3288 ./usr/include/poppler/cpp/poppler-document.h
@@ -127,7 +129,7 @@ drwxr-xr-x root       root              380 ./usr/include/poppler/goo
 -rw-r--r-- root       root              486 ./usr/include/poppler/goo/grandom.h
 -rw-r--r-- root       root             1446 ./usr/include/poppler/goo/gstrtod.h
 -rw-r--r-- root       root             1421 ./usr/include/poppler/goo/gtypes.h
--rw-r--r-- root       root             5309 ./usr/include/poppler/poppler-config.h
+-rw-r--r-- root       root             5366 ./usr/include/poppler/poppler-config.h
 drwxr-xr-x root       root              200 ./usr/include/poppler/qt5
 -rw-r--r-- root       root            40115 ./usr/include/poppler/qt5/poppler-annotation.h
 -rw-r--r-- root       root              652 ./usr/include/poppler/qt5/poppler-export.h
@@ -162,14 +164,14 @@ drwxr-xr-x root       root              500 ./usr/include/poppler/splash
 -rw-r--r-- root       root             3257 ./usr/include/poppler/splash/SplashXPath.h
 -rw-r--r-- root       root             3609 ./usr/include/poppler/splash/SplashXPathScanner.h
 drwxr-xr-x root       root              220 ./usr/lib
--rwxr-xr-x root       root             1356 ./usr/lib/libpoppler-cpp.la
+-rwxr-xr-x root       root             1429 ./usr/lib/libpoppler-cpp.la
 lrwxrwxrwx root       root               23 ./usr/lib/libpoppler-cpp.so -> libpoppler-cpp.so.0.2.1
--rwxr-xr-x root       root             2229 ./usr/lib/libpoppler-glib.la
+-rwxr-xr-x root       root             2297 ./usr/lib/libpoppler-glib.la
 lrwxrwxrwx root       root               24 ./usr/lib/libpoppler-glib.so -> libpoppler-glib.so.8.7.0
--rwxr-xr-x root       root             1397 ./usr/lib/libpoppler-qt5.la
+-rwxr-xr-x root       root             1470 ./usr/lib/libpoppler-qt5.la
 lrwxrwxrwx root       root               23 ./usr/lib/libpoppler-qt5.so -> libpoppler-qt5.so.1.6.0
--rwxr-xr-x root       root             1312 ./usr/lib/libpoppler.la
-lrwxrwxrwx root       root               20 ./usr/lib/libpoppler.so -> libpoppler.so.58.0.0
+-rwxr-xr-x root       root             1385 ./usr/lib/libpoppler.la
+lrwxrwxrwx root       root               20 ./usr/lib/libpoppler.so -> libpoppler.so.60.0.0
 drwxr-xr-x root       root              160 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              210 ./usr/lib/pkgconfig/poppler-cairo.pc
 -rw-r--r-- root       root              278 ./usr/lib/pkgconfig/poppler-cpp.pc
