@@ -2,14 +2,15 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              140 ./usr/include/libgtop-2.0
 drwxr-xr-x root       root              780 ./usr/include/libgtop-2.0/glibtop
--rw-r--r-- root       root             4589 ./usr/include/libgtop-2.0/glibtop.h
 -rw-r--r-- root       root             1138 ./usr/include/libgtop-2.0/glibtop/close.h
 -rw-r--r-- root       root             2881 ./usr/include/libgtop-2.0/glibtop/command.h
 -rw-r--r-- root       root             3224 ./usr/include/libgtop-2.0/glibtop/cpu.h
 -rw-r--r-- root       root             2075 ./usr/include/libgtop-2.0/glibtop/fsusage.h
 -rw-r--r-- root       root             1655 ./usr/include/libgtop-2.0/glibtop/global.h
 -rw-r--r-- root       root             4523 ./usr/include/libgtop-2.0/glibtop/gnuserv.h
+-rw-r--r-- root       root             4589 ./usr/include/libgtop-2.0/glibtop.h
 -rw-r--r-- root       root             2035 ./usr/include/libgtop-2.0/glibtop/loadavg.h
+-rw-r--r-- root       root             1256 ./usr/include/libgtop-2.0/glibtop_machine.h
 -rw-r--r-- root       root             2151 ./usr/include/libgtop-2.0/glibtop/mem.h
 -rw-r--r-- root       root             1978 ./usr/include/libgtop-2.0/glibtop/mountlist.h
 -rw-r--r-- root       root             2254 ./usr/include/libgtop-2.0/glibtop/msg_limits.h
@@ -32,6 +33,7 @@ drwxr-xr-x root       root              780 ./usr/include/libgtop-2.0/glibtop
 -rw-r--r-- root       root             3156 ./usr/include/libgtop-2.0/glibtop/procuid.h
 -rw-r--r-- root       root             1882 ./usr/include/libgtop-2.0/glibtop/procwd.h
 -rw-r--r-- root       root             2468 ./usr/include/libgtop-2.0/glibtop/sem_limits.h
+-rw-r--r-- root       root             1778 ./usr/include/libgtop-2.0/glibtop_server.h
 -rw-r--r-- root       root             2101 ./usr/include/libgtop-2.0/glibtop/shm_limits.h
 -rw-r--r-- root       root             1227 ./usr/include/libgtop-2.0/glibtop/signal.h
 -rw-r--r-- root       root             1974 ./usr/include/libgtop-2.0/glibtop/swap.h
@@ -40,8 +42,6 @@ drwxr-xr-x root       root              780 ./usr/include/libgtop-2.0/glibtop
 -rw-r--r-- root       root             2568 ./usr/include/libgtop-2.0/glibtop/union.h
 -rw-r--r-- root       root             1882 ./usr/include/libgtop-2.0/glibtop/uptime.h
 -rw-r--r-- root       root             1149 ./usr/include/libgtop-2.0/glibtop/version.h
--rw-r--r-- root       root             1256 ./usr/include/libgtop-2.0/glibtop_machine.h
--rw-r--r-- root       root             1778 ./usr/include/libgtop-2.0/glibtop_server.h
 -rw-r--r-- root       root              176 ./usr/include/libgtop-2.0/libgtopconfig.h
 drwxr-xr-x root       root              100 ./usr/lib
 -rwxr-xr-x root       root             1026 ./usr/lib/libgtop-2.0.la

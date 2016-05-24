@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               80 ./etc
--rwxr-xr-x root       root             1087 ./etc/nfs-utils.conf
 -rwxr-xr-x root       root             3605 ./etc/nfsmount.conf
+-rwxr-xr-x root       root             1087 ./etc/nfs-utils.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
@@ -8,8 +8,8 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 drwxr-xr-x root       root              120 ./sbin
 -r-s--x--x root       root           111424 ./sbin/mount.nfs
 lrwxrwxrwx root       root                9 ./sbin/mount.nfs4 -> mount.nfs
-lrwxrwxrwx root       root                9 ./sbin/umount.nfs -> mount.nfs
 lrwxrwxrwx root       root                9 ./sbin/umount.nfs4 -> mount.nfs
+lrwxrwxrwx root       root                9 ./sbin/umount.nfs -> mount.nfs
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              160 ./usr/sbin
 -rwxr-xr-x root       root            20752 ./usr/sbin/nfsstat

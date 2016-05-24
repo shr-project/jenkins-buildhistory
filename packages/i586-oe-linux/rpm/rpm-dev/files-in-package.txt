@@ -35,8 +35,6 @@ drwxr-xr-x root       root              700 ./usr/include/rpm
 -rw-r--r-- root       root             2062 ./usr/include/rpm/rpmzlog.h
 -rw-r--r-- root       root             8155 ./usr/include/rpm/yarn.h
 drwxr-xr-x root       root              320 ./usr/lib
--rwxr-xr-x root       root             1367 ./usr/lib/librpm.la
-lrwxrwxrwx root       root               13 ./usr/lib/librpm.so -> librpm-5.4.so
 -rwxr-xr-x root       root             1417 ./usr/lib/librpmbuild.la
 lrwxrwxrwx root       root               18 ./usr/lib/librpmbuild.so -> librpmbuild-5.4.so
 -rwxr-xr-x root       root             1435 ./usr/lib/librpmconstant.la
@@ -45,8 +43,10 @@ lrwxrwxrwx root       root               21 ./usr/lib/librpmconstant.so -> librp
 lrwxrwxrwx root       root               15 ./usr/lib/librpmdb.so -> librpmdb-5.4.so
 -rwxr-xr-x root       root             1331 ./usr/lib/librpmio.la
 lrwxrwxrwx root       root               15 ./usr/lib/librpmio.so -> librpmio-5.4.so
+-rwxr-xr-x root       root             1367 ./usr/lib/librpm.la
 -rwxr-xr-x root       root             1296 ./usr/lib/librpmmisc.la
 lrwxrwxrwx root       root               17 ./usr/lib/librpmmisc.so -> librpmmisc-5.4.so
+lrwxrwxrwx root       root               13 ./usr/lib/librpm.so -> librpm-5.4.so
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              542 ./usr/lib/pkgconfig/rpm.pc
 drwxr-xr-x root       root               60 ./usr/lib/rpm

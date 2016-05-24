@@ -2,7 +2,6 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       bin                60 ./usr/libexec/webmin
 drwxr-xr-x root       bin              2500 ./usr/libexec/webmin/usermin
--rwxr-xr-x root       bin              3744 ./usr/libexec/webmin/usermin/CHANGELOG
 -rwxr-xr-x root       bin              2214 ./usr/libexec/webmin/usermin/acl_security.pl
 -rwxr-xr-x root       bin              2224 ./usr/libexec/webmin/usermin/backup_config.pl
 -rwxr-xr-x root       bin               983 ./usr/libexec/webmin/usermin/bootup.cgi
@@ -12,6 +11,7 @@ drwxr-xr-x root       bin              2500 ./usr/libexec/webmin/usermin
 -rwxr-xr-x root       bin               758 ./usr/libexec/webmin/usermin/change_anon.cgi
 -rwxr-xr-x root       bin              3366 ./usr/libexec/webmin/usermin/change_bind.cgi
 -rwxr-xr-x root       bin               409 ./usr/libexec/webmin/usermin/change_lang.cgi
+-rwxr-xr-x root       bin              3744 ./usr/libexec/webmin/usermin/CHANGELOG
 -rwxr-xr-x root       bin               989 ./usr/libexec/webmin/usermin/change_mobile.cgi
 -rwxr-xr-x root       bin              1946 ./usr/libexec/webmin/usermin/change_os.cgi
 -rwxr-xr-x root       bin               462 ./usr/libexec/webmin/usermin/change_referers.cgi
@@ -38,8 +38,8 @@ drwxr-xr-x root       bin              2500 ./usr/libexec/webmin/usermin
 -rwxr-xr-x root       bin                 0 ./usr/libexec/webmin/usermin/config.info.hu
 -rwxr-xr-x root       bin               304 ./usr/libexec/webmin/usermin/config.info.it
 -rwxr-xr-x root       bin               304 ./usr/libexec/webmin/usermin/config.info.it.UTF-8
--rwxr-xr-x root       bin               267 ./usr/libexec/webmin/usermin/config.info.ja_JP.UTF-8
 -rwxr-xr-x root       bin               211 ./usr/libexec/webmin/usermin/config.info.ja_JP.euc
+-rwxr-xr-x root       bin               267 ./usr/libexec/webmin/usermin/config.info.ja_JP.UTF-8
 -rwxr-xr-x root       bin               264 ./usr/libexec/webmin/usermin/config.info.ms_MY
 -rwxr-xr-x root       bin               264 ./usr/libexec/webmin/usermin/config.info.ms_MY.UTF-8
 -rwxr-xr-x root       bin               266 ./usr/libexec/webmin/usermin/config.info.nl
@@ -50,9 +50,9 @@ drwxr-xr-x root       bin              2500 ./usr/libexec/webmin/usermin
 -rwxr-xr-x root       bin               290 ./usr/libexec/webmin/usermin/config.info.pl.UTF-8
 -rwxr-xr-x root       bin                66 ./usr/libexec/webmin/usermin/config.info.pt_BR
 -rwxr-xr-x root       bin                66 ./usr/libexec/webmin/usermin/config.info.pt_BR.UTF-8
--rwxr-xr-x root       bin                62 ./usr/libexec/webmin/usermin/config.info.ru.UTF-8
 -rwxr-xr-x root       bin                43 ./usr/libexec/webmin/usermin/config.info.ru_RU
 -rwxr-xr-x root       bin                43 ./usr/libexec/webmin/usermin/config.info.ru_SU
+-rwxr-xr-x root       bin                62 ./usr/libexec/webmin/usermin/config.info.ru.UTF-8
 -rwxr-xr-x root       bin                46 ./usr/libexec/webmin/usermin/config.info.uk_UA
 -rwxr-xr-x root       bin                30 ./usr/libexec/webmin/usermin/config.info.zh_TW.Big5
 -rwxr-xr-x root       bin                34 ./usr/libexec/webmin/usermin/config.info.zh_TW.UTF-8
@@ -145,8 +145,8 @@ drwxr-xr-x root       bin               780 ./usr/libexec/webmin/usermin/lang
 -rwxr-xr-x root       bin                22 ./usr/libexec/webmin/usermin/lang/hu.UTF-8
 -rwxr-xr-x root       bin             30038 ./usr/libexec/webmin/usermin/lang/it
 -rwxr-xr-x root       bin             30038 ./usr/libexec/webmin/usermin/lang/it.UTF-8
--rwxr-xr-x root       bin             20604 ./usr/libexec/webmin/usermin/lang/ja_JP.UTF-8
 -rwxr-xr-x root       bin             17005 ./usr/libexec/webmin/usermin/lang/ja_JP.euc
+-rwxr-xr-x root       bin             20604 ./usr/libexec/webmin/usermin/lang/ja_JP.UTF-8
 -rwxr-xr-x root       bin               257 ./usr/libexec/webmin/usermin/lang/ms_MY
 -rwxr-xr-x root       bin               257 ./usr/libexec/webmin/usermin/lang/ms_MY.UTF-8
 -rwxr-xr-x root       bin             31531 ./usr/libexec/webmin/usermin/lang/nl
@@ -157,9 +157,9 @@ drwxr-xr-x root       bin               780 ./usr/libexec/webmin/usermin/lang
 -rwxr-xr-x root       bin             31873 ./usr/libexec/webmin/usermin/lang/pl.UTF-8
 -rwxr-xr-x root       bin             28936 ./usr/libexec/webmin/usermin/lang/pt_BR
 -rwxr-xr-x root       bin             28936 ./usr/libexec/webmin/usermin/lang/pt_BR.UTF-8
--rwxr-xr-x root       bin             38498 ./usr/libexec/webmin/usermin/lang/ru.UTF-8
 -rwxr-xr-x root       bin             24145 ./usr/libexec/webmin/usermin/lang/ru_RU
 -rwxr-xr-x root       bin             24174 ./usr/libexec/webmin/usermin/lang/ru_SU
+-rwxr-xr-x root       bin             38498 ./usr/libexec/webmin/usermin/lang/ru.UTF-8
 -rwxr-xr-x root       bin             24546 ./usr/libexec/webmin/usermin/lang/uk_UA
 -rwxr-xr-x root       bin             11825 ./usr/libexec/webmin/usermin/lang/zh_TW.Big5
 -rwxr-xr-x root       bin             15005 ./usr/libexec/webmin/usermin/lang/zh_TW.UTF-8
@@ -179,10 +179,10 @@ drwxr-xr-x root       bin               780 ./usr/libexec/webmin/usermin/lang
 -rwxr-xr-x root       bin               626 ./usr/libexec/webmin/usermin/save_defacl.cgi
 -rwxr-xr-x root       bin               585 ./usr/libexec/webmin/usermin/save_descs.cgi
 -rwxr-xr-x root       bin              1480 ./usr/libexec/webmin/usermin/save_ipkey.cgi
+-rwxr-xr-x root       bin              2444 ./usr/libexec/webmin/usermin/savekey.cgi
 -rwxr-xr-x root       bin              1022 ./usr/libexec/webmin/usermin/save_logout.cgi
 -rwxr-xr-x root       bin              1341 ./usr/libexec/webmin/usermin/save_restrict.cgi
 -rwxr-xr-x root       bin              1411 ./usr/libexec/webmin/usermin/save_uconfigs.cgi
--rwxr-xr-x root       bin              2444 ./usr/libexec/webmin/usermin/savekey.cgi
 -rwxr-xr-x root       bin               200 ./usr/libexec/webmin/usermin/start.cgi
 -rwxr-xr-x root       bin               203 ./usr/libexec/webmin/usermin/stop.cgi
 -rwxr-xr-x root       bin               317 ./usr/libexec/webmin/usermin/switch.cgi

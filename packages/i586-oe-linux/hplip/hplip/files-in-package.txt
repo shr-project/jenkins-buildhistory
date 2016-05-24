@@ -13,8 +13,8 @@ drwxr-xr-x root       root               60 ./etc/xdg/autostart
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              740 ./usr/bin
 lrwxrwxrwx root       root               23 ./usr/bin/hp-align -> ../share/hplip/align.py
-lrwxrwxrwx root       root               23 ./usr/bin/hp-check -> ../share/hplip/check.py
 lrwxrwxrwx root       root               30 ./usr/bin/hp-check-plugin -> ../share/hplip/check-plugin.py
+lrwxrwxrwx root       root               23 ./usr/bin/hp-check -> ../share/hplip/check.py
 lrwxrwxrwx root       root               23 ./usr/bin/hp-clean -> ../share/hplip/clean.py
 lrwxrwxrwx root       root               26 ./usr/bin/hp-colorcal -> ../share/hplip/colorcal.py
 lrwxrwxrwx root       root               36 ./usr/bin/hp-config_usb_printer -> ../share/hplip/config_usb_printer.py
@@ -33,8 +33,8 @@ lrwxrwxrwx root       root               25 ./usr/bin/hp-makeuri -> ../share/hpl
 lrwxrwxrwx root       root               27 ./usr/bin/hp-pkservice -> ../share/hplip/pkservice.py
 lrwxrwxrwx root       root               24 ./usr/bin/hp-plugin -> ../share/hplip/plugin.py
 lrwxrwxrwx root       root               24 ./usr/bin/hp-pqdiag -> ../share/hplip/pqdiag.py
-lrwxrwxrwx root       root               23 ./usr/bin/hp-print -> ../share/hplip/print.py
 lrwxrwxrwx root       root               31 ./usr/bin/hp-printsettings -> ../share/hplip/printsettings.py
+lrwxrwxrwx root       root               23 ./usr/bin/hp-print -> ../share/hplip/print.py
 lrwxrwxrwx root       root               23 ./usr/bin/hp-probe -> ../share/hplip/probe.py
 lrwxrwxrwx root       root               23 ./usr/bin/hp-query -> ../share/hplip/query.py
 lrwxrwxrwx root       root               22 ./usr/bin/hp-scan -> ../share/hplip/scan.py
@@ -48,10 +48,10 @@ lrwxrwxrwx root       root               24 ./usr/bin/hp-unload -> ../share/hpli
 lrwxrwxrwx root       root               25 ./usr/bin/hp-upgrade -> ../share/hplip/upgrade.py
 lrwxrwxrwx root       root               28 ./usr/bin/hp-wificonfig -> ../share/hplip/wificonfig.py
 drwxr-xr-x root       root              140 ./usr/lib
-lrwxrwxrwx root       root               16 ./usr/lib/libhpip.so.0 -> libhpip.so.0.0.1
 -rwxr-xr-x root       root           160856 ./usr/lib/libhpip.so.0.0.1
-lrwxrwxrwx root       root               17 ./usr/lib/libhpmud.so.0 -> libhpmud.so.0.0.6
+lrwxrwxrwx root       root               16 ./usr/lib/libhpip.so.0 -> libhpip.so.0.0.1
 -rwxr-xr-x root       root            77392 ./usr/lib/libhpmud.so.0.0.6
+lrwxrwxrwx root       root               17 ./usr/lib/libhpmud.so.0 -> libhpmud.so.0.0.6
 drwxr-xr-x root       root               60 ./usr/lib/python2.7
 drwxr-xr-x root       root              100 ./usr/lib/python2.7/site-packages
 -rwxr-xr-x root       root            33824 ./usr/lib/python2.7/site-packages/cupsext.so
@@ -61,18 +61,17 @@ drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/applications
 -rw-r--r-- root       root              341 ./usr/share/applications/hplip.desktop
 drwxr-xr-x root       root              920 ./usr/share/hplip
--rwxr-xr-x root       root              799 ./usr/share/hplip/__init__.py
 -rwxr-xr-x root       root             8977 ./usr/share/hplip/align.py
 drwxr-xr-x root       root              560 ./usr/share/hplip/base
--rw-r--r-- root       root            23340 ./usr/share/hplip/base/LedmWifi.py
--rw-r--r-- root       root              798 ./usr/share/hplip/base/__init__.py
 -rw-r--r-- root       root            29990 ./usr/share/hplip/base/codes.py
 -rw-r--r-- root       root            95149 ./usr/share/hplip/base/device.py
 -rw-r--r-- root       root             3400 ./usr/share/hplip/base/dime.py
 -rw-r--r-- root       root            35885 ./usr/share/hplip/base/exif.py
 -rw-r--r-- root       root            11892 ./usr/share/hplip/base/g.py
 -rw-r--r-- root       root             5904 ./usr/share/hplip/base/imagesize.py
+-rw-r--r-- root       root              798 ./usr/share/hplip/base/__init__.py
 -rw-r--r-- root       root            16777 ./usr/share/hplip/base/ldif.py
+-rw-r--r-- root       root            23340 ./usr/share/hplip/base/LedmWifi.py
 -rw-r--r-- root       root            18099 ./usr/share/hplip/base/logger.py
 -rw-r--r-- root       root            65491 ./usr/share/hplip/base/magic.py
 -rw-r--r-- root       root            54127 ./usr/share/hplip/base/maint.py
@@ -96,15 +95,15 @@ drwxr-xr-x root       root              560 ./usr/share/hplip/base
 -rwxr-xr-x root       root             9168 ./usr/share/hplip/colorcal.py
 -rwxr-xr-x root       root            10040 ./usr/share/hplip/config_usb_printer.py
 drwxr-xr-x root       root               80 ./usr/share/hplip/copier
--rw-r--r-- root       root              798 ./usr/share/hplip/copier/__init__.py
 -rw-r--r-- root       root            14132 ./usr/share/hplip/copier/copier.py
+-rw-r--r-- root       root              798 ./usr/share/hplip/copier/__init__.py
 drwxr-xr-x root       root              140 ./usr/share/hplip/data
 drwxr-xr-x root       root              180 ./usr/share/hplip/data/ldl
--rw-r--r-- root       root            20986 ./usr/share/hplip/data/ldl/cb2pcal.ldl.gz
 -rw-r--r-- root       root             1593 ./usr/share/hplip/data/ldl/cb2pcal_done.ldl.gz
+-rw-r--r-- root       root            20986 ./usr/share/hplip/data/ldl/cb2pcal.ldl.gz
 -rw-r--r-- root       root             7007 ./usr/share/hplip/data/ldl/cbbcal.ldl.gz
--rw-r--r-- root       root             6405 ./usr/share/hplip/data/ldl/cbccal.ldl.gz
 -rw-r--r-- root       root             2076 ./usr/share/hplip/data/ldl/cbccal_done.ldl.gz
+-rw-r--r-- root       root             6405 ./usr/share/hplip/data/ldl/cbccal.ldl.gz
 -rw-r--r-- root       root           824660 ./usr/share/hplip/data/ldl/cbcpcal.ldl.gz
 -rw-r--r-- root       root             6131 ./usr/share/hplip/data/ldl/cbpcal.ldl.gz
 drwxr-xr-x root       root              180 ./usr/share/hplip/data/localization
@@ -148,11 +147,12 @@ drwxr-xr-x root       root               80 ./usr/share/hplip/data/ps
 -rwxr-xr-x root       root             6992 ./usr/share/hplip/hpdio.py
 -rwxr-xr-x root       root            20568 ./usr/share/hplip/hpssd.py
 -rwxr-xr-x root       root             6338 ./usr/share/hplip/info.py
+-rwxr-xr-x root       root              799 ./usr/share/hplip/__init__.py
 drwxr-xr-x root       root              120 ./usr/share/hplip/installer
--rw-r--r-- root       root              799 ./usr/share/hplip/installer/__init__.py
 -rw-r--r-- root       root           100098 ./usr/share/hplip/installer/core_install.py
 -rw-r--r-- root       root            10147 ./usr/share/hplip/installer/dcheck.py
 -rw-r--r-- root       root           118522 ./usr/share/hplip/installer/distros.dat
+-rw-r--r-- root       root              799 ./usr/share/hplip/installer/__init__.py
 -rwxr-xr-x root       root             6887 ./usr/share/hplip/levels.py
 -rwxr-xr-x root       root             2541 ./usr/share/hplip/linefeedcal.py
 -rwxr-xr-x root       root            11554 ./usr/share/hplip/makecopies.py
@@ -166,9 +166,9 @@ drwxr-xr-x root       root               80 ./usr/share/hplip/pcard
 -rwxr-xr-x root       root             4024 ./usr/share/hplip/print.py
 -rwxr-xr-x root       root             2696 ./usr/share/hplip/printsettings.py
 drwxr-xr-x root       root              140 ./usr/share/hplip/prnt
--rw-r--r-- root       root              798 ./usr/share/hplip/prnt/__init__.py
 -rw-r--r-- root       root            12112 ./usr/share/hplip/prnt/colorcal.py
 -rw-r--r-- root       root            26126 ./usr/share/hplip/prnt/cups.py
+-rw-r--r-- root       root              798 ./usr/share/hplip/prnt/__init__.py
 -rw-r--r-- root       root            16576 ./usr/share/hplip/prnt/ldl.py
 -rw-r--r-- root       root             1963 ./usr/share/hplip/prnt/pcl.py
 -rwxr-xr-x root       root             8190 ./usr/share/hplip/probe.py

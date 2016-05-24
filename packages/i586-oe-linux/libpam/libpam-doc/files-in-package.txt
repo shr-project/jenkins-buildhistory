@@ -21,10 +21,10 @@ drwxr-xr-x root       root              880 ./usr/share/man/man3
 -rw-r--r-- root       root               22 ./usr/share/man/man3/pam_get_authtok_noverify.3
 -rw-r--r-- root       root               22 ./usr/share/man/man3/pam_get_authtok_verify.3
 -rw-r--r-- root       root             2463 ./usr/share/man/man3/pam_get_data.3
--rw-r--r-- root       root             6292 ./usr/share/man/man3/pam_get_item.3
--rw-r--r-- root       root             2976 ./usr/share/man/man3/pam_get_user.3
 -rw-r--r-- root       root             1983 ./usr/share/man/man3/pam_getenv.3
 -rw-r--r-- root       root             2587 ./usr/share/man/man3/pam_getenvlist.3
+-rw-r--r-- root       root             6292 ./usr/share/man/man3/pam_get_item.3
+-rw-r--r-- root       root             2976 ./usr/share/man/man3/pam_get_user.3
 -rw-r--r-- root       root             2302 ./usr/share/man/man3/pam_info.3
 -rw-r--r-- root       root             1904 ./usr/share/man/man3/pam_misc_drop_env.3
 -rw-r--r-- root       root             1911 ./usr/share/man/man3/pam_misc_paste_env.3
@@ -32,9 +32,9 @@ drwxr-xr-x root       root              880 ./usr/share/man/man3
 -rw-r--r-- root       root             2352 ./usr/share/man/man3/pam_open_session.3
 -rw-r--r-- root       root             2461 ./usr/share/man/man3/pam_prompt.3
 -rw-r--r-- root       root             3068 ./usr/share/man/man3/pam_putenv.3
+-rw-r--r-- root       root             3606 ./usr/share/man/man3/pam_setcred.3
 -rw-r--r-- root       root             3950 ./usr/share/man/man3/pam_set_data.3
 -rw-r--r-- root       root             6371 ./usr/share/man/man3/pam_set_item.3
--rw-r--r-- root       root             3606 ./usr/share/man/man3/pam_setcred.3
 -rw-r--r-- root       root             3257 ./usr/share/man/man3/pam_sm_acct_mgmt.3
 -rw-r--r-- root       root             3087 ./usr/share/man/man3/pam_sm_authenticate.3
 -rw-r--r-- root       root             4410 ./usr/share/man/man3/pam_sm_chauthtok.3
@@ -59,9 +59,9 @@ drwxr-xr-x root       root              200 ./usr/share/man/man5
 -rw-r--r-- root       root             4285 ./usr/share/man/man5/pam_env.conf.5
 -rw-r--r-- root       root             4615 ./usr/share/man/man5/time.conf.5
 drwxr-xr-x root       root              940 ./usr/share/man/man8
--rw-r--r-- root       root             5860 ./usr/share/man/man8/PAM.8
 -rw-r--r-- root       root             2209 ./usr/share/man/man8/mkhomedir_helper.8
 -rw-r--r-- root       root               10 ./usr/share/man/man8/pam.8
+-rw-r--r-- root       root             5860 ./usr/share/man/man8/PAM.8
 -rw-r--r-- root       root             4872 ./usr/share/man/man8/pam_access.8
 -rw-r--r-- root       root            12424 ./usr/share/man/man8/pam_cracklib.8
 -rw-r--r-- root       root             3968 ./usr/share/man/man8/pam_debug.8
@@ -92,8 +92,8 @@ drwxr-xr-x root       root              940 ./usr/share/man/man8
 -rw-r--r-- root       root             3649 ./usr/share/man/man8/pam_securetty.8
 -rw-r--r-- root       root             2271 ./usr/share/man/man8/pam_shells.8
 -rw-r--r-- root       root             4984 ./usr/share/man/man8/pam_succeed_if.8
--rw-r--r-- root       root             7250 ./usr/share/man/man8/pam_tally.8
 -rw-r--r-- root       root             8027 ./usr/share/man/man8/pam_tally2.8
+-rw-r--r-- root       root             7250 ./usr/share/man/man8/pam_tally.8
 -rw-r--r-- root       root             2998 ./usr/share/man/man8/pam_time.8
 -rw-r--r-- root       root             3579 ./usr/share/man/man8/pam_timestamp.8
 -rw-r--r-- root       root             3210 ./usr/share/man/man8/pam_timestamp_check.8

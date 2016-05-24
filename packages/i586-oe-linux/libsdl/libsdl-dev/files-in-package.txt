@@ -3,7 +3,8 @@ drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root              163 ./usr/bin/sdl-config
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              680 ./usr/include/SDL
--rw-r--r-- root       root             3233 ./usr/include/SDL/SDL.h
+-rw-r--r-- root       root             5230 ./usr/include/SDL/begin_code.h
+-rw-r--r-- root       root             1482 ./usr/include/SDL/close_code.h
 -rw-r--r-- root       root             1933 ./usr/include/SDL/SDL_active.h
 -rw-r--r-- root       root            11215 ./usr/include/SDL/SDL_audio.h
 -rw-r--r-- root       root              986 ./usr/include/SDL/SDL_byteorder.h
@@ -14,6 +15,7 @@ drwxr-xr-x root       root              680 ./usr/include/SDL
 -rw-r--r-- root       root             1874 ./usr/include/SDL/SDL_error.h
 -rw-r--r-- root       root            13041 ./usr/include/SDL/SDL_events.h
 -rw-r--r-- root       root              979 ./usr/include/SDL/SDL_getenv.h
+-rw-r--r-- root       root             3233 ./usr/include/SDL/SDL.h
 -rw-r--r-- root       root             5532 ./usr/include/SDL/SDL_joystick.h
 -rw-r--r-- root       root             4098 ./usr/include/SDL/SDL_keyboard.h
 -rw-r--r-- root       root             7492 ./usr/include/SDL/SDL_keysym.h
@@ -33,12 +35,10 @@ drwxr-xr-x root       root              680 ./usr/include/SDL
 -rw-r--r-- root       root              979 ./usr/include/SDL/SDL_types.h
 -rw-r--r-- root       root             2637 ./usr/include/SDL/SDL_version.h
 -rw-r--r-- root       root            38018 ./usr/include/SDL/SDL_video.h
--rw-r--r-- root       root             5230 ./usr/include/SDL/begin_code.h
--rw-r--r-- root       root             1482 ./usr/include/SDL/close_code.h
 drwxr-xr-x root       root              120 ./usr/lib
 -rwxr-xr-x root       root             1206 ./usr/lib/libSDL.la
-lrwxrwxrwx root       root               20 ./usr/lib/libSDL.so -> libSDL-1.2.so.0.11.4
 -rwxr-xr-x root       root             1165 ./usr/lib/libSDLmain.la
+lrwxrwxrwx root       root               20 ./usr/lib/libSDL.so -> libSDL-1.2.so.0.11.4
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              525 ./usr/lib/pkgconfig/sdl.pc
 drwxr-xr-x root       root               60 ./usr/share

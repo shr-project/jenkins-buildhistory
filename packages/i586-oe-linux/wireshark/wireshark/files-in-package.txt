@@ -15,12 +15,12 @@ drwxr-xr-x root       root              320 ./usr/bin
 -rwxr-xr-x root       root           245820 ./usr/bin/tshark
 -rwxr-xr-x root       root          2292072 ./usr/bin/wireshark-gtk
 drwxr-xr-x root       root              180 ./usr/lib
-lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so.6 -> libwireshark.so.6.1.0
 -rwxr-xr-x root       root         55041824 ./usr/lib/libwireshark.so.6.1.0
-lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so.5 -> libwiretap.so.5.0.3
+lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so.6 -> libwireshark.so.6.1.0
 -rwxr-xr-x root       root           420848 ./usr/lib/libwiretap.so.5.0.3
-lrwxrwxrwx root       root               18 ./usr/lib/libwsutil.so.6 -> libwsutil.so.6.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so.5 -> libwiretap.so.5.0.3
 -rwxr-xr-x root       root           133852 ./usr/lib/libwsutil.so.6.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libwsutil.so.6 -> libwsutil.so.6.0.0
 drwxr-xr-x root       root               60 ./usr/lib/wireshark
 drwxr-xr-x root       root               60 ./usr/lib/wireshark/plugins
 drwxr-xr-x root       root              560 ./usr/lib/wireshark/plugins/2.0.3
@@ -44,18 +44,18 @@ drwxr-xr-x root       root              560 ./usr/lib/wireshark/plugins/2.0.3
 -rwxr-xr-x root       root            11220 ./usr/lib/wireshark/plugins/2.0.3/stats_tree.so
 -rwxr-xr-x root       root              941 ./usr/lib/wireshark/plugins/2.0.3/unistim.la
 -rwxr-xr-x root       root           115876 ./usr/lib/wireshark/plugins/2.0.3/unistim.so
--rwxr-xr-x root       root              929 ./usr/lib/wireshark/plugins/2.0.3/wimax.la
--rwxr-xr-x root       root           602012 ./usr/lib/wireshark/plugins/2.0.3/wimax.so
 -rwxr-xr-x root       root              959 ./usr/lib/wireshark/plugins/2.0.3/wimaxasncp.la
 -rwxr-xr-x root       root            61476 ./usr/lib/wireshark/plugins/2.0.3/wimaxasncp.so
+-rwxr-xr-x root       root              929 ./usr/lib/wireshark/plugins/2.0.3/wimax.la
 -rwxr-xr-x root       root              965 ./usr/lib/wireshark/plugins/2.0.3/wimaxmacphy.la
 -rwxr-xr-x root       root            68068 ./usr/lib/wireshark/plugins/2.0.3/wimaxmacphy.so
+-rwxr-xr-x root       root           602012 ./usr/lib/wireshark/plugins/2.0.3/wimax.so
 drwxr-xr-x root       root              140 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/appdata
 -rw-r--r-- root       root             2267 ./usr/share/appdata/wireshark.appdata.xml
 drwxr-xr-x root       root               80 ./usr/share/applications
--rw-r--r-- root       root             4978 ./usr/share/applications/wireshark-gtk.desktop
 -rw-r--r-- root       root             4955 ./usr/share/applications/wireshark.desktop
+-rw-r--r-- root       root             4978 ./usr/share/applications/wireshark-gtk.desktop
 drwxr-xr-x root       root               60 ./usr/share/icons
 drwxr-xr-x root       root              200 ./usr/share/icons/hicolor
 drwxr-xr-x root       root               80 ./usr/share/icons/hicolor/128x128
@@ -100,37 +100,37 @@ drwxr-xr-x root       root               60 ./usr/share/mime
 drwxr-xr-x root       root               60 ./usr/share/mime/packages
 -rw-r--r-- root       root             4708 ./usr/share/mime/packages/wireshark.xml
 drwxr-xr-x root       root              660 ./usr/share/wireshark
--rw-r--r-- root       root            42067 ./usr/share/wireshark/AUTHORS-SHORT
--rw-r--r-- root       root            27447 ./usr/share/wireshark/COPYING
 -rw-r--r-- root       root             8818 ./usr/share/wireshark/androiddump.html
+-rw-r--r-- root       root            42067 ./usr/share/wireshark/AUTHORS-SHORT
 -rw-r--r-- root       root            13442 ./usr/share/wireshark/capinfos.html
 -rw-r--r-- root       root              575 ./usr/share/wireshark/cfilters
 -rw-r--r-- root       root             1955 ./usr/share/wireshark/colorfilters
+-rw-r--r-- root       root            27447 ./usr/share/wireshark/COPYING
 -rw-r--r-- root       root              701 ./usr/share/wireshark/dfilters
 -rw-r--r-- root       root             1287 ./usr/share/wireshark/dftest.html
 drwxr-xr-x root       root              480 ./usr/share/wireshark/diameter
 -rw-r--r-- root       root             1661 ./usr/share/wireshark/diameter/AlcatelLucent.xml
+-rw-r--r-- root       root            10526 ./usr/share/wireshark/diameter/chargecontrol.xml
 -rw-r--r-- root       root            48514 ./usr/share/wireshark/diameter/Cisco.xml
 -rw-r--r-- root       root              412 ./usr/share/wireshark/diameter/Custom.xml
--rw-r--r-- root       root            10376 ./usr/share/wireshark/diameter/Ericsson.xml
--rw-r--r-- root       root             1618 ./usr/share/wireshark/diameter/HP.xml
--rw-r--r-- root       root             1546 ./usr/share/wireshark/diameter/Nokia.xml
--rw-r--r-- root       root             3163 ./usr/share/wireshark/diameter/NokiaSolutionsAndNetworks.xml
--rw-r--r-- root       root              851 ./usr/share/wireshark/diameter/Oracle.xml
--rw-r--r-- root       root            97991 ./usr/share/wireshark/diameter/Starent.xml
--rw-r--r-- root       root            61075 ./usr/share/wireshark/diameter/TGPP.xml
--rw-r--r-- root       root             5556 ./usr/share/wireshark/diameter/TGPP2.xml
--rw-r--r-- root       root             3346 ./usr/share/wireshark/diameter/Vodafone.xml
--rw-r--r-- root       root            10526 ./usr/share/wireshark/diameter/chargecontrol.xml
 -rw-r--r-- root       root             1870 ./usr/share/wireshark/diameter/dictionary.dtd
 -rw-r--r-- root       root           306491 ./usr/share/wireshark/diameter/dictionary.xml
 -rw-r--r-- root       root              553 ./usr/share/wireshark/diameter/eap.xml
+-rw-r--r-- root       root            10376 ./usr/share/wireshark/diameter/Ericsson.xml
 -rw-r--r-- root       root            43571 ./usr/share/wireshark/diameter/etsie2e4.xml
+-rw-r--r-- root       root             1618 ./usr/share/wireshark/diameter/HP.xml
 -rw-r--r-- root       root             7294 ./usr/share/wireshark/diameter/mobileipv4.xml
 -rw-r--r-- root       root             2811 ./usr/share/wireshark/diameter/mobileipv6.xml
 -rw-r--r-- root       root             3945 ./usr/share/wireshark/diameter/nasreq.xml
+-rw-r--r-- root       root             3163 ./usr/share/wireshark/diameter/NokiaSolutionsAndNetworks.xml
+-rw-r--r-- root       root             1546 ./usr/share/wireshark/diameter/Nokia.xml
+-rw-r--r-- root       root              851 ./usr/share/wireshark/diameter/Oracle.xml
 -rw-r--r-- root       root             7126 ./usr/share/wireshark/diameter/sip.xml
+-rw-r--r-- root       root            97991 ./usr/share/wireshark/diameter/Starent.xml
 -rw-r--r-- root       root              787 ./usr/share/wireshark/diameter/sunping.xml
+-rw-r--r-- root       root             5556 ./usr/share/wireshark/diameter/TGPP2.xml
+-rw-r--r-- root       root            61075 ./usr/share/wireshark/diameter/TGPP.xml
+-rw-r--r-- root       root             3346 ./usr/share/wireshark/diameter/Vodafone.xml
 drwxr-xr-x root       root              280 ./usr/share/wireshark/dtds
 -rw-r--r-- root       root              781 ./usr/share/wireshark/dtds/dc.dtd
 -rw-r--r-- root       root              524 ./usr/share/wireshark/dtds/itunes.dtd
@@ -164,7 +164,6 @@ drwxr-xr-x root       root               60 ./usr/share/wireshark/profiles/Bluet
 drwxr-xr-x root       root               60 ./usr/share/wireshark/profiles/Classic
 -rw-r--r-- root       root             1684 ./usr/share/wireshark/profiles/Classic/colorfilters
 drwxr-xr-x root       root             4020 ./usr/share/wireshark/radius
--rw-r--r-- root       root             3144 ./usr/share/wireshark/radius/README.radius_dictionary
 -rw-r--r-- root       root               87 ./usr/share/wireshark/radius/custom.includes
 -rw-r--r-- root       root            10314 ./usr/share/wireshark/radius/dictionary
 -rw-r--r-- root       root             1388 ./usr/share/wireshark/radius/dictionary.3com
@@ -176,8 +175,8 @@ drwxr-xr-x root       root             4020 ./usr/share/wireshark/radius
 -rw-r--r-- root       root              631 ./usr/share/wireshark/radius/dictionary.aerohive
 -rw-r--r-- root       root             1179 ./usr/share/wireshark/radius/dictionary.airespace
 -rw-r--r-- root       root             3541 ./usr/share/wireshark/radius/dictionary.alcatel
--rw-r--r-- root       root             3184 ./usr/share/wireshark/radius/dictionary.alcatel-lucent.aaa
 -rw-r--r-- root       root             7494 ./usr/share/wireshark/radius/dictionary.alcatel.esam
+-rw-r--r-- root       root             3184 ./usr/share/wireshark/radius/dictionary.alcatel-lucent.aaa
 -rw-r--r-- root       root             2745 ./usr/share/wireshark/radius/dictionary.alcatel.sr
 -rw-r--r-- root       root              853 ./usr/share/wireshark/radius/dictionary.alteon
 -rw-r--r-- root       root             6133 ./usr/share/wireshark/radius/dictionary.altiga
@@ -336,13 +335,13 @@ drwxr-xr-x root       root             4020 ./usr/share/wireshark/radius
 -rw-r--r-- root       root            55716 ./usr/share/wireshark/radius/dictionary.starent.vsa1
 -rw-r--r-- root       root              504 ./usr/share/wireshark/radius/dictionary.surfnet
 -rw-r--r-- root       root             1807 ./usr/share/wireshark/radius/dictionary.symbol
--rw-r--r-- root       root             1151 ./usr/share/wireshark/radius/dictionary.t_systems_nova
 -rw-r--r-- root       root              285 ./usr/share/wireshark/radius/dictionary.telebit
 -rw-r--r-- root       root              769 ./usr/share/wireshark/radius/dictionary.telkom
 -rw-r--r-- root       root              358 ./usr/share/wireshark/radius/dictionary.terena
 -rw-r--r-- root       root              648 ./usr/share/wireshark/radius/dictionary.trapeze
 -rw-r--r-- root       root             2753 ./usr/share/wireshark/radius/dictionary.travelping
 -rw-r--r-- root       root             2054 ./usr/share/wireshark/radius/dictionary.tropos
+-rw-r--r-- root       root             1151 ./usr/share/wireshark/radius/dictionary.t_systems_nova
 -rw-r--r-- root       root              338 ./usr/share/wireshark/radius/dictionary.ukerna
 -rw-r--r-- root       root              342 ./usr/share/wireshark/radius/dictionary.unix
 -rw-r--r-- root       root            74118 ./usr/share/wireshark/radius/dictionary.usr
@@ -363,6 +362,7 @@ drwxr-xr-x root       root             4020 ./usr/share/wireshark/radius
 -rw-r--r-- root       root              202 ./usr/share/wireshark/radius/dictionary.zeus
 -rw-r--r-- root       root             2557 ./usr/share/wireshark/radius/dictionary.zte
 -rw-r--r-- root       root              735 ./usr/share/wireshark/radius/dictionary.zyxel
+-rw-r--r-- root       root             3144 ./usr/share/wireshark/radius/README.radius_dictionary
 -rw-r--r-- root       root             4048 ./usr/share/wireshark/randpkt.html
 -rw-r--r-- root       root            24512 ./usr/share/wireshark/rawshark.html
 -rw-r--r-- root       root             3063 ./usr/share/wireshark/reordercap.html

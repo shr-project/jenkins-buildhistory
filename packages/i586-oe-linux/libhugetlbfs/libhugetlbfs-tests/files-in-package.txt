@@ -18,11 +18,11 @@ drwxr-xr-x root       root             1520 ./usr/lib/libhugetlbfs/tests/obj32
 -rwxr-xr-x root       root              249 ./usr/lib/libhugetlbfs/tests/obj32/fadvise_reserve.sh
 -rwxr-xr-x root       root            33536 ./usr/lib/libhugetlbfs/tests/obj32/find_path
 -rwxr-xr-x root       root            39768 ./usr/lib/libhugetlbfs/tests/obj32/fork-cow
--rwxr-xr-x root       root            35932 ./usr/lib/libhugetlbfs/tests/obj32/get_huge_pages
 -rwxr-xr-x root       root            39380 ./usr/lib/libhugetlbfs/tests/obj32/get_hugepage_region
--rwxr-xr-x root       root            10688 ./usr/lib/libhugetlbfs/tests/obj32/get_hugetlbfs_path
+-rwxr-xr-x root       root            35932 ./usr/lib/libhugetlbfs/tests/obj32/get_huge_pages
 -rwxr-xr-x root       root            33296 ./usr/lib/libhugetlbfs/tests/obj32/gethugepagesize
 -rwxr-xr-x root       root            55520 ./usr/lib/libhugetlbfs/tests/obj32/gethugepagesizes
+-rwxr-xr-x root       root            10688 ./usr/lib/libhugetlbfs/tests/obj32/get_hugetlbfs_path
 -rwxr-xr-x root       root            37748 ./usr/lib/libhugetlbfs/tests/obj32/heap-overflow
 -rwxr-xr-x root       root            28000 ./usr/lib/libhugetlbfs/tests/obj32/heapshrink
 -rwxr-xr-x root       root            40728 ./usr/lib/libhugetlbfs/tests/obj32/icache-hygiene
@@ -63,9 +63,9 @@ drwxr-xr-x root       root             1520 ./usr/lib/libhugetlbfs/tests/obj32
 -rwxr-xr-x root       root            31844 ./usr/lib/libhugetlbfs/tests/obj32/shm-fork
 -rwxr-xr-x root       root            30900 ./usr/lib/libhugetlbfs/tests/obj32/shm-getraw
 -rwxr-xr-x root       root            30232 ./usr/lib/libhugetlbfs/tests/obj32/shm-gettest
--rwxr-xr-x root       root            37832 ./usr/lib/libhugetlbfs/tests/obj32/shm-perms
 -rwxr-xr-x root       root            41484 ./usr/lib/libhugetlbfs/tests/obj32/shmoverride_linked
 -rwxr-xr-x root       root            34988 ./usr/lib/libhugetlbfs/tests/obj32/shmoverride_unlinked
+-rwxr-xr-x root       root            37832 ./usr/lib/libhugetlbfs/tests/obj32/shm-perms
 -rwxr-xr-x root       root            35516 ./usr/lib/libhugetlbfs/tests/obj32/slbpacaflush
 -rwxr-xr-x root       root            36504 ./usr/lib/libhugetlbfs/tests/obj32/stack_grow_into_huge
 -rwxr-xr-x root       root            37892 ./usr/lib/libhugetlbfs/tests/obj32/task-size-overrun

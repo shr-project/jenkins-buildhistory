@@ -2,16 +2,16 @@ drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              320 ./usr/bin
 -rwxr-xr-x root       root           348848 ./usr/bin/dirmngr
 -rwxr-xr-x root       root            93784 ./usr/bin/dirmngr-client
-lrwxrwxrwx root       root                4 ./usr/bin/gpg -> gpg2
--rwxr-xr-x root       root           360820 ./usr/bin/gpg-agent
--rwxr-xr-x root       root           142060 ./usr/bin/gpg-connect-agent
 -rwxr-xr-x root       root           947204 ./usr/bin/gpg2
+-rwxr-xr-x root       root           360820 ./usr/bin/gpg-agent
 -rwxr-xr-x root       root           119352 ./usr/bin/gpgconf
+-rwxr-xr-x root       root           142060 ./usr/bin/gpg-connect-agent
+lrwxrwxrwx root       root                4 ./usr/bin/gpg -> gpg2
 -rwxr-xr-x root       root            22424 ./usr/bin/gpgparsemail
 -rwxr-xr-x root       root           493344 ./usr/bin/gpgsm
 -rwxr-xr-x root       root           101952 ./usr/bin/gpgtar
-lrwxrwxrwx root       root                5 ./usr/bin/gpgv -> gpgv2
 -rwxr-xr-x root       root           433192 ./usr/bin/gpgv2
+lrwxrwxrwx root       root                5 ./usr/bin/gpgv -> gpgv2
 -rwxr-xr-x root       root           150172 ./usr/bin/kbxutil
 -rwxr-xr-x root       root            10792 ./usr/bin/watchgnupg
 drwxr-xr-x root       root              120 ./usr/libexec
@@ -46,8 +46,8 @@ drwxr-xr-x root       root              720 ./usr/share/gnupg
 -rw-r--r-- root       root            13620 ./usr/share/gnupg/help.ja.txt
 -rw-r--r-- root       root             9740 ./usr/share/gnupg/help.nb.txt
 -rw-r--r-- root       root             7534 ./usr/share/gnupg/help.pl.txt
--rw-r--r-- root       root             7872 ./usr/share/gnupg/help.pt.txt
 -rw-r--r-- root       root             7875 ./usr/share/gnupg/help.pt_BR.txt
+-rw-r--r-- root       root             7872 ./usr/share/gnupg/help.pt.txt
 -rw-r--r-- root       root             8111 ./usr/share/gnupg/help.ro.txt
 -rw-r--r-- root       root            11515 ./usr/share/gnupg/help.ru.txt
 -rw-r--r-- root       root             8084 ./usr/share/gnupg/help.sk.txt

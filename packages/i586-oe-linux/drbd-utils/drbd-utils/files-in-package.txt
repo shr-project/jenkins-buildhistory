@@ -34,8 +34,8 @@ lrwxrwxrwx root       root                9 ./usr/lib/drbd/notify-out-of-sync.sh
 lrwxrwxrwx root       root                9 ./usr/lib/drbd/notify-pri-lost-after-sb.sh -> notify.sh
 lrwxrwxrwx root       root                9 ./usr/lib/drbd/notify-pri-lost.sh -> notify.sh
 lrwxrwxrwx root       root                9 ./usr/lib/drbd/notify-pri-on-incon-degr.sh -> notify.sh
-lrwxrwxrwx root       root                9 ./usr/lib/drbd/notify-split-brain.sh -> notify.sh
 -rwxr-xr-x root       root             4141 ./usr/lib/drbd/notify.sh
+lrwxrwxrwx root       root                9 ./usr/lib/drbd/notify-split-brain.sh -> notify.sh
 -rwxr-xr-x root       root             3015 ./usr/lib/drbd/outdate-peer.sh
 -rwxr-xr-x root       root             2956 ./usr/lib/drbd/snapshot-resync-target-lvm.sh
 -rwxr-xr-x root       root             1840 ./usr/lib/drbd/stonith_admin-fence-peer.sh
@@ -43,9 +43,9 @@ lrwxrwxrwx root       root               29 ./usr/lib/drbd/unsnapshot-resync-tar
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -r--r--r-- root       root               29 ./usr/lib/tmpfiles.d/drbd.conf
 drwxr-xr-x root       root              120 ./usr/sbin
--rwxr-xr-x root       root            12172 ./usr/sbin/drbd-overview
 -rwxr-xr-x root       root           207880 ./usr/sbin/drbdadm
 -rwxr-xr-x root       root           118292 ./usr/sbin/drbdmeta
+-rwxr-xr-x root       root            12172 ./usr/sbin/drbd-overview
 -rwxr-xr-x root       root           124808 ./usr/sbin/drbdsetup
 drwxr-xr-x root       root               80 ./var
 drwxr-xr-x root       root               60 ./var/lib

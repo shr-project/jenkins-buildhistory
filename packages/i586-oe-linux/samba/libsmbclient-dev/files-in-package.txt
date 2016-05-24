@@ -28,10 +28,10 @@ drwxr-xr-x root       root              540 ./usr/include/samba-4.0/gen_ndr
 -rw-r--r-- root       root             5308 ./usr/include/samba-4.0/gen_ndr/ndr_krb5pac.h
 -rw-r--r-- root       root             3004 ./usr/include/samba-4.0/gen_ndr/ndr_misc.h
 -rw-r--r-- root       root            11333 ./usr/include/samba-4.0/gen_ndr/ndr_nbt.h
--rw-r--r-- root       root            25968 ./usr/include/samba-4.0/gen_ndr/ndr_samr.h
 -rw-r--r-- root       root            82036 ./usr/include/samba-4.0/gen_ndr/ndr_samr_c.h
--rw-r--r-- root       root            12677 ./usr/include/samba-4.0/gen_ndr/ndr_svcctl.h
+-rw-r--r-- root       root            25968 ./usr/include/samba-4.0/gen_ndr/ndr_samr.h
 -rw-r--r-- root       root            56105 ./usr/include/samba-4.0/gen_ndr/ndr_svcctl_c.h
+-rw-r--r-- root       root            12677 ./usr/include/samba-4.0/gen_ndr/ndr_svcctl.h
 -rw-r--r-- root       root            54345 ./usr/include/samba-4.0/gen_ndr/netlogon.h
 -rw-r--r-- root       root            45200 ./usr/include/samba-4.0/gen_ndr/samr.h
 -rw-r--r-- root       root            22286 ./usr/include/samba-4.0/gen_ndr/security.h
@@ -58,8 +58,8 @@ drwxr-xr-x root       root               80 ./usr/include/samba-4.0/samba
 -rw-r--r-- root       root              413 ./usr/include/samba-4.0/samba/version.h
 -rw-r--r-- root       root             5450 ./usr/include/samba-4.0/share.h
 -rw-r--r-- root       root              744 ./usr/include/samba-4.0/smb2_lease_struct.h
--rw-r--r-- root       root             3412 ./usr/include/samba-4.0/smb_ldap.h
 -rw-r--r-- root       root            15643 ./usr/include/samba-4.0/smbconf.h
+-rw-r--r-- root       root             3412 ./usr/include/samba-4.0/smb_ldap.h
 -rw-r--r-- root       root             5566 ./usr/include/samba-4.0/smbldap.h
 -rw-r--r-- root       root             4156 ./usr/include/samba-4.0/tdr.h
 -rw-r--r-- root       root            40728 ./usr/include/samba-4.0/tsocket.h
@@ -74,6 +74,7 @@ drwxr-xr-x root       root              440 ./usr/include/samba-4.0/util
 -rw-r--r-- root       root             1219 ./usr/include/samba-4.0/util/genrand.h
 -rw-r--r-- root       root             2116 ./usr/include/samba-4.0/util/idtree.h
 -rw-r--r-- root       root             1318 ./usr/include/samba-4.0/util/idtree_random.h
+-rw-r--r-- root       root             1555 ./usr/include/samba-4.0/util_ldb.h
 -rw-r--r-- root       root             3565 ./usr/include/samba-4.0/util/memory.h
 -rw-r--r-- root       root             1305 ./usr/include/samba-4.0/util/safe_string.h
 -rw-r--r-- root       root             1403 ./usr/include/samba-4.0/util/signal.h
@@ -85,7 +86,6 @@ drwxr-xr-x root       root              440 ./usr/include/samba-4.0/util
 -rw-r--r-- root       root             1542 ./usr/include/samba-4.0/util/tevent_werror.h
 -rw-r--r-- root       root             8121 ./usr/include/samba-4.0/util/time.h
 -rw-r--r-- root       root             2667 ./usr/include/samba-4.0/util/xfile.h
--rw-r--r-- root       root             1555 ./usr/include/samba-4.0/util_ldb.h
 -rw-r--r-- root       root            55578 ./usr/include/samba-4.0/wbclient.h
 drwxr-xr-x root       root               60 ./usr/lib
 lrwxrwxrwx root       root               21 ./usr/lib/libsmbclient.so -> libsmbclient.so.0.2.3

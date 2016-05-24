@@ -62,10 +62,10 @@ drwxr-xr-x root       root              520 ./usr/src/debug/multipath-tools/0.5.
 drwxr-xr-x root       root              160 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmpathpersist
 -rw-r--r-- root       root            22515 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmpathpersist/mpath_persist.c
 -rw-r--r-- root       root             8219 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmpathpersist/mpath_persist.h
+-rw-r--r-- root       root             1829 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmpathpersist/mpathpr.h
 -rw-r--r-- root       root            15323 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmpathpersist/mpath_pr_ioctl.c
 -rw-r--r-- root       root             3422 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmpathpersist/mpath_pr_ioctl.h
 -rw-r--r-- root       root             1209 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmpathpersist/mpath_updatepr.c
--rw-r--r-- root       root             1829 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmpathpersist/mpathpr.h
 drwxr-xr-x root       root             1420 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath
 -rw-r--r-- root       root             8028 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/alias.c
 -rw-r--r-- root       root              546 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/alias.h
@@ -75,11 +75,11 @@ drwxr-xr-x root       root             1420 ./usr/src/debug/multipath-tools/0.5.
 -rw-r--r-- root       root              156 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/callout.h
 drwxr-xr-x root       root              240 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers
 -rw-r--r-- root       root             4855 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers.c
--rw-r--r-- root       root             4318 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers.h
 -rw-r--r-- root       root             3027 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers/cciss.h
 -rw-r--r-- root       root             4054 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers/cciss_tur.c
 -rw-r--r-- root       root             4457 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers/directio.c
 -rw-r--r-- root       root             6254 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers/emc_clariion.c
+-rw-r--r-- root       root             4318 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers.h
 -rw-r--r-- root       root             3419 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers/hp_sw.c
 -rw-r--r-- root       root             2304 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers/libsg.c
 -rw-r--r-- root       root              212 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/libmultipath/checkers/libsg.h
@@ -164,7 +164,6 @@ drwxr-xr-x root       root               80 ./usr/src/debug/multipath-tools/0.5.
 -rw-r--r-- root       root            22107 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/mpathpersist/main.c
 -rw-r--r-- root       root              710 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/mpathpersist/main.h
 drwxr-xr-x root       root               60 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/multipath
--rw-r--r-- root       root            16747 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/multipath/main.c
 drwxr-xr-x root       root              260 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/multipathd
 -rw-r--r-- root       root            11038 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/multipathd/cli.c
 -rw-r--r-- root       root             2231 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/multipathd/cli.h
@@ -177,3 +176,4 @@ drwxr-xr-x root       root              260 ./usr/src/debug/multipath-tools/0.5.
 -rw-r--r-- root       root               48 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/multipathd/uxclnt.h
 -rw-r--r-- root       root             5148 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/multipathd/uxlsnr.c
 -rw-r--r-- root       root              284 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/multipathd/uxlsnr.h
+-rw-r--r-- root       root            16747 ./usr/src/debug/multipath-tools/0.5.0+git770e6d0da0-r0/git/multipath/main.c

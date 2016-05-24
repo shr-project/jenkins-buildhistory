@@ -7,21 +7,21 @@ drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root           346952 ./usr/bin/nm-applet
 -rwxr-xr-x root       root           447540 ./usr/bin/nm-connection-editor
 drwxr-xr-x root       root              100 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
--rw-r--r-- root       root            10000 ./usr/lib/girepository-1.0/NMGtk-1.0.typelib
-lrwxrwxrwx root       root               18 ./usr/lib/libnm-gtk.so.0 -> libnm-gtk.so.0.0.0
--rwxr-xr-x root       root           242460 ./usr/lib/libnm-gtk.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/libexec
 -rwxr-xr-x root       root            90992 ./usr/libexec/nm-applet-migration-tool
+drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
+-rw-r--r-- root       root            10000 ./usr/lib/girepository-1.0/NMGtk-1.0.typelib
+-rwxr-xr-x root       root           242460 ./usr/lib/libnm-gtk.so.0.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libnm-gtk.so.0 -> libnm-gtk.so.0.0.0
 drwxr-xr-x root       root              180 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/GConf
-drwxr-xr-x root       root               60 ./usr/share/GConf/gsettings
--rw-r--r-- root       root              484 ./usr/share/GConf/gsettings/nm-applet.convert
 drwxr-xr-x root       root               60 ./usr/share/appdata
 -rw-r--r-- root       root             4637 ./usr/share/appdata/org.gnome.nm-connection-editor.appdata.xml
 drwxr-xr-x root       root               80 ./usr/share/applications
 -rw-r--r-- root       root             5707 ./usr/share/applications/nm-applet.desktop
 -rw-r--r-- root       root             9704 ./usr/share/applications/nm-connection-editor.desktop
+drwxr-xr-x root       root               60 ./usr/share/GConf
+drwxr-xr-x root       root               60 ./usr/share/GConf/gsettings
+-rw-r--r-- root       root              484 ./usr/share/GConf/gsettings/nm-applet.convert
 drwxr-xr-x root       root               60 ./usr/share/glib-2.0
 drwxr-xr-x root       root               60 ./usr/share/glib-2.0/schemas
 -rw-r--r-- root       root             2506 ./usr/share/glib-2.0/schemas/org.gnome.nm-applet.gschema.xml

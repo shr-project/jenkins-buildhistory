@@ -5,18 +5,18 @@ drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root            12804 ./usr/bin/fontlint
 -rwxr-xr-x root       root             2625 ./usr/bin/sfddiff
 drwxr-xr-x root       root              280 ./usr/lib
-lrwxrwxrwx root       root               21 ./usr/lib/libfontforge.so.2 -> libfontforge.so.2.0.0
--rwxr-xr-x root       root          4393024 ./usr/lib/libfontforge.so.2.0.0
-lrwxrwxrwx root       root               24 ./usr/lib/libfontforgeexe.so.2 -> libfontforgeexe.so.2.0.0
 -rwxr-xr-x root       root          2938452 ./usr/lib/libfontforgeexe.so.2.0.0
-lrwxrwxrwx root       root               17 ./usr/lib/libgdraw.so.5 -> libgdraw.so.5.0.0
+lrwxrwxrwx root       root               24 ./usr/lib/libfontforgeexe.so.2 -> libfontforgeexe.so.2.0.0
+-rwxr-xr-x root       root          4393024 ./usr/lib/libfontforge.so.2.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libfontforge.so.2 -> libfontforge.so.2.0.0
 -rwxr-xr-x root       root           860812 ./usr/lib/libgdraw.so.5.0.0
-lrwxrwxrwx root       root               18 ./usr/lib/libgioftp.so.2 -> libgioftp.so.2.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libgdraw.so.5 -> libgdraw.so.5.0.0
 -rwxr-xr-x root       root            16384 ./usr/lib/libgioftp.so.2.0.0
-lrwxrwxrwx root       root               20 ./usr/lib/libgunicode.so.4 -> libgunicode.so.4.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libgioftp.so.2 -> libgioftp.so.2.0.0
 -rwxr-xr-x root       root          2377268 ./usr/lib/libgunicode.so.4.0.0
-lrwxrwxrwx root       root               18 ./usr/lib/libgutils.so.2 -> libgutils.so.2.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libgunicode.so.4 -> libgunicode.so.4.0.0
 -rwxr-xr-x root       root           118708 ./usr/lib/libgutils.so.2.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libgutils.so.2 -> libgutils.so.2.0.0
 drwxr-xr-x root       root              120 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/applications
 -rw-r--r-- root       root              997 ./usr/share/applications/fontforge.desktop
@@ -51,13 +51,10 @@ drwxr-xr-x root       root              120 ./usr/share/fontforge/nodejs/collabw
 -rw-r--r-- root       root                3 ./usr/share/fontforge/nodejs/collabwebview/package.json
 -rw-r--r-- root       root             2554 ./usr/share/fontforge/nodejs/collabwebview/server.js
 drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
--rw-r--r-- root       root            49276 ./usr/share/fontforge/pixmaps/Cantarell-Bold.ttf
 -rw-r--r-- root       root            52200 ./usr/share/fontforge/pixmaps/Cantarell-BoldOblique.ttf
+-rw-r--r-- root       root            49276 ./usr/share/fontforge/pixmaps/Cantarell-Bold.ttf
 -rw-r--r-- root       root            50068 ./usr/share/fontforge/pixmaps/Cantarell-Oblique.ttf
 -rw-r--r-- root       root            47504 ./usr/share/fontforge/pixmaps/Cantarell-Regular.ttf
--rw-r--r-- root       root            67724 ./usr/share/fontforge/pixmaps/Inconsolata-Bold.ttf
--rw-r--r-- root       root            84868 ./usr/share/fontforge/pixmaps/Inconsolata-Regular.ttf
--rw-r--r-- root       root             4473 ./usr/share/fontforge/pixmaps/OFL.txt
 -rw-r--r-- root       root              566 ./usr/share/fontforge/pixmaps/changeweight.png
 -rw-r--r-- root       root              308 ./usr/share/fontforge/pixmaps/charviewicon.xbm
 -rw-r--r-- root       root              128 ./usr/share/fontforge/pixmaps/check_off.png
@@ -96,13 +93,13 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              391 ./usr/share/fontforge/pixmaps/chooservideo.png
 -rw-r--r-- root       root              870 ./usr/share/fontforge/pixmaps/colorwheel.png
 -rw-r--r-- root       root              214 ./usr/share/fontforge/pixmaps/downarrow.png
--rw-r--r-- root       root              732 ./usr/share/fontforge/pixmaps/editclear.png
 -rw-r--r-- root       root              934 ./usr/share/fontforge/pixmaps/editclearback.png
--rw-r--r-- root       root              443 ./usr/share/fontforge/pixmaps/editcopy.png
+-rw-r--r-- root       root              732 ./usr/share/fontforge/pixmaps/editclear.png
 -rw-r--r-- root       root              698 ./usr/share/fontforge/pixmaps/editcopyfg2bg.png
 -rw-r--r-- root       root              592 ./usr/share/fontforge/pixmaps/editcopylayer2layer.png
 -rw-r--r-- root       root              636 ./usr/share/fontforge/pixmaps/editcopylbearing.png
 -rw-r--r-- root       root              670 ./usr/share/fontforge/pixmaps/editcopylookupdata.png
+-rw-r--r-- root       root              443 ./usr/share/fontforge/pixmaps/editcopy.png
 -rw-r--r-- root       root              645 ./usr/share/fontforge/pixmaps/editcopyrbearing.png
 -rw-r--r-- root       root              615 ./usr/share/fontforge/pixmaps/editcopyref.png
 -rw-r--r-- root       root              577 ./usr/share/fontforge/pixmaps/editcopyvwidth.png
@@ -112,9 +109,9 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              775 ./usr/share/fontforge/pixmaps/editjoin.png
 -rw-r--r-- root       root              888 ./usr/share/fontforge/pixmaps/editmerge.png
 -rw-r--r-- root       root              888 ./usr/share/fontforge/pixmaps/editmergetoline.png
--rw-r--r-- root       root              593 ./usr/share/fontforge/pixmaps/editpaste.png
 -rw-r--r-- root       root              683 ./usr/share/fontforge/pixmaps/editpasteafter.png
 -rw-r--r-- root       root              755 ./usr/share/fontforge/pixmaps/editpasteinto.png
+-rw-r--r-- root       root              593 ./usr/share/fontforge/pixmaps/editpaste.png
 -rw-r--r-- root       root              591 ./usr/share/fontforge/pixmaps/editredo.png
 -rw-r--r-- root       root              792 ./usr/share/fontforge/pixmaps/editrmundoes.png
 -rw-r--r-- root       root              839 ./usr/share/fontforge/pixmaps/editrplref.png
@@ -159,18 +156,18 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              343 ./usr/share/fontforge/pixmaps/elementvbaselines.png
 -rw-r--r-- root       root              269 ./usr/share/fontforge/pixmaps/exclude.png
 -rw-r--r-- root       root              572 ./usr/share/fontforge/pixmaps/extendcondense.png
--rw-r--r-- root       root              395 ./usr/share/fontforge/pixmaps/fflogo.png
 -rw-r--r-- root       root              395 ./usr/share/fontforge/pixmaps/fflogo13.png
+-rw-r--r-- root       root              395 ./usr/share/fontforge/pixmaps/fflogo.png
 -rw-r--r-- root       root            91255 ./usr/share/fontforge/pixmaps/ffsplash1.png
 -rw-r--r-- root       root             6310 ./usr/share/fontforge/pixmaps/ffsplash2.png
 -rw-r--r-- root       root             5364 ./usr/share/fontforge/pixmaps/ffsplash3.png
--rw-r--r-- root       root              722 ./usr/share/fontforge/pixmaps/fileclose.png
 -rw-r--r-- root       root              722 ./usr/share/fontforge/pixmaps/fileclose2.png
+-rw-r--r-- root       root              722 ./usr/share/fontforge/pixmaps/fileclose.png
 -rw-r--r-- root       root              660 ./usr/share/fontforge/pixmaps/filedisplay.png
 -rw-r--r-- root       root              946 ./usr/share/fontforge/pixmaps/fileexecute.png
 -rw-r--r-- root       root              703 ./usr/share/fontforge/pixmaps/fileexport.png
--rw-r--r-- root       root              602 ./usr/share/fontforge/pixmaps/filegenerate.png
 -rw-r--r-- root       root              658 ./usr/share/fontforge/pixmaps/filegeneratefamily.png
+-rw-r--r-- root       root              602 ./usr/share/fontforge/pixmaps/filegenerate.png
 -rw-r--r-- root       root              616 ./usr/share/fontforge/pixmaps/fileimport.png
 -rw-r--r-- root       root              783 ./usr/share/fontforge/pixmaps/filemergefeature.png
 -rw-r--r-- root       root              477 ./usr/share/fontforge/pixmaps/filenew.png
@@ -179,12 +176,12 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              544 ./usr/share/fontforge/pixmaps/fileprint.png
 -rw-r--r-- root       root              799 ./usr/share/fontforge/pixmaps/filequit.png
 -rw-r--r-- root       root              809 ./usr/share/fontforge/pixmaps/filerecent.png
--rw-r--r-- root       root              889 ./usr/share/fontforge/pixmaps/filerevert.png
 -rw-r--r-- root       root              572 ./usr/share/fontforge/pixmaps/filerevertbackup.png
 -rw-r--r-- root       root              957 ./usr/share/fontforge/pixmaps/filerevertglyph.png
--rw-r--r-- root       root              871 ./usr/share/fontforge/pixmaps/filesave.png
+-rw-r--r-- root       root              889 ./usr/share/fontforge/pixmaps/filerevert.png
 -rw-r--r-- root       root              913 ./usr/share/fontforge/pixmaps/filesaveall.png
 -rw-r--r-- root       root              906 ./usr/share/fontforge/pixmaps/filesaveas.png
+-rw-r--r-- root       root              871 ./usr/share/fontforge/pixmaps/filesave.png
 -rw-r--r-- root       root              270 ./usr/share/fontforge/pixmaps/findinter.png
 -rw-r--r-- root       root              176 ./usr/share/fontforge/pixmaps/fliphor.png
 -rw-r--r-- root       root              183 ./usr/share/fontforge/pixmaps/flipvert.png
@@ -201,6 +198,8 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              235 ./usr/share/fontforge/pixmaps/hintsclearvstems.png
 -rw-r--r-- root       root              241 ./usr/share/fontforge/pixmaps/hintsdontautohint.png
 -rw-r--r-- root       root              244 ./usr/share/fontforge/pixmaps/hintsreviewhints.png
+-rw-r--r-- root       root            67724 ./usr/share/fontforge/pixmaps/Inconsolata-Bold.ttf
+-rw-r--r-- root       root            84868 ./usr/share/fontforge/pixmaps/Inconsolata-Regular.ttf
 -rw-r--r-- root       root              556 ./usr/share/fontforge/pixmaps/inline.png
 -rw-r--r-- root       root              286 ./usr/share/fontforge/pixmaps/intersection.png
 -rw-r--r-- root       root              884 ./usr/share/fontforge/pixmaps/logo.xbm
@@ -211,6 +210,7 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              222 ./usr/share/fontforge/pixmaps/metricssetvwidth.png
 -rw-r--r-- root       root              211 ./usr/share/fontforge/pixmaps/metricssetwidth.png
 -rw-r--r-- root       root              581 ./usr/share/fontforge/pixmaps/oblique.png
+-rw-r--r-- root       root             4473 ./usr/share/fontforge/pixmaps/OFL.txt
 -rw-r--r-- root       root              529 ./usr/share/fontforge/pixmaps/outline.png
 -rw-r--r-- root       root              686 ./usr/share/fontforge/pixmaps/overlapexclude.png
 -rw-r--r-- root       root              753 ./usr/share/fontforge/pixmaps/overlapfindinter.png
@@ -227,8 +227,8 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root             1139 ./usr/share/fontforge/pixmaps/paletteknife.png
 -rw-r--r-- root       root              247 ./usr/share/fontforge/pixmaps/paletteline.png
 -rw-r--r-- root       root             1234 ./usr/share/fontforge/pixmaps/palettemagnify.png
--rw-r--r-- root       root             1134 ./usr/share/fontforge/pixmaps/palettepen.png
 -rw-r--r-- root       root              255 ./usr/share/fontforge/pixmaps/palettepencil.png
+-rw-r--r-- root       root             1134 ./usr/share/fontforge/pixmaps/palettepen.png
 -rw-r--r-- root       root              797 ./usr/share/fontforge/pixmaps/paletteperspective.png
 -rw-r--r-- root       root              842 ./usr/share/fontforge/pixmaps/palettepointer.png
 -rw-r--r-- root       root             1047 ./usr/share/fontforge/pixmaps/palettepoly.png
@@ -247,8 +247,8 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              561 ./usr/share/fontforge/pixmaps/palettesmallhvcurve.png
 -rw-r--r-- root       root              759 ./usr/share/fontforge/pixmaps/palettesmallknife.png
 -rw-r--r-- root       root              782 ./usr/share/fontforge/pixmaps/palettesmallmag.png
--rw-r--r-- root       root              789 ./usr/share/fontforge/pixmaps/palettesmallpen.png
 -rw-r--r-- root       root              799 ./usr/share/fontforge/pixmaps/palettesmallpencil.png
+-rw-r--r-- root       root              789 ./usr/share/fontforge/pixmaps/palettesmallpen.png
 -rw-r--r-- root       root              463 ./usr/share/fontforge/pixmaps/palettesmallperspective.png
 -rw-r--r-- root       root              775 ./usr/share/fontforge/pixmaps/palettesmallpointer.png
 -rw-r--r-- root       root              671 ./usr/share/fontforge/pixmaps/palettesmallpoly.png
@@ -274,10 +274,10 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root             1194 ./usr/share/fontforge/pixmaps/palettespiroup.png
 -rw-r--r-- root       root             1235 ./usr/share/fontforge/pixmaps/palettestar.png
 -rw-r--r-- root       root              236 ./usr/share/fontforge/pixmaps/palettetangent.png
--rw-r--r-- root       root              611 ./usr/share/fontforge/pixmaps/pointsG2curve.png
 -rw-r--r-- root       root              542 ./usr/share/fontforge/pixmaps/pointsaddanchor.png
 -rw-r--r-- root       root              629 ./usr/share/fontforge/pixmaps/pointscorner.png
 -rw-r--r-- root       root              647 ./usr/share/fontforge/pixmaps/pointscurve.png
+-rw-r--r-- root       root              611 ./usr/share/fontforge/pixmaps/pointsG2curve.png
 -rw-r--r-- root       root              600 ./usr/share/fontforge/pixmaps/pointshvcurve.png
 -rw-r--r-- root       root              591 ./usr/share/fontforge/pixmaps/pointsmakearc.png
 -rw-r--r-- root       root              547 ./usr/share/fontforge/pixmaps/pointsmakeline.png
@@ -350,8 +350,8 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              186 ./usr/share/fontforge/pixmaps/ttdebugstepinto.png
 -rw-r--r-- root       root              185 ./usr/share/fontforge/pixmaps/ttdebugstepout.png
 -rw-r--r-- root       root              183 ./usr/share/fontforge/pixmaps/ttdebugstepover.png
--rw-r--r-- root       root              235 ./usr/share/fontforge/pixmaps/ttdebugstop.png
 -rw-r--r-- root       root              233 ./usr/share/fontforge/pixmaps/ttdebugstopped.png
+-rw-r--r-- root       root              235 ./usr/share/fontforge/pixmaps/ttdebugstop.png
 -rw-r--r-- root       root              208 ./usr/share/fontforge/pixmaps/ttdebugwatchpnt.png
 -rw-r--r-- root       root              343 ./usr/share/fontforge/pixmaps/viewbiggersize.png
 -rw-r--r-- root       root              824 ./usr/share/fontforge/pixmaps/viewfindinfont.png
@@ -361,11 +361,11 @@ drwxr-xr-x root       root             6440 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              211 ./usr/share/fontforge/pixmaps/viewinsertafter.png
 -rw-r--r-- root       root              210 ./usr/share/fontforge/pixmaps/viewinsertbefore.png
 -rw-r--r-- root       root              343 ./usr/share/fontforge/pixmaps/viewlayers.png
--rw-r--r-- root       root              322 ./usr/share/fontforge/pixmaps/viewnext.png
 -rw-r--r-- root       root              332 ./usr/share/fontforge/pixmaps/viewnextdef.png
+-rw-r--r-- root       root              322 ./usr/share/fontforge/pixmaps/viewnext.png
 -rw-r--r-- root       root              343 ./usr/share/fontforge/pixmaps/viewpalettes.png
--rw-r--r-- root       root              323 ./usr/share/fontforge/pixmaps/viewprev.png
 -rw-r--r-- root       root              330 ./usr/share/fontforge/pixmaps/viewprevdef.png
+-rw-r--r-- root       root              323 ./usr/share/fontforge/pixmaps/viewprev.png
 -rw-r--r-- root       root              211 ./usr/share/fontforge/pixmaps/viewreplace.png
 -rw-r--r-- root       root              343 ./usr/share/fontforge/pixmaps/viewsmallersize.png
 -rw-r--r-- root       root              789 ./usr/share/fontforge/pixmaps/viewzoomin.png

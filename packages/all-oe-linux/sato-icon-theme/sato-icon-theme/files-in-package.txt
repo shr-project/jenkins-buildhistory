@@ -51,10 +51,10 @@ lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/16x16/actions
 lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/16x16/actions/player_stop.png -> media-playback-stop.png
 -rw-r--r-- root       root              592 ./usr/share/icons/Sato/16x16/actions/process-stop.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/16x16/actions/redhat-home.png -> go-home.png
-lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/16x16/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/16x16/actions/reload3.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/16x16/actions/reload_all_tabs.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/16x16/actions/reload_page.png -> view-refresh.png
+lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/16x16/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/16x16/actions/stock_home.png -> go-home.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/16x16/actions/stock_media-next.png -> media-skip-forward.png
 lrwxrwxrwx root       root               24 ./usr/share/icons/Sato/16x16/actions/stock_media-pause.png -> media-playback-pause.png
@@ -86,8 +86,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/16x16/apps/ko
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/16x16/apps/openterm.png -> utilities-terminal.png
 -rw-r--r-- root       root              432 ./usr/share/icons/Sato/16x16/apps/panel-task-switcher.png
 -rw-r--r-- root       root              393 ./usr/share/icons/Sato/16x16/apps/panel-user-desktop.png
--rw-r--r-- root       root              554 ./usr/share/icons/Sato/16x16/apps/preferences-desktop-theme.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/16x16/apps/preferences-desktop.png -> preferences-system.png
+-rw-r--r-- root       root              554 ./usr/share/icons/Sato/16x16/apps/preferences-desktop-theme.png
 -rw-r--r-- root       root              447 ./usr/share/icons/Sato/16x16/apps/preferences-system.png
 lrwxrwxrwx root       root               29 ./usr/share/icons/Sato/16x16/apps/style.png -> preferences-desktop-theme.png
 -rw-r--r-- root       root              585 ./usr/share/icons/Sato/16x16/apps/sync.png
@@ -103,8 +103,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/16x16/apps/xf
 drwxr-xr-x root       root              360 ./usr/share/icons/Sato/16x16/devices
 -rw-r--r-- root       root              361 ./usr/share/icons/Sato/16x16/devices/drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/devices/gnome-dev-harddisk-1394.png -> drive-harddisk.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/devices/gnome-dev-harddisk.png -> drive-harddisk.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/16x16/devices/gnome-dev-media-cf.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/16x16/devices/gnome-dev-media-ms.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/16x16/devices/gnome-dev-media-sdmmc.png -> media-flash.png
@@ -113,8 +113,8 @@ lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/devices
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/devices/harddrive.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/devices/hdd_unmount.png -> drive-harddisk.png
 -rw-r--r-- root       root              291 ./usr/share/icons/Sato/16x16/devices/media-flash-cf.png
--rw-r--r-- root       root              386 ./usr/share/icons/Sato/16x16/devices/media-flash-sd.png
 -rw-r--r-- root       root              328 ./usr/share/icons/Sato/16x16/devices/media-flash.png
+-rw-r--r-- root       root              386 ./usr/share/icons/Sato/16x16/devices/media-flash-sd.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/devices/yast_HD.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/devices/yast_idetude.png -> drive-harddisk.png
 drwxr-xr-x root       root              660 ./usr/share/icons/Sato/16x16/mimetypes
@@ -129,11 +129,11 @@ lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/16x16/mimetyp
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/16x16/mimetypes/gnome-mime-application-x-killustrator.png -> image-x-generic.png
 lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/16x16/mimetypes/gnome-mime-application-x-ms-dos-executable.png -> application-x-executable.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/16x16/mimetypes/gnome-mime-image.png -> image-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/mimetypes/gnome-mime-text.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/16x16/mimetypes/gnome-mime-text-x-vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/16x16/mimetypes/gnome-mime-text-x-vcard.png -> x-office-address-book.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/mimetypes/gnome-mime-text.png -> text-x-generic.png
--rw-r--r-- root       root              428 ./usr/share/icons/Sato/16x16/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/16x16/mimetypes/image.png -> image-x-generic.png
+-rw-r--r-- root       root              428 ./usr/share/icons/Sato/16x16/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/mimetypes/mime_ascii.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/mimetypes/misc.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/mimetypes/package_editors.png -> text-x-generic.png
@@ -141,8 +141,8 @@ lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/16x16/mimetyp
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/16x16/mimetypes/stock_addressbook.png -> x-office-address-book.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/16x16/mimetypes/stock_calendar.png -> x-office-calendar.png
 -rw-r--r-- root       root              258 ./usr/share/icons/Sato/16x16/mimetypes/text-x-generic.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/mimetypes/txt2.png -> text-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/16x16/mimetypes/unknown.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/16x16/mimetypes/vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/16x16/mimetypes/vcard.png -> x-office-address-book.png
@@ -238,10 +238,10 @@ lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/22x22/actions
 lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/22x22/actions/player_stop.png -> media-playback-stop.png
 -rw-r--r-- root       root              873 ./usr/share/icons/Sato/22x22/actions/process-stop.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/22x22/actions/redhat-home.png -> go-home.png
-lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/22x22/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/22x22/actions/reload3.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/22x22/actions/reload_all_tabs.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/22x22/actions/reload_page.png -> view-refresh.png
+lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/22x22/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/22x22/actions/stock_home.png -> go-home.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/22x22/actions/stock_media-next.png -> media-skip-forward.png
 lrwxrwxrwx root       root               24 ./usr/share/icons/Sato/22x22/actions/stock_media-pause.png -> media-playback-pause.png
@@ -314,8 +314,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/22x22/apps/ko
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/22x22/apps/openterm.png -> utilities-terminal.png
 -rw-r--r-- root       root              636 ./usr/share/icons/Sato/22x22/apps/panel-task-switcher.png
 -rw-r--r-- root       root              517 ./usr/share/icons/Sato/22x22/apps/panel-user-desktop.png
--rw-r--r-- root       root              814 ./usr/share/icons/Sato/22x22/apps/preferences-desktop-theme.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/22x22/apps/preferences-desktop.png -> preferences-system.png
+-rw-r--r-- root       root              814 ./usr/share/icons/Sato/22x22/apps/preferences-desktop-theme.png
 -rw-r--r-- root       root              583 ./usr/share/icons/Sato/22x22/apps/preferences-system.png
 lrwxrwxrwx root       root               29 ./usr/share/icons/Sato/22x22/apps/style.png -> preferences-desktop-theme.png
 -rw-r--r-- root       root              821 ./usr/share/icons/Sato/22x22/apps/sync.png
@@ -331,8 +331,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/22x22/apps/xf
 drwxr-xr-x root       root              360 ./usr/share/icons/Sato/22x22/devices
 -rw-r--r-- root       root              475 ./usr/share/icons/Sato/22x22/devices/drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/devices/gnome-dev-harddisk-1394.png -> drive-harddisk.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/devices/gnome-dev-harddisk.png -> drive-harddisk.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/22x22/devices/gnome-dev-media-cf.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/22x22/devices/gnome-dev-media-ms.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/22x22/devices/gnome-dev-media-sdmmc.png -> media-flash.png
@@ -341,8 +341,8 @@ lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/devices
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/devices/harddrive.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/devices/hdd_unmount.png -> drive-harddisk.png
 -rw-r--r-- root       root              342 ./usr/share/icons/Sato/22x22/devices/media-flash-cf.png
--rw-r--r-- root       root              483 ./usr/share/icons/Sato/22x22/devices/media-flash-sd.png
 -rw-r--r-- root       root              407 ./usr/share/icons/Sato/22x22/devices/media-flash.png
+-rw-r--r-- root       root              483 ./usr/share/icons/Sato/22x22/devices/media-flash-sd.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/devices/yast_HD.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/devices/yast_idetude.png -> drive-harddisk.png
 drwxr-xr-x root       root              660 ./usr/share/icons/Sato/22x22/mimetypes
@@ -357,11 +357,11 @@ lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/22x22/mimetyp
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/22x22/mimetypes/gnome-mime-application-x-killustrator.png -> image-x-generic.png
 lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/22x22/mimetypes/gnome-mime-application-x-ms-dos-executable.png -> application-x-executable.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/22x22/mimetypes/gnome-mime-image.png -> image-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/mimetypes/gnome-mime-text.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/22x22/mimetypes/gnome-mime-text-x-vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/22x22/mimetypes/gnome-mime-text-x-vcard.png -> x-office-address-book.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/mimetypes/gnome-mime-text.png -> text-x-generic.png
--rw-r--r-- root       root              597 ./usr/share/icons/Sato/22x22/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/22x22/mimetypes/image.png -> image-x-generic.png
+-rw-r--r-- root       root              597 ./usr/share/icons/Sato/22x22/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/mimetypes/mime_ascii.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/mimetypes/misc.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/mimetypes/package_editors.png -> text-x-generic.png
@@ -369,8 +369,8 @@ lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/22x22/mimetyp
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/22x22/mimetypes/stock_addressbook.png -> x-office-address-book.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/22x22/mimetypes/stock_calendar.png -> x-office-calendar.png
 -rw-r--r-- root       root              353 ./usr/share/icons/Sato/22x22/mimetypes/text-x-generic.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/mimetypes/txt2.png -> text-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/22x22/mimetypes/unknown.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/22x22/mimetypes/vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/22x22/mimetypes/vcard.png -> x-office-address-book.png
@@ -466,10 +466,10 @@ lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/32x32/actions
 lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/32x32/actions/player_stop.png -> media-playback-stop.png
 -rw-r--r-- root       root             1367 ./usr/share/icons/Sato/32x32/actions/process-stop.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/32x32/actions/redhat-home.png -> go-home.png
-lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/32x32/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/32x32/actions/reload3.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/32x32/actions/reload_all_tabs.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/32x32/actions/reload_page.png -> view-refresh.png
+lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/32x32/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/32x32/actions/stock_home.png -> go-home.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/32x32/actions/stock_media-next.png -> media-skip-forward.png
 lrwxrwxrwx root       root               24 ./usr/share/icons/Sato/32x32/actions/stock_media-pause.png -> media-playback-pause.png
@@ -501,8 +501,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/32x32/apps/ko
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/32x32/apps/openterm.png -> utilities-terminal.png
 -rw-r--r-- root       root              965 ./usr/share/icons/Sato/32x32/apps/panel-task-switcher.png
 -rw-r--r-- root       root              734 ./usr/share/icons/Sato/32x32/apps/panel-user-desktop.png
--rw-r--r-- root       root             1210 ./usr/share/icons/Sato/32x32/apps/preferences-desktop-theme.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/32x32/apps/preferences-desktop.png -> preferences-system.png
+-rw-r--r-- root       root             1210 ./usr/share/icons/Sato/32x32/apps/preferences-desktop-theme.png
 -rw-r--r-- root       root              884 ./usr/share/icons/Sato/32x32/apps/preferences-system.png
 lrwxrwxrwx root       root               29 ./usr/share/icons/Sato/32x32/apps/style.png -> preferences-desktop-theme.png
 -rw-r--r-- root       root             1248 ./usr/share/icons/Sato/32x32/apps/sync.png
@@ -518,8 +518,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/32x32/apps/xf
 drwxr-xr-x root       root              360 ./usr/share/icons/Sato/32x32/devices
 -rw-r--r-- root       root              671 ./usr/share/icons/Sato/32x32/devices/drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/devices/gnome-dev-harddisk-1394.png -> drive-harddisk.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/devices/gnome-dev-harddisk.png -> drive-harddisk.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/32x32/devices/gnome-dev-media-cf.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/32x32/devices/gnome-dev-media-ms.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/32x32/devices/gnome-dev-media-sdmmc.png -> media-flash.png
@@ -528,8 +528,8 @@ lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/devices
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/devices/harddrive.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/devices/hdd_unmount.png -> drive-harddisk.png
 -rw-r--r-- root       root              510 ./usr/share/icons/Sato/32x32/devices/media-flash-cf.png
--rw-r--r-- root       root              737 ./usr/share/icons/Sato/32x32/devices/media-flash-sd.png
 -rw-r--r-- root       root              554 ./usr/share/icons/Sato/32x32/devices/media-flash.png
+-rw-r--r-- root       root              737 ./usr/share/icons/Sato/32x32/devices/media-flash-sd.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/devices/yast_HD.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/devices/yast_idetude.png -> drive-harddisk.png
 drwxr-xr-x root       root              660 ./usr/share/icons/Sato/32x32/mimetypes
@@ -544,11 +544,11 @@ lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/32x32/mimetyp
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/32x32/mimetypes/gnome-mime-application-x-killustrator.png -> image-x-generic.png
 lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/32x32/mimetypes/gnome-mime-application-x-ms-dos-executable.png -> application-x-executable.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/32x32/mimetypes/gnome-mime-image.png -> image-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/mimetypes/gnome-mime-text.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/32x32/mimetypes/gnome-mime-text-x-vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/32x32/mimetypes/gnome-mime-text-x-vcard.png -> x-office-address-book.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/mimetypes/gnome-mime-text.png -> text-x-generic.png
--rw-r--r-- root       root              774 ./usr/share/icons/Sato/32x32/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/32x32/mimetypes/image.png -> image-x-generic.png
+-rw-r--r-- root       root              774 ./usr/share/icons/Sato/32x32/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/mimetypes/mime_ascii.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/mimetypes/misc.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/mimetypes/package_editors.png -> text-x-generic.png
@@ -556,8 +556,8 @@ lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/32x32/mimetyp
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/32x32/mimetypes/stock_addressbook.png -> x-office-address-book.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/32x32/mimetypes/stock_calendar.png -> x-office-calendar.png
 -rw-r--r-- root       root              458 ./usr/share/icons/Sato/32x32/mimetypes/text-x-generic.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/mimetypes/txt2.png -> text-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/32x32/mimetypes/unknown.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/32x32/mimetypes/vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/32x32/mimetypes/vcard.png -> x-office-address-book.png
@@ -653,10 +653,10 @@ lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/48x48/actions
 lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/48x48/actions/player_stop.png -> media-playback-stop.png
 -rw-r--r-- root       root             2495 ./usr/share/icons/Sato/48x48/actions/process-stop.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/48x48/actions/redhat-home.png -> go-home.png
-lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/48x48/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/48x48/actions/reload3.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/48x48/actions/reload_all_tabs.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/48x48/actions/reload_page.png -> view-refresh.png
+lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/48x48/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/48x48/actions/stock_home.png -> go-home.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/48x48/actions/stock_media-next.png -> media-skip-forward.png
 lrwxrwxrwx root       root               24 ./usr/share/icons/Sato/48x48/actions/stock_media-pause.png -> media-playback-pause.png
@@ -688,8 +688,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/48x48/apps/ko
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/48x48/apps/openterm.png -> utilities-terminal.png
 -rw-r--r-- root       root             1588 ./usr/share/icons/Sato/48x48/apps/panel-task-switcher.png
 -rw-r--r-- root       root             1115 ./usr/share/icons/Sato/48x48/apps/panel-user-desktop.png
--rw-r--r-- root       root             2537 ./usr/share/icons/Sato/48x48/apps/preferences-desktop-theme.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/48x48/apps/preferences-desktop.png -> preferences-system.png
+-rw-r--r-- root       root             2537 ./usr/share/icons/Sato/48x48/apps/preferences-desktop-theme.png
 -rw-r--r-- root       root             1431 ./usr/share/icons/Sato/48x48/apps/preferences-system.png
 lrwxrwxrwx root       root               29 ./usr/share/icons/Sato/48x48/apps/style.png -> preferences-desktop-theme.png
 -rw-r--r-- root       root             2045 ./usr/share/icons/Sato/48x48/apps/sync.png
@@ -705,8 +705,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/48x48/apps/xf
 drwxr-xr-x root       root              360 ./usr/share/icons/Sato/48x48/devices
 -rw-r--r-- root       root              984 ./usr/share/icons/Sato/48x48/devices/drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/devices/gnome-dev-harddisk-1394.png -> drive-harddisk.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/devices/gnome-dev-harddisk.png -> drive-harddisk.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/48x48/devices/gnome-dev-media-cf.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/48x48/devices/gnome-dev-media-ms.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/48x48/devices/gnome-dev-media-sdmmc.png -> media-flash.png
@@ -715,8 +715,8 @@ lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/devices
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/devices/harddrive.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/devices/hdd_unmount.png -> drive-harddisk.png
 -rw-r--r-- root       root              864 ./usr/share/icons/Sato/48x48/devices/media-flash-cf.png
--rw-r--r-- root       root             1121 ./usr/share/icons/Sato/48x48/devices/media-flash-sd.png
 -rw-r--r-- root       root              749 ./usr/share/icons/Sato/48x48/devices/media-flash.png
+-rw-r--r-- root       root             1121 ./usr/share/icons/Sato/48x48/devices/media-flash-sd.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/devices/yast_HD.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/devices/yast_idetude.png -> drive-harddisk.png
 drwxr-xr-x root       root              660 ./usr/share/icons/Sato/48x48/mimetypes
@@ -731,11 +731,11 @@ lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/48x48/mimetyp
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/48x48/mimetypes/gnome-mime-application-x-killustrator.png -> image-x-generic.png
 lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/48x48/mimetypes/gnome-mime-application-x-ms-dos-executable.png -> application-x-executable.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/48x48/mimetypes/gnome-mime-image.png -> image-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/mimetypes/gnome-mime-text.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/48x48/mimetypes/gnome-mime-text-x-vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/48x48/mimetypes/gnome-mime-text-x-vcard.png -> x-office-address-book.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/mimetypes/gnome-mime-text.png -> text-x-generic.png
--rw-r--r-- root       root             1091 ./usr/share/icons/Sato/48x48/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/48x48/mimetypes/image.png -> image-x-generic.png
+-rw-r--r-- root       root             1091 ./usr/share/icons/Sato/48x48/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/mimetypes/mime_ascii.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/mimetypes/misc.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/mimetypes/package_editors.png -> text-x-generic.png
@@ -743,8 +743,8 @@ lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/48x48/mimetyp
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/48x48/mimetypes/stock_addressbook.png -> x-office-address-book.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/48x48/mimetypes/stock_calendar.png -> x-office-calendar.png
 -rw-r--r-- root       root              844 ./usr/share/icons/Sato/48x48/mimetypes/text-x-generic.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/mimetypes/txt2.png -> text-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/48x48/mimetypes/unknown.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/48x48/mimetypes/vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/48x48/mimetypes/vcard.png -> x-office-address-book.png
@@ -840,10 +840,10 @@ lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/64x64/actions
 lrwxrwxrwx root       root               23 ./usr/share/icons/Sato/64x64/actions/player_stop.png -> media-playback-stop.png
 -rw-r--r-- root       root             3093 ./usr/share/icons/Sato/64x64/actions/process-stop.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/64x64/actions/redhat-home.png -> go-home.png
-lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/64x64/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/64x64/actions/reload3.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/64x64/actions/reload_all_tabs.png -> view-refresh.png
 lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/64x64/actions/reload_page.png -> view-refresh.png
+lrwxrwxrwx root       root               16 ./usr/share/icons/Sato/64x64/actions/reload.png -> view-refresh.png
 lrwxrwxrwx root       root               11 ./usr/share/icons/Sato/64x64/actions/stock_home.png -> go-home.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/64x64/actions/stock_media-next.png -> media-skip-forward.png
 lrwxrwxrwx root       root               24 ./usr/share/icons/Sato/64x64/actions/stock_media-pause.png -> media-playback-pause.png
@@ -875,8 +875,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/64x64/apps/ko
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/64x64/apps/openterm.png -> utilities-terminal.png
 -rw-r--r-- root       root             2328 ./usr/share/icons/Sato/64x64/apps/panel-task-switcher.png
 -rw-r--r-- root       root             1491 ./usr/share/icons/Sato/64x64/apps/panel-user-desktop.png
--rw-r--r-- root       root             3351 ./usr/share/icons/Sato/64x64/apps/preferences-desktop-theme.png
 lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/64x64/apps/preferences-desktop.png -> preferences-system.png
+-rw-r--r-- root       root             3351 ./usr/share/icons/Sato/64x64/apps/preferences-desktop-theme.png
 -rw-r--r-- root       root             2042 ./usr/share/icons/Sato/64x64/apps/preferences-system.png
 lrwxrwxrwx root       root               29 ./usr/share/icons/Sato/64x64/apps/style.png -> preferences-desktop-theme.png
 -rw-r--r-- root       root             2925 ./usr/share/icons/Sato/64x64/apps/sync.png
@@ -892,8 +892,8 @@ lrwxrwxrwx root       root               22 ./usr/share/icons/Sato/64x64/apps/xf
 drwxr-xr-x root       root              360 ./usr/share/icons/Sato/64x64/devices
 -rw-r--r-- root       root             1330 ./usr/share/icons/Sato/64x64/devices/drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/devices/gnome-dev-harddisk-1394.png -> drive-harddisk.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/devices/gnome-dev-harddisk.png -> drive-harddisk.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/devices/gnome-dev-harddisk-usb.png -> drive-harddisk.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/64x64/devices/gnome-dev-media-cf.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/64x64/devices/gnome-dev-media-ms.png -> media-flash.png
 lrwxrwxrwx root       root               15 ./usr/share/icons/Sato/64x64/devices/gnome-dev-media-sdmmc.png -> media-flash.png
@@ -902,8 +902,8 @@ lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/devices
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/devices/harddrive.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/devices/hdd_unmount.png -> drive-harddisk.png
 -rw-r--r-- root       root             1132 ./usr/share/icons/Sato/64x64/devices/media-flash-cf.png
--rw-r--r-- root       root             1564 ./usr/share/icons/Sato/64x64/devices/media-flash-sd.png
 -rw-r--r-- root       root             1065 ./usr/share/icons/Sato/64x64/devices/media-flash.png
+-rw-r--r-- root       root             1564 ./usr/share/icons/Sato/64x64/devices/media-flash-sd.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/devices/yast_HD.png -> drive-harddisk.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/devices/yast_idetude.png -> drive-harddisk.png
 drwxr-xr-x root       root              660 ./usr/share/icons/Sato/64x64/mimetypes
@@ -918,11 +918,11 @@ lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/64x64/mimetyp
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/64x64/mimetypes/gnome-mime-application-x-killustrator.png -> image-x-generic.png
 lrwxrwxrwx root       root               28 ./usr/share/icons/Sato/64x64/mimetypes/gnome-mime-application-x-ms-dos-executable.png -> application-x-executable.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/64x64/mimetypes/gnome-mime-image.png -> image-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/mimetypes/gnome-mime-text.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/64x64/mimetypes/gnome-mime-text-x-vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/64x64/mimetypes/gnome-mime-text-x-vcard.png -> x-office-address-book.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/mimetypes/gnome-mime-text.png -> text-x-generic.png
--rw-r--r-- root       root             1414 ./usr/share/icons/Sato/64x64/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               19 ./usr/share/icons/Sato/64x64/mimetypes/image.png -> image-x-generic.png
+-rw-r--r-- root       root             1414 ./usr/share/icons/Sato/64x64/mimetypes/image-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/mimetypes/mime_ascii.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/mimetypes/misc.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/mimetypes/package_editors.png -> text-x-generic.png
@@ -930,8 +930,8 @@ lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/64x64/mimetyp
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/64x64/mimetypes/stock_addressbook.png -> x-office-address-book.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/64x64/mimetypes/stock_calendar.png -> x-office-calendar.png
 -rw-r--r-- root       root              999 ./usr/share/icons/Sato/64x64/mimetypes/text-x-generic.png
-lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/mimetypes/txt2.png -> text-x-generic.png
+lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/mimetypes/txt.png -> text-x-generic.png
 lrwxrwxrwx root       root               18 ./usr/share/icons/Sato/64x64/mimetypes/unknown.png -> text-x-generic.png
 lrwxrwxrwx root       root               21 ./usr/share/icons/Sato/64x64/mimetypes/vcalendar.png -> x-office-calendar.png
 lrwxrwxrwx root       root               25 ./usr/share/icons/Sato/64x64/mimetypes/vcard.png -> x-office-address-book.png

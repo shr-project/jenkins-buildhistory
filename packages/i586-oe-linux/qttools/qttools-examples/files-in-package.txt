@@ -48,7 +48,6 @@ drwxr-xr-x root       root              200 ./usr/share/qt5/examples/assistant/s
 -rw-r--r-- root       root             2788 ./usr/share/qt5/examples/assistant/simpletextviewer/textedit.cpp
 -rw-r--r-- root       root             2283 ./usr/share/qt5/examples/assistant/simpletextviewer/textedit.h
 drwxr-xr-x root       root              220 ./usr/share/qt5/examples/designer
--rw-r--r-- root       root              394 ./usr/share/qt5/examples/designer/README
 drwxr-xr-x root       root              180 ./usr/share/qt5/examples/designer/calculatorbuilder
 -rwxr-xr-x root       root           627116 ./usr/share/qt5/examples/designer/calculatorbuilder/calculatorbuilder
 -rw-r--r-- root       root              246 ./usr/share/qt5/examples/designer/calculatorbuilder/calculatorbuilder.pro
@@ -66,12 +65,12 @@ drwxr-xr-x root       root              160 ./usr/share/qt5/examples/designer/ca
 -rw-r--r-- root       root             2159 ./usr/share/qt5/examples/designer/calculatorform/main.cpp
 drwxr-xr-x root       root              220 ./usr/share/qt5/examples/designer/containerextension
 -rw-r--r-- root       root              775 ./usr/share/qt5/examples/designer/containerextension/containerextension.pro
--rw-r--r-- root       root             4450 ./usr/share/qt5/examples/designer/containerextension/multipagewidget.cpp
--rw-r--r-- root       root             2993 ./usr/share/qt5/examples/designer/containerextension/multipagewidget.h
 -rw-r--r-- root       root             3125 ./usr/share/qt5/examples/designer/containerextension/multipagewidgetcontainerextension.cpp
 -rw-r--r-- root       root             2899 ./usr/share/qt5/examples/designer/containerextension/multipagewidgetcontainerextension.h
+-rw-r--r-- root       root             4450 ./usr/share/qt5/examples/designer/containerextension/multipagewidget.cpp
 -rw-r--r-- root       root             2722 ./usr/share/qt5/examples/designer/containerextension/multipagewidgetextensionfactory.cpp
 -rw-r--r-- root       root             2454 ./usr/share/qt5/examples/designer/containerextension/multipagewidgetextensionfactory.h
+-rw-r--r-- root       root             2993 ./usr/share/qt5/examples/designer/containerextension/multipagewidget.h
 -rw-r--r-- root       root             5806 ./usr/share/qt5/examples/designer/containerextension/multipagewidgetplugin.cpp
 -rw-r--r-- root       root             3174 ./usr/share/qt5/examples/designer/containerextension/multipagewidgetplugin.h
 drwxr-xr-x root       root              140 ./usr/share/qt5/examples/designer/customwidgetplugin
@@ -81,12 +80,13 @@ drwxr-xr-x root       root              140 ./usr/share/qt5/examples/designer/cu
 -rw-r--r-- root       root             2973 ./usr/share/qt5/examples/designer/customwidgetplugin/customwidgetplugin.h
 -rw-r--r-- root       root              576 ./usr/share/qt5/examples/designer/customwidgetplugin/customwidgetplugin.pro
 -rw-r--r-- root       root              527 ./usr/share/qt5/examples/designer/designer.pro
+-rw-r--r-- root       root              394 ./usr/share/qt5/examples/designer/README
 drwxr-xr-x root       root              220 ./usr/share/qt5/examples/designer/taskmenuextension
 -rw-r--r-- root       root              671 ./usr/share/qt5/examples/designer/taskmenuextension/taskmenuextension.pro
 -rw-r--r-- root       root             5897 ./usr/share/qt5/examples/designer/taskmenuextension/tictactoe.cpp
--rw-r--r-- root       root             2838 ./usr/share/qt5/examples/designer/taskmenuextension/tictactoe.h
 -rw-r--r-- root       root             3552 ./usr/share/qt5/examples/designer/taskmenuextension/tictactoedialog.cpp
 -rw-r--r-- root       root             2469 ./usr/share/qt5/examples/designer/taskmenuextension/tictactoedialog.h
+-rw-r--r-- root       root             2838 ./usr/share/qt5/examples/designer/taskmenuextension/tictactoe.h
 -rw-r--r-- root       root             3943 ./usr/share/qt5/examples/designer/taskmenuextension/tictactoeplugin.cpp
 -rw-r--r-- root       root             3040 ./usr/share/qt5/examples/designer/taskmenuextension/tictactoeplugin.h
 -rw-r--r-- root       root             3331 ./usr/share/qt5/examples/designer/taskmenuextension/tictactoetaskmenu.cpp
@@ -104,7 +104,6 @@ drwxr-xr-x root       root              140 ./usr/share/qt5/examples/designer/wo
 -rw-r--r-- root       root             3032 ./usr/share/qt5/examples/designer/worldtimeclockplugin/worldtimeclockplugin.h
 -rw-r--r-- root       root              560 ./usr/share/qt5/examples/designer/worldtimeclockplugin/worldtimeclockplugin.pro
 drwxr-xr-x root       root              100 ./usr/share/qt5/examples/help
--rw-r--r-- root       root              322 ./usr/share/qt5/examples/help/README
 drwxr-xr-x root       root              220 ./usr/share/qt5/examples/help/contextsensitivehelp
 -rwxr-xr-x root       root            94200 ./usr/share/qt5/examples/help/contextsensitivehelp/contextsensitivehelp
 -rw-r--r-- root       root              365 ./usr/share/qt5/examples/help/contextsensitivehelp/contextsensitivehelp.pro
@@ -127,8 +126,8 @@ drwxr-xr-x root       root              260 ./usr/share/qt5/examples/help/contex
 -rw-r--r-- root       root             2346 ./usr/share/qt5/examples/help/contextsensitivehelp/wateringconfigdialog.h
 -rw-r--r-- root       root            11331 ./usr/share/qt5/examples/help/contextsensitivehelp/wateringconfigdialog.ui
 -rw-r--r-- root       root               71 ./usr/share/qt5/examples/help/help.pro
+-rw-r--r-- root       root              322 ./usr/share/qt5/examples/help/README
 drwxr-xr-x root       root              140 ./usr/share/qt5/examples/linguist
--rw-r--r-- root       root              233 ./usr/share/qt5/examples/linguist/README
 drwxr-xr-x root       root              180 ./usr/share/qt5/examples/linguist/arrowpad
 -rwxr-xr-x root       root            17104 ./usr/share/qt5/examples/linguist/arrowpad/arrowpad
 -rw-r--r-- root       root             2567 ./usr/share/qt5/examples/linguist/arrowpad/arrowpad.cpp
@@ -142,6 +141,7 @@ drwxr-xr-x root       root              100 ./usr/share/qt5/examples/linguist/he
 -rw-r--r-- root       root              248 ./usr/share/qt5/examples/linguist/hellotr/hellotr.pro
 -rw-r--r-- root       root             2472 ./usr/share/qt5/examples/linguist/hellotr/main.cpp
 -rw-r--r-- root       root              104 ./usr/share/qt5/examples/linguist/linguist.pro
+-rw-r--r-- root       root              233 ./usr/share/qt5/examples/linguist/README
 drwxr-xr-x root       root              200 ./usr/share/qt5/examples/linguist/trollprint
 -rw-r--r-- root       root             2335 ./usr/share/qt5/examples/linguist/trollprint/main.cpp
 -rw-r--r-- root       root             3228 ./usr/share/qt5/examples/linguist/trollprint/mainwindow.cpp

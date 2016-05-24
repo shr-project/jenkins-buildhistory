@@ -1,11 +1,19 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/include
 drwxr-xr-x root       root              320 ./usr/include/exalt
--rw-r--r-- root       root             7801 ./usr/include/exalt/Exalt.h
+drwxr-xr-x root       root              180 ./usr/include/exalt_dbus
+-rw-r--r-- root       root             3557 ./usr/include/exalt_dbus/define.h
+-rw-r--r-- root       root              884 ./usr/include/exalt_dbus/exalt_dbus_dns.h
+-rw-r--r-- root       root             1617 ./usr/include/exalt_dbus/exalt_dbus_ethernet.h
+-rw-r--r-- root       root             2381 ./usr/include/exalt_dbus/Exalt_DBus.h
+-rw-r--r-- root       root              725 ./usr/include/exalt_dbus/exalt_dbus_network.h
+-rw-r--r-- root       root             4387 ./usr/include/exalt_dbus/exalt_dbus_response.h
+-rw-r--r-- root       root              833 ./usr/include/exalt_dbus/exalt_dbus_wireless.h
 -rw-r--r-- root       root             4631 ./usr/include/exalt/exalt_configuration.h
 -rw-r--r-- root       root            10930 ./usr/include/exalt/exalt_configuration_network.h
 -rw-r--r-- root       root             1078 ./usr/include/exalt/exalt_dns.h
 -rw-r--r-- root       root            10143 ./usr/include/exalt/exalt_ethernet.h
+-rw-r--r-- root       root             7801 ./usr/include/exalt/Exalt.h
 -rw-r--r-- root       root             2301 ./usr/include/exalt/exalt_regexp.h
 -rw-r--r-- root       root             2871 ./usr/include/exalt/exalt_sys_conf.h
 -rw-r--r-- root       root             1139 ./usr/include/exalt/exalt_vpnc.h
@@ -15,19 +23,11 @@ drwxr-xr-x root       root              320 ./usr/include/exalt
 -rw-r--r-- root       root            17589 ./usr/include/exalt/iwlib.h
 -rw-r--r-- root       root              168 ./usr/include/exalt/proc.h
 -rw-r--r-- root       root             7263 ./usr/include/exalt/wpa_ctrl.h
-drwxr-xr-x root       root              180 ./usr/include/exalt_dbus
--rw-r--r-- root       root             2381 ./usr/include/exalt_dbus/Exalt_DBus.h
--rw-r--r-- root       root             3557 ./usr/include/exalt_dbus/define.h
--rw-r--r-- root       root              884 ./usr/include/exalt_dbus/exalt_dbus_dns.h
--rw-r--r-- root       root             1617 ./usr/include/exalt_dbus/exalt_dbus_ethernet.h
--rw-r--r-- root       root              725 ./usr/include/exalt_dbus/exalt_dbus_network.h
--rw-r--r-- root       root             4387 ./usr/include/exalt_dbus/exalt_dbus_response.h
--rw-r--r-- root       root              833 ./usr/include/exalt_dbus/exalt_dbus_wireless.h
 drwxr-xr-x root       root              140 ./usr/lib
--rwxr-xr-x root       root             1767 ./usr/lib/libexalt.la
-lrwxrwxrwx root       root               17 ./usr/lib/libexalt.so -> libexalt.so.1.0.0
 -rwxr-xr-x root       root             1819 ./usr/lib/libexalt_dbus.la
 lrwxrwxrwx root       root               22 ./usr/lib/libexalt_dbus.so -> libexalt_dbus.so.1.0.0
+-rwxr-xr-x root       root             1767 ./usr/lib/libexalt.la
+lrwxrwxrwx root       root               17 ./usr/lib/libexalt.so -> libexalt.so.1.0.0
 drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
--rw-r--r-- root       root              344 ./usr/lib/pkgconfig/exalt.pc
 -rw-r--r-- root       root              378 ./usr/lib/pkgconfig/exalt_dbus.pc
+-rw-r--r-- root       root              344 ./usr/lib/pkgconfig/exalt.pc

@@ -19,6 +19,10 @@ drwxr-xr-x root       root               60 ./etc/xdg/autostart
 -rw-r--r-- root       root             2906 ./etc/xdg/autostart/gnome-settings-daemon.desktop
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root              100 ./usr/libexec
+-rwxr-xr-x root       root            36548 ./usr/libexec/gnome-settings-daemon
+-rwxr-xr-x root       root            30896 ./usr/libexec/gsd-datetime-mechanism
+-rwxr-xr-x root       root            25828 ./usr/libexec/gsd-locate-pointer
 drwxr-xr-x root       root              600 ./usr/lib/gnome-settings-daemon-2.0
 -rw-r--r-- root       root             7368 ./usr/lib/gnome-settings-daemon-2.0/a11y-keyboard.gnome-settings-plugin
 -rw-r--r-- root       root             4743 ./usr/lib/gnome-settings-daemon-2.0/background.gnome-settings-plugin
@@ -48,10 +52,6 @@ drwxr-xr-x root       root              600 ./usr/lib/gnome-settings-daemon-2.0
 -rw-r--r-- root       root             6447 ./usr/lib/gnome-settings-daemon-2.0/xrandr.gnome-settings-plugin
 -rw-r--r-- root       root             6971 ./usr/lib/gnome-settings-daemon-2.0/xrdb.gnome-settings-plugin
 -rw-r--r-- root       root             5464 ./usr/lib/gnome-settings-daemon-2.0/xsettings.gnome-settings-plugin
-drwxr-xr-x root       root              100 ./usr/libexec
--rwxr-xr-x root       root            36548 ./usr/libexec/gnome-settings-daemon
--rwxr-xr-x root       root            30896 ./usr/libexec/gsd-datetime-mechanism
--rwxr-xr-x root       root            25828 ./usr/libexec/gsd-locate-pointer
 drwxr-xr-x root       root              140 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/services

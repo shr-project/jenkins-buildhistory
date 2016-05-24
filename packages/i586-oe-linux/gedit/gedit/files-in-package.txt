@@ -8,6 +8,9 @@ drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root           780252 ./usr/bin/gedit
 lrwxrwxrwx root       root                5 ./usr/bin/gnome-text-editor -> gedit
 drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root               60 ./usr/libexec/gedit-2
+-rwxr-xr-x root       root             1578 ./usr/libexec/gedit-2/gedit-bugreport.sh
 drwxr-xr-x root       root               80 ./usr/lib/gedit-2
 drwxr-xr-x root       root               80 ./usr/lib/gedit-2/plugin-loaders
 -rwxr-xr-x root       root             2711 ./usr/lib/gedit-2/plugin-loaders/libcloader.la
@@ -37,9 +40,6 @@ drwxr-xr-x root       root              520 ./usr/lib/gedit-2/plugins
 -rw-r--r-- root       root             9143 ./usr/lib/gedit-2/plugins/spell.gedit-plugin
 -rw-r--r-- root       root             9873 ./usr/lib/gedit-2/plugins/taglist.gedit-plugin
 -rw-r--r-- root       root            11849 ./usr/lib/gedit-2/plugins/time.gedit-plugin
-drwxr-xr-x root       root               60 ./usr/libexec
-drwxr-xr-x root       root               60 ./usr/libexec/gedit-2
--rwxr-xr-x root       root             1578 ./usr/libexec/gedit-2/gedit-bugreport.sh
 drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/applications
 -rw-r--r-- root       root            13139 ./usr/share/applications/gedit.desktop
@@ -76,10 +76,10 @@ drwxr-xr-x root       root              140 ./usr/share/gedit-2/ui
 -rw-r--r-- root       root             6982 ./usr/share/gedit-2/ui/gedit-ui.xml
 drwxr-xr-x root       root               60 ./usr/share/omf
 drwxr-xr-x root       root              520 ./usr/share/omf/gedit
--rw-r--r-- root       root             1357 ./usr/share/omf/gedit/gedit-C.omf
 -rw-r--r-- root       root             1595 ./usr/share/omf/gedit/gedit-ar.omf
 -rw-r--r-- root       root             1554 ./usr/share/omf/gedit/gedit-bg.omf
 -rw-r--r-- root       root             1492 ./usr/share/omf/gedit/gedit-ca.omf
+-rw-r--r-- root       root             1357 ./usr/share/omf/gedit/gedit-C.omf
 -rw-r--r-- root       root             1459 ./usr/share/omf/gedit/gedit-cs.omf
 -rw-r--r-- root       root             1406 ./usr/share/omf/gedit/gedit-da.omf
 -rw-r--r-- root       root             1373 ./usr/share/omf/gedit/gedit-de.omf

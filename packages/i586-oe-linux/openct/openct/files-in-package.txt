@@ -15,17 +15,14 @@ drwxr-xr-x root       root              100 ./lib/udev
 -rwxr-xr-x root       root              215 ./lib/udev/openct_pcmcia
 -rwxr-xr-x root       root              209 ./lib/udev/openct_serial
 -rwxr-xr-x root       root             1446 ./lib/udev/openct_usb
-drwxr-xr-x root       root               60 ./run
-drwxr-xr-x root       root               60 ./run/openct
--rw-r--r-- root       root                0 ./run/openct/status
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root             9068 ./usr/bin/openct-tool
 drwxr-xr-x root       root              140 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/ctapi
 -rwxr-xr-x root       root            11436 ./usr/lib/ctapi/libopenctapi.so
-lrwxrwxrwx root       root               18 ./usr/lib/libopenct.so.1 -> libopenct.so.1.0.0
 -rwxr-xr-x root       root            35444 ./usr/lib/libopenct.so.1.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libopenct.so.1 -> libopenct.so.1.0.0
 -rwxr-xr-x root       root             6720 ./usr/lib/openct-ifd.so
 drwxr-xr-x root       root               60 ./usr/lib/pcsc
 drwxr-xr-x root       root               60 ./usr/lib/pcsc/drivers
@@ -39,5 +36,4 @@ drwxr-xr-x root       root              100 ./usr/sbin
 -rwxr-xr-x root       root           233520 ./usr/sbin/ifdhandler
 -rwxr-xr-x root       root           233008 ./usr/sbin/ifdproxy
 -rwxr-xr-x root       root           225652 ./usr/sbin/openct-control
-drwxr-xr-x root       root               60 ./var
-lrwxrwxrwx root       root                4 ./var/run -> /run
+drwxr-xr-x root       root               40 ./var

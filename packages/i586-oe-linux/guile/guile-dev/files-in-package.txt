@@ -3,8 +3,6 @@ drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root               60 ./usr/include/guile
 drwxr-xr-x root       root              100 ./usr/include/guile/2.0
 drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
--rw-r--r-- root       root             3984 ./usr/include/guile/2.0/libguile.h
--rw-r--r-- root       root            27282 ./usr/include/guile/2.0/libguile/__scm.h
 -rw-r--r-- root       root             1834 ./usr/include/guile/2.0/libguile/alist.h
 -rw-r--r-- root       root             1181 ./usr/include/guile/2.0/libguile/arbiters.h
 -rw-r--r-- root       root             5399 ./usr/include/guile/2.0/libguile/array-handle.h
@@ -19,16 +17,16 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             3735 ./usr/include/guile/2.0/libguile/chars.h
 -rw-r--r-- root       root             3224 ./usr/include/guile/2.0/libguile/continuations.h
 -rw-r--r-- root       root             2196 ./usr/include/guile/2.0/libguile/control.h
--rw-r--r-- root       root             1351 ./usr/include/guile/2.0/libguile/debug-malloc.h
 -rw-r--r-- root       root             1870 ./usr/include/guile/2.0/libguile/debug.h
+-rw-r--r-- root       root             1351 ./usr/include/guile/2.0/libguile/debug-malloc.h
 -rw-r--r-- root       root            32098 ./usr/include/guile/2.0/libguile/deprecated.h
 -rw-r--r-- root       root             1479 ./usr/include/guile/2.0/libguile/deprecation.h
 -rw-r--r-- root       root             1350 ./usr/include/guile/2.0/libguile/dynl.h
 -rw-r--r-- root       root             2166 ./usr/include/guile/2.0/libguile/dynwind.h
 -rw-r--r-- root       root             1294 ./usr/include/guile/2.0/libguile/eq.h
 -rw-r--r-- root       root             2570 ./usr/include/guile/2.0/libguile/error.h
--rw-r--r-- root       root             3273 ./usr/include/guile/2.0/libguile/eval.h
 -rw-r--r-- root       root             1229 ./usr/include/guile/2.0/libguile/evalext.h
+-rw-r--r-- root       root             3273 ./usr/include/guile/2.0/libguile/eval.h
 -rw-r--r-- root       root            12302 ./usr/include/guile/2.0/libguile/expand.h
 -rw-r--r-- root       root             1353 ./usr/include/guile/2.0/libguile/extensions.h
 -rw-r--r-- root       root             1349 ./usr/include/guile/2.0/libguile/feature.h
@@ -47,6 +45,7 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root            13769 ./usr/include/guile/2.0/libguile/goops.h
 -rw-r--r-- root       root             2430 ./usr/include/guile/2.0/libguile/gsubr.h
 -rw-r--r-- root       root             1274 ./usr/include/guile/2.0/libguile/guardians.h
+-rw-r--r-- root       root             3984 ./usr/include/guile/2.0/libguile.h
 -rw-r--r-- root       root             1960 ./usr/include/guile/2.0/libguile/hash.h
 -rw-r--r-- root       root             7402 ./usr/include/guile/2.0/libguile/hashtab.h
 -rw-r--r-- root       root             2885 ./usr/include/guile/2.0/libguile/hooks.h
@@ -87,6 +86,7 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             1489 ./usr/include/guile/2.0/libguile/root.h
 -rw-r--r-- root       root             1262 ./usr/include/guile/2.0/libguile/rw.h
 -rw-r--r-- root       root             4631 ./usr/include/guile/2.0/libguile/scmconfig.h
+-rw-r--r-- root       root            27282 ./usr/include/guile/2.0/libguile/__scm.h
 -rw-r--r-- root       root             1829 ./usr/include/guile/2.0/libguile/scmsigs.h
 -rw-r--r-- root       root             1620 ./usr/include/guile/2.0/libguile/script.h
 -rw-r--r-- root       root             1259 ./usr/include/guile/2.0/libguile/simpos.h
@@ -95,9 +95,9 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             2744 ./usr/include/guile/2.0/libguile/socket.h
 -rw-r--r-- root       root             1573 ./usr/include/guile/2.0/libguile/sort.h
 -rw-r--r-- root       root             2016 ./usr/include/guile/2.0/libguile/srcprop.h
--rw-r--r-- root       root             2224 ./usr/include/guile/2.0/libguile/srfi-1.h
 -rw-r--r-- root       root             7611 ./usr/include/guile/2.0/libguile/srfi-13.h
 -rw-r--r-- root       root             4958 ./usr/include/guile/2.0/libguile/srfi-14.h
+-rw-r--r-- root       root             2224 ./usr/include/guile/2.0/libguile/srfi-1.h
 -rw-r--r-- root       root            12679 ./usr/include/guile/2.0/libguile/srfi-4.h
 -rw-r--r-- root       root             1458 ./usr/include/guile/2.0/libguile/srfi-60.h
 -rw-r--r-- root       root             2062 ./usr/include/guile/2.0/libguile/stackchk.h

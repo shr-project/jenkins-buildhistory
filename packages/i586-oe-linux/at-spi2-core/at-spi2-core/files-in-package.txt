@@ -6,13 +6,13 @@ drwxr-xr-x root       root               60 ./etc/xdg/autostart
 -rw-r--r-- root       root              296 ./etc/xdg/autostart/at-spi-dbus-bus.desktop
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              100 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/libexec
+-rwxr-xr-x root       root            87744 ./usr/libexec/at-spi2-registryd
+-rwxr-xr-x root       root            14356 ./usr/libexec/at-spi-bus-launcher
 drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
 -rw-r--r-- root       root            48200 ./usr/lib/girepository-1.0/Atspi-2.0.typelib
-lrwxrwxrwx root       root               17 ./usr/lib/libatspi.so.0 -> libatspi.so.0.0.1
 -rwxr-xr-x root       root           196656 ./usr/lib/libatspi.so.0.0.1
-drwxr-xr-x root       root               80 ./usr/libexec
--rwxr-xr-x root       root            14356 ./usr/libexec/at-spi-bus-launcher
--rwxr-xr-x root       root            87744 ./usr/libexec/at-spi2-registryd
+lrwxrwxrwx root       root               17 ./usr/lib/libatspi.so.0 -> libatspi.so.0.0.1
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/accessibility-services

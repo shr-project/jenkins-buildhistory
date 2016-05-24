@@ -30,8 +30,8 @@ drwxr-xr-x root       root               60 ./usr/src/debug/ntfs-3g-ntfsprogs/20
 drwxr-xr-x root       root              140 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13
 drwxr-xr-x root       root               80 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/include
 drwxr-xr-x root       root              140 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/include/fuse-lite
--rw-r--r-- root       root            21382 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/include/fuse-lite/fuse.h
 -rw-r--r-- root       root             5589 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/include/fuse-lite/fuse_common.h
+-rw-r--r-- root       root            21382 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/include/fuse-lite/fuse.h
 -rw-r--r-- root       root             8413 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/include/fuse-lite/fuse_kernel.h
 -rw-r--r-- root       root            36773 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/include/fuse-lite/fuse_lowlevel.h
 -rw-r--r-- root       root             7187 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/include/fuse-lite/fuse_opt.h
@@ -76,9 +76,9 @@ drwxr-xr-x root       root              300 ./usr/src/debug/ntfs-3g-ntfsprogs/20
 -rw-r--r-- root       root              986 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/fuse_loop.c
 -rw-r--r-- root       root            38693 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/fuse_lowlevel.c
 -rw-r--r-- root       root             9823 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/fuse_opt.c
+-rw-r--r-- root       root            17228 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/fusermount.c
 -rw-r--r-- root       root             3995 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/fuse_session.c
 -rw-r--r-- root       root             1804 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/fuse_signals.c
--rw-r--r-- root       root            17228 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/fusermount.c
 -rw-r--r-- root       root             1280 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/helper.c
 -rw-r--r-- root       root            21033 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/mount.c
 -rw-r--r-- root       root            11356 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/libfuse-lite/mount_util.c
@@ -142,9 +142,9 @@ drwxr-xr-x root       root              560 ./usr/src/debug/ntfs-3g-ntfsprogs/20
 drwxr-xr-x root       root              200 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src
 -rw-r--r-- root       root           103051 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src/lowntfs-3g.c
 -rw-r--r-- root       root           101208 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src/ntfs-3g.c
--rw-r--r-- root       root             3613 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src/ntfs-3g.probe.c
 -rw-r--r-- root       root            19821 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src/ntfs-3g_common.c
 -rw-r--r-- root       root             4596 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src/ntfs-3g_common.h
+-rw-r--r-- root       root             3613 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src/ntfs-3g.probe.c
 -rw-r--r-- root       root           181901 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src/secaudit.c
 -rw-r--r-- root       root            19799 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src/secaudit.h
 -rw-r--r-- root       root            32514 ./usr/src/debug/ntfs-3g-ntfsprogs/2013.1.13-r0/ntfs-3g_ntfsprogs-2013.1.13/src/usermap.c

@@ -5,8 +5,8 @@ lrwxrwxrwx root       root               23 ./usr/lib/libdcerpc-samr.so -> libdc
 lrwxrwxrwx root       root               18 ./usr/lib/libdcerpc.so -> libdcerpc.so.0.0.1
 lrwxrwxrwx root       root               23 ./usr/lib/libndr-krb5pac.so -> libndr-krb5pac.so.0.0.1
 lrwxrwxrwx root       root               19 ./usr/lib/libndr-nbt.so -> libndr-nbt.so.0.0.1
-lrwxrwxrwx root       root               24 ./usr/lib/libndr-standard.so -> libndr-standard.so.0.0.1
 lrwxrwxrwx root       root               15 ./usr/lib/libndr.so -> libndr.so.0.0.5
+lrwxrwxrwx root       root               24 ./usr/lib/libndr-standard.so -> libndr-standard.so.0.0.1
 lrwxrwxrwx root       root               14 ./usr/lib/libnetapi.so -> libnetapi.so.0
 lrwxrwxrwx root       root               19 ./usr/lib/libnss_winbind.so -> libnss_winbind.so.2
 lrwxrwxrwx root       root               16 ./usr/lib/libnss_wins.so -> libnss_wins.so.2
@@ -25,9 +25,9 @@ lrwxrwxrwx root       root               19 ./usr/lib/libwbclient.so -> libwbcli
 drwxr-xr-x root       root              320 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              272 ./usr/lib/pkgconfig/dcerpc.pc
 -rw-r--r-- root       root              288 ./usr/lib/pkgconfig/dcerpc_samr.pc
--rw-r--r-- root       root              298 ./usr/lib/pkgconfig/ndr.pc
 -rw-r--r-- root       root              300 ./usr/lib/pkgconfig/ndr_krb5pac.pc
 -rw-r--r-- root       root              283 ./usr/lib/pkgconfig/ndr_nbt.pc
+-rw-r--r-- root       root              298 ./usr/lib/pkgconfig/ndr.pc
 -rw-r--r-- root       root              320 ./usr/lib/pkgconfig/ndr_standard.pc
 -rw-r--r-- root       root              254 ./usr/lib/pkgconfig/netapi.pc
 -rw-r--r-- root       root              300 ./usr/lib/pkgconfig/samba-credentials.pc

@@ -17,8 +17,8 @@ drwxr-xr-x root       root              500 ./usr/bin/.debug
 -rwxr-xr-x root       root            25688 ./usr/bin/.debug/pfbtops
 -rwxr-xr-x root       root           362488 ./usr/bin/.debug/pic
 -rwxr-xr-x root       root           451920 ./usr/bin/.debug/post-grohtml
--rwxr-xr-x root       root           204544 ./usr/bin/.debug/pre-grohtml
 -rwxr-xr-x root       root           100632 ./usr/bin/.debug/preconv
+-rwxr-xr-x root       root           204544 ./usr/bin/.debug/pre-grohtml
 -rwxr-xr-x root       root           326112 ./usr/bin/.debug/refer
 -rwxr-xr-x root       root            81628 ./usr/bin/.debug/soelim
 -rwxr-xr-x root       root           244752 ./usr/bin/.debug/tbl
@@ -42,11 +42,11 @@ drwxr-xr-x root       root              160 ./usr/src/debug/groff/1.22.3-r0/grof
 drwxr-xr-x root       root               60 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grodvi
 -rw-r--r-- root       root            21060 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grodvi/dvi.cpp
 drwxr-xr-x root       root              180 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grohtml
+-rw-r--r-- root       root             2741 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grohtml/html.h
 -rw-r--r-- root       root            16941 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grohtml/html-table.cpp
 -rw-r--r-- root       root             3739 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grohtml/html-table.h
 -rw-r--r-- root       root            21623 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grohtml/html-text.cpp
 -rw-r--r-- root       root             4889 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grohtml/html-text.h
--rw-r--r-- root       root             2741 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grohtml/html.h
 -rw-r--r-- root       root             7028 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grohtml/output.cpp
 -rw-r--r-- root       root           145236 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grohtml/post-html.cpp
 drwxr-xr-x root       root              100 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/devices/grolbp
@@ -113,8 +113,8 @@ drwxr-xr-x root       root              880 ./usr/src/debug/groff/1.22.3-r0/grof
 -rw-r--r-- root       root            28480 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/libs/libgroff/font.cpp
 -rw-r--r-- root       root             1990 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/libs/libgroff/fontfile.cpp
 -rw-r--r-- root       root             5368 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/libs/libgroff/geometry.cpp
--rw-r--r-- root       root            33328 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/libs/libgroff/getopt.c
 -rw-r--r-- root       root             3918 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/libs/libgroff/getopt1.c
+-rw-r--r-- root       root            33328 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/libs/libgroff/getopt.c
 -rw-r--r-- root       root            12084 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/libs/libgroff/glyphuni.cpp
 -rw-r--r-- root       root             1908 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/libs/libgroff/htmlhint.cpp
 -rw-r--r-- root       root             1136 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/libs/libgroff/hypot.cpp
@@ -193,9 +193,9 @@ drwxr-xr-x root       root              200 ./usr/src/debug/groff/1.22.3-r0/grof
 -rw-r--r-- root       root            18291 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/refer/command.cpp
 -rw-r--r-- root       root             1233 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/refer/command.h
 -rw-r--r-- root       root            27699 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/refer/ref.cpp
--rw-r--r-- root       root             4563 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/refer/ref.h
 -rw-r--r-- root       root            28411 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/refer/refer.cpp
 -rw-r--r-- root       root             2156 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/refer/refer.h
+-rw-r--r-- root       root             4563 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/refer/ref.h
 -rw-r--r-- root       root             8936 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/refer/token.cpp
 -rw-r--r-- root       root             2195 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/refer/token.h
 drwxr-xr-x root       root               60 ./usr/src/debug/groff/1.22.3-r0/groff-1.22.3/src/preproc/soelim

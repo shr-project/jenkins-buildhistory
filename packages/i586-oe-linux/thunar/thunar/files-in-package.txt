@@ -4,15 +4,15 @@ drwxr-xr-x root       root               60 ./etc/xdg/Thunar
 -rw-r--r-- root       root             9101 ./etc/xdg/Thunar/uca.xml
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
-lrwxrwxrwx root       root                6 ./usr/bin/Thunar -> thunar
 -rwxr-xr-x root       root           848704 ./usr/bin/thunar
 -rwxr-xr-x root       root              333 ./usr/bin/thunar-settings
+lrwxrwxrwx root       root                6 ./usr/bin/Thunar -> thunar
 drwxr-xr-x root       root              140 ./usr/lib
+-rwxr-xr-x root       root            47660 ./usr/lib/libthunarx-2.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libthunarx-2.so.0 -> libthunarx-2.so.0.0.0
 drwxr-xr-x root       root               80 ./usr/lib/Thunar
 -rwxr-xr-x root       root             1008 ./usr/lib/Thunar/ThunarBulkRename
 -rwxr-xr-x root       root            15140 ./usr/lib/Thunar/thunar-sendto-email
-lrwxrwxrwx root       root               21 ./usr/lib/libthunarx-2.so.0 -> libthunarx-2.so.0.0.0
--rwxr-xr-x root       root            47660 ./usr/lib/libthunarx-2.so.0.0.0
 drwxr-xr-x root       root              200 ./usr/lib/thunarx-2
 -rwxr-xr-x root       root             2599 ./usr/lib/thunarx-2/thunar-apr.la
 -rwxr-xr-x root       root            37324 ./usr/lib/thunarx-2/thunar-apr.so
@@ -27,15 +27,12 @@ drwxr-xr-x root       root               60 ./usr/lib/xfce4/panel
 drwxr-xr-x root       root               60 ./usr/lib/xfce4/panel/plugins
 -rwxr-xr-x root       root            15964 ./usr/lib/xfce4/panel/plugins/libthunar-tpa.so
 drwxr-xr-x root       root              200 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/Thunar
-drwxr-xr-x root       root               60 ./usr/share/Thunar/sendto
--rw-r--r-- root       root             1871 ./usr/share/Thunar/sendto/thunar-sendto-email.desktop
 drwxr-xr-x root       root               60 ./usr/share/appdata
 -rw-r--r-- root       root            11703 ./usr/share/appdata/thunar.appdata.xml
 drwxr-xr-x root       root              120 ./usr/share/applications
 -rw-r--r-- root       root             7263 ./usr/share/applications/Thunar-bulk-rename.desktop
--rw-r--r-- root       root             8211 ./usr/share/applications/Thunar-folder-handler.desktop
 -rw-r--r-- root       root             8883 ./usr/share/applications/Thunar.desktop
+-rw-r--r-- root       root             8211 ./usr/share/applications/Thunar-folder-handler.desktop
 -rw-r--r-- root       root             5171 ./usr/share/applications/thunar-settings.desktop
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               80 ./usr/share/dbus-1/services
@@ -76,6 +73,9 @@ drwxr-xr-x root       root               60 ./usr/share/pixmaps/Thunar
 drwxr-xr-x root       root               60 ./usr/share/polkit-1
 drwxr-xr-x root       root               60 ./usr/share/polkit-1/actions
 -rw-r--r-- root       root             7569 ./usr/share/polkit-1/actions/org.xfce.thunar.policy
+drwxr-xr-x root       root               60 ./usr/share/Thunar
+drwxr-xr-x root       root               60 ./usr/share/Thunar/sendto
+-rw-r--r-- root       root             1871 ./usr/share/Thunar/sendto/thunar-sendto-email.desktop
 drwxr-xr-x root       root               60 ./usr/share/xfce4
 drwxr-xr-x root       root               60 ./usr/share/xfce4/panel
 drwxr-xr-x root       root               60 ./usr/share/xfce4/panel/plugins

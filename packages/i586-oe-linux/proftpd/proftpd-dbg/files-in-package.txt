@@ -45,10 +45,10 @@ drwxr-xr-x root       root             1000 ./usr/src/debug/proftpd/1.3.5a-r0/pr
 -rw-r--r-- root       root             5184 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/parser.h
 -rw-r--r-- root       root             1321 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/pidfile.h
 -rw-r--r-- root       root             3344 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/pool.h
--rw-r--r-- root       root             3522 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/pr-syslog.h
 -rw-r--r-- root       root             2648 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/privs.h
 -rw-r--r-- root       root             1744 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/proctitle.h
 -rw-r--r-- root       root             9510 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/proftpd.h
+-rw-r--r-- root       root             3522 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/pr-syslog.h
 -rw-r--r-- root       root             3282 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/regexp.h
 -rw-r--r-- root       root             3032 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/response.h
 -rw-r--r-- root       root             1928 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/include/rlimit.h
@@ -67,9 +67,9 @@ drwxr-xr-x root       root             1000 ./usr/src/debug/proftpd/1.3.5a-r0/pr
 drwxr-xr-x root       root              160 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/lib
 -rw-r--r-- root       root             5961 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/lib/getopt.h
 -rw-r--r-- root       root            38949 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/lib/glibc-glob.c
--rw-r--r-- root       root            10814 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/lib/pr-syslog.c
 -rw-r--r-- root       root            13613 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/lib/pr_fnmatch.c
 -rw-r--r-- root       root            31139 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/lib/pr_fnmatch_loop.c
+-rw-r--r-- root       root            10814 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/lib/pr-syslog.c
 -rw-r--r-- root       root             2300 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/lib/sstrncpy.c
 drwxr-xr-x root       root              280 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/modules
 -rw-r--r-- root       root           102272 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/modules/mod_auth.c
@@ -82,8 +82,8 @@ drwxr-xr-x root       root              280 ./usr/src/debug/proftpd/1.3.5a-r0/pr
 -rw-r--r-- root       root            83161 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/modules/mod_ls.c
 -rw-r--r-- root       root            22983 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/modules/mod_rlimit.c
 -rw-r--r-- root       root            14478 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/modules/mod_site.c
--rw-r--r-- root       root           100057 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/modules/mod_xfer.c
 -rw-r--r-- root       root              689 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/modules/module_glue.c
+-rw-r--r-- root       root           100057 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/modules/mod_xfer.c
 drwxr-xr-x root       root              980 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/src
 -rw-r--r-- root       root            43340 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/src/auth.c
 -rw-r--r-- root       root            38128 ./usr/src/debug/proftpd/1.3.5a-r0/proftpd-1.3.5a/src/bindings.c

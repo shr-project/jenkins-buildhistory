@@ -3,8 +3,6 @@ drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root            60752 ./usr/bin/enca
 lrwxrwxrwx root       root                4 ./usr/bin/enconv -> enca
 drwxr-xr-x root       root               80 ./usr/lib
-lrwxrwxrwx root       root               16 ./usr/lib/libenca.so.0 -> libenca.so.0.5.1
--rwxr-xr-x root       root           163836 ./usr/lib/libenca.so.0.5.1
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/enca
 drwxr-xr-x root       root              140 ./usr/libexec/enca/extconv
@@ -13,3 +11,5 @@ drwxr-xr-x root       root              140 ./usr/libexec/enca/extconv
 -rwxr-xr-x root       root             1181 ./usr/libexec/enca/extconv/piconv
 -rwxr-xr-x root       root              958 ./usr/libexec/enca/extconv/recode
 -rwxr-xr-x root       root             1151 ./usr/libexec/enca/extconv/umap
+-rwxr-xr-x root       root           163836 ./usr/lib/libenca.so.0.5.1
+lrwxrwxrwx root       root               16 ./usr/lib/libenca.so.0 -> libenca.so.0.5.1

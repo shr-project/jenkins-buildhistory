@@ -5,8 +5,8 @@ drwxr-xr-x root       root             1400 ./usr/include/musicbrainz5
 -rw-r--r-- root       root             1168 ./usr/include/musicbrainz5/AliasList.h
 -rw-r--r-- root       root             1859 ./usr/include/musicbrainz5/Annotation.h
 -rw-r--r-- root       root             1193 ./usr/include/musicbrainz5/AnnotationList.h
--rw-r--r-- root       root             2834 ./usr/include/musicbrainz5/Artist.h
 -rw-r--r-- root       root             1877 ./usr/include/musicbrainz5/ArtistCredit.h
+-rw-r--r-- root       root             2834 ./usr/include/musicbrainz5/Artist.h
 -rw-r--r-- root       root             1173 ./usr/include/musicbrainz5/ArtistList.h
 -rw-r--r-- root       root             1782 ./usr/include/musicbrainz5/Attribute.h
 -rw-r--r-- root       root             1188 ./usr/include/musicbrainz5/AttributeList.h
@@ -14,6 +14,7 @@ drwxr-xr-x root       root             1400 ./usr/include/musicbrainz5
 -rw-r--r-- root       root             1173 ./usr/include/musicbrainz5/CDStubList.h
 -rw-r--r-- root       root             1884 ./usr/include/musicbrainz5/Collection.h
 -rw-r--r-- root       root             1193 ./usr/include/musicbrainz5/CollectionList.h
+-rw-r--r-- root       root             1393 ./usr/include/musicbrainz5/defines.h
 -rw-r--r-- root       root             1873 ./usr/include/musicbrainz5/Disc.h
 -rw-r--r-- root       root             1163 ./usr/include/musicbrainz5/DiscList.h
 -rw-r--r-- root       root             2842 ./usr/include/musicbrainz5/Entity.h
@@ -33,6 +34,7 @@ drwxr-xr-x root       root             1400 ./usr/include/musicbrainz5
 -rw-r--r-- root       root             1827 ./usr/include/musicbrainz5/Lifespan.h
 -rw-r--r-- root       root             1760 ./usr/include/musicbrainz5/List.h
 -rw-r--r-- root       root             2492 ./usr/include/musicbrainz5/ListImpl.h
+-rw-r--r-- root       root           108686 ./usr/include/musicbrainz5/mb5_c.h
 -rw-r--r-- root       root             2012 ./usr/include/musicbrainz5/Medium.h
 -rw-r--r-- root       root             1823 ./usr/include/musicbrainz5/MediumList.h
 -rw-r--r-- root       root             1737 ./usr/include/musicbrainz5/Message.h
@@ -50,9 +52,9 @@ drwxr-xr-x root       root             1400 ./usr/include/musicbrainz5
 -rw-r--r-- root       root             2298 ./usr/include/musicbrainz5/Relation.h
 -rw-r--r-- root       root             1838 ./usr/include/musicbrainz5/RelationList.h
 -rw-r--r-- root       root             1831 ./usr/include/musicbrainz5/RelationListList.h
--rw-r--r-- root       root             2664 ./usr/include/musicbrainz5/Release.h
 -rw-r--r-- root       root             2554 ./usr/include/musicbrainz5/ReleaseGroup.h
 -rw-r--r-- root       root             1203 ./usr/include/musicbrainz5/ReleaseGroupList.h
+-rw-r--r-- root       root             2664 ./usr/include/musicbrainz5/Release.h
 -rw-r--r-- root       root             1178 ./usr/include/musicbrainz5/ReleaseList.h
 -rw-r--r-- root       root             1860 ./usr/include/musicbrainz5/SecondaryType.h
 -rw-r--r-- root       root             1896 ./usr/include/musicbrainz5/SecondaryTypeList.h
@@ -66,8 +68,6 @@ drwxr-xr-x root       root             1400 ./usr/include/musicbrainz5
 -rw-r--r-- root       root             1178 ./usr/include/musicbrainz5/UserTagList.h
 -rw-r--r-- root       root             2380 ./usr/include/musicbrainz5/Work.h
 -rw-r--r-- root       root             1163 ./usr/include/musicbrainz5/WorkList.h
--rw-r--r-- root       root             1393 ./usr/include/musicbrainz5/defines.h
--rw-r--r-- root       root           108686 ./usr/include/musicbrainz5/mb5_c.h
 -rw-r--r-- root       root            42959 ./usr/include/musicbrainz5/xmlParser.h
 drwxr-xr-x root       root               80 ./usr/lib
 lrwxrwxrwx root       root               20 ./usr/lib/libmusicbrainz5.so -> libmusicbrainz5.so.0

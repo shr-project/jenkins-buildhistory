@@ -1,8 +1,8 @@
 PV = 5.45
 PR = r1
-PKGR = r1.13
+PKGR = r1.15
 RPROVIDES = 
-RDEPENDS = expect (= 5.45-r1.13)
+RDEPENDS = expect (= 5.45-r1.15)
 RRECOMMENDS = glibc-dev tcl-dev tcl-lib-dev
 PKGSIZE = 17311
 FILES = /usr/lib/expect5.45/libexpect*.so /usr/include/expect.h /usr/include/expect_tcl.h /usr/include/expect_comm.h /usr/include/tcldbg.h /usr/include/*.h

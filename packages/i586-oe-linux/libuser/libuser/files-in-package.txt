@@ -6,10 +6,10 @@ drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root             8704 ./usr/bin/lchsh
 drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/libuser
-lrwxrwxrwx root       root               16 ./usr/lib/libuser.so.1 -> libuser.so.1.5.2
--rwxr-xr-x root       root           131912 ./usr/lib/libuser.so.1.5.2
 -rwxr-xr-x root       root            46264 ./usr/lib/libuser/libuser_files.so
 -rwxr-xr-x root       root            46264 ./usr/lib/libuser/libuser_shadow.so
+-rwxr-xr-x root       root           131912 ./usr/lib/libuser.so.1.5.2
+lrwxrwxrwx root       root               16 ./usr/lib/libuser.so.1 -> libuser.so.1.5.2
 drwxr-xr-x root       root              240 ./usr/sbin
 -rwxr-xr-x root       root            10152 ./usr/sbin/lchage
 -rwxr-xr-x root       root             6784 ./usr/sbin/lgroupadd
