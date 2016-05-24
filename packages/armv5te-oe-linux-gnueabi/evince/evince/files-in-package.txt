@@ -13,27 +13,24 @@ drwxr-xr-x root       root              160 ./usr/lib/evince/4/backends
 -rwxr-xr-x root       root            36412 ./usr/lib/evince/4/backends/libtiffdocument.so
 -rw-r--r-- root       root             3995 ./usr/lib/evince/4/backends/pdfdocument.evince-backend
 -rw-r--r-- root       root             2860 ./usr/lib/evince/4/backends/tiffdocument.evince-backend
+drwxr-xr-x root       root               60 ./usr/libexec
+-rwxr-xr-x root       root            23092 ./usr/libexec/evinced
 drwxr-xr-x root       root               80 ./usr/lib/girepository-1.0
 -rw-r--r-- root       root            60604 ./usr/lib/girepository-1.0/EvinceDocument-3.0.typelib
 -rw-r--r-- root       root            25508 ./usr/lib/girepository-1.0/EvinceView-3.0.typelib
-lrwxrwxrwx root       root               23 ./usr/lib/libevdocument3.so.4 -> libevdocument3.so.4.0.0
 -rwxr-xr-x root       root           158420 ./usr/lib/libevdocument3.so.4.0.0
-lrwxrwxrwx root       root               19 ./usr/lib/libevview3.so.3 -> libevview3.so.3.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/libevdocument3.so.4 -> libevdocument3.so.4.0.0
 -rwxr-xr-x root       root           245668 ./usr/lib/libevview3.so.3.0.0
-drwxr-xr-x root       root               60 ./usr/libexec
--rwxr-xr-x root       root            23092 ./usr/libexec/evinced
+lrwxrwxrwx root       root               19 ./usr/lib/libevview3.so.3 -> libevview3.so.3.0.0
 drwxr-xr-x root       root              220 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/GConf
-drwxr-xr-x root       root               60 ./usr/share/GConf/gsettings
--rw-r--r-- root       root               78 ./usr/share/GConf/gsettings/evince.convert
 drwxr-xr-x root       root              120 ./usr/share/appdata
+-rw-r--r-- root       root            28063 ./usr/share/appdata/evince.appdata.xml
 -rw-r--r-- root       root            11167 ./usr/share/appdata/evince-comicsdocument.metainfo.xml
 -rw-r--r-- root       root            10975 ./usr/share/appdata/evince-pdfdocument.metainfo.xml
 -rw-r--r-- root       root             9595 ./usr/share/appdata/evince-tiffdocument.metainfo.xml
--rw-r--r-- root       root            28063 ./usr/share/appdata/evince.appdata.xml
 drwxr-xr-x root       root               80 ./usr/share/applications
--rw-r--r-- root       root             6801 ./usr/share/applications/evince-previewer.desktop
 -rw-r--r-- root       root            14953 ./usr/share/applications/evince.desktop
+-rw-r--r-- root       root             6801 ./usr/share/applications/evince-previewer.desktop
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/services
 -rw-r--r-- root       root               71 ./usr/share/dbus-1/services/org.gnome.evince.Daemon.service
@@ -99,6 +96,9 @@ drwxr-xr-x root       root               60 ./usr/share/evince/icons/hicolor/sca
 -rw-r--r-- root       root             4778 ./usr/share/evince/icons/hicolor/scalable/apps/evince-symbolic.svg
 drwxr-xr-x root       root               60 ./usr/share/evince/icons/hicolor/scalable/mimetypes
 -rw-r--r-- root       root            24440 ./usr/share/evince/icons/hicolor/scalable/mimetypes/x-office-presentation.svg
+drwxr-xr-x root       root               60 ./usr/share/GConf
+drwxr-xr-x root       root               60 ./usr/share/GConf/gsettings
+-rw-r--r-- root       root               78 ./usr/share/GConf/gsettings/evince.convert
 drwxr-xr-x root       root               60 ./usr/share/glib-2.0
 drwxr-xr-x root       root               60 ./usr/share/glib-2.0/schemas
 -rw-r--r-- root       root             2923 ./usr/share/glib-2.0/schemas/org.gnome.Evince.gschema.xml

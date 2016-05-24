@@ -5,17 +5,23 @@ drwxr-xr-x root       root              700 ./usr/include/pango-1.0/pango
 -rw-r--r-- root       root            20340 ./usr/include/pango-1.0/pango/pango-attributes.h
 -rw-r--r-- root       root             4547 ./usr/include/pango-1.0/pango/pango-bidi-type.h
 -rw-r--r-- root       root             6578 ./usr/include/pango-1.0/pango/pango-break.h
+-rw-r--r-- root       root             6354 ./usr/include/pango-1.0/pango/pangocairo.h
 -rw-r--r-- root       root             5432 ./usr/include/pango-1.0/pango/pango-context.h
 -rw-r--r-- root       root             2962 ./usr/include/pango-1.0/pango/pango-coverage.h
 -rw-r--r-- root       root            15467 ./usr/include/pango-1.0/pango/pango-engine.h
 -rw-r--r-- root       root             2607 ./usr/include/pango-1.0/pango/pango-enum-types.h
+-rw-r--r-- root       root             3822 ./usr/include/pango-1.0/pango/pangofc-decoder.h
+-rw-r--r-- root       root             5300 ./usr/include/pango-1.0/pango/pangofc-font.h
+-rw-r--r-- root       root            11011 ./usr/include/pango-1.0/pango/pangofc-fontmap.h
 -rw-r--r-- root       root              232 ./usr/include/pango-1.0/pango/pango-features.h
 -rw-r--r-- root       root            22212 ./usr/include/pango-1.0/pango/pango-font.h
 -rw-r--r-- root       root             5828 ./usr/include/pango-1.0/pango/pango-fontmap.h
 -rw-r--r-- root       root             5589 ./usr/include/pango-1.0/pango/pango-fontset.h
--rw-r--r-- root       root             5634 ./usr/include/pango-1.0/pango/pango-glyph-item.h
+-rw-r--r-- root       root             4791 ./usr/include/pango-1.0/pango/pangoft2.h
 -rw-r--r-- root       root             6652 ./usr/include/pango-1.0/pango/pango-glyph.h
+-rw-r--r-- root       root             5634 ./usr/include/pango-1.0/pango/pango-glyph-item.h
 -rw-r--r-- root       root             4339 ./usr/include/pango-1.0/pango/pango-gravity.h
+-rw-r--r-- root       root             1598 ./usr/include/pango-1.0/pango/pango.h
 -rw-r--r-- root       root             3255 ./usr/include/pango-1.0/pango/pango-item.h
 -rw-r--r-- root       root             2071 ./usr/include/pango-1.0/pango/pango-language.h
 -rw-r--r-- root       root            14743 ./usr/include/pango-1.0/pango/pango-layout.h
@@ -27,14 +33,8 @@ drwxr-xr-x root       root              700 ./usr/include/pango-1.0/pango
 -rw-r--r-- root       root             2929 ./usr/include/pango-1.0/pango/pango-tabs.h
 -rw-r--r-- root       root             5872 ./usr/include/pango-1.0/pango/pango-types.h
 -rw-r--r-- root       root             6373 ./usr/include/pango-1.0/pango/pango-utils.h
--rw-r--r-- root       root             1598 ./usr/include/pango-1.0/pango/pango.h
--rw-r--r-- root       root             6354 ./usr/include/pango-1.0/pango/pangocairo.h
--rw-r--r-- root       root             3822 ./usr/include/pango-1.0/pango/pangofc-decoder.h
--rw-r--r-- root       root             5300 ./usr/include/pango-1.0/pango/pangofc-font.h
--rw-r--r-- root       root            11011 ./usr/include/pango-1.0/pango/pangofc-fontmap.h
--rw-r--r-- root       root             4791 ./usr/include/pango-1.0/pango/pangoft2.h
--rw-r--r-- root       root             4776 ./usr/include/pango-1.0/pango/pangoxft-render.h
 -rw-r--r-- root       root             4398 ./usr/include/pango-1.0/pango/pangoxft.h
+-rw-r--r-- root       root             4776 ./usr/include/pango-1.0/pango/pangoxft-render.h
 drwxr-xr-x root       root              220 ./usr/lib
 -rwxr-xr-x root       root             1151 ./usr/lib/libpango-1.0.la
 lrwxrwxrwx root       root               24 ./usr/lib/libpango-1.0.so -> libpango-1.0.so.0.4000.1
@@ -45,9 +45,9 @@ lrwxrwxrwx root       root               27 ./usr/lib/libpangoft2-1.0.so -> libp
 -rwxr-xr-x root       root             1638 ./usr/lib/libpangoxft-1.0.la
 lrwxrwxrwx root       root               27 ./usr/lib/libpangoxft-1.0.so -> libpangoxft-1.0.so.0.4000.1
 drwxr-xr-x root       root              120 ./usr/lib/pkgconfig
--rw-r--r-- root       root              256 ./usr/lib/pkgconfig/pango.pc
 -rw-r--r-- root       root              270 ./usr/lib/pkgconfig/pangocairo.pc
 -rw-r--r-- root       root              310 ./usr/lib/pkgconfig/pangoft2.pc
+-rw-r--r-- root       root              256 ./usr/lib/pkgconfig/pango.pc
 -rw-r--r-- root       root              238 ./usr/lib/pkgconfig/pangoxft.pc
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              120 ./usr/share/gir-1.0

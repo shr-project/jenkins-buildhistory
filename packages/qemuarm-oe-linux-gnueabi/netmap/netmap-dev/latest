@@ -1,9 +1,9 @@
 PV = master+gitAUTOINC+da9e19e69b
 PR = r0
 PKGV = master+git0+da9e19e69b
-PKGR = r0.9
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = netmap (= master+git0+da9e19e69b-r0.9)
+RDEPENDS = netmap (= master+git0+da9e19e69b-r0.11)
 RRECOMMENDS = glibc-dev kernel-module-netmap-dev netmap-modules-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/netmap/*.la /lib/*.la

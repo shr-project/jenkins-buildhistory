@@ -1,19 +1,19 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              260 ./usr/bin
-lrwxrwxrwx root       root                9 ./usr/bin/vala -> vala-0.30
 lrwxrwxrwx root       root               10 ./usr/bin/vala-0.30 -> valac-0.30
-lrwxrwxrwx root       root               24 ./usr/bin/vala-gen-introspect -> vala-gen-introspect-0.30
--rwxr-xr-x root       root              939 ./usr/bin/vala-gen-introspect-0.30
-lrwxrwxrwx root       root               10 ./usr/bin/valac -> valac-0.30
 -rwxr-xr-x root       root            27388 ./usr/bin/valac-0.30
-lrwxrwxrwx root       root               14 ./usr/bin/vapicheck -> vapicheck-0.30
+lrwxrwxrwx root       root               10 ./usr/bin/valac -> valac-0.30
+-rwxr-xr-x root       root              939 ./usr/bin/vala-gen-introspect-0.30
+lrwxrwxrwx root       root               24 ./usr/bin/vala-gen-introspect -> vala-gen-introspect-0.30
+lrwxrwxrwx root       root                9 ./usr/bin/vala -> vala-0.30
 -rwxr-xr-x root       root            45192 ./usr/bin/vapicheck-0.30
-lrwxrwxrwx root       root               12 ./usr/bin/vapigen -> vapigen-0.30
+lrwxrwxrwx root       root               14 ./usr/bin/vapicheck -> vapicheck-0.30
 -rwxr-xr-x root       root           115940 ./usr/bin/vapigen-0.30
+lrwxrwxrwx root       root               12 ./usr/bin/vapigen -> vapigen-0.30
 -rwxr-xr-x root       root               28 ./usr/bin/vapigen-wrapper
 drwxr-xr-x root       root              100 ./usr/lib
-lrwxrwxrwx root       root               21 ./usr/lib/libvala-0.30.so.0 -> libvala-0.30.so.0.0.0
 -rwxr-xr-x root       root          1736332 ./usr/lib/libvala-0.30.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libvala-0.30.so.0 -> libvala-0.30.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/lib/vala-0.30
 -rwxr-xr-x root       root            93448 ./usr/lib/vala-0.30/gen-introspect-0.30
 drwxr-xr-x root       root               80 ./usr/share
@@ -29,9 +29,9 @@ drwxr-xr-x root       root             6040 ./usr/share/vala-0.30/vapi
 -rw-r--r-- root       root               22 ./usr/share/vala-0.30/vapi/avahi-gobject.deps
 -rw-r--r-- root       root             8886 ./usr/share/vala-0.30/vapi/avahi-gobject.vapi
 -rw-r--r-- root       root             2543 ./usr/share/vala-0.30/vapi/bzlib.vapi
+-rw-r--r-- root       root            33917 ./usr/share/vala-0.30/vapi/cairo.vapi
 -rw-r--r-- root       root               11 ./usr/share/vala-0.30/vapi/cairo-xcb.deps
 -rw-r--r-- root       root             1300 ./usr/share/vala-0.30/vapi/cairo-xcb.vapi
--rw-r--r-- root       root            33917 ./usr/share/vala-0.30/vapi/cairo.vapi
 -rw-r--r-- root       root            11649 ./usr/share/vala-0.30/vapi/ccss-1.vapi
 -rw-r--r-- root       root               39 ./usr/share/vala-0.30/vapi/clutter-1.0.deps
 -rw-r--r-- root       root           438544 ./usr/share/vala-0.30/vapi/clutter-1.0.vapi
@@ -74,9 +74,9 @@ drwxr-xr-x root       root             6040 ./usr/share/vala-0.30/vapi
 -rw-r--r-- root       root            11018 ./usr/share/vala-0.30/vapi/gdl-1.0.vapi
 -rw-r--r-- root       root               17 ./usr/share/vala-0.30/vapi/gdl-3.0.deps
 -rw-r--r-- root       root            16450 ./usr/share/vala-0.30/vapi/gdl-3.0.vapi
+-rw-r--r-- root       root                8 ./usr/share/vala-0.30/vapi/gdu.deps
 -rw-r--r-- root       root               13 ./usr/share/vala-0.30/vapi/gdu-gtk.deps
 -rw-r--r-- root       root            23146 ./usr/share/vala-0.30/vapi/gdu-gtk.vapi
--rw-r--r-- root       root                8 ./usr/share/vala-0.30/vapi/gdu.deps
 -rw-r--r-- root       root            30741 ./usr/share/vala-0.30/vapi/gdu.vapi
 -rw-r--r-- root       root               74 ./usr/share/vala-0.30/vapi/gedit-2.20.deps
 -rw-r--r-- root       root            41477 ./usr/share/vala-0.30/vapi/gedit-2.20.vapi
@@ -259,10 +259,10 @@ drwxr-xr-x root       root             6040 ./usr/share/vala-0.30/vapi
 -rw-r--r-- root       root             2226 ./usr/share/vala-0.30/vapi/orc-0.4.vapi
 -rw-r--r-- root       root                8 ./usr/share/vala-0.30/vapi/packagekit-glib2.deps
 -rw-r--r-- root       root            63943 ./usr/share/vala-0.30/vapi/packagekit-glib2.vapi
--rw-r--r-- root       root                6 ./usr/share/vala-0.30/vapi/pango.deps
--rw-r--r-- root       root            47790 ./usr/share/vala-0.30/vapi/pango.vapi
 -rw-r--r-- root       root               12 ./usr/share/vala-0.30/vapi/pangocairo.deps
 -rw-r--r-- root       root             4264 ./usr/share/vala-0.30/vapi/pangocairo.vapi
+-rw-r--r-- root       root                6 ./usr/share/vala-0.30/vapi/pango.deps
+-rw-r--r-- root       root            47790 ./usr/share/vala-0.30/vapi/pango.vapi
 -rw-r--r-- root       root            16404 ./usr/share/vala-0.30/vapi/pixman-1.vapi
 -rw-r--r-- root       root               14 ./usr/share/vala-0.30/vapi/poppler-glib.deps
 -rw-r--r-- root       root            42448 ./usr/share/vala-0.30/vapi/poppler-glib.vapi

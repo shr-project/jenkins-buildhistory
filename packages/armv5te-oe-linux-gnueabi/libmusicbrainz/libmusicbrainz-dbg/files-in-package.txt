@@ -13,8 +13,8 @@ drwxr-xr-x root       root             1380 ./usr/src/debug/libmusicbrainz/5.0.1
 -rw-r--r-- root       root             1168 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/AliasList.h
 -rw-r--r-- root       root             1859 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Annotation.h
 -rw-r--r-- root       root             1193 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/AnnotationList.h
--rw-r--r-- root       root             2834 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Artist.h
 -rw-r--r-- root       root             1877 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/ArtistCredit.h
+-rw-r--r-- root       root             2834 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Artist.h
 -rw-r--r-- root       root             1173 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/ArtistList.h
 -rw-r--r-- root       root             1782 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Attribute.h
 -rw-r--r-- root       root             1188 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/AttributeList.h
@@ -41,6 +41,7 @@ drwxr-xr-x root       root             1380 ./usr/src/debug/libmusicbrainz/5.0.1
 -rw-r--r-- root       root             1827 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Lifespan.h
 -rw-r--r-- root       root             1760 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/List.h
 -rw-r--r-- root       root             2492 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/ListImpl.h
+-rw-r--r-- root       root           108686 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/mb5_c.h
 -rw-r--r-- root       root             2012 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Medium.h
 -rw-r--r-- root       root             1823 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/MediumList.h
 -rw-r--r-- root       root             1737 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Message.h
@@ -58,9 +59,9 @@ drwxr-xr-x root       root             1380 ./usr/src/debug/libmusicbrainz/5.0.1
 -rw-r--r-- root       root             2298 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Relation.h
 -rw-r--r-- root       root             1838 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/RelationList.h
 -rw-r--r-- root       root             1831 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/RelationListList.h
--rw-r--r-- root       root             2664 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Release.h
 -rw-r--r-- root       root             2554 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/ReleaseGroup.h
 -rw-r--r-- root       root             1203 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/ReleaseGroupList.h
+-rw-r--r-- root       root             2664 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Release.h
 -rw-r--r-- root       root             1178 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/ReleaseList.h
 -rw-r--r-- root       root             1860 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/SecondaryType.h
 -rw-r--r-- root       root             1896 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/SecondaryTypeList.h
@@ -74,7 +75,6 @@ drwxr-xr-x root       root             1380 ./usr/src/debug/libmusicbrainz/5.0.1
 -rw-r--r-- root       root             1178 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/UserTagList.h
 -rw-r--r-- root       root             2380 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/Work.h
 -rw-r--r-- root       root             1163 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/WorkList.h
--rw-r--r-- root       root           108686 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/mb5_c.h
 -rw-r--r-- root       root            42959 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/include/musicbrainz5/xmlParser.h
 drwxr-xr-x root       root              920 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src
 -rw-r--r-- root       root             3992 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/Alias.cc
@@ -96,6 +96,7 @@ drwxr-xr-x root       root              920 ./usr/src/debug/libmusicbrainz/5.0.1
 -rw-r--r-- root       root             3237 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/LabelInfo.cc
 -rw-r--r-- root       root             3124 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/Lifespan.cc
 -rw-r--r-- root       root             3343 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/List.cc
+-rw-r--r-- root       root            32226 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/mb5_c.cc
 -rw-r--r-- root       root             4490 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/Medium.cc
 -rw-r--r-- root       root             2778 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/MediumList.cc
 -rw-r--r-- root       root             2598 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/Message.cc
@@ -119,5 +120,4 @@ drwxr-xr-x root       root              920 ./usr/src/debug/libmusicbrainz/5.0.1
 -rw-r--r-- root       root             2751 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/UserRating.cc
 -rw-r--r-- root       root             2607 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/UserTag.cc
 -rw-r--r-- root       root             7564 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/Work.cc
--rw-r--r-- root       root            32226 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/mb5_c.cc
 -rw-r--r-- root       root           109385 ./usr/src/debug/libmusicbrainz/5.0.1+gitAUTOINC+0749dd0a35-r1/git/src/xmlParser.cpp

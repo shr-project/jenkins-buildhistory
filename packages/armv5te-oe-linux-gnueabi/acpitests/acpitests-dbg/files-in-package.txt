@@ -35,8 +35,8 @@ drwxr-xr-x root       root              260 ./usr/src/debug/acpitests/20140828-r
 -rw-r--r-- root       root            15695 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/disassembler/dmobject.c
 -rw-r--r-- root       root            24354 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/disassembler/dmopcode.c
 -rw-r--r-- root       root            13509 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/disassembler/dmresrc.c
--rw-r--r-- root       root            29252 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/disassembler/dmresrcl.c
 -rw-r--r-- root       root            20666 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/disassembler/dmresrcl2.c
+-rw-r--r-- root       root            29252 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/disassembler/dmresrcl.c
 -rw-r--r-- root       root            10813 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/disassembler/dmresrcs.c
 -rw-r--r-- root       root             7798 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/disassembler/dmutils.c
 -rw-r--r-- root       root            26881 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/disassembler/dmwalk.c
@@ -51,15 +51,15 @@ drwxr-xr-x root       root              320 ./usr/src/debug/acpitests/20140828-r
 -rw-r--r-- root       root            22489 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/dispatcher/dsopcode.c
 -rw-r--r-- root       root            28491 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/dispatcher/dsutils.c
 -rw-r--r-- root       root            23264 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/dispatcher/dswexec.c
--rw-r--r-- root       root            18394 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/dispatcher/dswload.c
 -rw-r--r-- root       root            21930 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/dispatcher/dswload2.c
+-rw-r--r-- root       root            18394 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/dispatcher/dswload.c
 -rw-r--r-- root       root             6978 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/dispatcher/dswscope.c
 -rw-r--r-- root       root            22834 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/dispatcher/dswstate.c
 drwxr-xr-x root       root              340 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/events
 -rw-r--r-- root       root             9694 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/events/evevent.c
 -rw-r--r-- root       root            11425 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/events/evglock.c
--rw-r--r-- root       root            25282 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/events/evgpe.c
 -rw-r--r-- root       root            16530 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/events/evgpeblk.c
+-rw-r--r-- root       root            25282 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/events/evgpe.c
 -rw-r--r-- root       root            15154 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/events/evgpeinit.c
 -rw-r--r-- root       root            12952 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/events/evgpeutil.c
 -rw-r--r-- root       root            17267 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/events/evhandler.c
@@ -122,8 +122,8 @@ drwxr-xr-x root       root              480 ./usr/src/debug/acpitests/20140828-r
 -rw-r--r-- root       root             7053 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/namespace/nsparse.c
 -rw-r--r-- root       root            14310 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/namespace/nspredef.c
 -rw-r--r-- root       root            21476 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/namespace/nsprepkg.c
--rw-r--r-- root       root            20774 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/namespace/nsrepair.c
 -rw-r--r-- root       root            33612 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/namespace/nsrepair2.c
+-rw-r--r-- root       root            20774 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/namespace/nsrepair.c
 -rw-r--r-- root       root            14383 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/namespace/nssearch.c
 -rw-r--r-- root       root            22821 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/namespace/nsutils.c
 -rw-r--r-- root       root            12573 ./usr/src/debug/acpitests/20140828-r0/acpitests-unix-20140828/source/components/namespace/nswalk.c

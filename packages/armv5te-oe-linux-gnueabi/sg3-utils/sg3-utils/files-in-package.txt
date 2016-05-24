@@ -17,13 +17,16 @@ drwxr-xr-x root       root             1440 ./usr/bin
 -rwxr-xr-x root       root            18952 ./usr/bin/sg_get_config
 -rwxr-xr-x root       root             8760 ./usr/bin/sg_get_lba_status
 -rwxr-xr-x root       root             7912 ./usr/bin/sg_ident
+-rwxr-xr-x root       root            48264 ./usr/bin/sginfo
 -rwxr-xr-x root       root            70480 ./usr/bin/sg_inq
 -rwxr-xr-x root       root            87096 ./usr/bin/sg_logs
 -rwxr-xr-x root       root            14592 ./usr/bin/sg_luns
 -rwxr-xr-x root       root             9508 ./usr/bin/sg_map
 -rwxr-xr-x root       root            14824 ./usr/bin/sg_map26
+-rwxr-xr-x root       root            24464 ./usr/bin/sgm_dd
 -rwxr-xr-x root       root            20892 ./usr/bin/sg_modes
 -rwxr-xr-x root       root            17240 ./usr/bin/sg_opcodes
+-rwxr-xr-x root       root            30884 ./usr/bin/sgp_dd
 -rwxr-xr-x root       root            21916 ./usr/bin/sg_persist
 -rwxr-xr-x root       root             6204 ./usr/bin/sg_prevent
 -rwxr-xr-x root       root            11952 ./usr/bin/sg_raw
@@ -32,8 +35,8 @@ drwxr-xr-x root       root             1440 ./usr/bin
 -rwxr-xr-x root       root            19244 ./usr/bin/sg_read
 -rwxr-xr-x root       root             6228 ./usr/bin/sg_read_block_limits
 -rwxr-xr-x root       root            10624 ./usr/bin/sg_read_buffer
--rwxr-xr-x root       root             7904 ./usr/bin/sg_read_long
 -rwxr-xr-x root       root            14592 ./usr/bin/sg_readcap
+-rwxr-xr-x root       root             7904 ./usr/bin/sg_read_long
 -rwxr-xr-x root       root            10424 ./usr/bin/sg_reassign
 -rwxr-xr-x root       root             8064 ./usr/bin/sg_referrals
 -rwxr-xr-x root       root             9632 ./usr/bin/sg_rep_zones
@@ -60,16 +63,13 @@ drwxr-xr-x root       root             1440 ./usr/bin
 -rwxr-xr-x root       root             9460 ./usr/bin/sg_unmap
 -rwxr-xr-x root       root            10668 ./usr/bin/sg_verify
 -rwxr-xr-x root       root            73980 ./usr/bin/sg_vpd
--rwxr-xr-x root       root            11396 ./usr/bin/sg_wr_mode
 -rwxr-xr-x root       root            12052 ./usr/bin/sg_write_buffer
 -rwxr-xr-x root       root             8336 ./usr/bin/sg_write_long
 -rwxr-xr-x root       root            13452 ./usr/bin/sg_write_same
 -rwxr-xr-x root       root            13060 ./usr/bin/sg_write_verify
+-rwxr-xr-x root       root            11396 ./usr/bin/sg_wr_mode
 -rwxr-xr-x root       root            31436 ./usr/bin/sg_xcopy
 -rwxr-xr-x root       root             7072 ./usr/bin/sg_zone
--rwxr-xr-x root       root            48264 ./usr/bin/sginfo
--rwxr-xr-x root       root            24464 ./usr/bin/sgm_dd
--rwxr-xr-x root       root            30884 ./usr/bin/sgp_dd
 drwxr-xr-x root       root               80 ./usr/lib
-lrwxrwxrwx root       root               20 ./usr/lib/libsgutils2.so.2 -> libsgutils2.so.2.0.0
 -rwxr-xr-x root       root           119820 ./usr/lib/libsgutils2.so.2.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libsgutils2.so.2 -> libsgutils2.so.2.0.0

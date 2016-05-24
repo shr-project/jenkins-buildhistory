@@ -3,7 +3,6 @@ drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              940 ./usr/include/subversion-1
 -rw-r--r-- root       root             2213 ./usr/include/subversion-1/mod_authz_svn.h
 -rw-r--r-- root       root             5180 ./usr/include/subversion-1/mod_dav_svn.h
--rw-r--r-- root       root               22 ./usr/include/subversion-1/svn-revision.txt
 -rw-r--r-- root       root            48963 ./usr/include/subversion-1/svn_auth.h
 -rw-r--r-- root       root             3685 ./usr/include/subversion-1/svn_base64.h
 -rw-r--r-- root       root             2915 ./usr/include/subversion-1/svn_cache_config.h
@@ -18,8 +17,8 @@ drwxr-xr-x root       root              940 ./usr/include/subversion-1
 -rw-r--r-- root       root            49162 ./usr/include/subversion-1/svn_diff.h
 -rw-r--r-- root       root            28522 ./usr/include/subversion-1/svn_dirent_uri.h
 -rw-r--r-- root       root             2975 ./usr/include/subversion-1/svn_dso.h
--rw-r--r-- root       root            24982 ./usr/include/subversion-1/svn_error.h
 -rw-r--r-- root       root            60839 ./usr/include/subversion-1/svn_error_codes.h
+-rw-r--r-- root       root            24982 ./usr/include/subversion-1/svn_error.h
 -rw-r--r-- root       root           118245 ./usr/include/subversion-1/svn_fs.h
 -rw-r--r-- root       root             7498 ./usr/include/subversion-1/svn_hash.h
 -rw-r--r-- root       root            87027 ./usr/include/subversion-1/svn_io.h
@@ -35,6 +34,7 @@ drwxr-xr-x root       root              940 ./usr/include/subversion-1
 -rw-r--r-- root       root            95418 ./usr/include/subversion-1/svn_ra.h
 -rw-r--r-- root       root            25787 ./usr/include/subversion-1/svn_ra_svn.h
 -rw-r--r-- root       root           148545 ./usr/include/subversion-1/svn_repos.h
+-rw-r--r-- root       root               22 ./usr/include/subversion-1/svn-revision.txt
 -rw-r--r-- root       root             5017 ./usr/include/subversion-1/svn_sorts.h
 -rw-r--r-- root       root            20430 ./usr/include/subversion-1/svn_string.h
 -rw-r--r-- root       root            27056 ./usr/include/subversion-1/svn_subst.h
@@ -80,12 +80,12 @@ drwxr-xr-x root       root              320 ./usr/share/pkgconfig
 -rw-r--r-- root       root              293 ./usr/share/pkgconfig/libsvn_client.pc
 -rw-r--r-- root       root              260 ./usr/share/pkgconfig/libsvn_delta.pc
 -rw-r--r-- root       root              246 ./usr/share/pkgconfig/libsvn_diff.pc
--rw-r--r-- root       root              294 ./usr/share/pkgconfig/libsvn_fs.pc
 -rw-r--r-- root       root              305 ./usr/share/pkgconfig/libsvn_fs_fs.pc
+-rw-r--r-- root       root              294 ./usr/share/pkgconfig/libsvn_fs.pc
 -rw-r--r-- root       root              273 ./usr/share/pkgconfig/libsvn_fs_util.pc
 -rw-r--r-- root       root              302 ./usr/share/pkgconfig/libsvn_fs_x.pc
--rw-r--r-- root       root              272 ./usr/share/pkgconfig/libsvn_ra.pc
 -rw-r--r-- root       root              305 ./usr/share/pkgconfig/libsvn_ra_local.pc
+-rw-r--r-- root       root              272 ./usr/share/pkgconfig/libsvn_ra.pc
 -rw-r--r-- root       root              325 ./usr/share/pkgconfig/libsvn_ra_serf.pc
 -rw-r--r-- root       root              297 ./usr/share/pkgconfig/libsvn_ra_svn.pc
 -rw-r--r-- root       root              273 ./usr/share/pkgconfig/libsvn_repos.pc

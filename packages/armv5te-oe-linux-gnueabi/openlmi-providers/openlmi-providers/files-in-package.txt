@@ -14,10 +14,6 @@ drwxr-xr-x root       root              120 ./usr/lib/cmpi
 -rwxr-xr-x root       root            40452 ./usr/lib/cmpi/libcmpiLMI_LogicalFile.so
 -rwxr-xr-x root       root            33392 ./usr/lib/cmpi/libcmpiLMI_PowerManagement.so
 -rwxr-xr-x root       root            16072 ./usr/lib/cmpi/libcmpiLMI_Service.so
-lrwxrwxrwx root       root               25 ./usr/lib/libopenlmicommon.so.0 -> libopenlmicommon.so.0.0.2
--rwxr-xr-x root       root            18332 ./usr/lib/libopenlmicommon.so.0.0.2
-lrwxrwxrwx root       root               29 ./usr/lib/libopenlmiindmanager.so.1 -> libopenlmiindmanager.so.1.0.0
--rwxr-xr-x root       root            15832 ./usr/lib/libopenlmiindmanager.so.1.0.0
 drwxr-xr-x root       root              100 ./usr/libexec
 drwxr-xr-x root       root              120 ./usr/libexec/pegasus
 -rwxr-xr-x root       root              892 ./usr/libexec/pegasus/cmpiLMI_Hardware-cimprovagt
@@ -26,6 +22,10 @@ drwxr-xr-x root       root              120 ./usr/libexec/pegasus
 -rwxr-xr-x root       root              884 ./usr/libexec/pegasus/cmpiLMI_Service-cimprovagt
 -rwxr-xr-x root       root             1282 ./usr/libexec/servicedisc.sh
 -rwxr-xr-x root       root             3002 ./usr/libexec/serviceutil.sh
+-rwxr-xr-x root       root            18332 ./usr/lib/libopenlmicommon.so.0.0.2
+lrwxrwxrwx root       root               25 ./usr/lib/libopenlmicommon.so.0 -> libopenlmicommon.so.0.0.2
+-rwxr-xr-x root       root            15832 ./usr/lib/libopenlmiindmanager.so.1.0.0
+lrwxrwxrwx root       root               29 ./usr/lib/libopenlmiindmanager.so.1 -> libopenlmiindmanager.so.1.0.0
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              440 ./usr/share/openlmi-providers
 -rw-r--r-- root       root             1058 ./usr/share/openlmi-providers/05_LMI_Qualifiers.mof
@@ -38,12 +38,12 @@ drwxr-xr-x root       root              440 ./usr/share/openlmi-providers
 -rw-r--r-- root       root              987 ./usr/share/openlmi-providers/60_LMI_PowerManagement.reg
 -rw-r--r-- root       root             3017 ./usr/share/openlmi-providers/60_LMI_Service.mof
 -rw-r--r-- root       root              120 ./usr/share/openlmi-providers/60_LMI_Service.reg
+-rw-r--r-- root       root             7276 ./usr/share/openlmi-providers/60_LMI_Software_MethodParameters.mof
 -rw-r--r-- root       root            39282 ./usr/share/openlmi-providers/60_LMI_Software.mof
 -rw-r--r-- root       root             5404 ./usr/share/openlmi-providers/60_LMI_Software.reg
--rw-r--r-- root       root             7276 ./usr/share/openlmi-providers/60_LMI_Software_MethodParameters.mof
 -rw-r--r-- root       root             7588 ./usr/share/openlmi-providers/70_LMI_SoftwareIndicationFilters.mof
--rw-r--r-- root       root            24999 ./usr/share/openlmi-providers/90_LMI_Hardware_Profile.mof
 -rw-r--r-- root       root             2778 ./usr/share/openlmi-providers/90_LMI_Hardware_Profile_DMTF.mof
+-rw-r--r-- root       root            24999 ./usr/share/openlmi-providers/90_LMI_Hardware_Profile.mof
 -rw-r--r-- root       root             4259 ./usr/share/openlmi-providers/90_LMI_LogicalFile_Profile.mof
 -rw-r--r-- root       root             3228 ./usr/share/openlmi-providers/90_LMI_PowerManagement_Profile.mof
 -rw-r--r-- root       root              402 ./usr/share/openlmi-providers/90_LMI_Service_Profile.mof

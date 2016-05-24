@@ -30,9 +30,9 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            38096 ./usr/lib/gegl-0.3/color-exchange.so
 -rwxr-xr-x root       root            60468 ./usr/lib/gegl-0.3/color-reduction.so
 -rwxr-xr-x root       root            51584 ./usr/lib/gegl-0.3/color-rotate.so
+-rwxr-xr-x root       root            17176 ./usr/lib/gegl-0.3/color.so
 -rwxr-xr-x root       root            40512 ./usr/lib/gegl-0.3/color-temperature.so
 -rwxr-xr-x root       root            39184 ./usr/lib/gegl-0.3/color-to-alpha.so
--rwxr-xr-x root       root            17176 ./usr/lib/gegl-0.3/color.so
 -rwxr-xr-x root       root            37888 ./usr/lib/gegl-0.3/contrast-curve.so
 -rwxr-xr-x root       root            16132 ./usr/lib/gegl-0.3/convert-format.so
 -rwxr-xr-x root       root            48448 ./usr/lib/gegl-0.3/convolution-matrix.so
@@ -56,8 +56,8 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            10308 ./usr/lib/gegl-0.3/dst-over.so
 -rwxr-xr-x root       root             8400 ./usr/lib/gegl-0.3/dst.so
 -rwxr-xr-x root       root            52976 ./usr/lib/gegl-0.3/edge-laplace.so
--rwxr-xr-x root       root            44844 ./usr/lib/gegl-0.3/edge-sobel.so
 -rwxr-xr-x root       root            45860 ./usr/lib/gegl-0.3/edge.so
+-rwxr-xr-x root       root            44844 ./usr/lib/gegl-0.3/edge-sobel.so
 -rwxr-xr-x root       root            37756 ./usr/lib/gegl-0.3/emboss.so
 -rwxr-xr-x root       root            27864 ./usr/lib/gegl-0.3/engrave.so
 -rwxr-xr-x root       root            11084 ./usr/lib/gegl-0.3/exclusion.so
@@ -72,8 +72,8 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root           102240 ./usr/lib/gegl-0.3/gblur-1d.so
 -rwxr-xr-x root       root            16104 ./usr/lib/gegl-0.3/gegl-buffer-load-op.so
 -rwxr-xr-x root       root            13672 ./usr/lib/gegl-0.3/gegl-buffer-save-op.so
--rwxr-xr-x root       root            14968 ./usr/lib/gegl-0.3/grey.so
 -rw-r--r-- root       root             1086 ./usr/lib/gegl-0.3/grey2.json
+-rwxr-xr-x root       root            14968 ./usr/lib/gegl-0.3/grey.so
 -rwxr-xr-x root       root            25048 ./usr/lib/gegl-0.3/grid.so
 -rwxr-xr-x root       root            11280 ./usr/lib/gegl-0.3/hard-light.so
 -rwxr-xr-x root       root            16412 ./usr/lib/gegl-0.3/high-pass.so
@@ -124,8 +124,8 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            67744 ./usr/lib/gegl-0.3/oilify.so
 -rwxr-xr-x root       root            39776 ./usr/lib/gegl-0.3/opacity.so
 -rwxr-xr-x root       root            19880 ./usr/lib/gegl-0.3/open-buffer.so
--rwxr-xr-x root       root            27412 ./usr/lib/gegl-0.3/over.so
 -rwxr-xr-x root       root            11224 ./usr/lib/gegl-0.3/overlay.so
+-rwxr-xr-x root       root            27412 ./usr/lib/gegl-0.3/over.so
 -rwxr-xr-x root       root            65112 ./usr/lib/gegl-0.3/panorama-projection.so
 -rwxr-xr-x root       root            67988 ./usr/lib/gegl-0.3/path.so
 -rwxr-xr-x root       root            41936 ./usr/lib/gegl-0.3/photocopy.so
@@ -157,8 +157,8 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            21728 ./usr/lib/gegl-0.3/shift.so
 -rwxr-xr-x root       root            45056 ./usr/lib/gegl-0.3/sinus.so
 -rwxr-xr-x root       root            51912 ./usr/lib/gegl-0.3/snn-mean.so
--rwxr-xr-x root       root            14672 ./usr/lib/gegl-0.3/soft-light.so
 -rwxr-xr-x root       root            33372 ./usr/lib/gegl-0.3/softglow.so
+-rwxr-xr-x root       root            14672 ./usr/lib/gegl-0.3/soft-light.so
 -rwxr-xr-x root       root            10308 ./usr/lib/gegl-0.3/src-atop.so
 -rwxr-xr-x root       root             9332 ./usr/lib/gegl-0.3/src-in.so
 -rwxr-xr-x root       root            10308 ./usr/lib/gegl-0.3/src-out.so
@@ -198,7 +198,7 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            10304 ./usr/lib/gegl-0.3/xor.so
 drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
 -rw-r--r-- root       root            35032 ./usr/lib/girepository-1.0/Gegl-0.3.typelib
-lrwxrwxrwx root       root               22 ./usr/lib/libgegl-0.3.so.0 -> libgegl-0.3.so.0.304.0
 -rwxr-xr-x root       root           604716 ./usr/lib/libgegl-0.3.so.0.304.0
+lrwxrwxrwx root       root               22 ./usr/lib/libgegl-0.3.so.0 -> libgegl-0.3.so.0.304.0
 -rwxr-xr-x root       root            27276 ./usr/lib/libgegl-npd-0.3.so
 -rwxr-xr-x root       root            94384 ./usr/lib/libgegl-sc-0.3.so

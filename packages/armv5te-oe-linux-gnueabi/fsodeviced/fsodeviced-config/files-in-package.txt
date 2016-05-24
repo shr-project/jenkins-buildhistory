@@ -3,6 +3,10 @@ drwxr-xr-x root       root               60 ./etc/freesmartphone
 drwxr-xr-x root       root              500 ./etc/freesmartphone/conf
 drwxr-xr-x root       root               60 ./etc/freesmartphone/conf/AuthenticAMD
 -rw-r--r-- root       root             1002 ./etc/freesmartphone/conf/AuthenticAMD/fsodeviced.conf
+lrwxrwxrwx root       root                9 ./etc/freesmartphone/conf/crespo -> ./herring
+drwxr-xr-x root       root               60 ./etc/freesmartphone/conf/default
+-rw-r--r-- root       root              543 ./etc/freesmartphone/conf/default/fsodeviced.conf
+lrwxrwxrwx root       root               18 ./etc/freesmartphone/conf/diamond -> ./htc_qualcomm_msm
 lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/GTA01 -> ./openmoko_gta
 lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/GTA02 -> ./openmoko_gta
 drwxr-xr-x root       root              140 ./etc/freesmartphone/conf/GTA04
@@ -11,57 +15,53 @@ drwxr-xr-x root       root              120 ./etc/freesmartphone/conf/GTA04/alsa
 -rw-r--r-- root       root             2409 ./etc/freesmartphone/conf/GTA04/alsa-3.4/gsmspeaker
 -rw-r--r-- root       root             2402 ./etc/freesmartphone/conf/GTA04/alsa-3.4/headset
 -rw-r--r-- root       root             2402 ./etc/freesmartphone/conf/GTA04/alsa-3.4/stereoout
-lrwxrwxrwx root       root                8 ./etc/freesmartphone/conf/GTA04/alsa-default -> alsa-3.4
 -rw-r--r-- root       root              262 ./etc/freesmartphone/conf/GTA04/alsa.conf
+lrwxrwxrwx root       root                8 ./etc/freesmartphone/conf/GTA04/alsa-default -> alsa-3.4
 -rw-r--r-- root       root             1330 ./etc/freesmartphone/conf/GTA04/fsodeviced.conf
 drwxr-xr-x root       root               80 ./etc/freesmartphone/conf/GTA04/swrouting
+-rw-r--r-- root       root              262 ./etc/freesmartphone/conf/GTA04/swrouting/alsa.conf
 drwxr-xr-x root       root              120 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default
 -rw-r--r-- root       root             2402 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default/gsmhandset
 -rw-r--r-- root       root             2402 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default/gsmheadset
 -rw-r--r-- root       root             2402 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default/headset
 -rw-r--r-- root       root             2402 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default/stereoout
--rw-r--r-- root       root              262 ./etc/freesmartphone/conf/GTA04/swrouting/alsa.conf
-lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/MotorolaEZXA1200 -> ./motorola_ezx
-lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/MotorolaEZXA780 -> ./motorola_ezx
-lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/MotorolaEZXE2 -> ./motorola_ezx
-lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/MotorolaEZXE6 -> ./motorola_ezx
-lrwxrwxrwx root       root               12 ./etc/freesmartphone/conf/NokiaRX-51board -> ./nokia_n900
-lrwxrwxrwx root       root                9 ./etc/freesmartphone/conf/crespo -> ./herring
-drwxr-xr-x root       root               60 ./etc/freesmartphone/conf/default
--rw-r--r-- root       root              543 ./etc/freesmartphone/conf/default/fsodeviced.conf
-lrwxrwxrwx root       root               18 ./etc/freesmartphone/conf/diamond -> ./htc_qualcomm_msm
 drwxr-xr-x root       root              100 ./etc/freesmartphone/conf/herring
+-rw-r--r-- root       root              178 ./etc/freesmartphone/conf/herring/alsa.conf
 drwxr-xr-x root       root              120 ./etc/freesmartphone/conf/herring/alsa-default
 -rw-r--r-- root       root              258 ./etc/freesmartphone/conf/herring/alsa-default/gsmheadset
 -rw-r--r-- root       root              258 ./etc/freesmartphone/conf/herring/alsa-default/gsmspeaker
 -rw-r--r-- root       root              258 ./etc/freesmartphone/conf/herring/alsa-default/headset
 -rw-r--r-- root       root              258 ./etc/freesmartphone/conf/herring/alsa-default/stereoout
--rw-r--r-- root       root              178 ./etc/freesmartphone/conf/herring/alsa.conf
 -rw-r--r-- root       root              955 ./etc/freesmartphone/conf/herring/fsodeviced.conf
+drwxr-xr-x root       root               60 ./etc/freesmartphone/conf/htcleo
+-rw-r--r-- root       root              704 ./etc/freesmartphone/conf/htcleo/fsodeviced.conf
 drwxr-xr-x root       root              100 ./etc/freesmartphone/conf/htc_qualcomm_dream
+-rw-r--r-- root       root              178 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa.conf
 drwxr-xr-x root       root              140 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default
 -rw-r--r-- root       root              144 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/gsmhandset
 -rw-r--r-- root       root              144 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/gsmheadset
 -rw-r--r-- root       root              143 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/gsmspeaker
 -rw-r--r-- root       root              144 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/headset
 -rw-r--r-- root       root              143 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/stereoout
--rw-r--r-- root       root              178 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa.conf
 -rw-r--r-- root       root              965 ./etc/freesmartphone/conf/htc_qualcomm_dream/fsodeviced.conf
 drwxr-xr-x root       root               60 ./etc/freesmartphone/conf/htc_qualcomm_msm
 -rw-r--r-- root       root              837 ./etc/freesmartphone/conf/htc_qualcomm_msm/fsodeviced.conf
-drwxr-xr-x root       root               60 ./etc/freesmartphone/conf/htcleo
--rw-r--r-- root       root              704 ./etc/freesmartphone/conf/htcleo/fsodeviced.conf
 lrwxrwxrwx root       root               10 ./etc/freesmartphone/conf/mahimahi -> ./nexusone
 drwxr-xr-x root       root               60 ./etc/freesmartphone/conf/motorola_ezx
+lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/MotorolaEZXA1200 -> ./motorola_ezx
+lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/MotorolaEZXA780 -> ./motorola_ezx
+lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/MotorolaEZXE2 -> ./motorola_ezx
+lrwxrwxrwx root       root               14 ./etc/freesmartphone/conf/MotorolaEZXE6 -> ./motorola_ezx
 -rw-r--r-- root       root             1614 ./etc/freesmartphone/conf/motorola_ezx/fsodeviced.conf
 drwxr-xr-x root       root               60 ./etc/freesmartphone/conf/nexusone
 -rw-r--r-- root       root              635 ./etc/freesmartphone/conf/nexusone/fsodeviced.conf
 drwxr-xr-x root       root              100 ./etc/freesmartphone/conf/nokia_n900
+-rw-r--r-- root       root               98 ./etc/freesmartphone/conf/nokia_n900/alsa.conf
 drwxr-xr-x root       root               80 ./etc/freesmartphone/conf/nokia_n900/alsa-default
 -rw-r--r-- root       root             4254 ./etc/freesmartphone/conf/nokia_n900/alsa-default/headset
 -rw-r--r-- root       root             4255 ./etc/freesmartphone/conf/nokia_n900/alsa-default/stereoout
--rw-r--r-- root       root               98 ./etc/freesmartphone/conf/nokia_n900/alsa.conf
 -rw-r--r-- root       root             1873 ./etc/freesmartphone/conf/nokia_n900/fsodeviced.conf
+lrwxrwxrwx root       root               12 ./etc/freesmartphone/conf/NokiaRX-51board -> ./nokia_n900
 drwxr-xr-x root       root              180 ./etc/freesmartphone/conf/openmoko_gta
 drwxr-xr-x root       root              200 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29
 -rw-r--r-- root       root             2922 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29/capturehandset
@@ -99,8 +99,8 @@ drwxr-xr-x root       root              200 ./etc/freesmartphone/conf/openmoko_g
 -rw-r--r-- root       root             2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/headset
 -rw-r--r-- root       root             2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/stereoout
 -rw-r--r-- root       root             2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/voiphandset
-lrwxrwxrwx root       root               11 ./etc/freesmartphone/conf/openmoko_gta/alsa-default -> alsa-2.6.39
 -rw-r--r-- root       root              254 ./etc/freesmartphone/conf/openmoko_gta/alsa.conf
+lrwxrwxrwx root       root               11 ./etc/freesmartphone/conf/openmoko_gta/alsa-default -> alsa-2.6.39
 -rw-r--r-- root       root             1235 ./etc/freesmartphone/conf/openmoko_gta/fsodeviced.conf
 lrwxrwxrwx root       root               18 ./etc/freesmartphone/conf/raphael -> ./htc_qualcomm_msm
 lrwxrwxrwx root       root               20 ./etc/freesmartphone/conf/trout -> ./htc_qualcomm_dream

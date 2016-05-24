@@ -31,8 +31,8 @@ drwxr-xr-x root       root              740 ./usr/src/debug/conntrack-tools/1.4.
 -rw-r--r-- root       root             4632 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/cache.h
 -rw-r--r-- root       root             3328 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/channel.h
 -rw-r--r-- root       root              279 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/cidr.h
--rw-r--r-- root       root             1431 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/conntrack.h
 -rw-r--r-- root       root             7958 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/conntrackd.h
+-rw-r--r-- root       root             1431 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/conntrack.h
 -rw-r--r-- root       root              162 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/date.h
 -rw-r--r-- root       root              223 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/event.h
 -rw-r--r-- root       root              830 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/external.h
@@ -43,11 +43,11 @@ drwxr-xr-x root       root              740 ./usr/src/debug/conntrack-tools/1.4.
 -rw-r--r-- root       root             1419 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/internal.h
 -rw-r--r-- root       root             3282 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/jhash.h
 drwxr-xr-x root       root               60 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/linux
+-rw-r--r-- root       root            22633 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/linux_list.h
 drwxr-xr-x root       root              100 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/linux/netfilter
 -rw-r--r-- root       root             1139 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/linux/netfilter/nfnetlink_cthelper.h
 -rw-r--r-- root       root             2732 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/linux/netfilter/nfnetlink_cttimeout.h
 -rw-r--r-- root       root             2407 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/linux/netfilter/nfnetlink_queue.h
--rw-r--r-- root       root            22633 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/linux_list.h
 -rw-r--r-- root       root             4864 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/linux_rbtree.h
 -rw-r--r-- root       root              900 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/local.h
 -rw-r--r-- root       root              328 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/include/log.h
@@ -68,9 +68,9 @@ drwxr-xr-x root       root              100 ./usr/src/debug/conntrack-tools/1.4.
 drwxr-xr-x root       root             1180 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src
 -rw-r--r-- root       root             3576 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/alarm.c
 -rw-r--r-- root       root            13361 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/build.c
+-rw-r--r-- root       root             9096 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/cache.c
 -rw-r--r-- root       root            10260 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/cache-ct.c
 -rw-r--r-- root       root             8963 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/cache-exp.c
--rw-r--r-- root       root             9096 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/cache.c
 -rw-r--r-- root       root             1924 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/cache_timer.c
 -rw-r--r-- root       root             6635 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/channel.c
 -rw-r--r-- root       root             3129 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/channel_mcast.c
@@ -102,10 +102,10 @@ drwxr-xr-x root       root              100 ./usr/src/debug/conntrack-tools/1.4.
 -rw-r--r-- root       root             2381 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/multichannel.c
 -rw-r--r-- root       root            10348 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/netlink.c
 -rw-r--r-- root       root             3131 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/network.c
+-rw-r--r-- root       root             3464 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/nfct.c
 drwxr-xr-x root       root               80 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/nfct-extensions
 -rw-r--r-- root       root            13515 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/nfct-extensions/helper.c
 -rw-r--r-- root       root            10876 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/nfct-extensions/timeout.c
--rw-r--r-- root       root             3464 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/nfct.c
 -rw-r--r-- root       root             1800 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/origin.c
 -rw-r--r-- root       root            15305 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/parse.c
 -rw-r--r-- root       root             2301 ./usr/src/debug/conntrack-tools/1.4.2-r0/conntrack-tools-1.4.2/src/process.c

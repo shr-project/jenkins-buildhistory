@@ -7,23 +7,21 @@ lrwxrwxrwx root       root                1 ./usr/include/gphoto2/gphoto2 -> .
 -rw-r--r-- root       root             4993 ./usr/include/gphoto2/gphoto2-context.h
 -rw-r--r-- root       root             6851 ./usr/include/gphoto2/gphoto2-file.h
 -rw-r--r-- root       root            15349 ./usr/include/gphoto2/gphoto2-filesys.h
+-rw-r--r-- root       root             1515 ./usr/include/gphoto2/gphoto2.h
 -rw-r--r-- root       root             2271 ./usr/include/gphoto2/gphoto2-library.h
 -rw-r--r-- root       root             2932 ./usr/include/gphoto2/gphoto2-list.h
+-rw-r--r-- root       root             8387 ./usr/include/gphoto2/gphoto2-port.h
 -rw-r--r-- root       root             3802 ./usr/include/gphoto2/gphoto2-port-info-list.h
 -rw-r--r-- root       root             7577 ./usr/include/gphoto2/gphoto2-port-log.h
 -rw-r--r-- root       root             7193 ./usr/include/gphoto2/gphoto2-port-portability.h
 -rw-r--r-- root       root             3031 ./usr/include/gphoto2/gphoto2-port-result.h
 -rw-r--r-- root       root             1336 ./usr/include/gphoto2/gphoto2-port-version.h
--rw-r--r-- root       root             8387 ./usr/include/gphoto2/gphoto2-port.h
 -rw-r--r-- root       root             4073 ./usr/include/gphoto2/gphoto2-result.h
 -rw-r--r-- root       root             1148 ./usr/include/gphoto2/gphoto2-setting.h
 -rw-r--r-- root       root             1133 ./usr/include/gphoto2/gphoto2-version.h
 -rw-r--r-- root       root             4883 ./usr/include/gphoto2/gphoto2-widget.h
--rw-r--r-- root       root             1515 ./usr/include/gphoto2/gphoto2.h
 drwxr-xr-x root       root              180 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/libgphoto2
--rwxr-xr-x root       root             1009 ./usr/lib/libgphoto2.la
-lrwxrwxrwx root       root               19 ./usr/lib/libgphoto2.so -> libgphoto2.so.6.0.0
 drwxr-xr-x root       root             1320 ./usr/lib/libgphoto2/2.5.8
 -rwxr-xr-x root       root             1011 ./usr/lib/libgphoto2/2.5.8/adc65.la
 -rwxr-xr-x root       root             1035 ./usr/lib/libgphoto2/2.5.8/agfa_cl20.la
@@ -69,8 +67,8 @@ drwxr-xr-x root       root             1320 ./usr/lib/libgphoto2/2.5.8
 -rwxr-xr-x root       root             1071 ./usr/lib/libgphoto2/2.5.8/polaroid_pdc640.la
 -rwxr-xr-x root       root             1071 ./usr/lib/libgphoto2/2.5.8/polaroid_pdc700.la
 -rwxr-xr-x root       root             1030 ./usr/lib/libgphoto2/2.5.8/ptp2.la
--rwxr-xr-x root       root             1011 ./usr/lib/libgphoto2/2.5.8/ricoh.la
 -rwxr-xr-x root       root             1029 ./usr/lib/libgphoto2/2.5.8/ricoh_g3.la
+-rwxr-xr-x root       root             1011 ./usr/lib/libgphoto2/2.5.8/ricoh.la
 -rwxr-xr-x root       root             1023 ./usr/lib/libgphoto2/2.5.8/samsung.la
 -rwxr-xr-x root       root             1017 ./usr/lib/libgphoto2/2.5.8/sierra.la
 -rwxr-xr-x root       root             1074 ./usr/lib/libgphoto2/2.5.8/sipix_blink2.la
@@ -89,15 +87,17 @@ drwxr-xr-x root       root             1320 ./usr/lib/libgphoto2/2.5.8
 -rwxr-xr-x root       root             1029 ./usr/lib/libgphoto2/2.5.8/topfield.la
 -rwxr-xr-x root       root             1065 ./usr/lib/libgphoto2/2.5.8/toshiba_pdrm11.la
 -rwxr-xr-x root       root             1017 ./usr/lib/libgphoto2/2.5.8/tp6801.la
+-rwxr-xr-x root       root             1009 ./usr/lib/libgphoto2.la
 drwxr-xr-x root       root               60 ./usr/lib/libgphoto2_port
--rwxr-xr-x root       root              989 ./usr/lib/libgphoto2_port.la
-lrwxrwxrwx root       root               25 ./usr/lib/libgphoto2_port.so -> libgphoto2_port.so.12.0.0
 drwxr-xr-x root       root              140 ./usr/lib/libgphoto2_port/0.12.0
 -rwxr-xr-x root       root              962 ./usr/lib/libgphoto2_port/0.12.0/disk.la
 -rwxr-xr-x root       root              968 ./usr/lib/libgphoto2_port/0.12.0/ptpip.la
 -rwxr-xr-x root       root              991 ./usr/lib/libgphoto2_port/0.12.0/usb1.la
 -rwxr-xr-x root       root             1016 ./usr/lib/libgphoto2_port/0.12.0/usbdiskdirect.la
 -rwxr-xr-x root       root              980 ./usr/lib/libgphoto2_port/0.12.0/usbscsi.la
+-rwxr-xr-x root       root              989 ./usr/lib/libgphoto2_port.la
+lrwxrwxrwx root       root               25 ./usr/lib/libgphoto2_port.so -> libgphoto2_port.so.12.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libgphoto2.so -> libgphoto2.so.6.0.0
 drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              369 ./usr/lib/pkgconfig/libgphoto2.pc
 -rw-r--r-- root       root              303 ./usr/lib/pkgconfig/libgphoto2_port.pc

@@ -20,10 +20,10 @@ drwxr-xr-x root       root              620 ./usr/src/debug/libqmi/1.12.6-r0/bui
 -rw-r--r-- root       root            18881 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-ctl.h
 -rw-r--r-- root       root          1123388 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-dms.c
 -rw-r--r-- root       root           114117 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-dms.h
--rw-r--r-- root       root            14086 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-enum-types-private.c
--rw-r--r-- root       root             2154 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-enum-types-private.h
 -rw-r--r-- root       root           546019 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-enum-types.c
 -rw-r--r-- root       root            65944 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-enum-types.h
+-rw-r--r-- root       root            14086 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-enum-types-private.c
+-rw-r--r-- root       root             2154 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-enum-types-private.h
 -rw-r--r-- root       root            10017 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-error-quarks.c
 -rw-r--r-- root       root            13746 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-error-types.c
 -rw-r--r-- root       root              897 ./usr/src/debug/libqmi/1.12.6-r0/build/src/libqmi-glib/generated/qmi-error-types.h
@@ -53,6 +53,7 @@ drwxr-xr-x root       root              540 ./usr/src/debug/libqmi/1.12.6-r0/lib
 -rw-r--r-- root       root            89931 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-device.c
 -rw-r--r-- root       root             9276 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-device.h
 -rw-r--r-- root       root            12965 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-enums-dms.h
+-rw-r--r-- root       root             4981 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-enums.h
 -rw-r--r-- root       root            35245 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-enums-nas.h
 -rw-r--r-- root       root             5572 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-enums-oma.h
 -rw-r--r-- root       root             5288 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-enums-pbm.h
@@ -63,7 +64,6 @@ drwxr-xr-x root       root              540 ./usr/src/debug/libqmi/1.12.6-r0/lib
 -rw-r--r-- root       root             2399 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-enums-wds.c
 -rw-r--r-- root       root            63416 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-enums-wds.h
 -rw-r--r-- root       root            20235 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-enums-wms.h
--rw-r--r-- root       root             4981 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-enums.h
 -rw-r--r-- root       root            18395 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-errors.h
 -rw-r--r-- root       root            10431 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-flags64-dms.h
 -rw-r--r-- root       root             9998 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-flags64-nas.h
@@ -73,10 +73,10 @@ drwxr-xr-x root       root              540 ./usr/src/debug/libqmi/1.12.6-r0/lib
 -rw-r--r-- root       root             2092 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-proxy.h
 -rw-r--r-- root       root            34440 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-utils.c
 -rw-r--r-- root       root             8103 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/libqmi-glib/qmi-utils.h
-drwxr-xr-x root       root               60 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmi-proxy
--rw-r--r-- root       root             5769 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmi-proxy/qmi-proxy.c
 drwxr-xr-x root       root              240 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli
+-rw-r--r-- root       root            18731 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli.c
 -rw-r--r-- root       root           121146 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli-dms.c
+-rw-r--r-- root       root             2923 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli.h
 -rw-r--r-- root       root            11317 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli-helpers.c
 -rw-r--r-- root       root             2962 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli-helpers.h
 -rw-r--r-- root       root           113222 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli-nas.c
@@ -84,5 +84,5 @@ drwxr-xr-x root       root              240 ./usr/src/debug/libqmi/1.12.6-r0/lib
 -rw-r--r-- root       root            23816 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli-uim.c
 -rw-r--r-- root       root            11674 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli-wda.c
 -rw-r--r-- root       root            40891 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli-wds.c
--rw-r--r-- root       root            18731 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli.c
--rw-r--r-- root       root             2923 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmicli/qmicli.h
+drwxr-xr-x root       root               60 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmi-proxy
+-rw-r--r-- root       root             5769 ./usr/src/debug/libqmi/1.12.6-r0/libqmi-1.12.6/src/qmi-proxy/qmi-proxy.c

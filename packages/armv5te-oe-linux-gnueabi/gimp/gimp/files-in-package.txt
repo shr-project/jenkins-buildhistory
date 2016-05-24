@@ -10,10 +10,10 @@ drwxr-xr-x root       root              180 ./etc/gimp/2.0
 -rw-r--r-- root       root             1140 ./etc/gimp/2.0/unitrc
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
-lrwxrwxrwx root       root                8 ./usr/bin/gimp -> gimp-2.8
 -rwxr-xr-x root       root          3997312 ./usr/bin/gimp-2.8
-lrwxrwxrwx root       root               16 ./usr/bin/gimp-console -> gimp-console-2.8
 -rwxr-xr-x root       root          1849496 ./usr/bin/gimp-console-2.8
+lrwxrwxrwx root       root               16 ./usr/bin/gimp-console -> gimp-console-2.8
+lrwxrwxrwx root       root                8 ./usr/bin/gimp -> gimp-2.8
 -rwxr-xr-x root       root            12108 ./usr/bin/gimptool-2.0
 drwxr-xr-x root       root              420 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/gimp
@@ -64,10 +64,10 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            15188 ./usr/lib/gimp/2.0/plug-ins/color-cube-analyze
 -rwxr-xr-x root       root            10428 ./usr/lib/gimp/2.0/plug-ins/color-enhance
 -rwxr-xr-x root       root            21516 ./usr/lib/gimp/2.0/plug-ins/color-exchange
--rwxr-xr-x root       root            46336 ./usr/lib/gimp/2.0/plug-ins/color-rotate
--rwxr-xr-x root       root            13440 ./usr/lib/gimp/2.0/plug-ins/color-to-alpha
 -rwxr-xr-x root       root            14928 ./usr/lib/gimp/2.0/plug-ins/colorify
 -rwxr-xr-x root       root            19152 ./usr/lib/gimp/2.0/plug-ins/colormap-remap
+-rwxr-xr-x root       root            46336 ./usr/lib/gimp/2.0/plug-ins/color-rotate
+-rwxr-xr-x root       root            13440 ./usr/lib/gimp/2.0/plug-ins/color-to-alpha
 -rwxr-xr-x root       root            28028 ./usr/lib/gimp/2.0/plug-ins/compose
 -rwxr-xr-x root       root            10864 ./usr/lib/gimp/2.0/plug-ins/contrast-normalize
 -rwxr-xr-x root       root            19404 ./usr/lib/gimp/2.0/plug-ins/contrast-retinex
@@ -213,24 +213,24 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root             4812 ./usr/lib/gimp/2.0/plug-ins/web-browser
 -rwxr-xr-x root       root            16688 ./usr/lib/gimp/2.0/plug-ins/whirl-pinch
 -rwxr-xr-x root       root            17016 ./usr/lib/gimp/2.0/plug-ins/wind
-lrwxrwxrwx root       root               23 ./usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.800.14
 -rwxr-xr-x root       root           174904 ./usr/lib/libgimp-2.0.so.0.800.14
-lrwxrwxrwx root       root               27 ./usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.800.14
+lrwxrwxrwx root       root               23 ./usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.800.14
 -rwxr-xr-x root       root            64664 ./usr/lib/libgimpbase-2.0.so.0.800.14
-lrwxrwxrwx root       root               28 ./usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.800.14
+lrwxrwxrwx root       root               27 ./usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.800.14
 -rwxr-xr-x root       root            45424 ./usr/lib/libgimpcolor-2.0.so.0.800.14
-lrwxrwxrwx root       root               29 ./usr/lib/libgimpconfig-2.0.so.0 -> libgimpconfig-2.0.so.0.800.14
+lrwxrwxrwx root       root               28 ./usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.800.14
 -rwxr-xr-x root       root            48308 ./usr/lib/libgimpconfig-2.0.so.0.800.14
-lrwxrwxrwx root       root               27 ./usr/lib/libgimpmath-2.0.so.0 -> libgimpmath-2.0.so.0.800.14
+lrwxrwxrwx root       root               29 ./usr/lib/libgimpconfig-2.0.so.0 -> libgimpconfig-2.0.so.0.800.14
 -rwxr-xr-x root       root            20864 ./usr/lib/libgimpmath-2.0.so.0.800.14
-lrwxrwxrwx root       root               29 ./usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.800.14
+lrwxrwxrwx root       root               27 ./usr/lib/libgimpmath-2.0.so.0 -> libgimpmath-2.0.so.0.800.14
 -rwxr-xr-x root       root            12624 ./usr/lib/libgimpmodule-2.0.so.0.800.14
-lrwxrwxrwx root       root               28 ./usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.800.14
+lrwxrwxrwx root       root               29 ./usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.800.14
 -rwxr-xr-x root       root            25612 ./usr/lib/libgimpthumb-2.0.so.0.800.14
-lrwxrwxrwx root       root               25 ./usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.800.14
+lrwxrwxrwx root       root               28 ./usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.800.14
 -rwxr-xr-x root       root            98688 ./usr/lib/libgimpui-2.0.so.0.800.14
-lrwxrwxrwx root       root               30 ./usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.800.14
+lrwxrwxrwx root       root               25 ./usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.800.14
 -rwxr-xr-x root       root          1095576 ./usr/lib/libgimpwidgets-2.0.so.0.800.14
+lrwxrwxrwx root       root               30 ./usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.800.14
 drwxr-xr-x root       root              120 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/appdata
 -rw-r--r-- root       root            12401 ./usr/share/appdata/gimp.appdata.xml
@@ -248,8 +248,49 @@ drwxr-xr-x root       root              240 ./usr/share/gimp/2.0/brushes/Basic
 -rw-r--r-- root       root               76 ./usr/share/gimp/2.0/brushes/Basic/Hardness-050.vbr
 -rw-r--r-- root       root               76 ./usr/share/gimp/2.0/brushes/Basic/Hardness-075.vbr
 -rw-r--r-- root       root               76 ./usr/share/gimp/2.0/brushes/Basic/Hardness-100.vbr
--rw-r--r-- root       root               79 ./usr/share/gimp/2.0/brushes/Basic/Star.vbr
 -rw-r--r-- root       root               48 ./usr/share/gimp/2.0/brushes/Basic/pixel.gbr
+-rw-r--r-- root       root               79 ./usr/share/gimp/2.0/brushes/Basic/Star.vbr
+drwxr-xr-x root       root              840 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files
+-rw-r--r-- root       root              148 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/10x10squareBlur.gbr
+-rw-r--r-- root       root              143 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/10x10square.gbr
+-rw-r--r-- root       root              448 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/20x20squareBlur.gbr
+-rw-r--r-- root       root              443 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/20x20square.gbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/5x5squareBlur.gbr
+-rw-r--r-- root       root               66 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/5x5square.gbr
+-rw-r--r-- root       root               79 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Calligraphic-Brush-0.vbr
+-rw-r--r-- root       root               82 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Calligraphic-Brush-1.vbr
+-rw-r--r-- root       root               82 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Calligraphic-Brush-2.vbr
+-rw-r--r-- root       root               81 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Calligraphic-Brush-3.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-11.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-13.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-15.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-17.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-19.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-1.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-3.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-5.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-7.vbr
+-rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-9.vbr
+-rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-11.vbr
+-rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-13.vbr
+-rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-15.vbr
+-rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-17.vbr
+-rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-19.vbr
+-rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-3.vbr
+-rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-5.vbr
+-rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-7.vbr
+-rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-9.vbr
+-rw-r--r-- root       root               89 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Diagonal-Star-11.vbr
+-rw-r--r-- root       root               89 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Diagonal-Star-17.vbr
+-rw-r--r-- root       root               90 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Diagonal-Star-25.vbr
+-rw-r--r-- root       root           118799 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/feltpen.gih
+-rw-r--r-- root       root              749 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/galaxy_small.gbr
+-rw-r--r-- root       root           250304 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Grass1.gih
+-rw-r--r-- root       root            11991 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/pepper.gbr
+-rw-r--r-- root       root               48 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/pixel.gbr
+-rw-r--r-- root       root             1618 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/SketchBrush-16.gih
+-rw-r--r-- root       root             5458 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/SketchBrush-32.gih
+-rw-r--r-- root       root            20818 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/SketchBrush-64.gih
 drwxr-xr-x root       root              180 ./usr/share/gimp/2.0/brushes/Legacy
 -rw-r--r-- root       root              793 ./usr/share/gimp/2.0/brushes/Legacy/confetti.gbr
 -rw-r--r-- root       root             8076 ./usr/share/gimp/2.0/brushes/Legacy/confetti.gih
@@ -298,64 +339,23 @@ drwxr-xr-x root       root              280 ./usr/share/gimp/2.0/brushes/Texture
 -rw-r--r-- root       root           360249 ./usr/share/gimp/2.0/brushes/Texture/Texture-Hose-03.gih
 -rw-r--r-- root       root            28772 ./usr/share/gimp/2.0/brushes/Texture/Vegetation-01.gbr
 -rw-r--r-- root       root            86438 ./usr/share/gimp/2.0/brushes/Texture/Vegetation-02.gih
-drwxr-xr-x root       root              840 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files
--rw-r--r-- root       root              143 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/10x10square.gbr
--rw-r--r-- root       root              148 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/10x10squareBlur.gbr
--rw-r--r-- root       root              443 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/20x20square.gbr
--rw-r--r-- root       root              448 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/20x20squareBlur.gbr
--rw-r--r-- root       root               66 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/5x5square.gbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/5x5squareBlur.gbr
--rw-r--r-- root       root               79 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Calligraphic-Brush-0.vbr
--rw-r--r-- root       root               82 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Calligraphic-Brush-1.vbr
--rw-r--r-- root       root               82 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Calligraphic-Brush-2.vbr
--rw-r--r-- root       root               81 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Calligraphic-Brush-3.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-1.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-11.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-13.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-15.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-17.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-19.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-3.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-5.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-7.vbr
--rw-r--r-- root       root               71 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-9.vbr
--rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-11.vbr
--rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-13.vbr
--rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-15.vbr
--rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-17.vbr
--rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-19.vbr
--rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-3.vbr
--rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-5.vbr
--rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-7.vbr
--rw-r--r-- root       root               77 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Circle-Fuzzy-9.vbr
--rw-r--r-- root       root               89 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Diagonal-Star-11.vbr
--rw-r--r-- root       root               89 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Diagonal-Star-17.vbr
--rw-r--r-- root       root               90 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Diagonal-Star-25.vbr
--rw-r--r-- root       root           250304 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/Grass1.gih
--rw-r--r-- root       root             1618 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/SketchBrush-16.gih
--rw-r--r-- root       root             5458 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/SketchBrush-32.gih
--rw-r--r-- root       root            20818 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/SketchBrush-64.gih
--rw-r--r-- root       root           118799 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/feltpen.gih
--rw-r--r-- root       root              749 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/galaxy_small.gbr
--rw-r--r-- root       root            11991 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/pepper.gbr
--rw-r--r-- root       root               48 ./usr/share/gimp/2.0/brushes/gimp-obsolete-files/pixel.gbr
 drwxr-xr-x root       root              240 ./usr/share/gimp/2.0/dynamics
 drwxr-xr-x root       root              180 ./usr/share/gimp/2.0/dynamics/Basic
--rw-r--r-- root       root             1194 ./usr/share/gimp/2.0/dynamics/Basic-Dynamics.gdyn
 -rw-r--r-- root       root           215493 ./usr/share/gimp/2.0/dynamics/Basic/Basic-Simple.gdyn
+-rw-r--r-- root       root             1194 ./usr/share/gimp/2.0/dynamics/Basic-Dynamics.gdyn
 -rw-r--r-- root       root           215509 ./usr/share/gimp/2.0/dynamics/Basic/Dynamics-Random.gdyn
 -rw-r--r-- root       root           215504 ./usr/share/gimp/2.0/dynamics/Basic/Negative-Size-Pressure.gdyn
--rw-r--r-- root       root           215506 ./usr/share/gimp/2.0/dynamics/Basic/Pen-Generic.gdyn
 -rw-r--r-- root       root           215504 ./usr/share/gimp/2.0/dynamics/Basic/Pencil-Generic.gdyn
 -rw-r--r-- root       root           215500 ./usr/share/gimp/2.0/dynamics/Basic/Pencil-Shader.gdyn
+-rw-r--r-- root       root           215506 ./usr/share/gimp/2.0/dynamics/Basic/Pen-Generic.gdyn
 -rw-r--r-- root       root           215510 ./usr/share/gimp/2.0/dynamics/Basic/Pressure-Opacity.gdyn
 -rw-r--r-- root       root             1820 ./usr/share/gimp/2.0/dynamics/Color-From-Gradient.gdyn
 -rw-r--r-- root       root             1188 ./usr/share/gimp/2.0/dynamics/Dynamics-Off.gdyn
+-rw-r--r-- root       root             1191 ./usr/share/gimp/2.0/dynamics/Fade-Tapering.gdyn
 drwxr-xr-x root       root              100 ./usr/share/gimp/2.0/dynamics/FX
 -rw-r--r-- root       root           215492 ./usr/share/gimp/2.0/dynamics/FX/Confetti.gdyn
 -rw-r--r-- root       root           215493 ./usr/share/gimp/2.0/dynamics/FX/Perspective.gdyn
 -rw-r--r-- root       root           215503 ./usr/share/gimp/2.0/dynamics/FX/Speed_Size_Opacity.gdyn
--rw-r--r-- root       root             1191 ./usr/share/gimp/2.0/dynamics/Fade-Tapering.gdyn
 -rw-r--r-- root       root           215510 ./usr/share/gimp/2.0/dynamics/Random-Color.gdyn
 -rw-r--r-- root       root             1187 ./usr/share/gimp/2.0/dynamics/Tilt-Angle.gdyn
 -rw-r--r-- root       root             1192 ./usr/share/gimp/2.0/dynamics/Track-Direction.gdyn
@@ -432,10 +432,10 @@ drwxr-xr-x root       root             1240 ./usr/share/gimp/2.0/gimpressionist/
 -rw-r--r-- root       root             5059 ./usr/share/gimp/2.0/gimpressionist/Brushes/crayon08.pgm
 -rw-r--r-- root       root            11859 ./usr/share/gimp/2.0/gimpressionist/Brushes/defaultbrush.pgm
 -rw-r--r-- root       root             9222 ./usr/share/gimp/2.0/gimpressionist/Brushes/dribble.pgm
--rw-r--r-- root       root            40060 ./usr/share/gimp/2.0/gimpressionist/Brushes/fabric.pgm
 -rw-r--r-- root       root            40060 ./usr/share/gimp/2.0/gimpressionist/Brushes/fabric01.pgm
 -rw-r--r-- root       root            27615 ./usr/share/gimp/2.0/gimpressionist/Brushes/fabric02.pgm
 -rw-r--r-- root       root            20780 ./usr/share/gimp/2.0/gimpressionist/Brushes/fabric03.pgm
+-rw-r--r-- root       root            40060 ./usr/share/gimp/2.0/gimpressionist/Brushes/fabric.pgm
 -rw-r--r-- root       root            40060 ./usr/share/gimp/2.0/gimpressionist/Brushes/flower01.pgm
 -rw-r--r-- root       root             5158 ./usr/share/gimp/2.0/gimpressionist/Brushes/flower02.pgm
 -rw-r--r-- root       root             4933 ./usr/share/gimp/2.0/gimpressionist/Brushes/flower03.pgm
@@ -445,11 +445,11 @@ drwxr-xr-x root       root             1240 ./usr/share/gimp/2.0/gimpressionist/
 -rw-r--r-- root       root            31502 ./usr/share/gimp/2.0/gimpressionist/Brushes/grad03.pgm
 -rw-r--r-- root       root            10813 ./usr/share/gimp/2.0/gimpressionist/Brushes/heart.ppm
 -rw-r--r-- root       root            68180 ./usr/share/gimp/2.0/gimpressionist/Brushes/leaf01.pgm
--rw-r--r-- root       root            12347 ./usr/share/gimp/2.0/gimpressionist/Brushes/paintbrush.pgm
 -rw-r--r-- root       root            12347 ./usr/share/gimp/2.0/gimpressionist/Brushes/paintbrush01.pgm
 -rw-r--r-- root       root            16847 ./usr/share/gimp/2.0/gimpressionist/Brushes/paintbrush02.pgm
 -rw-r--r-- root       root             7059 ./usr/share/gimp/2.0/gimpressionist/Brushes/paintbrush03.pgm
 -rw-r--r-- root       root            35260 ./usr/share/gimp/2.0/gimpressionist/Brushes/paintbrush04.pgm
+-rw-r--r-- root       root            12347 ./usr/share/gimp/2.0/gimpressionist/Brushes/paintbrush.pgm
 -rw-r--r-- root       root            24440 ./usr/share/gimp/2.0/gimpressionist/Brushes/paper01.pgm
 -rw-r--r-- root       root            26053 ./usr/share/gimp/2.0/gimpressionist/Brushes/paper02.pgm
 -rw-r--r-- root       root            38436 ./usr/share/gimp/2.0/gimpressionist/Brushes/paper03.pgm
@@ -477,13 +477,13 @@ drwxr-xr-x root       root             1240 ./usr/share/gimp/2.0/gimpressionist/
 -rw-r--r-- root       root            16399 ./usr/share/gimp/2.0/gimpressionist/Brushes/weave.pgm
 -rw-r--r-- root       root            10060 ./usr/share/gimp/2.0/gimpressionist/Brushes/worm.pgm
 drwxr-xr-x root       root              220 ./usr/share/gimp/2.0/gimpressionist/Paper
--rw-r--r-- root       root             9178 ./usr/share/gimp/2.0/gimpressionist/Paper/bricks.pgm
 -rw-r--r-- root       root             9662 ./usr/share/gimp/2.0/gimpressionist/Paper/bricks2.pgm
+-rw-r--r-- root       root             9178 ./usr/share/gimp/2.0/gimpressionist/Paper/bricks.pgm
 -rw-r--r-- root       root             9274 ./usr/share/gimp/2.0/gimpressionist/Paper/burlap.pgm
 -rw-r--r-- root       root            40058 ./usr/share/gimp/2.0/gimpressionist/Paper/canvas2.pgm
 -rw-r--r-- root       root            10060 ./usr/share/gimp/2.0/gimpressionist/Paper/defaultpaper.pgm
--rw-r--r-- root       root            40187 ./usr/share/gimp/2.0/gimpressionist/Paper/marble.pgm
 -rw-r--r-- root       root            16444 ./usr/share/gimp/2.0/gimpressionist/Paper/marble2.pgm
+-rw-r--r-- root       root            40187 ./usr/share/gimp/2.0/gimpressionist/Paper/marble.pgm
 -rw-r--r-- root       root            16960 ./usr/share/gimp/2.0/gimpressionist/Paper/stone.pgm
 -rw-r--r-- root       root            16399 ./usr/share/gimp/2.0/gimpressionist/Paper/struc.pgm
 drwxr-xr-x root       root              540 ./usr/share/gimp/2.0/gimpressionist/Presets
@@ -523,12 +523,12 @@ drwxr-xr-x root       root             1460 ./usr/share/gimp/2.0/gradients
 -rw-r--r-- root       root             2513 ./usr/share/gimp/2.0/gradients/Brushed_Aluminium.ggr
 -rw-r--r-- root       root              654 ./usr/share/gimp/2.0/gradients/Burning_Paper.ggr
 -rw-r--r-- root       root              661 ./usr/share/gimp/2.0/gradients/Burning_Transparency.ggr
+-rw-r--r-- root       root              347 ./usr/share/gimp/2.0/gradients/Caribbean_Blues.ggr
 -rw-r--r-- root       root             1880 ./usr/share/gimp/2.0/gradients/CD.ggr
 -rw-r--r-- root       root              957 ./usr/share/gimp/2.0/gradients/CD_Half.ggr
--rw-r--r-- root       root              347 ./usr/share/gimp/2.0/gradients/Caribbean_Blues.ggr
 -rw-r--r-- root       root              132 ./usr/share/gimp/2.0/gradients/Coffee.ggr
--rw-r--r-- root       root              239 ./usr/share/gimp/2.0/gradients/Cold_Steel.ggr
 -rw-r--r-- root       root              344 ./usr/share/gimp/2.0/gradients/Cold_Steel_2.ggr
+-rw-r--r-- root       root              239 ./usr/share/gimp/2.0/gradients/Cold_Steel.ggr
 -rw-r--r-- root       root              654 ./usr/share/gimp/2.0/gradients/Crown_molding.ggr
 -rw-r--r-- root       root              338 ./usr/share/gimp/2.0/gradients/Dark_1.ggr
 -rw-r--r-- root       root              237 ./usr/share/gimp/2.0/gradients/Deep_Sea.ggr
@@ -548,6 +548,15 @@ drwxr-xr-x root       root             1460 ./usr/share/gimp/2.0/gradients
 -rw-r--r-- root       root              856 ./usr/share/gimp/2.0/gradients/Four_bars.ggr
 -rw-r--r-- root       root              154 ./usr/share/gimp/2.0/gradients/Full_saturation_spectrum_CCW.ggr
 -rw-r--r-- root       root              153 ./usr/share/gimp/2.0/gradients/Full_saturation_spectrum_CW.ggr
+drwxr-xr-x root       root              200 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files
+-rw-r--r-- root       root              343 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/French_flag.ggr
+-rw-r--r-- root       root              247 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/French_flag_smooth.ggr
+-rw-r--r-- root       root              343 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/German_flag.ggr
+-rw-r--r-- root       root              247 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/German_flag_smooth.ggr
+-rw-r--r-- root       root              344 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/Mexican_flag.ggr
+-rw-r--r-- root       root              248 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/Mexican_flag_smooth.ggr
+-rw-r--r-- root       root              345 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/Romanian_flag.ggr
+-rw-r--r-- root       root              249 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/Romanian_flag_smooth.ggr
 -rw-r--r-- root       root             1472 ./usr/share/gimp/2.0/gradients/Golden.ggr
 -rw-r--r-- root       root              956 ./usr/share/gimp/2.0/gradients/Greens.ggr
 -rw-r--r-- root       root              547 ./usr/share/gimp/2.0/gradients/Horizon_1.ggr
@@ -583,15 +592,6 @@ drwxr-xr-x root       root             1460 ./usr/share/gimp/2.0/gradients
 -rw-r--r-- root       root              956 ./usr/share/gimp/2.0/gradients/Wood_2.ggr
 -rw-r--r-- root       root              759 ./usr/share/gimp/2.0/gradients/Yellow_Contrast.ggr
 -rw-r--r-- root       root              242 ./usr/share/gimp/2.0/gradients/Yellow_Orange.ggr
-drwxr-xr-x root       root              200 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files
--rw-r--r-- root       root              343 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/French_flag.ggr
--rw-r--r-- root       root              247 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/French_flag_smooth.ggr
--rw-r--r-- root       root              343 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/German_flag.ggr
--rw-r--r-- root       root              247 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/German_flag_smooth.ggr
--rw-r--r-- root       root              344 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/Mexican_flag.ggr
--rw-r--r-- root       root              248 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/Mexican_flag_smooth.ggr
--rw-r--r-- root       root              345 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/Romanian_flag.ggr
--rw-r--r-- root       root              249 ./usr/share/gimp/2.0/gradients/gimp-obsolete-files/Romanian_flag_smooth.ggr
 drwxr-xr-x root       root              100 ./usr/share/gimp/2.0/images
 -rw-r--r-- root       root            14429 ./usr/share/gimp/2.0/images/gimp-logo.png
 -rw-r--r-- root       root           226703 ./usr/share/gimp/2.0/images/gimp-splash.png
@@ -645,9 +645,9 @@ drwxr-xr-x root       root              840 ./usr/share/gimp/2.0/palettes
 -rw-r--r-- root       root             3217 ./usr/share/gimp/2.0/palettes/Ega.gpl
 -rw-r--r-- root       root             3115 ./usr/share/gimp/2.0/palettes/Firecode.gpl
 -rw-r--r-- root       root             3122 ./usr/share/gimp/2.0/palettes/Gold.gpl
--rw-r--r-- root       root             3154 ./usr/share/gimp/2.0/palettes/GrayViolet.gpl
 -rw-r--r-- root       root             3102 ./usr/share/gimp/2.0/palettes/Grayblue.gpl
 -rw-r--r-- root       root              629 ./usr/share/gimp/2.0/palettes/Grays.gpl
+-rw-r--r-- root       root             3154 ./usr/share/gimp/2.0/palettes/GrayViolet.gpl
 -rw-r--r-- root       root             3161 ./usr/share/gimp/2.0/palettes/Greens.gpl
 -rw-r--r-- root       root             3100 ./usr/share/gimp/2.0/palettes/Hilite.gpl
 -rw-r--r-- root       root             3099 ./usr/share/gimp/2.0/palettes/Khaki.gpl
@@ -659,26 +659,22 @@ drwxr-xr-x root       root              840 ./usr/share/gimp/2.0/palettes
 -rw-r--r-- root       root              344 ./usr/share/gimp/2.0/palettes/Paintjet.gpl
 -rw-r--r-- root       root              245 ./usr/share/gimp/2.0/palettes/Pastels.gpl
 -rw-r--r-- root       root             3119 ./usr/share/gimp/2.0/palettes/Plasma.gpl
--rw-r--r-- root       root             3136 ./usr/share/gimp/2.0/palettes/Reds.gpl
 -rw-r--r-- root       root              694 ./usr/share/gimp/2.0/palettes/Reds_And_Purples.gpl
+-rw-r--r-- root       root             3136 ./usr/share/gimp/2.0/palettes/Reds.gpl
 -rw-r--r-- root       root             3119 ./usr/share/gimp/2.0/palettes/Royal.gpl
 -rw-r--r-- root       root              667 ./usr/share/gimp/2.0/palettes/Tango.gpl
 -rw-r--r-- root       root             3310 ./usr/share/gimp/2.0/palettes/Topographic.gpl
--rw-r--r-- root       root            12044 ./usr/share/gimp/2.0/palettes/Visibone.gpl
 -rw-r--r-- root       root             8928 ./usr/share/gimp/2.0/palettes/Visibone_2.gpl
+-rw-r--r-- root       root            12044 ./usr/share/gimp/2.0/palettes/Visibone.gpl
 -rw-r--r-- root       root             3163 ./usr/share/gimp/2.0/palettes/Volcano.gpl
 -rw-r--r-- root       root              117 ./usr/share/gimp/2.0/palettes/Warm_Colors.gpl
 -rw-r--r-- root       root             2628 ./usr/share/gimp/2.0/palettes/Web.gpl
 drwxr-xr-x root       root             1200 ./usr/share/gimp/2.0/patterns
 -rw-r--r-- root       root             6108 ./usr/share/gimp/2.0/patterns/3dgreen.pat
--rw-r--r-- root       root            39707 ./usr/share/gimp/2.0/patterns/Craters.pat
--rw-r--r-- root       root            14442 ./usr/share/gimp/2.0/patterns/Moonfoot.pat
--rw-r--r-- root       root             9253 ./usr/share/gimp/2.0/patterns/Stripes1px.pat
--rw-r--r-- root       root             9248 ./usr/share/gimp/2.0/patterns/Stripes2px.pat
 -rw-r--r-- root       root            12321 ./usr/share/gimp/2.0/patterns/amethyst.pat
 -rw-r--r-- root       root            22174 ./usr/share/gimp/2.0/patterns/bark.pat
--rw-r--r-- root       root             6108 ./usr/share/gimp/2.0/patterns/blue.pat
 -rw-r--r-- root       root             1909 ./usr/share/gimp/2.0/patterns/bluegrid.pat
+-rw-r--r-- root       root             6108 ./usr/share/gimp/2.0/patterns/blue.pat
 -rw-r--r-- root       root            48037 ./usr/share/gimp/2.0/patterns/bluesquares.pat
 -rw-r--r-- root       root            12321 ./usr/share/gimp/2.0/patterns/blueweb.pat
 -rw-r--r-- root       root            27679 ./usr/share/gimp/2.0/patterns/brick.pat
@@ -687,6 +683,7 @@ drwxr-xr-x root       root             1200 ./usr/share/gimp/2.0/patterns
 -rw-r--r-- root       root             7540 ./usr/share/gimp/2.0/patterns/choc_swirl.pat
 -rw-r--r-- root       root            10097 ./usr/share/gimp/2.0/patterns/corkboard.pat
 -rw-r--r-- root       root            62238 ./usr/share/gimp/2.0/patterns/cracked.pat
+-rw-r--r-- root       root            39707 ./usr/share/gimp/2.0/patterns/Craters.pat
 -rw-r--r-- root       root            49191 ./usr/share/gimp/2.0/patterns/crinklepaper.pat
 -rw-r--r-- root       root             9638 ./usr/share/gimp/2.0/patterns/electric.pat
 -rw-r--r-- root       root             7531 ./usr/share/gimp/2.0/patterns/fibers.pat
@@ -701,6 +698,7 @@ drwxr-xr-x root       root             1200 ./usr/share/gimp/2.0/patterns
 -rw-r--r-- root       root            16418 ./usr/share/gimp/2.0/patterns/marble1.pat
 -rw-r--r-- root       root            16418 ./usr/share/gimp/2.0/patterns/marble2.pat
 -rw-r--r-- root       root            12322 ./usr/share/gimp/2.0/patterns/marble3.pat
+-rw-r--r-- root       root            14442 ./usr/share/gimp/2.0/patterns/Moonfoot.pat
 -rw-r--r-- root       root            49181 ./usr/share/gimp/2.0/patterns/nops.pat
 -rw-r--r-- root       root            10030 ./usr/share/gimp/2.0/patterns/paper.pat
 -rw-r--r-- root       root            12322 ./usr/share/gimp/2.0/patterns/parque1.pat
@@ -720,6 +718,8 @@ drwxr-xr-x root       root             1200 ./usr/share/gimp/2.0/patterns
 -rw-r--r-- root       root             7538 ./usr/share/gimp/2.0/patterns/sm_squares.pat
 -rw-r--r-- root       root            49186 ./usr/share/gimp/2.0/patterns/starfield.pat
 -rw-r--r-- root       root            73038 ./usr/share/gimp/2.0/patterns/stone33.pat
+-rw-r--r-- root       root             9253 ./usr/share/gimp/2.0/patterns/Stripes1px.pat
+-rw-r--r-- root       root             9248 ./usr/share/gimp/2.0/patterns/Stripes2px.pat
 -rw-r--r-- root       root            12318 ./usr/share/gimp/2.0/patterns/terra.pat
 -rw-r--r-- root       root            49183 ./usr/share/gimp/2.0/patterns/walnut.pat
 -rw-r--r-- root       root             1233 ./usr/share/gimp/2.0/patterns/warning.pat
@@ -752,8 +752,8 @@ drwxr-xr-x root       root             2040 ./usr/share/gimp/2.0/scripts
 -rw-r--r-- root       root             5247 ./usr/share/gimp/2.0/scripts/bovinated-logo.scm
 -rw-r--r-- root       root             9538 ./usr/share/gimp/2.0/scripts/burn-in-anim.scm
 -rw-r--r-- root       root             3687 ./usr/share/gimp/2.0/scripts/camo.scm
--rw-r--r-- root       root             7696 ./usr/share/gimp/2.0/scripts/carve-it.scm
 -rw-r--r-- root       root             6522 ./usr/share/gimp/2.0/scripts/carved-logo.scm
+-rw-r--r-- root       root             7696 ./usr/share/gimp/2.0/scripts/carve-it.scm
 -rw-r--r-- root       root             4620 ./usr/share/gimp/2.0/scripts/chalk.scm
 -rw-r--r-- root       root             8317 ./usr/share/gimp/2.0/scripts/chip-away.scm
 -rw-r--r-- root       root             8418 ./usr/share/gimp/2.0/scripts/chrome-it.scm
@@ -786,10 +786,10 @@ drwxr-xr-x root       root             2040 ./usr/share/gimp/2.0/scripts
 -rw-r--r-- root       root             4840 ./usr/share/gimp/2.0/scripts/i26-gunya2.scm
 drwxr-xr-x root       root              140 ./usr/share/gimp/2.0/scripts/images
 -rw-r--r-- root       root            20688 ./usr/share/gimp/2.0/scripts/images/beavis.jpg
--rw-r--r-- root       root            22622 ./usr/share/gimp/2.0/scripts/images/texture.jpg
 -rw-r--r-- root       root             4256 ./usr/share/gimp/2.0/scripts/images/texture1.jpg
 -rw-r--r-- root       root             4983 ./usr/share/gimp/2.0/scripts/images/texture2.jpg
 -rw-r--r-- root       root             3245 ./usr/share/gimp/2.0/scripts/images/texture3.jpg
+-rw-r--r-- root       root            22622 ./usr/share/gimp/2.0/scripts/images/texture.jpg
 -rw-r--r-- root       root             3417 ./usr/share/gimp/2.0/scripts/land.scm
 -rw-r--r-- root       root             4762 ./usr/share/gimp/2.0/scripts/lava.scm
 -rw-r--r-- root       root             3708 ./usr/share/gimp/2.0/scripts/line-nova.scm
@@ -809,13 +809,13 @@ drwxr-xr-x root       root              140 ./usr/share/gimp/2.0/scripts/images
 -rw-r--r-- root       root             4773 ./usr/share/gimp/2.0/scripts/ripply-anim.scm
 -rw-r--r-- root       root             5534 ./usr/share/gimp/2.0/scripts/round-corners.scm
 -rw-r--r-- root       root             7492 ./usr/share/gimp/2.0/scripts/script-fu-compat.init
+-rw-r--r-- root       root            23689 ./usr/share/gimp/2.0/scripts/script-fu.init
 -rw-r--r-- root       root             2265 ./usr/share/gimp/2.0/scripts/script-fu-set-cmap.scm
 -rw-r--r-- root       root             1609 ./usr/share/gimp/2.0/scripts/script-fu-util.scm
--rw-r--r-- root       root            23689 ./usr/share/gimp/2.0/scripts/script-fu.init
+-rw-r--r-- root       root             6284 ./usr/share/gimp/2.0/scripts/selection-round.scm
 -rw-r--r-- root       root             4584 ./usr/share/gimp/2.0/scripts/select-to-brush.scm
 -rw-r--r-- root       root             2984 ./usr/share/gimp/2.0/scripts/select-to-image.scm
 -rw-r--r-- root       root             3457 ./usr/share/gimp/2.0/scripts/select-to-pattern.scm
--rw-r--r-- root       root             6284 ./usr/share/gimp/2.0/scripts/selection-round.scm
 -rw-r--r-- root       root             9547 ./usr/share/gimp/2.0/scripts/slide.scm
 -rw-r--r-- root       root             8204 ./usr/share/gimp/2.0/scripts/sota-chrome-logo.scm
 -rw-r--r-- root       root             3549 ./usr/share/gimp/2.0/scripts/speed-text.scm
@@ -824,11 +824,11 @@ drwxr-xr-x root       root              140 ./usr/share/gimp/2.0/scripts/images
 -rw-r--r-- root       root             5388 ./usr/share/gimp/2.0/scripts/starscape-logo.scm
 -rw-r--r-- root       root             2473 ./usr/share/gimp/2.0/scripts/swirltile.scm
 -rw-r--r-- root       root             3029 ./usr/share/gimp/2.0/scripts/swirly-pattern.scm
--rw-r--r-- root       root             6143 ./usr/share/gimp/2.0/scripts/t-o-p-logo.scm
 -rw-r--r-- root       root             7705 ./usr/share/gimp/2.0/scripts/text-circle.scm
 -rw-r--r-- root       root             7752 ./usr/share/gimp/2.0/scripts/textured-logo.scm
 -rw-r--r-- root       root             2911 ./usr/share/gimp/2.0/scripts/tileblur.scm
 -rw-r--r-- root       root             6469 ./usr/share/gimp/2.0/scripts/title-header.scm
+-rw-r--r-- root       root             6143 ./usr/share/gimp/2.0/scripts/t-o-p-logo.scm
 -rw-r--r-- root       root             6176 ./usr/share/gimp/2.0/scripts/truchet.scm
 -rw-r--r-- root       root             3327 ./usr/share/gimp/2.0/scripts/unsharp-mask.scm
 -rw-r--r-- root       root             3625 ./usr/share/gimp/2.0/scripts/waves-anim.scm
@@ -873,6 +873,7 @@ drwxr-xr-x root       root             1320 ./usr/share/gimp/2.0/themes/Default/
 -rw-r--r-- root       root             2959 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders-patterns.png
 -rw-r--r-- root       root             1110 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders-plug-ins-22.png
 -rw-r--r-- root       root             2335 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders-plug-ins.png
+-rw-r--r-- root       root             1023 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders.png
 -rw-r--r-- root       root              991 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders-scripts-22.png
 -rw-r--r-- root       root             2204 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders-scripts.png
 -rw-r--r-- root       root              971 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders-themes-22.png
@@ -882,7 +883,6 @@ drwxr-xr-x root       root             1320 ./usr/share/gimp/2.0/themes/Default/
 -rw-r--r-- root       root              933 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders-tool-presets-22.png
 -rw-r--r-- root       root             2276 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders-tool-presets.png
 -rw-r--r-- root       root              885 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders-tools-22.png
--rw-r--r-- root       root             1023 ./usr/share/gimp/2.0/themes/Default/images/preferences/folders.png
 -rw-r--r-- root       root             1518 ./usr/share/gimp/2.0/themes/Default/images/preferences/help-system-22.png
 -rw-r--r-- root       root             4634 ./usr/share/gimp/2.0/themes/Default/images/preferences/help-system.png
 -rw-r--r-- root       root              612 ./usr/share/gimp/2.0/themes/Default/images/preferences/image-title-22.png
@@ -899,10 +899,10 @@ drwxr-xr-x root       root             1320 ./usr/share/gimp/2.0/themes/Default/
 -rw-r--r-- root       root             5356 ./usr/share/gimp/2.0/themes/Default/images/preferences/session.png
 -rw-r--r-- root       root              785 ./usr/share/gimp/2.0/themes/Default/images/preferences/theme-22.png
 -rw-r--r-- root       root             2243 ./usr/share/gimp/2.0/themes/Default/images/preferences/theme.png
--rw-r--r-- root       root             1053 ./usr/share/gimp/2.0/themes/Default/images/preferences/tool-options-22.png
--rw-r--r-- root       root             2674 ./usr/share/gimp/2.0/themes/Default/images/preferences/tool-options.png
 -rw-r--r-- root       root              850 ./usr/share/gimp/2.0/themes/Default/images/preferences/toolbox-22.png
 -rw-r--r-- root       root             1467 ./usr/share/gimp/2.0/themes/Default/images/preferences/toolbox.png
+-rw-r--r-- root       root             1053 ./usr/share/gimp/2.0/themes/Default/images/preferences/tool-options-22.png
+-rw-r--r-- root       root             2674 ./usr/share/gimp/2.0/themes/Default/images/preferences/tool-options.png
 -rw-r--r-- root       root              437 ./usr/share/gimp/2.0/themes/Default/images/preferences/window-management-22.png
 -rw-r--r-- root       root              852 ./usr/share/gimp/2.0/themes/Default/images/preferences/window-management.png
 -rw-r--r-- root       root             4819 ./usr/share/gimp/2.0/themes/Default/images/stock-error-64.png
@@ -917,9 +917,9 @@ drwxr-xr-x root       root              120 ./usr/share/gimp/2.0/tool-presets
 drwxr-xr-x root       root              200 ./usr/share/gimp/2.0/tool-presets/FX
 -rw-r--r-- root       root              451 ./usr/share/gimp/2.0/tool-presets/FX/Crop-16-9.gtp
 -rw-r--r-- root       root              377 ./usr/share/gimp/2.0/tool-presets/FX/Crop-Composition.gtp
+-rw-r--r-- root       root              571 ./usr/share/gimp/2.0/tool-presets/FX/Fill-Paper.gtp
 -rw-r--r-- root       root              651 ./usr/share/gimp/2.0/tool-presets/FX/FX-Confetti.gtp
 -rw-r--r-- root       root              500 ./usr/share/gimp/2.0/tool-presets/FX/FX-Radial-Softlight.gtp
--rw-r--r-- root       root              571 ./usr/share/gimp/2.0/tool-presets/FX/Fill-Paper.gtp
 -rw-r--r-- root       root              662 ./usr/share/gimp/2.0/tool-presets/FX/Glow-Lights.gtp
 -rw-r--r-- root       root              491 ./usr/share/gimp/2.0/tool-presets/FX/Smooth-Clone.gtp
 -rw-r--r-- root       root              557 ./usr/share/gimp/2.0/tool-presets/FX/Vignette.gtp
@@ -948,8 +948,8 @@ drwxr-xr-x root       root              160 ./usr/share/gimp/2.0/tool-presets/Sk
 -rw-r--r-- root       root              380 ./usr/share/gimp/2.0/tool-presets/Sketch/Eraser-Soft.gtp
 -rw-r--r-- root       root              584 ./usr/share/gimp/2.0/tool-presets/Sketch/Ink-Smooth.gtp
 -rw-r--r-- root       root              495 ./usr/share/gimp/2.0/tool-presets/Sketch/Ink-Thin.gtp
--rw-r--r-- root       root              629 ./usr/share/gimp/2.0/tool-presets/Sketch/Pencil-Soft.gtp
 -rw-r--r-- root       root              567 ./usr/share/gimp/2.0/tool-presets/Sketch/Pencil.gtp
+-rw-r--r-- root       root              629 ./usr/share/gimp/2.0/tool-presets/Sketch/Pencil-Soft.gtp
 drwxr-xr-x root       root               60 ./usr/share/gimp/2.0/ui
 drwxr-xr-x root       root               80 ./usr/share/gimp/2.0/ui/plug-ins
 -rw-r--r-- root       root            14566 ./usr/share/gimp/2.0/ui/plug-ins/plug-in-file-gif.ui

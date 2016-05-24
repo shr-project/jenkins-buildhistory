@@ -28,8 +28,8 @@ drwxr-xr-x root       root              320 ./usr/src/debug/libvncserver/0.9.10-
 -rw-r--r-- root       root             2155 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncclient/rre.c
 -rw-r--r-- root       root            17885 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncclient/sockets.c
 -rw-r--r-- root       root            19570 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncclient/tight.c
--rw-r--r-- root       root             1848 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncclient/tls.h
 -rw-r--r-- root       root            13571 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncclient/tls_gnutls.c
+-rw-r--r-- root       root             1848 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncclient/tls.h
 -rw-r--r-- root       root             7045 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncclient/ultra.c
 -rw-r--r-- root       root            11530 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncclient/vncviewer.c
 -rw-r--r-- root       root             4779 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncclient/zlib.c
@@ -46,12 +46,12 @@ drwxr-xr-x root       root              860 ./usr/src/debug/libvncserver/0.9.10-
 -rw-r--r-- root       root            16787 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/httpd.c
 -rw-r--r-- root       root            30829 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/main.c
 -rw-r--r-- root       root              655 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/private.h
--rw-r--r-- root       root              260 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/rfbcrypto.h
 -rw-r--r-- root       root             1543 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/rfbcrypto_gnutls.c
+-rw-r--r-- root       root              260 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/rfbcrypto.h
 -rw-r--r-- root       root            20851 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/rfbregion.c
 -rw-r--r-- root       root           111051 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/rfbserver.c
--rw-r--r-- root       root              403 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/rfbssl.h
 -rw-r--r-- root       root             7108 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/rfbssl_gnutls.c
+-rw-r--r-- root       root              403 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/rfbssl.h
 -rw-r--r-- root       root            13651 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/rre.c
 -rw-r--r-- root       root            14977 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/scale.c
 -rw-r--r-- root       root              706 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/scale.h
@@ -85,7 +85,7 @@ drwxr-xr-x root       root              200 ./usr/src/debug/libvncserver/0.9.10-
 -rw-r--r-- root       root             1562 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/zrlepalettehelper.h
 -rw-r--r-- root       root             1058 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/libvncserver/zrletypes.h
 drwxr-xr-x root       root              120 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/rfb
--rw-r--r-- root       root            49135 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/rfb/rfb.h
 -rw-r--r-- root       root            25521 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/rfb/rfbclient.h
+-rw-r--r-- root       root            49135 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/rfb/rfb.h
 -rw-r--r-- root       root            52354 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/rfb/rfbproto.h
 -rw-r--r-- root       root             1875 ./usr/src/debug/libvncserver/0.9.10-r0/libvncserver-LibVNCServer-0.9.10/rfb/rfbregion.h

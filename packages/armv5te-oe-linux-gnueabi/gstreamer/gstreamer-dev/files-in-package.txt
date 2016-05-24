@@ -11,8 +11,8 @@ drwxr-xr-x root       root              300 ./usr/include/gstreamer-0.10/gst/bas
 -rw-r--r-- root       root             9834 ./usr/include/gstreamer-0.10/gst/base/gstbitreader.h
 -rw-r--r-- root       root            22234 ./usr/include/gstreamer-0.10/gst/base/gstbytereader.h
 -rw-r--r-- root       root            14428 ./usr/include/gstreamer-0.10/gst/base/gstbytewriter.h
--rw-r--r-- root       root             8662 ./usr/include/gstreamer-0.10/gst/base/gstcollectpads.h
 -rw-r--r-- root       root            12678 ./usr/include/gstreamer-0.10/gst/base/gstcollectpads2.h
+-rw-r--r-- root       root             8662 ./usr/include/gstreamer-0.10/gst/base/gstcollectpads.h
 -rw-r--r-- root       root             5987 ./usr/include/gstreamer-0.10/gst/base/gstdataqueue.h
 -rw-r--r-- root       root             2237 ./usr/include/gstreamer-0.10/gst/base/gstpushsrc.h
 -rw-r--r-- root       root             3314 ./usr/include/gstreamer-0.10/gst/base/gsttypefindhelper.h
@@ -24,7 +24,6 @@ drwxr-xr-x root       root              120 ./usr/include/gstreamer-0.10/gst/con
 drwxr-xr-x root       root               60 ./usr/include/gstreamer-0.10/gst/dataprotocol
 -rw-r--r-- root       root             5880 ./usr/include/gstreamer-0.10/gst/dataprotocol/dataprotocol.h
 -rw-r--r-- root       root             1293 ./usr/include/gstreamer-0.10/gst/glib-compat.h
--rw-r--r-- root       root             3133 ./usr/include/gstreamer-0.10/gst/gst.h
 -rw-r--r-- root       root             1784 ./usr/include/gstreamer-0.10/gst/gstatomicqueue.h
 -rw-r--r-- root       root             6105 ./usr/include/gstreamer-0.10/gst/gstbin.h
 -rw-r--r-- root       root            18478 ./usr/include/gstreamer-0.10/gst/gstbuffer.h
@@ -37,16 +36,17 @@ drwxr-xr-x root       root               60 ./usr/include/gstreamer-0.10/gst/dat
 -rw-r--r-- root       root             7231 ./usr/include/gstreamer-0.10/gst/gstconfig.h
 -rw-r--r-- root       root             2573 ./usr/include/gstreamer-0.10/gst/gstdatetime.h
 -rw-r--r-- root       root             3898 ./usr/include/gstreamer-0.10/gst/gstdebugutils.h
--rw-r--r-- root       root            35444 ./usr/include/gstreamer-0.10/gst/gstelement.h
 -rw-r--r-- root       root            13139 ./usr/include/gstreamer-0.10/gst/gstelementfactory.h
+-rw-r--r-- root       root            35444 ./usr/include/gstreamer-0.10/gst/gstelement.h
 -rw-r--r-- root       root             9160 ./usr/include/gstreamer-0.10/gst/gstenumtypes.h
 -rw-r--r-- root       root             9624 ./usr/include/gstreamer-0.10/gst/gsterror.h
 -rw-r--r-- root       root            21537 ./usr/include/gstreamer-0.10/gst/gstevent.h
 -rw-r--r-- root       root             1500 ./usr/include/gstreamer-0.10/gst/gstfilter.h
 -rw-r--r-- root       root             3466 ./usr/include/gstreamer-0.10/gst/gstformat.h
 -rw-r--r-- root       root             5587 ./usr/include/gstreamer-0.10/gst/gstghostpad.h
--rw-r--r-- root       root            14244 ./usr/include/gstreamer-0.10/gst/gstindex.h
+-rw-r--r-- root       root             3133 ./usr/include/gstreamer-0.10/gst/gst.h
 -rw-r--r-- root       root             2854 ./usr/include/gstreamer-0.10/gst/gstindexfactory.h
+-rw-r--r-- root       root            14244 ./usr/include/gstreamer-0.10/gst/gstindex.h
 -rw-r--r-- root       root            51136 ./usr/include/gstreamer-0.10/gst/gstinfo.h
 -rw-r--r-- root       root             2917 ./usr/include/gstreamer-0.10/gst/gstinterface.h
 -rw-r--r-- root       root             9142 ./usr/include/gstreamer-0.10/gst/gstiterator.h
@@ -60,8 +60,8 @@ drwxr-xr-x root       root               60 ./usr/include/gstreamer-0.10/gst/dat
 -rw-r--r-- root       root             3922 ./usr/include/gstreamer-0.10/gst/gstparamspecs.h
 -rw-r--r-- root       root             3934 ./usr/include/gstreamer-0.10/gst/gstparse.h
 -rw-r--r-- root       root             4131 ./usr/include/gstreamer-0.10/gst/gstpipeline.h
--rw-r--r-- root       root            15524 ./usr/include/gstreamer-0.10/gst/gstplugin.h
 -rw-r--r-- root       root             6139 ./usr/include/gstreamer-0.10/gst/gstpluginfeature.h
+-rw-r--r-- root       root            15524 ./usr/include/gstreamer-0.10/gst/gstplugin.h
 -rw-r--r-- root       root             3176 ./usr/include/gstreamer-0.10/gst/gstpoll.h
 -rw-r--r-- root       root             4178 ./usr/include/gstreamer-0.10/gst/gstpreset.h
 -rw-r--r-- root       root            12910 ./usr/include/gstreamer-0.10/gst/gstquery.h
@@ -74,8 +74,8 @@ drwxr-xr-x root       root               60 ./usr/include/gstreamer-0.10/gst/dat
 -rw-r--r-- root       root             6166 ./usr/include/gstreamer-0.10/gst/gsttask.h
 -rw-r--r-- root       root             3368 ./usr/include/gstreamer-0.10/gst/gsttaskpool.h
 -rw-r--r-- root       root             7108 ./usr/include/gstreamer-0.10/gst/gsttrace.h
--rw-r--r-- root       root             4336 ./usr/include/gstreamer-0.10/gst/gsttypefind.h
 -rw-r--r-- root       root             2905 ./usr/include/gstreamer-0.10/gst/gsttypefindfactory.h
+-rw-r--r-- root       root             4336 ./usr/include/gstreamer-0.10/gst/gsttypefind.h
 -rw-r--r-- root       root             5360 ./usr/include/gstreamer-0.10/gst/gsturi.h
 -rw-r--r-- root       root            37752 ./usr/include/gstreamer-0.10/gst/gstutils.h
 -rw-r--r-- root       root            17395 ./usr/include/gstreamer-0.10/gst/gstvalue.h
@@ -83,8 +83,8 @@ drwxr-xr-x root       root               60 ./usr/include/gstreamer-0.10/gst/dat
 -rw-r--r-- root       root             3386 ./usr/include/gstreamer-0.10/gst/gstxml.h
 -rw-r--r-- root       root             2116 ./usr/include/gstreamer-0.10/gst/math-compat.h
 drwxr-xr-x root       root              120 ./usr/include/gstreamer-0.10/gst/net
--rw-r--r-- root       root             1006 ./usr/include/gstreamer-0.10/gst/net/gstnet.h
 -rw-r--r-- root       root             2969 ./usr/include/gstreamer-0.10/gst/net/gstnetclientclock.h
+-rw-r--r-- root       root             1006 ./usr/include/gstreamer-0.10/gst/net/gstnet.h
 -rw-r--r-- root       root             2212 ./usr/include/gstreamer-0.10/gst/net/gstnettimepacket.h
 -rw-r--r-- root       root             2918 ./usr/include/gstreamer-0.10/gst/net/gstnettimeprovider.h
 drwxr-xr-x root       root              280 ./usr/lib

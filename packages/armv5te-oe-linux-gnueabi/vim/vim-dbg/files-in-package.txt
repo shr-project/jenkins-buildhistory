@@ -24,9 +24,9 @@ drwxr-xr-x root       root               80 ./usr/src/debug/vim/7.4.1689-r0/git/
 -rw-r--r-- root       root            54605 ./usr/src/debug/vim/7.4.1689-r0/git/src/digraph.c
 -rw-r--r-- root       root           260197 ./usr/src/debug/vim/7.4.1689-r0/git/src/edit.c
 -rw-r--r-- root       root           613054 ./usr/src/debug/vim/7.4.1689-r0/git/src/eval.c
+-rw-r--r-- root       root           114949 ./usr/src/debug/vim/7.4.1689-r0/git/src/ex_cmds2.c
 -rw-r--r-- root       root           195698 ./usr/src/debug/vim/7.4.1689-r0/git/src/ex_cmds.c
 -rw-r--r-- root       root            53690 ./usr/src/debug/vim/7.4.1689-r0/git/src/ex_cmds.h
--rw-r--r-- root       root           114949 ./usr/src/debug/vim/7.4.1689-r0/git/src/ex_cmds2.c
 -rw-r--r-- root       root           277920 ./usr/src/debug/vim/7.4.1689-r0/git/src/ex_docmd.c
 -rw-r--r-- root       root            69039 ./usr/src/debug/vim/7.4.1689-r0/git/src/ex_eval.c
 -rw-r--r-- root       root           164240 ./usr/src/debug/vim/7.4.1689-r0/git/src/ex_getln.c
@@ -59,7 +59,6 @@ drwxr-xr-x root       root               80 ./usr/src/debug/vim/7.4.1689-r0/git/
 -rw-r--r-- root       root           183637 ./usr/src/debug/vim/7.4.1689-r0/git/src/os_unix.c
 -rw-r--r-- root       root            18203 ./usr/src/debug/vim/7.4.1689-r0/git/src/popupmnu.c
 drwxr-xr-x root       root             1000 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto
--rw-r--r-- root       root             6473 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto.h
 -rw-r--r-- root       root             3439 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/buffer.pro
 -rw-r--r-- root       root             3024 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/channel.pro
 -rw-r--r-- root       root             2345 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/charset.pro
@@ -68,14 +67,15 @@ drwxr-xr-x root       root             1000 ./usr/src/debug/vim/7.4.1689-r0/git/
 -rw-r--r-- root       root              260 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/digraph.pro
 -rw-r--r-- root       root             1577 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/edit.pro
 -rw-r--r-- root       root             7230 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/eval.pro
--rw-r--r-- root       root             2722 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/ex_cmds.pro
 -rw-r--r-- root       root             3917 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/ex_cmds2.pro
+-rw-r--r-- root       root             2722 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/ex_cmds.pro
 -rw-r--r-- root       root             2809 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/ex_docmd.pro
 -rw-r--r-- root       root             1335 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/ex_eval.pro
 -rw-r--r-- root       root             2565 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/ex_getln.pro
 -rw-r--r-- root       root             3163 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/fileio.pro
 -rw-r--r-- root       root             1825 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/fold.pro
 -rw-r--r-- root       root             2694 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/getchar.pro
+-rw-r--r-- root       root             6473 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto.h
 -rw-r--r-- root       root              760 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/hardcopy.pro
 -rw-r--r-- root       root              556 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/hashtab.pro
 -rw-r--r-- root       root              420 ./usr/src/debug/vim/7.4.1689-r0/git/src/proto/if_cscope.pro

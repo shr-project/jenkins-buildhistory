@@ -8,8 +8,8 @@ drwxr-xr-x root       root               60 ./etc/logrotate.d
 -rw-r--r-- root       root              113 ./etc/logrotate.d/corosync
 drwxr-xr-x root       root              100 ./etc/sysconfig
 -rw-r--r-- root       root              358 ./etc/sysconfig/corosync
--rw-r--r-- root       root             1150 ./etc/sysconfig/corosync-notifyd.conf
 -rw-r--r-- root       root             1588 ./etc/sysconfig/corosync.conf
+-rw-r--r-- root       root             1150 ./etc/sysconfig/corosync-notifyd.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
@@ -19,22 +19,22 @@ drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root             1826 ./usr/bin/corosync-blackbox
 drwxr-xr-x root       root              360 ./usr/lib
-lrwxrwxrwx root       root               15 ./usr/lib/libcfg.so.6 -> libcfg.so.6.0.0
 -rwxr-xr-x root       root             9760 ./usr/lib/libcfg.so.6.0.0
-lrwxrwxrwx root       root               16 ./usr/lib/libcmap.so.4 -> libcmap.so.4.1.0
+lrwxrwxrwx root       root               15 ./usr/lib/libcfg.so.6 -> libcfg.so.6.0.0
 -rwxr-xr-x root       root            13880 ./usr/lib/libcmap.so.4.1.0
-lrwxrwxrwx root       root               27 ./usr/lib/libcorosync_common.so.4 -> libcorosync_common.so.4.0.0
+lrwxrwxrwx root       root               16 ./usr/lib/libcmap.so.4 -> libcmap.so.4.1.0
 -rwxr-xr-x root       root             5656 ./usr/lib/libcorosync_common.so.4.0.0
-lrwxrwxrwx root       root               15 ./usr/lib/libcpg.so.4 -> libcpg.so.4.1.0
+lrwxrwxrwx root       root               27 ./usr/lib/libcorosync_common.so.4 -> libcorosync_common.so.4.0.0
 -rwxr-xr-x root       root            13876 ./usr/lib/libcpg.so.4.1.0
-lrwxrwxrwx root       root               18 ./usr/lib/libquorum.so.5 -> libquorum.so.5.0.0
+lrwxrwxrwx root       root               15 ./usr/lib/libcpg.so.4 -> libcpg.so.4.1.0
 -rwxr-xr-x root       root             9764 ./usr/lib/libquorum.so.5.0.0
-lrwxrwxrwx root       root               15 ./usr/lib/libsam.so.4 -> libsam.so.4.4.0
+lrwxrwxrwx root       root               18 ./usr/lib/libquorum.so.5 -> libquorum.so.5.0.0
 -rwxr-xr-x root       root            13836 ./usr/lib/libsam.so.4.4.0
-lrwxrwxrwx root       root               20 ./usr/lib/libtotem_pg.so.5 -> libtotem_pg.so.5.0.0
+lrwxrwxrwx root       root               15 ./usr/lib/libsam.so.4 -> libsam.so.4.4.0
 -rwxr-xr-x root       root           104712 ./usr/lib/libtotem_pg.so.5.0.0
-lrwxrwxrwx root       root               22 ./usr/lib/libvotequorum.so.7 -> libvotequorum.so.7.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libtotem_pg.so.5 -> libtotem_pg.so.5.0.0
 -rwxr-xr-x root       root             9768 ./usr/lib/libvotequorum.so.7.0.0
+lrwxrwxrwx root       root               22 ./usr/lib/libvotequorum.so.7 -> libvotequorum.so.7.0.0
 drwxr-xr-x root       root              180 ./usr/sbin
 -rwxr-xr-x root       root           185532 ./usr/sbin/corosync
 -rwxr-xr-x root       root             9896 ./usr/sbin/corosync-cfgtool

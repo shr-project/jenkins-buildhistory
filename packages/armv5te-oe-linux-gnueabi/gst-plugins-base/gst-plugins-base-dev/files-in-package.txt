@@ -24,16 +24,16 @@ drwxr-xr-x root       root              320 ./usr/include/gstreamer-0.10/gst/aud
 drwxr-xr-x root       root               60 ./usr/include/gstreamer-0.10/gst/cdda
 -rw-r--r-- root       root             6033 ./usr/include/gstreamer-0.10/gst/cdda/gstcddabasesrc.h
 drwxr-xr-x root       root              140 ./usr/include/gstreamer-0.10/gst/fft
--rw-r--r-- root       root             1526 ./usr/include/gstreamer-0.10/gst/fft/gstfft.h
 -rw-r--r-- root       root             2054 ./usr/include/gstreamer-0.10/gst/fft/gstfftf32.h
 -rw-r--r-- root       root             2059 ./usr/include/gstreamer-0.10/gst/fft/gstfftf64.h
+-rw-r--r-- root       root             1526 ./usr/include/gstreamer-0.10/gst/fft/gstfft.h
 -rw-r--r-- root       root             2063 ./usr/include/gstreamer-0.10/gst/fft/gstffts16.h
 -rw-r--r-- root       root             2064 ./usr/include/gstreamer-0.10/gst/fft/gstffts32.h
 drwxr-xr-x root       root               60 ./usr/include/gstreamer-0.10/gst/floatcast
 -rw-r--r-- root       root             3384 ./usr/include/gstreamer-0.10/gst/floatcast/floatcast.h
 drwxr-xr-x root       root              320 ./usr/include/gstreamer-0.10/gst/interfaces
--rw-r--r-- root       root             4628 ./usr/include/gstreamer-0.10/gst/interfaces/colorbalance.h
 -rw-r--r-- root       root             2709 ./usr/include/gstreamer-0.10/gst/interfaces/colorbalancechannel.h
+-rw-r--r-- root       root             4628 ./usr/include/gstreamer-0.10/gst/interfaces/colorbalance.h
 -rw-r--r-- root       root             2084 ./usr/include/gstreamer-0.10/gst/interfaces/interfaces-enumtypes.h
 -rw-r--r-- root       root            10006 ./usr/include/gstreamer-0.10/gst/interfaces/mixer.h
 -rw-r--r-- root       root             3085 ./usr/include/gstreamer-0.10/gst/interfaces/mixeroptions.h
@@ -41,8 +41,8 @@ drwxr-xr-x root       root              320 ./usr/include/gstreamer-0.10/gst/int
 -rw-r--r-- root       root            11642 ./usr/include/gstreamer-0.10/gst/interfaces/navigation.h
 -rw-r--r-- root       root             4799 ./usr/include/gstreamer-0.10/gst/interfaces/propertyprobe.h
 -rw-r--r-- root       root             3465 ./usr/include/gstreamer-0.10/gst/interfaces/streamvolume.h
--rw-r--r-- root       root             6461 ./usr/include/gstreamer-0.10/gst/interfaces/tuner.h
 -rw-r--r-- root       root             3780 ./usr/include/gstreamer-0.10/gst/interfaces/tunerchannel.h
+-rw-r--r-- root       root             6461 ./usr/include/gstreamer-0.10/gst/interfaces/tuner.h
 -rw-r--r-- root       root             2049 ./usr/include/gstreamer-0.10/gst/interfaces/tunernorm.h
 -rw-r--r-- root       root             4150 ./usr/include/gstreamer-0.10/gst/interfaces/videoorientation.h
 -rw-r--r-- root       root             4372 ./usr/include/gstreamer-0.10/gst/interfaces/xoverlay.h
@@ -71,10 +71,10 @@ drwxr-xr-x root       root              160 ./usr/include/gstreamer-0.10/gst/rtp
 -rw-r--r-- root       root             9300 ./usr/include/gstreamer-0.10/gst/rtp/gstrtpbuffer.h
 -rw-r--r-- root       root             6431 ./usr/include/gstreamer-0.10/gst/rtp/gstrtppayloads.h
 drwxr-xr-x root       root              220 ./usr/include/gstreamer-0.10/gst/rtsp
--rw-r--r-- root       root             1181 ./usr/include/gstreamer-0.10/gst/rtsp/gstrtsp-enumtypes.h
 -rw-r--r-- root       root             1161 ./usr/include/gstreamer-0.10/gst/rtsp/gstrtspbase64.h
 -rw-r--r-- root       root            10006 ./usr/include/gstreamer-0.10/gst/rtsp/gstrtspconnection.h
 -rw-r--r-- root       root            17044 ./usr/include/gstreamer-0.10/gst/rtsp/gstrtspdefs.h
+-rw-r--r-- root       root             1181 ./usr/include/gstreamer-0.10/gst/rtsp/gstrtsp-enumtypes.h
 -rw-r--r-- root       root             4260 ./usr/include/gstreamer-0.10/gst/rtsp/gstrtspextension.h
 -rw-r--r-- root       root             8177 ./usr/include/gstreamer-0.10/gst/rtsp/gstrtspmessage.h
 -rw-r--r-- root       root             3778 ./usr/include/gstreamer-0.10/gst/rtsp/gstrtsprange.h
@@ -92,8 +92,8 @@ drwxr-xr-x root       root              140 ./usr/include/gstreamer-0.10/gst/vid
 -rw-r--r-- root       root             2013 ./usr/include/gstreamer-0.10/gst/video/gstvideofilter.h
 -rw-r--r-- root       root             4100 ./usr/include/gstreamer-0.10/gst/video/gstvideosink.h
 -rw-r--r-- root       root              361 ./usr/include/gstreamer-0.10/gst/video/video-enumtypes.h
--rw-r--r-- root       root             9965 ./usr/include/gstreamer-0.10/gst/video/video-overlay-composition.h
 -rw-r--r-- root       root            26513 ./usr/include/gstreamer-0.10/gst/video/video.h
+-rw-r--r-- root       root             9965 ./usr/include/gstreamer-0.10/gst/video/video-overlay-composition.h
 drwxr-xr-x root       root              580 ./usr/lib
 -rwxr-xr-x root       root             1411 ./usr/lib/libgstapp-0.10.la
 lrwxrwxrwx root       root               24 ./usr/lib/libgstapp-0.10.so -> libgstapp-0.10.so.0.25.0
