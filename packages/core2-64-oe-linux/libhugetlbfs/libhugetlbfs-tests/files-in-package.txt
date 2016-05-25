@@ -18,11 +18,11 @@ drwxr-xr-x root       root             1580 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root              249 ./usr/lib/libhugetlbfs/tests/obj64/fadvise_reserve.sh
 -rwxr-xr-x root       root            42048 ./usr/lib/libhugetlbfs/tests/obj64/find_path
 -rwxr-xr-x root       root            50168 ./usr/lib/libhugetlbfs/tests/obj64/fork-cow
--rwxr-xr-x root       root            45040 ./usr/lib/libhugetlbfs/tests/obj64/get_huge_pages
 -rwxr-xr-x root       root            48712 ./usr/lib/libhugetlbfs/tests/obj64/get_hugepage_region
--rwxr-xr-x root       root            13424 ./usr/lib/libhugetlbfs/tests/obj64/get_hugetlbfs_path
+-rwxr-xr-x root       root            45040 ./usr/lib/libhugetlbfs/tests/obj64/get_huge_pages
 -rwxr-xr-x root       root            41752 ./usr/lib/libhugetlbfs/tests/obj64/gethugepagesize
 -rwxr-xr-x root       root            72024 ./usr/lib/libhugetlbfs/tests/obj64/gethugepagesizes
+-rwxr-xr-x root       root            13424 ./usr/lib/libhugetlbfs/tests/obj64/get_hugetlbfs_path
 -rwxr-xr-x root       root            47616 ./usr/lib/libhugetlbfs/tests/obj64/heap-overflow
 -rwxr-xr-x root       root            35344 ./usr/lib/libhugetlbfs/tests/obj64/heapshrink
 -rwxr-xr-x root       root          3926736 ./usr/lib/libhugetlbfs/tests/obj64/huge_at_4GB_normal_below_static
@@ -65,9 +65,9 @@ drwxr-xr-x root       root             1580 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            40744 ./usr/lib/libhugetlbfs/tests/obj64/shm-fork
 -rwxr-xr-x root       root            39616 ./usr/lib/libhugetlbfs/tests/obj64/shm-getraw
 -rwxr-xr-x root       root            38456 ./usr/lib/libhugetlbfs/tests/obj64/shm-gettest
--rwxr-xr-x root       root            48568 ./usr/lib/libhugetlbfs/tests/obj64/shm-perms
 -rwxr-xr-x root       root            53288 ./usr/lib/libhugetlbfs/tests/obj64/shmoverride_linked
 -rwxr-xr-x root       root            45928 ./usr/lib/libhugetlbfs/tests/obj64/shmoverride_unlinked
+-rwxr-xr-x root       root            48568 ./usr/lib/libhugetlbfs/tests/obj64/shm-perms
 -rwxr-xr-x root       root            44576 ./usr/lib/libhugetlbfs/tests/obj64/slbpacaflush
 -rwxr-xr-x root       root            45928 ./usr/lib/libhugetlbfs/tests/obj64/stack_grow_into_huge
 -rwxr-xr-x root       root          3928912 ./usr/lib/libhugetlbfs/tests/obj64/straddle_4GB_static

@@ -70,10 +70,10 @@ drwxr-xr-x root       root              200 ./usr/src/debug/libmemcached/1.0.15-
 -rw-r--r-- root       root             3847 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/hashkit.cc
 -rw-r--r-- root       root             8424 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/jenkins.cc
 -rw-r--r-- root       root            13549 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/md5.cc
--rw-r--r-- root       root             3392 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/murmur.cc
+-rw-r--r-- root       root             1948 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/murmur3_api.cc
 -rw-r--r-- root       root             7577 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/murmur3.cc
 -rw-r--r-- root       root              640 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/murmur3.h
--rw-r--r-- root       root             1948 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/murmur3_api.cc
+-rw-r--r-- root       root             3392 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/murmur.cc
 -rw-r--r-- root       root             1815 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/nohsieh.cc
 -rw-r--r-- root       root             2240 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/one_at_a_time.cc
 -rw-r--r-- root       root            65334 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libhashkit/rijndael.cc
@@ -95,8 +95,8 @@ drwxr-xr-x root       root              700 ./usr/src/debug/libmemcached/1.0.15-
 -rw-r--r-- root       root             2361 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/error.h
 -rw-r--r-- root       root             2100 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/exist.h
 -rw-r--r-- root       root             2085 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/fetch.h
--rw-r--r-- root       root             1889 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/flush.h
 -rw-r--r-- root       root             1878 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/flush_buffers.h
+-rw-r--r-- root       root             1889 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/flush.h
 -rw-r--r-- root       root             4745 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/get.h
 -rw-r--r-- root       root             2400 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/hash.h
 -rw-r--r-- root       root             5559 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/memcached.h
@@ -124,10 +124,10 @@ drwxr-xr-x root       root              220 ./usr/src/debug/libmemcached/1.0.15-
 -rw-r--r-- root       root             2305 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/touch.h
 -rw-r--r-- root       root             2693 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/triggers.h
 drwxr-xr-x root       root              160 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/types
--rw-r--r-- root       root             3202 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/types.h
 -rw-r--r-- root       root             3171 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/types/behavior.h
 -rw-r--r-- root       root             2140 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/types/callback.h
 -rw-r--r-- root       root             1913 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/types/connection.h
+-rw-r--r-- root       root             3202 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/types.h
 -rw-r--r-- root       root             2130 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/types/hash.h
 -rw-r--r-- root       root             3436 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/types/return.h
 -rw-r--r-- root       root             2171 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached-1.0/types/server_distribution.h
@@ -165,8 +165,8 @@ drwxr-xr-x root       root              140 ./usr/src/debug/libmemcached/1.0.15-
 -rw-r--r-- root       root             6965 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/fetch.cc
 -rw-r--r-- root       root             4502 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/flag.cc
 -rw-r--r-- root       root             2315 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/flag.hpp
--rw-r--r-- root       root             5701 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/flush.cc
 -rw-r--r-- root       root             2363 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/flush_buffers.cc
+-rw-r--r-- root       root             5701 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/flush.cc
 -rw-r--r-- root       root            23685 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/get.cc
 -rw-r--r-- root       root             5570 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/hash.cc
 -rw-r--r-- root       root             1843 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/hash.hpp
@@ -211,11 +211,6 @@ drwxr-xr-x root       root               60 ./usr/src/debug/libmemcached/1.0.15-
 -rw-r--r-- root       root             6162 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/touch.cc
 -rw-r--r-- root       root             3054 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/udp.cc
 -rw-r--r-- root       root             2696 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/udp.hpp
--rw-r--r-- root       root             3581 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/verbosity.cc
--rw-r--r-- root       root             6192 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/version.cc
--rw-r--r-- root       root             1799 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/version.hpp
--rw-r--r-- root       root             3724 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/virtual_bucket.c
--rw-r--r-- root       root             2345 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/virtual_bucket.h
 drwxr-xr-x root       root              140 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcachedutil
 drwxr-xr-x root       root               80 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcachedutil-1.0
 -rw-r--r-- root       root             2063 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcachedutil-1.0/ping.h
@@ -225,3 +220,8 @@ drwxr-xr-x root       root               80 ./usr/src/debug/libmemcached/1.0.15-
 -rw-r--r-- root       root             4133 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcachedutil/ping.cc
 -rw-r--r-- root       root            11263 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcachedutil/pool.cc
 -rw-r--r-- root       root             3137 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcachedutil/version.cc
+-rw-r--r-- root       root             3581 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/verbosity.cc
+-rw-r--r-- root       root             6192 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/version.cc
+-rw-r--r-- root       root             1799 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/version.hpp
+-rw-r--r-- root       root             3724 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/virtual_bucket.c
+-rw-r--r-- root       root             2345 ./usr/src/debug/libmemcached/1.0.15-r0/libmemcached-1.0.15/libmemcached/virtual_bucket.h

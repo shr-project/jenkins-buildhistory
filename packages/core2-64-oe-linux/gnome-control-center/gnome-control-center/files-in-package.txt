@@ -27,8 +27,8 @@ drwxr-xr-x root       root              340 ./usr/bin
 -rwxr-xr-x root       root            38760 ./usr/bin/gnome-typing-monitor
 -rwxr-xr-x root       root            21328 ./usr/bin/gnome-window-properties
 drwxr-xr-x root       root              100 ./usr/lib
-lrwxrwxrwx root       root               33 ./usr/lib/libgnome-window-settings.so.1 -> libgnome-window-settings.so.1.0.0
 -rwxr-xr-x root       root            16328 ./usr/lib/libgnome-window-settings.so.1.0.0
+lrwxrwxrwx root       root               33 ./usr/lib/libgnome-window-settings.so.1 -> libgnome-window-settings.so.1.0.0
 drwxr-xr-x root       root               60 ./usr/lib/window-manager-settings
 -rwxr-xr-x root       root            16344 ./usr/lib/window-manager-settings/libmetacity.so
 drwxr-xr-x root       root               60 ./usr/sbin
@@ -39,11 +39,11 @@ drwxr-xr-x root       root              280 ./usr/share/applications
 -rw-r--r-- root       root            10266 ./usr/share/applications/default-applications.desktop
 -rw-r--r-- root       root             5036 ./usr/share/applications/display-properties.desktop
 -rw-r--r-- root       root             7021 ./usr/share/applications/gnome-appearance-properties.desktop
+-rw-r--r-- root       root             7980 ./usr/share/applications/gnomecc.desktop
 -rw-r--r-- root       root             6133 ./usr/share/applications/gnome-font-viewer.desktop
 -rw-r--r-- root       root             9659 ./usr/share/applications/gnome-network-properties.desktop
 -rw-r--r-- root       root             7123 ./usr/share/applications/gnome-settings-mouse.desktop
 -rw-r--r-- root       root            10977 ./usr/share/applications/gnome-theme-installer.desktop
--rw-r--r-- root       root             7980 ./usr/share/applications/gnomecc.desktop
 -rw-r--r-- root       root            10213 ./usr/share/applications/keybinding.desktop
 -rw-r--r-- root       root             8325 ./usr/share/applications/keyboard.desktop
 -rw-r--r-- root       root             7464 ./usr/share/applications/window-properties.desktop
@@ -61,8 +61,8 @@ drwxr-xr-x root       root              480 ./usr/share/gnome-control-center/pix
 -rw-r--r-- root       root             2991 ./usr/share/gnome-control-center/pixmaps/at-support.png
 -rw-r--r-- root       root              496 ./usr/share/gnome-control-center/pixmaps/bar-disabled.png
 -rw-r--r-- root       root              286 ./usr/share/gnome-control-center/pixmaps/bar-green.png
--rw-r--r-- root       root              277 ./usr/share/gnome-control-center/pixmaps/bar-red.png
 -rw-r--r-- root       root              362 ./usr/share/gnome-control-center/pixmaps/bar.png
+-rw-r--r-- root       root              277 ./usr/share/gnome-control-center/pixmaps/bar-red.png
 -rw-r--r-- root       root             4643 ./usr/share/gnome-control-center/pixmaps/double-click-maybe.png
 -rw-r--r-- root       root             4751 ./usr/share/gnome-control-center/pixmaps/double-click-off.png
 -rw-r--r-- root       root             6360 ./usr/share/gnome-control-center/pixmaps/double-click-on.png
@@ -94,8 +94,8 @@ drwxr-xr-x root       root              300 ./usr/share/gnome-control-center/ui
 -rw-r--r-- root       root            56430 ./usr/share/gnome-control-center/ui/gnome-network-properties.ui
 -rw-r--r-- root       root            20080 ./usr/share/gnome-control-center/ui/gnome-window-properties.ui
 drwxr-xr-x root       root              100 ./usr/share/gnome/cursor-fonts
--rw-r--r-- root       root            18636 ./usr/share/gnome/cursor-fonts/cursor-large-white.pcf
 -rw-r--r-- root       root            17432 ./usr/share/gnome/cursor-fonts/cursor-large.pcf
+-rw-r--r-- root       root            18636 ./usr/share/gnome/cursor-fonts/cursor-large-white.pcf
 -rw-r--r-- root       root            13848 ./usr/share/gnome/cursor-fonts/cursor-white.pcf
 drwxr-xr-x root       root               60 ./usr/share/icons
 drwxr-xr-x root       root              160 ./usr/share/icons/hicolor

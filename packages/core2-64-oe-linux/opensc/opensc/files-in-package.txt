@@ -36,10 +36,10 @@ drwxr-xr-x root       root              360 ./usr/bin
 -rwxr-xr-x root       root            40728 ./usr/bin/sc-hsm-tool
 -rwxr-xr-x root       root            25528 ./usr/bin/westcos-tool
 drwxr-xr-x root       root              180 ./usr/lib
-lrwxrwxrwx root       root               18 ./usr/lib/libopensc.so.3 -> libopensc.so.3.0.0
 -rwxr-xr-x root       root          1656184 ./usr/lib/libopensc.so.3.0.0
-lrwxrwxrwx root       root               21 ./usr/lib/libsmm-local.so.3 -> libsmm-local.so.3.0.0
+lrwxrwxrwx root       root               18 ./usr/lib/libopensc.so.3 -> libopensc.so.3.0.0
 -rwxr-xr-x root       root            69088 ./usr/lib/libsmm-local.so.3.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libsmm-local.so.3 -> libsmm-local.so.3.0.0
 -rwxr-xr-x root       root           197608 ./usr/lib/onepin-opensc-pkcs11.so
 -rwxr-xr-x root       root           197600 ./usr/lib/opensc-pkcs11.so
 -rwxr-xr-x root       root            75184 ./usr/lib/pkcs11-spy.so
@@ -56,10 +56,10 @@ drwxr-xr-x root       root              640 ./usr/share/opensc
 -rw-r--r-- root       root             5040 ./usr/share/opensc/ias_adele_admin1.profile
 -rw-r--r-- root       root             5014 ./usr/share/opensc/ias_adele_admin2.profile
 -rw-r--r-- root       root             4958 ./usr/share/opensc/ias_adele_common.profile
--rw-r--r-- root       root             2908 ./usr/share/opensc/iasecc.profile
 -rw-r--r-- root       root             5031 ./usr/share/opensc/iasecc_admin_eid.profile
 -rw-r--r-- root       root             4665 ./usr/share/opensc/iasecc_generic_oberthur.profile
 -rw-r--r-- root       root             5016 ./usr/share/opensc/iasecc_generic_pki.profile
+-rw-r--r-- root       root             2908 ./usr/share/opensc/iasecc.profile
 -rw-r--r-- root       root             2709 ./usr/share/opensc/incrypto34.profile
 -rw-r--r-- root       root             2996 ./usr/share/opensc/isoApplet.profile
 -rw-r--r-- root       root             2210 ./usr/share/opensc/jcop.profile
@@ -69,8 +69,8 @@ drwxr-xr-x root       root              640 ./usr/share/opensc
 -rw-r--r-- root       root             4463 ./usr/share/opensc/oberthur.profile
 -rw-r--r-- root       root             1890 ./usr/share/opensc/openpgp.profile
 -rw-r--r-- root       root             3976 ./usr/share/opensc/pkcs15.profile
--rw-r--r-- root       root             5506 ./usr/share/opensc/rutoken.profile
 -rw-r--r-- root       root             6039 ./usr/share/opensc/rutoken_ecp.profile
+-rw-r--r-- root       root             5506 ./usr/share/opensc/rutoken.profile
 -rw-r--r-- root       root             1177 ./usr/share/opensc/sc-hsm.profile
 -rw-r--r-- root       root             3789 ./usr/share/opensc/setcos.profile
 -rw-r--r-- root       root             2724 ./usr/share/opensc/starcos.profile

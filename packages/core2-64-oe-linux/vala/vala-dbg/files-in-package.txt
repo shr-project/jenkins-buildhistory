@@ -16,7 +16,6 @@ drwxr-xr-x root       root               60 ./usr/src/debug/vala
 drwxr-xr-x root       root               60 ./usr/src/debug/vala/0.30.1-r0
 drwxr-xr-x root       root              180 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1
 drwxr-xr-x root       root             1100 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode
--rw-r--r-- root       root            98403 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccode.h
 -rw-r--r-- root       root            19030 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccodeassignment.c
 -rw-r--r-- root       root            23330 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccodebinaryexpression.c
 -rw-r--r-- root       root            21543 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccodeblock.c
@@ -44,6 +43,7 @@ drwxr-xr-x root       root             1100 ./usr/src/debug/vala/0.30.1-r0/vala-
 -rw-r--r-- root       root            14810 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccodefunctioncall.c
 -rw-r--r-- root       root            15660 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccodefunctiondeclarator.c
 -rw-r--r-- root       root            11975 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccodegotostatement.c
+-rw-r--r-- root       root            98403 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccode.h
 -rw-r--r-- root       root            10297 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccodeidentifier.c
 -rw-r--r-- root       root            12566 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccodeifsection.c
 -rw-r--r-- root       root            19898 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/ccode/valaccodeifstatement.c
@@ -129,7 +129,6 @@ drwxr-xr-x root       root              320 ./usr/src/debug/vala/0.30.1-r0/vala-
 -rw-r--r-- root       root            48555 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/gobject-introspection/scanner.c
 -rw-r--r-- root       root             4034 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/gobject-introspection/scanner.h
 drwxr-xr-x root       root             2980 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala
--rw-r--r-- root       root           298626 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/vala.h
 -rw-r--r-- root       root            32582 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valaaddressofexpression.c
 -rw-r--r-- root       root            59555 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valaarraycreationexpression.c
 -rw-r--r-- root       root            31645 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valaarraylengthfield.c
@@ -193,6 +192,7 @@ drwxr-xr-x root       root             2980 ./usr/src/debug/vala/0.30.1-r0/vala-
 -rw-r--r-- root       root            30378 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valagenietokentype.c
 -rw-r--r-- root       root            10784 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valagircomment.c
 -rw-r--r-- root       root           804640 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valagirparser.c
+-rw-r--r-- root       root           298626 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/vala.h
 -rw-r--r-- root       root           107698 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valaifstatement.c
 -rw-r--r-- root       root            60962 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valainitializerlist.c
 -rw-r--r-- root       root           107800 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valaintegerliteral.c
@@ -226,8 +226,8 @@ drwxr-xr-x root       root             2980 ./usr/src/debug/vala/0.30.1-r0/vala-
 -rw-r--r-- root       root           115523 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valapointertype.c
 -rw-r--r-- root       root            46781 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valapostfixexpression.c
 -rw-r--r-- root       root             1671 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valaprofile.c
--rw-r--r-- root       root            96374 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valaproperty.c
 -rw-r--r-- root       root            75372 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valapropertyaccessor.c
+-rw-r--r-- root       root            96374 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valaproperty.c
 -rw-r--r-- root       root           100983 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valarealliteral.c
 -rw-r--r-- root       root            39753 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valareferencetransferexpression.c
 -rw-r--r-- root       root            17331 ./usr/src/debug/vala/0.30.1-r0/vala-0.30.1/vala/valareferencetype.c

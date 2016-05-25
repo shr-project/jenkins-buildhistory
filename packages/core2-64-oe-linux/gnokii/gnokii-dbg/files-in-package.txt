@@ -51,8 +51,8 @@ drwxr-xr-x root       root              180 ./usr/src/debug/gnokii/0.6.31-r0/gno
 drwxr-xr-x root       root              180 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/links
 -rw-r--r-- root       root             9286 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/links/atbus.c
 -rw-r--r-- root       root            13300 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/links/fbus-3110.c
--rw-r--r-- root       root            11922 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/links/fbus-phonet.c
 -rw-r--r-- root       root            19873 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/links/fbus.c
+-rw-r--r-- root       root            11922 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/links/fbus-phonet.c
 -rw-r--r-- root       root             7649 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/links/gnbus.c
 -rw-r--r-- root       root            12912 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/links/m2bus.c
 -rw-r--r-- root       root             2269 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/links/utils.c
@@ -88,7 +88,10 @@ drwxr-xr-x root       root              440 ./usr/src/debug/gnokii/0.6.31-r0/gno
 -rw-r--r-- root       root            24654 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/vcal.c
 -rw-r--r-- root       root            17956 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/common/vcard.c
 drwxr-xr-x root       root              400 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii
+drwxr-xr-x root       root               60 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokiid
+-rw-r--r-- root       root             4510 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokiid/gnokiid.c
 -rw-r--r-- root       root            11478 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii/gnokii-app.h
+-rw-r--r-- root       root            32762 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii/gnokii.c
 -rw-r--r-- root       root            11402 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii/gnokii-calendar.c
 -rw-r--r-- root       root            11407 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii/gnokii-dial.c
 -rw-r--r-- root       root            12176 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii/gnokii-file.c
@@ -105,9 +108,6 @@ drwxr-xr-x root       root              400 ./usr/src/debug/gnokii/0.6.31-r0/gno
 -rw-r--r-- root       root             6925 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii/gnokii-todo.c
 -rw-r--r-- root       root             6170 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii/gnokii-utils.c
 -rw-r--r-- root       root            10809 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii/gnokii-wap.c
--rw-r--r-- root       root            32762 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokii/gnokii.c
-drwxr-xr-x root       root               60 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokiid
--rw-r--r-- root       root             4510 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/gnokiid/gnokiid.c
 drwxr-xr-x root       root              300 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include
 -rw-r--r-- root       root             1359 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/cfgreader.h
 -rw-r--r-- root       root             8382 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/compat.h
@@ -125,14 +125,14 @@ drwxr-xr-x root       root              180 ./usr/src/debug/gnokii/0.6.31-r0/gno
 -rw-r--r-- root       root             1888 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/devices/tekram.h
 -rw-r--r-- root       root             1502 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/devices/unixbluetooth.h
 drwxr-xr-x root       root              320 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii
--rw-r--r-- root       root             8641 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii-internal.h
--rw-r--r-- root       root            17150 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii.h
 -rw-r--r-- root       root             3334 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii/bitmaps.h
 -rw-r--r-- root       root             2888 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii/call.h
 -rw-r--r-- root       root            29362 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii/common.h
 -rw-r--r-- root       root             9074 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii/data.h
 -rw-r--r-- root       root             1919 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii/encoding.h
 -rw-r--r-- root       root             3769 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii/error.h
+-rw-r--r-- root       root            17150 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii.h
+-rw-r--r-- root       root             8641 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii-internal.h
 -rw-r--r-- root       root             5993 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii/mms.h
 -rw-r--r-- root       root             1927 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii/networks.h
 -rw-r--r-- root       root             6405 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/gnokii/ringtones.h
@@ -145,8 +145,8 @@ drwxr-xr-x root       root              200 ./usr/src/debug/gnokii/0.6.31-r0/gno
 -rw-r--r-- root       root             1916 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/links/atbus.h
 -rw-r--r-- root       root             2330 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/links/fbus-3110.h
 -rw-r--r-- root       root             1661 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/links/fbus-common.h
--rw-r--r-- root       root             2108 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/links/fbus-phonet.h
 -rw-r--r-- root       root             2783 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/links/fbus.h
+-rw-r--r-- root       root             2108 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/links/fbus-phonet.h
 -rw-r--r-- root       root             2012 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/links/gnbus.h
 -rw-r--r-- root       root             2409 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/links/m2bus.h
 -rw-r--r-- root       root             1356 ./usr/src/debug/gnokii/0.6.31-r0/gnokii-0.6.31/include/links/utils.h

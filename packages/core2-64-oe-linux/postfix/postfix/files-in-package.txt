@@ -1,7 +1,5 @@
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root              460 ./etc/postfix
--rw-r--r-- root       root            11942 ./etc/postfix/LICENSE
--rw-r--r-- root       root             1629 ./etc/postfix/TLS_LICENSE
 -rw-r--r-- root       root            21325 ./etc/postfix/access
 -rw-r--r-- root       root             9970 ./etc/postfix/aliases
 -rw-r--r-- root       root             3547 ./etc/postfix/bounce.cf.default
@@ -9,6 +7,7 @@ drwxr-xr-x root       root              460 ./etc/postfix
 -rw-r--r-- root       root             9904 ./etc/postfix/generic
 -rw-r--r-- root       root            22429 ./etc/postfix/header_checks
 -rw-r--r-- root       root               33 ./etc/postfix/internal_recipient
+-rw-r--r-- root       root            11942 ./etc/postfix/LICENSE
 -rw-r--r-- root       root             3491 ./etc/postfix/main.cf
 -rw-r--r-- root       root              122 ./etc/postfix/main.cf.default
 -rw-r--r-- root       root            26851 ./etc/postfix/main.cf.proto
@@ -19,6 +18,7 @@ drwxr-xr-x root       root              460 ./etc/postfix
 drwxr-xr-x root       root               40 ./etc/postfix/postfix-files.d
 -rw-r--r-- root       root             6816 ./etc/postfix/relocated
 -rw-r--r-- root       root            27019 ./etc/postfix/sample-main.cf
+-rw-r--r-- root       root             1629 ./etc/postfix/TLS_LICENSE
 -rw-r--r-- root       root            12549 ./etc/postfix/transport
 -rw-r--r-- root       root            12510 ./etc/postfix/virtual
 drwxr-xr-x root       root               60 ./lib
@@ -45,9 +45,9 @@ drwxr-xr-x root       root              700 ./usr/libexec
 -rwxr-xr-x root       root           303024 ./usr/libexec/oqmgr
 -rwxr-xr-x root       root           259728 ./usr/libexec/pickup
 -rwxr-xr-x root       root           293232 ./usr/libexec/pipe
--rwxr-xr-x root       root            29364 ./usr/libexec/post-install
 -rwxr-xr-x root       root             8758 ./usr/libexec/postfix-script
 -rwxr-xr-x root       root             6543 ./usr/libexec/postfix-wrapper
+-rwxr-xr-x root       root            29364 ./usr/libexec/post-install
 -rwxr-xr-x root       root             9288 ./usr/libexec/postmulti-script
 -rwxr-xr-x root       root           300368 ./usr/libexec/postscreen
 -rwxr-xr-x root       root           238832 ./usr/libexec/proxymap

@@ -26,15 +26,15 @@ drwxr-xr-x root       root               60 ./usr/lib/xfce4/settings
 -rwxr-xr-x root       root             4765 ./usr/lib/xfce4/settings/appearance-install-theme
 drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root              220 ./usr/share/applications
+-rw-r--r-- root       root             5500 ./usr/share/applications/xfce4-accessibility-settings.desktop
+-rw-r--r-- root       root             4610 ./usr/share/applications/xfce4-mime-settings.desktop
+-rw-r--r-- root       root             5345 ./usr/share/applications/xfce4-settings-editor.desktop
 -rw-r--r-- root       root              437 ./usr/share/applications/xfce-datetime.desktop
 -rw-r--r-- root       root             4841 ./usr/share/applications/xfce-display-settings.desktop
 -rw-r--r-- root       root             5684 ./usr/share/applications/xfce-keyboard-settings.desktop
 -rw-r--r-- root       root             5856 ./usr/share/applications/xfce-mouse-settings.desktop
 -rw-r--r-- root       root             5643 ./usr/share/applications/xfce-settings-manager.desktop
 -rw-r--r-- root       root             4650 ./usr/share/applications/xfce-ui-settings.desktop
--rw-r--r-- root       root             5500 ./usr/share/applications/xfce4-accessibility-settings.desktop
--rw-r--r-- root       root             4610 ./usr/share/applications/xfce4-mime-settings.desktop
--rw-r--r-- root       root             5345 ./usr/share/applications/xfce4-settings-editor.desktop
 drwxr-xr-x root       root               80 ./usr/share/icons
 drwxr-xr-x root       root              180 ./usr/share/icons/hicolor
 drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/128x128
@@ -85,7 +85,6 @@ lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cur
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/640fb0e74195791501fd1ed57b41487f -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/9081237383d90e509aa00f00170e968f -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/9d800788f1b08800ae810202380a0822 -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/X_cursor -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/a2a266d0498c3104214a47bd64ab0fc8 -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/alias -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/all-scroll -> invisible
@@ -106,13 +105,13 @@ lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cur
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/center_ptr -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/circle -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/closedhand -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/col-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/color-picker -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/col-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/copy -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/cross -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/cross_reverse -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/crossed_circle -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/crosshair -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/cross -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/cross_reverse -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/d9ce0ab605698f320427677b458ad60b -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/default -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/diamond_cross -> invisible
@@ -122,16 +121,16 @@ lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cur
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/dnd-move -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/dnd-no-drop -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/dnd-none -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/dot -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/dot_box_mask -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/dotbox -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/dot_box_mask -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/dot -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/double_arrow -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/down_arrow -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/draft_large -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/draft_small -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/draped_box -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/e-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/e29285e634086352946a0e7090d73106 -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/e-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/ew-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/exchange -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/f41c0e382c94c0958e07017e42b00462 -> invisible
@@ -141,14 +140,14 @@ lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cur
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/fd_double_arrow -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/fleur -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/forbidden -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/grab -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/grabbing -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/grab -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/gumby -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/h_double_arrow -> invisible
 lrwxrwxrwx root       root                4 ./usr/share/icons/xfce-invisible/cursors/half-busy -> wait
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/hand -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/hand1 -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/hand2 -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/hand -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/h_double_arrow -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/help -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/ibeam -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/icon -> invisible
@@ -162,11 +161,11 @@ lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cur
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/ll_angle -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/lr_angle -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/move -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/n-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/ne-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/nesw-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/no-drop -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/not-allowed -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/n-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/ns-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/nw-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/nwse-resize -> invisible
@@ -183,7 +182,6 @@ lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cur
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/right_side -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/right_tee -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/row-resize -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/s-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/sailboat -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/sb_down_arrow -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/sb_h_double_arrow -> invisible
@@ -201,6 +199,7 @@ lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cur
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/sizing -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/split_h -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/split_v -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/s-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/sw-resize -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/target -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/tcross -> invisible
@@ -216,10 +215,11 @@ lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cur
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/ur_angle -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/v_double_arrow -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/vertical-text -> invisible
-lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/w-resize -> invisible
 -rw-r--r-- root       root           126096 ./usr/share/icons/xfce-invisible/cursors/wait
 lrwxrwxrwx root       root                4 ./usr/share/icons/xfce-invisible/cursors/watch -> wait
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/whats_this -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/w-resize -> invisible
+lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/X_cursor -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/xterm -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/zoom-in -> invisible
 lrwxrwxrwx root       root                9 ./usr/share/icons/xfce-invisible/cursors/zoom-out -> invisible

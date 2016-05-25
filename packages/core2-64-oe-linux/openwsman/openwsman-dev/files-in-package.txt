@@ -38,8 +38,8 @@ drwxr-xr-x root       root              520 ./usr/include/openwsman/u
 -rw-r--r-- root       root             1971 ./usr/include/openwsman/wsman-api.h
 -rw-r--r-- root       root             3608 ./usr/include/openwsman/wsman-cimindication-processor.h
 -rw-r--r-- root       root            24721 ./usr/include/openwsman/wsman-client-api.h
--rw-r--r-- root       root             6102 ./usr/include/openwsman/wsman-client-transport.h
 -rw-r--r-- root       root             3704 ./usr/include/openwsman/wsman-client.h
+-rw-r--r-- root       root             6102 ./usr/include/openwsman/wsman-client-transport.h
 -rw-r--r-- root       root             2221 ./usr/include/openwsman/wsman-debug.h
 -rw-r--r-- root       root             6235 ./usr/include/openwsman/wsman-declarations.h
 -rw-r--r-- root       root             6338 ./usr/include/openwsman/wsman-epr.h
@@ -50,22 +50,22 @@ drwxr-xr-x root       root              520 ./usr/include/openwsman/u
 -rw-r--r-- root       root            19200 ./usr/include/openwsman/wsman-names.h
 -rw-r--r-- root       root             2420 ./usr/include/openwsman/wsman-server-api.h
 -rw-r--r-- root       root             5367 ./usr/include/openwsman/wsman-soap-envelope.h
--rw-r--r-- root       root             2791 ./usr/include/openwsman/wsman-soap-message.h
 -rw-r--r-- root       root            17404 ./usr/include/openwsman/wsman-soap.h
+-rw-r--r-- root       root             2791 ./usr/include/openwsman/wsman-soap-message.h
 -rw-r--r-- root       root             3395 ./usr/include/openwsman/wsman-subscription-repository.h
 -rw-r--r-- root       root             2318 ./usr/include/openwsman/wsman-types.h
 -rw-r--r-- root       root             8422 ./usr/include/openwsman/wsman-xml-api.h
 -rw-r--r-- root       root             4547 ./usr/include/openwsman/wsman-xml-binding.h
+-rw-r--r-- root       root             3703 ./usr/include/openwsman/wsman-xml.h
 -rw-r--r-- root       root             3777 ./usr/include/openwsman/wsman-xml-serialize.h
 -rw-r--r-- root       root            28445 ./usr/include/openwsman/wsman-xml-serializer.h
--rw-r--r-- root       root             3703 ./usr/include/openwsman/wsman-xml.h
 drwxr-xr-x root       root              160 ./usr/lib
-lrwxrwxrwx root       root               13 ./usr/lib/libwsman.so -> libwsman.so.1
-lrwxrwxrwx root       root               20 ./usr/lib/libwsman_client.so -> libwsman_client.so.4
 lrwxrwxrwx root       root               22 ./usr/lib/libwsman_clientpp.so -> libwsman_clientpp.so.1
+lrwxrwxrwx root       root               20 ./usr/lib/libwsman_client.so -> libwsman_client.so.4
 lrwxrwxrwx root       root               35 ./usr/lib/libwsman_curl_client_transport.so -> libwsman_curl_client_transport.so.1
 lrwxrwxrwx root       root               20 ./usr/lib/libwsman_server.so -> libwsman_server.so.1
+lrwxrwxrwx root       root               13 ./usr/lib/libwsman.so -> libwsman.so.1
 drwxr-xr-x root       root              100 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              316 ./usr/lib/pkgconfig/openwsman.pc
 -rw-r--r-- root       root              281 ./usr/lib/pkgconfig/openwsman++.pc
 -rw-r--r-- root       root              257 ./usr/lib/pkgconfig/openwsman-server.pc
--rw-r--r-- root       root              316 ./usr/lib/pkgconfig/openwsman.pc

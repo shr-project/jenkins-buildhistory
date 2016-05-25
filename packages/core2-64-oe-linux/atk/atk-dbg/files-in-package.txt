@@ -8,7 +8,6 @@ drwxr-xr-x root       root               60 ./usr/src/debug/atk
 drwxr-xr-x root       root               80 ./usr/src/debug/atk/2.18.0-r0
 drwxr-xr-x root       root               60 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0
 drwxr-xr-x root       root             1340 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk
--rw-r--r-- root       root             2063 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atk-enum-types.h
 -rw-r--r-- root       root             8908 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkaction.c
 -rw-r--r-- root       root             4758 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkaction.h
 -rw-r--r-- root       root            19295 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkcomponent.c
@@ -17,6 +16,7 @@ drwxr-xr-x root       root             1340 ./usr/src/debug/atk/2.18.0-r0/atk-2.
 -rw-r--r-- root       root             4976 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkdocument.h
 -rw-r--r-- root       root             6542 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkeditabletext.c
 -rw-r--r-- root       root             4957 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkeditabletext.h
+-rw-r--r-- root       root             2063 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atk-enum-types.h
 -rw-r--r-- root       root             5877 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkgobjectaccessible.c
 -rw-r--r-- root       root             2610 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkgobjectaccessible.h
 -rw-r--r-- root       root            12370 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkhyperlink.c
@@ -30,13 +30,13 @@ drwxr-xr-x root       root             1340 ./usr/src/debug/atk/2.18.0-r0/atk-2.
 -rw-r--r-- root       root             3652 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkmisc.c
 -rw-r--r-- root       root             3635 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkmisc.h
 -rw-r--r-- root       root             5946 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atknoopobject.c
--rw-r--r-- root       root             2174 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atknoopobject.h
 -rw-r--r-- root       root             3506 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atknoopobjectfactory.c
 -rw-r--r-- root       root             2376 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atknoopobjectfactory.h
+-rw-r--r-- root       root             2174 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atknoopobject.h
 -rw-r--r-- root       root            55444 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkobject.c
--rw-r--r-- root       root            39123 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkobject.h
 -rw-r--r-- root       root             4439 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkobjectfactory.c
 -rw-r--r-- root       root             2720 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkobjectfactory.h
+-rw-r--r-- root       root            39123 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkobject.h
 -rw-r--r-- root       root             2614 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkplug.c
 -rw-r--r-- root       root             2121 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkplug.h
 -rw-r--r-- root       root             2859 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkprivate.c
@@ -61,9 +61,9 @@ drwxr-xr-x root       root             1340 ./usr/src/debug/atk/2.18.0-r0/atk-2.
 -rw-r--r-- root       root             5892 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkstreamablecontent.c
 -rw-r--r-- root       root             4856 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkstreamablecontent.h
 -rw-r--r-- root       root            27548 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atktable.c
--rw-r--r-- root       root            12805 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atktable.h
 -rw-r--r-- root       root             8097 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atktablecell.c
 -rw-r--r-- root       root             4636 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atktablecell.h
+-rw-r--r-- root       root            12805 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atktable.h
 -rw-r--r-- root       root            45222 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atktext.c
 -rw-r--r-- root       root            21950 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atktext.h
 -rw-r--r-- root       root            15657 ./usr/src/debug/atk/2.18.0-r0/atk-2.18.0/atk/atkutil.c

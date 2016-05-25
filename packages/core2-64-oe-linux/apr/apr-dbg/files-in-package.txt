@@ -34,7 +34,6 @@ drwxr-xr-x root       root              360 ./usr/src/debug/apr/1.5.2-r0/apr-1.5
 -rw-r--r-- root       root             3754 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/file_io/unix/seek.c
 -rw-r--r-- root       root             3804 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/file_io/unix/tempdir.c
 drwxr-xr-x root       root              720 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include
--rw-r--r-- root       root            17473 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr.h
 -rw-r--r-- root       root             5796 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr_allocator.h
 -rw-r--r-- root       root             4130 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr_atomic.h
 -rw-r--r-- root       root             2700 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr_dso.h
@@ -44,6 +43,7 @@ drwxr-xr-x root       root              720 ./usr/src/debug/apr/1.5.2-r0/apr-1.5
 -rw-r--r-- root       root            41368 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr_file_io.h
 -rw-r--r-- root       root             5980 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr_getopt.h
 -rw-r--r-- root       root             6293 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr_global_mutex.h
+-rw-r--r-- root       root            17473 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr.h
 -rw-r--r-- root       root            10219 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr_hash.h
 -rw-r--r-- root       root             8430 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr_lib.h
 -rw-r--r-- root       root             5133 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/apr_mmap.h
@@ -80,8 +80,8 @@ drwxr-xr-x root       root              300 ./usr/src/debug/apr/1.5.2-r0/apr-1.5
 -rw-r--r-- root       root             2046 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/arch/unix/apr_arch_shm.h
 -rw-r--r-- root       root             1301 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/arch/unix/apr_arch_thread_cond.h
 -rw-r--r-- root       root             1185 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/arch/unix/apr_arch_thread_mutex.h
--rw-r--r-- root       root             1301 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/arch/unix/apr_arch_thread_rwlock.h
 -rw-r--r-- root       root             2512 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/arch/unix/apr_arch_threadproc.h
+-rw-r--r-- root       root             1301 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/arch/unix/apr_arch_thread_rwlock.h
 drwxr-xr-x root       root               60 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/private
 -rw-r--r-- root       root             1169 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/include/private/apr_escape_test_char.h
 drwxr-xr-x root       root               60 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/locks
@@ -115,8 +115,8 @@ drwxr-xr-x root       root              200 ./usr/src/debug/apr/1.5.2-r0/apr-1.5
 -rw-r--r-- root       root             9117 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/network_io/unix/multicast.c
 -rw-r--r-- root       root            34711 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/network_io/unix/sendrecv.c
 -rw-r--r-- root       root            34292 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/network_io/unix/sockaddr.c
--rw-r--r-- root       root             2543 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/network_io/unix/socket_util.c
 -rw-r--r-- root       root            15893 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/network_io/unix/sockets.c
+-rw-r--r-- root       root             2543 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/network_io/unix/socket_util.c
 -rw-r--r-- root       root            13283 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/network_io/unix/sockopt.c
 drwxr-xr-x root       root               60 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/passwd
 -rw-r--r-- root       root             6930 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/passwd/apr_getpass.c
@@ -130,8 +130,8 @@ drwxr-xr-x root       root               60 ./usr/src/debug/apr/1.5.2-r0/apr-1.5
 drwxr-xr-x root       root              120 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/random/unix
 -rw-r--r-- root       root             9710 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/random/unix/apr_random.c
 -rw-r--r-- root       root            19707 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/random/unix/sha2.c
--rw-r--r-- root       root             2035 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/random/unix/sha2.h
 -rw-r--r-- root       root             1513 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/random/unix/sha2_glue.c
+-rw-r--r-- root       root             2035 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/random/unix/sha2.h
 drwxr-xr-x root       root               60 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/shmem
 drwxr-xr-x root       root               60 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/shmem/unix
 -rw-r--r-- root       root            21868 ./usr/src/debug/apr/1.5.2-r0/apr-1.5.2/shmem/unix/shm.c

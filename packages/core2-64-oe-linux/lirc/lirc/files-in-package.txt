@@ -1,10 +1,10 @@
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root              120 ./etc/lirc
--rw-r--r-- root       root              646 ./etc/lirc/lirc_options.conf
 -rw-r--r-- root       root             8406 ./etc/lirc/lircd.conf
 drwxr-xr-x root       root               60 ./etc/lirc/lircd.conf.d
 -rw-r--r-- root       root              935 ./etc/lirc/lircd.conf.d/README.conf.d
 -rw-r--r-- root       root              117 ./etc/lirc/lircmd.conf
+-rw-r--r-- root       root              646 ./etc/lirc/lirc_options.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root              120 ./lib/systemd/system
@@ -26,22 +26,22 @@ drwxr-xr-x root       root              380 ./usr/bin
 -rwxr-xr-x root       root            17712 ./usr/bin/irxevent
 -rwxr-xr-x root       root            32915 ./usr/bin/lirc-config-tool
 -rwxr-xr-x root       root            12088 ./usr/bin/lirc-lsremotes
-lrwxrwxrwx root       root               46 ./usr/bin/lirc-setup -> ../lib/python3.4/site-packages/lirc/lirc-setup
 -rwxr-xr-x root       root            20832 ./usr/bin/lircrcd
+lrwxrwxrwx root       root               46 ./usr/bin/lirc-setup -> ../lib/python3.4/site-packages/lirc/lirc-setup
 -rwxr-xr-x root       root            12408 ./usr/bin/mode2
 -rwxr-xr-x root       root             6568 ./usr/bin/pronto2lirc
 -rwxr-xr-x root       root            15888 ./usr/bin/xmode2
 drwxr-xr-x root       root              180 ./usr/lib
-lrwxrwxrwx root       root               16 ./usr/lib/liblirc.so.0 -> liblirc.so.0.0.0
--rwxr-xr-x root       root           128912 ./usr/lib/liblirc.so.0.0.0
-lrwxrwxrwx root       root               23 ./usr/lib/liblirc_client.so.0 -> liblirc_client.so.0.3.0
 -rwxr-xr-x root       root            36624 ./usr/lib/liblirc_client.so.0.3.0
-lrwxrwxrwx root       root               23 ./usr/lib/liblirc_driver.so.0 -> liblirc_driver.so.0.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/liblirc_client.so.0 -> liblirc_client.so.0.3.0
 -rwxr-xr-x root       root            57744 ./usr/lib/liblirc_driver.so.0.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/liblirc_driver.so.0 -> liblirc_driver.so.0.0.0
+-rwxr-xr-x root       root           128912 ./usr/lib/liblirc.so.0.0.0
+lrwxrwxrwx root       root               16 ./usr/lib/liblirc.so.0 -> liblirc.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root               29 ./usr/lib/tmpfiles.d/lirc.conf
 drwxr-xr-x root       root              100 ./usr/sbin
--rwxr-xr-x root       root            15264 ./usr/sbin/lirc-lsplugins
 -rwxr-xr-x root       root            46624 ./usr/sbin/lircd
+-rwxr-xr-x root       root            15264 ./usr/sbin/lirc-lsplugins
 -rwxr-xr-x root       root            21240 ./usr/sbin/lircmd
 drwxr-xr-x root       root               40 ./var

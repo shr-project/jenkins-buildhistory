@@ -1,8 +1,8 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/.debug
--rwxr-xr-x root       root           130024 ./usr/lib/.debug/libgisi.so.0.0.0
 -rwxr-xr-x root       root           521800 ./usr/lib/.debug/libgisicomm.so.0.0.0
+-rwxr-xr-x root       root           130024 ./usr/lib/.debug/libgisi.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/sbin/.debug
 -rwxr-xr-x root       root            45712 ./usr/sbin/.debug/sendisi
@@ -17,13 +17,16 @@ drwxr-xr-x root       root              220 ./usr/src/debug/libgisi/1_0.2.0-r0/l
 -rw-r--r-- root       root             1990 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/clients/info.h
 -rw-r--r-- root       root             2369 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/clients/mtc.h
 -rw-r--r-- root       root             6016 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/clients/network.h
--rw-r--r-- root       root             4952 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/clients/sim.h
 -rw-r--r-- root       root             2678 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/clients/simauth.h
+-rw-r--r-- root       root             4952 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/clients/sim.h
 -rw-r--r-- root       root             5551 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/clients/sms.h
 -rw-r--r-- root       root             3300 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/clients/ss.h
 drwxr-xr-x root       root              440 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisi
 -rw-r--r-- root       root             4344 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisi/client.c
 -rw-r--r-- root       root             2456 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisi/client.h
+drwxr-xr-x root       root               80 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisicomm
+-rw-r--r-- root       root           425066 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisicomm/gisicomm.c
+-rw-r--r-- root       root            29704 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisicomm/gisicomm.h
 -rw-r--r-- root       root             1755 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisi/common.h
 -rw-r--r-- root       root             7733 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisi/iter.c
 -rw-r--r-- root       root             3303 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisi/iter.h
@@ -42,8 +45,5 @@ drwxr-xr-x root       root              440 ./usr/src/debug/libgisi/1_0.2.0-r0/l
 -rw-r--r-- root       root             1657 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisi/server.h
 -rw-r--r-- root       root             2323 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisi/socket.c
 -rw-r--r-- root       root             1017 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisi/socket.h
-drwxr-xr-x root       root               80 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisicomm
--rw-r--r-- root       root           425066 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisicomm/gisicomm.c
--rw-r--r-- root       root            29704 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/gisicomm/gisicomm.h
 drwxr-xr-x root       root               60 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/tools
 -rw-r--r-- root       root            21420 ./usr/src/debug/libgisi/1_0.2.0-r0/libgisi-0.2.0/tools/sendisi.c

@@ -6,6 +6,8 @@ drwxr-xr-x root       root               60 ./etc/gconf
 drwxr-xr-x root       root               60 ./etc/gconf/schemas
 -rw-r--r-- root       root           303975 ./etc/gconf/schemas/gdm-simple-greeter.schemas
 drwxr-xr-x root       root              180 ./etc/gdm
+-rw-r--r-- root       root               91 ./etc/gdm/custom.conf
+-rw-r--r-- root       root             3251 ./etc/gdm/gdm.conf
 drwxr-xr-x root       root               60 ./etc/gdm/Init
 -rwxr-xr-x root       root             2892 ./etc/gdm/Init/Default
 drwxr-xr-x root       root               60 ./etc/gdm/PostLogin
@@ -15,8 +17,6 @@ drwxr-xr-x root       root               60 ./etc/gdm/PostSession
 drwxr-xr-x root       root               60 ./etc/gdm/PreSession
 -rwxr-xr-x root       root              258 ./etc/gdm/PreSession/Default
 -rwxr-xr-x root       root             5721 ./etc/gdm/Xsession
--rw-r--r-- root       root               91 ./etc/gdm/custom.conf
--rw-r--r-- root       root             3251 ./etc/gdm/gdm.conf
 drwxr-xr-x root       root               60 ./etc/pam.d
 -rwxr-xr-x root       root              284 ./etc/pam.d/gdm
 drwxr-xr-x root       root               60 ./lib
@@ -25,8 +25,8 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              185 ./lib/systemd/system/gdm.service
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root            11576 ./usr/bin/gdm-screenshot
 -rwxr-xr-x root       root            16824 ./usr/bin/gdmflexiserver
+-rwxr-xr-x root       root            11576 ./usr/bin/gdm-screenshot
 drwxr-xr-x root       root              220 ./usr/libexec
 -rwxr-xr-x root       root             6968 ./usr/libexec/gdm-crash-logger
 -rwxr-xr-x root       root           155904 ./usr/libexec/gdm-factory-slave
@@ -88,9 +88,9 @@ drwxr-xr-x root       root              520 ./usr/share/pixmaps/faces
 -rw-r--r-- root       root            13432 ./usr/share/pixmaps/faces/tennis-ball.png
 -rw-r--r-- root       root             2727 ./usr/share/pixmaps/faces/yellow-rose.jpg
 -rw-r--r-- root       root             3684 ./usr/share/pixmaps/gdm-foot-logo.png
+-rw-r--r-- root       root             1608 ./usr/share/pixmaps/gdm.png
 -rw-r--r-- root       root             2504 ./usr/share/pixmaps/gdm-setup.png
 -rw-r--r-- root       root             1370 ./usr/share/pixmaps/gdm-xnest.png
--rw-r--r-- root       root             1608 ./usr/share/pixmaps/gdm.png
 -rw-r--r-- root       root             5892 ./usr/share/pixmaps/nobody.png
 -rw-r--r-- root       root             4196 ./usr/share/pixmaps/nohost.png
 drwxr-xr-x root       root              140 ./var
@@ -105,8 +105,8 @@ drwxr-x--T gdm        gdm                60 ./var/lib/gdm/.gconf.mandatory
 drwxr-xr-x gdm        gdm                60 ./var/lib/gdm/.local
 drwxr-xr-x gdm        gdm                60 ./var/lib/gdm/.local/share
 drwxr-xr-x gdm        gdm                80 ./var/lib/gdm/.local/share/applications
--rw-r--r-- gdm        gdm               109 ./var/lib/gdm/.local/share/applications/mime-dummy-handler.desktop
 -rw-r--r-- gdm        gdm               906 ./var/lib/gdm/.local/share/applications/mimeapps.list
+-rw-r--r-- gdm        gdm               109 ./var/lib/gdm/.local/share/applications/mime-dummy-handler.desktop
 lrwxrwxrwx root       root               12 ./var/log -> volatile/log
 drwxr-xr-x root       root               60 ./var/volatile
 drwxr-xr-x root       root               60 ./var/volatile/log

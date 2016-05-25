@@ -32,11 +32,11 @@ drwxr-xr-x root       root              360 ./usr/bin
 -rwxr-xr-x root       root            91696 ./usr/bin/rfcomm
 -rwxr-xr-x root       root           182288 ./usr/bin/sdptool
 drwxr-xr-x root       root               80 ./usr/lib
-lrwxrwxrwx root       root               23 ./usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.11
--rwxr-xr-x root       root           140664 ./usr/lib/libbluetooth.so.3.18.11
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/bluetooth
 -rwxr-xr-x root       root           881624 ./usr/libexec/bluetooth/bluetoothd
+-rwxr-xr-x root       root           140664 ./usr/lib/libbluetooth.so.3.18.11
+lrwxrwxrwx root       root               23 ./usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.11
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/system-services

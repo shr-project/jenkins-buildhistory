@@ -3,13 +3,13 @@ drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
 -rwxr-xr-x root       root           129592 ./usr/bin/.debug/nfctool
 drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/neard
-drwxr-xr-x root       root               60 ./usr/lib/neard/.debug
--rwxr-xr-x root       root           129592 ./usr/lib/neard/.debug/nfctool
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/nfc
 drwxr-xr-x root       root               60 ./usr/libexec/nfc/.debug
 -rwxr-xr-x root       root           942400 ./usr/libexec/nfc/.debug/neard
+drwxr-xr-x root       root               60 ./usr/lib/neard
+drwxr-xr-x root       root               60 ./usr/lib/neard/.debug
+-rwxr-xr-x root       root           129592 ./usr/lib/neard/.debug/nfctool
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/neard
@@ -51,8 +51,8 @@ drwxr-xr-x root       root              320 ./usr/src/debug/neard/0.15-r0/neard-
 -rw-r--r-- root       root            15716 ./usr/src/debug/neard/0.15-r0/neard-0.15/plugins/p2p.c
 -rw-r--r-- root       root             1899 ./usr/src/debug/neard/0.15-r0/neard-0.15/plugins/p2p.h
 -rw-r--r-- root       root            13580 ./usr/src/debug/neard/0.15-r0/neard-0.15/plugins/phdc.c
--rw-r--r-- root       root             6739 ./usr/src/debug/neard/0.15-r0/neard-0.15/plugins/snep-validation.c
 -rw-r--r-- root       root             3857 ./usr/src/debug/neard/0.15-r0/neard-0.15/plugins/snep.c
+-rw-r--r-- root       root             6739 ./usr/src/debug/neard/0.15-r0/neard-0.15/plugins/snep-validation.c
 drwxr-xr-x root       root              360 ./usr/src/debug/neard/0.15-r0/neard-0.15/src
 -rw-r--r-- root       root            26106 ./usr/src/debug/neard/0.15-r0/neard-0.15/src/adapter.c
 -rw-r--r-- root       root            19290 ./usr/src/debug/neard/0.15-r0/neard-0.15/src/agent.c

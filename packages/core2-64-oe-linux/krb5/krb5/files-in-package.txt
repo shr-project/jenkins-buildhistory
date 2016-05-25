@@ -37,36 +37,36 @@ drwxr-xr-x root       root               80 ./usr/lib/krb5/plugins/preauth
 -rw-r--r-- root       root           115056 ./usr/lib/krb5/plugins/preauth/pkinit.so
 drwxr-xr-x root       root               60 ./usr/lib/krb5/plugins/tls
 -rw-r--r-- root       root            16592 ./usr/lib/krb5/plugins/tls/k5tls.so
-lrwxrwxrwx root       root               21 ./usr/lib/libgssapi_krb5.so.2 -> libgssapi_krb5.so.2.2
 -rw-r--r-- root       root           295520 ./usr/lib/libgssapi_krb5.so.2.2
-lrwxrwxrwx root       root               16 ./usr/lib/libgssrpc.so.4 -> libgssrpc.so.4.2
+lrwxrwxrwx root       root               21 ./usr/lib/libgssapi_krb5.so.2 -> libgssapi_krb5.so.2.2
 -rw-r--r-- root       root           116760 ./usr/lib/libgssrpc.so.4.2
-lrwxrwxrwx root       root               18 ./usr/lib/libk5crypto.so.3 -> libk5crypto.so.3.1
+lrwxrwxrwx root       root               16 ./usr/lib/libgssrpc.so.4 -> libgssrpc.so.4.2
 -rw-r--r-- root       root           190224 ./usr/lib/libk5crypto.so.3.1
-lrwxrwxrwx root       root               23 ./usr/lib/libkadm5clnt_mit.so.9 -> libkadm5clnt_mit.so.9.0
+lrwxrwxrwx root       root               18 ./usr/lib/libk5crypto.so.3 -> libk5crypto.so.3.1
 -rw-r--r-- root       root            78416 ./usr/lib/libkadm5clnt_mit.so.9.0
-lrwxrwxrwx root       root               22 ./usr/lib/libkadm5srv_mit.so.9 -> libkadm5srv_mit.so.9.0
+lrwxrwxrwx root       root               23 ./usr/lib/libkadm5clnt_mit.so.9 -> libkadm5clnt_mit.so.9.0
 -rw-r--r-- root       root           109072 ./usr/lib/libkadm5srv_mit.so.9.0
-lrwxrwxrwx root       root               14 ./usr/lib/libkdb5.so.8 -> libkdb5.so.8.0
+lrwxrwxrwx root       root               22 ./usr/lib/libkadm5srv_mit.so.9 -> libkadm5srv_mit.so.9.0
 -rw-r--r-- root       root            70720 ./usr/lib/libkdb5.so.8.0
-lrwxrwxrwx root       root               14 ./usr/lib/libkrad.so.0 -> libkrad.so.0.0
+lrwxrwxrwx root       root               14 ./usr/lib/libkdb5.so.8 -> libkdb5.so.8.0
 -rw-r--r-- root       root            38096 ./usr/lib/libkrad.so.0.0
-lrwxrwxrwx root       root               14 ./usr/lib/libkrb5.so.3 -> libkrb5.so.3.3
+lrwxrwxrwx root       root               14 ./usr/lib/libkrad.so.0 -> libkrad.so.0.0
 -rw-r--r-- root       root           846544 ./usr/lib/libkrb5.so.3.3
-lrwxrwxrwx root       root               21 ./usr/lib/libkrb5support.so.0 -> libkrb5support.so.0.1
+lrwxrwxrwx root       root               14 ./usr/lib/libkrb5.so.3 -> libkrb5.so.3.3
 -rw-r--r-- root       root            45048 ./usr/lib/libkrb5support.so.0.1
-lrwxrwxrwx root       root               15 ./usr/lib/libverto.so.0 -> libverto.so.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/libkrb5support.so.0 -> libkrb5support.so.0.1
 -rw-r--r-- root       root            53768 ./usr/lib/libverto.so.0.0
+lrwxrwxrwx root       root               15 ./usr/lib/libverto.so.0 -> libverto.so.0.0
 drwxr-xr-x root       root              280 ./usr/sbin
 -rwxr-xr-x root       root            18480 ./usr/sbin/gss-server
--rwxr-xr-x root       root            77744 ./usr/sbin/kadmin.local
 -rwxr-xr-x root       root            86240 ./usr/sbin/kadmind
+-rwxr-xr-x root       root            77744 ./usr/sbin/kadmin.local
 -rwxr-xr-x root       root            78848 ./usr/sbin/kdb5_util
 -rwxr-xr-x root       root            18120 ./usr/sbin/kprop
 -rwxr-xr-x root       root            34256 ./usr/sbin/kpropd
 -rwxr-xr-x root       root            14000 ./usr/sbin/kproplog
--rwxr-xr-x root       root              347 ./usr/sbin/krb5-send-pr
 -rwxr-xr-x root       root           128296 ./usr/sbin/krb5kdc
+-rwxr-xr-x root       root              347 ./usr/sbin/krb5-send-pr
 -rwxr-xr-x root       root             9616 ./usr/sbin/sim_server
 -rwxr-xr-x root       root             9480 ./usr/sbin/sserver
 -rwxr-xr-x root       root            10320 ./usr/sbin/uuserver

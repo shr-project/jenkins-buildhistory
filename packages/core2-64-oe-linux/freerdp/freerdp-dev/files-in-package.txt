@@ -30,7 +30,6 @@ drwxr-xr-x root       root              300 ./usr/include/freerdp/channels
 -rw-r--r-- root       root              955 ./usr/include/freerdp/channels/tsmf.h
 -rw-r--r-- root       root             2588 ./usr/include/freerdp/channels/wtsvc.h
 drwxr-xr-x root       root              320 ./usr/include/freerdp/client
--rw-r--r-- root       root             2940 ./usr/include/freerdp/client.h
 -rw-r--r-- root       root             2286 ./usr/include/freerdp/client/audin.h
 -rw-r--r-- root       root             1399 ./usr/include/freerdp/client/channels.h
 -rw-r--r-- root       root             6784 ./usr/include/freerdp/client/cliprdr.h
@@ -39,6 +38,7 @@ drwxr-xr-x root       root              320 ./usr/include/freerdp/client
 -rw-r--r-- root       root             1567 ./usr/include/freerdp/client/drdynvc.h
 -rw-r--r-- root       root             3095 ./usr/include/freerdp/client/encomsp.h
 -rw-r--r-- root       root             7012 ./usr/include/freerdp/client/file.h
+-rw-r--r-- root       root             2940 ./usr/include/freerdp/client.h
 -rw-r--r-- root       root             4179 ./usr/include/freerdp/client/rail.h
 -rw-r--r-- root       root             2006 ./usr/include/freerdp/client/rdpei.h
 -rw-r--r-- root       root             4335 ./usr/include/freerdp/client/rdpgfx.h
@@ -62,9 +62,9 @@ drwxr-xr-x root       root              400 ./usr/include/freerdp/codec
 -rw-r--r-- root       root             5853 ./usr/include/freerdp/codec/progressive.h
 -rw-r--r-- root       root             5105 ./usr/include/freerdp/codec/region.h
 -rw-r--r-- root       root             5028 ./usr/include/freerdp/codec/rfx.h
+-rw-r--r-- root       root             2051 ./usr/include/freerdp/codecs.h
 -rw-r--r-- root       root             2846 ./usr/include/freerdp/codec/xcrush.h
 -rw-r--r-- root       root             1853 ./usr/include/freerdp/codec/zgfx.h
--rw-r--r-- root       root             2051 ./usr/include/freerdp/codecs.h
 -rw-r--r-- root       root             1960 ./usr/include/freerdp/constants.h
 drwxr-xr-x root       root              180 ./usr/include/freerdp/crypto
 -rw-r--r-- root       root             3478 ./usr/include/freerdp/crypto/ber.h
@@ -189,8 +189,8 @@ drwxr-xr-x root       root             1360 ./usr/include/winpr
 -rw-r--r-- root       root            47299 ./usr/include/winpr/smartcard.h
 -rw-r--r-- root       root            31524 ./usr/include/winpr/spec.h
 -rw-r--r-- root       root             1210 ./usr/include/winpr/ssl.h
--rw-r--r-- root       root            38844 ./usr/include/winpr/sspi.h
 -rw-r--r-- root       root             4358 ./usr/include/winpr/sspicli.h
+-rw-r--r-- root       root            38844 ./usr/include/winpr/sspi.h
 -rw-r--r-- root       root             9460 ./usr/include/winpr/stream.h
 -rw-r--r-- root       root             5062 ./usr/include/winpr/string.h
 -rw-r--r-- root       root            12859 ./usr/include/winpr/synch.h

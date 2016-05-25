@@ -2,8 +2,8 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            16256 ./usr/bin/espeak
 drwxr-xr-x root       root               80 ./usr/lib
-lrwxrwxrwx root       root               19 ./usr/lib/libespeak.so.1 -> libespeak.so.1.1.37
 -rwxr-xr-x root       root           245336 ./usr/lib/libespeak.so.1.1.37
+lrwxrwxrwx root       root               19 ./usr/lib/libespeak.so.1 -> libespeak.so.1.1.37
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              900 ./usr/share/espeak-data
 -rwxr-xr-x root       root            57975 ./usr/share/espeak-data/af_dict
@@ -71,20 +71,6 @@ drwxr-xr-x root       root               40 ./usr/share/espeak-data/soundicons
 -rw-r--r-- root       root             4768 ./usr/share/espeak-data/tr_dict
 -rwxr-xr-x root       root             4265 ./usr/share/espeak-data/vi_dict
 drwxr-xr-x root       root              880 ./usr/share/espeak-data/voices
-drwxr-xr-x root       root              300 ./usr/share/espeak-data/voices/!v
--rwxr-xr-x root       root               93 ./usr/share/espeak-data/voices/!v/croak
--rwxr-xr-x root       root              321 ./usr/share/espeak-data/voices/!v/f1
--rwxr-xr-x root       root              325 ./usr/share/espeak-data/voices/!v/f2
--rw-r--r-- root       root              375 ./usr/share/espeak-data/voices/!v/f3
--rw-r--r-- root       root              350 ./usr/share/espeak-data/voices/!v/f4
--rwxr-xr-x root       root              315 ./usr/share/espeak-data/voices/!v/m1
--rw-r--r-- root       root              264 ./usr/share/espeak-data/voices/!v/m2
--rw-r--r-- root       root              285 ./usr/share/espeak-data/voices/!v/m3
--rw-r--r-- root       root              290 ./usr/share/espeak-data/voices/!v/m4
--rwxr-xr-x root       root              262 ./usr/share/espeak-data/voices/!v/m5
--rwxr-xr-x root       root              188 ./usr/share/espeak-data/voices/!v/m6
--rwxr-xr-x root       root              186 ./usr/share/espeak-data/voices/!v/whisper
--rwxr-xr-x root       root              185 ./usr/share/espeak-data/voices/!v/wisper
 -rwxr-xr-x root       root               42 ./usr/share/espeak-data/voices/af
 -rwxr-xr-x root       root              257 ./usr/share/espeak-data/voices/bs
 -rwxr-xr-x root       root               36 ./usr/share/espeak-data/voices/cs
@@ -169,7 +155,21 @@ drwxr-xr-x root       root              820 ./usr/share/espeak-data/voices/mb
 -rwxr-xr-x root       root               43 ./usr/share/espeak-data/voices/sw
 -rwxr-xr-x root       root               63 ./usr/share/espeak-data/voices/ta
 -rwxr-xr-x root       root               38 ./usr/share/espeak-data/voices/tr
+drwxr-xr-x root       root              300 ./usr/share/espeak-data/voices/!v
+-rwxr-xr-x root       root               93 ./usr/share/espeak-data/voices/!v/croak
+-rwxr-xr-x root       root              321 ./usr/share/espeak-data/voices/!v/f1
+-rwxr-xr-x root       root              325 ./usr/share/espeak-data/voices/!v/f2
+-rw-r--r-- root       root              375 ./usr/share/espeak-data/voices/!v/f3
+-rw-r--r-- root       root              350 ./usr/share/espeak-data/voices/!v/f4
 -rwxr-xr-x root       root               43 ./usr/share/espeak-data/voices/vi
+-rwxr-xr-x root       root              315 ./usr/share/espeak-data/voices/!v/m1
+-rw-r--r-- root       root              264 ./usr/share/espeak-data/voices/!v/m2
+-rw-r--r-- root       root              285 ./usr/share/espeak-data/voices/!v/m3
+-rw-r--r-- root       root              290 ./usr/share/espeak-data/voices/!v/m4
+-rwxr-xr-x root       root              262 ./usr/share/espeak-data/voices/!v/m5
+-rwxr-xr-x root       root              188 ./usr/share/espeak-data/voices/!v/m6
+-rwxr-xr-x root       root              186 ./usr/share/espeak-data/voices/!v/whisper
+-rwxr-xr-x root       root              185 ./usr/share/espeak-data/voices/!v/wisper
 -rw-r--r-- root       root              594 ./usr/share/espeak-data/voices/zh
 -rwxr-xr-x root       root              172 ./usr/share/espeak-data/voices/zhy
 -rw-r--r-- root       root            41731 ./usr/share/espeak-data/zh_dict

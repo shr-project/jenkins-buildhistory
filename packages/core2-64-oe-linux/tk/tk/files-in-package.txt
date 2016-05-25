@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
-lrwxrwxrwx root       root                7 ./usr/bin/wish -> wish8.6
 -rwxr-xr-x root       root             6976 ./usr/bin/wish8.6
+lrwxrwxrwx root       root                7 ./usr/bin/wish -> wish8.6
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              800 ./usr/lib/tk8.6
 -rw-r--r-- root       root             8259 ./usr/lib/tk8.6/bgerror.tcl
@@ -11,7 +11,6 @@ drwxr-xr-x root       root              800 ./usr/lib/tk8.6
 -rw-r--r-- root       root             8229 ./usr/lib/tk8.6/comdlg.tcl
 -rw-r--r-- root       root            32057 ./usr/lib/tk8.6/console.tcl
 drwxr-xr-x root       root             1500 ./usr/lib/tk8.6/demos
--rw-r--r-- root       root             2082 ./usr/lib/tk8.6/demos/README
 -rw-r--r-- root       root             6670 ./usr/lib/tk8.6/demos/anilabel.tcl
 -rw-r--r-- root       root             3495 ./usr/lib/tk8.6/demos/aniwave.tcl
 -rw-r--r-- root       root             7984 ./usr/lib/tk8.6/demos/arrow.tcl
@@ -56,12 +55,12 @@ drwxr-xr-x root       root              260 ./usr/lib/tk8.6/demos/images
 -rw-r--r-- root       root            10123 ./usr/lib/tk8.6/demos/items.tcl
 -rwxr-xr-x root       root             8098 ./usr/lib/tk8.6/demos/ixset
 -rw-r--r-- root       root             9148 ./usr/lib/tk8.6/demos/knightstour.tcl
--rw-r--r-- root       root             1379 ./usr/lib/tk8.6/demos/label.tcl
 -rw-r--r-- root       root             1847 ./usr/lib/tk8.6/demos/labelframe.tcl
+-rw-r--r-- root       root             1379 ./usr/lib/tk8.6/demos/label.tcl
 -rw-r--r-- root       root             2267 ./usr/lib/tk8.6/demos/license.terms
 -rw-r--r-- root       root             4357 ./usr/lib/tk8.6/demos/mclist.tcl
--rw-r--r-- root       root             6730 ./usr/lib/tk8.6/demos/menu.tcl
 -rw-r--r-- root       root             4477 ./usr/lib/tk8.6/demos/menubu.tcl
+-rw-r--r-- root       root             6730 ./usr/lib/tk8.6/demos/menu.tcl
 -rw-r--r-- root       root             2003 ./usr/lib/tk8.6/demos/msgbox.tcl
 -rw-r--r-- root       root             6753 ./usr/lib/tk8.6/demos/nl.msg
 -rw-r--r-- root       root             1110 ./usr/lib/tk8.6/demos/paned1.tcl
@@ -70,6 +69,7 @@ drwxr-xr-x root       root              260 ./usr/lib/tk8.6/demos/images
 -rw-r--r-- root       root             2758 ./usr/lib/tk8.6/demos/plot.tcl
 -rw-r--r-- root       root             2597 ./usr/lib/tk8.6/demos/puzzle.tcl
 -rw-r--r-- root       root             2752 ./usr/lib/tk8.6/demos/radio.tcl
+-rw-r--r-- root       root             2082 ./usr/lib/tk8.6/demos/README
 -rwxr-xr-x root       root             5343 ./usr/lib/tk8.6/demos/rmt
 -rwxr-xr-x root       root             8300 ./usr/lib/tk8.6/demos/rolodex
 -rw-r--r-- root       root             5211 ./usr/lib/tk8.6/demos/ruler.tcl
@@ -80,8 +80,8 @@ drwxr-xr-x root       root              260 ./usr/lib/tk8.6/demos/images
 -rw-r--r-- root       root             6938 ./usr/lib/tk8.6/demos/style.tcl
 -rw-r--r-- root       root             4354 ./usr/lib/tk8.6/demos/tclIndex
 -rwxr-xr-x root       root            11250 ./usr/lib/tk8.6/demos/tcolor
--rw-r--r-- root       root             4262 ./usr/lib/tk8.6/demos/text.tcl
 -rw-r--r-- root       root             2183 ./usr/lib/tk8.6/demos/textpeer.tcl
+-rw-r--r-- root       root             4262 ./usr/lib/tk8.6/demos/text.tcl
 -rwxr-xr-x root       root             1119 ./usr/lib/tk8.6/demos/timer
 -rw-r--r-- root       root             3264 ./usr/lib/tk8.6/demos/toolbar.tcl
 -rw-r--r-- root       root             3162 ./usr/lib/tk8.6/demos/tree.tcl
@@ -102,20 +102,20 @@ drwxr-xr-x root       root              260 ./usr/lib/tk8.6/demos/images
 -rw-r--r-- root       root            15978 ./usr/lib/tk8.6/iconlist.tcl
 -rw-r--r-- root       root            10883 ./usr/lib/tk8.6/icons.tcl
 drwxr-xr-x root       root              340 ./usr/lib/tk8.6/images
--rw-r--r-- root       root              322 ./usr/lib/tk8.6/images/README
 -rw-r--r-- root       root             8203 ./usr/lib/tk8.6/images/lamp.png
 -rw-r--r-- root       root            20354 ./usr/lib/tk8.6/images/lamp.svg
--rw-r--r-- root       root            32900 ./usr/lib/tk8.6/images/logo.eps
 -rw-r--r-- root       root             2341 ./usr/lib/tk8.6/images/logo100.gif
 -rw-r--r-- root       root             1670 ./usr/lib/tk8.6/images/logo64.gif
+-rw-r--r-- root       root            32900 ./usr/lib/tk8.6/images/logo.eps
 -rw-r--r-- root       root            11000 ./usr/lib/tk8.6/images/logoLarge.gif
 -rw-r--r-- root       root             3889 ./usr/lib/tk8.6/images/logoMed.gif
--rw-r--r-- root       root            27809 ./usr/lib/tk8.6/images/pwrdLogo.eps
 -rw-r--r-- root       root             1615 ./usr/lib/tk8.6/images/pwrdLogo100.gif
 -rw-r--r-- root       root             2489 ./usr/lib/tk8.6/images/pwrdLogo150.gif
 -rw-r--r-- root       root             2981 ./usr/lib/tk8.6/images/pwrdLogo175.gif
 -rw-r--r-- root       root             3491 ./usr/lib/tk8.6/images/pwrdLogo200.gif
 -rw-r--r-- root       root             1171 ./usr/lib/tk8.6/images/pwrdLogo75.gif
+-rw-r--r-- root       root            27809 ./usr/lib/tk8.6/images/pwrdLogo.eps
+-rw-r--r-- root       root              322 ./usr/lib/tk8.6/images/README
 -rw-r--r-- root       root             5473 ./usr/lib/tk8.6/images/tai-ku.gif
 -rw-r--r-- root       root            14377 ./usr/lib/tk8.6/listbox.tcl
 -rw-r--r-- root       root             3499 ./usr/lib/tk8.6/megawidget.tcl
@@ -127,8 +127,8 @@ drwxr-xr-x root       root              360 ./usr/lib/tk8.6/msgs
 -rw-r--r-- root       root             3909 ./usr/lib/tk8.6/msgs/da.msg
 -rw-r--r-- root       root             4823 ./usr/lib/tk8.6/msgs/de.msg
 -rw-r--r-- root       root             8698 ./usr/lib/tk8.6/msgs/el.msg
--rw-r--r-- root       root             3286 ./usr/lib/tk8.6/msgs/en.msg
 -rw-r--r-- root       root               63 ./usr/lib/tk8.6/msgs/en_gb.msg
+-rw-r--r-- root       root             3286 ./usr/lib/tk8.6/msgs/en.msg
 -rw-r--r-- root       root             3916 ./usr/lib/tk8.6/msgs/eo.msg
 -rw-r--r-- root       root             3950 ./usr/lib/tk8.6/msgs/es.msg
 -rw-r--r-- root       root             3805 ./usr/lib/tk8.6/msgs/fr.msg
@@ -151,9 +151,9 @@ drwxr-xr-x root       root              360 ./usr/lib/tk8.6/msgs
 -rw-r--r-- root       root            20270 ./usr/lib/tk8.6/tclIndex
 -rw-r--r-- root       root             5142 ./usr/lib/tk8.6/tearoff.tcl
 -rw-r--r-- root       root            31575 ./usr/lib/tk8.6/text.tcl
--rw-r--r-- root       root            23209 ./usr/lib/tk8.6/tk.tcl
 -rw-r--r-- root       root             4191 ./usr/lib/tk8.6/tkAppInit.c
 -rw-r--r-- root       root            38137 ./usr/lib/tk8.6/tkfbox.tcl
+-rw-r--r-- root       root            23209 ./usr/lib/tk8.6/tk.tcl
 drwxr-xr-x root       root              520 ./usr/lib/tk8.6/ttk
 -rw-r--r-- root       root             3342 ./usr/lib/tk8.6/ttk/altTheme.tcl
 -rw-r--r-- root       root             2001 ./usr/lib/tk8.6/ttk/aquaTheme.tcl

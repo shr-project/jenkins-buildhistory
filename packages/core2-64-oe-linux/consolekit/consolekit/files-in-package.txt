@@ -38,12 +38,12 @@ drwxr-xr-x root       root               40 ./usr/lib/ConsoleKit/run-session.d
 drwxr-xr-x root       root               80 ./usr/lib/ConsoleKit/scripts
 -rwxr-xr-x root       root              191 ./usr/lib/ConsoleKit/scripts/ck-system-restart
 -rwxr-xr-x root       root              191 ./usr/lib/ConsoleKit/scripts/ck-system-stop
-lrwxrwxrwx root       root               24 ./usr/lib/libck-connector.so.0 -> libck-connector.so.0.0.0
--rwxr-xr-x root       root            12728 ./usr/lib/libck-connector.so.0.0.0
 drwxr-xr-x root       root              100 ./usr/libexec
 -rwxr-xr-x root       root            17936 ./usr/libexec/ck-collect-session-info
 -rwxr-xr-x root       root            18592 ./usr/libexec/ck-get-x11-display-device
 -rwxr-xr-x root       root             8728 ./usr/libexec/ck-get-x11-server-pid
+-rwxr-xr-x root       root            12728 ./usr/lib/libck-connector.so.0.0.0
+lrwxrwxrwx root       root               24 ./usr/lib/libck-connector.so.0 -> libck-connector.so.0.0.0
 drwxr-xr-x root       root              120 ./usr/sbin
 -rwxr-xr-x root       root            15720 ./usr/sbin/ck-log-system-restart
 -rwxr-xr-x root       root            16120 ./usr/sbin/ck-log-system-start

@@ -8,10 +8,6 @@ drwxr-xr-x root       root              160 ./usr/bin/.debug
 -rwxr-xr-x root       root          1237136 ./usr/bin/.debug/apt-get
 -rwxr-xr-x root       root           327336 ./usr/bin/.debug/apt-sortpkgs
 drwxr-xr-x root       root               80 ./usr/lib
-drwxr-xr-x root       root              100 ./usr/lib/.debug
--rwxr-xr-x root       root           513928 ./usr/lib/.debug/libapt-inst.so.1.7.0
--rwxr-xr-x root       root         14225624 ./usr/lib/.debug/libapt-pkg.so.4.16.0
--rwxr-xr-x root       root          2891608 ./usr/lib/.debug/libapt-private.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/lib/apt
 drwxr-xr-x root       root               60 ./usr/lib/apt/methods
 drwxr-xr-x root       root              340 ./usr/lib/apt/methods/.debug
@@ -30,6 +26,10 @@ drwxr-xr-x root       root              340 ./usr/lib/apt/methods/.debug
 -rwxr-xr-x root       root           258016 ./usr/lib/apt/methods/.debug/rsh
 -rwxr-xr-x root       root           258016 ./usr/lib/apt/methods/.debug/ssh
 -rwxr-xr-x root       root           201664 ./usr/lib/apt/methods/.debug/xz
+drwxr-xr-x root       root              100 ./usr/lib/.debug
+-rwxr-xr-x root       root           513928 ./usr/lib/.debug/libapt-inst.so.1.7.0
+-rwxr-xr-x root       root         14225624 ./usr/lib/.debug/libapt-pkg.so.4.16.0
+-rwxr-xr-x root       root          2891608 ./usr/lib/.debug/libapt-private.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/apt
@@ -45,10 +45,10 @@ drwxr-xr-x root       root               60 ./usr/src/debug/apt/1.0.10.1-r0/apt-
 -rw-r--r-- root       root            17584 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-inst/extract.cc
 -rw-r--r-- root       root            18405 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-inst/filelist.cc
 drwxr-xr-x root       root              800 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-pkg
+-rw-r--r-- root       root            28550 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-pkg/acquire.cc
 -rw-r--r-- root       root            76928 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-pkg/acquire-item.cc
 -rw-r--r-- root       root            13806 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-pkg/acquire-method.cc
 -rw-r--r-- root       root            18120 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-pkg/acquire-worker.cc
--rw-r--r-- root       root            28550 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-pkg/acquire.cc
 -rw-r--r-- root       root            45453 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-pkg/algorithms.cc
 -rw-r--r-- root       root            20429 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-pkg/aptconfiguration.cc
 -rw-r--r-- root       root             7316 ./usr/src/debug/apt/1.0.10.1-r0/apt-1.0.10.1/apt-pkg/cachefile.cc
@@ -162,10 +162,10 @@ drwxr-xr-x root       root              460 ./usr/src/debug/apt/1.0.10.1-r0/apt-
 drwxr-xr-x root       root               60 ./usr/src/debug/apt/1.0.10.1-r0/build
 drwxr-xr-x root       root               80 ./usr/src/debug/apt/1.0.10.1-r0/build/include
 drwxr-xr-x root       root             1500 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg
+-rw-r--r-- root       root            25267 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/acquire.h
 -rw-r--r-- root       root            39149 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/acquire-item.h
 -rw-r--r-- root       root             2901 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/acquire-method.h
 -rw-r--r-- root       root             9775 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/acquire-worker.h
--rw-r--r-- root       root            25267 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/acquire.h
 -rw-r--r-- root       root             4462 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/algorithms.h
 -rw-r--r-- root       root             5583 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/aptconfiguration.h
 -rw-r--r-- root       root             1493 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/arfile.h
@@ -213,8 +213,8 @@ drwxr-xr-x root       root             1500 ./usr/src/debug/apt/1.0.10.1-r0/buil
 -rw-r--r-- root       root             1043 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/netrc.h
 -rw-r--r-- root       root             4794 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/orderlist.h
 -rw-r--r-- root       root             4886 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/packagemanager.h
--rw-r--r-- root       root            27599 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/pkgcache.h
 -rw-r--r-- root       root             7410 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/pkgcachegen.h
+-rw-r--r-- root       root            27599 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/pkgcache.h
 -rw-r--r-- root       root             2680 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/pkgrecords.h
 -rw-r--r-- root       root             3580 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/pkgsystem.h
 -rw-r--r-- root       root             2860 ./usr/src/debug/apt/1.0.10.1-r0/build/include/apt-pkg/policy.h

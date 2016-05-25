@@ -1,10 +1,6 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              140 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/ecore
-drwxr-xr-x root       root               60 ./usr/lib/ecore/system
-drwxr-xr-x root       root               60 ./usr/lib/ecore/system/upower
-drwxr-xr-x root       root               60 ./usr/lib/ecore/system/upower/v-1.15
--rwxr-xr-x root       root            12648 ./usr/lib/ecore/system/upower/v-1.15/module.so
 drwxr-xr-x root       root               60 ./usr/lib/ecore_evas
 drwxr-xr-x root       root              100 ./usr/lib/ecore_evas/engines
 drwxr-xr-x root       root               60 ./usr/lib/ecore_evas/engines/extn
@@ -24,8 +20,12 @@ drwxr-xr-x root       root               60 ./usr/lib/ecore_imf/modules/wayland/
 drwxr-xr-x root       root               60 ./usr/lib/ecore_imf/modules/xim
 drwxr-xr-x root       root               60 ./usr/lib/ecore_imf/modules/xim/v-1.15
 -rwxr-xr-x root       root            26176 ./usr/lib/ecore_imf/modules/xim/v-1.15/module.so
-lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.15.1
+drwxr-xr-x root       root               60 ./usr/lib/ecore/system
+drwxr-xr-x root       root               60 ./usr/lib/ecore/system/upower
+drwxr-xr-x root       root               60 ./usr/lib/ecore/system/upower/v-1.15
+-rwxr-xr-x root       root            12648 ./usr/lib/ecore/system/upower/v-1.15/module.so
 -rwxr-xr-x root       root           178152 ./usr/lib/libecore.so.1.15.1
+lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.15.1
 drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/ecore
 -rw-r--r-- root       root               75 ./usr/share/ecore/checkme

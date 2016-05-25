@@ -4,10 +4,10 @@ drwxr-xr-x root       root               60 ./usr/lib/cornucopia
 drwxr-xr-x root       root               60 ./usr/lib/cornucopia/modules
 drwxr-xr-x root       root               60 ./usr/lib/cornucopia/modules/fsodevice
 drwxr-xr-x root       root              640 ./usr/lib/cornucopia/modules/fsodevice/.debug
--rwxr-xr-x root       root            75040 ./usr/lib/cornucopia/modules/fsodevice/.debug/accelerometer.so
 -rwxr-xr-x root       root            36336 ./usr/lib/cornucopia/modules/fsodevice/.debug/accelerometer_bma180.so
 -rwxr-xr-x root       root            41712 ./usr/lib/cornucopia/modules/fsodevice/.debug/accelerometer_kxsd9.so
 -rwxr-xr-x root       root            41576 ./usr/lib/cornucopia/modules/fsodevice/.debug/accelerometer_lis302.so
+-rwxr-xr-x root       root            75040 ./usr/lib/cornucopia/modules/fsodevice/.debug/accelerometer.so
 -rwxr-xr-x root       root           104576 ./usr/lib/cornucopia/modules/fsodevice/.debug/audio.so
 -rwxr-xr-x root       root            77480 ./usr/lib/cornucopia/modules/fsodevice/.debug/backlight_omappanel.so
 -rwxr-xr-x root       root            31968 ./usr/lib/cornucopia/modules/fsodevice/.debug/dummy_input.so
@@ -24,7 +24,7 @@ drwxr-xr-x root       root              640 ./usr/lib/cornucopia/modules/fsodevi
 -rwxr-xr-x root       root           154224 ./usr/lib/cornucopia/modules/fsodevice/.debug/kernel_idle.so
 -rwxr-xr-x root       root            35128 ./usr/lib/cornucopia/modules/fsodevice/.debug/kernel_info.so
 -rwxr-xr-x root       root           149856 ./usr/lib/cornucopia/modules/fsodevice/.debug/kernel_input.so
--rwxr-xr-x root       root           285296 ./usr/lib/cornucopia/modules/fsodevice/.debug/libfsodevice.so
+-rwxr-xr-x root       root           285168 ./usr/lib/cornucopia/modules/fsodevice/.debug/libfsodevice.so
 -rwxr-xr-x root       root           171120 ./usr/lib/cornucopia/modules/fsodevice/.debug/n900_quirks.so
 -rwxr-xr-x root       root            47568 ./usr/lib/cornucopia/modules/fsodevice/.debug/openmoko_powercontrol.so
 -rwxr-xr-x root       root            47424 ./usr/lib/cornucopia/modules/fsodevice/.debug/player_alsa.so
@@ -58,13 +58,13 @@ drwxr-xr-x root       root              200 ./usr/src/debug/fsodeviced/2_0.12.0-
 -rw-r--r-- root       root            21341 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/lib/resource.c
 drwxr-xr-x root       root              620 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins
 drwxr-xr-x root       root               60 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/accelerometer
--rw-r--r-- root       root            49600 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/accelerometer/plugin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/accelerometer_bma180
 -rw-r--r-- root       root            15437 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/accelerometer_bma180/plugin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/accelerometer_kxsd9
 -rw-r--r-- root       root            20464 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/accelerometer_kxsd9/plugin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/accelerometer_lis302
 -rw-r--r-- root       root            20038 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/accelerometer_lis302/plugin.c
+-rw-r--r-- root       root            49600 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/accelerometer/plugin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/audio
 -rw-r--r-- root       root            89076 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/audio/plugin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fsodeviced/2_0.12.0-r6.1/fsodeviced-0.12.0/src/plugins/backlight_omappanel

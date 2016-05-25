@@ -23,9 +23,9 @@ drwxr-xr-x root       root              520 ./usr/lib/cornucopia/modules/fsogsm/
 -rwxr-xr-x root       root            29760 ./usr/lib/cornucopia/modules/fsogsm/.debug/modem_singleline.so
 -rwxr-xr-x root       root           268184 ./usr/lib/cornucopia/modules/fsogsm/.debug/modem_ti_calypso.so
 -rwxr-xr-x root       root            47920 ./usr/lib/cornucopia/modules/fsogsm/.debug/pdp_nokia_isi.so
--rwxr-xr-x root       root            18912 ./usr/lib/cornucopia/modules/fsogsm/.debug/pdp_ppp.so
 -rwxr-xr-x root       root            69824 ./usr/lib/cornucopia/modules/fsogsm/.debug/pdp_ppp_internal.so
 -rwxr-xr-x root       root            37432 ./usr/lib/cornucopia/modules/fsogsm/.debug/pdp_ppp_mux.so
+-rwxr-xr-x root       root            18912 ./usr/lib/cornucopia/modules/fsogsm/.debug/pdp_ppp.so
 -rwxr-xr-x root       root            58320 ./usr/lib/cornucopia/modules/fsogsm/.debug/pdp_qmi.so
 -rwxr-xr-x root       root            38464 ./usr/lib/cornucopia/modules/fsogsm/.debug/ppp2fsogsmd.so
 drwxr-xr-x root       root               60 ./usr/sbin
@@ -53,10 +53,10 @@ drwxr-xr-x root       root              440 ./usr/src/debug/fsogsmd/2_0.12.99+gi
 -rw-r--r-- root       root             2703 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/gatppp.h
 -rw-r--r-- root       root             3583 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/gatutil.c
 -rw-r--r-- root       root             1242 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/gatutil.h
--rw-r--r-- root       root             3637 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/ppp.h
 -rw-r--r-- root       root             3547 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/ppp_auth.c
 -rw-r--r-- root       root            25005 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/ppp_cp.c
 -rw-r--r-- root       root             4025 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/ppp_cp.h
+-rw-r--r-- root       root             3637 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/ppp.h
 -rw-r--r-- root       root            12383 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/ppp_ipcp.c
 -rw-r--r-- root       root             7554 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/ppp_lcp.c
 -rw-r--r-- root       root             4277 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/3rdparty/ppp/ppp_net.c
@@ -220,11 +220,11 @@ drwxr-xr-x root       root              120 ./usr/src/debug/fsogsmd/2_0.12.99+gi
 drwxr-xr-x root       root               60 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_nokia_isi
 -rw-r--r-- root       root            23324 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_nokia_isi/plugin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_ppp
--rw-r--r-- root       root             4294 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_ppp/plugin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_ppp_internal
 -rw-r--r-- root       root            49144 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_ppp_internal/plugin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_ppp_mux
 -rw-r--r-- root       root            15620 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_ppp_mux/plugin.c
+-rw-r--r-- root       root             4294 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_ppp/plugin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_qmi
 -rw-r--r-- root       root            29966 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/plugins/pdp_qmi/plugin.c
 drwxr-xr-x root       root               80 ./usr/src/debug/fsogsmd/2_0.12.99+gitrAUTOINC+07c6fdede0-r6.0/git/fsogsmd/src/ppp

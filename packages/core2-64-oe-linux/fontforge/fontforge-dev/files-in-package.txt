@@ -1,9 +1,8 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root             1400 ./usr/include/fontforge
--rw-r--r-- root       root            10001 ./usr/include/fontforge/PfEd.h
--rw-r--r-- root       root             2093 ./usr/include/fontforge/autowidth.h
 -rw-r--r-- root       root             3594 ./usr/include/fontforge/autowidth2.h
+-rw-r--r-- root       root             2093 ./usr/include/fontforge/autowidth.h
 -rw-r--r-- root       root            26938 ./usr/include/fontforge/baseviews.h
 -rw-r--r-- root       root             3909 ./usr/include/fontforge/basics.h
 -rw-r--r-- root       root              160 ./usr/include/fontforge/bezctx_ff.h
@@ -16,8 +15,8 @@ drwxr-xr-x root       root             1400 ./usr/include/fontforge
 -rw-r--r-- root       root             3001 ./usr/include/fontforge/delta.h
 -rw-r--r-- root       root             5956 ./usr/include/fontforge/dlist.h
 -rw-r--r-- root       root             2192 ./usr/include/fontforge/dynamic.h
--rw-r--r-- root       root             5634 ./usr/include/fontforge/edgelist.h
 -rw-r--r-- root       root             3150 ./usr/include/fontforge/edgelist2.h
+-rw-r--r-- root       root             5634 ./usr/include/fontforge/edgelist.h
 -rw-r--r-- root       root              519 ./usr/include/fontforge/encoding.h
 -rw-r--r-- root       root             2644 ./usr/include/fontforge/fffreetype.h
 -rw-r--r-- root       root              979 ./usr/include/fontforge/ffglib.h
@@ -50,6 +49,7 @@ drwxr-xr-x root       root             1400 ./usr/include/fontforge
 -rw-r--r-- root       root             2029 ./usr/include/fontforge/namehash.h
 -rw-r--r-- root       root             2903 ./usr/include/fontforge/nonlineartrans.h
 -rw-r--r-- root       root              134 ./usr/include/fontforge/ofl.h
+-rw-r--r-- root       root            10001 ./usr/include/fontforge/PfEd.h
 -rw-r--r-- root       root             4813 ./usr/include/fontforge/plugins.h
 -rw-r--r-- root       root             4182 ./usr/include/fontforge/print.h
 -rw-r--r-- root       root             7808 ./usr/include/fontforge/psfont.h
@@ -70,10 +70,10 @@ drwxr-xr-x root       root             1400 ./usr/include/fontforge
 -rw-r--r-- root       root             9794 ./usr/include/fontforge/ustring.h
 -rw-r--r-- root       root             5085 ./usr/include/fontforge/utype.h
 drwxr-xr-x root       root              300 ./usr/lib
--rwxr-xr-x root       root             2543 ./usr/lib/libfontforge.la
-lrwxrwxrwx root       root               21 ./usr/lib/libfontforge.so -> libfontforge.so.2.0.0
 -rwxr-xr-x root       root             2628 ./usr/lib/libfontforgeexe.la
 lrwxrwxrwx root       root               24 ./usr/lib/libfontforgeexe.so -> libfontforgeexe.so.2.0.0
+-rwxr-xr-x root       root             2543 ./usr/lib/libfontforge.la
+lrwxrwxrwx root       root               21 ./usr/lib/libfontforge.so -> libfontforge.so.2.0.0
 -rwxr-xr-x root       root             2564 ./usr/lib/libgdraw.la
 lrwxrwxrwx root       root               17 ./usr/lib/libgdraw.so -> libgdraw.so.5.0.0
 -rwxr-xr-x root       root             2479 ./usr/lib/libgioftp.la
@@ -83,5 +83,5 @@ lrwxrwxrwx root       root               20 ./usr/lib/libgunicode.so -> libgunic
 -rwxr-xr-x root       root             2479 ./usr/lib/libgutils.la
 lrwxrwxrwx root       root               18 ./usr/lib/libgutils.so -> libgutils.so.2.0.0
 drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
--rw-r--r-- root       root              498 ./usr/lib/pkgconfig/libfontforge.pc
 -rw-r--r-- root       root              553 ./usr/lib/pkgconfig/libfontforgeexe.pc
+-rw-r--r-- root       root              498 ./usr/lib/pkgconfig/libfontforge.pc

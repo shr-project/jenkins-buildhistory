@@ -7,8 +7,6 @@ drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
 -rwxr-xr-x root       root           487216 ./usr/lib/.debug/libgdk_pixbuf-2.0.so.0.3400.0
 drwxr-xr-x root       root               80 ./usr/lib/gdk-pixbuf-2.0
-drwxr-xr-x root       root               60 ./usr/lib/gdk-pixbuf-2.0/.debug
--rwxr-xr-x root       root            26288 ./usr/lib/gdk-pixbuf-2.0/.debug/gdk-pixbuf-query-loaders
 drwxr-xr-x root       root               60 ./usr/lib/gdk-pixbuf-2.0/2.10.0
 drwxr-xr-x root       root               60 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
 drwxr-xr-x root       root              280 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/.debug
@@ -24,6 +22,8 @@ drwxr-xr-x root       root              280 ./usr/lib/gdk-pixbuf-2.0/2.10.0/load
 -rwxr-xr-x root       root            46224 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/.debug/libpixbufloader-tga.so
 -rwxr-xr-x root       root            28392 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/.debug/libpixbufloader-xbm.so
 -rwxr-xr-x root       root            36576 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/.debug/libpixbufloader-xpm.so
+drwxr-xr-x root       root               60 ./usr/lib/gdk-pixbuf-2.0/.debug
+-rwxr-xr-x root       root            26288 ./usr/lib/gdk-pixbuf-2.0/.debug/gdk-pixbuf-query-loaders
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/gdk-pixbuf
@@ -32,8 +32,9 @@ drwxr-xr-x root       root               60 ./usr/src/debug/gdk-pixbuf/2.34.0-r0
 drwxr-xr-x root       root              960 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf
 -rw-r--r-- root       root            34698 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-animation.c
 -rw-r--r-- root       root             8955 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-animation.h
--rw-r--r-- root       root             2567 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-buffer-queue-private.h
 -rw-r--r-- root       root             9460 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-buffer-queue.c
+-rw-r--r-- root       root             2567 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-buffer-queue-private.h
+-rw-r--r-- root       root            35826 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf.c
 -rw-r--r-- root       root            17609 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-core.h
 -rw-r--r-- root       root             7763 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-csource.c
 -rw-r--r-- root       root             4823 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-data.c
@@ -53,7 +54,6 @@ drwxr-xr-x root       root              960 ./usr/src/debug/gdk-pixbuf/2.34.0-r0
 -rw-r--r-- root       root             3018 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h
 -rw-r--r-- root       root             5918 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-transform.h
 -rw-r--r-- root       root            14183 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf-util.c
--rw-r--r-- root       root            35826 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixbuf.c
 -rw-r--r-- root       root            31173 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixdata.c
 -rw-r--r-- root       root             6680 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/gdk-pixdata.h
 -rw-r--r-- root       root             9043 ./usr/src/debug/gdk-pixbuf/2.34.0-r0/gdk-pixbuf-2.34.0/gdk-pixbuf/io-ani-animation.c
