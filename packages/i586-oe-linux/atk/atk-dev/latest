@@ -1,9 +1,9 @@
 PV = 2.18.0
 PR = r0
-PKGR = r0.18
+PKGR = r0.20
 PKG = libatk-1.0-dev
 RPROVIDES = atk-dev (=2.18.0)
-RDEPENDS = atk (= 2.18.0-r0.18)
+RDEPENDS = atk (= 2.18.0-r0.20)
 RRECOMMENDS = glib-2.0-dev glibc-dev gobject-introspection-dev libffi-dev libpcre-dev
 PKGSIZE = 964795
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/atk/*.la /lib/*.la /usr/share/gir-*/*.gir

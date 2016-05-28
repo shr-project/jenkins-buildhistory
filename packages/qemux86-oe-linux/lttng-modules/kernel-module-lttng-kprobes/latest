@@ -1,10 +1,10 @@
 PV = 2.7.3+gitAUTOINC+5362a1f260
 PR = r0
 PKGV = 2.7.3+git0+5362a1f260
-PKGR = r0.0
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = kernel-4.4.10-yocto-standard
+RDEPENDS = kernel-4.4.11-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 4376
-FILES = /lib/modules/4.4.10-yocto-standard/kernel/lttng-modules/probes/lttng-kprobes.ko /etc/modules-load.d/lttng-kprobes.conf /etc/modprobe.d/lttng-kprobes.conf
-FILELIST = /lib/modules/4.4.10-yocto-standard/kernel/lttng-modules/probes/lttng-kprobes.ko
+FILES = /lib/modules/4.4.11-yocto-standard/kernel/lttng-modules/probes/lttng-kprobes.ko /etc/modules-load.d/lttng-kprobes.conf /etc/modprobe.d/lttng-kprobes.conf
+FILELIST = /lib/modules/4.4.11-yocto-standard/kernel/lttng-modules/probes/lttng-kprobes.ko

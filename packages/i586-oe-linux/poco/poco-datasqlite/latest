@@ -1,9 +1,9 @@
 PV = 1.7.1
 PR = r0
-PKGR = r0.15
+PKGR = r0.17
 PKG = libpocodatasqlite41
 RPROVIDES = poco-datasqlite (=1.7.1)
-RDEPENDS = glibc (>= 2.24) libgcc (>= 5.3.0) libsqlite3 (>= 3.12.2) libstdc++ (>= 5.3.0) poco-data (>= 1.7.1) poco-foundation (>= 1.7.1)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 5.3.0) libsqlite3 (>= 3.13.0) libstdc++ (>= 5.3.0) poco-data (>= 1.7.1) poco-foundation (>= 1.7.1)
 RRECOMMENDS = 
 PKGSIZE = 381020
 FILES = /usr/lib/libPocoDataSQLite.so.*
