@@ -1,10 +1,10 @@
-PV = 4.4.10+gitAUTOINC+d6ee402d46_1d343b327d
+PV = 4.4.11+gitAUTOINC+6ec93aaa70_97c21d0b5f
 PR = r0
-PKGV = 4.4.10+git1+d6ee402d46_1d343b327d
-PKGR = r0.15
+PKGV = 4.4.11+git0+6ec93aaa70_97c21d0b5f
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.10-yocto-standard
+RDEPENDS = kernel-4.4.11-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 47660
-FILES = /lib/modules/4.4.10-yocto-standard/kernel/net/key/af_key.ko /etc/modules-load.d/af_key.conf /etc/modprobe.d/af_key.conf
-FILELIST = /lib/modules/4.4.10-yocto-standard/kernel/net/key/af_key.ko
+FILES = /lib/modules/4.4.11-yocto-standard/kernel/net/key/af_key.ko /etc/modules-load.d/af_key.conf /etc/modprobe.d/af_key.conf
+FILELIST = /lib/modules/4.4.11-yocto-standard/kernel/net/key/af_key.ko

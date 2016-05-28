@@ -1,10 +1,10 @@
-PV = 4.4.10+gitAUTOINC+d6ee402d46_1d343b327d
+PV = 4.4.11+gitAUTOINC+6ec93aaa70_97c21d0b5f
 PR = r0
-PKGV = 4.4.10+git1+d6ee402d46_1d343b327d
-PKGR = r0.15
+PKGV = 4.4.11+git0+6ec93aaa70_97c21d0b5f
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.10-yocto-standard kernel-module-slhc
+RDEPENDS = kernel-4.4.11-yocto-standard kernel-module-slhc
 RRECOMMENDS = 
 PKGSIZE = 37696
-FILES = /lib/modules/4.4.10-yocto-standard/kernel/drivers/net/ppp/ppp_generic.ko /etc/modules-load.d/ppp_generic.conf /etc/modprobe.d/ppp_generic.conf
-FILELIST = /lib/modules/4.4.10-yocto-standard/kernel/drivers/net/ppp/ppp_generic.ko
+FILES = /lib/modules/4.4.11-yocto-standard/kernel/drivers/net/ppp/ppp_generic.ko /etc/modules-load.d/ppp_generic.conf /etc/modprobe.d/ppp_generic.conf
+FILELIST = /lib/modules/4.4.11-yocto-standard/kernel/drivers/net/ppp/ppp_generic.ko

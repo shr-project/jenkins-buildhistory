@@ -1,9 +1,9 @@
 PV = 1.3.3
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 PKG = libfltk1.3
 RPROVIDES = fltk (=1.3.3)
-RDEPENDS = fontconfig (>= 2.11.94) glibc (>= 2.24) libgcc (>= 5.3.0) libgl-mesa (>= 11.2.2) libjpeg-turbo (>= 8d+1.4.2) libpng (>= 1.6.21) libstdc++ (>= 5.3.0) libx11 (>= 1.6.3) libxext (>= 1.3.3) libxft (>= 2.3.2)
+RDEPENDS = fontconfig (>= 2.11.95) glibc (>= 2.24) libgcc (>= 5.3.0) libgl-mesa (>= 11.2.2) libjpeg-turbo (>= 8d+1.4.2) libpng (>= 1.6.21) libstdc++ (>= 5.3.0) libx11 (>= 1.6.3) libxext (>= 1.3.3) libxft (>= 2.3.2)
 RRECOMMENDS = 
 PKGSIZE = 754124
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/fltk /usr/lib/fltk/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
