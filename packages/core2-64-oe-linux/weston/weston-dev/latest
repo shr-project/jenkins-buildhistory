@@ -1,8 +1,8 @@
 PV = 1.10.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = weston (= 1.10.0-r0.1)
+RDEPENDS = weston (= 1.10.0-r0.2)
 RRECOMMENDS = base-files-dev base-passwd-dev cairo-dev dbus-dev dbus-lib-dev drm-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev jpeg-dev libcap-dev libdrm-dev libdrm-intel-dev libegl-mesa-dev libevdev-dev libffi-dev libgbm-dev libglapi-dev libgles2-mesa-dev libinput-dev libjpeg-turbo-dev liblzma-dev libpng-dev libsystemd-dev libudev-dev libwayland-egl-dev libx11-dev libx11-xcb-dev libxau-dev libxcb-composite-dev libxcb-dev libxcb-dri2-dev libxcb-render-dev libxcb-shape-dev libxcb-shm-dev libxcb-xfixes-dev libxcb-xkb-dev libxcursor-dev libxdmcp-dev libxext-dev libxfixes-dev libxkbcommon-dev libxrender-dev mtdev-dev pango-dev pixman-dev shadow-dev shadow-sysroot-dev systemd-dev udev-dev wayland-dev wayland-protocols wayland-protocols-dev xkeyboard-config-dev xserver-xorg-xwayland-dev zlib-dev
 PKGSIZE = 88925
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/weston/*.la /lib/*.la
