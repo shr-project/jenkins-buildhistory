@@ -1,9 +1,9 @@
 PV = 6.4
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libwbclient (>= 4.4.2)
+RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = kernel-module-cifs
-PKGSIZE = 79400
+PKGSIZE = 35824
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/cifs-utils /usr/lib/cifs-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/security
-FILELIST = /sbin/mount.cifs /usr/bin/getcifsacl /usr/bin/setcifsacl /usr/lib/cifs-utils/idmapwb.so
+FILELIST = /sbin/mount.cifs
