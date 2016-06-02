@@ -1,10 +1,10 @@
 PV = 1.2
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libnpth-dbg
 RPROVIDES = npth-dbg (=1.2)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 66937
+PKGSIZE = 80305
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/lib/.debug/libnpth.so.0.0.5 /usr/src/debug/npth/1.2-r0/npth-1.2/src/npth-sigev.c /usr/src/debug/npth/1.2-r0/npth-1.2/src/npth.c /usr/src/debug/npth/1.2-r0/npth-1.2/src/npth.h

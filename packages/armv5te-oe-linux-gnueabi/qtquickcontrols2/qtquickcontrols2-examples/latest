@@ -1,10 +1,10 @@
 PV = 5.6.99+5.7.0-beta+gitAUTOINC+2a5c64a1dd
 PR = r0
 PKGV = 5.6.99+5.7.0-beta+git0+2a5c64a1dd
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtdeclarative (>= 5.6.99+5.7.0-beta+git0+31ef2e858c) qtquickcontrols2 (>= 5.6.99+5.7.0-beta+git0+2a5c64a1dd)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtdeclarative (>= 5.6.99+5.7.0-beta+git0+31ef2e858c) qtquickcontrols2 (>= 5.6.99+5.7.0-beta+git0+2a5c64a1dd)
 RRECOMMENDS = 
-PKGSIZE = 1084252
+PKGSIZE = 1084816
 FILES = /usr/share/qt5/examples/*
 FILELIST = /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter1-settingup/chapter1-settingup /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter2-lists/chapter2-lists /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter3-navigation/chapter3-navigation /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter4-models/chapter4-models /usr/share/qt5/examples/quickcontrols2/chattutorial/chapter5-styling/chapter5-styling /usr/share/qt5/examples/quickcontrols2/gallery/gallery

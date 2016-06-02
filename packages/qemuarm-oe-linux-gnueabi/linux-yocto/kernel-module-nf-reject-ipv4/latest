@@ -1,10 +1,10 @@
-PV = 4.4.11+gitAUTOINC+6ec93aaa70_97c21d0b5f
+PV = 4.4.11+gitAUTOINC+3a5f494784_b74c752358
 PR = r0
-PKGV = 4.4.11+git0+6ec93aaa70_97c21d0b5f
+PKGV = 4.4.11+git1+3a5f494784_b74c752358
 PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = kernel-4.4.11-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 5476
+PKGSIZE = 5448
 FILES = /lib/modules/4.4.11-yocto-standard/kernel/net/ipv4/netfilter/nf_reject_ipv4.ko /etc/modules-load.d/nf_reject_ipv4.conf /etc/modprobe.d/nf_reject_ipv4.conf
 FILELIST = /lib/modules/4.4.11-yocto-standard/kernel/net/ipv4/netfilter/nf_reject_ipv4.ko

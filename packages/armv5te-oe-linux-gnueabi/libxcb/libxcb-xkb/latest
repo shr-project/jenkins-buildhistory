@@ -1,10 +1,10 @@
-PV = 1.11.1
+PV = 1.12
 PR = r0
-PKGR = r0.13
+PKGR = r0.0
 PKG = libxcb-xkb1
-RPROVIDES = libxcb-xkb (=1.11.1)
-RDEPENDS = glibc (>= 2.24) libxau (>= 1.0.8) libxcb (>= 1.11.1) libxdmcp (>= 1.1.2)
+RPROVIDES = libxcb-xkb (=1.12)
+RDEPENDS = glibc (>= 2.24) libxau (>= 1.0.8) libxcb (>= 1.12) libxdmcp (>= 1.1.2)
 RRECOMMENDS = 
-PKGSIZE = 64299
+PKGSIZE = 66275
 FILES = /usr/lib/libxcb-xkb.so.1 /usr/lib/libxcb-xkb.so.1.0.0
 FILELIST = /usr/lib/libxcb-xkb.so.1 /usr/lib/libxcb-xkb.so.1.0.0

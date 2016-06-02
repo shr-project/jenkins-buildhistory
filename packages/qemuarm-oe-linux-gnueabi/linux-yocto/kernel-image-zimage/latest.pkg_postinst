@@ -1,0 +1,2 @@
+#!/bin/sh
+update-alternatives --install /boot/zImage zImage /boot/zImage-4.4.11-yocto-standard 40411 || true

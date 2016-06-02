@@ -1,8 +1,8 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               80 ./usr/bin/.debug
--rwxr-xr-x root       root         20599836 ./usr/bin/.debug/gdb
--rwxr-xr-x root       root           964264 ./usr/bin/.debug/gdbserver
+-rwxr-xr-x root       root         28781896 ./usr/bin/.debug/gdb
+-rwxr-xr-x root       root          1112732 ./usr/bin/.debug/gdbserver
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/gdb
@@ -15,7 +15,9 @@ drwxr-xr-x root       root              400 ./usr/src/debug/gdb/7.11-r0/build-ar
 -rw-r--r-- root       root           115266 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/ada-exp.c
 -rw-r--r-- root       root            85241 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/ada-lex.c
 drwxr-xr-x root       root               60 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/build-gnulib
-drwxr-xr-x root       root               60 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/build-gnulib/import
+drwxr-xr-x root       root              100 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/build-gnulib/import
+-rw-r--r-- root       root            60469 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/build-gnulib/import/stdio.h
+-rw-r--r-- root       root            45904 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/build-gnulib/import/stdlib.h
 -rw-r--r-- root       root            52750 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/build-gnulib/import/string.h
 -rw-r--r-- root       root           194022 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/c-exp.c
 -rw-r--r-- root       root           149687 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/cp-name-parser.c
@@ -27,7 +29,8 @@ drwxr-xr-x root       root              200 ./usr/src/debug/gdb/7.11-r0/build-ar
 -rw-r--r-- root       root             2617 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/gdbserver/arm-with-vfpv2.c
 -rw-r--r-- root       root             2985 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/gdbserver/arm-with-vfpv3.c
 drwxr-xr-x root       root               60 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/gdbserver/build-gnulib-gdbserver
-drwxr-xr-x root       root               60 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/gdbserver/build-gnulib-gdbserver/import
+drwxr-xr-x root       root               80 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/gdbserver/build-gnulib-gdbserver/import
+-rw-r--r-- root       root            60469 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/gdbserver/build-gnulib-gdbserver/import/stdio.h
 -rw-r--r-- root       root            52750 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/gdbserver/build-gnulib-gdbserver/import/string.h
 -rw-r--r-- root       root             2160 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/gdbserver/reg-arm.c
 -rw-r--r-- root       root              167 ./usr/src/debug/gdb/7.11-r0/build-arm-oe-linux-gnueabi/gdb/gdbserver/version.c
@@ -97,7 +100,7 @@ drwxr-xr-x root       root             1100 ./usr/src/debug/gdb/7.11-r0/git/bfd
 -rw-r--r-- root       root            58757 ./usr/src/debug/gdb/7.11-r0/git/bfd/targets.c
 -rw-r--r-- root       root            27385 ./usr/src/debug/gdb/7.11-r0/git/bfd/tekhex.c
 -rw-r--r-- root       root            10853 ./usr/src/debug/gdb/7.11-r0/git/bfd/verilog.c
-drwxr-xr-x root       root             8000 ./usr/src/debug/gdb/7.11-r0/git/gdb
+drwxr-xr-x root       root             8020 ./usr/src/debug/gdb/7.11-r0/git/gdb
 -rw-r--r-- root       root             3157 ./usr/src/debug/gdb/7.11-r0/git/gdb/aarch32-linux-nat.c
 -rw-r--r-- root       root             1387 ./usr/src/debug/gdb/7.11-r0/git/gdb/aarch32-linux-nat.h
 -rw-r--r-- root       root            44911 ./usr/src/debug/gdb/7.11-r0/git/gdb/ada-exp.y
@@ -638,6 +641,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/gdb/7.11-r0/git/gdb/
 -rw-r--r-- root       root           102258 ./usr/src/debug/gdb/7.11-r0/git/gdb/solib-svr4.c
 -rw-r--r-- root       root             2899 ./usr/src/debug/gdb/7.11-r0/git/gdb/solib-svr4.h
 -rw-r--r-- root       root            15071 ./usr/src/debug/gdb/7.11-r0/git/gdb/solib-target.c
+-rw-r--r-- root       root              938 ./usr/src/debug/gdb/7.11-r0/git/gdb/solib-target.h
 -rw-r--r-- root       root             8119 ./usr/src/debug/gdb/7.11-r0/git/gdb/solist.h
 -rw-r--r-- root       root            59187 ./usr/src/debug/gdb/7.11-r0/git/gdb/source.c
 -rw-r--r-- root       root             4516 ./usr/src/debug/gdb/7.11-r0/git/gdb/source.h
@@ -713,7 +717,7 @@ drwxr-xr-x root       root              120 ./usr/src/debug/gdb/7.11-r0/git/gdb/
 -rw-r--r-- root       root             2037 ./usr/src/debug/gdb/7.11-r0/git/gdb/xml-syscall.h
 -rw-r--r-- root       root            19804 ./usr/src/debug/gdb/7.11-r0/git/gdb/xml-tdesc.c
 -rw-r--r-- root       root             1209 ./usr/src/debug/gdb/7.11-r0/git/gdb/xml-tdesc.h
-drwxr-xr-x root       root              600 ./usr/src/debug/gdb/7.11-r0/git/include
+drwxr-xr-x root       root              620 ./usr/src/debug/gdb/7.11-r0/git/include
 drwxr-xr-x root       root              100 ./usr/src/debug/gdb/7.11-r0/git/include/aout
 -rw-r--r-- root       root            19804 ./usr/src/debug/gdb/7.11-r0/git/include/aout/aout64.h
 -rw-r--r-- root       root             2204 ./usr/src/debug/gdb/7.11-r0/git/include/aout/ar.h
@@ -733,6 +737,7 @@ drwxr-xr-x root       root              120 ./usr/src/debug/gdb/7.11-r0/git/incl
 -rw-r--r-- root       root            10424 ./usr/src/debug/gdb/7.11-r0/git/include/elf/dwarf.h
 -rw-r--r-- root       root            11436 ./usr/src/debug/gdb/7.11-r0/git/include/elf/external.h
 -rw-r--r-- root       root            15264 ./usr/src/debug/gdb/7.11-r0/git/include/elf/internal.h
+-rw-r--r-- root       root             1355 ./usr/src/debug/gdb/7.11-r0/git/include/environ.h
 -rw-r--r-- root       root             3515 ./usr/src/debug/gdb/7.11-r0/git/include/filenames.h
 -rw-r--r-- root       root             5890 ./usr/src/debug/gdb/7.11-r0/git/include/floatformat.h
 -rw-r--r-- root       root             2422 ./usr/src/debug/gdb/7.11-r0/git/include/fnmatch.h
@@ -810,8 +815,9 @@ drwxr-xr-x root       root              120 ./usr/src/debug/gdb/7.11-r0/git/opco
 -rw-r--r-- root       root            13866 ./usr/src/debug/gdb/7.11-r0/git/opcodes/disassemble.c
 -rw-r--r-- root       root             3142 ./usr/src/debug/gdb/7.11-r0/git/opcodes/dis-buf.c
 -rw-r--r-- root       root             1601 ./usr/src/debug/gdb/7.11-r0/git/opcodes/dis-init.c
-drwxr-xr-x root       root              120 ./usr/src/debug/gdb/7.11-r0/git/readline
+drwxr-xr-x root       root              140 ./usr/src/debug/gdb/7.11-r0/git/readline
 -rw-r--r-- root       root            10078 ./usr/src/debug/gdb/7.11-r0/git/readline/history.h
+-rw-r--r-- root       root             3163 ./usr/src/debug/gdb/7.11-r0/git/readline/keymaps.h
 -rw-r--r-- root       root            36517 ./usr/src/debug/gdb/7.11-r0/git/readline/readline.h
 -rw-r--r-- root       root             2845 ./usr/src/debug/gdb/7.11-r0/git/readline/rltypedefs.h
 -rw-r--r-- root       root             3046 ./usr/src/debug/gdb/7.11-r0/git/readline/tilde.h

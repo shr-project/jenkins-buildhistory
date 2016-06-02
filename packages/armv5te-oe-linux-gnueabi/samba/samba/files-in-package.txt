@@ -81,7 +81,7 @@ lrwxrwxrwx root       root               14 ./usr/bin/ctdb_run_cluster_tests -> 
 -rwxr-xr-x root       root            13984 ./usr/bin/smbspool
 -rwxr-xr-x root       root            63140 ./usr/bin/smbstatus
 -rwxr-xr-x root       root             4896 ./usr/bin/smbtar
--rwxr-xr-x root       root          5451376 ./usr/bin/smbtorture
+-rwxr-xr-x root       root          5443120 ./usr/bin/smbtorture
 -rwxr-xr-x root       root            13984 ./usr/bin/smbtree
 -rwxr-xr-x root       root            22176 ./usr/bin/testparm
 drwxr-xr-x root       root              300 ./usr/lib
@@ -122,11 +122,11 @@ drwxr-xr-x root       root              180 ./usr/lib/samba/idmap
 drwxr-xr-x root       root               80 ./usr/lib/samba/ldb
 -rwxr-xr-x root       root            13904 ./usr/lib/samba/ldb/ildap.so
 -rwxr-xr-x root       root            14936 ./usr/lib/samba/ldb/ldbsamba_extensions.so
--rwxr-xr-x root       root            30296 ./usr/lib/samba/libaddns-samba4.so
--rwxr-xr-x root       root           120736 ./usr/lib/samba/libads-samba4.so
+-rwxr-xr-x root       root            30280 ./usr/lib/samba/libaddns-samba4.so
+-rwxr-xr-x root       root           120728 ./usr/lib/samba/libads-samba4.so
 -rwxr-xr-x root       root            17940 ./usr/lib/samba/libasn1util-samba4.so
 -rwxr-xr-x root       root            71264 ./usr/lib/samba/libauth4-samba4.so
--rwxr-xr-x root       root            38500 ./usr/lib/samba/libauthkrb5-samba4.so
+-rwxr-xr-x root       root            38492 ./usr/lib/samba/libauthkrb5-samba4.so
 -rwxr-xr-x root       root           103952 ./usr/lib/samba/libauth-samba4.so
 -rwxr-xr-x root       root            13848 ./usr/lib/samba/libauth-sam-reply-samba4.so
 -rwxr-xr-x root       root             9756 ./usr/lib/samba/libauth-unix-token-samba4.so
@@ -142,7 +142,7 @@ drwxr-xr-x root       root               80 ./usr/lib/samba/ldb
 -rwxr-xr-x root       root             5664 ./usr/lib/samba/libcmdline-credentials-samba4.so
 -rwxr-xr-x root       root            30224 ./usr/lib/samba/libdbwrap-samba4.so
 -rwxr-xr-x root       root            67088 ./usr/lib/samba/libdcerpc-samba4.so
--rwxr-xr-x root       root          1107480 ./usr/lib/samba/libdcerpc-samba-samba4.so
+-rwxr-xr-x root       root          1103384 ./usr/lib/samba/libdcerpc-samba-samba4.so
 -rwxr-xr-x root       root            58988 ./usr/lib/samba/libdsdb-module-samba4.so
 -rwxr-xr-x root       root             5648 ./usr/lib/samba/libevents-samba4.so
 -rwxr-xr-x root       root             5656 ./usr/lib/samba/libflag-mapping-samba4.so
@@ -165,7 +165,7 @@ drwxr-xr-x root       root               80 ./usr/lib/samba/ldb
 -rwxr-xr-x root       root            22092 ./usr/lib/samba/libMESSAGING-samba4.so
 -rwxr-xr-x root       root             5600 ./usr/lib/samba/libmsghdr-samba4.so
 -rwxr-xr-x root       root            95816 ./usr/lib/samba/libmsrpc3-samba4.so
--rwxr-xr-x root       root           861828 ./usr/lib/samba/libndr-samba-samba4.so
+-rwxr-xr-x root       root           865924 ./usr/lib/samba/libndr-samba-samba4.so
 -rwxr-xr-x root       root            13840 ./usr/lib/samba/libnetif-samba4.so
 -rwxr-xr-x root       root            13844 ./usr/lib/samba/libnet-keytab-samba4.so
 -rwxr-xr-x root       root             5656 ./usr/lib/samba/libnon-posix-acls-samba4.so
@@ -177,14 +177,14 @@ drwxr-xr-x root       root               80 ./usr/lib/samba/ldb
 -rwxr-xr-x root       root             5604 ./usr/lib/samba/libreplace-samba4.so
 -rwxr-xr-x root       root            26136 ./usr/lib/samba/libsamba3-util-samba4.so
 -rwxr-xr-x root       root            54816 ./usr/lib/samba/libsamba-cluster-support-samba4.so
--rwxr-xr-x root       root            13992 ./usr/lib/samba/libsamba-debug-samba4.so
+-rwxr-xr-x root       root            18088 ./usr/lib/samba/libsamba-debug-samba4.so
 -rwxr-xr-x root       root             9752 ./usr/lib/samba/libsamba-modules-samba4.so
 -rwxr-xr-x root       root           203252 ./usr/lib/samba/libsamba-net-samba4.so
 -rwxr-xr-x root       root            13868 ./usr/lib/samba/libsamba-python-samba4.so
 -rwxr-xr-x root       root            83660 ./usr/lib/samba/libsamba-security-samba4.so
 -rwxr-xr-x root       root            63056 ./usr/lib/samba/libsamba-sockets-samba4.so
 -rwxr-xr-x root       root           120620 ./usr/lib/samba/libsamdb-common-samba4.so
--rwxr-xr-x root       root            34324 ./usr/lib/samba/libsecrets3-samba4.so
+-rwxr-xr-x root       root            30228 ./usr/lib/samba/libsecrets3-samba4.so
 -rwxr-xr-x root       root             9752 ./usr/lib/samba/libserver-id-db-samba4.so
 -rwxr-xr-x root       root             5712 ./usr/lib/samba/libserver-role-samba4.so
 -rwxr-xr-x root       root            26196 ./usr/lib/samba/libshares-samba4.so
@@ -215,7 +215,7 @@ drwxr-xr-x root       root              120 ./usr/lib/samba/nss_info
 -rwxr-xr-x root       root            18040 ./usr/lib/samba/nss_info/sfu20.so
 -rwxr-xr-x root       root            18036 ./usr/lib/samba/nss_info/sfu.so
 drwxr-xr-x root       root               60 ./usr/lib/samba/pdb
--rwxr-xr-x root       root           124552 ./usr/lib/samba/pdb/ldapsam.so
+-rwxr-xr-x root       root           120456 ./usr/lib/samba/pdb/ldapsam.so
 drwxr-xr-x root       root              800 ./usr/lib/samba/vfs
 -rwxr-xr-x root       root            26552 ./usr/lib/samba/vfs/acl_tdb.so
 -rwxr-xr-x root       root            26556 ./usr/lib/samba/vfs/acl_xattr.so
@@ -244,7 +244,7 @@ drwxr-xr-x root       root              800 ./usr/lib/samba/vfs
 -rwxr-xr-x root       root            10276 ./usr/lib/samba/vfs/readahead.so
 -rwxr-xr-x root       root            18428 ./usr/lib/samba/vfs/readonly.so
 -rwxr-xr-x root       root            18364 ./usr/lib/samba/vfs/recycle.so
--rwxr-xr-x root       root            38844 ./usr/lib/samba/vfs/shadow_copy2.so
+-rwxr-xr-x root       root            42940 ./usr/lib/samba/vfs/shadow_copy2.so
 -rwxr-xr-x root       root            10176 ./usr/lib/samba/vfs/shadow_copy.so
 -rwxr-xr-x root       root            10172 ./usr/lib/samba/vfs/shell_snap.so
 -rwxr-xr-x root       root            38900 ./usr/lib/samba/vfs/snapper.so

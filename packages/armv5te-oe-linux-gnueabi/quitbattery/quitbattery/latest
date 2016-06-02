@@ -1,9 +1,9 @@
 PV = 1.0.0
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtdeclarative (>= 5.6.99+5.7.0-beta+git0+31ef2e858c) qtdeclarative-qmlplugins qtgraphicaleffects-qmlplugins
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtdeclarative (>= 5.6.99+5.7.0-beta+git0+31ef2e858c) qtdeclarative-qmlplugins qtgraphicaleffects-qmlplugins
 RRECOMMENDS = quitbattery-plugins quitbattery-qmlplugins
-PKGSIZE = 176980
+PKGSIZE = 177844
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quitbattery /usr/lib/quitbattery/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec /usr/share
 FILELIST = /usr/share/quitbattery-1.0.0/QUItBattery /usr/share/quitbattery-1.0.0/qml/QUItBattery/QUItBatteryComponent/QUItBattery.qml /usr/share/quitbattery-1.0.0/qml/QUItBattery/QUItBatteryComponent/images/bar_level2.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/QUItBatteryComponent/images/battery2.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/QUItBatteryComponent/images/battery_bar.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/QUItBatteryComponent/images/lightning.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/QUItBatteryComponent/images/particle.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/Slider.qml /usr/share/quitbattery-1.0.0/qml/QUItBattery/ToggleButton.qml /usr/share/quitbattery-1.0.0/qml/QUItBattery/images/arrows.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/images/background2.jpg /usr/share/quitbattery-1.0.0/qml/QUItBattery/images/glass.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/images/handle.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/images/plug.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/images/rotate.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/images/title.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/images/toggle.png /usr/share/quitbattery-1.0.0/qml/QUItBattery/main.qml

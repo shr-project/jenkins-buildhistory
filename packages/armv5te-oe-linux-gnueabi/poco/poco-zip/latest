@@ -1,10 +1,10 @@
 PV = 1.7.1
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 PKG = libpocozip41
 RPROVIDES = poco-zip (=1.7.1)
-RDEPENDS = glibc (>= 2.24) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0) poco-foundation (>= 1.7.1)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) poco-foundation (>= 1.7.1)
 RRECOMMENDS = 
-PKGSIZE = 197668
+PKGSIZE = 176996
 FILES = /usr/lib/libPocoZip.so.*
 FILELIST = /usr/lib/libPocoZip.so.41

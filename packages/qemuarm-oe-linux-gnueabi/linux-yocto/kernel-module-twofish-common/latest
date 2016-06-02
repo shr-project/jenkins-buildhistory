@@ -1,10 +1,10 @@
-PV = 4.4.11+gitAUTOINC+6ec93aaa70_97c21d0b5f
+PV = 4.4.11+gitAUTOINC+3a5f494784_b74c752358
 PR = r0
-PKGV = 4.4.11+git0+6ec93aaa70_97c21d0b5f
+PKGV = 4.4.11+git1+3a5f494784_b74c752358
 PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = kernel-4.4.11-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 15664
+PKGSIZE = 15604
 FILES = /lib/modules/4.4.11-yocto-standard/kernel/crypto/twofish_common.ko /etc/modules-load.d/twofish_common.conf /etc/modprobe.d/twofish_common.conf
 FILELIST = /lib/modules/4.4.11-yocto-standard/kernel/crypto/twofish_common.ko
