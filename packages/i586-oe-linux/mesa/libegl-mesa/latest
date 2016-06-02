@@ -1,12 +1,12 @@
 PE = 2
 PV = 11.2.2
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = libegl libegl1
-RDEPENDS = expat (>= 2.1.1) glibc (>= 2.24) libdrm (>= 2.4.68) libffi (>= 3.2.1) libgbm (>= 11.2.2) libx11 (>= 1.6.3) libx11-xcb (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.11.1) libxcb-dri2 (>= 1.11.1) libxcb-render (>= 1.11.1) libxcb-shape (>= 1.11.1) libxcb-xfixes (>= 1.11.1) libxdmcp (>= 1.1.2) wayland (>= 1.10.0)
+RDEPENDS = expat (>= 2.1.1) glibc (>= 2.24) libdrm (>= 2.4.68) libffi (>= 3.2.1) libgbm (>= 11.2.2) libx11 (>= 1.6.3) libx11-xcb (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.12) libxcb-dri2 (>= 1.12) libxcb-xfixes (>= 1.12) libxdmcp (>= 1.1.2) wayland (>= 1.10.0)
 RRECOMMENDS = mesa-megadriver
 RREPLACES = libegl libegl1
 RCONFLICTS = libegl libegl1
-PKGSIZE = 173191
+PKGSIZE = 173159
 FILES = /usr/lib/libEGL.so.*
 FILELIST = /usr/lib/libEGL.so.1 /usr/lib/libEGL.so.1.0.0

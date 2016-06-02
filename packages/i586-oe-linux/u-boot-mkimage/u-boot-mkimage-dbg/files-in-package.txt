@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
--rwxr-xr-x root       root           433156 ./usr/bin/.debug/uboot-mkimage
+-rwxr-xr-x root       root           498732 ./usr/bin/.debug/uboot-mkimage
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/u-boot-mkimage
@@ -13,9 +13,10 @@ drwxr-xr-x root       root              140 ./usr/src/debug/u-boot-mkimage/v2016
 -rw-r--r-- root       root            37225 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/common/image.c
 -rw-r--r-- root       root            48534 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/common/image-fit.c
 -rw-r--r-- root       root            10580 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/common/image-sig.c
-drwxr-xr-x root       root              240 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include
+drwxr-xr-x root       root              280 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include
 -rw-r--r-- root       root             2569 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/bootm.h
 -rw-r--r-- root       root            11538 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/bootstage.h
+-rw-r--r-- root       root             3458 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/compiler.h
 -rw-r--r-- root       root             8427 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/fdt_support.h
 -rw-r--r-- root       root             5301 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/hash.h
 -rw-r--r-- root       root            36745 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/image.h
@@ -33,6 +34,7 @@ drwxr-xr-x root       root              200 ./usr/src/debug/u-boot-mkimage/v2016
 -rw-r--r-- root       root             2524 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/u-boot/sha1.h
 -rw-r--r-- root       root              592 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/u-boot/sha256.h
 -rw-r--r-- root       root            27186 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/u-boot/zlib.h
+-rw-r--r-- root       root              574 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/include/version.h
 drwxr-xr-x root       root              200 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/lib
 -rw-r--r-- root       root            10397 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/lib/crc32.c
 -rw-r--r-- root       root             1161 ./usr/src/debug/u-boot-mkimage/v2016.03+gitAUTOINC+df61a74e68-r0/git/lib/fdtdec_common.c

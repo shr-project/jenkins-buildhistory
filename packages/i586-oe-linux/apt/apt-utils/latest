@@ -1,9 +1,9 @@
 PV = 1.0.10.1
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = apt (>= 1.0.10.1) glibc (>= 2.24) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
+RDEPENDS = apt (>= 1.0.10.1) glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 39816
+PKGSIZE = 50372
 FILES = /usr/bin/apt-sortpkgs /usr/bin/apt-extracttemplates
 FILELIST = /usr/bin/apt-extracttemplates /usr/bin/apt-sortpkgs

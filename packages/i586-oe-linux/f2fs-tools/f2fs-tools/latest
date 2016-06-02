@@ -1,9 +1,9 @@
 PV = 1.4.0
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = 
-PKGSIZE = 103725
+PKGSIZE = 103345
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/f2fs-tools /usr/lib/f2fs-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /sbin/dump.f2fs /sbin/f2fstat /sbin/fibmap.f2fs /sbin/fsck.f2fs /sbin/mkfs.f2fs /usr/lib/libf2fs.so.0 /usr/lib/libf2fs.so.0.0.0

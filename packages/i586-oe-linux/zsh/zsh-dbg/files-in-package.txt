@@ -1,14 +1,14 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               80 ./usr/bin/.debug
--rwxr-xr-x root       root          2167216 ./usr/bin/.debug/zsh
--rwxr-xr-x root       root          2167216 ./usr/bin/.debug/zsh-5.0.5
+-rwxr-xr-x root       root          2787200 ./usr/bin/.debug/zsh
+-rwxr-xr-x root       root          2787200 ./usr/bin/.debug/zsh-5.0.5
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/zsh
 drwxr-xr-x root       root               80 ./usr/src/debug/zsh/5.0.5-r0
 drwxr-xr-x root       root               60 ./usr/src/debug/zsh/5.0.5-r0/build
-drwxr-xr-x root       root              720 ./usr/src/debug/zsh/5.0.5-r0/build/Src
+drwxr-xr-x root       root              760 ./usr/src/debug/zsh/5.0.5-r0/build/Src
 -rw-r--r-- root       root            14136 ./usr/src/debug/zsh/5.0.5-r0/build/Src/bltinmods.list
 -rw-r--r-- root       root             3528 ./usr/src/debug/zsh/5.0.5-r0/build/Src/builtin.epro
 drwxr-xr-x root       root               60 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Builtins
@@ -23,6 +23,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/zsh/5.0.5-r0/build/S
 -rw-r--r-- root       root             2011 ./usr/src/debug/zsh/5.0.5-r0/build/Src/init.epro
 -rw-r--r-- root       root              623 ./usr/src/debug/zsh/5.0.5-r0/build/Src/input.epro
 -rw-r--r-- root       root             2609 ./usr/src/debug/zsh/5.0.5-r0/build/Src/jobs.epro
+-rw-r--r-- root       root              617 ./usr/src/debug/zsh/5.0.5-r0/build/Src/jobs.pro
 -rw-r--r-- root       root             1632 ./usr/src/debug/zsh/5.0.5-r0/build/Src/lex.epro
 -rw-r--r-- root       root             1500 ./usr/src/debug/zsh/5.0.5-r0/build/Src/linklist.epro
 -rw-r--r-- root       root              715 ./usr/src/debug/zsh/5.0.5-r0/build/Src/loop.epro
@@ -30,6 +31,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/zsh/5.0.5-r0/build/S
 -rw-r--r-- root       root             1399 ./usr/src/debug/zsh/5.0.5-r0/build/Src/mem.epro
 -rw-r--r-- root       root             3498 ./usr/src/debug/zsh/5.0.5-r0/build/Src/module.epro
 -rw-r--r-- root       root              921 ./usr/src/debug/zsh/5.0.5-r0/build/Src/options.epro
+-rw-r--r-- root       root              451 ./usr/src/debug/zsh/5.0.5-r0/build/Src/options.pro
 -rw-r--r-- root       root             9735 ./usr/src/debug/zsh/5.0.5-r0/build/Src/params.epro
 -rw-r--r-- root       root             2051 ./usr/src/debug/zsh/5.0.5-r0/build/Src/parse.epro
 -rw-r--r-- root       root             1967 ./usr/src/debug/zsh/5.0.5-r0/build/Src/pattern.epro
@@ -43,8 +45,10 @@ drwxr-xr-x root       root               60 ./usr/src/debug/zsh/5.0.5-r0/build/S
 -rw-r--r-- root       root              312 ./usr/src/debug/zsh/5.0.5-r0/build/Src/text.epro
 -rw-r--r-- root       root             8400 ./usr/src/debug/zsh/5.0.5-r0/build/Src/utils.epro
 -rw-r--r-- root       root              399 ./usr/src/debug/zsh/5.0.5-r0/build/Src/watch.epro
-drwxr-xr-x root       root              400 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle
+drwxr-xr-x root       root              480 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle
 -rw-r--r-- root       root             4179 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/compcore.epro
+-rw-r--r-- root       root              804 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/compctl.epro
+-rw-r--r-- root       root             1805 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/compctl.pro
 -rw-r--r-- root       root             2254 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/complete.epro
 -rw-r--r-- root       root             1451 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/compmatch.epro
 -rw-r--r-- root       root             1362 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/compresult.epro
@@ -52,7 +56,9 @@ drwxr-xr-x root       root              400 ./usr/src/debug/zsh/5.0.5-r0/build/S
 -rw-r--r-- root       root             2339 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/zle_hist.epro
 -rw-r--r-- root       root             1511 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/zle_keymap.epro
 -rw-r--r-- root       root             2364 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/zle_main.epro
+-rw-r--r-- root       root              505 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/zle_main.pro
 -rw-r--r-- root       root             2355 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/zle_misc.epro
+-rw-r--r-- root       root              178 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/zle_misc.pro
 -rw-r--r-- root       root             1698 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/zle_move.epro
 -rw-r--r-- root       root              260 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/zle_params.epro
 -rw-r--r-- root       root             1578 ./usr/src/debug/zsh/5.0.5-r0/build/Src/Zle/zle_refresh.epro

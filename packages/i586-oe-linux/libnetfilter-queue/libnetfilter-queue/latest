@@ -1,10 +1,10 @@
 PV = 1.0.2
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 PKG = libnetfilter-queue1
 RPROVIDES = libnetfilter-queue (=1.0.2)
 RDEPENDS = glibc (>= 2.24) libmnl (>= 1.0.3) libnfnetlink (>= 1.0.1)
 RRECOMMENDS = 
-PKGSIZE = 22675
+PKGSIZE = 22891
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libnetfilter-queue /usr/lib/libnetfilter-queue/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libnetfilter_queue.so.1 /usr/lib/libnetfilter_queue.so.1.3.0

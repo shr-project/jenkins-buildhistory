@@ -8,7 +8,7 @@ drwxr-xr-x root       root              200 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root            14448 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/auth_sam_reply.c
 -rw-r--r-- root       root             2706 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/auth_sam_reply.h
 -rw-r--r-- root       root             4527 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/common_auth.h
-drwxr-xr-x root       root              220 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials
+drwxr-xr-x root       root              240 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials
 -rw-r--r-- root       root            32292 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials/credentials.c
 -rw-r--r-- root       root            14856 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials/credentials.h
 -rw-r--r-- root       root             3790 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials/credentials_internal.h
@@ -17,6 +17,7 @@ drwxr-xr-x root       root              220 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root            11355 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials/credentials_ntlm.c
 -rw-r--r-- root       root            15026 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials/credentials_secrets.c
 -rw-r--r-- root       root            14855 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials/pycredentials.c
+-rw-r--r-- root       root             1324 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials/pycredentials.h
 drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials/tests
 -rw-r--r-- root       root             3535 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/credentials/tests/simple.c
 drwxr-xr-x root       root              220 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/auth/gensec
@@ -80,7 +81,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root            18396 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/lib/param/param_proto.h
 -rw-r--r-- root       root            78236 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/lib/param/param_table_gen.c
 drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc
-drwxr-xr-x root       root             7440 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr
+drwxr-xr-x root       root             7240 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr
 -rw-r--r-- root       root             3233 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/atsvc.h
 -rw-r--r-- root       root             1186 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/audiosrv.h
 -rw-r--r-- root       root             2568 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/auth.h
@@ -137,7 +138,6 @@ drwxr-xr-x root       root             7440 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root             2671 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_auth.h
 -rw-r--r-- root       root            39170 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_backupkey.c
 -rw-r--r-- root       root             6442 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_backupkey_c.c
--rw-r--r-- root       root             1659 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_backupkey_c.h
 -rw-r--r-- root       root             5762 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_backupkey.h
 -rw-r--r-- root       root             9878 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_bkupblobs.c
 -rw-r--r-- root       root             1223 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_bkupblobs.h
@@ -162,18 +162,14 @@ drwxr-xr-x root       root             7440 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root            19230 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dfs_c.h
 -rw-r--r-- root       root             8732 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dfs.h
 -rw-r--r-- root       root            48475 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dns.c
--rw-r--r-- root       root             1082 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dns_c.h
 -rw-r--r-- root       root             6582 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dns.h
 -rw-r--r-- root       root            53697 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dnsp.c
--rw-r--r-- root       root             1908 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dnsp_c.h
 -rw-r--r-- root       root             4929 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dnsp.h
 -rw-r--r-- root       root           489132 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dnsserver.c
 -rw-r--r-- root       root            65492 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dnsserver_c.c
--rw-r--r-- root       root            17778 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dnsserver_c.h
 -rw-r--r-- root       root            11145 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_dnsserver.h
 -rw-r--r-- root       root           207452 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_drsblobs.c
 -rw-r--r-- root       root            70945 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_drsblobs_c.c
--rw-r--r-- root       root            13420 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_drsblobs_c.h
 -rw-r--r-- root       root            19386 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_drsblobs.h
 -rw-r--r-- root       root           679961 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_drsuapi.c
 -rw-r--r-- root       root           112571 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_drsuapi_c.c
@@ -231,7 +227,6 @@ drwxr-xr-x root       root             7440 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root             2397 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_keysvc.c
 -rw-r--r-- root       root              634 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_keysvc.h
 -rw-r--r-- root       root            43476 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_krb5pac.c
--rw-r--r-- root       root             4281 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_krb5pac_c.h
 -rw-r--r-- root       root             5341 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_krb5pac.h
 -rw-r--r-- root       root           523816 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_lsa.c
 -rw-r--r-- root       root           349571 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_lsa_c.c
@@ -251,7 +246,6 @@ drwxr-xr-x root       root             7440 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root            21687 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_named_pipe_auth.c
 -rw-r--r-- root       root           142123 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_nbt.c
 -rw-r--r-- root       root             5083 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_nbt_c.c
--rw-r--r-- root       root             1104 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_nbt_c.h
 -rw-r--r-- root       root            11376 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_nbt.h
 -rw-r--r-- root       root            33690 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_negoex.c
 -rw-r--r-- root       root             5883 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_negoex.h
@@ -290,7 +284,6 @@ drwxr-xr-x root       root             7440 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root              810 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_remact.h
 -rw-r--r-- root       root            19158 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_rot.c
 -rw-r--r-- root       root            35949 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_rot_c.c
--rw-r--r-- root       root             6746 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_rot_c.h
 -rw-r--r-- root       root             1522 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_rot.h
 -rw-r--r-- root       root           494381 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_samr.c
 -rw-r--r-- root       root           388508 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_samr_c.c
@@ -301,7 +294,6 @@ drwxr-xr-x root       root             7440 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root            27043 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_schannel.c
 -rw-r--r-- root       root             2958 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_schannel.h
 -rw-r--r-- root       root            55592 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_security.c
--rw-r--r-- root       root             3704 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_security_c.h
 -rw-r--r-- root       root             7441 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_security.h
 -rw-r--r-- root       root             1641 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_server_id.c
 -rw-r--r-- root       root              544 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_server_id.h
@@ -350,7 +342,6 @@ drwxr-xr-x root       root             7440 ./usr/src/debug/samba/4.4.2-r0/samba
 -rw-r--r-- root       root             3777 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_wzcsvc.h
 -rw-r--r-- root       root            43572 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_xattr.c
 -rw-r--r-- root       root             4897 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_xattr_c.c
--rw-r--r-- root       root             1068 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_xattr_c.h
 -rw-r--r-- root       root             5297 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/ndr_xattr.h
 -rw-r--r-- root       root             4761 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/negoex.h
 -rw-r--r-- root       root            54380 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/librpc/gen_ndr/netlogon.h
@@ -474,7 +465,7 @@ drwxr-xr-x root       root              340 ./usr/src/debug/samba/4.4.2-r0/samba
 drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/source3/param
 -rw-r--r-- root       root            15028 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/source3/param/param_proto.h
 drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/source3/smbd
--rw-r--r-- root       root            88043 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/source3/smbd/build_options.c
+-rw-r--r-- root       root            87964 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/source3/smbd/build_options.c
 drwxr-xr-x root       root              180 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/source4
 drwxr-xr-x root       root              140 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/source4/auth
 -rw-r--r-- root       root             1383 ./usr/src/debug/samba/4.4.2-r0/samba-4.4.2/bin/default/source4/auth/auth_sam.h

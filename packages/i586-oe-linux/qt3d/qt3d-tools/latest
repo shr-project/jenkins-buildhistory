@@ -1,10 +1,10 @@
 PV = 5.6.99+5.7.0-beta+gitAUTOINC+be29a39ede
 PR = r0
 PKGV = 5.6.99+5.7.0-beta+git0+be29a39ede
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 6374280
+PKGSIZE = 6558568
 FILES = /usr/bin/qt5/*
 FILELIST = /usr/bin/qt5/qgltf

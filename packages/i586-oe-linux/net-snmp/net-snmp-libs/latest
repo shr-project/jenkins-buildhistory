@@ -1,10 +1,10 @@
 PV = 5.7.3
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 PKG = libnetsnmp30
 RPROVIDES = net-snmp-libs (=5.7.3)
 RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2h) libpci (>= 3.4.1)
 RRECOMMENDS = 
-PKGSIZE = 2930377
+PKGSIZE = 2932201
 FILES = /usr/lib/lib*.so.*
 FILELIST = /usr/lib/libnetsnmp.so.30 /usr/lib/libnetsnmp.so.30.0.3 /usr/lib/libnetsnmpagent.so.30 /usr/lib/libnetsnmpagent.so.30.0.3 /usr/lib/libnetsnmphelpers.so.30 /usr/lib/libnetsnmphelpers.so.30.0.3 /usr/lib/libnetsnmpmibs.so.30 /usr/lib/libnetsnmpmibs.so.30.0.3 /usr/lib/libnetsnmptrapd.so.30 /usr/lib/libnetsnmptrapd.so.30.0.3
