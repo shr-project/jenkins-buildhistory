@@ -1,10 +1,10 @@
 PV = 1.5.2
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libapr-1-0
 RPROVIDES = apr (=1.5.2)
 RDEPENDS = glibc (>= 2.24) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = 
-PKGSIZE = 197841
+PKGSIZE = 198417
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/apr /usr/lib/apr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libapr-1.so.0 /usr/lib/libapr-1.so.0.5.2

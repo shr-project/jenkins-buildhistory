@@ -1,9 +1,9 @@
 PV = 0.17
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 5.3.0)
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 148193
+PKGSIZE = 147697
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/netkit-telnet /usr/lib/netkit-telnet/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/sbin/in.* /usr/lib/* /etc/xinetd.d/*
 FILELIST = /etc/xinetd.d/telnet /usr/bin/telnet.netkit-telnet /usr/lib/telnetlogin /usr/sbin/in.telnetd

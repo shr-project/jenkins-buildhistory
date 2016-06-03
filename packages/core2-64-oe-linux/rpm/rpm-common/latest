@@ -1,8 +1,8 @@
 PV = 5.4.16
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = db (>= 6.0.30) file (>= 5.25) glibc (>= 2.24) libacl (>= 2.2.52) libattr (>= 2.4.47) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2h) libelf (>= 0.166) libitm (>= 5.3.0) libpcre (>= 8.38) libpcreposix (>= 8.38) libssl (>= 1.0.2h) libstdc++ (>= 5.3.0) ossp-uuid (>= 1.6.2) popt (>= 1.16) rpm-libs (>= 5.4.16) zlib (>= 1.2.8)
+RDEPENDS = db (>= 6.0.30) file (>= 5.25) glibc (>= 2.24) libacl (>= 2.2.52) libattr (>= 2.4.47) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2h) libelf (>= 0.166) libitm (>= 6.1.1) libpcre (>= 8.38) libpcreposix (>= 8.38) libssl (>= 1.0.2h) libstdc++ (>= 6.1.1) ossp-uuid (>= 1.6.2) popt (>= 1.16) rpm-libs (>= 5.4.16) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 9654
 FILES = /usr/bin/rpm2cpio /usr/bin/gendiff /etc/rpm /var/spool/repackage

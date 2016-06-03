@@ -1,9 +1,9 @@
 PV = 0.9.2
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) libcap (>= 2.24) ncurses-libncursesw (>= 6.0+20160213) ncurses-libtinfo (>= 6.0+20160213)
 RRECOMMENDS = 
-PKGSIZE = 61607
+PKGSIZE = 61735
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/pinentry /usr/lib/pinentry/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/pinentry /usr/bin/pinentry-curses

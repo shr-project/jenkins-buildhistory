@@ -4,7 +4,7 @@ lrwxrwxrwx root       root               17 ./lib/libpamc.so -> libpamc.so.0.82.
 -rwxr-xr-x root       root              899 ./lib/libpam.la
 -rwxr-xr-x root       root              945 ./lib/libpam_misc.la
 lrwxrwxrwx root       root               21 ./lib/libpam_misc.so -> libpam_misc.so.0.82.1
-lrwxrwxrwx root       root               16 ./lib/libpam.so -> libpam.so.0.84.1
+lrwxrwxrwx root       root               16 ./lib/libpam.so -> libpam.so.0.84.2
 drwxr-xr-x root       root              840 ./lib/security
 -rwxr-xr-x root       root              936 ./lib/security/pam_access.la
 -rwxr-xr-x root       root              978 ./lib/security/pam_cracklib.la
@@ -56,6 +56,6 @@ drwxr-xr-x root       root              240 ./usr/include/security
 -rw-r--r-- root       root             1089 ./usr/include/security/pam_filter.h
 -rw-r--r-- root       root             6109 ./usr/include/security/_pam_macros.h
 -rw-r--r-- root       root             1526 ./usr/include/security/pam_misc.h
--rw-r--r-- root       root             6432 ./usr/include/security/pam_modules.h
+-rw-r--r-- root       root             4725 ./usr/include/security/pam_modules.h
 -rw-r--r-- root       root             5220 ./usr/include/security/pam_modutil.h
 -rw-r--r-- root       root            12904 ./usr/include/security/_pam_types.h

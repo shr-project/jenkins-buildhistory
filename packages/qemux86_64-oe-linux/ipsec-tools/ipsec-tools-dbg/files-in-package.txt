@@ -1,14 +1,14 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/.debug
--rwxr-xr-x root       root           163816 ./usr/lib/.debug/libipsec.so.0.0.1
--rwxr-xr-x root       root            60112 ./usr/lib/.debug/libracoon.so.0.0.0
+-rwxr-xr-x root       root           169440 ./usr/lib/.debug/libipsec.so.0.0.1
+-rwxr-xr-x root       root            65512 ./usr/lib/.debug/libracoon.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root              120 ./usr/sbin/.debug
--rwxr-xr-x root       root           144240 ./usr/sbin/.debug/plainrsa-gen
--rwxr-xr-x root       root          1286544 ./usr/sbin/.debug/racoon
--rwxr-xr-x root       root            65448 ./usr/sbin/.debug/racoonctl
--rwxr-xr-x root       root           110440 ./usr/sbin/.debug/setkey
+-rwxr-xr-x root       root           152080 ./usr/sbin/.debug/plainrsa-gen
+-rwxr-xr-x root       root          1355408 ./usr/sbin/.debug/racoon
+-rwxr-xr-x root       root            68880 ./usr/sbin/.debug/racoonctl
+-rwxr-xr-x root       root           117224 ./usr/sbin/.debug/setkey
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/ipsec-tools
@@ -31,7 +31,7 @@ drwxr-xr-x root       root              220 ./usr/src/debug/ipsec-tools/0.8.2-r0
 -rw-r--r-- root       root            60954 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/libipsec/pfkey.c
 -rw-r--r-- root       root            19202 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/libipsec/pfkey_dump.c
 -rw-r--r-- root       root             3333 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/libipsec/policy_parse.h
-drwxr-xr-x root       root             1780 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon
+drwxr-xr-x root       root             1820 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon
 -rw-r--r-- root       root             3737 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/admin.h
 -rw-r--r-- root       root            21177 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/algorithm.c
 -rw-r--r-- root       root             5747 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/algorithm.h
@@ -61,6 +61,7 @@ drwxr-xr-x root       root             1780 ./usr/src/debug/ipsec-tools/0.8.2-r0
 -rw-r--r-- root       root            35344 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_agg.c
 -rw-r--r-- root       root            34002 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_base.c
 -rw-r--r-- root       root            87806 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp.c
+-rw-r--r-- root       root             7849 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_cfg.h
 -rw-r--r-- root       root            14782 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp.h
 -rw-r--r-- root       root            44139 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_ident.c
 -rw-r--r-- root       root            39685 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_inf.c
@@ -68,6 +69,7 @@ drwxr-xr-x root       root             1780 ./usr/src/debug/ipsec-tools/0.8.2-r0
 -rw-r--r-- root       root             6203 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_newg.c
 -rw-r--r-- root       root             1851 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_newg.h
 -rw-r--r-- root       root            63546 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_quick.c
+-rw-r--r-- root       root             2933 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_unity.h
 -rw-r--r-- root       root             5643 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/isakmp_var.h
 -rw-r--r-- root       root             5003 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/kmpstat.c
 -rw-r--r-- root       root             7670 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/localconf.c

@@ -1,11 +1,11 @@
-PV = 4.4.11+gitAUTOINC+6ec93aaa70_628bf62756
+PV = 4.4.11+gitAUTOINC+3a5f494784_53e84104c5
 PR = r0
-PKGV = 4.4.11+git0+6ec93aaa70_628bf62756
+PKGV = 4.4.11+git1+3a5f494784_53e84104c5
 PKGR = r0.1
 PKG = kernel-image-4.4.11-yocto-standard
-RPROVIDES = kernel-image (=4.4.11+git0+6ec93aaa70_628bf62756)
-RDEPENDS = 
+RPROVIDES = kernel-image (=4.4.11+git1+3a5f494784_53e84104c5)
+RDEPENDS = kernel-image-bzimage
 RRECOMMENDS = 
-PKGSIZE = 6570096
-FILES = /boot/bzImage*
-FILELIST = /boot/bzImage-4.4.11-yocto-standard
+PKGSIZE = 0
+FILES = 
+FILELIST = 

@@ -1,10 +1,10 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/lib/.debug
--rwxr-xr-x root       root             9240 ./usr/lib/.debug/libosmocodec.so.0.0.0
--rwxr-xr-x root       root           359112 ./usr/lib/.debug/libosmocore.so.4.0.0
--rwxr-xr-x root       root           480768 ./usr/lib/.debug/libosmogsm.so.1.1.0
--rwxr-xr-x root       root           189904 ./usr/lib/.debug/libosmovty.so.0.0.0
+-rwxr-xr-x root       root             9256 ./usr/lib/.debug/libosmocodec.so.0.0.0
+-rwxr-xr-x root       root           361400 ./usr/lib/.debug/libosmocore.so.4.0.0
+-rwxr-xr-x root       root           495768 ./usr/lib/.debug/libosmogsm.so.1.1.0
+-rwxr-xr-x root       root           195040 ./usr/lib/.debug/libosmovty.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/libosmocore
@@ -28,7 +28,8 @@ drwxr-xr-x root       root               60 ./usr/src/debug/libosmocore/git-r1.0
 drwxr-xr-x root       root               80 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore
 drwxr-xr-x root       root               60 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include
 drwxr-xr-x root       root              120 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom
-drwxr-xr-x root       root              520 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/core
+drwxr-xr-x root       root              540 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/core
+-rw-r--r-- root       root              556 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/core/application.h
 -rw-r--r-- root       root               99 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/core/backtrace.h
 -rw-r--r-- root       root             2251 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/core/bits.h
 -rw-r--r-- root       root             2420 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/core/bitvec.h
@@ -56,8 +57,9 @@ drwxr-xr-x root       root              520 ./usr/src/debug/libosmocore/git-r1.0
 drwxr-xr-x root       root               80 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/crypt
 -rw-r--r-- root       root             2145 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/crypt/auth.h
 -rw-r--r-- root       root             1575 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/crypt/gprs_cipher.h
-drwxr-xr-x root       root              420 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/gsm
+drwxr-xr-x root       root              440 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/gsm
 -rw-r--r-- root       root             1828 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/gsm/a5.h
+-rw-r--r-- root       root             1211 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/gsm/abis_nm.h
 -rw-r--r-- root       root              387 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/gsm/comp128.h
 -rw-r--r-- root       root             1948 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/gsm/gsm0411_smc.h
 -rw-r--r-- root       root             1298 ./usr/src/debug/libosmocore/git-r1.0/git/src/shared/libosmocore/include/osmocom/gsm/gsm0411_smr.h

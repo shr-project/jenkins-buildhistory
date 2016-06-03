@@ -50,13 +50,13 @@ drwxr-xr-x root       root              800 ./usr/bin
 -rwxr-xr-x root       root           310680 ./usr/bin/ctdb
 -rwxr-xr-x root       root             8134 ./usr/bin/ctdb_diagnostics
 lrwxrwxrwx root       root               14 ./usr/bin/ctdb_run_cluster_tests -> ctdb_run_tests
--rwxr-xr-x root       root            18888 ./usr/bin/dbwrap_tool
+-rwxr-xr-x root       root            22984 ./usr/bin/dbwrap_tool
 -rwxr-xr-x root       root            35032 ./usr/bin/eventlogadm
--rwxr-xr-x root       root           145928 ./usr/bin/gentest
+-rwxr-xr-x root       root           141832 ./usr/bin/gentest
 -rwxr-xr-x root       root            77704 ./usr/bin/locktest
 -rwxr-xr-x root       root            14552 ./usr/bin/ltdbtool
 -rwxr-xr-x root       root            73608 ./usr/bin/masktest
--rwxr-xr-x root       root            93480 ./usr/bin/ndrdump
+-rwxr-xr-x root       root            97576 ./usr/bin/ndrdump
 -rwxr-xr-x root       root           909544 ./usr/bin/net
 -rwxr-xr-x root       root           121232 ./usr/bin/nmblookup
 -rwxr-xr-x root       root            28240 ./usr/bin/oLschema2ldif
@@ -69,7 +69,7 @@ lrwxrwxrwx root       root               14 ./usr/bin/ctdb_run_cluster_tests -> 
 -rwxr-xr-x root       root            24424 ./usr/bin/regpatch
 -rwxr-xr-x root       root            36800 ./usr/bin/regshell
 -rwxr-xr-x root       root            24424 ./usr/bin/regtree
--rwxr-xr-x root       root           951976 ./usr/bin/rpcclient
+-rwxr-xr-x root       root           943784 ./usr/bin/rpcclient
 -rwxr-xr-x root       root            97696 ./usr/bin/samba-regedit
 -rwxr-xr-x root       root            31024 ./usr/bin/sharesec
 -rwxr-xr-x root       root            39224 ./usr/bin/smbcacls
@@ -81,7 +81,7 @@ lrwxrwxrwx root       root               14 ./usr/bin/ctdb_run_cluster_tests -> 
 -rwxr-xr-x root       root            18648 ./usr/bin/smbspool
 -rwxr-xr-x root       root            67808 ./usr/bin/smbstatus
 -rwxr-xr-x root       root             4896 ./usr/bin/smbtar
--rwxr-xr-x root       root          6778784 ./usr/bin/smbtorture
+-rwxr-xr-x root       root          6774688 ./usr/bin/smbtorture
 -rwxr-xr-x root       root            14560 ./usr/bin/smbtree
 -rwxr-xr-x root       root            26840 ./usr/bin/testparm
 drwxr-xr-x root       root              300 ./usr/lib
@@ -96,7 +96,7 @@ drwxr-xr-x root       root               60 ./usr/libexec/samba
 -rwxr-xr-x root       root            27064 ./usr/libexec/samba/smbspool_krb5_wrapper
 -rwxr-xr-x root       root             6224 ./usr/lib/libdcerpc-samr.so.0.0.1
 lrwxrwxrwx root       root               23 ./usr/lib/libdcerpc-samr.so.0 -> libdcerpc-samr.so.0.0.1
--rwxr-xr-x root       root           207080 ./usr/lib/libdcerpc.so.0.0.1
+-rwxr-xr-x root       root           202984 ./usr/lib/libdcerpc.so.0.0.1
 lrwxrwxrwx root       root               18 ./usr/lib/libdcerpc.so.0 -> libdcerpc.so.0.0.1
 -rwxr-xr-x root       root          1321192 ./usr/lib/libsamba-errors.so.1
 -rwxr-xr-x root       root           223544 ./usr/lib/libsamba-passdb.so.0.25.0
@@ -114,7 +114,7 @@ drwxr-xr-x root       root              100 ./usr/lib/samba/auth
 drwxr-xr-x root       root              180 ./usr/lib/samba/idmap
 -rwxr-xr-x root       root            27008 ./usr/lib/samba/idmap/ad.so
 -rwxr-xr-x root       root            47520 ./usr/lib/samba/idmap/autorid.so
--rwxr-xr-x root       root            18688 ./usr/lib/samba/idmap/hash.so
+-rwxr-xr-x root       root            14592 ./usr/lib/samba/idmap/hash.so
 -rwxr-xr-x root       root            22720 ./usr/lib/samba/idmap/rfc2307.so
 -rwxr-xr-x root       root            10432 ./usr/lib/samba/idmap/rid.so
 -rwxr-xr-x root       root            14528 ./usr/lib/samba/idmap/script.so
@@ -142,12 +142,12 @@ drwxr-xr-x root       root               80 ./usr/lib/samba/ldb
 -rwxr-xr-x root       root            10400 ./usr/lib/samba/libcmdline-credentials-samba4.so
 -rwxr-xr-x root       root            43152 ./usr/lib/samba/libdbwrap-samba4.so
 -rwxr-xr-x root       root            96400 ./usr/lib/samba/libdcerpc-samba4.so
--rwxr-xr-x root       root          1665176 ./usr/lib/samba/libdcerpc-samba-samba4.so
+-rwxr-xr-x root       root          1636504 ./usr/lib/samba/libdcerpc-samba-samba4.so
 -rwxr-xr-x root       root            76088 ./usr/lib/samba/libdsdb-module-samba4.so
 -rwxr-xr-x root       root             6288 ./usr/lib/samba/libevents-samba4.so
 -rwxr-xr-x root       root            10392 ./usr/lib/samba/libflag-mapping-samba4.so
 -rwxr-xr-x root       root             6304 ./usr/lib/samba/libgenrand-samba4.so
--rwxr-xr-x root       root           166296 ./usr/lib/samba/libgensec-samba4.so
+-rwxr-xr-x root       root           162200 ./usr/lib/samba/libgensec-samba4.so
 -rwxr-xr-x root       root            76808 ./usr/lib/samba/libgpo-samba4.so
 -rwxr-xr-x root       root           162216 ./usr/lib/samba/libgse-samba4.so
 -rwxr-xr-x root       root            30864 ./usr/lib/samba/libhttp-samba4.so
@@ -158,15 +158,15 @@ drwxr-xr-x root       root               80 ./usr/lib/samba/ldb
 -rwxr-xr-x root       root           178952 ./usr/lib/samba/libldbsamba-samba4.so
 -rwxr-xr-x root       root            14488 ./usr/lib/samba/liblibcli-lsa3-samba4.so
 -rwxr-xr-x root       root            18592 ./usr/lib/samba/liblibcli-netlogon3-samba4.so
--rwxr-xr-x root       root           428176 ./usr/lib/samba/liblibsmb-samba4.so
+-rwxr-xr-x root       root           424080 ./usr/lib/samba/liblibsmb-samba4.so
 -rwxr-xr-x root       root            22688 ./usr/lib/samba/libLIBWBCLIENT-OLD-samba4.so
 -rwxr-xr-x root       root            39064 ./usr/lib/samba/libmessages-dgm-samba4.so
 -rwxr-xr-x root       root             6224 ./usr/lib/samba/libmessages-util-samba4.so
 -rwxr-xr-x root       root            26856 ./usr/lib/samba/libMESSAGING-samba4.so
 -rwxr-xr-x root       root            10312 ./usr/lib/samba/libmsghdr-samba4.so
--rwxr-xr-x root       root           133352 ./usr/lib/samba/libmsrpc3-samba4.so
--rwxr-xr-x root       root          1268024 ./usr/lib/samba/libndr-samba-samba4.so
--rwxr-xr-x root       root            18576 ./usr/lib/samba/libnetif-samba4.so
+-rwxr-xr-x root       root           129256 ./usr/lib/samba/libmsrpc3-samba4.so
+-rwxr-xr-x root       root          1276216 ./usr/lib/samba/libndr-samba-samba4.so
+-rwxr-xr-x root       root            22672 ./usr/lib/samba/libnetif-samba4.so
 -rwxr-xr-x root       root            18584 ./usr/lib/samba/libnet-keytab-samba4.so
 -rwxr-xr-x root       root            10392 ./usr/lib/samba/libnon-posix-acls-samba4.so
 -rwxr-xr-x root       root            35056 ./usr/lib/samba/libnpa-tstream-samba4.so
@@ -176,10 +176,10 @@ drwxr-xr-x root       root               80 ./usr/lib/samba/ldb
 -rwxr-xr-x root       root           142040 ./usr/lib/samba/libregistry-samba4.so
 -rwxr-xr-x root       root             6224 ./usr/lib/samba/libreplace-samba4.so
 -rwxr-xr-x root       root            39064 ./usr/lib/samba/libsamba3-util-samba4.so
--rwxr-xr-x root       root            67744 ./usr/lib/samba/libsamba-cluster-support-samba4.so
+-rwxr-xr-x root       root            63648 ./usr/lib/samba/libsamba-cluster-support-samba4.so
 -rwxr-xr-x root       root            22984 ./usr/lib/samba/libsamba-debug-samba4.so
 -rwxr-xr-x root       root            10392 ./usr/lib/samba/libsamba-modules-samba4.so
--rwxr-xr-x root       root           290896 ./usr/lib/samba/libsamba-net-samba4.so
+-rwxr-xr-x root       root           286800 ./usr/lib/samba/libsamba-net-samba4.so
 -rwxr-xr-x root       root            18584 ./usr/lib/samba/libsamba-python-samba4.so
 -rwxr-xr-x root       root           125336 ./usr/lib/samba/libsamba-security-samba4.so
 -rwxr-xr-x root       root            96496 ./usr/lib/samba/libsamba-sockets-samba4.so
@@ -189,12 +189,12 @@ drwxr-xr-x root       root               80 ./usr/lib/samba/ldb
 -rwxr-xr-x root       root            10480 ./usr/lib/samba/libserver-role-samba4.so
 -rwxr-xr-x root       root            35048 ./usr/lib/samba/libshares-samba4.so
 -rwxr-xr-x root       root           211128 ./usr/lib/samba/libsmbclient-raw-samba4.so
--rwxr-xr-x root       root          3565272 ./usr/lib/samba/libsmbd-base-samba4.so
+-rwxr-xr-x root       root          3569368 ./usr/lib/samba/libsmbd-base-samba4.so
 -rwxr-xr-x root       root            10392 ./usr/lib/samba/libsmbd-conn-samba4.so
 -rwxr-xr-x root       root            10320 ./usr/lib/samba/libsmbd-shim-samba4.so
 -rwxr-xr-x root       root            20064 ./usr/lib/samba/libsmbldaphelper-samba4.so
 -rwxr-xr-x root       root            10400 ./usr/lib/samba/libsmbpasswdparser-samba4.so
--rwxr-xr-x root       root           125528 ./usr/lib/samba/libsmbregistry-samba4.so
+-rwxr-xr-x root       root           121432 ./usr/lib/samba/libsmbregistry-samba4.so
 -rwxr-xr-x root       root            18584 ./usr/lib/samba/libsmb-transport-samba4.so
 -rwxr-xr-x root       root             6232 ./usr/lib/samba/libsocket-blocking-samba4.so
 -rwxr-xr-x root       root            10312 ./usr/lib/samba/libsys-rw-samba4.so
@@ -210,7 +210,7 @@ drwxr-xr-x root       root               80 ./usr/lib/samba/ldb
 -rwxr-xr-x root       root            14584 ./usr/lib/samba/libwinbind-client-samba4.so
 -rwxr-xr-x root       root            18584 ./usr/lib/samba/libxattr-tdb-samba4.so
 drwxr-xr-x root       root              120 ./usr/lib/samba/nss_info
--rwxr-xr-x root       root            18688 ./usr/lib/samba/nss_info/hash.so
+-rwxr-xr-x root       root            14592 ./usr/lib/samba/nss_info/hash.so
 -rwxr-xr-x root       root            27008 ./usr/lib/samba/nss_info/rfc2307.so
 -rwxr-xr-x root       root            27008 ./usr/lib/samba/nss_info/sfu20.so
 -rwxr-xr-x root       root            27008 ./usr/lib/samba/nss_info/sfu.so

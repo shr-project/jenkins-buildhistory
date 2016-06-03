@@ -1,10 +1,10 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
--rwxr-xr-x root       root            18808 ./usr/bin/.debug/oil-bugreport
+-rwxr-xr-x root       root            39888 ./usr/bin/.debug/oil-bugreport
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
--rwxr-xr-x root       root          1232024 ./usr/lib/.debug/liboil-0.3.so.0.3.0
+-rwxr-xr-x root       root          1643712 ./usr/lib/.debug/liboil-0.3.so.0.3.0
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/liboil
@@ -36,9 +36,10 @@ drwxr-xr-x root       root              120 ./usr/src/debug/liboil/0.3.17-r5/lib
 -rw-r--r-- root       root             3611 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/copy/trans8x8_c.c
 -rw-r--r-- root       root             4242 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/c/swab.c
 -rw-r--r-- root       root              549 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/c/wavelet.c
-drwxr-xr-x root       root              240 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/dct
+drwxr-xr-x root       root              260 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/dct
 -rw-r--r-- root       root             3656 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/dct/dct12_f32.c
 -rw-r--r-- root       root             1883 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/dct/dct36_f32.c
+-rw-r--r-- root       root             1759 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/dct/dct.h
 -rw-r--r-- root       root             6949 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/dct/fdct8_f64.c
 -rw-r--r-- root       root             3907 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/dct/fdct8x8_f64.c
 -rw-r--r-- root       root             2733 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/dct/fdct8x8s_s16.c
@@ -75,8 +76,9 @@ drwxr-xr-x root       root              320 ./usr/src/debug/liboil/0.3.17-r5/lib
 -rw-r--r-- root       root              790 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/i386_amd64/sum.c
 -rw-r--r-- root       root             8240 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/i386_amd64/swab.c
 -rw-r--r-- root       root             2353 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/i386_amd64/yuv.c
-drwxr-xr-x root       root              140 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/jpeg
+drwxr-xr-x root       root              160 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/jpeg
 -rw-r--r-- root       root             3987 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/jpeg/convert8x8_c.c
+-rw-r--r-- root       root             1854 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/jpeg/jpeg.h
 -rw-r--r-- root       root             2105 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/jpeg/jpeg_rgb_decoder.c
 -rw-r--r-- root       root             2283 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/jpeg/quantize8x8_c.c
 -rw-r--r-- root       root             5729 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/jpeg/yuv2rgb_c.c
@@ -109,8 +111,9 @@ drwxr-xr-x root       root              140 ./usr/src/debug/liboil/0.3.17-r5/lib
 drwxr-xr-x root       root               80 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/math
 -rw-r--r-- root       root            16300 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/math/ag_math.c
 -rw-r--r-- root       root             3945 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/math/math.c
-drwxr-xr-x root       root               60 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/md5
+drwxr-xr-x root       root               80 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/md5
 -rw-r--r-- root       root             5966 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/md5/md5.c
+-rw-r--r-- root       root             1504 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/md5/md5.h
 drwxr-xr-x root       root              120 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/mmx
 -rw-r--r-- root       root             1950 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/mmx/composite_mmx.c
 -rw-r--r-- root       root             2309 ./usr/src/debug/liboil/0.3.17-r5/liboil-0.3.17/liboil/mmx/copy_mmx.c
