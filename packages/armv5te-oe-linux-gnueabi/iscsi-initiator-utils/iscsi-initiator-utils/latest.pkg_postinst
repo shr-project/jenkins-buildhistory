@@ -1,17 +1,1 @@
-    #default there is no initiatorname.iscsi installed
-    #but it is needed or iscsid will fail
-
-    #will run only when postinst on target
-    if [ "x$D" != "x" ]; then
-        exit 1
-    fi
-    if [ ! -f /etc/iscsi/initiatorname.iscsi ]; then
-        echo "InitiatorName=$(/usr/sbin/iscsi-iname)" > \
-        /etc/iscsi/initiatorname.iscsi
-    fi
-
-    if [ -e /etc/init.d/populate-volatile.sh ]; then
-        /etc/init.d/populate-volatile.sh update
-    elif command -v systemd-tmpfiles >/dev/null; then
-        systemd-tmpfiles --create /etc/tmpfiles.d/iscsi.conf
-    fi
+    #default there is no initiatorname.iscsi installed\n    #but it is needed or iscsid will fail\n\n    #will run only when postinst on target\n    if [ "x$D" != "x" ]; then\n        exit 1\n    fi\n    if [ ! -f /etc/iscsi/initiatorname.iscsi ]; then\n        echo "InitiatorName=$(/usr/sbin/iscsi-iname)" > \\\n        /etc/iscsi/initiatorname.iscsi\n    fi\n\n    if [ -e /etc/init.d/populate-volatile.sh ]; then\n        /etc/init.d/populate-volatile.sh update\n    elif command -v systemd-tmpfiles >/dev/null; then\n        systemd-tmpfiles --create /etc/tmpfiles.d/iscsi.conf\n    fi\n

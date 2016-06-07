@@ -1,17 +1,17 @@
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root              220 ./etc/mc
 -rwxr-xr-x root       root              788 ./etc/mc/edit.indent.rc
--rw-r--r-- root       root             1134 ./etc/mc/filehighlight.ini
+-rw-r--r-- root       root             1174 ./etc/mc/filehighlight.ini
 -rw-r--r-- root       root             8626 ./etc/mc/mc.default.keymap
 -rw-r--r-- root       root            12627 ./etc/mc/mcedit.menu
 -rw-r--r-- root       root             8564 ./etc/mc/mc.emacs.keymap
--rw-r--r-- root       root            20965 ./etc/mc/mc.ext
--rw-r--r-- root       root             8626 ./etc/mc/mc.keymap
+-rw-r--r-- root       root            21033 ./etc/mc/mc.ext
+lrwxrwxrwx root       root               17 ./etc/mc/mc.keymap -> mc.default.keymap
 -rw-r--r-- root       root            11399 ./etc/mc/mc.menu
 -rw-r--r-- root       root              825 ./etc/mc/sfs.ini
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
--rwxr-xr-x root       root           572716 ./usr/bin/mc
+-rwxr-xr-x root       root           573620 ./usr/bin/mc
 lrwxrwxrwx root       root                2 ./usr/bin/mcdiff -> mc
 lrwxrwxrwx root       root                2 ./usr/bin/mcedit -> mc
 lrwxrwxrwx root       root                2 ./usr/bin/mcview -> mc
@@ -34,12 +34,12 @@ drwxr-xr-x root       root              180 ./usr/share/mc/examples/macros.d
 -rw-r--r-- root       root              149 ./usr/share/mc/examples/macros.d/macro.6.sh
 -rw-r--r-- root       root              179 ./usr/share/mc/examples/macros.d/macro.7.sh
 drwxr-xr-x root       root              180 ./usr/share/mc/help
--rw-r--r-- root       root           165566 ./usr/share/mc/help/mc.hlp
+-rw-r--r-- root       root           165857 ./usr/share/mc/help/mc.hlp
 -rw-r--r-- root       root           218957 ./usr/share/mc/help/mc.hlp.es
 -rw-r--r-- root       root           155815 ./usr/share/mc/help/mc.hlp.hu
 -rw-r--r-- root       root           149529 ./usr/share/mc/help/mc.hlp.it
 -rw-r--r-- root       root           149557 ./usr/share/mc/help/mc.hlp.pl
--rw-r--r-- root       root           309744 ./usr/share/mc/help/mc.hlp.ru
+-rw-r--r-- root       root           310189 ./usr/share/mc/help/mc.hlp.ru
 -rw-r--r-- root       root           217379 ./usr/share/mc/help/mc.hlp.sr
 drwxr-xr-x root       root             1020 ./usr/share/mc/hints
 -rw-r--r-- root       root             3023 ./usr/share/mc/hints/mc.hint
@@ -139,7 +139,7 @@ drwxr-xr-x root       root             1600 ./usr/share/mc/syntax
 -rw-r--r-- root       root            11687 ./usr/share/mc/syntax/ebuild.syntax
 -rw-r--r-- root       root             2987 ./usr/share/mc/syntax/eiffel.syntax
 -rw-r--r-- root       root            10052 ./usr/share/mc/syntax/erlang.syntax
--rw-r--r-- root       root             8868 ./usr/share/mc/syntax/f90.syntax
+-rw-r--r-- root       root             8961 ./usr/share/mc/syntax/f90.syntax
 -rw-r--r-- root       root             2360 ./usr/share/mc/syntax/filehighlight.syntax
 -rw-r--r-- root       root             8607 ./usr/share/mc/syntax/fortran.syntax
 -rw-r--r-- root       root             5152 ./usr/share/mc/syntax/go.syntax
@@ -148,7 +148,7 @@ drwxr-xr-x root       root             1600 ./usr/share/mc/syntax
 -rw-r--r-- root       root             3070 ./usr/share/mc/syntax/idl.syntax
 -rw-r--r-- root       root              220 ./usr/share/mc/syntax/ini.syntax
 -rw-r--r-- root       root            10281 ./usr/share/mc/syntax/jal.syntax
--rw-r--r-- root       root             3736 ./usr/share/mc/syntax/java.syntax
+-rw-r--r-- root       root             3909 ./usr/share/mc/syntax/java.syntax
 -rw-r--r-- root       root             5156 ./usr/share/mc/syntax/js.syntax
 -rw-r--r-- root       root             1588 ./usr/share/mc/syntax/j.syntax
 -rw-r--r-- root       root             8964 ./usr/share/mc/syntax/latex.syntax

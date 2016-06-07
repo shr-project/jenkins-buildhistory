@@ -1,9 +1,9 @@
 PV = git
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.11)
+RDEPENDS = glibc (>= 2.24) libpython3 (>= 3.5.1)
 RRECOMMENDS = 
-PKGSIZE = 453090
-FILES = /usr/lib/cmpi/libpyCmpiProvider.so /usr/lib/python2.7/site-packages/* /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/cmpi-bindings /usr/lib/cmpi-bindings/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/cmpi/libpyCmpiProvider.so /usr/lib/python2.7/site-packages/cmpi.py /usr/lib/python2.7/site-packages/cmpi.pyc /usr/lib/python2.7/site-packages/cmpi_pywbem_bindings.py /usr/lib/python2.7/site-packages/cmpi_pywbem_bindings.pyc
+PKGSIZE = 412479
+FILES = /usr/lib/cmpi/libpyCmpiProvider.so /usr/lib/python3.5/site-packages/* /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/cmpi-bindings /usr/lib/cmpi-bindings/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/cmpi/libpyCmpiProvider.so /usr/lib/python3.5/site-packages/__pycache__/cmpi.cpython-35.pyc /usr/lib/python3.5/site-packages/cmpi.py /usr/lib/python3.5/site-packages/cmpi_pywbem_bindings.py

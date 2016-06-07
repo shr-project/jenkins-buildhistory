@@ -1,8 +1,8 @@
 PV = 4.3
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.11) python-backports-ssl python-certifi python-compression python-core python-email python-html python-json python-numbers python-pkgutil python-subprocess
+RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.11) python-backports-abc python-backports-ssl python-certifi python-compression python-core python-email python-html python-json python-numbers python-pkgutil python-singledispatch python-subprocess
 RRECOMMENDS = 
 PKGSIZE = 1600859
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/python-tornado /usr/lib/python-tornado/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*

@@ -1,8 +1,8 @@
 PV = 2.2.21
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.24) libbz2 (>= 1.0.6) libcap (>= 2.24) libcrypto (>= 1.0.2h) libicudata (>= 56.1) libicui18n (>= 56.1) libicuuc (>= 56.1) liblzma (>= 5.2.2) libssl (>= 1.0.2h) shadow zlib (>= 1.2.8)
+RDEPENDS = base-files base-passwd glibc (>= 2.24) libbz2 (>= 1.0.6) libcap (>= 2.24) libcrypto (>= 1.0.2h) libicudata (>= 57.1) libicui18n (>= 57.1) libicuuc (>= 57.1) liblzma (>= 5.2.2) libssl (>= 1.0.2h) shadow zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 4230537
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dovecot /usr/lib/dovecot/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/dovecot/*plugin.so /usr/lib/dovecot/libfs_compress.so /usr/lib/dovecot/libssl_iostream_openssl.so /lib/systemd/system/dovecot.service /lib/systemd/system/dovecot.socket

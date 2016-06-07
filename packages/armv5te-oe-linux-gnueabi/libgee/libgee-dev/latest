@@ -1,10 +1,10 @@
 PE = 1
 PV = 0.18.0
 PR = r0
-PKGR = r0.11
 PKG = libgee-0.8-dev
+PKGR = r0.12
 RPROVIDES = libgee-dev (=0.18.0)
-RDEPENDS = libgee (= 1:0.18.0-r0.11)
+RDEPENDS = libgee (= 1:0.18.0-r0.12)
 RRECOMMENDS = glib-2.0-dev glibc-dev gobject-introspection-dev libffi-dev libpcre-dev vala-dev zlib-dev
 PKGSIZE = 573396
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libgee/*.la /lib/*.la /usr/share/vala/vapi/*.vapi /usr/share/vala/vapi/*.deps /usr/share/gir-1.0 /usr/share/gir-*/*.gir
