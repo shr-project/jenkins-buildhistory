@@ -1,9 +1,9 @@
 PV = 0.7.7
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libcap-ng (>= 0.7.7)
+RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 84610
-FILES = /usr/lib/python2.7
-FILELIST = /usr/lib/python2.7/site-packages/_capng.la /usr/lib/python2.7/site-packages/_capng.so /usr/lib/python2.7/site-packages/capng.py /usr/lib/python2.7/site-packages/capng.pyc /usr/lib/python2.7/site-packages/capng.pyo
+PKGSIZE = 83717
+FILES = /usr/lib/python3.5
+FILELIST = /usr/lib/python3.5/site-packages/__pycache__/capng.cpython-35.opt-1.pyc /usr/lib/python3.5/site-packages/__pycache__/capng.cpython-35.pyc /usr/lib/python3.5/site-packages/_capng.la /usr/lib/python3.5/site-packages/_capng.so /usr/lib/python3.5/site-packages/capng.py

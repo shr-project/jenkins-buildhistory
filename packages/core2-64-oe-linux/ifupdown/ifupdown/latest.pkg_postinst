@@ -1,11 +1,1 @@
-#!/bin/sh
-	update-alternatives --install /sbin/ifup ifup /sbin/ifup.ifupdown 100
-	update-alternatives --install /sbin/ifdown ifdown /sbin/ifdown.ifupdown 100
-if type update-rc.d >/dev/null 2>/dev/null; then
-	if [ -n "$D" ]; then
-		OPT="-r $D"
-	else
-		OPT="-s"
-	fi
-	update-rc.d $OPT ifup start 39 S . stop 39 0 6 1 .
-fi
+#!/bin/sh\n\tupdate-alternatives --install /sbin/ifup ifup /sbin/ifup.ifupdown 100\n\tupdate-alternatives --install /sbin/ifdown ifdown /sbin/ifdown.ifupdown 100\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT ifup start 39 S . stop 39 0 6 1 .\nfi\n

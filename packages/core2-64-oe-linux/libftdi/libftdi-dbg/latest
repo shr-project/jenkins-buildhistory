@@ -1,10 +1,10 @@
-PV = 1.2
+PV = 1.3
 PR = r0
-PKGR = r0.15
+PKGR = r0.0
 PKG = libftdi1-dbg
-RPROVIDES = libftdi-dbg (=1.2)
+RPROVIDES = libftdi-dbg (=1.3)
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg libusb1-dbg
-PKGSIZE = 270270
+PKGSIZE = 280293
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/lib/.debug/libftdi1.so.2.2.0 /usr/src/debug/libftdi/1.2-r0/build/src/ftdi_version_i.h /usr/src/debug/libftdi/1.2-r0/libftdi1-1.2/src/ftdi.c /usr/src/debug/libftdi/1.2-r0/libftdi1-1.2/src/ftdi.h /usr/src/debug/libftdi/1.2-r0/libftdi1-1.2/src/ftdi_i.h /usr/src/debug/libftdi/1.2-r0/libftdi1-1.2/src/ftdi_stream.c
+FILELIST = /usr/lib/.debug/libftdi1.so.2.3.0 /usr/src/debug/libftdi/1.3-r0/build/src/ftdi_version_i.h /usr/src/debug/libftdi/1.3-r0/libftdi1-1.3/src/ftdi.c /usr/src/debug/libftdi/1.3-r0/libftdi1-1.3/src/ftdi.h /usr/src/debug/libftdi/1.3-r0/libftdi1-1.3/src/ftdi_i.h /usr/src/debug/libftdi/1.3-r0/libftdi1-1.3/src/ftdi_stream.c

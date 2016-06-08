@@ -1,3 +1,1 @@
-    if [ -f /usr/bin/uim-module-manager ]; then
-        /usr/bin/uim-module-manager --path /etc/uim --unregister skk
-    fi
+    if [ -f /usr/bin/uim-module-manager ]; then\n        /usr/bin/uim-module-manager --path /etc/uim --unregister skk\n    fi\n

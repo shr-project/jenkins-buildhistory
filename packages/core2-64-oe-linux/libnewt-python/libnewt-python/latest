@@ -1,9 +1,9 @@
 PV = 0.52.18
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) python-core
+RDEPENDS = glibc (>= 2.24) python3-core
 RRECOMMENDS = 
-PKGSIZE = 71337
-FILES = /usr/lib/python2.7/site-packages/*
-FILELIST = /usr/lib/python2.7/site-packages/_snack.so /usr/lib/python2.7/site-packages/snack.py
+PKGSIZE = 68777
+FILES = /usr/lib/python3.5/site-packages/*
+FILELIST = /usr/lib/python3.5/site-packages/_snack.so /usr/lib/python3.5/site-packages/snack.py

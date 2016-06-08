@@ -1,7 +1,1 @@
-#!/bin/sh
-	update-alternatives --remove  add-shell /usr/sbin/add-shell.debianutils
-	update-alternatives --remove  installkernel /usr/sbin/installkernel.debianutils
-	update-alternatives --remove  remove-shell /usr/sbin/remove-shell.debianutils
-	update-alternatives --remove  savelog /usr/bin/savelog.debianutils
-	update-alternatives --remove  tempfile /bin/tempfile.debianutils
-	update-alternatives --remove  which /usr/bin/which.debianutils
+#!/bin/sh\n\tupdate-alternatives --remove  add-shell /usr/sbin/add-shell.debianutils\n\tupdate-alternatives --remove  installkernel /usr/sbin/installkernel.debianutils\n\tupdate-alternatives --remove  remove-shell /usr/sbin/remove-shell.debianutils\n\tupdate-alternatives --remove  savelog /usr/bin/savelog.debianutils\n\tupdate-alternatives --remove  tempfile /bin/tempfile.debianutils\n\tupdate-alternatives --remove  which /usr/bin/which.debianutils\n
