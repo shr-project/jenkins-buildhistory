@@ -1,7 +1,8 @@
 PV = 2.30.5
 PR = r1
-PKGR = r1.16
-RPROVIDES = gnome-menus-locale kg-translation
+PKGR = r1.17
+PKG = libgnome-menu-locale-kg
+RPROVIDES = gnome-menus-locale gnome-menus-locale-kg (=2.30.5) kg-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-kg
 PKGSIZE = 3341

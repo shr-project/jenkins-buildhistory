@@ -1,9 +1,10 @@
 PV = 2.30.5
 PR = r1
-PKGR = r1.16
-RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.48.1) glibc (>= 2.24) gnome-menus (>= 2.30.5) libffi (>= 3.2.1) libpcre (>= 8.38) libpython2 (>= 2.7.11) zlib (>= 1.2.8)
+PKGR = r1.17
+PKG = libgnome-menu-python
+RPROVIDES = gnome-menus-python (=2.30.5)
+RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 78366
-FILES = /usr/lib/python2.7/site-packages/gmenu.so /usr/lib/python2.7/site-packages/GMenuSimpleEditor
-FILELIST = /usr/lib/python2.7/site-packages/GMenuSimpleEditor/__init__.py /usr/lib/python2.7/site-packages/GMenuSimpleEditor/__init__.pyc /usr/lib/python2.7/site-packages/GMenuSimpleEditor/__init__.pyo /usr/lib/python2.7/site-packages/GMenuSimpleEditor/config.py /usr/lib/python2.7/site-packages/GMenuSimpleEditor/config.pyc /usr/lib/python2.7/site-packages/GMenuSimpleEditor/config.pyo /usr/lib/python2.7/site-packages/GMenuSimpleEditor/main.py /usr/lib/python2.7/site-packages/GMenuSimpleEditor/main.pyc /usr/lib/python2.7/site-packages/GMenuSimpleEditor/main.pyo /usr/lib/python2.7/site-packages/GMenuSimpleEditor/maindialog.py /usr/lib/python2.7/site-packages/GMenuSimpleEditor/maindialog.pyc /usr/lib/python2.7/site-packages/GMenuSimpleEditor/maindialog.pyo /usr/lib/python2.7/site-packages/GMenuSimpleEditor/menufilewriter.py /usr/lib/python2.7/site-packages/GMenuSimpleEditor/menufilewriter.pyc /usr/lib/python2.7/site-packages/GMenuSimpleEditor/menufilewriter.pyo /usr/lib/python2.7/site-packages/GMenuSimpleEditor/menutreemodel.py /usr/lib/python2.7/site-packages/GMenuSimpleEditor/menutreemodel.pyc /usr/lib/python2.7/site-packages/GMenuSimpleEditor/menutreemodel.pyo /usr/lib/python2.7/site-packages/gmenu.so
+PKGSIZE = 0
+FILES = /usr/lib/python3.5/site-packages/gmenu.so /usr/lib/python3.5/site-packages/GMenuSimpleEditor
+FILELIST = 

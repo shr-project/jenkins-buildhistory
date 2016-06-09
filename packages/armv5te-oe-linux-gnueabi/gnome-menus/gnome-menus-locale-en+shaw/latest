@@ -1,7 +1,8 @@
 PV = 2.30.5
 PR = r1
-PKGR = r1.16
-RPROVIDES = en+shaw-translation gnome-menus-locale
+PKGR = r1.17
+PKG = libgnome-menu-locale-en+shaw
+RPROVIDES = en+shaw-translation gnome-menus-locale gnome-menus-locale-en+shaw (=2.30.5)
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-en+shaw
 PKGSIZE = 5317

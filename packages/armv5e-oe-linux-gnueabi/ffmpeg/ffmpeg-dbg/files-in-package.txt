@@ -6,7 +6,7 @@ drwxr-xr-x root       root              100 ./usr/bin/.debug
 -rwxr-xr-x root       root           345220 ./usr/bin/.debug/ffserver
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              200 ./usr/lib/.debug
--rwxr-xr-x root       root         35325268 ./usr/lib/.debug/libavcodec.so.57.24.102
+-rwxr-xr-x root       root         35416792 ./usr/lib/.debug/libavcodec.so.57.24.102
 -rwxr-xr-x root       root           634068 ./usr/lib/.debug/libavdevice.so.57.0.101
 -rwxr-xr-x root       root          4599144 ./usr/lib/.debug/libavfilter.so.6.31.100
 -rwxr-xr-x root       root         12289524 ./usr/lib/.debug/libavformat.so.57.25.100
@@ -118,7 +118,7 @@ drwxr-xr-x root       root              400 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmp
 -rw-r--r-- root       root           128532 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/ffserver.c
 -rw-r--r-- root       root            50983 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/ffserver_config.c
 -rw-r--r-- root       root             5208 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/ffserver_config.h
-drwxr-xr-x root       root            21580 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec
+drwxr-xr-x root       root            21640 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec
 -rw-r--r-- root       root             4847 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/012v.c
 -rw-r--r-- root       root            34432 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/4xm.c
 -rw-r--r-- root       root             6117 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/8bps.c
@@ -841,6 +841,7 @@ drwxr-xr-x root       root             1180 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmp
 -rw-r--r-- root       root            38692 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/mpegvideo.h
 -rw-r--r-- root       root            38321 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/mpegvideo_motion.c
 -rw-r--r-- root       root             9342 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/mpegvideo_parser.c
+-rw-r--r-- root       root            13697 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/mpegvideo_xvmc.c
 -rw-r--r-- root       root             2888 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/mpl2dec.c
 -rw-r--r-- root       root             3260 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/mqc.c
 -rw-r--r-- root       root             2744 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/mqcdec.c
@@ -1242,6 +1243,8 @@ drwxr-xr-x root       root             1180 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmp
 -rw-r--r-- root       root             7662 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/xsubenc.c
 -rw-r--r-- root       root            10532 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/xvididct.c
 -rw-r--r-- root       root             1268 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/xvididct.h
+-rw-r--r-- root       root             6062 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/xvmc.h
+-rw-r--r-- root       root             1084 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/xvmc_internal.h
 -rw-r--r-- root       root             9060 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/xwddec.c
 -rw-r--r-- root       root             8891 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/xwdenc.c
 -rw-r--r-- root       root            13617 ./usr/src/debug/ffmpeg/3.0.2-r0/ffmpeg-3.0.2/libavcodec/xxan.c
