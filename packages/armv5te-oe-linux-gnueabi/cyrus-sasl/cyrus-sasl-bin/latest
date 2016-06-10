@@ -1,7 +1,7 @@
 PV = 2.1.26
 PR = r0
-PKGR = r0.13
 PKG = libsasl2-bin
+PKGR = r0.13
 RPROVIDES = cyrus-sasl-bin (=2.1.26)
 RDEPENDS = base-files base-passwd cyrus-sasl (>= 2.1.26) db (>= 6.0.30) glibc (>= 2.24) shadow
 RRECOMMENDS = 
