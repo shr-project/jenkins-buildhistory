@@ -1,10 +1,10 @@
 PV = 3.2.3+gitAUTOINC+a9e4e74ec4
 PR = r0
-PKGV = 3.2.3+git0+a9e4e74ec4
+PKGR = r0.25
 PKG = libebackend-1.2-dev
-PKGR = r0.24
+PKGV = 3.2.3+git0+a9e4e74ec4
 RPROVIDES = evolution-data-server-dev (=3.2.3+git0+a9e4e74ec4)
-RDEPENDS = evolution-data-server (= 3.2.3+git0+a9e4e74ec4-r0.24)
+RDEPENDS = evolution-data-server (= 3.2.3+git0+a9e4e74ec4-r0.25)
 RRECOMMENDS = db-dev dbus-dev dbus-glib-dev dbus-lib-dev gconf-dev gcr-dev glib-2.0-dev glibc-dev gmp-dev gnome-common-dev gnutls-dev gobject-introspection-dev gtk+3-dev json-glib-dev libcamel-dev libcap-dev libcrypto-dev libcurl-dev libebook-dev libecal-dev libedata-book-dev libedata-cal-dev libedataserver-dev libffi-dev libgcrypt-dev libgdata-dev libglade-dev libgnome-keyring-dev libgpg-error-dev libical-dev libicui18n-dev libicuuc-dev libidn-dev liblzma-dev liboauth-dev libpcre-dev libsoup-2.4-dev libsqlite3-dev libsystemd-dev libxml2-dev nettle-dev nspr-dev nss-dev p11-kit-dev zlib-dev
 PKGSIZE = 1251002
 FILES = /usr/lib/pkgconfig/evolution-data-server-*.pc /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/evolution-data-server/*.la /lib/*.la /usr/share/gir-*/*.gir
