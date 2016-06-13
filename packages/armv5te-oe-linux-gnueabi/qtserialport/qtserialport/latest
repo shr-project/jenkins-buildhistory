@@ -1,8 +1,8 @@
 PV = 5.6.99+5.7.0-beta+gitAUTOINC+84feab670c
 PR = r0
-PKGR = r0.14
-PKGV = 5.6.99+5.7.0-beta+git0+84feab670c
 PKG = libqt5serialport5
+PKGV = 5.6.99+5.7.0-beta+git0+84feab670c
+PKGR = r0.14
 RPROVIDES = qtserialport (=5.6.99+5.7.0-beta+git0+84feab670c)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) libudev (>= 229+git0+714c62b463) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1)
 RRECOMMENDS = qtserialport-plugins qtserialport-qmlplugins
