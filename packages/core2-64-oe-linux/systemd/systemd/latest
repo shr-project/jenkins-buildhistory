@@ -1,8 +1,8 @@
 PE = 1
 PV = 229+gitAUTOINC+714c62b463
 PR = r0
-PKGR = r0.16
 PKGV = 229+git0+714c62b463
+PKGR = r0.16
 RPROVIDES = 
 RDEPENDS = base-files base-passwd dbus glibc (>= 2.24) kmod libacl (>= 2.2.52) libattr (>= 2.4.47) libcap (>= 2.24) libkmod (>= 22+git0+42f32b8ae4) liblzma (>= 5.2.2) libxkbcommon (>= 0.6.1) shadow udev (= 1:229+git0+714c62b463-r0.16) update-alternatives-opkg update-rc.d util-linux-libmount (>= 2.27.1) util-linux-mount volatile-binds
 RRECOMMENDS = e2fsprogs-e2fsck kernel-module-autofs4 kernel-module-ipv6 kernel-module-unix os-release systemd-compat-units systemd-extra-utils systemd-serialgetty systemd-vconsole-setup udev-hwdb util-linux-agetty util-linux-fsck
