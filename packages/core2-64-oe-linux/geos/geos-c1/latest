@@ -1,10 +1,10 @@
 PV = 3.4.2
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libgeos-c1
 RPROVIDES = geos-c1 (=3.4.2)
-RDEPENDS = geoslib (>= 3.4.2) glibc (>= 2.24) libgcc (>= 5.3.0) libstdc++ (>= 5.3.0)
+RDEPENDS = geoslib (>= 3.4.2) glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 149578
+PKGSIZE = 149306
 FILES = /usr/lib/libgeos_c.so.*
 FILELIST = /usr/lib/libgeos_c.so.1 /usr/lib/libgeos_c.so.1.8.2

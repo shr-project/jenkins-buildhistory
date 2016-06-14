@@ -1,7 +1,7 @@
 PV = 0.4.0
 PR = r0
-PKG = libxcb-keysyms-dev
 PKGR = r0.14
+PKG = libxcb-keysyms-dev
 RPROVIDES = xcb-util-keysyms-dev (=0.4.0)
 RDEPENDS = xcb-util-keysyms (= 0.4.0-r0.14)
 RRECOMMENDS = glibc-dev libxau-dev libxcb-dev libxdmcp-dev
