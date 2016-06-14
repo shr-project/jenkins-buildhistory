@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.15.1
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = 
-RDEPENDS = ecore (>= 1.15.1) ecore-imf (>= 1.15.1) ecore-input (>= 1.15.1) efl (>= 1.15.1) eina (>= 1.15.1) eo (>= 1.15.1) evas (>= 1.15.1) expat (>= 2.1.1) fontconfig (>= 2.11.95) freetype (>= 2.6.3) fribidi (>= 0.19.7) glib-2.0 (>= 2.48.1) glibc (>= 2.24) libcrypto (>= 1.0.2h) libeet (>= 1.15.1) libgcc (>= 6.1.1) libjpeg-turbo (>= 8d+1.4.2) libpcre (>= 8.38) libpng (>= 1.6.22) libssl (>= 1.0.2h) libstdc++ (>= 6.1.1) libunwind (>= 1.1+git0+bc8698fd7e) luajit (>= 2.0.4) zlib (>= 1.2.8)
+RDEPENDS = ecore (>= 1.15.1) ecore-imf (>= 1.15.1) ecore-input (>= 1.15.1) efl (>= 1.15.1) eina (>= 1.15.1) eo (>= 1.15.1) evas (>= 1.15.1) expat (>= 2.1.1) fontconfig (>= 2.11.95) freetype (>= 2.6.3) fribidi (>= 0.19.7) glib-2.0 (>= 2.48.1) glibc (>= 2.24) libcrypto (>= 1.0.2h) libeet (>= 1.15.1) libgcc (>= 6.1.1) libjpeg-turbo (>= 1.5.0) libpcre (>= 8.38) libpng (>= 1.6.22) libssl (>= 1.0.2h) libstdc++ (>= 6.1.1) libunwind (>= 1.1+git0+bc8698fd7e) luajit (>= 2.0.4) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 7043
 FILES = /usr/lib/libecore_imf_evas.so.* /usr/lib/ecore-imf/modules/*/*/module.so
