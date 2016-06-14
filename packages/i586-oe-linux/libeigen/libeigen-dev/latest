@@ -1,9 +1,9 @@
-PV = 3.2.6
+PV = 3.2.8
 PR = r0
-PKGR = r0.19
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 2995
-FILES = /usr/share/cmake/Modules
-FILELIST = /usr/share/cmake/Modules/FindEigen3.cmake
+PKGSIZE = 3212
+FILES = /usr/share/cmake/Modules /usr/share/pkgconfig
+FILELIST = /usr/share/cmake/Modules/FindEigen3.cmake /usr/share/pkgconfig/eigen3.pc

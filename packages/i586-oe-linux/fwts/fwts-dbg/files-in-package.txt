@@ -1,14 +1,14 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               80 ./usr/bin/.debug
--rwxr-xr-x root       root           855240 ./usr/bin/.debug/fwts
--rwxr-xr-x root       root            26552 ./usr/bin/.debug/kernelscan
+-rwxr-xr-x root       root          1028568 ./usr/bin/.debug/fwts
+-rwxr-xr-x root       root            29348 ./usr/bin/.debug/kernelscan
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/fwts
 drwxr-xr-x root       root              100 ./usr/lib/fwts/.debug
--rwxr-xr-x root       root          2486856 ./usr/lib/fwts/.debug/libfwtsacpica.so.1.0.0
--rwxr-xr-x root       root          2520016 ./usr/lib/fwts/.debug/libfwtsiasl.so.1.0.0
--rwxr-xr-x root       root           381936 ./usr/lib/fwts/.debug/libfwts.so.1.0.0
+-rwxr-xr-x root       root          4102624 ./usr/lib/fwts/.debug/libfwtsacpica.so.1.0.0
+-rwxr-xr-x root       root          4400080 ./usr/lib/fwts/.debug/libfwtsiasl.so.1.0.0
+-rwxr-xr-x root       root           513364 ./usr/lib/fwts/.debug/libfwts.so.1.0.0
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/fwts
@@ -54,7 +54,7 @@ drwxr-xr-x root       root              300 ./usr/src/debug/fwts/14.12.00-r0/git
 -rw-r--r-- root       root            46534 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/common/dmtable.c
 -rw-r--r-- root       root            84099 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/common/dmtbdump.c
 -rw-r--r-- root       root           126260 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/common/dmtbinfo.c
-drwxr-xr-x root       root             1620 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler
+drwxr-xr-x root       root             1640 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler
 -rw-r--r-- root       root            21001 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/aslanalyze.c
 -rw-r--r-- root       root            13830 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/aslascii.c
 -rw-r--r-- root       root            18576 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/aslbtypes.c
@@ -118,6 +118,7 @@ drwxr-xr-x root       root             1620 ./usr/src/debug/fwts/14.12.00-r0/git
 -rw-r--r-- root       root             8706 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/dtparser.l
 -rw-r--r-- root       root            56453 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/dtparserlex.c
 -rw-r--r-- root       root            14290 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/dtparser.y
+-rw-r--r-- root       root             3763 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/dtparser.y.h
 -rw-r--r-- root       root            13938 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/dtsubtable.c
 -rw-r--r-- root       root            74668 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/dttable.c
 -rw-r--r-- root       root            15669 ./usr/src/debug/fwts/14.12.00-r0/git/src/acpica/source/compiler/dttemplate.c
