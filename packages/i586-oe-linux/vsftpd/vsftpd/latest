@@ -1,8 +1,8 @@
 PV = 3.0.3
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.24) libcap (>= 2.24) libwrap (>= 7.6) shadow
+RDEPENDS = base-files base-passwd glibc (>= 2.24) libcap (>= 2.25) libwrap (>= 7.6) shadow
 RRECOMMENDS = 
 PKGSIZE = 161759
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/vsftpd /usr/lib/vsftpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/vsftpd.service

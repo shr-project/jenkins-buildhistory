@@ -1,9 +1,9 @@
 PV = 0.16.1
 PR = r0
-PKGR = r0.25
 PKG = libgdata19
+PKGR = r0.26
 RPROVIDES = libgdata (=0.16.1)
-RDEPENDS = gcr (>= 3.20.0) glib-2.0 (>= 2.48.1) glibc (>= 2.24) gmp (>= 6.1.0) gnutls (>= 3.4.11) json-glib (>= 1.2.0) libcap (>= 2.24) libcrypto (>= 1.0.2h) libcurl (>= 7.47.1) libffi (>= 3.2.1) libgcrypt (>= 1.6.5) libgpg-error (>= 1.22) libidn (>= 1.32) liboauth (>= 1.0.3) libpcre (>= 8.38) libsoup-2.4 (>= 2.54.1) libsqlite3 (>= 3.13.0) libxml2 (>= 2.9.3) nettle (>= 3.2) p11-kit (>= 0.22.1) zlib (>= 1.2.8)
+RDEPENDS = gcr (>= 3.20.0) glib-2.0 (>= 2.48.1) glibc (>= 2.24) gmp (>= 6.1.0) gnutls (>= 3.4.11) json-glib (>= 1.2.0) libcap (>= 2.25) libcrypto (>= 1.0.2h) libcurl (>= 7.49.1) libffi (>= 3.2.1) libgcrypt (>= 1.7.0) libgpg-error (>= 1.22) libidn (>= 1.32) liboauth (>= 1.0.3) libpcre (>= 8.38) libsoup-2.4 (>= 2.54.1) libsqlite3 (>= 3.13.0) libxml2 (>= 2.9.4) nettle (>= 3.2) p11-kit (>= 0.22.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 1131050
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libgdata /usr/lib/libgdata/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/lib/girepository-*/*.typelib

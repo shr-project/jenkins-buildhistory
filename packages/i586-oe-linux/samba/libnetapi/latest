@@ -1,9 +1,9 @@
 PV = 4.4.2
 PR = r0
-PKGR = r0.18
 PKG = libnetapi0
+PKGR = r0.20
 RPROVIDES = libnetapi (=4.4.2)
-RDEPENDS = glibc (>= 2.24) libbsd (>= 0.8.2) libsamba-base (>= 4.4.2) libtalloc (>= 2.1.6) samba (>= 4.4.2)
+RDEPENDS = glibc (>= 2.24) libbsd (>= 0.8.3) libsamba-base (>= 4.4.2) libtalloc (>= 2.1.6) samba (>= 4.4.2)
 RRECOMMENDS = 
 PKGSIZE = 513488
 FILES = /usr/lib/libnetapi.so.*
