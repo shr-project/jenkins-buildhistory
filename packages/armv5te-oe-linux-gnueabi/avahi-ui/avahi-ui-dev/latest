@@ -1,9 +1,9 @@
 PV = 0.6.32
 PR = r0
 PKG = libavahi-ui-dev
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = avahi-ui-dev (=0.6.32)
-RDEPENDS = avahi-daemon (= 0.6.32-r0.17) avahi-ui libavahi-client (= 0.6.32-r0.17) libavahi-core (= 0.6.32-r0.17)
+RDEPENDS = avahi-daemon (= 0.6.32-r0.18) avahi-ui libavahi-client (= 0.6.32-r0.18) libavahi-core (= 0.6.32-r0.18)
 RRECOMMENDS = atk-dev avahi-daemon-dev avahi-dev base-files-dev cairo-dev dbus-dev dbus-lib-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+-dev harfbuzz-dev initscripts-dev libavahi-client-dev libavahi-common-dev libavahi-core-dev libavahi-glib-dev libcap-dev libdaemon-dev libffi-dev libglade-dev liblzma-dev libpcre-dev libpng-dev libsystemd-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxrender-dev pango-dev pixman-dev shadow-dev shadow-sysroot-dev update-rc.d-dev zlib-dev
 PKGSIZE = 9903
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/avahi-ui/*.la /lib/*.la /usr/lib/libavahi-ui.so /usr/share/gir-*/*.gir

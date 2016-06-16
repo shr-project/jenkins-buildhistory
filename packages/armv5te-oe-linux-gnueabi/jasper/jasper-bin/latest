@@ -1,10 +1,10 @@
 PV = 1.900.1
 PR = r1
 PKG = libjasper-bin
-PKGR = r1.14
+PKGR = r1.15
 RPROVIDES = jasper-bin (=1.900.1)
-RDEPENDS = glibc (>= 2.24) jasper (>= 1.900.1)
+RDEPENDS = freeglut (>= 3.0.0) glibc (>= 2.24) jasper (>= 1.900.1) libgl-mesa (>= 11.2.2) libglu (>= 9.0.0)
 RRECOMMENDS = 
-PKGSIZE = 33452
+PKGSIZE = 52428
 FILES = /usr/bin/* /usr/sbin/*
-FILELIST = /usr/bin/imgcmp /usr/bin/imginfo /usr/bin/jasper /usr/bin/tmrdemo
+FILELIST = /usr/bin/imgcmp /usr/bin/imginfo /usr/bin/jasper /usr/bin/jiv /usr/bin/tmrdemo

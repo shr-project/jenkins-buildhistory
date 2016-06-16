@@ -3,22 +3,22 @@ drwxr-xr-x root       root               80 ./etc
 drwxr-x--- root       root               40 ./etc/sudoers.d
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
----s--x--x root       root            83068 ./usr/bin/sudo
+---s--x--x root       root            87176 ./usr/bin/sudo
 lrwxrwxrwx root       root                4 ./usr/bin/sudoedit -> sudo
 -rwxr-xr-x root       root            35120 ./usr/bin/sudoreplay
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root              160 ./usr/libexec/sudo
 -rw-r--r-- root       root             5772 ./usr/libexec/sudo/group_file.so
--rwxr-xr-x root       root            72272 ./usr/libexec/sudo/libsudo_util.so.0.0.0
+-rwxr-xr-x root       root            72292 ./usr/libexec/sudo/libsudo_util.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/libexec/sudo/libsudo_util.so.0 -> libsudo_util.so.0.0.0
--rw-r--r-- root       root           215724 ./usr/libexec/sudo/sudoers.so
+-rw-r--r-- root       root           215776 ./usr/libexec/sudo/sudoers.so
 -rw-r--r-- root       root             5640 ./usr/libexec/sudo/sudo_noexec.so
 -rw-r--r-- root       root             5736 ./usr/libexec/sudo/system_group.so
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root              313 ./usr/lib/tmpfiles.d/sudo.conf
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root           141308 ./usr/sbin/visudo
+-rwxr-xr-x root       root           145444 ./usr/sbin/visudo
 drwxr-xr-x root       root               60 ./var
 drwxr-xr-x root       root               60 ./var/lib
 drwx--x--x root       root               60 ./var/lib/sudo
