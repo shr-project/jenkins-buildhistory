@@ -1,8 +1,8 @@
 PV = 0.10.36
 PR = r2
-PKGR = r2.16
+PKGR = r2.17
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.48.1) glibc (>= 2.24) libffi (>= 3.2.1) libpcre (>= 8.38) libxml2 (>= 2.9.3) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.48.1) glibc (>= 2.24) libffi (>= 3.2.1) libpcre (>= 8.38) libxml2 (>= 2.9.4) zlib (>= 1.2.8)
 RRECOMMENDS = kernel-module-snd-ens1370 kernel-module-snd-rawmidi
 PKGSIZE = 2069137
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gstreamer /usr/lib/gstreamer/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/gstreamer-0.10/*.so

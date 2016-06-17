@@ -1,8 +1,8 @@
 PV = 1.3.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libcap (>= 2.24) libevdev (>= 1.5.1) libudev (>= 229+git0+714c62b463) mtdev (>= 1.1.5)
+RDEPENDS = glibc (>= 2.24) libcap (>= 2.25) libevdev (>= 1.5.1) libudev (>= 229+git0+714c62b463) mtdev (>= 1.1.5)
 RRECOMMENDS = 
 PKGSIZE = 261039
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libinput /usr/lib/libinput/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/udev/

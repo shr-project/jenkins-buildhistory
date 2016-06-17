@@ -1,8 +1,8 @@
 PV = 4.4.2
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libbsd (>= 0.8.2) libldb (>= 1.1.26) libpython2 (>= 2.7.11) libsamba-base (>= 4.4.2) libtalloc (>= 2.1.6) libtevent (>= 0.9.28) samba (>= 4.4.2)
+RDEPENDS = glibc (>= 2.24) libbsd (>= 0.8.3) libldb (>= 1.1.26) libpython2 (>= 2.7.11) libsamba-base (>= 4.4.2) libtalloc (>= 2.1.6) libtevent (>= 0.9.28) samba (>= 4.4.2)
 RRECOMMENDS = 
 PKGSIZE = 8700082
 FILES = /usr/lib/python2.7/site-packages/*.so /usr/lib/python2.7/site-packages/_ldb_text.py /usr/lib/python2.7/site-packages/samba/*.py /usr/lib/python2.7/site-packages/samba/*.so /usr/lib/python2.7/site-packages/samba/dcerpc/*.so /usr/lib/python2.7/site-packages/samba/dcerpc/*.py /usr/lib/python2.7/site-packages/samba/external/* /usr/lib/python2.7/site-packages/samba/kcc/* /usr/lib/python2.7/site-packages/samba/netcmd/*.py /usr/lib/python2.7/site-packages/samba/provision/*.py /usr/lib/python2.7/site-packages/samba/samba3/*.py /usr/lib/python2.7/site-packages/samba/samba3/*.so /usr/lib/python2.7/site-packages/samba/subunit/* /usr/lib/python2.7/site-packages/samba/tests/* /usr/lib/python2.7/site-packages/samba/third_party/* /usr/lib/python2.7/site-packages/samba/web_server/*

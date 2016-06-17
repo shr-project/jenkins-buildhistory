@@ -1,9 +1,9 @@
 PV = master+gitAUTOINC+da9e19e69b
 PR = r0
+PKGR = r0.15
 PKGV = master+git0+da9e19e69b
-PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = netmap-dev (= master+git0+da9e19e69b-r0.14)
+RDEPENDS = netmap-dev (= master+git0+da9e19e69b-r0.15)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/netmap/*.a
