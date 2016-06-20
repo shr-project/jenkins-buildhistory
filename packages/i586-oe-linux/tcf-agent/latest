@@ -1,4 +1,4 @@
 PV = 1.3.0+gitAUTOINC+b9a735e9c7
 PR = r0
-DEPENDS = initscripts openssl systemd-systemctl-native update-rc.d update-rc.d-native util-linux virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+DEPENDS = openssl systemd-systemctl-native util-linux virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = tcf-agent-dbg tcf-agent-staticdev tcf-agent-dev tcf-agent-doc tcf-agent-locale tcf-agent

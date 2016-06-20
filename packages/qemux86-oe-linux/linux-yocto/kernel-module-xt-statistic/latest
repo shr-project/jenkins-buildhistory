@@ -1,10 +1,10 @@
-PV = 4.4.12+gitAUTOINC+8900370d33_1f3e98df09
+PV = 4.4.13+gitAUTOINC+870134f4bf_bc64c81245
 PR = r0
-PKGV = 4.4.12+git0+8900370d33_1f3e98df09
-PKGR = r0.5
+PKGV = 4.4.13+git0+870134f4bf_bc64c81245
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.12-yocto-standard kernel-module-x-tables
+RDEPENDS = kernel-4.4.13-yocto-standard kernel-module-x-tables
 RRECOMMENDS = 
 PKGSIZE = 3584
-FILES = /lib/modules/4.4.12-yocto-standard/kernel/net/netfilter/xt_statistic.ko /etc/modules-load.d/xt_statistic.conf /etc/modprobe.d/xt_statistic.conf
-FILELIST = /lib/modules/4.4.12-yocto-standard/kernel/net/netfilter/xt_statistic.ko
+FILES = /lib/modules/4.4.13-yocto-standard/kernel/net/netfilter/xt_statistic.ko /etc/modules-load.d/xt_statistic.conf /etc/modprobe.d/xt_statistic.conf
+FILELIST = /lib/modules/4.4.13-yocto-standard/kernel/net/netfilter/xt_statistic.ko

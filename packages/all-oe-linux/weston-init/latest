@@ -1,4 +1,4 @@
 PV = 1.0
 PR = r0
-DEPENDS = initscripts systemd-systemctl-native update-rc.d update-rc.d-native
+DEPENDS = systemd-systemctl-native
 PACKAGES = weston-init-dbg weston-init-staticdev weston-init-dev weston-init-doc weston-init-locale weston-init

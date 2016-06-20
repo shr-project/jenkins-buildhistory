@@ -1,9 +1,9 @@
 PV = 6.1.1
 PR = r0
+PKGR = r0.3
 PKG = libgcc-s-dev
-PKGR = r0.2
 RPROVIDES = libgcc-dev (=6.1.1)
-RDEPENDS = libgcc (= 6.1.1-r0.2)
+RDEPENDS = libgcc (= 6.1.1-r0.3)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 7665082
 FILES = /lib/libgcc*.so /usr/lib/i586-oe-linux/6.1.1* /usr/lib/i586-oe*

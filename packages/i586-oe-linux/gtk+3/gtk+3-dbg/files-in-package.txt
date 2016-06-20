@@ -1,7 +1,7 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              220 ./usr/bin/.debug
--rwxr-xr-x root       root           986980 ./usr/bin/.debug/gtk3-demo
+-rwxr-xr-x root       root           828236 ./usr/bin/.debug/gtk3-demo
 -rwxr-xr-x root       root            34776 ./usr/bin/.debug/gtk3-demo-application
 -rwxr-xr-x root       root           106176 ./usr/bin/.debug/gtk3-icon-browser
 -rwxr-xr-x root       root           103464 ./usr/bin/.debug/gtk3-widget-factory
@@ -13,8 +13,8 @@ drwxr-xr-x root       root              220 ./usr/bin/.debug
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              100 ./usr/lib/.debug
 -rwxr-xr-x root       root            62956 ./usr/lib/.debug/libgailutil-3.so.0.0.0
--rwxr-xr-x root       root          3661620 ./usr/lib/.debug/libgdk-3.so.0.1800.8
--rwxr-xr-x root       root         16157820 ./usr/lib/.debug/libgtk-3.so.0.1800.8
+-rwxr-xr-x root       root          3661676 ./usr/lib/.debug/libgdk-3.so.0.1800.8
+-rwxr-xr-x root       root         16157812 ./usr/lib/.debug/libgtk-3.so.0.1800.8
 drwxr-xr-x root       root               60 ./usr/lib/gtk-3.0
 drwxr-xr-x root       root               80 ./usr/lib/gtk-3.0/3.0.0
 drwxr-xr-x root       root               60 ./usr/lib/gtk-3.0/3.0.0/immodules
@@ -51,10 +51,12 @@ drwxr-xr-x root       root              160 ./usr/src/debug/gtk+3/3.18.8-r0/buil
 -rw-r--r-- root       root             1833 ./usr/src/debug/gtk+3/3.18.8-r0/build/gdk/wayland/pointer-gestures-protocol.c
 -rw-r--r-- root       root            18822 ./usr/src/debug/gtk+3/3.18.8-r0/build/gdk/wayland/xdg-shell-client-protocol.h
 -rw-r--r-- root       root             3668 ./usr/src/debug/gtk+3/3.18.8-r0/build/gdk/wayland/xdg-shell-protocol.c
-drwxr-xr-x root       root              100 ./usr/src/debug/gtk+3/3.18.8-r0/build/gtk
+drwxr-xr-x root       root              140 ./usr/src/debug/gtk+3/3.18.8-r0/build/gtk
 -rw-r--r-- root       root            67179 ./usr/src/debug/gtk+3/3.18.8-r0/build/gtk/gtkdbusgenerated.c
 -rw-r--r-- root       root            11024 ./usr/src/debug/gtk+3/3.18.8-r0/build/gtk/gtkdbusgenerated.h
+-rw-r--r-- root       root         14062359 ./usr/src/debug/gtk+3/3.18.8-r0/build/gtk/gtkresources.c
 -rw-r--r-- root       root            19007 ./usr/src/debug/gtk+3/3.18.8-r0/build/gtk/gtktypebuiltins.h
+-rw-r--r-- root       root            17187 ./usr/src/debug/gtk+3/3.18.8-r0/build/gtk/gtktypefuncs.c
 drwxr-xr-x root       root              140 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8
 drwxr-xr-x root       root              100 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos
 drwxr-xr-x root       root             1380 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos/gtk-demo
@@ -84,7 +86,7 @@ drwxr-xr-x root       root             1380 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root            13164 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos/gtk-demo/flowbox.c
 -rw-r--r-- root       root             6754 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos/gtk-demo/font_features.c
 -rw-r--r-- root       root             6352 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos/gtk-demo/gestures.c
--rw-r--r-- root       root            10611 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos/gtk-demo/glarea.c
+-rw-r--r-- root       root            10765 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos/gtk-demo/glarea.c
 -rw-r--r-- root       root             2416 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos/gtk-demo/headerbar.c
 -rw-r--r-- root       root             9348 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos/gtk-demo/hypertext.c
 -rw-r--r-- root       root             9147 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/demos/gtk-demo/iconview.c
@@ -157,7 +159,7 @@ drwxr-xr-x root       root               80 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root             1859 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkdevicemanager.h
 -rw-r--r-- root       root             2045 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkdevicemanagerprivate.h
 -rw-r--r-- root       root             7568 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkdeviceprivate.h
--rw-r--r-- root       root            64580 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkdisplay.c
+-rw-r--r-- root       root            64662 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkdisplay.c
 -rw-r--r-- root       root             7461 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkdisplay.h
 -rw-r--r-- root       root            14483 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkdisplaymanager.c
 -rw-r--r-- root       root             2430 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkdisplaymanager.h
@@ -176,8 +178,8 @@ drwxr-xr-x root       root               80 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root             3490 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkframeclockprivate.h
 -rw-r--r-- root       root             6522 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkframetimings.c
 -rw-r--r-- root       root             2018 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkframetimings.h
--rw-r--r-- root       root            25652 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkgl.c
--rw-r--r-- root       root            22627 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkglcontext.c
+-rw-r--r-- root       root            25782 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkgl.c
+-rw-r--r-- root       root            22705 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkglcontext.c
 -rw-r--r-- root       root             3886 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkglcontext.h
 -rw-r--r-- root       root             3396 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkglcontextprivate.h
 -rw-r--r-- root       root             1468 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkglobals.c
@@ -214,7 +216,7 @@ drwxr-xr-x root       root               80 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root            13447 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkvisual.c
 -rw-r--r-- root       root             5577 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkvisual.h
 -rw-r--r-- root       root             1652 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkvisualprivate.h
--rw-r--r-- root       root           346449 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkwindow.c
+-rw-r--r-- root       root           346736 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkwindow.c
 -rw-r--r-- root       root            46365 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkwindow.h
 -rw-r--r-- root       root             1800 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkwindowimpl.c
 -rw-r--r-- root       root            15786 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/gdkwindowimpl.h
@@ -253,7 +255,7 @@ drwxr-xr-x root       root             1160 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root            62462 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkdevicemanager-xi2.c
 -rw-r--r-- root       root            29462 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkdevice-xi2.c
 -rw-r--r-- root       root             1715 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkdisplaymanager-x11.c
--rw-r--r-- root       root            89783 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkdisplay-x11.c
+-rw-r--r-- root       root            89833 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkdisplay-x11.c
 -rw-r--r-- root       root             4375 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkdisplay-x11.h
 -rw-r--r-- root       root            76229 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkdnd-x11.c
 -rw-r--r-- root       root            12288 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkeventsource.c
@@ -267,13 +269,13 @@ drwxr-xr-x root       root             1160 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root            12840 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkmain-x11.c
 -rw-r--r-- root       root            19345 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkprivate-x11.h
 -rw-r--r-- root       root            15683 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkproperty-x11.c
--rw-r--r-- root       root            54953 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkscreen-x11.c
+-rw-r--r-- root       root            55097 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkscreen-x11.c
 -rw-r--r-- root       root             3701 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkscreen-x11.h
 -rw-r--r-- root       root            22661 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkselection-x11.c
 -rw-r--r-- root       root             4185 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdksettings.c
 -rw-r--r-- root       root             6217 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdktestutils-x11.c
 -rw-r--r-- root       root            15578 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkvisual-x11.c
--rw-r--r-- root       root           172038 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkwindow-x11.c
+-rw-r--r-- root       root           172090 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkwindow-x11.c
 -rw-r--r-- root       root             6945 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkwindow-x11.h
 -rw-r--r-- root       root             2138 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkx11applaunchcontext.h
 -rw-r--r-- root       root             2803 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/gdkx11cursor.h
@@ -298,7 +300,7 @@ drwxr-xr-x root       root             1160 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root             3706 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/MwmUtil.h
 -rw-r--r-- root       root            17815 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/xsettings-client.c
 -rw-r--r-- root       root             1530 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gdk/x11/xsettings-client.h
-drwxr-xr-x root       root            15360 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk
+drwxr-xr-x root       root            15320 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk
 drwxr-xr-x root       root             2400 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/a11y
 -rw-r--r-- root       root            30054 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/a11y/gtkaccessibility.c
 -rw-r--r-- root       root             1107 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/a11y/gtkaccessibility.h
@@ -862,7 +864,7 @@ drwxr-xr-x root       root             1760 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root             2126 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkgesturezoom.h
 -rw-r--r-- root       root             1286 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkgesturezoomprivate.h
 -rw-r--r-- root       root             1746 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkgladecatalog.c
--rw-r--r-- root       root            38415 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkglarea.c
+-rw-r--r-- root       root            38861 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkglarea.c
 -rw-r--r-- root       root             5210 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkglarea.h
 -rw-r--r-- root       root            71052 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkgrid.c
 -rw-r--r-- root       root             5828 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkgrid.h
@@ -1074,7 +1076,6 @@ drwxr-xr-x root       root             1760 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root             4998 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkrendericon.c
 -rw-r--r-- root       root             2027 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkrendericonprivate.h
 -rw-r--r-- root       root             1307 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkrenderprivate.h
--rw-r--r-- root       root         14062359 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkresources.c
 -rw-r--r-- root       root              220 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkresources.h
 -rw-r--r-- root       root            34230 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkrevealer.c
 -rw-r--r-- root       root             3450 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkrevealer.h
@@ -1244,7 +1245,6 @@ drwxr-xr-x root       root             1760 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root            28132 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtktreeview.h
 -rw-r--r-- root       root            88735 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtktypebuiltins.c
 -rw-r--r-- root       root            19007 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtktypebuiltins.h
--rw-r--r-- root       root            17161 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtktypefuncs.c
 -rw-r--r-- root       root             2544 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtktypes.h
 -rw-r--r-- root       root            35781 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkviewport.c
 -rw-r--r-- root       root             3724 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/gtkviewport.h
@@ -1279,7 +1279,7 @@ drwxr-xr-x root       root             1180 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+
 -rw-r--r-- root       root             2708 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/inspector/css-node-tree.h
 -rw-r--r-- root       root             4640 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/inspector/data-list.c
 -rw-r--r-- root       root             2128 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/inspector/data-list.h
--rw-r--r-- root       root            15257 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/inspector/general.c
+-rw-r--r-- root       root            15335 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/inspector/general.c
 -rw-r--r-- root       root             1968 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/inspector/general.h
 -rw-r--r-- root       root             8375 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/inspector/gestures.c
 -rw-r--r-- root       root             2108 ./usr/src/debug/gtk+3/3.18.8-r0/gtk+-3.18.8/gtk/inspector/gestures.h
