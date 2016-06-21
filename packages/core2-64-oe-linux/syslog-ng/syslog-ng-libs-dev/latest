@@ -1,10 +1,10 @@
 PV = 3.6.4
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 PKG = libsyslog-ng-3.5-dev
 RPROVIDES = syslog-ng-libs-dev (=3.6.4)
 RDEPENDS = 
-RRECOMMENDS = eventlog-dev flex-dev glib-2.0-dev glibc-dev initscripts-dev libcap-dev libcrypto-dev liblzma-dev libpcre-dev libssl-dev libsystemd-dev openssl-dev systemd-dev update-rc.d-dev util-linux-dev util-linux-libuuid-dev
+RRECOMMENDS = eventlog-dev flex-dev glib-2.0-dev glibc-dev libcap-dev libcrypto-dev liblzma-dev libpcre-dev libssl-dev libsystemd-dev openssl-dev systemd-dev util-linux-dev util-linux-libuuid-dev
 PKGSIZE = 23210
 FILES = /usr/lib/syslog-ng/lib*.la
 FILELIST = /usr/lib/syslog-ng/libaffile.la /usr/lib/syslog-ng/libafprog.la /usr/lib/syslog-ng/libafsocket-notls.la /usr/lib/syslog-ng/libafsocket-tls.la /usr/lib/syslog-ng/libafstomp.la /usr/lib/syslog-ng/libafuser.la /usr/lib/syslog-ng/libbasicfuncs.la /usr/lib/syslog-ng/libconfgen.la /usr/lib/syslog-ng/libcryptofuncs.la /usr/lib/syslog-ng/libcsvparser.la /usr/lib/syslog-ng/libdbparser.la /usr/lib/syslog-ng/libgraphite.la /usr/lib/syslog-ng/liblinux-kmsg-format.la /usr/lib/syslog-ng/libpseudofile.la /usr/lib/syslog-ng/libsdjournal.la /usr/lib/syslog-ng/libsyslog-ng-crypto.la /usr/lib/syslog-ng/libsyslogformat.la /usr/lib/syslog-ng/libsystem-source.la

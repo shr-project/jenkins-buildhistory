@@ -1,9 +1,9 @@
 PV = 0.6.32
 PR = r0
-PKGR = r0.18
-PKG = libavahi-ui-staticdev
+PKGR = r0.19
+PKG = libavahi-ui-gtk3-staticdev
 RPROVIDES = avahi-ui-staticdev (=0.6.32)
-RDEPENDS = avahi-ui-dev (= 0.6.32-r0.18)
+RDEPENDS = avahi-ui-dev (= 0.6.32-r0.19)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/avahi-ui/*.a /usr/lib/libavahi-ui.a

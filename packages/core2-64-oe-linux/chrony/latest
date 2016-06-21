@@ -1,4 +1,4 @@
 PV = 2.4
 PR = r0
-DEPENDS = initscripts libedit pps-tools systemd-systemctl-native update-rc.d update-rc.d-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
-PACKAGES = chrony-dbg chrony-staticdev chrony-dev chrony-doc chrony-locale chrony chronyc
+DEPENDS = libedit pps-tools systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = chronyc chrony-dbg chrony-staticdev chrony-dev chrony-doc chrony-locale chrony

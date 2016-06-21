@@ -1,4 +1,4 @@
 PV = 0.9.2
 PR = r0
-DEPENDS = autoconf-native automake-native base-files gnu-config-native initscripts libbsd libevent libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native update-rc.d update-rc.d-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = autoconf-native automake-native base-files gnu-config-native libbsd libevent libtool-cross libtool-native pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = lldpd-zsh-completion lldpd-dbg lldpd-staticdev lldpd-dev lldpd-doc lldpd-locale lldpd lldpd-bash-completion
