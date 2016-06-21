@@ -1,4 +1,4 @@
 PV = git
 PR = r0
-DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native gobject-introspection gobject-introspection-native gstreamer1.0 gstreamer1.0-plugins-base gtk+ gtk-doc-stub-native libtool-cross libtool-native pkgconfig-native python3-native qemu-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native gobject-introspection gobject-introspection-native gstreamer1.0 gstreamer1.0-plugins-base gtk+3 gtk-doc-stub-native libtool-cross libtool-native pkgconfig-native python3-native qemu-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = gst-player-dbg gst-player-staticdev gst-player-dev gst-player-doc gst-player-locale gst-player-bin gst-player

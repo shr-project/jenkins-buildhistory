@@ -1,9 +1,10 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              200 ./usr/include
-drwxr-xr-x root       root              900 ./usr/include/libdvbv5
+drwxr-xr-x root       root              920 ./usr/include/libdvbv5
 -rw-r--r-- root       root             6633 ./usr/include/libdvbv5/atsc_eit.h
 -rw-r--r-- root       root             1756 ./usr/include/libdvbv5/atsc_header.h
 -rw-r--r-- root       root             3017 ./usr/include/libdvbv5/cat.h
+-rw-r--r-- root       root            13626 ./usr/include/libdvbv5/countries.h
 -rw-r--r-- root       root             1743 ./usr/include/libdvbv5/crc32.h
 -rw-r--r-- root       root             4145 ./usr/include/libdvbv5/desc_atsc_service_location.h
 -rw-r--r-- root       root             3900 ./usr/include/libdvbv5/desc_cable_delivery.h
@@ -26,13 +27,13 @@ drwxr-xr-x root       root              900 ./usr/include/libdvbv5
 -rw-r--r-- root       root             4971 ./usr/include/libdvbv5/desc_terrestrial_delivery.h
 -rw-r--r-- root       root             4398 ./usr/include/libdvbv5/desc_ts_info.h
 -rw-r--r-- root       root             4200 ./usr/include/libdvbv5/dvb-demux.h
--rw-r--r-- root       root            26114 ./usr/include/libdvbv5/dvb-fe.h
--rw-r--r-- root       root            16274 ./usr/include/libdvbv5/dvb-file.h
+-rw-r--r-- root       root            26647 ./usr/include/libdvbv5/dvb-fe.h
+-rw-r--r-- root       root            16275 ./usr/include/libdvbv5/dvb-file.h
 -rw-r--r-- root       root            15975 ./usr/include/libdvbv5/dvb-frontend.h
 -rw-r--r-- root       root             3222 ./usr/include/libdvbv5/dvb-log.h
 -rw-r--r-- root       root             4165 ./usr/include/libdvbv5/dvb-sat.h
--rw-r--r-- root       root            13539 ./usr/include/libdvbv5/dvb-scan.h
--rw-r--r-- root       root             8838 ./usr/include/libdvbv5/dvb-v5-std.h
+-rw-r--r-- root       root            13958 ./usr/include/libdvbv5/dvb-scan.h
+-rw-r--r-- root       root             9045 ./usr/include/libdvbv5/dvb-v5-std.h
 -rw-r--r-- root       root             6889 ./usr/include/libdvbv5/eit.h
 -rw-r--r-- root       root             3991 ./usr/include/libdvbv5/header.h
 -rw-r--r-- root       root             5609 ./usr/include/libdvbv5/mgt.h
@@ -52,9 +53,9 @@ drwxr-xr-x root       root              900 ./usr/include/libdvbv5
 -rw-r--r-- root       root             1757 ./usr/include/libv4l-plugin.h
 drwxr-xr-x root       root               80 ./usr/include/mediactl
 -rw-r--r-- root       root            13706 ./usr/include/mediactl/mediactl.h
--rw-r--r-- root       root             9010 ./usr/include/mediactl/v4l2subdev.h
+-rw-r--r-- root       root             9634 ./usr/include/mediactl/v4l2subdev.h
 drwxr-xr-x root       root              360 ./usr/lib
--rwxr-xr-x root       root              911 ./usr/lib/libdvbv5.la
+-rwxr-xr-x root       root              916 ./usr/lib/libdvbv5.la
 -rwxr-xr-x root       root              925 ./usr/lib/libmediactl.la
 drwxr-xr-x root       root              100 ./usr/lib/libv4l
 -rwxr-xr-x root       root              994 ./usr/lib/libv4l1.la
@@ -72,11 +73,11 @@ drwxr-xr-x root       root               60 ./usr/lib/libv4l/plugins
 -rwxr-xr-x root       root             1031 ./usr/lib/libv4l/v4l1compat.la
 -rwxr-xr-x root       root             1016 ./usr/lib/libv4l/v4l2convert.la
 drwxr-xr-x root       root              160 ./usr/lib/pkgconfig
--rw-r--r-- root       root              185 ./usr/lib/pkgconfig/libdvbv5.pc
--rw-r--r-- root       root              195 ./usr/lib/pkgconfig/libmediactl.pc
--rw-r--r-- root       root              238 ./usr/lib/pkgconfig/libv4l1.pc
--rw-r--r-- root       root              244 ./usr/lib/pkgconfig/libv4l2.pc
--rw-r--r-- root       root              215 ./usr/lib/pkgconfig/libv4l2rds.pc
--rw-r--r-- root       root              233 ./usr/lib/pkgconfig/libv4lconvert.pc
+-rw-r--r-- root       root              186 ./usr/lib/pkgconfig/libdvbv5.pc
+-rw-r--r-- root       root              196 ./usr/lib/pkgconfig/libmediactl.pc
+-rw-r--r-- root       root              239 ./usr/lib/pkgconfig/libv4l1.pc
+-rw-r--r-- root       root              245 ./usr/lib/pkgconfig/libv4l2.pc
+-rw-r--r-- root       root              216 ./usr/lib/pkgconfig/libv4l2rds.pc
+-rw-r--r-- root       root              234 ./usr/lib/pkgconfig/libv4lconvert.pc
 lrwxrwxrwx root       root               20 ./usr/lib/v4l1compat.so -> libv4l/v4l1compat.so
 lrwxrwxrwx root       root               21 ./usr/lib/v4l2convert.so -> libv4l/v4l2convert.so

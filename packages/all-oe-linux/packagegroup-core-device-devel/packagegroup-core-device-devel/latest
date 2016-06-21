@@ -1,8 +1,8 @@
 PV = 1.0
 PR = r1
-PKGR = r1.13
+PKGR = r1.14
 RPROVIDES = qemu-config
-RDEPENDS = bash distcc-config nfs-export-root oprofileui-server
+RDEPENDS = bash binutils-symlinks distcc-config nfs-export-root
 RRECOMMENDS = 
 RREPLACES = qemu-config
 RCONFLICTS = qemu-config
