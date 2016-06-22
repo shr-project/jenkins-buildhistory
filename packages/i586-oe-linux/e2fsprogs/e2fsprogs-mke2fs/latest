@@ -1,8 +1,8 @@
-PV = 1.43.
-PR = r0
-PKGR = r0.1
+PV = 1.43
+PR = r1
+PKGR = r1.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libcomerr (>= 1.43.) libe2p (>= 1.43.) libext2fs (>= 1.43.) util-linux-libblkid (>= 2.27.1) util-linux-libuuid (>= 2.27.1)
+RDEPENDS = glibc (>= 2.24) libcomerr (>= 1.43) libe2p (>= 1.43) libext2fs (>= 1.43) util-linux-libblkid (>= 2.27.1) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = 
 PKGSIZE = 634125
 FILES = /sbin/mke2fs /sbin/mkfs.ext* /etc/mke2fs.conf
