@@ -1,10 +1,10 @@
 PV = 3.0.2
 PR = r0
 PKG = libavcodec57
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = libavcodec (=3.0.2)
 RDEPENDS = glibc (>= 2.24) libavutil (>= 3.0.2) liblzma (>= 5.2.2) libswresample (>= 3.0.2) libtheora (>= 1.1.1) x264 (>= r2491+git0+c8a773ebfc) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 14409203
+PKGSIZE = 14404211
 FILES = /usr/lib/libavcodec.so.57 /usr/lib/libavcodec.so.57.24.102
 FILELIST = /usr/lib/libavcodec.so.57 /usr/lib/libavcodec.so.57.24.102

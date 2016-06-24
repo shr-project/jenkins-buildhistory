@@ -1,10 +1,10 @@
 PV = r2491+gitAUTOINC+c8a773ebfc
 PR = r0
-PKGV = r2491+git0+c8a773ebfc
 PKG = libx264-staticdev
-PKGR = r0.21
+PKGV = r2491+git0+c8a773ebfc
+PKGR = r0.22
 RPROVIDES = x264-staticdev (=r2491+git0+c8a773ebfc)
-RDEPENDS = x264-dev (= r2491+git0+c8a773ebfc-r0.21)
+RDEPENDS = x264-dev (= r2491+git0+c8a773ebfc-r0.22)
 RRECOMMENDS = 
 PKGSIZE = 5447936
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/x264/*.a

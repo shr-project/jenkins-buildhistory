@@ -1,8 +1,8 @@
 PV = 1.0
 PR = r2
-PKGR = r2.20
+PKGR = r2.21
 RPROVIDES = 
-RDEPENDS = initramfs-framework-base
+RDEPENDS = busybox-mdev initramfs-framework-base
 RRECOMMENDS = 
 PKGSIZE = 504
 FILES = /init.d/01-mdev
