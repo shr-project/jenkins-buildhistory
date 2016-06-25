@@ -1,9 +1,9 @@
 PV = 1.43
 PR = r1
-PKGR = r1.0
+PKGR = r1.1
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) libcomerr (>= 1.43) libe2p (>= 1.43) libext2fs (>= 1.43) util-linux-libblkid (>= 2.27.1) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = 
-PKGSIZE = 197488
+PKGSIZE = 197424
 FILES = /sbin/tune2fs /sbin/e2label
 FILELIST = /sbin/e2label /sbin/tune2fs

@@ -1,9 +1,9 @@
 PV = 1.2.0
 PR = r1
-PKGR = r1.22
+PKGR = r1.23
 RPROVIDES = 
-RDEPENDS = expat (>= 2.1.1) glib-2.0 (>= 2.48.1) glibc (>= 2.24) gstreamer1.0 (>= 1.8.1) libdrm (>= 2.4.68) libegl-mesa (>= 11.2.2) libffi (>= 3.2.1) libgbm (>= 11.2.2) libglapi (>= 11.2.2) libgles2-mesa (>= 11.2.2) libgstaudio-1.0 (>= 1.8.1) libgstgl-1.0 (>= 1.6.3) libgstpbutils-1.0 (>= 1.8.1) libgsttag-1.0 (>= 1.8.1) libgstvideo-1.0 (>= 1.8.1) libomxil liborc-0.4 (>= 0.4.25) libpcre (>= 8.38) libwayland-egl (>= 11.2.2) libx11 (>= 1.6.3) libx11-xcb (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.12) libxcb-dri2 (>= 1.12) libxcb-xfixes (>= 1.12) libxdmcp (>= 1.1.2) wayland (>= 1.10.0) zlib (>= 1.2.8)
+RDEPENDS = expat (>= 2.1.1) glib-2.0 (>= 2.48.1) glibc (>= 2.24) gstreamer1.0 (>= 1.8.1) libdrm (>= 2.4.68) libegl-mesa (>= 11.2.2) libffi (>= 3.2.1) libgbm (>= 11.2.2) libglapi (>= 11.2.2) libgles2-mesa (>= 11.2.2) libgstallocators-1.0 (>= 1.8.1) libgstaudio-1.0 (>= 1.8.1) libgstgl-1.0 (>= 1.8.1) libgstpbutils-1.0 (>= 1.8.1) libgsttag-1.0 (>= 1.8.1) libgstvideo-1.0 (>= 1.8.1) libomxil liborc-0.4 (>= 0.4.25) libpcre (>= 8.38) libwayland-egl (>= 11.2.2) libx11 (>= 1.6.3) libx11-xcb (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.12) libxcb-dri2 (>= 1.12) libxcb-xfixes (>= 1.12) libxdmcp (>= 1.1.2) wayland (>= 1.10.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 221041
+PKGSIZE = 221073
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gstreamer1.0-omx /usr/lib/gstreamer1.0-omx/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/gstreamer-1.0/*.so
 FILELIST = /etc/xdg/gstomx.conf /usr/lib/gstreamer-1.0/libgstomx.so
