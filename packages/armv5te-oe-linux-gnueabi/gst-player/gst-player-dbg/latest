@@ -1,10 +1,9 @@
 PV = git
 PR = r0
-PKG = libgstplayer-0.0-dbg
-PKGR = r0.19
-RPROVIDES = gst-player-dbg (=git)
+PKGR = r0.20
+RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glib-2.0-dbg glibc-dbg gstreamer1.0-dbg gtk+3-dbg libffi-dbg libgstaudio-1.0-dbg libgstpbutils-1.0-dbg libgsttag-1.0-dbg libgstvideo-1.0-dbg liborc-0.4-dbg libpcre-dbg zlib-dbg
-PKGSIZE = 317684
+RRECOMMENDS = gdk-pixbuf-dbg glib-2.0-dbg glibc-dbg gstreamer1.0-dbg gtk+3-dbg libgstplayer-1.0-dbg libgsttag-1.0-dbg libx11-dbg
+PKGSIZE = 491597
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/gst-play /usr/bin/.debug/gtk-play /usr/lib/.debug/libgstplayer-0.0.so.0.0.0 /usr/src/debug/gst-player/git-r0/git/gst-play/gst-play-kb.c /usr/src/debug/gst-player/git-r0/git/gst-play/gst-play-kb.h /usr/src/debug/gst-player/git-r0/git/gst-play/gst-play.c /usr/src/debug/gst-player/git-r0/git/gtk/gtk-play.c /usr/src/debug/gst-player/git-r0/git/lib/gst/player/gstplayer.c /usr/src/debug/gst-player/git-r0/git/lib/gst/player/gstplayer.h
+FILELIST = /usr/bin/.debug/gst-play /usr/bin/.debug/gtk-play /usr/src/debug/gst-player/git-r0/build/gtk/gtk-play-resources.c /usr/src/debug/gst-player/git-r0/git/gst-play/gst-play-kb.c /usr/src/debug/gst-player/git-r0/git/gst-play/gst-play-kb.h /usr/src/debug/gst-player/git-r0/git/gst-play/gst-play.c /usr/src/debug/gst-player/git-r0/git/gtk/gtk-play.c /usr/src/debug/gst-player/git-r0/git/gtk/gtk-video-renderer.c /usr/src/debug/gst-player/git-r0/git/gtk/gtk-video-renderer.h
