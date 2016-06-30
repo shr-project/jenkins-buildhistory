@@ -1,7 +1,7 @@
 PV = 2.4.43
 PR = r0
-PKG = libldap-2.4-slapd
 PKGR = r0.23
+PKG = libldap-2.4-slapd
 RPROVIDES = openldap-slapd (=2.4.43)
 RDEPENDS = glibc (>= 2.24) libltdl (>= 2.4.6) openldap (>= 2.4.43) util-linux-libuuid (>= 2.27.1)
 RRECOMMENDS = 
