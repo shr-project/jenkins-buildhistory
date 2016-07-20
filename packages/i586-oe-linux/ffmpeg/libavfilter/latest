@@ -1,10 +1,10 @@
-PV = 3.0.2
+PV = 3.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.0
 PKG = libavfilter6
-RPROVIDES = libavfilter (=3.0.2)
-RDEPENDS = glibc (>= 2.24) libavcodec (>= 3.0.2) libavformat (>= 3.0.2) libavutil (>= 3.0.2) libpostproc (>= 3.0.2) libswresample (>= 3.0.2) libswscale (>= 3.0.2)
+RPROVIDES = libavfilter (=3.1)
+RDEPENDS = glibc (>= 2.24) libavcodec (>= 3.1) libavformat (>= 3.1) libavutil (>= 3.1) libpostproc (>= 3.1) libswresample (>= 3.1) libswscale (>= 3.1)
 RRECOMMENDS = 
-PKGSIZE = 1707975
-FILES = /usr/lib/libavfilter.so.6 /usr/lib/libavfilter.so.6.31.100
-FILELIST = /usr/lib/libavfilter.so.6 /usr/lib/libavfilter.so.6.31.100
+PKGSIZE = 1999271
+FILES = /usr/lib/libavfilter.so.6 /usr/lib/libavfilter.so.6.46.102
+FILELIST = /usr/lib/libavfilter.so.6 /usr/lib/libavfilter.so.6.46.102

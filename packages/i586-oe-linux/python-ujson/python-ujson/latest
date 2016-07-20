@@ -1,8 +1,8 @@
 PV = 1.35
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) python-core python-numbers
+RDEPENDS = glibc (>= 2.24) python-core python-datetime python-numbers
 RRECOMMENDS = 
 PKGSIZE = 65379
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/python-ujson /usr/lib/python-ujson/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*

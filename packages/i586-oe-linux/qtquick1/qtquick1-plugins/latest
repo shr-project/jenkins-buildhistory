@@ -1,11 +1,11 @@
 PV = 5.6.99+5.7.0-beta+gitAUTOINC+5e3bd5cb28
 PR = r0
 PKGV = 5.6.99+5.7.0-beta+git0+5e3bd5cb28
-PKGR = r0.20
+PKGR = r0.21
 PKG = libqt5declarative-plugins
 RPROVIDES = qtquick1-plugins (=5.6.99+5.7.0-beta+git0+5e3bd5cb28)
 RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.1.1) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtquick1 (>= 5.6.99+5.7.0-beta+git0+5e3bd5cb28)
 RRECOMMENDS = 
-PKGSIZE = 159376
+PKGSIZE = 170252
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
-FILELIST = /usr/lib/qt5/plugins/qml1tooling/libqmldbg_inspector.so /usr/lib/qt5/plugins/qml1tooling/libqmldbg_tcp_qtdeclarative.so
+FILELIST = /usr/lib/qt5/plugins/designer/libqdeclarativeview.so /usr/lib/qt5/plugins/qml1tooling/libqmldbg_inspector.so /usr/lib/qt5/plugins/qml1tooling/libqmldbg_tcp_qtdeclarative.so

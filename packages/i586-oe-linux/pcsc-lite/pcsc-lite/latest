@@ -1,8 +1,8 @@
 PV = 1.8.13
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = pcsc-lite-systemd
-RDEPENDS = glibc (>= 2.24) libudev (>= 229+git0+714c62b463) python
+RDEPENDS = glibc (>= 2.24) libudev (>= 230+git0+3a74d4fc90) python
 RRECOMMENDS = ccid
 RREPLACES = pcsc-lite-systemd
 RCONFLICTS = pcsc-lite-systemd

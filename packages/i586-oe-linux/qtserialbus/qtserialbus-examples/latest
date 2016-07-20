@@ -1,0 +1,11 @@
+PV = 5.6.99+5.7.0-beta+gitAUTOINC+f9201ca7ba
+PR = r0
+PKGV = 5.6.99+5.7.0-beta+git0+f9201ca7ba
+PKGR = r0.0
+PKG = libqt5serialbus-examples
+RPROVIDES = qtserialbus-examples (=5.6.99+5.7.0-beta+git0+f9201ca7ba)
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.1.1) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtserialbus (>= 5.6.99+5.7.0-beta+git0+f9201ca7ba) qtserialport (>= 5.6.99+5.7.0-beta+git0+84feab670c)
+RRECOMMENDS = 
+PKGSIZE = 622224
+FILES = /usr/share/qt5/examples/*
+FILELIST = /usr/share/qt5/examples/serialbus/can/can /usr/share/qt5/examples/serialbus/modbus/adueditor/adueditor /usr/share/qt5/examples/serialbus/modbus/master/modbusmaster /usr/share/qt5/examples/serialbus/modbus/slave/modbusslave

@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r2
-PKGR = r2.21
+PKGR = r2.22
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 4909
-FILES = /init /init.d/99-finish /dev
-FILELIST = /dev/console /init /init.d/99-finish
+PKGSIZE = 5663
+FILES = /init /init.d/90-rootfs /init.d/99-finish /dev
+FILELIST = /dev/console /init /init.d/90-rootfs /init.d/99-finish

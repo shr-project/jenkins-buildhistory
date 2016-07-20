@@ -10,46 +10,47 @@ drwxr-xr-x root       root               60 ./etc/default/volatiles
 -rw-r--r-- root       root            12077 ./etc/mime.conf.default
 -rw-r--r-- root       root             2315 ./etc/squid.conf
 -rw-r--r-- root       root             2315 ./etc/squid.conf.default
--rw-r--r-- root       root           286981 ./etc/squid.conf.documented
+-rw-r--r-- root       root           290628 ./etc/squid.conf.documented
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root            39256 ./usr/bin/purge
--rwxr-xr-x root       root            75644 ./usr/bin/squidclient
-drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root              580 ./usr/lib/squid
--rwxr-xr-x root       root             5398 ./usr/lib/squid/basic_db_auth
--rwxr-xr-x root       root            19264 ./usr/lib/squid/basic_ldap_auth
--rwxr-xr-x root       root             8620 ./usr/lib/squid/basic_nis_auth
--rwxr-xr-x root       root             8820 ./usr/lib/squid/basic_sasl_auth
--rwxr-xr-x root       root            61016 ./usr/lib/squid/cachemgr.cgi
--rwxr-xr-x root       root            26740 ./usr/lib/squid/digest_edirectory_auth
--rwxr-xr-x root       root            17052 ./usr/lib/squid/digest_file_auth
--rwxr-xr-x root       root            22596 ./usr/lib/squid/digest_ldap_auth
--rwxr-xr-x root       root            14668 ./usr/lib/squid/diskd
--rwxr-xr-x root       root             7869 ./usr/lib/squid/ext_delayer_acl
--rwxr-xr-x root       root            37316 ./usr/lib/squid/ext_edirectory_userip_acl
--rwxr-xr-x root       root            11556 ./usr/lib/squid/ext_file_userip_acl
--rwxr-xr-x root       root            19764 ./usr/lib/squid/ext_ldap_group_acl
--rwxr-xr-x root       root             7516 ./usr/lib/squid/ext_session_acl
--rwxr-xr-x root       root             5050 ./usr/lib/squid/ext_sql_session_acl
--rwxr-xr-x root       root            10228 ./usr/lib/squid/ext_unix_group_acl
--rwxr-xr-x root       root             5063 ./usr/lib/squid/ext_wbinfo_group_acl
--rwxr-xr-x root       root             5393 ./usr/lib/squid/helper-mux.pl
--rwxr-xr-x root       root            12448 ./usr/lib/squid/log_db_daemon
--rwxr-xr-x root       root             7380 ./usr/lib/squid/log_file_daemon
--rwxr-xr-x root       root            14288 ./usr/lib/squid/negotiate_wrapper_auth
--rwxr-xr-x root       root            18376 ./usr/lib/squid/ntlm_fake_auth
--rwxr-xr-x root       root            60440 ./usr/lib/squid/ntlm_smb_lm_auth
--rwxr-xr-x root       root             3907 ./usr/lib/squid/storeid_file_rewrite
--rwxr-xr-x root       root             4616 ./usr/lib/squid/unlinkd
--rwxr-xr-x root       root             6020 ./usr/lib/squid/url_fake_rewrite
--rwxr-xr-x root       root             2526 ./usr/lib/squid/url_fake_rewrite.sh
+-rwxr-xr-x root       root            39252 ./usr/bin/purge
+-rwxr-xr-x root       root            73712 ./usr/bin/squidclient
+drwxr-xr-x root       root              660 ./usr/libexec
+-rwxr-xr-x root       root             5398 ./usr/libexec/basic_db_auth
+-rwxr-xr-x root       root            19312 ./usr/libexec/basic_ldap_auth
+-rwxr-xr-x root       root             8488 ./usr/libexec/basic_nis_auth
+-rwxr-xr-x root       root             8724 ./usr/libexec/basic_sasl_auth
+-rwxr-xr-x root       root            68084 ./usr/libexec/cachemgr.cgi
+-rwxr-xr-x root       root             2515 ./usr/libexec/cert_tool
+-rwxr-xr-x root       root            27188 ./usr/libexec/digest_edirectory_auth
+-rwxr-xr-x root       root            18424 ./usr/libexec/digest_file_auth
+-rwxr-xr-x root       root            22700 ./usr/libexec/digest_ldap_auth
+-rwxr-xr-x root       root            14712 ./usr/libexec/diskd
+-rwxr-xr-x root       root             7869 ./usr/libexec/ext_delayer_acl
+-rwxr-xr-x root       root            37716 ./usr/libexec/ext_edirectory_userip_acl
+-rwxr-xr-x root       root            11436 ./usr/libexec/ext_file_userip_acl
+-rwxr-xr-x root       root             5476 ./usr/libexec/ext_kerberos_ldap_group_acl
+-rwxr-xr-x root       root            19860 ./usr/libexec/ext_ldap_group_acl
+-rwxr-xr-x root       root             7564 ./usr/libexec/ext_session_acl
+-rwxr-xr-x root       root             5050 ./usr/libexec/ext_sql_session_acl
+-rwxr-xr-x root       root            10168 ./usr/libexec/ext_unix_group_acl
+-rwxr-xr-x root       root             5063 ./usr/libexec/ext_wbinfo_group_acl
+-rwxr-xr-x root       root             5393 ./usr/libexec/helper-mux.pl
+-rwxr-xr-x root       root            12448 ./usr/libexec/log_db_daemon
+-rwxr-xr-x root       root             7464 ./usr/libexec/log_file_daemon
+-rwxr-xr-x root       root             4640 ./usr/libexec/negotiate_kerberos_auth
+-rwxr-xr-x root       root             4052 ./usr/libexec/negotiate_kerberos_auth_test
+-rwxr-xr-x root       root            14280 ./usr/libexec/negotiate_wrapper_auth
+-rwxr-xr-x root       root            18360 ./usr/libexec/ntlm_fake_auth
+-rwxr-xr-x root       root            61096 ./usr/libexec/ntlm_smb_lm_auth
+-rwxr-xr-x root       root             3907 ./usr/libexec/storeid_file_rewrite
+-rwxr-xr-x root       root             4700 ./usr/libexec/unlinkd
+-rwxr-xr-x root       root             6020 ./usr/libexec/url_fake_rewrite
+-rwxr-xr-x root       root             2526 ./usr/libexec/url_fake_rewrite.sh
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root          5321576 ./usr/sbin/squid
+-rwxr-xr-x root       root          5350240 ./usr/sbin/squid
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root             3380 ./usr/share/errors
--rw-r--r-- root       root             2241 ./usr/share/errors/COPYRIGHT
--rw-r--r-- root       root             3720 ./usr/share/errors/TRANSLATORS
 drwxr-xr-x root       root              880 ./usr/share/errors/af
 -rw-r--r-- root       root             1062 ./usr/share/errors/af/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1230 ./usr/share/errors/af/ERR_ACL_TIME_QUOTA_EXCEEDED
@@ -80,6 +81,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/af
 -rw-r--r-- root       root             1035 ./usr/share/errors/af/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1000 ./usr/share/errors/af/ERR_NO_RELAY
 -rw-r--r-- root       root             1206 ./usr/share/errors/af/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/af/error-details.txt
 -rw-r--r-- root       root              993 ./usr/share/errors/af/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1089 ./usr/share/errors/af/ERR_READ_ERROR
 -rw-r--r-- root       root             1148 ./usr/share/errors/af/ERR_READ_TIMEOUT
@@ -92,24 +94,11 @@ drwxr-xr-x root       root              880 ./usr/share/errors/af
 -rw-r--r-- root       root              994 ./usr/share/errors/af/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1091 ./usr/share/errors/af/ERR_WRITE_ERROR
 -rw-r--r-- root       root              984 ./usr/share/errors/af/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/af/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ae -> ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-bh -> ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-dz -> ar
 lrwxrwxrwx root       root                2 ./usr/share/errors/ar-eg -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-iq -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-jo -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-kw -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-lb -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ly -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ma -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-om -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-qa -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-sa -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-sy -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-tn -> ar
-lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ye -> ar
 -rw-r--r-- root       root             1061 ./usr/share/errors/ar/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1221 ./usr/share/errors/ar/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1528 ./usr/share/errors/ar/ERR_AGENT_CONFIGURE
@@ -139,6 +128,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ye -> ar
 -rw-r--r-- root       root             1013 ./usr/share/errors/ar/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              988 ./usr/share/errors/ar/ERR_NO_RELAY
 -rw-r--r-- root       root             1197 ./usr/share/errors/ar/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/ar/error-details.txt
 -rw-r--r-- root       root              990 ./usr/share/errors/ar/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1056 ./usr/share/errors/ar/ERR_READ_ERROR
 -rw-r--r-- root       root             1098 ./usr/share/errors/ar/ERR_READ_TIMEOUT
@@ -151,7 +141,18 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ye -> ar
 -rw-r--r-- root       root              970 ./usr/share/errors/ar/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1049 ./usr/share/errors/ar/ERR_WRITE_ERROR
 -rw-r--r-- root       root              961 ./usr/share/errors/ar/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/ar/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-iq -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-jo -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-kw -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-lb -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ly -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ma -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-om -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-qa -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-sa -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-sy -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-tn -> ar
+lrwxrwxrwx root       root                2 ./usr/share/errors/ar-ye -> ar
 drwxr-xr-x root       root              880 ./usr/share/errors/az
 lrwxrwxrwx root       root                2 ./usr/share/errors/az-az -> az
 -rw-r--r-- root       root             1070 ./usr/share/errors/az/ERR_ACCESS_DENIED
@@ -183,6 +184,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/az-az -> az
 -rw-r--r-- root       root             1013 ./usr/share/errors/az/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1016 ./usr/share/errors/az/ERR_NO_RELAY
 -rw-r--r-- root       root             1173 ./usr/share/errors/az/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/az/error-details.txt
 -rw-r--r-- root       root              993 ./usr/share/errors/az/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1060 ./usr/share/errors/az/ERR_READ_ERROR
 -rw-r--r-- root       root             1125 ./usr/share/errors/az/ERR_READ_TIMEOUT
@@ -195,7 +197,6 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/az-az -> az
 -rw-r--r-- root       root              982 ./usr/share/errors/az/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1052 ./usr/share/errors/az/ERR_WRITE_ERROR
 -rw-r--r-- root       root              973 ./usr/share/errors/az/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/az/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/bg
 lrwxrwxrwx root       root                2 ./usr/share/errors/bg-bg -> bg
 -rw-r--r-- root       root             1358 ./usr/share/errors/bg/ERR_ACCESS_DENIED
@@ -227,6 +228,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/bg-bg -> bg
 -rw-r--r-- root       root             1290 ./usr/share/errors/bg/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1177 ./usr/share/errors/bg/ERR_NO_RELAY
 -rw-r--r-- root       root             1666 ./usr/share/errors/bg/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/bg/error-details.txt
 -rw-r--r-- root       root             1140 ./usr/share/errors/bg/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1328 ./usr/share/errors/bg/ERR_READ_ERROR
 -rw-r--r-- root       root             1513 ./usr/share/errors/bg/ERR_READ_TIMEOUT
@@ -239,7 +241,6 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/bg-bg -> bg
 -rw-r--r-- root       root             1206 ./usr/share/errors/bg/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1330 ./usr/share/errors/bg/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1143 ./usr/share/errors/bg/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/bg/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/ca
 -rw-r--r-- root       root             1095 ./usr/share/errors/ca/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1242 ./usr/share/errors/ca/ERR_ACL_TIME_QUOTA_EXCEEDED
@@ -270,6 +271,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ca
 -rw-r--r-- root       root             1058 ./usr/share/errors/ca/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1033 ./usr/share/errors/ca/ERR_NO_RELAY
 -rw-r--r-- root       root             1240 ./usr/share/errors/ca/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/ca/error-details.txt
 -rw-r--r-- root       root              997 ./usr/share/errors/ca/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1071 ./usr/share/errors/ca/ERR_READ_ERROR
 -rw-r--r-- root       root             1134 ./usr/share/errors/ca/ERR_READ_TIMEOUT
@@ -282,7 +284,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/ca
 -rw-r--r-- root       root              984 ./usr/share/errors/ca/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1066 ./usr/share/errors/ca/ERR_WRITE_ERROR
 -rw-r--r-- root       root              982 ./usr/share/errors/ca/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/ca/error-details.txt
+-rw-r--r-- root       root             2241 ./usr/share/errors/COPYRIGHT
 drwxr-xr-x root       root              880 ./usr/share/errors/cs
 lrwxrwxrwx root       root                2 ./usr/share/errors/cs-cz -> cs
 -rw-r--r-- root       root             1051 ./usr/share/errors/cs/ERR_ACCESS_DENIED
@@ -314,6 +316,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/cs-cz -> cs
 -rw-r--r-- root       root              996 ./usr/share/errors/cs/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              973 ./usr/share/errors/cs/ERR_NO_RELAY
 -rw-r--r-- root       root             1199 ./usr/share/errors/cs/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/cs/error-details.txt
 -rw-r--r-- root       root              975 ./usr/share/errors/cs/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1053 ./usr/share/errors/cs/ERR_READ_ERROR
 -rw-r--r-- root       root             1094 ./usr/share/errors/cs/ERR_READ_TIMEOUT
@@ -326,7 +329,6 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/cs-cz -> cs
 -rw-r--r-- root       root              965 ./usr/share/errors/cs/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1039 ./usr/share/errors/cs/ERR_WRITE_ERROR
 -rw-r--r-- root       root              956 ./usr/share/errors/cs/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/cs/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/da
 lrwxrwxrwx root       root                2 ./usr/share/errors/da-dk -> da
 -rw-r--r-- root       root             1050 ./usr/share/errors/da/ERR_ACCESS_DENIED
@@ -358,6 +360,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/da-dk -> da
 -rw-r--r-- root       root             1055 ./usr/share/errors/da/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              979 ./usr/share/errors/da/ERR_NO_RELAY
 -rw-r--r-- root       root             1243 ./usr/share/errors/da/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/da/error-details.txt
 -rw-r--r-- root       root              973 ./usr/share/errors/da/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1038 ./usr/share/errors/da/ERR_READ_ERROR
 -rw-r--r-- root       root             1082 ./usr/share/errors/da/ERR_READ_TIMEOUT
@@ -370,13 +373,10 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/da-dk -> da
 -rw-r--r-- root       root              977 ./usr/share/errors/da/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1027 ./usr/share/errors/da/ERR_WRITE_ERROR
 -rw-r--r-- root       root              953 ./usr/share/errors/da/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/da/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/de
 lrwxrwxrwx root       root                2 ./usr/share/errors/de-at -> de
 lrwxrwxrwx root       root                2 ./usr/share/errors/de-ch -> de
 lrwxrwxrwx root       root                2 ./usr/share/errors/de-de -> de
-lrwxrwxrwx root       root                2 ./usr/share/errors/de-li -> de
-lrwxrwxrwx root       root                2 ./usr/share/errors/de-lu -> de
 -rw-r--r-- root       root             1088 ./usr/share/errors/de/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1303 ./usr/share/errors/de/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1580 ./usr/share/errors/de/ERR_AGENT_CONFIGURE
@@ -406,6 +406,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/de-lu -> de
 -rw-r--r-- root       root             1035 ./usr/share/errors/de/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1018 ./usr/share/errors/de/ERR_NO_RELAY
 -rw-r--r-- root       root             1257 ./usr/share/errors/de/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/de/error-details.txt
 -rw-r--r-- root       root             1020 ./usr/share/errors/de/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1067 ./usr/share/errors/de/ERR_READ_ERROR
 -rw-r--r-- root       root             1166 ./usr/share/errors/de/ERR_READ_TIMEOUT
@@ -418,9 +419,9 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/de-lu -> de
 -rw-r--r-- root       root             1008 ./usr/share/errors/de/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1086 ./usr/share/errors/de/ERR_WRITE_ERROR
 -rw-r--r-- root       root              988 ./usr/share/errors/de/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/de/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/de-li -> de
+lrwxrwxrwx root       root                2 ./usr/share/errors/de-lu -> de
 drwxr-xr-x root       root              880 ./usr/share/errors/el
-lrwxrwxrwx root       root                2 ./usr/share/errors/el-gr -> el
 -rw-r--r-- root       root             1195 ./usr/share/errors/el/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1324 ./usr/share/errors/el/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1583 ./usr/share/errors/el/ERR_AGENT_CONFIGURE
@@ -450,6 +451,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/el-gr -> el
 -rw-r--r-- root       root             1173 ./usr/share/errors/el/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1110 ./usr/share/errors/el/ERR_NO_RELAY
 -rw-r--r-- root       root             1359 ./usr/share/errors/el/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/el/error-details.txt
 -rw-r--r-- root       root             1044 ./usr/share/errors/el/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1199 ./usr/share/errors/el/ERR_READ_ERROR
 -rw-r--r-- root       root             1257 ./usr/share/errors/el/ERR_READ_TIMEOUT
@@ -462,23 +464,11 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/el-gr -> el
 -rw-r--r-- root       root             1071 ./usr/share/errors/el/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1190 ./usr/share/errors/el/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1100 ./usr/share/errors/el/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/el/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/el-gr -> el
 drwxr-xr-x root       root              880 ./usr/share/errors/en
 lrwxrwxrwx root       root                2 ./usr/share/errors/en-au -> en
 lrwxrwxrwx root       root                2 ./usr/share/errors/en-bz -> en
 lrwxrwxrwx root       root                2 ./usr/share/errors/en-ca -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-gb -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-ie -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-in -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-jm -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-nz -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-ph -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-sg -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-tt -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-uk -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-us -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-za -> en
-lrwxrwxrwx root       root                2 ./usr/share/errors/en-zw -> en
 -rw-r--r-- root       root             1060 ./usr/share/errors/en/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1220 ./usr/share/errors/en/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1527 ./usr/share/errors/en/ERR_AGENT_CONFIGURE
@@ -508,6 +498,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/en-zw -> en
 -rw-r--r-- root       root             1012 ./usr/share/errors/en/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              987 ./usr/share/errors/en/ERR_NO_RELAY
 -rw-r--r-- root       root             1196 ./usr/share/errors/en/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/en/error-details.txt
 -rw-r--r-- root       root              989 ./usr/share/errors/en/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1048 ./usr/share/errors/en/ERR_READ_ERROR
 -rw-r--r-- root       root             1097 ./usr/share/errors/en/ERR_READ_TIMEOUT
@@ -520,7 +511,18 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/en-zw -> en
 -rw-r--r-- root       root              969 ./usr/share/errors/en/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1042 ./usr/share/errors/en/ERR_WRITE_ERROR
 -rw-r--r-- root       root              960 ./usr/share/errors/en/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/en/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-gb -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-ie -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-in -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-jm -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-nz -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-ph -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-sg -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-tt -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-uk -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-us -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-za -> en
+lrwxrwxrwx root       root                2 ./usr/share/errors/en-zw -> en
 drwxr-xr-x root       root              880 ./usr/share/errors/es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-ar -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-bo -> es
@@ -529,19 +531,6 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/es-co -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-cr -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-do -> es
 lrwxrwxrwx root       root                2 ./usr/share/errors/es-ec -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-es -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-gt -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-hn -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-mx -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-ni -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-pa -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-pe -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-pr -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-py -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-sv -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-us -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-uy -> es
-lrwxrwxrwx root       root                2 ./usr/share/errors/es-ve -> es
 -rw-r--r-- root       root             1114 ./usr/share/errors/es/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1264 ./usr/share/errors/es/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1611 ./usr/share/errors/es/ERR_AGENT_CONFIGURE
@@ -571,6 +560,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/es-ve -> es
 -rw-r--r-- root       root             1091 ./usr/share/errors/es/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1036 ./usr/share/errors/es/ERR_NO_RELAY
 -rw-r--r-- root       root             1276 ./usr/share/errors/es/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/es/error-details.txt
 -rw-r--r-- root       root              998 ./usr/share/errors/es/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1065 ./usr/share/errors/es/ERR_READ_ERROR
 -rw-r--r-- root       root             1202 ./usr/share/errors/es/ERR_READ_TIMEOUT
@@ -583,7 +573,19 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/es-ve -> es
 -rw-r--r-- root       root              984 ./usr/share/errors/es/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1071 ./usr/share/errors/es/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1029 ./usr/share/errors/es/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/es/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-es -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-gt -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-hn -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-mx -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-ni -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-pa -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-pe -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-pr -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-py -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-sv -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-us -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-uy -> es
+lrwxrwxrwx root       root                2 ./usr/share/errors/es-ve -> es
 drwxr-xr-x root       root              880 ./usr/share/errors/et
 lrwxrwxrwx root       root                2 ./usr/share/errors/et-ee -> et
 -rw-r--r-- root       root             1063 ./usr/share/errors/et/ERR_ACCESS_DENIED
@@ -615,6 +617,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/et-ee -> et
 -rw-r--r-- root       root              974 ./usr/share/errors/et/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              981 ./usr/share/errors/et/ERR_NO_RELAY
 -rw-r--r-- root       root             1209 ./usr/share/errors/et/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/et/error-details.txt
 -rw-r--r-- root       root              973 ./usr/share/errors/et/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1039 ./usr/share/errors/et/ERR_READ_ERROR
 -rw-r--r-- root       root             1094 ./usr/share/errors/et/ERR_READ_TIMEOUT
@@ -627,10 +630,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/et-ee -> et
 -rw-r--r-- root       root              950 ./usr/share/errors/et/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1035 ./usr/share/errors/et/ERR_WRITE_ERROR
 -rw-r--r-- root       root              954 ./usr/share/errors/et/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/et/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/fa
-lrwxrwxrwx root       root                2 ./usr/share/errors/fa-fa -> fa
-lrwxrwxrwx root       root                2 ./usr/share/errors/fa-ir -> fa
 -rw-r--r-- root       root             1120 ./usr/share/errors/fa/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1271 ./usr/share/errors/fa/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1540 ./usr/share/errors/fa/ERR_AGENT_CONFIGURE
@@ -660,6 +660,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/fa-ir -> fa
 -rw-r--r-- root       root             1074 ./usr/share/errors/fa/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1043 ./usr/share/errors/fa/ERR_NO_RELAY
 -rw-r--r-- root       root             1247 ./usr/share/errors/fa/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/fa/error-details.txt
 -rw-r--r-- root       root             1040 ./usr/share/errors/fa/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1113 ./usr/share/errors/fa/ERR_READ_ERROR
 -rw-r--r-- root       root             1182 ./usr/share/errors/fa/ERR_READ_TIMEOUT
@@ -672,9 +673,9 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/fa-ir -> fa
 -rw-r--r-- root       root             1062 ./usr/share/errors/fa/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1104 ./usr/share/errors/fa/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1011 ./usr/share/errors/fa/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/fa/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/fa-fa -> fa
+lrwxrwxrwx root       root                2 ./usr/share/errors/fa-ir -> fa
 drwxr-xr-x root       root              880 ./usr/share/errors/fi
-lrwxrwxrwx root       root                2 ./usr/share/errors/fi-fi -> fi
 -rw-r--r-- root       root             1060 ./usr/share/errors/fi/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1218 ./usr/share/errors/fi/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1527 ./usr/share/errors/fi/ERR_AGENT_CONFIGURE
@@ -704,6 +705,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/fi-fi -> fi
 -rw-r--r-- root       root             1016 ./usr/share/errors/fi/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              988 ./usr/share/errors/fi/ERR_NO_RELAY
 -rw-r--r-- root       root             1194 ./usr/share/errors/fi/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/fi/error-details.txt
 -rw-r--r-- root       root              994 ./usr/share/errors/fi/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1055 ./usr/share/errors/fi/ERR_READ_ERROR
 -rw-r--r-- root       root             1115 ./usr/share/errors/fi/ERR_READ_TIMEOUT
@@ -716,14 +718,11 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/fi-fi -> fi
 -rw-r--r-- root       root              992 ./usr/share/errors/fi/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1060 ./usr/share/errors/fi/ERR_WRITE_ERROR
 -rw-r--r-- root       root              958 ./usr/share/errors/fi/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/fi/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/fi-fi -> fi
 drwxr-xr-x root       root              880 ./usr/share/errors/fr
 lrwxrwxrwx root       root                2 ./usr/share/errors/fr-be -> fr
 lrwxrwxrwx root       root                2 ./usr/share/errors/fr-ca -> fr
 lrwxrwxrwx root       root                2 ./usr/share/errors/fr-ch -> fr
-lrwxrwxrwx root       root                2 ./usr/share/errors/fr-fr -> fr
-lrwxrwxrwx root       root                2 ./usr/share/errors/fr-lu -> fr
-lrwxrwxrwx root       root                2 ./usr/share/errors/fr-mc -> fr
 -rw-r--r-- root       root             1077 ./usr/share/errors/fr/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1311 ./usr/share/errors/fr/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1679 ./usr/share/errors/fr/ERR_AGENT_CONFIGURE
@@ -753,6 +752,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/fr-mc -> fr
 -rw-r--r-- root       root             1032 ./usr/share/errors/fr/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1025 ./usr/share/errors/fr/ERR_NO_RELAY
 -rw-r--r-- root       root             1279 ./usr/share/errors/fr/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/fr/error-details.txt
 -rw-r--r-- root       root             1014 ./usr/share/errors/fr/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1089 ./usr/share/errors/fr/ERR_READ_ERROR
 -rw-r--r-- root       root             1168 ./usr/share/errors/fr/ERR_READ_TIMEOUT
@@ -765,9 +765,10 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/fr-mc -> fr
 -rw-r--r-- root       root             1014 ./usr/share/errors/fr/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1091 ./usr/share/errors/fr/ERR_WRITE_ERROR
 -rw-r--r-- root       root              989 ./usr/share/errors/fr/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/fr/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/fr-fr -> fr
+lrwxrwxrwx root       root                2 ./usr/share/errors/fr-lu -> fr
+lrwxrwxrwx root       root                2 ./usr/share/errors/fr-mc -> fr
 drwxr-xr-x root       root              880 ./usr/share/errors/he
-lrwxrwxrwx root       root                2 ./usr/share/errors/he-il -> he
 -rw-r--r-- root       root             1123 ./usr/share/errors/he/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1380 ./usr/share/errors/he/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1822 ./usr/share/errors/he/ERR_AGENT_CONFIGURE
@@ -797,6 +798,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/he-il -> he
 -rw-r--r-- root       root             1101 ./usr/share/errors/he/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1048 ./usr/share/errors/he/ERR_NO_RELAY
 -rw-r--r-- root       root             1252 ./usr/share/errors/he/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/he/error-details.txt
 -rw-r--r-- root       root             1085 ./usr/share/errors/he/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1121 ./usr/share/errors/he/ERR_READ_ERROR
 -rw-r--r-- root       root             1193 ./usr/share/errors/he/ERR_READ_TIMEOUT
@@ -809,9 +811,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/he-il -> he
 -rw-r--r-- root       root             1028 ./usr/share/errors/he/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1112 ./usr/share/errors/he/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1023 ./usr/share/errors/he/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/he/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/he-il -> he
 drwxr-xr-x root       root              880 ./usr/share/errors/hu
-lrwxrwxrwx root       root                2 ./usr/share/errors/hu-hu -> hu
 -rw-r--r-- root       root             1051 ./usr/share/errors/hu/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1289 ./usr/share/errors/hu/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1708 ./usr/share/errors/hu/ERR_AGENT_CONFIGURE
@@ -841,6 +842,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/hu-hu -> hu
 -rw-r--r-- root       root              983 ./usr/share/errors/hu/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1003 ./usr/share/errors/hu/ERR_NO_RELAY
 -rw-r--r-- root       root             1248 ./usr/share/errors/hu/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/hu/error-details.txt
 -rw-r--r-- root       root              946 ./usr/share/errors/hu/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1050 ./usr/share/errors/hu/ERR_READ_ERROR
 -rw-r--r-- root       root             1160 ./usr/share/errors/hu/ERR_READ_TIMEOUT
@@ -853,7 +855,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/hu-hu -> hu
 -rw-r--r-- root       root              963 ./usr/share/errors/hu/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1050 ./usr/share/errors/hu/ERR_WRITE_ERROR
 -rw-r--r-- root       root              934 ./usr/share/errors/hu/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/hu/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/hu-hu -> hu
 drwxr-xr-x root       root              880 ./usr/share/errors/hy
 lrwxrwxrwx root       root                2 ./usr/share/errors/hy-am -> hy
 lrwxrwxrwx root       root                2 ./usr/share/errors/hy-armn -> hy
@@ -886,6 +888,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/hy-armn -> hy
 -rw-r--r-- root       root             1190 ./usr/share/errors/hy/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1112 ./usr/share/errors/hy/ERR_NO_RELAY
 -rw-r--r-- root       root             1400 ./usr/share/errors/hy/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/hy/error-details.txt
 -rw-r--r-- root       root             1127 ./usr/share/errors/hy/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1217 ./usr/share/errors/hy/ERR_READ_ERROR
 -rw-r--r-- root       root             1442 ./usr/share/errors/hy/ERR_READ_TIMEOUT
@@ -898,9 +901,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/hy-armn -> hy
 -rw-r--r-- root       root             1112 ./usr/share/errors/hy/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1222 ./usr/share/errors/hy/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1129 ./usr/share/errors/hy/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/hy/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/id
-lrwxrwxrwx root       root                2 ./usr/share/errors/id-id -> id
 -rw-r--r-- root       root             1059 ./usr/share/errors/id/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1220 ./usr/share/errors/id/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1527 ./usr/share/errors/id/ERR_AGENT_CONFIGURE
@@ -930,6 +931,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/id-id -> id
 -rw-r--r-- root       root             1012 ./usr/share/errors/id/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              987 ./usr/share/errors/id/ERR_NO_RELAY
 -rw-r--r-- root       root             1196 ./usr/share/errors/id/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/id/error-details.txt
 -rw-r--r-- root       root              989 ./usr/share/errors/id/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1048 ./usr/share/errors/id/ERR_READ_ERROR
 -rw-r--r-- root       root             1097 ./usr/share/errors/id/ERR_READ_TIMEOUT
@@ -942,10 +944,9 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/id-id -> id
 -rw-r--r-- root       root              986 ./usr/share/errors/id/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1042 ./usr/share/errors/id/ERR_WRITE_ERROR
 -rw-r--r-- root       root              960 ./usr/share/errors/id/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/id/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/id-id -> id
 drwxr-xr-x root       root              880 ./usr/share/errors/it
 lrwxrwxrwx root       root                2 ./usr/share/errors/it-ch -> it
-lrwxrwxrwx root       root                2 ./usr/share/errors/it-it -> it
 -rw-r--r-- root       root             1060 ./usr/share/errors/it/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1239 ./usr/share/errors/it/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1640 ./usr/share/errors/it/ERR_AGENT_CONFIGURE
@@ -975,6 +976,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/it-it -> it
 -rw-r--r-- root       root             1073 ./usr/share/errors/it/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1070 ./usr/share/errors/it/ERR_NO_RELAY
 -rw-r--r-- root       root             1282 ./usr/share/errors/it/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/it/error-details.txt
 -rw-r--r-- root       root             1041 ./usr/share/errors/it/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1090 ./usr/share/errors/it/ERR_READ_ERROR
 -rw-r--r-- root       root             1166 ./usr/share/errors/it/ERR_READ_TIMEOUT
@@ -987,9 +989,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/it-it -> it
 -rw-r--r-- root       root             1030 ./usr/share/errors/it/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1112 ./usr/share/errors/it/ERR_WRITE_ERROR
 -rw-r--r-- root       root              999 ./usr/share/errors/it/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/it/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/it-it -> it
 drwxr-xr-x root       root              880 ./usr/share/errors/ja
-lrwxrwxrwx root       root                2 ./usr/share/errors/ja-jp -> ja
 -rw-r--r-- root       root             1141 ./usr/share/errors/ja/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1276 ./usr/share/errors/ja/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1633 ./usr/share/errors/ja/ERR_AGENT_CONFIGURE
@@ -1019,6 +1020,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ja-jp -> ja
 -rw-r--r-- root       root             1083 ./usr/share/errors/ja/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1079 ./usr/share/errors/ja/ERR_NO_RELAY
 -rw-r--r-- root       root             1425 ./usr/share/errors/ja/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/ja/error-details.txt
 -rw-r--r-- root       root             1045 ./usr/share/errors/ja/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1147 ./usr/share/errors/ja/ERR_READ_ERROR
 -rw-r--r-- root       root             1203 ./usr/share/errors/ja/ERR_READ_TIMEOUT
@@ -1031,9 +1033,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ja-jp -> ja
 -rw-r--r-- root       root             1042 ./usr/share/errors/ja/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1170 ./usr/share/errors/ja/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1065 ./usr/share/errors/ja/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/ja/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/ja-jp -> ja
 drwxr-xr-x root       root              880 ./usr/share/errors/ka
-lrwxrwxrwx root       root                2 ./usr/share/errors/ka-ge -> ka
 -rw-r--r-- root       root             1060 ./usr/share/errors/ka/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1220 ./usr/share/errors/ka/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1527 ./usr/share/errors/ka/ERR_AGENT_CONFIGURE
@@ -1063,6 +1064,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ka-ge -> ka
 -rw-r--r-- root       root             1012 ./usr/share/errors/ka/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              987 ./usr/share/errors/ka/ERR_NO_RELAY
 -rw-r--r-- root       root             1196 ./usr/share/errors/ka/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/ka/error-details.txt
 -rw-r--r-- root       root              989 ./usr/share/errors/ka/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1048 ./usr/share/errors/ka/ERR_READ_ERROR
 -rw-r--r-- root       root             1097 ./usr/share/errors/ka/ERR_READ_TIMEOUT
@@ -1075,10 +1077,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ka-ge -> ka
 -rw-r--r-- root       root              969 ./usr/share/errors/ka/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1042 ./usr/share/errors/ka/ERR_WRITE_ERROR
 -rw-r--r-- root       root              960 ./usr/share/errors/ka/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/ka/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/ka-ge -> ka
 drwxr-xr-x root       root              880 ./usr/share/errors/ko
-lrwxrwxrwx root       root                2 ./usr/share/errors/ko-kp -> ko
-lrwxrwxrwx root       root                2 ./usr/share/errors/ko-kr -> ko
 -rw-r--r-- root       root             1101 ./usr/share/errors/ko/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1229 ./usr/share/errors/ko/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1528 ./usr/share/errors/ko/ERR_AGENT_CONFIGURE
@@ -1108,6 +1108,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ko-kr -> ko
 -rw-r--r-- root       root             1045 ./usr/share/errors/ko/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1010 ./usr/share/errors/ko/ERR_NO_RELAY
 -rw-r--r-- root       root             1198 ./usr/share/errors/ko/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/ko/error-details.txt
 -rw-r--r-- root       root              998 ./usr/share/errors/ko/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1102 ./usr/share/errors/ko/ERR_READ_ERROR
 -rw-r--r-- root       root             1156 ./usr/share/errors/ko/ERR_READ_TIMEOUT
@@ -1120,9 +1121,9 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ko-kr -> ko
 -rw-r--r-- root       root             1008 ./usr/share/errors/ko/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1095 ./usr/share/errors/ko/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1028 ./usr/share/errors/ko/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/ko/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/ko-kp -> ko
+lrwxrwxrwx root       root                2 ./usr/share/errors/ko-kr -> ko
 drwxr-xr-x root       root              880 ./usr/share/errors/lt
-lrwxrwxrwx root       root                2 ./usr/share/errors/lt-lt -> lt
 -rw-r--r-- root       root             1088 ./usr/share/errors/lt/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1238 ./usr/share/errors/lt/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1528 ./usr/share/errors/lt/ERR_AGENT_CONFIGURE
@@ -1152,6 +1153,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/lt-lt -> lt
 -rw-r--r-- root       root             1029 ./usr/share/errors/lt/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1008 ./usr/share/errors/lt/ERR_NO_RELAY
 -rw-r--r-- root       root             1196 ./usr/share/errors/lt/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/lt/error-details.txt
 -rw-r--r-- root       root             1007 ./usr/share/errors/lt/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1067 ./usr/share/errors/lt/ERR_READ_ERROR
 -rw-r--r-- root       root             1130 ./usr/share/errors/lt/ERR_READ_TIMEOUT
@@ -1164,9 +1166,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/lt-lt -> lt
 -rw-r--r-- root       root              976 ./usr/share/errors/lt/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1059 ./usr/share/errors/lt/ERR_WRITE_ERROR
 -rw-r--r-- root       root              977 ./usr/share/errors/lt/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/lt/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/lt-lt -> lt
 drwxr-xr-x root       root              880 ./usr/share/errors/lv
-lrwxrwxrwx root       root                2 ./usr/share/errors/lv-lv -> lv
 -rw-r--r-- root       root             1045 ./usr/share/errors/lv/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1206 ./usr/share/errors/lv/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1539 ./usr/share/errors/lv/ERR_AGENT_CONFIGURE
@@ -1196,6 +1197,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/lv-lv -> lv
 -rw-r--r-- root       root              981 ./usr/share/errors/lv/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              983 ./usr/share/errors/lv/ERR_NO_RELAY
 -rw-r--r-- root       root             1186 ./usr/share/errors/lv/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/lv/error-details.txt
 -rw-r--r-- root       root              966 ./usr/share/errors/lv/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1043 ./usr/share/errors/lv/ERR_READ_ERROR
 -rw-r--r-- root       root             1090 ./usr/share/errors/lv/ERR_READ_TIMEOUT
@@ -1208,9 +1210,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/lv-lv -> lv
 -rw-r--r-- root       root              959 ./usr/share/errors/lv/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1038 ./usr/share/errors/lv/ERR_WRITE_ERROR
 -rw-r--r-- root       root              959 ./usr/share/errors/lv/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/lv/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/lv-lv -> lv
 drwxr-xr-x root       root              880 ./usr/share/errors/ms
-lrwxrwxrwx root       root                2 ./usr/share/errors/ms-my -> ms
 -rw-r--r-- root       root             1056 ./usr/share/errors/ms/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1217 ./usr/share/errors/ms/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1527 ./usr/share/errors/ms/ERR_AGENT_CONFIGURE
@@ -1240,6 +1241,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ms-my -> ms
 -rw-r--r-- root       root             1009 ./usr/share/errors/ms/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              984 ./usr/share/errors/ms/ERR_NO_RELAY
 -rw-r--r-- root       root             1193 ./usr/share/errors/ms/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/ms/error-details.txt
 -rw-r--r-- root       root              988 ./usr/share/errors/ms/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1045 ./usr/share/errors/ms/ERR_READ_ERROR
 -rw-r--r-- root       root             1094 ./usr/share/errors/ms/ERR_READ_TIMEOUT
@@ -1252,9 +1254,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ms-my -> ms
 -rw-r--r-- root       root              958 ./usr/share/errors/ms/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1045 ./usr/share/errors/ms/ERR_WRITE_ERROR
 -rw-r--r-- root       root              957 ./usr/share/errors/ms/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/ms/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/ms-my -> ms
 drwxr-xr-x root       root              880 ./usr/share/errors/nl
-lrwxrwxrwx root       root                2 ./usr/share/errors/nl-nl -> nl
 -rw-r--r-- root       root             1067 ./usr/share/errors/nl/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1247 ./usr/share/errors/nl/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1594 ./usr/share/errors/nl/ERR_AGENT_CONFIGURE
@@ -1284,6 +1285,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/nl-nl -> nl
 -rw-r--r-- root       root             1039 ./usr/share/errors/nl/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1005 ./usr/share/errors/nl/ERR_NO_RELAY
 -rw-r--r-- root       root             1232 ./usr/share/errors/nl/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/nl/error-details.txt
 -rw-r--r-- root       root              985 ./usr/share/errors/nl/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1053 ./usr/share/errors/nl/ERR_READ_ERROR
 -rw-r--r-- root       root             1122 ./usr/share/errors/nl/ERR_READ_TIMEOUT
@@ -1296,7 +1298,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/nl-nl -> nl
 -rw-r--r-- root       root              963 ./usr/share/errors/nl/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1052 ./usr/share/errors/nl/ERR_WRITE_ERROR
 -rw-r--r-- root       root              964 ./usr/share/errors/nl/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/nl/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/nl-nl -> nl
 drwxr-xr-x root       root              880 ./usr/share/errors/oc
 -rw-r--r-- root       root             1071 ./usr/share/errors/oc/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1228 ./usr/share/errors/oc/ERR_ACL_TIME_QUOTA_EXCEEDED
@@ -1327,6 +1329,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/oc
 -rw-r--r-- root       root             1033 ./usr/share/errors/oc/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              995 ./usr/share/errors/oc/ERR_NO_RELAY
 -rw-r--r-- root       root             1204 ./usr/share/errors/oc/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/oc/error-details.txt
 -rw-r--r-- root       root              991 ./usr/share/errors/oc/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1064 ./usr/share/errors/oc/ERR_READ_ERROR
 -rw-r--r-- root       root             1107 ./usr/share/errors/oc/ERR_READ_TIMEOUT
@@ -1339,9 +1342,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/oc
 -rw-r--r-- root       root              989 ./usr/share/errors/oc/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1062 ./usr/share/errors/oc/ERR_WRITE_ERROR
 -rw-r--r-- root       root              975 ./usr/share/errors/oc/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/oc/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/pl
-lrwxrwxrwx root       root                2 ./usr/share/errors/pl-pl -> pl
 -rw-r--r-- root       root             1066 ./usr/share/errors/pl/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1221 ./usr/share/errors/pl/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1531 ./usr/share/errors/pl/ERR_AGENT_CONFIGURE
@@ -1371,6 +1372,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/pl-pl -> pl
 -rw-r--r-- root       root             1044 ./usr/share/errors/pl/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              990 ./usr/share/errors/pl/ERR_NO_RELAY
 -rw-r--r-- root       root             1205 ./usr/share/errors/pl/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/pl/error-details.txt
 -rw-r--r-- root       root              990 ./usr/share/errors/pl/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1060 ./usr/share/errors/pl/ERR_READ_ERROR
 -rw-r--r-- root       root             1118 ./usr/share/errors/pl/ERR_READ_TIMEOUT
@@ -1383,7 +1385,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/pl-pl -> pl
 -rw-r--r-- root       root              997 ./usr/share/errors/pl/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1052 ./usr/share/errors/pl/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1000 ./usr/share/errors/pl/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/pl/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/pl-pl -> pl
 drwxr-xr-x root       root              880 ./usr/share/errors/pt
 drwxr-xr-x root       root              880 ./usr/share/errors/pt-br
 -rw-r--r-- root       root             1080 ./usr/share/errors/pt-br/ERR_ACCESS_DENIED
@@ -1415,6 +1417,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/pt-br
 -rw-r--r-- root       root             1006 ./usr/share/errors/pt-br/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              989 ./usr/share/errors/pt-br/ERR_NO_RELAY
 -rw-r--r-- root       root             1217 ./usr/share/errors/pt-br/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/pt-br/error-details.txt
 -rw-r--r-- root       root              995 ./usr/share/errors/pt-br/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1040 ./usr/share/errors/pt-br/ERR_READ_ERROR
 -rw-r--r-- root       root             1115 ./usr/share/errors/pt-br/ERR_READ_TIMEOUT
@@ -1427,9 +1430,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/pt-br
 -rw-r--r-- root       root              970 ./usr/share/errors/pt-br/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1038 ./usr/share/errors/pt-br/ERR_WRITE_ERROR
 -rw-r--r-- root       root              965 ./usr/share/errors/pt-br/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/pt-br/error-details.txt
 lrwxrwxrwx root       root                5 ./usr/share/errors/pt-bz -> pt-br
-lrwxrwxrwx root       root                2 ./usr/share/errors/pt-pt -> pt
 -rw-r--r-- root       root             1062 ./usr/share/errors/pt/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1218 ./usr/share/errors/pt/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1535 ./usr/share/errors/pt/ERR_AGENT_CONFIGURE
@@ -1459,6 +1460,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/pt-pt -> pt
 -rw-r--r-- root       root              999 ./usr/share/errors/pt/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              980 ./usr/share/errors/pt/ERR_NO_RELAY
 -rw-r--r-- root       root             1193 ./usr/share/errors/pt/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/pt/error-details.txt
 -rw-r--r-- root       root              992 ./usr/share/errors/pt/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1050 ./usr/share/errors/pt/ERR_READ_ERROR
 -rw-r--r-- root       root             1127 ./usr/share/errors/pt/ERR_READ_TIMEOUT
@@ -1471,10 +1473,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/pt-pt -> pt
 -rw-r--r-- root       root              972 ./usr/share/errors/pt/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1046 ./usr/share/errors/pt/ERR_WRITE_ERROR
 -rw-r--r-- root       root              973 ./usr/share/errors/pt/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/pt/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/pt-pt -> pt
 drwxr-xr-x root       root              880 ./usr/share/errors/ro
-lrwxrwxrwx root       root                2 ./usr/share/errors/ro-md -> ro
-lrwxrwxrwx root       root                2 ./usr/share/errors/ro-ro -> ro
 -rw-r--r-- root       root             1116 ./usr/share/errors/ro/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1289 ./usr/share/errors/ro/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1599 ./usr/share/errors/ro/ERR_AGENT_CONFIGURE
@@ -1504,6 +1504,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ro-ro -> ro
 -rw-r--r-- root       root             1036 ./usr/share/errors/ro/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1001 ./usr/share/errors/ro/ERR_NO_RELAY
 -rw-r--r-- root       root             1265 ./usr/share/errors/ro/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/ro/error-details.txt
 -rw-r--r-- root       root              988 ./usr/share/errors/ro/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1087 ./usr/share/errors/ro/ERR_READ_ERROR
 -rw-r--r-- root       root             1167 ./usr/share/errors/ro/ERR_READ_TIMEOUT
@@ -1516,9 +1517,9 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ro-ro -> ro
 -rw-r--r-- root       root             1004 ./usr/share/errors/ro/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1088 ./usr/share/errors/ro/ERR_WRITE_ERROR
 -rw-r--r-- root       root              990 ./usr/share/errors/ro/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/ro/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/ro-md -> ro
+lrwxrwxrwx root       root                2 ./usr/share/errors/ro-ro -> ro
 drwxr-xr-x root       root              880 ./usr/share/errors/ru
-lrwxrwxrwx root       root                2 ./usr/share/errors/ru-ru -> ru
 -rw-r--r-- root       root             1221 ./usr/share/errors/ru/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1345 ./usr/share/errors/ru/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1846 ./usr/share/errors/ru/ERR_AGENT_CONFIGURE
@@ -1548,6 +1549,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ru-ru -> ru
 -rw-r--r-- root       root             1187 ./usr/share/errors/ru/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1114 ./usr/share/errors/ru/ERR_NO_RELAY
 -rw-r--r-- root       root             1450 ./usr/share/errors/ru/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/ru/error-details.txt
 -rw-r--r-- root       root             1073 ./usr/share/errors/ru/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1187 ./usr/share/errors/ru/ERR_READ_ERROR
 -rw-r--r-- root       root             1390 ./usr/share/errors/ru/ERR_READ_TIMEOUT
@@ -1560,9 +1562,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/ru-ru -> ru
 -rw-r--r-- root       root             1117 ./usr/share/errors/ru/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1163 ./usr/share/errors/ru/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1148 ./usr/share/errors/ru/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/ru/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/ru-ru -> ru
 drwxr-xr-x root       root              880 ./usr/share/errors/sk
-lrwxrwxrwx root       root                2 ./usr/share/errors/sk-sk -> sk
 -rw-r--r-- root       root             1076 ./usr/share/errors/sk/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1177 ./usr/share/errors/sk/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1607 ./usr/share/errors/sk/ERR_AGENT_CONFIGURE
@@ -1592,6 +1593,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/sk-sk -> sk
 -rw-r--r-- root       root             1001 ./usr/share/errors/sk/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              988 ./usr/share/errors/sk/ERR_NO_RELAY
 -rw-r--r-- root       root             1230 ./usr/share/errors/sk/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/sk/error-details.txt
 -rw-r--r-- root       root              974 ./usr/share/errors/sk/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1039 ./usr/share/errors/sk/ERR_READ_ERROR
 -rw-r--r-- root       root             1131 ./usr/share/errors/sk/ERR_READ_TIMEOUT
@@ -1604,9 +1606,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/sk-sk -> sk
 -rw-r--r-- root       root              944 ./usr/share/errors/sk/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1022 ./usr/share/errors/sk/ERR_WRITE_ERROR
 -rw-r--r-- root       root              972 ./usr/share/errors/sk/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/sk/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/sk-sk -> sk
 drwxr-xr-x root       root              880 ./usr/share/errors/sl
-lrwxrwxrwx root       root                2 ./usr/share/errors/sl-si -> sl
 -rw-r--r-- root       root             1090 ./usr/share/errors/sl/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1215 ./usr/share/errors/sl/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1693 ./usr/share/errors/sl/ERR_AGENT_CONFIGURE
@@ -1636,6 +1637,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/sl-si -> sl
 -rw-r--r-- root       root             1001 ./usr/share/errors/sl/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1025 ./usr/share/errors/sl/ERR_NO_RELAY
 -rw-r--r-- root       root             1238 ./usr/share/errors/sl/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/sl/error-details.txt
 -rw-r--r-- root       root              998 ./usr/share/errors/sl/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1048 ./usr/share/errors/sl/ERR_READ_ERROR
 -rw-r--r-- root       root             1138 ./usr/share/errors/sl/ERR_READ_TIMEOUT
@@ -1648,12 +1650,9 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/sl-si -> sl
 -rw-r--r-- root       root              982 ./usr/share/errors/sl/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1040 ./usr/share/errors/sl/ERR_WRITE_ERROR
 -rw-r--r-- root       root              982 ./usr/share/errors/sl/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/sl/error-details.txt
-lrwxrwxrwx root       root                7 ./usr/share/errors/sr -> sr-latn
+lrwxrwxrwx root       root                2 ./usr/share/errors/sl-si -> sl
 drwxr-xr-x root       root              880 ./usr/share/errors/sr-cyrl
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-cs -> sr-cyrl
-lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-me -> sr-cyrl
-lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-rs -> sr-cyrl
 -rw-r--r-- root       root             1060 ./usr/share/errors/sr-cyrl/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1220 ./usr/share/errors/sr-cyrl/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1527 ./usr/share/errors/sr-cyrl/ERR_AGENT_CONFIGURE
@@ -1683,6 +1682,7 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-rs -> sr-
 -rw-r--r-- root       root             1012 ./usr/share/errors/sr-cyrl/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              987 ./usr/share/errors/sr-cyrl/ERR_NO_RELAY
 -rw-r--r-- root       root             1196 ./usr/share/errors/sr-cyrl/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/sr-cyrl/error-details.txt
 -rw-r--r-- root       root              989 ./usr/share/errors/sr-cyrl/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1048 ./usr/share/errors/sr-cyrl/ERR_READ_ERROR
 -rw-r--r-- root       root             1097 ./usr/share/errors/sr-cyrl/ERR_READ_TIMEOUT
@@ -1695,11 +1695,10 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-rs -> sr-
 -rw-r--r-- root       root              969 ./usr/share/errors/sr-cyrl/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1042 ./usr/share/errors/sr-cyrl/ERR_WRITE_ERROR
 -rw-r--r-- root       root              960 ./usr/share/errors/sr-cyrl/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/sr-cyrl/error-details.txt
+lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-me -> sr-cyrl
+lrwxrwxrwx root       root                7 ./usr/share/errors/sr-cyrl-rs -> sr-cyrl
 drwxr-xr-x root       root              880 ./usr/share/errors/sr-latn
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-cs -> sr-latn
-lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-me -> sr-latn
-lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-rs -> sr-latn
 -rw-r--r-- root       root             1063 ./usr/share/errors/sr-latn/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1214 ./usr/share/errors/sr-latn/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1537 ./usr/share/errors/sr-latn/ERR_AGENT_CONFIGURE
@@ -1729,6 +1728,7 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-rs -> sr-
 -rw-r--r-- root       root             1013 ./usr/share/errors/sr-latn/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              985 ./usr/share/errors/sr-latn/ERR_NO_RELAY
 -rw-r--r-- root       root             1173 ./usr/share/errors/sr-latn/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/sr-latn/error-details.txt
 -rw-r--r-- root       root              976 ./usr/share/errors/sr-latn/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1047 ./usr/share/errors/sr-latn/ERR_READ_ERROR
 -rw-r--r-- root       root             1093 ./usr/share/errors/sr-latn/ERR_READ_TIMEOUT
@@ -1741,12 +1741,12 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-rs -> sr-
 -rw-r--r-- root       root              961 ./usr/share/errors/sr-latn/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1039 ./usr/share/errors/sr-latn/ERR_WRITE_ERROR
 -rw-r--r-- root       root              966 ./usr/share/errors/sr-latn/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/sr-latn/error-details.txt
+lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-me -> sr-latn
+lrwxrwxrwx root       root                7 ./usr/share/errors/sr-latn-rs -> sr-latn
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-rs -> sr-cyrl
 lrwxrwxrwx root       root                7 ./usr/share/errors/sr-sp -> sr-latn
+lrwxrwxrwx root       root                7 ./usr/share/errors/sr -> sr-latn
 drwxr-xr-x root       root              880 ./usr/share/errors/sv
-lrwxrwxrwx root       root                2 ./usr/share/errors/sv-fi -> sv
-lrwxrwxrwx root       root                2 ./usr/share/errors/sv-se -> sv
 -rw-r--r-- root       root             1076 ./usr/share/errors/sv/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1229 ./usr/share/errors/sv/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1537 ./usr/share/errors/sv/ERR_AGENT_CONFIGURE
@@ -1776,6 +1776,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/sv-se -> sv
 -rw-r--r-- root       root             1068 ./usr/share/errors/sv/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              998 ./usr/share/errors/sv/ERR_NO_RELAY
 -rw-r--r-- root       root             1261 ./usr/share/errors/sv/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/sv/error-details.txt
 -rw-r--r-- root       root              983 ./usr/share/errors/sv/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1059 ./usr/share/errors/sv/ERR_READ_ERROR
 -rw-r--r-- root       root             1125 ./usr/share/errors/sv/ERR_READ_TIMEOUT
@@ -1788,7 +1789,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/sv-se -> sv
 -rw-r--r-- root       root             1044 ./usr/share/errors/sv/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1050 ./usr/share/errors/sv/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1021 ./usr/share/errors/sv/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/sv/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/sv-fi -> sv
+lrwxrwxrwx root       root                2 ./usr/share/errors/sv-se -> sv
 drwxr-xr-x root       root              880 ./usr/share/errors/templates
 -rw-r--r-- root       root             1148 ./usr/share/errors/templates/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1308 ./usr/share/errors/templates/ERR_ACL_TIME_QUOTA_EXCEEDED
@@ -1819,6 +1821,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/templates
 -rw-r--r-- root       root             1100 ./usr/share/errors/templates/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1075 ./usr/share/errors/templates/ERR_NO_RELAY
 -rw-r--r-- root       root             1284 ./usr/share/errors/templates/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/templates/error-details.txt
 -rw-r--r-- root       root             1077 ./usr/share/errors/templates/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1136 ./usr/share/errors/templates/ERR_READ_ERROR
 -rw-r--r-- root       root             1185 ./usr/share/errors/templates/ERR_READ_TIMEOUT
@@ -1831,9 +1834,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/templates
 -rw-r--r-- root       root             1057 ./usr/share/errors/templates/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1130 ./usr/share/errors/templates/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1048 ./usr/share/errors/templates/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/templates/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/th
-lrwxrwxrwx root       root                2 ./usr/share/errors/th-th -> th
 -rw-r--r-- root       root             1312 ./usr/share/errors/th/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1472 ./usr/share/errors/th/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1568 ./usr/share/errors/th/ERR_AGENT_CONFIGURE
@@ -1863,6 +1864,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/th-th -> th
 -rw-r--r-- root       root             1264 ./usr/share/errors/th/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1239 ./usr/share/errors/th/ERR_NO_RELAY
 -rw-r--r-- root       root             1448 ./usr/share/errors/th/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/th/error-details.txt
 -rw-r--r-- root       root             1200 ./usr/share/errors/th/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1415 ./usr/share/errors/th/ERR_READ_ERROR
 -rw-r--r-- root       root             1465 ./usr/share/errors/th/ERR_READ_TIMEOUT
@@ -1875,9 +1877,9 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/th-th -> th
 -rw-r--r-- root       root             1229 ./usr/share/errors/th/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1408 ./usr/share/errors/th/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1272 ./usr/share/errors/th/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/th/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/th-th -> th
 drwxr-xr-x root       root              880 ./usr/share/errors/tr
-lrwxrwxrwx root       root                2 ./usr/share/errors/tr-tr -> tr
+-rw-r--r-- root       root             3720 ./usr/share/errors/TRANSLATORS
 -rw-r--r-- root       root             1038 ./usr/share/errors/tr/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1198 ./usr/share/errors/tr/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1532 ./usr/share/errors/tr/ERR_AGENT_CONFIGURE
@@ -1907,6 +1909,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/tr-tr -> tr
 -rw-r--r-- root       root              961 ./usr/share/errors/tr/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              980 ./usr/share/errors/tr/ERR_NO_RELAY
 -rw-r--r-- root       root             1216 ./usr/share/errors/tr/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/tr/error-details.txt
 -rw-r--r-- root       root              973 ./usr/share/errors/tr/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1031 ./usr/share/errors/tr/ERR_READ_ERROR
 -rw-r--r-- root       root             1099 ./usr/share/errors/tr/ERR_READ_TIMEOUT
@@ -1919,9 +1922,8 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/tr-tr -> tr
 -rw-r--r-- root       root              942 ./usr/share/errors/tr/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1024 ./usr/share/errors/tr/ERR_WRITE_ERROR
 -rw-r--r-- root       root              954 ./usr/share/errors/tr/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/tr/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/tr-tr -> tr
 drwxr-xr-x root       root              880 ./usr/share/errors/uk
-lrwxrwxrwx root       root                2 ./usr/share/errors/uk-ua -> uk
 -rw-r--r-- root       root             1342 ./usr/share/errors/uk/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1421 ./usr/share/errors/uk/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1898 ./usr/share/errors/uk/ERR_AGENT_CONFIGURE
@@ -1951,6 +1953,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/uk-ua -> uk
 -rw-r--r-- root       root             1161 ./usr/share/errors/uk/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1157 ./usr/share/errors/uk/ERR_NO_RELAY
 -rw-r--r-- root       root             1456 ./usr/share/errors/uk/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/uk/error-details.txt
 -rw-r--r-- root       root             1072 ./usr/share/errors/uk/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1218 ./usr/share/errors/uk/ERR_READ_ERROR
 -rw-r--r-- root       root             1368 ./usr/share/errors/uk/ERR_READ_TIMEOUT
@@ -1963,7 +1966,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/uk-ua -> uk
 -rw-r--r-- root       root             1085 ./usr/share/errors/uk/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1233 ./usr/share/errors/uk/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1122 ./usr/share/errors/uk/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/uk/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/uk-ua -> uk
 drwxr-xr-x root       root              880 ./usr/share/errors/uz
 -rw-r--r-- root       root             1110 ./usr/share/errors/uz/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1250 ./usr/share/errors/uz/ERR_ACL_TIME_QUOTA_EXCEEDED
@@ -1994,6 +1997,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/uz
 -rw-r--r-- root       root             1097 ./usr/share/errors/uz/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1017 ./usr/share/errors/uz/ERR_NO_RELAY
 -rw-r--r-- root       root             1226 ./usr/share/errors/uz/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/uz/error-details.txt
 -rw-r--r-- root       root             1019 ./usr/share/errors/uz/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1097 ./usr/share/errors/uz/ERR_READ_ERROR
 -rw-r--r-- root       root             1148 ./usr/share/errors/uz/ERR_READ_TIMEOUT
@@ -2006,9 +2010,7 @@ drwxr-xr-x root       root              880 ./usr/share/errors/uz
 -rw-r--r-- root       root             1013 ./usr/share/errors/uz/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1080 ./usr/share/errors/uz/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1035 ./usr/share/errors/uz/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/uz/error-details.txt
 drwxr-xr-x root       root              880 ./usr/share/errors/vi
-lrwxrwxrwx root       root                2 ./usr/share/errors/vi-vn -> vi
 -rw-r--r-- root       root             1129 ./usr/share/errors/vi/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1225 ./usr/share/errors/vi/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1534 ./usr/share/errors/vi/ERR_AGENT_CONFIGURE
@@ -2038,6 +2040,7 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/vi-vn -> vi
 -rw-r--r-- root       root             1013 ./usr/share/errors/vi/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1012 ./usr/share/errors/vi/ERR_NO_RELAY
 -rw-r--r-- root       root             1201 ./usr/share/errors/vi/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/vi/error-details.txt
 -rw-r--r-- root       root              994 ./usr/share/errors/vi/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1052 ./usr/share/errors/vi/ERR_READ_ERROR
 -rw-r--r-- root       root             1134 ./usr/share/errors/vi/ERR_READ_TIMEOUT
@@ -2050,11 +2053,10 @@ lrwxrwxrwx root       root                2 ./usr/share/errors/vi-vn -> vi
 -rw-r--r-- root       root              990 ./usr/share/errors/vi/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1036 ./usr/share/errors/vi/ERR_WRITE_ERROR
 -rw-r--r-- root       root              968 ./usr/share/errors/vi/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/vi/error-details.txt
+lrwxrwxrwx root       root                2 ./usr/share/errors/vi-vn -> vi
 lrwxrwxrwx root       root                7 ./usr/share/errors/zh-cn -> zh-hans
 drwxr-xr-x root       root              880 ./usr/share/errors/zh-hans
 lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hans-cn -> zh-hans
-lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hans-sg -> zh-hans
 -rw-r--r-- root       root             1034 ./usr/share/errors/zh-hans/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1190 ./usr/share/errors/zh-hans/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1529 ./usr/share/errors/zh-hans/ERR_AGENT_CONFIGURE
@@ -2084,6 +2086,7 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hans-sg -> zh-
 -rw-r--r-- root       root              974 ./usr/share/errors/zh-hans/ERR_LIFETIME_EXP
 -rw-r--r-- root       root              959 ./usr/share/errors/zh-hans/ERR_NO_RELAY
 -rw-r--r-- root       root             1245 ./usr/share/errors/zh-hans/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/zh-hans/error-details.txt
 -rw-r--r-- root       root              959 ./usr/share/errors/zh-hans/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1026 ./usr/share/errors/zh-hans/ERR_READ_ERROR
 -rw-r--r-- root       root             1073 ./usr/share/errors/zh-hans/ERR_READ_TIMEOUT
@@ -2096,11 +2099,8 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hans-sg -> zh-
 -rw-r--r-- root       root              932 ./usr/share/errors/zh-hans/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1019 ./usr/share/errors/zh-hans/ERR_WRITE_ERROR
 -rw-r--r-- root       root              962 ./usr/share/errors/zh-hans/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/zh-hans/error-details.txt
+lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hans-sg -> zh-hans
 drwxr-xr-x root       root              880 ./usr/share/errors/zh-hant
-lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hant-hk -> zh-hant
-lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hant-mo -> zh-hant
-lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hant-tw -> zh-hant
 -rw-r--r-- root       root             1079 ./usr/share/errors/zh-hant/ERR_ACCESS_DENIED
 -rw-r--r-- root       root             1238 ./usr/share/errors/zh-hant/ERR_ACL_TIME_QUOTA_EXCEEDED
 -rw-r--r-- root       root             1528 ./usr/share/errors/zh-hant/ERR_AGENT_CONFIGURE
@@ -2130,6 +2130,7 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hant-tw -> zh-
 -rw-r--r-- root       root             1022 ./usr/share/errors/zh-hant/ERR_LIFETIME_EXP
 -rw-r--r-- root       root             1039 ./usr/share/errors/zh-hant/ERR_NO_RELAY
 -rw-r--r-- root       root             1233 ./usr/share/errors/zh-hant/ERR_ONLY_IF_CACHED_MISS
+-rw-r--r-- root       root             7284 ./usr/share/errors/zh-hant/error-details.txt
 -rw-r--r-- root       root             1007 ./usr/share/errors/zh-hant/ERR_PRECONDITION_FAILED
 -rw-r--r-- root       root             1083 ./usr/share/errors/zh-hant/ERR_READ_ERROR
 -rw-r--r-- root       root             1136 ./usr/share/errors/zh-hant/ERR_READ_TIMEOUT
@@ -2142,13 +2143,14 @@ lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hant-tw -> zh-
 -rw-r--r-- root       root              972 ./usr/share/errors/zh-hant/ERR_URN_RESOLVE
 -rw-r--r-- root       root             1076 ./usr/share/errors/zh-hant/ERR_WRITE_ERROR
 -rw-r--r-- root       root             1057 ./usr/share/errors/zh-hant/ERR_ZERO_SIZE_OBJECT
--rw-r--r-- root       root             7284 ./usr/share/errors/zh-hant/error-details.txt
+lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hant-hk -> zh-hant
+lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hant-mo -> zh-hant
+lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hant-tw -> zh-hant
 lrwxrwxrwx root       root                7 ./usr/share/errors/zh-hk -> zh-hant
 lrwxrwxrwx root       root                7 ./usr/share/errors/zh-mo -> zh-hant
 lrwxrwxrwx root       root                7 ./usr/share/errors/zh-sg -> zh-hans
 lrwxrwxrwx root       root                7 ./usr/share/errors/zh-tw -> zh-hant
 drwxr-xr-x root       root               80 ./usr/share/icons
--rw-r--r-- root       root            12716 ./usr/share/icons/SN.png
 drwxr-xr-x root       root             1040 ./usr/share/icons/silk
 -rw-r--r-- root       root              464 ./usr/share/icons/silk/application.png
 -rw-r--r-- root       root              372 ./usr/share/icons/silk/arrow_up.png
@@ -2165,8 +2167,8 @@ drwxr-xr-x root       root             1040 ./usr/share/icons/silk
 -rw-r--r-- root       root              390 ./usr/share/icons/silk/database.png
 -rw-r--r-- root       root              726 ./usr/share/icons/silk/database_table.png
 -rw-r--r-- root       root              695 ./usr/share/icons/silk/drive_disk.png
--rw-r--r-- root       root              653 ./usr/share/icons/silk/film.png
 -rw-r--r-- root       root              835 ./usr/share/icons/silk/film_key.png
+-rw-r--r-- root       root              653 ./usr/share/icons/silk/film.png
 -rw-r--r-- root       root              537 ./usr/share/icons/silk/folder.png
 -rw-r--r-- root       root              675 ./usr/share/icons/silk/folder_table.png
 -rw-r--r-- root       root              516 ./usr/share/icons/silk/image.png
@@ -2175,18 +2177,18 @@ drwxr-xr-x root       root             1040 ./usr/share/icons/silk
 -rw-r--r-- root       root              480 ./usr/share/icons/silk/layout.png
 -rw-r--r-- root       root              343 ./usr/share/icons/silk/link.png
 -rw-r--r-- root       root              385 ./usr/share/icons/silk/music.png
--rw-r--r-- root       root              853 ./usr/share/icons/silk/package.png
 -rw-r--r-- root       root              898 ./usr/share/icons/silk/package_go.png
+-rw-r--r-- root       root              853 ./usr/share/icons/silk/package.png
 -rw-r--r-- root       root              818 ./usr/share/icons/silk/page_code.png
 -rw-r--r-- root       root              817 ./usr/share/icons/silk/page_excel.png
 -rw-r--r-- root       root              621 ./usr/share/icons/silk/page_green.png
--rw-r--r-- root       root              294 ./usr/share/icons/silk/page_white.png
 -rw-r--r-- root       root              591 ./usr/share/icons/silk/page_white_acrobat.png
--rw-r--r-- root       root              587 ./usr/share/icons/silk/page_white_c.png
 -rw-r--r-- root       root              621 ./usr/share/icons/silk/page_white_cplusplus.png
+-rw-r--r-- root       root              587 ./usr/share/icons/silk/page_white_c.png
 -rw-r--r-- root       root              582 ./usr/share/icons/silk/page_white_flash.png
 -rw-r--r-- root       root              554 ./usr/share/icons/silk/page_white_magnify.png
 -rw-r--r-- root       root              650 ./usr/share/icons/silk/page_white_picture.png
+-rw-r--r-- root       root              294 ./usr/share/icons/silk/page_white.png
 -rw-r--r-- root       root              588 ./usr/share/icons/silk/page_white_powerpoint.png
 -rw-r--r-- root       root              317 ./usr/share/icons/silk/page_white_stack.png
 -rw-r--r-- root       root              342 ./usr/share/icons/silk/page_white_text.png
@@ -2195,11 +2197,12 @@ drwxr-xr-x root       root             1040 ./usr/share/icons/silk
 -rw-r--r-- root       root              903 ./usr/share/icons/silk/page_world.png
 -rw-r--r-- root       root              589 ./usr/share/icons/silk/photo.png
 -rw-r--r-- root       root              606 ./usr/share/icons/silk/picture.png
--rw-r--r-- root       root              591 ./usr/share/icons/silk/plugin.png
 -rw-r--r-- root       root              691 ./usr/share/icons/silk/plugin_add.png
--rw-r--r-- root       root              748 ./usr/share/icons/silk/script.png
+-rw-r--r-- root       root              591 ./usr/share/icons/silk/plugin.png
 -rw-r--r-- root       root              861 ./usr/share/icons/silk/script_gear.png
 -rw-r--r-- root       root              917 ./usr/share/icons/silk/script_palette.png
+-rw-r--r-- root       root              748 ./usr/share/icons/silk/script.png
+-rw-r--r-- root       root            12716 ./usr/share/icons/SN.png
 drwxr-xr-x root       root               80 ./var
 drwxr-xr-x root       root               60 ./var/cache
 drwxr-xr-x root       root               40 ./var/cache/squid
