@@ -1,10 +1,10 @@
 PV = 0.0.2+gitrAUTOINC+781d866bc1
 PR = r2
-PKG = libphone-utils0
-PKGR = r2.18
 PKGV = 0.0.2+gitr0+781d866bc1
+PKGR = r2.19
+PKG = libphone-utils0
 RPROVIDES = libphone-utils (=0.0.2+gitr0+781d866bc1)
-RDEPENDS = glib-2.0 (>= 2.48.1) glibc (>= 2.24) libpcre (>= 8.38)
+RDEPENDS = glib-2.0 (>= 2.48.1) glibc (>= 2.24) libpcre (>= 8.39)
 RRECOMMENDS = 
 PKGSIZE = 22962
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libphone-utils /usr/lib/libphone-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

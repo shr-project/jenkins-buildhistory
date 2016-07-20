@@ -1,10 +1,10 @@
 PV = 57.1
 PR = r0
+PKGR = r0.4
 PKG = libiculx57
-PKGR = r0.3
 RPROVIDES = libiculx (=57.1)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libicudata (>= 57.1) libicule (>= 57.1) libicuuc (>= 57.1) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 33244
+PKGSIZE = 33248
 FILES = /usr/lib/libiculx.so.*
 FILELIST = /usr/lib/libiculx.so.57 /usr/lib/libiculx.so.57.1

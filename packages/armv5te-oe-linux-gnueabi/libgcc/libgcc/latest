@@ -1,10 +1,10 @@
 PV = 6.1.1
 PR = r0
+PKGR = r0.5
 PKG = libgcc1
-PKGR = r0.4
 RPROVIDES = libgcc (=6.1.1)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 109572
+PKGSIZE = 109576
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libgcc /usr/lib/libgcc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /lib/libgcc_s.so.1

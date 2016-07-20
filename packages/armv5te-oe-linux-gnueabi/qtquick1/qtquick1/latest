@@ -1,11 +1,11 @@
 PV = 5.6.99+5.7.0-beta+gitAUTOINC+5e3bd5cb28
 PR = r0
-PKG = libqt5declarative5
-PKGR = r0.18
 PKGV = 5.6.99+5.7.0-beta+git0+5e3bd5cb28
+PKGR = r0.19
+PKG = libqt5declarative5
 RPROVIDES = qtquick1 (=5.6.99+5.7.0-beta+git0+5e3bd5cb28)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) qtscript (>= 5.6.99+5.7.0-beta+git0+b49bfdaad1) qtxmlpatterns (>= 5.6.99+5.7.0-beta+git0+fb1dc19bf1)
 RRECOMMENDS = qtquick1-plugins qtquick1-qmlplugins
-PKGSIZE = 2087900
+PKGSIZE = 2087904
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtquick1 /usr/lib/qtquick1/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5Declarative.so.5 /usr/lib/libQt5Declarative.so.5.7 /usr/lib/libQt5Declarative.so.5.7.0

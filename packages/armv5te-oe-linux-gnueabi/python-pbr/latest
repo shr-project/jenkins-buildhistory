@@ -1,4 +1,4 @@
 PV = 1.10.0
 PR = r0
-DEPENDS = python-pip virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = python-native python-pip virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = python-pbr-dbg python-pbr-staticdev python-pbr-dev python-pbr-doc python-pbr-locale python-pbr

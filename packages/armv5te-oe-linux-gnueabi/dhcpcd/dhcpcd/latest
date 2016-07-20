@@ -1,8 +1,8 @@
 PV = 6.10.1
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libudev (>= 229+git0+714c62b463) udev
+RDEPENDS = glibc (>= 2.24) libudev (>= 230+git0+3a74d4fc90) udev
 RRECOMMENDS = 
 PKGSIZE = 206377
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dhcpcd /usr/lib/dhcpcd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

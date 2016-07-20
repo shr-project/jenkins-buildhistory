@@ -1,10 +1,10 @@
 PV = 0.93
 PR = r0
+PKGR = r0.18
 PKG = libcdio16
-PKGR = r0.17
 RPROVIDES = libcdio (=0.93)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 100173
+PKGSIZE = 100177
 FILES = /usr/lib/libcdio${SOLIB} /usr/lib/libcdio.so.16 /usr/lib/libcdio.so.16.0.0
 FILELIST = /usr/lib/libcdio.so.16 /usr/lib/libcdio.so.16.0.0

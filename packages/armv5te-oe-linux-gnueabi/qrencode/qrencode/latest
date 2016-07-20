@@ -1,11 +1,11 @@
 PV = 3.4.4+gitAUTOINC+1b565c7b59
 PR = r0
-PKG = libqrencode3
-PKGR = r0.17
 PKGV = 3.4.4+git0+1b565c7b59
+PKGR = r0.18
+PKG = libqrencode3
 RPROVIDES = qrencode (=3.4.4+git0+1b565c7b59)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 28404
+PKGSIZE = 28408
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qrencode /usr/lib/qrencode/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libqrencode.so.3 /usr/lib/libqrencode.so.3.9.0

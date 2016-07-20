@@ -1,10 +1,10 @@
 PE = 1
 PV = 7.3+gitAUTOINC+01b10e191e
 PR = r0
-PKGR = r0.16
 PKGV = 7.3+git1+01b10e191e
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = ltrace (= 1:7.3+git1+01b10e191e-r0.16)
+RDEPENDS = ltrace (= 1:7.3+git1+01b10e191e-r0.17)
 RRECOMMENDS = elfutils-dev glibc-dev libelf-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ltrace/*.la /lib/*.la

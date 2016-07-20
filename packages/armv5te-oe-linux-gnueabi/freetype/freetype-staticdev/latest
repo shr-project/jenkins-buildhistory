@@ -1,9 +1,9 @@
 PV = 2.6.3
 PR = r0
+PKGR = r0.19
 PKG = libfreetype-staticdev
-PKGR = r0.18
 RPROVIDES = freetype-staticdev (=2.6.3)
-RDEPENDS = freetype-dev (= 2.6.3-r0.18)
+RDEPENDS = freetype-dev (= 2.6.3-r0.19)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/freetype/*.a

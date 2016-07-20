@@ -1,10 +1,10 @@
 PV = 0.3.0
 PR = r0
+PKGR = r0.18
 PKG = libp11-2
-PKGR = r0.17
 RPROVIDES = libp11 (=0.3.0)
 RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2h)
 RRECOMMENDS = 
-PKGSIZE = 27763
+PKGSIZE = 27767
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libp11 /usr/lib/libp11/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libp11.so.2 /usr/lib/libp11.so.2.2.0
