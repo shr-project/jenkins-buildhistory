@@ -1,9 +1,9 @@
 PV = 2.10.12
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 PKG = libgnt0
 RPROVIDES = libgnt (=2.10.12)
-RDEPENDS = dbus-glib (>= 0.106) dbus-lib (>= 1.10.8) glib-2.0 (>= 2.48.1) glibc (>= 2.24) libcap (>= 2.25) libffi (>= 3.2.1) libidn (>= 1.32) liblzma (>= 5.2.2) libpcre (>= 8.38) libpurple (>= 2.10.12) libpython2 (>= 2.7.11) libsystemd (>= 229+git0+714c62b463) libxml2 (>= 2.9.4) ncurses-libncursesw (>= 6.0+20160319) ncurses-libpanelw (>= 6.0+20160319) ncurses-libtinfo (>= 6.0+20160319) zlib (>= 1.2.8)
+RDEPENDS = dbus-glib (>= 0.106) dbus-lib (>= 1.10.8) glib-2.0 (>= 2.48.1) glibc (>= 2.24) libcap (>= 2.25) libffi (>= 3.2.1) libidn (>= 1.32) liblzma (>= 5.2.2) libpcre (>= 8.39) libpurple (>= 2.10.12) libpython2 (>= 2.7.11) libsystemd (>= 230+git0+3a74d4fc90) libxml2 (>= 2.9.4) ncurses-libncursesw (>= 6.0+20160319) ncurses-libpanelw (>= 6.0+20160319) ncurses-libtinfo (>= 6.0+20160319) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 258768
 FILES = /usr/lib/libgnt.so.* /usr/lib/gnt/*.so

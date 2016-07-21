@@ -78,7 +78,7 @@ drwxr-xr-x root       root             1040 ./usr/include/Poco/Data
 -rw-r--r-- root       root              604 ./usr/include/Poco/Data/AutoTransaction.h
 -rw-r--r-- root       root            31817 ./usr/include/Poco/Data/Binding.h
 -rw-r--r-- root       root             3511 ./usr/include/Poco/Data/BulkBinding.h
--rw-r--r-- root       root             7187 ./usr/include/Poco/Data/BulkExtraction.h
+-rw-r--r-- root       root             7190 ./usr/include/Poco/Data/BulkExtraction.h
 -rw-r--r-- root       root             1484 ./usr/include/Poco/Data/Bulk.h
 -rw-r--r-- root       root             9985 ./usr/include/Poco/Data/Column.h
 -rw-r--r-- root       root             1281 ./usr/include/Poco/Data/Connector.h
@@ -98,10 +98,10 @@ drwxr-xr-x root       root             1040 ./usr/include/Poco/Data
 -rw-r--r-- root       root             1181 ./usr/include/Poco/Data/Position.h
 -rw-r--r-- root       root             3333 ./usr/include/Poco/Data/Preparation.h
 -rw-r--r-- root       root             1673 ./usr/include/Poco/Data/Range.h
--rw-r--r-- root       root            17653 ./usr/include/Poco/Data/RecordSet.h
+-rw-r--r-- root       root            17611 ./usr/include/Poco/Data/RecordSet.h
 -rw-r--r-- root       root             6717 ./usr/include/Poco/Data/RowFilter.h
 -rw-r--r-- root       root             6208 ./usr/include/Poco/Data/RowFormatter.h
--rw-r--r-- root       root             7990 ./usr/include/Poco/Data/Row.h
+-rw-r--r-- root       root             7820 ./usr/include/Poco/Data/Row.h
 -rw-r--r-- root       root             3712 ./usr/include/Poco/Data/RowIterator.h
 -rw-r--r-- root       root             3100 ./usr/include/Poco/Data/SessionFactory.h
 -rw-r--r-- root       root            14970 ./usr/include/Poco/Data/Session.h
@@ -122,7 +122,7 @@ drwxr-xr-x root       root              220 ./usr/include/Poco/Data/SQLite
 -rw-r--r-- root       root             6679 ./usr/include/Poco/Data/SQLite/Utility.h
 -rw-r--r-- root       root             1580 ./usr/include/Poco/Data/StatementCreator.h
 -rw-r--r-- root       root            22463 ./usr/include/Poco/Data/Statement.h
--rw-r--r-- root       root            17198 ./usr/include/Poco/Data/StatementImpl.h
+-rw-r--r-- root       root            17200 ./usr/include/Poco/Data/StatementImpl.h
 -rw-r--r-- root       root             3807 ./usr/include/Poco/Data/Time.h
 -rw-r--r-- root       root             5329 ./usr/include/Poco/Data/Transaction.h
 -rw-r--r-- root       root            82223 ./usr/include/Poco/Data/TypeHandler.h
@@ -276,7 +276,7 @@ drwxr-xr-x root       root              280 ./usr/include/Poco/JSON
 -rw-r--r-- root       root             1281 ./usr/include/Poco/Latin9Encoding.h
 -rw-r--r-- root       root            11244 ./usr/include/Poco/LinearHashTable.h
 -rw-r--r-- root       root             5639 ./usr/include/Poco/LineEndingConverter.h
--rw-r--r-- root       root             5331 ./usr/include/Poco/ListMap.h
+-rw-r--r-- root       root             5308 ./usr/include/Poco/ListMap.h
 -rw-r--r-- root       root            10775 ./usr/include/Poco/LocalDateTime.h
 -rw-r--r-- root       root             1791 ./usr/include/Poco/LogFile.h
 -rw-r--r-- root       root             1107 ./usr/include/Poco/LogFile_STD.h
@@ -766,7 +766,7 @@ drwxr-xr-x root       root              500 ./usr/include/Poco/Zip
 -rw-r--r-- root       root             1687 ./usr/include/Poco/Zip/ZipCommon.h
 -rw-r--r-- root       root             2623 ./usr/include/Poco/Zip/ZipDataInfo.h
 -rw-r--r-- root       root              695 ./usr/include/Poco/Zip/ZipException.h
--rw-r--r-- root       root            11067 ./usr/include/Poco/Zip/ZipFileInfo.h
+-rw-r--r-- root       root            11089 ./usr/include/Poco/Zip/ZipFileInfo.h
 -rw-r--r-- root       root             1540 ./usr/include/Poco/Zip/Zip.h
 -rw-r--r-- root       root            11426 ./usr/include/Poco/Zip/ZipLocalFileHeader.h
 -rw-r--r-- root       root             3156 ./usr/include/Poco/Zip/ZipManipulator.h
@@ -827,15 +827,15 @@ drwxr-xr-x root       root             1040 ./usr/lib/cmake/Poco
 -rw-r--r-- root       root             1269 ./usr/lib/cmake/Poco/PocoZipConfigVersion.cmake
 -rw-r--r-- root       root             4545 ./usr/lib/cmake/Poco/PocoZipTargets.cmake
 -rw-r--r-- root       root              846 ./usr/lib/cmake/Poco/PocoZipTargets-relwithdebinfo.cmake
-lrwxrwxrwx root       root               19 ./usr/lib/libPocoCrypto.so -> libPocoCrypto.so.41
-lrwxrwxrwx root       root               17 ./usr/lib/libPocoData.so -> libPocoData.so.41
-lrwxrwxrwx root       root               23 ./usr/lib/libPocoDataSQLite.so -> libPocoDataSQLite.so.41
-lrwxrwxrwx root       root               23 ./usr/lib/libPocoFoundation.so -> libPocoFoundation.so.41
-lrwxrwxrwx root       root               17 ./usr/lib/libPocoJSON.so -> libPocoJSON.so.41
-lrwxrwxrwx root       root               20 ./usr/lib/libPocoMongoDB.so -> libPocoMongoDB.so.41
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoNet.so -> libPocoNet.so.41
-lrwxrwxrwx root       root               19 ./usr/lib/libPocoNetSSL.so -> libPocoNetSSL.so.41
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoPDF.so -> libPocoPDF.so.41
-lrwxrwxrwx root       root               17 ./usr/lib/libPocoUtil.so -> libPocoUtil.so.41
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoXML.so -> libPocoXML.so.41
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoZip.so -> libPocoZip.so.41
+lrwxrwxrwx root       root               19 ./usr/lib/libPocoCrypto.so -> libPocoCrypto.so.43
+lrwxrwxrwx root       root               17 ./usr/lib/libPocoData.so -> libPocoData.so.43
+lrwxrwxrwx root       root               23 ./usr/lib/libPocoDataSQLite.so -> libPocoDataSQLite.so.43
+lrwxrwxrwx root       root               23 ./usr/lib/libPocoFoundation.so -> libPocoFoundation.so.43
+lrwxrwxrwx root       root               17 ./usr/lib/libPocoJSON.so -> libPocoJSON.so.43
+lrwxrwxrwx root       root               20 ./usr/lib/libPocoMongoDB.so -> libPocoMongoDB.so.43
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoNet.so -> libPocoNet.so.43
+lrwxrwxrwx root       root               19 ./usr/lib/libPocoNetSSL.so -> libPocoNetSSL.so.43
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoPDF.so -> libPocoPDF.so.43
+lrwxrwxrwx root       root               17 ./usr/lib/libPocoUtil.so -> libPocoUtil.so.43
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoXML.so -> libPocoXML.so.43
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoZip.so -> libPocoZip.so.43

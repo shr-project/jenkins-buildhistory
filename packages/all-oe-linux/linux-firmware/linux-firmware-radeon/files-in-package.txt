@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/firmware
-drwxr-xr-x root       root             4800 ./lib/firmware/radeon
+drwxr-xr-x root       root             4940 ./lib/firmware/radeon
 -rw-r--r-- root       root             8704 ./lib/firmware/radeon/ARUBA_me.bin
 -rw-r--r-- root       root             8704 ./lib/firmware/radeon/ARUBA_pfp.bin
 -rw-r--r-- root       root             6144 ./lib/firmware/radeon/ARUBA_rlc.bin
@@ -10,6 +10,7 @@ drwxr-xr-x root       root             4800 ./lib/firmware/radeon
 -rw-r--r-- root       root            24840 ./lib/firmware/radeon/BARTS_smc.bin
 -rw-r--r-- root       root             8832 ./lib/firmware/radeon/bonaire_ce.bin
 -rw-r--r-- root       root             8576 ./lib/firmware/radeon/BONAIRE_ce.bin
+-rw-r--r-- root       root           130796 ./lib/firmware/radeon/bonaire_k_smc.bin
 -rw-r--r-- root       root            31792 ./lib/firmware/radeon/BONAIRE_mc2.bin
 -rw-r--r-- root       root            32336 ./lib/firmware/radeon/bonaire_mc.bin
 -rw-r--r-- root       root            31464 ./lib/firmware/radeon/BONAIRE_mc.bin
@@ -51,6 +52,7 @@ drwxr-xr-x root       root             4800 ./lib/firmware/radeon
 -rw-r--r-- root       root           115736 ./lib/firmware/radeon/CYPRESS_uvd.bin
 -rw-r--r-- root       root             8832 ./lib/firmware/radeon/hainan_ce.bin
 -rw-r--r-- root       root             8576 ./lib/firmware/radeon/HAINAN_ce.bin
+-rw-r--r-- root       root            61932 ./lib/firmware/radeon/hainan_k_smc.bin
 -rw-r--r-- root       root            31452 ./lib/firmware/radeon/HAINAN_mc2.bin
 -rw-r--r-- root       root            31996 ./lib/firmware/radeon/hainan_mc.bin
 -rw-r--r-- root       root            31452 ./lib/firmware/radeon/HAINAN_mc.bin
@@ -64,6 +66,7 @@ drwxr-xr-x root       root             4800 ./lib/firmware/radeon
 -rw-r--r-- root       root            59004 ./lib/firmware/radeon/HAINAN_smc.bin
 -rw-r--r-- root       root             8832 ./lib/firmware/radeon/hawaii_ce.bin
 -rw-r--r-- root       root             8576 ./lib/firmware/radeon/HAWAII_ce.bin
+-rw-r--r-- root       root           130796 ./lib/firmware/radeon/hawaii_k_smc.bin
 -rw-r--r-- root       root            32364 ./lib/firmware/radeon/HAWAII_mc2.bin
 -rw-r--r-- root       root            32796 ./lib/firmware/radeon/hawaii_mc.bin
 -rw-r--r-- root       root            31732 ./lib/firmware/radeon/HAWAII_mc.bin
@@ -134,6 +137,7 @@ drwxr-xr-x root       root             4800 ./lib/firmware/radeon
 -rw-r--r-- root       root           101072 ./lib/firmware/radeon/mullins_vce.bin
 -rw-r--r-- root       root             8832 ./lib/firmware/radeon/oland_ce.bin
 -rw-r--r-- root       root             8576 ./lib/firmware/radeon/OLAND_ce.bin
+-rw-r--r-- root       root            62748 ./lib/firmware/radeon/oland_k_smc.bin
 -rw-r--r-- root       root            31452 ./lib/firmware/radeon/OLAND_mc2.bin
 -rw-r--r-- root       root            31996 ./lib/firmware/radeon/oland_mc.bin
 -rw-r--r-- root       root            31452 ./lib/firmware/radeon/OLAND_mc.bin
@@ -149,6 +153,7 @@ drwxr-xr-x root       root             4800 ./lib/firmware/radeon
 -rw-r--r-- root       root             4480 ./lib/firmware/radeon/PALM_pfp.bin
 -rw-r--r-- root       root             8832 ./lib/firmware/radeon/pitcairn_ce.bin
 -rw-r--r-- root       root             8576 ./lib/firmware/radeon/PITCAIRN_ce.bin
+-rw-r--r-- root       root            61768 ./lib/firmware/radeon/pitcairn_k_smc.bin
 -rw-r--r-- root       root            31100 ./lib/firmware/radeon/PITCAIRN_mc2.bin
 -rw-r--r-- root       root            31644 ./lib/firmware/radeon/pitcairn_mc.bin
 -rw-r--r-- root       root            31076 ./lib/firmware/radeon/PITCAIRN_mc.bin
@@ -209,6 +214,7 @@ drwxr-xr-x root       root             4800 ./lib/firmware/radeon
 -rw-r--r-- root       root           205080 ./lib/firmware/radeon/SUMO_uvd.bin
 -rw-r--r-- root       root             8832 ./lib/firmware/radeon/tahiti_ce.bin
 -rw-r--r-- root       root             8576 ./lib/firmware/radeon/TAHITI_ce.bin
+-rw-r--r-- root       root            64420 ./lib/firmware/radeon/tahiti_k_smc.bin
 -rw-r--r-- root       root            31232 ./lib/firmware/radeon/TAHITI_mc2.bin
 -rw-r--r-- root       root            31776 ./lib/firmware/radeon/tahiti_mc.bin
 -rw-r--r-- root       root            31076 ./lib/firmware/radeon/TAHITI_mc.bin
@@ -228,6 +234,7 @@ drwxr-xr-x root       root             4800 ./lib/firmware/radeon
 -rw-r--r-- root       root            24668 ./lib/firmware/radeon/TURKS_smc.bin
 -rw-r--r-- root       root             8832 ./lib/firmware/radeon/verde_ce.bin
 -rw-r--r-- root       root             8576 ./lib/firmware/radeon/VERDE_ce.bin
+-rw-r--r-- root       root            63860 ./lib/firmware/radeon/verde_k_smc.bin
 -rw-r--r-- root       root            31500 ./lib/firmware/radeon/VERDE_mc2.bin
 -rw-r--r-- root       root            32044 ./lib/firmware/radeon/verde_mc.bin
 -rw-r--r-- root       root            31076 ./lib/firmware/radeon/VERDE_mc.bin

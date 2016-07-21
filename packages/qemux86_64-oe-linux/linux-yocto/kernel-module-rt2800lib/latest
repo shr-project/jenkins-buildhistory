@@ -1,10 +1,10 @@
-PV = 4.4.13+gitAUTOINC+870134f4bf_13852755ec
+PV = 4.4.14+gitAUTOINC+4800a400d5_8361321fec
 PR = r0
 PKGR = r0.1
-PKGV = 4.4.13+git1+870134f4bf_13852755ec
+PKGV = 4.4.14+git0+4800a400d5_8361321fec
 RPROVIDES = 
-RDEPENDS = kernel-4.4.13-yocto-standard kernel-module-cfg80211 kernel-module-crc-ccitt kernel-module-mac80211 kernel-module-rt2x00lib
+RDEPENDS = kernel-4.4.14-yocto-standard kernel-module-cfg80211 kernel-module-crc-ccitt kernel-module-mac80211 kernel-module-rt2x00lib
 RRECOMMENDS = 
 PKGSIZE = 89896
-FILES = /lib/modules/4.4.13-yocto-standard/kernel/drivers/net/wireless/rt2x00/rt2800lib.ko /etc/modules-load.d/rt2800lib.conf /etc/modprobe.d/rt2800lib.conf
-FILELIST = /lib/modules/4.4.13-yocto-standard/kernel/drivers/net/wireless/rt2x00/rt2800lib.ko
+FILES = /lib/modules/4.4.14-yocto-standard/kernel/drivers/net/wireless/rt2x00/rt2800lib.ko /etc/modules-load.d/rt2800lib.conf /etc/modprobe.d/rt2800lib.conf
+FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/drivers/net/wireless/rt2x00/rt2800lib.ko

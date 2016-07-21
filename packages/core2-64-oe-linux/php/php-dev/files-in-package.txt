@@ -1,6 +1,6 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root             6223 ./usr/bin/php-config
+-rwxr-xr-x root       root             6217 ./usr/bin/php-config
 -rwxr-xr-x root       root             4480 ./usr/bin/phpize
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              160 ./usr/include/php
@@ -8,8 +8,8 @@ drwxr-xr-x root       root              420 ./usr/include/php/ext
 drwxr-xr-x root       root               80 ./usr/include/php/ext/date
 drwxr-xr-x root       root              100 ./usr/include/php/ext/date/lib
 -rw-r--r-- root       root              134 ./usr/include/php/ext/date/lib/timelib_config.h
--rw-r--r-- root       root             7003 ./usr/include/php/ext/date/lib/timelib.h
--rw-r--r-- root       root             8074 ./usr/include/php/ext/date/lib/timelib_structs.h
+-rw-r--r-- root       root             7065 ./usr/include/php/ext/date/lib/timelib.h
+-rw-r--r-- root       root             8110 ./usr/include/php/ext/date/lib/timelib_structs.h
 -rw-r--r-- root       root             6716 ./usr/include/php/ext/date/php_date.h
 drwxr-xr-x root       root               60 ./usr/include/php/ext/dom
 -rw-r--r-- root       root             3677 ./usr/include/php/ext/dom/xml_common.h
@@ -163,7 +163,7 @@ drwxr-xr-x root       root             1300 ./usr/include/php/ext/standard
 -rw-r--r-- root       root             1243 ./usr/include/php/ext/standard/php_metaphone.h
 -rw-r--r-- root       root             1617 ./usr/include/php/ext/standard/php_password.h
 -rw-r--r-- root       root             2624 ./usr/include/php/ext/standard/php_rand.h
--rw-r--r-- root       root             6531 ./usr/include/php/ext/standard/php_smart_str.h
+-rw-r--r-- root       root             6668 ./usr/include/php/ext/standard/php_smart_str.h
 -rw-r--r-- root       root             1319 ./usr/include/php/ext/standard/php_smart_str_public.h
 -rw-r--r-- root       root             2267 ./usr/include/php/ext/standard/php_standard.h
 -rw-r--r-- root       root             6376 ./usr/include/php/ext/standard/php_string.h
@@ -185,7 +185,7 @@ drwxr-xr-x root       root               80 ./usr/include/php/ext/xml
 -rw-r--r-- root       root             4577 ./usr/include/php/ext/xml/php_xml.h
 drwxr-xr-x root       root               40 ./usr/include/php/include
 drwxr-xr-x root       root              620 ./usr/include/php/main
--rw-r--r-- root       root             7662 ./usr/include/php/main/build-defs.h
+-rw-r--r-- root       root             7656 ./usr/include/php/main/build-defs.h
 -rw-r--r-- root       root             2816 ./usr/include/php/main/fopen_wrappers.h
 -rw-r--r-- root       root            18029 ./usr/include/php/main/php_compat.h
 -rw-r--r-- root       root            58192 ./usr/include/php/main/php_config.h
@@ -292,8 +292,8 @@ drwxr-xr-x root       root             1260 ./usr/include/php/Zend
 -rw-r--r-- root       root             2358 ./usr/include/php/Zend/zend_types.h
 -rw-r--r-- root       root             3850 ./usr/include/php/Zend/zend_variables.h
 -rw-r--r-- root       root            12130 ./usr/include/php/Zend/zend_virtual_cwd.h
--rw-r--r-- root       root           165966 ./usr/include/php/Zend/zend_vm_def.h
--rw-r--r-- root       root          1377700 ./usr/include/php/Zend/zend_vm_execute.h
+-rw-r--r-- root       root           166478 ./usr/include/php/Zend/zend_vm_def.h
+-rw-r--r-- root       root          1384525 ./usr/include/php/Zend/zend_vm_execute.h
 -rw-r--r-- root       root             1422 ./usr/include/php/Zend/zend_vm.h
 -rw-r--r-- root       root             8807 ./usr/include/php/Zend/zend_vm_opcodes.h
 drwxr-xr-x root       root               60 ./usr/lib
@@ -304,7 +304,7 @@ drwxr-xr-x root       root              260 ./usr/lib/php5/build
 -rwxr-xr-x root       root            36132 ./usr/lib/php5/build/config.sub
 -rw-r--r-- root       root           331729 ./usr/lib/php5/build/libtool.m4
 -rw-r--r-- root       root           328337 ./usr/lib/php5/build/ltmain.sh
--rw-r--r-- root       root             6732 ./usr/lib/php5/build/Makefile.global
+-rw-r--r-- root       root             6733 ./usr/lib/php5/build/Makefile.global
 -rw-r--r-- root       root             2225 ./usr/lib/php5/build/mkdep.awk
 -rw-r--r-- root       root             4690 ./usr/lib/php5/build/phpize.m4
 -rw-r--r-- root       root            79950 ./usr/lib/php5/build/run-tests.php

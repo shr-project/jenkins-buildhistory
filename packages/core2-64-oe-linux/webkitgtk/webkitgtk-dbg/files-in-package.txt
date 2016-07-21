@@ -2,15 +2,15 @@ drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               80 ./usr/bin/.debug
 -rwxr-xr-x root       root          7177152 ./usr/bin/.debug/jsc
--rwxr-xr-x root       root           320816 ./usr/bin/.debug/MiniBrowser
+-rwxr-xr-x root       root           320944 ./usr/bin/.debug/MiniBrowser
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/.debug
--rwxr-xr-x root       root        877466096 ./usr/lib/.debug/libjavascriptcoregtk-4.0.so.18.3.11
--rwxr-xr-x root       root       2154776944 ./usr/lib/.debug/libwebkit2gtk-4.0.so.37.13.9
+-rwxr-xr-x root       root        877468504 ./usr/lib/.debug/libjavascriptcoregtk-4.0.so.18.3.11
+-rwxr-xr-x root       root       2155375688 ./usr/lib/.debug/libwebkit2gtk-4.0.so.37.13.9
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/webkit2gtk-4.0
 drwxr-xr-x root       root              120 ./usr/libexec/webkit2gtk-4.0/.debug
--rwxr-xr-x root       root            33232 ./usr/libexec/webkit2gtk-4.0/.debug/WebKitDatabaseProcess
+-rwxr-xr-x root       root            33248 ./usr/libexec/webkit2gtk-4.0/.debug/WebKitDatabaseProcess
 -rwxr-xr-x root       root            16008 ./usr/libexec/webkit2gtk-4.0/.debug/WebKitNetworkProcess
 -rwxr-xr-x root       root            15776 ./usr/libexec/webkit2gtk-4.0/.debug/WebKitPluginProcess
 -rwxr-xr-x root       root            15968 ./usr/libexec/webkit2gtk-4.0/.debug/WebKitWebProcess
@@ -2653,7 +2653,7 @@ drwxr-xr-x root       root             2060 ./usr/src/debug/webkitgtk/2.12.3-r0/
 -rw-r--r-- root       root             1927 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/JavaScriptCore/heap/LiveObjectList.h
 -rw-r--r-- root       root             4277 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/JavaScriptCore/heap/Local.h
 -rw-r--r-- root       root             2470 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/JavaScriptCore/heap/LocalScope.h
--rw-r--r-- root       root            35458 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/JavaScriptCore/heap/MachineStackMarker.cpp
+-rw-r--r-- root       root            35480 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/JavaScriptCore/heap/MachineStackMarker.cpp
 -rw-r--r-- root       root             6005 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/JavaScriptCore/heap/MachineStackMarker.h
 -rw-r--r-- root       root             7043 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/JavaScriptCore/heap/MarkedAllocator.cpp
 -rw-r--r-- root       root             4929 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/JavaScriptCore/heap/MarkedAllocator.h
@@ -6618,7 +6618,7 @@ drwxr-xr-x root       root              140 ./usr/src/debug/webkitgtk/2.12.3-r0/
 -rw-r--r-- root       root             2712 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/graphics/x11/XUniquePtr.h
 -rw-r--r-- root       root             2840 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/graphics/x11/XUniqueResource.cpp
 -rw-r--r-- root       root             3058 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/graphics/x11/XUniqueResource.h
-drwxr-xr-x root       root              780 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk
+drwxr-xr-x root       root              820 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk
 -rw-r--r-- root       root             2241 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/CompositionResults.h
 -rw-r--r-- root       root             8087 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/CursorGtk.cpp
 -rw-r--r-- root       root            22233 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/CursorGtk.h
@@ -6646,6 +6646,8 @@ drwxr-xr-x root       root              780 ./usr/src/debug/webkitgtk/2.12.3-r0/
 -rw-r--r-- root       root             4005 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/PlatformMouseEventGtk.cpp
 -rw-r--r-- root       root             4382 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/PlatformScreenGtk.cpp
 -rw-r--r-- root       root             3473 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/PlatformWheelEventGtk.cpp
+-rw-r--r-- root       root            16758 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/RenderThemeGadget.cpp
+-rw-r--r-- root       root             5735 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/RenderThemeGadget.h
 -rw-r--r-- root       root            10565 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/ScrollAnimatorGtk.cpp
 -rw-r--r-- root       root             3595 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/ScrollAnimatorGtk.h
 -rw-r--r-- root       root            43959 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebCore/platform/gtk/ScrollbarThemeGtk.cpp
@@ -9329,7 +9331,7 @@ drwxr-xr-x root       root              200 ./usr/src/debug/webkitgtk/2.12.3-r0/
 -rw-r--r-- root       root            13598 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebKit2/WebProcess/WebProcess.h
 -rw-r--r-- root       root             1720 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WebKit2/WebProcess/WebProcessSupplement.h
 drwxr-xr-x root       root               60 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF
-drwxr-xr-x root       root             3600 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf
+drwxr-xr-x root       root             3620 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf
 -rw-r--r-- root       root             9279 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/ASCIICType.h
 -rw-r--r-- root       root            15007 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/Assertions.cpp
 -rw-r--r-- root       root            13296 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/Assertions.h
@@ -9447,6 +9449,7 @@ drwxr-xr-x root       root              240 ./usr/src/debug/webkitgtk/2.12.3-r0/
 -rw-r--r-- root       root             2771 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/NumberOfCores.cpp
 -rw-r--r-- root       root              977 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/NumberOfCores.h
 -rw-r--r-- root       root             6622 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/Optional.h
+-rw-r--r-- root       root             4447 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/OptionSet.h
 -rw-r--r-- root       root             3956 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/OrderMaker.h
 -rw-r--r-- root       root             5001 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/OSAllocator.h
 -rw-r--r-- root       root             6238 ./usr/src/debug/webkitgtk/2.12.3-r0/webkitgtk-2.12.3/Source/WTF/wtf/OSAllocatorPosix.cpp

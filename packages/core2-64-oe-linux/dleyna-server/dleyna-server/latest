@@ -1,9 +1,9 @@
 PV = 0.6.0
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = 
-RDEPENDS = dleyna-connector-dbus dleyna-core (>= 0.6.0) glib-2.0 (>= 2.48.1) glibc (>= 2.24) gssdp (>= 0.14.8) gupnp (>= 0.20.14) gupnp-av (>= 0.12.6) gupnp-dlna (>= 0.9.4) libffi (>= 3.2.1) libpcre (>= 8.38) libsoup-2.4 (>= 2.54.1) libsqlite3 (>= 3.13.0) libxml2 (>= 2.9.4) util-linux-libuuid (>= 2.27.1) zlib (>= 1.2.8)
+RDEPENDS = dleyna-connector-dbus dleyna-core (>= 0.6.0) glib-2.0 (>= 2.48.1) glibc (>= 2.24) gssdp (>= 0.14.8) gupnp (>= 0.20.14) gupnp-av (>= 0.12.6) gupnp-dlna (>= 0.9.4) libffi (>= 3.2.1) libpcre (>= 8.39) libsoup-2.4 (>= 2.54.1) libsqlite3 (>= 3.13.0) libxml2 (>= 2.9.4) util-linux-libuuid (>= 2.28) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 167329
+PKGSIZE = 167313
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dleyna-server /usr/lib/dleyna-server/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1
 FILELIST = /etc/dleyna-server-service.conf /usr/lib/dleyna-server/libdleyna-server-1.0.so.1 /usr/lib/dleyna-server/libdleyna-server-1.0.so.1.0.3 /usr/libexec/dleyna-server-service /usr/share/dbus-1/services/com.intel.dleyna-server.service

@@ -1,10 +1,10 @@
-PV = 1.7.1
+PV = 1.7.3
 PR = r0
-PKGR = r0.18
-PKG = libpocodata41
-RPROVIDES = poco-data (=1.7.1)
-RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) poco-foundation (>= 1.7.1)
+PKGR = r0.0
+PKG = libpocodata43
+RPROVIDES = poco-data (=1.7.3)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) poco-foundation (>= 1.7.3)
 RRECOMMENDS = 
-PKGSIZE = 1876144
+PKGSIZE = 1875752
 FILES = /usr/lib/libPocoData.so.*
-FILELIST = /usr/lib/libPocoData.so.41
+FILELIST = /usr/lib/libPocoData.so.43

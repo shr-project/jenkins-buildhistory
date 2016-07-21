@@ -1,0 +1,11 @@
+PV = 5.6.99+5.7.0-beta+gitAUTOINC+f9201ca7ba
+PR = r0
+PKGR = r0.0
+PKGV = 5.6.99+5.7.0-beta+git0+f9201ca7ba
+PKG = libqt5serialbus-plugins-dbg
+RPROVIDES = qtserialbus-plugins-dbg (=5.6.99+5.7.0-beta+git0+f9201ca7ba)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg qtserialbus-dbg qtserialport-dbg
+PKGSIZE = 0
+FILES = /usr/lib/qt5/plugins/*/.debug/* /usr/lib/qt5/plugins/*/*/.debug/* /usr/lib/qt5/plugins/*/*/*/.debug/*
+FILELIST = 

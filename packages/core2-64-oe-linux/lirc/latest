@@ -1,4 +1,4 @@
 PV = 0.9.2
 PR = r0
-DEPENDS = alsa-lib autoconf-native automake-native gnu-config-native jack libftdi libtool-cross libtool-native libusb-compat libusb1 libx11 pkgconfig-native portaudio-v19 python-native systemd systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = alsa-lib autoconf-native automake-native gnu-config-native jack libftdi libtool-cross libtool-native libusb-compat libusb1 libx11 pkgconfig-native portaudio-v19 python3-native systemd systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = lirc-contrib lirc-exec lirc-plugins lirc-python lirc-dbg lirc-staticdev lirc-dev lirc-doc lirc-locale lirc

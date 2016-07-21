@@ -1,10 +1,10 @@
 PV = 2.7.3+gitAUTOINC+5362a1f260
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKGV = 2.7.3+git0+5362a1f260
 RPROVIDES = 
-RDEPENDS = kernel-4.4.13-yocto-standard kernel-module-lttng-ftrace kernel-module-lttng-kprobes kernel-module-lttng-kretprobes kernel-module-lttng-lib-ring-buffer kernel-module-lttng-statedump
+RDEPENDS = kernel-4.4.14-yocto-standard kernel-module-lttng-ftrace kernel-module-lttng-kprobes kernel-module-lttng-kretprobes kernel-module-lttng-lib-ring-buffer kernel-module-lttng-statedump
 RRECOMMENDS = 
-PKGSIZE = 1638128
-FILES = /lib/modules/4.4.13-yocto-standard/kernel/lttng-modules/lttng-tracer.ko /etc/modules-load.d/lttng-tracer.conf /etc/modprobe.d/lttng-tracer.conf
-FILELIST = /lib/modules/4.4.13-yocto-standard/kernel/lttng-modules/lttng-tracer.ko
+PKGSIZE = 1638512
+FILES = /lib/modules/4.4.14-yocto-standard/kernel/lttng-modules/lttng-tracer.ko /etc/modules-load.d/lttng-tracer.conf /etc/modprobe.d/lttng-tracer.conf
+FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/lttng-modules/lttng-tracer.ko
