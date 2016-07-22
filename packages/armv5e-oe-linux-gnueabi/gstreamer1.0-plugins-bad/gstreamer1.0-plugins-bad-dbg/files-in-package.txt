@@ -7,13 +7,13 @@ drwxr-xr-x root       root              300 ./usr/lib/.debug
 -rwxr-xr-x root       root           143388 ./usr/lib/.debug/libgstbadvideo-1.0.so.0.802.0
 -rwxr-xr-x root       root            84196 ./usr/lib/.debug/libgstbasecamerabinsrc-1.0.so.0.802.0
 -rwxr-xr-x root       root           839712 ./usr/lib/.debug/libgstcodecparsers-1.0.so.0.802.0
--rwxr-xr-x root       root          1360500 ./usr/lib/.debug/libgstgl-1.0.so.0.802.0
+-rwxr-xr-x root       root          1364920 ./usr/lib/.debug/libgstgl-1.0.so.0.802.0
 -rwxr-xr-x root       root            61780 ./usr/lib/.debug/libgstinsertbin-1.0.so.0.802.0
 -rwxr-xr-x root       root           275232 ./usr/lib/.debug/libgstmpegts-1.0.so.0.802.0
 -rwxr-xr-x root       root            55396 ./usr/lib/.debug/libgstphotography-1.0.so.0.802.0
 -rwxr-xr-x root       root           267944 ./usr/lib/.debug/libgstplayer-1.0.so.0.802.0
 -rwxr-xr-x root       root            69548 ./usr/lib/.debug/libgsturidownloader-1.0.so.0.802.0
--rwxr-xr-x root       root            22376 ./usr/lib/.debug/libgstwayland-1.0.so.0.802.0
+-rwxr-xr-x root       root            22392 ./usr/lib/.debug/libgstwayland-1.0.so.0.802.0
 drwxr-xr-x root       root               60 ./usr/lib/gstreamer-1.0
 drwxr-xr-x root       root             1600 ./usr/lib/gstreamer-1.0/.debug
 -rwxr-xr-x root       root            60128 ./usr/lib/gstreamer-1.0/.debug/libgstaccurip.so
@@ -64,7 +64,7 @@ drwxr-xr-x root       root             1600 ./usr/lib/gstreamer-1.0/.debug
 -rwxr-xr-x root       root          1067372 ./usr/lib/gstreamer-1.0/.debug/libgstmxf.so
 -rwxr-xr-x root       root            71112 ./usr/lib/gstreamer-1.0/.debug/libgstneonhttpsrc.so
 -rwxr-xr-x root       root            54248 ./usr/lib/gstreamer-1.0/.debug/libgstnetsim.so
--rwxr-xr-x root       root          1457576 ./usr/lib/gstreamer-1.0/.debug/libgstopengl.so
+-rwxr-xr-x root       root          1497704 ./usr/lib/gstreamer-1.0/.debug/libgstopengl.so
 -rwxr-xr-x root       root            85468 ./usr/lib/gstreamer-1.0/.debug/libgstpcapparse.so
 -rwxr-xr-x root       root            98560 ./usr/lib/gstreamer-1.0/.debug/libgstpnm.so
 -rwxr-xr-x root       root           162836 ./usr/lib/gstreamer-1.0/.debug/libgstrawparse.so
@@ -90,7 +90,7 @@ drwxr-xr-x root       root             1600 ./usr/lib/gstreamer-1.0/.debug
 -rwxr-xr-x root       root           596536 ./usr/lib/gstreamer-1.0/.debug/libgstvideoparsersbad.so
 -rwxr-xr-x root       root           140916 ./usr/lib/gstreamer-1.0/.debug/libgstvideosignal.so
 -rwxr-xr-x root       root            78088 ./usr/lib/gstreamer-1.0/.debug/libgstvmnc.so
--rwxr-xr-x root       root           179316 ./usr/lib/gstreamer-1.0/.debug/libgstwaylandsink.so
+-rwxr-xr-x root       root           179472 ./usr/lib/gstreamer-1.0/.debug/libgstwaylandsink.so
 -rwxr-xr-x root       root           105508 ./usr/lib/gstreamer-1.0/.debug/libgstwebp.so
 -rwxr-xr-x root       root            82612 ./usr/lib/gstreamer-1.0/.debug/libgsty4mdec.so
 -rwxr-xr-x root       root            76208 ./usr/lib/gstreamer-1.0/.debug/libgstyadif.so
@@ -177,7 +177,7 @@ drwxr-xr-x root       root              420 ./usr/src/debug/gstreamer1.0-plugins
 -rw-r--r-- root       root            15405 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/dtls/gstdtlssrtpenc.c
 -rw-r--r-- root       root             2530 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/dtls/gstdtlssrtpenc.h
 -rw-r--r-- root       root             2293 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/dtls/plugin.c
-drwxr-xr-x root       root              920 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl
+drwxr-xr-x root       root              960 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl
 drwxr-xr-x root       root              480 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects
 -rw-r--r-- root       root             3765 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffectblur.c
 -rw-r--r-- root       root             1968 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffectbulge.c
@@ -195,7 +195,7 @@ drwxr-xr-x root       root              480 ./usr/src/debug/gstreamer1.0-plugins
 -rw-r--r-- root       root             5315 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffectsobel.c
 -rw-r--r-- root       root             1973 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffectsquare.c
 -rw-r--r-- root       root             1975 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffectsqueeze.c
--rw-r--r-- root       root            17256 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffectssources.c
+-rw-r--r-- root       root            17347 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffectssources.c
 -rw-r--r-- root       root             2269 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffectssources.h
 -rw-r--r-- root       root             1977 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffectstretch.c
 -rw-r--r-- root       root             1973 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/effects/gstgleffecttunnel.c
@@ -209,6 +209,8 @@ drwxr-xr-x root       root              480 ./usr/src/debug/gstreamer1.0-plugins
 -rw-r--r-- root       root             2253 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstglcolorconvertelement.h
 -rw-r--r-- root       root             5839 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstglcolorscale.c
 -rw-r--r-- root       root             1972 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstglcolorscale.h
+-rw-r--r-- root       root            17147 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstgldeinterlace.c
+-rw-r--r-- root       root             2071 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstgldeinterlace.h
 -rw-r--r-- root       root             6122 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstgldownloadelement.c
 -rw-r--r-- root       root             2017 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstgldownloadelement.h
 -rw-r--r-- root       root            23020 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstgleffects.c
@@ -243,7 +245,7 @@ drwxr-xr-x root       root              480 ./usr/src/debug/gstreamer1.0-plugins
 -rw-r--r-- root       root             5916 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstglvideomixer.h
 -rw-r--r-- root       root            12422 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstglviewconvert.c
 -rw-r--r-- root       root             2210 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstglviewconvert.h
--rw-r--r-- root       root             7720 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstopengl.c
+-rw-r--r-- root       root             7721 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/gl/gstopengl.c
 drwxr-xr-x root       root              240 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/hls
 -rw-r--r-- root       root            40115 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/hls/gsthlsdemux.c
 -rw-r--r-- root       root             3071 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/ext/hls/gsthlsdemux.h
@@ -618,7 +620,7 @@ drwxr-xr-x root       root              320 ./usr/src/debug/gstreamer1.0-plugins
 -rw-r--r-- root       root             2049 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/glprototypes/gstgl_compat.h
 -rw-r--r-- root       root             2813 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/glprototypes/opengl.h
 -rw-r--r-- root       root             2419 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/glprototypes/query.h
--rw-r--r-- root       root            16391 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/glprototypes/shaders.h
+-rw-r--r-- root       root            16725 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/glprototypes/shaders.h
 -rw-r--r-- root       root             1773 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/glprototypes/sync.h
 -rw-r--r-- root       root             1536 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/glprototypes/vao.h
 -rw-r--r-- root       root             5222 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglapi.c
@@ -631,7 +633,7 @@ drwxr-xr-x root       root              320 ./usr/src/debug/gstreamer1.0-plugins
 -rw-r--r-- root       root             4374 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglbuffer.h
 -rw-r--r-- root       root            14437 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglbufferpool.c
 -rw-r--r-- root       root             2316 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglbufferpool.h
--rw-r--r-- root       root            84479 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglcolorconvert.c
+-rw-r--r-- root       root            87164 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglcolorconvert.c
 -rw-r--r-- root       root             5118 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglcolorconvert.h
 -rw-r--r-- root       root            46663 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglcontext.c
 -rw-r--r-- root       root             6725 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglcontext.h
@@ -659,8 +661,8 @@ drwxr-xr-x root       root              320 ./usr/src/debug/gstreamer1.0-plugins
 -rw-r--r-- root       root             2606 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstgloverlaycompositor.h
 -rw-r--r-- root       root             6395 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglquery.c
 -rw-r--r-- root       root             4981 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglquery.h
--rw-r--r-- root       root            32778 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglshader.c
--rw-r--r-- root       root             6710 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglshader.h
+-rw-r--r-- root       root            33354 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglshader.c
+-rw-r--r-- root       root             6810 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglshader.h
 -rw-r--r-- root       root             2209 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglshaderstrings.c
 -rw-r--r-- root       root             1256 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglshaderstrings.h
 -rw-r--r-- root       root            14026 ./usr/src/debug/gstreamer1.0-plugins-bad/1.8.2-r0/gst-plugins-bad-1.8.2/gst-libs/gst/gl/gstglsl.c

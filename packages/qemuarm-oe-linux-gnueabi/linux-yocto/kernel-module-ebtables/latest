@@ -1,10 +1,10 @@
-PV = 4.4.13+gitAUTOINC+44a6105173_6f2317f8a0
+PV = 4.4.14+gitAUTOINC+4800a400d5_d1fcd96376
 PR = r0
-PKGV = 4.4.13+git2+44a6105173_6f2317f8a0
+PKGV = 4.4.14+git0+4800a400d5_d1fcd96376
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.13-yocto-standard kernel-module-x-tables
+RDEPENDS = kernel-4.4.14-yocto-standard kernel-module-x-tables
 RRECOMMENDS = 
 PKGSIZE = 21256
-FILES = /lib/modules/4.4.13-yocto-standard/kernel/net/bridge/netfilter/ebtables.ko /etc/modules-load.d/ebtables.conf /etc/modprobe.d/ebtables.conf
-FILELIST = /lib/modules/4.4.13-yocto-standard/kernel/net/bridge/netfilter/ebtables.ko
+FILES = /lib/modules/4.4.14-yocto-standard/kernel/net/bridge/netfilter/ebtables.ko /etc/modules-load.d/ebtables.conf /etc/modprobe.d/ebtables.conf
+FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/net/bridge/netfilter/ebtables.ko
