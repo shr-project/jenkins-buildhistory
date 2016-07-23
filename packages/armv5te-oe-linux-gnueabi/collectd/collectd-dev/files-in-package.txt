@@ -3,10 +3,10 @@ drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              120 ./usr/include/collectd
 -rw-r--r-- root       root             3999 ./usr/include/collectd/client.h
 -rw-r--r-- root       root             2074 ./usr/include/collectd/lcc_features.h
--rw-r--r-- root       root             2644 ./usr/include/collectd/network.h
 -rw-r--r-- root       root             2249 ./usr/include/collectd/network_buffer.h
+-rw-r--r-- root       root             2644 ./usr/include/collectd/network.h
 drwxr-xr-x root       root              120 ./usr/lib
-drwxr-xr-x root       root             1840 ./usr/lib/collectd
+drwxr-xr-x root       root             1860 ./usr/lib/collectd
 -rwxr-xr-x root       root              929 ./usr/lib/collectd/aggregation.la
 -rwxr-xr-x root       root             1085 ./usr/lib/collectd/apache.la
 -rwxr-xr-x root       root              895 ./usr/lib/collectd/apcups.la
@@ -17,11 +17,11 @@ drwxr-xr-x root       root             1840 ./usr/lib/collectd
 -rwxr-xr-x root       root              901 ./usr/lib/collectd/cgroups.la
 -rwxr-xr-x root       root              913 ./usr/lib/collectd/conntrack.la
 -rwxr-xr-x root       root              937 ./usr/lib/collectd/contextswitch.la
--rwxr-xr-x root       root              877 ./usr/lib/collectd/cpu.la
 -rwxr-xr-x root       root              901 ./usr/lib/collectd/cpufreq.la
+-rwxr-xr-x root       root              877 ./usr/lib/collectd/cpu.la
 -rwxr-xr-x root       root              877 ./usr/lib/collectd/csv.la
--rwxr-xr-x root       root             1073 ./usr/lib/collectd/curl.la
 -rwxr-xr-x root       root             1110 ./usr/lib/collectd/curl_json.la
+-rwxr-xr-x root       root             1073 ./usr/lib/collectd/curl.la
 -rwxr-xr-x root       root             1127 ./usr/lib/collectd/curl_xml.la
 -rwxr-xr-x root       root              871 ./usr/lib/collectd/df.la
 -rwxr-xr-x root       root              937 ./usr/lib/collectd/disk.la
@@ -40,8 +40,8 @@ drwxr-xr-x root       root             1840 ./usr/lib/collectd
 -rwxr-xr-x root       root              883 ./usr/lib/collectd/ipvs.la
 -rwxr-xr-x root       root              877 ./usr/lib/collectd/irq.la
 -rwxr-xr-x root       root              883 ./usr/lib/collectd/load.la
--rwxr-xr-x root       root              938 ./usr/lib/collectd/log_logstash.la
 -rwxr-xr-x root       root              901 ./usr/lib/collectd/logfile.la
+-rwxr-xr-x root       root              938 ./usr/lib/collectd/log_logstash.la
 -rwxr-xr-x root       root              887 ./usr/lib/collectd/lvm.la
 -rwxr-xr-x root       root              901 ./usr/lib/collectd/madwifi.la
 -rwxr-xr-x root       root              973 ./usr/lib/collectd/match_empty_counter.la
@@ -64,6 +64,7 @@ drwxr-xr-x root       root             1840 ./usr/lib/collectd
 -rwxr-xr-x root       root              907 ./usr/lib/collectd/powerdns.la
 -rwxr-xr-x root       root              913 ./usr/lib/collectd/processes.la
 -rwxr-xr-x root       root              913 ./usr/lib/collectd/protocols.la
+-rwxr-xr-x root       root              923 ./usr/lib/collectd/python.la
 -rwxr-xr-x root       root             2163 ./usr/lib/collectd/rrdcached.la
 -rwxr-xr-x root       root             2151 ./usr/lib/collectd/rrdtool.la
 -rwxr-xr-x root       root              895 ./usr/lib/collectd/serial.la
@@ -71,8 +72,8 @@ drwxr-xr-x root       root             1840 ./usr/lib/collectd
 -rwxr-xr-x root       root              883 ./usr/lib/collectd/swap.la
 -rwxr-xr-x root       root              895 ./usr/lib/collectd/syslog.la
 -rwxr-xr-x root       root              889 ./usr/lib/collectd/table.la
--rwxr-xr-x root       root              883 ./usr/lib/collectd/tail.la
 -rwxr-xr-x root       root              907 ./usr/lib/collectd/tail_csv.la
+-rwxr-xr-x root       root              883 ./usr/lib/collectd/tail.la
 -rwxr-xr-x root       root              973 ./usr/lib/collectd/target_notification.la
 -rwxr-xr-x root       root              943 ./usr/lib/collectd/target_replace.la
 -rwxr-xr-x root       root              931 ./usr/lib/collectd/target_scale.la

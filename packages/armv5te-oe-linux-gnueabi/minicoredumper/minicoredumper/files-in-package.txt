@@ -9,13 +9,13 @@ drwxr-xr-x root       root              100 ./etc/minicoredumper
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              224 ./lib/systemd/system/minicoredumper.service
+-rw-r--r-- root       root              315 ./lib/systemd/system/minicoredumper.service
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
--rwxr-xr-x root       root             5740 ./usr/bin/coreinject
--rwxr-xr-x root       root            35300 ./usr/bin/minicoredumper
--rwxr-xr-x root       root            10788 ./usr/bin/minicoredumper_dbusd
+-rwxr-xr-x root       root             5748 ./usr/bin/coreinject
+-rwxr-xr-x root       root            35404 ./usr/bin/minicoredumper
+-rwxr-xr-x root       root            10756 ./usr/bin/minicoredumper_dbusd
 -rwxr-xr-x root       root             6180 ./usr/bin/minicoredumper_trigger
 drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root            11324 ./usr/lib/libminicoredumper.so.1.0.2
 lrwxrwxrwx root       root               26 ./usr/lib/libminicoredumper.so.1 -> libminicoredumper.so.1.0.2
--rwxr-xr-x root       root            11336 ./usr/lib/libminicoredumper.so.1.0.2
