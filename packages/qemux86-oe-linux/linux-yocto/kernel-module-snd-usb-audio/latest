@@ -1,10 +1,10 @@
-PV = 4.4.13+gitAUTOINC+44a6105173_13852755ec
+PV = 4.4.14+gitAUTOINC+4800a400d5_8361321fec
 PR = r0
-PKGV = 4.4.13+git2+44a6105173_13852755ec
 PKGR = r0.1
+PKGV = 4.4.14+git0+4800a400d5_8361321fec
 RPROVIDES = 
-RDEPENDS = kernel-4.4.13-yocto-standard kernel-module-snd-hwdep kernel-module-snd-rawmidi kernel-module-snd-usbmidi-lib
+RDEPENDS = kernel-4.4.14-yocto-standard kernel-module-snd-hwdep kernel-module-snd-rawmidi kernel-module-snd-usbmidi-lib
 RRECOMMENDS = 
 PKGSIZE = 182332
-FILES = /lib/modules/4.4.13-yocto-standard/kernel/sound/usb/snd-usb-audio.ko /etc/modules-load.d/snd-usb-audio.conf /etc/modprobe.d/snd-usb-audio.conf
-FILELIST = /lib/modules/4.4.13-yocto-standard/kernel/sound/usb/snd-usb-audio.ko
+FILES = /lib/modules/4.4.14-yocto-standard/kernel/sound/usb/snd-usb-audio.ko /etc/modules-load.d/snd-usb-audio.conf /etc/modprobe.d/snd-usb-audio.conf
+FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/sound/usb/snd-usb-audio.ko

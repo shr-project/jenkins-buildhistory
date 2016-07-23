@@ -1,10 +1,10 @@
-PV = 4.4.13+gitAUTOINC+44a6105173_13852755ec
+PV = 4.4.14+gitAUTOINC+4800a400d5_8361321fec
 PR = r0
-PKGV = 4.4.13+git2+44a6105173_13852755ec
 PKGR = r0.1
+PKGV = 4.4.14+git0+4800a400d5_8361321fec
 RPROVIDES = 
-RDEPENDS = kernel-4.4.13-yocto-standard kernel-module-nf-conntrack kernel-module-nf-nat
+RDEPENDS = kernel-4.4.14-yocto-standard kernel-module-nf-conntrack kernel-module-nf-nat
 RRECOMMENDS = 
 PKGSIZE = 3476
-FILES = /lib/modules/4.4.13-yocto-standard/kernel/net/netfilter/nf_nat_proto_udplite.ko /etc/modules-load.d/nf_nat_proto_udplite.conf /etc/modprobe.d/nf_nat_proto_udplite.conf
-FILELIST = /lib/modules/4.4.13-yocto-standard/kernel/net/netfilter/nf_nat_proto_udplite.ko
+FILES = /lib/modules/4.4.14-yocto-standard/kernel/net/netfilter/nf_nat_proto_udplite.ko /etc/modules-load.d/nf_nat_proto_udplite.conf /etc/modprobe.d/nf_nat_proto_udplite.conf
+FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/net/netfilter/nf_nat_proto_udplite.ko
