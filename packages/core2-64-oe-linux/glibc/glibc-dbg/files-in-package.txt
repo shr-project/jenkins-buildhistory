@@ -3,11 +3,11 @@ drwxr-xr-x root       root              540 ./lib/.debug
 -rwxr-xr-x root       root          1117056 ./lib/.debug/ld-2.23.90.so
 -rwxr-xr-x root       root           124824 ./lib/.debug/libanl-2.23.90.so
 -rwxr-xr-x root       root            21344 ./lib/.debug/libBrokenLocale-2.23.90.so
--rwxr-xr-x root       root         13724664 ./lib/.debug/libc-2.23.90.so
+-rwxr-xr-x root       root         13667976 ./lib/.debug/libc-2.23.90.so
 -rwxr-xr-x root       root            97848 ./lib/.debug/libcidn-2.23.90.so
 -rwxr-xr-x root       root           129936 ./lib/.debug/libcrypt-2.23.90.so
 -rwxr-xr-x root       root           204304 ./lib/.debug/libdl-2.23.90.so
--rwxr-xr-x root       root          2806040 ./lib/.debug/libm-2.23.90.so
+-rwxr-xr-x root       root          2798696 ./lib/.debug/libm-2.23.90.so
 -rwxr-xr-x root       root            47032 ./lib/.debug/libmemusage.so
 -rwxr-xr-x root       root            50048 ./lib/.debug/libmvec-2.23.90.so
 -rwxr-xr-x root       root           622296 ./lib/.debug/libnsl-2.23.90.so
@@ -19,7 +19,7 @@ drwxr-xr-x root       root              540 ./lib/.debug
 -rwxr-xr-x root       root           357936 ./lib/.debug/libnss_nis-2.23.90.so
 -rwxr-xr-x root       root           418648 ./lib/.debug/libnss_nisplus-2.23.90.so
 -rwxr-xr-x root       root            10024 ./lib/.debug/libpcprofile.so
--rwxr-xr-x root       root          2109392 ./lib/.debug/libpthread-2.23.90.so
+-rwxr-xr-x root       root          2086376 ./lib/.debug/libpthread-2.23.90.so
 -rwxr-xr-x root       root           395616 ./lib/.debug/libresolv-2.23.90.so
 -rwxr-xr-x root       root           325960 ./lib/.debug/librt-2.23.90.so
 -rwxr-xr-x root       root            81168 ./lib/.debug/libSegFault.so
@@ -27,8 +27,8 @@ drwxr-xr-x root       root              540 ./lib/.debug
 -rwxr-xr-x root       root            35664 ./lib/.debug/libutil-2.23.90.so
 drwxr-xr-x root       root               60 ./sbin
 drwxr-xr-x root       root               80 ./sbin/.debug
--rwxr-xr-x root       root          5100952 ./sbin/.debug/ldconfig
--rwxr-xr-x root       root          4103872 ./sbin/.debug/sln
+-rwxr-xr-x root       root          5095672 ./sbin/.debug/ldconfig
+-rwxr-xr-x root       root          4098576 ./sbin/.debug/sln
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              240 ./usr/bin/.debug
@@ -278,7 +278,7 @@ drwxr-xr-x root       root             1220 ./usr/src/debug/glibc/2.24-r0/git/el
 -rw-r--r-- root       root            11286 ./usr/src/debug/glibc/2.24-r0/git/elf/dl-version.c
 -rw-r--r-- root       root             6108 ./usr/src/debug/glibc/2.24-r0/git/elf/do-rel.h
 -rw-r--r-- root       root             8259 ./usr/src/debug/glibc/2.24-r0/git/elf/dynamic-link.h
--rw-r--r-- root       root           166464 ./usr/src/debug/glibc/2.24-r0/git/elf/elf.h
+-rw-r--r-- root       root           167551 ./usr/src/debug/glibc/2.24-r0/git/elf/elf.h
 -rw-r--r-- root       root             1401 ./usr/src/debug/glibc/2.24-r0/git/elf/enbl-secure.c
 -rw-r--r-- root       root             6097 ./usr/src/debug/glibc/2.24-r0/git/elf/get-dynamic-info.h
 -rw-r--r-- root       root              991 ./usr/src/debug/glibc/2.24-r0/git/elf/interp.c
@@ -1946,7 +1946,7 @@ drwxr-xr-x root       root             1700 ./usr/src/debug/glibc/2.24-r0/git/sy
 -rw-r--r-- root       root             3012 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/ieee754/dbl-64/slowexp.c
 -rw-r--r-- root       root             4266 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/ieee754/dbl-64/slowpow.c
 -rw-r--r-- root       root             1600 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/ieee754/dbl-64/s_nextup.c
--rw-r--r-- root       root            29231 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/ieee754/dbl-64/s_sin.c
+-rw-r--r-- root       root            29214 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/ieee754/dbl-64/s_sin.c
 -rw-r--r-- root       root             2628 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/ieee754/dbl-64/s_sincos.c
 -rw-r--r-- root       root            22499 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/ieee754/dbl-64/s_tan.c
 -rw-r--r-- root       root             2427 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/ieee754/dbl-64/s_tanh.c
@@ -2203,7 +2203,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/glibc/2.24-r0/git/sy
 -rw-r--r-- root       root             1154 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/stime.c
 -rw-r--r-- root       root             3641 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/syscall-template.S
 drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv
-drwxr-xr-x root       root             3660 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux
+drwxr-xr-x root       root             3560 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux
 -rw-r--r-- root       root             2900 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/accept4.c
 -rw-r--r-- root       root             2192 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/adjtime.c
 -rw-r--r-- root       root             2274 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/aio_misc.h
@@ -2318,7 +2318,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.24-r0/git/sy
 -rw-r--r-- root       root             2905 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/netipx/ipx.h
 -rw-r--r-- root       root             1940 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/netlinkaccess.h
 -rw-r--r-- root       root             3795 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/netlink_assert_response.c
--rw-r--r-- root       root             1554 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/nptl-signals.h
+-rw-r--r-- root       root             2679 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/nptl-signals.h
 -rw-r--r-- root       root             1829 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/nscd_setup_thread.c
 -rw-r--r-- root       root             1161 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/ntp_gettime.c
 -rw-r--r-- root       root             1243 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/ntp_gettimex.c
@@ -2328,8 +2328,6 @@ drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.24-r0/git/sy
 -rw-r--r-- root       root             1602 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/pathconf.h
 -rw-r--r-- root       root             1478 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/posix_madvise.c
 -rw-r--r-- root       root             1398 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/ppoll.c
--rw-r--r-- root       root             1391 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/pread64.c
--rw-r--r-- root       root             1800 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/preadv64.c
 -rw-r--r-- root       root             1000 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/prof-freq.c
 -rw-r--r-- root       root             2636 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/pselect.c
 -rw-r--r-- root       root             2058 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/pthread_getaffinity.c
@@ -2342,11 +2340,8 @@ drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.24-r0/git/sy
 -rw-r--r-- root       root             1866 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/pthread_sigmask.c
 -rw-r--r-- root       root             2777 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/pthread_sigqueue.c
 -rw-r--r-- root       root             1449 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/ptrace.c
--rw-r--r-- root       root             1289 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/pt-raise.c
 -rw-r--r-- root       root             4954 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/ptsname.c
--rw-r--r-- root       root             1441 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/pwrite64.c
--rw-r--r-- root       root             1819 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/pwritev64.c
--rw-r--r-- root       root             1923 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/raise.c
+-rw-r--r-- root       root             2063 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/raise.c
 -rw-r--r-- root       root             2768 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/readonly-area.c
 -rw-r--r-- root       root             1050 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/reboot.c
 -rw-r--r-- root       root             2838 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/unix/sysv/linux/recvmmsg.c
@@ -2504,7 +2499,7 @@ drwxr-xr-x root       root             1020 ./usr/src/debug/glibc/2.24-r0/git/sy
 -rw-r--r-- root       root            18424 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/x86_64/dl-machine.h
 -rw-r--r-- root       root             1802 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/x86_64/dl-procinfo.c
 -rw-r--r-- root       root             2050 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/x86_64/dl-tlsdesc.h
--rw-r--r-- root       root             7449 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/x86_64/dl-tlsdesc.S
+-rw-r--r-- root       root             7512 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/x86_64/dl-tlsdesc.S
 -rw-r--r-- root       root             1092 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/x86_64/dl-tls.h
 -rw-r--r-- root       root            17426 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/x86_64/dl-trampoline.h
 -rw-r--r-- root       root             1307 ./usr/src/debug/glibc/2.24-r0/git/sysdeps/x86_64/ffs.c
