@@ -1,9 +1,9 @@
 PV = 6.1.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 PKG = libgcc-s-dev
 RPROVIDES = libgcc-dev (=6.1.1)
-RDEPENDS = libgcc (= 6.1.1-r0.7)
+RDEPENDS = libgcc (= 6.1.1-r0.8)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 21419410
 FILES = /lib/libgcc*.so /usr/lib/arm-oe-linux /usr/lib/arm-oe-linux-gnueabi/6.1.1* /usr/lib/arm-oe*
