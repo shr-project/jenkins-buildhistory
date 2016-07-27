@@ -1,9 +1,9 @@
 PV = 1.11.0
 PR = r0
 PKG = libcares-dev
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = c-ares-dev (=1.11.0)
-RDEPENDS = c-ares (= 1.11.0-r0.16)
+RDEPENDS = c-ares (= 1.11.0-r0.17)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 38367
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/c-ares/*.la /lib/*.la
