@@ -2,13 +2,13 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root               60 ./usr/include/guile
 drwxr-xr-x root       root              100 ./usr/include/guile/2.0
-drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
+drwxr-xr-x root       root             2440 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             1834 ./usr/include/guile/2.0/libguile/alist.h
 -rw-r--r-- root       root             1181 ./usr/include/guile/2.0/libguile/arbiters.h
 -rw-r--r-- root       root             5399 ./usr/include/guile/2.0/libguile/array-handle.h
 -rw-r--r-- root       root             2225 ./usr/include/guile/2.0/libguile/array-map.h
 -rw-r--r-- root       root             2913 ./usr/include/guile/2.0/libguile/arrays.h
--rw-r--r-- root       root             4021 ./usr/include/guile/2.0/libguile/async.h
+-rw-r--r-- root       root             4042 ./usr/include/guile/2.0/libguile/async.h
 -rw-r--r-- root       root             1878 ./usr/include/guile/2.0/libguile/backtrace.h
 -rw-r--r-- root       root             2251 ./usr/include/guile/2.0/libguile/bdw-gc.h
 -rw-r--r-- root       root             2927 ./usr/include/guile/2.0/libguile/bitvectors.h
@@ -31,9 +31,9 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             1353 ./usr/include/guile/2.0/libguile/extensions.h
 -rw-r--r-- root       root             1349 ./usr/include/guile/2.0/libguile/feature.h
 -rw-r--r-- root       root             2794 ./usr/include/guile/2.0/libguile/filesys.h
--rw-r--r-- root       root             1407 ./usr/include/guile/2.0/libguile/finalizers.h
+-rw-r--r-- root       root             1521 ./usr/include/guile/2.0/libguile/finalizers.h
 -rw-r--r-- root       root             4511 ./usr/include/guile/2.0/libguile/fluids.h
--rw-r--r-- root       root             3813 ./usr/include/guile/2.0/libguile/foreign.h
+-rw-r--r-- root       root             3964 ./usr/include/guile/2.0/libguile/foreign.h
 -rw-r--r-- root       root             2404 ./usr/include/guile/2.0/libguile/fports.h
 -rw-r--r-- root       root             5282 ./usr/include/guile/2.0/libguile/frames.h
 -rw-r--r-- root       root            14378 ./usr/include/guile/2.0/libguile/gc.h
@@ -45,8 +45,8 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root            13769 ./usr/include/guile/2.0/libguile/goops.h
 -rw-r--r-- root       root             2430 ./usr/include/guile/2.0/libguile/gsubr.h
 -rw-r--r-- root       root             1274 ./usr/include/guile/2.0/libguile/guardians.h
--rw-r--r-- root       root             3984 ./usr/include/guile/2.0/libguile.h
--rw-r--r-- root       root             1960 ./usr/include/guile/2.0/libguile/hash.h
+-rw-r--r-- root       root             3990 ./usr/include/guile/2.0/libguile.h
+-rw-r--r-- root       root             2061 ./usr/include/guile/2.0/libguile/hash.h
 -rw-r--r-- root       root             7402 ./usr/include/guile/2.0/libguile/hashtab.h
 -rw-r--r-- root       root             2885 ./usr/include/guile/2.0/libguile/hooks.h
 -rw-r--r-- root       root             2421 ./usr/include/guile/2.0/libguile/i18n.h
@@ -57,14 +57,14 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             1271 ./usr/include/guile/2.0/libguile/iselect.h
 -rw-r--r-- root       root             1868 ./usr/include/guile/2.0/libguile/keywords.h
 -rw-r--r-- root       root             2889 ./usr/include/guile/2.0/libguile/list.h
--rw-r--r-- root       root             1977 ./usr/include/guile/2.0/libguile/load.h
+-rw-r--r-- root       root             2035 ./usr/include/guile/2.0/libguile/load.h
 -rw-r--r-- root       root             1654 ./usr/include/guile/2.0/libguile/macros.h
 -rw-r--r-- root       root             1326 ./usr/include/guile/2.0/libguile/mallocs.h
 -rw-r--r-- root       root             2982 ./usr/include/guile/2.0/libguile/memoize.h
 -rw-r--r-- root       root             5026 ./usr/include/guile/2.0/libguile/modules.h
 -rw-r--r-- root       root             1447 ./usr/include/guile/2.0/libguile/net_db.h
 -rw-r--r-- root       root             3865 ./usr/include/guile/2.0/libguile/null-threads.h
--rw-r--r-- root       root            19404 ./usr/include/guile/2.0/libguile/numbers.h
+-rw-r--r-- root       root            19342 ./usr/include/guile/2.0/libguile/numbers.h
 -rw-r--r-- root       root             3448 ./usr/include/guile/2.0/libguile/objcodes.h
 -rw-r--r-- root       root             1280 ./usr/include/guile/2.0/libguile/objprop.h
 -rw-r--r-- root       root             1482 ./usr/include/guile/2.0/libguile/options.h
@@ -85,12 +85,12 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             1375 ./usr/include/guile/2.0/libguile/regex-posix.h
 -rw-r--r-- root       root             1489 ./usr/include/guile/2.0/libguile/root.h
 -rw-r--r-- root       root             1262 ./usr/include/guile/2.0/libguile/rw.h
--rw-r--r-- root       root             4631 ./usr/include/guile/2.0/libguile/scmconfig.h
+-rw-r--r-- root       root             4707 ./usr/include/guile/2.0/libguile/scmconfig.h
 -rw-r--r-- root       root            27282 ./usr/include/guile/2.0/libguile/__scm.h
 -rw-r--r-- root       root             1829 ./usr/include/guile/2.0/libguile/scmsigs.h
 -rw-r--r-- root       root             1620 ./usr/include/guile/2.0/libguile/script.h
 -rw-r--r-- root       root             1259 ./usr/include/guile/2.0/libguile/simpos.h
--rw-r--r-- root       root             8134 ./usr/include/guile/2.0/libguile/smob.h
+-rw-r--r-- root       root             8129 ./usr/include/guile/2.0/libguile/smob.h
 -rw-r--r-- root       root            15421 ./usr/include/guile/2.0/libguile/snarf.h
 -rw-r--r-- root       root             2744 ./usr/include/guile/2.0/libguile/socket.h
 -rw-r--r-- root       root             1573 ./usr/include/guile/2.0/libguile/sort.h
@@ -103,7 +103,7 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             2062 ./usr/include/guile/2.0/libguile/stackchk.h
 -rw-r--r-- root       root             2080 ./usr/include/guile/2.0/libguile/stacks.h
 -rw-r--r-- root       root             1684 ./usr/include/guile/2.0/libguile/stime.h
--rw-r--r-- root       root            10695 ./usr/include/guile/2.0/libguile/strings.h
+-rw-r--r-- root       root            10775 ./usr/include/guile/2.0/libguile/strings.h
 -rw-r--r-- root       root             1547 ./usr/include/guile/2.0/libguile/strorder.h
 -rw-r--r-- root       root             2273 ./usr/include/guile/2.0/libguile/strports.h
 -rw-r--r-- root       root            10736 ./usr/include/guile/2.0/libguile/struct.h
@@ -112,13 +112,14 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             7690 ./usr/include/guile/2.0/libguile/threads.h
 -rw-r--r-- root       root             2927 ./usr/include/guile/2.0/libguile/throw.h
 -rw-r--r-- root       root             1100 ./usr/include/guile/2.0/libguile/trees.h
+-rw-r--r-- root       root             1055 ./usr/include/guile/2.0/libguile/unicode.h
 -rw-r--r-- root       root             3305 ./usr/include/guile/2.0/libguile/uniform.h
--rw-r--r-- root       root            11923 ./usr/include/guile/2.0/libguile/validate.h
+-rw-r--r-- root       root            12097 ./usr/include/guile/2.0/libguile/validate.h
 -rw-r--r-- root       root             1448 ./usr/include/guile/2.0/libguile/values.h
 -rw-r--r-- root       root             1759 ./usr/include/guile/2.0/libguile/variable.h
 -rw-r--r-- root       root             3771 ./usr/include/guile/2.0/libguile/vectors.h
 -rw-r--r-- root       root             1395 ./usr/include/guile/2.0/libguile/version.h
--rw-r--r-- root       root            12188 ./usr/include/guile/2.0/libguile/vm-engine.h
+-rw-r--r-- root       root            12174 ./usr/include/guile/2.0/libguile/vm-engine.h
 -rw-r--r-- root       root             2594 ./usr/include/guile/2.0/libguile/vm-expand.h
 -rw-r--r-- root       root             4370 ./usr/include/guile/2.0/libguile/vm.h
 -rw-r--r-- root       root             1102 ./usr/include/guile/2.0/libguile/vports.h
@@ -126,11 +127,11 @@ drwxr-xr-x root       root             2420 ./usr/include/guile/2.0/libguile
 -rw-r--r-- root       root             2173 ./usr/include/guile/2.0/readline.h
 drwxr-xr-x root       root              140 ./usr/lib
 -rwxr-xr-x root       root             1077 ./usr/lib/libguile-2.0.la
-lrwxrwxrwx root       root               22 ./usr/lib/libguile-2.0.so -> libguile-2.0.so.22.7.2
+lrwxrwxrwx root       root               22 ./usr/lib/libguile-2.0.so -> libguile-2.0.so.22.8.0
 -rwxr-xr-x root       root             1178 ./usr/lib/libguilereadline-v-18.la
 lrwxrwxrwx root       root               31 ./usr/lib/libguilereadline-v-18.so -> libguilereadline-v-18.so.18.0.0
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
--rw-r--r-- root       root              582 ./usr/lib/pkgconfig/guile-2.0.pc
+-rw-r--r-- root       root              779 ./usr/lib/pkgconfig/guile-2.0.pc
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/aclocal
--rw-r--r-- root       root            13059 ./usr/share/aclocal/guile.m4
+-rw-r--r-- root       root            13058 ./usr/share/aclocal/guile.m4
