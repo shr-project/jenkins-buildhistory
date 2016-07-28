@@ -1,8 +1,8 @@
 PE = 1
 PV = 3.2.25
 PR = r1
-PKG = libnl-3-cli
 PKGR = r1.27
+PKG = libnl-3-cli
 RPROVIDES = libnl-cli (=3.2.25)
 RDEPENDS = glibc (>= 2.24) libnl (>= 3.2.25) libnl-genl (>= 3.2.25) libnl-nf (>= 3.2.25) libnl-route (>= 3.2.25)
 RRECOMMENDS = 

@@ -1,7 +1,7 @@
 PV = 3.1
 PR = r0
-PKG = libavcodec57
 PKGR = r0.2
+PKG = libavcodec57
 RPROVIDES = libavcodec (=3.1)
 RDEPENDS = glibc (>= 2.24) libavutil (>= 3.1) liblzma (>= 5.2.2) libswresample (>= 3.1) libtheora (>= 1.1.1) x264 (>= r2491+git0+c8a773ebfc) zlib (>= 1.2.8)
 RRECOMMENDS = 

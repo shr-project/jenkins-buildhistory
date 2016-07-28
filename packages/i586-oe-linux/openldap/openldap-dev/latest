@@ -1,7 +1,7 @@
 PV = 2.4.43
 PR = r0
-PKG = libldap-2.4-dev
 PKGR = r0.26
+PKG = libldap-2.4-dev
 RPROVIDES = openldap-dev (=2.4.43)
 RDEPENDS = openldap (= 2.4.43-r0.26) openldap-overlay-proxycache
 RRECOMMENDS = glibc-dev gmp-dev gnutls-dev libcap-dev libgcrypt-dev libgpg-error-dev libidn-dev libltdl-dev libtool-dev nettle-dev openldap-overlay-proxycache-dev util-linux-dev util-linux-libuuid-dev zlib-dev
