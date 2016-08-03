@@ -1,10 +1,10 @@
-PV = 5.6.99+5.7.0-beta+gitAUTOINC+f8759f683c
+PV = 5.7.0+gitAUTOINC+8755a1f246
 PR = r0
-PKGR = r0.23
-PKGV = 5.6.99+5.7.0-beta+git0+f8759f683c
+PKGR = r0.0
+PKGV = 5.7.0+git0+8755a1f246
 RPROVIDES = 
-RDEPENDS = bluez5 (>= 5.41) glibc (>= 2.24) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1)
+RDEPENDS = bluez5 (>= 5.41) glibc (>= 2.24) libstdc++ (>= 6.1.1) qtbase (>= 5.7.0+git0+69b43e74d7)
 RRECOMMENDS = 
-PKGSIZE = 11024
+PKGSIZE = 14404
 FILES = /usr/bin/qt5/*
 FILELIST = /usr/bin/qt5/sdpscanner

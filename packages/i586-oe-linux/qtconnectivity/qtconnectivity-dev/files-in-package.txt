@@ -4,7 +4,7 @@ drwxr-xr-x root       root               80 ./usr/include/qt5
 drwxr-xr-x root       root             1120 ./usr/include/qt5/QtBluetooth
 drwxr-xr-x root       root               60 ./usr/include/qt5/QtBluetooth/5.7.0
 drwxr-xr-x root       root               60 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth
-drwxr-xr-x root       root             1380 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private
+drwxr-xr-x root       root             1400 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private
 -rw-r--r-- root       root             4305 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/adapter1_bluez5_p.h
 -rw-r--r-- root       root             5289 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/adapter_p.h
 -rw-r--r-- root       root             2491 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/agent_p.h
@@ -15,6 +15,7 @@ drwxr-xr-x root       root             1380 ./usr/include/qt5/QtBluetooth/5.7.0/
 -rw-r--r-- root       root             4828 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/device1_bluez5_p.h
 -rw-r--r-- root       root             3146 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/devicediscoverybroadcastreceiver_p.h
 -rw-r--r-- root       root             3210 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/device_p.h
+-rw-r--r-- root       root             1998 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/dummy_helper_p.h
 -rw-r--r-- root       root             4193 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/hcimanager_p.h
 -rw-r--r-- root       root             3115 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/inputstreamthread_p.h
 -rw-r--r-- root       root             2887 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/jni_android_p.h
@@ -54,7 +55,7 @@ drwxr-xr-x root       root             1380 ./usr/include/qt5/QtBluetooth/5.7.0/
 -rw-r--r-- root       root             7649 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/qbluetoothlocaldevice_p.h
 -rw-r--r-- root       root             4482 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/qbluetoothserver_osx_p.h
 -rw-r--r-- root       root             3842 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/qbluetoothserver_p.h
--rw-r--r-- root       root             7009 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/qbluetoothservicediscoveryagent_p.h
+-rw-r--r-- root       root             7089 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/qbluetoothservicediscoveryagent_p.h
 -rw-r--r-- root       root             3458 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/qbluetoothserviceinfo_p.h
 -rw-r--r-- root       root             5173 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/qbluetoothsocket_osx_p.h
 -rw-r--r-- root       root             7367 ./usr/include/qt5/QtBluetooth/5.7.0/QtBluetooth/private/qbluetoothsocket_p.h
@@ -111,7 +112,7 @@ drwxr-xr-x root       root             1380 ./usr/include/qt5/QtBluetooth/5.7.0/
 -rw-r--r-- root       root               44 ./usr/include/qt5/QtBluetooth/QLowEnergyConnectionParameters
 -rw-r--r-- root       root             3576 ./usr/include/qt5/QtBluetooth/qlowenergyconnectionparameters.h
 -rw-r--r-- root       root               34 ./usr/include/qt5/QtBluetooth/QLowEnergyController
--rw-r--r-- root       root             5886 ./usr/include/qt5/QtBluetooth/qlowenergycontroller.h
+-rw-r--r-- root       root             5910 ./usr/include/qt5/QtBluetooth/qlowenergycontroller.h
 -rw-r--r-- root       root               34 ./usr/include/qt5/QtBluetooth/QLowEnergyDescriptor
 -rw-r--r-- root       root               38 ./usr/include/qt5/QtBluetooth/QLowEnergyDescriptorData
 -rw-r--r-- root       root             3897 ./usr/include/qt5/QtBluetooth/qlowenergydescriptordata.h
@@ -159,7 +160,7 @@ drwxr-xr-x root       root              780 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/
 -rw-r--r-- root       root             3187 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/private/qnearfieldtagtype2_p.h
 -rw-r--r-- root       root             3151 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/private/qnearfieldtagtype3_p.h
 -rw-r--r-- root       root             2942 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/private/qnearfieldtagtype4_p.h
--rw-r--r-- root       root             4054 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/private/qnearfieldtarget_android_p.h
+-rw-r--r-- root       root             4073 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/private/qnearfieldtarget_android_p.h
 -rw-r--r-- root       root             3562 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/private/qnearfieldtarget_emulator_p.h
 -rw-r--r-- root       root            18216 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/private/qnearfieldtarget_neard_p.h
 -rw-r--r-- root       root             2584 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/private/qnearfieldtarget_p.h
@@ -180,7 +181,7 @@ drwxr-xr-x root       root              780 ./usr/include/qt5/QtNfc/5.7.0/QtNfc/
 -rw-r--r-- root       root               25 ./usr/include/qt5/QtNfc/QNdefRecord
 -rw-r--r-- root       root             4089 ./usr/include/qt5/QtNfc/qndefrecord.h
 -rw-r--r-- root       root               31 ./usr/include/qt5/QtNfc/QNearFieldManager
--rw-r--r-- root       root             3714 ./usr/include/qt5/QtNfc/qnearfieldmanager.h
+-rw-r--r-- root       root             3946 ./usr/include/qt5/QtNfc/qnearfieldmanager.h
 -rw-r--r-- root       root               36 ./usr/include/qt5/QtNfc/QNearFieldShareManager
 -rw-r--r-- root       root             3689 ./usr/include/qt5/QtNfc/qnearfieldsharemanager.h
 -rw-r--r-- root       root               35 ./usr/include/qt5/QtNfc/QNearFieldShareTarget
@@ -202,10 +203,10 @@ drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5Bluetooth
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5Nfc
 -rw-r--r-- root       root             5986 ./usr/lib/cmake/Qt5Nfc/Qt5NfcConfig.cmake
 -rw-r--r-- root       root              287 ./usr/lib/cmake/Qt5Nfc/Qt5NfcConfigVersion.cmake
--rw-r--r-- root       root             1411 ./usr/lib/libQt5Bluetooth.prl
+-rw-r--r-- root       root             1480 ./usr/lib/libQt5Bluetooth.prl
 lrwxrwxrwx root       root               24 ./usr/lib/libQt5Bluetooth.so -> libQt5Bluetooth.so.5.7.0
--rw-r--r-- root       root             1383 ./usr/lib/libQt5Nfc.prl
+-rw-r--r-- root       root             1452 ./usr/lib/libQt5Nfc.prl
 lrwxrwxrwx root       root               18 ./usr/lib/libQt5Nfc.so -> libQt5Nfc.so.5.7.0
 drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
--rw-r--r-- root       root              335 ./usr/lib/pkgconfig/Qt5Bluetooth.pc
--rw-r--r-- root       root              295 ./usr/lib/pkgconfig/Qt5Nfc.pc
+-rw-r--r-- root       root              334 ./usr/lib/pkgconfig/Qt5Bluetooth.pc
+-rw-r--r-- root       root              294 ./usr/lib/pkgconfig/Qt5Nfc.pc

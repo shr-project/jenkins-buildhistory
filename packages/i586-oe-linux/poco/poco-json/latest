@@ -1,10 +1,10 @@
 PV = 1.7.3
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 PKG = libpocojson43
 RPROVIDES = poco-json (=1.7.3)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) poco-foundation (>= 1.7.3)
 RRECOMMENDS = 
-PKGSIZE = 299664
+PKGSIZE = 301280
 FILES = /usr/lib/libPocoJSON.so.*
 FILELIST = /usr/lib/libPocoJSON.so.43
