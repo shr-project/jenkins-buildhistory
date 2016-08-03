@@ -1,10 +1,10 @@
-PV = 4.4.14+gitAUTOINC+4800a400d5_d1fcd96376
+PV = 4.4.15+gitAUTOINC+86bf91f444_c2507bd628
 PR = r0
-PKGR = r0.5
-PKGV = 4.4.14+git0+4800a400d5_d1fcd96376
+PKGR = r0.1
+PKGV = 4.4.15+git0+86bf91f444_c2507bd628
 RPROVIDES = 
-RDEPENDS = kernel-4.4.14-yocto-standard
+RDEPENDS = kernel-4.4.15-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 6764
-FILES = /lib/modules/4.4.14-yocto-standard/kernel/net/ipv6/tunnel6.ko /etc/modules-load.d/tunnel6.conf /etc/modprobe.d/tunnel6.conf
-FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/net/ipv6/tunnel6.ko
+FILES = /lib/modules/4.4.15-yocto-standard/kernel/net/ipv6/tunnel6.ko /etc/modules-load.d/tunnel6.conf /etc/modprobe.d/tunnel6.conf
+FILELIST = /lib/modules/4.4.15-yocto-standard/kernel/net/ipv6/tunnel6.ko

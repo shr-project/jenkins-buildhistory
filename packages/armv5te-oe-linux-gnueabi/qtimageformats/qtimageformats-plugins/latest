@@ -1,10 +1,10 @@
-PV = 5.6.99+5.7.0-beta+gitAUTOINC+42b07b2ddf
+PV = 5.7.0+gitAUTOINC+d4401c9f51
 PR = r0
-PKGR = r0.22
-PKGV = 5.6.99+5.7.0-beta+git0+42b07b2ddf
+PKGR = r0.0
+PKGV = 5.7.0+git0+d4401c9f51
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1) tiff (>= 4.0.6)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) qtbase (>= 5.7.0+git0+69b43e74d7) tiff (>= 4.0.6)
 RRECOMMENDS = 
-PKGSIZE = 408756
+PKGSIZE = 408072
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
 FILELIST = /usr/lib/qt5/plugins/imageformats/libqdds.so /usr/lib/qt5/plugins/imageformats/libqicns.so /usr/lib/qt5/plugins/imageformats/libqtga.so /usr/lib/qt5/plugins/imageformats/libqtiff.so /usr/lib/qt5/plugins/imageformats/libqwbmp.so /usr/lib/qt5/plugins/imageformats/libqwebp.so

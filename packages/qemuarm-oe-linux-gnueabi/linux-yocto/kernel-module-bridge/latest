@@ -1,10 +1,10 @@
-PV = 4.4.14+gitAUTOINC+4800a400d5_d1fcd96376
+PV = 4.4.15+gitAUTOINC+86bf91f444_c2507bd628
 PR = r0
-PKGR = r0.5
-PKGV = 4.4.14+git0+4800a400d5_d1fcd96376
+PKGR = r0.1
+PKGV = 4.4.15+git0+86bf91f444_c2507bd628
 RPROVIDES = 
-RDEPENDS = kernel-4.4.14-yocto-standard kernel-module-llc kernel-module-stp
+RDEPENDS = kernel-4.4.15-yocto-standard kernel-module-llc kernel-module-stp
 RRECOMMENDS = 
-PKGSIZE = 136460
-FILES = /lib/modules/4.4.14-yocto-standard/kernel/net/bridge/bridge.ko /etc/modules-load.d/bridge.conf /etc/modprobe.d/bridge.conf
-FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/net/bridge/bridge.ko
+PKGSIZE = 136492
+FILES = /lib/modules/4.4.15-yocto-standard/kernel/net/bridge/bridge.ko /etc/modules-load.d/bridge.conf /etc/modprobe.d/bridge.conf
+FILELIST = /lib/modules/4.4.15-yocto-standard/kernel/net/bridge/bridge.ko
