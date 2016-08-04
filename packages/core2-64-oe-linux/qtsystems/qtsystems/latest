@@ -1,10 +1,10 @@
-PV = 5.6.99+5.7.0-beta+gitAUTOINC+236b6b544f
+PV = 5.7.0+gitAUTOINC+434af789f0
 PR = r0
-PKGV = 5.6.99+5.7.0-beta+git0+236b6b544f
-PKGR = r0.21
+PKGR = r0.0
+PKGV = 5.7.0+git0+434af789f0
 RPROVIDES = 
-RDEPENDS = bluez5 (>= 5.41) gconf (>= 3.2.6) glib-2.0 (>= 2.48.1) glibc (>= 2.24) libstdc++ (>= 6.1.1) libudev (>= 230+git0+3a74d4fc90) libx11 (>= 1.6.3) qtbase (>= 5.6.99+5.7.0-beta+git0+84330007e1)
+RDEPENDS = bluez5 (>= 5.41) gconf (>= 3.2.6) glib-2.0 (>= 2.48.1) glibc (>= 2.24) libstdc++ (>= 6.1.1) libudev (>= 230+git0+3a74d4fc90) libx11 (>= 1.6.3) qtbase (>= 5.7.0+git0+69b43e74d7)
 RRECOMMENDS = qtsystems-plugins qtsystems-qmlplugins
-PKGSIZE = 695478
+PKGSIZE = 695830
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtsystems /usr/lib/qtsystems/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5PublishSubscribe.so.5 /usr/lib/libQt5PublishSubscribe.so.5.4 /usr/lib/libQt5PublishSubscribe.so.5.4.0 /usr/lib/libQt5ServiceFramework.so.5 /usr/lib/libQt5ServiceFramework.so.5.4 /usr/lib/libQt5ServiceFramework.so.5.4.0 /usr/lib/libQt5SystemInfo.so.5 /usr/lib/libQt5SystemInfo.so.5.4 /usr/lib/libQt5SystemInfo.so.5.4.0

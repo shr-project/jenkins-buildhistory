@@ -1,10 +1,10 @@
-PV = 4.4.14+gitAUTOINC+4800a400d5_8361321fec
+PV = 4.4.15+gitAUTOINC+86bf91f444_ddab242999
 PR = r0
-PKGV = 4.4.14+git0+4800a400d5_8361321fec
-PKGR = r0.5
+PKGR = r0.1
+PKGV = 4.4.15+git0+86bf91f444_ddab242999
 RPROVIDES = 
-RDEPENDS = kernel-4.4.14-yocto-standard
+RDEPENDS = kernel-4.4.15-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 8200
-FILES = /lib/modules/4.4.14-yocto-standard/kernel/fs/nls/nls_iso8859-9.ko /etc/modules-load.d/nls_iso8859-9.conf /etc/modprobe.d/nls_iso8859-9.conf
-FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/fs/nls/nls_iso8859-9.ko
+FILES = /lib/modules/4.4.15-yocto-standard/kernel/fs/nls/nls_iso8859-9.ko /etc/modules-load.d/nls_iso8859-9.conf /etc/modprobe.d/nls_iso8859-9.conf
+FILELIST = /lib/modules/4.4.15-yocto-standard/kernel/fs/nls/nls_iso8859-9.ko

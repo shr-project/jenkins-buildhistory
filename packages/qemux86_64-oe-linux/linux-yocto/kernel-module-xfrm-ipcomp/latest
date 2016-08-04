@@ -1,10 +1,10 @@
-PV = 4.4.14+gitAUTOINC+4800a400d5_8361321fec
+PV = 4.4.15+gitAUTOINC+86bf91f444_ddab242999
 PR = r0
-PKGV = 4.4.14+git0+4800a400d5_8361321fec
-PKGR = r0.5
+PKGR = r0.1
+PKGV = 4.4.15+git0+86bf91f444_ddab242999
 RPROVIDES = 
-RDEPENDS = kernel-4.4.14-yocto-standard
+RDEPENDS = kernel-4.4.15-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 11536
-FILES = /lib/modules/4.4.14-yocto-standard/kernel/net/xfrm/xfrm_ipcomp.ko /etc/modules-load.d/xfrm_ipcomp.conf /etc/modprobe.d/xfrm_ipcomp.conf
-FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/net/xfrm/xfrm_ipcomp.ko
+PKGSIZE = 11136
+FILES = /lib/modules/4.4.15-yocto-standard/kernel/net/xfrm/xfrm_ipcomp.ko /etc/modules-load.d/xfrm_ipcomp.conf /etc/modprobe.d/xfrm_ipcomp.conf
+FILELIST = /lib/modules/4.4.15-yocto-standard/kernel/net/xfrm/xfrm_ipcomp.ko

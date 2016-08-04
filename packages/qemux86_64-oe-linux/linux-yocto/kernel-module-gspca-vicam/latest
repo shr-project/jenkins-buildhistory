@@ -1,10 +1,10 @@
-PV = 4.4.14+gitAUTOINC+4800a400d5_8361321fec
+PV = 4.4.15+gitAUTOINC+86bf91f444_ddab242999
 PR = r0
-PKGV = 4.4.14+git0+4800a400d5_8361321fec
-PKGR = r0.5
+PKGR = r0.1
+PKGV = 4.4.15+git0+86bf91f444_ddab242999
 RPROVIDES = 
-RDEPENDS = kernel-4.4.14-yocto-standard kernel-module-gspca-main kernel-module-media kernel-module-v4l2-common kernel-module-videodev
+RDEPENDS = kernel-4.4.15-yocto-standard kernel-module-gspca-main kernel-module-media kernel-module-v4l2-common kernel-module-videodev
 RRECOMMENDS = 
 PKGSIZE = 10448
-FILES = /lib/modules/4.4.14-yocto-standard/kernel/drivers/media/usb/gspca/gspca_vicam.ko /etc/modules-load.d/gspca_vicam.conf /etc/modprobe.d/gspca_vicam.conf
-FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/drivers/media/usb/gspca/gspca_vicam.ko
+FILES = /lib/modules/4.4.15-yocto-standard/kernel/drivers/media/usb/gspca/gspca_vicam.ko /etc/modules-load.d/gspca_vicam.conf /etc/modprobe.d/gspca_vicam.conf
+FILELIST = /lib/modules/4.4.15-yocto-standard/kernel/drivers/media/usb/gspca/gspca_vicam.ko

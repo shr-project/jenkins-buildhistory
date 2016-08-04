@@ -1,10 +1,10 @@
 PV = 2.7.3+gitAUTOINC+5362a1f260
 PR = r0
+PKGR = r0.11
 PKGV = 2.7.3+git0+5362a1f260
-PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = kernel-4.4.14-yocto-standard
+RDEPENDS = kernel-4.4.15-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 4752
-FILES = /lib/modules/4.4.14-yocto-standard/kernel/lttng-modules/probes/lttng-types.ko /etc/modules-load.d/lttng-types.conf /etc/modprobe.d/lttng-types.conf
-FILELIST = /lib/modules/4.4.14-yocto-standard/kernel/lttng-modules/probes/lttng-types.ko
+FILES = /lib/modules/4.4.15-yocto-standard/kernel/lttng-modules/probes/lttng-types.ko /etc/modules-load.d/lttng-types.conf /etc/modprobe.d/lttng-types.conf
+FILELIST = /lib/modules/4.4.15-yocto-standard/kernel/lttng-modules/probes/lttng-types.ko
