@@ -1,9 +1,10 @@
-PV = 1.13.0
+PV = 2.0.0
 PR = r0
-PKGR = r0.30
-RPROVIDES = 
-RDEPENDS = glew-dev (= 1.13.0-r0.30)
+PKGR = r0.0
+PKG = libglew-staticdev
+RPROVIDES = glew-staticdev (=2.0.0)
+RDEPENDS = glew-dev (= 2.0.0-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 2605286
+PKGSIZE = 1335338
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/glew/*.a
-FILELIST = /usr/lib/libGLEW.a /usr/lib/libGLEWmx.a
+FILELIST = /usr/lib/libGLEW.a

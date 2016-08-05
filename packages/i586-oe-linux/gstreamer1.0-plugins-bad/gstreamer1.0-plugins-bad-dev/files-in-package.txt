@@ -22,11 +22,12 @@ drwxr-xr-x root       root              240 ./usr/include/gstreamer-1.0/gst/code
 -rw-r--r-- root       root             2145 ./usr/include/gstreamer-1.0/gst/codecparsers/gstvp8rangedecoder.h
 -rw-r--r-- root       root            14835 ./usr/include/gstreamer-1.0/gst/codecparsers/gstvp9parser.h
 drwxr-xr-x root       root              700 ./usr/include/gstreamer-1.0/gst/gl
-drwxr-xr-x root       root              120 ./usr/include/gstreamer-1.0/gst/gl/egl
+drwxr-xr-x root       root              140 ./usr/include/gstreamer-1.0/gst/gl/egl
 -rw-r--r-- root       root             1385 ./usr/include/gstreamer-1.0/gst/gl/egl/gstegl.h
 -rw-r--r-- root       root             2402 ./usr/include/gstreamer-1.0/gst/gl/egl/gsteglimagememory.h
 -rw-r--r-- root       root             2811 ./usr/include/gstreamer-1.0/gst/gl/egl/gstglcontext_egl.h
 -rw-r--r-- root       root             2261 ./usr/include/gstreamer-1.0/gst/gl/egl/gstgldisplay_egl.h
+-rw-r--r-- root       root             3551 ./usr/include/gstreamer-1.0/gst/gl/egl/gstglmemoryegl.h
 -rw-r--r-- root       root             2049 ./usr/include/gstreamer-1.0/gst/gl/gl.h
 drwxr-xr-x root       root              360 ./usr/include/gstreamer-1.0/gst/gl/glprototypes
 -rw-r--r-- root       root             1083 ./usr/include/gstreamer-1.0/gst/gl/glprototypes/all_functions.h
@@ -60,7 +61,7 @@ drwxr-xr-x root       root              360 ./usr/include/gstreamer-1.0/gst/gl/g
 -rw-r--r-- root       root             5144 ./usr/include/gstreamer-1.0/gst/gl/gstglfilter.h
 -rw-r--r-- root       root             3685 ./usr/include/gstreamer-1.0/gst/gl/gstglformat.h
 -rw-r--r-- root       root             2578 ./usr/include/gstreamer-1.0/gst/gl/gstglframebuffer.h
--rw-r--r-- root       root             5424 ./usr/include/gstreamer-1.0/gst/gl/gstgl_fwd.h
+-rw-r--r-- root       root             5612 ./usr/include/gstreamer-1.0/gst/gl/gstgl_fwd.h
 -rw-r--r-- root       root            11215 ./usr/include/gstreamer-1.0/gst/gl/gstglmemory.h
 -rw-r--r-- root       root             3612 ./usr/include/gstreamer-1.0/gst/gl/gstglmemorypbo.h
 -rw-r--r-- root       root             2606 ./usr/include/gstreamer-1.0/gst/gl/gstgloverlaycompositor.h
@@ -151,7 +152,7 @@ drwxr-xr-x root       root              220 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              299 ./usr/lib/pkgconfig/gstreamer-plugins-bad-1.0.pc
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              120 ./usr/share/gir-1.0
--rw-r--r-- root       root           536725 ./usr/share/gir-1.0/GstGL-1.0.gir
+-rw-r--r-- root       root           537071 ./usr/share/gir-1.0/GstGL-1.0.gir
 -rw-r--r-- root       root            19292 ./usr/share/gir-1.0/GstInsertBin-1.0.gir
 -rw-r--r-- root       root           227477 ./usr/share/gir-1.0/GstMpegts-1.0.gir
 -rw-r--r-- root       root            83592 ./usr/share/gir-1.0/GstPlayer-1.0.gir

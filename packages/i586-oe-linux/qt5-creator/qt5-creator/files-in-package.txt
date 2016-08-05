@@ -9,7 +9,7 @@ drwxr-xr-x root       root              340 ./usr/bin
 -rwxr-xr-x root       root            41540 ./usr/bin/qbs-setup-android
 -rwxr-xr-x root       root            93524 ./usr/bin/qbs-setup-qt
 -rwxr-xr-x root       root           184448 ./usr/bin/qbs-setup-toolchains
--rwxr-xr-x root       root           643828 ./usr/bin/qml2puppet
+-rwxr-xr-x root       root           647932 ./usr/bin/qml2puppet
 -rwxr-xr-x root       root            85700 ./usr/bin/qtcreator
 -rwxr-xr-x root       root             9484 ./usr/bin/qtcreator_process_stub
 -rwxr-xr-x root       root              950 ./usr/bin/qtcreator.sh
@@ -21,13 +21,13 @@ drwxr-xr-x root       root              960 ./usr/lib/qt5/qtcreator
 -rwxr-xr-x root       root            17896 ./usr/lib/qt5/qtcreator/libAggregation.so.1.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/qt5/qtcreator/libAggregation.so.1.0 -> libAggregation.so.1.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/qt5/qtcreator/libAggregation.so.1 -> libAggregation.so.1.0.0
--rwxr-xr-x root       root           209972 ./usr/lib/qt5/qtcreator/libClangbackendipc.so.1.0.0
+-rwxr-xr-x root       root           213308 ./usr/lib/qt5/qtcreator/libClangbackendipc.so.1.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/qt5/qtcreator/libClangbackendipc.so.1.0 -> libClangbackendipc.so.1.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/qt5/qtcreator/libClangbackendipc.so.1 -> libClangbackendipc.so.1.0.0
--rwxr-xr-x root       root          1960624 ./usr/lib/qt5/qtcreator/libCPlusPlus.so.1.0.0
+-rwxr-xr-x root       root          1960336 ./usr/lib/qt5/qtcreator/libCPlusPlus.so.1.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/qt5/qtcreator/libCPlusPlus.so.1.0 -> libCPlusPlus.so.1.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/qt5/qtcreator/libCPlusPlus.so.1 -> libCPlusPlus.so.1.0.0
--rwxr-xr-x root       root           257832 ./usr/lib/qt5/qtcreator/libExtensionSystem.so.1.0.0
+-rwxr-xr-x root       root           255892 ./usr/lib/qt5/qtcreator/libExtensionSystem.so.1.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/qt5/qtcreator/libExtensionSystem.so.1.0 -> libExtensionSystem.so.1.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/qt5/qtcreator/libExtensionSystem.so.1 -> libExtensionSystem.so.1.0.0
 -rwxr-xr-x root       root           281884 ./usr/lib/qt5/qtcreator/libGLSL.so.1.0.0
@@ -42,7 +42,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/qt5/qtcreator/libqbscore.s
 -rwxr-xr-x root       root           125860 ./usr/lib/qt5/qtcreator/libqbsqtprofilesetup.so.1.4.3
 lrwxrwxrwx root       root               29 ./usr/lib/qt5/qtcreator/libqbsqtprofilesetup.so.1.4 -> libqbsqtprofilesetup.so.1.4.3
 lrwxrwxrwx root       root               29 ./usr/lib/qt5/qtcreator/libqbsqtprofilesetup.so.1 -> libqbsqtprofilesetup.so.1.4.3
--rwxr-xr-x root       root           209704 ./usr/lib/qt5/qtcreator/libQmlDebug.so.1.0.0
+-rwxr-xr-x root       root           210648 ./usr/lib/qt5/qtcreator/libQmlDebug.so.1.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/qt5/qtcreator/libQmlDebug.so.1.0 -> libQmlDebug.so.1.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/qt5/qtcreator/libQmlDebug.so.1 -> libQmlDebug.so.1.0.0
 -rwxr-xr-x root       root           430556 ./usr/lib/qt5/qtcreator/libQmlEditorWidgets.so.1.0.0
@@ -54,18 +54,18 @@ lrwxrwxrwx root       root               17 ./usr/lib/qt5/qtcreator/libQmlJS.so.
 -rwxr-xr-x root       root          2372176 ./usr/lib/qt5/qtcreator/libQtcSsh.so.1.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/qt5/qtcreator/libQtcSsh.so.1.0 -> libQtcSsh.so.1.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/qt5/qtcreator/libQtcSsh.so.1 -> libQtcSsh.so.1.0.0
--rwxr-xr-x root       root          1025128 ./usr/lib/qt5/qtcreator/libSqlite.so.1.0.0
+-rwxr-xr-x root       root          1025800 ./usr/lib/qt5/qtcreator/libSqlite.so.1.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/qt5/qtcreator/libSqlite.so.1.0 -> libSqlite.so.1.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/qt5/qtcreator/libSqlite.so.1 -> libSqlite.so.1.0.0
 -rwxr-xr-x root       root           254928 ./usr/lib/qt5/qtcreator/libTimeline.so.1.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/qt5/qtcreator/libTimeline.so.1.0 -> libTimeline.so.1.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/qt5/qtcreator/libTimeline.so.1 -> libTimeline.so.1.0.0
--rwxr-xr-x root       root          1707004 ./usr/lib/qt5/qtcreator/libUtils.so.1.0.0
+-rwxr-xr-x root       root          1706684 ./usr/lib/qt5/qtcreator/libUtils.so.1.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/qt5/qtcreator/libUtils.so.1.0 -> libUtils.so.1.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/qt5/qtcreator/libUtils.so.1 -> libUtils.so.1.0.0
 drwxr-xr-x root       root             1160 ./usr/lib/qt5/qtcreator/plugins
 -rwxr-xr-x root       root           195016 ./usr/lib/qt5/qtcreator/plugins/libAnalyzerBase.so
--rwxr-xr-x root       root           909860 ./usr/lib/qt5/qtcreator/plugins/libAndroid.so
+-rwxr-xr-x root       root           909828 ./usr/lib/qt5/qtcreator/plugins/libAndroid.so
 -rwxr-xr-x root       root           241968 ./usr/lib/qt5/qtcreator/plugins/libAutotoolsProjectManager.so
 -rwxr-xr-x root       root           361048 ./usr/lib/qt5/qtcreator/plugins/libBareMetal.so
 -rwxr-xr-x root       root           196284 ./usr/lib/qt5/qtcreator/plugins/libBazaar.so
@@ -75,10 +75,10 @@ drwxr-xr-x root       root             1160 ./usr/lib/qt5/qtcreator/plugins
 -rwxr-xr-x root       root           152348 ./usr/lib/qt5/qtcreator/plugins/libClassView.so
 -rwxr-xr-x root       root           298660 ./usr/lib/qt5/qtcreator/plugins/libClearCase.so
 -rwxr-xr-x root       root           573736 ./usr/lib/qt5/qtcreator/plugins/libCMakeProjectManager.so
--rwxr-xr-x root       root           218392 ./usr/lib/qt5/qtcreator/plugins/libCodePaster.so
--rwxr-xr-x root       root          2933280 ./usr/lib/qt5/qtcreator/plugins/libCore.so
+-rwxr-xr-x root       root           218136 ./usr/lib/qt5/qtcreator/plugins/libCodePaster.so
+-rwxr-xr-x root       root          2932928 ./usr/lib/qt5/qtcreator/plugins/libCore.so
 -rwxr-xr-x root       root          1068776 ./usr/lib/qt5/qtcreator/plugins/libCppEditor.so
--rwxr-xr-x root       root          1496884 ./usr/lib/qt5/qtcreator/plugins/libCppTools.so
+-rwxr-xr-x root       root          1496916 ./usr/lib/qt5/qtcreator/plugins/libCppTools.so
 -rwxr-xr-x root       root           186828 ./usr/lib/qt5/qtcreator/plugins/libCVS.so
 -rwxr-xr-x root       root          3115744 ./usr/lib/qt5/qtcreator/plugins/libDebugger.so
 -rwxr-xr-x root       root           337532 ./usr/lib/qt5/qtcreator/plugins/libDesigner.so
@@ -86,12 +86,12 @@ drwxr-xr-x root       root             1160 ./usr/lib/qt5/qtcreator/plugins
 -rwxr-xr-x root       root            35380 ./usr/lib/qt5/qtcreator/plugins/libEmacsKeys.so
 -rwxr-xr-x root       root           519832 ./usr/lib/qt5/qtcreator/plugins/libFakeVim.so
 -rwxr-xr-x root       root           216192 ./usr/lib/qt5/qtcreator/plugins/libGenericProjectManager.so
--rwxr-xr-x root       root           917688 ./usr/lib/qt5/qtcreator/plugins/libGit.so
+-rwxr-xr-x root       root           916888 ./usr/lib/qt5/qtcreator/plugins/libGit.so
 -rwxr-xr-x root       root           115992 ./usr/lib/qt5/qtcreator/plugins/libGLSLEditor.so
 -rwxr-xr-x root       root            27600 ./usr/lib/qt5/qtcreator/plugins/libHelloWorld.so
--rwxr-xr-x root       root           632348 ./usr/lib/qt5/qtcreator/plugins/libHelp.so
+-rwxr-xr-x root       root           632156 ./usr/lib/qt5/qtcreator/plugins/libHelp.so
 -rwxr-xr-x root       root            90580 ./usr/lib/qt5/qtcreator/plugins/libImageViewer.so
--rwxr-xr-x root       root           578928 ./usr/lib/qt5/qtcreator/plugins/libIos.so
+-rwxr-xr-x root       root           578960 ./usr/lib/qt5/qtcreator/plugins/libIos.so
 -rwxr-xr-x root       root           214020 ./usr/lib/qt5/qtcreator/plugins/libMacros.so
 -rwxr-xr-x root       root           196308 ./usr/lib/qt5/qtcreator/plugins/libMercurial.so
 -rwxr-xr-x root       root           263908 ./usr/lib/qt5/qtcreator/plugins/libPerforce.so
@@ -100,22 +100,22 @@ drwxr-xr-x root       root             1160 ./usr/lib/qt5/qtcreator/plugins
 -rwxr-xr-x root       root           564732 ./usr/lib/qt5/qtcreator/plugins/libQbsProjectManager.so
 -rwxr-xr-x root       root           200076 ./usr/lib/qt5/qtcreator/plugins/libQmakeAndroidSupport.so
 -rwxr-xr-x root       root          1298636 ./usr/lib/qt5/qtcreator/plugins/libQmakeProjectManager.so
--rwxr-xr-x root       root          3214312 ./usr/lib/qt5/qtcreator/plugins/libQmlDesigner.so
--rwxr-xr-x root       root           757404 ./usr/lib/qt5/qtcreator/plugins/libQmlJSEditor.so
+-rwxr-xr-x root       root          3218408 ./usr/lib/qt5/qtcreator/plugins/libQmlDesigner.so
+-rwxr-xr-x root       root           758048 ./usr/lib/qt5/qtcreator/plugins/libQmlJSEditor.so
 -rwxr-xr-x root       root           355512 ./usr/lib/qt5/qtcreator/plugins/libQmlJSTools.so
--rwxr-xr-x root       root           559844 ./usr/lib/qt5/qtcreator/plugins/libQmlProfiler.so
+-rwxr-xr-x root       root           559876 ./usr/lib/qt5/qtcreator/plugins/libQmlProfiler.so
 -rwxr-xr-x root       root           214116 ./usr/lib/qt5/qtcreator/plugins/libQmlProjectManager.so
 -rwxr-xr-x root       root           470000 ./usr/lib/qt5/qtcreator/plugins/libQnx.so
--rwxr-xr-x root       root           983160 ./usr/lib/qt5/qtcreator/plugins/libQtSupport.so
+-rwxr-xr-x root       root           983128 ./usr/lib/qt5/qtcreator/plugins/libQtSupport.so
 -rwxr-xr-x root       root           693624 ./usr/lib/qt5/qtcreator/plugins/libRemoteLinux.so
 -rwxr-xr-x root       root           261828 ./usr/lib/qt5/qtcreator/plugins/libResourceEditor.so
 -rwxr-xr-x root       root           185588 ./usr/lib/qt5/qtcreator/plugins/libSubversion.so
 -rwxr-xr-x root       root            31604 ./usr/lib/qt5/qtcreator/plugins/libTaskList.so
--rwxr-xr-x root       root          1941952 ./usr/lib/qt5/qtcreator/plugins/libTextEditor.so
+-rwxr-xr-x root       root          1946060 ./usr/lib/qt5/qtcreator/plugins/libTextEditor.so
 -rwxr-xr-x root       root           241244 ./usr/lib/qt5/qtcreator/plugins/libTodo.so
 -rwxr-xr-x root       root            50808 ./usr/lib/qt5/qtcreator/plugins/libUpdateInfo.so
 -rwxr-xr-x root       root           788984 ./usr/lib/qt5/qtcreator/plugins/libValgrind.so
--rwxr-xr-x root       root           663920 ./usr/lib/qt5/qtcreator/plugins/libVcsBase.so
+-rwxr-xr-x root       root           663664 ./usr/lib/qt5/qtcreator/plugins/libVcsBase.so
 -rwxr-xr-x root       root            52748 ./usr/lib/qt5/qtcreator/plugins/libWelcome.so
 -rwxr-xr-x root       root           197108 ./usr/lib/qt5/qtcreator/plugins/libWinRt.so
 drwxr-xr-x root       root               60 ./usr/lib/qt5/qtcreator/plugins/qbs
