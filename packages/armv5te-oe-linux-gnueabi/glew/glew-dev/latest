@@ -1,9 +1,10 @@
-PV = 1.13.0
+PV = 2.0.0
 PR = r0
-PKGR = r0.25
-RPROVIDES = 
-RDEPENDS = glew (= 1.13.0-r0.25)
+PKG = libglew-dev
+PKGR = r0.0
+RPROVIDES = glew-dev (=2.0.0)
+RDEPENDS = glew (= 2.0.0-r0.0)
 RRECOMMENDS = glibc-dev libgl-mesa-dev libglu-dev libx11-dev libxext-dev libxi-dev libxmu-dev
-PKGSIZE = 1155823
+PKGSIZE = 1174653
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/glew/*.la /lib/*.la
-FILELIST = /usr/include/GL/glew.h /usr/include/GL/glxew.h /usr/include/GL/wglew.h /usr/lib/libGLEW.so /usr/lib/libGLEWmx.so /usr/lib/pkgconfig/glew.pc /usr/lib/pkgconfig/glewmx.pc
+FILELIST = /usr/include/GL/glew.h /usr/include/GL/glxew.h /usr/include/GL/wglew.h /usr/lib/libGLEW.so /usr/lib/pkgconfig/glew.pc

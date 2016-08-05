@@ -1,4 +1,4 @@
 PV = 1.9.6
 PR = r0
-DEPENDS = base-files openssl shadow shadow-native shadow-sysroot virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = groff-native openssl virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = nostromo-dbg nostromo-staticdev nostromo-dev nostromo-doc nostromo-locale nostromo
