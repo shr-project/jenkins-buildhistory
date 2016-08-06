@@ -1,8 +1,8 @@
 PV = 0.44.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = libvte vte (= 0.44.1-r0.5)
+RDEPENDS = libvte vte (= 0.44.1-r0.6)
 RRECOMMENDS = atk-dev cairo-dev cairo-gobject-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev harfbuzz-dev libffi-dev libgcc-dev libpcre-dev libpng-dev libstdc++-dev libvte-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxrender-dev pango-dev pixman-dev vala-dev zlib-dev
 PKGSIZE = 209780
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vte/*.la /lib/*.la /usr/share/vala/vapi/*.vapi /usr/share/vala/vapi/*.deps /usr/share/gir-1.0 /usr/share/gir-*/*.gir

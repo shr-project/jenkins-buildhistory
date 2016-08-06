@@ -1,9 +1,10 @@
-PV = 1.13.0
+PV = 2.0.0
 PR = r0
-PKGR = r0.24
-RPROVIDES = 
+PKG = libglew2.0
+PKGR = r0.0
+RPROVIDES = glew (=2.0.0)
 RDEPENDS = glibc (>= 2.24) libgl-mesa (>= 12.0.1)
 RRECOMMENDS = 
-PKGSIZE = 1034676
+PKGSIZE = 594936
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/glew /usr/lib/glew/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libGLEW.so.1.13 /usr/lib/libGLEW.so.1.13.0 /usr/lib/libGLEWmx.so.1.13 /usr/lib/libGLEWmx.so.1.13.0
+FILELIST = /usr/lib/libGLEW.so.2.0 /usr/lib/libGLEW.so.2.0.0
