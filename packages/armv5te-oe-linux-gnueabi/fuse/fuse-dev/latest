@@ -1,7 +1,7 @@
 PV = 2.9.4
 PR = r0
-PKG = libfuse-dev
 PKGR = r0.23
+PKG = libfuse-dev
 RPROVIDES = fuse-dev (=2.9.4)
 RDEPENDS = fuse (= 2.9.4-r0.23) libulockmgr
 RRECOMMENDS = glibc-dev util-linux-mount-dev
