@@ -1,7 +1,7 @@
 PV = 2.4.43
 PR = r0
-PKGR = r0.28
 PKG = libldap-2.4-backend-shell
+PKGR = r0.28
 RPROVIDES = openldap-backend-shell (=2.4.43)
 RDEPENDS = glibc (>= 2.24) gmp (>= 6.1.1) gnutls (>= 3.5.1) libcap (>= 2.25) libgcrypt (>= 1.7.0) libgpg-error (>= 1.24) libidn (>= 1.32) nettle (>= 3.2) openldap (>= 2.4.43) zlib (>= 1.2.8)
 RRECOMMENDS = 

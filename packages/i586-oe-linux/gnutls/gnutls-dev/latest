@@ -1,7 +1,7 @@
 PV = 3.5.1
 PR = r0
-PKGR = r0.4
 PKG = libgnutls-dev
+PKGR = r0.4
 RPROVIDES = gnutls-dev (=3.5.1)
 RDEPENDS = glibc (>= 2.24) gnutls (= 3.5.1-r0.4) gnutls (>= 3.5.1) gnutls-openssl gnutls-xx libidn (>= 1.32)
 RRECOMMENDS = glibc-dev gmp-dev gnutls-openssl-dev gnutls-xx-dev libgcc-dev libidn-dev libstdc++-dev nettle-dev zlib-dev

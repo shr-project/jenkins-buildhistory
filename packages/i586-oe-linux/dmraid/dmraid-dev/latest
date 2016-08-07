@@ -1,0 +1,9 @@
+PV = 1.0.0.rc16
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = dmraid (= 1.0.0.rc16-r0.0)
+RRECOMMENDS = glibc-dev lvm2-dev
+PKGSIZE = 35070
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dmraid/*.la /lib/*.la
+FILELIST = /usr/include/dmraid/display.h /usr/include/dmraid/dmraid.h /usr/include/dmraid/dmreg.h /usr/include/dmraid/format.h /usr/include/dmraid/lib_context.h /usr/include/dmraid/list.h /usr/include/dmraid/locking.h /usr/include/dmraid/metadata.h /usr/include/dmraid/misc.h /usr/include/dmraid/reconfig.h /usr/lib/libdmraid-events-isw.so /usr/lib/libdmraid.so
