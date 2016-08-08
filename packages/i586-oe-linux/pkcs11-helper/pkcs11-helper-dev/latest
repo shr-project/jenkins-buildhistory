@@ -1,7 +1,7 @@
 PV = 1.11
 PR = r0
-PKG = libpkcs11-helper-dev
 PKGR = r0.27
+PKG = libpkcs11-helper-dev
 RPROVIDES = pkcs11-helper-dev (=1.11)
 RDEPENDS = pkcs11-helper (= 1.11-r0.27)
 RRECOMMENDS = glibc-dev gmp-dev gnutls-dev libcrypto-dev libidn-dev nettle-dev nspr-dev nss-dev openssl-dev zlib-dev

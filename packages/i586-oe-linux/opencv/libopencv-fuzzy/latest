@@ -1,11 +1,11 @@
 PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
-PKGV = 3.1+git0+92387b1ef8
-PKGR = r0.22
+PKGR = r0.23
 PKG = libopencv-fuzzy3.1
+PKGV = 3.1+git0+92387b1ef8
 RPROVIDES = libopencv-fuzzy (=3.1+git0+92387b1ef8)
-RDEPENDS = libgcc (>= 5.3.0) libopencv-core (>= 3.1+git0+92387b1ef8) libopencv-imgproc (>= 3.1+git0+92387b1ef8) libstdc++ (>= 5.3.0)
+RDEPENDS = libgcc (>= 6.1.1) libopencv-core (>= 3.1+git0+92387b1ef8) libopencv-imgproc (>= 3.1+git0+92387b1ef8) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 51736
+PKGSIZE = 49008
 FILES = /usr/lib/libopencv_fuzzy.so /usr/lib/libopencv_fuzzy.so.3.1 /usr/lib/libopencv_fuzzy.so.3.1.0
 FILELIST = /usr/lib/libopencv_fuzzy.so.3.1 /usr/lib/libopencv_fuzzy.so.3.1.0

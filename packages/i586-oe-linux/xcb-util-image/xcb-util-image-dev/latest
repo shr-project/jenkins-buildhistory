@@ -1,7 +1,7 @@
 PV = 0.4.0
 PR = r0
-PKG = libxcb-image-dev
 PKGR = r0.27
+PKG = libxcb-image-dev
 RPROVIDES = xcb-util-image-dev (=0.4.0)
 RDEPENDS = xcb-util-image (= 0.4.0-r0.27)
 RRECOMMENDS = glibc-dev libxau-dev libxcb-dev libxcb-shm-dev libxdmcp-dev xcb-util-dev
