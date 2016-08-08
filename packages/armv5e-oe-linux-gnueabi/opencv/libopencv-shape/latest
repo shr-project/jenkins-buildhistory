@@ -1,11 +1,11 @@
 PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
-PKGV = 3.1+git0+92387b1ef8
-PKGR = r0.18
+PKGR = r0.19
 PKG = libopencv-shape3.1
+PKGV = 3.1+git0+92387b1ef8
 RPROVIDES = libopencv-shape (=3.1+git0+92387b1ef8)
-RDEPENDS = glibc (>= 2.24) libgcc (>= 5.3.0) libopencv-core (>= 3.1+git0+92387b1ef8) libopencv-imgproc (>= 3.1+git0+92387b1ef8) libopencv-video (>= 3.1+git0+92387b1ef8) libstdc++ (>= 5.3.0)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libopencv-core (>= 3.1+git0+92387b1ef8) libopencv-imgproc (>= 3.1+git0+92387b1ef8) libopencv-video (>= 3.1+git0+92387b1ef8) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 188188
+PKGSIZE = 152412
 FILES = /usr/lib/libopencv_shape.so /usr/lib/libopencv_shape.so.3.1 /usr/lib/libopencv_shape.so.3.1.0
 FILELIST = /usr/lib/libopencv_shape.so.3.1 /usr/lib/libopencv_shape.so.3.1.0
