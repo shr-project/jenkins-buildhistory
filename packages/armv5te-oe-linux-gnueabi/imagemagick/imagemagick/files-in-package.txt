@@ -1,48 +1,41 @@
 drwxr-xr-x root       root               60 ./etc
-drwxr-xr-x root       root              300 ./etc/ImageMagick-6
--rw-r--r-- root       root              842 ./etc/ImageMagick-6/coder.xml
--rw-r--r-- root       root             1383 ./etc/ImageMagick-6/colors.xml
--rw-r--r-- root       root            14420 ./etc/ImageMagick-6/delegates.xml
--rw-r--r-- root       root              956 ./etc/ImageMagick-6/log.xml
--rw-r--r-- root       root              888 ./etc/ImageMagick-6/magic.xml
--rw-r--r-- root       root           134171 ./etc/ImageMagick-6/mime.xml
--rw-r--r-- root       root             2490 ./etc/ImageMagick-6/policy.xml
--rw-r--r-- root       root             2090 ./etc/ImageMagick-6/quantization-table.xml
--rw-r--r-- root       root            11302 ./etc/ImageMagick-6/thresholds.xml
--rw-r--r-- root       root             8554 ./etc/ImageMagick-6/type-dejavu.xml
--rw-r--r-- root       root             9727 ./etc/ImageMagick-6/type-ghostscript.xml
--rw-r--r-- root       root            13655 ./etc/ImageMagick-6/type-windows.xml
--rw-r--r-- root       root              671 ./etc/ImageMagick-6/type.xml
-drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root              320 ./etc/ImageMagick-7
+-rw-r--r-- root       root              842 ./etc/ImageMagick-7/coder.xml
+-rw-r--r-- root       root             1383 ./etc/ImageMagick-7/colors.xml
+-rw-r--r-- root       root            12889 ./etc/ImageMagick-7/delegates.xml
+-rw-r--r-- root       root              956 ./etc/ImageMagick-7/log.xml
+-rw-r--r-- root       root              888 ./etc/ImageMagick-7/magic.xml
+-rw-r--r-- root       root           134171 ./etc/ImageMagick-7/mime.xml
+-rw-r--r-- root       root             2814 ./etc/ImageMagick-7/policy.xml
+-rw-r--r-- root       root             2090 ./etc/ImageMagick-7/quantization-table.xml
+-rw-r--r-- root       root            11302 ./etc/ImageMagick-7/thresholds.xml
+-rw-r--r-- root       root            29271 ./etc/ImageMagick-7/type-apple.xml
+-rw-r--r-- root       root             8554 ./etc/ImageMagick-7/type-dejavu.xml
+-rw-r--r-- root       root             9727 ./etc/ImageMagick-7/type-ghostscript.xml
+-rw-r--r-- root       root            13655 ./etc/ImageMagick-7/type-windows.xml
+-rw-r--r-- root       root              671 ./etc/ImageMagick-7/type.xml
+drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              360 ./usr/bin
--rwxr-xr-x root       root             4168 ./usr/bin/animate.im6
--rwxr-xr-x root       root             4420 ./usr/bin/compare.im6
--rwxr-xr-x root       root             4176 ./usr/bin/composite.im6
--rwxr-xr-x root       root             4168 ./usr/bin/conjure.im6
--rwxr-xr-x root       root             4168 ./usr/bin/convert.im6
--rwxr-xr-x root       root             4168 ./usr/bin/display.im6
--rwxr-xr-x root       root             4252 ./usr/bin/identify.im6
--rwxr-xr-x root       root             4168 ./usr/bin/import.im6
--rwxr-xr-x root       root             1218 ./usr/bin/Magick-config.im6
--rwxr-xr-x root       root             1252 ./usr/bin/Magick++-config.im6
--rwxr-xr-x root       root             1226 ./usr/bin/MagickCore-config.im6
--rwxr-xr-x root       root             1416 ./usr/bin/MagickWand-config.im6
--rwxr-xr-x root       root             4168 ./usr/bin/mogrify.im6
--rwxr-xr-x root       root             4168 ./usr/bin/montage.im6
--rwxr-xr-x root       root             4168 ./usr/bin/stream.im6
--rwxr-xr-x root       root             1213 ./usr/bin/Wand-config.im6
-drwxr-xr-x root       root              180 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/ImageMagick-6.9.2
-drwxr-xr-x root       root               60 ./usr/lib/ImageMagick-6.9.2/config-Q16
--rw-r--r-- root       root             7246 ./usr/lib/ImageMagick-6.9.2/config-Q16/configure.xml
--rwxr-xr-x root       root           393864 ./usr/lib/libMagick++-6.Q16.so.6.0.0
-lrwxrwxrwx root       root               26 ./usr/lib/libMagick++-6.Q16.so.6 -> libMagick++-6.Q16.so.6.0.0
--rwxr-xr-x root       root          3616796 ./usr/lib/libMagickCore-6.Q16.so.2.0.0
-lrwxrwxrwx root       root               28 ./usr/lib/libMagickCore-6.Q16.so.2 -> libMagickCore-6.Q16.so.2.0.0
--rwxr-xr-x root       root           882184 ./usr/lib/libMagickWand-6.Q16.so.2.0.0
-lrwxrwxrwx root       root               28 ./usr/lib/libMagickWand-6.Q16.so.2 -> libMagickWand-6.Q16.so.2.0.0
-drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root              100 ./usr/share/ImageMagick-6
--rw-r--r-- root       root            48613 ./usr/share/ImageMagick-6/english.xml
--rw-r--r-- root       root            51286 ./usr/share/ImageMagick-6/francais.xml
--rw-r--r-- root       root             2403 ./usr/share/ImageMagick-6/locale.xml
+lrwxrwxrwx root       root               10 ./usr/bin/animate.im6 -> magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/compare.im6 -> magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/composite.im6 -> magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/conjure.im6 -> magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/convert.im6 -> magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/display.im6 -> magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/identify.im6 -> magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/import.im6 -> magick.im6
+-rwxr-xr-x root       root             1256 ./usr/bin/Magick++-config.im6
+-rwxr-xr-x root       root             1412 ./usr/bin/MagickCore-config.im6
+-rwxr-xr-x root       root            10032 ./usr/bin/magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/magick-script.im6 -> magick.im6
+-rwxr-xr-x root       root             1420 ./usr/bin/MagickWand-config.im6
+lrwxrwxrwx root       root               10 ./usr/bin/mogrify.im6 -> magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/montage.im6 -> magick.im6
+lrwxrwxrwx root       root               10 ./usr/bin/stream.im6 -> magick.im6
+drwxr-xr-x root       root              160 ./usr/lib
+-rwxr-xr-x root       root           430328 ./usr/lib/libMagick++-7.Q16HDRI.so.0.0.0
+lrwxrwxrwx root       root               30 ./usr/lib/libMagick++-7.Q16HDRI.so.0 -> libMagick++-7.Q16HDRI.so.0.0.0
+-rwxr-xr-x root       root          3644208 ./usr/lib/libMagickCore-7.Q16HDRI.so.0.0.0
+lrwxrwxrwx root       root               32 ./usr/lib/libMagickCore-7.Q16HDRI.so.0 -> libMagickCore-7.Q16HDRI.so.0.0.0
+-rwxr-xr-x root       root           922472 ./usr/lib/libMagickWand-7.Q16HDRI.so.0.0.0
+lrwxrwxrwx root       root               32 ./usr/lib/libMagickWand-7.Q16HDRI.so.0 -> libMagickWand-7.Q16HDRI.so.0.0.0
