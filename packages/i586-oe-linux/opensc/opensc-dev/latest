@@ -1,9 +1,9 @@
-PV = 0.15.0
+PV = 0.16.0
 PR = r0
-PKGR = r0.29
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = opensc (= 0.15.0-r0.29)
+RDEPENDS = opensc (= 0.16.0-r0.0)
 RRECOMMENDS = glibc-dev libcrypto-dev openct-dev openssl-dev pcsc-lite-dev readline-dev zlib-dev
-PKGSIZE = 5017
+PKGSIZE = 5026
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/opensc/*.la /lib/*.la /usr/lib/pkcs11/opensc-pkcs11.so /usr/lib/pkcs11/onepin-opensc-pkcs11.so /usr/lib/pkcs11/pkcs11-spy.so
 FILELIST = /usr/lib/libopensc.la /usr/lib/libopensc.so /usr/lib/libsmm-local.la /usr/lib/libsmm-local.so /usr/lib/onepin-opensc-pkcs11.la /usr/lib/opensc-pkcs11.la /usr/lib/pkcs11-spy.la /usr/lib/pkcs11/onepin-opensc-pkcs11.so /usr/lib/pkcs11/opensc-pkcs11.so /usr/lib/pkcs11/pkcs11-spy.so

@@ -1,11 +1,11 @@
 PV = 5.7.0+gitAUTOINC+03a6177a32
 PR = r0
-PKGR = r0.2
 PKG = libqt5charts5
 PKGV = 5.7.0+git0+03a6177a32
+PKGR = r0.3
 RPROVIDES = qtcharts (=5.7.0+git0+03a6177a32)
 RDEPENDS = glibc (>= 2.24) libgles2-mesa (>= 12.0.1) libstdc++ (>= 6.1.1) qtbase (>= 5.7.0+git0+69b43e74d7)
 RRECOMMENDS = qtcharts-plugins qtcharts-qmlplugins
-PKGSIZE = 1409542
+PKGSIZE = 1409630
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qtcharts /usr/lib/qtcharts/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5Charts.so.5 /usr/lib/libQt5Charts.so.5.7 /usr/lib/libQt5Charts.so.5.7.0

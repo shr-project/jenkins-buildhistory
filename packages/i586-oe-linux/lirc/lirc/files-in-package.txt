@@ -14,34 +14,34 @@ drwxr-xr-x root       root              120 ./lib/systemd/system
 -rw-r--r-- root       root              179 ./lib/systemd/system/lircmd.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              380 ./usr/bin
--rwxr-xr-x root       root             5192 ./usr/bin/ircat
+-rwxr-xr-x root       root             5780 ./usr/bin/ircat
 -rwxr-xr-x root       root             5466 ./usr/bin/irdb-get
--rwxr-xr-x root       root             9392 ./usr/bin/irpty
--rwxr-xr-x root       root            43464 ./usr/bin/irrecord
--rwxr-xr-x root       root             8200 ./usr/bin/irsend
--rwxr-xr-x root       root             7664 ./usr/bin/irsimreceive
--rwxr-xr-x root       root             9292 ./usr/bin/irsimsend
--rwxr-xr-x root       root             8556 ./usr/bin/irtestcase
--rwxr-xr-x root       root             5332 ./usr/bin/irw
--rwxr-xr-x root       root            15756 ./usr/bin/irxevent
+-rwxr-xr-x root       root            10044 ./usr/bin/irpty
+-rwxr-xr-x root       root            43220 ./usr/bin/irrecord
+-rwxr-xr-x root       root             9940 ./usr/bin/irsend
+-rwxr-xr-x root       root             9916 ./usr/bin/irsimreceive
+-rwxr-xr-x root       root            10040 ./usr/bin/irsimsend
+-rwxr-xr-x root       root            10008 ./usr/bin/irtestcase
+-rwxr-xr-x root       root             5760 ./usr/bin/irw
+-rwxr-xr-x root       root            18296 ./usr/bin/irxevent
 -rwxr-xr-x root       root            32915 ./usr/bin/lirc-config-tool
--rwxr-xr-x root       root            10528 ./usr/bin/lirc-lsremotes
--rwxr-xr-x root       root            18608 ./usr/bin/lircrcd
+-rwxr-xr-x root       root            14092 ./usr/bin/lirc-lsremotes
+-rwxr-xr-x root       root            18364 ./usr/bin/lircrcd
 lrwxrwxrwx root       root               46 ./usr/bin/lirc-setup -> ../lib/python3.5/site-packages/lirc/lirc-setup
--rwxr-xr-x root       root            10096 ./usr/bin/mode2
+-rwxr-xr-x root       root            13948 ./usr/bin/mode2
 -rwxr-xr-x root       root             6568 ./usr/bin/pronto2lirc
--rwxr-xr-x root       root            12900 ./usr/bin/xmode2
+-rwxr-xr-x root       root            14320 ./usr/bin/xmode2
 drwxr-xr-x root       root              180 ./usr/lib
--rwxr-xr-x root       root            37144 ./usr/lib/liblirc_client.so.0.3.0
+-rwxr-xr-x root       root            38908 ./usr/lib/liblirc_client.so.0.3.0
 lrwxrwxrwx root       root               23 ./usr/lib/liblirc_client.so.0 -> liblirc_client.so.0.3.0
--rwxr-xr-x root       root            65272 ./usr/lib/liblirc_driver.so.0.0.0
+-rwxr-xr-x root       root            68000 ./usr/lib/liblirc_driver.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/liblirc_driver.so.0 -> liblirc_driver.so.0.0.0
--rwxr-xr-x root       root           129232 ./usr/lib/liblirc.so.0.0.0
+-rwxr-xr-x root       root           129940 ./usr/lib/liblirc.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/liblirc.so.0 -> liblirc.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root               29 ./usr/lib/tmpfiles.d/lirc.conf
 drwxr-xr-x root       root              100 ./usr/sbin
--rwxr-xr-x root       root            47324 ./usr/sbin/lircd
--rwxr-xr-x root       root            11976 ./usr/sbin/lirc-lsplugins
--rwxr-xr-x root       root            19820 ./usr/sbin/lircmd
+-rwxr-xr-x root       root            51168 ./usr/sbin/lircd
+-rwxr-xr-x root       root            13932 ./usr/sbin/lirc-lsplugins
+-rwxr-xr-x root       root            23128 ./usr/sbin/lircmd
 drwxr-xr-x root       root               40 ./var

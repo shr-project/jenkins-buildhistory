@@ -1,11 +1,11 @@
 PE = 2
 PV = 12.0.1
 PR = r0
-PKGR = r0.3
 PKG = libglapi0
+PKGR = r0.4
 RPROVIDES = libglapi (=12.0.1)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 107477
+PKGSIZE = 109029
 FILES = /usr/lib/libglapi.so.*
 FILELIST = /usr/lib/libglapi.so.0 /usr/lib/libglapi.so.0.0.0

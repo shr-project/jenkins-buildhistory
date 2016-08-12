@@ -1,10 +1,10 @@
 PV = 1.5
 PR = r0
-PKGR = r0.30
 PKG = libopenobex1
+PKGR = r0.31
 RPROVIDES = openobex (=1.5)
 RDEPENDS = glibc (>= 2.24) libusb-compat (>= 0.1.5) libusb1 (>= 1.0.20)
 RRECOMMENDS = 
-PKGSIZE = 42980
+PKGSIZE = 46764
 FILES = /usr/lib/lib*.so.*
 FILELIST = /usr/lib/libopenobex.so.1 /usr/lib/libopenobex.so.1.4.1

@@ -1,10 +1,10 @@
 PV = 1.12
 PR = r0
-PKGR = r0.9
 PKG = libxcb-present0
+PKGR = r0.10
 RPROVIDES = libxcb-present (=1.12)
 RDEPENDS = glibc (>= 2.24) libxau (>= 1.0.8) libxcb (>= 1.12) libxdmcp (>= 1.1.2)
 RRECOMMENDS = 
-PKGSIZE = 8419
+PKGSIZE = 9787
 FILES = /usr/lib/libxcb-present.so.0 /usr/lib/libxcb-present.so.0.0.0
 FILELIST = /usr/lib/libxcb-present.so.0 /usr/lib/libxcb-present.so.0.0.0

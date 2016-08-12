@@ -1,11 +1,11 @@
 PE = 1
 PV = 3.2.25
 PR = r1
-PKGR = r1.29
 PKG = libnl-nf-3-200
+PKGR = r1.30
 RPROVIDES = libnl-nf (=3.2.25)
 RDEPENDS = glibc (>= 2.24) libnl (>= 3.2.25) libnl-route (>= 3.2.25)
 RRECOMMENDS = 
-PKGSIZE = 97430
+PKGSIZE = 99142
 FILES = /usr/lib/libnl-nf-3.so.*
 FILELIST = /usr/lib/libnl-nf-3.so.200 /usr/lib/libnl-nf-3.so.200.20.0

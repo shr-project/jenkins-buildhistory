@@ -1,10 +1,10 @@
 PV = 1.8
 PR = r0
-PKGR = r0.28
 PKG = libplist++1
+PKGR = r0.29
 RPROVIDES = libplist++ (=1.8)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libplist (>= 1.8) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 50427
+PKGSIZE = 51311
 FILES = /usr/lib/libplist++.so.*
 FILELIST = /usr/lib/libplist++.so.1 /usr/lib/libplist++.so.1.1.8

@@ -1,9 +1,9 @@
 PV = 1.14.6
 PR = r0
-PKGR = r0.31
 PKG = libcairo-staticdev
+PKGR = r0.32
 RPROVIDES = cairo-staticdev (=1.14.6)
-RDEPENDS = cairo-dev (= 1.14.6-r0.31)
+RDEPENDS = cairo-dev (= 1.14.6-r0.32)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/cairo/*.a

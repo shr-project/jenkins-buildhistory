@@ -1,10 +1,10 @@
 PV = 1.2
 PR = r0
-PKGR = r0.26
 PKG = libnpth0
+PKGR = r0.27
 RPROVIDES = npth (=1.2)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 14296
+PKGSIZE = 14008
 FILES = /usr/lib/libnpth.so.*
 FILELIST = /usr/lib/libnpth.so.0 /usr/lib/libnpth.so.0.0.5

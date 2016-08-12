@@ -1,11 +1,11 @@
 PE = 1
 PV = 2.3.2
 PR = r0
-PKGR = r0.30
 PKG = libxft2
+PKGR = r0.31
 RPROVIDES = libxft (=2.3.2)
 RDEPENDS = expat (>= 2.2.0) fontconfig (>= 2.12.0) freetype (>= 2.6.5) glibc (>= 2.24) libx11 (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.12) libxdmcp (>= 1.1.2) libxrender (>= 0.9.9) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 91607
+PKGSIZE = 92487
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libxft /usr/lib/libxft/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libXft.so.2 /usr/lib/libXft.so.2.3.2

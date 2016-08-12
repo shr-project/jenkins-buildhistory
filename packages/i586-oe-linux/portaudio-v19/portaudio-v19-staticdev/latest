@@ -1,9 +1,9 @@
 PV = v19+svnr1387
 PR = r0
-PKGR = r0.27
 PKG = libportaudio-staticdev
+PKGR = r0.28
 RPROVIDES = portaudio-v19-staticdev (=v19+svnr1387)
-RDEPENDS = portaudio-v19-dev (= v19+svnr1387-r0.27)
+RDEPENDS = portaudio-v19-dev (= v19+svnr1387-r0.28)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/portaudio-v19/*.a

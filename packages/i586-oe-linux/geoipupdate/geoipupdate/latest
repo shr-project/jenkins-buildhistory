@@ -1,9 +1,9 @@
 PV = 2.2.1
 PR = r0
-PKGR = r0.27
+PKGR = r0.28
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libcurl (>= 7.49.1) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.24) libcurl (>= 7.50.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 24687
+PKGSIZE = 28099
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/geoipupdate /usr/lib/geoipupdate/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/GeoIP.conf /etc/GeoIP.conf.default /etc/cron.d/geoipupdate.cron /usr/bin/geoipupdate
