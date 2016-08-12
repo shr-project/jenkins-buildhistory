@@ -1,11 +1,11 @@
 PE = 1
 PV = 30.pre9
 PR = r0
-PKGR = r0.23
 PKG = libiw30
+PKGR = r0.24
 RPROVIDES = libiw (=30.pre9)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 27028
+PKGSIZE = 30560
 FILES = /usr/lib/*.so.*
 FILELIST = /usr/lib/libiw.so.30

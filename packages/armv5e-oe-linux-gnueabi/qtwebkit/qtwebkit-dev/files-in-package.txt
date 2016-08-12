@@ -52,7 +52,7 @@ drwxr-xr-x root       root              700 ./usr/include/qt5/QtWebKit/5.7.0/QtW
 -rw-r--r-- root       root               25 ./usr/include/qt5/QtWebKit/QWebHistory
 -rw-r--r-- root       root             3293 ./usr/include/qt5/QtWebKit/qwebhistory.h
 -rw-r--r-- root       root               34 ./usr/include/qt5/QtWebKit/QWebHistoryInterface
--rw-r--r-- root       root             1486 ./usr/include/qt5/QtWebKit/qwebhistoryinterface.h
+-rw-r--r-- root       root             1503 ./usr/include/qt5/QtWebKit/qwebhistoryinterface.h
 -rw-r--r-- root       root               25 ./usr/include/qt5/QtWebKit/QWebHistoryItem
 -rw-r--r-- root       root             1598 ./usr/include/qt5/QtWebKit/qwebkitglobal.h
 -rw-r--r-- root       root               35 ./usr/include/qt5/QtWebKit/QWebKitPlatformPlugin
@@ -60,7 +60,7 @@ drwxr-xr-x root       root              700 ./usr/include/qt5/QtWebKit/5.7.0/QtW
 -rw-r--r-- root       root               35 ./usr/include/qt5/QtWebKit/QWebNotificationData
 -rw-r--r-- root       root               35 ./usr/include/qt5/QtWebKit/QWebNotificationPresenter
 -rw-r--r-- root       root               31 ./usr/include/qt5/QtWebKit/QWebPluginFactory
--rw-r--r-- root       root             2213 ./usr/include/qt5/QtWebKit/qwebpluginfactory.h
+-rw-r--r-- root       root             2237 ./usr/include/qt5/QtWebKit/qwebpluginfactory.h
 -rw-r--r-- root       root               32 ./usr/include/qt5/QtWebKit/QWebSecurityOrigin
 -rw-r--r-- root       root             2468 ./usr/include/qt5/QtWebKit/qwebsecurityorigin.h
 -rw-r--r-- root       root               35 ./usr/include/qt5/QtWebKit/QWebSelectData
@@ -78,7 +78,7 @@ drwxr-xr-x root       root              120 ./usr/include/qt5/QtWebKitWidgets/5.
 -rw-r--r-- root       root             7813 ./usr/include/qt5/QtWebKitWidgets/5.7.0/QtWebKitWidgets/private/qwebpage_p.h
 -rw-r--r-- root       root             2505 ./usr/include/qt5/QtWebKitWidgets/5.7.0/QtWebKitWidgets/private/qwebviewaccessible_p.h
 -rw-r--r-- root       root               30 ./usr/include/qt5/QtWebKitWidgets/QGraphicsWebView
--rw-r--r-- root       root             5753 ./usr/include/qt5/QtWebKitWidgets/qgraphicswebview.h
+-rw-r--r-- root       root             5789 ./usr/include/qt5/QtWebKitWidgets/qgraphicswebview.h
 -rw-r--r-- root       root              289 ./usr/include/qt5/QtWebKitWidgets/QtWebKitWidgets
 -rw-r--r-- root       root              286 ./usr/include/qt5/QtWebKitWidgets/QtWebKitWidgetsDepends
 -rw-r--r-- root       root               36 ./usr/include/qt5/QtWebKitWidgets/QtWebKitWidgetsVersion
@@ -87,11 +87,11 @@ drwxr-xr-x root       root              120 ./usr/include/qt5/QtWebKitWidgets/5.
 -rw-r--r-- root       root             7423 ./usr/include/qt5/QtWebKitWidgets/qwebframe.h
 -rw-r--r-- root       root               23 ./usr/include/qt5/QtWebKitWidgets/QWebHitTestResult
 -rw-r--r-- root       root               27 ./usr/include/qt5/QtWebKitWidgets/QWebInspector
--rw-r--r-- root       root             1732 ./usr/include/qt5/QtWebKitWidgets/qwebinspector.h
+-rw-r--r-- root       root             1749 ./usr/include/qt5/QtWebKitWidgets/qwebinspector.h
 -rw-r--r-- root       root               22 ./usr/include/qt5/QtWebKitWidgets/QWebPage
--rw-r--r-- root       root            14265 ./usr/include/qt5/QtWebKitWidgets/qwebpage.h
+-rw-r--r-- root       root            14299 ./usr/include/qt5/QtWebKitWidgets/qwebpage.h
 -rw-r--r-- root       root               22 ./usr/include/qt5/QtWebKitWidgets/QWebView
--rw-r--r-- root       root             5490 ./usr/include/qt5/QtWebKitWidgets/qwebview.h
+-rw-r--r-- root       root             5518 ./usr/include/qt5/QtWebKitWidgets/qwebview.h
 drwxr-xr-x root       root              160 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/cmake
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5WebKit
@@ -100,10 +100,10 @@ drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5WebKit
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5WebKitWidgets
 -rw-r--r-- root       root             6850 ./usr/lib/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfig.cmake
 -rw-r--r-- root       root              287 ./usr/lib/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfigVersion.cmake
--rw-r--r-- root       root             1813 ./usr/lib/libQt5WebKit.prl
+-rw-r--r-- root       root             1943 ./usr/lib/libQt5WebKit.prl
 lrwxrwxrwx root       root               21 ./usr/lib/libQt5WebKit.so -> libQt5WebKit.so.5.7.0
--rw-r--r-- root       root             1763 ./usr/lib/libQt5WebKitWidgets.prl
+-rw-r--r-- root       root             1893 ./usr/lib/libQt5WebKitWidgets.prl
 lrwxrwxrwx root       root               28 ./usr/lib/libQt5WebKitWidgets.so -> libQt5WebKitWidgets.so.5.7.0
 drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
--rw-r--r-- root       root             1472 ./usr/lib/pkgconfig/Qt5WebKit.pc
--rw-r--r-- root       root              737 ./usr/lib/pkgconfig/Qt5WebKitWidgets.pc
+-rw-r--r-- root       root             1515 ./usr/lib/pkgconfig/Qt5WebKit.pc
+-rw-r--r-- root       root              757 ./usr/lib/pkgconfig/Qt5WebKitWidgets.pc

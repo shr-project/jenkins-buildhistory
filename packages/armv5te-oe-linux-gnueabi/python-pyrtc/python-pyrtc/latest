@@ -1,11 +1,11 @@
 PE = 1
 PV = 1.0.0+gitrAUTOINC+63b1dff1bc
 PR = ml2
-PKGR = ml2.26
 PKGV = 1.0.0+gitr0+63b1dff1bc
+PKGR = ml2.27
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.11) python-core
+RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.12) python-core
 RRECOMMENDS = 
-PKGSIZE = 27350
+PKGSIZE = 27082
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/python-pyrtc /usr/lib/python-pyrtc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*
 FILELIST = /usr/lib/python2.7/site-packages/PyRTC-1.0.0-py2.7.egg-info /usr/lib/python2.7/site-packages/pyrtc.so

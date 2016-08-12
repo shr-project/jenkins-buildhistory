@@ -1,9 +1,9 @@
 PV = 1.1.5
 PR = r0
-PKGR = r0.30
+PKGR = r0.31
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) libavformat (>= 3.1.1) libavutil (>= 3.1.1) libexif (>= 0.6.21) libflac (>= 1.3.1) libid3tag (>= 0.15.1b) libjpeg-turbo (>= 1.5.0) libogg (>= 1.3.2) libsqlite3 (>= 3.13.0) libvorbis (>= 1.3.5)
 RRECOMMENDS = 
-PKGSIZE = 206658
+PKGSIZE = 209698
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/minidlna /usr/lib/minidlna/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/minidlna.service
 FILELIST = /etc/minidlna.conf /lib/systemd/system/minidlna.service /usr/sbin/minidlnad

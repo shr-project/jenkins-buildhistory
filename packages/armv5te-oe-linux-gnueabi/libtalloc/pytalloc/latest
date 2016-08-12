@@ -1,9 +1,9 @@
 PV = 2.1.6
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.11) libtalloc (>= 2.1.6) python
+RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.12) libtalloc (>= 2.1.6) python
 RRECOMMENDS = 
-PKGSIZE = 6492
+PKGSIZE = 6200
 FILES = /usr/lib/python2.7/site-packages/* /usr/lib/libpytalloc-util.so.2 /usr/lib/libpytalloc-util.so.2.1.1
 FILELIST = /usr/lib/python2.7/site-packages/talloc.so

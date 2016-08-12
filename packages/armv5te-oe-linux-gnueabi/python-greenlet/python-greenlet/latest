@@ -1,9 +1,9 @@
 PV = 0.4.9
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.11) python-core
+RDEPENDS = glibc (>= 2.24) libpython2 (>= 2.7.12) python-core
 RRECOMMENDS = 
-PKGSIZE = 23985
+PKGSIZE = 23717
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/python-greenlet /usr/lib/python-greenlet/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*
 FILELIST = /usr/lib/python2.7/site-packages/greenlet-0.4.9-py2.7.egg-info /usr/lib/python2.7/site-packages/greenlet.so

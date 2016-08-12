@@ -1,10 +1,10 @@
 PV = 6.0+20160319
 PR = r0
-PKGR = r0.8
 PKG = libpanel5
+PKGR = r0.9
 RPROVIDES = ncurses-libpanel (=6.0+20160319)
 RDEPENDS = glibc (>= 2.24) ncurses-libncurses (>= 6.0+20160319) ncurses-libtinfo (>= 6.0+20160319)
 RRECOMMENDS = 
-PKGSIZE = 7795
+PKGSIZE = 9783
 FILES = /usr/lib/libpanel.so.5 /usr/lib/libpanel.so.5.9
 FILELIST = /usr/lib/libpanel.so.5 /usr/lib/libpanel.so.5.9

@@ -1,10 +1,10 @@
 PV = 1.6.0
 PR = r0
-PKGR = r0.23
 PKG = libgpgme-pthread11
+PKGR = r0.24
 RPROVIDES = gpgme-pthread (=1.6.0)
 RDEPENDS = glibc (>= 2.24) libassuan (>= 2.4.3) libgpg-error (>= 1.24)
 RRECOMMENDS = 
-PKGSIZE = 148215
+PKGSIZE = 151951
 FILES = /usr/lib/libgpgme-pthread.so.*
 FILELIST = /usr/lib/libgpgme-pthread.so.11 /usr/lib/libgpgme-pthread.so.11.14.0

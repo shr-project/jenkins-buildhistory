@@ -1,10 +1,10 @@
 PV = 2.1.1
 PR = r0
-PKGR = r0.24
 PKG = libgd3
+PKGR = r0.25
 RPROVIDES = gd (=2.1.1)
 RDEPENDS = freetype (>= 2.6.5) glibc (>= 2.24) libjpeg-turbo (>= 1.5.0) liblzma (>= 5.2.2) libpng (>= 1.6.23) tiff (>= 4.0.6) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 314414
+PKGSIZE = 314338
 FILES = /usr/lib/lib*.so.*
 FILELIST = /usr/lib/libgd.so.3 /usr/lib/libgd.so.3.0.0

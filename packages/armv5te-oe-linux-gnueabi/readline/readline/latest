@@ -1,10 +1,10 @@
 PV = 6.3
 PR = r0
-PKGR = r0.24
 PKG = libreadline6
+PKGR = r0.25
 RPROVIDES = readline (=6.3)
 RDEPENDS = glibc (>= 2.24) ncurses-libtinfo (>= 6.0+20160319)
 RRECOMMENDS = 
-PKGSIZE = 205848
+PKGSIZE = 207244
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/readline /usr/lib/readline/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/inputrc /usr/lib/libhistory.so.6 /usr/lib/libhistory.so.6.3 /usr/lib/libreadline.so.6 /usr/lib/libreadline.so.6.3

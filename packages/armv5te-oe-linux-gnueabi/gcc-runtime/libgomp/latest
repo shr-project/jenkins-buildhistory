@@ -1,10 +1,10 @@
 PV = 6.1.1
 PR = r0
-PKGR = r0.10
 PKG = libgomp1
+PKGR = r0.11
 RPROVIDES = libgomp (=6.1.1)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 125512
+PKGSIZE = 129304
 FILES = /usr/lib/libgomp*.so.*
 FILELIST = /usr/lib/libgomp.so.1 /usr/lib/libgomp.so.1.0.0

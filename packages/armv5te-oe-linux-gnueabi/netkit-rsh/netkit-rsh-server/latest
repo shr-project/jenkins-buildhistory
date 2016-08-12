@@ -1,10 +1,10 @@
 PV = 0.17
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = rshd
 RDEPENDS = glibc (>= 2.24) tcp-wrappers xinetd
 RRECOMMENDS = 
 RCONFLICTS = inetutils-rshd
-PKGSIZE = 30675
+PKGSIZE = 40947
 FILES = /usr/sbin/* /etc
 FILELIST = /etc/xinetd.d/rexec /etc/xinetd.d/rlogin /etc/xinetd.d/rsh /usr/sbin/in.rexecd /usr/sbin/in.rlogind /usr/sbin/in.rshd

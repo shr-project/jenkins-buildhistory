@@ -1,11 +1,11 @@
 PV = 2.28
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) update-alternatives-opkg util-linux-libblkid (>= 2.28)
 RRECOMMENDS = 
 RREPLACES = e2fsprogs-blkid
 RCONFLICTS = e2fsprogs-blkid
-PKGSIZE = 51832
+PKGSIZE = 51560
 FILES = /sbin/blkid*
 FILELIST = /sbin/blkid.util-linux

@@ -1,10 +1,10 @@
 PV = 1.12
 PR = r0
-PKGR = r0.9
 PKG = libgdbm-compat4
+PKGR = r0.10
 RPROVIDES = gdbm-compat (=1.12)
 RDEPENDS = gdbm (>= 1.12) glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 7231
+PKGSIZE = 9931
 FILES = /usr/lib/libgdbm_compat.so.*
 FILELIST = /usr/lib/libgdbm_compat.so.4 /usr/lib/libgdbm_compat.so.4.0.0

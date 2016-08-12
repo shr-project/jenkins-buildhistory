@@ -1,10 +1,10 @@
 PV = 4.2.1
 PR = r3
-PKGR = r3.23
 PKG = libbeecrypt7
+PKGR = r3.24
 RPROVIDES = beecrypt (=4.2.1)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 207652
+PKGSIZE = 210388
 FILES = /etc /usr/lib/*.so.* /usr/lib/beecrypt/*.so.*
 FILELIST = /usr/lib/libbeecrypt.so.7 /usr/lib/libbeecrypt.so.7.0.0

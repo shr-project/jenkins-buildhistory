@@ -1,11 +1,11 @@
 PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
-PKGR = r0.19
 PKG = libopencv-imgproc3.1
 PKGV = 3.1+git0+92387b1ef8
+PKGR = r0.20
 RPROVIDES = libopencv-imgproc (=3.1+git0+92387b1ef8)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libopencv-core (>= 3.1+git0+92387b1ef8) libstdc++ (>= 6.1.1) tbb (>= 4.1)
 RRECOMMENDS = 
-PKGSIZE = 1842626
+PKGSIZE = 1843794
 FILES = /usr/lib/libopencv_imgproc.so /usr/lib/libopencv_imgproc.so.3.1 /usr/lib/libopencv_imgproc.so.3.1.0
 FILELIST = /usr/lib/libopencv_imgproc.so.3.1 /usr/lib/libopencv_imgproc.so.3.1.0

@@ -1,10 +1,10 @@
 PV = 6.0+20160319
 PR = r0
-PKGR = r0.8
 PKG = libformw5
+PKGR = r0.9
 RPROVIDES = ncurses-libformw (=6.0+20160319)
 RDEPENDS = glibc (>= 2.24) ncurses-libncursesw (>= 6.0+20160319) ncurses-libtinfo (>= 6.0+20160319)
 RRECOMMENDS = 
-PKGSIZE = 40179
+PKGSIZE = 43499
 FILES = /usr/lib/libformw.so.5 /usr/lib/libformw.so.5.9
 FILELIST = /usr/lib/libformw.so.5 /usr/lib/libformw.so.5.9

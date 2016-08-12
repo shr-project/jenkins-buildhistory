@@ -1,9 +1,9 @@
 PV = 0.99.24.1
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) quagga (>= 0.99.24.1)
 RRECOMMENDS = 
-PKGSIZE = 603711
+PKGSIZE = 605319
 FILES = /usr/sbin/bgpd /lib/systemd/system/bgpd.service
 FILELIST = /lib/systemd/system/bgpd.service /usr/sbin/bgpd

@@ -1,10 +1,10 @@
 PV = 6.0+20160319
 PR = r0
-PKGR = r0.8
 PKG = libmenuw5
+PKGR = r0.9
 RPROVIDES = ncurses-libmenuw (=6.0+20160319)
 RDEPENDS = glibc (>= 2.24) ncurses-libncursesw (>= 6.0+20160319) ncurses-libtinfo (>= 6.0+20160319)
 RRECOMMENDS = 
-PKGSIZE = 20311
+PKGSIZE = 22467
 FILES = /usr/lib/libmenuw.so.5 /usr/lib/libmenuw.so.5.9
 FILELIST = /usr/lib/libmenuw.so.5 /usr/lib/libmenuw.so.5.9

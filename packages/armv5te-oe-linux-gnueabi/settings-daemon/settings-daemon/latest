@@ -1,9 +1,9 @@
 PV = 0.0.2
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
 RDEPENDS = gconf (>= 3.2.6) glib-2.0 (>= 2.48.1) glibc (>= 2.24) gtk+3 (>= 3.20.6) libx11 (>= 1.6.3)
 RRECOMMENDS = 
-PKGSIZE = 32069
+PKGSIZE = 35573
 FILES = /usr/bin/* /etc
 FILELIST = /etc/X11/Xsession.d/70settings-daemon.sh /etc/gconf/schemas/settings-daemon.schemas /usr/bin/settings-daemon /usr/bin/xsettings-dump
