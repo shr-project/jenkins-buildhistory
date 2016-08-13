@@ -1,11 +1,11 @@
 PV = r2491+gitAUTOINC+c8a773ebfc
 PR = r0
-PKGV = r2491+git0+c8a773ebfc
-PKGR = r0.22
 PKG = libx264-bin
+PKGV = r2491+git0+c8a773ebfc
+PKGR = r0.23
 RPROVIDES = x264-bin (=r2491+git0+c8a773ebfc)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 1092536
+PKGSIZE = 1095704
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/x264

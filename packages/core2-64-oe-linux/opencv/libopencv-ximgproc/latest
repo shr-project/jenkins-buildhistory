@@ -1,11 +1,11 @@
 PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
-PKGV = 3.1+git0+92387b1ef8
-PKGR = r0.16
 PKG = libopencv-ximgproc3.1
+PKGV = 3.1+git0+92387b1ef8
+PKGR = r0.17
 RPROVIDES = libopencv-ximgproc (=3.1+git0+92387b1ef8)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libopencv-calib3d (>= 3.1+git0+92387b1ef8) libopencv-core (>= 3.1+git0+92387b1ef8) libopencv-imgcodecs (>= 3.1+git0+92387b1ef8) libopencv-imgproc (>= 3.1+git0+92387b1ef8) libstdc++ (>= 6.1.1) tbb (>= 4.1)
 RRECOMMENDS = 
-PKGSIZE = 736723
+PKGSIZE = 737683
 FILES = /usr/lib/libopencv_ximgproc.so /usr/lib/libopencv_ximgproc.so.3.1 /usr/lib/libopencv_ximgproc.so.3.1.0
 FILELIST = /usr/lib/libopencv_ximgproc.so.3.1 /usr/lib/libopencv_ximgproc.so.3.1.0

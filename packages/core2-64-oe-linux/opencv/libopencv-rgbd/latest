@@ -1,11 +1,11 @@
 PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
-PKGV = 3.1+git0+92387b1ef8
-PKGR = r0.16
 PKG = libopencv-rgbd3.1
+PKGV = 3.1+git0+92387b1ef8
+PKGR = r0.17
 RPROVIDES = libopencv-rgbd (=3.1+git0+92387b1ef8)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libopencv-calib3d (>= 3.1+git0+92387b1ef8) libopencv-core (>= 3.1+git0+92387b1ef8) libopencv-imgproc (>= 3.1+git0+92387b1ef8) libstdc++ (>= 6.1.1)
 RRECOMMENDS = 
-PKGSIZE = 504407
+PKGSIZE = 508463
 FILES = /usr/lib/libopencv_rgbd.so /usr/lib/libopencv_rgbd.so.3.1 /usr/lib/libopencv_rgbd.so.3.1.0
 FILELIST = /usr/lib/libopencv_rgbd.so.3.1 /usr/lib/libopencv_rgbd.so.3.1.0

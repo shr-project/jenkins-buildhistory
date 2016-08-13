@@ -1,10 +1,10 @@
 PV = 6.1.1
 PR = r0
-PKGR = r0.9
 PKG = libssp0
+PKGR = r0.10
 RPROVIDES = libssp (=6.1.1)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 9095
+PKGSIZE = 10615
 FILES = /usr/lib/libssp.so.*
 FILELIST = /usr/lib/libssp.so.0 /usr/lib/libssp.so.0.0.0

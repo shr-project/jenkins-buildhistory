@@ -1,10 +1,10 @@
 PV = 0.6.23
 PR = r0
-PKGR = r0.1
 PKG = libsolvext0
+PKGR = r0.2
 RPROVIDES = libsolvext (=0.6.23)
 RDEPENDS = glibc (>= 2.24) libsolv (>= 0.6.23) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 61112
+PKGSIZE = 65096
 FILES = /usr/lib/libsolvext.so.*
 FILELIST = /usr/lib/libsolvext.so.0

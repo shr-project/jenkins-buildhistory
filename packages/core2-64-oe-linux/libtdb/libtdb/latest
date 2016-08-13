@@ -1,10 +1,10 @@
 PV = 1.3.8
 PR = r0
-PKGR = r0.20
 PKG = libtdb1
+PKGR = r0.21
 RPROVIDES = libtdb (=1.3.8)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 83119
+PKGSIZE = 84823
 FILES = /usr/lib/*.so.*
 FILELIST = /usr/lib/libtdb.so.1 /usr/lib/libtdb.so.1.3.8

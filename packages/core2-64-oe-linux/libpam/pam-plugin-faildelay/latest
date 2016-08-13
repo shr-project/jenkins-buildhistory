@@ -1,9 +1,9 @@
 PV = 1.3.0
 PR = r5
-PKGR = r5.9
+PKGR = r5.10
 RPROVIDES = pam-plugin-faildelay-suffix
 RDEPENDS = glibc (>= 2.24) libpam (>= 1.3.0) libpam-suffix
 RRECOMMENDS = 
-PKGSIZE = 7000
+PKGSIZE = 10512
 FILES = /lib/security/pam_faildelay.so
 FILELIST = /lib/security/pam_faildelay.so

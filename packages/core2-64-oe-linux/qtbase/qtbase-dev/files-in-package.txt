@@ -257,7 +257,7 @@ drwxr-xr-x root       root             3240 ./usr/include/qt5/QtCore/5.7.0/QtCor
 -rw-r--r-- root       root             4069 ./usr/include/qt5/QtCore/qcommandlineparser.h
 -rw-r--r-- root       root            50324 ./usr/include/qt5/QtCore/qcompilerdetection.h
 -rw-r--r-- root       root             2278 ./usr/include/qt5/QtCore/qconfig-dist.h
--rw-r--r-- root       root             3998 ./usr/include/qt5/QtCore/qconfig.h
+-rw-r--r-- root       root             3853 ./usr/include/qt5/QtCore/qconfig.h
 -rw-r--r-- root       root             3699 ./usr/include/qt5/QtCore/qconfig-large.h
 -rw-r--r-- root       root             5587 ./usr/include/qt5/QtCore/qconfig-medium.h
 -rw-r--r-- root       root            10131 ./usr/include/qt5/QtCore/qconfig-minimal.h
@@ -2308,7 +2308,7 @@ drwxr-xr-x root       root               60 ./usr/include/qt5/QtXml/5.7.0/QtXml/
 drwxr-xr-x root       root               80 ./usr/include/qt5/QtZlib
 -rw-r--r-- root       root            13539 ./usr/include/qt5/QtZlib/zconf.h
 -rw-r--r-- root       root            79631 ./usr/include/qt5/QtZlib/zlib.h
-drwxr-xr-x root       root              640 ./usr/lib
+drwxr-xr-x root       root              720 ./usr/lib
 drwxr-xr-x root       root              300 ./usr/lib/cmake
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5Concurrent
@@ -2326,11 +2326,14 @@ drwxr-xr-x root       root              120 ./usr/lib/cmake/Qt5DBus
 -rw-r--r-- root       root              775 ./usr/lib/cmake/Qt5DBus/Qt5DBusConfigExtras.cmake
 -rw-r--r-- root       root              287 ./usr/lib/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake
 -rw-r--r-- root       root             6207 ./usr/lib/cmake/Qt5DBus/Qt5DBusMacros.cmake
-drwxr-xr-x root       root              380 ./usr/lib/cmake/Qt5Gui
+drwxr-xr-x root       root              460 ./usr/lib/cmake/Qt5Gui
 -rw-r--r-- root       root             6052 ./usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
 -rw-r--r-- root       root             3421 ./usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
 -rw-r--r-- root       root              287 ./usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
 -rw-r--r-- root       root              280 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake
+-rw-r--r-- root       root              208 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake
+-rw-r--r-- root       root              282 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake
+-rw-r--r-- root       root              245 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake
 -rw-r--r-- root       root              211 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake
 -rw-r--r-- root       root              199 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake
 -rw-r--r-- root       root              203 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake
@@ -2339,6 +2342,7 @@ drwxr-xr-x root       root              380 ./usr/lib/cmake/Qt5Gui
 -rw-r--r-- root       root              268 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake
 -rw-r--r-- root       root              170 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
 -rw-r--r-- root       root              174 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+-rw-r--r-- root       root              228 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake
 -rw-r--r-- root       root              216 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
 -rw-r--r-- root       root              224 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
 -rw-r--r-- root       root              195 ./usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
@@ -2383,6 +2387,10 @@ lrwxrwxrwx root       root               25 ./usr/lib/libQt5Concurrent.so -> lib
 lrwxrwxrwx root       root               19 ./usr/lib/libQt5Core.so -> libQt5Core.so.5.7.0
 -rw-r--r-- root       root             1232 ./usr/lib/libQt5DBus.prl
 lrwxrwxrwx root       root               19 ./usr/lib/libQt5DBus.so -> libQt5DBus.so.5.7.0
+-rw-r--r-- root       root             1471 ./usr/lib/libQt5EglDeviceIntegration.prl
+lrwxrwxrwx root       root               35 ./usr/lib/libQt5EglDeviceIntegration.so -> libQt5EglDeviceIntegration.so.5.7.0
+-rw-r--r-- root       root             1496 ./usr/lib/libQt5EglFsKmsSupport.prl
+lrwxrwxrwx root       root               30 ./usr/lib/libQt5EglFsKmsSupport.so -> libQt5EglFsKmsSupport.so.5.7.0
 -rw-r--r-- root       root             1325 ./usr/lib/libQt5Gui.prl
 lrwxrwxrwx root       root               18 ./usr/lib/libQt5Gui.so -> libQt5Gui.so.5.7.0
 -rw-r--r-- root       root             1226 ./usr/lib/libQt5Network.prl
@@ -2406,7 +2414,7 @@ lrwxrwxrwx root       root               18 ./usr/lib/libQt5Xml.so -> libQt5Xml.
 -rw-r--r-- root       root             1067 ./usr/lib/libqtpng.prl
 drwxr-xr-x root       root              280 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              297 ./usr/lib/pkgconfig/Qt5Concurrent.pc
--rw-r--r-- root       root              956 ./usr/lib/pkgconfig/Qt5Core.pc
+-rw-r--r-- root       root              978 ./usr/lib/pkgconfig/Qt5Core.pc
 -rw-r--r-- root       root              277 ./usr/lib/pkgconfig/Qt5DBus.pc
 -rw-r--r-- root       root              285 ./usr/lib/pkgconfig/Qt5Gui.pc
 -rw-r--r-- root       root              284 ./usr/lib/pkgconfig/Qt5Network.pc

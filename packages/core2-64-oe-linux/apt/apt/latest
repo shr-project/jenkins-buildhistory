@@ -1,9 +1,9 @@
 PV = 1.2.12
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = base-files base-passwd bash debianutils dpkg glibc (>= 2.24) libcurl (>= 7.49.1) libgcc (>= 6.1.1) liblzma (>= 5.2.2) libstdc++ (>= 6.1.1) lz4 (>= 131+git0+d86dc91677) shadow zlib (>= 1.2.8)
+RDEPENDS = base-files base-passwd bash debianutils dpkg glibc (>= 2.24) libcurl (>= 7.50.0) libgcc (>= 6.1.1) liblzma (>= 5.2.2) libstdc++ (>= 6.1.1) lz4 (>= 131+git0+d86dc91677) shadow zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 2709752
+PKGSIZE = 2751568
 FILES = /usr/bin/apt-cdrom /usr/bin/apt-get \t /usr/bin/apt-config /usr/bin/apt-cache \t /usr/lib/apt /usr/lib/libapt*.so.* \t /var /etc \t /usr/lib/dpkg /usr/bin/apt-key
 FILELIST = /etc/apt/apt.conf /usr/bin/apt-cache /usr/bin/apt-cdrom /usr/bin/apt-config /usr/bin/apt-get /usr/bin/apt-key /usr/lib/apt/methods/bzip2 /usr/lib/apt/methods/cdrom /usr/lib/apt/methods/copy /usr/lib/apt/methods/file /usr/lib/apt/methods/ftp /usr/lib/apt/methods/gpgv /usr/lib/apt/methods/gzip /usr/lib/apt/methods/http /usr/lib/apt/methods/https /usr/lib/apt/methods/lzma /usr/lib/apt/methods/mirror /usr/lib/apt/methods/rred /usr/lib/apt/methods/rsh /usr/lib/apt/methods/ssh /usr/lib/apt/methods/store /usr/lib/apt/methods/xz /usr/lib/dpkg/methods/apt/desc.apt /usr/lib/dpkg/methods/apt/install /usr/lib/dpkg/methods/apt/names /usr/lib/dpkg/methods/apt/setup /usr/lib/dpkg/methods/apt/update /usr/lib/libapt-inst.so.2.0 /usr/lib/libapt-inst.so.2.0.0 /usr/lib/libapt-pkg.so.5.0 /usr/lib/libapt-pkg.so.5.0.0 /usr/lib/libapt-private.so.0.0 /usr/lib/libapt-private.so.0.0.0

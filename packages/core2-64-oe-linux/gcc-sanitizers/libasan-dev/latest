@@ -1,9 +1,9 @@
 PV = 6.1.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = gcc-sanitizers libasan
 RRECOMMENDS = gcc-runtime-dev glibc-dev libgcc-dev libstdc++-dev
-PKGSIZE = 17893
+PKGSIZE = 12637
 FILES = /usr/lib/libasan_preinit.o /usr/lib/libasan.so /usr/lib/libasan.la
 FILELIST = /usr/lib/libasan.la /usr/lib/libasan.so /usr/lib/libasan_preinit.o

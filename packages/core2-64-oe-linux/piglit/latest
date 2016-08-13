@@ -1,4 +1,4 @@
-PV = 1.0+gitrAUTOINC+c458542791
+PV = 1.0+gitrAUTOINC+c39e41a865
 PR = r0
-DEPENDS = cmake-native libglu libxrender python-mako-native python-native python-numpy-native virtual/libc virtual/libgl virtual/libx11 virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc waffle
-PACKAGES = piglit-dbg piglit-staticdev piglit-dev piglit-doc piglit-locale piglit
+DEPENDS = cmake-native libglu libpng libxrender python3-mako-native python3-native python3-numpy-native python3-six-native virtual/libc virtual/libgl virtual/libx11 virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc waffle
+PACKAGES = piglit-dbg piglit-staticdev piglit-dev piglit-doc piglit-locale piglit piglit-bash-completion

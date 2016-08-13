@@ -1,10 +1,10 @@
 PV = 3.1.1
 PR = r0
-PKGR = r0.0
 PKG = libswresample2
+PKGR = r0.1
 RPROVIDES = libswresample (=3.1.1)
 RDEPENDS = glibc (>= 2.24) libavutil (>= 3.1.1)
 RRECOMMENDS = 
-PKGSIZE = 111744
+PKGSIZE = 113160
 FILES = /usr/lib/libswresample.so.2 /usr/lib/libswresample.so.2.1.100
 FILELIST = /usr/lib/libswresample.so.2 /usr/lib/libswresample.so.2.1.100

@@ -1,10 +1,10 @@
 PV = 3.0.0
 PR = r0
-PKGR = r0.13
 PKG = libglut-staticdev
+PKGR = r0.14
 RPROVIDES = freeglut-staticdev (=3.0.0)
-RDEPENDS = freeglut-dev (= 3.0.0-r0.13)
+RDEPENDS = freeglut-dev (= 3.0.0-r0.14)
 RRECOMMENDS = 
-PKGSIZE = 2158940
+PKGSIZE = 1612972
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/freeglut/*.a
 FILELIST = /usr/lib/libglut.a

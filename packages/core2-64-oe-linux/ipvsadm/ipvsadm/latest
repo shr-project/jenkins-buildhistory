@@ -1,9 +1,9 @@
 PV = 1.26
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) libnl (>= 3.2.25) libnl-genl (>= 3.2.25) popt (>= 1.16)
 RRECOMMENDS = 
-PKGSIZE = 62663
+PKGSIZE = 65503
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ipvsadm /usr/lib/ipvsadm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/rc.d/init.d/ipvsadm /sbin/ipvsadm /sbin/ipvsadm-restore /sbin/ipvsadm-save

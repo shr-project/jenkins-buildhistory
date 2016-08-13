@@ -1,10 +1,10 @@
 PV = 1.2.98
 PR = r9
-PKGR = r9.23
 PKG = libcherokee-base0
+PKGR = r9.24
 RPROVIDES = libcherokee-base (=1.2.98)
 RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2h) libpcre (>= 8.39)
 RRECOMMENDS = 
-PKGSIZE = 267297
+PKGSIZE = 267521
 FILES = /usr/lib/libcherokee-base.so.*
 FILELIST = /usr/lib/libcherokee-base.so.0 /usr/lib/libcherokee-base.so.0.0.1

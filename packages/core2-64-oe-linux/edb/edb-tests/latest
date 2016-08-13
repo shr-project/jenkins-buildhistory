@@ -1,11 +1,11 @@
 PE = 2
 PV = 1.0.5.050+svnr82070
 PR = r0
-PKGR = r0.22
 PKG = libedb-tests
+PKGR = r0.23
 RPROVIDES = edb-tests (=1.0.5.050+svnr82070)
 RDEPENDS = edb (>= 1.0.5.050+svnr82070) glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 13056
+PKGSIZE = 14832
 FILES = /usr/bin/edb /usr/bin/*_* /usr/share/edb
 FILELIST = /usr/bin/edb_ed
