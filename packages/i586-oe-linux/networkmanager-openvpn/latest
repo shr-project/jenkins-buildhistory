@@ -1,4 +1,4 @@
 PV = 1.0.8
 PR = r0
-DEPENDS = autoconf-native automake-native base-files dbus dbus-glib gettext-native gnome-common-native gnu-config-native libtool-cross libtool-native networkmanager openvpn pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/gettext virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+DEPENDS = autoconf-native automake-native base-files dbus dbus-glib gettext-native gnome-common-native gnu-config-native intltool-native libtool-cross libtool-native networkmanager openvpn pkgconfig-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/gettext virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = networkmanager-openvpn-dbg networkmanager-openvpn-staticdev networkmanager-openvpn-dev networkmanager-openvpn-doc networkmanager-openvpn-locale networkmanager-openvpn
