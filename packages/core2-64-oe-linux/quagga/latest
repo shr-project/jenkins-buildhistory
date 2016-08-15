@@ -1,4 +1,4 @@
-PV = 0.99.24.1
+PV = 1.0.20160315
 PR = r0
 DEPENDS = autoconf-native automake-native base-files gnu-config-native libtool-cross libtool-native ncurses perl-native readline shadow shadow-native shadow-sysroot systemd-systemctl-native systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
-PACKAGES = quagga-dbg quagga-staticdev quagga-dev quagga-doc quagga-locale quagga-ospfd quagga-ospf6d quagga-babeld quagga-bgpd quagga-ripd quagga-ripngd quagga-isisd quagga-ospfclient quagga
+PACKAGES = quagga-dbg quagga-staticdev quagga-dev quagga-doc quagga-locale quagga-ospfd quagga-ospf6d quagga-bgpd quagga-ripd quagga-ripngd quagga-isisd quagga-ospfclient quagga
