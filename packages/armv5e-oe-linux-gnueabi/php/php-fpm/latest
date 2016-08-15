@@ -1,9 +1,9 @@
 PV = 5.6.23
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2h) libmcrypt (>= 2.5.8) libmysqlclient (>= 5.5.50) libsqlite3 (>= 3.13.0) libssl (>= 1.0.2h) libxml2 (>= 2.9.4) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 9870910
+PKGSIZE = 9874258
 FILES = /usr/sbin/php-fpm /etc/php-fpm.conf /usr/share/fpm /etc/init.d/php-fpm /lib/systemd/system/php-fpm.service
 FILELIST = /etc/init.d/php-fpm /etc/php-fpm.conf /lib/systemd/system/php-fpm.service /usr/sbin/php-fpm /usr/share/fpm/status.html
