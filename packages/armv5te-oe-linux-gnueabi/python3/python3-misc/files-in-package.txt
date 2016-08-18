@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root             1300 ./usr/lib/python3.5
+drwxr-xr-x root       root             1220 ./usr/lib/python3.5
 -rw-r--r-- root       root            31578 ./usr/lib/python3.5/aifc.py
 -rw-r--r-- root       root              475 ./usr/lib/python3.5/antigravity.py
 -rw-r--r-- root       root            90127 ./usr/lib/python3.5/argparse.py
@@ -31,7 +31,6 @@ drwxr-xr-x root       root              240 ./usr/lib/python3.5/config-3.5m
 -rw-r--r-- root       root              371 ./usr/lib/python3.5/config-3.5m/Setup.config
 -rw-r--r-- root       root               41 ./usr/lib/python3.5/config-3.5m/Setup.local
 -rw-r--r-- root       root             1879 ./usr/lib/python3.5/crypt.py
--rw-r--r-- root       root            75898 ./usr/lib/python3.5/datetime.py
 -rw-r--r-- root       root             5118 ./usr/lib/python3.5/_dummy_thread.py
 drwxr-xr-x root       root              120 ./usr/lib/python3.5/ensurepip
 drwxr-xr-x root       root               80 ./usr/lib/python3.5/ensurepip/_bundled
@@ -40,7 +39,6 @@ drwxr-xr-x root       root               80 ./usr/lib/python3.5/ensurepip/_bundl
 -rw-r--r-- root       root             6423 ./usr/lib/python3.5/ensurepip/__init__.py
 -rw-r--r-- root       root               67 ./usr/lib/python3.5/ensurepip/__main__.py
 -rw-r--r-- root       root              780 ./usr/lib/python3.5/ensurepip/_uninstall.py
--rw-r--r-- root       root            22226 ./usr/lib/python3.5/enum.py
 -rw-r--r-- root       root             9830 ./usr/lib/python3.5/filecmp.py
 -rw-r--r-- root       root            14259 ./usr/lib/python3.5/fileinput.py
 drwxr-xr-x root       root              100 ./usr/lib/python3.5/html
@@ -55,16 +53,14 @@ drwxr-xr-x root       root              140 ./usr/lib/python3.5/http
 -rw-r--r-- root       root            43986 ./usr/lib/python3.5/http/server.py
 -rw-r--r-- root       root            10631 ./usr/lib/python3.5/imp.py
 -rw-r--r-- root       root            75589 ./usr/lib/python3.5/ipaddress.py
-drwxr-xr-x root       root              380 ./usr/lib/python3.5/lib-dynload
+drwxr-xr-x root       root              320 ./usr/lib/python3.5/lib-dynload
 -rwxr-xr-x root       root            16512 ./usr/lib/python3.5/lib-dynload/_bz2.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root             6160 ./usr/lib/python3.5/lib-dynload/_crypt.cpython-35m-arm-linux-gnueabi.so
--rwxr-xr-x root       root            51276 ./usr/lib/python3.5/lib-dynload/_datetime.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root           159224 ./usr/lib/python3.5/lib-dynload/_decimal.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root            23372 ./usr/lib/python3.5/lib-dynload/_lzma.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root            10732 ./usr/lib/python3.5/lib-dynload/_md5.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root             5924 ./usr/lib/python3.5/lib-dynload/_opcode.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root            64784 ./usr/lib/python3.5/lib-dynload/_pickle.cpython-35m-arm-linux-gnueabi.so
--rwxr-xr-x root       root            10952 ./usr/lib/python3.5/lib-dynload/_posixsubprocess.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root            10736 ./usr/lib/python3.5/lib-dynload/_sha1.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root            11196 ./usr/lib/python3.5/lib-dynload/spwd.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root            27672 ./usr/lib/python3.5/lib-dynload/_testbuffer.cpython-35m-arm-linux-gnueabi.so
@@ -72,7 +68,6 @@ drwxr-xr-x root       root              380 ./usr/lib/python3.5/lib-dynload
 -rwxr-xr-x root       root             5884 ./usr/lib/python3.5/lib-dynload/_testimportmultiple.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root            15496 ./usr/lib/python3.5/lib-dynload/_testmultiphase.cpython-35m-arm-linux-gnueabi.so
 -rwxr-xr-x root       root            10308 ./usr/lib/python3.5/lib-dynload/xxlimited.cpython-35m-arm-linux-gnueabi.so
--rwxr-xr-x root       root            23288 ./usr/lib/python3.5/lib-dynload/zlib.cpython-35m-arm-linux-gnueabi.so
 -rw-r--r-- root       root            12767 ./usr/lib/python3.5/LICENSE.txt
 -rw-r--r-- root       root            12925 ./usr/lib/python3.5/lzma.py
 -rw-r--r-- root       root             5907 ./usr/lib/python3.5/macpath.py
@@ -98,8 +93,6 @@ drwxr-xr-x root       root              140 ./usr/lib/python3.5/plat-linux
 -rw-r--r-- root       root             8780 ./usr/lib/python3.5/queue.py
 -rw-r--r-- root       root            11394 ./usr/lib/python3.5/runpy.py
 -rw-r--r-- root       root             6216 ./usr/lib/python3.5/sched.py
--rw-r--r-- root       root            19168 ./usr/lib/python3.5/selectors.py
--rw-r--r-- root       root             2123 ./usr/lib/python3.5/signal.py
 drwxr-xr-x root       root               60 ./usr/lib/python3.5/site-packages
 -rw-r--r-- root       root              119 ./usr/lib/python3.5/site-packages/README
 -rw-r--r-- root       root            24666 ./usr/lib/python3.5/socketserver.py
