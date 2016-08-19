@@ -13,7 +13,7 @@ drwxr-xr-x root       root              380 ./etc/nginx
 -rw-r--r-- root       root             2223 ./etc/nginx/koi-win
 -rw-r--r-- root       root             3957 ./etc/nginx/mime.types
 -rw-r--r-- root       root             3957 ./etc/nginx/mime.types.default
--rw-r--r-- root       root             2744 ./etc/nginx/nginx.conf
+-rw-r--r-- root       root             2738 ./etc/nginx/nginx.conf
 -rw-r--r-- root       root             2656 ./etc/nginx/nginx.conf.default
 lrwxrwxrwx root       root               14 ./etc/nginx/run -> /var/run/nginx
 -rw-r--r-- root       root              636 ./etc/nginx/scgi_params
@@ -23,11 +23,11 @@ drwxr-xr-x root       root               40 ./etc/nginx/sites-enabled
 -rw-r--r-- root       root              664 ./etc/nginx/uwsgi_params.default
 -rw-r--r-- root       root             3610 ./etc/nginx/win-utf
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
--rw-r--r-- root       root               21 ./etc/tmpfiles.d/nginx.conf
+-rw-r--r-- root       root               35 ./etc/tmpfiles.d/nginx.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
--rw-r--r-- root       root              255 ./lib/systemd/system/nginx.service
+-rw-r--r-- root       root              238 ./lib/systemd/system/nginx.service
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/sbin
 -rwxr-xr-x root       root           774472 ./usr/sbin/nginx

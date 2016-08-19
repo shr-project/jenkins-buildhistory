@@ -1,1 +1,1 @@
-\tif [ -z "$D" ]; then\n\t\tif type systemd-tmpfiles >/dev/null; then\n\t\t\tsystemd-tmpfiles --create\n\t\telif [ -e /etc/init.d/populate-volatile.sh ]; then\n\t\t\t/etc/init.d/populate-volatile.sh update\n\t\tfi\n\tfi\n
+    if [ -z "$D" ]; then\n        if type systemd-tmpfiles >/dev/null; then\n            systemd-tmpfiles --create\n        elif [ -e /etc/init.d/populate-volatile.sh ]; then\n            /etc/init.d/populate-volatile.sh update\n        fi\n    fi\n
