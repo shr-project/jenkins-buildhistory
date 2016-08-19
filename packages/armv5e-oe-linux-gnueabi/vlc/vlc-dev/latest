@@ -1,8 +1,8 @@
 PV = 2.2.2
 PR = r0
-PKGR = r0.34
+PKGR = r0.36
 RPROVIDES = 
-RDEPENDS = libvlc vlc (= 2.2.2-r0.34)
+RDEPENDS = libvlc vlc (= 2.2.2-r0.36)
 RRECOMMENDS = alsa-lib-dev atk-dev avahi-dev cairo-dev dbus-dev dbus-glib-dev dbus-lib-dev expat-dev faad2-dev ffmpeg-dev flac-dev fluidsynth-dev fontconfig-dev freetype-dev fribidi-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gmp-dev gnutls-dev gtk+-dev harfbuzz-dev jpeg-dev json-c-dev libasound-dev libavahi-client-dev libavahi-common-dev libavc1394-dev libcap-dev libdc1394-dev libdrm-dev libdvdcss-dev libdvdread-dev libegl-mesa-dev libffi-dev libflac-dev libfribidi-dev libgbm-dev libgcc-dev libgcrypt-dev libgl-mesa-dev libglapi-dev libice-dev libidn-dev libjpeg-turbo-dev liblzma-dev libmodplug-dev libmpeg2-dev libmtp-dev libnotify-dev libogg-dev libopus-dev liborc-0.4-dev libpcre-dev libpng-dev libpulse-dev libpulse-simple-dev libpulsecommon-dev libraw1394-dev libsamplerate0-dev libsdl-dev libsdl-image-dev libsm-dev libsndfile1-dev libstdc++-dev libswscale-dev libsystemd-dev libtheora-dev libtool-dev libudev-dev libusb1-dev libvlc-dev libvorbis-dev libx11-dev libx11-xcb-dev libxau-dev libxcb-composite-dev libxcb-dev libxcb-dri2-dev libxcb-glx-dev libxcb-randr-dev libxcb-render-dev libxcb-shm-dev libxcb-xfixes-dev libxcb-xv-dev libxdamage-dev libxdmcp-dev libxext-dev libxfixes-dev libxi-dev libxinerama-dev libxml2-dev libxpm-dev libxrandr-dev libxrender-dev libxtst-dev libxxf86vm-dev live555-dev lua-dev mpeg2dec-dev ncurses-libncurses-dev ncurses-libncursesw-dev ncurses-libtinfo-dev nettle-dev orc-dev pango-dev pixman-dev readline-dev schroedinger-dev taglib-dev tiff-dev tremor-dev wayland-dev x264-dev xcb-util-keysyms-dev xz-dev zlib-dev
 PKGSIZE = 764098
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vlc/*.la /lib/*.la

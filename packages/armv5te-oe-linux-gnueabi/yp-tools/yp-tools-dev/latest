@@ -1,9 +1,9 @@
-PV = 2.14
+PV = 3.3
 PR = r0
-PKGR = r0.25
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = yp-tools (= 2.14-r0.25)
-RRECOMMENDS = glibc-dev
-PKGSIZE = 0
-FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/yp-tools/*.la /lib/*.la
-FILELIST = 
+RDEPENDS = yp-tools (= 3.3-r0.0)
+RRECOMMENDS = glibc-dev libtirpc-dev
+PKGSIZE = 33808
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/yp-tools/*.la /lib/*.la /usr/lib/yp-nis/*.so /usr/lib/yp-nis/*.so.[12] /usr/lib/yp-nis/*.la
+FILELIST = /usr/include/yp-nis/rpcsvc/yp.x /usr/include/yp-nis/rpcsvc/yp_prot.h /usr/include/yp-nis/rpcsvc/ypclnt.h /usr/include/yp-nis/rpcsvc/yppasswd.h /usr/include/yp-nis/rpcsvc/yppasswd.x /usr/include/yp-nis/rpcsvc/ypupd.h /usr/lib/yp-nis/libnis.la /usr/lib/yp-nis/libnis.so /usr/lib/yp-nis/libnis.so.1 /usr/lib/yp-nis/libnss_nis6.la /usr/lib/yp-nis/libnss_nis6.so /usr/lib/yp-nis/libnss_nis6.so.2
