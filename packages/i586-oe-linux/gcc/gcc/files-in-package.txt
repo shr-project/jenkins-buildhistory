@@ -1,6 +1,6 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
--rwxr-xr-x root       root           929828 ./usr/bin/i586-oe-linux-gcc
+-rwxr-xr-x root       root           938020 ./usr/bin/i586-oe-linux-gcc
 -rwxr-xr-x root       root            26316 ./usr/bin/i586-oe-linux-gcc-ar
 -rwxr-xr-x root       root            26316 ./usr/bin/i586-oe-linux-gcc-nm
 -rwxr-xr-x root       root            26320 ./usr/bin/i586-oe-linux-gcc-ranlib
@@ -9,9 +9,9 @@ drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/gcc
 drwxr-xr-x root       root               60 ./usr/libexec/gcc/i586-oe-linux
 drwxr-xr-x root       root              280 ./usr/libexec/gcc/i586-oe-linux/6.1.1
--rwxr-xr-x root       root         22046260 ./usr/libexec/gcc/i586-oe-linux/6.1.1/cc1
--rwxr-xr-x root       root         23455288 ./usr/libexec/gcc/i586-oe-linux/6.1.1/cc1plus
--rwxr-xr-x root       root           551428 ./usr/libexec/gcc/i586-oe-linux/6.1.1/collect2
+-rwxr-xr-x root       root         22070836 ./usr/libexec/gcc/i586-oe-linux/6.1.1/cc1
+-rwxr-xr-x root       root         23520824 ./usr/libexec/gcc/i586-oe-linux/6.1.1/cc1plus
+-rwxr-xr-x root       root           555524 ./usr/libexec/gcc/i586-oe-linux/6.1.1/collect2
 -rwxr-xr-x root       root            55280 ./usr/libexec/gcc/i586-oe-linux/6.1.1/libcc1plugin.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/libexec/gcc/i586-oe-linux/6.1.1/libcc1plugin.so.0 -> libcc1plugin.so.0.0.0
 -rwxr-xr-x root       root            75828 ./usr/libexec/gcc/i586-oe-linux/6.1.1/libcc1.so.0.0.0
@@ -19,8 +19,8 @@ lrwxrwxrwx root       root               15 ./usr/libexec/gcc/i586-oe-linux/6.1.
 -rwxr-xr-x root       root            79816 ./usr/libexec/gcc/i586-oe-linux/6.1.1/liblto_plugin.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/libexec/gcc/i586-oe-linux/6.1.1/liblto_plugin.so.0 -> liblto_plugin.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/libexec/gcc/i586-oe-linux/6.1.1/liblto_plugin.so -> liblto_plugin.so.0.0.0
--rwxr-xr-x root       root         21099496 ./usr/libexec/gcc/i586-oe-linux/6.1.1/lto1
--rwxr-xr-x root       root           809500 ./usr/libexec/gcc/i586-oe-linux/6.1.1/lto-wrapper
+-rwxr-xr-x root       root         21124072 ./usr/libexec/gcc/i586-oe-linux/6.1.1/lto1
+-rwxr-xr-x root       root           813596 ./usr/libexec/gcc/i586-oe-linux/6.1.1/lto-wrapper
 drwxr-xr-x root       root               60 ./usr/lib/gcc
 drwxr-xr-x root       root               60 ./usr/lib/gcc/i586-oe-linux
 drwxr-xr-x root       root               80 ./usr/lib/gcc/i586-oe-linux/6.1.1
@@ -28,19 +28,19 @@ drwxr-xr-x root       root             1480 ./usr/lib/gcc/i586-oe-linux/6.1.1/in
 -rw-r--r-- root       root             2891 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/adxintrin.h
 -rw-r--r-- root       root             3216 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/ammintrin.h
 -rw-r--r-- root       root            57350 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx2intrin.h
--rw-r--r-- root       root            91535 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512bwintrin.h
+-rw-r--r-- root       root            91498 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512bwintrin.h
 -rw-r--r-- root       root             5822 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512cdintrin.h
--rw-r--r-- root       root            72707 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512dqintrin.h
+-rw-r--r-- root       root            72597 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512dqintrin.h
 -rw-r--r-- root       root            12965 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512erintrin.h
--rw-r--r-- root       root           420690 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512fintrin.h
--rw-r--r-- root       root             3432 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512ifmaintrin.h
--rw-r--r-- root       root             5389 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512ifmavlintrin.h
+-rw-r--r-- root       root           420731 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512fintrin.h
+-rw-r--r-- root       root             3430 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512ifmaintrin.h
+-rw-r--r-- root       root             5385 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512ifmavlintrin.h
 -rw-r--r-- root       root             8106 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512pfintrin.h
--rw-r--r-- root       root             4929 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vbmiintrin.h
--rw-r--r-- root       root             8380 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vbmivlintrin.h
--rw-r--r-- root       root           142328 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vlbwintrin.h
--rw-r--r-- root       root            61352 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vldqintrin.h
--rw-r--r-- root       root           423224 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vlintrin.h
+-rw-r--r-- root       root             4921 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vbmiintrin.h
+-rw-r--r-- root       root             8364 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vbmivlintrin.h
+-rw-r--r-- root       root           142280 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vlbwintrin.h
+-rw-r--r-- root       root            61264 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vldqintrin.h
+-rw-r--r-- root       root           423094 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avx512vlintrin.h
 -rw-r--r-- root       root            48892 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/avxintrin.h
 -rw-r--r-- root       root             3388 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/bmi2intrin.h
 -rw-r--r-- root       root             5578 ./usr/lib/gcc/i586-oe-linux/6.1.1/include/bmiintrin.h
