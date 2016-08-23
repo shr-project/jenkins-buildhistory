@@ -1,10 +1,10 @@
-PV = 1.7.3
+PV = 1.7.4
 PR = r0
-PKG = libpococrypto43
-PKGR = r0.7
-RPROVIDES = poco-crypto (=1.7.3)
-RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2h) libgcc (>= 6.1.1) libssl (>= 1.0.2h) libstdc++ (>= 6.1.1) poco-foundation (>= 1.7.3)
+PKG = libpococrypto44
+PKGR = r0.0
+RPROVIDES = poco-crypto (=1.7.4)
+RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2h) libgcc (>= 6.2.0) libssl (>= 1.0.2h) libstdc++ (>= 6.2.0) poco-foundation (>= 1.7.4)
 RRECOMMENDS = 
 PKGSIZE = 101696
 FILES = /usr/lib/libPocoCrypto.so.*
-FILELIST = /usr/lib/libPocoCrypto.so.43
+FILELIST = /usr/lib/libPocoCrypto.so.44

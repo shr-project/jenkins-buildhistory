@@ -1,9 +1,9 @@
 PV = 3.0.0
 PR = r0
 PKG = libtinyxml2-3
-PKGR = r0.24
+PKGR = r0.25
 RPROVIDES = libtinyxml2 (=3.0.0)
-RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.2.0) libstdc++ (>= 6.2.0)
 RRECOMMENDS = 
 PKGSIZE = 47592
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libtinyxml2 /usr/lib/libtinyxml2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

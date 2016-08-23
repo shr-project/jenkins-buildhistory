@@ -1,10 +1,10 @@
-PV = 6.1.1
+PV = 6.2.0
 PR = r0
 PKG = libgcc-s-dev
-PKGR = r0.12
-RPROVIDES = libgcc-dev (=6.1.1)
-RDEPENDS = libgcc (= 6.1.1-r0.12)
+PKGR = r0.0
+RPROVIDES = libgcc-dev (=6.2.0)
+RDEPENDS = libgcc (= 6.2.0-r0.0)
 RRECOMMENDS = glibc-dev
-PKGSIZE = 21419410
+PKGSIZE = 21534546
 FILES = /lib/libgcc*.so /usr/lib/arm-oe-linux /usr/lib/arm-oe-linux-gnueabi/6.1.1* /usr/lib/arm-oe*
 FILELIST = /lib/libgcc_s.so /usr/lib/arm-oe-linux-gnueabi/6.1.1/crtbegin.o /usr/lib/arm-oe-linux-gnueabi/6.1.1/crtbeginS.o /usr/lib/arm-oe-linux-gnueabi/6.1.1/crtbeginT.o /usr/lib/arm-oe-linux-gnueabi/6.1.1/crtend.o /usr/lib/arm-oe-linux-gnueabi/6.1.1/crtendS.o /usr/lib/arm-oe-linux-gnueabi/6.1.1/crtfastmath.o /usr/lib/arm-oe-linux-gnueabi/6.1.1/libgcc.a /usr/lib/arm-oe-linux-gnueabi/6.1.1/libgcc_eh.a /usr/lib/arm-oe-linux-gnueabi/6.1.1/libgcov.a
