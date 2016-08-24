@@ -1,9 +1,9 @@
 PV = 2.4
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libedit (>= 20160618-3.1)
+RDEPENDS = glibc (>= 2.24) libedit (>= 20160618-3.1) nss (>= 3.24)
 RRECOMMENDS = 
-PKGSIZE = 75576
+PKGSIZE = 75708
 FILES = /usr/bin/chronyc
 FILELIST = /usr/bin/chronyc

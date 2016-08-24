@@ -2,9 +2,9 @@ PV = 5.0.1+gitAUTOINC+0749dd0a35
 PR = r1
 PKG = libmusicbrainz5-0
 PKGV = 5.0.1+git0+0749dd0a35
-PKGR = r1.33
+PKGR = r1.34
 RPROVIDES = libmusicbrainz (=5.0.1+git0+0749dd0a35)
-RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libstdc++ (>= 6.1.1) neon (>= 0.30.1)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.2.0) libstdc++ (>= 6.2.0) neon (>= 0.30.1)
 RRECOMMENDS = 
 PKGSIZE = 627952
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libmusicbrainz /usr/lib/libmusicbrainz/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

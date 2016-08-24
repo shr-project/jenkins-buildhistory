@@ -1,15 +1,15 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
--rwxr-xr-x root       root           175568 ./usr/bin/.debug/chronyc
+-rwxr-xr-x root       root           170220 ./usr/bin/.debug/chronyc
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/sbin/.debug
--rwxr-xr-x root       root           556200 ./usr/sbin/.debug/chronyd
+-rwxr-xr-x root       root           551652 ./usr/sbin/.debug/chronyd
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/chrony
 drwxr-xr-x root       root               60 ./usr/src/debug/chrony/2.4-r0
-drwxr-xr-x root       root             1700 ./usr/src/debug/chrony/2.4-r0/chrony-2.4
+drwxr-xr-x root       root             1660 ./usr/src/debug/chrony/2.4-r0/chrony-2.4
 -rw-r--r-- root       root             1607 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/addressing.h
 -rw-r--r-- root       root             9330 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/addrfilt.c
 -rw-r--r-- root       root             2824 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/addrfilt.h
@@ -29,7 +29,7 @@ drwxr-xr-x root       root             1700 ./usr/src/debug/chrony/2.4-r0/chrony
 -rw-r--r-- root       root             1006 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/getdate.h
 -rw-r--r-- root       root            25715 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/getdate.y
 -rw-r--r-- root       root             1427 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/hash.h
--rw-r--r-- root       root             1728 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/hash_intmd5.c
+-rw-r--r-- root       root             2609 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/hash_nss.c
 -rw-r--r-- root       root             7536 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/keys.c
 -rw-r--r-- root       root             1683 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/keys.h
 -rw-r--r-- root       root            19371 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/local.c
@@ -40,8 +40,6 @@ drwxr-xr-x root       root             1700 ./usr/src/debug/chrony/2.4-r0/chrony
 -rw-r--r-- root       root            14047 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/main.c
 -rw-r--r-- root       root             8191 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/manual.c
 -rw-r--r-- root       root             1590 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/manual.h
--rw-r--r-- root       root            11967 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/md5.c
--rw-r--r-- root       root             2864 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/md5.h
 -rw-r--r-- root       root             1575 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/memory.c
 -rw-r--r-- root       root             1492 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/memory.h
 -rw-r--r-- root       root             3338 ./usr/src/debug/chrony/2.4-r0/chrony-2.4/nameserv_async.c

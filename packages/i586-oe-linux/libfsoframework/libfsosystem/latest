@@ -2,9 +2,9 @@ PE = 2
 PV = 0.12.0
 PR = r6.0
 PKG = libfsosystem3
-PKGR = r6.0.33
+PKGR = r6.0.34
 RPROVIDES = libfsosystem (=0.12.0)
-RDEPENDS = glib-2.0 (>= 2.48.1) glibc (>= 2.24) libffi (>= 3.2.1) libgee (>= 0.18.0) libpcre (>= 8.39) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.48.2) glibc (>= 2.24) libffi (>= 3.2.1) libgee (>= 0.18.0) libpcre (>= 8.39) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 34661
 FILES = /usr/lib/libfsosystem*.so.*
