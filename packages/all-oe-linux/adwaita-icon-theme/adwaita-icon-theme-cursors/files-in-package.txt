@@ -57,7 +57,7 @@ lrwxrwxrwx root       root               15 ./usr/share/icons/Adwaita/cursors/fc
 lrwxrwxrwx root       root                8 ./usr/share/icons/Adwaita/cursors/fleur -> grabbing
 -rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/grabbing
 lrwxrwxrwx root       root                5 ./usr/share/icons/Adwaita/cursors/grab -> hand1
--rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/hand1
+lrwxrwxrwx root       root                5 ./usr/share/icons/Adwaita/cursors/hand1 -> hand2
 -rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/hand2
 lrwxrwxrwx root       root                5 ./usr/share/icons/Adwaita/cursors/hand -> hand2
 lrwxrwxrwx root       root               17 ./usr/share/icons/Adwaita/cursors/h_double_arrow -> sb_h_double_arrow
@@ -98,11 +98,11 @@ lrwxrwxrwx root       root               17 ./usr/share/icons/Adwaita/cursors/ro
 -rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/sb_up_arrow
 -rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/sb_v_double_arrow
 lrwxrwxrwx root       root               19 ./usr/share/icons/Adwaita/cursors/se-resize -> bottom_right_corner
--rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/size_all
--rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/size_bdiag
--rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/size_fdiag
--rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/size_hor
--rw-r--r-- root       root            69120 ./usr/share/icons/Adwaita/cursors/size_ver
+lrwxrwxrwx root       root                5 ./usr/share/icons/Adwaita/cursors/size_all -> fleur
+lrwxrwxrwx root       root               15 ./usr/share/icons/Adwaita/cursors/size_bdiag -> fd_double_arrow
+lrwxrwxrwx root       root               15 ./usr/share/icons/Adwaita/cursors/size_fdiag -> bd_double_arrow
+lrwxrwxrwx root       root               14 ./usr/share/icons/Adwaita/cursors/size_hor -> h_double_arrow
+lrwxrwxrwx root       root               14 ./usr/share/icons/Adwaita/cursors/size_ver -> v_double_arrow
 lrwxrwxrwx root       root               11 ./usr/share/icons/Adwaita/cursors/s-resize -> bottom_side
 lrwxrwxrwx root       root               18 ./usr/share/icons/Adwaita/cursors/sw-resize -> bottom_left_corner
 lrwxrwxrwx root       root                6 ./usr/share/icons/Adwaita/cursors/target -> dotbox
