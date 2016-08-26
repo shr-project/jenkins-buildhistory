@@ -1,8 +1,8 @@
 PV = 0.5.3
 PR = r0
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libgcrypt (>= 1.7.2) perl-module-io-file
+RDEPENDS = glibc (>= 2.24) libgcrypt (>= 1.7.3) perl-module-io-file
 RRECOMMENDS = kernel-module-tun
 PKGSIZE = 148434
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/vpnc /usr/lib/vpnc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

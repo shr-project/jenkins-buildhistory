@@ -1,10 +1,10 @@
-PV = 4.4.15+gitAUTOINC+b030d96c7b_ddab242999
+PV = 4.4.18+gitAUTOINC+6a12efcabe_0a0c93f29c
 PR = r0
-PKGV = 4.4.15+git1+b030d96c7b_ddab242999
-PKGR = r0.4
+PKGV = 4.4.18+git0+6a12efcabe_0a0c93f29c
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.15-yocto-standard kernel-module-gspca-main kernel-module-media kernel-module-v4l2-common kernel-module-videodev
+RDEPENDS = kernel-4.4.18-yocto-standard kernel-module-gspca-main kernel-module-media kernel-module-v4l2-common kernel-module-videodev
 RRECOMMENDS = 
 PKGSIZE = 74480
-FILES = /lib/modules/4.4.15-yocto-standard/kernel/drivers/media/usb/gspca/m5602/gspca_m5602.ko /etc/modules-load.d/gspca_m5602.conf /etc/modprobe.d/gspca_m5602.conf
-FILELIST = /lib/modules/4.4.15-yocto-standard/kernel/drivers/media/usb/gspca/m5602/gspca_m5602.ko
+FILES = /lib/modules/4.4.18-yocto-standard/kernel/drivers/media/usb/gspca/m5602/gspca_m5602.ko /etc/modules-load.d/gspca_m5602.conf /etc/modprobe.d/gspca_m5602.conf
+FILELIST = /lib/modules/4.4.18-yocto-standard/kernel/drivers/media/usb/gspca/m5602/gspca_m5602.ko

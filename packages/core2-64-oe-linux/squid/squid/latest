@@ -1,8 +1,8 @@
 PV = 3.5.20
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = base-files base-passwd cyrus-sasl (>= 2.1.26) db (>= 6.0.30) glibc (>= 2.24) gnutls (>= 3.5.1) libcap (>= 2.25) libgcc (>= 6.1.1) libltdl (>= 2.4.6) libstdc++ (>= 6.1.1) nettle (>= 3.2) openldap (>= 2.4.43) perl shadow
+RDEPENDS = base-files base-passwd cyrus-sasl (>= 2.1.26) db (>= 6.0.30) glibc (>= 2.24) gnutls (>= 3.5.1) libcap (>= 2.25) libgcc (>= 6.2.0) libltdl (>= 2.4.6) libstdc++ (>= 6.2.0) nettle (>= 3.2) openldap (>= 2.4.43) perl shadow
 RRECOMMENDS = 
 PKGSIZE = 8307250
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/squid /usr/lib/squid/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib /usr/share/errors /usr/share/icons
