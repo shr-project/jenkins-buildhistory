@@ -1,8 +1,8 @@
 PV = 1.0.8
 PR = r0
-PKGR = r0.38
+PKGR = r0.39
 RPROVIDES = 
-RDEPENDS = base-files base-passwd dbus-glib (>= 0.106) glib-2.0 (>= 2.48.2) glibc (>= 2.24) libnmglib-vpn (>= 1.0.10) libnmutil (>= 1.0.10) networkmanager openvpn shadow
+RDEPENDS = base-files base-passwd dbus-glib (>= 0.106) glib-2.0 (>= 2.48.2) glibc (>= 2.24) libnmglib-vpn (>= 1.0.12) libnmutil (>= 1.0.12) networkmanager openvpn shadow
 RRECOMMENDS = 
 PKGSIZE = 58806
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/networkmanager-openvpn /usr/lib/networkmanager-openvpn/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/lib/NetworkManager/*.so
