@@ -13,14 +13,14 @@ drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root              120 ./lib/systemd/system
 -rw-r--r-- root       root              353 ./lib/systemd/system/NetworkManager-dispatcher.service
--rw-r--r-- root       root              439 ./lib/systemd/system/NetworkManager.service
+-rw-r--r-- root       root              477 ./lib/systemd/system/NetworkManager.service
 -rw-r--r-- root       root              284 ./lib/systemd/system/NetworkManager-wait-online.service
 drwxr-xr-x root       root               60 ./lib/systemd/system/network-online.target.wants
 lrwxrwxrwx root       root               54 ./lib/systemd/system/network-online.target.wants/NetworkManager-wait-online.service -> /lib/systemd/system/NetworkManager-wait-online.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root               80 ./lib/udev/rules.d
 -rw-r--r-- root       root              523 ./lib/udev/rules.d/84-nm-drivers.rules
--rw-r--r-- root       root             1482 ./lib/udev/rules.d/85-nm-unmanaged.rules
+-rw-r--r-- root       root             1682 ./lib/udev/rules.d/85-nm-unmanaged.rules
 drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root           315724 ./usr/bin/nmcli
@@ -37,11 +37,11 @@ drwxr-xr-x root       root              100 ./usr/lib/girepository-1.0
 -rwxr-xr-x root       root           765320 ./usr/lib/libnm.so.0.0.0
 lrwxrwxrwx root       root               14 ./usr/lib/libnm.so.0 -> libnm.so.0.0.0
 drwxr-xr-x root       root              100 ./usr/lib/NetworkManager
--rwxr-xr-x root       root            88812 ./usr/lib/NetworkManager/libnm-device-plugin-wifi.so
+-rwxr-xr-x root       root            88808 ./usr/lib/NetworkManager/libnm-device-plugin-wifi.so
 -rwxr-xr-x root       root            18352 ./usr/lib/NetworkManager/libnm-settings-plugin-ibft.so
--rwxr-xr-x root       root            39448 ./usr/lib/NetworkManager/libnm-settings-plugin-ifupdown.so
+-rwxr-xr-x root       root            35352 ./usr/lib/NetworkManager/libnm-settings-plugin-ifupdown.so
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root          1241928 ./usr/sbin/NetworkManager
+-rwxr-xr-x root       root          1241936 ./usr/sbin/NetworkManager
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               80 ./usr/share/dbus-1/system-services
