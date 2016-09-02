@@ -106,9 +106,9 @@ drwxr-xr-x root       root              260 ./usr/src/debug/net-snmp/5.7.3-r0/ne
 -rw-rw-r-- root       root              470 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/agentx_config.h
 -rw-rw-r-- root       root            13044 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/client.c
 -rw-rw-r-- root       root             1568 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/client.h
--rw-r--r-- root       root            18187 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/master_admin.c
+-rw-rw-r-- root       root            18187 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/master_admin.c
 -rw-rw-r-- root       root              414 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/master_admin.h
--rw-r--r-- root       root            22175 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/master.c
+-rw-rw-r-- root       root            22175 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/master.c
 -rw-rw-r-- root       root              410 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/master.h
 -rw-rw-r-- root       root            62394 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/protocol.c
 -rw-rw-r-- root       root            36665 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/agentx/subagent.c
@@ -475,7 +475,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/net-snmp/5.7.3-r0/ne
 -rw-rw-r-- root       root              154 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/utilities/override.h
 -rw-rw-r-- root       root             1923 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mib_modules.c
 -rw-rw-r-- root       root           118738 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/snmp_agent.c
--rw-r--r-- root       root            44728 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/snmpd.c
+-rw-rw-r-- root       root            44728 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/snmpd.c
 -rw-rw-r-- root       root              424 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/snmpd.h
 -rw-rw-r-- root       root            13968 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/snmp_vars.c
 drwxr-xr-x root       root              560 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/apps
@@ -506,7 +506,7 @@ drwxr-xr-x root       root              240 ./usr/src/debug/net-snmp/5.7.3-r0/ne
 -rw-rw-r-- root       root            11905 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/apps/snmptrap.c
 -rw-rw-r-- root       root             5944 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/apps/snmptrapd_auth.c
 -rw-rw-r-- root       root              625 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/apps/snmptrapd_auth.h
--rw-r--r-- root       root            42027 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/apps/snmptrapd.c
+-rw-rw-r-- root       root            42027 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/apps/snmptrapd.c
 -rw-rw-r-- root       root            36305 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/apps/snmptrapd_handlers.c
 -rw-rw-r-- root       root             2553 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/apps/snmptrapd_handlers.h
 -rw-rw-r-- root       root            57728 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/apps/snmptrapd_log.c
@@ -657,7 +657,7 @@ drwxr-xr-x root       root             1040 ./usr/src/debug/net-snmp/5.7.3-r0/ne
 -rw-rw-r-- root       root            10549 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/fd_event_manager.c
 -rw-rw-r-- root       root             5642 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/file_utils.c
 -rw-rw-r-- root       root            11264 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/int64.c
--rw-r--r-- root       root            20492 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/keytools.c
+-rw-rw-r-- root       root            20492 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/keytools.c
 -rw-rw-r-- root       root             6915 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/large_fd_set.c
 -rw-rw-r-- root       root            15076 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/lcd_time.c
 -rw-rw-r-- root       root            16048 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/md5.c
@@ -669,7 +669,7 @@ drwxr-xr-x root       root             1040 ./usr/src/debug/net-snmp/5.7.3-r0/ne
 -rw-rw-r-- root       root            39921 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/scapi.c
 -rw-r--r-- root       root            14518 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/sd-daemon.c
 -rw-rw-r-- root       root            13568 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/snmp_alarm.c
--rw-r--r-- root       root           237589 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/snmp_api.c
+-rw-rw-r-- root       root           237589 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/snmp_api.c
 -rw-rw-r-- root       root             6143 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/snmp_auth.c
 -rw-rw-r-- root       root            14922 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/snmp.c
 -rw-rw-r-- root       root            56832 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/snmp_client.c
@@ -697,12 +697,12 @@ drwxr-xr-x root       root              300 ./usr/src/debug/net-snmp/5.7.3-r0/ne
 -rw-rw-r-- root       root            13124 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpIPv6BaseDomain.c
 -rw-rw-r-- root       root            10661 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpSocketBaseDomain.c
 -rw-rw-r-- root       root             2206 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpTCPBaseDomain.c
--rw-r--r-- root       root            10358 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpTCPDomain.c
--rw-r--r-- root       root            11129 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpTCPIPv6Domain.c
+-rw-rw-r-- root       root            10358 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpTCPDomain.c
+-rw-rw-r-- root       root            11129 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpTCPIPv6Domain.c
 -rw-rw-r-- root       root            16247 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpUDPBaseDomain.c
 -rw-rw-r-- root       root            15235 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpUDPDomain.c
--rw-r--r-- root       root             8026 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpUDPIPv4BaseDomain.c
--rw-r--r-- root       root            24450 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpUDPIPv6Domain.c
--rw-r--r-- root       root            22619 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpUnixDomain.c
+-rw-rw-r-- root       root             8026 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpUDPIPv4BaseDomain.c
+-rw-rw-r-- root       root            24450 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpUDPIPv6Domain.c
+-rw-rw-r-- root       root            22619 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/transports/snmpUnixDomain.c
 -rw-rw-r-- root       root             4613 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/ucd_compat.c
 -rw-rw-r-- root       root            37115 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/snmplib/vacm.c
