@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               60 ./opt
 drwxr-xr-x root       root              260 ./opt/ltp
-drwxr-xr-x root       root              340 ./opt/ltp/bin
+drwxr-xr-x root       root              320 ./opt/ltp/bin
 -rwxrwxr-x root       root             1110 ./opt/ltp/bin/create_dmesg_entries_for_each_test.awk
 -rwxrwxr-x root       root             1281 ./opt/ltp/bin/create_kernel_faults_in_loops_and_probability.awk
 -rwxrwxr-x root       root             1424 ./opt/ltp/bin/create_valgrind_check.awk
@@ -15,7 +15,6 @@ drwxr-xr-x root       root              340 ./opt/ltp/bin
 -rwxrwxr-x root       root             1397 ./opt/ltp/bin/make-file.sh
 -rwxrwxr-x root       root            60216 ./opt/ltp/bin/rand_lines
 -rwxrwxr-x root       root             5168 ./opt/ltp/bin/restore_kernel_faults_default.sh
--rwxrwxr-x root       root             4267 ./opt/ltp/bin/STPfailure_report.pl
 -rwxr-xr-x root       root             4898 ./opt/ltp/IDcheck.sh
 -rwxr-xr-x root       root            20300 ./opt/ltp/runalltests.sh
 -rwxr-xr-x root       root            39204 ./opt/ltp/runltp
@@ -1357,7 +1356,7 @@ drwxr-xr-x root       root              360 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root             2480 ./opt/ltp/testcases/bin/netns_breakns.sh
 -rwxrwxr-x root       root             3181 ./opt/ltp/testcases/bin/netns_comm.sh
 -rwxrwxr-x root       root             9600 ./opt/ltp/testcases/bin/netns_helper.sh
--rwxrwxr-x root       root           182716 ./opt/ltp/testcases/bin/netns_netlink
+-rwxrwxr-x root       root           182748 ./opt/ltp/testcases/bin/netns_netlink
 -rwxrwxr-x root       root             2809 ./opt/ltp/testcases/bin/netns_sysfs.sh
 -rwxrwxr-x root       root             2522 ./opt/ltp/testcases/bin/netstat01
 -rwxrwxr-x root       root            21496 ./opt/ltp/testcases/bin/newns
@@ -1401,7 +1400,7 @@ drwxr-xr-x root       root              360 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            69916 ./opt/ltp/testcases/bin/ns-icmp_redirector
 -rwxrwxr-x root       root            57432 ./opt/ltp/testcases/bin/ns-icmpv4_sender
 -rwxrwxr-x root       root            62188 ./opt/ltp/testcases/bin/ns-icmpv6_sender
--rwxrwxr-x root       root            54708 ./opt/ltp/testcases/bin/ns_ifmove
+-rwxrwxr-x root       root            54820 ./opt/ltp/testcases/bin/ns_ifmove
 -rwxrwxr-x root       root            54592 ./opt/ltp/testcases/bin/ns-igmp_querier
 -rwxrwxr-x root       root            54392 ./opt/ltp/testcases/bin/ns-mcast_join
 -rwxrwxr-x root       root            54904 ./opt/ltp/testcases/bin/ns-mcast_receiver
@@ -1446,8 +1445,8 @@ drwxr-xr-x root       root              360 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root           114148 ./opt/ltp/testcases/bin/pause02
 -rwxrwxr-x root       root           157448 ./opt/ltp/testcases/bin/pause03
 -rwxrwxr-x root       root            27472 ./opt/ltp/testcases/bin/pec_listener
--rwxrwxr-x root       root           148056 ./opt/ltp/testcases/bin/perf_event_open01
--rwxrwxr-x root       root           153988 ./opt/ltp/testcases/bin/perf_event_open02
+-rwxrwxr-x root       root           148216 ./opt/ltp/testcases/bin/perf_event_open01
+-rwxrwxr-x root       root           154164 ./opt/ltp/testcases/bin/perf_event_open02
 -rwxrwxr-x root       root             3636 ./opt/ltp/testcases/bin/perf_lan
 -rwxrwxr-x root       root            99376 ./opt/ltp/testcases/bin/personality01
 -rwxrwxr-x root       root            99104 ./opt/ltp/testcases/bin/personality02
@@ -1549,7 +1548,7 @@ drwxr-xr-x root       root              360 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root           178112 ./opt/ltp/testcases/bin/pwritev01
 -rwxrwxr-x root       root           178268 ./opt/ltp/testcases/bin/pwritev01_64
 -rwxrwxr-x root       root           161284 ./opt/ltp/testcases/bin/quotactl01
--rwxrwxr-x root       root           192204 ./opt/ltp/testcases/bin/quotactl02
+-rwxrwxr-x root       root            47676 ./opt/ltp/testcases/bin/quotactl02
 -rwxrwxr-x root       root             5585 ./opt/ltp/testcases/bin/quota_remount_test01.sh
 -rwxrwxr-x root       root            18908 ./opt/ltp/testcases/bin/random-access
 -rwxrwxr-x root       root            30000 ./opt/ltp/testcases/bin/random-access-del-create

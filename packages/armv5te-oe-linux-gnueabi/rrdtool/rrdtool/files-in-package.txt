@@ -5,14 +5,12 @@ drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              312 ./lib/systemd/system/rrdcached.socket
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              160 ./usr/bin
--rwxr-xr-x root       root            51828 ./usr/bin/rrdcached
--rwxr-xr-x root       root            18440 ./usr/bin/rrdcgi
+-rwxr-xr-x root       root            55916 ./usr/bin/rrdcached
+-rwxr-xr-x root       root            18396 ./usr/bin/rrdcgi
 lrwxrwxrwx root       root                9 ./usr/bin/rrdcreate -> rrdupdate
 lrwxrwxrwx root       root                9 ./usr/bin/rrdinfo -> rrdupdate
 -rwxr-xr-x root       root            22416 ./usr/bin/rrdtool
--rwxr-xr-x root       root            96872 ./usr/bin/rrdupdate
-drwxr-xr-x root       root              120 ./usr/lib
--rwxr-xr-x root       root           247328 ./usr/lib/librrd.so.4.3.0
-lrwxrwxrwx root       root               15 ./usr/lib/librrd.so.4 -> librrd.so.4.3.0
--rwxr-xr-x root       root           247360 ./usr/lib/librrd_th.so.4.3.0
-lrwxrwxrwx root       root               18 ./usr/lib/librrd_th.so.4 -> librrd_th.so.4.3.0
+-rwxr-xr-x root       root           100700 ./usr/bin/rrdupdate
+drwxr-xr-x root       root               80 ./usr/lib
+-rwxr-xr-x root       root           249592 ./usr/lib/librrd.so.8.0.0
+lrwxrwxrwx root       root               15 ./usr/lib/librrd.so.8 -> librrd.so.8.0.0

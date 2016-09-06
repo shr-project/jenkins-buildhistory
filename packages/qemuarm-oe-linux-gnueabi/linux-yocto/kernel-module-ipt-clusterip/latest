@@ -1,10 +1,10 @@
-PV = 4.4.18+gitAUTOINC+6a12efcabe_81cae0bb96
+PV = 4.8-rc4+gitAUTOINC+8cb7317502_2054450720
 PR = r0
-PKGV = 4.4.18+git0+6a12efcabe_81cae0bb96
-PKGR = r0.7
+PKGV = 4.8-rc4+git0+8cb7317502_2054450720
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.18-yocto-standard kernel-module-nf-conntrack kernel-module-x-tables
+RDEPENDS = kernel-4.8.0-rc4-yocto-standard kernel-module-nf-conntrack kernel-module-x-tables
 RRECOMMENDS = 
 PKGSIZE = 13344
-FILES = /lib/modules/4.4.18-yocto-standard/kernel/net/ipv4/netfilter/ipt_CLUSTERIP.ko /etc/modules-load.d/ipt_CLUSTERIP.conf /etc/modprobe.d/ipt_CLUSTERIP.conf
-FILELIST = /lib/modules/4.4.18-yocto-standard/kernel/net/ipv4/netfilter/ipt_CLUSTERIP.ko
+FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/ipv4/netfilter/ipt_CLUSTERIP.ko /etc/modules-load.d/ipt_CLUSTERIP.conf /etc/modprobe.d/ipt_CLUSTERIP.conf
+FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/ipv4/netfilter/ipt_CLUSTERIP.ko
