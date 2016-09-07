@@ -1,4 +1,4 @@
-PV = 2.1.0
+PV = 2.1.1
 PR = r0
-DEPENDS = cmake-native lcms libpng tiff virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = cmake-native lcms libpng tiff virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
 PACKAGES = openjpeg-dbg openjpeg-staticdev openjpeg-dev openjpeg-doc openjpeg-locale openjpeg

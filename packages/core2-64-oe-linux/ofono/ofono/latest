@@ -1,9 +1,9 @@
 PV = 1.18
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = ofono-systemd
 RDEPENDS = dbus dbus-lib (>= 1.10.10) glib-2.0 (>= 2.48.2) glibc (>= 2.24) libudev (>= 230+git0+3a74d4fc90)
-RRECOMMENDS = 
+RRECOMMENDS = kernel-module-tun mobile-broadband-provider-info
 RREPLACES = ofono-systemd
 RCONFLICTS = ofono-systemd
 PKGSIZE = 1552617

@@ -1,10 +1,10 @@
-PV = 4.4.18+gitAUTOINC+6a12efcabe_0a0c93f29c
+PV = 4.8-rc4+gitAUTOINC+8cb7317502_a7d71794e4
 PR = r0
-PKGV = 4.4.18+git0+6a12efcabe_0a0c93f29c
-PKGR = r0.7
+PKGV = 4.8-rc4+git0+8cb7317502_a7d71794e4
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.18-yocto-standard kernel-module-nf-conntrack
+RDEPENDS = kernel-4.8.0-rc4-yocto-standard kernel-module-nf-conntrack
 RRECOMMENDS = 
-PKGSIZE = 38016
-FILES = /lib/modules/4.4.18-yocto-standard/kernel/net/netfilter/nf_conntrack_sip.ko /etc/modules-load.d/nf_conntrack_sip.conf /etc/modprobe.d/nf_conntrack_sip.conf
-FILELIST = /lib/modules/4.4.18-yocto-standard/kernel/net/netfilter/nf_conntrack_sip.ko
+PKGSIZE = 37928
+FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/netfilter/nf_conntrack_sip.ko /etc/modules-load.d/nf_conntrack_sip.conf /etc/modprobe.d/nf_conntrack_sip.conf
+FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/netfilter/nf_conntrack_sip.ko

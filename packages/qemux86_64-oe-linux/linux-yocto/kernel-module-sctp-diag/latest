@@ -1,0 +1,10 @@
+PV = 4.8-rc4+gitAUTOINC+8cb7317502_a7d71794e4
+PR = r0
+PKGV = 4.8-rc4+git0+8cb7317502_a7d71794e4
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-4.8.0-rc4-yocto-standard kernel-module-libcrc32c kernel-module-sctp
+RRECOMMENDS = 
+PKGSIZE = 10472
+FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/sctp/sctp_diag.ko /etc/modules-load.d/sctp_diag.conf /etc/modprobe.d/sctp_diag.conf
+FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/sctp/sctp_diag.ko
