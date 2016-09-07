@@ -1,0 +1,10 @@
+PV = 4.8-rc4+gitAUTOINC+8cb7317502_a7d71794e4
+PR = r0
+PKGV = 4.8-rc4+git0+8cb7317502_a7d71794e4
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-4.8.0-rc4-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 14472
+FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/drivers/nvmem/nvmem_core.ko /etc/modules-load.d/nvmem_core.conf /etc/modprobe.d/nvmem_core.conf
+FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/drivers/nvmem/nvmem_core.ko

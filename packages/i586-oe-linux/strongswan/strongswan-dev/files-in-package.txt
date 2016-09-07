@@ -1,13 +1,13 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              180 ./usr/lib/ipsec
--rwxr-xr-x root       root              999 ./usr/lib/ipsec/libcharon.la
+-rwxr-xr-x root       root             1003 ./usr/lib/ipsec/libcharon.la
 lrwxrwxrwx root       root               18 ./usr/lib/ipsec/libcharon.so -> libcharon.so.0.0.0
--rwxr-xr-x root       root              961 ./usr/lib/ipsec/libhydra.la
-lrwxrwxrwx root       root               17 ./usr/lib/ipsec/libhydra.so -> libhydra.so.0.0.0
--rwxr-xr-x root       root              958 ./usr/lib/ipsec/libstrongswan.la
+-rwxr-xr-x root       root              990 ./usr/lib/ipsec/libstrongswan.la
 lrwxrwxrwx root       root               22 ./usr/lib/ipsec/libstrongswan.so -> libstrongswan.so.0.0.0
-drwxr-xr-x root       root              740 ./usr/lib/ipsec/plugins
+-rwxr-xr-x root       root              987 ./usr/lib/ipsec/libvici.la
+lrwxrwxrwx root       root               16 ./usr/lib/ipsec/libvici.so -> libvici.so.0.0.0
+drwxr-xr-x root       root              760 ./usr/lib/ipsec/plugins
 -rwxr-xr-x root       root              966 ./usr/lib/ipsec/plugins/libstrongswan-aes.la
 -rwxr-xr-x root       root              972 ./usr/lib/ipsec/plugins/libstrongswan-attr.la
 -rwxr-xr-x root       root              972 ./usr/lib/ipsec/plugins/libstrongswan-cmac.la
@@ -18,7 +18,7 @@ drwxr-xr-x root       root              740 ./usr/lib/ipsec/plugins
 -rwxr-xr-x root       root              996 ./usr/lib/ipsec/plugins/libstrongswan-fips-prf.la
 -rwxr-xr-x root       root              986 ./usr/lib/ipsec/plugins/libstrongswan-gmp.la
 -rwxr-xr-x root       root              972 ./usr/lib/ipsec/plugins/libstrongswan-hmac.la
--rwxr-xr-x root       root             1032 ./usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.la
+-rwxr-xr-x root       root             1037 ./usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.la
 -rwxr-xr-x root       root              966 ./usr/lib/ipsec/plugins/libstrongswan-md5.la
 -rwxr-xr-x root       root              978 ./usr/lib/ipsec/plugins/libstrongswan-nonce.la
 -rwxr-xr-x root       root              999 ./usr/lib/ipsec/plugins/libstrongswan-openssl.la
@@ -40,6 +40,7 @@ drwxr-xr-x root       root              740 ./usr/lib/ipsec/plugins
 -rwxr-xr-x root       root              984 ./usr/lib/ipsec/plugins/libstrongswan-sshkey.la
 -rwxr-xr-x root       root              984 ./usr/lib/ipsec/plugins/libstrongswan-stroke.la
 -rwxr-xr-x root       root              984 ./usr/lib/ipsec/plugins/libstrongswan-updown.la
+-rwxr-xr-x root       root              972 ./usr/lib/ipsec/plugins/libstrongswan-vici.la
 -rwxr-xr-x root       root              972 ./usr/lib/ipsec/plugins/libstrongswan-x509.la
 -rwxr-xr-x root       root             1026 ./usr/lib/ipsec/plugins/libstrongswan-xauth-generic.la
 -rwxr-xr-x root       root              972 ./usr/lib/ipsec/plugins/libstrongswan-xcbc.la

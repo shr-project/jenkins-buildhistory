@@ -1,10 +1,10 @@
-PV = 4.4.18+gitAUTOINC+6a12efcabe_0a0c93f29c
+PV = 4.8-rc4+gitAUTOINC+8cb7317502_a7d71794e4
 PR = r0
-PKGV = 4.4.18+git0+6a12efcabe_0a0c93f29c
-PKGR = r0.7
+PKGV = 4.8-rc4+git0+8cb7317502_a7d71794e4
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.18-yocto-standard
+RDEPENDS = kernel-4.8.0-rc4-yocto-standard kernel-module-nvmem-core
 RRECOMMENDS = 
-PKGSIZE = 9796
-FILES = /lib/modules/4.4.18-yocto-standard/kernel/drivers/misc/eeprom/at24.ko /etc/modules-load.d/at24.conf /etc/modprobe.d/at24.conf
-FILELIST = /lib/modules/4.4.18-yocto-standard/kernel/drivers/misc/eeprom/at24.ko
+PKGSIZE = 12168
+FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/drivers/misc/eeprom/at24.ko /etc/modules-load.d/at24.conf /etc/modprobe.d/at24.conf
+FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/drivers/misc/eeprom/at24.ko
