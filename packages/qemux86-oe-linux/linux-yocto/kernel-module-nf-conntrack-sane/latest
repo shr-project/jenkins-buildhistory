@@ -1,10 +1,10 @@
-PV = 4.8-rc4+gitAUTOINC+8cb7317502_a7d71794e4
+PV = 4.8-rc4+gitAUTOINC+25fb74eaae_9e7ee5155e
 PR = r0
-PKGV = 4.8-rc4+git0+8cb7317502_a7d71794e4
+PKGV = 4.8-rc4+git1+25fb74eaae_9e7ee5155e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc4-yocto-standard kernel-module-nf-conntrack
+RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-nf-conntrack
 RRECOMMENDS = 
 PKGSIZE = 7104
-FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/netfilter/nf_conntrack_sane.ko /etc/modules-load.d/nf_conntrack_sane.conf /etc/modprobe.d/nf_conntrack_sane.conf
-FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/netfilter/nf_conntrack_sane.ko
+FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/netfilter/nf_conntrack_sane.ko /etc/modules-load.d/nf_conntrack_sane.conf /etc/modprobe.d/nf_conntrack_sane.conf
+FILELIST = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/netfilter/nf_conntrack_sane.ko

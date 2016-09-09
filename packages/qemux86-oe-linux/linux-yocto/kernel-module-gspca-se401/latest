@@ -1,10 +1,10 @@
-PV = 4.8-rc4+gitAUTOINC+8cb7317502_a7d71794e4
+PV = 4.8-rc4+gitAUTOINC+25fb74eaae_9e7ee5155e
 PR = r0
-PKGV = 4.8-rc4+git0+8cb7317502_a7d71794e4
+PKGV = 4.8-rc4+git1+25fb74eaae_9e7ee5155e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc4-yocto-standard kernel-module-gspca-main kernel-module-media kernel-module-v4l2-common kernel-module-videodev
+RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-gspca-main kernel-module-media kernel-module-v4l2-common kernel-module-videodev
 RRECOMMENDS = 
 PKGSIZE = 11128
-FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/drivers/media/usb/gspca/gspca_se401.ko /etc/modules-load.d/gspca_se401.conf /etc/modprobe.d/gspca_se401.conf
-FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/drivers/media/usb/gspca/gspca_se401.ko
+FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/drivers/media/usb/gspca/gspca_se401.ko /etc/modules-load.d/gspca_se401.conf /etc/modprobe.d/gspca_se401.conf
+FILELIST = /lib/modules/4.8.0-rc5-yocto-standard/kernel/drivers/media/usb/gspca/gspca_se401.ko

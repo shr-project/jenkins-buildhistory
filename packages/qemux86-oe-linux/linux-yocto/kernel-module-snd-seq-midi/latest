@@ -1,10 +1,10 @@
-PV = 4.8-rc4+gitAUTOINC+8cb7317502_a7d71794e4
+PV = 4.8-rc4+gitAUTOINC+25fb74eaae_9e7ee5155e
 PR = r0
-PKGV = 4.8-rc4+git0+8cb7317502_a7d71794e4
+PKGV = 4.8-rc4+git1+25fb74eaae_9e7ee5155e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc4-yocto-standard kernel-module-snd-rawmidi
+RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-snd-rawmidi
 RRECOMMENDS = 
 PKGSIZE = 9164
-FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/sound/core/seq/snd-seq-midi.ko /etc/modules-load.d/snd-seq-midi.conf /etc/modprobe.d/snd-seq-midi.conf
-FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/sound/core/seq/snd-seq-midi.ko
+FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/sound/core/seq/snd-seq-midi.ko /etc/modules-load.d/snd-seq-midi.conf /etc/modprobe.d/snd-seq-midi.conf
+FILELIST = /lib/modules/4.8.0-rc5-yocto-standard/kernel/sound/core/seq/snd-seq-midi.ko

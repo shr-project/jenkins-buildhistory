@@ -1,10 +1,10 @@
-PV = 4.8-rc4+gitAUTOINC+8cb7317502_a7d71794e4
+PV = 4.8-rc4+gitAUTOINC+25fb74eaae_9e7ee5155e
 PR = r0
-PKGV = 4.8-rc4+git0+8cb7317502_a7d71794e4
+PKGV = 4.8-rc4+git1+25fb74eaae_9e7ee5155e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc4-yocto-standard kernel-module-ip6-udp-tunnel kernel-module-udp-tunnel
+RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-ip6-udp-tunnel kernel-module-udp-tunnel
 RRECOMMENDS = 
-PKGSIZE = 156468
-FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/tipc/tipc.ko /etc/modules-load.d/tipc.conf /etc/modprobe.d/tipc.conf
-FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/tipc/tipc.ko
+PKGSIZE = 156540
+FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/tipc/tipc.ko /etc/modules-load.d/tipc.conf /etc/modprobe.d/tipc.conf
+FILELIST = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/tipc/tipc.ko
