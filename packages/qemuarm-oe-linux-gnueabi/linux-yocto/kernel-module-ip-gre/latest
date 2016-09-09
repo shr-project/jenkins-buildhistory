@@ -1,10 +1,10 @@
-PV = 4.8-rc4+gitAUTOINC+8cb7317502_2054450720
+PV = 4.8-rc4+gitAUTOINC+25fb74eaae_9a91ef47f8
 PR = r0
-PKGV = 4.8-rc4+git0+8cb7317502_2054450720
+PKGV = 4.8-rc4+git1+25fb74eaae_9a91ef47f8
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc4-yocto-standard kernel-module-gre
+RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-gre
 RRECOMMENDS = 
 PKGSIZE = 21088
-FILES = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/ipv4/ip_gre.ko /etc/modules-load.d/ip_gre.conf /etc/modprobe.d/ip_gre.conf
-FILELIST = /lib/modules/4.8.0-rc4-yocto-standard/kernel/net/ipv4/ip_gre.ko
+FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/ipv4/ip_gre.ko /etc/modules-load.d/ip_gre.conf /etc/modprobe.d/ip_gre.conf
+FILELIST = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/ipv4/ip_gre.ko

@@ -1,7 +1,7 @@
 PV = 3.6.4
 PR = r0
 PKG = libsyslog-ng-3.5-0
-PKGR = r0.32
+PKGR = r0.33
 RPROVIDES = syslog-ng-libs (=3.6.4)
 RDEPENDS = eventlog (>= 0.2.13) glib-2.0 (>= 2.48.2) glibc (>= 2.24) libcap (>= 2.25) libcrypto (>= 1.0.2h) liblzma (>= 5.2.2) libpcre (>= 8.39) libssl (>= 1.0.2h) libsystemd (>= 230+git0+3a74d4fc90) util-linux-libuuid (>= 2.28.1)
 RRECOMMENDS = 
