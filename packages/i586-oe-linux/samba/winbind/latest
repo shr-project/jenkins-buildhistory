@@ -1,9 +1,9 @@
 PV = 4.4.5
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) krb5 (>= 1.13.2) libbsd (>= 0.8.3) libcomerr (>= 1.43) libsamba-base (>= 4.4.5) libtalloc (>= 2.1.8) libtdb (>= 1.3.10) libtevent (>= 0.9.29) libwbclient (>= 4.4.5) openldap (>= 2.4.44) popt (>= 1.16) samba (>= 4.4.5)
 RRECOMMENDS = 
-PKGSIZE = 1413858
+PKGSIZE = 1409762
 FILES = /usr/sbin/winbindd /usr/bin/wbinfo /usr/bin/ntlm_auth /etc/init.d/winbind /lib/systemd/system/winbind.service
 FILELIST = /lib/systemd/system/winbind.service /usr/bin/ntlm_auth /usr/bin/wbinfo /usr/sbin/winbindd
