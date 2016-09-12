@@ -1,9 +1,9 @@
-PV = 4.8-rc4+gitAUTOINC+25fb74eaae_9e7ee5155e
+PV = 4.8-rc5+gitAUTOINC+25fb74eaae_9e7ee5155e
 PR = r0
-PKGV = 4.8-rc4+git1+25fb74eaae_9e7ee5155e
+PKGV = 4.8-rc5+git0+25fb74eaae_9e7ee5155e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-cfg80211 kernel-module-mac80211 kernel-module-rt2x00lib
+RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-mac80211 kernel-module-rt2x00lib
 RRECOMMENDS = 
 PKGSIZE = 8536
 FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00pci.ko /etc/modules-load.d/rt2x00pci.conf /etc/modprobe.d/rt2x00pci.conf

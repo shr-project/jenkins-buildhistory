@@ -1,10 +1,9 @@
-PE = 1
-PV = 2.0.5
+PV = 2.2.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = wireshark (= 1:2.0.5-r0.4)
-RRECOMMENDS = cairo-dev expat-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gmp-dev gnutls-dev gtk+-dev libcap-dev libidn-dev libnl-dev libnl-genl-dev libnl-nf-dev libnl-route-dev libpcap-dev libpcre-dev nettle-dev pango-dev pcre-dev sbc-dev zlib-dev
-PKGSIZE = 4031
+RDEPENDS = wireshark (= 2.2.0-r0.0)
+RRECOMMENDS = cairo-dev expat-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gmp-dev gnutls-dev gtk+-dev libcap-dev libidn-dev libnl-dev libnl-genl-dev libnl-route-dev libpcap-dev libpcre-dev libssh-dev nettle-dev pango-dev pcre-dev sbc-dev zlib-dev
+PKGSIZE = 5098
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wireshark/*.la /lib/*.la
-FILELIST = /usr/lib/libwireshark.la /usr/lib/libwireshark.so /usr/lib/libwiretap.la /usr/lib/libwiretap.so /usr/lib/libwsutil.la /usr/lib/libwsutil.so
+FILELIST = /usr/lib/libwireshark.la /usr/lib/libwireshark.so /usr/lib/libwiretap.la /usr/lib/libwiretap.so /usr/lib/libwscodecs.la /usr/lib/libwscodecs.so /usr/lib/libwsutil.la /usr/lib/libwsutil.so /usr/lib/pkgconfig/wireshark.pc
