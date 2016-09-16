@@ -1,10 +1,10 @@
-PV = 4.8-rc5+gitAUTOINC+25fb74eaae_9e7ee5155e
+PV = 4.8-rc6+gitAUTOINC+25fb74eaae_e6e0dea72e
 PR = r0
-PKGV = 4.8-rc5+git0+25fb74eaae_9e7ee5155e
+PKGV = 4.8-rc6+git0+25fb74eaae_e6e0dea72e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-videobuf2-core kernel-module-videobuf2-v4l2 kernel-module-videobuf2-vmalloc kernel-module-videodev
+RDEPENDS = kernel-4.8.0-rc6-yocto-standard kernel-module-videobuf2-core kernel-module-videobuf2-v4l2 kernel-module-videobuf2-vmalloc kernel-module-videodev
 RRECOMMENDS = 
 PKGSIZE = 36856
-FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/drivers/media/usb/s2255/s2255drv.ko /etc/modules-load.d/s2255drv.conf /etc/modprobe.d/s2255drv.conf
-FILELIST = /lib/modules/4.8.0-rc5-yocto-standard/kernel/drivers/media/usb/s2255/s2255drv.ko
+FILES = /lib/modules/4.8.0-rc6-yocto-standard/kernel/drivers/media/usb/s2255/s2255drv.ko /etc/modules-load.d/s2255drv.conf /etc/modprobe.d/s2255drv.conf
+FILELIST = /lib/modules/4.8.0-rc6-yocto-standard/kernel/drivers/media/usb/s2255/s2255drv.ko
