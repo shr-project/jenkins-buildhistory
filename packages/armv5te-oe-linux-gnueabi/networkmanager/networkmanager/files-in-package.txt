@@ -14,7 +14,7 @@ drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root              120 ./lib/systemd/system
 -rw-r--r-- root       root              353 ./lib/systemd/system/NetworkManager-dispatcher.service
 -rw-r--r-- root       root              477 ./lib/systemd/system/NetworkManager.service
--rw-r--r-- root       root              284 ./lib/systemd/system/NetworkManager-wait-online.service
+-rw-r--r-- root       root              303 ./lib/systemd/system/NetworkManager-wait-online.service
 drwxr-xr-x root       root               60 ./lib/systemd/system/network-online.target.wants
 lrwxrwxrwx root       root               54 ./lib/systemd/system/network-online.target.wants/NetworkManager-wait-online.service -> /lib/systemd/system/NetworkManager-wait-online.service
 drwxr-xr-x root       root               60 ./lib/udev
@@ -22,8 +22,9 @@ drwxr-xr-x root       root               80 ./lib/udev/rules.d
 -rw-r--r-- root       root              523 ./lib/udev/rules.d/84-nm-drivers.rules
 -rw-r--r-- root       root             1682 ./lib/udev/rules.d/85-nm-unmanaged.rules
 drwxr-xr-x root       root              140 ./usr
-drwxr-xr-x root       root               60 ./usr/bin
+drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root           315724 ./usr/bin/nmcli
+-rwxr-xr-x root       root            10064 ./usr/bin/nm-online
 drwxr-xr-x root       root              120 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/libexec
 -rwxr-xr-x root       root             5896 ./usr/libexec/nm-avahi-autoipd.action

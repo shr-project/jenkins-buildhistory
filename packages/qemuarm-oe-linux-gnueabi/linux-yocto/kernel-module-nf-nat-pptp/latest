@@ -1,10 +1,10 @@
-PV = 4.8-rc5+gitAUTOINC+25fb74eaae_9a91ef47f8
+PV = 4.8-rc6+gitAUTOINC+25fb74eaae_29b1dac023
 PR = r0
-PKGV = 4.8-rc5+git0+25fb74eaae_9a91ef47f8
+PKGV = 4.8-rc6+git0+25fb74eaae_29b1dac023
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-nf-conntrack kernel-module-nf-conntrack-pptp kernel-module-nf-nat kernel-module-nf-nat-proto-gre
+RDEPENDS = kernel-4.8.0-rc6-yocto-standard kernel-module-nf-conntrack kernel-module-nf-conntrack-pptp kernel-module-nf-nat kernel-module-nf-nat-proto-gre
 RRECOMMENDS = 
 PKGSIZE = 6960
-FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_pptp.ko /etc/modules-load.d/nf_nat_pptp.conf /etc/modprobe.d/nf_nat_pptp.conf
-FILELIST = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_pptp.ko
+FILES = /lib/modules/4.8.0-rc6-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_pptp.ko /etc/modules-load.d/nf_nat_pptp.conf /etc/modprobe.d/nf_nat_pptp.conf
+FILELIST = /lib/modules/4.8.0-rc6-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_pptp.ko

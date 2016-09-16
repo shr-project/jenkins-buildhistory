@@ -1,8 +1,8 @@
 PV = 3.0
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
-RDEPENDS = systemtap (= 3.0-r0.17)
+RDEPENDS = systemtap (= 3.0-r0.18)
 RRECOMMENDS = bash-dev elfutils-dev glibc-dev json-c-dev libdw-dev libelf-dev libgcc-dev libsqlite3-dev libstdc++-dev ncurses-dev ncurses-libncurses-dev ncurses-libtinfo-dev python3-core-dev readline-dev sqlite3-dev
 PKGSIZE = 17392
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/systemtap/*.la /lib/*.la
