@@ -1,10 +1,10 @@
-PV = 4.8-rc5+gitAUTOINC+25fb74eaae_9e7ee5155e
+PV = 4.8-rc6+gitAUTOINC+25fb74eaae_e6e0dea72e
 PR = r0
-PKGV = 4.8-rc5+git0+25fb74eaae_9e7ee5155e
+PKGV = 4.8-rc6+git0+25fb74eaae_e6e0dea72e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-6lowpan
+RDEPENDS = kernel-4.8.0-rc6-yocto-standard kernel-module-6lowpan
 RRECOMMENDS = 
 PKGSIZE = 4136
-FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/6lowpan/nhc_hop.ko /etc/modules-load.d/nhc_hop.conf /etc/modprobe.d/nhc_hop.conf
-FILELIST = /lib/modules/4.8.0-rc5-yocto-standard/kernel/net/6lowpan/nhc_hop.ko
+FILES = /lib/modules/4.8.0-rc6-yocto-standard/kernel/net/6lowpan/nhc_hop.ko /etc/modules-load.d/nhc_hop.conf /etc/modprobe.d/nhc_hop.conf
+FILELIST = /lib/modules/4.8.0-rc6-yocto-standard/kernel/net/6lowpan/nhc_hop.ko

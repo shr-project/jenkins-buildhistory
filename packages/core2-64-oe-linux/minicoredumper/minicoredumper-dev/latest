@@ -1,8 +1,8 @@
 PV = 1.0.2
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = minicoredumper (= 1.0.2-r0.13)
+RDEPENDS = minicoredumper (= 1.0.2-r0.14)
 RRECOMMENDS = dbus-dev dbus-glib-dev dbus-lib-dev elfutils-dev glib-2.0-dev glibc-dev glibc-thread-db-dev libcap-dev libelf-dev libffi-dev liblzma-dev libpcre-dev libsystemd-dev util-linux-dev util-linux-libuuid-dev zlib-dev
 PKGSIZE = 9675
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/minicoredumper/*.la /lib/*.la

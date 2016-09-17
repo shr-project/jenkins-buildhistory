@@ -1,10 +1,10 @@
-PV = 4.8-rc5+gitAUTOINC+25fb74eaae_9e7ee5155e
+PV = 4.8-rc6+gitAUTOINC+25fb74eaae_e6e0dea72e
 PR = r0
-PKGV = 4.8-rc5+git0+25fb74eaae_9e7ee5155e
+PKGV = 4.8-rc6+git0+25fb74eaae_e6e0dea72e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc5-yocto-standard kernel-module-snd-hda-codec kernel-module-snd-hda-core
+RDEPENDS = kernel-4.8.0-rc6-yocto-standard kernel-module-snd-hda-codec kernel-module-snd-hda-core
 RRECOMMENDS = 
 PKGSIZE = 86800
-FILES = /lib/modules/4.8.0-rc5-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-generic.ko /etc/modules-load.d/snd-hda-codec-generic.conf /etc/modprobe.d/snd-hda-codec-generic.conf
-FILELIST = /lib/modules/4.8.0-rc5-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-generic.ko
+FILES = /lib/modules/4.8.0-rc6-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-generic.ko /etc/modules-load.d/snd-hda-codec-generic.conf /etc/modprobe.d/snd-hda-codec-generic.conf
+FILELIST = /lib/modules/4.8.0-rc6-yocto-standard/kernel/sound/pci/hda/snd-hda-codec-generic.ko
