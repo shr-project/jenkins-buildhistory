@@ -1,8 +1,8 @@
 PV = 1.28
 PR = r0
-PKGR = r0.2
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = geany-plugins (= 1.28-r0.2)
+RDEPENDS = geany-plugins (= 1.28-r0.4)
 RRECOMMENDS = atk-dev cairo-dev enchant-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev geany-dev geany-plugins-addons-dev geany-plugins-autoclose-dev geany-plugins-automark-dev geany-plugins-codenav-dev geany-plugins-commander-dev geany-plugins-debugger-dev geany-plugins-defineformat-dev geany-plugins-geanyctags-dev geany-plugins-geanydoc-dev geany-plugins-geanyextrasel-dev geany-plugins-geanyinsertnum-dev geany-plugins-geanylatex-dev geany-plugins-geanylipsum-dev geany-plugins-geanymacro-dev geany-plugins-geanyminiscript-dev geany-plugins-geanynumberedbookmarks-dev geany-plugins-geanypg-dev geany-plugins-geanyprj-dev geany-plugins-geanyvc-dev geany-plugins-geniuspaste-dev geany-plugins-git-changebar-dev geany-plugins-lineoperations-dev geany-plugins-multiterm-dev geany-plugins-overview-dev geany-plugins-pairtaghighlighter-dev geany-plugins-pohelper-dev geany-plugins-pretty-printer-dev geany-plugins-projectorganizer-dev geany-plugins-scope-dev geany-plugins-sendmail-dev geany-plugins-shiftcolumn-dev geany-plugins-spellcheck-dev geany-plugins-tableconvert-dev geany-plugins-treebrowser-dev geany-plugins-updatechecker-dev geany-plugins-xmlsnippets-dev glib-2.0-dev glibc-dev gpgme-dev gtk+-dev harfbuzz-dev hicolor-icon-theme-dev libassuan-dev libffi-dev libgit2-dev libpcre-dev libpng-dev libsoup-2.4-dev libsqlite3-dev libstdc++-dev libvte9-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxml2-dev libxrender-dev ncurses-libncurses-dev pango-dev pixman-dev vte9-dev zlib-dev
 PKGSIZE = 86800
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/geany-plugins/*.la /lib/*.la /usr/lib/geany/*.la /usr/lib/geany-plugins/*/*.la

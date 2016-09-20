@@ -258,16 +258,16 @@ drwxr-xr-x root       root              140 ./usr/include/Poco/Dynamic
 -rw-r--r-- root       root             6893 ./usr/include/Poco/InflatingStream.h
 -rw-r--r-- root       root             1566 ./usr/include/Poco/Instantiator.h
 drwxr-xr-x root       root              280 ./usr/include/Poco/JSON
--rw-r--r-- root       root             9904 ./usr/include/Poco/JSON/Array.h
+-rw-r--r-- root       root             9906 ./usr/include/Poco/JSON/Array.h
 -rw-r--r-- root       root             2262 ./usr/include/Poco/JSON/Handler.h
 -rw-r--r-- root       root              580 ./usr/include/Poco/JSON/JSONException.h
 -rw-r--r-- root       root             1521 ./usr/include/Poco/JSON/JSON.h
--rw-r--r-- root       root            12991 ./usr/include/Poco/JSON/Object.h
+-rw-r--r-- root       root            13211 ./usr/include/Poco/JSON/Object.h
 -rw-r--r-- root       root             2929 ./usr/include/Poco/JSON/ParseHandler.h
 -rw-r--r-- root       root            16165 ./usr/include/Poco/JSON/Parser.h
--rw-r--r-- root       root             3140 ./usr/include/Poco/JSON/PrintHandler.h
+-rw-r--r-- root       root             3142 ./usr/include/Poco/JSON/PrintHandler.h
 -rw-r--r-- root       root             3239 ./usr/include/Poco/JSON/Query.h
--rw-r--r-- root       root             2342 ./usr/include/Poco/JSON/Stringifier.h
+-rw-r--r-- root       root             2345 ./usr/include/Poco/JSON/Stringifier.h
 -rw-r--r-- root       root             2197 ./usr/include/Poco/JSON/TemplateCache.h
 -rw-r--r-- root       root             3727 ./usr/include/Poco/JSON/Template.h
 -rw-r--r-- root       root             1275 ./usr/include/Poco/KeyValueArgs.h
@@ -635,7 +635,7 @@ drwxr-xr-x root       root              440 ./usr/include/Poco/SAX
 -rw-r--r-- root       root             3306 ./usr/include/Poco/SignalHandler.h
 -rw-r--r-- root       root             4617 ./usr/include/Poco/SimpleFileChannel.h
 -rw-r--r-- root       root             8773 ./usr/include/Poco/SimpleHashTable.h
--rw-r--r-- root       root             1356 ./usr/include/Poco/SingletonHolder.h
+-rw-r--r-- root       root             1473 ./usr/include/Poco/SingletonHolder.h
 -rw-r--r-- root       root             1741 ./usr/include/Poco/SortedDirectoryIterator.h
 -rw-r--r-- root       root             1774 ./usr/include/Poco/SplitterChannel.h
 -rw-r--r-- root       root             1814 ./usr/include/Poco/Stopwatch.h
@@ -827,15 +827,15 @@ drwxr-xr-x root       root             1040 ./usr/lib/cmake/Poco
 -rw-r--r-- root       root             1269 ./usr/lib/cmake/Poco/PocoZipConfigVersion.cmake
 -rw-r--r-- root       root             4624 ./usr/lib/cmake/Poco/PocoZipTargets.cmake
 -rw-r--r-- root       root              846 ./usr/lib/cmake/Poco/PocoZipTargets-relwithdebinfo.cmake
-lrwxrwxrwx root       root               19 ./usr/lib/libPocoCrypto.so -> libPocoCrypto.so.44
-lrwxrwxrwx root       root               17 ./usr/lib/libPocoData.so -> libPocoData.so.44
-lrwxrwxrwx root       root               23 ./usr/lib/libPocoDataSQLite.so -> libPocoDataSQLite.so.44
-lrwxrwxrwx root       root               23 ./usr/lib/libPocoFoundation.so -> libPocoFoundation.so.44
-lrwxrwxrwx root       root               17 ./usr/lib/libPocoJSON.so -> libPocoJSON.so.44
-lrwxrwxrwx root       root               20 ./usr/lib/libPocoMongoDB.so -> libPocoMongoDB.so.44
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoNet.so -> libPocoNet.so.44
-lrwxrwxrwx root       root               19 ./usr/lib/libPocoNetSSL.so -> libPocoNetSSL.so.44
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoPDF.so -> libPocoPDF.so.44
-lrwxrwxrwx root       root               17 ./usr/lib/libPocoUtil.so -> libPocoUtil.so.44
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoXML.so -> libPocoXML.so.44
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoZip.so -> libPocoZip.so.44
+lrwxrwxrwx root       root               19 ./usr/lib/libPocoCrypto.so -> libPocoCrypto.so.45
+lrwxrwxrwx root       root               17 ./usr/lib/libPocoData.so -> libPocoData.so.45
+lrwxrwxrwx root       root               23 ./usr/lib/libPocoDataSQLite.so -> libPocoDataSQLite.so.45
+lrwxrwxrwx root       root               23 ./usr/lib/libPocoFoundation.so -> libPocoFoundation.so.45
+lrwxrwxrwx root       root               17 ./usr/lib/libPocoJSON.so -> libPocoJSON.so.45
+lrwxrwxrwx root       root               20 ./usr/lib/libPocoMongoDB.so -> libPocoMongoDB.so.45
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoNet.so -> libPocoNet.so.45
+lrwxrwxrwx root       root               19 ./usr/lib/libPocoNetSSL.so -> libPocoNetSSL.so.45
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoPDF.so -> libPocoPDF.so.45
+lrwxrwxrwx root       root               17 ./usr/lib/libPocoUtil.so -> libPocoUtil.so.45
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoXML.so -> libPocoXML.so.45
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoZip.so -> libPocoZip.so.45

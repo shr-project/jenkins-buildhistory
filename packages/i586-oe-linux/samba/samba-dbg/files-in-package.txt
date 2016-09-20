@@ -1,3 +1,7 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/security
+drwxr-xr-x root       root               60 ./lib/security/.debug
+-rwxr-xr-x root       root            81040 ./lib/security/.debug/pam_winbind.so
 drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              740 ./usr/bin/.debug
@@ -34,7 +38,7 @@ drwxr-xr-x root       root              740 ./usr/bin/.debug
 -rwxr-xr-x root       root           160360 ./usr/bin/.debug/smbstatus
 -rwxr-xr-x root       root          8967016 ./usr/bin/.debug/smbtorture
 -rwxr-xr-x root       root            42412 ./usr/bin/.debug/smbtree
--rwxr-xr-x root       root            35300 ./usr/bin/.debug/testparm
+-rwxr-xr-x root       root            35388 ./usr/bin/.debug/testparm
 -rwxr-xr-x root       root            85780 ./usr/bin/.debug/wbinfo
 drwxr-xr-x root       root              120 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/ctdb-tests
@@ -175,11 +179,11 @@ drwxr-xr-x root       root             1800 ./usr/lib/samba/.debug
 -rwxr-xr-x root       root            25928 ./usr/lib/samba/.debug/libasn1util-samba4.so
 -rwxr-xr-x root       root           177888 ./usr/lib/samba/.debug/libauth4-samba4.so
 -rwxr-xr-x root       root           110992 ./usr/lib/samba/.debug/libauthkrb5-samba4.so
--rwxr-xr-x root       root           391376 ./usr/lib/samba/.debug/libauth-samba4.so
+-rwxr-xr-x root       root           410096 ./usr/lib/samba/.debug/libauth-samba4.so
 -rwxr-xr-x root       root            26468 ./usr/lib/samba/.debug/libauth-sam-reply-samba4.so
 -rwxr-xr-x root       root            18180 ./usr/lib/samba/.debug/libauth-unix-token-samba4.so
 -rwxr-xr-x root       root            35040 ./usr/lib/samba/.debug/libCHARSET3-samba4.so
--rwxr-xr-x root       root           129868 ./usr/lib/samba/.debug/libcliauth-samba4.so
+-rwxr-xr-x root       root           130468 ./usr/lib/samba/.debug/libcliauth-samba4.so
 -rwxr-xr-x root       root            50824 ./usr/lib/samba/.debug/libcli-cldap-samba4.so
 -rwxr-xr-x root       root            47584 ./usr/lib/samba/.debug/libcli-ldap-common-samba4.so
 -rwxr-xr-x root       root           169576 ./usr/lib/samba/.debug/libcli-ldap-samba4.so
@@ -238,7 +242,7 @@ drwxr-xr-x root       root             1800 ./usr/lib/samba/.debug
 -rwxr-xr-x root       root            15776 ./usr/lib/samba/.debug/libserver-role-samba4.so
 -rwxr-xr-x root       root            50040 ./usr/lib/samba/.debug/libshares-samba4.so
 -rwxr-xr-x root       root           673572 ./usr/lib/samba/.debug/libsmbclient-raw-samba4.so
--rwxr-xr-x root       root          8317924 ./usr/lib/samba/.debug/libsmbd-base-samba4.so
+-rwxr-xr-x root       root          8318452 ./usr/lib/samba/.debug/libsmbd-base-samba4.so
 -rwxr-xr-x root       root            57596 ./usr/lib/samba/.debug/libsmbd-conn-samba4.so
 -rwxr-xr-x root       root            37268 ./usr/lib/samba/.debug/libsmbd-shim-samba4.so
 -rwxr-xr-x root       root            38604 ./usr/lib/samba/.debug/libsmbldaphelper-samba4.so
@@ -328,7 +332,7 @@ drwxr-xr-x root       root              120 ./usr/sbin/.debug
 -rwxr-xr-x root       root          1274960 ./usr/sbin/.debug/ctdbd
 -rwxr-xr-x root       root           582568 ./usr/sbin/.debug/nmbd
 -rwxr-xr-x root       root           195792 ./usr/sbin/.debug/smbd
--rwxr-xr-x root       root          3054224 ./usr/sbin/.debug/winbindd
+-rwxr-xr-x root       root          3054664 ./usr/sbin/.debug/winbindd
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/samba
@@ -795,7 +799,7 @@ drwxr-xr-x root       root              340 ./usr/src/debug/samba/4.4.5-r0/samba
 drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/bin/default/source3/param
 -rw-r--r-- root       root            15028 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/bin/default/source3/param/param_proto.h
 drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/bin/default/source3/smbd
--rw-r--r-- root       root            88061 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/bin/default/source3/smbd/build_options.c
+-rw-r--r-- root       root            88788 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/bin/default/source3/smbd/build_options.c
 drwxr-xr-x root       root              180 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/bin/default/source4
 drwxr-xr-x root       root              140 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/bin/default/source4/auth
 -rw-r--r-- root       root             1383 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/bin/default/source4/auth/auth_sam.h
@@ -1540,7 +1544,7 @@ drwxr-xr-x root       root              240 ./usr/src/debug/samba/4.4.5-r0/samba
 -rw-r--r-- root       root             8042 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/lib/util/util_tdb.h
 -rw-r--r-- root       root             8485 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/lib/util/xfile.c
 -rw-r--r-- root       root             2662 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/lib/util/xfile.h
-drwxr-xr-x root       root              280 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch
+drwxr-xr-x root       root              320 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch
 drwxr-xr-x root       root              240 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/libwbclient
 drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/libwbclient/tests
 -rw-r--r-- root       root            26017 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/libwbclient/tests/wbclient.c
@@ -1553,6 +1557,8 @@ drwxr-xr-x root       root               60 ./usr/src/debug/samba/4.4.5-r0/samba
 -rw-r--r-- root       root            14761 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/libwbclient/wbc_pwd.c
 -rw-r--r-- root       root            24563 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/libwbclient/wbc_sid.c
 -rw-r--r-- root       root            21093 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/libwbclient/wbc_util.c
+-rw-r--r-- root       root            81011 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/pam_winbind.c
+-rw-r--r-- root       root             7546 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/pam_winbind.h
 -rw-r--r-- root       root            16221 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/wb_common.c
 -rw-r--r-- root       root            66333 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/wbinfo.c
 -rw-r--r-- root       root            11682 ./usr/src/debug/samba/4.4.5-r0/samba-4.4.5/nsswitch/wb_reqtrans.c
