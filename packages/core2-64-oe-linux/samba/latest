@@ -1,4 +1,4 @@
 PV = 4.4.5
 PR = r0
-DEPENDS = acl avahi cups docbook-xsl-stylesheets-native krb5 libaio libbsd libldb libtalloc libtdb libtevent libxslt-native openldap perl perl-native popt python python-native qemu-native readline systemd systemd-systemctl-native virtual/libc virtual/libiconv virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
+DEPENDS = acl avahi cups docbook-xsl-stylesheets-native krb5 libaio libbsd libldb libpam libtalloc libtdb libtevent libxslt-native openldap perl perl-native popt python python-native qemu-native readline systemd systemd-systemctl-native virtual/libc virtual/libiconv virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
 PACKAGES = libwbclient libnss-winbind winbind winbind-dbg libnetapi libsmbsharemodes libsmbclient libsmbclient-dev libsamba-base samba-base samba-ctdb-tests samba-python samba-python-dbg samba-pidl libwinbind libwinbind-dbg libwinbind-krb5-locator samba-dbg samba-staticdev samba-dev samba-doc samba-locale samba

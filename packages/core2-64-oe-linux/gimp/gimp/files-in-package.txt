@@ -2,7 +2,7 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/gimp
 drwxr-xr-x root       root              180 ./etc/gimp/2.0
 -rw-r--r-- root       root             2927 ./etc/gimp/2.0/controllerrc
--rw-r--r-- root       root            23761 ./etc/gimp/2.0/gimprc
+-rw-r--r-- root       root            23760 ./etc/gimp/2.0/gimprc
 -rw-r--r-- root       root              430 ./etc/gimp/2.0/gtkrc
 -rw-r--r-- root       root              117 ./etc/gimp/2.0/menurc
 -rw-r--r-- root       root             1508 ./etc/gimp/2.0/sessionrc
@@ -10,11 +10,11 @@ drwxr-xr-x root       root              180 ./etc/gimp/2.0
 -rw-r--r-- root       root             1140 ./etc/gimp/2.0/unitrc
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
--rwxr-xr-x root       root          5815184 ./usr/bin/gimp-2.8
--rwxr-xr-x root       root          2698456 ./usr/bin/gimp-console-2.8
+-rwxr-xr-x root       root          5819216 ./usr/bin/gimp-2.8
+-rwxr-xr-x root       root          2698520 ./usr/bin/gimp-console-2.8
 lrwxrwxrwx root       root               16 ./usr/bin/gimp-console -> gimp-console-2.8
 lrwxrwxrwx root       root                8 ./usr/bin/gimp -> gimp-2.8
--rwxr-xr-x root       root            18888 ./usr/bin/gimptool-2.0
+-rwxr-xr-x root       root            18896 ./usr/bin/gimptool-2.0
 drwxr-xr-x root       root              420 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/gimp
 drwxr-xr-x root       root              120 ./usr/lib/gimp/2.0
@@ -75,7 +75,7 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            10752 ./usr/lib/gimp/2.0/plug-ins/contrast-stretch-hsv
 -rwxr-xr-x root       root            27624 ./usr/lib/gimp/2.0/plug-ins/convolution-matrix
 -rwxr-xr-x root       root            14928 ./usr/lib/gimp/2.0/plug-ins/crop-auto
--rwxr-xr-x root       root            14904 ./usr/lib/gimp/2.0/plug-ins/crop-zealous
+-rwxr-xr-x root       root            14936 ./usr/lib/gimp/2.0/plug-ins/crop-zealous
 -rwxr-xr-x root       root            23440 ./usr/lib/gimp/2.0/plug-ins/cubism
 -rwxr-xr-x root       root            52992 ./usr/lib/gimp/2.0/plug-ins/curve-bend
 -rwxr-xr-x root       root            31992 ./usr/lib/gimp/2.0/plug-ins/decompose
@@ -94,7 +94,7 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            19192 ./usr/lib/gimp/2.0/plug-ins/engrave
 -rwxr-xr-x root       root            35776 ./usr/lib/gimp/2.0/plug-ins/file-bmp
 -rwxr-xr-x root       root            19224 ./usr/lib/gimp/2.0/plug-ins/file-cel
--rwxr-xr-x root       root            14976 ./usr/lib/gimp/2.0/plug-ins/file-compressor
+-rwxr-xr-x root       root            19128 ./usr/lib/gimp/2.0/plug-ins/file-compressor
 -rwxr-xr-x root       root            27640 ./usr/lib/gimp/2.0/plug-ins/file-csource
 -rwxr-xr-x root       root            10664 ./usr/lib/gimp/2.0/plug-ins/file-desktop-link
 -rwxr-xr-x root       root            27552 ./usr/lib/gimp/2.0/plug-ins/file-dicom
@@ -114,18 +114,18 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            19584 ./usr/lib/gimp/2.0/plug-ins/file-pat
 -rwxr-xr-x root       root            19120 ./usr/lib/gimp/2.0/plug-ins/file-pcx
 -rwxr-xr-x root       root            36360 ./usr/lib/gimp/2.0/plug-ins/file-pdf-load
--rwxr-xr-x root       root            41168 ./usr/lib/gimp/2.0/plug-ins/file-pdf-save
+-rwxr-xr-x root       root            41200 ./usr/lib/gimp/2.0/plug-ins/file-pdf-save
 -rwxr-xr-x root       root            14952 ./usr/lib/gimp/2.0/plug-ins/file-pix
--rwxr-xr-x root       root            44656 ./usr/lib/gimp/2.0/plug-ins/file-png
+-rwxr-xr-x root       root            44664 ./usr/lib/gimp/2.0/plug-ins/file-png
 -rwxr-xr-x root       root            27432 ./usr/lib/gimp/2.0/plug-ins/file-pnm
 -rwxr-xr-x root       root            52552 ./usr/lib/gimp/2.0/plug-ins/file-psd-load
 -rwxr-xr-x root       root            27512 ./usr/lib/gimp/2.0/plug-ins/file-psd-save
 -rwxr-xr-x root       root            27536 ./usr/lib/gimp/2.0/plug-ins/file-psp
--rwxr-xr-x root       root            27696 ./usr/lib/gimp/2.0/plug-ins/file-raw
+-rwxr-xr-x root       root            27712 ./usr/lib/gimp/2.0/plug-ins/file-raw
 -rwxr-xr-x root       root            23328 ./usr/lib/gimp/2.0/plug-ins/file-sgi
 -rwxr-xr-x root       root            27464 ./usr/lib/gimp/2.0/plug-ins/file-sunras
 -rwxr-xr-x root       root            27864 ./usr/lib/gimp/2.0/plug-ins/file-svg
--rwxr-xr-x root       root            23456 ./usr/lib/gimp/2.0/plug-ins/file-tga
+-rwxr-xr-x root       root            27568 ./usr/lib/gimp/2.0/plug-ins/file-tga
 -rwxr-xr-x root       root            36032 ./usr/lib/gimp/2.0/plug-ins/file-tiff-load
 -rwxr-xr-x root       root            27744 ./usr/lib/gimp/2.0/plug-ins/file-tiff-save
 -rwxr-xr-x root       root            19120 ./usr/lib/gimp/2.0/plug-ins/file-uri
@@ -213,29 +213,29 @@ drwxr-xr-x root       root             3420 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            10624 ./usr/lib/gimp/2.0/plug-ins/web-browser
 -rwxr-xr-x root       root            19320 ./usr/lib/gimp/2.0/plug-ins/whirl-pinch
 -rwxr-xr-x root       root            23328 ./usr/lib/gimp/2.0/plug-ins/wind
--rwxr-xr-x root       root           271032 ./usr/lib/libgimp-2.0.so.0.800.14
-lrwxrwxrwx root       root               23 ./usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.800.14
--rwxr-xr-x root       root           105872 ./usr/lib/libgimpbase-2.0.so.0.800.14
-lrwxrwxrwx root       root               27 ./usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.800.14
--rwxr-xr-x root       root            55984 ./usr/lib/libgimpcolor-2.0.so.0.800.14
-lrwxrwxrwx root       root               28 ./usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.800.14
--rwxr-xr-x root       root            69440 ./usr/lib/libgimpconfig-2.0.so.0.800.14
-lrwxrwxrwx root       root               29 ./usr/lib/libgimpconfig-2.0.so.0 -> libgimpconfig-2.0.so.0.800.14
--rwxr-xr-x root       root            23016 ./usr/lib/libgimpmath-2.0.so.0.800.14
-lrwxrwxrwx root       root               27 ./usr/lib/libgimpmath-2.0.so.0 -> libgimpmath-2.0.so.0.800.14
--rwxr-xr-x root       root            19088 ./usr/lib/libgimpmodule-2.0.so.0.800.14
-lrwxrwxrwx root       root               29 ./usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.800.14
--rwxr-xr-x root       root            39928 ./usr/lib/libgimpthumb-2.0.so.0.800.14
-lrwxrwxrwx root       root               28 ./usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.800.14
--rwxr-xr-x root       root           137720 ./usr/lib/libgimpui-2.0.so.0.800.14
-lrwxrwxrwx root       root               25 ./usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.800.14
--rwxr-xr-x root       root          1272152 ./usr/lib/libgimpwidgets-2.0.so.0.800.14
-lrwxrwxrwx root       root               30 ./usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.800.14
+-rwxr-xr-x root       root           271032 ./usr/lib/libgimp-2.0.so.0.800.18
+lrwxrwxrwx root       root               23 ./usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.800.18
+-rwxr-xr-x root       root           105896 ./usr/lib/libgimpbase-2.0.so.0.800.18
+lrwxrwxrwx root       root               27 ./usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.800.18
+-rwxr-xr-x root       root            55984 ./usr/lib/libgimpcolor-2.0.so.0.800.18
+lrwxrwxrwx root       root               28 ./usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.800.18
+-rwxr-xr-x root       root            69440 ./usr/lib/libgimpconfig-2.0.so.0.800.18
+lrwxrwxrwx root       root               29 ./usr/lib/libgimpconfig-2.0.so.0 -> libgimpconfig-2.0.so.0.800.18
+-rwxr-xr-x root       root            23016 ./usr/lib/libgimpmath-2.0.so.0.800.18
+lrwxrwxrwx root       root               27 ./usr/lib/libgimpmath-2.0.so.0 -> libgimpmath-2.0.so.0.800.18
+-rwxr-xr-x root       root            19088 ./usr/lib/libgimpmodule-2.0.so.0.800.18
+lrwxrwxrwx root       root               29 ./usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.800.18
+-rwxr-xr-x root       root            39928 ./usr/lib/libgimpthumb-2.0.so.0.800.18
+lrwxrwxrwx root       root               28 ./usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.800.18
+-rwxr-xr-x root       root           137720 ./usr/lib/libgimpui-2.0.so.0.800.18
+lrwxrwxrwx root       root               25 ./usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.800.18
+-rwxr-xr-x root       root          1272184 ./usr/lib/libgimpwidgets-2.0.so.0.800.18
+lrwxrwxrwx root       root               30 ./usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.800.18
 drwxr-xr-x root       root              120 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/appdata
--rw-r--r-- root       root            12401 ./usr/share/appdata/gimp.appdata.xml
+-rw-r--r-- root       root            24638 ./usr/share/appdata/gimp.appdata.xml
 drwxr-xr-x root       root               60 ./usr/share/applications
--rw-r--r-- root       root            11017 ./usr/share/applications/gimp.desktop
+-rw-r--r-- root       root            11478 ./usr/share/applications/gimp.desktop
 drwxr-xr-x root       root               60 ./usr/share/gimp
 drwxr-xr-x root       root              400 ./usr/share/gimp/2.0
 drwxr-xr-x root       root              180 ./usr/share/gimp/2.0/brushes
@@ -765,8 +765,8 @@ drwxr-xr-x root       root             2040 ./usr/share/gimp/2.0/scripts
 -rw-r--r-- root       root             7628 ./usr/share/gimp/2.0/scripts/coolmetal-logo.scm
 -rw-r--r-- root       root             1813 ./usr/share/gimp/2.0/scripts/copy-visible.scm
 -rw-r--r-- root       root             8106 ./usr/share/gimp/2.0/scripts/crystal-logo.scm
--rw-r--r-- root       root             3083 ./usr/share/gimp/2.0/scripts/difference-clouds.scm
--rw-r--r-- root       root             4123 ./usr/share/gimp/2.0/scripts/distress-selection.scm
+-rw-r--r-- root       root             3138 ./usr/share/gimp/2.0/scripts/difference-clouds.scm
+-rw-r--r-- root       root             4240 ./usr/share/gimp/2.0/scripts/distress-selection.scm
 -rw-r--r-- root       root             7170 ./usr/share/gimp/2.0/scripts/drop-shadow.scm
 -rw-r--r-- root       root             1830 ./usr/share/gimp/2.0/scripts/erase-rows.scm
 -rw-r--r-- root       root             2618 ./usr/share/gimp/2.0/scripts/flatland.scm
@@ -792,12 +792,12 @@ drwxr-xr-x root       root              140 ./usr/share/gimp/2.0/scripts/images
 -rw-r--r-- root       root            22622 ./usr/share/gimp/2.0/scripts/images/texture.jpg
 -rw-r--r-- root       root             3417 ./usr/share/gimp/2.0/scripts/land.scm
 -rw-r--r-- root       root             4762 ./usr/share/gimp/2.0/scripts/lava.scm
--rw-r--r-- root       root             3708 ./usr/share/gimp/2.0/scripts/line-nova.scm
+-rw-r--r-- root       root             3806 ./usr/share/gimp/2.0/scripts/line-nova.scm
 -rw-r--r-- root       root             9101 ./usr/share/gimp/2.0/scripts/mkbrush.scm
 -rw-r--r-- root       root             9824 ./usr/share/gimp/2.0/scripts/neon-logo.scm
 -rw-r--r-- root       root             3461 ./usr/share/gimp/2.0/scripts/news-text.scm
 -rw-r--r-- root       root             3537 ./usr/share/gimp/2.0/scripts/old-photo.scm
--rw-r--r-- root       root            17088 ./usr/share/gimp/2.0/scripts/palette-export.scm
+-rw-r--r-- root       root            16955 ./usr/share/gimp/2.0/scripts/palette-export.scm
 -rw-r--r-- root       root             2536 ./usr/share/gimp/2.0/scripts/paste-as-brush.scm
 -rw-r--r-- root       root             2131 ./usr/share/gimp/2.0/scripts/paste-as-pattern.scm
 -rw-r--r-- root       root             8744 ./usr/share/gimp/2.0/scripts/perspective-shadow.scm
@@ -825,7 +825,7 @@ drwxr-xr-x root       root              140 ./usr/share/gimp/2.0/scripts/images
 -rw-r--r-- root       root             2473 ./usr/share/gimp/2.0/scripts/swirltile.scm
 -rw-r--r-- root       root             3029 ./usr/share/gimp/2.0/scripts/swirly-pattern.scm
 -rw-r--r-- root       root             7705 ./usr/share/gimp/2.0/scripts/text-circle.scm
--rw-r--r-- root       root             7752 ./usr/share/gimp/2.0/scripts/textured-logo.scm
+-rw-r--r-- root       root             7688 ./usr/share/gimp/2.0/scripts/textured-logo.scm
 -rw-r--r-- root       root             2911 ./usr/share/gimp/2.0/scripts/tileblur.scm
 -rw-r--r-- root       root             6469 ./usr/share/gimp/2.0/scripts/title-header.scm
 -rw-r--r-- root       root             6143 ./usr/share/gimp/2.0/scripts/t-o-p-logo.scm
@@ -835,7 +835,7 @@ drwxr-xr-x root       root              140 ./usr/share/gimp/2.0/scripts/images
 -rw-r--r-- root       root            15029 ./usr/share/gimp/2.0/scripts/weave.scm
 -rw-r--r-- root       root             5489 ./usr/share/gimp/2.0/scripts/xach-effect.scm
 drwxr-xr-x root       root               60 ./usr/share/gimp/2.0/tags
--rw-r--r-- root       root             5818 ./usr/share/gimp/2.0/tags/gimp-tags-default.xml
+-rw-r--r-- root       root             6609 ./usr/share/gimp/2.0/tags/gimp-tags-default.xml
 drwxr-xr-x root       root               80 ./usr/share/gimp/2.0/themes
 drwxr-xr-x root       root               80 ./usr/share/gimp/2.0/themes/Default
 -rw-r--r-- root       root             2830 ./usr/share/gimp/2.0/themes/Default/gtkrc
@@ -912,7 +912,7 @@ drwxr-xr-x root       root             1320 ./usr/share/gimp/2.0/themes/Default/
 drwxr-xr-x root       root               60 ./usr/share/gimp/2.0/themes/Small
 -rw-r--r-- root       root             3179 ./usr/share/gimp/2.0/themes/Small/gtkrc
 drwxr-xr-x root       root               60 ./usr/share/gimp/2.0/tips
--rw-r--r-- root       root           484701 ./usr/share/gimp/2.0/tips/gimp-tips.xml
+-rw-r--r-- root       root           511093 ./usr/share/gimp/2.0/tips/gimp-tips.xml
 drwxr-xr-x root       root              120 ./usr/share/gimp/2.0/tool-presets
 drwxr-xr-x root       root              200 ./usr/share/gimp/2.0/tool-presets/FX
 -rw-r--r-- root       root              451 ./usr/share/gimp/2.0/tool-presets/FX/Crop-16-9.gtp

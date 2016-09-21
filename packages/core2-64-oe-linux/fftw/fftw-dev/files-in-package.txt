@@ -5,10 +5,20 @@ drwxr-xr-x root       root              140 ./usr/include
 -rw-r--r-- root       root            17900 ./usr/include/fftw3.h
 -rw-r--r-- root       root            26820 ./usr/include/fftw3l.f03
 -rw-r--r-- root       root            25413 ./usr/include/fftw3q.f03
-drwxr-xr-x root       root              140 ./usr/lib
+drwxr-xr-x root       root              300 ./usr/lib
+-rwxr-xr-x root       root              917 ./usr/lib/libfftw3f.la
+lrwxrwxrwx root       root               18 ./usr/lib/libfftw3f.so -> libfftw3f.so.3.4.4
+-rwxr-xr-x root       root              997 ./usr/lib/libfftw3f_threads.la
+lrwxrwxrwx root       root               26 ./usr/lib/libfftw3f_threads.so -> libfftw3f_threads.so.3.4.4
 -rwxr-xr-x root       root              911 ./usr/lib/libfftw3.la
+-rwxr-xr-x root       root              917 ./usr/lib/libfftw3l.la
+lrwxrwxrwx root       root               18 ./usr/lib/libfftw3l.so -> libfftw3l.so.3.4.4
+-rwxr-xr-x root       root              997 ./usr/lib/libfftw3l_threads.la
+lrwxrwxrwx root       root               26 ./usr/lib/libfftw3l_threads.so -> libfftw3l_threads.so.3.4.4
 lrwxrwxrwx root       root               17 ./usr/lib/libfftw3.so -> libfftw3.so.3.4.4
 -rwxr-xr-x root       root              990 ./usr/lib/libfftw3_threads.la
 lrwxrwxrwx root       root               25 ./usr/lib/libfftw3_threads.so -> libfftw3_threads.so.3.4.4
-drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
+drwxr-xr-x root       root              100 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              210 ./usr/lib/pkgconfig/fftw3f.pc
+-rw-r--r-- root       root              210 ./usr/lib/pkgconfig/fftw3l.pc
 -rw-r--r-- root       root              209 ./usr/lib/pkgconfig/fftw3.pc

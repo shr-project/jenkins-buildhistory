@@ -5,10 +5,9 @@ drwxr-xr-x root       root              100 ./bin
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/default
 -rw-r--r-- root       root               36 ./etc/default/mountall
-drwxr-xr-x root       root              160 ./sbin
+drwxr-xr-x root       root              140 ./sbin
 -rwxr-xr-x root       root            35688 ./sbin/blockdev.util-linux
 -rwxr-xr-x root       root            19000 ./sbin/ctrlaltdel
--rwxr-xr-x root       root            72856 ./sbin/mkfs.minix.util-linux
 -rwxr-xr-x root       root            68840 ./sbin/mkswap.util-linux
 -rwxr-xr-x root       root            10632 ./sbin/pivot_root.util-linux
 -rwxr-xr-x root       root            14864 ./sbin/switch_root.util-linux
@@ -65,7 +64,7 @@ lrwxrwxrwx root       root                7 ./usr/bin/uname26 -> setarch
 -rwxr-xr-x root       root            23664 ./usr/bin/whereis
 -rwxr-xr-x root       root            14976 ./usr/bin/write
 lrwxrwxrwx root       root                7 ./usr/bin/x86_64 -> setarch
-drwxr-xr-x root       root              340 ./usr/sbin
+drwxr-xr-x root       root              320 ./usr/sbin
 -rwxr-xr-x root       root            18928 ./usr/sbin/addpart
 -rwxr-xr-x root       root            23120 ./usr/sbin/blkdiscard
 -rwxr-xr-x root       root            23096 ./usr/sbin/chcpu
@@ -73,7 +72,6 @@ drwxr-xr-x root       root              340 ./usr/sbin
 -rwxr-xr-x root       root            27272 ./usr/sbin/fdformat
 -rwxr-xr-x root       root            10656 ./usr/sbin/fsfreeze
 -rwxr-xr-x root       root            27304 ./usr/sbin/ldattach
--rwxr-xr-x root       root            27264 ./usr/sbin/mkfs.bfs
 -rwxr-xr-x root       root            10576 ./usr/sbin/nologin
 -rwxr-xr-x root       root            14744 ./usr/sbin/raw
 -rwxr-xr-x root       root            35744 ./usr/sbin/resizepart

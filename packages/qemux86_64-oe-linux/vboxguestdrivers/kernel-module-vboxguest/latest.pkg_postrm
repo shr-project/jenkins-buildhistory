@@ -1,1 +1,1 @@
-#!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.4.18-yocto-standard\nelse\n\tdepmodwrapper -a -b $D 4.4.18-yocto-standard\nfi\n\n
+#!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.8.0-rc6-yocto-standard\nelse\n\tdepmodwrapper -a -b $D 4.8.0-rc6-yocto-standard\nfi\n\n
