@@ -30,7 +30,7 @@ drwxr-xr-x root       root             1020 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- root       root              715 ./usr/lib/python2.7/site-packages/numpy/core/cversions.pyc
 -rw-r--r-- root       root            67850 ./usr/lib/python2.7/site-packages/numpy/core/defchararray.py
 -rw-r--r-- root       root            75717 ./usr/lib/python2.7/site-packages/numpy/core/defchararray.pyc
--rwxr-xr-x root       root             5592 ./usr/lib/python2.7/site-packages/numpy/core/_dummy.so
+-rwxr-xr-x root       root             5600 ./usr/lib/python2.7/site-packages/numpy/core/_dummy.so
 -rw-r--r-- root       root            96053 ./usr/lib/python2.7/site-packages/numpy/core/fromnumeric.py
 -rw-r--r-- root       root            98905 ./usr/lib/python2.7/site-packages/numpy/core/fromnumeric.pyc
 -rw-r--r-- root       root             6891 ./usr/lib/python2.7/site-packages/numpy/core/function_base.py
@@ -83,13 +83,13 @@ drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- root       root            10354 ./usr/lib/python2.7/site-packages/numpy/core/memmap.pyc
 -rw-r--r-- root       root             4308 ./usr/lib/python2.7/site-packages/numpy/core/_methods.py
 -rw-r--r-- root       root             4739 ./usr/lib/python2.7/site-packages/numpy/core/_methods.pyc
--rwxr-xr-x root       root          1672208 ./usr/lib/python2.7/site-packages/numpy/core/multiarray.so
--rwxr-xr-x root       root            71912 ./usr/lib/python2.7/site-packages/numpy/core/multiarray_tests.so
+-rwxr-xr-x root       root          1672220 ./usr/lib/python2.7/site-packages/numpy/core/multiarray.so
+-rwxr-xr-x root       root            71920 ./usr/lib/python2.7/site-packages/numpy/core/multiarray_tests.so
 -rw-r--r-- root       root            88743 ./usr/lib/python2.7/site-packages/numpy/core/numeric.py
 -rw-r--r-- root       root            91263 ./usr/lib/python2.7/site-packages/numpy/core/numeric.pyc
 -rw-r--r-- root       root            28784 ./usr/lib/python2.7/site-packages/numpy/core/numerictypes.py
 -rw-r--r-- root       root            27965 ./usr/lib/python2.7/site-packages/numpy/core/numerictypes.pyc
--rwxr-xr-x root       root             9740 ./usr/lib/python2.7/site-packages/numpy/core/operand_flag_tests.so
+-rwxr-xr-x root       root             9748 ./usr/lib/python2.7/site-packages/numpy/core/operand_flag_tests.so
 -rw-r--r-- root       root            29435 ./usr/lib/python2.7/site-packages/numpy/core/records.py
 -rw-r--r-- root       root            25072 ./usr/lib/python2.7/site-packages/numpy/core/records.pyc
 -rw-r--r-- root       root            14166 ./usr/lib/python2.7/site-packages/numpy/core/setup_common.py
@@ -98,8 +98,8 @@ drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- root       root            27240 ./usr/lib/python2.7/site-packages/numpy/core/setup.pyc
 -rw-r--r-- root       root             9051 ./usr/lib/python2.7/site-packages/numpy/core/shape_base.py
 -rw-r--r-- root       root             9876 ./usr/lib/python2.7/site-packages/numpy/core/shape_base.pyc
--rwxr-xr-x root       root             9736 ./usr/lib/python2.7/site-packages/numpy/core/struct_ufunc_test.so
--rwxr-xr-x root       root            47240 ./usr/lib/python2.7/site-packages/numpy/core/test_rational.so
+-rwxr-xr-x root       root             9744 ./usr/lib/python2.7/site-packages/numpy/core/struct_ufunc_test.so
+-rwxr-xr-x root       root            47252 ./usr/lib/python2.7/site-packages/numpy/core/test_rational.so
 drwxr-xr-x root       root              760 ./usr/lib/python2.7/site-packages/numpy/core/tests
 drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/numpy/core/tests/data
 -rw-r--r-- root       root              716 ./usr/lib/python2.7/site-packages/numpy/core/tests/data/astype_copy.pkl
@@ -139,8 +139,8 @@ drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- root       root            19800 ./usr/lib/python2.7/site-packages/numpy/core/tests/test_umath_complex.py
 -rw-r--r-- root       root            75085 ./usr/lib/python2.7/site-packages/numpy/core/tests/test_umath.py
 -rw-r--r-- root       root            12638 ./usr/lib/python2.7/site-packages/numpy/core/tests/test_unicode.py
--rwxr-xr-x root       root           637024 ./usr/lib/python2.7/site-packages/numpy/core/umath.so
--rwxr-xr-x root       root            18112 ./usr/lib/python2.7/site-packages/numpy/core/umath_tests.so
+-rwxr-xr-x root       root           637032 ./usr/lib/python2.7/site-packages/numpy/core/umath.so
+-rwxr-xr-x root       root            14024 ./usr/lib/python2.7/site-packages/numpy/core/umath_tests.so
 -rw-r--r-- root       root            14636 ./usr/lib/python2.7/site-packages/numpy/ctypeslib.py
 -rw-r--r-- root       root            13992 ./usr/lib/python2.7/site-packages/numpy/ctypeslib.pyc
 drwxr-xr-x root       root             1200 ./usr/lib/python2.7/site-packages/numpy/distutils
@@ -380,7 +380,7 @@ drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- root       root              254 ./usr/lib/python2.7/site-packages/numpy/f2py/__version__.py
 -rw-r--r-- root       root              488 ./usr/lib/python2.7/site-packages/numpy/f2py/__version__.pyc
 drwxr-xr-x root       root              280 ./usr/lib/python2.7/site-packages/numpy/fft
--rwxr-xr-x root       root            38588 ./usr/lib/python2.7/site-packages/numpy/fft/fftpack_lite.so
+-rwxr-xr-x root       root            38596 ./usr/lib/python2.7/site-packages/numpy/fft/fftpack_lite.so
 -rw-r--r-- root       root            45592 ./usr/lib/python2.7/site-packages/numpy/fft/fftpack.py
 -rw-r--r-- root       root            47044 ./usr/lib/python2.7/site-packages/numpy/fft/fftpack.pyc
 -rw-r--r-- root       root             6207 ./usr/lib/python2.7/site-packages/numpy/fft/helper.py
@@ -484,7 +484,7 @@ drwxr-xr-x root       root              260 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- root       root             1421 ./usr/lib/python2.7/site-packages/numpy/linalg/info.pyc
 -rw-r--r-- root       root             2343 ./usr/lib/python2.7/site-packages/numpy/linalg/__init__.py
 -rw-r--r-- root       root             2577 ./usr/lib/python2.7/site-packages/numpy/linalg/__init__.pyc
--rwxr-xr-x root       root          1564840 ./usr/lib/python2.7/site-packages/numpy/linalg/lapack_lite.so
+-rwxr-xr-x root       root          1564848 ./usr/lib/python2.7/site-packages/numpy/linalg/lapack_lite.so
 -rw-r--r-- root       root            75865 ./usr/lib/python2.7/site-packages/numpy/linalg/linalg.py
 -rw-r--r-- root       root            74841 ./usr/lib/python2.7/site-packages/numpy/linalg/linalg.pyc
 -rw-r--r-- root       root             1735 ./usr/lib/python2.7/site-packages/numpy/linalg/setup.py
@@ -494,7 +494,7 @@ drwxr-xr-x root       root              120 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- root       root              776 ./usr/lib/python2.7/site-packages/numpy/linalg/tests/test_deprecations.py
 -rw-r--r-- root       root            51146 ./usr/lib/python2.7/site-packages/numpy/linalg/tests/test_linalg.py
 -rw-r--r-- root       root             5286 ./usr/lib/python2.7/site-packages/numpy/linalg/tests/test_regression.py
--rwxr-xr-x root       root          1689228 ./usr/lib/python2.7/site-packages/numpy/linalg/_umath_linalg.so
+-rwxr-xr-x root       root          1689236 ./usr/lib/python2.7/site-packages/numpy/linalg/_umath_linalg.so
 drwxr-xr-x root       root              420 ./usr/lib/python2.7/site-packages/numpy/ma
 -rw-r--r-- root       root             4917 ./usr/lib/python2.7/site-packages/numpy/ma/bench.py
 -rw-r--r-- root       root             4806 ./usr/lib/python2.7/site-packages/numpy/ma/bench.pyc
@@ -571,7 +571,7 @@ drwxr-xr-x root       root              220 ./usr/lib/python2.7/site-packages/nu
 -rw-r--r-- root       root             5521 ./usr/lib/python2.7/site-packages/numpy/random/info.pyc
 -rw-r--r-- root       root             5492 ./usr/lib/python2.7/site-packages/numpy/random/__init__.py
 -rw-r--r-- root       root             5922 ./usr/lib/python2.7/site-packages/numpy/random/__init__.pyc
--rwxr-xr-x root       root           787952 ./usr/lib/python2.7/site-packages/numpy/random/mtrand.so
+-rwxr-xr-x root       root           787960 ./usr/lib/python2.7/site-packages/numpy/random/mtrand.so
 -rw-r--r-- root       root             6799 ./usr/lib/python2.7/site-packages/numpy/random/randomkit.h
 -rw-r--r-- root       root             2216 ./usr/lib/python2.7/site-packages/numpy/random/setup.py
 -rw-r--r-- root       root             2455 ./usr/lib/python2.7/site-packages/numpy/random/setup.pyc

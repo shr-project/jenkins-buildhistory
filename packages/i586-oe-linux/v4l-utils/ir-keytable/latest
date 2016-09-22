@@ -1,9 +1,9 @@
 PV = 1.10.1
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) rc-keymaps
 RRECOMMENDS = 
-PKGSIZE = 43793
+PKGSIZE = 43801
 FILES = /usr/bin/ir-keytable /lib/udev/rules.d/*-infrared.rules
 FILELIST = /lib/udev/rules.d/70-infrared.rules /usr/bin/ir-keytable

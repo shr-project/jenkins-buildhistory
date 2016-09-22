@@ -1,9 +1,9 @@
 PV = 1.4.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) libcap (>= 2.25) libevdev (>= 1.5.2) libudev (>= 230+git0+3a74d4fc90) mtdev (>= 1.1.5)
 RRECOMMENDS = 
-PKGSIZE = 284607
+PKGSIZE = 284655
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libinput /usr/lib/libinput/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/udev/
 FILELIST = /usr/bin/libinput-debug-events /usr/bin/libinput-list-devices /usr/lib/libinput.so.10 /usr/lib/libinput.so.10.9.2 /usr/lib/udev/hwdb.d/90-libinput-model-quirks.hwdb /usr/lib/udev/libinput-device-group /usr/lib/udev/libinput-model-quirks /usr/lib/udev/rules.d/80-libinput-device-groups.rules /usr/lib/udev/rules.d/90-libinput-model-quirks.rules

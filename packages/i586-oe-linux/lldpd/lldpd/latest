@@ -1,9 +1,9 @@
 PV = 0.9.2
 PR = r0
-PKGR = r0.29
+PKGR = r0.30
 RPROVIDES = 
 RDEPENDS = base-files base-passwd glibc (>= 2.24) libbsd (>= 0.8.3) libevent (>= 2.0.22) os-release shadow
 RRECOMMENDS = 
-PKGSIZE = 299395
+PKGSIZE = 291179
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lldpd /usr/lib/lldpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/sysusers.d /lib/systemd/system/lldpd.service
 FILELIST = /etc/default/lldpd /etc/lldpd.conf /etc/lldpd.d/README.conf /lib/systemd/system/lldpd.service /usr/lib/liblldpctl.so.4 /usr/lib/liblldpctl.so.4.8.0 /usr/sbin/lldpcli /usr/sbin/lldpctl /usr/sbin/lldpd

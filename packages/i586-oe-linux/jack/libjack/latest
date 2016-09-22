@@ -1,9 +1,9 @@
 PV = 0.125.0rc1
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = db (>= 6.0.30) glibc (>= 2.24) libasound (>= 1.1.2) libsamplerate0 (>= 0.1.8)
 RRECOMMENDS = 
-PKGSIZE = 467012
+PKGSIZE = 466972
 FILES = /usr/lib/*.so.* /usr/lib/jack/*.so
 FILELIST = /usr/lib/jack/inprocess.so /usr/lib/jack/intime.so /usr/lib/jack/jack_alsa.so /usr/lib/jack/jack_alsa_midi.so /usr/lib/jack/jack_dummy.so /usr/lib/jack/jack_net.so /usr/lib/libjack.so.0 /usr/lib/libjack.so.0.0.28 /usr/lib/libjackserver.so.0 /usr/lib/libjackserver.so.0.0.28

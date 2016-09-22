@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./bin
--rwxr-xr-x root       root           522456 ./bin/machinectl
+-rwxr-xr-x root       root           522416 ./bin/machinectl
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/dbus-1
 drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
@@ -9,7 +9,7 @@ drwxr-xr-x root       root               80 ./lib/systemd
 drwxr-xr-x root       root              200 ./lib/systemd/system
 drwxr-xr-x root       root               60 ./lib/systemd/system/busnames.target.wants
 lrwxrwxrwx root       root               35 ./lib/systemd/system/busnames.target.wants/org.freedesktop.machine1.busname -> ../org.freedesktop.machine1.busname
--rwxr-xr-x root       root           514672 ./lib/systemd/systemd-machined
+-rwxr-xr-x root       root           514632 ./lib/systemd/systemd-machined
 drwxr-xr-x root       root               60 ./lib/systemd/system/local-fs.target.wants
 lrwxrwxrwx root       root               25 ./lib/systemd/system/local-fs.target.wants/var-lib-machines.mount -> ../var-lib-machines.mount
 -rw-r--r-- root       root              405 ./lib/systemd/system/machine.slice
@@ -20,9 +20,9 @@ lrwxrwxrwx root       root               25 ./lib/systemd/system/local-fs.target
 -rw-r--r-- root       root              475 ./lib/systemd/system/var-lib-machines.mount
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root           625148 ./usr/bin/systemd-nspawn
+-rwxr-xr-x root       root           625108 ./usr/bin/systemd-nspawn
 drwxr-xr-x root       root               80 ./usr/lib
--rwxr-xr-x root       root           285168 ./usr/lib/libnss_mymachines.so.2
+-rwxr-xr-x root       root           285180 ./usr/lib/libnss_mymachines.so.2
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root              981 ./usr/lib/tmpfiles.d/systemd-nspawn.conf
 drwxr-xr-x root       root               80 ./usr/share

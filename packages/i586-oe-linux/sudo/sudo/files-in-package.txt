@@ -3,22 +3,22 @@ drwxr-xr-x root       root               80 ./etc
 drwxr-x--- root       root               40 ./etc/sudoers.d
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
----s--x--x root       root           144404 ./usr/bin/sudo
+---s--x--x root       root           144412 ./usr/bin/sudo
 lrwxrwxrwx root       root                4 ./usr/bin/sudoedit -> sudo
--rwxr-xr-x root       root            43212 ./usr/bin/sudoreplay
+-rwxr-xr-x root       root            43220 ./usr/bin/sudoreplay
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root              160 ./usr/libexec/sudo
--rw-r--r-- root       root             9768 ./usr/libexec/sudo/group_file.so
--rwxr-xr-x root       root           109016 ./usr/libexec/sudo/libsudo_util.so.0.0.0
+-rw-r--r-- root       root             9776 ./usr/libexec/sudo/group_file.so
+-rwxr-xr-x root       root           109024 ./usr/libexec/sudo/libsudo_util.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/libexec/sudo/libsudo_util.so.0 -> libsudo_util.so.0.0.0
--rw-r--r-- root       root           317700 ./usr/libexec/sudo/sudoers.so
--rw-r--r-- root       root             5548 ./usr/libexec/sudo/sudo_noexec.so
--rw-r--r-- root       root             5632 ./usr/libexec/sudo/system_group.so
+-rw-r--r-- root       root           317708 ./usr/libexec/sudo/sudoers.so
+-rw-r--r-- root       root             5556 ./usr/libexec/sudo/sudo_noexec.so
+-rw-r--r-- root       root             5640 ./usr/libexec/sudo/system_group.so
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root              313 ./usr/lib/tmpfiles.d/sudo.conf
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root           202220 ./usr/sbin/visudo
+-rwxr-xr-x root       root           202232 ./usr/sbin/visudo
 drwxr-xr-x root       root               60 ./var
 drwxr-xr-x root       root               60 ./var/lib
 drwx--x--x root       root               60 ./var/lib/sudo

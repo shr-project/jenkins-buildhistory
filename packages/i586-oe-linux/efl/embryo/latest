@@ -1,10 +1,10 @@
 PE = 2
 PV = 1.15.1
 PR = r0
-PKGR = r0.37
+PKGR = r0.38
 RPROVIDES = 
-RDEPENDS = eina (>= 1.15.1) glibc (>= 2.24) libgcc (>= 6.1.1) libunwind (>= 1.1+git0+bc8698fd7e)
+RDEPENDS = eina (>= 1.15.1) glibc (>= 2.24) libgcc (>= 6.2.0) libunwind (>= 1.1+git0+bc8698fd7e)
 RRECOMMENDS = 
-PKGSIZE = 41919
+PKGSIZE = 42947
 FILES = /usr/lib/libembryo.so.*
 FILELIST = /usr/lib/libembryo.so.1 /usr/lib/libembryo.so.1.15.1

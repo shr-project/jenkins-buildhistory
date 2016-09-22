@@ -1,10 +1,10 @@
 PV = 4.8.0
 PR = r0
 PKG = libproj-bin
-PKGR = r0.35
+PKGR = r0.36
 RPROVIDES = proj-bin (=4.8.0)
 RDEPENDS = glibc (>= 2.24) proj (>= 4.8.0)
 RRECOMMENDS = 
-PKGSIZE = 64072
+PKGSIZE = 64104
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/cs2cs /usr/bin/geod /usr/bin/nad2bin /usr/bin/proj

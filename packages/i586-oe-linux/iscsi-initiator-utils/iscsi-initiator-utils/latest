@@ -1,9 +1,9 @@
 PV = 2.0-873
 PR = r0
-PKGR = r0.35
+PKGR = r0.36
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 1615020
+PKGSIZE = 1615064
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/iscsi-initiator-utils /usr/lib/iscsi-initiator-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/iscsi-initiator.service /lib/systemd/system/iscsi-initiator-targets.service
 FILELIST = /etc/default/iscsi-initiator /etc/iscsi/iscsid.conf /etc/tmpfiles.d/iscsi.conf /lib/systemd/system/iscsi-initiator-targets.service /lib/systemd/system/iscsi-initiator.service /usr/sbin/iscsi-iname /usr/sbin/iscsiadm /usr/sbin/iscsid /usr/sbin/iscsistart
