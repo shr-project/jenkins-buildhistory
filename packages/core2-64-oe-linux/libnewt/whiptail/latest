@@ -1,9 +1,9 @@
 PV = 0.52.19
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) popt (>= 1.16) slang (>= 2.3.0)
+RDEPENDS = glibc (>= 2.24) libnewt (>= 0.52.19) popt (>= 1.16) slang (>= 2.3.0)
 RRECOMMENDS = 
-PKGSIZE = 27472
+PKGSIZE = 27488
 FILES = /usr/bin/whiptail
 FILELIST = /usr/bin/whiptail

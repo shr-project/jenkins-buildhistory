@@ -1,10 +1,10 @@
 PV = 1.12
 PR = r0
 PKG = libxcb-shm0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = libxcb-shm (=1.12)
 RDEPENDS = glibc (>= 2.24) libxau (>= 1.0.8) libxcb (>= 1.12) libxdmcp (>= 1.1.2)
 RRECOMMENDS = 
-PKGSIZE = 10555
+PKGSIZE = 10563
 FILES = /usr/lib/libxcb-shm.so.0 /usr/lib/libxcb-shm.so.0.0.0
 FILELIST = /usr/lib/libxcb-shm.so.0 /usr/lib/libxcb-shm.so.0.0.0

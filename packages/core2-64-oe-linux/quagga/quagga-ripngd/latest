@@ -1,9 +1,9 @@
 PV = 1.0.20160315
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) quagga (>= 1.0.20160315)
 RRECOMMENDS = 
-PKGSIZE = 99824
+PKGSIZE = 99832
 FILES = /usr/sbin/ripngd /lib/systemd/system/ripngd.service
 FILELIST = /lib/systemd/system/ripngd.service /usr/sbin/ripngd

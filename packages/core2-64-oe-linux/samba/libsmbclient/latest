@@ -1,10 +1,10 @@
 PV = 4.4.5
 PR = r0
 PKG = libsmbclient0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libsmbclient (=4.4.5)
 RDEPENDS = glibc (>= 2.24) libbsd (>= 0.8.3) libsamba-base (>= 4.4.5) libtalloc (>= 2.1.8) libtevent (>= 0.9.29) samba (>= 4.4.5)
 RRECOMMENDS = 
-PKGSIZE = 153501
+PKGSIZE = 153517
 FILES = /usr/lib/libsmbclient.so.*
 FILELIST = /usr/lib/libsmbclient.so.0 /usr/lib/libsmbclient.so.0.2.3

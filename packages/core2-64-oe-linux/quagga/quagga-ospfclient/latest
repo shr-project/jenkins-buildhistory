@@ -1,9 +1,9 @@
 PV = 1.0.20160315
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) quagga (>= 1.0.20160315) quagga-ospfd (>= 1.0.20160315)
 RRECOMMENDS = 
-PKGSIZE = 29465
+PKGSIZE = 25401
 FILES = /usr/sbin/ospfclient /usr/lib/libospfapiclient.so.*
 FILELIST = /usr/lib/libospfapiclient.so.0 /usr/lib/libospfapiclient.so.0.0.0 /usr/sbin/ospfclient

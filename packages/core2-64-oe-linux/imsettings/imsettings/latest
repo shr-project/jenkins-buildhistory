@@ -1,9 +1,9 @@
 PV = 1.7.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = bash dbus-glib (>= 0.106) dbus-lib (>= 1.10.10) gconf (>= 3.2.6) glib-2.0 (>= 2.48.2) glibc (>= 2.24) gtk+ (>= 2.24.30) libcap (>= 2.25) libffi (>= 3.2.1) libgxim (>= 0.5.0) liblzma (>= 5.2.2) libnotify (>= 0.7.6) libpcre (>= 8.39) libsystemd (>= 230+git0+3a74d4fc90) libx11 (>= 1.6.3) xfconf (>= 4.12.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 483878
+PKGSIZE = 484062
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/imsettings /usr/lib/imsettings/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/* /usr/share/gir-1.0/* /usr/lib/girepository-1.0/*
 FILELIST = /etc/X11/xinit/xinitrc.d/50-xinput.sh /etc/X11/xinit/xinput.d/none.conf /etc/X11/xinit/xinput.d/xcompose.conf /etc/X11/xinit/xinput.d/xim.conf /etc/xdg/autostart/imsettings-start.desktop /usr/bin/imsettings-info /usr/bin/imsettings-list /usr/bin/imsettings-reload /usr/bin/imsettings-switch /usr/bin/imsettings-xim /usr/lib/girepository-1.0/IMSettings-1.7.typelib /usr/lib/imsettings/libimsettings-cinnamon-gsettings.so /usr/lib/imsettings/libimsettings-gconf.so /usr/lib/imsettings/libimsettings-gsettings.so /usr/lib/imsettings/libimsettings-lxde.so /usr/lib/imsettings/libimsettings-mate-gsettings.so /usr/lib/imsettings/libimsettings-qt.so /usr/lib/imsettings/libimsettings-xfce.so /usr/lib/imsettings/libimsettings-xim.so /usr/lib/libimsettings.so.5 /usr/lib/libimsettings.so.5.5.0 /usr/libexec/imsettings-check /usr/libexec/imsettings-daemon /usr/libexec/imsettings-functions /usr/libexec/imsettings-target-checker.sh /usr/libexec/xinputinfo.sh /usr/share/dbus-1/services/imsettings-daemon.service /usr/share/gir-1.0/IMSettings-1.7.gir /usr/share/pixmaps/imsettings-unknown.png

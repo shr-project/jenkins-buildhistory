@@ -1,10 +1,10 @@
 PV = 2.28.1
 PR = r0
 PKG = libmount1
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = util-linux-libmount (=2.28.1)
 RDEPENDS = glibc (>= 2.24) util-linux-libblkid (>= 2.28.1) util-linux-libuuid (>= 2.28.1)
 RRECOMMENDS = 
-PKGSIZE = 288481
+PKGSIZE = 288489
 FILES = /lib/libmount.so.1 /lib/libmount.so.1.1.0
 FILELIST = /lib/libmount.so.1 /lib/libmount.so.1.1.0

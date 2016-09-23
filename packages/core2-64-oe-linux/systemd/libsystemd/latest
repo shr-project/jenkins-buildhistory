@@ -3,10 +3,10 @@ PV = 230+gitAUTOINC+3a74d4fc90
 PR = r0
 PKG = libsystemd0
 PKGV = 230+git0+3a74d4fc90
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libsystemd (=230+git0+3a74d4fc90)
 RDEPENDS = glibc (>= 2.24) libcap (>= 2.25) liblzma (>= 5.2.2)
 RRECOMMENDS = 
-PKGSIZE = 540756
+PKGSIZE = 540764
 FILES = /lib/libsystemd.so.0 /lib/libsystemd.so.0.15.0
 FILELIST = /lib/libsystemd.so.0 /lib/libsystemd.so.0.15.0

@@ -7,7 +7,7 @@ drwxr-xr-x root       root              100 ./usr/share/qt5/examples/assistant
 drwxr-xr-x root       root              200 ./usr/share/qt5/examples/assistant/remotecontrol
 -rw-r--r-- root       root              315 ./usr/share/qt5/examples/assistant/remotecontrol/enter.png
 -rw-r--r-- root       root             2744 ./usr/share/qt5/examples/assistant/remotecontrol/main.cpp
--rwxr-xr-x root       root            44608 ./usr/share/qt5/examples/assistant/remotecontrol/remotecontrol
+-rwxr-xr-x root       root            44544 ./usr/share/qt5/examples/assistant/remotecontrol/remotecontrol
 -rw-r--r-- root       root             6126 ./usr/share/qt5/examples/assistant/remotecontrol/remotecontrol.cpp
 -rw-r--r-- root       root             3334 ./usr/share/qt5/examples/assistant/remotecontrol/remotecontrol.h
 -rw-r--r-- root       root              267 ./usr/share/qt5/examples/assistant/remotecontrol/remotecontrol.pro
@@ -43,13 +43,13 @@ drwxr-xr-x root       root              200 ./usr/share/qt5/examples/assistant/s
 -rw-r--r-- root       root             2651 ./usr/share/qt5/examples/assistant/simpletextviewer/main.cpp
 -rw-r--r-- root       root             5188 ./usr/share/qt5/examples/assistant/simpletextviewer/mainwindow.cpp
 -rw-r--r-- root       root             3139 ./usr/share/qt5/examples/assistant/simpletextviewer/mainwindow.h
--rwxr-xr-x root       root            53464 ./usr/share/qt5/examples/assistant/simpletextviewer/simpletextviewer
+-rwxr-xr-x root       root            53480 ./usr/share/qt5/examples/assistant/simpletextviewer/simpletextviewer
 -rw-r--r-- root       root              447 ./usr/share/qt5/examples/assistant/simpletextviewer/simpletextviewer.pro
 -rw-r--r-- root       root             3287 ./usr/share/qt5/examples/assistant/simpletextviewer/textedit.cpp
 -rw-r--r-- root       root             2782 ./usr/share/qt5/examples/assistant/simpletextviewer/textedit.h
 drwxr-xr-x root       root              220 ./usr/share/qt5/examples/designer
 drwxr-xr-x root       root              180 ./usr/share/qt5/examples/designer/calculatorbuilder
--rwxr-xr-x root       root           515288 ./usr/share/qt5/examples/designer/calculatorbuilder/calculatorbuilder
+-rwxr-xr-x root       root           515224 ./usr/share/qt5/examples/designer/calculatorbuilder/calculatorbuilder
 -rw-r--r-- root       root              246 ./usr/share/qt5/examples/designer/calculatorbuilder/calculatorbuilder.pro
 -rw-r--r-- root       root              116 ./usr/share/qt5/examples/designer/calculatorbuilder/calculatorbuilder.qrc
 -rw-r--r-- root       root             3630 ./usr/share/qt5/examples/designer/calculatorbuilder/calculatorform.cpp
@@ -57,7 +57,7 @@ drwxr-xr-x root       root              180 ./usr/share/qt5/examples/designer/ca
 -rw-r--r-- root       root             7932 ./usr/share/qt5/examples/designer/calculatorbuilder/calculatorform.ui
 -rw-r--r-- root       root             2698 ./usr/share/qt5/examples/designer/calculatorbuilder/main.cpp
 drwxr-xr-x root       root              160 ./usr/share/qt5/examples/designer/calculatorform
--rwxr-xr-x root       root            27744 ./usr/share/qt5/examples/designer/calculatorform/calculatorform
+-rwxr-xr-x root       root            27752 ./usr/share/qt5/examples/designer/calculatorform/calculatorform
 -rw-r--r-- root       root             2926 ./usr/share/qt5/examples/designer/calculatorform/calculatorform.cpp
 -rw-r--r-- root       root             2839 ./usr/share/qt5/examples/designer/calculatorform/calculatorform.h
 -rw-r--r-- root       root              245 ./usr/share/qt5/examples/designer/calculatorform/calculatorform.pro
@@ -94,7 +94,7 @@ drwxr-xr-x root       root              220 ./usr/share/qt5/examples/designer/ta
 drwxr-xr-x root       root              140 ./usr/share/qt5/examples/designer/worldtimeclockbuilder
 -rw-r--r-- root       root             3748 ./usr/share/qt5/examples/designer/worldtimeclockbuilder/form.ui
 -rw-r--r-- root       root             2913 ./usr/share/qt5/examples/designer/worldtimeclockbuilder/main.cpp
--rwxr-xr-x root       root           511136 ./usr/share/qt5/examples/designer/worldtimeclockbuilder/worldtimeclockbuilder
+-rwxr-xr-x root       root           511064 ./usr/share/qt5/examples/designer/worldtimeclockbuilder/worldtimeclockbuilder
 -rw-r--r-- root       root              197 ./usr/share/qt5/examples/designer/worldtimeclockbuilder/worldtimeclockbuilder.pro
 -rw-r--r-- root       root              106 ./usr/share/qt5/examples/designer/worldtimeclockbuilder/worldtimeclockbuilder.qrc
 drwxr-xr-x root       root              140 ./usr/share/qt5/examples/designer/worldtimeclockplugin
@@ -105,7 +105,7 @@ drwxr-xr-x root       root              140 ./usr/share/qt5/examples/designer/wo
 -rw-r--r-- root       root              581 ./usr/share/qt5/examples/designer/worldtimeclockplugin/worldtimeclockplugin.pro
 drwxr-xr-x root       root              100 ./usr/share/qt5/examples/help
 drwxr-xr-x root       root              220 ./usr/share/qt5/examples/help/contextsensitivehelp
--rwxr-xr-x root       root            89928 ./usr/share/qt5/examples/help/contextsensitivehelp/contextsensitivehelp
+-rwxr-xr-x root       root            89936 ./usr/share/qt5/examples/help/contextsensitivehelp/contextsensitivehelp
 -rw-r--r-- root       root              365 ./usr/share/qt5/examples/help/contextsensitivehelp/contextsensitivehelp.pro
 drwxr-xr-x root       root              260 ./usr/share/qt5/examples/help/contextsensitivehelp/docs
 -rw-r--r-- root       root              388 ./usr/share/qt5/examples/help/contextsensitivehelp/docs/amount.html
@@ -129,7 +129,7 @@ drwxr-xr-x root       root              260 ./usr/share/qt5/examples/help/contex
 -rw-r--r-- root       root              322 ./usr/share/qt5/examples/help/README
 drwxr-xr-x root       root              140 ./usr/share/qt5/examples/linguist
 drwxr-xr-x root       root              180 ./usr/share/qt5/examples/linguist/arrowpad
--rwxr-xr-x root       root            23656 ./usr/share/qt5/examples/linguist/arrowpad/arrowpad
+-rwxr-xr-x root       root            23672 ./usr/share/qt5/examples/linguist/arrowpad/arrowpad
 -rw-r--r-- root       root             3066 ./usr/share/qt5/examples/linguist/arrowpad/arrowpad.cpp
 -rw-r--r-- root       root             2845 ./usr/share/qt5/examples/linguist/arrowpad/arrowpad.h
 -rw-r--r-- root       root              400 ./usr/share/qt5/examples/linguist/arrowpad/arrowpad.pro
@@ -137,7 +137,7 @@ drwxr-xr-x root       root              180 ./usr/share/qt5/examples/linguist/ar
 -rw-r--r-- root       root             2887 ./usr/share/qt5/examples/linguist/arrowpad/mainwindow.cpp
 -rw-r--r-- root       root             2803 ./usr/share/qt5/examples/linguist/arrowpad/mainwindow.h
 drwxr-xr-x root       root              100 ./usr/share/qt5/examples/linguist/hellotr
--rwxr-xr-x root       root            10640 ./usr/share/qt5/examples/linguist/hellotr/hellotr
+-rwxr-xr-x root       root            10648 ./usr/share/qt5/examples/linguist/hellotr/hellotr
 -rw-r--r-- root       root              248 ./usr/share/qt5/examples/linguist/hellotr/hellotr.pro
 -rw-r--r-- root       root             2971 ./usr/share/qt5/examples/linguist/hellotr/main.cpp
 -rw-r--r-- root       root              104 ./usr/share/qt5/examples/linguist/linguist.pro
@@ -148,7 +148,7 @@ drwxr-xr-x root       root              200 ./usr/share/qt5/examples/linguist/tr
 -rw-r--r-- root       root             2931 ./usr/share/qt5/examples/linguist/trollprint/mainwindow.h
 -rw-r--r-- root       root             3760 ./usr/share/qt5/examples/linguist/trollprint/printpanel.cpp
 -rw-r--r-- root       root             2946 ./usr/share/qt5/examples/linguist/trollprint/printpanel.h
--rwxr-xr-x root       root            27824 ./usr/share/qt5/examples/linguist/trollprint/trollprint
+-rwxr-xr-x root       root            27840 ./usr/share/qt5/examples/linguist/trollprint/trollprint
 -rw-r--r-- root       root              354 ./usr/share/qt5/examples/linguist/trollprint/trollprint.pro
 -rw-r--r-- root       root             1684 ./usr/share/qt5/examples/linguist/trollprint/trollprint_pt.ts
 drwxr-xr-x root       root              100 ./usr/share/qt5/examples/uitools
@@ -157,14 +157,14 @@ drwxr-xr-x root       root              160 ./usr/share/qt5/examples/uitools/mul
 -rw-r--r-- root       root             2830 ./usr/share/qt5/examples/uitools/multipleinheritance/calculatorform.h
 -rw-r--r-- root       root             7932 ./usr/share/qt5/examples/uitools/multipleinheritance/calculatorform.ui
 -rw-r--r-- root       root             2672 ./usr/share/qt5/examples/uitools/multipleinheritance/main.cpp
--rwxr-xr-x root       root            27760 ./usr/share/qt5/examples/uitools/multipleinheritance/multipleinheritance
+-rwxr-xr-x root       root            27776 ./usr/share/qt5/examples/uitools/multipleinheritance/multipleinheritance
 -rw-r--r-- root       root              206 ./usr/share/qt5/examples/uitools/multipleinheritance/multipleinheritance.pro
 drwxr-xr-x root       root              180 ./usr/share/qt5/examples/uitools/textfinder
 drwxr-xr-x root       root               80 ./usr/share/qt5/examples/uitools/textfinder/forms
 -rw-r--r-- root       root              798 ./usr/share/qt5/examples/uitools/textfinder/forms/input.txt
 -rw-r--r-- root       root             2006 ./usr/share/qt5/examples/uitools/textfinder/forms/textfinder.ui
 -rw-r--r-- root       root             2718 ./usr/share/qt5/examples/uitools/textfinder/main.cpp
--rwxr-xr-x root       root           523640 ./usr/share/qt5/examples/uitools/textfinder/textfinder
+-rwxr-xr-x root       root           523576 ./usr/share/qt5/examples/uitools/textfinder/textfinder
 -rw-r--r-- root       root             5193 ./usr/share/qt5/examples/uitools/textfinder/textfinder.cpp
 -rw-r--r-- root       root             2953 ./usr/share/qt5/examples/uitools/textfinder/textfinder.h
 -rw-r--r-- root       root              206 ./usr/share/qt5/examples/uitools/textfinder/textfinder.pro

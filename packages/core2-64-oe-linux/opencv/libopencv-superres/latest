@@ -2,10 +2,10 @@ PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
 PKG = libopencv-superres3.1
 PKGV = 3.1+git0+92387b1ef8
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = libopencv-superres (=3.1+git0+92387b1ef8)
 RDEPENDS = glibc (>= 2.24) libgcc (>= 6.2.0) libopencv-core (>= 3.1+git0+92387b1ef8) libopencv-imgproc (>= 3.1+git0+92387b1ef8) libopencv-video (>= 3.1+git0+92387b1ef8) libopencv-videoio (>= 3.1+git0+92387b1ef8) libstdc++ (>= 6.2.0)
 RRECOMMENDS = 
-PKGSIZE = 117915
+PKGSIZE = 117923
 FILES = /usr/lib/libopencv_superres.so /usr/lib/libopencv_superres.so.3.1 /usr/lib/libopencv_superres.so.3.1.0
 FILELIST = /usr/lib/libopencv_superres.so.3.1 /usr/lib/libopencv_superres.so.3.1.0

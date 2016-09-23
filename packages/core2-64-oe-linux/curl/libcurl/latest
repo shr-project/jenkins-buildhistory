@@ -1,10 +1,10 @@
 PV = 7.50.1
 PR = r0
 PKG = libcurl4
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = libcurl (=7.50.1)
 RDEPENDS = glibc (>= 2.24) gmp (>= 6.1.1) gnutls (>= 3.5.3) libidn (>= 1.33) nettle (>= 3.2) zlib (>= 1.2.8)
 RRECOMMENDS = ca-certificates
-PKGSIZE = 335992
+PKGSIZE = 336008
 FILES = /usr/lib/lib*.so.*
 FILELIST = /usr/lib/libcurl.so.4 /usr/lib/libcurl.so.4.4.0

@@ -1,8 +1,8 @@
 PV = 2.2.0
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = wireshark (= 2.2.0-r0.2)
+RDEPENDS = wireshark (= 2.2.0-r0.3)
 RRECOMMENDS = cairo-dev expat-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gmp-dev gnutls-dev gtk+-dev libcap-dev libidn-dev libnl-dev libnl-genl-dev libnl-route-dev libpcap-dev libpcre-dev libssh-dev nettle-dev pango-dev pcre-dev sbc-dev zlib-dev
 PKGSIZE = 5098
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wireshark/*.la /lib/*.la

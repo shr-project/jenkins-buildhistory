@@ -1,9 +1,9 @@
 PV = 0.52.19
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) python3-core
+RDEPENDS = glibc (>= 2.24) libnewt (>= 0.52.19) python3-core
 RRECOMMENDS = 
-PKGSIZE = 70849
+PKGSIZE = 70865
 FILES = /usr/lib/python3.5/site-packages/*
 FILELIST = /usr/lib/python3.5/site-packages/_snack.so /usr/lib/python3.5/site-packages/snack.py

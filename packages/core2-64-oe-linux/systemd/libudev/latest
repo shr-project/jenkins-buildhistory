@@ -3,10 +3,10 @@ PV = 230+gitAUTOINC+3a74d4fc90
 PR = r0
 PKG = libudev1
 PKGV = 230+git0+3a74d4fc90
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libudev (=230+git0+3a74d4fc90)
 RDEPENDS = glibc (>= 2.24) libcap (>= 2.25)
 RRECOMMENDS = 
-PKGSIZE = 126824
+PKGSIZE = 126840
 FILES = /lib/libudev.so.1 /lib/libudev.so.1.6.4
 FILELIST = /lib/libudev.so.1 /lib/libudev.so.1.6.4
