@@ -1,10 +1,10 @@
-PV = 4.8-rc6+gitAUTOINC+25fb74eaae_29b1dac023
+PV = 4.8-rc7+gitAUTOINC+fb4159467f_ba792fae8c
 PR = r0
-PKGV = 4.8-rc6+git0+25fb74eaae_29b1dac023
-PKGR = r0.7
+PKGV = 4.8-rc7+git0+fb4159467f_ba792fae8c
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc6-yocto-standard kernel-module-libcrc32c
+RDEPENDS = kernel-4.8.0-rc7-yocto-standard kernel-module-libcrc32c
 RRECOMMENDS = 
-PKGSIZE = 305192
-FILES = /lib/modules/4.8.0-rc6-yocto-standard/kernel/net/sctp/sctp.ko /etc/modules-load.d/sctp.conf /etc/modprobe.d/sctp.conf
-FILELIST = /lib/modules/4.8.0-rc6-yocto-standard/kernel/net/sctp/sctp.ko
+PKGSIZE = 305256
+FILES = /lib/modules/4.8.0-rc7-yocto-standard/kernel/net/sctp/sctp.ko /etc/modules-load.d/sctp.conf /etc/modprobe.d/sctp.conf
+FILELIST = /lib/modules/4.8.0-rc7-yocto-standard/kernel/net/sctp/sctp.ko
