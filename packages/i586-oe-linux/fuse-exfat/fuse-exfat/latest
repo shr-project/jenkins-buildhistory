@@ -1,9 +1,9 @@
 PV = 1.2.3
 PR = r0
-PKGR = r0.34
+PKGR = r0.36
 RPROVIDES = 
 RDEPENDS = fuse (>= 2.9.4) glibc (>= 2.24)
 RRECOMMENDS = util-linux-mount
 PKGSIZE = 59376
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/fuse-exfat /usr/lib/fuse-exfat/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/fuse-exfat /usr/lib/fuse-exfat/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/sbin/mount.exfat /usr/sbin/mount.exfat-fuse

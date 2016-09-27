@@ -1,11 +1,11 @@
 PV = 1.5.1
 PR = r0
-PKGR = r0.10
+PKGR = r0.12
 RPROVIDES = cronie-systemd
 RDEPENDS = base-files base-passwd glibc (>= 2.24) shadow
 RRECOMMENDS = 
 RREPLACES = cronie-systemd
 RCONFLICTS = cronie-systemd
 PKGSIZE = 99753
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/cronie /usr/lib/cronie/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc/cron* /lib/systemd/system/crond.service
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cronie /usr/lib/cronie/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc/cron* /lib/systemd/system/crond.service
 FILELIST = /etc/cron.deny /etc/crontab /etc/sysconfig/crond /lib/systemd/system/crond.service /usr/bin/crontab /usr/sbin/crond

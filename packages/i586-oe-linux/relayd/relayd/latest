@@ -1,9 +1,9 @@
 PV = git
 PR = r0
-PKGR = r0.39
+PKGR = r0.41
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) libubox (>= git)
 RRECOMMENDS = 
 PKGSIZE = 18276
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/relayd /usr/lib/relayd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/relayd /usr/lib/relayd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/sbin/relayd

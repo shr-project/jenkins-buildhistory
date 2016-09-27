@@ -1,8 +1,8 @@
 PV = 1.8.3
 PR = r0
-PKGR = r0.5
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = gstreamer1.0-rtsp-server (= 1.8.3-r0.5) libgstrtspserver-1.0
+RDEPENDS = gstreamer1.0-rtsp-server (= 1.8.3-r0.7) libgstrtspserver-1.0
 RRECOMMENDS = gobject-introspection-dev gstreamer1.0-dev gstreamer1.0-plugins-base-dev libcgroup-dev
 PKGSIZE = 514159
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gstreamer1.0-rtsp-server/*.la /lib/*.la /usr/share/gir-*/*.gir

@@ -1,9 +1,9 @@
 PV = 0.5.0
 PR = r0
-PKGR = r0.45
+PKGR = r0.47
 RPROVIDES = 
 RDEPENDS = glib-2.0 (>= 2.48.2) glibc (>= 2.24) gssdp (>= 0.14.8) gupnp (>= 0.20.14) gupnp-av (>= 0.12.6) gupnp-dlna (>= 0.9.4) libsoup-2.4 (>= 2.54.1)
 RRECOMMENDS = 
 PKGSIZE = 134808
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/media-service-upnp /usr/lib/media-service-upnp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/services/*.service
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/media-service-upnp /usr/lib/media-service-upnp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/services/*.service
 FILELIST = /etc/media-service-upnp.conf /usr/libexec/media-service-upnp /usr/share/dbus-1/services/com.intel.media-service-upnp.service

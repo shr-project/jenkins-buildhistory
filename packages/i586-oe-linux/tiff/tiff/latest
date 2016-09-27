@@ -1,10 +1,10 @@
 PV = 4.0.6
 PR = r0
 PKG = libtiff5
-PKGR = r0.38
+PKGR = r0.40
 RPROVIDES = tiff (=4.0.6)
 RDEPENDS = glibc (>= 2.24) libjpeg-turbo (>= 1.5.0) liblzma (>= 5.2.2) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 505904
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/tiff /usr/lib/tiff/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/tiff /usr/lib/tiff/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libtiff.so.5 /usr/lib/libtiff.so.5.2.4

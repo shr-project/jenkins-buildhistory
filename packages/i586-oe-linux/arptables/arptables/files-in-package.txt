@@ -1,6 +1,8 @@
-drwxr-xr-x root       root               60 ./etc
-drwxr-xr-x root       root               60 ./etc/init.d
--rwxr-xr-x root       root             1644 ./etc/init.d/arptables
+drwxr-xr-x root       root               40 ./etc
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              554 ./lib/systemd/system/arptables.service
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              100 ./usr/sbin
 -rwxr-xr-x root       root            60064 ./usr/sbin/arptables

@@ -1,9 +1,9 @@
 PV = 3.20.1
 PR = r0
-PKGR = r0.14
+PKGR = r0.16
 RPROVIDES = 
 RDEPENDS = atk (>= 2.20.0) cairo (>= 1.14.6) cairo-gobject (>= 1.14.6) expat (>= 2.2.0) fontconfig (>= 2.12.1) freetype (>= 2.6.5) gdk-pixbuf (>= 2.34.0) glib-2.0 (>= 2.48.2) glibc (>= 2.24) gtk+3 (>= 3.20.9) harfbuzz (>= 1.3.0) libffi (>= 3.2.1) libpcre (>= 8.39) libpng (>= 1.6.24) libx11 (>= 1.6.3) libx11-xcb (>= 1.6.3) libxau (>= 1.0.8) libxcb (>= 1.12) libxcb-render (>= 1.12) libxcb-shm (>= 1.12) libxdmcp (>= 1.1.2) libxext (>= 1.3.3) libxrender (>= 0.9.9) libxres (>= 1.0.7) pango (>= 1.40.1) pixman (>= 0.34.0) startup-notification (>= 0.12) xcb-util (>= 0.4.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 378910
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libwnck /usr/lib/libwnck/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/lib/girepository-*/*.typelib
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libwnck /usr/lib/libwnck/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/lib/girepository-*/*.typelib
 FILELIST = /usr/bin/wnck-urgency-monitor /usr/bin/wnckprop /usr/lib/girepository-1.0/Wnck-3.0.typelib /usr/lib/libwnck-3.so.0 /usr/lib/libwnck-3.so.0.2.2
