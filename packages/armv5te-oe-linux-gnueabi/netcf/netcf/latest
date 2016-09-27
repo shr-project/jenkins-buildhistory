@@ -1,10 +1,10 @@
 PV = 0.2.8+gitAUTOINC+9158278ad3
 PR = r0
 PKGV = 0.2.8+git0+9158278ad3
-PKGR = r0.38
+PKGR = r0.39
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) libaugeas (>= 1.5.0) libgcc (>= 6.2.0) libnl (>= 3.2.28) libnl-genl (>= 3.2.28) libnl-nf (>= 3.2.28) libnl-route (>= 3.2.28) libxml2 (>= 2.9.4) libxslt (>= 1.1.29) readline (>= 6.3) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 160527
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/netcf /usr/lib/netcf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib /usr/lib /lib/systemd/system/netcf-transaction.service
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/netcf /usr/lib/netcf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib /usr/lib /lib/systemd/system/netcf-transaction.service
 FILELIST = /lib/systemd/system/netcf-transaction.service /usr/bin/ncftool /usr/lib/libnetcf.so.1 /usr/lib/libnetcf.so.1.4.0 /usr/libexec/netcf-transaction.sh /usr/share/netcf/lenses/netcf.aug /usr/share/netcf/lenses/persist_net_rules.aug /usr/share/netcf/lenses/routes.aug /usr/share/netcf/xml/augeas.rng /usr/share/netcf/xml/debian-get.xsl /usr/share/netcf/xml/debian-put.xsl /usr/share/netcf/xml/interface.rng /usr/share/netcf/xml/redhat-get.xsl /usr/share/netcf/xml/redhat-put.xsl /usr/share/netcf/xml/suse-get.xsl /usr/share/netcf/xml/suse-put.xsl /usr/share/netcf/xml/util-get.xsl /usr/share/netcf/xml/util-put.xsl

@@ -1,9 +1,9 @@
 PV = 2.1.4
 PR = r0
-PKGR = r0.36
+PKGR = r0.37
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) libcap (>= 2.25) libgcc (>= 6.2.0) libstdc++ (>= 6.2.0) libudev (>= 230+git0+3a74d4fc90) lockdev (>= 1.0.3+git0+16b899645d)
 RRECOMMENDS = kernel-module-cdc-acm
 PKGSIZE = 412859
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libcec /usr/lib/libcec/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcec /usr/lib/libcec/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so
 FILELIST = /usr/bin/cec-client /usr/lib/libcec.so.2 /usr/lib/libcec.so.2.0.1
