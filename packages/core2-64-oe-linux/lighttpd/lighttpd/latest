@@ -1,11 +1,11 @@
 PV = 1.4.41
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = lighttpd-systemd
-RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2h) libpcre (>= 8.39) libssl (>= 1.0.2h) lighttpd-module-access lighttpd-module-accesslog lighttpd-module-dirlisting lighttpd-module-indexfile lighttpd-module-staticfile
+RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2i) libpcre (>= 8.39) libssl (>= 1.0.2i) lighttpd-module-access lighttpd-module-accesslog lighttpd-module-dirlisting lighttpd-module-indexfile lighttpd-module-staticfile
 RRECOMMENDS = 
 RREPLACES = lighttpd-systemd
 RCONFLICTS = lighttpd-systemd
 PKGSIZE = 249500
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lighttpd /usr/lib/lighttpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc /www /lib/systemd/system/lighttpd.service
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lighttpd /usr/lib/lighttpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc /www /lib/systemd/system/lighttpd.service
 FILELIST = /etc/lighttpd.conf /lib/systemd/system/lighttpd.service /usr/sbin/lighttpd /usr/sbin/lighttpd-angel /www/pages/index.html
