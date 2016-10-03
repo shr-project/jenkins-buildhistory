@@ -1,11 +1,11 @@
-PV = 4.8-rc7+gitAUTOINC+fb4159467f_ba792fae8c
+PV = 4.8-rc8+gitAUTOINC+d0937e67c3_3a2b4be23e
 PR = r0
-PKG = kernel-4.8.0-rc7-yocto-standard
-PKGV = 4.8-rc7+git0+fb4159467f_ba792fae8c
-PKGR = r0.4
-RPROVIDES = kernel-4.8.0-rc7-yocto-standard kernel-base (=4.8-rc7+git0+fb4159467f_ba792fae8c)
+PKG = kernel-4.8.0-rc8-yocto-standard
+PKGV = 4.8-rc8+git0+d0937e67c3_3a2b4be23e
+PKGR = r0.1
+RPROVIDES = kernel-4.8.0-rc8-yocto-standard kernel-base (=4.8-rc8+git0+d0937e67c3_3a2b4be23e)
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 14019
-FILES = /lib/modules/4.8.0-rc7-yocto-standard/modules.order /lib/modules/4.8.0-rc7-yocto-standard/modules.builtin
-FILELIST = /lib/modules/4.8.0-rc7-yocto-standard/modules.builtin /lib/modules/4.8.0-rc7-yocto-standard/modules.order
+FILES = /lib/modules/4.8.0-rc8-yocto-standard/modules.order /lib/modules/4.8.0-rc8-yocto-standard/modules.builtin
+FILELIST = /lib/modules/4.8.0-rc8-yocto-standard/modules.builtin /lib/modules/4.8.0-rc8-yocto-standard/modules.order

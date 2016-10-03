@@ -1,10 +1,10 @@
-PV = 4.8-rc7+gitAUTOINC+fb4159467f_ba792fae8c
+PV = 4.8-rc8+gitAUTOINC+d0937e67c3_3a2b4be23e
 PR = r0
-PKGV = 4.8-rc7+git0+fb4159467f_ba792fae8c
-PKGR = r0.4
+PKGV = 4.8-rc8+git0+d0937e67c3_3a2b4be23e
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc7-yocto-standard kernel-module-ebtables
+RDEPENDS = kernel-4.8.0-rc8-yocto-standard kernel-module-ebtables
 RRECOMMENDS = 
 PKGSIZE = 5300
-FILES = /lib/modules/4.8.0-rc7-yocto-standard/kernel/net/bridge/netfilter/ebtable_filter.ko /etc/modules-load.d/ebtable_filter.conf /etc/modprobe.d/ebtable_filter.conf
-FILELIST = /lib/modules/4.8.0-rc7-yocto-standard/kernel/net/bridge/netfilter/ebtable_filter.ko
+FILES = /lib/modules/4.8.0-rc8-yocto-standard/kernel/net/bridge/netfilter/ebtable_filter.ko /etc/modules-load.d/ebtable_filter.conf /etc/modprobe.d/ebtable_filter.conf
+FILELIST = /lib/modules/4.8.0-rc8-yocto-standard/kernel/net/bridge/netfilter/ebtable_filter.ko

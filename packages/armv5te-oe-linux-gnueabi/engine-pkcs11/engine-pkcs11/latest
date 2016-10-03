@@ -1,8 +1,8 @@
 PV = 0.2.2
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2i) libp11 (>= 0.4.0) opensc openssl
+RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2j) libp11 (>= 0.4.0) opensc openssl
 RRECOMMENDS = 
 PKGSIZE = 18312
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/engine-pkcs11 /usr/lib/engine-pkcs11/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/engines/libpkcs11.so

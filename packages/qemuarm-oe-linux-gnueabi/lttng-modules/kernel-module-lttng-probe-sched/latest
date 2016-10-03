@@ -1,10 +1,10 @@
 PV = 2.8.0+gitAUTOINC+6e4fc6f36d
 PR = r0
 PKGV = 2.8.0+git1+6e4fc6f36d
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc7-yocto-standard kernel-module-lttng-tracer
+RDEPENDS = kernel-4.8.0-rc8-yocto-standard kernel-module-lttng-tracer
 RRECOMMENDS = 
 PKGSIZE = 20372
-FILES = /lib/modules/4.8.0-rc7-yocto-standard/kernel/lttng-modules/probes/lttng-probe-sched.ko /etc/modules-load.d/lttng-probe-sched.conf /etc/modprobe.d/lttng-probe-sched.conf
-FILELIST = /lib/modules/4.8.0-rc7-yocto-standard/kernel/lttng-modules/probes/lttng-probe-sched.ko
+FILES = /lib/modules/4.8.0-rc8-yocto-standard/kernel/lttng-modules/probes/lttng-probe-sched.ko /etc/modules-load.d/lttng-probe-sched.conf /etc/modprobe.d/lttng-probe-sched.conf
+FILELIST = /lib/modules/4.8.0-rc8-yocto-standard/kernel/lttng-modules/probes/lttng-probe-sched.ko
