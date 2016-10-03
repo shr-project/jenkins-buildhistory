@@ -1,20 +1,36 @@
 drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root              740 ./usr/lib
+drwxr-xr-x root       root             1100 ./usr/lib
 -rw-r--r-- root       root            12722 ./usr/lib/libboost_atomic.a
 lrwxrwxrwx root       root               17 ./usr/lib/libboost_atomic-mt.a -> libboost_atomic.a
 -rw-r--r-- root       root           316238 ./usr/lib/libboost_chrono.a
 lrwxrwxrwx root       root               17 ./usr/lib/libboost_chrono-mt.a -> libboost_chrono.a
+-rw-r--r-- root       root           356216 ./usr/lib/libboost_container.a
+lrwxrwxrwx root       root               20 ./usr/lib/libboost_container-mt.a -> libboost_container.a
+-rw-r--r-- root       root            60390 ./usr/lib/libboost_context.a
+lrwxrwxrwx root       root               18 ./usr/lib/libboost_context-mt.a -> libboost_context.a
+-rw-r--r-- root       root           508878 ./usr/lib/libboost_coroutine.a
+lrwxrwxrwx root       root               20 ./usr/lib/libboost_coroutine-mt.a -> libboost_coroutine.a
 -rw-r--r-- root       root           416264 ./usr/lib/libboost_date_time.a
 lrwxrwxrwx root       root               20 ./usr/lib/libboost_date_time-mt.a -> libboost_date_time.a
+-rw-r--r-- root       root             4618 ./usr/lib/libboost_exception.a
+lrwxrwxrwx root       root               20 ./usr/lib/libboost_exception-mt.a -> libboost_exception.a
 -rw-r--r-- root       root          1167838 ./usr/lib/libboost_filesystem.a
 lrwxrwxrwx root       root               21 ./usr/lib/libboost_filesystem-mt.a -> libboost_filesystem.a
 -rw-r--r-- root       root          2564576 ./usr/lib/libboost_graph.a
 lrwxrwxrwx root       root               16 ./usr/lib/libboost_graph-mt.a -> libboost_graph.a
 -rw-r--r-- root       root           835776 ./usr/lib/libboost_iostreams.a
 lrwxrwxrwx root       root               20 ./usr/lib/libboost_iostreams-mt.a -> libboost_iostreams.a
+-rw-r--r-- root       root         10338214 ./usr/lib/libboost_locale.a
+lrwxrwxrwx root       root               17 ./usr/lib/libboost_locale-mt.a -> libboost_locale.a
 -rw-r--r-- root       root          9701668 ./usr/lib/libboost_log.a
 lrwxrwxrwx root       root               14 ./usr/lib/libboost_log-mt.a -> libboost_log.a
 -rw-r--r-- root       root          9089294 ./usr/lib/libboost_log_setup.a
+-rw-r--r-- root       root           922016 ./usr/lib/libboost_math_c99.a
+-rw-r--r-- root       root           807542 ./usr/lib/libboost_math_c99f.a
+-rw-r--r-- root       root           826250 ./usr/lib/libboost_math_c99l.a
+-rw-r--r-- root       root         10027120 ./usr/lib/libboost_math_tr1.a
+-rw-r--r-- root       root         10072548 ./usr/lib/libboost_math_tr1f.a
+-rw-r--r-- root       root          9955830 ./usr/lib/libboost_math_tr1l.a
 -rw-r--r-- root       root           470680 ./usr/lib/libboost_prg_exec_monitor.a
 -rw-r--r-- root       root          5831440 ./usr/lib/libboost_program_options.a
 lrwxrwxrwx root       root               26 ./usr/lib/libboost_program_options-mt.a -> libboost_program_options.a
@@ -34,4 +50,6 @@ lrwxrwxrwx root       root               17 ./usr/lib/libboost_thread-mt.a -> li
 -rw-r--r-- root       root           168632 ./usr/lib/libboost_timer.a
 lrwxrwxrwx root       root               16 ./usr/lib/libboost_timer-mt.a -> libboost_timer.a
 -rw-r--r-- root       root          7868604 ./usr/lib/libboost_unit_test_framework.a
+-rw-r--r-- root       root         10304180 ./usr/lib/libboost_wave.a
+lrwxrwxrwx root       root               15 ./usr/lib/libboost_wave-mt.a -> libboost_wave.a
 -rw-r--r-- root       root          2340168 ./usr/lib/libboost_wserialization.a
