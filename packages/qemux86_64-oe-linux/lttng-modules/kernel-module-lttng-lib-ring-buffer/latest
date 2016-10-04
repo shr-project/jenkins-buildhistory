@@ -1,10 +1,10 @@
 PV = 2.8.0+gitAUTOINC+6e4fc6f36d
 PR = r0
 PKGV = 2.8.0+git1+6e4fc6f36d
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc7-yocto-standard
+RDEPENDS = kernel-4.8.0-rc8-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 73160
-FILES = /lib/modules/4.8.0-rc7-yocto-standard/kernel/lttng-modules/lib/lttng-lib-ring-buffer.ko /etc/modules-load.d/lttng-lib-ring-buffer.conf /etc/modprobe.d/lttng-lib-ring-buffer.conf
-FILELIST = /lib/modules/4.8.0-rc7-yocto-standard/kernel/lttng-modules/lib/lttng-lib-ring-buffer.ko
+FILES = /lib/modules/4.8.0-rc8-yocto-standard/kernel/lttng-modules/lib/lttng-lib-ring-buffer.ko /etc/modules-load.d/lttng-lib-ring-buffer.conf /etc/modprobe.d/lttng-lib-ring-buffer.conf
+FILELIST = /lib/modules/4.8.0-rc8-yocto-standard/kernel/lttng-modules/lib/lttng-lib-ring-buffer.ko
