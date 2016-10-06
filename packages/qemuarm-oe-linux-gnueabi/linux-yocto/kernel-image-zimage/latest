@@ -1,11 +1,11 @@
-PV = 4.8-rc8+gitAUTOINC+d0937e67c3_3a2b4be23e
+PV = 4.8+gitAUTOINC+6128a9e47c_f46e49344b
 PR = r0
-PKG = kernel-image-zimage-4.8.0-rc8-yocto-standard
-PKGV = 4.8-rc8+git0+d0937e67c3_3a2b4be23e
+PKG = kernel-image-zimage-4.8.0-yocto-standard
+PKGV = 4.8+git0+6128a9e47c_f46e49344b
 PKGR = r0.1
-RPROVIDES = kernel-image-zimage (=4.8-rc8+git0+d0937e67c3_3a2b4be23e)
+RPROVIDES = kernel-image-zimage (=4.8+git0+6128a9e47c_f46e49344b)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 4783720
+PKGSIZE = 4783944
 FILES = /boot/zImage*
-FILELIST = /boot/zImage-4.8.0-rc8-yocto-standard
+FILELIST = /boot/zImage-4.8.0-yocto-standard
