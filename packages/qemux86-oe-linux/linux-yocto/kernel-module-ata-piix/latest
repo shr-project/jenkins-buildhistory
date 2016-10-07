@@ -1,10 +1,10 @@
-PV = 4.8-rc8+gitAUTOINC+d0937e67c3_8edbf10bb6
+PV = 4.8+gitAUTOINC+6128a9e47c_67813e7efa
 PR = r0
-PKGV = 4.8-rc8+git0+d0937e67c3_8edbf10bb6
+PKGV = 4.8+git0+6128a9e47c_67813e7efa
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-rc8-yocto-standard
+RDEPENDS = kernel-4.8.0-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 35176
-FILES = /lib/modules/4.8.0-rc8-yocto-standard/kernel/drivers/ata/ata_piix.ko /etc/modules-load.d/ata_piix.conf /etc/modprobe.d/ata_piix.conf
-FILELIST = /lib/modules/4.8.0-rc8-yocto-standard/kernel/drivers/ata/ata_piix.ko
+FILES = /lib/modules/4.8.0-yocto-standard/kernel/drivers/ata/ata_piix.ko /etc/modules-load.d/ata_piix.conf /etc/modprobe.d/ata_piix.conf
+FILELIST = /lib/modules/4.8.0-yocto-standard/kernel/drivers/ata/ata_piix.ko
