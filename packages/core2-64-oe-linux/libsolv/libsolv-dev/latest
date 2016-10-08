@@ -1,8 +1,8 @@
 PV = 0.6.23
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = libsolv (= 0.6.23-r0.14) libsolvext
+RDEPENDS = libsolv (= 0.6.23-r0.15) libsolvext
 RRECOMMENDS = expat-dev glibc-dev libsolvext-dev zlib-dev
 PKGSIZE = 109743
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libsolv/*.la /lib/*.la /usr/share/cmake/Modules/FindLibSolv.cmake
