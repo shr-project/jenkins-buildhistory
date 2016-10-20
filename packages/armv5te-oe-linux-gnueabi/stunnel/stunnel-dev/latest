@@ -1,8 +1,8 @@
 PV = 5.35
 PR = r0
-PKGR = r0.9
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = stunnel (= 5.35-r0.9)
+RDEPENDS = stunnel (= 5.35-r0.11)
 RRECOMMENDS = glibc-dev libcap-dev libcrypto-dev liblzma-dev libssl-dev libsystemd-dev libwrap-dev openssl-dev perl-dev systemd-dev tcp-wrappers-dev zlib-dev
 PKGSIZE = 1045
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/stunnel/*.la /lib/*.la

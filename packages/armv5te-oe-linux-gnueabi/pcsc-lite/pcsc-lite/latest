@@ -1,11 +1,11 @@
 PV = 1.8.13
 PR = r0
-PKGR = r0.39
+PKGR = r0.41
 RPROVIDES = pcsc-lite-systemd
-RDEPENDS = glibc (>= 2.24) libudev (>= 230+git0+3a74d4fc90) python
+RDEPENDS = glibc (>= 2.24) libudev (>= 230+git0+3a74d4fc90)
 RRECOMMENDS = ccid
 RREPLACES = pcsc-lite-systemd
 RCONFLICTS = pcsc-lite-systemd
-PKGSIZE = 118487
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/pcsc-lite /usr/lib/pcsc-lite/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/pcscd.socket /lib/systemd/system/pcscd.service
-FILELIST = /lib/systemd/system/pcscd.service /lib/systemd/system/pcscd.socket /usr/bin/pcsc-spy /usr/sbin/pcscd
+PKGSIZE = 84826
+FILES = /usr/sbin/pcscd /lib/systemd/system/pcscd.socket /lib/systemd/system/pcscd.service
+FILELIST = /lib/systemd/system/pcscd.service /lib/systemd/system/pcscd.socket /usr/sbin/pcscd
