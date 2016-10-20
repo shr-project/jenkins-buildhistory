@@ -1,15 +1,15 @@
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/drbd
 drwxr-xr-x root       root              120 ./lib/drbd/.debug
--rwxr-xr-x root       root           215816 ./lib/drbd/.debug/drbdadm-83
--rwxr-xr-x root       root           317196 ./lib/drbd/.debug/drbdadm-84
+-rwxr-xr-x root       root           215760 ./lib/drbd/.debug/drbdadm-83
+-rwxr-xr-x root       root           317140 ./lib/drbd/.debug/drbdadm-84
 -rwxr-xr-x root       root           113452 ./lib/drbd/.debug/drbdsetup-83
 -rwxr-xr-x root       root           234800 ./lib/drbd/.debug/drbdsetup-84
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root              100 ./usr/sbin/.debug
--rwxr-xr-x root       root           375740 ./usr/sbin/.debug/drbdadm
--rwxr-xr-x root       root           166008 ./usr/sbin/.debug/drbdmeta
+-rwxr-xr-x root       root           375696 ./usr/sbin/.debug/drbdadm
+-rwxr-xr-x root       root           165968 ./usr/sbin/.debug/drbdmeta
 -rwxr-xr-x root       root           243452 ./usr/sbin/.debug/drbdsetup
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
@@ -51,7 +51,7 @@ drwxr-xr-x root       root              320 ./usr/src/debug/drbd-utils/8.9.6-r0/
 -rw-r--r-- root       root             4290 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v83/drbdadm_minor_table.c
 -rw-r--r-- root       root            42654 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v83/drbdadm_parser.c
 -rw-r--r-- root       root             3120 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v83/drbdadm_parser.h
--rw-r--r-- root       root           161402 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v83/drbdadm_scanner.c
+-rw-r--r-- root       root           161396 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v83/drbdadm_scanner.c
 -rw-r--r-- root       root             8490 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v83/drbdadm_scanner.fl
 -rw-r--r-- root       root            18219 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v83/drbdadm_usage_cnt.c
 -rw-r--r-- root       root            78718 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v83/drbdsetup.c
@@ -69,7 +69,7 @@ drwxr-xr-x root       root              480 ./usr/src/debug/drbd-utils/8.9.6-r0/
 -rw-r--r-- root       root            94536 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v84/drbdadm_main.c
 -rw-r--r-- root       root            53666 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v84/drbdadm_parser.c
 -rw-r--r-- root       root             3375 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v84/drbdadm_parser.h
--rw-r--r-- root       root           175783 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v84/drbdadm_scanner.c
+-rw-r--r-- root       root           175777 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v84/drbdadm_scanner.c
 -rw-r--r-- root       root             9788 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v84/drbdadm_scanner.fl
 -rw-r--r-- root       root            19178 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v84/drbdadm_usage_cnt.c
 -rw-r--r-- root       root             1237 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v84/drbd_nla.c
@@ -100,7 +100,7 @@ drwxr-xr-x root       root              480 ./usr/src/debug/drbd-utils/8.9.6-r0/
 -rw-r--r-- root       root            47071 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v9/drbdadm_parser.c
 -rw-r--r-- root       root             2464 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v9/drbdadm_parser.h
 -rw-r--r-- root       root            41074 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v9/drbdadm_postparse.c
--rw-r--r-- root       root           139251 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v9/drbdadm_scanner.c
+-rw-r--r-- root       root           139245 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v9/drbdadm_scanner.c
 -rw-r--r-- root       root             4811 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v9/drbdadm_scanner.fl
 -rw-r--r-- root       root            16442 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v9/drbdadm_usage_cnt.c
 -rw-r--r-- root       root             1237 ./usr/src/debug/drbd-utils/8.9.6-r0/drbd-utils-8.9.6/user/v9/drbd_nla.c

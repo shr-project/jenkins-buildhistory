@@ -1,10 +1,10 @@
 PV = 3.3.0+gitAUTOINC+aacd231be0
 PR = r0
-PKGR = r0.27
 PKGV = 3.3.0+git0+aacd231be0
+PKGR = r0.28
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) gperftools (>= 2.4) libcrypto (>= 1.0.2h) libgcc (>= 6.1.1) libpcap (>= 1.7.4) libpcrecpp (>= 8.39) libssl (>= 1.0.2h) libstdc++ (>= 6.1.1) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.24) gperftools (>= 2.5) libcrypto (>= 1.0.2j) libgcc (>= 6.2.0) libpcap (>= 1.7.4) libpcrecpp (>= 8.39) libssl (>= 1.0.2j) libstdc++ (>= 6.2.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 71627112
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mongodb /usr/lib/mongodb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+PKGSIZE = 71584248
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mongodb /usr/lib/mongodb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/mongod /usr/bin/mongoperf /usr/bin/mongos /usr/bin/mongosniff

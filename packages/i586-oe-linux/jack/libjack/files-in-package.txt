@@ -1,13 +1,21 @@
 drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root              140 ./usr/lib
-drwxr-xr-x root       root              160 ./usr/lib/jack
--rwxr-xr-x root       root             5640 ./usr/lib/jack/inprocess.so
--rwxr-xr-x root       root             9744 ./usr/lib/jack/intime.so
--rwxr-xr-x root       root            30620 ./usr/lib/jack/jack_alsa_midi.so
--rwxr-xr-x root       root            68008 ./usr/lib/jack/jack_alsa.so
--rwxr-xr-x root       root            13852 ./usr/lib/jack/jack_dummy.so
--rwxr-xr-x root       root            38712 ./usr/lib/jack/jack_net.so
--rwxr-xr-x root       root           203668 ./usr/lib/libjackserver.so.0.0.28
-lrwxrwxrwx root       root               23 ./usr/lib/libjackserver.so.0 -> libjackserver.so.0.0.28
--rwxr-xr-x root       root            96688 ./usr/lib/libjack.so.0.0.28
-lrwxrwxrwx root       root               17 ./usr/lib/libjack.so.0 -> libjack.so.0.0.28
+drwxr-xr-x root       root              180 ./usr/lib
+drwxr-xr-x root       root              280 ./usr/lib/jack
+-rwxr-xr-x root       root            47140 ./usr/lib/jack/audioadapter.so
+-rwxr-xr-x root       root             5648 ./usr/lib/jack/inprocess.so
+-rwxr-xr-x root       root            51444 ./usr/lib/jack/jack_alsarawmidi.so
+-rwxr-xr-x root       root           110036 ./usr/lib/jack/jack_alsa.so
+-rwxr-xr-x root       root            13984 ./usr/lib/jack/jack_dummy.so
+-rwxr-xr-x root       root            13996 ./usr/lib/jack/jack_loopback.so
+-rwxr-xr-x root       root            55396 ./usr/lib/jack/jack_netone.so
+-rwxr-xr-x root       root            38900 ./usr/lib/jack/jack_net.so
+-rwxr-xr-x root       root            30592 ./usr/lib/jack/jack_proxy.so
+-rwxr-xr-x root       root            38948 ./usr/lib/jack/netadapter.so
+-rwxr-xr-x root       root            38952 ./usr/lib/jack/netmanager.so
+-rwxr-xr-x root       root            14020 ./usr/lib/jack/profiler.so
+-rwxr-xr-x root       root           117380 ./usr/lib/libjacknet.so.0.1.0
+lrwxrwxrwx root       root               19 ./usr/lib/libjacknet.so.0 -> libjacknet.so.0.1.0
+-rwxr-xr-x root       root           632220 ./usr/lib/libjackserver.so.0.1.0
+lrwxrwxrwx root       root               22 ./usr/lib/libjackserver.so.0 -> libjackserver.so.0.1.0
+-rwxr-xr-x root       root           313776 ./usr/lib/libjack.so.0.1.0
+lrwxrwxrwx root       root               16 ./usr/lib/libjack.so.0 -> libjack.so.0.1.0
