@@ -1,9 +1,10 @@
-PV = 0.125.0rc1
+PV = 1.9.10+gitAUTOINC+364159f821
 PR = r0
-PKGR = r0.4
+PKGV = 1.9.10+git0+364159f821
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = jack (= 0.125.0rc1-r0.4) libjack
-RRECOMMENDS = alsa-lib-dev db-dev glibc-dev libasound-dev libjack-dev libsamplerate0-dev libsndfile1-dev readline-dev
-PKGSIZE = 163468
+RDEPENDS = jack (= 1.9.10+git0+364159f821-r0.0) libjack
+RRECOMMENDS = alsa-lib-dev glibc-dev libasound-dev libgcc-dev libjack-dev libopus-dev libsamplerate0-dev libsndfile1-dev libstdc++-dev readline-dev
+PKGSIZE = 182518
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/jack/*.la /lib/*.la
-FILELIST = /usr/include/jack/control.h /usr/include/jack/intclient.h /usr/include/jack/jack.h /usr/include/jack/jslist.h /usr/include/jack/metadata.h /usr/include/jack/midiport.h /usr/include/jack/ringbuffer.h /usr/include/jack/session.h /usr/include/jack/statistics.h /usr/include/jack/thread.h /usr/include/jack/transport.h /usr/include/jack/types.h /usr/include/jack/uuid.h /usr/include/jack/weakjack.h /usr/include/jack/weakmacros.h /usr/lib/jack/inprocess.la /usr/lib/jack/intime.la /usr/lib/jack/jack_alsa.la /usr/lib/jack/jack_alsa_midi.la /usr/lib/jack/jack_dummy.la /usr/lib/jack/jack_net.la /usr/lib/libjack.la /usr/lib/libjack.so /usr/lib/libjackserver.la /usr/lib/libjackserver.so /usr/lib/pkgconfig/jack.pc
+FILELIST = /usr/include/jack/control.h /usr/include/jack/intclient.h /usr/include/jack/jack.h /usr/include/jack/jslist.h /usr/include/jack/metadata.h /usr/include/jack/midiport.h /usr/include/jack/net.h /usr/include/jack/ringbuffer.h /usr/include/jack/session.h /usr/include/jack/statistics.h /usr/include/jack/systemdeps.h /usr/include/jack/thread.h /usr/include/jack/transport.h /usr/include/jack/types.h /usr/include/jack/uuid.h /usr/include/jack/weakjack.h /usr/include/jack/weakmacros.h /usr/lib/libjack.so /usr/lib/libjacknet.so /usr/lib/libjackserver.so /usr/lib/pkgconfig/jack.pc
