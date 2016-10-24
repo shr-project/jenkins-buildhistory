@@ -1,4 +1,4 @@
-PV = 20110905
+PV = 20161005
 PR = r0
-DEPENDS = ncurses virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+DEPENDS = libbsd ncurses pkgconfig-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = mg-dbg mg-staticdev mg-dev mg-doc mg-locale mg
