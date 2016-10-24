@@ -1,9 +1,9 @@
 PV = 4.1.5
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = 
-RDEPENDS = zeromq (= 4.1.5-r0.19)
+RDEPENDS = zeromq (= 4.1.5-r0.20)
 RRECOMMENDS = glibc-dev libgcc-dev libsodium-dev libstdc++-dev
-PKGSIZE = 18850
+PKGSIZE = 18859
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/zeromq/*.la /lib/*.la
 FILELIST = /usr/include/zmq.h /usr/include/zmq_utils.h /usr/lib/libzmq.la /usr/lib/libzmq.so /usr/lib/pkgconfig/libzmq.pc
