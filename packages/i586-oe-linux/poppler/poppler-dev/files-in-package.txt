@@ -6,7 +6,7 @@ drwxr-xr-x root       root             1700 ./usr/include/poppler
 -rw-r--r-- root       root             1042 ./usr/include/poppler/BuiltinFont.h
 -rw-r--r-- root       root              556 ./usr/include/poppler/BuiltinFontTables.h
 -rw-r--r-- root       root             3794 ./usr/include/poppler/CachedFile.h
--rw-r--r-- root       root             7807 ./usr/include/poppler/Catalog.h
+-rw-r--r-- root       root             8536 ./usr/include/poppler/Catalog.h
 -rw-r--r-- root       root             4438 ./usr/include/poppler/CharCodeToUnicode.h
 -rw-r--r-- root       root              526 ./usr/include/poppler/CharTypes.h
 -rw-r--r-- root       root             4610 ./usr/include/poppler/CMap.h
@@ -42,7 +42,7 @@ drwxr-xr-x root       root              160 ./usr/include/poppler/fofi
 -rw-r--r-- root       root             7532 ./usr/include/poppler/Function.h
 -rw-r--r-- root       root            13774 ./usr/include/poppler/GfxFont.h
 -rw-r--r-- root       root            13083 ./usr/include/poppler/Gfx.h
--rw-r--r-- root       root            55578 ./usr/include/poppler/GfxState.h
+-rw-r--r-- root       root            55584 ./usr/include/poppler/GfxState.h
 -rw-r--r-- root       root             2412 ./usr/include/poppler/GfxState_helpers.h
 drwxr-xr-x root       root              320 ./usr/include/poppler/glib
 -rw-r--r-- root       root             8859 ./usr/include/poppler/glib/poppler-action.h
@@ -68,7 +68,7 @@ drwxr-xr-x root       root              380 ./usr/include/poppler/goo
 -rw-r--r-- root       root              560 ./usr/include/poppler/goo/GooLikely.h
 -rw-r--r-- root       root             3350 ./usr/include/poppler/goo/GooList.h
 -rw-r--r-- root       root             2261 ./usr/include/poppler/goo/GooMutex.h
--rw-r--r-- root       root             7484 ./usr/include/poppler/goo/GooString.h
+-rw-r--r-- root       root             7389 ./usr/include/poppler/goo/GooString.h
 -rw-r--r-- root       root             1379 ./usr/include/poppler/goo/GooTimer.h
 -rw-r--r-- root       root              486 ./usr/include/poppler/goo/grandom.h
 -rw-r--r-- root       root             1446 ./usr/include/poppler/goo/gstrtod.h
@@ -78,7 +78,7 @@ drwxr-xr-x root       root              380 ./usr/include/poppler/goo
 -rw-r--r-- root       root             1285 ./usr/include/poppler/goo/NetPBMWriter.h
 -rw-r--r-- root       root             1425 ./usr/include/poppler/goo/PNGWriter.h
 -rw-r--r-- root       root             1487 ./usr/include/poppler/goo/TiffWriter.h
--rw-r--r-- root       root             2149 ./usr/include/poppler/Hints.h
+-rw-r--r-- root       root             2085 ./usr/include/poppler/Hints.h
 -rw-r--r-- root       root             2771 ./usr/include/poppler/JArithmeticDecoder.h
 -rw-r--r-- root       root             5621 ./usr/include/poppler/JBIG2Stream.h
 -rw-r--r-- root       root             3244 ./usr/include/poppler/Lexer.h
@@ -148,10 +148,10 @@ drwxr-xr-x root       root              500 ./usr/include/poppler/splash
 -rw-r--r-- root       root              617 ./usr/include/poppler/StdinCachedFile.h
 -rw-r--r-- root       root              947 ./usr/include/poppler/StdinPDFDocBuilder.h
 -rw-r--r-- root       root            18056 ./usr/include/poppler/Stream-CCITT.h
--rw-r--r-- root       root            38121 ./usr/include/poppler/Stream.h
+-rw-r--r-- root       root            38140 ./usr/include/poppler/Stream.h
 -rw-r--r-- root       root            10295 ./usr/include/poppler/StructElement.h
 -rw-r--r-- root       root             2025 ./usr/include/poppler/StructTreeRoot.h
--rw-r--r-- root       root            27647 ./usr/include/poppler/TextOutputDev.h
+-rw-r--r-- root       root            27653 ./usr/include/poppler/TextOutputDev.h
 -rw-r--r-- root       root            66205 ./usr/include/poppler/UnicodeCClassTables.h
 -rw-r--r-- root       root            58188 ./usr/include/poppler/UnicodeCompTables.h
 -rw-r--r-- root       root           240900 ./usr/include/poppler/UnicodeDecompTables.h
@@ -159,19 +159,19 @@ drwxr-xr-x root       root              500 ./usr/include/poppler/splash
 -rw-r--r-- root       root            11501 ./usr/include/poppler/UnicodeMapTables.h
 -rw-r--r-- root       root             1461 ./usr/include/poppler/UnicodeTypeTable.h
 -rw-r--r-- root       root             2185 ./usr/include/poppler/UTF8.h
--rw-r--r-- root       root             1112 ./usr/include/poppler/UTF.h
+-rw-r--r-- root       root             1245 ./usr/include/poppler/UTF.h
 -rw-r--r-- root       root             1883 ./usr/include/poppler/ViewerPreferences.h
 -rw-r--r-- root       root            10343 ./usr/include/poppler/XpdfPluginAPI.h
 -rw-r--r-- root       root            10189 ./usr/include/poppler/XRef.h
 drwxr-xr-x root       root              220 ./usr/lib
 -rwxr-xr-x root       root             1383 ./usr/lib/libpoppler-cpp.la
 lrwxrwxrwx root       root               23 ./usr/lib/libpoppler-cpp.so -> libpoppler-cpp.so.0.3.0
--rwxr-xr-x root       root             2149 ./usr/lib/libpoppler-glib.la
+-rwxr-xr-x root       root             2279 ./usr/lib/libpoppler-glib.la
 lrwxrwxrwx root       root               24 ./usr/lib/libpoppler-glib.so -> libpoppler-glib.so.8.8.0
 -rwxr-xr-x root       root             1339 ./usr/lib/libpoppler.la
 -rwxr-xr-x root       root             1424 ./usr/lib/libpoppler-qt5.la
 lrwxrwxrwx root       root               23 ./usr/lib/libpoppler-qt5.so -> libpoppler-qt5.so.1.7.0
-lrwxrwxrwx root       root               20 ./usr/lib/libpoppler.so -> libpoppler.so.63.0.0
+lrwxrwxrwx root       root               20 ./usr/lib/libpoppler.so -> libpoppler.so.64.0.0
 drwxr-xr-x root       root              160 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              210 ./usr/lib/pkgconfig/poppler-cairo.pc
 -rw-r--r-- root       root              278 ./usr/lib/pkgconfig/poppler-cpp.pc

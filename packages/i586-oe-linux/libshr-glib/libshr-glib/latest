@@ -2,9 +2,9 @@ PV = 2011.03.08.2+gitrAUTOINC+0730d15507
 PR = r2
 PKG = libshr-glib0
 PKGV = 2011.03.08.2+gitr0+0730d15507
-PKGR = r2.43
+PKGR = r2.44
 RPROVIDES = libshr-glib (=2011.03.08.2+gitr0+0730d15507)
-RDEPENDS = glib-2.0 (>= 2.48.2) glibc (>= 2.24) libffi (>= 3.2.1) libpcre (>= 8.39) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.50.1) glibc (>= 2.24) libffi (>= 3.2.1) libpcre (>= 8.39) util-linux-libblkid (>= 2.28.1) util-linux-libmount (>= 2.28.1) util-linux-libuuid (>= 2.28.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 133096
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libshr-glib /usr/lib/libshr-glib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

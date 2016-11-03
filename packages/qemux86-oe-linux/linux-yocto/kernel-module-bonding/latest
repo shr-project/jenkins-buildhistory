@@ -1,10 +1,10 @@
-PV = 4.8+gitAUTOINC+03bf3dd731_67813e7efa
+PV = 4.8.3+gitAUTOINC+83110d94ed_1adf9d3633
 PR = r0
-PKGV = 4.8+git1+03bf3dd731_67813e7efa
-PKGR = r0.4
+PKGV = 4.8.3+git0+83110d94ed_1adf9d3633
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.0-yocto-standard
+RDEPENDS = kernel-4.8.3-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 145684
-FILES = /lib/modules/4.8.0-yocto-standard/kernel/drivers/net/bonding/bonding.ko /etc/modules-load.d/bonding.conf /etc/modprobe.d/bonding.conf
-FILELIST = /lib/modules/4.8.0-yocto-standard/kernel/drivers/net/bonding/bonding.ko
+FILES = /lib/modules/4.8.3-yocto-standard/kernel/drivers/net/bonding/bonding.ko /etc/modules-load.d/bonding.conf /etc/modprobe.d/bonding.conf
+FILELIST = /lib/modules/4.8.3-yocto-standard/kernel/drivers/net/bonding/bonding.ko

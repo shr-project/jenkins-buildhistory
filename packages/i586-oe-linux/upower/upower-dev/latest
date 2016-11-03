@@ -1,9 +1,9 @@
 PV = 0.99.4
 PR = r0
-PKGR = r0.16
+PKGR = r0.17
 RPROVIDES = 
-RDEPENDS = upower (= 0.99.4-r0.16)
-RRECOMMENDS = dbus-dev dbus-glib-dev glib-2.0-dev glibc-dev gobject-introspection-dev libffi-dev libgudev-dev libpcre-dev libusb1-dev polkit-dev systemd-dev zlib-dev
-PKGSIZE = 99260
+RDEPENDS = upower (= 0.99.4-r0.17)
+RRECOMMENDS = dbus-dev dbus-glib-dev glib-2.0-dev glibc-dev gobject-introspection-dev libffi-dev libgudev-dev libpcre-dev libusb1-dev polkit-dev systemd-dev util-linux-libblkid-dev util-linux-libmount-dev util-linux-libuuid-dev zlib-dev
+PKGSIZE = 99395
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/upower/*.la /lib/*.la /usr/share/gir-*/*.gir
 FILELIST = /usr/include/libupower-glib/up-autocleanups.h /usr/include/libupower-glib/up-client.h /usr/include/libupower-glib/up-device.h /usr/include/libupower-glib/up-history-item.h /usr/include/libupower-glib/up-stats-item.h /usr/include/libupower-glib/up-types.h /usr/include/libupower-glib/up-version.h /usr/include/libupower-glib/up-wakeup-item.h /usr/include/libupower-glib/up-wakeups.h /usr/include/libupower-glib/upower.h /usr/lib/libupower-glib.la /usr/lib/libupower-glib.so /usr/lib/pkgconfig/upower-glib.pc /usr/share/gir-1.0/UPowerGlib-1.0.gir
