@@ -1,9 +1,9 @@
 PV = 1.2.4
 PR = r0
-PKGR = r0.41
+PKGR = r0.42
 RPROVIDES = 
-RDEPENDS = libfm-extra (= 1.2.4-r0.41)
-RRECOMMENDS = glib-2.0-dev glibc-dev libffi-dev libpcre-dev zlib-dev
-PKGSIZE = 8879
+RDEPENDS = libfm-extra (= 1.2.4-r0.42)
+RRECOMMENDS = glib-2.0-dev glibc-dev libffi-dev libpcre-dev util-linux-libblkid-dev util-linux-libmount-dev util-linux-libuuid-dev zlib-dev
+PKGSIZE = 9014
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libfm-extra/*.la /lib/*.la
 FILELIST = /usr/include/libfm-1.0/fm-extra.h /usr/include/libfm-1.0/fm-version.h /usr/include/libfm-1.0/fm-xml-file.h /usr/lib/libfm-extra.la /usr/lib/libfm-extra.so /usr/lib/pkgconfig/libfm-extra.pc

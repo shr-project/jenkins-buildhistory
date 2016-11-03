@@ -1,9 +1,9 @@
 PV = 0.44.2
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = libvte vte (= 0.44.2-r0.13)
-RRECOMMENDS = atk-dev cairo-dev cairo-gobject-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev harfbuzz-dev libffi-dev libgcc-dev libpcre-dev libpng-dev libstdc++-dev libvte-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxrender-dev pango-dev pixman-dev zlib-dev
-PKGSIZE = 197426
+RDEPENDS = libvte vte (= 0.44.2-r0.14)
+RRECOMMENDS = atk-dev cairo-dev cairo-gobject-dev expat-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev harfbuzz-dev libffi-dev libgcc-dev libpcre-dev libpng-dev libstdc++-dev libvte-dev libx11-dev libxau-dev libxcb-dev libxcb-render-dev libxcb-shm-dev libxdmcp-dev libxext-dev libxrender-dev pango-dev pixman-dev util-linux-libblkid-dev util-linux-libmount-dev util-linux-libuuid-dev zlib-dev
+PKGSIZE = 197556
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vte/*.la /lib/*.la /usr/share/vala/vapi/* /usr/share/gir-*/*.gir
 FILELIST = /usr/include/vte-2.91/vte/vte.h /usr/include/vte-2.91/vte/vtedeprecated.h /usr/include/vte-2.91/vte/vteenums.h /usr/include/vte-2.91/vte/vteglobals.h /usr/include/vte-2.91/vte/vtemacros.h /usr/include/vte-2.91/vte/vtepty.h /usr/include/vte-2.91/vte/vteterminal.h /usr/include/vte-2.91/vte/vtetypebuiltins.h /usr/include/vte-2.91/vte/vteversion.h /usr/lib/libvte-2.91.la /usr/lib/libvte-2.91.so /usr/lib/pkgconfig/vte-2.91.pc /usr/share/gir-1.0/Vte-2.91.gir

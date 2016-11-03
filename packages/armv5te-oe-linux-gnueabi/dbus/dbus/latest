@@ -1,9 +1,9 @@
 PV = 1.10.10
 PR = r0
 PKG = dbus-1
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = dbus (=1.10.10) dbus-systemd dbus-x11
-RDEPENDS = base-files base-passwd dbus-lib (>= 1.10.10) expat (>= 2.2.0) glibc (>= 2.24) libsystemd (>= 230+git0+3a74d4fc90) libx11 (>= 1.6.3) shadow
+RDEPENDS = base-files base-passwd dbus-lib (>= 1.10.10) expat (>= 2.2.0) glibc (>= 2.24) libsystemd (>= 230+git0+3a74d4fc90) libx11 (>= 1.6.4) shadow
 RRECOMMENDS = 
 RREPLACES = dbus-systemd dbus-x11
 RCONFLICTS = dbus-systemd

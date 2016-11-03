@@ -2,9 +2,9 @@ PV = 3.2.3+gitAUTOINC+a9e4e74ec4
 PR = r0
 PKG = libecal-1.2-10
 PKGV = 3.2.3+git0+a9e4e74ec4
-PKGR = r0.50
+PKGR = r0.51
 RPROVIDES = libecal (=3.2.3+git0+a9e4e74ec4)
-RDEPENDS = dbus-glib (>= 0.106) dbus-lib (>= 1.10.10) gconf (>= 3.2.6) glib-2.0 (>= 2.48.2) glibc (>= 2.24) libcap (>= 2.25) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libffi (>= 3.2.1) libical (>= 2.0.0) libicui18n (>= 57.1) libicuuc (>= 57.1) liblzma (>= 5.2.2) libpcre (>= 8.39) libsoup-2.4 (>= 2.54.1) libsqlite3 (>= 3.14.1) libsystemd (>= 230+git0+3a74d4fc90) libxml2 (>= 2.9.4) nspr (>= 4.12) zlib (>= 1.2.8)
+RDEPENDS = dbus-glib (>= 0.106) dbus-lib (>= 1.10.10) gconf (>= 3.2.6) glib-2.0 (>= 2.50.1) glibc (>= 2.24) libcap (>= 2.25) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libffi (>= 3.2.1) libical (>= 2.0.0) libicui18n (>= 57.1) libicuuc (>= 57.1) liblzma (>= 5.2.2) libpcre (>= 8.39) libsoup-2.4 (>= 2.56.0) libsqlite3 (>= 3.14.1) libsystemd (>= 230+git0+3a74d4fc90) libxml2 (>= 2.9.4) nspr (>= 4.13) util-linux-libblkid (>= 2.28.1) util-linux-libmount (>= 2.28.1) util-linux-libuuid (>= 2.28.1) zlib (>= 1.2.8)
 RRECOMMENDS = libedata-cal tzdata
 PKGSIZE = 267913
 FILES = /usr/lib/libecal-*.so.* /usr/share/evolution-data-server-1.4/zoneinfo
