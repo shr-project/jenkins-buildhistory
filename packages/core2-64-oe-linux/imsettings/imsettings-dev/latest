@@ -1,9 +1,9 @@
 PV = 1.7.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = imsettings (= 1.7.1-r0.6)
-RRECOMMENDS = bash-dev dbus-glib-dev dbus-lib-dev gconf-dev glib-2.0-dev glibc-dev gtk+-dev libcap-dev libffi-dev libgxim-dev liblzma-dev libnotify-dev libpcre-dev libsystemd-dev libx11-dev xfconf-dev zlib-dev
-PKGSIZE = 32785
+RDEPENDS = imsettings (= 1.7.1-r0.7)
+RRECOMMENDS = bash-dev dbus-glib-dev dbus-lib-dev gconf-dev glib-2.0-dev glibc-dev gtk+-dev libcap-dev libffi-dev libgxim-dev liblzma-dev libnotify-dev libpcre-dev libsystemd-dev libx11-dev util-linux-libblkid-dev util-linux-libmount-dev util-linux-libuuid-dev xfconf-dev zlib-dev
+PKGSIZE = 33990
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/imsettings/*.la /lib/*.la
 FILELIST = /usr/include/imsettings/imsettings-client.h /usr/include/imsettings/imsettings-info.h /usr/include/imsettings/imsettings-utils.h /usr/include/imsettings/imsettings.h /usr/lib/imsettings/libimsettings-cinnamon-gsettings.la /usr/lib/imsettings/libimsettings-gconf.la /usr/lib/imsettings/libimsettings-gsettings.la /usr/lib/imsettings/libimsettings-lxde.la /usr/lib/imsettings/libimsettings-mate-gsettings.la /usr/lib/imsettings/libimsettings-qt.la /usr/lib/imsettings/libimsettings-xfce.la /usr/lib/imsettings/libimsettings-xim.la /usr/lib/libimsettings.la /usr/lib/libimsettings.so /usr/lib/pkgconfig/imsettings.pc

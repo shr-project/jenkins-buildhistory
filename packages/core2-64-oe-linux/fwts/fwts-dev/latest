@@ -1,9 +1,9 @@
 PV = 14.12.00
 PR = r0
-PKGR = r0.35
+PKGR = r0.36
 RPROVIDES = 
-RDEPENDS = fwts (= 14.12.00-r0.35)
-RRECOMMENDS = glib-2.0-dev glibc-dev json-c-dev libffi-dev libpcre-dev zlib-dev
+RDEPENDS = fwts (= 14.12.00-r0.36)
+RRECOMMENDS = glib-2.0-dev glibc-dev json-c-dev libffi-dev libpcre-dev util-linux-libblkid-dev util-linux-libmount-dev util-linux-libuuid-dev zlib-dev
 PKGSIZE = 58
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/fwts/*.la /lib/*.la /usr/lib/fwts/lib*.so /usr/lib/fwts/lib*.la
 FILELIST = /usr/lib/fwts/libfwts.so /usr/lib/fwts/libfwtsacpica.so /usr/lib/fwts/libfwtsiasl.so

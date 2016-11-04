@@ -1,9 +1,9 @@
 PV = 0.7.5+gitAUTOINC+c01c5af807
 PR = r6
 PKGV = 0.7.5+git0+c01c5af807
-PKGR = r6.36
+PKGR = r6.37
 RPROVIDES = 
-RDEPENDS = formfactor glibc (>= 2.24) libgcc (>= 6.2.0) libstdc++ (>= 6.2.0) libx11 (>= 1.6.3) libxi (>= 1.7.6) libxrandr (>= 1.5.0) xinput xrandr
+RDEPENDS = formfactor glibc (>= 2.24) libgcc (>= 6.2.0) libstdc++ (>= 6.2.0) libx11 (>= 1.6.4) libxi (>= 1.7.7) libxrandr (>= 1.5.0) xinput xrandr
 RRECOMMENDS = pointercal-xinput
 PKGSIZE = 155962
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xinput-calibrator /usr/lib/xinput-calibrator/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc/xdg/autostart

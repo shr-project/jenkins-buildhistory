@@ -1,16 +1,16 @@
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root              120 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/hwdb.d
--rw-r--r-- root       root             5597 ./lib/udev/hwdb.d/90-libinput-model-quirks.hwdb
--rwxr-xr-x root       root             6480 ./lib/udev/libinput-device-group
+-rw-r--r-- root       root             5993 ./lib/udev/hwdb.d/90-libinput-model-quirks.hwdb
+-rwxr-xr-x root       root            10584 ./lib/udev/libinput-device-group
 -rwxr-xr-x root       root            10560 ./lib/udev/libinput-model-quirks
 drwxr-xr-x root       root               80 ./lib/udev/rules.d
 -rw-r--r-- root       root              277 ./lib/udev/rules.d/80-libinput-device-groups.rules
 -rw-r--r-- root       root             1451 ./lib/udev/rules.d/90-libinput-model-quirks.rules
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root            37200 ./usr/bin/libinput-debug-events
--rwxr-xr-x root       root            24336 ./usr/bin/libinput-list-devices
+-rwxr-xr-x root       root            37232 ./usr/bin/libinput-debug-events
+-rwxr-xr-x root       root            24368 ./usr/bin/libinput-list-devices
 drwxr-xr-x root       root               80 ./usr/lib
--rwxr-xr-x root       root           188984 ./usr/lib/libinput.so.10.9.2
-lrwxrwxrwx root       root               18 ./usr/lib/libinput.so.10 -> libinput.so.10.9.2
+-rwxr-xr-x root       root           193144 ./usr/lib/libinput.so.10.10.1
+lrwxrwxrwx root       root               19 ./usr/lib/libinput.so.10 -> libinput.so.10.10.1
