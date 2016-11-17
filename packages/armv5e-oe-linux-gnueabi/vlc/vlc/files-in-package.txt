@@ -6,7 +6,10 @@ drwxr-xr-x root       root              140 ./usr/bin
 -rwxr-xr-x root       root            10044 ./usr/bin/vlc
 -rwxr-xr-x root       root             5924 ./usr/bin/vlc-wrapper
 drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root              100 ./usr/lib/vlc
+drwxr-xr-x root       root              160 ./usr/lib/vlc
+-rwxr-xr-x root       root            13956 ./usr/lib/vlc/libvlc_vdpau.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/vlc/libvlc_vdpau.so.0 -> libvlc_vdpau.so.0.0.0
+lrwxrwxrwx root       root               21 ./usr/lib/vlc/libvlc_vdpau.so -> libvlc_vdpau.so.0.0.0
 drwxr-xr-x root       root              160 ./usr/lib/vlc/lua
 drwxr-xr-x root       root               60 ./usr/lib/vlc/lua/extensions
 -rw-r--r-- root       root            72731 ./usr/lib/vlc/lua/extensions/VLSub.luac
@@ -70,7 +73,7 @@ drwxr-xr-x root       root              140 ./usr/lib/vlc/lua/sd
 -rw-r--r-- root       root             2148 ./usr/lib/vlc/lua/sd/icecast.luac
 -rw-r--r-- root       root             5271 ./usr/lib/vlc/lua/sd/jamendo.luac
 -rw-r--r-- root       root             2649 ./usr/lib/vlc/lua/sd/metachannels.luac
-drwxr-xr-x root       root              540 ./usr/lib/vlc/plugins
+drwxr-xr-x root       root              560 ./usr/lib/vlc/plugins
 drwxr-xr-x root       root             1280 ./usr/lib/vlc/plugins/access
 -rwxr-xr-x root       root             1223 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.la
 -rwxr-xr-x root       root            18360 ./usr/lib/vlc/plugins/access/libaccess_alsa_plugin.so
@@ -523,6 +526,17 @@ drwxr-xr-x root       root              120 ./usr/lib/vlc/plugins/text_renderer
 -rwxr-xr-x root       root            63468 ./usr/lib/vlc/plugins/text_renderer/libfreetype_plugin.so
 -rwxr-xr-x root       root             1177 ./usr/lib/vlc/plugins/text_renderer/libtdummy_plugin.la
 -rwxr-xr-x root       root             5688 ./usr/lib/vlc/plugins/text_renderer/libtdummy_plugin.so
+drwxr-xr-x root       root              240 ./usr/lib/vlc/plugins/vdpau
+-rwxr-xr-x root       root             1438 ./usr/lib/vlc/plugins/vdpau/libvdpau_adjust_plugin.la
+-rwxr-xr-x root       root            14004 ./usr/lib/vlc/plugins/vdpau/libvdpau_adjust_plugin.so
+-rwxr-xr-x root       root             1438 ./usr/lib/vlc/plugins/vdpau/libvdpau_chroma_plugin.la
+-rwxr-xr-x root       root            22256 ./usr/lib/vlc/plugins/vdpau/libvdpau_chroma_plugin.so
+-rwxr-xr-x root       root             1468 ./usr/lib/vlc/plugins/vdpau/libvdpau_deinterlace_plugin.la
+-rwxr-xr-x root       root             9952 ./usr/lib/vlc/plugins/vdpau/libvdpau_deinterlace_plugin.so
+-rwxr-xr-x root       root             1444 ./usr/lib/vlc/plugins/vdpau/libvdpau_display_plugin.la
+-rwxr-xr-x root       root            22452 ./usr/lib/vlc/plugins/vdpau/libvdpau_display_plugin.so
+-rwxr-xr-x root       root             1444 ./usr/lib/vlc/plugins/vdpau/libvdpau_sharpen_plugin.la
+-rwxr-xr-x root       root            14016 ./usr/lib/vlc/plugins/vdpau/libvdpau_sharpen_plugin.so
 drwxr-xr-x root       root              440 ./usr/lib/vlc/plugins/video_chroma
 -rwxr-xr-x root       root             1170 ./usr/lib/vlc/plugins/video_chroma/libchain_plugin.la
 -rwxr-xr-x root       root             9868 ./usr/lib/vlc/plugins/video_chroma/libchain_plugin.so

@@ -2,7 +2,7 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/libhugetlbfs
 drwxr-xr-x root       root               80 ./usr/lib/libhugetlbfs/tests
-drwxr-xr-x root       root             1520 ./usr/lib/libhugetlbfs/tests/obj32
+drwxr-xr-x root       root             1640 ./usr/lib/libhugetlbfs/tests/obj32
 -rwxr-xr-x root       root            49800 ./usr/lib/libhugetlbfs/tests/obj32/alloc-instantiate-race
 -rwxr-xr-x root       root            39016 ./usr/lib/libhugetlbfs/tests/obj32/brk_near_huge
 -rwxr-xr-x root       root            39540 ./usr/lib/libhugetlbfs/tests/obj32/chunk-overcommit
@@ -16,6 +16,12 @@ drwxr-xr-x root       root             1520 ./usr/lib/libhugetlbfs/tests/obj32
 -rwxr-xr-x root       root            38216 ./usr/lib/libhugetlbfs/tests/obj32/empty_mounts
 -rwxr-xr-x root       root            38960 ./usr/lib/libhugetlbfs/tests/obj32/fadvise_reserve
 -rwxr-xr-x root       root              249 ./usr/lib/libhugetlbfs/tests/obj32/fadvise_reserve.sh
+-rwxr-xr-x root       root            43600 ./usr/lib/libhugetlbfs/tests/obj32/fallocate_align
+-rwxr-xr-x root       root              293 ./usr/lib/libhugetlbfs/tests/obj32/fallocate_align.sh
+-rwxr-xr-x root       root            38964 ./usr/lib/libhugetlbfs/tests/obj32/fallocate_basic
+-rwxr-xr-x root       root              293 ./usr/lib/libhugetlbfs/tests/obj32/fallocate_basic.sh
+-rwxr-xr-x root       root            57968 ./usr/lib/libhugetlbfs/tests/obj32/fallocate_stress
+-rwxr-xr-x root       root              294 ./usr/lib/libhugetlbfs/tests/obj32/fallocate_stress.sh
 -rwxr-xr-x root       root            37284 ./usr/lib/libhugetlbfs/tests/obj32/find_path
 -rwxr-xr-x root       root            46240 ./usr/lib/libhugetlbfs/tests/obj32/fork-cow
 -rwxr-xr-x root       root            45156 ./usr/lib/libhugetlbfs/tests/obj32/get_hugepage_region
@@ -25,12 +31,12 @@ drwxr-xr-x root       root             1520 ./usr/lib/libhugetlbfs/tests/obj32
 -rwxr-xr-x root       root            14260 ./usr/lib/libhugetlbfs/tests/obj32/get_hugetlbfs_path
 -rwxr-xr-x root       root            44456 ./usr/lib/libhugetlbfs/tests/obj32/heap-overflow
 -rwxr-xr-x root       root            32500 ./usr/lib/libhugetlbfs/tests/obj32/heapshrink
--rwxr-xr-x root       root            46552 ./usr/lib/libhugetlbfs/tests/obj32/icache-hygiene
+-rwxr-xr-x root       root            46536 ./usr/lib/libhugetlbfs/tests/obj32/icache-hygiene
 -rwxr-xr-x root       root            39636 ./usr/lib/libhugetlbfs/tests/obj32/large_mounts
 -rwxr-xr-x root       root            10588 ./usr/lib/libhugetlbfs/tests/obj32/libheapshrink.so
 -rwxr-xr-x root       root           165980 ./usr/lib/libhugetlbfs/tests/obj32/linkhuge
 -rwxr-xr-x root       root            31564 ./usr/lib/libhugetlbfs/tests/obj32/linkhuge_nofd
--rwxr-xr-x root       root          2192324 ./usr/lib/libhugetlbfs/tests/obj32/linkhuge_rw
+-rwxr-xr-x root       root          2193084 ./usr/lib/libhugetlbfs/tests/obj32/linkhuge_rw
 -rwxr-xr-x root       root           175872 ./usr/lib/libhugetlbfs/tests/obj32/linkshare
 -rwxr-xr-x root       root            38972 ./usr/lib/libhugetlbfs/tests/obj32/madvise_reserve
 -rwxr-xr-x root       root              249 ./usr/lib/libhugetlbfs/tests/obj32/madvise_reserve.sh
@@ -43,7 +49,7 @@ drwxr-xr-x root       root             1520 ./usr/lib/libhugetlbfs/tests/obj32
 -rwxr-xr-x root       root            39676 ./usr/lib/libhugetlbfs/tests/obj32/mlock
 -rwxr-xr-x root       root            42128 ./usr/lib/libhugetlbfs/tests/obj32/mmap-cow
 -rwxr-xr-x root       root            36068 ./usr/lib/libhugetlbfs/tests/obj32/mmap-gettest
--rwxr-xr-x root       root            47860 ./usr/lib/libhugetlbfs/tests/obj32/mprotect
+-rwxr-xr-x root       root            47868 ./usr/lib/libhugetlbfs/tests/obj32/mprotect
 -rwxr-xr-x root       root            47096 ./usr/lib/libhugetlbfs/tests/obj32/mremap-expand-slice-collision
 -rwxr-xr-x root       root              285 ./usr/lib/libhugetlbfs/tests/obj32/mremap-expand-slice-collision.sh
 -rwxr-xr-x root       root            45516 ./usr/lib/libhugetlbfs/tests/obj32/mremap-fixed-huge-near-normal
@@ -53,7 +59,7 @@ drwxr-xr-x root       root             1520 ./usr/lib/libhugetlbfs/tests/obj32
 -rwxr-xr-x root       root            41348 ./usr/lib/libhugetlbfs/tests/obj32/noresv-preserve-resv-page
 -rwxr-xr-x root       root            38988 ./usr/lib/libhugetlbfs/tests/obj32/noresv-regarded-as-resv
 -rwxr-xr-x root       root            38864 ./usr/lib/libhugetlbfs/tests/obj32/private
--rwxr-xr-x root       root            47584 ./usr/lib/libhugetlbfs/tests/obj32/ptrace-write-hugepage
+-rwxr-xr-x root       root            47576 ./usr/lib/libhugetlbfs/tests/obj32/ptrace-write-hugepage
 -rwxr-xr-x root       root            48444 ./usr/lib/libhugetlbfs/tests/obj32/quota
 -rwxr-xr-x root       root              225 ./usr/lib/libhugetlbfs/tests/obj32/quota.sh
 -rwxr-xr-x root       root            39028 ./usr/lib/libhugetlbfs/tests/obj32/readahead_reserve
@@ -77,4 +83,4 @@ drwxr-xr-x root       root             1520 ./usr/lib/libhugetlbfs/tests/obj32
 -rwxr-xr-x root       root            38288 ./usr/lib/libhugetlbfs/tests/obj32/unlinked_fd
 -rwxr-xr-x root       root              941 ./usr/lib/libhugetlbfs/tests/obj32/wrapper-utils.sh
 -rwxr-xr-x root       root               68 ./usr/lib/libhugetlbfs/tests/obj32/zero_filesize_segment
--rwxr-xr-x root       root            24798 ./usr/lib/libhugetlbfs/tests/run_tests.py
+-rwxr-xr-x root       root            24902 ./usr/lib/libhugetlbfs/tests/run_tests.py

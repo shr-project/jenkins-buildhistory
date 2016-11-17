@@ -1,10 +1,10 @@
-PV = 4.8.3+gitAUTOINC+83110d94ed_4cc544ad09
+PV = 4.8.6+gitAUTOINC+87e5fc8b7c_94d3e8675e
 PR = r0
-PKGV = 4.8.3+git0+83110d94ed_4cc544ad09
+PKGV = 4.8.6+git0+87e5fc8b7c_94d3e8675e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.3-yocto-standard kernel-module-x-tables
+RDEPENDS = kernel-4.8.6-yocto-standard kernel-module-x-tables
 RRECOMMENDS = 
 PKGSIZE = 16112
-FILES = /lib/modules/4.8.3-yocto-standard/kernel/net/netfilter/xt_hashlimit.ko /etc/modules-load.d/xt_hashlimit.conf /etc/modprobe.d/xt_hashlimit.conf
-FILELIST = /lib/modules/4.8.3-yocto-standard/kernel/net/netfilter/xt_hashlimit.ko
+FILES = /lib/modules/4.8.6-yocto-standard/kernel/net/netfilter/xt_hashlimit.ko /etc/modules-load.d/xt_hashlimit.conf /etc/modprobe.d/xt_hashlimit.conf
+FILELIST = /lib/modules/4.8.6-yocto-standard/kernel/net/netfilter/xt_hashlimit.ko

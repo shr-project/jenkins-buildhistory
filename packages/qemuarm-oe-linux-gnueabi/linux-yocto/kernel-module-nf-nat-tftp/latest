@@ -1,10 +1,10 @@
-PV = 4.8.3+gitAUTOINC+83110d94ed_4cc544ad09
+PV = 4.8.6+gitAUTOINC+87e5fc8b7c_94d3e8675e
 PR = r0
-PKGV = 4.8.3+git0+83110d94ed_4cc544ad09
+PKGV = 4.8.6+git0+87e5fc8b7c_94d3e8675e
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.3-yocto-standard kernel-module-nf-conntrack kernel-module-nf-conntrack-tftp kernel-module-nf-nat
+RDEPENDS = kernel-4.8.6-yocto-standard kernel-module-nf-conntrack kernel-module-nf-conntrack-tftp kernel-module-nf-nat
 RRECOMMENDS = 
 PKGSIZE = 4480
-FILES = /lib/modules/4.8.3-yocto-standard/kernel/net/netfilter/nf_nat_tftp.ko /etc/modules-load.d/nf_nat_tftp.conf /etc/modprobe.d/nf_nat_tftp.conf
-FILELIST = /lib/modules/4.8.3-yocto-standard/kernel/net/netfilter/nf_nat_tftp.ko
+FILES = /lib/modules/4.8.6-yocto-standard/kernel/net/netfilter/nf_nat_tftp.ko /etc/modules-load.d/nf_nat_tftp.conf /etc/modprobe.d/nf_nat_tftp.conf
+FILELIST = /lib/modules/4.8.6-yocto-standard/kernel/net/netfilter/nf_nat_tftp.ko

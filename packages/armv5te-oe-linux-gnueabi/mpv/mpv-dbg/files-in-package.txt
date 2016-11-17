@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
--rwxr-xr-x root       root          4105124 ./usr/bin/.debug/mpv
+-rwxr-xr-x root       root          4237432 ./usr/bin/.debug/mpv
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/mpv
@@ -239,7 +239,7 @@ drwxr-xr-x root       root              140 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.
 -rw-r--r-- root       root             1995 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/ta/ta_talloc.c
 -rw-r--r-- root       root             5802 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/ta/ta_talloc.h
 -rw-r--r-- root       root             9083 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/ta/ta_utils.c
-drwxr-xr-x root       root              400 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video
+drwxr-xr-x root       root              500 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video
 -rw-r--r-- root       root            28777 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/csputils.c
 -rw-r--r-- root       root             8295 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/csputils.h
 drwxr-xr-x root       root              140 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/decode
@@ -248,7 +248,7 @@ drwxr-xr-x root       root              140 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.
 -rw-r--r-- root       root             2437 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/decode/lavc.h
 -rw-r--r-- root       root             1630 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/decode/vd.h
 -rw-r--r-- root       root            23799 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/decode/vd_lavc.c
-drwxr-xr-x root       root              480 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter
+drwxr-xr-x root       root              520 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter
 -rw-r--r-- root       root             1841 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter/vf_buffer.c
 -rw-r--r-- root       root            21197 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter/vf.c
 -rw-r--r-- root       root             3314 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter/vf_crop.c
@@ -270,6 +270,8 @@ drwxr-xr-x root       root              480 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.
 -rw-r--r-- root       root             7535 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter/vf_scale.c
 -rw-r--r-- root       root             8709 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter/vf_stereo3d.c
 -rw-r--r-- root       root             4002 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter/vf_sub.c
+-rw-r--r-- root       root             7899 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter/vf_vdpaupp.c
+-rw-r--r-- root       root             3464 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter/vf_vdpaurb.c
 -rw-r--r-- root       root             2467 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/filter/vf_yadif.c
 -rw-r--r-- root       root             5352 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/fmt-conversion.c
 -rw-r--r-- root       root              886 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/fmt-conversion.h
@@ -282,7 +284,7 @@ drwxr-xr-x root       root              480 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.
 -rw-r--r-- root       root             6923 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/mp_image.h
 -rw-r--r-- root       root             8171 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/mp_image_pool.c
 -rw-r--r-- root       root             1009 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/mp_image_pool.h
-drwxr-xr-x root       root              520 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out
+drwxr-xr-x root       root              540 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out
 -rw-r--r-- root       root             6753 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/aspect.c
 -rw-r--r-- root       root             1206 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/aspect.h
 -rw-r--r-- root       root             8038 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/bitmap_packer.c
@@ -297,6 +299,7 @@ drwxr-xr-x root       root              520 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.
 -rw-r--r-- root       root            12661 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/vo.h
 -rw-r--r-- root       root             3809 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/vo_image.c
 -rw-r--r-- root       root             2496 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/vo_null.c
+-rw-r--r-- root       root            42742 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/vo_vdpau.c
 -rw-r--r-- root       root            20119 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/vo_wayland.c
 -rw-r--r-- root       root            12250 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/vo_x11.c
 -rw-r--r-- root       root            29287 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/vo_xv.c
@@ -313,3 +316,8 @@ drwxr-xr-x root       root              120 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.
 -rw-r--r-- root       root             3887 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/out/x11_common.h
 -rw-r--r-- root       root            12217 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/sws_utils.c
 -rw-r--r-- root       root             2162 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/sws_utils.h
+-rw-r--r-- root       root            18465 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/vdpau.c
+-rw-r--r-- root       root             5152 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/vdpau_functions.inc
+-rw-r--r-- root       root             3140 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/vdpau.h
+-rw-r--r-- root       root            11448 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/vdpau_mixer.c
+-rw-r--r-- root       root             1568 ./usr/src/debug/mpv/0.15.0-r0/mpv-0.15.0/video/vdpau_mixer.h

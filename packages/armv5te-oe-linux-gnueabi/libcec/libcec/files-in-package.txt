@@ -1,6 +1,10 @@
 drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root            55512 ./usr/bin/cec-client
+drwxr-xr-x root       root              140 ./usr/bin
+-rwxr-xr-x root       root            14120 ./usr/bin/cecc-client-3.1.0
+lrwxrwxrwx root       root               17 ./usr/bin/cecc-client -> cecc-client-3.1.0
+-rwxr-xr-x root       root            86820 ./usr/bin/cec-client-3.1.0
+lrwxrwxrwx root       root               16 ./usr/bin/cec-client -> cec-client-3.1.0
+-rw-r--r-- root       root             6822 ./usr/bin/pyCecClient.py
 drwxr-xr-x root       root               80 ./usr/lib
--rwxr-xr-x root       root           357332 ./usr/lib/libcec.so.2.0.1
-lrwxrwxrwx root       root               15 ./usr/lib/libcec.so.2 -> libcec.so.2.0.1
+-rwxr-xr-x root       root           426024 ./usr/lib/libcec.so.3.1.0
+lrwxrwxrwx root       root               15 ./usr/lib/libcec.so.3 -> libcec.so.3.1.0
