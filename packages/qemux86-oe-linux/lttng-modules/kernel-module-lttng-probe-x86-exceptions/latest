@@ -1,10 +1,10 @@
 PV = 2.8.0+gitAUTOINC+6e4fc6f36d
 PR = r0
 PKGV = 2.8.0+git1+6e4fc6f36d
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = kernel-4.8.3-yocto-standard kernel-module-lttng-tracer
+RDEPENDS = kernel-4.8.6-yocto-standard kernel-module-lttng-tracer
 RRECOMMENDS = 
 PKGSIZE = 4872
-FILES = /lib/modules/4.8.3-yocto-standard/kernel/lttng-modules/probes/lttng-probe-x86-exceptions.ko /etc/modules-load.d/lttng-probe-x86-exceptions.conf /etc/modprobe.d/lttng-probe-x86-exceptions.conf
-FILELIST = /lib/modules/4.8.3-yocto-standard/kernel/lttng-modules/probes/lttng-probe-x86-exceptions.ko
+FILES = /lib/modules/4.8.6-yocto-standard/kernel/lttng-modules/probes/lttng-probe-x86-exceptions.ko /etc/modules-load.d/lttng-probe-x86-exceptions.conf /etc/modprobe.d/lttng-probe-x86-exceptions.conf
+FILELIST = /lib/modules/4.8.6-yocto-standard/kernel/lttng-modules/probes/lttng-probe-x86-exceptions.ko

@@ -1,10 +1,9 @@
-PV = 1.5
+PV = 1.7.2
 PR = r0
-PKG = libopenobex1
-PKGR = r0.49
-RPROVIDES = openobex (=1.5)
-RDEPENDS = glibc (>= 2.24) libusb-compat (>= 0.1.5) libusb1 (>= 1.0.20)
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.24) libusb1 (>= 1.0.20)
 RRECOMMENDS = 
-PKGSIZE = 46772
-FILES = /usr/lib/lib*.so.*
-FILELIST = /usr/lib/libopenobex.so.1 /usr/lib/libopenobex.so.1.4.1
+PKGSIZE = 98309
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openobex /usr/lib/openobex/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /lib/udev/rules.d/60-openobex.rules /usr/lib/libopenobex.so.1.7.2 /usr/lib/libopenobex.so.2 /usr/sbin/obex-check-device

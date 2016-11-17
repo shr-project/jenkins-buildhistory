@@ -1,9 +1,9 @@
 PV = 1.8.3
 PR = r0
 PKG = libgstgl-1.0-0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libgstgl-1.0 (=1.8.3)
-RDEPENDS = expat (>= 2.2.0) glib-2.0 (>= 2.50.1) glibc (>= 2.24) gstreamer1.0 (>= 1.8.3) libdrm (>= 2.4.71) libegl-mesa (>= 12.0.3) libffi (>= 3.2.1) libgbm (>= 12.0.3) libglapi (>= 12.0.3) libgles2-mesa (>= 12.0.3) libgstallocators-1.0 (>= 1.8.3) libgstvideo-1.0 (>= 1.8.3) liborc-0.4 (>= 0.4.25) libpcre (>= 8.39) libwayland-egl (>= 12.0.3) libx11 (>= 1.6.4) libx11-xcb (>= 1.6.4) libxau (>= 1.0.8) libxcb (>= 1.12) libxcb-dri2 (>= 1.12) libxcb-xfixes (>= 1.12) libxdmcp (>= 1.1.2) wayland (>= 1.11.0)
+RDEPENDS = expat (>= 2.2.0) glib-2.0 (>= 2.50.1) glibc (>= 2.24) gstreamer1.0 (>= 1.8.3) libdrm (>= 2.4.71) libegl-mesa (>= 12.0.3) libffi (>= 3.2.1) libgbm (>= 12.0.3) libglapi (>= 12.0.3) libgles2-mesa (>= 12.0.3) libgstallocators-1.0 (>= 1.8.3) libgstvideo-1.0 (>= 1.8.3) liborc-0.4 (>= 0.4.26) libpcre (>= 8.39) libwayland-egl (>= 12.0.3) libx11 (>= 1.6.4) libx11-xcb (>= 1.6.4) libxau (>= 1.0.8) libxcb (>= 1.12) libxcb-dri2 (>= 1.12) libxcb-xfixes (>= 1.12) libxdmcp (>= 1.1.2) wayland (>= 1.12.0)
 RRECOMMENDS = 
 PKGSIZE = 409395
 FILES = /usr/lib/libgstgl-1.0.so /usr/lib/libgstgl-1.0.so.0 /usr/lib/libgstgl-1.0.so.0.803.0
