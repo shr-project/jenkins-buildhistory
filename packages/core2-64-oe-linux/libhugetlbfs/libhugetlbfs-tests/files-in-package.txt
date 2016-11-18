@@ -2,7 +2,7 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/libhugetlbfs
 drwxr-xr-x root       root               80 ./usr/lib/libhugetlbfs/tests
-drwxr-xr-x root       root             1580 ./usr/lib/libhugetlbfs/tests/obj64
+drwxr-xr-x root       root             1700 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            59448 ./usr/lib/libhugetlbfs/tests/obj64/alloc-instantiate-race
 -rwxr-xr-x root       root            47008 ./usr/lib/libhugetlbfs/tests/obj64/brk_near_huge
 -rwxr-xr-x root       root            47576 ./usr/lib/libhugetlbfs/tests/obj64/chunk-overcommit
@@ -16,6 +16,12 @@ drwxr-xr-x root       root             1580 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            45744 ./usr/lib/libhugetlbfs/tests/obj64/empty_mounts
 -rwxr-xr-x root       root            46984 ./usr/lib/libhugetlbfs/tests/obj64/fadvise_reserve
 -rwxr-xr-x root       root              249 ./usr/lib/libhugetlbfs/tests/obj64/fadvise_reserve.sh
+-rwxr-xr-x root       root            47392 ./usr/lib/libhugetlbfs/tests/obj64/fallocate_align
+-rwxr-xr-x root       root              293 ./usr/lib/libhugetlbfs/tests/obj64/fallocate_align.sh
+-rwxr-xr-x root       root            46800 ./usr/lib/libhugetlbfs/tests/obj64/fallocate_basic
+-rwxr-xr-x root       root              293 ./usr/lib/libhugetlbfs/tests/obj64/fallocate_basic.sh
+-rwxr-xr-x root       root            56584 ./usr/lib/libhugetlbfs/tests/obj64/fallocate_stress
+-rwxr-xr-x root       root              294 ./usr/lib/libhugetlbfs/tests/obj64/fallocate_stress.sh
 -rwxr-xr-x root       root            44776 ./usr/lib/libhugetlbfs/tests/obj64/find_path
 -rwxr-xr-x root       root            54848 ./usr/lib/libhugetlbfs/tests/obj64/fork-cow
 -rwxr-xr-x root       root            53424 ./usr/lib/libhugetlbfs/tests/obj64/get_hugepage_region
@@ -27,12 +33,12 @@ drwxr-xr-x root       root             1580 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            39496 ./usr/lib/libhugetlbfs/tests/obj64/heapshrink
 -rwxr-xr-x root       root          5441800 ./usr/lib/libhugetlbfs/tests/obj64/huge_at_4GB_normal_below_static
 -rwxr-xr-x root       root          5442808 ./usr/lib/libhugetlbfs/tests/obj64/huge_below_4GB_normal_above_static
--rwxr-xr-x root       root            56136 ./usr/lib/libhugetlbfs/tests/obj64/icache-hygiene
+-rwxr-xr-x root       root            56120 ./usr/lib/libhugetlbfs/tests/obj64/icache-hygiene
 -rwxr-xr-x root       root            47320 ./usr/lib/libhugetlbfs/tests/obj64/large_mounts
 -rwxr-xr-x root       root            11304 ./usr/lib/libhugetlbfs/tests/obj64/libheapshrink.so
 -rwxr-xr-x root       root           173568 ./usr/lib/libhugetlbfs/tests/obj64/linkhuge
 -rwxr-xr-x root       root            34032 ./usr/lib/libhugetlbfs/tests/obj64/linkhuge_nofd
--rwxr-xr-x root       root          4293128 ./usr/lib/libhugetlbfs/tests/obj64/linkhuge_rw
+-rwxr-xr-x root       root          4293920 ./usr/lib/libhugetlbfs/tests/obj64/linkhuge_rw
 -rwxr-xr-x root       root           180736 ./usr/lib/libhugetlbfs/tests/obj64/linkshare
 -rwxr-xr-x root       root            46960 ./usr/lib/libhugetlbfs/tests/obj64/madvise_reserve
 -rwxr-xr-x root       root              249 ./usr/lib/libhugetlbfs/tests/obj64/madvise_reserve.sh
@@ -55,7 +61,7 @@ drwxr-xr-x root       root             1580 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            49336 ./usr/lib/libhugetlbfs/tests/obj64/noresv-preserve-resv-page
 -rwxr-xr-x root       root            46880 ./usr/lib/libhugetlbfs/tests/obj64/noresv-regarded-as-resv
 -rwxr-xr-x root       root            47192 ./usr/lib/libhugetlbfs/tests/obj64/private
--rwxr-xr-x root       root            56288 ./usr/lib/libhugetlbfs/tests/obj64/ptrace-write-hugepage
+-rwxr-xr-x root       root            56272 ./usr/lib/libhugetlbfs/tests/obj64/ptrace-write-hugepage
 -rwxr-xr-x root       root            57392 ./usr/lib/libhugetlbfs/tests/obj64/quota
 -rwxr-xr-x root       root              225 ./usr/lib/libhugetlbfs/tests/obj64/quota.sh
 -rwxr-xr-x root       root            47024 ./usr/lib/libhugetlbfs/tests/obj64/readahead_reserve
@@ -80,4 +86,4 @@ drwxr-xr-x root       root             1580 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            46072 ./usr/lib/libhugetlbfs/tests/obj64/unlinked_fd
 -rwxr-xr-x root       root              941 ./usr/lib/libhugetlbfs/tests/obj64/wrapper-utils.sh
 -rwxr-xr-x root       root               68 ./usr/lib/libhugetlbfs/tests/obj64/zero_filesize_segment
--rwxr-xr-x root       root            24798 ./usr/lib/libhugetlbfs/tests/run_tests.py
+-rwxr-xr-x root       root            24902 ./usr/lib/libhugetlbfs/tests/run_tests.py

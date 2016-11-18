@@ -1,10 +1,10 @@
-PV = 4.8.3+gitAUTOINC+83110d94ed_1adf9d3633
+PV = 4.8.6+gitAUTOINC+87e5fc8b7c_9d5f74f941
 PR = r0
-PKGV = 4.8.3+git0+83110d94ed_1adf9d3633
+PKGV = 4.8.6+git0+87e5fc8b7c_9d5f74f941
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.3-yocto-standard kernel-module-nf-conntrack kernel-module-nf-nat
+RDEPENDS = kernel-4.8.6-yocto-standard kernel-module-nf-conntrack kernel-module-nf-nat
 RRECOMMENDS = 
 PKGSIZE = 11120
-FILES = /lib/modules/4.8.3-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_ipv4.ko /etc/modules-load.d/nf_nat_ipv4.conf /etc/modprobe.d/nf_nat_ipv4.conf
-FILELIST = /lib/modules/4.8.3-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_ipv4.ko
+FILES = /lib/modules/4.8.6-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_ipv4.ko /etc/modules-load.d/nf_nat_ipv4.conf /etc/modprobe.d/nf_nat_ipv4.conf
+FILELIST = /lib/modules/4.8.6-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_ipv4.ko

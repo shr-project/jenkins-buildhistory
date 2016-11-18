@@ -1,11 +1,11 @@
-PV = r2491+gitAUTOINC+c8a773ebfc
+PV = r2491+gitAUTOINC+86b71982e1
 PR = r0
-PKG = libx264-144
-PKGV = r2491+git0+c8a773ebfc
-PKGR = r0.37
-RPROVIDES = x264 (=r2491+git0+c8a773ebfc)
+PKG = libx264-148
+PKGV = r2491+git1+86b71982e1
+PKGR = r0.0
+RPROVIDES = x264 (=r2491+git1+86b71982e1)
 RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 1015824
+PKGSIZE = 917456
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/x264 /usr/lib/x264/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libx264.so.144
+FILELIST = /usr/lib/libx264.so.148

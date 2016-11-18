@@ -1,0 +1,10 @@
+PV = 2015.2-r1
+PR = r0
+PKG = libiio0
+PKGR = r0.0
+RPROVIDES = libiio (=2015.2-r1)
+RDEPENDS = glibc (>= 2.24) libavahi-client (>= 0.6.32) libavahi-common (>= 0.6.32) libxml2 (>= 2.9.4)
+RRECOMMENDS = 
+PKGSIZE = 81765
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libiio /usr/lib/libiio/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libiio.so.0 /usr/lib/libiio.so.0.6
