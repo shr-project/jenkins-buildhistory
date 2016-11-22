@@ -2,7 +2,18 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/qt5
 drwxr-xr-x root       root               60 ./usr/share/qt5/examples
-drwxr-xr-x root       root              220 ./usr/share/qt5/examples/sensors
+drwxr-xr-x root       root              240 ./usr/share/qt5/examples/sensors
+drwxr-xr-x root       root              200 ./usr/share/qt5/examples/sensors/accelbubble
+-rwxr-xr-x root       root            14736 ./usr/share/qt5/examples/sensors/accelbubble/accelbubble
+-rw-r--r-- root       root              509 ./usr/share/qt5/examples/sensors/accelbubble/accelbubble.pro
+-rw-r--r-- root       root             3873 ./usr/share/qt5/examples/sensors/accelbubble/accelbubble.qml
+-rw-r--r-- root       root              138 ./usr/share/qt5/examples/sensors/accelbubble/accelbubble.qrc
+drwxr-xr-x root       root               60 ./usr/share/qt5/examples/sensors/accelbubble/android
+-rw-r--r-- root       root             3804 ./usr/share/qt5/examples/sensors/accelbubble/android/AndroidManifest.xml
+drwxr-xr-x root       root               60 ./usr/share/qt5/examples/sensors/accelbubble/content
+-rw-r--r-- root       root              399 ./usr/share/qt5/examples/sensors/accelbubble/content/Bluebubble.svg
+-rw-r--r-- root       root             1020 ./usr/share/qt5/examples/sensors/accelbubble/Info.plist
+-rw-r--r-- root       root             2201 ./usr/share/qt5/examples/sensors/accelbubble/main.cpp
 drwxr-xr-x root       root              420 ./usr/share/qt5/examples/sensors/grue
 drwxr-xr-x root       root               80 ./usr/share/qt5/examples/sensors/grue/console_app
 -rw-r--r-- root       root              236 ./usr/share/qt5/examples/sensors/grue/console_app/console_app.pro
@@ -19,12 +30,12 @@ drwxr-xr-x root       root               60 ./usr/share/qt5/examples/sensors/gru
 drwxr-xr-x root       root              100 ./usr/share/qt5/examples/sensors/grue/import
 -rw-r--r-- root       root                3 ./usr/share/qt5/examples/sensors/grue/import/import.json
 -rw-r--r-- root       root              790 ./usr/share/qt5/examples/sensors/grue/import/import.pro
--rw-r--r-- root       root             5011 ./usr/share/qt5/examples/sensors/grue/import/main.cpp
+-rw-r--r-- root       root             4995 ./usr/share/qt5/examples/sensors/grue/import/main.cpp
 drwxr-xr-x root       root              120 ./usr/share/qt5/examples/sensors/grue/lib
 -rw-r--r-- root       root             4625 ./usr/share/qt5/examples/sensors/grue/lib/gruesensor.cpp
 -rw-r--r-- root       root             3171 ./usr/share/qt5/examples/sensors/grue/lib/gruesensor.h
 -rw-r--r-- root       root             2412 ./usr/share/qt5/examples/sensors/grue/lib/gruesensor_p.h
--rw-r--r-- root       root             1231 ./usr/share/qt5/examples/sensors/grue/libgruesensor.prl
+-rw-r--r-- root       root             1267 ./usr/share/qt5/examples/sensors/grue/libgruesensor.prl
 -rwxr-xr-x root       root            15048 ./usr/share/qt5/examples/sensors/grue/libgruesensor.so.1.0.0
 lrwxrwxrwx root       root               22 ./usr/share/qt5/examples/sensors/grue/libgruesensor.so.1.0 -> libgruesensor.so.1.0.0
 lrwxrwxrwx root       root               22 ./usr/share/qt5/examples/sensors/grue/libgruesensor.so.1 -> libgruesensor.so.1.0.0
@@ -104,7 +115,7 @@ drwxr-xr-x root       root              220 ./usr/share/qt5/examples/sensors/sen
 -rw-r--r-- root       root             3449 ./usr/share/qt5/examples/sensors/sensor_explorer/import/explorer.h
 -rw-r--r-- root       root                3 ./usr/share/qt5/examples/sensors/sensor_explorer/import/import.json
 -rw-r--r-- root       root              675 ./usr/share/qt5/examples/sensors/sensor_explorer/import/import.pro
--rw-r--r-- root       root             2666 ./usr/share/qt5/examples/sensors/sensor_explorer/import/main.cpp
+-rw-r--r-- root       root             2650 ./usr/share/qt5/examples/sensors/sensor_explorer/import/main.cpp
 -rw-r--r-- root       root             4531 ./usr/share/qt5/examples/sensors/sensor_explorer/import/propertyinfo.cpp
 -rw-r--r-- root       root             3416 ./usr/share/qt5/examples/sensors/sensor_explorer/import/propertyinfo.h
 -rw-r--r-- root       root            10975 ./usr/share/qt5/examples/sensors/sensor_explorer/import/sensoritem.cpp
@@ -116,7 +127,7 @@ drwxr-xr-x root       root              220 ./usr/share/qt5/examples/sensors/sen
 -rw-r--r-- root       root               75 ./usr/share/qt5/examples/sensors/sensor_explorer/sensor_explorer.pro
 -rw-r--r-- root       root             8250 ./usr/share/qt5/examples/sensors/sensor_explorer/sensor_explorer.qml
 drwxr-xr-x root       root              160 ./usr/share/qt5/examples/sensors/sensorgestures
--rwxr-xr-x root       root            44432 ./usr/share/qt5/examples/sensors/sensorgestures/gesture
+-rwxr-xr-x root       root            44424 ./usr/share/qt5/examples/sensors/sensorgestures/gesture
 -rw-r--r-- root       root             2146 ./usr/share/qt5/examples/sensors/sensorgestures/main.cpp
 -rw-r--r-- root       root             5546 ./usr/share/qt5/examples/sensors/sensorgestures/mainwindow.cpp
 -rw-r--r-- root       root             2575 ./usr/share/qt5/examples/sensors/sensorgestures/mainwindow.h
