@@ -1,9 +1,10 @@
-PV = 2015.2-r1
+PV = 0.7+gitAUTOINC+e0fc384550
 PR = r0
+PKGV = 0.7+git0+e0fc384550
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libiio (>= 2015.2-r1)
+RDEPENDS = glibc (>= 2.24) libiio (>= 0.7+git0+e0fc384550)
 RRECOMMENDS = 
-PKGSIZE = 45080
+PKGSIZE = 53372
 FILES = /usr/bin
 FILELIST = /usr/bin/iio_adi_xflow_check /usr/bin/iio_genxml /usr/bin/iio_info /usr/bin/iio_readdev /usr/bin/iio_reg
