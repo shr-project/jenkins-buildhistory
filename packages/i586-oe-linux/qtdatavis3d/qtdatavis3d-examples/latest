@@ -1,10 +1,10 @@
-PV = 5.7.0+gitAUTOINC+d6a8da66dc
+PV = 5.8.0+gitAUTOINC+96086b01a3
 PR = r0
 PKG = libqt5datavisualization-examples
-PKGV = 5.7.0+git0+d6a8da66dc
-PKGR = r0.24
-RPROVIDES = qtdatavis3d-examples (=5.7.0+git0+d6a8da66dc)
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.0+git0+69b43e74d7) qtdatavis3d (>= 5.7.0+git0+d6a8da66dc) qtdeclarative (>= 5.7.0+git0+d48b397cc7) qtmultimedia (>= 5.7.0+git0+1be4f74843)
+PKGV = 5.8.0+git0+96086b01a3
+PKGR = r0.0
+RPROVIDES = qtdatavis3d-examples (=5.8.0+git0+96086b01a3)
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.8.0+git0+969bb10eed) qtdatavis3d (>= 5.8.0+git0+96086b01a3) qtdeclarative (>= 5.8.0+git0+9d085bf002) qtmultimedia (>= 5.8.0+git0+0cb4dc5c1f)
 RRECOMMENDS = 
 PKGSIZE = 4574933
 FILES = /usr/share/qt5/examples/*

@@ -1,10 +1,10 @@
-PV = 5.7.0+gitAUTOINC+c3fdb888fb
+PV = 5.8.0+gitAUTOINC+6e8e228852
 PR = r0
-PKGV = 5.7.0+git0+c3fdb888fb
-PKGR = r0.24
+PKGV = 5.8.0+git0+6e8e228852
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qt3d (>= 5.7.0+git0+c3fdb888fb) qtbase (>= 5.7.0+git0+69b43e74d7)
+RDEPENDS = assimp (>= 3.1.1) glibc (>= 2.24) libstdc++ (>= 6.2.0) qt3d (>= 5.8.0+git0+6e8e228852) qtbase (>= 5.8.0+git0+969bb10eed)
 RRECOMMENDS = 
-PKGSIZE = 113132
+PKGSIZE = 226108
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
-FILELIST = /usr/lib/qt5/plugins/sceneparsers/libgltfsceneio.so
+FILELIST = /usr/lib/qt5/plugins/sceneparsers/libassimpsceneio.so /usr/lib/qt5/plugins/sceneparsers/libgltfsceneio.so
