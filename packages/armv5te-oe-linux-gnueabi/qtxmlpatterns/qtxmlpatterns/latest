@@ -1,11 +1,11 @@
-PV = 5.7.0+gitAUTOINC+574d92a43e
+PV = 5.8.0+gitAUTOINC+977d0fb3f0
 PR = r0
 PKG = libqt5xmlpatterns5
-PKGV = 5.7.0+git0+574d92a43e
-PKGR = r0.25
-RPROVIDES = qtxmlpatterns (=5.7.0+git0+574d92a43e)
-RDEPENDS = glibc (>= 2.24) libgcc (>= 6.2.0) libstdc++ (>= 6.2.0) qtbase (>= 5.7.0+git0+69b43e74d7)
+PKGV = 5.8.0+git0+977d0fb3f0
+PKGR = r0.0
+RPROVIDES = qtxmlpatterns (=5.8.0+git0+977d0fb3f0)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.2.0) libstdc++ (>= 6.2.0) qtbase (>= 5.8.0+git0+969bb10eed)
 RRECOMMENDS = qtxmlpatterns-plugins qtxmlpatterns-qmlplugins
-PKGSIZE = 2352632
+PKGSIZE = 2348544
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtxmlpatterns /usr/lib/qtxmlpatterns/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5XmlPatterns.so.5 /usr/lib/libQt5XmlPatterns.so.5.7 /usr/lib/libQt5XmlPatterns.so.5.7.0
+FILELIST = /usr/lib/libQt5XmlPatterns.so.5 /usr/lib/libQt5XmlPatterns.so.5.8 /usr/lib/libQt5XmlPatterns.so.5.8.0

@@ -1,11 +1,11 @@
-PV = 5.7.0+gitAUTOINC+e03c37077e
+PV = 5.8.0+gitAUTOINC+8065e46142
 PR = r0
 PKG = libqt5sensors-examples-dev
-PKGV = 5.7.0+git0+e03c37077e
-PKGR = r0.26
-RPROVIDES = qtsensors-examples-dev (=5.7.0+git0+e03c37077e)
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.0+git0+69b43e74d7) qtdeclarative (>= 5.7.0+git0+d48b397cc7) qtsensors (>= 5.7.0+git0+e03c37077e) qtsensors-examples (>= 5.7.0+git0+e03c37077e)
+PKGV = 5.8.0+git0+8065e46142
+PKGR = r0.0
+RPROVIDES = qtsensors-examples-dev (=5.8.0+git0+8065e46142)
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.8.0+git0+969bb10eed) qtdeclarative (>= 5.8.0+git0+9d085bf002) qtsensors (>= 5.8.0+git0+8065e46142) qtsensors-examples (>= 5.8.0+git0+8065e46142)
 RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtdeclarative-dev qtsensors-dev
-PKGSIZE = 92670
+PKGSIZE = 92666
 FILES = /usr/share/qt5/examples/*.so /usr/share/qt5/examples/*/*.so /usr/share/qt5/examples/*/*/*.so /usr/share/qt5/examples/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*/*.so
 FILELIST = /usr/share/qt5/examples/sensors/grue/Grue/libdeclarative_grue.so /usr/share/qt5/examples/sensors/grue/libgruesensor.so /usr/share/qt5/examples/sensors/grue/sensors/libqtsensors_grue.so /usr/share/qt5/examples/sensors/sensor_explorer/Explorer/libdeclarative_explorer.so
