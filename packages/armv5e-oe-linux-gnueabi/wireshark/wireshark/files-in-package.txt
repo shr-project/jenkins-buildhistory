@@ -18,7 +18,7 @@ drwxr-xr-x root       root              220 ./usr/lib
 lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so.8 -> libwireshark.so.8.0.1
 -rwxr-xr-x root       root           358300 ./usr/lib/libwiretap.so.6.0.1
 lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so.6 -> libwiretap.so.6.0.1
--rwxr-xr-x root       root            27340 ./usr/lib/libwscodecs.so.1.0.0
+-rwxr-xr-x root       root            27352 ./usr/lib/libwscodecs.so.1.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libwscodecs.so.1 -> libwscodecs.so.1.0.0
 -rwxr-xr-x root       root           125580 ./usr/lib/libwsutil.so.7.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libwsutil.so.7 -> libwsutil.so.7.0.0
@@ -54,10 +54,55 @@ drwxr-xr-x root       root              560 ./usr/lib/wireshark/plugins/2.2.1
 -rwxr-xr-x root       root              940 ./usr/lib/wireshark/plugins/2.2.1/wimaxmacphy.la
 -rwxr-xr-x root       root            62404 ./usr/lib/wireshark/plugins/2.2.1/wimaxmacphy.so
 -rwxr-xr-x root       root           547020 ./usr/lib/wireshark/plugins/2.2.1/wimax.so
-drwxr-xr-x root       root               80 ./usr/share
+drwxr-xr-x root       root              140 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/appdata
+-rw-r--r-- root       root             2267 ./usr/share/appdata/wireshark.appdata.xml
 drwxr-xr-x root       root               80 ./usr/share/applications
 -rw-r--r-- root       root             5050 ./usr/share/applications/wireshark.desktop
 -rw-r--r-- root       root             4943 ./usr/share/applications/wireshark-gtk.desktop
+drwxr-xr-x root       root               60 ./usr/share/icons
+drwxr-xr-x root       root              200 ./usr/share/icons/hicolor
+drwxr-xr-x root       root               80 ./usr/share/icons/hicolor/128x128
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/128x128/apps
+-rw-r--r-- root       root            15428 ./usr/share/icons/hicolor/128x128/apps/wireshark.png
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/128x128/mimetypes
+-rw-r--r-- root       root            14018 ./usr/share/icons/hicolor/128x128/mimetypes/application-wireshark-doc.png
+drwxr-xr-x root       root               80 ./usr/share/icons/hicolor/16x16
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/16x16/apps
+-rw-r--r-- root       root              775 ./usr/share/icons/hicolor/16x16/apps/wireshark.png
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/16x16/mimetypes
+-rw-r--r-- root       root              872 ./usr/share/icons/hicolor/16x16/mimetypes/application-wireshark-doc.png
+drwxr-xr-x root       root               80 ./usr/share/icons/hicolor/24x24
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/24x24/apps
+-rw-r--r-- root       root             1288 ./usr/share/icons/hicolor/24x24/apps/wireshark.png
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/24x24/mimetypes
+-rw-r--r-- root       root             1635 ./usr/share/icons/hicolor/24x24/mimetypes/application-wireshark-doc.png
+drwxr-xr-x root       root               80 ./usr/share/icons/hicolor/256x256
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/256x256/apps
+-rw-r--r-- root       root            46004 ./usr/share/icons/hicolor/256x256/apps/wireshark.png
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/256x256/mimetypes
+-rw-r--r-- root       root            35508 ./usr/share/icons/hicolor/256x256/mimetypes/application-wireshark-doc.png
+drwxr-xr-x root       root               80 ./usr/share/icons/hicolor/32x32
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/32x32/apps
+-rw-r--r-- root       root             1933 ./usr/share/icons/hicolor/32x32/apps/wireshark.png
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/32x32/mimetypes
+-rw-r--r-- root       root             2044 ./usr/share/icons/hicolor/32x32/mimetypes/application-wireshark-doc.png
+drwxr-xr-x root       root               80 ./usr/share/icons/hicolor/48x48
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/48x48/apps
+-rw-r--r-- root       root             3419 ./usr/share/icons/hicolor/48x48/apps/wireshark.png
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/48x48/mimetypes
+-rw-r--r-- root       root             3474 ./usr/share/icons/hicolor/48x48/mimetypes/application-wireshark-doc.png
+drwxr-xr-x root       root               80 ./usr/share/icons/hicolor/64x64
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/64x64/apps
+-rw-r--r-- root       root             5309 ./usr/share/icons/hicolor/64x64/apps/wireshark.png
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/64x64/mimetypes
+-rw-r--r-- root       root             5710 ./usr/share/icons/hicolor/64x64/mimetypes/application-wireshark-doc.png
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/scalable
+drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/scalable/apps
+-rw-r--r-- root       root             5908 ./usr/share/icons/hicolor/scalable/apps/wireshark.svg
+drwxr-xr-x root       root               60 ./usr/share/mime
+drwxr-xr-x root       root               60 ./usr/share/mime/packages
+-rw-r--r-- root       root             7131 ./usr/share/mime/packages/wireshark.xml
 drwxr-xr-x root       root              740 ./usr/share/wireshark
 -rw-r--r-- root       root             8800 ./usr/share/wireshark/androiddump.html
 -rw-r--r-- root       root            57119 ./usr/share/wireshark/AUTHORS-SHORT

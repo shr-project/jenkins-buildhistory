@@ -1,9 +1,9 @@
-PV = 5.8.0+gitAUTOINC+969bb10eed
+PV = 5.7.99+5.8.0-beta+gitAUTOINC+969bb10eed
 PR = r0
-PKGV = 5.8.0+git0+969bb10eed
+PKGV = 5.7.99+5.8.0-beta+git0+969bb10eed
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libgcc (>= 6.2.0) libstdc++ (>= 6.2.0) qtbase (>= 5.8.0+git0+969bb10eed)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.2.0) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-beta+git0+969bb10eed)
 RRECOMMENDS = dbus-dev drm-dev fontconfig-dev freetype-dev glib-2.0-dev glibc-dev icu-dev jpeg-dev libgcc-dev libgles2-mesa-dev libpng-dev libstdc++-dev libxcb-dev libxi-dev libxkbcommon-dev libxrender-dev mtdev-dev openssl-dev pulseaudio-dev qtbase-dev sqlite3-dev udev-dev xcb-util-image-dev xcb-util-keysyms-dev xcb-util-renderutil-dev xcb-util-wm-dev zlib-dev
 PKGSIZE = 50740
 FILES = /usr/share/qt5/examples/*.so /usr/share/qt5/examples/*/*.so /usr/share/qt5/examples/*/*/*.so /usr/share/qt5/examples/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*/*.so

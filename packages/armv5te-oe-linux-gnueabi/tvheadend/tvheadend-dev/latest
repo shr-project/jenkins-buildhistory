@@ -1,9 +1,9 @@
-PV = 3.3
+PV = 4.0.9+git64fec8120158de585e18be705055259484518d94
 PR = r0
-PKGR = r0.43
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = tvheadend (= 3.3-r0.43)
-RRECOMMENDS = avahi-dev glibc-dev libavahi-client-dev libavahi-common-dev libcrypto-dev openssl-dev zlib-dev
+RDEPENDS = tvheadend (= 4.0.9+git64fec8120158de585e18be705055259484518d94-r0.0)
+RRECOMMENDS = avahi-dev dbus-lib-dev glibc-dev libavahi-client-dev libavahi-common-dev libcrypto-dev libssl-dev openssl-dev uriparser-dev zlib-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tvheadend/*.la /lib/*.la
 FILELIST = 

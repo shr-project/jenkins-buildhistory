@@ -1,9 +1,9 @@
 PV = 1.9.10+gitAUTOINC+364159f821
 PR = r0
 PKGV = 1.9.10+git0+364159f821
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = jack (= 1.9.10+git0+364159f821-r0.2) libjack
+RDEPENDS = jack (= 1.9.10+git0+364159f821-r0.3) libjack
 RRECOMMENDS = alsa-lib-dev glibc-dev libasound-dev libgcc-dev libjack-dev libopus-dev libsamplerate0-dev libsndfile1-dev libstdc++-dev readline-dev
 PKGSIZE = 182518
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/jack/*.la /lib/*.la

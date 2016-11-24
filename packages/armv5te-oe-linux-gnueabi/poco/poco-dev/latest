@@ -1,8 +1,8 @@
 PV = 1.7.5
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = poco (= 1.7.5-r0.10) poco-crypto poco-data poco-datasqlite poco-foundation poco-json poco-mongodb poco-net poco-netssl poco-pdf poco-util poco-xml poco-zip
+RDEPENDS = poco (= 1.7.5-r0.11) poco-crypto poco-data poco-datasqlite poco-foundation poco-json poco-mongodb poco-net poco-netssl poco-pdf poco-util poco-xml poco-zip
 RRECOMMENDS = expat-dev glibc-dev libcrypto-dev libgcc-dev libpcre-dev libsqlite3-dev libssl-dev libstdc++-dev openssl-dev poco-crypto-dev poco-data-dev poco-datasqlite-dev poco-foundation-dev poco-json-dev poco-mongodb-dev poco-net-dev poco-netssl-dev poco-pdf-dev poco-util-dev poco-xml-dev poco-zip-dev sqlite3-dev zlib-dev
 PKGSIZE = 4069221
 FILES = /usr/include /usr/lib/libPoco*.so /usr/lib/cmake
