@@ -1,9 +1,10 @@
-PV = svn
+PV = 1.0+gitAUTOINC+2f6cb866d6_d8cb47f77d_f7d03d2734_ec44c6c167_cb6dd4ef5f_1549d20f6d
 PR = r0
-PKGR = r0.43
+PKGV = 1.0+git0+2f6cb866d6_d8cb47f77d_f7d03d2734_ec44c6c167_cb6dd4ef5f_1549d20f6d
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = breakpad-dev (= svn-r0.43)
+RDEPENDS = breakpad-dev (= 1.0+git0+2f6cb866d6_d8cb47f77d_f7d03d2734_ec44c6c167_cb6dd4ef5f_1549d20f6d-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 7393220
+PKGSIZE = 8229944
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/breakpad/*.a
 FILELIST = /usr/lib/libbreakpad.a /usr/lib/libbreakpad_client.a

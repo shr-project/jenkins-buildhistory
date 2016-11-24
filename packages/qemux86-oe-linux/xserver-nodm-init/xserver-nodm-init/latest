@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r31
-PKGR = r31.0
+PKGR = r31.1
 RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = update-rc.d
-PKGSIZE = 1439
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/xserver-nodm-init /usr/lib/xserver-nodm-init/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/init.d/xserver-nodm
+RDEPENDS = xinit
+RRECOMMENDS = 
+PKGSIZE = 982
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xserver-nodm-init /usr/lib/xserver-nodm-init/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/xserver-nodm.service
+FILELIST = /etc/default/xserver-nodm /etc/xserver-nodm/Xserver /lib/systemd/system/xserver-nodm.service

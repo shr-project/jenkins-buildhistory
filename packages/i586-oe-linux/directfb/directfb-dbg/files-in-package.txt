@@ -57,10 +57,11 @@ drwxr-xr-x root       root               60 ./usr/lib/directfb-1.7-7/interfaces/
 drwxr-xr-x root       root               60 ./usr/lib/directfb-1.7-7/interfaces/IWater/.debug
 -rwxr-xr-x root       root           269240 ./usr/lib/directfb-1.7-7/interfaces/IWater/.debug/libiwater_default.so
 drwxr-xr-x root       root               60 ./usr/lib/directfb-1.7-7/systems
-drwxr-xr-x root       root              100 ./usr/lib/directfb-1.7-7/systems/.debug
+drwxr-xr-x root       root              120 ./usr/lib/directfb-1.7-7/systems/.debug
 -rwxr-xr-x root       root           118536 ./usr/lib/directfb-1.7-7/systems/.debug/libdirectfb_devmem.so
 -rwxr-xr-x root       root            86000 ./usr/lib/directfb-1.7-7/systems/.debug/libdirectfb_dummy.so
 -rwxr-xr-x root       root           249280 ./usr/lib/directfb-1.7-7/systems/.debug/libdirectfb_fbdev.so
+-rwxr-xr-x root       root           225868 ./usr/lib/directfb-1.7-7/systems/.debug/libdirectfb_x11vdpau.so
 drwxr-xr-x root       root               60 ./usr/lib/directfb-1.7-7/wm
 drwxr-xr-x root       root               60 ./usr/lib/directfb-1.7-7/wm/.debug
 -rwxr-xr-x root       root           177012 ./usr/lib/directfb-1.7-7/wm/.debug/libdirectfbwm_default.so
@@ -535,7 +536,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/directfb/1.7.7-r0/Di
 drwxr-xr-x root       root               80 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/windows
 -rw-r--r-- root       root            42751 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/windows/idirectfbwindow.c
 -rw-r--r-- root       root             1841 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/src/windows/idirectfbwindow.h
-drwxr-xr-x root       root              100 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems
+drwxr-xr-x root       root              120 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems
 drwxr-xr-x root       root              140 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/devmem
 -rw-r--r-- root       root             9524 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/devmem/devmem.c
 -rw-r--r-- root       root             1803 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/devmem/devmem.h
@@ -555,6 +556,15 @@ drwxr-xr-x root       root              240 ./usr/src/debug/directfb/1.7.7-r0/Di
 -rw-r--r-- root       root             4337 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/fbdev/surfacemanager.h
 -rw-r--r-- root       root            19617 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/fbdev/vt.c
 -rw-r--r-- root       root             2812 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/fbdev/vt.h
+drwxr-xr-x root       root              200 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/x11vdpau
+-rw-r--r-- root       root            21911 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/x11vdpau/primary.c
+-rw-r--r-- root       root             1673 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/x11vdpau/primary.h
+-rw-r--r-- root       root            21817 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/x11vdpau/x11.c
+-rw-r--r-- root       root             5576 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/x11vdpau/x11.h
+-rw-r--r-- root       root            26752 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/x11vdpau/x11input.c
+-rw-r--r-- root       root             1421 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/x11vdpau/x11types.h
+-rw-r--r-- root       root            16411 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/x11vdpau/x11vdpau_surface_pool.c
+-rw-r--r-- root       root             1612 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/systems/x11vdpau/x11vdpau_surface_pool.h
 drwxr-xr-x root       root              340 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/tools
 -rw-r--r-- root       root            28100 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/tools/dfbdump.c
 -rw-r--r-- root       root             9845 ./usr/src/debug/directfb/1.7.7-r0/DirectFB-1.7.7/tools/dfbdumpinput.c
