@@ -4,7 +4,7 @@ drwxr-xr-x root       root              300 ./usr/bin/.debug
 -rwxr-xr-x root       root           101952 ./usr/bin/.debug/capinfos
 -rwxr-xr-x root       root            29760 ./usr/bin/.debug/captype
 -rwxr-xr-x root       root            38696 ./usr/bin/.debug/dftest
--rwxr-xr-x root       root           315848 ./usr/bin/.debug/dumpcap
+-rwxr-xr-x root       root           315832 ./usr/bin/.debug/dumpcap
 -rwxr-xr-x root       root           107368 ./usr/bin/.debug/editcap
 -rwxr-xr-x root       root           101112 ./usr/bin/.debug/idl2wrs
 -rwxr-xr-x root       root            46128 ./usr/bin/.debug/mergecap
@@ -18,7 +18,7 @@ drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/lib/.debug
 -rwxr-xr-x root       root        108350152 ./usr/lib/.debug/libwireshark.so.8.0.1
 -rwxr-xr-x root       root          1683728 ./usr/lib/.debug/libwiretap.so.6.0.1
--rwxr-xr-x root       root            63736 ./usr/lib/.debug/libwscodecs.so.1.0.0
+-rwxr-xr-x root       root            69208 ./usr/lib/.debug/libwscodecs.so.1.0.0
 -rwxr-xr-x root       root           373152 ./usr/lib/.debug/libwsutil.so.7.0.0
 drwxr-xr-x root       root               80 ./usr/lib/wireshark
 drwxr-xr-x root       root               60 ./usr/lib/wireshark/extcap
@@ -84,7 +84,7 @@ drwxr-xr-x root       root              220 ./usr/src/debug/wireshark/1_2.2.1-r0
 -rw-r--r-- root       root             4286 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/caputils/ws80211_utils.h
 -rw-r--r-- root       root             2266 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/cfile.c
 -rw-r--r-- root       root             7137 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/cfile.h
-drwxr-xr-x root       root              140 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs
+drwxr-xr-x root       root              160 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs
 -rw-r--r-- root       root             6207 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/codecs.c
 -rw-r--r-- root       root             2724 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/codecs.h
 drwxr-xr-x root       root               80 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/G711a
@@ -93,6 +93,8 @@ drwxr-xr-x root       root               80 ./usr/src/debug/wireshark/1_2.2.1-r0
 drwxr-xr-x root       root               80 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/G711u
 -rw-r--r-- root       root             1978 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/G711u/G711udecode.c
 -rw-r--r-- root       root             3109 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/G711u/G711utable.h
+drwxr-xr-x root       root               60 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/sbc
+-rw-r--r-- root       root             3308 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/sbc/sbc.c
 drwxr-xr-x root       root              100 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/speex
 -rw-r--r-- root       root             6945 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/speex/arch.h
 -rw-r--r-- root       root            43590 ./usr/src/debug/wireshark/1_2.2.1-r0/wireshark-2.2.1/codecs/speex/resample.c

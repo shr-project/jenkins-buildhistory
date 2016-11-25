@@ -1,10 +1,10 @@
-PV = 5.8.0+gitAUTOINC+8065e46142
+PV = 5.7.99+5.8.0-beta+gitAUTOINC+8065e46142
 PR = r0
 PKG = libqt5sensors-qmlplugins
-PKGV = 5.8.0+git0+8065e46142
+PKGV = 5.7.99+5.8.0-beta+git0+8065e46142
 PKGR = r0.0
-RPROVIDES = qtsensors-qmlplugins (=5.8.0+git0+8065e46142)
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.8.0+git0+969bb10eed) qtdeclarative (>= 5.8.0+git0+9d085bf002) qtsensors (>= 5.8.0+git0+8065e46142)
+RPROVIDES = qtsensors-qmlplugins (=5.7.99+5.8.0-beta+git0+8065e46142)
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-beta+git0+969bb10eed) qtdeclarative (>= 5.7.99+5.8.0-beta+git0+9d085bf002) qtsensors (>= 5.7.99+5.8.0-beta+git0+8065e46142)
 RRECOMMENDS = 
 PKGSIZE = 261052
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir

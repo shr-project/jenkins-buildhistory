@@ -3,7 +3,7 @@ drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              240 ./usr/bin/.debug
 -rwxr-xr-x root       root            32560 ./usr/bin/.debug/gapplication
 -rwxr-xr-x root       root            96264 ./usr/bin/.debug/gdbus
--rwxr-xr-x root       root           239952 ./usr/bin/.debug/gio
+-rwxr-xr-x root       root           239904 ./usr/bin/.debug/gio
 -rwxr-xr-x root       root            81944 ./usr/bin/.debug/glib-compile-resources
 -rwxr-xr-x root       root           120424 ./usr/bin/.debug/glib-compile-schemas
 -rwxr-xr-x root       root            56928 ./usr/bin/.debug/glib-genmarshal
@@ -13,7 +13,7 @@ drwxr-xr-x root       root              240 ./usr/bin/.debug
 -rwxr-xr-x root       root            60240 ./usr/bin/.debug/gtester
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              140 ./usr/lib/.debug
--rwxr-xr-x root       root          7036152 ./usr/lib/.debug/libgio-2.0.so.0.5000.1
+-rwxr-xr-x root       root          7035920 ./usr/lib/.debug/libgio-2.0.so.0.5000.1
 -rwxr-xr-x root       root          2944824 ./usr/lib/.debug/libglib-2.0.so.0.5000.1
 -rwxr-xr-x root       root            38816 ./usr/lib/.debug/libgmodule-2.0.so.0.5000.1
 -rwxr-xr-x root       root          1254904 ./usr/lib/.debug/libgobject-2.0.so.0.5000.1
@@ -37,14 +37,12 @@ drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/glib-2.0
 drwxr-xr-x root       root               80 ./usr/src/debug/glib-2.0/1_2.50.1-r0
 drwxr-xr-x root       root               80 ./usr/src/debug/glib-2.0/1_2.50.1-r0/build
-drwxr-xr-x root       root              100 ./usr/src/debug/glib-2.0/1_2.50.1-r0/build/gio
--rw-r--r-- root       root            71335 ./usr/src/debug/glib-2.0/1_2.50.1-r0/build/gio/gioenumtypes.c
--rw-r--r-- root       root            11805 ./usr/src/debug/glib-2.0/1_2.50.1-r0/build/gio/gioenumtypes.h
+drwxr-xr-x root       root               60 ./usr/src/debug/glib-2.0/1_2.50.1-r0/build/gio
 -rw-r--r-- root       root             1992 ./usr/src/debug/glib-2.0/1_2.50.1-r0/build/gio/gnetworking.h
 drwxr-xr-x root       root               60 ./usr/src/debug/glib-2.0/1_2.50.1-r0/build/glib
 -rw-r--r-- root       root             5554 ./usr/src/debug/glib-2.0/1_2.50.1-r0/build/glib/glibconfig.h
 drwxr-xr-x root       root              140 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1
-drwxr-xr-x root       root             8860 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio
+drwxr-xr-x root       root             8880 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio
 -rw-r--r-- root       root            18468 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/gaction.c
 -rw-r--r-- root       root            27049 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/gactiongroup.c
 -rw-r--r-- root       root            20964 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/gactiongroupexporter.c
@@ -223,6 +221,7 @@ drwxr-xr-x root       root             8860 ./usr/src/debug/glib-2.0/1_2.50.1-r0
 -rw-r--r-- root       root            48953 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/ginputstream.c
 -rw-r--r-- root       root             9186 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/ginputstream.h
 -rw-r--r-- root       root            71945 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/gioenums.h
+-rw-r--r-- root       root            71291 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/gioenumtypes.c
 -rw-r--r-- root       root            11761 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/gioenumtypes.h
 -rw-r--r-- root       root             7474 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/gioerror.c
 -rw-r--r-- root       root             1556 ./usr/src/debug/glib-2.0/1_2.50.1-r0/glib-2.50.1/gio/gioerror.h

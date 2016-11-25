@@ -1,4 +1,4 @@
 PV = 0.15.0
 PR = r0
-DEPENDS = ffmpeg jpeg libass libv4l libxinerama libxscrnsaver libxv lua luajit pkgconfig-native python-native virtual/libc virtual/libx11 virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc xsp zlib
+DEPENDS = ffmpeg jpeg libass libv4l libvdpau libxinerama libxscrnsaver libxv lua luajit pkgconfig-native python-native virtual/libc virtual/libx11 virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc xsp zlib
 PACKAGES = mpv-dbg mpv-staticdev mpv-dev mpv-doc mpv-locale mpv
