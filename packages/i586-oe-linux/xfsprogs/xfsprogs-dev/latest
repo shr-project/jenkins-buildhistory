@@ -1,9 +1,9 @@
-PV = 3.2.3
+PV = 4.8.0
 PR = r0
-PKGR = r0.30
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libhandle xfsprogs (= 3.2.3-r0.30)
-RRECOMMENDS = glibc-dev libhandle-dev util-linux-dev util-linux-libblkid-dev util-linux-libuuid-dev xfsprogs-fsck-dev xfsprogs-mkfs-dev
-PKGSIZE = 49270
+RDEPENDS = libhandle xfsprogs (= 4.8.0-r0.0)
+RRECOMMENDS = glibc-dev libhandle-dev readline-dev util-linux-dev util-linux-libblkid-dev util-linux-libuuid-dev xfsprogs-fsck-dev xfsprogs-mkfs-dev xfsprogs-repair-dev
+PKGSIZE = 170312
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xfsprogs/*.la /lib/*.la
-FILELIST = /lib/libhandle.so /usr/include/xfs/handle.h /usr/include/xfs/jdm.h /usr/include/xfs/linux.h /usr/include/xfs/platform_defs.h /usr/include/xfs/xfs.h /usr/include/xfs/xfs_fs.h /usr/include/xfs/xfs_types.h /usr/include/xfs/xqm.h /usr/lib/libhandle.la
+FILELIST = /lib/libhandle.la /lib/libhandle.so /lib/libxcmd.la /lib/libxcmd.so /lib/libxlog.la /lib/libxlog.so /usr/include/xfs/handle.h /usr/include/xfs/jdm.h /usr/include/xfs/linux.h /usr/include/xfs/xfs.h /usr/include/xfs/xfs_arch.h /usr/include/xfs/xfs_da_format.h /usr/include/xfs/xfs_format.h /usr/include/xfs/xfs_fs.h /usr/include/xfs/xfs_log_format.h /usr/include/xfs/xfs_types.h /usr/include/xfs/xqm.h /usr/lib/libhandle.la /usr/lib/libhandle.so /usr/lib/libxcmd.la /usr/lib/libxcmd.so /usr/lib/libxlog.la /usr/lib/libxlog.so
