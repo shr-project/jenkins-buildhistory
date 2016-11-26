@@ -1,4 +1,4 @@
-PV = 3.2.3
+PV = 4.8.0
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native util-linux virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
-PACKAGES = xfsprogs-fsck xfsprogs-mkfs libhandle xfsprogs-dbg xfsprogs-staticdev xfsprogs-dev xfsprogs-doc xfsprogs-locale xfsprogs
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native readline util-linux util-linux util-linux-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = xfsprogs-fsck xfsprogs-mkfs xfsprogs-repair libhandle xfsprogs-dbg xfsprogs-staticdev xfsprogs-dev xfsprogs-doc xfsprogs-locale xfsprogs
