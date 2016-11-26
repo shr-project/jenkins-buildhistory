@@ -1,21 +1,26 @@
-drwxr-xr-x root       root               60 ./sbin
--rwxr-xr-x root       root           229768 ./sbin/xfs_repair
+drwxr-xr-x root       root              160 ./lib
+-rwxr-xr-x root       root            31496 ./lib/libxcmd.so.0.0.0
+lrwxrwxrwx root       root               16 ./lib/libxcmd.so.0 -> libxcmd.so.0.0.0
+-rwxr-xr-x root       root           387128 ./lib/libxfs.so.0.0.0
+lrwxrwxrwx root       root               15 ./lib/libxfs.so.0 -> libxfs.so.0.0.0
+-rwxr-xr-x root       root            18832 ./lib/libxlog.so.0.0.0
+lrwxrwxrwx root       root               16 ./lib/libxlog.so.0 -> libxlog.so.0.0.0
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              380 ./usr/sbin
 -rwxr-xr-x root       root             1380 ./usr/sbin/xfs_admin
 -rwxr-xr-x root       root              638 ./usr/sbin/xfs_bmap
--rwxr-xr-x root       root            23192 ./usr/sbin/xfs_copy
--rwxr-xr-x root       root           221392 ./usr/sbin/xfs_db
--rwxr-xr-x root       root            10576 ./usr/sbin/xfs_estimate
+-rwxr-xr-x root       root            27384 ./usr/sbin/xfs_copy
+-rwxr-xr-x root       root           241976 ./usr/sbin/xfs_db
+-rwxr-xr-x root       root            10584 ./usr/sbin/xfs_estimate
 -rwxr-xr-x root       root              767 ./usr/sbin/xfs_freeze
--rwxr-xr-x root       root            31496 ./usr/sbin/xfs_fsr
--rwxr-xr-x root       root            14704 ./usr/sbin/xfs_growfs
+-rwxr-xr-x root       root            31512 ./usr/sbin/xfs_fsr
+-rwxr-xr-x root       root            14720 ./usr/sbin/xfs_growfs
 -rwxr-xr-x root       root              472 ./usr/sbin/xfs_info
--rwxr-xr-x root       root            94008 ./usr/sbin/xfs_io
--rwxr-xr-x root       root            39824 ./usr/sbin/xfs_logprint
--rwxr-xr-x root       root            10688 ./usr/sbin/xfs_mdrestore
--rwxr-xr-x root       root              723 ./usr/sbin/xfs_metadump
+-rwxr-xr-x root       root            98144 ./usr/sbin/xfs_io
+-rwxr-xr-x root       root            39472 ./usr/sbin/xfs_logprint
+-rwxr-xr-x root       root            10696 ./usr/sbin/xfs_mdrestore
+-rwxr-xr-x root       root              747 ./usr/sbin/xfs_metadump
 -rwxr-xr-x root       root             1007 ./usr/sbin/xfs_mkfile
 -rwxr-xr-x root       root              650 ./usr/sbin/xfs_ncheck
--rwxr-xr-x root       root            68408 ./usr/sbin/xfs_quota
--rwxr-xr-x root       root            10632 ./usr/sbin/xfs_rtcp
+-rwxr-xr-x root       root            68432 ./usr/sbin/xfs_quota
+-rwxr-xr-x root       root            10648 ./usr/sbin/xfs_rtcp

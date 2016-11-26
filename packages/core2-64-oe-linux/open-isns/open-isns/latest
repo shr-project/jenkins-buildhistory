@@ -1,0 +1,9 @@
+PV = 0.97
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2j)
+RRECOMMENDS = 
+PKGSIZE = 575444
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/open-isns /usr/lib/open-isns/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib
+FILELIST = /etc/isns/isnsadm.conf /etc/isns/isnsd.conf /etc/isns/isnsdd.conf /usr/lib/libisns.so.0 /usr/lib/systemd/system/isnsd.service /usr/lib/systemd/system/isnsd.socket /usr/sbin/isnsadm /usr/sbin/isnsd /usr/sbin/isnsdd
