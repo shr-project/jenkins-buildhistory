@@ -1,10 +1,10 @@
 PV = 2.8.0+gitAUTOINC+6e4fc6f36d
 PR = r0
 PKGV = 2.8.0+git1+6e4fc6f36d
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = kernel-4.8.6-yocto-standard
+RDEPENDS = kernel-4.8.8-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 5812
-FILES = /lib/modules/4.8.6-yocto-standard/kernel/lttng-modules/probes/lttng-ftrace.ko /etc/modules-load.d/lttng-ftrace.conf /etc/modprobe.d/lttng-ftrace.conf
-FILELIST = /lib/modules/4.8.6-yocto-standard/kernel/lttng-modules/probes/lttng-ftrace.ko
+FILES = /lib/modules/4.8.8-yocto-standard/kernel/lttng-modules/probes/lttng-ftrace.ko /etc/modules-load.d/lttng-ftrace.conf /etc/modprobe.d/lttng-ftrace.conf
+FILELIST = /lib/modules/4.8.8-yocto-standard/kernel/lttng-modules/probes/lttng-ftrace.ko

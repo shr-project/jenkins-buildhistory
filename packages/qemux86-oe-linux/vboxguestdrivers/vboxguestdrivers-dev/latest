@@ -1,9 +1,9 @@
 PV = 5.1.6
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = vboxguestdrivers (= 5.1.6-r0.10)
-RRECOMMENDS = glibc-dev kernel-4.8.6-yocto-standard-dev kernel-module-ttm-dev kernel-module-vboxguest-dev kernel-module-vboxsf-dev kernel-module-vboxvideo-dev
+RDEPENDS = vboxguestdrivers (= 5.1.6-r0.11)
+RRECOMMENDS = glibc-dev kernel-4.8.8-yocto-standard-dev kernel-module-ttm-dev kernel-module-vboxguest-dev kernel-module-vboxsf-dev kernel-module-vboxvideo-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vboxguestdrivers/*.la /lib/*.la
 FILELIST = 

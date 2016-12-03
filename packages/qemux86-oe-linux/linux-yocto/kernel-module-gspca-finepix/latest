@@ -1,10 +1,10 @@
-PV = 4.8.6+gitAUTOINC+87e5fc8b7c_9d5f74f941
+PV = 4.8.8+gitAUTOINC+1eac0b697a_6745463c22
 PR = r0
-PKGV = 4.8.6+git0+87e5fc8b7c_9d5f74f941
-PKGR = r0.4
+PKGV = 4.8.8+git0+1eac0b697a_6745463c22
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.6-yocto-standard kernel-module-gspca-main
+RDEPENDS = kernel-4.8.8-yocto-standard kernel-module-gspca-main
 RRECOMMENDS = 
 PKGSIZE = 8172
-FILES = /lib/modules/4.8.6-yocto-standard/kernel/drivers/media/usb/gspca/gspca_finepix.ko /etc/modules-load.d/gspca_finepix.conf /etc/modprobe.d/gspca_finepix.conf
-FILELIST = /lib/modules/4.8.6-yocto-standard/kernel/drivers/media/usb/gspca/gspca_finepix.ko
+FILES = /lib/modules/4.8.8-yocto-standard/kernel/drivers/media/usb/gspca/gspca_finepix.ko /etc/modules-load.d/gspca_finepix.conf /etc/modprobe.d/gspca_finepix.conf
+FILELIST = /lib/modules/4.8.8-yocto-standard/kernel/drivers/media/usb/gspca/gspca_finepix.ko

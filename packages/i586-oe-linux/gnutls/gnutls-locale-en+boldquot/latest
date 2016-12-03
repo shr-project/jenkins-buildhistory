@@ -1,10 +1,10 @@
-PV = 3.5.5
+PV = 3.5.6
 PR = r0
 PKG = libgnutls-locale-en+boldquot
-PKGR = r0.2
-RPROVIDES = en+boldquot-translation gnutls-locale gnutls-locale-en+boldquot (=3.5.5)
+PKGR = r0.0
+RPROVIDES = en+boldquot-translation gnutls-locale gnutls-locale-en+boldquot (=3.5.6)
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-en+boldquot
-PKGSIZE = 31283
+PKGSIZE = 31385
 FILES = /usr/share/locale/en@boldquot
 FILELIST = /usr/share/locale/en@boldquot/LC_MESSAGES/gnutls.mo
