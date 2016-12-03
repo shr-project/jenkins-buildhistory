@@ -1,9 +1,9 @@
 PV = 5.7.99+5.8.0-beta+gitAUTOINC+431520f150
 PR = r0
 PKGV = 5.7.99+5.8.0-beta+git0+431520f150
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.50.1) glibc (>= 2.24) gstreamer1.0 (>= 1.8.3) libegl-mesa (>= 13.0.1) libgcc (>= 6.2.0) libgles2-mesa (>= 13.0.1) libgstapp-1.0 (>= 1.8.3) libgstaudio-1.0 (>= 1.8.3) libgstpbutils-1.0 (>= 1.8.3) libgstvideo-1.0 (>= 1.8.3) libicui18n (>= 57.1) libicuuc (>= 57.1) libjpeg-turbo (>= 1.5.1) libpng (>= 1.6.26) libsqlite3 (>= 3.14.1) libstdc++ (>= 6.2.0) libxml2 (>= 2.9.4) libxslt (>= 1.1.29) qtbase (>= 5.7.99+5.8.0-beta+git0+969bb10eed) qtdeclarative (>= 5.7.99+5.8.0-beta+git0+9d085bf002) qtlocation (>= 5.7.99+5.8.0-beta+git0+8aabdb0975) qtsensors (>= 5.7.99+5.8.0-beta+git0+8065e46142) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.50.1) glibc (>= 2.24) gstreamer1.0 (>= 1.8.3) libegl-mesa (>= 13.0.1) libgcc (>= 6.2.0) libgles2-mesa (>= 13.0.1) libgstapp-1.0 (>= 1.8.3) libgstaudio-1.0 (>= 1.8.3) libgstpbutils-1.0 (>= 1.8.3) libgstvideo-1.0 (>= 1.8.3) libicui18n (>= 58.1) libicuuc (>= 58.1) libjpeg-turbo (>= 1.5.1) libpng (>= 1.6.26) libsqlite3 (>= 3.14.1) libstdc++ (>= 6.2.0) libxml2 (>= 2.9.4) libxslt (>= 1.1.29) qtbase (>= 5.7.99+5.8.0-beta+git0+969bb10eed) qtdeclarative (>= 5.7.99+5.8.0-beta+git0+9d085bf002) qtlocation (>= 5.7.99+5.8.0-beta+git0+8aabdb0975) qtsensors (>= 5.7.99+5.8.0-beta+git0+8065e46142) zlib (>= 1.2.8)
 RRECOMMENDS = qtwebkit-plugins qtwebkit-qmlplugins
 PKGSIZE = 28578066
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwebkit /usr/lib/qtwebkit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

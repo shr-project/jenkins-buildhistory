@@ -1,10 +1,10 @@
-PV = 4.8.6+gitAUTOINC+87e5fc8b7c_94d3e8675e
+PV = 4.8.8+gitAUTOINC+1eac0b697a_800a856444
 PR = r0
-PKGV = 4.8.6+git0+87e5fc8b7c_94d3e8675e
-PKGR = r0.4
+PKGV = 4.8.8+git0+1eac0b697a_800a856444
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.6-yocto-standard kernel-module-ip6-tables kernel-module-x-tables
+RDEPENDS = kernel-4.8.8-yocto-standard kernel-module-ip6-tables kernel-module-x-tables
 RRECOMMENDS = 
 PKGSIZE = 5516
-FILES = /lib/modules/4.8.6-yocto-standard/kernel/net/ipv6/netfilter/ip6table_mangle.ko /etc/modules-load.d/ip6table_mangle.conf /etc/modprobe.d/ip6table_mangle.conf
-FILELIST = /lib/modules/4.8.6-yocto-standard/kernel/net/ipv6/netfilter/ip6table_mangle.ko
+FILES = /lib/modules/4.8.8-yocto-standard/kernel/net/ipv6/netfilter/ip6table_mangle.ko /etc/modules-load.d/ip6table_mangle.conf /etc/modprobe.d/ip6table_mangle.conf
+FILELIST = /lib/modules/4.8.8-yocto-standard/kernel/net/ipv6/netfilter/ip6table_mangle.ko

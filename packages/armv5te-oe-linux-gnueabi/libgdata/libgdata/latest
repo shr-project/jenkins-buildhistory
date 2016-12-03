@@ -1,9 +1,9 @@
 PV = 0.16.1
 PR = r0
 PKG = libgdata19
-PKGR = r0.51
+PKGR = r0.52
 RPROVIDES = libgdata (=0.16.1)
-RDEPENDS = gcr (>= 3.20.0) glib-2.0 (>= 2.50.1) glibc (>= 2.24) gmp (>= 6.1.1) gnutls (>= 3.5.5) json-glib (>= 1.2.2) libcap (>= 2.25) libcrypto (>= 1.0.2j) libcurl (>= 7.51.0) libffi (>= 3.2.1) libgcrypt (>= 1.7.3) libgpg-error (>= 1.24) libidn (>= 1.33) liboauth (>= 1.0.3) libpcre (>= 8.39) libsoup-2.4 (>= 2.56.0) libsqlite3 (>= 3.14.1) libxml2 (>= 2.9.4) nettle (>= 3.2) p11-kit (>= 0.22.1) util-linux-libblkid (>= 2.28.1) util-linux-libmount (>= 2.28.1) util-linux-libuuid (>= 2.28.1) zlib (>= 1.2.8)
+RDEPENDS = gcr (>= 3.20.0) glib-2.0 (>= 2.50.1) glibc (>= 2.24) gmp (>= 6.1.1) gnutls (>= 3.5.6) json-glib (>= 1.2.2) libcap (>= 2.25) libcrypto (>= 1.0.2j) libcurl (>= 7.51.0) libffi (>= 3.2.1) libgcrypt (>= 1.7.3) libgpg-error (>= 1.25) libidn (>= 1.33) liboauth (>= 1.0.3) libpcre (>= 8.39) libsoup-2.4 (>= 2.56.0) libsqlite3 (>= 3.14.1) libxml2 (>= 2.9.4) nettle (>= 3.3) p11-kit (>= 0.22.1) util-linux-libblkid (>= 2.28.1) util-linux-libmount (>= 2.28.1) util-linux-libuuid (>= 2.28.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 711390
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libgdata /usr/lib/libgdata/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/lib/girepository-*/*.typelib
