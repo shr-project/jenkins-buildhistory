@@ -1,9 +1,9 @@
 PV = 6.2.0
 PR = r0
 PKG = libgcc-s-dev
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = libgcc-dev (=6.2.0)
-RDEPENDS = libgcc (= 6.2.0-r0.14)
+RDEPENDS = libgcc (= 6.2.0-r0.15)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 6951612
 FILES = /lib/libgcc*.so /usr/lib/x86_64-oe-linux/6.2.0* /usr/lib/x86_64-oe*

@@ -1,0 +1,9 @@
+PV = 1.13.6
+PR = r0
+PKGR = r0.11
+RPROVIDES = 
+RDEPENDS = glibc (>= 2.24) libgssapi-krb5 (>= 1.13.6)
+RRECOMMENDS = 
+PKGSIZE = 42288
+FILES = /usr/bin/gss-client /usr/sbin/gss-server
+FILELIST = /usr/bin/gss-client /usr/sbin/gss-server

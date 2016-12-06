@@ -1,10 +1,11 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/ofono
-drwxr-xr-x root       root             2000 ./usr/lib/ofono/test
+drwxr-xr-x root       root             2060 ./usr/lib/ofono/test
 -rwxr-xr-x root       root             1402 ./usr/lib/ofono/test/activate-context
 -rwxr-xr-x root       root              673 ./usr/lib/ofono/test/answer-calls
 -rwxr-xr-x root       root             1123 ./usr/lib/ofono/test/backtrace
+-rwxr-xr-x root       root              278 ./usr/lib/ofono/test/cancel-sms
 -rwxr-xr-x root       root              484 ./usr/lib/ofono/test/cancel-ussd
 -rwxr-xr-x root       root              460 ./usr/lib/ofono/test/cdma-connman-disable
 -rwxr-xr-x root       root              457 ./usr/lib/ofono/test/cdma-connman-enable
@@ -22,10 +23,12 @@ drwxr-xr-x root       root             2000 ./usr/lib/ofono/test
 -rwxr-xr-x root       root             1103 ./usr/lib/ofono/test/disable-call-forwarding
 -rwxr-xr-x root       root              435 ./usr/lib/ofono/test/disable-gprs
 -rwxr-xr-x root       root              440 ./usr/lib/ofono/test/disable-modem
+-rwxr-xr-x root       root              517 ./usr/lib/ofono/test/disable-throttling
 -rwxr-xr-x root       root              670 ./usr/lib/ofono/test/display-icon
 -rwxr-xr-x root       root              444 ./usr/lib/ofono/test/enable-cbs
 -rwxr-xr-x root       root              424 ./usr/lib/ofono/test/enable-gprs
 -rwxr-xr-x root       root              437 ./usr/lib/ofono/test/enable-modem
+-rwxr-xr-x root       root              516 ./usr/lib/ofono/test/enable-throttling
 -rwxr-xr-x root       root              597 ./usr/lib/ofono/test/enter-pin
 -rwxr-xr-x root       root              573 ./usr/lib/ofono/test/get-icon
 -rwxr-xr-x root       root              685 ./usr/lib/ofono/test/get-operators

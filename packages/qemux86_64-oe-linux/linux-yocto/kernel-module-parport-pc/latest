@@ -1,10 +1,10 @@
-PV = 4.8.6+gitAUTOINC+87e5fc8b7c_9d5f74f941
+PV = 4.8.8+gitAUTOINC+1eac0b697a_6745463c22
 PR = r0
-PKGV = 4.8.6+git0+87e5fc8b7c_9d5f74f941
-PKGR = r0.4
+PKGV = 4.8.8+git0+1eac0b697a_6745463c22
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.6-yocto-standard kernel-module-parport
+RDEPENDS = kernel-4.8.8-yocto-standard kernel-module-parport
 RRECOMMENDS = 
 PKGSIZE = 42104
-FILES = /lib/modules/4.8.6-yocto-standard/kernel/drivers/parport/parport_pc.ko /etc/modules-load.d/parport_pc.conf /etc/modprobe.d/parport_pc.conf
-FILELIST = /lib/modules/4.8.6-yocto-standard/kernel/drivers/parport/parport_pc.ko
+FILES = /lib/modules/4.8.8-yocto-standard/kernel/drivers/parport/parport_pc.ko /etc/modules-load.d/parport_pc.conf /etc/modprobe.d/parport_pc.conf
+FILELIST = /lib/modules/4.8.8-yocto-standard/kernel/drivers/parport/parport_pc.ko
