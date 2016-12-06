@@ -1,9 +1,9 @@
 PV = 0.15.0
 PR = r0
-PKGR = r0.38
+PKGR = r0.39
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libasound (>= 1.1.2) libass (>= 0.13.2) libavcodec (>= 3.2) libavdevice (>= 3.2) libavfilter (>= 3.2) libavformat (>= 3.2) libavutil (>= 3.2) libdrm (>= 2.4.73) libgbm (>= 13.0.1) libjpeg-turbo (>= 1.5.1) libpulse (>= 9.0) libswresample (>= 3.2) libswscale (>= 3.2) libv4l (>= 1.10.1) libva (>= 1.7.3) libva-x11 (>= 1.7.3) libvdpau (>= 1.1.1+git0+a21bf7aa43) libx11 (>= 1.6.4) libxext (>= 1.3.3) libxinerama (>= 1.1.3) libxkbcommon (>= 0.6.1) libxrandr (>= 1.5.1) libxscrnsaver (>= 1.2.2) libxv (>= 1.0.11) luajit (>= 2.0.4) wayland (>= 1.12.0) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.24) libasound (>= 1.1.2) libass (>= 0.13.2) libavcodec (>= 3.2.1) libavdevice (>= 3.2.1) libavfilter (>= 3.2.1) libavformat (>= 3.2.1) libavutil (>= 3.2.1) libdrm (>= 2.4.73) libgbm (>= 13.0.1) libjpeg-turbo (>= 1.5.1) libpulse (>= 9.0) libswresample (>= 3.2.1) libswscale (>= 3.2.1) libv4l (>= 1.10.1) libvdpau (>= 1.1.1+git0+a21bf7aa43) libx11 (>= 1.6.4) libxext (>= 1.3.3) libxinerama (>= 1.1.3) libxkbcommon (>= 0.6.1) libxrandr (>= 1.5.1) libxscrnsaver (>= 1.2.2) libxv (>= 1.0.11) luajit (>= 2.0.4) wayland (>= 1.12.0) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 928830
+PKGSIZE = 908166
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mpv /usr/lib/mpv/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/icons
 FILELIST = /etc/encoding-profiles.conf /usr/bin/mpv /usr/share/applications/mpv.desktop /usr/share/icons/hicolor/16x16/apps/mpv.png /usr/share/icons/hicolor/32x32/apps/mpv.png /usr/share/icons/hicolor/64x64/apps/mpv.png /usr/share/icons/hicolor/scalable/apps/mpv.svg
