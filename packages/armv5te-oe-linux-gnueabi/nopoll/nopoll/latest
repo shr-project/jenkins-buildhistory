@@ -1,0 +1,10 @@
+PV = 0.4.2.b297
+PR = r0
+PKG = libnopoll0
+PKGR = r0.0
+RPROVIDES = nopoll (=0.4.2.b297)
+RDEPENDS = glibc (>= 2.24) libcrypto (>= 1.0.2j) libssl (>= 1.0.2j)
+RRECOMMENDS = 
+PKGSIZE = 72130
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nopoll /usr/lib/nopoll/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /usr/lib/libnopoll.so.0 /usr/lib/libnopoll.so.0.0.0
