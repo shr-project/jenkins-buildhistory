@@ -1,10 +1,10 @@
-PV = 4.8.8+gitAUTOINC+1eac0b697a_6745463c22
+PV = 4.8.12+gitAUTOINC+b22e477396_021b4aef55
 PR = r0
-PKGV = 4.8.8+git0+1eac0b697a_6745463c22
+PKGV = 4.8.12+git0+b22e477396_021b4aef55
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.8-yocto-standard kernel-module-media kernel-module-videobuf2-core kernel-module-videobuf2-v4l2 kernel-module-videobuf2-vmalloc kernel-module-videodev
+RDEPENDS = kernel-4.8.12-yocto-standard kernel-module-media kernel-module-videobuf2-core kernel-module-videobuf2-v4l2 kernel-module-videobuf2-vmalloc kernel-module-videodev
 RRECOMMENDS = 
 PKGSIZE = 93516
-FILES = /lib/modules/4.8.8-yocto-standard/kernel/drivers/media/usb/uvc/uvcvideo.ko /etc/modules-load.d/uvcvideo.conf /etc/modprobe.d/uvcvideo.conf
-FILELIST = /lib/modules/4.8.8-yocto-standard/kernel/drivers/media/usb/uvc/uvcvideo.ko
+FILES = /lib/modules/4.8.12-yocto-standard/kernel/drivers/media/usb/uvc/uvcvideo.ko /etc/modules-load.d/uvcvideo.conf /etc/modprobe.d/uvcvideo.conf
+FILELIST = /lib/modules/4.8.12-yocto-standard/kernel/drivers/media/usb/uvc/uvcvideo.ko

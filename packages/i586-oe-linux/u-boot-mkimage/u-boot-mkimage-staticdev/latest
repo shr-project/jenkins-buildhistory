@@ -1,9 +1,9 @@
-PV = v2016.03+gitAUTOINC+df61a74e68
+PE = 1
+PV = 2016.11
 PR = r0
-PKGV = v2016.03+git0+df61a74e68
-PKGR = r0.45
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = u-boot-mkimage-dev (= v2016.03+git0+df61a74e68-r0.45)
+RDEPENDS = u-boot-mkimage-dev (= 1:2016.11-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/u-boot-mkimage/*.a

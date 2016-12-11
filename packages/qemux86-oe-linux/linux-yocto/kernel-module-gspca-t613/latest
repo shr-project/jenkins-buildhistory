@@ -1,10 +1,10 @@
-PV = 4.8.8+gitAUTOINC+1eac0b697a_6745463c22
+PV = 4.8.12+gitAUTOINC+b22e477396_021b4aef55
 PR = r0
-PKGV = 4.8.8+git0+1eac0b697a_6745463c22
+PKGV = 4.8.12+git0+b22e477396_021b4aef55
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.8-yocto-standard kernel-module-gspca-main kernel-module-videodev
+RDEPENDS = kernel-4.8.12-yocto-standard kernel-module-gspca-main kernel-module-videodev
 RRECOMMENDS = 
 PKGSIZE = 14140
-FILES = /lib/modules/4.8.8-yocto-standard/kernel/drivers/media/usb/gspca/gspca_t613.ko /etc/modules-load.d/gspca_t613.conf /etc/modprobe.d/gspca_t613.conf
-FILELIST = /lib/modules/4.8.8-yocto-standard/kernel/drivers/media/usb/gspca/gspca_t613.ko
+FILES = /lib/modules/4.8.12-yocto-standard/kernel/drivers/media/usb/gspca/gspca_t613.ko /etc/modules-load.d/gspca_t613.conf /etc/modprobe.d/gspca_t613.conf
+FILELIST = /lib/modules/4.8.12-yocto-standard/kernel/drivers/media/usb/gspca/gspca_t613.ko
