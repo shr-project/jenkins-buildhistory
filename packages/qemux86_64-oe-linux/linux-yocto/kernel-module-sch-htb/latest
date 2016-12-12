@@ -1,10 +1,10 @@
-PV = 4.8.8+gitAUTOINC+1eac0b697a_6745463c22
+PV = 4.8.12+gitAUTOINC+b22e477396_021b4aef55
 PR = r0
-PKGV = 4.8.8+git0+1eac0b697a_6745463c22
+PKGV = 4.8.12+git0+b22e477396_021b4aef55
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.8.8-yocto-standard
+RDEPENDS = kernel-4.8.12-yocto-standard
 RRECOMMENDS = 
 PKGSIZE = 27712
-FILES = /lib/modules/4.8.8-yocto-standard/kernel/net/sched/sch_htb.ko /etc/modules-load.d/sch_htb.conf /etc/modprobe.d/sch_htb.conf
-FILELIST = /lib/modules/4.8.8-yocto-standard/kernel/net/sched/sch_htb.ko
+FILES = /lib/modules/4.8.12-yocto-standard/kernel/net/sched/sch_htb.ko /etc/modules-load.d/sch_htb.conf /etc/modprobe.d/sch_htb.conf
+FILELIST = /lib/modules/4.8.12-yocto-standard/kernel/net/sched/sch_htb.ko
