@@ -1,9 +1,9 @@
 PE = 2
 PV = 7.6.1
 PR = r0
-PKGR = r0.45
+PKGR = r0.46
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libcap (>= 2.25) libdrm (>= 2.4.73) libdrm-radeon (>= 2.4.73) libpciaccess (>= 0.13.4) libudev (>= 230+git0+3a74d4fc90) xorg-abi-video-20 xserver-xorg-module-exa
+RDEPENDS = glibc (>= 2.24) libcap (>= 2.25) libdrm (>= 2.4.74) libdrm-radeon (>= 2.4.74) libpciaccess (>= 0.13.4) libudev (>= 232) xorg-abi-video-20 xserver-xorg-module-exa
 RRECOMMENDS = linux-firmware-radeon
 PKGSIZE = 441928
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xf86-video-ati /usr/lib/xf86-video-ati/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/xorg/modules/drivers/*.so

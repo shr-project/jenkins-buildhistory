@@ -1,9 +1,9 @@
 PE = 2
 PV = 13.1.0
 PR = r0
-PKGR = r0.44
+PKGR = r0.45
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libudev (>= 230+git0+3a74d4fc90) xf86-input-mouse xorg-abi-input-22
+RDEPENDS = glibc (>= 2.24) libudev (>= 232) xf86-input-mouse xorg-abi-input-22
 RRECOMMENDS = 
 PKGSIZE = 30089
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xf86-input-vmmouse /usr/lib/xf86-input-vmmouse/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/xorg/modules/drivers/*.so /usr/lib/xorg/modules/input/*.so /usr/share/X11/xorg.conf.d /usr/share/X11/xorg.conf.d
