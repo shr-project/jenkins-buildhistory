@@ -1,9 +1,9 @@
 PV = 1.1.6
 PR = r0
 PKG = libfluidsynth-dev
-PKGR = r0.56
+PKGR = r0.57
 RPROVIDES = fluidsynth-dev (=1.1.6)
-RDEPENDS = fluidsynth (= 1.1.6-r0.56)
+RDEPENDS = fluidsynth (= 1.1.6-r0.57)
 RRECOMMENDS = alsa-lib-dev dbus-lib-dev glib-2.0-dev glibc-dev json-c-dev libasound-dev libcap-dev libflac-dev libice-dev liblzma-dev libogg-dev libpcre-dev libpulse-dev libpulse-simple-dev libpulsecommon-dev libsm-dev libsndfile1-dev libsystemd-dev libvorbis-dev libx11-dev libx11-xcb-dev libxau-dev libxcb-dev libxdmcp-dev libxext-dev libxi-dev libxtst-dev ncurses-dev ncurses-libncurses-dev pulseaudio-dev readline-dev
 PKGSIZE = 88049
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/fluidsynth/*.la /lib/*.la

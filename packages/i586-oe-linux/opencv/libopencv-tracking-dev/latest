@@ -1,10 +1,10 @@
 PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
 PKGV = 3.1+git0+92387b1ef8
-PKGR = r0.48
+PKGR = r0.49
 RPROVIDES = 
 RDEPENDS = libopencv-tracking opencv-dev
-RRECOMMENDS = bzip2-dev glib-2.0-dev glibc-dev gstreamer1.0-dev gstreamer1.0-plugins-base-dev gtk+3-dev jpeg-dev libav-dev libeigen-dev libgcc-dev libgphoto2-dev libopencv-core-dev libopencv-highgui-dev libopencv-imgcodecs-dev libopencv-imgproc-dev libopencv-video-dev libpng-dev libstdc++-dev libtool-dev libwebp-dev protobuf-dev python-dev python-numpy-dev swig-dev tbb-dev tiff-dev v4l-utils-dev zlib-dev
+RRECOMMENDS = bzip2-dev gflags-dev glib-2.0-dev glibc-dev glog-dev gstreamer1.0-dev gstreamer1.0-plugins-base-dev gtk+3-dev jpeg-dev libav-dev libeigen-dev libgcc-dev libgphoto2-dev libopencv-core-dev libopencv-highgui-dev libopencv-imgcodecs-dev libopencv-imgproc-dev libopencv-video-dev libpng-dev libstdc++-dev libtool-dev libwebp-dev protobuf-dev python-dev python3-dev python3-numpy-dev swig-dev tbb-dev tiff-dev v4l-utils-dev zlib-dev
 PKGSIZE = 25
 FILES = /usr/lib/libopencv_tracking.so
 FILELIST = /usr/lib/libopencv_tracking.so

@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = liboop (= 1.0-r0.1)
-RRECOMMENDS = glib-2.0-dev glibc-dev libpcre-dev readline-dev
-PKGSIZE = 21526
+RDEPENDS = liboop (= 1.0-r0.2)
+RRECOMMENDS = glibc-dev
+PKGSIZE = 19556
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/liboop/*.la /lib/*.la
-FILELIST = /usr/include/oop-adns.h /usr/include/oop-glib.h /usr/include/oop-read.h /usr/include/oop-rl.h /usr/include/oop-tcl.h /usr/include/oop-www.h /usr/include/oop.h /usr/lib/liboop-glib2.la /usr/lib/liboop-glib2.so /usr/lib/liboop-rl.la /usr/lib/liboop-rl.so /usr/lib/liboop.la /usr/lib/liboop.so /usr/lib/pkgconfig/liboop-glib2.pc /usr/lib/pkgconfig/liboop.pc
+FILELIST = /usr/include/oop-adns.h /usr/include/oop-glib.h /usr/include/oop-read.h /usr/include/oop-rl.h /usr/include/oop-tcl.h /usr/include/oop-www.h /usr/include/oop.h /usr/lib/liboop.la /usr/lib/liboop.so /usr/lib/pkgconfig/liboop-glib2.pc /usr/lib/pkgconfig/liboop.pc
