@@ -1,10 +1,10 @@
 PV = 3.1+gitAUTOINC+92387b1ef8
 PR = r0
 PKGV = 3.1+git0+92387b1ef8
-PKGR = r0.46
+PKGR = r0.47
 RPROVIDES = 
-RDEPENDS = opencv-dev (= 3.1+git0+92387b1ef8-r0.46)
+RDEPENDS = opencv-dev (= 3.1+git0+92387b1ef8-r0.47)
 RRECOMMENDS = 
-PKGSIZE = 9765216
-FILES = /usr/lib/*.a /lib/*.a /usr/lib/opencv/*.a /usr/lib/python2.7/site-packages/*.a
-FILELIST = /usr/lib/libopencv_ts.a
+PKGSIZE = 132585072
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/opencv/*.a /usr/lib/python3.5/site-packages/*.a /usr/share/OpenCV/3rdparty/lib/*.a
+FILELIST = /usr/lib/libopencv_ts.a /usr/share/OpenCV/3rdparty/lib/libcorrespondence.a /usr/share/OpenCV/3rdparty/lib/libmultiview.a /usr/share/OpenCV/3rdparty/lib/libnumeric.a
