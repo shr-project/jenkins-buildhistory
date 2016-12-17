@@ -1,9 +1,10 @@
 PV = 1.0
 PR = r0
-PKGR = r0.1
-RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.50.1) glibc (>= 2.24) libpcre (>= 8.39) readline (>= 7.0)
+PKG = liboop4
+PKGR = r0.2
+RPROVIDES = liboop (=1.0)
+RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 48006
+PKGSIZE = 31223
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/liboop /usr/lib/liboop/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/liboop-glib2.so.0 /usr/lib/liboop-glib2.so.0.0.0 /usr/lib/liboop-rl.so.0 /usr/lib/liboop-rl.so.0.0.0 /usr/lib/liboop.so.4 /usr/lib/liboop.so.4.0.1
+FILELIST = /usr/lib/liboop.so.4 /usr/lib/liboop.so.4.0.1
