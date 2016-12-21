@@ -1,9 +1,9 @@
 PV = 2.8.1+gitAUTOINC+d11e0dba0d
 PR = r0
 PKGV = 2.8.1+git0+d11e0dba0d
-PKGR = r0.16
+PKGR = r0.18
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.24) libgcc liburcu (>= 0.9.2) libxml2 (>= 2.9.4) lttng-ust (>= 2.8.1+git0+514a87f3b6) popt (>= 1.16) shadow util-linux-libuuid (>= 2.28.1) zlib (>= 1.2.8)
+RDEPENDS = base-files base-passwd glibc (>= 2.24) libgcc liburcu (>= 0.9.3) libxml2 (>= 2.9.4) lttng-ust (>= 2.8.1+git0+514a87f3b6) popt (>= 1.16) shadow util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 2052983
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lttng-tools /usr/lib/lttng-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lttng/libexec/* /usr/share/xml/lttng /usr/lib/python3.5/site-packages/*

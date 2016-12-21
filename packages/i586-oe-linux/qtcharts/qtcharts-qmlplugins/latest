@@ -1,11 +1,11 @@
-PV = 5.7.99+5.8.0-beta+gitAUTOINC+15447eed96
+PV = 5.7.99+5.8.0-rc+gitAUTOINC+38386fda21
 PR = r0
 PKG = libqt5charts-qmlplugins
-PKGV = 5.7.99+5.8.0-beta+git0+15447eed96
-PKGR = r0.5
-RPROVIDES = qtcharts-qmlplugins (=5.7.99+5.8.0-beta+git0+15447eed96)
-RDEPENDS = glibc (>= 2.24) libgles2-mesa (>= 13.0.2) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-beta+git0+969bb10eed) qtcharts (>= 5.7.99+5.8.0-beta+git0+15447eed96) qtdeclarative (>= 5.7.99+5.8.0-beta+git0+9d085bf002)
+PKGV = 5.7.99+5.8.0-rc+git0+38386fda21
+PKGR = r0.1
+RPROVIDES = qtcharts-qmlplugins (=5.7.99+5.8.0-rc+git0+38386fda21)
+RDEPENDS = glibc (>= 2.24) libgles2-mesa (>= 13.0.2) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtcharts (>= 5.7.99+5.8.0-rc+git0+38386fda21) qtdeclarative (>= 5.7.99+5.8.0-rc+git0+884d06db09)
 RRECOMMENDS = 
-PKGSIZE = 634603
+PKGSIZE = 638464
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
 FILELIST = /usr/lib/qt5/qml/QtCharts/libqtchartsqml2.so /usr/lib/qt5/qml/QtCharts/plugins.qmltypes /usr/lib/qt5/qml/QtCharts/qmldir

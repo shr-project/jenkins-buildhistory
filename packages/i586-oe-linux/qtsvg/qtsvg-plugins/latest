@@ -1,11 +1,11 @@
-PV = 5.7.99+5.8.0-beta+gitAUTOINC+5a00abdefd
+PV = 5.7.99+5.8.0-rc+gitAUTOINC+1b3a7ae14d
 PR = r0
 PKG = libqt5svg-plugins
-PKGV = 5.7.99+5.8.0-beta+git0+5a00abdefd
-PKGR = r0.5
-RPROVIDES = qtsvg-plugins (=5.7.99+5.8.0-beta+git0+5a00abdefd)
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-beta+git0+969bb10eed) qtsvg (>= 5.7.99+5.8.0-beta+git0+5a00abdefd)
+PKGV = 5.7.99+5.8.0-rc+git0+1b3a7ae14d
+PKGR = r0.2
+RPROVIDES = qtsvg-plugins (=5.7.99+5.8.0-rc+git0+1b3a7ae14d)
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtsvg (>= 5.7.99+5.8.0-rc+git0+1b3a7ae14d)
 RRECOMMENDS = 
-PKGSIZE = 61384
+PKGSIZE = 57256
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
 FILELIST = /usr/lib/qt5/plugins/iconengines/libqsvgicon.so /usr/lib/qt5/plugins/imageformats/libqsvg.so

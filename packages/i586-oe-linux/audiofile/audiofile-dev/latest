@@ -1,10 +1,10 @@
-PV = 0.2.7
+PV = 0.3.6
 PR = r0
 PKG = libaudiofile-dev
-PKGR = r0.49
-RPROVIDES = audiofile-dev (=0.2.7)
-RDEPENDS = audiofile (= 0.2.7-r0.49)
-RRECOMMENDS = glibc-dev
-PKGSIZE = 36243
+PKGR = r0.2
+RPROVIDES = audiofile-dev (=0.3.6)
+RDEPENDS = audiofile (= 0.3.6-r0.2)
+RRECOMMENDS = flac-dev glibc-dev libflac-dev libgcc-dev libogg-dev libstdc++-dev
+PKGSIZE = 29108
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/audiofile/*.la /lib/*.la /usr/bin/*-config
-FILELIST = /usr/bin/audiofile-config /usr/include/af_vfs.h /usr/include/audiofile.h /usr/include/aupvlist.h /usr/lib/libaudiofile.la /usr/lib/libaudiofile.so /usr/lib/pkgconfig/audiofile.pc /usr/share/aclocal/audiofile.m4
+FILELIST = /usr/include/af_vfs.h /usr/include/audiofile.h /usr/include/aupvlist.h /usr/lib/libaudiofile.la /usr/lib/libaudiofile.so /usr/lib/pkgconfig/audiofile.pc

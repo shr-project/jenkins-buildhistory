@@ -1,9 +1,9 @@
 PV = 2.27
 PR = r0
-PKGR = r0.21
+PKGR = r0.23
 RPROVIDES = binutils-symlinks
 RDEPENDS = glibc (>= 2.24) update-alternatives-opkg zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 18758994
+PKGSIZE = 13418110
 FILES = \t/usr/bin/i586-oe-linux-* \t/usr/lib/lib*-*.so \t/usr/i586-oe-linux/bin/* /usr/bin/embedspu
 FILELIST = /usr/bin/i586-oe-linux-addr2line /usr/bin/i586-oe-linux-ar /usr/bin/i586-oe-linux-as /usr/bin/i586-oe-linux-c++filt /usr/bin/i586-oe-linux-dwp /usr/bin/i586-oe-linux-elfedit /usr/bin/i586-oe-linux-gprof /usr/bin/i586-oe-linux-ld /usr/bin/i586-oe-linux-ld.bfd /usr/bin/i586-oe-linux-ld.gold /usr/bin/i586-oe-linux-nm /usr/bin/i586-oe-linux-objcopy /usr/bin/i586-oe-linux-objdump /usr/bin/i586-oe-linux-ranlib /usr/bin/i586-oe-linux-readelf /usr/bin/i586-oe-linux-size /usr/bin/i586-oe-linux-strings /usr/bin/i586-oe-linux-strip /usr/i586-oe-linux/bin/ar /usr/i586-oe-linux/bin/as /usr/i586-oe-linux/bin/ld /usr/i586-oe-linux/bin/ld.bfd /usr/i586-oe-linux/bin/ld.gold /usr/i586-oe-linux/bin/nm /usr/i586-oe-linux/bin/objcopy /usr/i586-oe-linux/bin/objdump /usr/i586-oe-linux/bin/ranlib /usr/i586-oe-linux/bin/readelf /usr/i586-oe-linux/bin/strip /usr/lib/libbfd-2.27.0.20160806.so /usr/lib/libopcodes-2.27.0.20160806.so

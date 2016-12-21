@@ -1,10 +1,10 @@
-PV = 5.7.99+5.8.0-beta+gitAUTOINC+6e8e228852
+PV = 5.7.99+5.8.0-rc+gitAUTOINC+629de0e312
 PR = r0
-PKGV = 5.7.99+5.8.0-beta+git0+6e8e228852
-PKGR = r0.5
+PKGV = 5.7.99+5.8.0-rc+git0+629de0e312
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libgcc (>= 6.2.0) libgles2-mesa (>= 13.0.2) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-beta+git0+969bb10eed) qtdeclarative (>= 5.7.99+5.8.0-beta+git0+9d085bf002)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.2.0) libgles2-mesa (>= 13.0.2) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtdeclarative (>= 5.7.99+5.8.0-rc+git0+884d06db09)
 RRECOMMENDS = qt3d-plugins qt3d-qmlplugins
-PKGSIZE = 3659208
+PKGSIZE = 3737168
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qt3d /usr/lib/qt3d/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt53DCore.so.5 /usr/lib/libQt53DCore.so.5.8 /usr/lib/libQt53DCore.so.5.8.0 /usr/lib/libQt53DExtras.so.5 /usr/lib/libQt53DExtras.so.5.8 /usr/lib/libQt53DExtras.so.5.8.0 /usr/lib/libQt53DInput.so.5 /usr/lib/libQt53DInput.so.5.8 /usr/lib/libQt53DInput.so.5.8.0 /usr/lib/libQt53DLogic.so.5 /usr/lib/libQt53DLogic.so.5.8 /usr/lib/libQt53DLogic.so.5.8.0 /usr/lib/libQt53DQuick.so.5 /usr/lib/libQt53DQuick.so.5.8 /usr/lib/libQt53DQuick.so.5.8.0 /usr/lib/libQt53DQuickExtras.so.5 /usr/lib/libQt53DQuickExtras.so.5.8 /usr/lib/libQt53DQuickExtras.so.5.8.0 /usr/lib/libQt53DQuickInput.so.5 /usr/lib/libQt53DQuickInput.so.5.8 /usr/lib/libQt53DQuickInput.so.5.8.0 /usr/lib/libQt53DQuickRender.so.5 /usr/lib/libQt53DQuickRender.so.5.8 /usr/lib/libQt53DQuickRender.so.5.8.0 /usr/lib/libQt53DRender.so.5 /usr/lib/libQt53DRender.so.5.8 /usr/lib/libQt53DRender.so.5.8.0

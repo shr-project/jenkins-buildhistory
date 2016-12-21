@@ -1,11 +1,11 @@
-PV = 5.7.99+5.8.0-beta+gitAUTOINC+b0ad5907f4
+PV = 5.7.99+5.8.0-rc+gitAUTOINC+0555cf73c8
 PR = r0
 PKG = libenginio-examples-dev
-PKGV = 5.7.99+5.8.0-beta+git0+b0ad5907f4
-PKGR = r0.4
-RPROVIDES = qtenginio-examples-dev (=5.7.99+5.8.0-beta+git0+b0ad5907f4)
+PKGV = 5.7.99+5.8.0-rc+git0+0555cf73c8
+PKGR = r0.2
+RPROVIDES = qtenginio-examples-dev (=5.7.99+5.8.0-rc+git0+0555cf73c8)
 RDEPENDS = 
-RRECOMMENDS = qtbase-dev qtdeclarative-dev qtxmlpatterns-dev
+RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtdeclarative-dev qtenginio-dev qtxmlpatterns-dev
 PKGSIZE = 0
 FILES = /usr/share/qt5/examples/*.so /usr/share/qt5/examples/*/*.so /usr/share/qt5/examples/*/*/*.so /usr/share/qt5/examples/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*/*.so
 FILELIST = 

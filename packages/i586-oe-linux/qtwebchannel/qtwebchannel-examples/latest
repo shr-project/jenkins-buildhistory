@@ -1,10 +1,10 @@
-PV = 5.7.99+5.8.0-beta+gitAUTOINC+bf66a8531e
+PV = 5.7.99+5.8.0-rc+gitAUTOINC+8cc9153f41
 PR = r0
 PKG = libqt5webchannel-examples
-PKGV = 5.7.99+5.8.0-beta+git0+bf66a8531e
-PKGR = r0.5
-RPROVIDES = qtwebchannel-examples (=5.7.99+5.8.0-beta+git0+bf66a8531e)
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-beta+git0+969bb10eed) qtwebchannel (>= 5.7.99+5.8.0-beta+git0+bf66a8531e) qtwebsockets (>= 5.7.99+5.8.0-beta+git0+ccb1385483)
+PKGV = 5.7.99+5.8.0-rc+git0+8cc9153f41
+PKGR = r0.2
+RPROVIDES = qtwebchannel-examples (=5.7.99+5.8.0-rc+git0+8cc9153f41)
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtwebchannel (>= 5.7.99+5.8.0-rc+git0+8cc9153f41) qtwebsockets (>= 5.7.99+5.8.0-rc+git0+5e66a1c5d2)
 RRECOMMENDS = 
 PKGSIZE = 199167
 FILES = /usr/share/qt5/examples/*

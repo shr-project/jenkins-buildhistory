@@ -1,10 +1,10 @@
-PV = 5.7.99+5.8.0-beta+gitAUTOINC+bf66a8531e
+PV = 5.7.99+5.8.0-rc+gitAUTOINC+8cc9153f41
 PR = r0
 PKG = libqt5webchannel-staticdev
-PKGV = 5.7.99+5.8.0-beta+git0+bf66a8531e
-PKGR = r0.5
-RPROVIDES = qtwebchannel-staticdev (=5.7.99+5.8.0-beta+git0+bf66a8531e)
-RDEPENDS = qtwebchannel-dev (= 5.7.99+5.8.0-beta+git0+bf66a8531e-r0.5)
+PKGV = 5.7.99+5.8.0-rc+git0+8cc9153f41
+PKGR = r0.0
+RPROVIDES = qtwebchannel-staticdev (=5.7.99+5.8.0-rc+git0+8cc9153f41)
+RDEPENDS = qtwebchannel-dev (= 5.7.99+5.8.0-rc+git0+8cc9153f41-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/qtwebchannel/*.a /usr/lib/*.a
