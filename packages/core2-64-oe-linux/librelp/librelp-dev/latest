@@ -1,9 +1,9 @@
 PV = 1.2.12
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = librelp (= 1.2.12-r0.7)
-RRECOMMENDS = glibc-dev gmp-dev gnutls-dev libidn-dev nettle-dev zlib-dev
-PKGSIZE = 14208
+RDEPENDS = librelp (= 1.2.12-r0.8)
+RRECOMMENDS = glibc-dev gmp-dev gnutls-dev libidn-dev libunistring-dev nettle-dev zlib-dev
+PKGSIZE = 14260
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/librelp/*.la /lib/*.la
 FILELIST = /usr/include/librelp.h /usr/lib/librelp.la /usr/lib/librelp.so /usr/lib/pkgconfig/relp.pc

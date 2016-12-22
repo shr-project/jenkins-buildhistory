@@ -158,7 +158,7 @@ drwxr-xr-x root       root              560 ./usr/share/cmake-3.7/Help/generator
 -rw-r--r-- root       root              724 ./usr/share/cmake-3.7/Help/generator/Visual Studio 11 2012.rst
 -rw-r--r-- root       root              627 ./usr/share/cmake-3.7/Help/generator/Visual Studio 12 2013.rst
 -rw-r--r-- root       root              481 ./usr/share/cmake-3.7/Help/generator/Visual Studio 14 2015.rst
--rw-r--r-- root       root              451 ./usr/share/cmake-3.7/Help/generator/Visual Studio 15.rst
+-rw-r--r-- root       root              481 ./usr/share/cmake-3.7/Help/generator/Visual Studio 15 2017.rst
 -rw-r--r-- root       root              243 ./usr/share/cmake-3.7/Help/generator/Visual Studio 6.rst
 -rw-r--r-- root       root              317 ./usr/share/cmake-3.7/Help/generator/Visual Studio 7 .NET 2003.rst
 -rw-r--r-- root       root              253 ./usr/share/cmake-3.7/Help/generator/Visual Studio 7.rst
@@ -179,7 +179,7 @@ drwxr-xr-x root       root              500 ./usr/share/cmake-3.7/Help/manual
 -rw-r--r-- root       root            10764 ./usr/share/cmake-3.7/Help/manual/cmake-compile-features.7.rst
 -rw-r--r-- root       root            33737 ./usr/share/cmake-3.7/Help/manual/cmake-developer.7.rst
 -rw-r--r-- root       root            11482 ./usr/share/cmake-3.7/Help/manual/cmake-generator-expressions.7.rst
--rw-r--r-- root       root             2955 ./usr/share/cmake-3.7/Help/manual/cmake-generators.7.rst
+-rw-r--r-- root       root             2960 ./usr/share/cmake-3.7/Help/manual/cmake-generators.7.rst
 -rw-r--r-- root       root              844 ./usr/share/cmake-3.7/Help/manual/cmake-gui.1.rst
 -rw-r--r-- root       root            17524 ./usr/share/cmake-3.7/Help/manual/cmake-language.7.rst
 -rw-r--r-- root       root             6032 ./usr/share/cmake-3.7/Help/manual/cmake-modules.7.rst
@@ -188,8 +188,8 @@ drwxr-xr-x root       root              500 ./usr/share/cmake-3.7/Help/manual
 -rw-r--r-- root       root            11874 ./usr/share/cmake-3.7/Help/manual/cmake-properties.7.rst
 -rw-r--r-- root       root             7432 ./usr/share/cmake-3.7/Help/manual/cmake-qt.7.rst
 -rw-r--r-- root       root            19758 ./usr/share/cmake-3.7/Help/manual/cmake-server.7.rst
--rw-r--r-- root       root            19653 ./usr/share/cmake-3.7/Help/manual/cmake-toolchains.7.rst
--rw-r--r-- root       root            17302 ./usr/share/cmake-3.7/Help/manual/cmake-variables.7.rst
+-rw-r--r-- root       root            19660 ./usr/share/cmake-3.7/Help/manual/cmake-toolchains.7.rst
+-rw-r--r-- root       root            17459 ./usr/share/cmake-3.7/Help/manual/cmake-variables.7.rst
 -rw-r--r-- root       root             2596 ./usr/share/cmake-3.7/Help/manual/cpack.1.rst
 -rw-r--r-- root       root            34902 ./usr/share/cmake-3.7/Help/manual/ctest.1.rst
 -rw-r--r-- root       root              719 ./usr/share/cmake-3.7/Help/manual/LINKS.txt
@@ -844,10 +844,10 @@ drwxr-xr-x root       root              240 ./usr/share/cmake-3.7/Help/release
 -rw-r--r-- root       root            10697 ./usr/share/cmake-3.7/Help/release/3.4.rst
 -rw-r--r-- root       root             6861 ./usr/share/cmake-3.7/Help/release/3.5.rst
 -rw-r--r-- root       root            13332 ./usr/share/cmake-3.7/Help/release/3.6.rst
--rw-r--r-- root       root            12580 ./usr/share/cmake-3.7/Help/release/3.7.rst
+-rw-r--r-- root       root            12599 ./usr/share/cmake-3.7/Help/release/3.7.rst
 -rw-r--r-- root       root              395 ./usr/share/cmake-3.7/Help/release/dev.txt
 -rw-r--r-- root       root              308 ./usr/share/cmake-3.7/Help/release/index.rst
-drwxr-xr-x root       root             8780 ./usr/share/cmake-3.7/Help/variable
+drwxr-xr-x root       root             8840 ./usr/share/cmake-3.7/Help/variable
 -rw-r--r-- root       root              101 ./usr/share/cmake-3.7/Help/variable/ANDROID.rst
 -rw-r--r-- root       root               68 ./usr/share/cmake-3.7/Help/variable/APPLE.rst
 -rw-r--r-- root       root              129 ./usr/share/cmake-3.7/Help/variable/BORLAND.rst
@@ -868,7 +868,8 @@ drwxr-xr-x root       root             8780 ./usr/share/cmake-3.7/Help/variable
 -rw-r--r-- root       root              214 ./usr/share/cmake-3.7/Help/variable/CMAKE_ANDROID_NATIVE_LIB_DEPENDENCIES.rst
 -rw-r--r-- root       root              211 ./usr/share/cmake-3.7/Help/variable/CMAKE_ANDROID_NATIVE_LIB_DIRECTORIES.rst
 -rw-r--r-- root       root              263 ./usr/share/cmake-3.7/Help/variable/CMAKE_ANDROID_NDK.rst
--rw-r--r-- root       root              569 ./usr/share/cmake-3.7/Help/variable/CMAKE_ANDROID_NDK_TOOLCHAIN_VERSION.rst
+-rw-r--r-- root       root              245 ./usr/share/cmake-3.7/Help/variable/CMAKE_ANDROID_NDK_TOOLCHAIN_HOST_TAG.rst
+-rw-r--r-- root       root              665 ./usr/share/cmake-3.7/Help/variable/CMAKE_ANDROID_NDK_TOOLCHAIN_VERSION.rst
 -rw-r--r-- root       root              177 ./usr/share/cmake-3.7/Help/variable/CMAKE_ANDROID_PROCESS_MAX.rst
 -rw-r--r-- root       root              204 ./usr/share/cmake-3.7/Help/variable/CMAKE_ANDROID_PROGUARD_CONFIG_PATH.rst
 -rw-r--r-- root       root              168 ./usr/share/cmake-3.7/Help/variable/CMAKE_ANDROID_PROGUARD.rst
@@ -996,15 +997,17 @@ drwxr-xr-x root       root             8780 ./usr/share/cmake-3.7/Help/variable
 -rw-r--r-- root       root              373 ./usr/share/cmake-3.7/Help/variable/CMAKE_INSTALL_DEFAULT_COMPONENT_NAME.rst
 -rw-r--r-- root       root              848 ./usr/share/cmake-3.7/Help/variable/CMAKE_INSTALL_MESSAGE.rst
 -rw-r--r-- root       root              246 ./usr/share/cmake-3.7/Help/variable/CMAKE_INSTALL_NAME_DIR.rst
--rw-r--r-- root       root             1364 ./usr/share/cmake-3.7/Help/variable/CMAKE_INSTALL_PREFIX.rst
+-rw-r--r-- root       root              534 ./usr/share/cmake-3.7/Help/variable/CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT.rst
+-rw-r--r-- root       root             1472 ./usr/share/cmake-3.7/Help/variable/CMAKE_INSTALL_PREFIX.rst
 -rw-r--r-- root       root              282 ./usr/share/cmake-3.7/Help/variable/CMAKE_INSTALL_RPATH.rst
 -rw-r--r-- root       root              406 ./usr/share/cmake-3.7/Help/variable/CMAKE_INSTALL_RPATH_USE_LINK_PATH.rst
 -rw-r--r-- root       root              169 ./usr/share/cmake-3.7/Help/variable/CMAKE_INTERNAL_PLATFORM_ABI.rst
 -rw-r--r-- root       root              275 ./usr/share/cmake-3.7/Help/variable/CMAKE_IOS_INSTALL_COMBINED.rst
 -rw-r--r-- root       root              206 ./usr/share/cmake-3.7/Help/variable/CMAKE_JOB_POOL_COMPILE.rst
 -rw-r--r-- root       root              197 ./usr/share/cmake-3.7/Help/variable/CMAKE_JOB_POOL_LINK.rst
--rw-r--r-- root       root              396 ./usr/share/cmake-3.7/Help/variable/CMAKE_LANG_ANDROID_TOOLCHAIN_PREFIX.rst
--rw-r--r-- root       root              274 ./usr/share/cmake-3.7/Help/variable/CMAKE_LANG_ANDROID_TOOLCHAIN_SUFFIX.rst
+-rw-r--r-- root       root              390 ./usr/share/cmake-3.7/Help/variable/CMAKE_LANG_ANDROID_TOOLCHAIN_MACHINE.rst
+-rw-r--r-- root       root              451 ./usr/share/cmake-3.7/Help/variable/CMAKE_LANG_ANDROID_TOOLCHAIN_PREFIX.rst
+-rw-r--r-- root       root              329 ./usr/share/cmake-3.7/Help/variable/CMAKE_LANG_ANDROID_TOOLCHAIN_SUFFIX.rst
 -rw-r--r-- root       root              404 ./usr/share/cmake-3.7/Help/variable/CMAKE_LANG_ARCHIVE_APPEND.rst
 -rw-r--r-- root       root              402 ./usr/share/cmake-3.7/Help/variable/CMAKE_LANG_ARCHIVE_CREATE.rst
 -rw-r--r-- root       root              408 ./usr/share/cmake-3.7/Help/variable/CMAKE_LANG_ARCHIVE_FINISH.rst
@@ -1444,7 +1447,7 @@ drwxr-xr-x root       root             2840 ./usr/share/cmake-3.7/Modules/Compil
 -rw-r--r-- root       root              285 ./usr/share/cmake-3.7/Modules/Compiler/AppleClang-DetermineCompiler.cmake
 -rw-r--r-- root       root              252 ./usr/share/cmake-3.7/Modules/Compiler/ARMCC-ASM.cmake
 -rw-r--r-- root       root               44 ./usr/share/cmake-3.7/Modules/Compiler/ARMCC-C.cmake
--rw-r--r-- root       root             1658 ./usr/share/cmake-3.7/Modules/Compiler/ARMCC.cmake
+-rw-r--r-- root       root             1712 ./usr/share/cmake-3.7/Modules/Compiler/ARMCC.cmake
 -rw-r--r-- root       root               46 ./usr/share/cmake-3.7/Modules/Compiler/ARMCC-CXX.cmake
 -rw-r--r-- root       root              708 ./usr/share/cmake-3.7/Modules/Compiler/ARMCC-DetermineCompiler.cmake
 -rw-r--r-- root       root              260 ./usr/share/cmake-3.7/Modules/Compiler/Borland-DetermineCompiler.cmake
@@ -1867,9 +1870,9 @@ drwxr-xr-x root       root              760 ./usr/share/cmake-3.7/Modules/Platfo
 -rw-r--r-- root       root             4902 ./usr/share/cmake-3.7/Modules/Platform/Android-Common.cmake
 -rw-r--r-- root       root               77 ./usr/share/cmake-3.7/Modules/Platform/Android-Determine-C.cmake
 -rw-r--r-- root       root            12131 ./usr/share/cmake-3.7/Modules/Platform/Android-Determine.cmake
--rw-r--r-- root       root             2693 ./usr/share/cmake-3.7/Modules/Platform/Android/Determine-Compiler.cmake
--rw-r--r-- root       root            11633 ./usr/share/cmake-3.7/Modules/Platform/Android/Determine-Compiler-NDK.cmake
--rw-r--r-- root       root             2644 ./usr/share/cmake-3.7/Modules/Platform/Android/Determine-Compiler-Standalone.cmake
+-rw-r--r-- root       root             3138 ./usr/share/cmake-3.7/Modules/Platform/Android/Determine-Compiler.cmake
+-rw-r--r-- root       root            12275 ./usr/share/cmake-3.7/Modules/Platform/Android/Determine-Compiler-NDK.cmake
+-rw-r--r-- root       root             2965 ./usr/share/cmake-3.7/Modules/Platform/Android/Determine-Compiler-Standalone.cmake
 -rw-r--r-- root       root               79 ./usr/share/cmake-3.7/Modules/Platform/Android-Determine-CXX.cmake
 -rw-r--r-- root       root               56 ./usr/share/cmake-3.7/Modules/Platform/Android-GNU-C.cmake
 -rw-r--r-- root       root             1039 ./usr/share/cmake-3.7/Modules/Platform/Android-GNU.cmake
