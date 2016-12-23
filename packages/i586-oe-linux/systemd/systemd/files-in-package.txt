@@ -18,7 +18,7 @@ drwxr-xr-x root       root              140 ./etc/dbus-1/system.d
 -rw-r--r-- root       root              947 ./etc/dbus-1/system.d/org.freedesktop.timedate1.conf
 -rw-r--r-- root       root                0 ./etc/machine-id
 drwxr-xr-x root       root               40 ./etc/modules-load.d
-lrwxrwxrwx root       root               18 ./etc/resolv.conf -> ../run/resolv.conf
+lrwxrwxrwx root       root               34 ./etc/resolv.conf -> ../run/systemd/resolve/resolv.conf
 drwxr-xr-x root       root               40 ./etc/sysctl.d
 drwxr-xr-x root       root              200 ./etc/systemd
 -rw-r--r-- root       root             1015 ./etc/systemd/journald.conf
@@ -313,11 +313,11 @@ drwxr-xr-x root       root               80 ./usr/lib/sysusers.d
 -rw-r--r-- root       root             1074 ./usr/lib/sysusers.d/basic.conf
 -rw-r--r-- root       root              369 ./usr/lib/sysusers.d/systemd.conf
 drwxr-xr-x root       root              220 ./usr/lib/tmpfiles.d
--rw-r--r-- root       root              541 ./usr/lib/tmpfiles.d/etc.conf
+-rw-r--r-- root       root              557 ./usr/lib/tmpfiles.d/etc.conf
 -rw-r--r-- root       root              362 ./usr/lib/tmpfiles.d/home.conf
 -rw-r--r-- root       root             1098 ./usr/lib/tmpfiles.d/journal-nocow.conf
 -rw-r--r-- root       root              841 ./usr/lib/tmpfiles.d/legacy.conf
--rw-r--r-- root       root             1619 ./usr/lib/tmpfiles.d/systemd.conf
+-rw-r--r-- root       root             1675 ./usr/lib/tmpfiles.d/systemd.conf
 -rw-r--r-- root       root              496 ./usr/lib/tmpfiles.d/systemd-nologin.conf
 -rw-r--r-- root       root              638 ./usr/lib/tmpfiles.d/tmp.conf
 -rw-r--r-- root       root              532 ./usr/lib/tmpfiles.d/var.conf

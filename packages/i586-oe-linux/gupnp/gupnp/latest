@@ -1,9 +1,9 @@
 PV = 0.20.14
 PR = r0
 PKG = libgupnp-1.0-4
-PKGR = r0.60
+PKGR = r0.61
 RPROVIDES = gupnp (=0.20.14)
-RDEPENDS = glib-2.0 (>= 2.50.1) glibc (>= 2.24) gssdp (>= 0.14.8) libffi (>= 3.2.1) libpcre (>= 8.39) libsoup-2.4 (>= 2.56.0) libsqlite3 (>= 3.15.1) libxml2 (>= 2.9.4) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.50.2) glibc (>= 2.24) gssdp (>= 0.14.8) libffi (>= 3.2.1) libpcre (>= 8.39) libsoup-2.4 (>= 2.56.0) libsqlite3 (>= 3.15.1) libxml2 (>= 2.9.4) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 227129
 FILES = /usr/lib/*.so.* /usr/lib/girepository-*/*.typelib

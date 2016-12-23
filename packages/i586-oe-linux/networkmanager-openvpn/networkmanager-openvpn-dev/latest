@@ -1,8 +1,8 @@
 PV = 1.2.6
 PR = r0
-PKGR = r0.4
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = networkmanager-openvpn (= 1.2.6-r0.4)
+RDEPENDS = networkmanager-openvpn (= 1.2.6-r0.6)
 RRECOMMENDS = base-files-dev base-passwd-dev dbus-dev dbus-glib-dev glib-2.0-dev glibc-dev jansson-dev libcap-dev libffi-dev libgudev-dev libpcre-dev libudev-dev networkmanager-dev nspr-dev nss-dev openvpn-dev shadow-dev shadow-sysroot-dev util-linux-libblkid-dev util-linux-libmount-dev util-linux-libuuid-dev zlib-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/networkmanager-openvpn/*.la /lib/*.la

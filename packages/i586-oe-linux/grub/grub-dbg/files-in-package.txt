@@ -2,12 +2,12 @@ drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              200 ./usr/bin/.debug
 -rwxr-xr-x root       root           185316 ./usr/bin/.debug/grub-editenv
--rwxr-xr-x root       root          1998416 ./usr/bin/.debug/grub-fstest
+-rwxr-xr-x root       root          1998400 ./usr/bin/.debug/grub-fstest
 -rwxr-xr-x root       root            89484 ./usr/bin/.debug/grub-menulst2cfg
 -rwxr-xr-x root       root           407120 ./usr/bin/.debug/grub-mkimage
 -rwxr-xr-x root       root           184940 ./usr/bin/.debug/grub-mklayout
 -rwxr-xr-x root       root           210584 ./usr/bin/.debug/grub-mkpasswd-pbkdf2
--rwxr-xr-x root       root           319436 ./usr/bin/.debug/grub-mkrelpath
+-rwxr-xr-x root       root           319420 ./usr/bin/.debug/grub-mkrelpath
 -rwxr-xr-x root       root           236928 ./usr/bin/.debug/grub-script-check
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/grub
@@ -233,9 +233,9 @@ drwxr-xr-x root       root             4400 ./usr/lib/grub/i386-pc/.debug
 -rw-r--r-- root       root           185692 ./usr/lib/grub/i386-pc/.debug/zfs.module
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root              100 ./usr/sbin/.debug
--rwxr-xr-x root       root          2046712 ./usr/sbin/.debug/grub-bios-setup
+-rwxr-xr-x root       root          2046696 ./usr/sbin/.debug/grub-bios-setup
 -rwxr-xr-x root       root            87700 ./usr/sbin/.debug/grub-ofpathname
--rwxr-xr-x root       root          2044556 ./usr/sbin/.debug/grub-probe
+-rwxr-xr-x root       root          2044548 ./usr/sbin/.debug/grub-probe
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/grub
@@ -473,7 +473,7 @@ drwxr-xr-x root       root              520 ./usr/src/debug/grub/2.00-r1/grub-2.
 -rw-r--r-- root       root            12515 ./usr/src/debug/grub/2.00-r1/grub-2.00/grub-core/kern/elf.c
 drwxr-xr-x root       root              140 ./usr/src/debug/grub/2.00-r1/grub-2.00/grub-core/kern/emu
 -rw-r--r-- root       root             1333 ./usr/src/debug/grub/2.00-r1/grub-2.00/grub-core/kern/emu/argp_common.c
--rw-r--r-- root       root            33072 ./usr/src/debug/grub/2.00-r1/grub-2.00/grub-core/kern/emu/hostdisk.c
+-rw-r--r-- root       root            33192 ./usr/src/debug/grub/2.00-r1/grub-2.00/grub-core/kern/emu/hostdisk.c
 -rw-r--r-- root       root             4567 ./usr/src/debug/grub/2.00-r1/grub-2.00/grub-core/kern/emu/hostfs.c
 -rw-r--r-- root       root             5137 ./usr/src/debug/grub/2.00-r1/grub-2.00/grub-core/kern/emu/misc.c
 -rw-r--r-- root       root             1965 ./usr/src/debug/grub/2.00-r1/grub-2.00/grub-core/kern/emu/mm.c
@@ -907,7 +907,7 @@ drwxr-xr-x root       root              360 ./usr/src/debug/grub/2.00-r1/grub-2.
 -rw-r--r-- root       root             9491 ./usr/src/debug/grub/2.00-r1/grub-2.00/include/multiboot2.h
 -rw-r--r-- root       root             8116 ./usr/src/debug/grub/2.00-r1/grub-2.00/include/multiboot.h
 drwxr-xr-x root       root              380 ./usr/src/debug/grub/2.00-r1/grub-2.00/util
--rw-r--r-- root       root            68391 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/getroot.c
+-rw-r--r-- root       root            68512 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/getroot.c
 -rw-r--r-- root       root             7847 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/grub-editenv.c
 -rw-r--r-- root       root            17281 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/grub-fstest.c
 -rw-r--r-- root       root             2944 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/grub-menulst2cfg.c
@@ -924,5 +924,5 @@ drwxr-xr-x root       root               80 ./usr/src/debug/grub/2.00-r1/grub-2.
 -rw-r--r-- root       root            10894 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/ieee1275/ofpath.c
 -rw-r--r-- root       root             1387 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/lvm.c
 -rw-r--r-- root       root             6942 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/misc.c
--rw-r--r-- root       root             2830 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/raid.c
+-rw-r--r-- root       root             2950 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/raid.c
 -rw-r--r-- root       root             5491 ./usr/src/debug/grub/2.00-r1/grub-2.00/util/resolve.c
