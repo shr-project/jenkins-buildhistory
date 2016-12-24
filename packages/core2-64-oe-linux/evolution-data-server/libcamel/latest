@@ -1,9 +1,9 @@
 PV = 3.2.3+gitAUTOINC+a9e4e74ec4
 PR = r0
 PKGV = 3.2.3+git0+a9e4e74ec4
-PKGR = r0.52
+PKGR = r0.53
 RPROVIDES = 
-RDEPENDS = dbus-glib (>= 0.108) dbus-lib (>= 1.10.10) gconf (>= 3.2.6) glib-2.0 (>= 2.50.1) glibc (>= 2.24) libcap (>= 2.25) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libffi (>= 3.2.1) liblzma (>= 5.2.2) libpcre (>= 8.39) libsoup-2.4 (>= 2.56.0) libsqlite3 (>= 3.15.1) libsystemd (>= 232) libxml2 (>= 2.9.4) nspr (>= 4.13.1) nss (>= 3.27.1) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
+RDEPENDS = dbus-glib (>= 0.108) dbus-lib (>= 1.10.10) gconf (>= 3.2.6) glib-2.0 (>= 2.50.2) glibc (>= 2.24) libcap (>= 2.25) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libffi (>= 3.2.1) liblzma (>= 5.2.2) libpcre (>= 8.39) libsoup-2.4 (>= 2.56.0) libsqlite3 (>= 3.15.1) libsystemd (>= 232) libxml2 (>= 2.9.4) nspr (>= 4.13.1) nss (>= 3.27.1) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 1835872
 FILES = /usr/lib/libcamel-*.so.* /usr/lib/libcamel-provider-*.so.* /usr/lib/evolution-data-server*/camel-providers/*.so /usr/lib/evolution-data-server*/camel-providers/*.urls

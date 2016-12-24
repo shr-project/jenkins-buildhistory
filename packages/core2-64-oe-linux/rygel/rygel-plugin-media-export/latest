@@ -1,8 +1,8 @@
 PV = 0.28.2
 PR = r0
-PKGR = r0.51
+PKGR = r0.52
 RPROVIDES = 
-RDEPENDS = gdk-pixbuf (>= 2.36.0) glib-2.0 (>= 2.50.1) glibc (>= 2.24) gssdp (>= 0.14.8) gstreamer1.0 (>= 1.10.1) gupnp (>= 0.20.14) gupnp-av (>= 0.12.6) gupnp-dlna (>= 0.9.4) libffi (>= 3.2.1) libgee (>= 0.18.0) libgstapp-1.0 (>= 1.10.1) libgstaudio-1.0 (>= 1.10.1) libgstpbutils-1.0 (>= 1.10.1) libgsttag-1.0 (>= 1.10.1) libgstvideo-1.0 (>= 1.10.1) libmediaart-2.0 (>= 1.9.0) liborc-0.4 (>= 0.4.26) libpcre (>= 8.39) libpng (>= 1.6.26) libsoup-2.4 (>= 2.56.0) libsqlite3 (>= 3.15.1) libunistring (>= 0.9.7) libxml2 (>= 2.9.4) rygel (>= 0.28.2) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
+RDEPENDS = gdk-pixbuf (>= 2.36.1) glib-2.0 (>= 2.50.2) glibc (>= 2.24) gssdp (>= 0.14.8) gstreamer1.0 (>= 1.10.1) gupnp (>= 0.20.14) gupnp-av (>= 0.12.6) gupnp-dlna (>= 0.9.4) libffi (>= 3.2.1) libgee (>= 0.18.0) libgstapp-1.0 (>= 1.10.1) libgstaudio-1.0 (>= 1.10.1) libgstpbutils-1.0 (>= 1.10.1) libgsttag-1.0 (>= 1.10.1) libgstvideo-1.0 (>= 1.10.1) libmediaart-2.0 (>= 1.9.0) liborc-0.4 (>= 0.4.26) libpcre (>= 8.39) libpng (>= 1.6.26) libsoup-2.4 (>= 2.56.0) libsqlite3 (>= 3.15.1) libunistring (>= 0.9.7) libxml2 (>= 2.9.4) rygel (>= 0.28.2) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 284179
 FILES = /usr/lib/rygel-2.6/plugins/librygel-media-export.so /usr/lib/rygel-2.6/plugins/media-export.plugin

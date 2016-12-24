@@ -2,9 +2,9 @@ PE = 2
 PV = 1.7.9
 PR = r0
 PKG = libeconnman0-7x1
-PKGR = r0.45
+PKGR = r0.46
 RPROVIDES = edbus-econnman (=1.7.9)
-RDEPENDS = dbus-lib (>= 1.10.10) ecore (>= 1.15.1) edbus-edbus (>= 1.7.9) efl (>= 1.15.1) eina (>= 1.15.1) eo (>= 1.15.1) glib-2.0 (>= 2.50.1) glibc (>= 2.24) libcap (>= 2.25) libgcc (>= 6.2.0) liblzma (>= 5.2.2) libpcre (>= 8.39) libsystemd (>= 232) libunwind (>= 1.1+git0+bc8698fd7e)
+RDEPENDS = dbus-lib (>= 1.10.10) ecore (>= 1.15.1) edbus-edbus (>= 1.7.9) efl (>= 1.15.1) eina (>= 1.15.1) eo (>= 1.15.1) glib-2.0 (>= 2.50.2) glibc (>= 2.24) libcap (>= 2.25) libgcc (>= 6.2.0) liblzma (>= 5.2.2) libpcre (>= 8.39) libsystemd (>= 232) libunwind (>= 1.1+git0+bc8698fd7e)
 RRECOMMENDS = 
 PKGSIZE = 93072
 FILES = /usr/lib/libeconnman.so.* /usr/lib/libeconnman0_7x.so.*
