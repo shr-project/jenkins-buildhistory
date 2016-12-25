@@ -1,9 +1,9 @@
-PV = 5.6.26
+PV = 7.1.0
 PR = r0
-PKGR = r0.10
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = 
+RDEPENDS = glibc (>= 2.24) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2j) libmcrypt (>= 2.5.8) libmysqlclient (>= 5.5.52) libsqlite3 (>= 3.15.1) libssl (>= 1.0.2j) libxml2 (>= 2.9.4) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 60535
+PKGSIZE = 11891003
 FILES = /usr/lib/php5/php /usr/bin
-FILELIST = /usr/lib/php5/php/Structures/Graph.php /usr/lib/php5/php/Structures/Graph/Manipulator/AcyclicTest.php /usr/lib/php5/php/Structures/Graph/Manipulator/TopologicalSorter.php /usr/lib/php5/php/Structures/Graph/Node.php /usr/lib/php5/php/XML/Util.php
+FILELIST = /usr/bin/phpdbg /usr/lib/php5/php/Structures/Graph.php /usr/lib/php5/php/Structures/Graph/Manipulator/AcyclicTest.php /usr/lib/php5/php/Structures/Graph/Manipulator/TopologicalSorter.php /usr/lib/php5/php/Structures/Graph/Node.php /usr/lib/php5/php/XML/Util.php
