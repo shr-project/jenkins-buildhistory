@@ -1,4 +1,4 @@
-drwxr-xr-x root       root              120 ./etc
+drwxr-xr-x root       root              140 ./etc
 -rw-r--r-- root       root              608 ./etc/ipsec.conf
 drwxr-xr-x root       root              200 ./etc/ipsec.d
 drwxr-xr-x root       root               40 ./etc/ipsec.d/aacerts
@@ -9,13 +9,14 @@ drwxr-xr-x root       root               40 ./etc/ipsec.d/crls
 drwxr-xr-x root       root               40 ./etc/ipsec.d/ocspcerts
 drwxr-x--- root       root               40 ./etc/ipsec.d/private
 drwxr-xr-x root       root               40 ./etc/ipsec.d/reqs
+-rw------- root       root               48 ./etc/ipsec.secrets
 -rw-r--r-- root       root              281 ./etc/strongswan.conf
 drwxr-xr-x root       root              140 ./etc/strongswan.d
 drwxr-xr-x root       root              760 ./etc/strongswan.d/charon
 -rw-r--r-- root       root              130 ./etc/strongswan.d/charon/aes.conf
 -rw-r--r-- root       root              362 ./etc/strongswan.d/charon/attr.conf
 -rw-r--r-- root       root              131 ./etc/strongswan.d/charon/cmac.conf
--rw-r--r-- root       root             9656 ./etc/strongswan.d/charon.conf
+-rw-r--r-- root       root            10011 ./etc/strongswan.d/charon.conf
 -rw-r--r-- root       root              138 ./etc/strongswan.d/charon/constraints.conf
 -rw-r--r-- root       root              131 ./etc/strongswan.d/charon/curl.conf
 -rw-r--r-- root       root              130 ./etc/strongswan.d/charon/des.conf
@@ -23,7 +24,7 @@ drwxr-xr-x root       root              760 ./etc/strongswan.d/charon
 -rw-r--r-- root       root              135 ./etc/strongswan.d/charon/fips-prf.conf
 -rw-r--r-- root       root              130 ./etc/strongswan.d/charon/gmp.conf
 -rw-r--r-- root       root              131 ./etc/strongswan.d/charon/hmac.conf
--rw-r--r-- root       root             1510 ./etc/strongswan.d/charon/kernel-netlink.conf
+-rw-r--r-- root       root             2054 ./etc/strongswan.d/charon/kernel-netlink.conf
 -rw-r--r-- root       root             1792 ./etc/strongswan.d/charon-logging.conf
 -rw-r--r-- root       root              130 ./etc/strongswan.d/charon/md5.conf
 -rw-r--r-- root       root              132 ./etc/strongswan.d/charon/nonce.conf
@@ -58,7 +59,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              219 ./lib/systemd/system/strongswan.service
 drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root            68248 ./usr/bin/pki
+-rwxr-xr-x root       root            68272 ./usr/bin/pki
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root              140 ./usr/libexec/ipsec
@@ -68,9 +69,9 @@ drwxr-xr-x root       root              140 ./usr/libexec/ipsec
 -rwxr-xr-x root       root            18808 ./usr/libexec/ipsec/stroke
 -rwxr-xr-x root       root            20235 ./usr/libexec/ipsec/_updown
 drwxr-xr-x root       root              180 ./usr/lib/ipsec
--rwxr-xr-x root       root           566168 ./usr/lib/ipsec/libcharon.so.0.0.0
+-rwxr-xr-x root       root           570264 ./usr/lib/ipsec/libcharon.so.0.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/ipsec/libcharon.so.0 -> libcharon.so.0.0.0
--rwxr-xr-x root       root           399264 ./usr/lib/ipsec/libstrongswan.so.0.0.0
+-rwxr-xr-x root       root           403488 ./usr/lib/ipsec/libstrongswan.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/ipsec/libstrongswan.so.0 -> libstrongswan.so.0.0.0
 -rwxr-xr-x root       root            27240 ./usr/lib/ipsec/libvici.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/ipsec/libvici.so.0 -> libvici.so.0.0.0
@@ -83,16 +84,16 @@ drwxr-xr-x root       root              760 ./usr/lib/ipsec/plugins
 -rwxr-xr-x root       root            31032 ./usr/lib/ipsec/plugins/libstrongswan-des.so
 -rwxr-xr-x root       root            10584 ./usr/lib/ipsec/plugins/libstrongswan-dnskey.so
 -rwxr-xr-x root       root            10568 ./usr/lib/ipsec/plugins/libstrongswan-fips-prf.so
--rwxr-xr-x root       root            28768 ./usr/lib/ipsec/plugins/libstrongswan-gmp.so
+-rwxr-xr-x root       root            29152 ./usr/lib/ipsec/plugins/libstrongswan-gmp.so
 -rwxr-xr-x root       root            11336 ./usr/lib/ipsec/plugins/libstrongswan-hmac.so
--rwxr-xr-x root       root            73648 ./usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.so
+-rwxr-xr-x root       root            77744 ./usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.so
 -rwxr-xr-x root       root            10616 ./usr/lib/ipsec/plugins/libstrongswan-md5.so
 -rwxr-xr-x root       root             6432 ./usr/lib/ipsec/plugins/libstrongswan-nonce.so
--rwxr-xr-x root       root            85776 ./usr/lib/ipsec/plugins/libstrongswan-openssl.so
+-rwxr-xr-x root       root            85840 ./usr/lib/ipsec/plugins/libstrongswan-openssl.so
 -rwxr-xr-x root       root            20376 ./usr/lib/ipsec/plugins/libstrongswan-pem.so
 -rwxr-xr-x root       root            19408 ./usr/lib/ipsec/plugins/libstrongswan-pgp.so
 -rwxr-xr-x root       root            14928 ./usr/lib/ipsec/plugins/libstrongswan-pkcs12.so
--rwxr-xr-x root       root            14952 ./usr/lib/ipsec/plugins/libstrongswan-pkcs1.so
+-rwxr-xr-x root       root            15048 ./usr/lib/ipsec/plugins/libstrongswan-pkcs1.so
 -rwxr-xr-x root       root            31504 ./usr/lib/ipsec/plugins/libstrongswan-pkcs7.so
 -rwxr-xr-x root       root            10672 ./usr/lib/ipsec/plugins/libstrongswan-pkcs8.so
 -rwxr-xr-x root       root            10656 ./usr/lib/ipsec/plugins/libstrongswan-pubkey.so
@@ -128,7 +129,7 @@ drwxr-xr-x root       root              760 ./usr/share/strongswan/templates/con
 -rw-r--r-- root       root              135 ./usr/share/strongswan/templates/config/plugins/fips-prf.conf
 -rw-r--r-- root       root              130 ./usr/share/strongswan/templates/config/plugins/gmp.conf
 -rw-r--r-- root       root              131 ./usr/share/strongswan/templates/config/plugins/hmac.conf
--rw-r--r-- root       root             1510 ./usr/share/strongswan/templates/config/plugins/kernel-netlink.conf
+-rw-r--r-- root       root             2054 ./usr/share/strongswan/templates/config/plugins/kernel-netlink.conf
 -rw-r--r-- root       root              130 ./usr/share/strongswan/templates/config/plugins/md5.conf
 -rw-r--r-- root       root              132 ./usr/share/strongswan/templates/config/plugins/nonce.conf
 -rw-r--r-- root       root              301 ./usr/share/strongswan/templates/config/plugins/openssl.conf
@@ -156,7 +157,7 @@ drwxr-xr-x root       root              760 ./usr/share/strongswan/templates/con
 -rw-r--r-- root       root              131 ./usr/share/strongswan/templates/config/plugins/xcbc.conf
 -rw-r--r-- root       root              281 ./usr/share/strongswan/templates/config/strongswan.conf
 drwxr-xr-x root       root              120 ./usr/share/strongswan/templates/config/strongswan.d
--rw-r--r-- root       root             9656 ./usr/share/strongswan/templates/config/strongswan.d/charon.conf
+-rw-r--r-- root       root            10011 ./usr/share/strongswan/templates/config/strongswan.d/charon.conf
 -rw-r--r-- root       root             1792 ./usr/share/strongswan/templates/config/strongswan.d/charon-logging.conf
 -rw-r--r-- root       root               65 ./usr/share/strongswan/templates/config/strongswan.d/pki.conf
 -rw-r--r-- root       root              173 ./usr/share/strongswan/templates/config/strongswan.d/starter.conf

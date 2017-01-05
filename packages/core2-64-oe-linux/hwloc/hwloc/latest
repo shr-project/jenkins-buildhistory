@@ -1,9 +1,9 @@
 PV = 1.11.5
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = cairo (>= 1.14.8) glibc (>= 2.24) libcap (>= 2.25) libpciaccess (>= 0.13.4) libudev (>= 232) libx11 (>= 1.6.4) libxml2 (>= 2.9.4) ncurses-libtinfo (>= 6.0+20160625) numactl (>= 2.0.11) zlib (>= 1.2.8)
+RDEPENDS = cairo (>= 1.14.8) glibc (>= 2.24) libhwloc (>= 1.11.5) libx11 (>= 1.6.4) ncurses-libtinfo (>= 6.0+20160625)
 RRECOMMENDS = 
-PKGSIZE = 725879
+PKGSIZE = 479439
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/hwloc /usr/lib/hwloc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/hwloc-annotate /usr/bin/hwloc-assembler /usr/bin/hwloc-assembler-remote /usr/bin/hwloc-bind /usr/bin/hwloc-calc /usr/bin/hwloc-compress-dir /usr/bin/hwloc-diff /usr/bin/hwloc-distances /usr/bin/hwloc-distrib /usr/bin/hwloc-gather-topology /usr/bin/hwloc-info /usr/bin/hwloc-ls /usr/bin/hwloc-patch /usr/bin/hwloc-ps /usr/bin/lstopo /usr/bin/lstopo-no-graphics /usr/lib/libhwloc.so.5.7.2 /usr/sbin/hwloc-dump-hwdata /usr/share/applications/lstopo.desktop /usr/share/hwloc/hwloc-dump-hwdata.service /usr/share/hwloc/hwloc-valgrind.supp /usr/share/hwloc/hwloc.dtd
+FILELIST = /usr/bin/hwloc-annotate /usr/bin/hwloc-assembler /usr/bin/hwloc-assembler-remote /usr/bin/hwloc-bind /usr/bin/hwloc-calc /usr/bin/hwloc-compress-dir /usr/bin/hwloc-diff /usr/bin/hwloc-distances /usr/bin/hwloc-distrib /usr/bin/hwloc-gather-topology /usr/bin/hwloc-info /usr/bin/hwloc-ls /usr/bin/hwloc-patch /usr/bin/hwloc-ps /usr/bin/lstopo /usr/bin/lstopo-no-graphics /usr/sbin/hwloc-dump-hwdata /usr/share/applications/lstopo.desktop /usr/share/hwloc/hwloc-dump-hwdata.service /usr/share/hwloc/hwloc-valgrind.supp /usr/share/hwloc/hwloc.dtd
