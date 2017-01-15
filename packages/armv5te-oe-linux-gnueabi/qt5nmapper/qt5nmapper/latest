@@ -1,8 +1,8 @@
 PV = 1.0
 PR = r0
-PKGR = r0.66
+PKGR = r0.67
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtdeclarative (>= 5.7.99+5.8.0-rc+git0+884d06db09) qtdeclarative-qmlplugins qtgraphicaleffects-qmlplugins
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.3.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtdeclarative (>= 5.7.99+5.8.0-rc+git0+884d06db09) qtdeclarative-qmlplugins qtgraphicaleffects-qmlplugins
 RRECOMMENDS = qt5nmapper-plugins qt5nmapper-qmlplugins
 PKGSIZE = 1384610
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qt5nmapper /usr/lib/qt5nmapper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec /usr/share

@@ -2,9 +2,9 @@ PV = 5.7.99+5.8.0-rc+gitAUTOINC+177a8090fb
 PR = r0
 PKG = libqt5x11extras5
 PKGV = 5.7.99+5.8.0-rc+git0+177a8090fb
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = qtx11extras (=5.7.99+5.8.0-rc+git0+177a8090fb)
-RDEPENDS = libgcc (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327)
+RDEPENDS = libgcc (>= 6.3.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327)
 RRECOMMENDS = qtx11extras-plugins qtx11extras-qmlplugins
 PKGSIZE = 14032
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtx11extras /usr/lib/qtx11extras/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
