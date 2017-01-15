@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --install /usr/sbin/rshd rshd /usr/sbin/in.rshd 80\n\tupdate-alternatives --install /usr/sbin/rexecd rexecd /usr/sbin/in.rexecd 80\n\tupdate-alternatives --install /usr/sbin/rlogind rlogind /usr/sbin/in.rlogind 80\n
+#!/bin/sh\n# Begin section update-alternatives\nupdate-alternatives --install /usr/sbin/rshd rshd /usr/sbin/in.rshd 80\nupdate-alternatives --install /usr/sbin/rexecd rexecd /usr/sbin/in.rexecd 80\nupdate-alternatives --install /usr/sbin/rlogind rlogind /usr/sbin/in.rlogind 80\n# End section update-alternatives\n

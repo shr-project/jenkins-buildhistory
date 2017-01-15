@@ -2,9 +2,9 @@ PV = 5.7.99+5.8.0-rc+gitAUTOINC+38386fda21
 PR = r0
 PKG = libqt5charts-examples
 PKGV = 5.7.99+5.8.0-rc+git0+38386fda21
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = qtcharts-examples (=5.7.99+5.8.0-rc+git0+38386fda21)
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtcharts (>= 5.7.99+5.8.0-rc+git0+38386fda21) qtdeclarative (>= 5.7.99+5.8.0-rc+git0+884d06db09) qtmultimedia (>= 5.7.99+5.8.0-rc+git0+77567bad82)
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.3.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtcharts (>= 5.7.99+5.8.0-rc+git0+38386fda21) qtdeclarative (>= 5.7.99+5.8.0-rc+git0+884d06db09) qtmultimedia (>= 5.7.99+5.8.0-rc+git0+77567bad82)
 RRECOMMENDS = 
 PKGSIZE = 1542443
 FILES = /usr/share/qt5/examples/*

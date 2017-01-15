@@ -1,10 +1,10 @@
 PV = 4.8.12+gitAUTOINC+926c93ae07_021b4aef55
 PR = r0
 PKGV = 4.8.12+git1+926c93ae07_021b4aef55
-PKGR = r0.10
+PKGR = r0.13
 RPROVIDES = 
 RDEPENDS = kernel-4.8.12-yocto-standard kernel-module-llc kernel-module-stp
 RRECOMMENDS = 
-PKGSIZE = 121020
+PKGSIZE = 120956
 FILES = /lib/modules/4.8.12-yocto-standard/kernel/net/bridge/bridge.ko /etc/modules-load.d/bridge.conf /etc/modprobe.d/bridge.conf
 FILELIST = /lib/modules/4.8.12-yocto-standard/kernel/net/bridge/bridge.ko

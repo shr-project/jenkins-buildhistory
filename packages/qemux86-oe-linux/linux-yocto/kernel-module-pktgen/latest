@@ -1,10 +1,10 @@
 PV = 4.8.12+gitAUTOINC+926c93ae07_021b4aef55
 PR = r0
 PKGV = 4.8.12+git1+926c93ae07_021b4aef55
-PKGR = r0.10
+PKGR = r0.13
 RPROVIDES = 
 RDEPENDS = kernel-4.8.12-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 52240
+PKGSIZE = 52248
 FILES = /lib/modules/4.8.12-yocto-standard/kernel/net/core/pktgen.ko /etc/modules-load.d/pktgen.conf /etc/modprobe.d/pktgen.conf
 FILELIST = /lib/modules/4.8.12-yocto-standard/kernel/net/core/pktgen.ko
