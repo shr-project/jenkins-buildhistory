@@ -1,4 +1,4 @@
-PV = 1.5.2
+PV = 2.0.0
 PR = r0
-DEPENDS = acl e2fsprogs lzo util-linux virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
+DEPENDS = acl autoconf-native automake-native e2fsprogs gnu-config-native libtool-cross libtool-native lzo pkgconfig-native util-linux virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
 PACKAGES = mtd-utils-jffs2 mtd-utils-ubifs mtd-utils-misc mtd-utils-dbg mtd-utils-staticdev mtd-utils-dev mtd-utils-doc mtd-utils-locale mtd-utils

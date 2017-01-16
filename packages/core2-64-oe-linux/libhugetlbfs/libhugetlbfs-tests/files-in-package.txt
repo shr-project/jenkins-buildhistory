@@ -13,7 +13,7 @@ drwxr-xr-x root       root             1700 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            47752 ./usr/lib/libhugetlbfs/tests/obj64/direct
 -rwxr-xr-x root       root            33736 ./usr/lib/libhugetlbfs/tests/obj64/dummy
 -rwxr-xr-x root       root                0 ./usr/lib/libhugetlbfs/tests/obj64/dummy.ldscript
--rwxr-xr-x root       root            45744 ./usr/lib/libhugetlbfs/tests/obj64/empty_mounts
+-rwxr-xr-x root       root            45920 ./usr/lib/libhugetlbfs/tests/obj64/empty_mounts
 -rwxr-xr-x root       root            46984 ./usr/lib/libhugetlbfs/tests/obj64/fadvise_reserve
 -rwxr-xr-x root       root              249 ./usr/lib/libhugetlbfs/tests/obj64/fadvise_reserve.sh
 -rwxr-xr-x root       root            47392 ./usr/lib/libhugetlbfs/tests/obj64/fallocate_align
@@ -27,14 +27,14 @@ drwxr-xr-x root       root             1700 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            53424 ./usr/lib/libhugetlbfs/tests/obj64/get_hugepage_region
 -rwxr-xr-x root       root            46984 ./usr/lib/libhugetlbfs/tests/obj64/get_huge_pages
 -rwxr-xr-x root       root            44632 ./usr/lib/libhugetlbfs/tests/obj64/gethugepagesize
--rwxr-xr-x root       root            76912 ./usr/lib/libhugetlbfs/tests/obj64/gethugepagesizes
+-rwxr-xr-x root       root            77088 ./usr/lib/libhugetlbfs/tests/obj64/gethugepagesizes
 -rwxr-xr-x root       root            14832 ./usr/lib/libhugetlbfs/tests/obj64/get_hugetlbfs_path
 -rwxr-xr-x root       root            52528 ./usr/lib/libhugetlbfs/tests/obj64/heap-overflow
 -rwxr-xr-x root       root            39496 ./usr/lib/libhugetlbfs/tests/obj64/heapshrink
--rwxr-xr-x root       root          5441800 ./usr/lib/libhugetlbfs/tests/obj64/huge_at_4GB_normal_below_static
--rwxr-xr-x root       root          5442808 ./usr/lib/libhugetlbfs/tests/obj64/huge_below_4GB_normal_above_static
+-rwxr-xr-x root       root          5441248 ./usr/lib/libhugetlbfs/tests/obj64/huge_at_4GB_normal_below_static
+-rwxr-xr-x root       root          5442248 ./usr/lib/libhugetlbfs/tests/obj64/huge_below_4GB_normal_above_static
 -rwxr-xr-x root       root            56120 ./usr/lib/libhugetlbfs/tests/obj64/icache-hygiene
--rwxr-xr-x root       root            47320 ./usr/lib/libhugetlbfs/tests/obj64/large_mounts
+-rwxr-xr-x root       root            47512 ./usr/lib/libhugetlbfs/tests/obj64/large_mounts
 -rwxr-xr-x root       root            11304 ./usr/lib/libhugetlbfs/tests/obj64/libheapshrink.so
 -rwxr-xr-x root       root           173568 ./usr/lib/libhugetlbfs/tests/obj64/linkhuge
 -rwxr-xr-x root       root            34032 ./usr/lib/libhugetlbfs/tests/obj64/linkhuge_nofd
@@ -45,7 +45,7 @@ drwxr-xr-x root       root             1700 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            40056 ./usr/lib/libhugetlbfs/tests/obj64/malloc
 -rwxr-xr-x root       root            39144 ./usr/lib/libhugetlbfs/tests/obj64/malloc_manysmall
 -rwxr-xr-x root       root            46560 ./usr/lib/libhugetlbfs/tests/obj64/map_high_truncate_2
--rwxr-xr-x root       root            46216 ./usr/lib/libhugetlbfs/tests/obj64/meminfo_nohuge
+-rwxr-xr-x root       root            46408 ./usr/lib/libhugetlbfs/tests/obj64/meminfo_nohuge
 -rwxr-xr-x root       root            52432 ./usr/lib/libhugetlbfs/tests/obj64/misalign
 -rwxr-xr-x root       root            48048 ./usr/lib/libhugetlbfs/tests/obj64/misaligned_offset
 -rwxr-xr-x root       root            47552 ./usr/lib/libhugetlbfs/tests/obj64/mlock
@@ -76,7 +76,7 @@ drwxr-xr-x root       root             1700 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            49392 ./usr/lib/libhugetlbfs/tests/obj64/shm-perms
 -rwxr-xr-x root       root            46808 ./usr/lib/libhugetlbfs/tests/obj64/slbpacaflush
 -rwxr-xr-x root       root            47896 ./usr/lib/libhugetlbfs/tests/obj64/stack_grow_into_huge
--rwxr-xr-x root       root          5442984 ./usr/lib/libhugetlbfs/tests/obj64/straddle_4GB_static
+-rwxr-xr-x root       root          5442416 ./usr/lib/libhugetlbfs/tests/obj64/straddle_4GB_static
 -rwxr-xr-x root       root            52352 ./usr/lib/libhugetlbfs/tests/obj64/task-size-overrun
 -rwxr-xr-x root       root            44520 ./usr/lib/libhugetlbfs/tests/obj64/test_root
 -rwxr-xr-x root       root            47744 ./usr/lib/libhugetlbfs/tests/obj64/truncate

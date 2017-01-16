@@ -2,9 +2,9 @@ PV = 5.7.99+5.8.0-rc+gitAUTOINC+a78f8d6bef
 PR = r0
 PKG = libqt5datavisualization5
 PKGV = 5.7.99+5.8.0-rc+git0+a78f8d6bef
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = qtdatavis3d (=5.7.99+5.8.0-rc+git0+a78f8d6bef)
-RDEPENDS = glibc (>= 2.24) libgles2-mesa (>= 13.0.2) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327)
+RDEPENDS = glibc (>= 2.24) libgles2-mesa (>= 13.0.2) libstdc++ (>= 6.3.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327)
 RRECOMMENDS = qtdatavis3d-plugins qtdatavis3d-qmlplugins
 PKGSIZE = 1427144
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtdatavis3d /usr/lib/qtdatavis3d/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

@@ -24,7 +24,7 @@ drwxr-xr-x root       root             6920 ./usr/include/Poco
 -rw-r--r-- root       root             1167 ./usr/include/Poco/ASCIIEncoding.h
 -rw-r--r-- root       root             4639 ./usr/include/Poco/Ascii.h
 -rw-r--r-- root       root             2521 ./usr/include/Poco/AsyncChannel.h
--rw-r--r-- root       root             7405 ./usr/include/Poco/AtomicCounter.h
+-rw-r--r-- root       root             8557 ./usr/include/Poco/AtomicCounter.h
 -rw-r--r-- root       root             6385 ./usr/include/Poco/AutoPtr.h
 -rw-r--r-- root       root             1831 ./usr/include/Poco/AutoReleasePool.h
 -rw-r--r-- root       root             2413 ./usr/include/Poco/Base32Decoder.h
@@ -38,15 +38,15 @@ drwxr-xr-x root       root             6920 ./usr/include/Poco
 -rw-r--r-- root       root             4696 ./usr/include/Poco/BufferedBidirectionalStreamBuf.h
 -rw-r--r-- root       root             4218 ./usr/include/Poco/BufferedStreamBuf.h
 -rw-r--r-- root       root             7059 ./usr/include/Poco/Buffer.h
--rw-r--r-- root       root             4705 ./usr/include/Poco/Bugcheck.h
+-rw-r--r-- root       root             5903 ./usr/include/Poco/Bugcheck.h
 -rw-r--r-- root       root             6483 ./usr/include/Poco/ByteOrder.h
 -rw-r--r-- root       root             1791 ./usr/include/Poco/Channel.h
 -rw-r--r-- root       root             2246 ./usr/include/Poco/Checksum.h
 -rw-r--r-- root       root             2347 ./usr/include/Poco/ClassLibrary.h
--rw-r--r-- root       root             9728 ./usr/include/Poco/ClassLoader.h
+-rw-r--r-- root       root             9772 ./usr/include/Poco/ClassLoader.h
 -rw-r--r-- root       root             4981 ./usr/include/Poco/Clock.h
 -rw-r--r-- root       root             3355 ./usr/include/Poco/Condition.h
--rw-r--r-- root       root             4530 ./usr/include/Poco/Config.h
+-rw-r--r-- root       root             4744 ./usr/include/Poco/Config.h
 -rw-r--r-- root       root             1905 ./usr/include/Poco/Configurable.h
 -rw-r--r-- root       root             4963 ./usr/include/Poco/ConsoleChannel.h
 -rw-r--r-- root       root             5132 ./usr/include/Poco/CountingStream.h
@@ -59,7 +59,7 @@ drwxr-xr-x root       root              340 ./usr/include/Poco/Crypto
 -rw-r--r-- root       root             3364 ./usr/include/Poco/Crypto/Crypto.h
 -rw-r--r-- root       root             5776 ./usr/include/Poco/Crypto/CryptoStream.h
 -rw-r--r-- root       root             2358 ./usr/include/Poco/Crypto/CryptoTransform.h
--rw-r--r-- root       root             1801 ./usr/include/Poco/Crypto/DigestEngine.h
+-rw-r--r-- root       root             1806 ./usr/include/Poco/Crypto/DigestEngine.h
 -rw-r--r-- root       root             2477 ./usr/include/Poco/Crypto/OpenSSLInitializer.h
 -rw-r--r-- root       root             1635 ./usr/include/Poco/Crypto/RSACipherImpl.h
 -rw-r--r-- root       root             3024 ./usr/include/Poco/Crypto/RSADigestEngine.h
@@ -88,7 +88,7 @@ drwxr-xr-x root       root             1040 ./usr/include/Poco/Data
 -rw-r--r-- root       root             3557 ./usr/include/Poco/Data/Date.h
 -rw-r--r-- root       root              898 ./usr/include/Poco/Data/DynamicDateTime.h
 -rw-r--r-- root       root              890 ./usr/include/Poco/Data/DynamicLOB.h
--rw-r--r-- root       root            18178 ./usr/include/Poco/Data/Extraction.h
+-rw-r--r-- root       root            18209 ./usr/include/Poco/Data/Extraction.h
 -rw-r--r-- root       root             2158 ./usr/include/Poco/Data/Limit.h
 -rw-r--r-- root       root             5390 ./usr/include/Poco/Data/LOB.h
 -rw-r--r-- root       root             2919 ./usr/include/Poco/Data/LOBStream.h
@@ -98,8 +98,8 @@ drwxr-xr-x root       root             1040 ./usr/include/Poco/Data
 -rw-r--r-- root       root             1181 ./usr/include/Poco/Data/Position.h
 -rw-r--r-- root       root             3333 ./usr/include/Poco/Data/Preparation.h
 -rw-r--r-- root       root             1673 ./usr/include/Poco/Data/Range.h
--rw-r--r-- root       root            17611 ./usr/include/Poco/Data/RecordSet.h
--rw-r--r-- root       root             6717 ./usr/include/Poco/Data/RowFilter.h
+-rw-r--r-- root       root            17718 ./usr/include/Poco/Data/RecordSet.h
+-rw-r--r-- root       root             6706 ./usr/include/Poco/Data/RowFilter.h
 -rw-r--r-- root       root             6208 ./usr/include/Poco/Data/RowFormatter.h
 -rw-r--r-- root       root             7820 ./usr/include/Poco/Data/Row.h
 -rw-r--r-- root       root             3712 ./usr/include/Poco/Data/RowIterator.h
@@ -128,12 +128,12 @@ drwxr-xr-x root       root              220 ./usr/include/Poco/Data/SQLite
 -rw-r--r-- root       root            82223 ./usr/include/Poco/Data/TypeHandler.h
 -rw-r--r-- root       root             2877 ./usr/include/Poco/DateTimeFormat.h
 -rw-r--r-- root       root             7480 ./usr/include/Poco/DateTimeFormatter.h
--rw-r--r-- root       root            10394 ./usr/include/Poco/DateTime.h
+-rw-r--r-- root       root            10442 ./usr/include/Poco/DateTime.h
 -rw-r--r-- root       root             5666 ./usr/include/Poco/DateTimeParser.h
 -rw-r--r-- root       root             2180 ./usr/include/Poco/Debugger.h
 -rw-r--r-- root       root             4275 ./usr/include/Poco/DefaultStrategy.h
 -rw-r--r-- root       root             6478 ./usr/include/Poco/DeflatingStream.h
--rw-r--r-- root       root            10292 ./usr/include/Poco/Delegate.h
+-rw-r--r-- root       root            10200 ./usr/include/Poco/Delegate.h
 -rw-r--r-- root       root             2478 ./usr/include/Poco/DigestEngine.h
 -rw-r--r-- root       root             2437 ./usr/include/Poco/DigestStream.h
 -rw-r--r-- root       root             3361 ./usr/include/Poco/DirectoryIterator.h
@@ -155,13 +155,13 @@ drwxr-xr-x root       root              860 ./usr/include/Poco/DOM
 -rw-r--r-- root       root             1300 ./usr/include/Poco/DOM/Comment.h
 -rw-r--r-- root       root             2149 ./usr/include/Poco/DOM/DocumentEvent.h
 -rw-r--r-- root       root             3128 ./usr/include/Poco/DOM/DocumentFragment.h
--rw-r--r-- root       root            10045 ./usr/include/Poco/DOM/Document.h
+-rw-r--r-- root       root            10444 ./usr/include/Poco/DOM/Document.h
 -rw-r--r-- root       root             3220 ./usr/include/Poco/DOM/DocumentType.h
 -rw-r--r-- root       root             3358 ./usr/include/Poco/DOM/DOMBuilder.h
 -rw-r--r-- root       root             3742 ./usr/include/Poco/DOM/DOMException.h
 -rw-r--r-- root       root             2380 ./usr/include/Poco/DOM/DOMImplementation.h
 -rw-r--r-- root       root             2362 ./usr/include/Poco/DOM/DOMObject.h
--rw-r--r-- root       root             2794 ./usr/include/Poco/DOM/DOMParser.h
+-rw-r--r-- root       root             3077 ./usr/include/Poco/DOM/DOMParser.h
 -rw-r--r-- root       root             3482 ./usr/include/Poco/DOM/DOMSerializer.h
 -rw-r--r-- root       root             2882 ./usr/include/Poco/DOM/DOMWriter.h
 -rw-r--r-- root       root             1352 ./usr/include/Poco/DOM/DTDMap.h
@@ -188,7 +188,7 @@ drwxr-xr-x root       root              860 ./usr/include/Poco/DOM
 drwxr-xr-x root       root              140 ./usr/include/Poco/Dynamic
 -rw-r--r-- root       root              520 ./usr/include/Poco/DynamicAny.h
 -rw-r--r-- root       root              567 ./usr/include/Poco/DynamicAnyHolder.h
--rw-r--r-- root       root             3568 ./usr/include/Poco/DynamicFactory.h
+-rw-r--r-- root       root             3665 ./usr/include/Poco/DynamicFactory.h
 -rw-r--r-- root       root             7041 ./usr/include/Poco/Dynamic/Pair.h
 -rw-r--r-- root       root            10727 ./usr/include/Poco/Dynamic/Struct.h
 -rw-r--r-- root       root              545 ./usr/include/Poco/DynamicStruct.h
@@ -211,7 +211,7 @@ drwxr-xr-x root       root              140 ./usr/include/Poco/Dynamic
 -rw-r--r-- root       root             1398 ./usr/include/Poco/Event_POSIX.h
 -rw-r--r-- root       root              835 ./usr/include/Poco/Event_VX.h
 -rw-r--r-- root       root             1060 ./usr/include/Poco/Event_WIN32.h
--rw-r--r-- root       root             9110 ./usr/include/Poco/Exception.h
+-rw-r--r-- root       root             9355 ./usr/include/Poco/Exception.h
 -rw-r--r-- root       root             1725 ./usr/include/Poco/ExpirationDecorator.h
 -rw-r--r-- root       root             1745 ./usr/include/Poco/ExpireCache.h
 -rw-r--r-- root       root             3569 ./usr/include/Poco/Expire.h
@@ -277,7 +277,7 @@ drwxr-xr-x root       root              280 ./usr/include/Poco/JSON
 -rw-r--r-- root       root            11244 ./usr/include/Poco/LinearHashTable.h
 -rw-r--r-- root       root             5639 ./usr/include/Poco/LineEndingConverter.h
 -rw-r--r-- root       root             5308 ./usr/include/Poco/ListMap.h
--rw-r--r-- root       root            10775 ./usr/include/Poco/LocalDateTime.h
+-rw-r--r-- root       root            10871 ./usr/include/Poco/LocalDateTime.h
 -rw-r--r-- root       root             1791 ./usr/include/Poco/LogFile.h
 -rw-r--r-- root       root             1107 ./usr/include/Poco/LogFile_STD.h
 -rw-r--r-- root       root             1150 ./usr/include/Poco/LogFile_VMS.h
@@ -292,7 +292,7 @@ drwxr-xr-x root       root              280 ./usr/include/Poco/JSON
 -rw-r--r-- root       root             3427 ./usr/include/Poco/Manifest.h
 -rw-r--r-- root       root             2460 ./usr/include/Poco/MD4Engine.h
 -rw-r--r-- root       root             2461 ./usr/include/Poco/MD5Engine.h
--rw-r--r-- root       root             2346 ./usr/include/Poco/MemoryPool.h
+-rw-r--r-- root       root             2363 ./usr/include/Poco/MemoryPool.h
 -rw-r--r-- root       root             5671 ./usr/include/Poco/MemoryStream.h
 -rw-r--r-- root       root             7312 ./usr/include/Poco/Message.h
 -rw-r--r-- root       root             4191 ./usr/include/Poco/MetaObject.h
@@ -307,7 +307,7 @@ drwxr-xr-x root       root              540 ./usr/include/Poco/MongoDB
 -rw-r--r-- root       root             4271 ./usr/include/Poco/MongoDB/Database.h
 -rw-r--r-- root       root             2431 ./usr/include/Poco/MongoDB/DeleteRequest.h
 -rw-r--r-- root       root             5827 ./usr/include/Poco/MongoDB/Document.h
--rw-r--r-- root       root             5811 ./usr/include/Poco/MongoDB/Element.h
+-rw-r--r-- root       root             6741 ./usr/include/Poco/MongoDB/Element.h
 -rw-r--r-- root       root             1934 ./usr/include/Poco/MongoDB/GetMoreRequest.h
 -rw-r--r-- root       root             1917 ./usr/include/Poco/MongoDB/InsertRequest.h
 -rw-r--r-- root       root             1771 ./usr/include/Poco/MongoDB/JavaScriptCode.h
@@ -330,13 +330,13 @@ drwxr-xr-x root       root              540 ./usr/include/Poco/MongoDB
 -rw-r--r-- root       root              853 ./usr/include/Poco/Mutex_WINCE.h
 -rw-r--r-- root       root              739 ./usr/include/Poco/NamedEvent_Android.h
 -rw-r--r-- root       root             2153 ./usr/include/Poco/NamedEvent.h
--rw-r--r-- root       root             1147 ./usr/include/Poco/NamedEvent_UNIX.h
+-rw-r--r-- root       root             1060 ./usr/include/Poco/NamedEvent_UNIX.h
 -rw-r--r-- root       root              779 ./usr/include/Poco/NamedEvent_VMS.h
 -rw-r--r-- root       root              810 ./usr/include/Poco/NamedEvent_WIN32.h
 -rw-r--r-- root       root              838 ./usr/include/Poco/NamedEvent_WIN32U.h
 -rw-r--r-- root       root              762 ./usr/include/Poco/NamedMutex_Android.h
 -rw-r--r-- root       root             2578 ./usr/include/Poco/NamedMutex.h
--rw-r--r-- root       root             1215 ./usr/include/Poco/NamedMutex_UNIX.h
+-rw-r--r-- root       root             1128 ./usr/include/Poco/NamedMutex_UNIX.h
 -rw-r--r-- root       root              897 ./usr/include/Poco/NamedMutex_VMS.h
 -rw-r--r-- root       root              832 ./usr/include/Poco/NamedMutex_WIN32.h
 -rw-r--r-- root       root              861 ./usr/include/Poco/NamedMutex_WIN32U.h
@@ -396,8 +396,8 @@ drwxr-xr-x root       root             2700 ./usr/include/Poco/Net
 -rw-r--r-- root       root             3472 ./usr/include/Poco/Net/ICMPEventArgs.h
 -rw-r--r-- root       root             2289 ./usr/include/Poco/Net/ICMPPacket.h
 -rw-r--r-- root       root             3315 ./usr/include/Poco/Net/ICMPPacketImpl.h
--rw-r--r-- root       root             2497 ./usr/include/Poco/Net/ICMPSocket.h
--rw-r--r-- root       root             1444 ./usr/include/Poco/Net/ICMPSocketImpl.h
+-rw-r--r-- root       root             2240 ./usr/include/Poco/Net/ICMPSocket.h
+-rw-r--r-- root       root             1865 ./usr/include/Poco/Net/ICMPSocketImpl.h
 -rw-r--r-- root       root             4832 ./usr/include/Poco/Net/ICMPv4PacketImpl.h
 -rw-r--r-- root       root             2921 ./usr/include/Poco/Net/InvalidCertificateHandler.h
 -rw-r--r-- root       root            15338 ./usr/include/Poco/Net/IPAddress.h
@@ -451,7 +451,7 @@ drwxr-xr-x root       root             2700 ./usr/include/Poco/Net
 -rw-r--r-- root       root             2862 ./usr/include/Poco/Net/SMTPChannel.h
 -rw-r--r-- root       root             7294 ./usr/include/Poco/Net/SMTPClientSession.h
 -rw-r--r-- root       root             5693 ./usr/include/Poco/Net/SocketAcceptor.h
--rw-r--r-- root       root             7059 ./usr/include/Poco/Net/SocketAddress.h
+-rw-r--r-- root       root             7068 ./usr/include/Poco/Net/SocketAddress.h
 -rw-r--r-- root       root             3152 ./usr/include/Poco/Net/SocketAddressImpl.h
 -rw-r--r-- root       root             6123 ./usr/include/Poco/Net/SocketConnector.h
 -rw-r--r-- root       root            10309 ./usr/include/Poco/Net/SocketDefs.h
@@ -481,13 +481,13 @@ drwxr-xr-x root       root             2700 ./usr/include/Poco/Net
 -rw-r--r-- root       root             1175 ./usr/include/Poco/Notification.h
 -rw-r--r-- root       root             4974 ./usr/include/Poco/NotificationQueue.h
 -rw-r--r-- root       root             3026 ./usr/include/Poco/NotificationStrategy.h
--rw-r--r-- root       root             6274 ./usr/include/Poco/Nullable.h
+-rw-r--r-- root       root             6318 ./usr/include/Poco/Nullable.h
 -rw-r--r-- root       root             1196 ./usr/include/Poco/NullChannel.h
 -rw-r--r-- root       root             1849 ./usr/include/Poco/NullStream.h
 -rw-r--r-- root       root            22716 ./usr/include/Poco/NumberFormatter.h
 -rw-r--r-- root       root             6784 ./usr/include/Poco/NumberParser.h
 -rw-r--r-- root       root            15155 ./usr/include/Poco/NumericString.h
--rw-r--r-- root       root             6758 ./usr/include/Poco/ObjectPool.h
+-rw-r--r-- root       root             6747 ./usr/include/Poco/ObjectPool.h
 -rw-r--r-- root       root             2521 ./usr/include/Poco/Observer.h
 -rw-r--r-- root       root             2029 ./usr/include/Poco/OpcomChannel.h
 -rw-r--r-- root       root             3343 ./usr/include/Poco/Optional.h
@@ -620,7 +620,7 @@ drwxr-xr-x root       root              440 ./usr/include/Poco/SAX
 -rw-r--r-- root       root              943 ./usr/include/Poco/Semaphore_VX.h
 -rw-r--r-- root       root              984 ./usr/include/Poco/Semaphore_WIN32.h
 -rw-r--r-- root       root             1679 ./usr/include/Poco/SHA1Engine.h
--rw-r--r-- root       root             3914 ./usr/include/Poco/SharedLibrary.h
+-rw-r--r-- root       root             4031 ./usr/include/Poco/SharedLibrary.h
 -rw-r--r-- root       root             1032 ./usr/include/Poco/SharedLibrary_HPUX.h
 -rw-r--r-- root       root             1095 ./usr/include/Poco/SharedLibrary_UNIX.h
 -rw-r--r-- root       root             1002 ./usr/include/Poco/SharedLibrary_VMS.h
@@ -661,7 +661,7 @@ drwxr-xr-x root       root              440 ./usr/include/Poco/SAX
 -rw-r--r-- root       root             8874 ./usr/include/Poco/Thread.h
 -rw-r--r-- root       root             3225 ./usr/include/Poco/ThreadLocal.h
 -rw-r--r-- root       root             5999 ./usr/include/Poco/ThreadPool.h
--rw-r--r-- root       root             3927 ./usr/include/Poco/Thread_POSIX.h
+-rw-r--r-- root       root             3940 ./usr/include/Poco/Thread_POSIX.h
 -rw-r--r-- root       root             1716 ./usr/include/Poco/ThreadTarget.h
 -rw-r--r-- root       root             3155 ./usr/include/Poco/Thread_VX.h
 -rw-r--r-- root       root             3341 ./usr/include/Poco/Thread_WIN32.h
@@ -694,7 +694,7 @@ drwxr-xr-x root       root              440 ./usr/include/Poco/SAX
 -rw-r--r-- root       root             2728 ./usr/include/Poco/UTF8String.h
 -rw-r--r-- root       root             6449 ./usr/include/Poco/UTFString.h
 drwxr-xr-x root       root              700 ./usr/include/Poco/Util
--rw-r--r-- root       root            14268 ./usr/include/Poco/Util/AbstractConfiguration.h
+-rw-r--r-- root       root            14273 ./usr/include/Poco/Util/AbstractConfiguration.h
 -rw-r--r-- root       root            17370 ./usr/include/Poco/Util/Application.h
 -rw-r--r-- root       root             2722 ./usr/include/Poco/Util/ConfigurationMapper.h
 -rw-r--r-- root       root             2308 ./usr/include/Poco/Util/ConfigurationView.h
@@ -726,7 +726,7 @@ drwxr-xr-x root       root              700 ./usr/include/Poco/Util
 -rw-r--r-- root       root             2283 ./usr/include/Poco/Util/WinRegistryConfiguration.h
 -rw-r--r-- root       root             5744 ./usr/include/Poco/Util/WinRegistryKey.h
 -rw-r--r-- root       root             3565 ./usr/include/Poco/Util/WinService.h
--rw-r--r-- root       root             7099 ./usr/include/Poco/Util/XMLConfiguration.h
+-rw-r--r-- root       root             7477 ./usr/include/Poco/Util/XMLConfiguration.h
 -rw-r--r-- root       root             2940 ./usr/include/Poco/UUIDGenerator.h
 -rw-r--r-- root       root             5454 ./usr/include/Poco/UUID.h
 -rw-r--r-- root       root              998 ./usr/include/Poco/ValidArgs.h
@@ -740,7 +740,7 @@ drwxr-xr-x root       root              260 ./usr/include/Poco/XML
 -rw-r--r-- root       root             3862 ./usr/include/Poco/XML/expat_external.h
 -rw-r--r-- root       root            41641 ./usr/include/Poco/XML/expat.h
 -rw-r--r-- root       root             3301 ./usr/include/Poco/XML/Name.h
--rw-r--r-- root       root             1773 ./usr/include/Poco/XML/NamePool.h
+-rw-r--r-- root       root             1989 ./usr/include/Poco/XML/NamePool.h
 -rw-r--r-- root       root             3123 ./usr/include/Poco/XML/NamespaceStrategy.h
 -rw-r--r-- root       root            11793 ./usr/include/Poco/XML/ParserEngine.h
 -rw-r--r-- root       root              720 ./usr/include/Poco/XML/XMLException.h
@@ -827,15 +827,15 @@ drwxr-xr-x root       root             1040 ./usr/lib/cmake/Poco
 -rw-r--r-- root       root             1269 ./usr/lib/cmake/Poco/PocoZipConfigVersion.cmake
 -rw-r--r-- root       root             4683 ./usr/lib/cmake/Poco/PocoZipTargets.cmake
 -rw-r--r-- root       root              846 ./usr/lib/cmake/Poco/PocoZipTargets-relwithdebinfo.cmake
-lrwxrwxrwx root       root               19 ./usr/lib/libPocoCrypto.so -> libPocoCrypto.so.45
-lrwxrwxrwx root       root               17 ./usr/lib/libPocoData.so -> libPocoData.so.45
-lrwxrwxrwx root       root               23 ./usr/lib/libPocoDataSQLite.so -> libPocoDataSQLite.so.45
-lrwxrwxrwx root       root               23 ./usr/lib/libPocoFoundation.so -> libPocoFoundation.so.45
-lrwxrwxrwx root       root               17 ./usr/lib/libPocoJSON.so -> libPocoJSON.so.45
-lrwxrwxrwx root       root               20 ./usr/lib/libPocoMongoDB.so -> libPocoMongoDB.so.45
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoNet.so -> libPocoNet.so.45
-lrwxrwxrwx root       root               19 ./usr/lib/libPocoNetSSL.so -> libPocoNetSSL.so.45
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoPDF.so -> libPocoPDF.so.45
-lrwxrwxrwx root       root               17 ./usr/lib/libPocoUtil.so -> libPocoUtil.so.45
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoXML.so -> libPocoXML.so.45
-lrwxrwxrwx root       root               16 ./usr/lib/libPocoZip.so -> libPocoZip.so.45
+lrwxrwxrwx root       root               19 ./usr/lib/libPocoCrypto.so -> libPocoCrypto.so.47
+lrwxrwxrwx root       root               17 ./usr/lib/libPocoData.so -> libPocoData.so.47
+lrwxrwxrwx root       root               23 ./usr/lib/libPocoDataSQLite.so -> libPocoDataSQLite.so.47
+lrwxrwxrwx root       root               23 ./usr/lib/libPocoFoundation.so -> libPocoFoundation.so.47
+lrwxrwxrwx root       root               17 ./usr/lib/libPocoJSON.so -> libPocoJSON.so.47
+lrwxrwxrwx root       root               20 ./usr/lib/libPocoMongoDB.so -> libPocoMongoDB.so.47
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoNet.so -> libPocoNet.so.47
+lrwxrwxrwx root       root               19 ./usr/lib/libPocoNetSSL.so -> libPocoNetSSL.so.47
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoPDF.so -> libPocoPDF.so.47
+lrwxrwxrwx root       root               17 ./usr/lib/libPocoUtil.so -> libPocoUtil.so.47
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoXML.so -> libPocoXML.so.47
+lrwxrwxrwx root       root               16 ./usr/lib/libPocoZip.so -> libPocoZip.so.47

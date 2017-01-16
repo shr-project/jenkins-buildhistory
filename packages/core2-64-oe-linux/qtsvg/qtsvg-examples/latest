@@ -2,9 +2,9 @@ PV = 5.7.99+5.8.0-rc+gitAUTOINC+1b3a7ae14d
 PR = r0
 PKG = libqt5svg-examples
 PKGV = 5.7.99+5.8.0-rc+git0+1b3a7ae14d
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = qtsvg-examples (=5.7.99+5.8.0-rc+git0+1b3a7ae14d)
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.2.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtsvg (>= 5.7.99+5.8.0-rc+git0+1b3a7ae14d)
+RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.3.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtsvg (>= 5.7.99+5.8.0-rc+git0+1b3a7ae14d)
 RRECOMMENDS = 
 PKGSIZE = 3258705
 FILES = /usr/share/qt5/examples/*

@@ -1,11 +1,11 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              140 ./usr/bin/.debug
--rwxr-xr-x root       root          9036888 ./usr/bin/.debug/enlightenment
+-rwxr-xr-x root       root          9036976 ./usr/bin/.debug/enlightenment
 -rwxr-xr-x root       root            66856 ./usr/bin/.debug/enlightenment_filemanager
 -rwxr-xr-x root       root           113048 ./usr/bin/.debug/enlightenment_imc
 -rwxr-xr-x root       root            41296 ./usr/bin/.debug/enlightenment_open
--rwxr-xr-x root       root            44760 ./usr/bin/.debug/enlightenment_start
+-rwxr-xr-x root       root            44696 ./usr/bin/.debug/enlightenment_start
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment
 drwxr-xr-x root       root             1200 ./usr/lib/enlightenment/modules
@@ -25,7 +25,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/batt
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00/.debug
 -rwxr-xr-x root       root            94296 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00/.debug/batget
--rwxr-xr-x root       root           243728 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00/.debug/module.so
+-rwxr-xr-x root       root           243920 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00/.debug/module.so
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/bluez4
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/bluez4/linux-gnu-x86_64-ver-00
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/bluez4/linux-gnu-x86_64-ver-00/.debug
@@ -118,7 +118,7 @@ drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/cpuf
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/everything
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/everything/linux-gnu-x86_64-ver-00
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/everything/linux-gnu-x86_64-ver-00/.debug
--rwxr-xr-x root       root          1489160 ./usr/lib/enlightenment/modules/everything/linux-gnu-x86_64-ver-00/.debug/module.so
+-rwxr-xr-x root       root          1489088 ./usr/lib/enlightenment/modules/everything/linux-gnu-x86_64-ver-00/.debug/module.so
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/fileman
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/fileman/linux-gnu-x86_64-ver-00
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/fileman/linux-gnu-x86_64-ver-00/.debug
@@ -142,7 +142,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/ibox
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/illume2
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/illume2/linux-gnu-x86_64-ver-00
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/illume2/linux-gnu-x86_64-ver-00/.debug
--rwxr-xr-x root       root           669136 ./usr/lib/enlightenment/modules/illume2/linux-gnu-x86_64-ver-00/.debug/module.so
+-rwxr-xr-x root       root           669152 ./usr/lib/enlightenment/modules/illume2/linux-gnu-x86_64-ver-00/.debug/module.so
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/illume2/policies
 drwxr-xr-x root       root               80 ./usr/lib/enlightenment/modules/illume2/policies/.debug
 -rwxr-xr-x root       root           188064 ./usr/lib/enlightenment/modules/illume2/policies/.debug/illume.so
@@ -190,7 +190,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/msgb
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/music-control
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/music-control/linux-gnu-x86_64-ver-00
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/music-control/linux-gnu-x86_64-ver-00/.debug
--rwxr-xr-x root       root           331016 ./usr/lib/enlightenment/modules/music-control/linux-gnu-x86_64-ver-00/.debug/module.so
+-rwxr-xr-x root       root           331072 ./usr/lib/enlightenment/modules/music-control/linux-gnu-x86_64-ver-00/.debug/module.so
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/notification
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/notification/linux-gnu-x86_64-ver-00
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/notification/linux-gnu-x86_64-ver-00/.debug
@@ -273,11 +273,11 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/utils
 drwxr-xr-x root       root              180 ./usr/lib/enlightenment/utils/.debug
 -rwxr-xr-x root       root            44496 ./usr/lib/enlightenment/utils/.debug/enlightenment_alert
 -rwxr-xr-x root       root            23608 ./usr/lib/enlightenment/utils/.debug/enlightenment_backlight
--rwxr-xr-x root       root           309520 ./usr/lib/enlightenment/utils/.debug/enlightenment_fm
--rwxr-xr-x root       root            66240 ./usr/lib/enlightenment/utils/.debug/enlightenment_fm_op
+-rwxr-xr-x root       root           309584 ./usr/lib/enlightenment/utils/.debug/enlightenment_fm
+-rwxr-xr-x root       root            66288 ./usr/lib/enlightenment/utils/.debug/enlightenment_fm_op
 -rwxr-xr-x root       root            69808 ./usr/lib/enlightenment/utils/.debug/enlightenment_static_grabber
 -rwxr-xr-x root       root            43664 ./usr/lib/enlightenment/utils/.debug/enlightenment_sys
--rwxr-xr-x root       root           122800 ./usr/lib/enlightenment/utils/.debug/enlightenment_thumb
+-rwxr-xr-x root       root           122864 ./usr/lib/enlightenment/utils/.debug/enlightenment_thumb
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/e-wm
