@@ -1,9 +1,9 @@
 PV = 1.5.1
 PR = r0
-PKGR = r0.49
+PKGR = r0.50
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.24) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 55341
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sysklogd /usr/lib/sysklogd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /etc/init.d/syslog.sysklogd /etc/syslog.conf.sysklogd /sbin/klogd.sysklogd /sbin/syslogd.sysklogd
+PKGSIZE = 52070
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sysklogd /usr/lib/sysklogd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/tmpfiles.d/sysklogd.conf /lib/systemd/system/syslogd.service /lib/systemd/system/klogd.service
+FILELIST = /etc/syslog.conf.sysklogd /lib/systemd/system/klogd.service /lib/systemd/system/syslogd.service /sbin/klogd.sysklogd /sbin/syslogd.sysklogd /usr/lib/tmpfiles.d/sysklogd.conf

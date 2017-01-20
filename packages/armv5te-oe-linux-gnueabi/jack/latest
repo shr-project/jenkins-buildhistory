@@ -1,4 +1,4 @@
-PV = 1.9.10+gitAUTOINC+364159f821
+PV = 1.9.10+gitAUTOINC+0279a2d65a
 PR = r0
-DEPENDS = alsa-lib libopus libsamplerate0 libsndfile1 pkgconfig-native readline virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = alsa-lib libsamplerate0 libsndfile1 pkgconfig-native readline virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = libjack jack-server jack-utils jack-dbg jack-staticdev jack-dev jack-doc jack-locale jack
