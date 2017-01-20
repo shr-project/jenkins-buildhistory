@@ -1,8 +1,8 @@
 PV = 8
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.10.10) glibc (>= 2.24) libasound (>= 1.1.2) libjack (>= 1.9.10+git0+364159f821)
+RDEPENDS = dbus-lib (>= 1.10.14) glibc (>= 2.24) libasound (>= 1.1.2) libjack (>= 1.9.10+git1+0279a2d65a)
 RRECOMMENDS = 
 PKGSIZE = 71602
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/a2jmidid /usr/lib/a2jmidid/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/services

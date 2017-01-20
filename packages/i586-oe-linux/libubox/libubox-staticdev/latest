@@ -1,9 +1,10 @@
-PV = git
+PV = 1.0.1+gitAUTOINC+155bf39896
 PR = r0
-PKGR = r0.55
+PKGV = 1.0.1+git0+155bf39896
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libubox-dev (= git-r0.55)
+RDEPENDS = libubox-dev (= 1.0.1+git0+155bf39896-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 829632
+PKGSIZE = 830452
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libubox/*.a
 FILELIST = /usr/lib/libblobmsg_json.a /usr/lib/libubox.a

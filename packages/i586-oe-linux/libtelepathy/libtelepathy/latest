@@ -1,9 +1,9 @@
 PV = 0.3.3
 PR = r5
 PKG = libtelepathy2
-PKGR = r5.55
+PKGR = r5.56
 RPROVIDES = libtelepathy (=0.3.3)
-RDEPENDS = dbus-glib (>= 0.108) dbus-lib (>= 1.10.10) glib-2.0 (>= 2.50.2) glibc (>= 2.24) libcap (>= 2.25) libffi (>= 3.2.1) liblzma (>= 5.2.2) libpcre (>= 8.39) libsystemd (>= 232) telepathy-glib (>= 0.24.0) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
+RDEPENDS = dbus-glib (>= 0.108) dbus-lib (>= 1.10.14) glib-2.0 (>= 2.50.2) glibc (>= 2.24) libcap (>= 2.25) libffi (>= 3.2.1) liblzma (>= 5.2.2) libpcre (>= 8.39) libsystemd (>= 232) telepathy-glib (>= 0.24.0) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
 RRECOMMENDS = 
 PKGSIZE = 63613
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libtelepathy /usr/lib/libtelepathy/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/telepathy /usr/share/dbus-1
