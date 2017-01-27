@@ -1,8 +1,8 @@
 PV = 6.3.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) gmp (>= 6.1.1) libgcc (>= 6.3.0) libmpc (>= 1.0.3) libstdc++ (>= 6.3.0) mpfr (>= 3.1.5) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.25) gmp (>= 6.1.1) libgcc (>= 6.3.0) libmpc (>= 1.0.3) libstdc++ (>= 6.3.0) mpfr (>= 3.1.5) zlib (>= 1.2.8)
 RRECOMMENDS = libssp libssp-dev
 PKGSIZE = 40424520
 FILES = /usr/bin/arm-oe-linux-gnueabi-gcc* /usr/libexec/gcc/arm-oe-linux-gnueabi/6.3.0/collect2* /usr/libexec/gcc/arm-oe-linux-gnueabi/6.3.0/cc* /usr/libexec/gcc/arm-oe-linux-gnueabi/6.3.0/lto* /usr/libexec/gcc/arm-oe-linux-gnueabi/6.3.0/lib*.so.* /usr/libexec/gcc/arm-oe-linux-gnueabi/6.3.0/liblto*.so /usr/lib/gcc/arm-oe-linux-gnueabi/6.3.0/*.o /usr/lib/gcc/arm-oe-linux-gnueabi/6.3.0/specs /usr/lib/gcc/arm-oe-linux-gnueabi/6.3.0/lib*.so.* /usr/lib/gcc/arm-oe-linux-gnueabi/6.3.0/include /usr/lib/gcc/arm-oe-linux-gnueabi/6.3.0/include-fixed

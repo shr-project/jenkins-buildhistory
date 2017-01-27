@@ -1,9 +1,9 @@
 PV = 2.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) iptables (>= 1.6.0) libmnl (>= 1.0.4) libnetfilter-conntrack (>= 1.0.4)
+RDEPENDS = glibc (>= 2.25) iptables (>= 1.6.0) libmnl (>= 1.0.4) libnetfilter-conntrack (>= 1.0.4)
 RRECOMMENDS = 
-PKGSIZE = 93901
+PKGSIZE = 93897
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/miniupnpd /usr/lib/miniupnpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/init.d/miniupnpd /etc/miniupnpd/ip6tables_init.sh /etc/miniupnpd/ip6tables_removeall.sh /etc/miniupnpd/iptables_init.sh /etc/miniupnpd/iptables_removeall.sh /etc/miniupnpd/miniupnpd.conf /usr/sbin/miniupnpd

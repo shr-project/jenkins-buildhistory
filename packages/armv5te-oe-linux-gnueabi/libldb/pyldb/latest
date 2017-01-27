@@ -1,8 +1,8 @@
 PV = 1.1.29
 PR = r0
-PKGR = r0.6
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libldb (>= 1.1.29) libpython2 (>= 2.7.12) libtalloc (>= 2.1.8) python
+RDEPENDS = glibc (>= 2.25) libldb (>= 1.1.29) libpython2 (>= 2.7.12) libtalloc (>= 2.1.8) python
 RRECOMMENDS = 
 PKGSIZE = 62920
 FILES = /usr/lib/python2.7/site-packages/* /usr/lib/libpyldb-util.so.1 /usr/lib/libpyldb-util.so.1.1.17

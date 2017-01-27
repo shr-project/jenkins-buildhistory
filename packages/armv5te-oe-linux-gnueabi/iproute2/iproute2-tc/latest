@@ -2,8 +2,8 @@ PV = 4.9.0
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) iptables (>= 1.6.0) libelf (>= 0.166)
+RDEPENDS = glibc (>= 2.25) libelf (>= 0.166)
 RRECOMMENDS = 
-PKGSIZE = 259667
+PKGSIZE = 245516
 FILES = /sbin/tc* /usr/lib/tc/*.so
-FILELIST = /sbin/tc /usr/lib/tc/m_ipt.so /usr/lib/tc/m_xt.so
+FILELIST = /sbin/tc

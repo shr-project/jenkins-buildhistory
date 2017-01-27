@@ -1,0 +1,10 @@
+PV = 4.8.17+gitAUTOINC+3edb4de355_16f32b5197
+PR = r0
+PKGV = 4.8.17+git0+3edb4de355_16f32b5197
+PKGR = r0.1
+RPROVIDES = kernel-module-tun
+RDEPENDS = kernel-4.8.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 33820
+FILES = /lib/modules/4.8.17-yocto-standard/kernel/drivers/net/tun.ko /etc/modules-load.d/tun.conf /etc/modprobe.d/tun.conf
+FILELIST = /lib/modules/4.8.17-yocto-standard/kernel/drivers/net/tun.ko

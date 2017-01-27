@@ -6,9 +6,9 @@ drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/default
 -rw-r--r-- root       root               36 ./etc/default/mountall
 drwxr-xr-x root       root              140 ./sbin
--rwxr-xr-x root       root            22560 ./sbin/blockdev.util-linux
+-rwxr-xr-x root       root            22564 ./sbin/blockdev.util-linux
 -rwxr-xr-x root       root            14192 ./sbin/ctrlaltdel
--rwxr-xr-x root       root            51440 ./sbin/mkswap.util-linux
+-rwxr-xr-x root       root            51444 ./sbin/mkswap.util-linux
 -rwxr-xr-x root       root             5916 ./sbin/pivot_root.util-linux
 -rwxr-xr-x root       root            10080 ./sbin/switch_root.util-linux
 drwxr-xr-x root       root               80 ./usr
@@ -19,7 +19,7 @@ drwxr-xr-x root       root             1000 ./usr/bin
 -rwxr-xr-x root       root            10040 ./usr/bin/colcrt
 -rwxr-xr-x root       root            18296 ./usr/bin/colrm
 -rwxr-xr-x root       root            22456 ./usr/bin/column
--rwxr-xr-x root       root            34996 ./usr/bin/eject.util-linux
+-rwxr-xr-x root       root            35000 ./usr/bin/eject.util-linux
 -rwxr-xr-x root       root            22420 ./usr/bin/fallocate
 -rwxr-xr-x root       root            44064 ./usr/bin/findmnt
 -rwxr-xr-x root       root            22524 ./usr/bin/flock.util-linux
@@ -35,7 +35,7 @@ lrwxrwxrwx root       root                7 ./usr/bin/linux32 -> setarch
 lrwxrwxrwx root       root                7 ./usr/bin/linux64 -> setarch
 -rwxr-xr-x root       root            30984 ./usr/bin/logger.util-linux
 -rwxr-xr-x root       root            10036 ./usr/bin/look
--rwxr-xr-x root       root            51556 ./usr/bin/lsblk
+-rwxr-xr-x root       root            51560 ./usr/bin/lsblk
 -rwxr-xr-x root       root            47284 ./usr/bin/lsipc
 -rwxr-xr-x root       root            26852 ./usr/bin/lslocks
 -rwxr-xr-x root       root            39132 ./usr/bin/lslogins
@@ -59,7 +59,7 @@ lrwxrwxrwx root       root                7 ./usr/bin/uname26 -> setarch
 -rwxr-xr-x root       root            18432 ./usr/bin/utmpdump.util-linux
 -rwxr-xr-x root       root            22508 ./usr/bin/wall.util-linux
 -rwxr-xr-x root       root            22460 ./usr/bin/wdctl
--rwxr-xr-x root       root            14476 ./usr/bin/whereis
+-rwxr-xr-x root       root            14480 ./usr/bin/whereis
 -rwxr-xr-x root       root            10128 ./usr/bin/write
 drwxr-xr-x root       root              320 ./usr/sbin
 -rwxr-xr-x root       root            18260 ./usr/sbin/addpart
@@ -71,8 +71,8 @@ drwxr-xr-x root       root              320 ./usr/sbin
 -rwxr-xr-x root       root            22448 ./usr/sbin/ldattach
 -rwxr-xr-x root       root             5876 ./usr/sbin/nologin
 -rwxr-xr-x root       root            10012 ./usr/sbin/raw
--rwxr-xr-x root       root            26688 ./usr/sbin/resizepart
+-rwxr-xr-x root       root            26692 ./usr/sbin/resizepart
 -rwxr-xr-x root       root            30756 ./usr/sbin/rtcwake
 -rwxr-xr-x root       root            10060 ./usr/sbin/swaplabel
 -rwxr-xr-x root       root            22488 ./usr/sbin/wipefs
--rwxr-xr-x root       root            55624 ./usr/sbin/zramctl
+-rwxr-xr-x root       root            55628 ./usr/sbin/zramctl

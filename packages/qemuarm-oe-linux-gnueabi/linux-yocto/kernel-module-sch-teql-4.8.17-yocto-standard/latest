@@ -1,0 +1,10 @@
+PV = 4.8.17+gitAUTOINC+3edb4de355_16f32b5197
+PR = r0
+PKGV = 4.8.17+git0+3edb4de355_16f32b5197
+PKGR = r0.1
+RPROVIDES = kernel-module-sch-teql
+RDEPENDS = kernel-4.8.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 10588
+FILES = /lib/modules/4.8.17-yocto-standard/kernel/net/sched/sch_teql.ko /etc/modules-load.d/sch_teql.conf /etc/modprobe.d/sch_teql.conf
+FILELIST = /lib/modules/4.8.17-yocto-standard/kernel/net/sched/sch_teql.ko

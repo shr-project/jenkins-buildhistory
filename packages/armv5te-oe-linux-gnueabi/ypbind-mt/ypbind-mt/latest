@@ -1,8 +1,8 @@
 PV = 1.38
 PR = r0
-PKGR = r0.54
+PKGR = r0.0
 RPROVIDES = ypbind-mt-systemd
-RDEPENDS = glibc (>= 2.24) libsystemd (>= 232) yp-tools
+RDEPENDS = glibc (>= 2.25) libsystemd (>= 232) yp-tools
 RRECOMMENDS = 
 RREPLACES = ypbind-mt-systemd
 RCONFLICTS = ypbind-mt-systemd

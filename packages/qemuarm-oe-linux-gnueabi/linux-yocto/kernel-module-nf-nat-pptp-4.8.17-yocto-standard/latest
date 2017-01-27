@@ -1,0 +1,10 @@
+PV = 4.8.17+gitAUTOINC+3edb4de355_16f32b5197
+PR = r0
+PKGV = 4.8.17+git0+3edb4de355_16f32b5197
+PKGR = r0.1
+RPROVIDES = kernel-module-nf-nat-pptp
+RDEPENDS = kernel-4.8.17-yocto-standard kernel-module-nf-conntrack-4.8.17-yocto-standard kernel-module-nf-conntrack-pptp-4.8.17-yocto-standard kernel-module-nf-nat-4.8.17-yocto-standard kernel-module-nf-nat-proto-gre-4.8.17-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6960
+FILES = /lib/modules/4.8.17-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_pptp.ko /etc/modules-load.d/nf_nat_pptp.conf /etc/modprobe.d/nf_nat_pptp.conf
+FILELIST = /lib/modules/4.8.17-yocto-standard/kernel/net/ipv4/netfilter/nf_nat_pptp.ko

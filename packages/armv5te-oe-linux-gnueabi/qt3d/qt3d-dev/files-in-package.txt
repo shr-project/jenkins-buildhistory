@@ -397,7 +397,7 @@ drwxr-xr-x root       root              240 ./usr/include/qt5/Qt3DQuick/5.8.0/Qt
 -rw-r--r-- root       root             3050 ./usr/include/qt5/Qt3DQuick/5.8.0/Qt3DQuick/private/qt3dquick_global_p.h
 -rw-r--r-- root       root             3099 ./usr/include/qt5/Qt3DQuick/5.8.0/Qt3DQuick/private/qt3dquicknodefactory_p.h
 -rw-r--r-- root       root            10915 ./usr/include/qt5/Qt3DQuick/5.8.0/Qt3DQuick/private/qt3dquickvaluetypes_p.h
--rw-r--r-- root       root             3202 ./usr/include/qt5/Qt3DQuick/5.8.0/Qt3DQuick/private/quick3dentityloader_p.h
+-rw-r--r-- root       root             3230 ./usr/include/qt5/Qt3DQuick/5.8.0/Qt3DQuick/private/quick3dentityloader_p.h
 -rw-r--r-- root       root             3201 ./usr/include/qt5/Qt3DQuick/5.8.0/Qt3DQuick/private/quick3dentityloader_p_p.h
 -rw-r--r-- root       root             3371 ./usr/include/qt5/Qt3DQuick/5.8.0/Qt3DQuick/private/quick3dentity_p.h
 -rw-r--r-- root       root             4361 ./usr/include/qt5/Qt3DQuick/5.8.0/Qt3DQuick/private/quick3dnodeinstantiator_p.h
@@ -467,14 +467,14 @@ drwxr-xr-x root       root              460 ./usr/include/qt5/Qt3DQuickRender/5.
 drwxr-xr-x root       root             3700 ./usr/include/qt5/Qt3DRender
 drwxr-xr-x root       root               60 ./usr/include/qt5/Qt3DRender/5.8.0
 drwxr-xr-x root       root               60 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender
-drwxr-xr-x root       root             4100 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private
--rw-r--r-- root       root             5184 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/abstractrenderer_p.h
--rw-r--r-- root       root            13744 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/apitexturemanager_p.h
+drwxr-xr-x root       root             4120 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private
+-rw-r--r-- root       root             5434 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/abstractrenderer_p.h
+-rw-r--r-- root       root            13785 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/apitexturemanager_p.h
 -rw-r--r-- root       root             3535 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/attachmentpack_p.h
 -rw-r--r-- root       root             3864 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/attribute_p.h
 -rw-r--r-- root       root             2900 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/backendnode_p.h
 -rw-r--r-- root       root             3148 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/boundingvolumedebug_p.h
--rw-r--r-- root       root             3264 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/buffermanager_p.h
+-rw-r--r-- root       root             3287 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/buffermanager_p.h
 -rw-r--r-- root       root             4212 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/buffer_p.h
 -rw-r--r-- root       root             3087 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/calcboundingvolumejob_p.h
 -rw-r--r-- root       root             3026 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/calcgeometrytrianglevolumes_p.h
@@ -502,7 +502,7 @@ drwxr-xr-x root       root             4100 ./usr/include/qt5/Qt3DRender/5.8.0/Q
 -rw-r--r-- root       root             5086 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/geometryrenderer_p.h
 -rw-r--r-- root       root             3560 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/glbuffer_p.h
 -rw-r--r-- root       root             3129 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/gltexturemanager_p.h
--rw-r--r-- root       root             7066 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/gltexture_p.h
+-rw-r--r-- root       root             7188 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/gltexture_p.h
 -rw-r--r-- root       root            14159 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/graphicscontext_p.h
 -rw-r--r-- root       root             9110 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/graphicshelperes2_p.h
 -rw-r--r-- root       root             3721 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/graphicshelperes3_p.h
@@ -512,7 +512,7 @@ drwxr-xr-x root       root             4100 ./usr/include/qt5/Qt3DRender/5.8.0/Q
 -rw-r--r-- root       root             9167 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/graphicshelpergl4_p.h
 -rw-r--r-- root       root             9229 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/graphicshelperinterface_p.h
 -rw-r--r-- root       root             4741 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/handle_types_p.h
--rw-r--r-- root       root             3458 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/job_common_p.h
+-rw-r--r-- root       root             3486 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/job_common_p.h
 -rw-r--r-- root       root             2977 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/layerfilternode_p.h
 -rw-r--r-- root       root             2666 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/layer_p.h
 -rw-r--r-- root       root             2931 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/lightgatherer_p.h
@@ -522,7 +522,7 @@ drwxr-xr-x root       root             4100 ./usr/include/qt5/Qt3DRender/5.8.0/Q
 -rw-r--r-- root       root             2988 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/loadgeometryjob_p.h
 -rw-r--r-- root       root             3336 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/loadscenejob_p.h
 -rw-r--r-- root       root             3183 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/loadtexturedatajob_p.h
--rw-r--r-- root       root            11575 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/managers_p.h
+-rw-r--r-- root       root            11992 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/managers_p.h
 -rw-r--r-- root       root             4243 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/materialparametergathererjob_p.h
 -rw-r--r-- root       root             3198 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/material_p.h
 -rw-r--r-- root       root             3375 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/nodefunctor_p.h
@@ -530,6 +530,7 @@ drwxr-xr-x root       root             4100 ./usr/include/qt5/Qt3DRender/5.8.0/Q
 -rw-r--r-- root       root             2557 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/nodraw_p.h
 -rw-r--r-- root       root             3321 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/objectpicker_p.h
 -rw-r--r-- root       root             5709 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/objloader_p.h
+-rw-r--r-- root       root             2958 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/offscreensurfacehelper_p.h
 -rw-r--r-- root       root             3546 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/openglvertexarrayobject_p.h
 -rw-r--r-- root       root             2919 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/parameterpack_p.h
 -rw-r--r-- root       root             3068 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/parameter_p.h
@@ -585,7 +586,7 @@ drwxr-xr-x root       root             4100 ./usr/include/qt5/Qt3DRender/5.8.0/Q
 -rw-r--r-- root       root             2678 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/qpolygonoffset_p.h
 -rw-r--r-- root       root             4183 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/qray3d_p.h
 -rw-r--r-- root       root             4207 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/qraycastingservice_p.h
--rw-r--r-- root       root             3325 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/qrenderaspect_p.h
+-rw-r--r-- root       root             3432 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/qrenderaspect_p.h
 -rw-r--r-- root       root             3148 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/qrendercapture_p.h
 -rw-r--r-- root       root             2883 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/qrenderpassfilter_p.h
 -rw-r--r-- root       root             3045 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/qrenderpass_p.h
@@ -622,7 +623,7 @@ drwxr-xr-x root       root             4100 ./usr/include/qt5/Qt3DRender/5.8.0/Q
 -rw-r--r-- root       root             2806 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/rendercapture_p.h
 -rw-r--r-- root       root             4238 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/rendercommand_p.h
 -rw-r--r-- root       root             2553 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/renderconfiguration_p.h
--rw-r--r-- root       root            11529 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/renderer_p.h
+-rw-r--r-- root       root            12154 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/renderer_p.h
 -rw-r--r-- root       root             2898 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/renderlogging_p.h
 -rw-r--r-- root       root             3230 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/renderpassfilternode_p.h
 -rw-r--r-- root       root             3811 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/renderpass_p.h
@@ -647,7 +648,7 @@ drwxr-xr-x root       root             4100 ./usr/include/qt5/Qt3DRender/5.8.0/Q
 -rw-r--r-- root       root             3438 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/shadercache_p.h
 -rw-r--r-- root       root             5009 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/shaderdata_p.h
 -rw-r--r-- root       root             4806 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/shaderparameterpack_p.h
--rw-r--r-- root       root             6517 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/shader_p.h
+-rw-r--r-- root       root             6566 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/shader_p.h
 -rw-r--r-- root       root             4578 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/shadervariables_p.h
 -rw-r--r-- root       root             2933 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/sortpolicy_p.h
 -rw-r--r-- root       root             4832 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/sphere_p.h
@@ -657,7 +658,7 @@ drwxr-xr-x root       root             4100 ./usr/include/qt5/Qt3DRender/5.8.0/Q
 -rw-r--r-- root       root             2778 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/stringtoint_p.h
 -rw-r--r-- root       root             3267 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/techniquefilternode_p.h
 -rw-r--r-- root       root             4610 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/technique_p.h
--rw-r--r-- root       root             7221 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/texturedatamanager_p.h
+-rw-r--r-- root       root             7392 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/texturedatamanager_p.h
 -rw-r--r-- root       root             4298 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/textureimage_p.h
 -rw-r--r-- root       root             7133 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/texture_p.h
 -rw-r--r-- root       root             3175 ./usr/include/qt5/Qt3DRender/5.8.0/Qt3DRender/private/transform_p.h
@@ -883,23 +884,23 @@ drwxr-xr-x root       root              100 ./usr/lib/cmake/Qt53DRender
 -rw-r--r-- root       root             6413 ./usr/lib/cmake/Qt53DRender/Qt53DRenderConfig.cmake
 -rw-r--r-- root       root              287 ./usr/lib/cmake/Qt53DRender/Qt53DRenderConfigVersion.cmake
 -rw-r--r-- root       root              208 ./usr/lib/cmake/Qt53DRender/Qt53DRender_GLTFSceneIOPlugin.cmake
--rw-r--r-- root       root             1206 ./usr/lib/libQt53DCore.prl
+-rw-r--r-- root       root             1260 ./usr/lib/libQt53DCore.prl
 lrwxrwxrwx root       root               21 ./usr/lib/libQt53DCore.so -> libQt53DCore.so.5.8.0
--rw-r--r-- root       root             1262 ./usr/lib/libQt53DExtras.prl
+-rw-r--r-- root       root             1316 ./usr/lib/libQt53DExtras.prl
 lrwxrwxrwx root       root               23 ./usr/lib/libQt53DExtras.so -> libQt53DExtras.so.5.8.0
--rw-r--r-- root       root             1203 ./usr/lib/libQt53DInput.prl
+-rw-r--r-- root       root             1257 ./usr/lib/libQt53DInput.prl
 lrwxrwxrwx root       root               22 ./usr/lib/libQt53DInput.so -> libQt53DInput.so.5.8.0
--rw-r--r-- root       root             1203 ./usr/lib/libQt53DLogic.prl
+-rw-r--r-- root       root             1257 ./usr/lib/libQt53DLogic.prl
 lrwxrwxrwx root       root               22 ./usr/lib/libQt53DLogic.so -> libQt53DLogic.so.5.8.0
--rw-r--r-- root       root             1322 ./usr/lib/libQt53DQuickExtras.prl
+-rw-r--r-- root       root             1376 ./usr/lib/libQt53DQuickExtras.prl
 lrwxrwxrwx root       root               28 ./usr/lib/libQt53DQuickExtras.so -> libQt53DQuickExtras.so.5.8.0
--rw-r--r-- root       root             1276 ./usr/lib/libQt53DQuickInput.prl
+-rw-r--r-- root       root             1330 ./usr/lib/libQt53DQuickInput.prl
 lrwxrwxrwx root       root               27 ./usr/lib/libQt53DQuickInput.so -> libQt53DQuickInput.so.5.8.0
--rw-r--r-- root       root             1235 ./usr/lib/libQt53DQuick.prl
--rw-r--r-- root       root             1296 ./usr/lib/libQt53DQuickRender.prl
+-rw-r--r-- root       root             1289 ./usr/lib/libQt53DQuick.prl
+-rw-r--r-- root       root             1350 ./usr/lib/libQt53DQuickRender.prl
 lrwxrwxrwx root       root               28 ./usr/lib/libQt53DQuickRender.so -> libQt53DQuickRender.so.5.8.0
 lrwxrwxrwx root       root               22 ./usr/lib/libQt53DQuick.so -> libQt53DQuick.so.5.8.0
--rw-r--r-- root       root             1227 ./usr/lib/libQt53DRender.prl
+-rw-r--r-- root       root             1281 ./usr/lib/libQt53DRender.prl
 lrwxrwxrwx root       root               23 ./usr/lib/libQt53DRender.so -> libQt53DRender.so.5.8.0
 drwxr-xr-x root       root              220 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              326 ./usr/lib/pkgconfig/Qt53DCore.pc

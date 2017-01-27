@@ -1,8 +1,8 @@
 PV = 5.15
 PR = r0
-PKGR = r0.37
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) watchdog-config
+RDEPENDS = glibc (>= 2.25) watchdog-config
 RRECOMMENDS = 
 PKGSIZE = 20725
 FILES = /etc/init.d/wd_keepalive /usr/sbin/wd_keepalive
