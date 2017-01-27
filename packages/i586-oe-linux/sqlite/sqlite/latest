@@ -1,9 +1,9 @@
 PV = 2.8.17
 PR = r7
 PKG = libsqlite0
-PKGR = r7.53
+PKGR = r7.0
 RPROVIDES = sqlite (=2.8.17)
-RDEPENDS = glibc (>= 2.24)
+RDEPENDS = glibc (>= 2.25)
 RRECOMMENDS = 
 PKGSIZE = 394372
 FILES = /usr/lib/*.so.*

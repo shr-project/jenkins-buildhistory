@@ -1,8 +1,8 @@
 PV = 0.9.2
 PR = r0
-PKGR = r0.60
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.24) libx11 (>= 1.6.4) lirc-python
+RDEPENDS = bash glibc (>= 2.25) libx11 (>= 1.6.4) lirc-python
 RRECOMMENDS = lirc-exec lirc-plugins
 PKGSIZE = 561823
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lirc /usr/lib/lirc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/lircexec.init /lib/systemd/system/lircd.service /lib/systemd/system/lircd.socket /usr/lib/tmpfiles.d/lirc.conf /lib/systemd/system/lircd.service /lib/systemd/system/lircmd.service

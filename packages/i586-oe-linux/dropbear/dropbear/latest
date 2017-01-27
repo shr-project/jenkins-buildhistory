@@ -1,8 +1,8 @@
 PV = 2016.74
 PR = r0
-PKGR = r0.28
+PKGR = r0.0
 RPROVIDES = dropbear-systemd ssh sshd
-RDEPENDS = glibc (>= 2.24) update-alternatives-opkg zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.25) update-alternatives-opkg zlib (>= 1.2.8)
 RRECOMMENDS = 
 RREPLACES = dropbear-systemd
 RCONFLICTS = dropbear-systemd

@@ -1,9 +1,9 @@
 PV = 0.9.10
 PR = r0
-PKGR = r0.65
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libvncserver (= 0.9.10-r0.65)
+RDEPENDS = libvncserver (= 0.9.10-r0.0)
 RRECOMMENDS = glibc-dev gmp-dev gnutls-dev gtk+-dev jpeg-dev libcap-dev libcrypto-dev libgcrypt-dev libgpg-error-dev libidn-dev libjpeg-turbo-dev libpng-dev libsdl-dev libssl-dev libunistring-dev nettle-dev zlib-dev
-PKGSIZE = 215836
+PKGSIZE = 215876
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libvncserver/*.la /lib/*.la /usr/bin/*-config
 FILELIST = /usr/bin/libvncserver-config /usr/include/rfb/keysym.h /usr/include/rfb/rfb.h /usr/include/rfb/rfbclient.h /usr/include/rfb/rfbconfig.h /usr/include/rfb/rfbint.h /usr/include/rfb/rfbproto.h /usr/include/rfb/rfbregion.h /usr/lib/libvncclient.la /usr/lib/libvncclient.so /usr/lib/libvncserver.la /usr/lib/libvncserver.so /usr/lib/pkgconfig/libvncclient.pc /usr/lib/pkgconfig/libvncserver.pc

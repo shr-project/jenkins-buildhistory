@@ -3,7 +3,7 @@ PV = 0.3.4
 PR = r0
 PKGR = r0.0
 RPROVIDES = opkg-collateral
-RDEPENDS = glibc (>= 2.24) libarchive libopkg (>= 0.3.4) opkg-arch-config run-postinsts update-alternatives-opkg
+RDEPENDS = glibc (>= 2.25) libarchive libopkg (>= 0.3.4) opkg-arch-config run-postinsts update-alternatives-opkg
 RRECOMMENDS = 
 RREPLACES = opkg-collateral opkg-nogpg
 RCONFLICTS = opkg-collateral
