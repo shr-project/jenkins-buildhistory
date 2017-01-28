@@ -1,8 +1,8 @@
 PV = 0.9.4
 PR = r0
-PKGR = r0.48
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = gupnp-dlna (= 0.9.4-r0.48)
+RDEPENDS = gupnp-dlna (= 0.9.4-r0.0)
 RRECOMMENDS = glib-2.0-dev glibc-dev gobject-introspection-dev gstreamer1.0-dev gstreamer1.0-plugins-base-dev libffi-dev libgstaudio-1.0-dev libgstpbutils-1.0-dev libgsttag-1.0-dev libgstvideo-1.0-dev liborc-0.4-dev libpcre-dev libxml2-dev vala-dev zlib-dev
 PKGSIZE = 185165
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gupnp-dlna/*.la /lib/*.la /usr/share/vala/vapi/*.vapi /usr/share/vala/vapi/*.deps /usr/share/gir-1.0 /usr/share/gir-*/*.gir

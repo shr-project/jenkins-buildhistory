@@ -2,9 +2,9 @@ PE = 1
 PV = 232
 PR = r0
 PKG = libudev1
-PKGR = r0.6
+PKGR = r0.0
 RPROVIDES = libudev (=232)
-RDEPENDS = glibc (>= 2.24) libcap (>= 2.25)
+RDEPENDS = glibc (>= 2.25) libcap (>= 2.25)
 RRECOMMENDS = 
 PKGSIZE = 131320
 FILES = /lib/libudev.so /lib/libudev.so.1 /lib/libudev.so.1.6.5

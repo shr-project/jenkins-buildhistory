@@ -1,10 +1,10 @@
-PV = 5.7.99+5.8.0-rc+gitAUTOINC+594ad16ae1
+PV = 5.8.0+gitAUTOINC+9f7e01b582
 PR = r0
 PKG = libqt5xmlpatterns-examples
-PKGV = 5.7.99+5.8.0-rc+git0+594ad16ae1
-PKGR = r0.4
-RPROVIDES = qtxmlpatterns-examples (=5.7.99+5.8.0-rc+git0+594ad16ae1)
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.3.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtxmlpatterns (>= 5.7.99+5.8.0-rc+git0+594ad16ae1)
+PKGV = 5.8.0+git0+9f7e01b582
+PKGR = r0.0
+RPROVIDES = qtxmlpatterns-examples (=5.8.0+git0+9f7e01b582)
+RDEPENDS = glibc (>= 2.25) libstdc++ (>= 6.3.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtxmlpatterns (>= 5.8.0+git0+9f7e01b582)
 RRECOMMENDS = 
 PKGSIZE = 261081
 FILES = /usr/share/qt5/examples/*

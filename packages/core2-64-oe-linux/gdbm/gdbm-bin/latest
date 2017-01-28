@@ -1,9 +1,9 @@
 PV = 1.12
 PR = r0
 PKG = libgdbm-bin
-PKGR = r0.33
+PKGR = r0.0
 RPROVIDES = gdbm-bin (=1.12)
-RDEPENDS = gdbm (>= 1.12) glibc (>= 2.24)
+RDEPENDS = gdbm (>= 1.12) glibc (>= 2.25)
 RRECOMMENDS = 
 PKGSIZE = 129600
 FILES = /usr/bin/* /usr/sbin/*

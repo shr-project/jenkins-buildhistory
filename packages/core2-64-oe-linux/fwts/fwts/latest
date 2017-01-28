@@ -1,9 +1,9 @@
-PV = 16.12.00
+PV = 17.01.00
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = dtc (>= 1.4.2) glib-2.0 (>= 2.50.2) glibc (>= 2.24) json-c (>= 0.12) libffi (>= 3.2.1) libpci (>= 3.5.2) libpcre (>= 8.39) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
+RDEPENDS = dtc (>= 1.4.2) glib-2.0 (>= 2.50.2) glibc (>= 2.25) json-c (>= 0.12) libffi (>= 3.2.1) libpcre (>= 8.39) util-linux-libblkid (>= 2.29) util-linux-libmount (>= 2.29) util-linux-libuuid (>= 2.29) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 3112681
+PKGSIZE = 3124208
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/fwts /usr/lib/fwts/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/fwts/lib*.so.*
 FILELIST = /usr/bin/fwts /usr/bin/kernelscan /usr/lib/fwts/libfwts.so.1 /usr/lib/fwts/libfwts.so.1.0.0 /usr/lib/fwts/libfwtsacpica.so.1 /usr/lib/fwts/libfwtsacpica.so.1.0.0 /usr/lib/fwts/libfwtsiasl.so.1 /usr/lib/fwts/libfwtsiasl.so.1.0.0 /usr/share/fwts/klog.json /usr/share/fwts/olog.json /usr/share/fwts/syntaxcheck.json

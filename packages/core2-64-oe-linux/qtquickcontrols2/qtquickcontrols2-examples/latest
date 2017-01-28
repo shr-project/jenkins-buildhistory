@@ -1,9 +1,9 @@
-PV = 5.7.99+5.8.0-rc+gitAUTOINC+cce0aadcd7
+PV = 5.8.0+gitAUTOINC+6f7852a307
 PR = r0
-PKGV = 5.7.99+5.8.0-rc+git0+cce0aadcd7
-PKGR = r0.4
+PKGV = 5.8.0+git0+6f7852a307
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.3.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtdeclarative (>= 5.7.99+5.8.0-rc+git0+884d06db09) qtquickcontrols2 (>= 5.7.99+5.8.0-rc+git0+cce0aadcd7)
+RDEPENDS = glibc (>= 2.25) libstdc++ (>= 6.3.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19) qtquickcontrols2 (>= 5.8.0+git0+6f7852a307)
 RRECOMMENDS = 
 PKGSIZE = 1603675
 FILES = /usr/share/qt5/examples/*

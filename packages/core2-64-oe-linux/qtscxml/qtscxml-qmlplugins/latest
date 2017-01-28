@@ -1,0 +1,11 @@
+PV = 5.8.0+gitAUTOINC+4704292500
+PR = r0
+PKG = libqt5scxml-qmlplugins
+PKGV = 5.8.0+git0+4704292500
+PKGR = r0.0
+RPROVIDES = qtscxml-qmlplugins (=5.8.0+git0+4704292500)
+RDEPENDS = glibc (>= 2.25) libstdc++ (>= 6.3.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19) qtscxml (>= 5.8.0+git0+4704292500)
+RRECOMMENDS = 
+PKGSIZE = 86622
+FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
+FILELIST = /usr/lib/qt5/qml/QtScxml/libdeclarative_scxml.so /usr/lib/qt5/qml/QtScxml/plugins.qmltypes /usr/lib/qt5/qml/QtScxml/qmldir

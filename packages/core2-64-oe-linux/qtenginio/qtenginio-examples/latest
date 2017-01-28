@@ -1,10 +1,10 @@
-PV = 5.7.99+5.8.0-rc+gitAUTOINC+0555cf73c8
+PV = 5.8.0+gitAUTOINC+0555cf73c8
 PR = r0
 PKG = libenginio-examples
-PKGV = 5.7.99+5.8.0-rc+git0+0555cf73c8
-PKGR = r0.4
-RPROVIDES = qtenginio-examples (=5.7.99+5.8.0-rc+git0+0555cf73c8)
-RDEPENDS = glibc (>= 2.24) libstdc++ (>= 6.3.0) qtbase (>= 5.7.99+5.8.0-rc+git0+4c0760d327) qtdeclarative (>= 5.7.99+5.8.0-rc+git0+884d06db09) qtenginio (>= 5.7.99+5.8.0-rc+git0+0555cf73c8)
+PKGV = 5.8.0+git0+0555cf73c8
+PKGR = r0.0
+RPROVIDES = qtenginio-examples (=5.8.0+git0+0555cf73c8)
+RDEPENDS = glibc (>= 2.25) libstdc++ (>= 6.3.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19) qtenginio (>= 5.8.0+git0+0555cf73c8)
 RRECOMMENDS = 
 PKGSIZE = 677841
 FILES = /usr/share/qt5/examples/*

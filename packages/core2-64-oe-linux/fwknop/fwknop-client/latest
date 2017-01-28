@@ -1,9 +1,9 @@
 PV = 2.6.9
 PR = r0
 PKG = libfko-client
-PKGR = r0.9
+PKGR = r0.0
 RPROVIDES = fwknop-client (=2.6.9)
-RDEPENDS = fwknop (>= 2.6.9) glibc (>= 2.24)
+RDEPENDS = fwknop (>= 2.6.9) glibc (>= 2.25)
 RRECOMMENDS = 
 PKGSIZE = 88432
 FILES = /usr/bin/fwknop
