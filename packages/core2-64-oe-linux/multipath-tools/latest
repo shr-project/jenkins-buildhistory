@@ -1,4 +1,4 @@
-PV = 0.5.0+git770e6d0da0
+PV = 0.6.4+git922421cf79
 PR = r0
-DEPENDS = libaio lvm2 readline systemd-systemctl-native udev virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = libaio liburcu lvm2 readline systemd-systemctl-native udev virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = kpartx multipath-tools-dbg multipath-tools-staticdev multipath-tools-dev multipath-tools-doc multipath-tools-locale multipath-tools

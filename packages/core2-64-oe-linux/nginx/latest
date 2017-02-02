@@ -1,4 +1,4 @@
 PV = 1.10.2
 PR = r0
-DEPENDS = base-files base-passwd gzip libpcre openssl shadow shadow-native shadow-sysroot virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = base-files base-passwd gzip libpcre openssl shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = nginx-dbg nginx-staticdev nginx-dev nginx-doc nginx-locale nginx
