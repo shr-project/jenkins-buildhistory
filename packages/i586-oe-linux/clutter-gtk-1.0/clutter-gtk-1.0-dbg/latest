@@ -1,10 +1,10 @@
 PV = 1.8.2
 PR = r0
 PKG = libclutter-gtk-1.0-dbg
-PKGR = r0.10
+PKGR = r0.0
 RPROVIDES = clutter-gtk-1.0-dbg (=1.8.2)
 RDEPENDS = 
-RRECOMMENDS = atk-dbg cairo-dbg cairo-gobject-dbg clutter-1.0-dbg expat-dbg fontconfig-dbg freetype-dbg gdk-pixbuf-dbg glib-2.0-dbg glibc-dbg gtk+3-dbg harfbuzz-dbg json-glib-dbg libcogl-dbg libcogl-pango-dbg libcogl-path-dbg libdrm-dbg libegl-mesa-dbg libffi-dbg libgbm-dbg libpcre-dbg libpng-dbg libwayland-egl-dbg libx11-dbg libx11-xcb-dbg libxau-dbg libxcb-dbg libxcb-dri2-dbg libxcb-render-dbg libxcb-shm-dbg libxcb-xfixes-dbg libxcomposite-dbg libxdamage-dbg libxdmcp-dbg libxext-dbg libxfixes-dbg libxi-dbg libxkbcommon-dbg libxrandr-dbg libxrender-dbg pango-dbg pixman-dbg util-linux-libblkid-dbg util-linux-libmount-dbg util-linux-libuuid-dbg wayland-dbg zlib-dbg
-PKGSIZE = 319274
+RRECOMMENDS = atk-dbg cairo-dbg cairo-gobject-dbg clutter-1.0-dbg gdk-pixbuf-dbg glib-2.0-dbg glibc-dbg gtk+3-dbg json-glib-dbg libcogl-dbg libcogl-pango-dbg libcogl-path-dbg libegl-mesa-dbg libwayland-egl-dbg libx11-dbg libxcomposite-dbg libxdamage-dbg libxext-dbg libxfixes-dbg libxi-dbg libxkbcommon-dbg libxrandr-dbg pango-dbg wayland-dbg
+PKGSIZE = 319282
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/lib/.debug/libclutter-gtk-1.0.so.0.800.2 /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-actor-internal.h /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-actor.c /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-actor.h /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-embed.c /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-embed.h /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-offscreen.c /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-offscreen.h /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-texture.c /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-texture.h /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-util.c /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-window.c /usr/src/debug/clutter-gtk-1.0/1.8.2-r0/clutter-gtk-1.8.2/clutter-gtk/gtk-clutter-window.h
