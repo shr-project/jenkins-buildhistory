@@ -1,9 +1,9 @@
 PV = 4.7.5
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = lftp (= 4.7.5-r0.1)
+RDEPENDS = lftp (= 4.7.5-r0.2)
 RRECOMMENDS = bash-dev expat-dev glibc-dev gnutls-dev libcrypto-dev libgcc-dev libidn-dev libssl-dev libstdc++-dev ncurses-libtinfo-dev openssl-dev perl-dev readline-dev zlib-dev
-PKGSIZE = 2082
+PKGSIZE = 43
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lftp/*.la /lib/*.la
-FILELIST = /usr/lib/liblftp-jobs.la /usr/lib/liblftp-jobs.so /usr/lib/liblftp-tasks.la /usr/lib/liblftp-tasks.so
+FILELIST = /usr/lib/liblftp-jobs.so /usr/lib/liblftp-tasks.so

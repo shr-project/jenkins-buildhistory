@@ -1,9 +1,9 @@
 PV = 0.2.3
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = gst-instruments (= 0.2.3-r0.0)
-RRECOMMENDS = glib-2.0-dev glibc-dev gstreamer1.0-dev libffi-dev libpcre-dev
-PKGSIZE = 1280
+RDEPENDS = gst-instruments (= 0.2.3-r0.1)
+RRECOMMENDS = glib-2.0-dev glibc-dev gstreamer1.0-dev
+PKGSIZE = 24
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gst-instruments/*.la /lib/*.la
-FILELIST = /usr/lib/libgstintercept.la /usr/lib/libgstintercept.so
+FILELIST = /usr/lib/libgstintercept.so

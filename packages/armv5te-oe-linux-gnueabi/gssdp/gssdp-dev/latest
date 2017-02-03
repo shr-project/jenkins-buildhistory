@@ -1,10 +1,10 @@
 PV = 0.14.8
 PR = r0
 PKG = libgssdp-1.0-dev
-PKGR = r0.58
+PKGR = r0.0
 RPROVIDES = gssdp-dev (=0.14.8)
-RDEPENDS = gssdp (= 0.14.8-r0.58)
-RRECOMMENDS = glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev libffi-dev libpcre-dev libsoup-2.4-dev libsqlite3-dev libxml2-dev util-linux-libblkid-dev util-linux-libmount-dev util-linux-libuuid-dev vala-dev zlib-dev
-PKGSIZE = 64214
+RDEPENDS = gssdp (= 0.14.8-r0.0)
+RRECOMMENDS = glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev libsoup-2.4-dev vala-dev
+PKGSIZE = 62700
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gssdp/*.la /lib/*.la /usr/share/vala/vapi/*.vapi /usr/share/vala/vapi/*.deps /usr/share/gir-1.0 /usr/share/gir-*/*.gir
-FILELIST = /usr/include/gssdp-1.0/libgssdp/gssdp-client.h /usr/include/gssdp-1.0/libgssdp/gssdp-error.h /usr/include/gssdp-1.0/libgssdp/gssdp-resource-browser.h /usr/include/gssdp-1.0/libgssdp/gssdp-resource-group.h /usr/include/gssdp-1.0/libgssdp/gssdp.h /usr/lib/libgssdp-1.0.la /usr/lib/libgssdp-1.0.so /usr/lib/pkgconfig/gssdp-1.0.pc /usr/share/gir-1.0/GSSDP-1.0.gir /usr/share/vala/vapi/gssdp-1.0.deps /usr/share/vala/vapi/gssdp-1.0.vapi
+FILELIST = /usr/include/gssdp-1.0/libgssdp/gssdp-client.h /usr/include/gssdp-1.0/libgssdp/gssdp-error.h /usr/include/gssdp-1.0/libgssdp/gssdp-resource-browser.h /usr/include/gssdp-1.0/libgssdp/gssdp-resource-group.h /usr/include/gssdp-1.0/libgssdp/gssdp.h /usr/lib/libgssdp-1.0.so /usr/lib/pkgconfig/gssdp-1.0.pc /usr/share/gir-1.0/GSSDP-1.0.gir /usr/share/vala/vapi/gssdp-1.0.deps /usr/share/vala/vapi/gssdp-1.0.vapi

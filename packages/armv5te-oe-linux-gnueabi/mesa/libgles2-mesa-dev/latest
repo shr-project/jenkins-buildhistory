@@ -1,12 +1,12 @@
 PE = 2
 PV = 13.0.2
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libgles2-dev
 RDEPENDS = libgles3-mesa-dev
 RRECOMMENDS = dri2proto-dev expat-dev glibc-dev glproto-dev libdrm-dev libglapi-dev libxdamage-dev libxext-dev libxfixes-dev libxxf86vm-dev llvm3.3-dev openssl-dev wayland-dev xf86driproto-dev
 RREPLACES = libgles2-dev
 RCONFLICTS = libgles2-dev
-PKGSIZE = 236391
+PKGSIZE = 235408
 FILES = /usr/lib/libGLESv2.* /usr/include/GLES2 /usr/lib/pkgconfig/glesv2.pc
-FILELIST = /usr/include/GLES2/gl2.h /usr/include/GLES2/gl2ext.h /usr/include/GLES2/gl2platform.h /usr/lib/libGLESv2.la /usr/lib/pkgconfig/glesv2.pc
+FILELIST = /usr/include/GLES2/gl2.h /usr/include/GLES2/gl2ext.h /usr/include/GLES2/gl2platform.h /usr/lib/pkgconfig/glesv2.pc
