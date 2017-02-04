@@ -1,8 +1,8 @@
 PV = 4.4.5
 PR = r0
-PKGR = r0.25
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libcli-ldap-common-samba4 (>= 4.4.5) libcli-ldap-samba4 (>= 4.4.5) libcmdline-credentials-samba4 (>= 4.4.5) libgensec-samba4 (>= 4.4.5) libldb (>= 1.1.29) libldbsamba-samba4 (>= 4.4.5) libsamba-credentials (>= 4.4.5) libsamba-debug-samba4 (>= 4.4.5) libsamba-hostconfig (>= 4.4.5) libsamba-util (>= 4.4.5) libsamdb (>= 4.4.5) libsamdb-common-samba4 (>= 4.4.5) libtalloc (>= 2.1.8) libtevent (>= 0.9.31) popt (>= 1.16)
+RDEPENDS = glibc (>= 2.25) libcli-ldap-common-samba4 (>= 4.4.5) libcli-ldap-samba4 (>= 4.4.5) libcmdline-credentials-samba4 (>= 4.4.5) libgensec-samba4 (>= 4.4.5) libldb (>= 1.1.29) libldbsamba-samba4 (>= 4.4.5) libsamba-credentials (>= 4.4.5) libsamba-debug-samba4 (>= 4.4.5) libsamba-hostconfig (>= 4.4.5) libsamba-util (>= 4.4.5) libsamdb (>= 4.4.5) libsamdb-common-samba4 (>= 4.4.5) libtalloc (>= 2.1.8) libtevent (>= 0.9.31) popt (>= 1.16)
 RRECOMMENDS = 
 PKGSIZE = 28316
 FILES = /usr/lib/samba/ldb

@@ -2,9 +2,9 @@ PV = 5.8.0+gitAUTOINC+4704292500
 PR = r0
 PKG = libqt5scxml-dev
 PKGV = 5.8.0+git0+4704292500
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = qtscxml-dev (=5.8.0+git0+4704292500)
-RDEPENDS = qtscxml (= 5.8.0+git0+4704292500-r0.2)
+RDEPENDS = qtscxml (= 5.8.0+git0+4704292500-r0.3)
 RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev qtbase-dev qtdeclarative-dev qtscxml qtscxml-mkspecs qtscxml-qmldesigner qtxmlpatterns-dev
 PKGSIZE = 149342
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtscxml/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*

@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.15.1
 PR = r0
-PKGR = r0.50
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = ecore (>= 1.15.1) ecore-file (>= 1.15.1) ecore-ipc (>= 1.15.1) eina (>= 1.15.1) glibc (>= 2.24) libeet (>= 1.15.1) libefreet (>= 1.15.1)
+RDEPENDS = ecore (>= 1.15.1) ecore-file (>= 1.15.1) ecore-ipc (>= 1.15.1) eina (>= 1.15.1) glibc (>= 2.25) libeet (>= 1.15.1) libefreet (>= 1.15.1)
 RRECOMMENDS = 
 PKGSIZE = 63604
 FILES = /usr/share/dbus-1/services/*Efreet* /usr/lib/efreet/*/efreet*create /usr/bin/efreetd /usr/share/efreet

@@ -1,8 +1,8 @@
 PV = 4.4.5
 PR = r0
-PKGR = r0.25
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.24) libbsd (>= 0.8.3) libgenrand-samba4 (>= 4.4.5) libiov-buf-samba4 (>= 4.4.5) libmsghdr-samba4 (>= 4.4.5) libsamba-debug-samba4 (>= 4.4.5) libtalloc (>= 2.1.8) libtevent (>= 0.9.31) samba-common
+RDEPENDS = glibc (>= 2.25) libbsd (>= 0.8.3) libgenrand-samba4 (>= 4.4.5) libiov-buf-samba4 (>= 4.4.5) libmsghdr-samba4 (>= 4.4.5) libsamba-debug-samba4 (>= 4.4.5) libtalloc (>= 2.1.8) libtevent (>= 0.9.31) samba-common
 RRECOMMENDS = 
 PKGSIZE = 25932
 FILES = /usr/lib/samba/libmessages-dgm-samba4.so
