@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
--rwxr-xr-x root       root           999544 ./usr/bin/.debug/zile
+-rwxr-xr-x root       root          1010576 ./usr/bin/.debug/zile
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/zile
@@ -23,7 +23,10 @@ drwxr-xr-x root       root               60 ./usr/src/debug/zile/2.4.11-r0/build
 drwxr-xr-x root       root               60 ./usr/src/debug/zile/2.4.11-r0/build/src
 -rw-r--r-- root       root             1747 ./usr/src/debug/zile/2.4.11-r0/build/src/tbl_opts.h
 drwxr-xr-x root       root               80 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11
-drwxr-xr-x root       root             1620 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib
+drwxr-xr-x root       root             1740 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib
+-rw-r--r-- root       root             1624 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/acl-errno-valid.c
+-rw-r--r-- root       root             1197 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/acl.h
+-rw-r--r-- root       root             7675 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/acl-internal.h
 -rw-r--r-- root       root             1765 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/basename.c
 -rw-r--r-- root       root             2097 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/basename-lgpl.c
 -rw-r--r-- root       root             4476 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/bitrotate.h
@@ -41,6 +44,7 @@ drwxr-xr-x root       root             1620 ./usr/src/debug/zile/2.4.11-r0/zile-
 -rw-r--r-- root       root             3331 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/fatal-signal.h
 -rw-r--r-- root       root             9729 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/fcntl.c
 -rw-r--r-- root       root             1538 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/fd-safer.c
+-rw-r--r-- root       root            28221 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/file-has-acl.c
 -rw-r--r-- root       root             4699 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/fpucw.h
 -rw-r--r-- root       root             2289 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/full-write.c
 -rw-r--r-- root       root             1142 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/full-write.h
@@ -72,6 +76,8 @@ drwxr-xr-x root       root             1620 ./usr/src/debug/zile/2.4.11-r0/zile-
 -rw-r--r-- root       root             5235 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/printf-parse.h
 -rw-r--r-- root       root             3176 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/progname.c
 -rw-r--r-- root       root             2015 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/progname.h
+-rw-r--r-- root       root            15748 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/qcopy-acl.c
+-rw-r--r-- root       root            21818 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/qset-acl.c
 -rw-r--r-- root       root            31642 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/quotearg.c
 -rw-r--r-- root       root            15932 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/quotearg.h
 -rw-r--r-- root       root             1858 ./usr/src/debug/zile/2.4.11-r0/zile-2.4.11/lib/quote.h

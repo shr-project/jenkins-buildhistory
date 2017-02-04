@@ -1,4 +1,4 @@
-PV = 5.7.99+5.8.0-beta+gitAUTOINC+3443483c9e
+PV = 5.8.0+gitAUTOINC+0e2a950895
 PR = r0
-DEPENDS = libxcomposite libxkbcommon qtbase qtbase-native qtdeclarative qtwayland-native virtual/egl virtual/libc virtual/mesa virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc wayland wayland-native xproto
+DEPENDS = libxkbcommon qtbase qtbase-native qtdeclarative qtwayland-native virtual/egl virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc wayland wayland-native
 PACKAGES = qtwayland-qmlplugins-dbg qtwayland-tools-dbg qtwayland-plugins-dbg qtwayland-qmldesigner qtwayland-qmlplugins qtwayland-tools qtwayland-plugins qtwayland-mkspecs qtwayland-examples-dev qtwayland-examples-staticdev qtwayland-examples-dbg qtwayland-examples qtwayland-dbg qtwayland-staticdev qtwayland-dev qtwayland-doc qtwayland-locale qtwayland
