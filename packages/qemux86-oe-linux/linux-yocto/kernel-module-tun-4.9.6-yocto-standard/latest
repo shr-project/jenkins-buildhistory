@@ -1,0 +1,10 @@
+PV = 4.9.6+gitAUTOINC+6fd9dcbb3f_4700f2f8b9
+PR = r0
+PKGV = 4.9.6+git0+6fd9dcbb3f_4700f2f8b9
+PKGR = r0.1
+RPROVIDES = kernel-module-tun
+RDEPENDS = kernel-4.9.6-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 30680
+FILES = /lib/modules/4.9.6-yocto-standard/kernel/drivers/net/tun.ko /etc/modules-load.d/tun.conf /etc/modprobe.d/tun.conf
+FILELIST = /lib/modules/4.9.6-yocto-standard/kernel/drivers/net/tun.ko

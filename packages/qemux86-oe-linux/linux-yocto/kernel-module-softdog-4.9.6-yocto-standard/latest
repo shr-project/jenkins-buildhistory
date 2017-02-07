@@ -1,0 +1,10 @@
+PV = 4.9.6+gitAUTOINC+6fd9dcbb3f_4700f2f8b9
+PR = r0
+PKGV = 4.9.6+git0+6fd9dcbb3f_4700f2f8b9
+PKGR = r0.1
+RPROVIDES = kernel-module-softdog
+RDEPENDS = kernel-4.9.6-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6464
+FILES = /lib/modules/4.9.6-yocto-standard/kernel/drivers/watchdog/softdog.ko /etc/modules-load.d/softdog.conf /etc/modprobe.d/softdog.conf
+FILELIST = /lib/modules/4.9.6-yocto-standard/kernel/drivers/watchdog/softdog.ko

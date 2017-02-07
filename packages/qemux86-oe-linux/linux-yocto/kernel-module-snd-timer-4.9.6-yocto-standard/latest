@@ -1,0 +1,10 @@
+PV = 4.9.6+gitAUTOINC+6fd9dcbb3f_4700f2f8b9
+PR = r0
+PKGV = 4.9.6+git0+6fd9dcbb3f_4700f2f8b9
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-timer
+RDEPENDS = kernel-4.9.6-yocto-standard kernel-module-snd-4.9.6-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 26708
+FILES = /lib/modules/4.9.6-yocto-standard/kernel/sound/core/snd-timer.ko /etc/modules-load.d/snd-timer.conf /etc/modprobe.d/snd-timer.conf
+FILELIST = /lib/modules/4.9.6-yocto-standard/kernel/sound/core/snd-timer.ko
