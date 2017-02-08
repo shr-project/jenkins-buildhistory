@@ -1,0 +1,10 @@
+PV = 4.9.6+gitAUTOINC+6fd9dcbb3f_4700f2f8b9
+PR = r0
+PKGV = 4.9.6+git0+6fd9dcbb3f_4700f2f8b9
+PKGR = r0.1
+RPROVIDES = kernel-module-ts-kmp
+RDEPENDS = kernel-4.9.6-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4920
+FILES = /lib/modules/4.9.6-yocto-standard/kernel/lib/ts_kmp.ko /etc/modules-load.d/ts_kmp.conf /etc/modprobe.d/ts_kmp.conf
+FILELIST = /lib/modules/4.9.6-yocto-standard/kernel/lib/ts_kmp.ko

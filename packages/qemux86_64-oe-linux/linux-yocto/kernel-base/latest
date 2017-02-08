@@ -1,11 +1,11 @@
-PV = 4.9.3+gitAUTOINC+03a2d3f7f9_881cba95ae
+PV = 4.9.6+gitAUTOINC+6fd9dcbb3f_4700f2f8b9
 PR = r0
-PKG = kernel-4.9.3-yocto-standard
-PKGV = 4.9.3+git0+03a2d3f7f9_881cba95ae
-PKGR = r0.7
-RPROVIDES = kernel-4.9.3-yocto-standard kernel-base (=4.9.3+git0+03a2d3f7f9_881cba95ae)
+PKG = kernel-4.9.6-yocto-standard
+PKGV = 4.9.6+git0+6fd9dcbb3f_4700f2f8b9
+PKGR = r0.1
+RPROVIDES = kernel-4.9.6-yocto-standard kernel-base (=4.9.6+git0+6fd9dcbb3f_4700f2f8b9)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 24612
-FILES = /lib/modules/4.9.3-yocto-standard/modules.order /lib/modules/4.9.3-yocto-standard/modules.builtin
-FILELIST = /lib/modules/4.9.3-yocto-standard/modules.builtin /lib/modules/4.9.3-yocto-standard/modules.order
+PKGSIZE = 24716
+FILES = /lib/modules/4.9.6-yocto-standard/modules.order /lib/modules/4.9.6-yocto-standard/modules.builtin
+FILELIST = /lib/modules/4.9.6-yocto-standard/modules.builtin /lib/modules/4.9.6-yocto-standard/modules.order

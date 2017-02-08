@@ -1,0 +1,10 @@
+PV = 4.9.6+gitAUTOINC+6fd9dcbb3f_4700f2f8b9
+PR = r0
+PKGV = 4.9.6+git0+6fd9dcbb3f_4700f2f8b9
+PKGR = r0.1
+RPROVIDES = kernel-module-snd-seq-midi
+RDEPENDS = kernel-4.9.6-yocto-standard kernel-module-snd-rawmidi-4.9.6-yocto-standard kernel-module-snd-seq-4.9.6-yocto-standard kernel-module-snd-seq-device-4.9.6-yocto-standard kernel-module-snd-seq-midi-event-4.9.6-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 13368
+FILES = /lib/modules/4.9.6-yocto-standard/kernel/sound/core/seq/snd-seq-midi.ko /etc/modules-load.d/snd-seq-midi.conf /etc/modprobe.d/snd-seq-midi.conf
+FILELIST = /lib/modules/4.9.6-yocto-standard/kernel/sound/core/seq/snd-seq-midi.ko
