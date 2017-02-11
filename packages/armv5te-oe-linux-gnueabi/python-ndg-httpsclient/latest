@@ -1,4 +1,4 @@
 PV = 0.4.2
 PR = r0
-DEPENDS = python python-distribute-native python-native python-native python-pyasn1 virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = python python-distribute-native python-native python-native python-pyasn1 python-pyopenssl virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = python-ndg-httpsclient-dbg python-ndg-httpsclient-staticdev python-ndg-httpsclient-dev python-ndg-httpsclient-doc python-ndg-httpsclient-locale python-ndg-httpsclient
