@@ -41,11 +41,17 @@ drwxr-xr-x root       root               60 ./etc/ctdb/notify.d
 drwxr-xr-x root       root               60 ./etc/sudoers.d
 -rw-r--r-- root       root              100 ./etc/sudoers.d/ctdb
 drwxr-xr-x root       root              120 ./usr
-drwxr-xr-x root       root              400 ./usr/bin
+drwxr-xr-x root       root              520 ./usr/bin
 -rwxr-xr-x root       root           306320 ./usr/bin/ctdb
 -rwxr-xr-x root       root             8134 ./usr/bin/ctdb_diagnostics
 -rwxr-xr-x root       root            18632 ./usr/bin/dbwrap_tool
 -rwxr-xr-x root       root            34776 ./usr/bin/eventlogadm
+-rwxr-xr-x root       root            10192 ./usr/bin/ldbadd
+-rwxr-xr-x root       root            10192 ./usr/bin/ldbdel
+-rwxr-xr-x root       root            14288 ./usr/bin/ldbedit
+-rwxr-xr-x root       root            10200 ./usr/bin/ldbmodify
+-rwxr-xr-x root       root            10200 ./usr/bin/ldbrename
+-rwxr-xr-x root       root            14296 ./usr/bin/ldbsearch
 -rwxr-xr-x root       root            14296 ./usr/bin/ltdbtool
 -rwxr-xr-x root       root           901088 ./usr/bin/net
 -rwxr-xr-x root       root           116872 ./usr/bin/nmblookup
@@ -70,7 +76,13 @@ drwxr-xr-x root       root              140 ./usr/libexec/ctdb
 -rwxr-xr-x root       root            10600 ./usr/libexec/ctdb/smnotify
 drwxr-xr-x root       root               60 ./usr/libexec/samba
 -rwxr-xr-x root       root            26800 ./usr/libexec/samba/smbspool_krb5_wrapper
-drwxr-xr-x root       root               60 ./usr/lib/samba
+drwxr-xr-x root       root              180 ./usr/lib/samba
+-rwxr-xr-x root       root           194592 ./usr/lib/samba/libldb.so.1.1.26
+lrwxrwxrwx root       root               16 ./usr/lib/samba/libldb.so.1 -> libldb.so.1.1.26
+-rwxr-xr-x root       root            10136 ./usr/lib/samba/libpyldb-util.so.1.1.26
+lrwxrwxrwx root       root               23 ./usr/lib/samba/libpyldb-util.so.1 -> libpyldb-util.so.1.1.26
+-rwxr-xr-x root       root            59360 ./usr/lib/samba/libtevent.so.0.9.28
+lrwxrwxrwx root       root               19 ./usr/lib/samba/libtevent.so.0 -> libtevent.so.0.9.28
 drwxr-xr-x root       root              800 ./usr/lib/samba/vfs
 -rwxr-xr-x root       root            35504 ./usr/lib/samba/vfs/acl_tdb.so
 -rwxr-xr-x root       root            31416 ./usr/lib/samba/vfs/acl_xattr.so
