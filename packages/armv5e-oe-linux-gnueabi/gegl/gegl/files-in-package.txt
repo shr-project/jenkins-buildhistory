@@ -48,11 +48,11 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            51052 ./usr/lib/gegl-0.3/displace.so
 -rwxr-xr-x root       root            22252 ./usr/lib/gegl-0.3/display.so
 -rwxr-xr-x root       root            55144 ./usr/lib/gegl-0.3/distance-transform.so
--rwxr-xr-x root       root            14016 ./usr/lib/gegl-0.3/divide.so
+-rwxr-xr-x root       root             9920 ./usr/lib/gegl-0.3/divide.so
 -rwxr-xr-x root       root            22256 ./usr/lib/gegl-0.3/dropshadow.so
--rwxr-xr-x root       root            14016 ./usr/lib/gegl-0.3/dst-atop.so
+-rwxr-xr-x root       root             9920 ./usr/lib/gegl-0.3/dst-atop.so
 -rwxr-xr-x root       root             9920 ./usr/lib/gegl-0.3/dst-in.so
--rwxr-xr-x root       root            14016 ./usr/lib/gegl-0.3/dst-out.so
+-rwxr-xr-x root       root             9920 ./usr/lib/gegl-0.3/dst-out.so
 -rwxr-xr-x root       root            14016 ./usr/lib/gegl-0.3/dst-over.so
 -rwxr-xr-x root       root             9916 ./usr/lib/gegl-0.3/dst.so
 -rwxr-xr-x root       root            55032 ./usr/lib/gegl-0.3/edge-laplace.so
@@ -81,7 +81,7 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            34544 ./usr/lib/gegl-0.3/image-compare.so
 -rwxr-xr-x root       root            26356 ./usr/lib/gegl-0.3/introspect.so
 -rwxr-xr-x root       root            13972 ./usr/lib/gegl-0.3/invert-gamma.so
--rwxr-xr-x root       root            18064 ./usr/lib/gegl-0.3/invert-linear.so
+-rwxr-xr-x root       root            13968 ./usr/lib/gegl-0.3/invert-linear.so
 -rwxr-xr-x root       root            42828 ./usr/lib/gegl-0.3/jpg-load.so
 -rwxr-xr-x root       root            30492 ./usr/lib/gegl-0.3/jpg-save.so
 -rwxr-xr-x root       root            18344 ./usr/lib/gegl-0.3/json.so
@@ -101,7 +101,7 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            26336 ./usr/lib/gegl-0.3/mblur.so
 -rwxr-xr-x root       root            55056 ./usr/lib/gegl-0.3/mirrors.so
 -rwxr-xr-x root       root            26316 ./usr/lib/gegl-0.3/mono-mixer.so
--rwxr-xr-x root       root           243608 ./usr/lib/gegl-0.3/mosaic.so
+-rwxr-xr-x root       root           239512 ./usr/lib/gegl-0.3/mosaic.so
 -rwxr-xr-x root       root            42756 ./usr/lib/gegl-0.3/motion-blur-circular.so
 -rwxr-xr-x root       root            50972 ./usr/lib/gegl-0.3/motion-blur-linear.so
 -rwxr-xr-x root       root            38640 ./usr/lib/gegl-0.3/motion-blur-zoom.so
@@ -109,7 +109,7 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            71492 ./usr/lib/gegl-0.3/noise-cell.so
 -rwxr-xr-x root       root            34540 ./usr/lib/gegl-0.3/noise-cie-lch.so
 -rwxr-xr-x root       root            34536 ./usr/lib/gegl-0.3/noise-hsv.so
--rwxr-xr-x root       root            38668 ./usr/lib/gegl-0.3/noise-hurl.so
+-rwxr-xr-x root       root            34572 ./usr/lib/gegl-0.3/noise-hurl.so
 -rwxr-xr-x root       root            30456 ./usr/lib/gegl-0.3/noise-perlin.so
 -rwxr-xr-x root       root            26352 ./usr/lib/gegl-0.3/noise-pick.so
 -rwxr-xr-x root       root            59184 ./usr/lib/gegl-0.3/noise-reduction.so
@@ -121,7 +121,7 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            13988 ./usr/lib/gegl-0.3/nop.so
 -rwxr-xr-x root       root            18204 ./usr/lib/gegl-0.3/npd.so
 -rwxr-xr-x root       root            22248 ./usr/lib/gegl-0.3/npy-save.so
--rwxr-xr-x root       root            71452 ./usr/lib/gegl-0.3/oilify.so
+-rwxr-xr-x root       root            67356 ./usr/lib/gegl-0.3/oilify.so
 -rwxr-xr-x root       root            42752 ./usr/lib/gegl-0.3/opacity.so
 -rwxr-xr-x root       root            22240 ./usr/lib/gegl-0.3/open-buffer.so
 -rwxr-xr-x root       root            14040 ./usr/lib/gegl-0.3/overlay.so
@@ -134,7 +134,7 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            55040 ./usr/lib/gegl-0.3/plasma.so
 -rwxr-xr-x root       root            14036 ./usr/lib/gegl-0.3/plus.so
 -rwxr-xr-x root       root            55148 ./usr/lib/gegl-0.3/png-load.so
--rwxr-xr-x root       root            34616 ./usr/lib/gegl-0.3/png-save.so
+-rwxr-xr-x root       root            30520 ./usr/lib/gegl-0.3/png-save.so
 -rwxr-xr-x root       root            55072 ./usr/lib/gegl-0.3/polar-coordinates.so
 -rwxr-xr-x root       root            26320 ./usr/lib/gegl-0.3/posterize.so
 -rwxr-xr-x root       root            46844 ./usr/lib/gegl-0.3/ppm-load.so
@@ -148,7 +148,7 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            30592 ./usr/lib/gegl-0.3/rgbe-save.so
 -rwxr-xr-x root       root            30512 ./usr/lib/gegl-0.3/ripple.so
 -rwxr-xr-x root       root            18144 ./usr/lib/gegl-0.3/save-pixbuf.so
--rwxr-xr-x root       root            30432 ./usr/lib/gegl-0.3/save.so
+-rwxr-xr-x root       root            26336 ./usr/lib/gegl-0.3/save.so
 -rwxr-xr-x root       root            14040 ./usr/lib/gegl-0.3/screen.so
 -rwxr-xr-x root       root            26384 ./usr/lib/gegl-0.3/sdl-display.so
 -rwxr-xr-x root       root            14068 ./usr/lib/gegl-0.3/seamless-clone-compose.so
@@ -159,11 +159,11 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            55060 ./usr/lib/gegl-0.3/snn-mean.so
 -rwxr-xr-x root       root            34556 ./usr/lib/gegl-0.3/softglow.so
 -rwxr-xr-x root       root            18144 ./usr/lib/gegl-0.3/soft-light.so
--rwxr-xr-x root       root            14016 ./usr/lib/gegl-0.3/src-atop.so
+-rwxr-xr-x root       root             9920 ./usr/lib/gegl-0.3/src-atop.so
 -rwxr-xr-x root       root             9924 ./usr/lib/gegl-0.3/src-in.so
 -rwxr-xr-x root       root             9920 ./usr/lib/gegl-0.3/src-out.so
 -rwxr-xr-x root       root             9916 ./usr/lib/gegl-0.3/src.so
--rwxr-xr-x root       root            38648 ./usr/lib/gegl-0.3/stress.so
+-rwxr-xr-x root       root            34552 ./usr/lib/gegl-0.3/stress.so
 -rwxr-xr-x root       root            30404 ./usr/lib/gegl-0.3/stretch-contrast-hsv.so
 -rwxr-xr-x root       root            79688 ./usr/lib/gegl-0.3/stretch-contrast.so
 -rwxr-xr-x root       root             9920 ./usr/lib/gegl-0.3/subtract.so
@@ -177,9 +177,9 @@ drwxr-xr-x root       root             3860 ./usr/lib/gegl-0.3
 -rwxr-xr-x root       root            46952 ./usr/lib/gegl-0.3/text.so
 -rwxr-xr-x root       root           436044 ./usr/lib/gegl-0.3/texturize-canvas.so
 -rwxr-xr-x root       root            22212 ./usr/lib/gegl-0.3/threshold.so
--rwxr-xr-x root       root            34552 ./usr/lib/gegl-0.3/tile-glass.so
+-rwxr-xr-x root       root            30456 ./usr/lib/gegl-0.3/tile-glass.so
 -rwxr-xr-x root       root            59312 ./usr/lib/gegl-0.3/tile-paper.so
--rwxr-xr-x root       root            30380 ./usr/lib/gegl-0.3/tile-seamless.so
+-rwxr-xr-x root       root            26284 ./usr/lib/gegl-0.3/tile-seamless.so
 -rwxr-xr-x root       root            22216 ./usr/lib/gegl-0.3/tile.so
 -rwxr-xr-x root       root            34744 ./usr/lib/gegl-0.3/transformops.so
 -rwxr-xr-x root       root            18144 ./usr/lib/gegl-0.3/unsharp-mask.so
