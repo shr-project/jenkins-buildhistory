@@ -1,4 +1,4 @@
 PV = 3.12
 PR = r0
-DEPENDS = libyaml python python-cython-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = libyaml python python python-cython-native python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = python-pyyaml-dbg python-pyyaml-staticdev python-pyyaml-dev python-pyyaml-doc python-pyyaml-locale python-pyyaml
