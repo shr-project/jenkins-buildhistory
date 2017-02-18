@@ -1,8 +1,8 @@
 PV = 3.1.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = base-files base-passwd db (>= 6.0.35) glibc (>= 2.25) libcrypto (>= 1.0.2k) libpcre (>= 8.39) libssl (>= 1.0.2k) shadow update-alternatives-opkg
+RDEPENDS = base-files base-passwd db (>= 6.0.35) glibc (>= 2.25) libcrypto (>= 1.0.2k) libpcre (>= 8.40) libssl (>= 1.0.2k) shadow update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 6560748
 FILES = /etc /var /usr/bin/* /usr/sbin/* /usr/libexec/* /lib/systemd/* /lib/systemd/system/postfix.service
