@@ -1,9 +1,9 @@
-PV = 1.18
+PV = 1.19
 PR = r0
-PKGR = r0.5
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) gnutls (>= 3.5.7) libpcre (>= 8.39) nettle (>= 3.3) update-alternatives-opkg zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.25) gnutls (>= 3.5.7) libpcre (>= 8.40) nettle (>= 3.3) update-alternatives-opkg zlib (>= 1.2.8)
 RRECOMMENDS = ca-certificates
-PKGSIZE = 530801
+PKGSIZE = 539089
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/wget /usr/lib/wget/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/wgetrc /usr/bin/wget.wget

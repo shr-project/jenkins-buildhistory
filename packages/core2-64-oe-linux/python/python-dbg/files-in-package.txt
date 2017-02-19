@@ -4,7 +4,7 @@ drwxr-xr-x root       root               60 ./usr/bin/.debug
 -rwxr-xr-x root       root            25032 ./usr/bin/.debug/python2.7
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
--rwxr-xr-x root       root          5160104 ./usr/lib/.debug/libpython2.7.so.1.0
+-rwxr-xr-x root       root          5163016 ./usr/lib/.debug/libpython2.7.so.1.0
 drwxr-xr-x root       root               60 ./usr/lib/python2.7
 drwxr-xr-x root       root               60 ./usr/lib/python2.7/lib-dynload
 drwxr-xr-x root       root             1260 ./usr/lib/python2.7/lib-dynload/.debug
@@ -13,7 +13,7 @@ drwxr-xr-x root       root             1260 ./usr/lib/python2.7/lib-dynload/.deb
 -rwxr-xr-x root       root            56696 ./usr/lib/python2.7/lib-dynload/.debug/binascii.so
 -rwxr-xr-x root       root            29896 ./usr/lib/python2.7/lib-dynload/.debug/_bisect.so
 -rwxr-xr-x root       root            86808 ./usr/lib/python2.7/lib-dynload/.debug/bz2.so
--rwxr-xr-x root       root           119608 ./usr/lib/python2.7/lib-dynload/.debug/cmath.so
+-rwxr-xr-x root       root           120168 ./usr/lib/python2.7/lib-dynload/.debug/cmath.so
 -rwxr-xr-x root       root            39736 ./usr/lib/python2.7/lib-dynload/.debug/_codecs_cn.so
 -rwxr-xr-x root       root            32920 ./usr/lib/python2.7/lib-dynload/.debug/_codecs_hk.so
 -rwxr-xr-x root       root            74592 ./usr/lib/python2.7/lib-dynload/.debug/_codecs_iso2022.so
@@ -30,12 +30,12 @@ drwxr-xr-x root       root             1260 ./usr/lib/python2.7/lib-dynload/.deb
 -rwxr-xr-x root       root            38208 ./usr/lib/python2.7/lib-dynload/.debug/_curses_panel.so
 -rwxr-xr-x root       root           179328 ./usr/lib/python2.7/lib-dynload/.debug/_curses.so
 -rwxr-xr-x root       root           286288 ./usr/lib/python2.7/lib-dynload/.debug/datetime.so
--rwxr-xr-x root       root            35432 ./usr/lib/python2.7/lib-dynload/.debug/dbm.so
--rwxr-xr-x root       root           119344 ./usr/lib/python2.7/lib-dynload/.debug/_elementtree.so
+-rwxr-xr-x root       root            35480 ./usr/lib/python2.7/lib-dynload/.debug/dbm.so
+-rwxr-xr-x root       root           119384 ./usr/lib/python2.7/lib-dynload/.debug/_elementtree.so
 -rwxr-xr-x root       root            50672 ./usr/lib/python2.7/lib-dynload/.debug/fcntl.so
 -rwxr-xr-x root       root            33896 ./usr/lib/python2.7/lib-dynload/.debug/_functools.so
 -rwxr-xr-x root       root            24048 ./usr/lib/python2.7/lib-dynload/.debug/future_builtins.so
--rwxr-xr-x root       root            37904 ./usr/lib/python2.7/lib-dynload/.debug/gdbm.so
+-rwxr-xr-x root       root            37920 ./usr/lib/python2.7/lib-dynload/.debug/gdbm.so
 -rwxr-xr-x root       root            28184 ./usr/lib/python2.7/lib-dynload/.debug/grp.so
 -rwxr-xr-x root       root            57184 ./usr/lib/python2.7/lib-dynload/.debug/_hashlib.so
 -rwxr-xr-x root       root            42264 ./usr/lib/python2.7/lib-dynload/.debug/_heapq.so
@@ -48,7 +48,7 @@ drwxr-xr-x root       root             1260 ./usr/lib/python2.7/lib-dynload/.deb
 -rwxr-xr-x root       root           122728 ./usr/lib/python2.7/lib-dynload/.debug/math.so
 -rwxr-xr-x root       root            65464 ./usr/lib/python2.7/lib-dynload/.debug/mmap.so
 -rwxr-xr-x root       root            99288 ./usr/lib/python2.7/lib-dynload/.debug/_multibytecodec.so
--rwxr-xr-x root       root            83480 ./usr/lib/python2.7/lib-dynload/.debug/_multiprocessing.so
+-rwxr-xr-x root       root            83464 ./usr/lib/python2.7/lib-dynload/.debug/_multiprocessing.so
 -rwxr-xr-x root       root            41536 ./usr/lib/python2.7/lib-dynload/.debug/nis.so
 -rwxr-xr-x root       root            62984 ./usr/lib/python2.7/lib-dynload/.debug/operator.so
 -rwxr-xr-x root       root           289632 ./usr/lib/python2.7/lib-dynload/.debug/parser.so
@@ -67,7 +67,7 @@ drwxr-xr-x root       root             1260 ./usr/lib/python2.7/lib-dynload/.deb
 -rwxr-xr-x root       root            31472 ./usr/lib/python2.7/lib-dynload/.debug/termios.so
 -rwxr-xr-x root       root           110904 ./usr/lib/python2.7/lib-dynload/.debug/_testcapi.so
 -rwxr-xr-x root       root            41632 ./usr/lib/python2.7/lib-dynload/.debug/time.so
--rwxr-xr-x root       root            71728 ./usr/lib/python2.7/lib-dynload/.debug/unicodedata.so
+-rwxr-xr-x root       root            71752 ./usr/lib/python2.7/lib-dynload/.debug/unicodedata.so
 -rwxr-xr-x root       root            59752 ./usr/lib/python2.7/lib-dynload/.debug/zlib.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
@@ -411,7 +411,7 @@ drwxr-xr-x root       root              880 ./usr/src/debug/python/2.7.12-r1/Pyt
 -rw-r--r-- root       root            39923 ./usr/src/debug/python/2.7.12-r1/Python-2.7.12/Python/pystrtod.c
 -rw-r--r-- root       root           264706 ./usr/src/debug/python/2.7.12-r1/Python-2.7.12/Python/Python-ast.c
 -rw-r--r-- root       root            56811 ./usr/src/debug/python/2.7.12-r1/Python-2.7.12/Python/pythonrun.c
--rw-r--r-- root       root            11369 ./usr/src/debug/python/2.7.12-r1/Python-2.7.12/Python/random.c
+-rw-r--r-- root       root            11831 ./usr/src/debug/python/2.7.12-r1/Python-2.7.12/Python/random.c
 -rw-r--r-- root       root            10685 ./usr/src/debug/python/2.7.12-r1/Python-2.7.12/Python/structmember.c
 -rw-r--r-- root       root            48852 ./usr/src/debug/python/2.7.12-r1/Python-2.7.12/Python/symtable.c
 -rw-r--r-- root       root            53552 ./usr/src/debug/python/2.7.12-r1/Python-2.7.12/Python/sysmodule.c

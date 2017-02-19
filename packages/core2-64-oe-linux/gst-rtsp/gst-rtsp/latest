@@ -1,9 +1,9 @@
 PV = 0.10.8
 PR = r0
 PKG = libgstrtspserver-0.10-0
-PKGR = r0.51
+PKGR = r0.0
 RPROVIDES = gst-rtsp (=0.10.8)
-RDEPENDS = glib-2.0 (>= 2.50.2) glibc (>= 2.24) gstreamer (>= 0.10.36) libffi (>= 3.2.1) libgstapp-0.10 (>= 0.10.36) libgstrtp-0.10 (>= 0.10.36) libgstrtsp-0.10 (>= 0.10.36) libgstsdp-0.10 (>= 0.10.36) libpcre (>= 8.39) libxml2 (>= 2.9.4) zlib (>= 1.2.8)
+RDEPENDS = glib-2.0 (>= 2.50.2) glibc (>= 2.25) gstreamer (>= 0.10.36) libgstapp-0.10 (>= 0.10.36) libgstrtp-0.10 (>= 0.10.36) libgstrtsp-0.10 (>= 0.10.36) libgstsdp-0.10 (>= 0.10.36) libxml2 (>= 2.9.4)
 RRECOMMENDS = 
 PKGSIZE = 141414
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gst-rtsp /usr/lib/gst-rtsp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
