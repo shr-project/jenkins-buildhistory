@@ -10,7 +10,7 @@ drwxr-xr-x root       root              180 ./etc/gimp/2.0
 -rw-r--r-- root       root             1140 ./etc/gimp/2.0/unitrc
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
--rwxr-xr-x root       root          6899300 ./usr/bin/gimp-2.8
+-rwxr-xr-x root       root          6886980 ./usr/bin/gimp-2.8
 -rwxr-xr-x root       root          3201772 ./usr/bin/gimp-console-2.8
 lrwxrwxrwx root       root               16 ./usr/bin/gimp-console -> gimp-console-2.8
 lrwxrwxrwx root       root                8 ./usr/bin/gimp -> gimp-2.8
@@ -22,26 +22,16 @@ drwxr-xr-x root       root               60 ./usr/lib/gimp/2.0/environ
 -rw-r--r-- root       root               65 ./usr/lib/gimp/2.0/environ/default.env
 drwxr-xr-x root       root               60 ./usr/lib/gimp/2.0/interpreters
 -rw-r--r-- root       root              473 ./usr/lib/gimp/2.0/interpreters/default.interp
-drwxr-xr-x root       root              440 ./usr/lib/gimp/2.0/modules
--rwxr-xr-x root       root             2671 ./usr/lib/gimp/2.0/modules/libcolor-selector-cmyk.la
+drwxr-xr-x root       root              240 ./usr/lib/gimp/2.0/modules
 -rwxr-xr-x root       root            14056 ./usr/lib/gimp/2.0/modules/libcolor-selector-cmyk.so
--rwxr-xr-x root       root             2655 ./usr/lib/gimp/2.0/modules/libcolor-selector-water.la
 -rwxr-xr-x root       root            14144 ./usr/lib/gimp/2.0/modules/libcolor-selector-water.so
--rwxr-xr-x root       root             2655 ./usr/lib/gimp/2.0/modules/libcolor-selector-wheel.la
--rwxr-xr-x root       root            34848 ./usr/lib/gimp/2.0/modules/libcolor-selector-wheel.so
--rwxr-xr-x root       root             2733 ./usr/lib/gimp/2.0/modules/libcontroller-linux-input.la
--rwxr-xr-x root       root            26564 ./usr/lib/gimp/2.0/modules/libcontroller-linux-input.so
--rwxr-xr-x root       root             2648 ./usr/lib/gimp/2.0/modules/libcontroller-midi.la
+-rwxr-xr-x root       root            30752 ./usr/lib/gimp/2.0/modules/libcolor-selector-wheel.so
+-rwxr-xr-x root       root            18212 ./usr/lib/gimp/2.0/modules/libcontroller-linux-input.so
 -rwxr-xr-x root       root            18260 ./usr/lib/gimp/2.0/modules/libcontroller-midi.so
--rwxr-xr-x root       root             2691 ./usr/lib/gimp/2.0/modules/libdisplay-filter-color-blind.la
 -rwxr-xr-x root       root            14088 ./usr/lib/gimp/2.0/modules/libdisplay-filter-color-blind.so
--rwxr-xr-x root       root             2655 ./usr/lib/gimp/2.0/modules/libdisplay-filter-gamma.la
 -rwxr-xr-x root       root             9952 ./usr/lib/gimp/2.0/modules/libdisplay-filter-gamma.so
--rwxr-xr-x root       root             2703 ./usr/lib/gimp/2.0/modules/libdisplay-filter-high-contrast.la
 -rwxr-xr-x root       root             9960 ./usr/lib/gimp/2.0/modules/libdisplay-filter-high-contrast.so
--rwxr-xr-x root       root             2671 ./usr/lib/gimp/2.0/modules/libdisplay-filter-lcms.la
 -rwxr-xr-x root       root            18336 ./usr/lib/gimp/2.0/modules/libdisplay-filter-lcms.so
--rwxr-xr-x root       root             2677 ./usr/lib/gimp/2.0/modules/libdisplay-filter-proof.la
 -rwxr-xr-x root       root            18304 ./usr/lib/gimp/2.0/modules/libdisplay-filter-proof.so
 drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            22492 ./usr/lib/gimp/2.0/plug-ins/alien-map
@@ -228,7 +218,7 @@ lrwxrwxrwx root       root               27 ./usr/lib/libgimpmath-2.0.so.0 -> li
 lrwxrwxrwx root       root               29 ./usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.800.18
 -rwxr-xr-x root       root            38828 ./usr/lib/libgimpthumb-2.0.so.0.800.18
 lrwxrwxrwx root       root               28 ./usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.800.18
--rwxr-xr-x root       root           151076 ./usr/lib/libgimpui-2.0.so.0.800.18
+-rwxr-xr-x root       root           146980 ./usr/lib/libgimpui-2.0.so.0.800.18
 lrwxrwxrwx root       root               25 ./usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.800.18
 -rwxr-xr-x root       root          1308296 ./usr/lib/libgimpwidgets-2.0.so.0.800.18
 lrwxrwxrwx root       root               30 ./usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.800.18
