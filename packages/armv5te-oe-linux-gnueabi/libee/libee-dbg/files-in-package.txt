@@ -1,7 +1,12 @@
 drwxr-xr-x root       root              100 ./usr
-drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
 -rwxr-xr-x root       root           139368 ./usr/lib/.debug/libee.so.0.0.0
+drwxr-xr-x root       root               60 ./usr/lib/libee
+drwxr-xr-x root       root               60 ./usr/lib/libee/ptest
+drwxr-xr-x root       root               80 ./usr/lib/libee/ptest/.debug
+-rwxr-xr-x root       root            15920 ./usr/lib/libee/ptest/.debug/ezapi1
+-rwxr-xr-x root       root            11220 ./usr/lib/libee/ptest/.debug/genfile
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/sbin/.debug
 -rwxr-xr-x root       root            21620 ./usr/sbin/.debug/libee-convert
@@ -9,7 +14,7 @@ drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/libee
 drwxr-xr-x root       root               60 ./usr/src/debug/libee/0.4.1-r0
-drwxr-xr-x root       root               80 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1
+drwxr-xr-x root       root              100 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1
 drwxr-xr-x root       root               60 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1/include
 drwxr-xr-x root       root              280 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1/include/libee
 -rw-r--r-- root       root             3423 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1/include/libee/apache.h
@@ -45,3 +50,6 @@ drwxr-xr-x root       root               80 ./usr/src/debug/libee/0.4.1-r0/libee
 -rw-r--r-- root       root             1650 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1/src/tag.c
 -rw-r--r-- root       root             1890 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1/src/value.c
 -rw-r--r-- root       root             4995 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1/src/xml_enc.c
+drwxr-xr-x root       root               80 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1/tests
+-rw-r--r-- root       root             2950 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1/tests/ezapi1.c
+-rw-r--r-- root       root              154 ./usr/src/debug/libee/0.4.1-r0/libee-0.4.1/tests/genfile.c

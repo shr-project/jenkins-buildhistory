@@ -2,12 +2,19 @@ drwxr-xr-x root       root               60 ./sbin
 drwxr-xr-x root       root               80 ./sbin/.debug
 -rwxr-xr-x root       root          1437496 ./sbin/.debug/mdadm
 -rwxr-xr-x root       root           852944 ./sbin/.debug/mdmon
-drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/mdadm
+drwxr-xr-x root       root               60 ./usr/lib/mdadm/ptest
+drwxr-xr-x root       root              100 ./usr/lib/mdadm/ptest/.debug
+-rwxr-xr-x root       root           159636 ./usr/lib/mdadm/ptest/.debug/raid6check
+-rwxr-xr-x root       root            12512 ./usr/lib/mdadm/ptest/.debug/swap_super
+-rwxr-xr-x root       root            68560 ./usr/lib/mdadm/ptest/.debug/test_stripe
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/mdadm
 drwxr-xr-x root       root               60 ./usr/src/debug/mdadm/4.0-r0
-drwxr-xr-x root       root             1140 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0
+drwxr-xr-x root       root             1180 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0
 -rw-r--r-- root       root            59930 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/Assemble.c
 -rw-r--r-- root       root            12424 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/bitmap.c
 -rw-r--r-- root       root            10805 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/bitmap.h
@@ -49,6 +56,7 @@ drwxr-xr-x root       root             1140 ./usr/src/debug/mdadm/4.0-r0/mdadm-4
 -rw-r--r-- root       root             6795 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/probe_roms.c
 -rw-r--r-- root       root              959 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/probe_roms.h
 -rw-r--r-- root       root             3508 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/Query.c
+-rw-r--r-- root       root            19505 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/raid6check.c
 -rw-r--r-- root       root            29897 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/ReadMe.c
 -rw-r--r-- root       root            25643 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/restripe.c
 -rw-r--r-- root       root             1590 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/sg_io.c
@@ -60,6 +68,7 @@ drwxr-xr-x root       root             1140 ./usr/src/debug/mdadm/4.0-r0/mdadm-4
 -rw-r--r-- root       root             5784 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/super-gpt.c
 -rw-r--r-- root       root           311027 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/super-intel.c
 -rw-r--r-- root       root             5241 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/super-mbr.c
+-rw-r--r-- root       root             1734 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/swap_super.c
 -rw-r--r-- root       root            22687 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/sysfs.c
 -rw-r--r-- root       root            51064 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/util.c
 -rw-r--r-- root       root             2072 ./usr/src/debug/mdadm/4.0-r0/mdadm-4.0/xmalloc.c

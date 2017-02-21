@@ -2,9 +2,13 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
 -rwxr-xr-x root       root            57148 ./usr/bin/.debug/tclsh8.6
-drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
 -rwxr-xr-x root       root         11224516 ./usr/lib/.debug/libtcl8.6.so.0
+drwxr-xr-x root       root               60 ./usr/lib/tcl
+drwxr-xr-x root       root               60 ./usr/lib/tcl/ptest
+drwxr-xr-x root       root               60 ./usr/lib/tcl/ptest/.debug
+-rwxr-xr-x root       root           667728 ./usr/lib/tcl/ptest/.debug/tcltest
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/tcl
@@ -14,7 +18,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.
 -rw-r--r-- root       root             1581 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/compat/strstr.c
 -rw-r--r-- root       root             5808 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/compat/strtod.c
 -rw-r--r-- root       root             4967 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/compat/strtoul.c
-drwxr-xr-x root       root             2280 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic
+drwxr-xr-x root       root             2420 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic
 -rw-r--r-- root       root            18954 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/regc_color.c
 -rw-r--r-- root       root             4013 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/regc_cvec.c
 -rw-r--r-- root       root            25976 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/regc_lex.c
@@ -92,6 +96,7 @@ drwxr-xr-x root       root             2280 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.
 -rw-r--r-- root       root            23811 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclOOInt.h
 -rw-r--r-- root       root            52038 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclOOMethod.c
 -rw-r--r-- root       root             2243 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclOOStubInit.c
+-rw-r--r-- root       root             1788 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclOOStubLib.c
 -rw-r--r-- root       root            11530 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclOptimize.c
 -rw-r--r-- root       root             3931 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclPanic.c
 -rw-r--r-- root       root            74989 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclParse.c
@@ -114,13 +119,19 @@ drwxr-xr-x root       root             2280 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.
 -rw-r--r-- root       root             1189 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclStringTrim.h
 -rw-r--r-- root       root           133187 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclStrToD.c
 -rw-r--r-- root       root            42310 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclStubInit.c
+-rw-r--r-- root       root             3112 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclStubLib.c
+-rw-r--r-- root       root           206422 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclTest.c
+-rw-r--r-- root       root            42361 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclTestObj.c
+-rw-r--r-- root       root             7805 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclTestProcBodyObj.c
 -rw-r--r-- root       root            28469 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclThreadAlloc.c
 -rw-r--r-- root       root            11382 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclThread.c
 -rw-r--r-- root       root             8885 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclThreadStorage.c
+-rw-r--r-- root       root            31270 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclThreadTest.c
 -rw-r--r-- root       root            36800 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclTimer.c
 -rw-r--r-- root       root            18892 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclTomMathDecls.h
 -rw-r--r-- root       root            18385 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclTomMath.h
 -rw-r--r-- root       root             6529 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclTomMathInterface.c
+-rw-r--r-- root       root             2216 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclTomMathStubLib.c
 -rw-r--r-- root       root            96797 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclTrace.c
 -rw-r--r-- root       root           112616 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclUniData.c
 -rw-r--r-- root       root            47967 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/generic/tclUtf.c
@@ -192,7 +203,7 @@ drwxr-xr-x root       root             1320 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.
 -rw-r--r-- root       root             2399 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/libtommath/bn_s_mp_mul_digs.c
 -rw-r--r-- root       root             2267 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/libtommath/bn_s_mp_sqr.c
 -rw-r--r-- root       root             2128 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/libtommath/bn_s_mp_sub.c
-drwxr-xr-x root       root              320 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix
+drwxr-xr-x root       root              340 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix
 -rw-r--r-- root       root             4511 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix/tclAppInit.c
 -rw-r--r-- root       root             7385 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix/tclLoadDl.c
 -rw-r--r-- root       root            50350 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix/tclUnixChan.c
@@ -205,5 +216,6 @@ drwxr-xr-x root       root              320 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.
 -rw-r--r-- root       root            33119 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix/tclUnixPipe.c
 -rw-r--r-- root       root            20599 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix/tclUnixPort.h
 -rw-r--r-- root       root            47828 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix/tclUnixSock.c
+-rw-r--r-- root       root            20565 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix/tclUnixTest.c
 -rw-r--r-- root       root            18586 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix/tclUnixThrd.c
 -rw-r--r-- root       root            12087 ./usr/src/debug/tcl/8.6.6-r0/tcl8.6.6/unix/tclUnixTime.c

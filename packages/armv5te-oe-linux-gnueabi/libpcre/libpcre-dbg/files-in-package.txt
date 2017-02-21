@@ -3,11 +3,17 @@ drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               80 ./usr/bin/.debug
 -rwxr-xr-x root       root            63560 ./usr/bin/.debug/pcregrep
 -rwxr-xr-x root       root           125272 ./usr/bin/.debug/pcretest
-drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              100 ./usr/lib/.debug
 -rwxr-xr-x root       root           244444 ./usr/lib/.debug/libpcrecpp.so.0.0.1
 -rwxr-xr-x root       root            16724 ./usr/lib/.debug/libpcreposix.so.0.0.4
 -rwxr-xr-x root       root           417988 ./usr/lib/.debug/libpcre.so.1.2.8
+drwxr-xr-x root       root               60 ./usr/lib/libpcre
+drwxr-xr-x root       root               60 ./usr/lib/libpcre/ptest
+drwxr-xr-x root       root              100 ./usr/lib/libpcre/ptest/.debug
+-rwxr-xr-x root       root            63560 ./usr/lib/libpcre/ptest/.debug/pcregrep
+-rwxr-xr-x root       root           157272 ./usr/lib/libpcre/ptest/.debug/pcre_stringpiece_unittest
+-rwxr-xr-x root       root           125272 ./usr/lib/libpcre/ptest/.debug/pcretest
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/libpcre
@@ -17,7 +23,7 @@ drwxr-xr-x root       root              120 ./usr/src/debug/libpcre/8.40-r0/buil
 -rw-r--r-- root       root             6783 ./usr/src/debug/libpcre/8.40-r0/build/pcrecpparg.h
 -rw-r--r-- root       root            31706 ./usr/src/debug/libpcre/8.40-r0/build/pcre.h
 -rw-r--r-- root       root             6312 ./usr/src/debug/libpcre/8.40-r0/build/pcre_stringpiece.h
-drwxr-xr-x root       root              660 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40
+drwxr-xr-x root       root              680 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40
 -rw-r--r-- root       root             9231 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcre_byte_order.c
 -rw-r--r-- root       root           321799 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcre_compile.c
 -rw-r--r-- root       root             4983 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcre_config.c
@@ -41,6 +47,7 @@ drwxr-xr-x root       root              660 ./usr/src/debug/libpcre/8.40-r0/pcre
 -rw-r--r-- root       root             5546 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcre_scanner.cc
 -rw-r--r-- root       root             6600 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcre_scanner.h
 -rw-r--r-- root       root             1858 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcre_stringpiece.cc
+-rw-r--r-- root       root             3605 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcre_stringpiece_unittest.cc
 -rw-r--r-- root       root            48586 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcre_study.c
 -rw-r--r-- root       root            28787 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcre_tables.c
 -rw-r--r-- root       root           173639 ./usr/src/debug/libpcre/8.40-r0/pcre-8.40/pcretest.c
