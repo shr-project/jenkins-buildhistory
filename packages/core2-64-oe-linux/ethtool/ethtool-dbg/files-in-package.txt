@@ -1,4 +1,11 @@
-drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/ethtool
+drwxr-xr-x root       root               60 ./usr/lib/ethtool/ptest
+drwxr-xr-x root       root              100 ./usr/lib/ethtool/ptest/.debug
+-rwxr-xr-x root       root           426648 ./usr/lib/ethtool/ptest/.debug/ethtool
+-rwxr-xr-x root       root           433328 ./usr/lib/ethtool/ptest/.debug/test-cmdline
+-rwxr-xr-x root       root           440352 ./usr/lib/ethtool/ptest/.debug/test-features
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/sbin/.debug
 -rwxr-xr-x root       root           426648 ./usr/sbin/.debug/ethtool
@@ -6,7 +13,7 @@ drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/ethtool
 drwxr-xr-x root       root               60 ./usr/src/debug/ethtool/4.8-r0
-drwxr-xr-x root       root              700 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8
+drwxr-xr-x root       root              760 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8
 -rw-r--r-- root       root             7231 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/amd8111e.c
 -rw-r--r-- root       root              603 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/at76c50x-usb.c
 -rw-r--r-- root       root            18461 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/de2104x.c
@@ -36,6 +43,9 @@ drwxr-xr-x root       root              700 ./usr/src/debug/ethtool/4.8-r0/ethto
 -rw-r--r-- root       root            10518 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/sfpid.c
 -rw-r--r-- root       root             5222 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/smsc911x.c
 -rw-r--r-- root       root             2218 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/stmmac.c
+-rw-r--r-- root       root            12268 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/test-cmdline.c
+-rw-r--r-- root       root             7183 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/test-common.c
+-rw-r--r-- root       root            24226 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/test-features.c
 -rw-r--r-- root       root              881 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/tg3.c
 -rw-r--r-- root       root             5019 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/tse.c
 -rw-r--r-- root       root              660 ./usr/src/debug/ethtool/4.8-r0/ethtool-4.8/vioc.c
