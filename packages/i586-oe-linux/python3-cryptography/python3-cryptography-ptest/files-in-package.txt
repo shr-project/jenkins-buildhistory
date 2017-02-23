@@ -3,7 +3,7 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/python3-cryptography
 drwxr-xr-x root       root               80 ./usr/lib/python3-cryptography/ptest
 -rwxr-xr-x root       root               18 ./usr/lib/python3-cryptography/ptest/run-ptest
-drwxr-xr-x root       root              320 ./usr/lib/python3-cryptography/ptest/tests
+drwxr-xr-x root       root              340 ./usr/lib/python3-cryptography/ptest/tests
 -rw-r--r-- root       root             1721 ./usr/lib/python3-cryptography/ptest/tests/conftest.py
 -rw-r--r-- root       root             1227 ./usr/lib/python3-cryptography/ptest/tests/doubles.py
 drwxr-xr-x root       root              120 ./usr/lib/python3-cryptography/ptest/tests/hazmat
@@ -11,11 +11,11 @@ drwxr-xr-x root       root              140 ./usr/lib/python3-cryptography/ptest
 -rw-r--r-- root       root              246 ./usr/lib/python3-cryptography/ptest/tests/hazmat/backends/__init__.py
 -rw-r--r-- root       root              594 ./usr/lib/python3-cryptography/ptest/tests/hazmat/backends/test_backendinit.py
 -rw-r--r-- root       root             2186 ./usr/lib/python3-cryptography/ptest/tests/hazmat/backends/test_commoncrypto.py
--rw-r--r-- root       root            19877 ./usr/lib/python3-cryptography/ptest/tests/hazmat/backends/test_multibackend.py
--rw-r--r-- root       root            27749 ./usr/lib/python3-cryptography/ptest/tests/hazmat/backends/test_openssl.py
+-rw-r--r-- root       root            21869 ./usr/lib/python3-cryptography/ptest/tests/hazmat/backends/test_multibackend.py
+-rw-r--r-- root       root            28030 ./usr/lib/python3-cryptography/ptest/tests/hazmat/backends/test_openssl.py
 drwxr-xr-x root       root               80 ./usr/lib/python3-cryptography/ptest/tests/hazmat/bindings
 -rw-r--r-- root       root              746 ./usr/lib/python3-cryptography/ptest/tests/hazmat/bindings/test_commoncrypto.py
--rw-r--r-- root       root             3979 ./usr/lib/python3-cryptography/ptest/tests/hazmat/bindings/test_openssl.py
+-rw-r--r-- root       root             4254 ./usr/lib/python3-cryptography/ptest/tests/hazmat/bindings/test_openssl.py
 -rw-r--r-- root       root              246 ./usr/lib/python3-cryptography/ptest/tests/hazmat/__init__.py
 drwxr-xr-x root       root              840 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives
 -rw-r--r-- root       root             7822 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives/fixtures_dsa.py
@@ -34,7 +34,7 @@ drwxr-xr-x root       root              840 ./usr/lib/python3-cryptography/ptest
 -rw-r--r-- root       root             6585 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives/test_cmac.py
 -rw-r--r-- root       root             8644 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives/test_concatkdf.py
 -rw-r--r-- root       root              957 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives/test_constant_time.py
--rw-r--r-- root       root             2669 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives/test_dh.py
+-rw-r--r-- root       root             9960 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives/test_dh.py
 -rw-r--r-- root       root            44283 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives/test_dsa.py
 -rw-r--r-- root       root            39074 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives/test_ec.py
 -rw-r--r-- root       root             6320 ./usr/lib/python3-cryptography/ptest/tests/hazmat/primitives/test_hashes.py
@@ -66,12 +66,13 @@ drwxr-xr-x root       root              100 ./usr/lib/python3-cryptography/ptest
 -rw-r--r-- root       root              429 ./usr/lib/python3-cryptography/ptest/tests/hypothesis/test_fernet.py
 -rw-r--r-- root       root             1036 ./usr/lib/python3-cryptography/ptest/tests/hypothesis/test_padding.py
 -rw-r--r-- root       root              246 ./usr/lib/python3-cryptography/ptest/tests/__init__.py
+-rw-r--r-- root       root              387 ./usr/lib/python3-cryptography/ptest/tests/test_cryptography_utils.py
 -rw-r--r-- root       root             5907 ./usr/lib/python3-cryptography/ptest/tests/test_fernet.py
 -rw-r--r-- root       root             2387 ./usr/lib/python3-cryptography/ptest/tests/test_interfaces.py
 -rw-r--r-- root       root           174020 ./usr/lib/python3-cryptography/ptest/tests/test_utils.py
 -rw-r--r-- root       root             2894 ./usr/lib/python3-cryptography/ptest/tests/test_warnings.py
 -rw-r--r-- root       root            19563 ./usr/lib/python3-cryptography/ptest/tests/test_x509_crlbuilder.py
 -rw-r--r-- root       root           125779 ./usr/lib/python3-cryptography/ptest/tests/test_x509_ext.py
--rw-r--r-- root       root           152954 ./usr/lib/python3-cryptography/ptest/tests/test_x509.py
+-rw-r--r-- root       root           154164 ./usr/lib/python3-cryptography/ptest/tests/test_x509.py
 -rw-r--r-- root       root             7549 ./usr/lib/python3-cryptography/ptest/tests/test_x509_revokedcertbuilder.py
 -rw-r--r-- root       root            27002 ./usr/lib/python3-cryptography/ptest/tests/utils.py
