@@ -1,9 +1,9 @@
 PV = 4.4.5
 PR = r0
 PKG = libtevent-unix-util0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = libtevent-unix-util (=4.4.5)
-RDEPENDS = glibc (>= 2.25) libtevent (>= 0.9.31) samba-common
+RDEPENDS = glibc (>= 2.25) samba (>= 4.4.5) samba-common
 RRECOMMENDS = 
 PKGSIZE = 5392
 FILES = /usr/lib/libtevent-unix-util.so.0 /usr/lib/libtevent-unix-util.so.0.0.1
