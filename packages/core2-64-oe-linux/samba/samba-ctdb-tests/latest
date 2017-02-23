@@ -1,8 +1,8 @@
 PV = 4.4.5
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.25) libbsd (>= 0.8.3) libsamba-debug-samba4 (>= 4.4.5) libsamba-util (>= 4.4.5) libsocket-blocking-samba4 (>= 4.4.5) libtalloc (>= 2.1.8) libtalloc-report-samba4 (>= 4.4.5) libtdb (>= 1.3.12) libtdb-wrap-samba4 (>= 4.4.5) libtevent (>= 0.9.31) libtevent-unix-util (>= 4.4.5) libtime-basic-samba4 (>= 4.4.5) popt (>= 1.16) samba util-linux-getopt
+RDEPENDS = bash glibc (>= 2.25) libbsd (>= 0.8.3) libsamba-debug-samba4 (>= 4.4.5) libsamba-util (>= 4.4.5) libsocket-blocking-samba4 (>= 4.4.5) libtalloc (>= 2.1.8) libtalloc-report-samba4 (>= 4.4.5) libtdb (>= 1.3.12) libtdb-wrap-samba4 (>= 4.4.5) libtevent-unix-util (>= 4.4.5) libtime-basic-samba4 (>= 4.4.5) popt (>= 1.16) samba (>= 4.4.5) util-linux-getopt
 RRECOMMENDS = 
 PKGSIZE = 4979827
 FILES = /usr/bin/ctdb_run_tests /usr/bin/ctdb_run_cluster_tests /etc/ctdb/nodes /usr/lib/ctdb-tests /usr/share/ctdb-tests /run/ctdb
