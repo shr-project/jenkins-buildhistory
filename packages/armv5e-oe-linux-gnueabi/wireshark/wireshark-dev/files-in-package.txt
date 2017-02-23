@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              100 ./usr/include/wireshark
--rw-r--r-- root       root            13069 ./usr/include/wireshark/config.h
+-rw-r--r-- root       root            13072 ./usr/include/wireshark/config.h
 drwxr-xr-x root       root             2680 ./usr/include/wireshark/epan
 -rw-r--r-- root       root             1741 ./usr/include/wireshark/epan/addr_and_mask.h
 -rw-r--r-- root       root            14160 ./usr/include/wireshark/epan/address.h
@@ -503,7 +503,7 @@ drwxr-xr-x root       root               80 ./usr/include/wireshark/epan/ftypes
 -rw-r--r-- root       root             5704 ./usr/include/wireshark/epan/print.h
 -rw-r--r-- root       root             2764 ./usr/include/wireshark/epan/print_stream.h
 -rw-r--r-- root       root             1842 ./usr/include/wireshark/epan/proto_data.h
--rw-r--r-- root       root           129864 ./usr/include/wireshark/epan/proto.h
+-rw-r--r-- root       root           130004 ./usr/include/wireshark/epan/proto.h
 -rw-r--r-- root       root             1130 ./usr/include/wireshark/epan/ps.h
 -rw-r--r-- root       root             3830 ./usr/include/wireshark/epan/ptvcursor.h
 -rw-r--r-- root       root             9339 ./usr/include/wireshark/epan/radius_dict_lex.h
@@ -534,7 +534,7 @@ drwxr-xr-x root       root               80 ./usr/include/wireshark/epan/ftypes
 -rw-r--r-- root       root             8480 ./usr/include/wireshark/epan/to_str.h
 -rw-r--r-- root       root             6814 ./usr/include/wireshark/epan/to_str-int.h
 -rw-r--r-- root       root            16117 ./usr/include/wireshark/epan/tvbparse.h
--rw-r--r-- root       root            39053 ./usr/include/wireshark/epan/tvbuff.h
+-rw-r--r-- root       root            39063 ./usr/include/wireshark/epan/tvbuff.h
 -rw-r--r-- root       root             2772 ./usr/include/wireshark/epan/tvbuff-int.h
 -rw-r--r-- root       root            22749 ./usr/include/wireshark/epan/uat.h
 -rw-r--r-- root       root             3268 ./usr/include/wireshark/epan/uat-int.h
@@ -566,14 +566,10 @@ drwxr-xr-x root       root              480 ./usr/include/wireshark/epan/wmem
 -rw-r--r-- root       root             1301 ./usr/include/wireshark/epan/x264_prt_id.h
 -rw-r--r-- root       root             5546 ./usr/include/wireshark/epan/xdlc.h
 -rw-r--r-- root       root             2362 ./usr/include/wireshark/register.h
-drwxr-xr-x root       root              220 ./usr/lib
--rwxr-xr-x root       root             1348 ./usr/lib/libwireshark.la
-lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so -> libwireshark.so.8.1.3
--rwxr-xr-x root       root             1134 ./usr/lib/libwiretap.la
-lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so -> libwiretap.so.6.0.3
--rwxr-xr-x root       root             1144 ./usr/lib/libwscodecs.la
+drwxr-xr-x root       root              140 ./usr/lib
+lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so -> libwireshark.so.8.1.4
+lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so -> libwiretap.so.6.0.4
 lrwxrwxrwx root       root               20 ./usr/lib/libwscodecs.so -> libwscodecs.so.1.0.0
--rwxr-xr-x root       root             1089 ./usr/lib/libwsutil.la
 lrwxrwxrwx root       root               18 ./usr/lib/libwsutil.so -> libwsutil.so.7.0.0
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              325 ./usr/lib/pkgconfig/wireshark.pc
