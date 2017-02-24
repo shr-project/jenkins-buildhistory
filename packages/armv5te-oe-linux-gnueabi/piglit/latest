@@ -1,4 +1,4 @@
-PV = 1.0+gitrAUTOINC+c39e41a865
+PV = 1.0+gitrAUTOINC+ca58eec0b9
 PR = r0
-DEPENDS = bash-completion cmake-native libglu libpng libxrender python3-mako-native python3-native python3-numpy-native python3-six-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc virtual/libgl virtual/libx11 waffle
+DEPENDS = bash-completion cmake-native libglu libpng libxkbcommon libxrender python3-mako-native python3-native python3-numpy-native python3-six-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc virtual/libgl virtual/libx11 waffle
 PACKAGES = piglit-dbg piglit-staticdev piglit-dev piglit-doc piglit-locale piglit piglit-bash-completion
