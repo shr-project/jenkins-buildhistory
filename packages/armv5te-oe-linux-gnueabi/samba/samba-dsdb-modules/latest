@@ -1,9 +1,9 @@
 PV = 4.4.5
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libcli-ldap-common-samba4 (>= 4.4.5) libcli-ldap-samba4 (>= 4.4.5) libcmdline-credentials-samba4 (>= 4.4.5) libgensec-samba4 (>= 4.4.5) libldbsamba-samba4 (>= 4.4.5) libsamba-credentials (>= 4.4.5) libsamba-debug-samba4 (>= 4.4.5) libsamba-hostconfig (>= 4.4.5) libsamba-util (>= 4.4.5) libsamdb (>= 4.4.5) libsamdb-common-samba4 (>= 4.4.5) libtalloc (>= 2.1.8) libtdb (>= 1.3.12) popt (>= 1.16) samba (>= 4.4.5)
+RDEPENDS = glibc (>= 2.25) libcli-ldap-common-samba4 (>= 4.4.5) libcli-ldap-samba4 (>= 4.4.5) libcmdline-credentials-samba4 (>= 4.4.5) libgensec-samba4 (>= 4.4.5) libldb (>= 1.1.29) libldbsamba-samba4 (>= 4.4.5) libsamba-credentials (>= 4.4.5) libsamba-debug-samba4 (>= 4.4.5) libsamba-hostconfig (>= 4.4.5) libsamba-util (>= 4.4.5) libsamdb (>= 4.4.5) libsamdb-common-samba4 (>= 4.4.5) libtalloc (>= 2.1.8) libtevent (>= 0.9.31) popt (>= 1.16)
 RRECOMMENDS = 
-PKGSIZE = 129140
+PKGSIZE = 28316
 FILES = /usr/lib/samba/ldb
-FILELIST = /usr/lib/samba/ldb/asq.so /usr/lib/samba/ldb/ildap.so /usr/lib/samba/ldb/ldbsamba_extensions.so /usr/lib/samba/ldb/paged_results.so /usr/lib/samba/ldb/paged_searches.so /usr/lib/samba/ldb/rdn_name.so /usr/lib/samba/ldb/sample.so /usr/lib/samba/ldb/server_sort.so /usr/lib/samba/ldb/skel.so /usr/lib/samba/ldb/tdb.so
+FILELIST = /usr/lib/samba/ldb/ildap.so /usr/lib/samba/ldb/ldbsamba_extensions.so

@@ -1,4 +1,4 @@
-PV = 0.8.2
+PV = 0.8.3
 PR = r0
-DEPENDS = alsa-lib python python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = alsa-lib python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = python-pyalsaaudio-dbg python-pyalsaaudio-staticdev python-pyalsaaudio-dev python-pyalsaaudio-doc python-pyalsaaudio-locale python-pyalsaaudio
