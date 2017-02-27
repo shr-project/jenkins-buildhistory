@@ -1,7 +1,5 @@
-drwxr-xr-x root       root               60 ./etc
-drwxr-xr-x root       root               60 ./etc/init.d
--rwxr-xr-x root       root             2604 ./etc/init.d/multipathd
-drwxr-xr-x root       root              120 ./lib
+drwxr-xr-x root       root               40 ./etc
+drwxr-xr-x root       root              140 ./lib
 -rwxr-xr-x root       root             9760 ./lib/libmpathcmd.so.0
 -rwxr-xr-x root       root            34600 ./lib/libmpathpersist.so.0
 -rwxr-xr-x root       root           319200 ./lib/libmultipath.so.0
@@ -25,6 +23,10 @@ drwxr-xr-x root       root              420 ./lib/multipath
 -rwxr-xr-x root       root             5616 ./lib/multipath/libpriordac.so
 -rwxr-xr-x root       root             5680 ./lib/multipath/libpriosysfs.so
 -rwxr-xr-x root       root             9776 ./lib/multipath/libprioweightedpath.so
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+-rw-r--r-- root       root              647 ./lib/systemd/system/multipathd.service
+-rw-r--r-- root       root              151 ./lib/systemd/system/multipathd.socket
 drwxr-xr-x root       root              100 ./sbin
 -rwxr-xr-x root       root            22624 ./sbin/mpathpersist
 -rwxr-xr-x root       root            18252 ./sbin/multipath

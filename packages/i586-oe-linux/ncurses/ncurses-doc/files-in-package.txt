@@ -3,18 +3,18 @@ drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              120 ./usr/share/man
 drwxr-xr-x root       root              280 ./usr/share/man/man1
 -rw-r--r-- root       root             6622 ./usr/share/man/man1/captoinfo.1
--rw-r--r-- root       root             2760 ./usr/share/man/man1/clear.1
--rw-r--r-- root       root            19132 ./usr/share/man/man1/infocmp.1
+-rw-r--r-- root       root             5274 ./usr/share/man/man1/clear.1
+-rw-r--r-- root       root            19273 ./usr/share/man/man1/infocmp.1
 -rw-r--r-- root       root             3639 ./usr/share/man/man1/infotocap.1
 -rw-r--r-- root       root             3757 ./usr/share/man/man1/ncurses5-config.1
 -rw-r--r-- root       root             3760 ./usr/share/man/man1/ncursesw5-config.1
 lrwxrwxrwx root       root                6 ./usr/share/man/man1/reset.1 -> tset.1
--rw-r--r-- root       root             5589 ./usr/share/man/man1/tabs.1
--rw-r--r-- root       root            15693 ./usr/share/man/man1/tic.1
+-rw-r--r-- root       root             5594 ./usr/share/man/man1/tabs.1
+-rw-r--r-- root       root            15822 ./usr/share/man/man1/tic.1
 -rw-r--r-- root       root             4666 ./usr/share/man/man1/toe.1
--rw-r--r-- root       root            14343 ./usr/share/man/man1/tput.1
--rw-r--r-- root       root            14784 ./usr/share/man/man1/tset.1
-drwxr-xr-x root       root            16640 ./usr/share/man/man3
+-rw-r--r-- root       root            16829 ./usr/share/man/man1/tput.1
+-rw-r--r-- root       root            15901 ./usr/share/man/man1/tset.1
+drwxr-xr-x root       root            16660 ./usr/share/man/man3
 lrwxrwxrwx root       root               27 ./usr/share/man/man3/acs_map.3ncurses -> terminfo_variables.3ncurses
 -rw-r--r-- root       root             8879 ./usr/share/man/man3/addch.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/addchnstr.3ncurses -> addchstr.3ncurses
@@ -28,7 +28,7 @@ lrwxrwxrwx root       root               19 ./usr/share/man/man3/add_wchnstr.3nc
 -rw-r--r-- root       root             4689 ./usr/share/man/man3/addwstr.3ncurses
 lrwxrwxrwx root       root               23 ./usr/share/man/man3/assume_default_colors.3ncurses -> default_colors.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/assume_default_colors_sp.3ncurses -> sp_funcs.3ncurses
--rw-r--r-- root       root            13298 ./usr/share/man/man3/attr.3ncurses
+-rw-r--r-- root       root            13997 ./usr/share/man/man3/attr.3ncurses
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/attr_get.3ncurses -> attr.3ncurses
 -rw-r--r-- root       root             4472 ./usr/share/man/man3/attributes.3menu
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/attr_off.3ncurses -> attr.3ncurses
@@ -60,11 +60,11 @@ lrwxrwxrwx root       root               15 ./usr/share/man/man3/cbreak.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/cbreak_sp.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/ceiling_panel.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/chgat.3ncurses -> attr.3ncurses
--rw-r--r-- root       root             5066 ./usr/share/man/man3/clear.3ncurses
+-rw-r--r-- root       root             5062 ./usr/share/man/man3/clear.3ncurses
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/clearok.3ncurses -> outopts.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/clrtobot.3ncurses -> clear.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/clrtoeol.3ncurses -> clear.3ncurses
--rw-r--r-- root       root            14963 ./usr/share/man/man3/color.3ncurses
+-rw-r--r-- root       root            15511 ./usr/share/man/man3/color.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/color_content.3ncurses -> color.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/color_content_sp.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/COLOR_PAIR.3ncurses -> color.3ncurses
@@ -89,7 +89,7 @@ lrwxrwxrwx root       root               27 ./usr/share/man/man3/cur_term.3ncurs
 -rw-r--r-- root       root             3078 ./usr/share/man/man3/data.3form
 lrwxrwxrwx root       root               10 ./usr/share/man/man3/data_ahead.3form -> data.3form
 lrwxrwxrwx root       root               10 ./usr/share/man/man3/data_behind.3form -> data.3form
--rw-r--r-- root       root             6643 ./usr/share/man/man3/default_colors.3ncurses
+-rw-r--r-- root       root             6621 ./usr/share/man/man3/default_colors.3ncurses
 -rw-r--r-- root       root             3424 ./usr/share/man/man3/define_key.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/define_key_sp.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/def_prog_mode.3ncurses -> kernel.3ncurses
@@ -124,7 +124,7 @@ lrwxrwxrwx root       root               18 ./usr/share/man/man3/erasechar.3ncur
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/erasechar_sp.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/erasewchar.3ncurses -> termattrs.3ncurses
 lrwxrwxrwx root       root               25 ./usr/share/man/man3/ESCDELAY.3ncurses -> curses_variables.3ncurses
--rw-r--r-- root       root             3990 ./usr/share/man/man3/extensions.3ncurses
+-rw-r--r-- root       root             3992 ./usr/share/man/man3/extensions.3ncurses
 -rw-r--r-- root       root             4073 ./usr/share/man/man3/field.3form
 lrwxrwxrwx root       root               22 ./usr/share/man/man3/field_arg.3form -> field_validation.3form
 -rw-r--r-- root       root             4004 ./usr/share/man/man3/field_attributes.3form
@@ -153,8 +153,8 @@ lrwxrwxrwx root       root               13 ./usr/share/man/man3/flash.3ncurses 
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/flash_sp.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/flushinp.3ncurses -> util.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/flushinp_sp.3ncurses -> sp_funcs.3ncurses
--rw-r--r-- root       root             7934 ./usr/share/man/man3/form.3form
--rw-r--r-- root       root             3895 ./usr/share/man/man3/format.3menu
+-rw-r--r-- root       root             8084 ./usr/share/man/man3/form.3form
+-rw-r--r-- root       root             3893 ./usr/share/man/man3/format.3menu
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/form_driver.3form -> driver.3form
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/form_driver_w.3form -> driver.3form
 lrwxrwxrwx root       root               11 ./usr/share/man/man3/form_field.3form -> field.3form
@@ -188,7 +188,7 @@ lrwxrwxrwx root       root               14 ./usr/share/man/man3/getbegyx.3ncurs
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/getbkgd.3ncurses -> bkgd.3ncurses
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/getbkgrnd.3ncurses -> bkgrnd.3ncurses
 -rw-r--r-- root       root             5108 ./usr/share/man/man3/getcchar.3ncurses
--rw-r--r-- root       root            14478 ./usr/share/man/man3/getch.3ncurses
+-rw-r--r-- root       root            14487 ./usr/share/man/man3/getch.3ncurses
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/getcurx.3ncurses -> legacy.3ncurses
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/getcury.3ncurses -> legacy.3ncurses
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/get_escdelay.3ncurses -> threads.3ncurses
@@ -238,10 +238,10 @@ lrwxrwxrwx root       root               14 ./usr/share/man/man3/init_color.3ncu
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/init_color_sp.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/init_pair.3ncurses -> color.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/init_pair_sp.3ncurses -> sp_funcs.3ncurses
--rw-r--r-- root       root             9896 ./usr/share/man/man3/initscr.3ncurses
+-rw-r--r-- root       root             9894 ./usr/share/man/man3/initscr.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/innstr.3ncurses -> instr.3ncurses
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/innwstr.3ncurses -> inwstr.3ncurses
--rw-r--r-- root       root            13720 ./usr/share/man/man3/inopts.3ncurses
+-rw-r--r-- root       root            13710 ./usr/share/man/man3/inopts.3ncurses
 -rw-r--r-- root       root             3705 ./usr/share/man/man3/insch.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/insdelln.3ncurses -> deleteln.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/insertln.3ncurses -> deleteln.3ncurses
@@ -288,7 +288,7 @@ lrwxrwxrwx root       root               10 ./usr/share/man/man3/item_term.3menu
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/item_userptr.3menu -> menu_userptr.3menu
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/item_value.3menu -> menu_value.3menu
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/item_visible.3menu -> menu_visible.3menu
--rw-r--r-- root       root             8404 ./usr/share/man/man3/kernel.3ncurses
+-rw-r--r-- root       root             8402 ./usr/share/man/man3/kernel.3ncurses
 -rw-r--r-- root       root             3240 ./usr/share/man/man3/keybound.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/keybound_sp.3ncurses -> sp_funcs.3ncurses
 -rw-r--r-- root       root             3068 ./usr/share/man/man3/key_defined.3ncurses
@@ -304,7 +304,7 @@ lrwxrwxrwx root       root               17 ./usr/share/man/man3/killchar_sp.3nc
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/killwchar.3ncurses -> termattrs.3ncurses
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/leaveok.3ncurses -> outopts.3ncurses
 -rw-r--r-- root       root             3696 ./usr/share/man/man3/legacy.3ncurses
--rw-r--r-- root       root             3645 ./usr/share/man/man3/legacy_coding.3ncurses
+-rw-r--r-- root       root             3646 ./usr/share/man/man3/legacy_coding.3ncurses
 lrwxrwxrwx root       root               25 ./usr/share/man/man3/LINES.3ncurses -> curses_variables.3ncurses
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/link_field.3form -> field_new.3form
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/link_fieldtype.3form -> fieldtype.3form
@@ -484,14 +484,14 @@ lrwxrwxrwx root       root               27 ./usr/share/man/man3/numnames.3ncurs
 -rw-r--r-- root       root             3896 ./usr/share/man/man3/opts.3form
 -rw-r--r-- root       root             4308 ./usr/share/man/man3/opts.3menu
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/ospeed.3ncurses -> termcap.3ncurses
--rw-r--r-- root       root             9693 ./usr/share/man/man3/outopts.3ncurses
+-rw-r--r-- root       root             9687 ./usr/share/man/man3/outopts.3ncurses
 -rw-r--r-- root       root             4505 ./usr/share/man/man3/overlay.3ncurses
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/overwrite.3ncurses -> overlay.3ncurses
 -rw-r--r-- root       root             7518 ./usr/share/man/man3/pad.3ncurses
--rw-r--r-- root       root             3933 ./usr/share/man/man3/page.3form
+-rw-r--r-- root       root             4223 ./usr/share/man/man3/page.3form
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/pair_content.3ncurses -> color.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/pair_content_sp.3ncurses -> sp_funcs.3ncurses
-lrwxrwxrwx root       root               13 ./usr/share/man/man3/PAIR_NUMBER.3ncurses -> attr.3ncurses
+lrwxrwxrwx root       root               14 ./usr/share/man/man3/PAIR_NUMBER.3ncurses -> color.3ncurses
 -rw-r--r-- root       root             7994 ./usr/share/man/man3/panel.3curses
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/panel_above.3curses -> panel.3curses
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/panel_below.3curses -> panel.3curses
@@ -506,7 +506,7 @@ lrwxrwxrwx root       root               12 ./usr/share/man/man3/pnoutrefresh.3n
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/pos_form_cursor.3form -> cursor.3form
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/pos_menu_cursor.3menu -> cursor.3menu
 -rw-r--r-- root       root             3696 ./usr/share/man/man3/post.3form
--rw-r--r-- root       root             3824 ./usr/share/man/man3/post.3menu
+-rw-r--r-- root       root             3821 ./usr/share/man/man3/post.3menu
 lrwxrwxrwx root       root               10 ./usr/share/man/man3/post_form.3form -> post.3form
 lrwxrwxrwx root       root               10 ./usr/share/man/man3/post_menu.3menu -> post.3menu
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/prefresh.3ncurses -> pad.3ncurses
@@ -520,7 +520,7 @@ lrwxrwxrwx root       root               17 ./usr/share/man/man3/qiflush_sp.3ncu
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/raw.3ncurses -> inopts.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/raw_sp.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/redrawwin.3ncurses -> refresh.3ncurses
--rw-r--r-- root       root             6439 ./usr/share/man/man3/refresh.3ncurses
+-rw-r--r-- root       root             6431 ./usr/share/man/man3/refresh.3ncurses
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/replace_panel.3curses -> panel.3curses
 -rw-r--r-- root       root             3407 ./usr/share/man/man3/requestname.3form
 -rw-r--r-- root       root             3407 ./usr/share/man/man3/requestname.3menu
@@ -613,7 +613,7 @@ lrwxrwxrwx root       root               17 ./usr/share/man/man3/setterm.3ncurse
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/set_top_row.3menu -> menu_current.3menu
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/setupterm.3ncurses -> terminfo.3ncurses
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/show_panel.3curses -> panel.3curses
--rw-r--r-- root       root             8280 ./usr/share/man/man3/slk.3ncurses
+-rw-r--r-- root       root             8278 ./usr/share/man/man3/slk.3ncurses
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/slk_attr.3ncurses -> slk.3ncurses
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/slk_attr_off.3ncurses -> slk.3ncurses
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/slk_attroff.3ncurses -> slk.3ncurses
@@ -665,7 +665,7 @@ lrwxrwxrwx root       root               18 ./usr/share/man/man3/term_attrs.3ncu
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/term_attrs_sp.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/termattrs_sp.3ncurses -> sp_funcs.3ncurses
 -rw-r--r-- root       root            10231 ./usr/share/man/man3/termcap.3ncurses
--rw-r--r-- root       root            17789 ./usr/share/man/man3/terminfo.3ncurses
+-rw-r--r-- root       root            17799 ./usr/share/man/man3/terminfo.3ncurses
 -rw-r--r-- root       root             6646 ./usr/share/man/man3/terminfo_variables.3ncurses
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/termname.3ncurses -> termattrs.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/termname_sp.3ncurses -> sp_funcs.3ncurses
@@ -695,7 +695,7 @@ lrwxrwxrwx root       root               14 ./usr/share/man/man3/touchwin.3ncurs
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/tparm.3ncurses -> terminfo.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/tputs.3ncurses -> terminfo.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/tputs_sp.3ncurses -> sp_funcs.3ncurses
--rw-r--r-- root       root             6555 ./usr/share/man/man3/trace.3ncurses
+-rw-r--r-- root       root             6561 ./usr/share/man/man3/trace.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/_traceattr2.3ncurses -> trace.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/_traceattr.3ncurses -> trace.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/_tracecchar_t2.3ncurses -> trace.3ncurses
@@ -718,6 +718,7 @@ lrwxrwxrwx root       root               20 ./usr/share/man/man3/TYPE_NUMERIC.3f
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/TYPE_REGEXP.3form -> form_variables.3form
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/unctrl.3ncurses -> util.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/unctrl_sp.3ncurses -> sp_funcs.3ncurses
+lrwxrwxrwx root       root               10 ./usr/share/man/man3/unfocus_current_field.3form -> page.3form
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/ungetch.3ncurses -> getch.3ncurses
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/ungetch_sp.3ncurses -> sp_funcs.3ncurses
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/ungetmouse.3ncurses -> mouse.3ncurses
@@ -846,7 +847,7 @@ lrwxrwxrwx root       root               17 ./usr/share/man/man3/wunctrl_sp.3ncu
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/wvline.3ncurses -> border.3ncurses
 lrwxrwxrwx root       root               19 ./usr/share/man/man3/wvline_set.3ncurses -> border_set.3ncurses
 drwxr-xr-x root       root               80 ./usr/share/man/man5
--rw-r--r-- root       root            11711 ./usr/share/man/man5/term.5
--rw-r--r-- root       root            96340 ./usr/share/man/man5/terminfo.5
+-rw-r--r-- root       root            11715 ./usr/share/man/man5/term.5
+-rw-r--r-- root       root            96395 ./usr/share/man/man5/terminfo.5
 drwxr-xr-x root       root               60 ./usr/share/man/man7
 -rw-r--r-- root       root             9520 ./usr/share/man/man7/term.7
