@@ -1,9 +1,9 @@
-PV = 3.6.4
+PV = 3.8.1
 PR = r0
-PKGR = r0.59
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = syslog-ng-dev (= 3.6.4-r0.59)
+RDEPENDS = syslog-ng-dev (= 3.8.1-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 164680
-FILES = /usr/lib/syslog-ng/libtest/*.a
+PKGSIZE = 196706
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/syslog-ng/*.a /usr/lib/syslog-ng/libtest/*.a
 FILELIST = /usr/lib/syslog-ng/libtest/libsyslog-ng-test.a

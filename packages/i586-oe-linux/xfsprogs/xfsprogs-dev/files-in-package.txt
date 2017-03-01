@@ -1,28 +1,22 @@
-drwxr-xr-x root       root              160 ./lib
-lrwxrwxrwx root       root               21 ./lib/libhandle.la -> /usr/lib/libhandle.la
+drwxr-xr-x root       root              100 ./lib
 lrwxrwxrwx root       root               14 ./lib/libhandle.so -> libhandle.so.1
-lrwxrwxrwx root       root               19 ./lib/libxcmd.la -> /usr/lib/libxcmd.la
 lrwxrwxrwx root       root               12 ./lib/libxcmd.so -> libxcmd.so.0
-lrwxrwxrwx root       root               19 ./lib/libxlog.la -> /usr/lib/libxlog.la
 lrwxrwxrwx root       root               12 ./lib/libxlog.so -> libxlog.so.0
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              260 ./usr/include/xfs
 -rw-r--r-- root       root             2198 ./usr/include/xfs/handle.h
 -rw-r--r-- root       root             2434 ./usr/include/xfs/jdm.h
--rw-r--r-- root       root             5806 ./usr/include/xfs/linux.h
--rw-r--r-- root       root             8117 ./usr/include/xfs/xfs_arch.h
+-rw-r--r-- root       root             6201 ./usr/include/xfs/linux.h
+-rw-r--r-- root       root             8175 ./usr/include/xfs/xfs_arch.h
 -rw-r--r-- root       root            29695 ./usr/include/xfs/xfs_da_format.h
--rw-r--r-- root       root            55670 ./usr/include/xfs/xfs_format.h
--rw-r--r-- root       root            22625 ./usr/include/xfs/xfs_fs.h
--rw-r--r-- root       root             1985 ./usr/include/xfs/xfs.h
--rw-r--r-- root       root            26589 ./usr/include/xfs/xfs_log_format.h
--rw-r--r-- root       root             4722 ./usr/include/xfs/xfs_types.h
+-rw-r--r-- root       root            58686 ./usr/include/xfs/xfs_format.h
+-rw-r--r-- root       root            22892 ./usr/include/xfs/xfs_fs.h
+-rw-r--r-- root       root             2049 ./usr/include/xfs/xfs.h
+-rw-r--r-- root       root            30192 ./usr/include/xfs/xfs_log_format.h
+-rw-r--r-- root       root             4724 ./usr/include/xfs/xfs_types.h
 -rw-r--r-- root       root             7518 ./usr/include/xfs/xqm.h
-drwxr-xr-x root       root              160 ./usr/lib
--rw-r--r-- root       root              909 ./usr/lib/libhandle.la
+drwxr-xr-x root       root              100 ./usr/lib
 lrwxrwxrwx root       root               17 ./usr/lib/libhandle.so -> /lib/libhandle.so
--rw-r--r-- root       root             1003 ./usr/lib/libxcmd.la
 lrwxrwxrwx root       root               15 ./usr/lib/libxcmd.so -> /lib/libxcmd.so
--rw-r--r-- root       root              897 ./usr/lib/libxlog.la
 lrwxrwxrwx root       root               15 ./usr/lib/libxlog.so -> /lib/libxlog.so

@@ -1,8 +1,8 @@
-PV = 4.8.0
+PV = 4.10.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) util-linux-libuuid (>= 2.29) xfsprogs (>= 4.8.0)
+RDEPENDS = glibc (>= 2.25) util-linux-libuuid (>= 2.29.1) xfsprogs (>= 4.10.0)
 RRECOMMENDS = 
 PKGSIZE = 68196
 FILES = /sbin/mkfs.xfs
