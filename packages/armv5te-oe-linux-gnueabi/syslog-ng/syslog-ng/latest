@@ -1,11 +1,11 @@
-PV = 3.6.4
+PV = 3.8.1
 PR = r0
-PKGR = r0.55
+PKGR = r0.0
 RPROVIDES = syslog-ng-systemd
-RDEPENDS = eventlog (>= 0.2.13) gawk glib-2.0 (>= 2.50.2) glibc (>= 2.24) libcrypto (>= 1.0.2j) libpcre (>= 8.39) libssl (>= 1.0.2j) syslog-ng-libs (>= 3.6.4) update-rc.d
+RDEPENDS = eventlog (>= 0.2.13) gawk glib-2.0 (>= 2.50.2) glibc (>= 2.25) libcrypto (>= 1.0.2k) libpcre (>= 8.40) libssl (>= 1.0.2k) syslog-ng-libs (>= 3.8.1) update-rc.d
 RRECOMMENDS = 
 RREPLACES = syslog-ng-systemd
 RCONFLICTS = busybox-syslog rsyslog sysklogd syslog-ng-systemd
-PKGSIZE = 178411
+PKGSIZE = 314111
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/syslog-ng /usr/lib/syslog-ng/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/include/scl/ /usr/share/xsd /usr/share/tools /lib/systemd/system/syslog-ng.service
-FILELIST = /etc/default/volatiles/03_syslog-ng /etc/syslog-ng/scl.conf /etc/syslog-ng/syslog-ng.conf /lib/systemd/system/syslog-ng.service /usr/bin/loggen /usr/bin/pdbtool /usr/bin/update-patterndb /usr/sbin/syslog-ng /usr/sbin/syslog-ng-ctl /usr/share/include/scl/graphite/README /usr/share/include/scl/graphite/plugin.conf /usr/share/include/scl/nodejs/plugin.conf /usr/share/include/scl/pacct/plugin.conf /usr/share/include/scl/rewrite/cc-mask.conf /usr/share/include/scl/syslogconf/README /usr/share/include/scl/syslogconf/convert-syslogconf.awk /usr/share/include/scl/syslogconf/plugin.conf /usr/share/include/scl/system/plugin.conf /usr/share/tools/cfg-grammar.y /usr/share/tools/lex-rules.am /usr/share/tools/merge-grammar.pl /usr/share/tools/system-expand
+FILELIST = /etc/default/volatiles/03_syslog-ng /etc/syslog-ng/scl.conf /etc/syslog-ng/syslog-ng.conf /lib/systemd/system/syslog-ng.service /usr/bin/dqtool /usr/bin/loggen /usr/bin/pdbtool /usr/bin/update-patterndb /usr/sbin/syslog-ng /usr/sbin/syslog-ng-ctl /usr/share/syslog-ng/include/scl/apache/apache.conf /usr/share/syslog-ng/include/scl/cim/template.conf /usr/share/syslog-ng/include/scl/elasticsearch/plugin.conf /usr/share/syslog-ng/include/scl/graphite/README /usr/share/syslog-ng/include/scl/graphite/plugin.conf /usr/share/syslog-ng/include/scl/hdfs/plugin.conf /usr/share/syslog-ng/include/scl/kafka/plugin.conf /usr/share/syslog-ng/include/scl/loggly/loggly.conf /usr/share/syslog-ng/include/scl/logmatic/logmatic.conf /usr/share/syslog-ng/include/scl/mbox/mbox.conf /usr/share/syslog-ng/include/scl/nodejs/plugin.conf /usr/share/syslog-ng/include/scl/pacct/plugin.conf /usr/share/syslog-ng/include/scl/rewrite/cc-mask.conf /usr/share/syslog-ng/include/scl/solaris/plugin.conf /usr/share/syslog-ng/include/scl/syslogconf/README /usr/share/syslog-ng/include/scl/syslogconf/convert-syslogconf.awk /usr/share/syslog-ng/include/scl/syslogconf/plugin.conf /usr/share/syslog-ng/include/scl/system/plugin.conf /usr/share/syslog-ng/tools/cfg-grammar.y /usr/share/syslog-ng/tools/lex-rules.am /usr/share/syslog-ng/tools/merge-grammar.pl /usr/share/syslog-ng/tools/system-expand.sh /usr/share/syslog-ng/xsd/patterndb-1.xsd /usr/share/syslog-ng/xsd/patterndb-2.xsd /usr/share/syslog-ng/xsd/patterndb-3.xsd /usr/share/syslog-ng/xsd/patterndb-4.xsd /usr/share/syslog-ng/xsd/patterndb-5.xsd

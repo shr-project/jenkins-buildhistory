@@ -1,10 +1,10 @@
-PV = 3.6.4
+PV = 3.8.1
 PR = r0
-PKG = libsyslog-ng-3.5-dbg
-PKGR = r0.55
-RPROVIDES = syslog-ng-libs-dbg (=3.6.4)
+PKG = libsyslog-ng-3.8-dbg
+PKGR = r0.0
+RPROVIDES = syslog-ng-libs-dbg (=3.8.1)
 RDEPENDS = 
-RRECOMMENDS = eventlog-dbg glib-2.0-dbg glibc-dbg libcap-dbg libcrypto-dbg liblzma-dbg libpcre-dbg libssl-dbg libsystemd-dbg util-linux-libuuid-dbg
+RRECOMMENDS = eventlog-dbg glib-2.0-dbg glibc-dbg libcrypto-dbg libpcre-dbg libssl-dbg libsystemd-dbg util-linux-libuuid-dbg
 PKGSIZE = 0
 FILES = /usr/lib/syslog-ng/.debug
 FILELIST = 
