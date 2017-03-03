@@ -1,9 +1,9 @@
 PV = 1.2.5+gitrAUTOINC+62da9d28c6
 PR = r0
 PKGV = 1.0.0-7677-g62da9d2
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = freerdp (= 1.0.0-7677-g62da9d2-r0.7) libfreerdp
+RDEPENDS = freerdp (= 1.0.0-7677-g62da9d2-r0.8) libfreerdp
 RRECOMMENDS = alsa-lib-dev cups-dev cups-lib-dev glib-2.0-dev glibc-dev gstreamer1.0-dev gstreamer1.0-plugins-base-dev libasound-dev libcrypto-dev libfreerdp-dev libgstapp-1.0-dev libgstvideo-1.0-dev libssl-dev libx11-dev libxcursor-dev libxdamage-dev libxext-dev libxfixes-dev libxi-dev libxinerama-dev libxkbfile-dev libxrandr-dev libxrender-dev libxv-dev openssl-dev pcsc-lite-dev pulseaudio-dev wayland-dev
 PKGSIZE = 1401895
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/freerdp/*.la /lib/*.la

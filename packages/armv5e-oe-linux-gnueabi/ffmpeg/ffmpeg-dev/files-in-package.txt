@@ -1,4 +1,4 @@
-drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              200 ./usr/include
 drwxr-xr-x root       root              380 ./usr/include/libavcodec
 -rw-r--r-- root       root           210783 ./usr/include/libavcodec/avcodec.h
@@ -28,7 +28,7 @@ drwxr-xr-x root       root              140 ./usr/include/libavfilter
 -rw-r--r-- root       root             6318 ./usr/include/libavfilter/buffersrc.h
 -rw-r--r-- root       root             2588 ./usr/include/libavfilter/version.h
 drwxr-xr-x root       root              100 ./usr/include/libavformat
--rw-r--r-- root       root           115148 ./usr/include/libavformat/avformat.h
+-rw-r--r-- root       root           115318 ./usr/include/libavformat/avformat.h
 -rw-r--r-- root       root            29676 ./usr/include/libavformat/avio.h
 -rw-r--r-- root       root             3459 ./usr/include/libavformat/version.h
 drwxr-xr-x root       root             1520 ./usr/include/libavutil
@@ -70,7 +70,7 @@ drwxr-xr-x root       root             1520 ./usr/include/libavutil
 -rw-r--r-- root       root             1557 ./usr/include/libavutil/hwcontext_qsv.h
 -rw-r--r-- root       root             2457 ./usr/include/libavutil/hwcontext_vaapi.h
 -rw-r--r-- root       root             1360 ./usr/include/libavutil/hwcontext_vdpau.h
--rw-r--r-- root       root             8329 ./usr/include/libavutil/imgutils.h
+-rw-r--r-- root       root             9028 ./usr/include/libavutil/imgutils.h
 -rw-r--r-- root       root             1726 ./usr/include/libavutil/intfloat.h
 -rw-r--r-- root       root            18346 ./usr/include/libavutil/intreadwrite.h
 -rw-r--r-- root       root             1986 ./usr/include/libavutil/lfg.h
@@ -115,3 +115,21 @@ drwxr-xr-x root       root               80 ./usr/include/libswresample
 drwxr-xr-x root       root               80 ./usr/include/libswscale
 -rw-r--r-- root       root            12015 ./usr/include/libswscale/swscale.h
 -rw-r--r-- root       root             1927 ./usr/include/libswscale/version.h
+drwxr-xr-x root       root              220 ./usr/lib
+lrwxrwxrwx root       root               23 ./usr/lib/libavcodec.so -> libavcodec.so.57.64.101
+lrwxrwxrwx root       root               23 ./usr/lib/libavdevice.so -> libavdevice.so.57.1.100
+lrwxrwxrwx root       root               23 ./usr/lib/libavfilter.so -> libavfilter.so.6.65.100
+lrwxrwxrwx root       root               24 ./usr/lib/libavformat.so -> libavformat.so.57.56.101
+lrwxrwxrwx root       root               22 ./usr/lib/libavutil.so -> libavutil.so.55.34.101
+lrwxrwxrwx root       root               23 ./usr/lib/libpostproc.so -> libpostproc.so.54.1.100
+lrwxrwxrwx root       root               24 ./usr/lib/libswresample.so -> libswresample.so.2.3.100
+lrwxrwxrwx root       root               21 ./usr/lib/libswscale.so -> libswscale.so.4.2.100
+drwxr-xr-x root       root              200 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              423 ./usr/lib/pkgconfig/libavcodec.pc
+-rw-r--r-- root       root              558 ./usr/lib/pkgconfig/libavdevice.pc
+-rw-r--r-- root       root              539 ./usr/lib/pkgconfig/libavfilter.pc
+-rw-r--r-- root       root              461 ./usr/lib/pkgconfig/libavformat.pc
+-rw-r--r-- root       root              263 ./usr/lib/pkgconfig/libavutil.pc
+-rw-r--r-- root       root              292 ./usr/lib/pkgconfig/libpostproc.pc
+-rw-r--r-- root       root              300 ./usr/lib/pkgconfig/libswresample.pc
+-rw-r--r-- root       root              293 ./usr/lib/pkgconfig/libswscale.pc

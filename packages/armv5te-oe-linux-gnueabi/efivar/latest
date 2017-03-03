@@ -1,4 +1,4 @@
 PV = 0.24
 PR = r0
-DEPENDS = efivar-native popt virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = efivar-native pkgconfig-native popt virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = efivar-dbg efivar-staticdev efivar-dev efivar-doc efivar-locale efivar
