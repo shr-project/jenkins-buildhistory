@@ -1,10 +1,10 @@
-PV = 3.2.2
+PV = 3.2.4
 PR = r0
 PKG = libpostproc54
-PKGR = r0.8
-RPROVIDES = libpostproc (=3.2.2)
-RDEPENDS = glibc (>= 2.25) libavutil (>= 3.2.2)
+PKGR = r0.0
+RPROVIDES = libpostproc (=3.2.4)
+RDEPENDS = glibc (>= 2.25) libavutil (>= 3.2.4)
 RRECOMMENDS = 
 PKGSIZE = 113031
-FILES = /usr/lib/libpostproc.so.54 /usr/lib/libpostproc.so.54.1.100
+FILES = /usr/lib/libpostproc.so.*
 FILELIST = /usr/lib/libpostproc.so.54 /usr/lib/libpostproc.so.54.1.100
