@@ -10,10 +10,10 @@ drwxr-xr-x root       root              140 ./usr/lib/python2.7/site-packages/WT
 -rw-r--r-- root       root             5928 ./usr/lib/python2.7/site-packages/WTForms-2.1-py2.7.egg-info/SOURCES.txt
 -rw-r--r-- root       root                8 ./usr/lib/python2.7/site-packages/WTForms-2.1-py2.7.egg-info/top_level.txt
 -rw-r--r-- root       root              589 ./usr/lib/python2.7/site-packages/wtforms/compat.py
--rw-r--r-- root       root             1382 ./usr/lib/python2.7/site-packages/wtforms/compat.pyc
+-rw-r--r-- root       root             1324 ./usr/lib/python2.7/site-packages/wtforms/compat.pyc
 drwxr-xr-x root       root              160 ./usr/lib/python2.7/site-packages/wtforms/csrf
 -rw-r--r-- root       root             3157 ./usr/lib/python2.7/site-packages/wtforms/csrf/core.py
--rw-r--r-- root       root             4498 ./usr/lib/python2.7/site-packages/wtforms/csrf/core.pyc
+-rw-r--r-- root       root             4480 ./usr/lib/python2.7/site-packages/wtforms/csrf/core.pyc
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/wtforms/csrf/__init__.py
 -rw-r--r-- root       root              144 ./usr/lib/python2.7/site-packages/wtforms/csrf/__init__.pyc
 -rw-r--r-- root       root             3056 ./usr/lib/python2.7/site-packages/wtforms/csrf/session.py
@@ -50,7 +50,7 @@ drwxr-xr-x root       root              220 ./usr/lib/python2.7/site-packages/wt
 -rw-r--r-- root       root              259 ./usr/lib/python2.7/site-packages/wtforms/ext/django/__init__.py
 -rw-r--r-- root       root              419 ./usr/lib/python2.7/site-packages/wtforms/ext/django/__init__.pyc
 -rw-r--r-- root       root             6096 ./usr/lib/python2.7/site-packages/wtforms/ext/django/orm.py
--rw-r--r-- root       root             8170 ./usr/lib/python2.7/site-packages/wtforms/ext/django/orm.pyc
+-rw-r--r-- root       root             8141 ./usr/lib/python2.7/site-packages/wtforms/ext/django/orm.pyc
 drwxr-xr-x root       root              120 ./usr/lib/python2.7/site-packages/wtforms/ext/django/templatetags
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/wtforms/ext/django/templatetags/__init__.py
 -rw-r--r-- root       root              163 ./usr/lib/python2.7/site-packages/wtforms/ext/django/templatetags/__init__.pyc
@@ -62,7 +62,7 @@ drwxr-xr-x root       root              160 ./usr/lib/python2.7/site-packages/wt
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/wtforms/ext/i18n/__init__.py
 -rw-r--r-- root       root              148 ./usr/lib/python2.7/site-packages/wtforms/ext/i18n/__init__.pyc
 -rw-r--r-- root       root              530 ./usr/lib/python2.7/site-packages/wtforms/ext/i18n/utils.py
--rw-r--r-- root       root              836 ./usr/lib/python2.7/site-packages/wtforms/ext/i18n/utils.pyc
+-rw-r--r-- root       root              760 ./usr/lib/python2.7/site-packages/wtforms/ext/i18n/utils.pyc
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/wtforms/ext/__init__.py
 -rw-r--r-- root       root              143 ./usr/lib/python2.7/site-packages/wtforms/ext/__init__.pyc
 drwxr-xr-x root       root              160 ./usr/lib/python2.7/site-packages/wtforms/ext/sqlalchemy
@@ -76,13 +76,13 @@ drwxr-xr-x root       root              200 ./usr/lib/python2.7/site-packages/wt
 -rw-r--r-- root       root            33637 ./usr/lib/python2.7/site-packages/wtforms/fields/core.py
 -rw-r--r-- root       root            42114 ./usr/lib/python2.7/site-packages/wtforms/fields/core.pyc
 -rw-r--r-- root       root             1855 ./usr/lib/python2.7/site-packages/wtforms/fields/html5.py
--rw-r--r-- root       root             3891 ./usr/lib/python2.7/site-packages/wtforms/fields/html5.pyc
+-rw-r--r-- root       root             3756 ./usr/lib/python2.7/site-packages/wtforms/fields/html5.pyc
 -rw-r--r-- root       root              219 ./usr/lib/python2.7/site-packages/wtforms/fields/__init__.py
 -rw-r--r-- root       root              424 ./usr/lib/python2.7/site-packages/wtforms/fields/__init__.pyc
 -rw-r--r-- root       root             1848 ./usr/lib/python2.7/site-packages/wtforms/fields/simple.py
--rw-r--r-- root       root             3229 ./usr/lib/python2.7/site-packages/wtforms/fields/simple.pyc
+-rw-r--r-- root       root             3151 ./usr/lib/python2.7/site-packages/wtforms/fields/simple.pyc
 -rw-r--r-- root       root            11608 ./usr/lib/python2.7/site-packages/wtforms/form.py
--rw-r--r-- root       root            13399 ./usr/lib/python2.7/site-packages/wtforms/form.pyc
+-rw-r--r-- root       root            13387 ./usr/lib/python2.7/site-packages/wtforms/form.pyc
 -rw-r--r-- root       root             2175 ./usr/lib/python2.7/site-packages/wtforms/i18n.py
 -rw-r--r-- root       root             3310 ./usr/lib/python2.7/site-packages/wtforms/i18n.pyc
 -rw-r--r-- root       root              403 ./usr/lib/python2.7/site-packages/wtforms/__init__.py
@@ -191,6 +191,6 @@ drwxr-xr-x root       root              160 ./usr/lib/python2.7/site-packages/wt
 -rw-r--r-- root       root             9973 ./usr/lib/python2.7/site-packages/wtforms/widgets/core.py
 -rw-r--r-- root       root            14223 ./usr/lib/python2.7/site-packages/wtforms/widgets/core.pyc
 -rw-r--r-- root       root             2440 ./usr/lib/python2.7/site-packages/wtforms/widgets/html5.py
--rw-r--r-- root       root             5144 ./usr/lib/python2.7/site-packages/wtforms/widgets/html5.pyc
+-rw-r--r-- root       root             5008 ./usr/lib/python2.7/site-packages/wtforms/widgets/html5.pyc
 -rw-r--r-- root       root              124 ./usr/lib/python2.7/site-packages/wtforms/widgets/__init__.py
 -rw-r--r-- root       root              289 ./usr/lib/python2.7/site-packages/wtforms/widgets/__init__.pyc

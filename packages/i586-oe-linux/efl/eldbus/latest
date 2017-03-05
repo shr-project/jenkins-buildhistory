@@ -2,9 +2,9 @@ PE = 2
 PV = 1.15.1
 PR = r0
 PKG = libeldbus1
-PKGR = r0.6
+PKGR = r0.8
 RPROVIDES = eldbus (=1.15.1)
-RDEPENDS = dbus-lib (>= 1.10.14) ecore (>= 1.15.1) efl (>= 1.15.1) eina (>= 1.15.1) eo (>= 1.15.1) glib-2.0 (>= 2.50.2) glibc (>= 2.25) libunwind (>= 1.1+git0+bc8698fd7e)
+RDEPENDS = dbus-lib (>= 1.10.14) ecore (>= 1.15.1) efl (>= 1.15.1) eina (>= 1.15.1) eo (>= 1.15.1) glib-2.0 (>= 2.50.3) glibc (>= 2.25) libunwind (>= 1.1+git0+bc8698fd7e)
 RRECOMMENDS = 
 PKGSIZE = 191011
 FILES = /usr/lib/libeldbus.so.*

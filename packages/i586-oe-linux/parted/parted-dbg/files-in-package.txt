@@ -1,8 +1,17 @@
 drwxr-xr-x root       root              100 ./usr
-drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/.debug
 -rwxr-xr-x root       root           274888 ./usr/lib/.debug/libparted-fs-resize.so.0.0.1
 -rwxr-xr-x root       root           900532 ./usr/lib/.debug/libparted.so.2.0.1
+drwxr-xr-x root       root               60 ./usr/lib/parted
+drwxr-xr-x root       root               60 ./usr/lib/parted/ptest
+drwxr-xr-x root       root               60 ./usr/lib/parted/ptest/tests
+drwxr-xr-x root       root              140 ./usr/lib/parted/ptest/tests/.debug
+-rwxr-xr-x root       root            29516 ./usr/lib/parted/ptest/tests/.debug/dup-clobber
+-rwxr-xr-x root       root            22636 ./usr/lib/parted/ptest/tests/.debug/duplicate
+-rwxr-xr-x root       root            13660 ./usr/lib/parted/ptest/tests/.debug/fs-resize
+-rwxr-xr-x root       root            18040 ./usr/lib/parted/ptest/tests/.debug/print-align
+-rwxr-xr-x root       root            18488 ./usr/lib/parted/ptest/tests/.debug/print-max
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               80 ./usr/sbin/.debug
 -rwxr-xr-x root       root           143252 ./usr/sbin/.debug/parted
@@ -25,7 +34,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/parted/3.2-r1/build/
 drwxr-xr-x root       root               80 ./usr/src/debug/parted/3.2-r1/build/parted
 -r--r--r-- root       root               49 ./usr/src/debug/parted/3.2-r1/build/parted/version.c
 -r--r--r-- root       root               28 ./usr/src/debug/parted/3.2-r1/build/parted/version.h
-drwxr-xr-x root       root              140 ./usr/src/debug/parted/3.2-r1/parted-3.2
+drwxr-xr-x root       root              160 ./usr/src/debug/parted/3.2-r1/parted-3.2
 drwxr-xr-x root       root               60 ./usr/src/debug/parted/3.2-r1/parted-3.2/include
 drwxr-xr-x root       root              280 ./usr/src/debug/parted/3.2-r1/parted-3.2/include/parted
 -r--r--r-- root       root             2759 ./usr/src/debug/parted/3.2-r1/parted-3.2/include/parted/constraint.h
@@ -75,7 +84,7 @@ drwxr-xr-x root       root              320 ./usr/src/debug/parted/3.2-r1/parted
 drwxr-xr-x root       root               80 ./usr/src/debug/parted/3.2-r1/parted-3.2/libparted/arch
 -rw-r--r-- root       root             1297 ./usr/src/debug/parted/3.2-r1/parted-3.2/libparted/architecture.c
 -rw-r--r-- root       root             1202 ./usr/src/debug/parted/3.2-r1/parted-3.2/libparted/architecture.h
--rw-r--r-- root       root           107654 ./usr/src/debug/parted/3.2-r1/parted-3.2/libparted/arch/linux.c
+-rw-r--r-- root       root           107681 ./usr/src/debug/parted/3.2-r1/parted-3.2/libparted/arch/linux.c
 -rw-r--r-- root       root             1353 ./usr/src/debug/parted/3.2-r1/parted-3.2/libparted/arch/linux.h
 drwxr-xr-x root       root              100 ./usr/src/debug/parted/3.2-r1/parted-3.2/libparted/cs
 -rw-r--r-- root       root            14523 ./usr/src/debug/parted/3.2-r1/parted-3.2/libparted/cs/constraint.c
@@ -227,3 +236,9 @@ drwxr-xr-x root       root              220 ./usr/src/debug/parted/3.2-r1/parted
 -rw-r--r-- root       root             3560 ./usr/src/debug/parted/3.2-r1/parted-3.2/parted/ui.h
 drwxr-xr-x root       root               60 ./usr/src/debug/parted/3.2-r1/parted-3.2/partprobe
 -rw-r--r-- root       root             5088 ./usr/src/debug/parted/3.2-r1/parted-3.2/partprobe/partprobe.c
+drwxr-xr-x root       root              140 ./usr/src/debug/parted/3.2-r1/parted-3.2/tests
+-rw-r--r-- root       root             2536 ./usr/src/debug/parted/3.2-r1/parted-3.2/tests/dup-clobber.c
+-rw-r--r-- root       root             5281 ./usr/src/debug/parted/3.2-r1/parted-3.2/tests/duplicate.c
+-rw-r--r-- root       root             1432 ./usr/src/debug/parted/3.2-r1/parted-3.2/tests/fs-resize.c
+-rw-r--r-- root       root             1161 ./usr/src/debug/parted/3.2-r1/parted-3.2/tests/print-align.c
+-rw-r--r-- root       root             1158 ./usr/src/debug/parted/3.2-r1/parted-3.2/tests/print-max.c
