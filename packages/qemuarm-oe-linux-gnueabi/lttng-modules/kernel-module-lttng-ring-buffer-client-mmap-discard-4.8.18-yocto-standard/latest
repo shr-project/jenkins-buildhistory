@@ -1,9 +1,9 @@
-PV = 2.9.0
+PV = 2.9.1
 PR = r0
-PKGR = r0.10
+PKGR = r0.0
 RPROVIDES = kernel-module-lttng-ring-buffer-client-mmap-discard
 RDEPENDS = kernel-4.8.18-yocto-standard kernel-module-lttng-clock-4.8.18-yocto-standard kernel-module-lttng-lib-ring-buffer-4.8.18-yocto-standard kernel-module-lttng-tracer-4.8.18-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 19948
+PKGSIZE = 19160
 FILES = /lib/modules/4.8.18-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-client-mmap-discard.ko /etc/modules-load.d/lttng-ring-buffer-client-mmap-discard.conf /etc/modprobe.d/lttng-ring-buffer-client-mmap-discard.conf
 FILELIST = /lib/modules/4.8.18-yocto-standard/kernel/lttng-modules/lttng-ring-buffer-client-mmap-discard.ko
