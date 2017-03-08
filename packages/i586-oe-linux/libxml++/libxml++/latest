@@ -1,10 +1,10 @@
-PV = 2.38.1
+PV = 2.40.1
 PR = r0
 PKG = libxml++-2.6-2
-PKGR = r0.4
-RPROVIDES = libxml++ (=2.38.1)
+PKGR = r0.0
+RPROVIDES = libxml++ (=2.40.1)
 RDEPENDS = glib-2.0 (>= 2.50.3) glibc (>= 2.25) glibmm (>= 2.50.0) libgcc (>= 6.3.0) libsigc++-2.0 (>= 2.10.0) libstdc++ (>= 6.3.0) libxml2 (>= 2.9.4)
 RRECOMMENDS = 
-PKGSIZE = 200313
+PKGSIZE = 200353
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxml++ /usr/lib/libxml++/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libxml++-2.6.so.2 /usr/lib/libxml++-2.6.so.2.0.7
