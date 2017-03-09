@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.15.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.10.14) ecore (>= 1.15.1) ecore-input (>= 1.15.1) eina (>= 1.15.1) eldbus (>= 1.15.1) eo (>= 1.15.1) glib-2.0 (>= 2.50.3) glibc (>= 2.25) libcrypto (>= 1.0.2k) libjpeg-turbo (>= 1.5.1) libssl (>= 1.0.2k) libunwind (>= 1.1+git0+bc8698fd7e) libxkbcommon (>= 0.7.1) luajit (>= 2.0.4) wayland (>= 1.13.0) zlib (>= 1.2.8)
+RDEPENDS = dbus-lib (>= 1.10.14) ecore (>= 1.15.1) ecore-input (>= 1.15.1) eina (>= 1.15.1) eldbus (>= 1.15.1) eo (>= 1.15.1) glib-2.0 (>= 2.50.3) glibc (>= 2.25) libcrypto (>= 1.0.2k) libjpeg-turbo (>= 1.5.1) libssl (>= 1.0.2k) libunwind (>= 1.1+git0+bc8698fd7e) libxkbcommon (>= 0.7.1) luajit (>= 2.0.4) wayland (>= 1.13.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 595648
 FILES = /usr/lib/*.so.* /usr/lib/edje/modules/efl/*/module.so /usr/lib/efl/plugins/*.so /usr/share/dbus-1/services/*
