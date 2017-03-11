@@ -24,7 +24,7 @@ drwxr-xr-x root       root              380 ./usr/lib/systemd/ptest/tests/catalo
 -rwxr-xr-x root       root            10836 ./usr/lib/systemd/ptest/tests/catalog/systemd.sr.catalog.in
 -rwxr-xr-x root       root             7542 ./usr/lib/systemd/ptest/tests/catalog/systemd.zh_CN.catalog.in
 -rwxr-xr-x root       root             7456 ./usr/lib/systemd/ptest/tests/catalog/systemd.zh_TW.catalog.in
--rwxr-xr-x root       root          1719712 ./usr/lib/systemd/ptest/tests/Makefile
+-rwxr-xr-x root       root          1719943 ./usr/lib/systemd/ptest/tests/Makefile
 drwxr-xr-x root       root               60 ./usr/lib/systemd/ptest/tests/rules
 -rwxr-xr-x root       root             3920 ./usr/lib/systemd/ptest/tests/rules/99-systemd.rules
 drwxr-xr-x root       root             1200 ./usr/lib/systemd/ptest/tests/test
@@ -120,8 +120,8 @@ drwxr-xr-x root       root              180 ./usr/lib/systemd/ptest/tests/test/b
 -rw-r--r-- root       root               68 ./usr/lib/systemd/ptest/tests/test/h.service
 -rwxr-xr-x root       root            14560 ./usr/lib/systemd/ptest/tests/test-id128
 -rwxr-xr-x root       root            10464 ./usr/lib/systemd/ptest/tests/test-inhibit
--rwxr-xr-x root       root            14560 ./usr/lib/systemd/ptest/tests/test-install
--rwxr-xr-x root       root            59624 ./usr/lib/systemd/ptest/tests/test-install-root
+-rwxr-xr-x root       root            14640 ./usr/lib/systemd/ptest/tests/test-install
+-rwxr-xr-x root       root            59696 ./usr/lib/systemd/ptest/tests/test-install-root
 -rwxr-xr-x root       root            10464 ./usr/lib/systemd/ptest/tests/test-io-util
 -rwxr-xr-x root       root             6368 ./usr/lib/systemd/ptest/tests/test-ipcrm
 -rwxr-xr-x root       root            26848 ./usr/lib/systemd/ptest/tests/test-ipv4ll
@@ -169,7 +169,7 @@ drwxr-xr-x root       root               60 ./usr/lib/systemd/ptest/tests/test/m
 -rwxr-xr-x root       root            30944 ./usr/lib/systemd/ptest/tests/test-netlink
 -rwxr-xr-x root       root            14568 ./usr/lib/systemd/ptest/tests/test-netlink-manual
 -rwxr-xr-x root       root            22824 ./usr/lib/systemd/ptest/tests/test-ns
--rwxr-xr-x root       root            92712 ./usr/lib/systemd/ptest/tests/test-nss
+-rwxr-xr-x root       root            92784 ./usr/lib/systemd/ptest/tests/test-nss
 -rw-r--r-- root       root               63 ./usr/lib/systemd/ptest/tests/test/parent-deep.slice
 -rw-r--r-- root       root               54 ./usr/lib/systemd/ptest/tests/test/parent.slice
 -rwxr-xr-x root       root            30944 ./usr/lib/systemd/ptest/tests/test-parse-util
@@ -192,7 +192,7 @@ drwxr-xr-x root       root               60 ./usr/lib/systemd/ptest/tests/test/m
 -rw-r--r-- root       root              158 ./usr/lib/systemd/ptest/tests/test/sched_rr_change.service
 -rw-r--r-- root       root               93 ./usr/lib/systemd/ptest/tests/test/sched_rr_ok.service
 -rwxr-xr-x root       root            10464 ./usr/lib/systemd/ptest/tests/test-selinux
--rwxr-xr-x root       root            10464 ./usr/lib/systemd/ptest/tests/test-set
+-rwxr-xr-x root       root            10536 ./usr/lib/systemd/ptest/tests/test-set
 -rw-r--r-- root       root              402 ./usr/lib/systemd/ptest/tests/test/shutdown.target
 -rwxr-xr-x root       root            10464 ./usr/lib/systemd/ptest/tests/test-sigbus
 -rwxr-xr-x root       root            10472 ./usr/lib/systemd/ptest/tests/test-signal-util

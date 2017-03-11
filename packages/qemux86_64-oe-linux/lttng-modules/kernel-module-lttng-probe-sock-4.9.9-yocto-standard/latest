@@ -1,9 +1,0 @@
-PV = 2.9.0
-PR = r0
-PKGR = r0.9
-RPROVIDES = kernel-module-lttng-probe-sock
-RDEPENDS = kernel-4.9.9-yocto-standard kernel-module-lttng-lib-ring-buffer-4.9.9-yocto-standard kernel-module-lttng-tracer-4.9.9-yocto-standard
-RRECOMMENDS = 
-PKGSIZE = 9600
-FILES = /lib/modules/4.9.9-yocto-standard/kernel/lttng-modules/probes/lttng-probe-sock.ko /etc/modules-load.d/lttng-probe-sock.conf /etc/modprobe.d/lttng-probe-sock.conf
-FILELIST = /lib/modules/4.9.9-yocto-standard/kernel/lttng-modules/probes/lttng-probe-sock.ko
