@@ -23,7 +23,7 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              140 ./usr/lib/.debug
 -rwxr-xr-x root       root           824752 ./usr/lib/.debug/libnetsnmpagent.so.30.0.3
 -rwxr-xr-x root       root             4896 ./usr/lib/.debug/libnetsnmphelpers.so.30.0.3
--rwxr-xr-x root       root          2529120 ./usr/lib/.debug/libnetsnmpmibs.so.30.0.3
+-rwxr-xr-x root       root          2529560 ./usr/lib/.debug/libnetsnmpmibs.so.30.0.3
 -rwxr-xr-x root       root          1118072 ./usr/lib/.debug/libnetsnmp.so.30.0.3
 -rwxr-xr-x root       root            67480 ./usr/lib/.debug/libnetsnmptrapd.so.30.0.3
 drwxr-xr-x root       root               60 ./usr/sbin
@@ -172,9 +172,9 @@ drwxr-xr-x root       root              100 ./usr/src/debug/net-snmp/5.7.3-r0/ne
 -rw-rw-r-- root       root             4392 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/header_complex.h
 drwxr-xr-x root       root              600 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/host
 drwxr-xr-x root       root              160 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/host/data_access
--rw-rw-r-- root       root             2778 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/host/data_access/swinst_apt.c
 -rw-rw-r-- root       root             5452 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/host/data_access/swinst.c
 -rw-rw-r-- root       root             1199 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/host/data_access/swinst.h
+-rw-rw-r-- root       root             6113 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/host/data_access/swinst_pkginfo.c
 -rw-rw-r-- root       root             8466 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/host/data_access/swrun.c
 -rw-rw-r-- root       root             1617 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/host/data_access/swrun.h
 -rw-rw-r-- root       root             6710 ./usr/src/debug/net-snmp/5.7.3-r0/net-snmp-5.7.3/agent/mibgroup/host/data_access/swrun_procfs_status.c

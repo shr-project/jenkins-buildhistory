@@ -1,10 +1,10 @@
-PV = 3.1.0+gitrAUTOINC+6d68d21243
+PV = 4.0.1+gitrAUTOINC+2fc92b5f02
 PR = r0
-PKGV = 3.1.0+gitr0+6d68d21243
-PKGR = r0.12
+PKGV = 4.0.1+gitr0+2fc92b5f02
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.25) libgcc (>= 6.3.0) libstdc++ (>= 6.3.0) libudev (>= 232) libx11 (>= 1.6.4) libxrandr (>= 1.5.1) ncurses-libncurses (>= 6.0+20161126) ncurses-libtinfo (>= 6.0+20161126)
 RRECOMMENDS = kernel-module-cdc-acm
-PKGSIZE = 788560
+PKGSIZE = 799846
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcec /usr/lib/libcec/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so
-FILELIST = /usr/bin/cec-client /usr/bin/cec-client-3.1.0 /usr/bin/cecc-client /usr/bin/cecc-client-3.1.0 /usr/lib/libcec.so.3 /usr/lib/libcec.so.3.1.0
+FILELIST = /usr/bin/cec-client /usr/bin/cec-client-4.0.1 /usr/bin/cecc-client /usr/bin/cecc-client-4.0.1 /usr/bin/pyCecClient.py /usr/lib/libcec.so.4 /usr/lib/libcec.so.4.0.1
