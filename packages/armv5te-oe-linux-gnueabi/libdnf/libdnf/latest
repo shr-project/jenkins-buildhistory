@@ -1,0 +1,11 @@
+PV = 0.2.3+gitAUTOINC+367545629c
+PR = r0
+PKG = libdnf1
+PKGV = 0.2.3+git0+367545629c
+PKGR = r0.0
+RPROVIDES = libdnf (=0.2.3+git0+367545629c)
+RDEPENDS = glib-2.0 (>= 2.50.3) glibc (>= 2.25) libpython2 (>= 2.7.13) librepo (>= 1.7.20+git0+e1137cbbda) libsolv (>= 0.6.26) libsolvext (>= 0.6.26) rpm (>= 4.13.90+git0+a8e51b3bb0)
+RRECOMMENDS = 
+PKGSIZE = 282732
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libdnf /usr/lib/libdnf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/python2.7/* /usr/lib/girepository-*/*.typelib
+FILELIST = /usr/lib/girepository-1.0/Dnf-1.0.typelib /usr/lib/libdnf.so.1 /usr/lib/python2.7/site-packages/hawkey/__init__.py /usr/lib/python2.7/site-packages/hawkey/_hawkeymodule.so /usr/lib/python2.7/site-packages/hawkey/test/__init__.py /usr/lib/python2.7/site-packages/hawkey/test/_hawkey_testmodule.so

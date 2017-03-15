@@ -1,9 +1,11 @@
-PV = 5.4.16
+PE = 1
+PV = 4.13.90+gitAUTOINC+a8e51b3bb0
 PR = r0
-PKGR = r0.10
+PKGV = 4.13.90+git0+a8e51b3bb0
+PKGR = r0.0
 RPROVIDES = pt-translation rpm-locale
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-pt
-PKGSIZE = 62966
+PKGSIZE = 35960
 FILES = /usr/share/locale/pt
 FILELIST = /usr/share/locale/pt/LC_MESSAGES/rpm.mo
