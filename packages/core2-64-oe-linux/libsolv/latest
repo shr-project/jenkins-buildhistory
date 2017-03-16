@@ -1,4 +1,4 @@
 PV = 0.6.26
 PR = r0
-DEPENDS = cmake-native expat virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
+DEPENDS = cmake-native expat rpm virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
 PACKAGES = libsolv-tools libsolvext libsolv-dbg libsolv-staticdev libsolv-dev libsolv-doc libsolv-locale libsolv

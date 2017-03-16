@@ -1,4 +1,4 @@
 PV = 1.6.4
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = autoconf-native automake-native gnu-config-native groff-native libtool-cross libtool-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = scsirastools-raidmon scsirastools-raidmon-dbg scsirastools-diskmon scsirastools-diskmon-dbg scsirastools-dbg scsirastools-staticdev scsirastools-dev scsirastools-doc scsirastools-locale scsirastools
