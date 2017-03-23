@@ -15,7 +15,7 @@ drwxr-xr-x root       root              140 ./lib/.debug
 -rwxr-xr-x root       root           505856 ./lib/.debug/libsmartcols.so.1.1.0
 -rwxr-xr-x root       root            49536 ./lib/.debug/libuuid.so.1.3.0
 drwxr-xr-x root       root               60 ./sbin
-drwxr-xr-x root       root              360 ./sbin/.debug
+drwxr-xr-x root       root              380 ./sbin/.debug
 -rwxr-xr-x root       root           148896 ./sbin/.debug/agetty
 -rwxr-xr-x root       root           236824 ./sbin/.debug/blkid.util-linux
 -rwxr-xr-x root       root            93120 ./sbin/.debug/blockdev.util-linux
@@ -27,6 +27,7 @@ drwxr-xr-x root       root              360 ./sbin/.debug
 -rwxr-xr-x root       root           156136 ./sbin/.debug/hwclock.util-linux
 -rwxr-xr-x root       root           212800 ./sbin/.debug/losetup.util-linux
 -rwxr-xr-x root       root           209224 ./sbin/.debug/mkswap.util-linux
+-rwxr-xr-x root       root            16432 ./sbin/.debug/nologin.util-linux
 -rwxr-xr-x root       root            19304 ./sbin/.debug/pivot_root.util-linux
 -rwxr-xr-x root       root           120432 ./sbin/.debug/sulogin.util-linux
 -rwxr-xr-x root       root            37984 ./sbin/.debug/swapoff.util-linux
@@ -178,7 +179,7 @@ drwxr-xr-x root       root             1840 ./usr/lib/util-linux/ptest/.debug
 -rwxr-xr-x root       root            49968 ./usr/lib/util-linux/ptest/.debug/whereis
 -rwxr-xr-x root       root            44280 ./usr/lib/util-linux/ptest/.debug/write
 drwxr-xr-x root       root               60 ./usr/sbin
-drwxr-xr-x root       root              480 ./usr/sbin/.debug
+drwxr-xr-x root       root              460 ./usr/sbin/.debug
 -rwxr-xr-x root       root            49424 ./usr/sbin/.debug/addpart
 -rwxr-xr-x root       root            60864 ./usr/sbin/.debug/blkdiscard
 -rwxr-xr-x root       root            54840 ./usr/sbin/.debug/chcpu
@@ -190,7 +191,6 @@ drwxr-xr-x root       root              480 ./usr/sbin/.debug
 -rwxr-xr-x root       root            63792 ./usr/sbin/.debug/ldattach
 -rwxr-xr-x root       root            21768 ./usr/sbin/.debug/mkfs
 -rwxr-xr-x root       root            91912 ./usr/sbin/.debug/mkfs.cramfs
--rwxr-xr-x root       root            16432 ./usr/sbin/.debug/nologin
 -rwxr-xr-x root       root           229440 ./usr/sbin/.debug/partx
 -rwxr-xr-x root       root            25776 ./usr/sbin/.debug/raw
 -rwxr-xr-x root       root            32424 ./usr/sbin/.debug/readprofile.util-linux
