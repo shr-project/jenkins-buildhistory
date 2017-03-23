@@ -1,9 +1,10 @@
 PV = git
 PR = r0
-PKGR = r0.14
-RPROVIDES = 
-RDEPENDS = 
+PKG = libusrsctp1
+PKGR = r0.15
+RPROVIDES = usrsctp (=git)
+RDEPENDS = glibc (>= 2.25) libcrypto (>= 1.0.2k) libssl (>= 1.0.2k)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 586955
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/usrsctp /usr/lib/usrsctp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = 
+FILELIST = /usr/lib/libusrsctp.so.1 /usr/lib/libusrsctp.so.1.0.0

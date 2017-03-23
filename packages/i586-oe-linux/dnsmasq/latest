@@ -2,3 +2,4 @@ PV = 2.76
 PR = r0
 DEPENDS = pkgconfig-native systemd-systemctl-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = dnsmasq-dbg dnsmasq-staticdev dnsmasq-dev dnsmasq-doc dnsmasq-locale dnsmasq
+LAYER = networking-layer

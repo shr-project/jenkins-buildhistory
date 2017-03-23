@@ -3,3 +3,4 @@ PV = 044+git1bc3e733f96033a508841e97fe08da7a12851782
 PR = r0
 DEPENDS = bash-completion virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = dracut-dbg dracut-staticdev dracut-dev dracut-doc dracut-locale dracut dracut-bash-completion
+LAYER = meta-initramfs
