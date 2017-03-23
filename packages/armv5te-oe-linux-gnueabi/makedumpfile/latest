@@ -2,3 +2,4 @@ PV = 1.6.1
 PR = r0
 DEPENDS = bzip2 elfutils virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc zlib
 PACKAGES = makedumpfile-tools makedumpfile-dbg makedumpfile-staticdev makedumpfile-dev makedumpfile-doc makedumpfile-locale makedumpfile
+LAYER = openembedded-layer

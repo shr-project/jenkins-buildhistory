@@ -1,4 +1,5 @@
-PV = 0.13.3
+PV = 0.13.6+gitAUTOINC+c167c5a9e0
 PR = r0
-DEPENDS = autoconf-native automake-native cppunit gnu-config-native libsigc++-2.0 libtool-cross libtool-native openssl pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = autoconf-native automake-native cppunit gnu-config-native libsigc++-2.0 libtool-cross libtool-native openssl pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc zlib
 PACKAGES = libtorrent-dbg libtorrent-staticdev libtorrent-dev libtorrent-doc libtorrent-locale libtorrent
+LAYER = openembedded-layer

@@ -1,0 +1,5 @@
+PV = 1.8
+PR = r0
+DEPENDS = go-bootstrap-native libgcc virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = go-dbg go-staticdev go-dev go-doc go-locale go
+LAYER = core

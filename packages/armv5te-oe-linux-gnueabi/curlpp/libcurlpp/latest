@@ -1,9 +1,10 @@
-PV = 0.7.3
+PV = 0.8.1
 PR = r0
-PKGR = r0.15
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) gnutls (>= 3.5.9) libcurl (>= 7.53.1) libgcc (>= 6.3.0) libstdc++ (>= 6.3.0) nettle (>= 3.3) zlib (>= 1.2.11)
+PKG = libcurlpp1
+PKGR = r0.0
+RPROVIDES = libcurlpp (=0.8.1)
+RDEPENDS = glibc (>= 2.25) libcurl (>= 7.53.1) libgcc (>= 6.3.0) libstdc++ (>= 6.3.0)
 RRECOMMENDS = 
-PKGSIZE = 215481
+PKGSIZE = 59942
 FILES = /usr/lib/lib*.so.*
-FILELIST = /usr/lib/libcurlpp.so.0 /usr/lib/libcurlpp.so.0.0.2 /usr/lib/libutilspp.so.0 /usr/lib/libutilspp.so.0.0.0
+FILELIST = /usr/lib/libcurlpp.so.1 /usr/lib/libcurlpp.so.1.0.0

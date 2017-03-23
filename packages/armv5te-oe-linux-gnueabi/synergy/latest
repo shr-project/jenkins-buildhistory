@@ -2,3 +2,4 @@ PV = 1.7.3+1.7.4-rc8+AUTOINC+588fb4b805
 PR = r0
 DEPENDS = cmake-native curl libxinerama libxtst openssl unzip-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc virtual/libx11
 PACKAGES = synergy-dbg synergy-staticdev synergy-dev synergy-doc synergy-locale synergy
+LAYER = openembedded-layer

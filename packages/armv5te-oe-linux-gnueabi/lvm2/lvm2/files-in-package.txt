@@ -10,7 +10,7 @@ drwxr-xr-x root       root              180 ./etc/lvm/profile
 -r--r--r-- root       root              828 ./etc/lvm/profile/metadata_profile_template.profile
 -r--r--r-- root       root               76 ./etc/lvm/profile/thin-generic.profile
 -r--r--r-- root       root               80 ./etc/lvm/profile/thin-performance.profile
-drwxr-xr-x root       root               80 ./lib
+drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root              180 ./lib/systemd/system
 -r--r--r-- root       root              379 ./lib/systemd/system/blk-availability.service
@@ -20,13 +20,6 @@ drwxr-xr-x root       root              180 ./lib/systemd/system
 -r--r--r-- root       root              215 ./lib/systemd/system/lvm2-lvmetad.socket
 -r--r--r-- root       root              666 ./lib/systemd/system/lvm2-monitor.service
 -r--r--r-- root       root              390 ./lib/systemd/system/lvm2-pvscan@.service
-drwxr-xr-x root       root               60 ./lib/udev
-drwxr-xr-x root       root              140 ./lib/udev/rules.d
--r--r--r-- root       root             7266 ./lib/udev/rules.d/10-dm.rules
--r--r--r-- root       root             2454 ./lib/udev/rules.d/11-dm-lvm.rules
--r--r--r-- root       root             1499 ./lib/udev/rules.d/13-dm-disk.rules
--r--r--r-- root       root             4356 ./lib/udev/rules.d/69-dm-lvm-metad.rules
--r--r--r-- root       root              483 ./lib/udev/rules.d/95-dm-notify.rules
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              140 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/lib/device-mapper
@@ -38,9 +31,8 @@ drwxr-xr-x root       root              120 ./usr/lib/device-mapper
 -r-xr-xr-x root       root            22328 ./usr/lib/libdevmapper-event.so.1.02
 -r-xr-xr-x root       root           886676 ./usr/lib/liblvm2app.so.2.2
 -r-xr-xr-x root       root          1162876 ./usr/lib/liblvm2cmd.so.2.02
-drwxr-xr-x root       root             1020 ./usr/sbin
+drwxr-xr-x root       root             1000 ./usr/sbin
 -r-xr-xr-x root       root            34516 ./usr/sbin/dmeventd
--r-xr-xr-x root       root           127168 ./usr/sbin/dmsetup
 lrwxrwxrwx root       root                7 ./usr/sbin/dmstats -> dmsetup
 lrwxrwxrwx root       root                3 ./usr/sbin/lvchange -> lvm
 lrwxrwxrwx root       root                3 ./usr/sbin/lvconvert -> lvm

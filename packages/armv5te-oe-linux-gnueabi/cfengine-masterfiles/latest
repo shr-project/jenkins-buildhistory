@@ -2,3 +2,4 @@ PV = 3.9.0
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = cfengine-masterfiles-dbg cfengine-masterfiles-staticdev cfengine-masterfiles-dev cfengine-masterfiles-doc cfengine-masterfiles-locale cfengine-masterfiles
+LAYER = openembedded-layer

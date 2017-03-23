@@ -2,3 +2,4 @@ PV = 0.23
 PR = r0
 DEPENDS = python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = python-markupsafe-dbg python-markupsafe-staticdev python-markupsafe-dev python-markupsafe-doc python-markupsafe-locale python-markupsafe
+LAYER = meta-python

@@ -2,3 +2,4 @@ PV = 2.7.4
 PR = r0
 DEPENDS = python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = python-whoosh-dbg python-whoosh-staticdev python-whoosh-dev python-whoosh-doc python-whoosh-locale python-whoosh
+LAYER = meta-python

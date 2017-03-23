@@ -2,3 +2,4 @@ PV = 1.3.17
 PR = r0
 DEPENDS = cmake-native openssl virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = mbedtls-dbg mbedtls-staticdev mbedtls-dev mbedtls-doc mbedtls-locale mbedtls
+LAYER = networking-layer

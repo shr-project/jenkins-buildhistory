@@ -2,3 +2,4 @@ PV = 3.1.1
 PR = r0
 DEPENDS = base-files base-passwd icu libpcre openssl postfix-native shadow shadow-native shadow-sysroot systemd-systemctl-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/db virtual/libc virtual/update-alternatives
 PACKAGES = postfix-dbg postfix-staticdev postfix-dev postfix-doc postfix-locale postfix
+LAYER = networking-layer

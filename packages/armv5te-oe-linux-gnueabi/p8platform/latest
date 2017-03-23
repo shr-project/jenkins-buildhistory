@@ -2,3 +2,4 @@ PV = 2.1.0
 PR = r0
 DEPENDS = cmake-native pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = p8platform-dbg p8platform-staticdev p8platform-dev p8platform-doc p8platform-locale p8platform
+LAYER = openembedded-layer

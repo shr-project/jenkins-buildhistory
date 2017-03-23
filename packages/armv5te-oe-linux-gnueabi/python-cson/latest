@@ -2,3 +2,4 @@ PV = git
 PR = r0
 DEPENDS = python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = python-cson-dbg python-cson-staticdev python-cson-dev python-cson-doc python-cson-locale python-cson
+LAYER = meta-python
