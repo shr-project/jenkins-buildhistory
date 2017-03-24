@@ -1,1 +1,1 @@
-#!/bin/sh\n# Begin section update-alternatives\nupdate-alternatives --install /usr/share/man/man1/hostname.1 hostname.1 /usr/share/man/man1/hostname.1.net-tools 10\n# End section update-alternatives\n
+#!/bin/sh\n# Begin section update-alternatives\nupdate-alternatives --install /usr/share/man/man1/hostname.1 hostname.1 /usr/share/man/man1/hostname.1.net-tools 10\nupdate-alternatives --install /usr/share/man/man1/dnsdomainname.1 dnsdomainname.1 /usr/share/man/man1/dnsdomainname.1.net-tools 100\n# End section update-alternatives\n

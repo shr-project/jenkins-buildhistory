@@ -2,3 +2,4 @@ PV = 3.3.0+gitAUTOINC+aacd231be0
 PR = r0
 DEPENDS = gperftools libpcap libpcre openssl python-scons-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
 PACKAGES = mongodb-dbg mongodb-staticdev mongodb-dev mongodb-doc mongodb-locale mongodb
+LAYER = openembedded-layer

@@ -2,3 +2,4 @@ PV = 1.6.19
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = libupnp-dbg libupnp-staticdev libupnp-dev libupnp-doc libupnp-locale libupnp
+LAYER = multimedia-layer

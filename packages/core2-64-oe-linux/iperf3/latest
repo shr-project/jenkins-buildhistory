@@ -2,3 +2,4 @@ PV = 3.1.3+gitrAUTOINC+099244ec68
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = iperf3-dbg iperf3-staticdev iperf3-dev iperf3-doc iperf3-locale iperf3
+LAYER = openembedded-layer

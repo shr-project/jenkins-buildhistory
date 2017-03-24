@@ -23,9 +23,11 @@ drwxr-xr-x root       root              200 ./lib/systemd/system
 -rw-r--r-- root       root              182 ./lib/systemd/system/dnf-makecache.service
 -rw-r--r-- root       root              187 ./lib/systemd/system/dnf-makecache.timer
 drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root              100 ./usr/bin
+drwxr-xr-x root       root              140 ./usr/bin
 -rwxr-xr-x root       root             1945 ./usr/bin/dnf-2
 -rwxr-xr-x root       root             1282 ./usr/bin/dnf-automatic-2
+lrwxrwxrwx root       root               15 ./usr/bin/dnf-automatic -> dnf-automatic-2
+lrwxrwxrwx root       root                5 ./usr/bin/dnf -> dnf-2
 -rwxr-xr-x root       root             1940 ./usr/bin/yum
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/python2.7

@@ -2,3 +2,4 @@ PV = 3.3.4
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc zlib
 PACKAGES = ccache-dbg ccache-staticdev ccache-dev ccache-doc ccache-locale ccache
+LAYER = core

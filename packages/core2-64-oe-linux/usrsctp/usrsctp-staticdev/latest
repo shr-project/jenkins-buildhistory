@@ -1,9 +1,10 @@
 PV = git
 PR = r0
-PKGR = r0.13
-RPROVIDES = 
-RDEPENDS = usrsctp-dev (= git-r0.13)
+PKG = libusrsctp-staticdev
+PKGR = r0.14
+RPROVIDES = usrsctp-staticdev (=git)
+RDEPENDS = usrsctp-dev (= git-r0.14)
 RRECOMMENDS = 
-PKGSIZE = 2662326
+PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/usrsctp/*.a
-FILELIST = /usr/lib/libusrsctp.a
+FILELIST = 

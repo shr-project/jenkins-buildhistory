@@ -2,3 +2,4 @@ PV = 2.0.0
 PR = r0
 DEPENDS = cmake-native pkgconfig-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = msgpack-c-dbg msgpack-c-staticdev msgpack-c-dev msgpack-c-doc msgpack-c-locale msgpack-c
+LAYER = openembedded-layer

@@ -2,3 +2,4 @@ PV = 2.10.5
 PR = r0
 DEPENDS = python python-distribute-native python-native python-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = python-redis-dbg python-redis-staticdev python-redis-dev python-redis-doc python-redis-locale python-redis
+LAYER = meta-python
