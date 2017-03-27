@@ -2,3 +2,4 @@ PV = 0.51.0
 PR = r0
 DEPENDS = autoconf-native automake-native cairo fontconfig gnu-config-native gobject-introspection gobject-introspection-native gtk-doc-native jpeg lcms libpng libtool-cross libtool-native nss openjpeg pkgconfig-native prelink-native python3-native qemu-native qemu-native qtbase qttools-native tiff virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc zlib
 PACKAGES = libpoppler libpoppler-glib poppler-dbg poppler-staticdev poppler-dev poppler-doc poppler-locale poppler
+LAYER = openembedded-layer
