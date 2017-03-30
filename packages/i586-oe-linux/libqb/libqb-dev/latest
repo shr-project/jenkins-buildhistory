@@ -1,8 +1,9 @@
-PV = 0.17.2
+PV = 0.17.2+gitAUTOINC+bd2c587f6c
 PR = r0
-PKGR = r0.12
+PKGV = 0.17.2+git0+bd2c587f6c
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libqb (= 0.17.2-r0.12)
+RDEPENDS = libqb (= 0.17.2+git0+bd2c587f6c-r0.0)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 101013
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libqb/*.la /lib/*.la
