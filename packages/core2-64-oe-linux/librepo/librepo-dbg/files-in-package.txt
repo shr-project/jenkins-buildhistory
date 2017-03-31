@@ -2,11 +2,11 @@ drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
 -rwxr-xr-x root       root           522176 ./usr/lib/.debug/librepo.so.0
-drwxr-xr-x root       root               60 ./usr/lib/python2.7
-drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages
-drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/librepo
-drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/librepo/.debug
--rwxr-xr-x root       root           237312 ./usr/lib/python2.7/site-packages/librepo/.debug/_librepomodule.so
+drwxr-xr-x root       root               60 ./usr/lib/python3.5
+drwxr-xr-x root       root               60 ./usr/lib/python3.5/site-packages
+drwxr-xr-x root       root               60 ./usr/lib/python3.5/site-packages/librepo
+drwxr-xr-x root       root               60 ./usr/lib/python3.5/site-packages/librepo/.debug
+-rwxr-xr-x root       root           256392 ./usr/lib/python3.5/site-packages/librepo/.debug/_librepo.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/librepo
@@ -37,7 +37,7 @@ drwxr-xr-x root       root             1000 ./usr/src/debug/librepo/1.7.20+gitAU
 -rw-r--r-- root       root             1855 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/mirrorlist.h
 -rw-r--r-- root       root            23147 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/package_downloader.c
 -rw-r--r-- root       root            12608 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/package_downloader.h
-drwxr-xr-x root       root              380 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python
+drwxr-xr-x root       root              400 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python
 -rw-r--r-- root       root             2956 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/downloader-py.c
 -rw-r--r-- root       root             1184 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/downloader-py.h
 -rw-r--r-- root       root             3832 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/exception-py.c
@@ -47,6 +47,7 @@ drwxr-xr-x root       root              380 ./usr/src/debug/librepo/1.7.20+gitAU
 -rw-r--r-- root       root             1235 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/handle-py.h
 -rw-r--r-- root       root            15587 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/librepomodule.c
 -rw-r--r-- root       root             4597 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/logging.c
+-rw-r--r-- root       root             1261 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/logging.h
 -rw-r--r-- root       root             3033 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/packagedownloader-py.c
 -rw-r--r-- root       root            16738 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/packagetarget-py.c
 -rw-r--r-- root       root             1291 ./usr/src/debug/librepo/1.7.20+gitAUTOINC+e1137cbbda-r0/git/librepo/python/packagetarget-py.h
