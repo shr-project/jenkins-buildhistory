@@ -1,21 +1,26 @@
 drwxr-xr-x root       root               80 ./etc
-drwxr-xr-x root       root               60 ./etc/dbus-1
-drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
--rw-r--r-- root       root              418 ./etc/dbus-1/system.d/org.ericsson.mcd.conf
+drwxr-xr-x root       root               80 ./etc/default
+-rw-r--r-- root       root              559 ./etc/default/minicoredumper
+-rw-r--r-- root       root              559 ./etc/default/minicoredumper.in
 drwxr-xr-x root       root              100 ./etc/minicoredumper
--rw-r--r-- root       root              732 ./etc/minicoredumper/example.recept.json
--rw-r--r-- root       root              429 ./etc/minicoredumper/generic.recept.json
--rw-r--r-- root       root              429 ./etc/minicoredumper/minicoredumper.cfg.json
+-rw-r--r-- root       root              540 ./etc/minicoredumper/generic.recept.json
+-rw-r--r-- root       root              134 ./etc/minicoredumper/minicoredumper.cfg.json
+-rw-r--r-- root       root              124 ./etc/minicoredumper/minicoredumper.cfg.json.in
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              315 ./lib/systemd/system/minicoredumper.service
-drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root              120 ./usr/bin
--rwxr-xr-x root       root             5896 ./usr/bin/coreinject
--rwxr-xr-x root       root            38984 ./usr/bin/minicoredumper
--rwxr-xr-x root       root            14184 ./usr/bin/minicoredumper_dbusd
--rwxr-xr-x root       root            10008 ./usr/bin/minicoredumper_trigger
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root            14208 ./usr/bin/coreinject
 drwxr-xr-x root       root               80 ./usr/lib
--rwxr-xr-x root       root            14068 ./usr/lib/libminicoredumper.so.1.0.2
-lrwxrwxrwx root       root               26 ./usr/lib/libminicoredumper.so.1 -> libminicoredumper.so.1.0.2
+-rwxr-xr-x root       root             9876 ./usr/lib/libminicoredumper.so.2.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/libminicoredumper.so.2 -> libminicoredumper.so.2.0.0
+drwxr-xr-x root       root              100 ./usr/sbin
+-rwxr-xr-x root       root            39068 ./usr/sbin/minicoredumper
+-rwxr-xr-x root       root            10036 ./usr/sbin/minicoredumper_regd
+-rwxr-xr-x root       root             2632 ./usr/sbin/minicoredumper_trigger
+drwxr-xr-x root       root               80 ./var
+drwxr-xr-x root       root               60 ./var/crash
+drwx------ root       root               40 ./var/crash/minicoredumper
+lrwxrwxrwx root       root                4 ./var/run -> /run

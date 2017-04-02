@@ -1,11 +1,11 @@
 PV = 1.0
 PR = r9
-PKGV = 4.8.18
-PKGR = r9.18
+PKGV = 4.10.5
+PKGR = r9.19
 RPROVIDES = 
 RDEPENDS = bash binutils (>= 2.28) elfutils glibc (>= 2.25) libdw (>= 0.168) libelf (>= 0.168) libgcc (>= 6.3.0) liblzma (>= 5.2.3) libpython2 (>= 2.7.13) perl perl-lib (>= 5.24.1) slang (>= 2.3.1a) zlib (>= 1.2.11)
 RRECOMMENDS = 
 RSUGGESTS = perf-archive perf-perl perf-python perf-tests
-PKGSIZE = 1364593
+PKGSIZE = 1556469
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/perf /usr/lib/perf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/perl /usr/share/perl /usr/libexec/perf-core /usr/libexec/perf-core /usr/lib/traceevent
 FILELIST = /etc/bash_completion.d/perf /usr/bin/perf /usr/bin/trace /usr/lib/traceevent/plugins/plugin_cfg80211.so /usr/lib/traceevent/plugins/plugin_function.so /usr/lib/traceevent/plugins/plugin_hrtimer.so /usr/lib/traceevent/plugins/plugin_jbd2.so /usr/lib/traceevent/plugins/plugin_kmem.so /usr/lib/traceevent/plugins/plugin_kvm.so /usr/lib/traceevent/plugins/plugin_mac80211.so /usr/lib/traceevent/plugins/plugin_sched_switch.so /usr/lib/traceevent/plugins/plugin_scsi.so /usr/lib/traceevent/plugins/plugin_xen.so /usr/libexec/perf-core/perf-archive /usr/libexec/perf-core/perf-with-kcore /usr/libexec/perf-core/scripts/perl/Perf-Trace-Util/lib/Perf/Trace/Context.pm /usr/libexec/perf-core/scripts/perl/Perf-Trace-Util/lib/Perf/Trace/Core.pm /usr/libexec/perf-core/scripts/perl/Perf-Trace-Util/lib/Perf/Trace/Util.pm /usr/libexec/perf-core/scripts/perl/bin/check-perf-trace-record /usr/libexec/perf-core/scripts/perl/bin/failed-syscalls-record /usr/libexec/perf-core/scripts/perl/bin/failed-syscalls-report /usr/libexec/perf-core/scripts/perl/bin/rw-by-file-record /usr/libexec/perf-core/scripts/perl/bin/rw-by-file-report /usr/libexec/perf-core/scripts/perl/bin/rw-by-pid-record /usr/libexec/perf-core/scripts/perl/bin/rw-by-pid-report /usr/libexec/perf-core/scripts/perl/bin/rwtop-record /usr/libexec/perf-core/scripts/perl/bin/rwtop-report /usr/libexec/perf-core/scripts/perl/bin/wakeup-latency-record /usr/libexec/perf-core/scripts/perl/bin/wakeup-latency-report /usr/libexec/perf-core/scripts/perl/check-perf-trace.pl /usr/libexec/perf-core/scripts/perl/failed-syscalls.pl /usr/libexec/perf-core/scripts/perl/rw-by-file.pl /usr/libexec/perf-core/scripts/perl/rw-by-pid.pl /usr/libexec/perf-core/scripts/perl/rwtop.pl /usr/libexec/perf-core/scripts/perl/wakeup-latency.pl

@@ -1,9 +1,9 @@
-PV = 1.0.2
-PR = r0
-PKGR = r0.19
+PV = 2.0.0
+PR = r0+gitAUTOINC+248019446c
+PKGR = r0+gitAUTOINC+248019446c.0
 RPROVIDES = 
-RDEPENDS = dbus-glib (>= 0.108) dbus-lib (>= 1.10.14) glib-2.0 (>= 2.50.3) glibc (>= 2.25) glibc-thread-db (>= 2.25) libelf (>= 0.168) util-linux-libuuid (>= 2.29.1)
+RDEPENDS = glibc (>= 2.25) glibc-thread-db (>= 2.25) json-c (>= 0.12) libelf (>= 0.168)
 RRECOMMENDS = 
-PKGSIZE = 85489
+PKGSIZE = 78077
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/minicoredumper /usr/lib/minicoredumper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/minicoredumper.service
-FILELIST = /etc/dbus-1/system.d/org.ericsson.mcd.conf /etc/minicoredumper/example.recept.json /etc/minicoredumper/generic.recept.json /etc/minicoredumper/minicoredumper.cfg.json /lib/systemd/system/minicoredumper.service /usr/bin/coreinject /usr/bin/minicoredumper /usr/bin/minicoredumper_dbusd /usr/bin/minicoredumper_trigger /usr/lib/libminicoredumper.so.1 /usr/lib/libminicoredumper.so.1.0.2
+FILELIST = /etc/default/minicoredumper /etc/default/minicoredumper.in /etc/minicoredumper/generic.recept.json /etc/minicoredumper/minicoredumper.cfg.json /etc/minicoredumper/minicoredumper.cfg.json.in /lib/systemd/system/minicoredumper.service /usr/bin/coreinject /usr/lib/libminicoredumper.so.2 /usr/lib/libminicoredumper.so.2.0.0 /usr/sbin/minicoredumper /usr/sbin/minicoredumper_regd /usr/sbin/minicoredumper_trigger
