@@ -1,9 +1,9 @@
 PV = 1.105
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.25) libbsd (>= 0.8.3) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 31384
+PKGSIZE = 31392
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/netcat-openbsd /usr/lib/netcat-openbsd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/nc.netcat-openbsd

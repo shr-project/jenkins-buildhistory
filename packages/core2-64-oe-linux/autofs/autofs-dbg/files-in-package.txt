@@ -8,10 +8,10 @@ drwxr-xr-x root       root              360 ./usr/lib/autofs/.debug
 -rwxr-xr-x root       root           519792 ./usr/lib/autofs/.debug/lookup_multi.so
 -rwxr-xr-x root       root           493432 ./usr/lib/autofs/.debug/lookup_nisplus.so
 -rwxr-xr-x root       root           484328 ./usr/lib/autofs/.debug/lookup_program.so
--rwxr-xr-x root       root           464552 ./usr/lib/autofs/.debug/lookup_userhome.so
+-rwxr-xr-x root       root           464536 ./usr/lib/autofs/.debug/lookup_userhome.so
 -rwxr-xr-x root       root           491024 ./usr/lib/autofs/.debug/lookup_yp.so
 -rwxr-xr-x root       root            29816 ./usr/lib/autofs/.debug/mount_afs.so
--rwxr-xr-x root       root           474480 ./usr/lib/autofs/.debug/mount_autofs.so
+-rwxr-xr-x root       root           474464 ./usr/lib/autofs/.debug/mount_autofs.so
 -rwxr-xr-x root       root            43656 ./usr/lib/autofs/.debug/mount_bind.so
 -rwxr-xr-x root       root            34840 ./usr/lib/autofs/.debug/mount_changer.so
 -rwxr-xr-x root       root            31184 ./usr/lib/autofs/.debug/mount_generic.so
@@ -31,13 +31,13 @@ drwxr-xr-x root       root              220 ./usr/src/debug/autofs/5.1.1-r0/auto
 -rw-r--r-- root       root            37449 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/daemon/direct.c
 -rw-r--r-- root       root             4063 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/daemon/flag.c
 -rw-r--r-- root       root            22422 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/daemon/indirect.c
--rw-r--r-- root       root            35347 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/daemon/lookup.c
+-rw-r--r-- root       root            35343 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/daemon/lookup.c
 -rw-r--r-- root       root             6682 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/daemon/module.c
 -rw-r--r-- root       root             2685 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/daemon/mount.c
 -rw-r--r-- root       root            15139 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/daemon/spawn.c
 -rw-r--r-- root       root            25026 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/daemon/state.c
 drwxr-xr-x root       root              340 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include
--rw-r--r-- root       root            20858 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/automount.h
+-rw-r--r-- root       root            21030 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/automount.h
 -rw-r--r-- root       root             8121 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/defaults.h
 -rw-r--r-- root       root             2267 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/dev-ioctl-lib.h
 drwxr-xr-x root       root              100 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/linux
@@ -49,7 +49,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/autofs/5.1.1-r0/auto
 -rw-r--r-- root       root             1612 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/macros.h
 -rw-r--r-- root       root             4748 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/master.h
 -rw-r--r-- root       root             4300 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/mounts.h
--rw-r--r-- root       root             1785 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/nsswitch.h
+-rw-r--r-- root       root             1873 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/nsswitch.h
 -rw-r--r-- root       root             1892 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/parse_amd.h
 -rw-r--r-- root       root             3774 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/parse_subs.h
 -rw-r--r-- root       root             2583 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/include/replicated.h
@@ -90,7 +90,7 @@ drwxr-xr-x root       root              480 ./usr/src/debug/autofs/5.1.1-r0/auto
 -rw-r--r-- root       root             5184 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/modules/lookup_dir.c
 -rw-r--r-- root       root            28143 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/modules/lookup_file.c
 -rw-r--r-- root       root             9929 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/modules/lookup_hosts.c
--rw-r--r-- root       root             6972 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/modules/lookup_multi.c
+-rw-r--r-- root       root             6970 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/modules/lookup_multi.c
 -rw-r--r-- root       root            20126 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/modules/lookup_nisplus.c
 -rw-r--r-- root       root            15123 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/modules/lookup_program.c
 -rw-r--r-- root       root             2647 ./usr/src/debug/autofs/5.1.1-r0/autofs-5.1.1/modules/lookup_userhome.c

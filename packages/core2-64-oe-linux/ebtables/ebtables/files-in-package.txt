@@ -2,7 +2,7 @@ drwxr-xr-x root       root              100 ./etc
 drwxr-xr-x root       root               60 ./etc/default
 -rw------- root       root             1227 ./etc/default/ebtables
 drwxr-xr-x root       root               40 ./etc/ebtables
--rw-r--r-- root       root             1317 ./etc/ethertypes
+-rw-r--r-- root       root             1362 ./etc/ethertypes
 drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root              480 ./lib/ebtables
 -rwxr-xr-x root       root             6136 ./lib/ebtables/libebt_802_3.so
@@ -13,7 +13,7 @@ drwxr-xr-x root       root              480 ./lib/ebtables
 -rwxr-xr-x root       root            10272 ./lib/ebtables/libebt_arpreply.so
 -rwxr-xr-x root       root            14696 ./lib/ebtables/libebt_arp.so
 -rwxr-xr-x root       root            70096 ./lib/ebtables/libebtc.so
--rwxr-xr-x root       root            14408 ./lib/ebtables/libebt_ip6.so
+-rwxr-xr-x root       root            14440 ./lib/ebtables/libebt_ip6.so
 -rwxr-xr-x root       root            10584 ./lib/ebtables/libebt_ip.so
 -rwxr-xr-x root       root            10344 ./lib/ebtables/libebt_limit.so
 -rwxr-xr-x root       root            10472 ./lib/ebtables/libebt_log.so
@@ -32,7 +32,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              216 ./lib/systemd/system/ebtables.service
 drwxr-xr-x root       root              100 ./sbin
 -rwxr-xr-x root       root             6392 ./sbin/ebtables
--rwxr-xr-x root       root            10584 ./sbin/ebtables-restore
+-rwxr-xr-x root       root            10600 ./sbin/ebtables-restore
 -rwxr-xr-x root       root             1664 ./sbin/ebtables-save
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/sbin

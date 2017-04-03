@@ -1,5 +1,5 @@
-PV = 0.5.3
+PV = 0.5.3r550-2jnpr1
 PR = r0
-DEPENDS = libgcrypt perl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = gnutls libgcrypt perl-native pkgconfig-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = vpnc-dbg vpnc-staticdev vpnc-dev vpnc-doc vpnc-locale vpnc
 LAYER = networking-layer
