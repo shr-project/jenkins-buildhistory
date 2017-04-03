@@ -1,9 +1,9 @@
 PV = 1.0.39.1
 PR = r0
 PKG = libvulkan-dev
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = vulkan-dev (=1.0.39.1)
-RDEPENDS = vulkan (= 1.0.39.1-r0.6)
+RDEPENDS = vulkan (= 1.0.39.1-r0.7)
 RRECOMMENDS = glibc-dev libx11-dev libxcb-dev libxrandr-dev wayland-dev
 PKGSIZE = 1067245
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/vulkan/*.la /lib/*.la
