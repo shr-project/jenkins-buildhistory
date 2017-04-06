@@ -1,0 +1,5 @@
+PV = 0.0.20170324
+PR = r0
+DEPENDS = pkgconfig-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+PACKAGES = wireguard-module-dbg wireguard-module-staticdev wireguard-module-dev wireguard-module-doc wireguard-module-locale wireguard-module kernel-module-wireguard-4.10.5-yocto-standard
+LAYER = networking-layer

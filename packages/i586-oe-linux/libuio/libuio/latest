@@ -1,8 +1,9 @@
-PV = 0.2.1
+PV = 0.2.1+gitAUTOINC+ed4f07ea14
 PR = r0
 PKG = libuio0
-PKGR = r0.18
-RPROVIDES = libuio (=0.2.1)
+PKGV = 0.2.1+git0+ed4f07ea14
+PKGR = r0.0
+RPROVIDES = libuio (=0.2.1+git0+ed4f07ea14)
 RDEPENDS = glibc (>= 2.25)
 RRECOMMENDS = 
 PKGSIZE = 9799
