@@ -1,0 +1,9 @@
+PV = 0.0.20170324
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = wireguard-module (= 0.0.20170324-r0.0)
+RRECOMMENDS = kernel-4.10.5-yocto-standard-dev kernel-module-ip6-udp-tunnel-4.10.5-yocto-standard-dev kernel-module-udp-tunnel-4.10.5-yocto-standard-dev kernel-module-wireguard-4.10.5-yocto-standard-dev kernel-module-x-tables-4.10.5-yocto-standard-dev
+PKGSIZE = 2115
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wireguard-module/*.la /lib/*.la
+FILELIST = /usr/include/wireguard-module/Module.symvers

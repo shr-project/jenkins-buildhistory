@@ -1,9 +1,9 @@
-PV = 1.0.2
-PR = r0
-PKGR = r0.18
+PV = 2.0.0
+PR = r0+gitAUTOINC+248019446c
+PKGR = r0+gitAUTOINC+248019446c.0
 RPROVIDES = 
-RDEPENDS = minicoredumper (= 1.0.2-r0.18)
-RRECOMMENDS = dbus-dev dbus-glib-dev dbus-lib-dev elfutils-dev glib-2.0-dev glibc-dev glibc-thread-db-dev libelf-dev util-linux-dev util-linux-libuuid-dev
-PKGSIZE = 8185
+RDEPENDS = minicoredumper (= 2.0.0-r0+gitAUTOINC+248019446c.0)
+RRECOMMENDS = dbus-dev dbus-glib-dev elfutils-dev glib-2.0-dev glibc-dev glibc-thread-db-dev json-c-dev libelf-dev util-linux-dev
+PKGSIZE = 7436
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/minicoredumper/*.la /lib/*.la
-FILELIST = /usr/include/compat_mcd.h /usr/include/minicoredumper.h /usr/lib/libminicoredumper.so /usr/lib/pkgconfig/minicoredumper.pc
+FILELIST = /usr/include/minicoredumper.h /usr/lib/libminicoredumper.so /usr/lib/pkgconfig/minicoredumper.pc
