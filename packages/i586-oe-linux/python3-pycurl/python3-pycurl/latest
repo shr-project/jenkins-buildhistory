@@ -1,9 +1,9 @@
-PV = 7.19.0
-PR = r3
-PKGR = r3.3
+PV = 7.21.5
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = curl eglibc (>= 2.18) libcurl (>= 7.31.0) libgcrypt (>= 1.5.3) libpython3 (>= 3.3.2) python-core python3-core
+RDEPENDS = curl glibc (>= 2.25) libcurl (>= 7.53.1) python3-core
 RRECOMMENDS = 
-PKGSIZE = 81488
-FILES = /usr/bin/* /usr/lib/* /usr/lib/python3.3/*
-FILELIST = /usr/lib/python3.3/site-packages/curl/__init__.py /usr/lib/python3.3/site-packages/curl/__pycache__/__init__.cpython-33.pyc /usr/lib/python3.3/site-packages/pycurl-7.19.0-py3.3.egg-info /usr/lib/python3.3/site-packages/pycurl.cpython-33m.so
+PKGSIZE = 137192
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/python3-pycurl /usr/lib/python3-pycurl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/*
+FILELIST = /usr/lib/python3.5/site-packages/curl/__init__.py /usr/lib/python3.5/site-packages/curl/__pycache__/__init__.cpython-35.pyc /usr/lib/python3.5/site-packages/pycurl-7.21.5-py3.5.egg-info /usr/lib/python3.5/site-packages/pycurl.cpython-35m-i386-linux-gnu.so
