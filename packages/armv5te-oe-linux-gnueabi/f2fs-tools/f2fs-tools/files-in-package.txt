@@ -1,10 +1,16 @@
-drwxr-xr-x root       root              140 ./sbin
-lrwxrwxrwx root       root                9 ./sbin/dump.f2fs -> fsck.f2fs
--rwxr-xr-x root       root            10208 ./sbin/f2fstat
--rwxr-xr-x root       root             9984 ./sbin/fibmap.f2fs
--rwxr-xr-x root       root            47016 ./sbin/fsck.f2fs
--rwxr-xr-x root       root            22432 ./sbin/mkfs.f2fs
-drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root               80 ./usr/lib
--rwxr-xr-x root       root            13964 ./usr/lib/libf2fs.so.0.0.0
-lrwxrwxrwx root       root               16 ./usr/lib/libf2fs.so.0 -> libf2fs.so.0.0.0
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              120 ./usr/lib
+-rwxr-xr-x root       root            34772 ./usr/lib/libf2fs_format.so.1.0.0
+lrwxrwxrwx root       root               23 ./usr/lib/libf2fs_format.so.1 -> libf2fs_format.so.1.0.0
+-rwxr-xr-x root       root            22356 ./usr/lib/libf2fs.so.2.0.0
+lrwxrwxrwx root       root               16 ./usr/lib/libf2fs.so.2 -> libf2fs.so.2.0.0
+drwxr-xr-x root       root              220 ./usr/sbin
+lrwxrwxrwx root       root                9 ./usr/sbin/defrag.f2fs -> fsck.f2fs
+lrwxrwxrwx root       root                9 ./usr/sbin/dump.f2fs -> fsck.f2fs
+-rwxr-xr-x root       root            10216 ./usr/sbin/f2fstat
+-rwxr-xr-x root       root             9984 ./usr/sbin/fibmap.f2fs
+-rwxr-xr-x root       root           104452 ./usr/sbin/fsck.f2fs
+-rwxr-xr-x root       root            34764 ./usr/sbin/mkfs.f2fs
+-rwxr-xr-x root       root            10028 ./usr/sbin/parse.f2fs
+lrwxrwxrwx root       root                9 ./usr/sbin/resize.f2fs -> fsck.f2fs
+lrwxrwxrwx root       root                9 ./usr/sbin/sload.f2fs -> fsck.f2fs
