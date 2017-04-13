@@ -10,7 +10,7 @@ drwxr-xr-x root       root              340 ./usr/bin/.debug
 -rwxr-xr-x root       root           163296 ./usr/bin/.debug/eu-nm
 -rwxr-xr-x root       root           110176 ./usr/bin/.debug/eu-objdump
 -rwxr-xr-x root       root            64856 ./usr/bin/.debug/eu-ranlib
--rwxr-xr-x root       root           657536 ./usr/bin/.debug/eu-readelf
+-rwxr-xr-x root       root           657520 ./usr/bin/.debug/eu-readelf
 -rwxr-xr-x root       root            45392 ./usr/bin/.debug/eu-size
 -rwxr-xr-x root       root            51504 ./usr/bin/.debug/eu-stack
 -rwxr-xr-x root       root            53088 ./usr/bin/.debug/eu-strings
@@ -104,12 +104,12 @@ drwxr-xr-x root       root             2420 ./usr/src/debug/elfutils/0.168-r0/el
 -rw-r--r-- root       root             1964 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/mips_init.c
 -rw-r--r-- root       root             2712 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/mips_regs.c
 -rw-r--r-- root       root             3066 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/mips_reloc.def
--rw-r--r-- root       root            11827 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/mips_retval.c
+-rw-r--r-- root       root            11842 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/mips_retval.c
 -rw-r--r-- root       root             1817 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/mips_symbol.c
 -rw-r--r-- root       root             2495 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/parisc_init.c
 -rw-r--r-- root       root             3574 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/parisc_regs.c
 -rw-r--r-- root       root             4120 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/parisc_reloc.def
--rw-r--r-- root       root             6145 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/parisc_retval.c
+-rw-r--r-- root       root             6160 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/parisc_retval.c
 -rw-r--r-- root       root             3222 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/parisc_symbol.c
 -rw-r--r-- root       root             3222 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/ppc64_init.c
 -rw-r--r-- root       root             5433 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/backends/ppc64_reloc.def
@@ -188,7 +188,7 @@ drwxr-xr-x root       root              560 ./usr/src/debug/elfutils/0.168-r0/el
 -rw-r--r-- root       root             2585 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/libasm/asm_newscngrp.c
 -rw-r--r-- root       root             2166 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/libasm/asm_newscn_ingrp.c
 -rw-r--r-- root       root             2609 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/libasm/asm_newsubscn.c
--rw-r--r-- root       root             4050 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/libasm/asm_newsym.c
+-rw-r--r-- root       root             4185 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/libasm/asm_newsym.c
 -rw-r--r-- root       root             1335 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/libasm/asm_scngrp_newsignature.c
 -rw-r--r-- root       root             1674 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/libasm/disasm_begin.c
 -rw-r--r-- root       root             4312 ./usr/src/debug/elfutils/0.168-r0/elfutils-0.168/libasm/disasm_cb.c
