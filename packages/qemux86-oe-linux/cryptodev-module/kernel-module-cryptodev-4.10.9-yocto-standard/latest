@@ -1,0 +1,9 @@
+PV = 1.8
+PR = r0
+PKGR = r0.20
+RPROVIDES = kernel-module-cryptodev
+RDEPENDS = kernel-4.10.9-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 47292
+FILES = /lib/modules/4.10.9-yocto-standard/extra/cryptodev.ko /etc/modules-load.d/cryptodev.conf /etc/modprobe.d/cryptodev.conf
+FILELIST = /lib/modules/4.10.9-yocto-standard/extra/cryptodev.ko

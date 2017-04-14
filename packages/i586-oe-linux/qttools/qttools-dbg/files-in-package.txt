@@ -19,7 +19,7 @@ drwxr-xr-x root       root              380 ./usr/bin/qt5/.debug
 -rwxr-xr-x root       root           975340 ./usr/bin/qt5/.debug/qtdiag
 -rwxr-xr-x root       root           352112 ./usr/bin/qt5/.debug/qtpaths
 -rwxr-xr-x root       root           350796 ./usr/bin/qt5/.debug/qtplugininfo
-drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/lib/.debug
 -rwxr-xr-x root       root         15282692 ./usr/lib/.debug/libQt5CLucene.so.5.8.0
 -rwxr-xr-x root       root         50761000 ./usr/lib/.debug/libQt5DesignerComponents.so.5.8.0
@@ -34,6 +34,11 @@ drwxr-xr-x root       root              140 ./usr/lib/qt5/plugins/designer/.debu
 -rwxr-xr-x root       root           673284 ./usr/lib/qt5/plugins/designer/.debug/libqquickwidget.so
 -rwxr-xr-x root       root          1762116 ./usr/lib/qt5/plugins/designer/.debug/libtaskmenuextension.so
 -rwxr-xr-x root       root          1035148 ./usr/lib/qt5/plugins/designer/.debug/libworldtimeclockplugin.so
+drwxr-xr-x root       root               60 ./usr/lib/qttools
+drwxr-xr-x root       root               60 ./usr/lib/qttools/ptest
+drwxr-xr-x root       root               80 ./usr/lib/qttools/ptest/.debug
+-rwxr-xr-x root       root           552368 ./usr/lib/qttools/ptest/.debug/tst_qtattributionsscanner
+-rwxr-xr-x root       root           590900 ./usr/lib/qttools/ptest/.debug/tst_tdiag
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/qt5
 drwxr-xr-x root       root              140 ./usr/share/qt5/examples
@@ -491,7 +496,7 @@ drwxr-xr-x root       root              260 ./usr/src/debug/qttools/5.8.0+gitAUT
 -rw-r--r-- root       root            49805 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/designer/src/lib/.rcc/qrc_qtgradienteditor.cpp
 -rw-r--r-- root       root          2484486 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/designer/src/lib/.rcc/qrc_S60-nHD-Touchscreen.cpp
 -rw-r--r-- root       root          1643821 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/designer/src/lib/.rcc/qrc_S60-QVGA-Candybar.cpp
--rw-r--r-- root       root           101563 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/designer/src/lib/.rcc/qrc_shared.cpp
+-rw-r--r-- root       root           101576 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/designer/src/lib/.rcc/qrc_shared.cpp
 -rw-r--r-- root       root          1330179 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/designer/src/lib/.rcc/qrc_SmartPhone2.cpp
 -rw-r--r-- root       root          1109997 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/designer/src/lib/.rcc/qrc_SmartPhone.cpp
 -rw-r--r-- root       root          1005894 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/designer/src/lib/.rcc/qrc_SmartPhoneWithButtons.cpp
@@ -568,7 +573,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/qttools/5.8.0+gitAUT
 -rw-r--r-- root       root             2907 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/qdbus/qdbusviewer/.moc/moc_servicesproxymodel.cpp
 drwxr-xr-x root       root               60 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/qdbus/qdbusviewer/.rcc
 -rw-r--r-- root       root            18712 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/build/src/qdbus/qdbusviewer/.rcc/qrc_qdbusviewer.cpp
-drwxr-xr-x root       root               80 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git
+drwxr-xr-x root       root              100 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git
 drwxr-xr-x root       root              140 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/examples
 drwxr-xr-x root       root               80 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/examples/assistant
 drwxr-xr-x root       root              100 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/examples/assistant/remotecontrol
@@ -1737,3 +1742,13 @@ drwxr-xr-x root       root              360 ./usr/src/debug/qttools/5.8.0+gitAUT
 drwxr-xr-x root       root               80 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/src/shared/qttoolbardialog
 -rw-r--r-- root       root            61337 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/src/shared/qttoolbardialog/qttoolbardialog.cpp
 -rw-r--r-- root       root             4494 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/src/shared/qttoolbardialog/qttoolbardialog.h
+drwxr-xr-x root       root               60 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests
+drwxr-xr-x root       root               80 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests/auto
+drwxr-xr-x root       root               80 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests/auto/qtattributionsscanner
+drwxr-xr-x root       root               60 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests/auto/qtattributionsscanner/.moc
+-rw-r--r-- root       root             3796 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests/auto/qtattributionsscanner/.moc/tst_qtattributionsscanner.moc
+-rw-r--r-- root       root             4536 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests/auto/qtattributionsscanner/tst_qtattributionsscanner.cpp
+drwxr-xr-x root       root               80 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests/auto/qtdiag
+drwxr-xr-x root       root               60 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests/auto/qtdiag/.moc
+-rw-r--r-- root       root             3496 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests/auto/qtdiag/.moc/tst_qtdiag.moc
+-rw-r--r-- root       root             2916 ./usr/src/debug/qttools/5.8.0+gitAUTOINC+30c10900ad-r0/git/tests/auto/qtdiag/tst_qtdiag.cpp

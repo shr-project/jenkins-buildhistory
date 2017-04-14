@@ -1,9 +1,9 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root             9996 ./usr/bin/fltk-config
+-rwxr-xr-x root       root             9983 ./usr/bin/fltk-config
 drwxr-xr-x root       root               60 ./usr/include
-drwxr-xr-x root       root             2920 ./usr/include/FL
--rw-r--r-- root       root              449 ./usr/include/FL/abi-version.h
+drwxr-xr-x root       root             2960 ./usr/include/FL
+-rw-r--r-- root       root              375 ./usr/include/FL/abi-version.h
 -rw-r--r-- root       root              685 ./usr/include/FL/dirent.h
 -rw-r--r-- root       root            45370 ./usr/include/FL/Enumerations.H
 -rw-r--r-- root       root             5900 ./usr/include/FL/filename.H
@@ -143,12 +143,14 @@ drwxr-xr-x root       root             2920 ./usr/include/FL
 -rw-r--r-- root       root             1286 ./usr/include/FL/glu.h
 -rw-r--r-- root       root            16376 ./usr/include/FL/glut.H
 -rw-r--r-- root       root            11706 ./usr/include/FL/mac.H
+-rw-r--r-- root       root             1553 ./usr/include/FL/Makefile.in
 -rw-r--r-- root       root             1726 ./usr/include/FL/math.h
 -rw-r--r-- root       root             2816 ./usr/include/FL/names.h
+-rw-r--r-- root       root              143 ./usr/include/FL/README.Xcode
 -rw-r--r-- root       root             5884 ./usr/include/FL/win32.H
 -rw-r--r-- root       root             6461 ./usr/include/FL/x.H
 drwxr-xr-x root       root              120 ./usr/lib
-lrwxrwxrwx root       root               20 ./usr/lib/libfltk_forms.so -> libfltk_forms.so.1.3
-lrwxrwxrwx root       root               17 ./usr/lib/libfltk_gl.so -> libfltk_gl.so.1.3
-lrwxrwxrwx root       root               21 ./usr/lib/libfltk_images.so -> libfltk_images.so.1.3
-lrwxrwxrwx root       root               14 ./usr/lib/libfltk.so -> libfltk.so.1.3
+lrwxrwxrwx root       root               27 ./usr/lib/libfltk_forms_SHARED.so -> libfltk_forms_SHARED.so.1.3
+lrwxrwxrwx root       root               24 ./usr/lib/libfltk_gl_SHARED.so -> libfltk_gl_SHARED.so.1.3
+lrwxrwxrwx root       root               28 ./usr/lib/libfltk_images_SHARED.so -> libfltk_images_SHARED.so.1.3
+lrwxrwxrwx root       root               21 ./usr/lib/libfltk_SHARED.so -> libfltk_SHARED.so.1.3

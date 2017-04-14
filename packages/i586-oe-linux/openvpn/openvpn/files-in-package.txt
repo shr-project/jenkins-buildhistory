@@ -5,8 +5,6 @@ drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              335 ./lib/systemd/system/openvpn@.service
-drwxr-xr-x root       root               60 ./run
-drwxr-xr-x root       root               40 ./run/openvpn
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/openvpn
@@ -14,7 +12,6 @@ drwxr-xr-x root       root               60 ./usr/lib/openvpn/plugins
 -rwxr-xr-x root       root             9800 ./usr/lib/openvpn/plugins/openvpn-plugin-down-root.so
 drwxr-xr-x root       root               60 ./usr/sbin
 -rwxr-xr-x root       root           785308 ./usr/sbin/openvpn
-drwxr-xr-x root       root               80 ./var
+drwxr-xr-x root       root               60 ./var
 drwxr-xr-x root       root               60 ./var/lib
 drwx--x--- root       root               40 ./var/lib/openvpn
-lrwxrwxrwx root       root                4 ./var/run -> /run
