@@ -1,9 +1,9 @@
-PV = 1.2.6
+PV = 1.2.97
 PR = r0
-PKGR = r0.19
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = atk (>= 2.22.0) cairo (>= 1.14.8) fontconfig (>= 2.12.1) freetype (>= 2.7.1) gdk-pixbuf (>= 2.36.5) glib-2.0 (>= 2.50.3) glibc (>= 2.25) gtk+ (>= 2.24.31) hicolor-icon-theme libxfce4ui-gtk2 (>= 4.12.1) libxfce4util (>= 4.12.1) lmsensors-libsensors (>= 3.4.0) pango (>= 1.40.3) xfce4-panel (>= 4.12.1)
+RDEPENDS = atk (>= 2.22.0) cairo (>= 1.14.8) cairo-gobject (>= 1.14.8) gdk-pixbuf (>= 2.36.5) glib-2.0 (>= 2.50.3) glibc (>= 2.25) gtk+3 (>= 3.22.8) hicolor-icon-theme libxfce4ui-gtk3 (>= 4.12.1) libxfce4util (>= 4.12.1) lmsensors-libsensors (>= 3.4.0) pango (>= 1.40.3) xfce4-panel-gtk3 (>= 4.12.1)
 RRECOMMENDS = 
-PKGSIZE = 125993
+PKGSIZE = 125156
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xfce4-sensors-plugin /usr/lib/xfce4-sensors-plugin/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/icons/hicolor /usr/share/icons/* /usr/share/applications/* /usr/lib/xfce4/modules/*.so* /usr/share/xfce4/panel-plugins/ /usr/share/xfce4/panel/plugins/ /usr/lib/xfce4/panel-plugins/*.so /usr/lib/xfce4/panel/plugins/*.so
-FILELIST = /usr/bin/xfce4-sensors /usr/lib/xfce4/modules/libxfce4sensors.so.1 /usr/lib/xfce4/modules/libxfce4sensors.so.1.2.4 /usr/libexec/xfce4/panel-plugins/xfce4-sensors-plugin /usr/share/applications/xfce4-sensors.desktop /usr/share/icons/hicolor/24x24/apps/xfce-sensors.png /usr/share/icons/hicolor/32x32/apps/xfce-sensors.png /usr/share/icons/hicolor/48x48/apps/xfce-sensors.png /usr/share/icons/hicolor/64x64/apps/xfce-sensors.png /usr/share/icons/hicolor/scalable/apps/xfce-sensors.svg /usr/share/xfce4/panel-plugins/xfce4-sensors-plugin.desktop
+FILELIST = /usr/bin/xfce4-sensors /usr/lib/xfce4/modules/libxfce4sensors.so.1 /usr/lib/xfce4/modules/libxfce4sensors.so.1.2.4 /usr/lib/xfce4/panel/plugins/libxfce4-sensors-plugin.so /usr/share/applications/xfce4-sensors.desktop /usr/share/icons/hicolor/24x24/apps/xfce-sensors.png /usr/share/icons/hicolor/32x32/apps/xfce-sensors.png /usr/share/icons/hicolor/48x48/apps/xfce-sensors.png /usr/share/icons/hicolor/64x64/apps/xfce-sensors.png /usr/share/icons/hicolor/scalable/apps/xfce-sensors.svg /usr/share/xfce4/panel/plugins/xfce4-sensors-plugin.css /usr/share/xfce4/panel/plugins/xfce4-sensors-plugin.desktop
