@@ -1,0 +1,9 @@
+PV = 2.9.1
+PR = r0
+PKGR = r0.10
+RPROVIDES = kernel-module-lttng-ftrace
+RDEPENDS = kernel-4.10.9-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8488
+FILES = /lib/modules/4.10.9-yocto-standard/kernel/lttng-modules/probes/lttng-ftrace.ko /etc/modules-load.d/lttng-ftrace.conf /etc/modprobe.d/lttng-ftrace.conf
+FILELIST = /lib/modules/4.10.9-yocto-standard/kernel/lttng-modules/probes/lttng-ftrace.ko
