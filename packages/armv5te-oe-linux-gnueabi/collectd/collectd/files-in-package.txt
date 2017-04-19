@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./etc
--rw-r----- root       root            34246 ./etc/collectd.conf
+-rw-r----- root       root            34247 ./etc/collectd.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
@@ -10,7 +10,7 @@ drwxr-xr-x root       root              100 ./usr/bin
 -rwxr-xr-x root       root            14136 ./usr/bin/collectd-nagios
 -rwxr-xr-x root       root            14164 ./usr/bin/collectd-tg
 drwxr-xr-x root       root              100 ./usr/lib
-drwxr-xr-x root       root             1860 ./usr/lib/collectd
+drwxr-xr-x root       root             1840 ./usr/lib/collectd
 -rwxr-xr-x root       root            22240 ./usr/lib/collectd/aggregation.so
 -rwxr-xr-x root       root            13996 ./usr/lib/collectd/apache.so
 -rwxr-xr-x root       root             9908 ./usr/lib/collectd/apcups.so
@@ -46,7 +46,6 @@ drwxr-xr-x root       root             1860 ./usr/lib/collectd
 -rwxr-xr-x root       root             9828 ./usr/lib/collectd/load.so
 -rwxr-xr-x root       root             9892 ./usr/lib/collectd/logfile.so
 -rwxr-xr-x root       root             9908 ./usr/lib/collectd/log_logstash.so
--rwxr-xr-x root       root             9848 ./usr/lib/collectd/lvm.so
 -rwxr-xr-x root       root            18212 ./usr/lib/collectd/madwifi.so
 -rwxr-xr-x root       root             5712 ./usr/lib/collectd/match_empty_counter.so
 -rwxr-xr-x root       root             9812 ./usr/lib/collectd/match_hashed.so
