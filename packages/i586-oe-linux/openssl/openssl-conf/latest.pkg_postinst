@@ -1,1 +1,0 @@
-#!/bin/sh\nif [ -e $D/usr/lib/ssl/openssl.cnf ]; then\n\trm -f $D/usr/lib/ssl/openssl.cnf\nfi\n\n# If openssl-conf is installed before openssl, we must ensure that the symlink\n# destination exists\nmkdir -p $D/usr/lib/ssl/\nln -s /etc/ssl/openssl.cnf $D/usr/lib/ssl/openssl.cnf\n
