@@ -1,9 +1,9 @@
-PV = 0.9.52
+PV = 0.9.53
 PR = r0
-PKGR = r0.25
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libmicrohttpd (= 0.9.52-r0.25)
+RDEPENDS = libmicrohttpd (= 0.9.53-r0.0)
 RRECOMMENDS = curl-dev file-dev glibc-dev gnutls-dev libgcrypt-dev
-PKGSIZE = 97843
+PKGSIZE = 119345
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libmicrohttpd/*.la /lib/*.la
 FILELIST = /usr/include/microhttpd.h /usr/lib/libmicrohttpd.so /usr/lib/pkgconfig/libmicrohttpd.pc
