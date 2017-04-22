@@ -6,7 +6,7 @@ drwxr-xr-x root       root              100 ./usr/bin/.debug
 -rwxr-xr-x root       root            30344 ./usr/bin/.debug/collectd-tg
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/collectd
-drwxr-xr-x root       root             1860 ./usr/lib/collectd/.debug
+drwxr-xr-x root       root             1880 ./usr/lib/collectd/.debug
 -rwxr-xr-x root       root            55224 ./usr/lib/collectd/.debug/aggregation.so
 -rwxr-xr-x root       root            53552 ./usr/lib/collectd/.debug/apache.so
 -rwxr-xr-x root       root            23992 ./usr/lib/collectd/.debug/apcups.so
@@ -42,6 +42,7 @@ drwxr-xr-x root       root             1860 ./usr/lib/collectd/.debug
 -rwxr-xr-x root       root            18728 ./usr/lib/collectd/.debug/load.so
 -rwxr-xr-x root       root            19160 ./usr/lib/collectd/.debug/logfile.so
 -rwxr-xr-x root       root            20176 ./usr/lib/collectd/.debug/log_logstash.so
+-rwxr-xr-x root       root            18016 ./usr/lib/collectd/.debug/lvm.so
 -rwxr-xr-x root       root            53448 ./usr/lib/collectd/.debug/madwifi.so
 -rwxr-xr-x root       root            13608 ./usr/lib/collectd/.debug/match_empty_counter.so
 -rwxr-xr-x root       root            15064 ./usr/lib/collectd/.debug/match_hashed.so
@@ -109,7 +110,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/collectd
 drwxr-xr-x root       root               60 ./usr/src/debug/collectd/5.5.0-r0
 drwxr-xr-x root       root               60 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0
-drwxr-xr-x root       root             2720 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src
+drwxr-xr-x root       root             2740 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src
 -rw-r--r-- root       root            24866 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/aggregation.c
 -rw-r--r-- root       root            16908 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/apache.c
 -rw-r--r-- root       root            12269 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/apcups.c
@@ -202,6 +203,7 @@ drwxr-xr-x root       root              120 ./usr/src/debug/collectd/5.5.0-r0/co
 -rw-r--r-- root       root             5391 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/load.c
 -rw-r--r-- root       root             6177 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/logfile.c
 -rw-r--r-- root       root             9700 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/log_logstash.c
+-rw-r--r-- root       root             6090 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/lvm.c
 -rw-r--r-- root       root            29875 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/madwifi.c
 -rw-r--r-- root       root            14761 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/madwifi.h
 -rw-r--r-- root       root             3110 ./usr/src/debug/collectd/5.5.0-r0/collectd-5.5.0/src/match_empty_counter.c
