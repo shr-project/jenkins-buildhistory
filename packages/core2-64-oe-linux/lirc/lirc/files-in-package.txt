@@ -9,9 +9,11 @@ drwxr-xr-x root       root               80 ./etc/lirc/lircd.conf.d
 -rw-r--r-- root       root              646 ./etc/lirc/lirc_options.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
-drwxr-xr-x root       root              120 ./lib/systemd/system
+drwxr-xr-x root       root              160 ./lib/systemd/system
 -rw-r--r-- root       root              507 ./lib/systemd/system/lircd.service
+-rw-r--r-- root       root              182 ./lib/systemd/system/lircd-setup.service
 -rw-r--r-- root       root               93 ./lib/systemd/system/lircd.socket
+-rw-r--r-- root       root              489 ./lib/systemd/system/lircd-uinput.service
 -rwxr-xr-x root       root              994 ./lib/systemd/system/lircexec.init
 -rw-r--r-- root       root              507 ./lib/systemd/system/lircmd.service
 drwxr-xr-x root       root              100 ./usr

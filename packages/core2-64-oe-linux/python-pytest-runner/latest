@@ -1,5 +1,5 @@
 PV = 2.11.1
 PR = r0
-DEPENDS = python python-distribute-native python-native python-native python-setuptools-scm virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = python python-distribute-native python-native python-native python-setuptools-scm-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = python-pytest-runner-dbg python-pytest-runner-staticdev python-pytest-runner-dev python-pytest-runner-doc python-pytest-runner-locale python-pytest-runner
 LAYER = meta-python

@@ -6,7 +6,7 @@ drwxr-xr-x root       root               80 ./usr/lib/.debug
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root              120 ./usr/sbin/.debug
 -rwxr-xr-x root       root           152424 ./usr/sbin/.debug/plainrsa-gen
--rwxr-xr-x root       root          1379392 ./usr/sbin/.debug/racoon
+-rwxr-xr-x root       root          1380600 ./usr/sbin/.debug/racoon
 -rwxr-xr-x root       root            68936 ./usr/sbin/.debug/racoonctl
 -rwxr-xr-x root       root           117448 ./usr/sbin/.debug/setkey
 drwxr-xr-x root       root               60 ./usr/src
@@ -15,7 +15,9 @@ drwxr-xr-x root       root               60 ./usr/src/debug/ipsec-tools
 drwxr-xr-x root       root               80 ./usr/src/debug/ipsec-tools/0.8.2-r0
 drwxr-xr-x root       root               60 ./usr/src/debug/ipsec-tools/0.8.2-r0/build
 drwxr-xr-x root       root               80 ./usr/src/debug/ipsec-tools/0.8.2-r0/build/src
-drwxr-xr-x root       root               60 ./usr/src/debug/ipsec-tools/0.8.2-r0/build/src/racoon
+drwxr-xr-x root       root              100 ./usr/src/debug/ipsec-tools/0.8.2-r0/build/src/racoon
+-rw-r--r-- root       root           175892 ./usr/src/debug/ipsec-tools/0.8.2-r0/build/src/racoon/cfparse.c
+-rw-r--r-- root       root            10114 ./usr/src/debug/ipsec-tools/0.8.2-r0/build/src/racoon/cfparse.h
 -rw-r--r-- root       root           161607 ./usr/src/debug/ipsec-tools/0.8.2-r0/build/src/racoon/cftoken.c
 drwxr-xr-x root       root               60 ./usr/src/debug/ipsec-tools/0.8.2-r0/build/src/setkey
 -rw-r--r-- root       root            92739 ./usr/src/debug/ipsec-tools/0.8.2-r0/build/src/setkey/token.c
@@ -37,8 +39,8 @@ drwxr-xr-x root       root             1820 ./usr/src/debug/ipsec-tools/0.8.2-r0
 -rw-r--r-- root       root             5747 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/algorithm.h
 -rw-r--r-- root       root            10649 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/backupsa.c
 -rw-r--r-- root       root             1915 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/backupsa.h
--rw-r--r-- root       root            10634 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/cfparse.h
 -rw-r--r-- root       root             1908 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/cfparse_proto.h
+-rw-r--r-- root       root            64119 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/cfparse.y
 -rw-r--r-- root       root            27293 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/cftoken.l
 -rw-r--r-- root       root             2102 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/cftoken_proto.h
 -rw-r--r-- root       root            46379 ./usr/src/debug/ipsec-tools/0.8.2-r0/ipsec-tools-0.8.2/src/racoon/crypto_openssl.c
