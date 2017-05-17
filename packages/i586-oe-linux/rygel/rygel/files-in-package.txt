@@ -1,43 +1,43 @@
 drwxr-xr-x root       root               60 ./etc
--rw-r--r-- root       root             5189 ./etc/rygel.conf
+-rw-r--r-- root       root             4988 ./etc/rygel.conf
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root            92440 ./usr/bin/rygel
--rwxr-xr-x root       root            80072 ./usr/bin/rygel-preferences
+-rwxr-xr-x root       root            38952 ./usr/bin/rygel
+-rwxr-xr-x root       root            51228 ./usr/bin/rygel-preferences
 drwxr-xr-x root       root              320 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/rygel
--rwxr-xr-x root       root            38976 ./usr/libexec/rygel/mx-extract
+-rwxr-xr-x root       root            72200 ./usr/libexec/rygel/mx-extract
 drwxr-xr-x root       root              120 ./usr/lib/girepository-1.0
--rw-r--r-- root       root            30624 ./usr/lib/girepository-1.0/RygelCore-2.6.typelib
+-rw-r--r-- root       root            34108 ./usr/lib/girepository-1.0/RygelCore-2.6.typelib
 -rw-r--r-- root       root            15096 ./usr/lib/girepository-1.0/RygelRenderer-2.6.typelib
 -rw-r--r-- root       root             2024 ./usr/lib/girepository-1.0/RygelRendererGst-2.6.typelib
--rw-r--r-- root       root            70588 ./usr/lib/girepository-1.0/RygelServer-2.6.typelib
--rwxr-xr-x root       root           298560 ./usr/lib/librygel-core-2.6.so.2.0.4
+-rw-r--r-- root       root            71568 ./usr/lib/girepository-1.0/RygelServer-2.6.typelib
+-rwxr-xr-x root       root           356064 ./usr/lib/librygel-core-2.6.so.2.0.4
 lrwxrwxrwx root       root               26 ./usr/lib/librygel-core-2.6.so.2 -> librygel-core-2.6.so.2.0.4
--rwxr-xr-x root       root            38840 ./usr/lib/librygel-db-2.6.so.2.0.4
+-rwxr-xr-x root       root            43020 ./usr/lib/librygel-db-2.6.so.2.0.4
 lrwxrwxrwx root       root               24 ./usr/lib/librygel-db-2.6.so.2 -> librygel-db-2.6.so.2.0.4
 -rwxr-xr-x root       root           150200 ./usr/lib/librygel-renderer-2.6.so.2.0.4
 lrwxrwxrwx root       root               30 ./usr/lib/librygel-renderer-2.6.so.2 -> librygel-renderer-2.6.so.2.0.4
--rwxr-xr-x root       root            43348 ./usr/lib/librygel-renderer-gst-2.6.so.2.0.4
+-rwxr-xr-x root       root            43352 ./usr/lib/librygel-renderer-gst-2.6.so.2.0.4
 lrwxrwxrwx root       root               34 ./usr/lib/librygel-renderer-gst-2.6.so.2 -> librygel-renderer-gst-2.6.so.2.0.4
 -rwxr-xr-x root       root            63672 ./usr/lib/librygel-ruih-2.0.so.1.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/librygel-ruih-2.0.so.1 -> librygel-ruih-2.0.so.1.0.0
--rwxr-xr-x root       root           739400 ./usr/lib/librygel-server-2.6.so.2.0.4
+-rwxr-xr-x root       root           751760 ./usr/lib/librygel-server-2.6.so.2.0.4
 lrwxrwxrwx root       root               28 ./usr/lib/librygel-server-2.6.so.2 -> librygel-server-2.6.so.2.0.4
 drwxr-xr-x root       root               60 ./usr/lib/rygel-2.6
 drwxr-xr-x root       root              120 ./usr/lib/rygel-2.6/engines
--rwxr-xr-x root       root            84400 ./usr/lib/rygel-2.6/engines/librygel-media-engine-gst.so
+-rwxr-xr-x root       root            84452 ./usr/lib/rygel-2.6/engines/librygel-media-engine-gst.so
 -rwxr-xr-x root       root            22400 ./usr/lib/rygel-2.6/engines/librygel-media-engine-simple.so
 -rw-r--r-- root       root              197 ./usr/lib/rygel-2.6/engines/media-engine-gst.plugin
 -rw-r--r-- root       root              184 ./usr/lib/rygel-2.6/engines/media-engine-simple.plugin
 drwxr-xr-x root       root              120 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/applications
--rw-r--r-- root       root            10759 ./usr/share/applications/rygel.desktop
--rw-r--r-- root       root             4948 ./usr/share/applications/rygel-preferences.desktop
+-rw-r--r-- root       root            10936 ./usr/share/applications/rygel.desktop
+-rw-r--r-- root       root             5428 ./usr/share/applications/rygel-preferences.desktop
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/services
--rw-r--r-- root       root               58 ./usr/share/dbus-1/services/org.gnome.Rygel1.service
+-rw-r--r-- root       root               87 ./usr/share/dbus-1/services/org.gnome.Rygel1.service
 drwxr-xr-x root       root               60 ./usr/share/icons
 drwxr-xr-x root       root              120 ./usr/share/icons/hicolor
 drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/128x128
@@ -72,7 +72,7 @@ drwxr-xr-x root       root              240 ./usr/share/rygel/presets
 -rw-r--r-- root       root               99 ./usr/share/rygel/presets/GstMP4Mux.prs
 -rw-r--r-- root       root               81 ./usr/share/rygel/presets/GstTwoLame.prs
 -rw-r--r-- root       root              110 ./usr/share/rygel/presets/GstX264Enc.prs
--rw-r--r-- root       root            19887 ./usr/share/rygel/rygel-preferences.ui
+-rw-r--r-- root       root            19849 ./usr/share/rygel/rygel-preferences.ui
 drwxr-xr-x root       root              300 ./usr/share/rygel/xml
 -rw-r--r-- root       root            18377 ./usr/share/rygel/xml/AVTransport2.xml
 -rw-r--r-- root       root             9473 ./usr/share/rygel/xml/BasicManagement2.xml

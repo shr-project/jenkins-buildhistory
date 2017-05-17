@@ -1,11 +1,9 @@
 PV = 6.0
 PR = r9
-PKGR = r9.25
-RPROVIDES = portmap-systemd
+PKGR = r9.26
+RPROVIDES = 
 RDEPENDS = glibc (>= 2.25) libwrap (>= 7.6)
 RRECOMMENDS = 
-RREPLACES = portmap-systemd
-RCONFLICTS = portmap-systemd
 PKGSIZE = 18565
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/portmap /usr/lib/portmap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/portmap.service
 FILELIST = /lib/systemd/system/portmap.service /sbin/portmap

@@ -1,5 +1,6 @@
-PV = 131+gitAUTOINC+d86dc91677
+PE = 1
+PV = 1.7.4
 PR = r0
 DEPENDS = virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
-PACKAGES = lz4-dbg lz4-staticdev lz4-dev lz4-doc lz4-locale lz4
+PACKAGES = lz4-ptest lz4-dbg lz4-staticdev lz4-dev lz4-doc lz4-locale lz4
 LAYER = core

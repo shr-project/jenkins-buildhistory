@@ -1,9 +1,9 @@
 PV = 1.3.0
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libcrypto (>= 1.0.2k) libgcc (>= 6.3.0) libstdc++ (>= 6.3.0) libutempter (>= 1.1.6-alt2+git0+3ef74fff31) ncurses-libtinfo (>= 6.0+20161126) openssh-sshd perl-module-errno perl-module-getopt-long perl-module-io-socket-inet perl-module-posix perl-module-socket protobuf (>= 3.1.0+git0+a428e42072) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.25) libcrypto (>= 1.0.2k) libgcc (>= 6.3.0) libstdc++ (>= 6.3.0) libutempter (>= 1.1.6-alt2+git0+3ef74fff31) ncurses-libtinfo (>= 6.0+20161126) openssh-sshd perl-module-errno perl-module-getopt-long perl-module-io-socket-inet perl-module-posix perl-module-socket protobuf (>= 3.3.0+git0+a6189acd18) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 378588
+PKGSIZE = 370396
 FILES = /usr/bin/mosh-server
 FILELIST = /usr/bin/mosh-server

@@ -1,10 +1,10 @@
-PV = 0.14.8
+PV = 1.0.2
 PR = r0
 PKG = libgssdp-1.0-3
-PKGR = r0.25
-RPROVIDES = gssdp (=0.14.8)
+PKGR = r0.0
+RPROVIDES = gssdp (=1.0.2)
 RDEPENDS = glib-2.0 (>= 2.50.3) glibc (>= 2.25) libsoup-2.4 (>= 2.56.0)
 RRECOMMENDS = 
-PKGSIZE = 96907
+PKGSIZE = 93055
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gssdp /usr/lib/gssdp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/girepository-*/*.typelib
-FILELIST = /usr/lib/girepository-1.0/GSSDP-1.0.typelib /usr/lib/libgssdp-1.0.so.3 /usr/lib/libgssdp-1.0.so.3.0.0 /usr/share/gssdp/gssdp-device-sniffer.ui
+FILELIST = /usr/lib/girepository-1.0/GSSDP-1.0.typelib /usr/lib/libgssdp-1.0.so.3 /usr/lib/libgssdp-1.0.so.3.0.1 /usr/share/gssdp/gssdp-device-sniffer.ui
