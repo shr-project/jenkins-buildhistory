@@ -1,10 +1,10 @@
 PV = 2.2.0.0
 PR = r0
 PKG = librcf2
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = librcf (=2.2.0.0)
-RDEPENDS = boost-filesystem (>= 1.63.0) boost-system (>= 1.63.0) glibc (>= 2.25) libcrypto libgcc (>= 6.3.0) libssl libstdc++ (>= 6.3.0) zlib
+RDEPENDS = boost-filesystem (>= 1.64.0) boost-system (>= 1.64.0) glibc (>= 2.25) libcrypto libgcc (>= 6.3.0) libssl libstdc++ (>= 6.3.0) zlib
 RRECOMMENDS = 
-PKGSIZE = 2703255
+PKGSIZE = 2703247
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/librcf /usr/lib/librcf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/librcf.so.2 /usr/lib/librcf.so.2.2.0
