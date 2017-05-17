@@ -1,10 +1,10 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              120 ./usr/bin/.debug
--rwxr-xr-x root       root           172016 ./usr/bin/.debug/cmp.diffutils
--rwxr-xr-x root       root           229904 ./usr/bin/.debug/diff3
--rwxr-xr-x root       root           810408 ./usr/bin/.debug/diff.diffutils
--rwxr-xr-x root       root           173536 ./usr/bin/.debug/sdiff
+-rwxr-xr-x root       root           172040 ./usr/bin/.debug/cmp.diffutils
+-rwxr-xr-x root       root           229968 ./usr/bin/.debug/diff3
+-rwxr-xr-x root       root           810632 ./usr/bin/.debug/diff.diffutils
+-rwxr-xr-x root       root           173568 ./usr/bin/.debug/sdiff
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/diffutils
@@ -26,7 +26,7 @@ drwxr-xr-x root       root               80 ./usr/src/debug/diffutils/3.5-r0/bui
 -r--r--r-- root       root               49 ./usr/src/debug/diffutils/3.5-r0/build/src/version.c
 -r--r--r-- root       root               28 ./usr/src/debug/diffutils/3.5-r0/build/src/version.h
 drwxr-xr-x root       root               80 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5
-drwxr-xr-x root       root             2140 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib
+drwxr-xr-x root       root             2160 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib
 -rw-r--r-- root       root              169 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/allocator.c
 -rw-r--r-- root       root             2204 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/allocator.h
 -rw-r--r-- root       root             1641 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/anytostr.c
@@ -119,6 +119,7 @@ drwxr-xr-x root       root             2140 ./usr/src/debug/diffutils/3.5-r0/dif
 -rw-r--r-- root       root             2925 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/version-etc.h
 -rw-r--r-- root       root             1308 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/xalloc-die.c
 -rw-r--r-- root       root             7697 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/xalloc.h
+-rw-r--r-- root       root             2306 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/xalloc-oversized.h
 -rw-r--r-- root       root             1035 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/xasprintf.c
 -rw-r--r-- root       root             1438 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/xfreopen.c
 -rw-r--r-- root       root               85 ./usr/src/debug/diffutils/3.5-r0/diffutils-3.5/lib/xfreopen.h
