@@ -1,8 +1,8 @@
 PV = 0.19.21
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = mpd-systemd
-RDEPENDS = base-files base-passwd dbus-lib (>= 1.10.14) expat (>= 2.2.0) fluidsynth (>= 1.1.6) glib-2.0 (>= 2.50.3) glibc (>= 2.25) libao (>= 1.2.0) libasound (>= 1.1.3) libavahi-client (>= 0.6.32) libavahi-common (>= 0.6.32) libavcodec (>= 3.2.4) libavformat (>= 3.2.4) libavutil (>= 3.2.4) libbz2 (>= 1.0.6) libcurl (>= 7.53.1) libfaad (>= 2.7) libflac (>= 1.3.2) libicui18n (>= 58.2) libicuuc (>= 58.2) libjack (>= 1.9.10+git1+2d1d323505) libmms (>= 0.6.4) libmodplug (>= 0.8.8.5) libogg (>= 1.3.2) libopus (>= 1.1.3) libpulse (>= 10.0) libsamplerate0 (>= 0.1.9) libsndfile1 (>= 1.0.27) libsqlite3 (>= 3.17.0) libstdc++ (>= 6.3.0) libsystemd (>= 232) libupnp (>= 1.6.19) libvorbis (>= 1.3.5) libwrap (>= 7.6) mpg123 (>= 1.23.8) openal-soft (>= 1.15.1) shadow wavpack (>= 4.60.1) yajl (>= 2.1.0) zlib (>= 1.2.11)
+RDEPENDS = base-files base-passwd dbus-lib (>= 1.10.18) expat (>= 2.2.0) fluidsynth (>= 1.1.6) glib-2.0 (>= 2.50.3) glibc (>= 2.25) libao (>= 1.2.0) libasound (>= 1.1.3) libavahi-client (>= 0.6.32) libavahi-common (>= 0.6.32) libavcodec (>= 3.2.4) libavformat (>= 3.2.4) libavutil (>= 3.2.4) libbz2 (>= 1.0.6) libcurl (>= 7.54.0) libfaad (>= 2.7) libflac (>= 1.3.2) libicui18n (>= 58.2) libicuuc (>= 58.2) libjack (>= 1.9.10+git1+2d1d323505) libmms (>= 0.6.4) libmodplug (>= 0.8.8.5) libogg (>= 1.3.2) libopus (>= 1.1.3) libpulse (>= 10.0) libsamplerate0 (>= 0.1.9) libsndfile1 (>= 1.0.27) libsqlite3 (>= 3.17.0) libstdc++ (>= 6.3.0) libsystemd (>= 232) libupnp (>= 1.6.19) libvorbis (>= 1.3.5) libwrap (>= 7.6) mpg123 (>= 1.23.8) openal-soft (>= 1.15.1) shadow wavpack (>= 4.60.1) yajl (>= 2.1.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 RREPLACES = mpd-systemd
 RCONFLICTS = mpd-systemd

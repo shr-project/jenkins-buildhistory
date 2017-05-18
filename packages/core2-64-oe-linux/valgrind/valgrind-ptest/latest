@@ -1,8 +1,8 @@
 PV = 3.12.0
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = 
-RDEPENDS = boost-system (>= 1.63.0) boost-thread (>= 1.63.0) glibc (>= 2.25) glibc-utils libgcc (>= 6.3.0) libgomp (>= 6.3.0) libstdc++ (>= 6.3.0) perl perl-module-file-glob sed
+RDEPENDS = boost-system (>= 1.64.0) boost-thread (>= 1.64.0) glibc (>= 2.25) glibc-utils libgcc (>= 6.3.0) libgomp (>= 6.3.0) libstdc++ (>= 6.3.0) perl perl-module-file-glob sed
 RRECOMMENDS = ptest-runner
 PKGSIZE = 74568503
 FILES = /usr/lib/valgrind/ptest
