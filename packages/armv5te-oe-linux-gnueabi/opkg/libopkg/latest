@@ -2,9 +2,9 @@ PE = 1
 PV = 0.3.4
 PR = r0
 PKG = libopkg1
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = libopkg (=0.3.4)
-RDEPENDS = glibc (>= 2.25) libarchive (>= 3.2.2) libsolv (>= 0.6.26)
+RDEPENDS = glibc (>= 2.25) libarchive (>= 3.3.1) libsolv (>= 0.6.26)
 RRECOMMENDS = 
 PKGSIZE = 119028
 FILES = /usr/lib/*.so.* /var/lib/opkg/
