@@ -1,0 +1,10 @@
+PV = 4.10.15+gitAUTOINC+4d929fac34_ebb58e3714
+PR = r0
+PKGV = 4.10.15+git0+4d929fac34_ebb58e3714
+PKGR = r0.1
+RPROVIDES = kernel-module-sch-tbf
+RDEPENDS = kernel-4.10.15-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 11812
+FILES = /lib/modules/4.10.15-yocto-standard/kernel/net/sched/sch_tbf.ko /etc/modules-load.d/sch_tbf.conf /etc/modprobe.d/sch_tbf.conf
+FILELIST = /lib/modules/4.10.15-yocto-standard/kernel/net/sched/sch_tbf.ko
