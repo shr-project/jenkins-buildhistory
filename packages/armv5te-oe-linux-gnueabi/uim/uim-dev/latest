@@ -1,8 +1,8 @@
 PV = 1.8.6
 PR = r0
-PKGR = r0.27
+PKGR = r0.28
 RPROVIDES = 
-RDEPENDS = libuim0 uim (= 1.8.6-r0.27)
+RDEPENDS = libuim0 uim (= 1.8.6-r0.28)
 RRECOMMENDS = glibc-dev gtk+-dev gtk+3-dev libedit-dev libgcc-dev libuim0-dev takao-fonts-dev
 PKGSIZE = 67890
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/uim/*.la /lib/*.la /usr/lib/uim/plugin/*.la

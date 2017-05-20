@@ -1,4 +1,5 @@
 PV = 1.61
 PR = r0
-DEPENDS = virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc wvstreams
+DEPENDS = pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc wvstreams
 PACKAGES = wvdial-dbg wvdial-staticdev wvdial-dev wvdial-doc wvdial-locale wvdial
+LAYER = openembedded-layer
