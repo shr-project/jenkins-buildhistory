@@ -1,8 +1,8 @@
 PV = 5.5.1
 PR = r0
-PKGR = r0.30
+PKGR = r0.31
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libsqlite3 (>= 3.17.0) strongswan
+RDEPENDS = glibc (>= 2.25) libsqlite3 (>= 3.18.0) strongswan
 RRECOMMENDS = 
 PKGSIZE = 14145
 FILES = /usr/lib/ipsec/plugins/libstrongswan-sqlite.so /etc/strongswan.d/charon/sqlite.conf
