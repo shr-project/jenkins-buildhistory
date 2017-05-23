@@ -1,0 +1,6 @@
+PE = 1
+PV = 1.26
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native jansson libdaemon libnl libtool-cross libtool-native pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = libteam-dbg libteam-staticdev libteam-dev libteam-doc libteam-locale libteam libteamdctl libteam-utils
+LAYER = openembedded-layer
