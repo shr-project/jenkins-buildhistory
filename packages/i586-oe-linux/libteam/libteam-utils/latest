@@ -1,9 +1,8 @@
-PE = 1
 PV = 1.26
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) jansson (>= 2.9) libdaemon (>= 0.14) libteam (>= 1.26) libteamdctl (>= 1.26)
+RDEPENDS = bash glibc (>= 2.25) jansson (>= 2.9) libdaemon (>= 0.14) libteam (>= 1.26) libteam-dctl (>= 1.26)
 RRECOMMENDS = 
 PKGSIZE = 194129
 FILES = /usr/bin/bond2team /usr/bin/teamd /usr/bin/teamdctl /usr/bin/teamnl
