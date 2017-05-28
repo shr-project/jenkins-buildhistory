@@ -1,9 +1,9 @@
 PV = 2.30.3
 PR = r0
 PKG = libgnomecanvas-2-dev
-PKGR = r0.28
+PKGR = r0.29
 RPROVIDES = libgnomecanvas-dev (=2.30.3)
-RDEPENDS = libgnomecanvas (= 2.30.3-r0.28)
+RDEPENDS = libgnomecanvas (= 2.30.3-r0.29)
 RRECOMMENDS = atk-dev cairo-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gtk+-dev libart-lgpl-dev libglade-dev pango-dev xineramaproto-dev
 PKGSIZE = 74538
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libgnomecanvas/*.la /lib/*.la /usr/lib/libglade/*/libcanvas*.la
