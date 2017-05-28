@@ -2,9 +2,9 @@ PE = 1
 PV = 5.0.3
 PR = r0
 PKG = libxfixes3
-PKGR = r0.29
+PKGR = r0.30
 RPROVIDES = libxfixes (=5.0.3)
-RDEPENDS = glibc (>= 2.25) libx11 (>= 1.6.4)
+RDEPENDS = glibc (>= 2.25) libx11 (>= 1.6.5)
 RRECOMMENDS = 
 PKGSIZE = 13962
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libxfixes /usr/lib/libxfixes/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
