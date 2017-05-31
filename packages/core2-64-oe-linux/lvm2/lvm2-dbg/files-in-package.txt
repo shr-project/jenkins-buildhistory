@@ -12,8 +12,9 @@ drwxr-xr-x root       root              120 ./usr/lib/device-mapper/.debug
 -rwxr-xr-x root       root            22256 ./usr/lib/device-mapper/.debug/libdevmapper-event-lvm2snapshot.so
 -rwxr-xr-x root       root            25984 ./usr/lib/device-mapper/.debug/libdevmapper-event-lvm2thin.so
 drwxr-xr-x root       root               60 ./usr/sbin
-drwxr-xr-x root       root              100 ./usr/sbin/.debug
+drwxr-xr-x root       root              120 ./usr/sbin/.debug
 -rwxr-xr-x root       root            83952 ./usr/sbin/.debug/dmeventd
+-rwxr-xr-x root       root           309496 ./usr/sbin/.debug/dmsetup
 -rwxr-xr-x root       root          5259072 ./usr/sbin/.debug/lvm
 -rwxr-xr-x root       root           172624 ./usr/sbin/.debug/lvmetad
 drwxr-xr-x root       root               60 ./usr/src
@@ -266,11 +267,12 @@ drwxr-xr-x root       root               80 ./usr/src/debug/lvm2/2.02.171-r0/LVM
 -rw-r--r-- root       root             1737 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/lib/uuid/uuid.h
 drwxr-xr-x root       root               60 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/lib/zero
 -rw-r--r-- root       root             2723 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/lib/zero/zero.c
-drwxr-xr-x root       root             1260 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools
+drwxr-xr-x root       root             1280 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools
 -rw-r--r-- root       root            85060 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools/command.c
 -rw-r--r-- root       root             8568 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools/command.h
 -rw-r--r-- root       root            42895 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools/command-lines-input.h
 -rw-r--r-- root       root             6079 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools/commands.h
+-rw-r--r-- root       root           183152 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools/dmsetup.c
 -rw-r--r-- root       root            10370 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools/dumpconfig.c
 -rw-r--r-- root       root              780 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools/formats.c
 -rw-r--r-- root       root            44569 ./usr/src/debug/lvm2/2.02.171-r0/LVM2.2.02.171/tools/lvchange.c

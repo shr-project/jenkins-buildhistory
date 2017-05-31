@@ -1,6 +1,6 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              360 ./usr/bin
--rwxr-xr-x root       root            23096 ./usr/bin/hwloc-annotate
+-rwxr-xr-x root       root            19000 ./usr/bin/hwloc-annotate
 -rwxr-xr-x root       root            10632 ./usr/bin/hwloc-assembler
 -rwxr-xr-x root       root             2343 ./usr/bin/hwloc-assembler-remote
 -rwxr-xr-x root       root            35608 ./usr/bin/hwloc-bind
@@ -14,13 +14,11 @@ drwxr-xr-x root       root              360 ./usr/bin
 lrwxrwxrwx root       root               18 ./usr/bin/hwloc-ls -> lstopo-no-graphics
 -rwxr-xr-x root       root            10632 ./usr/bin/hwloc-patch
 -rwxr-xr-x root       root            14936 ./usr/bin/hwloc-ps
--rwxr-xr-x root       root           126848 ./usr/bin/lstopo
+lrwxrwxrwx root       root               18 ./usr/bin/lstopo -> lstopo-no-graphics
 -rwxr-xr-x root       root           113936 ./usr/bin/lstopo-no-graphics
 drwxr-xr-x root       root               60 ./usr/sbin
 -rwxr-xr-x root       root            14800 ./usr/sbin/hwloc-dump-hwdata
-drwxr-xr-x root       root               80 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/applications
--rw-r--r-- root       root              265 ./usr/share/applications/lstopo.desktop
+drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              100 ./usr/share/hwloc
 -rw-r--r-- root       root             2442 ./usr/share/hwloc/hwloc.dtd
 -rw-r--r-- root       root              615 ./usr/share/hwloc/hwloc-dump-hwdata.service
