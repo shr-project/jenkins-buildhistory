@@ -1,4 +1,4 @@
-drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              240 ./usr/include
 drwxr-xr-x root       root              100 ./usr/include/bind9
 -rw-r--r-- root       root             1642 ./usr/include/bind9/check.h
@@ -143,7 +143,7 @@ drwxr-xr-x root       root              180 ./usr/include/isccfg
 -rw-r--r-- root       root             2029 ./usr/include/isccfg/namedconf.h
 -rw-r--r-- root       root             1222 ./usr/include/isccfg/version.h
 -rw-r--r-- root       root             1823 ./usr/include/isc/commandline.h
--rw-r--r-- root       root             2134 ./usr/include/isc/condition.h
+-rw-r--r-- root       root             2011 ./usr/include/isc/condition.h
 -rw-r--r-- root       root             2328 ./usr/include/isc/counter.h
 -rw-r--r-- root       root             1389 ./usr/include/isc/crc64.h
 -rw-r--r-- root       root             2569 ./usr/include/isc/dir.h
@@ -177,17 +177,17 @@ drwxr-xr-x root       root              180 ./usr/include/isccfg
 -rw-r--r-- root       root             3256 ./usr/include/isc/msgcat.h
 -rw-r--r-- root       root             8862 ./usr/include/isc/msgs.h
 -rw-r--r-- root       root             1902 ./usr/include/isc/mutexblock.h
--rw-r--r-- root       root             1445 ./usr/include/isc/mutex.h
+-rw-r--r-- root       root             4061 ./usr/include/isc/mutex.h
 -rw-r--r-- root       root             4917 ./usr/include/isc/netaddr.h
 -rw-r--r-- root       root             1392 ./usr/include/isc/netdb.h
 -rw-r--r-- root       root            10695 ./usr/include/isc/net.h
 -rw-r--r-- root       root             1474 ./usr/include/isc/netscope.h
 -rw-r--r-- root       root             1898 ./usr/include/isc/offset.h
--rw-r--r-- root       root             1168 ./usr/include/isc/once.h
+-rw-r--r-- root       root             1510 ./usr/include/isc/once.h
 -rw-r--r-- root       root             3327 ./usr/include/isc/ondestroy.h
 -rw-r--r-- root       root             1191 ./usr/include/isc/os.h
 -rw-r--r-- root       root             2058 ./usr/include/isc/parseint.h
--rw-r--r-- root       root             9178 ./usr/include/isc/platform.h
+-rw-r--r-- root       root             9184 ./usr/include/isc/platform.h
 -rw-r--r-- root       root             3904 ./usr/include/isc/pool.h
 -rw-r--r-- root       root             3757 ./usr/include/isc/portset.h
 -rw-r--r-- root       root             3035 ./usr/include/isc/print.h
@@ -220,7 +220,7 @@ drwxr-xr-x root       root              180 ./usr/include/isccfg
 -rw-r--r-- root       root             1373 ./usr/include/isc/syslog.h
 -rw-r--r-- root       root            21794 ./usr/include/isc/task.h
 -rw-r--r-- root       root             4184 ./usr/include/isc/taskpool.h
--rw-r--r-- root       root             1215 ./usr/include/isc/thread.h
+-rw-r--r-- root       root             1914 ./usr/include/isc/thread.h
 -rw-r--r-- root       root             8581 ./usr/include/isc/time.h
 -rw-r--r-- root       root            11324 ./usr/include/isc/timer.h
 -rw-r--r-- root       root             1297 ./usr/include/isc/tm.h
@@ -254,3 +254,11 @@ drwxr-xr-x root       root              120 ./usr/include/pkcs11
 -rw-r--r-- root       root            28346 ./usr/include/pkcs11/pkcs11f.h
 -rw-r--r-- root       root             9279 ./usr/include/pkcs11/pkcs11.h
 -rw-r--r-- root       root            72706 ./usr/include/pkcs11/pkcs11t.h
+drwxr-xr-x root       root              180 ./usr/lib
+lrwxrwxrwx root       root               20 ./usr/lib/libbind9.so -> libbind9.so.140.0.10
+lrwxrwxrwx root       root               17 ./usr/lib/libdns.so -> libdns.so.162.1.2
+lrwxrwxrwx root       root               17 ./usr/lib/libirs.so -> libirs.so.141.0.4
+lrwxrwxrwx root       root               19 ./usr/lib/libisccc.so -> libisccc.so.140.0.3
+lrwxrwxrwx root       root               20 ./usr/lib/libisccfg.so -> libisccfg.so.140.3.0
+lrwxrwxrwx root       root               17 ./usr/lib/libisc.so -> libisc.so.160.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/liblwres.so -> liblwres.so.141.0.3

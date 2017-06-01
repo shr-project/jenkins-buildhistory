@@ -1,4 +1,4 @@
-drwxr-xr-x root       root               80 ./etc
+drwxr-xr-x root       root              100 ./etc
 drwxr-xr-x root       root              280 ./etc/bind
 -rw-r--r-- root       root             2389 ./etc/bind/bind.keys
 -rw-r--r-- root       root              237 ./etc/bind/db.0
@@ -14,42 +14,59 @@ drwxr-xr-x root       root              280 ./etc/bind
 -rw-r--r-- root       root             1317 ./etc/bind/zones.rfc1918
 drwxr-xr-x root       root               60 ./etc/default
 -rw-r--r-- root       root               51 ./etc/default/bind9
+drwxr-xr-x root       root               60 ./etc/tmpfiles.d
+-rw-r--r-- root       root               32 ./etc/tmpfiles.d/bind.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              528 ./lib/systemd/system/named.service
-drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
--rwxr-xr-x root       root             3308 ./usr/bin/bind9-config
--rwxr-xr-x root       root          2512992 ./usr/bin/delv
--rwxr-xr-x root       root             3308 ./usr/bin/isc-config.sh
--rwxr-xr-x root       root          2457060 ./usr/bin/nsupdate
+-rwxr-xr-x root       root             3330 ./usr/bin/bind9-config
+-rwxr-xr-x root       root            33120 ./usr/bin/delv
+-rwxr-xr-x root       root             3330 ./usr/bin/isc-config.sh
+-rwxr-xr-x root       root            59616 ./usr/bin/nsupdate
+drwxr-xr-x root       root              320 ./usr/lib
+-rwxr-xr-x root       root            67436 ./usr/lib/libbind9.so.140.0.10
+lrwxrwxrwx root       root               20 ./usr/lib/libbind9.so.140 -> libbind9.so.140.0.10
+-rwxr-xr-x root       root          2383892 ./usr/lib/libdns.so.162.1.2
+lrwxrwxrwx root       root               17 ./usr/lib/libdns.so.162 -> libdns.so.162.1.2
+-rwxr-xr-x root       root            43016 ./usr/lib/libirs.so.141.0.4
+lrwxrwxrwx root       root               17 ./usr/lib/libirs.so.141 -> libirs.so.141.0.4
+-rwxr-xr-x root       root            39048 ./usr/lib/libisccc.so.140.0.3
+lrwxrwxrwx root       root               19 ./usr/lib/libisccc.so.140 -> libisccc.so.140.0.3
+-rwxr-xr-x root       root           112236 ./usr/lib/libisccfg.so.140.3.0
+lrwxrwxrwx root       root               20 ./usr/lib/libisccfg.so.140 -> libisccfg.so.140.3.0
+-rwxr-xr-x root       root           504640 ./usr/lib/libisc.so.160.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libisc.so.160 -> libisc.so.160.0.0
+-rwxr-xr-x root       root            83860 ./usr/lib/liblwres.so.141.0.3
+lrwxrwxrwx root       root               19 ./usr/lib/liblwres.so.141 -> liblwres.so.141.0.3
 drwxr-xr-x root       root              560 ./usr/sbin
--rwxr-xr-x root       root             5672 ./usr/sbin/arpaname
--rwxr-xr-x root       root          2343068 ./usr/sbin/ddns-confgen
+-rwxr-xr-x root       root             5668 ./usr/sbin/arpaname
+-rwxr-xr-x root       root            18096 ./usr/sbin/ddns-confgen
 -rwxr-xr-x root       root            10918 ./usr/sbin/dnssec-checkds
 -rwxr-xr-x root       root            28740 ./usr/sbin/dnssec-coverage
--rwxr-xr-x root       root          2367680 ./usr/sbin/dnssec-dsfromkey
--rwxr-xr-x root       root          2367680 ./usr/sbin/dnssec-importkey
--rwxr-xr-x root       root          2371776 ./usr/sbin/dnssec-keyfromlabel
--rwxr-xr-x root       root          2379964 ./usr/sbin/dnssec-keygen
--rwxr-xr-x root       root          2363580 ./usr/sbin/dnssec-revoke
--rwxr-xr-x root       root          2371772 ./usr/sbin/dnssec-settime
--rwxr-xr-x root       root          2420924 ./usr/sbin/dnssec-signzone
--rwxr-xr-x root       root          2363580 ./usr/sbin/dnssec-verify
--rwxr-xr-x root       root              183 ./usr/sbin/generate-rndc-key.sh
--rwxr-xr-x root       root           294012 ./usr/sbin/genrandom
--rwxr-xr-x root       root           318592 ./usr/sbin/isc-hmac-fixup
--rwxr-xr-x root       root          3310848 ./usr/sbin/lwresd
--rwxr-xr-x root       root          3310848 ./usr/sbin/named
--rwxr-xr-x root       root          2477596 ./usr/sbin/named-checkconf
--rwxr-xr-x root       root          2355484 ./usr/sbin/named-checkzone
+-rwxr-xr-x root       root            51280 ./usr/sbin/dnssec-dsfromkey
+-rwxr-xr-x root       root            51284 ./usr/sbin/dnssec-importkey
+-rwxr-xr-x root       root            55348 ./usr/sbin/dnssec-keyfromlabel
+-rwxr-xr-x root       root            63544 ./usr/sbin/dnssec-keygen
+-rwxr-xr-x root       root            47124 ./usr/sbin/dnssec-revoke
+-rwxr-xr-x root       root            51240 ./usr/sbin/dnssec-settime
+-rwxr-xr-x root       root           113140 ./usr/sbin/dnssec-signzone
+-rwxr-xr-x root       root            47116 ./usr/sbin/dnssec-verify
+-rwxr-xr-x root       root              222 ./usr/sbin/generate-rndc-key.sh
+-rwxr-xr-x root       root             9812 ./usr/sbin/genrandom
+-rwxr-xr-x root       root             9852 ./usr/sbin/isc-hmac-fixup
+-rwxr-xr-x root       root           681940 ./usr/sbin/lwresd
+-rwxr-xr-x root       root           681940 ./usr/sbin/named
+-rwxr-xr-x root       root            30800 ./usr/sbin/named-checkconf
+-rwxr-xr-x root       root            26640 ./usr/sbin/named-checkzone
 lrwxrwxrwx root       root               15 ./usr/sbin/named-compilezone -> named-checkzone
--rwxr-xr-x root       root          2334880 ./usr/sbin/named-journalprint
--rwxr-xr-x root       root          2338972 ./usr/sbin/named-rrchecker
--rwxr-xr-x root       root           343432 ./usr/sbin/nsec3hash
--rwxr-xr-x root       root           478212 ./usr/sbin/rndc
--rwxr-xr-x root       root          2339004 ./usr/sbin/rndc-confgen
+-rwxr-xr-x root       root             5712 ./usr/sbin/named-journalprint
+-rwxr-xr-x root       root             9876 ./usr/sbin/named-rrchecker
+-rwxr-xr-x root       root             9812 ./usr/sbin/nsec3hash
+-rwxr-xr-x root       root            30588 ./usr/sbin/rndc
+-rwxr-xr-x root       root            13996 ./usr/sbin/rndc-confgen
 lrwxrwxrwx root       root               12 ./usr/sbin/tsig-keygen -> ddns-confgen
 drwxr-xr-x root       root               60 ./var
 drwxr-xr-x root       root               60 ./var/cache

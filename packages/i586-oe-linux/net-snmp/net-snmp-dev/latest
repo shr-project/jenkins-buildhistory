@@ -1,8 +1,8 @@
 PV = 5.7.3
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = 
-RDEPENDS = net-snmp-client (= 5.7.3-r0.34) net-snmp-libs net-snmp-server (= 5.7.3-r0.34)
+RDEPENDS = net-snmp-client (= 5.7.3-r0.35) net-snmp-libs net-snmp-server (= 5.7.3-r0.35)
 RRECOMMENDS = glibc-dev libcrypto-dev libnl-dev libpci-dev net-snmp-client-dev net-snmp-libs-dev net-snmp-mibs-dev net-snmp-server-dev net-snmp-server-snmpd-dev net-snmp-server-snmptrapd-dev openssl-dev pciutils-dev
 PKGSIZE = 701549
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/net-snmp/*.la /lib/*.la /usr/bin/mib2c /usr/bin/mib2c-update
