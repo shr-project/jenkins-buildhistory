@@ -1,9 +1,9 @@
 PE = 1
 PV = 0.5.3
 PR = r0
-PKGR = r0.34
+PKGR = r0.35
 RPROVIDES = lxdm-systemd
-RDEPENDS = bash cairo (>= 1.14.8) gdk-pixbuf (>= 2.36.6) glib-2.0 (>= 2.50.3) glibc (>= 2.25) gtk+ (>= 2.24.31) librsvg-gtk libx11 (>= 1.6.5) libxcb (>= 1.12) pango (>= 1.40.6) setxkbmap
+RDEPENDS = bash cairo (>= 1.14.8) gdk-pixbuf (>= 2.36.6) glib-2.0 (>= 2.52.2) glibc (>= 2.25) gtk+ (>= 2.24.31) librsvg-gtk libx11 (>= 1.6.5) libxcb (>= 1.12) pango (>= 1.40.6) setxkbmap
 RRECOMMENDS = 
 RREPLACES = lxdm-systemd
 RCONFLICTS = lxdm-systemd
