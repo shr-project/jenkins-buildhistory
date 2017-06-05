@@ -2,11 +2,11 @@ drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/installed-tests
-drwxr-xr-x root       root             5380 ./usr/libexec/installed-tests/glib
+drwxr-xr-x root       root             5400 ./usr/libexec/installed-tests/glib
 -rwxr-xr-x root       root             5896 ./usr/libexec/installed-tests/glib/1bit-mutex
 -rw-r--r-- root       root             4096 ./usr/libexec/installed-tests/glib/4096-random-bytes
--rwxr-xr-x root       root             5896 ./usr/libexec/installed-tests/glib/642026
--rwxr-xr-x root       root             5900 ./usr/libexec/installed-tests/glib/642026-ec
+-rwxr-xr-x root       root             5900 ./usr/libexec/installed-tests/glib/642026
+-rwxr-xr-x root       root             5904 ./usr/libexec/installed-tests/glib/642026-ec
 -rwxr-xr-x root       root            10052 ./usr/libexec/installed-tests/glib/accumulator
 -rwxr-xr-x root       root            39380 ./usr/libexec/installed-tests/glib/actions
 -rwxr-xr-x root       root             5864 ./usr/libexec/installed-tests/glib/appinfo-test
@@ -26,7 +26,7 @@ drwxr-xr-x root       root             5380 ./usr/libexec/installed-tests/glib
 -rwxr-xr-x root       root            14112 ./usr/libexec/installed-tests/glib/atomic
 -rwxr-xr-x root       root             9948 ./usr/libexec/installed-tests/glib/atomic-test
 -rwxr-xr-x root       root             5860 ./usr/libexec/installed-tests/glib/autoptr
--rwxr-xr-x root       root            18180 ./usr/libexec/installed-tests/glib/base64
+-rwxr-xr-x root       root            22284 ./usr/libexec/installed-tests/glib/base64
 -rwxr-xr-x root       root            10232 ./usr/libexec/installed-tests/glib/basic-application
 -rwxr-xr-x root       root            22392 ./usr/libexec/installed-tests/glib/binding
 -rwxr-xr-x root       root             9940 ./usr/libexec/installed-tests/glib/bitlock
@@ -71,7 +71,7 @@ drwxr-xr-x root       root              220 ./usr/libexec/installed-tests/glib/c
 -rw-r--r-- root       root             1888 ./usr/libexec/installed-tests/glib/cert-tests/key-cert.pem
 -rw-r--r-- root       root              887 ./usr/libexec/installed-tests/glib/cert-tests/key.pem
 -rw-r--r-- root       root                0 ./usr/libexec/installed-tests/glib/cert-tests/nothing.pem
--rwxr-xr-x root       root            66220 ./usr/libexec/installed-tests/glib/checksum
+-rwxr-xr-x root       root            83340 ./usr/libexec/installed-tests/glib/checksum
 -rwxr-xr-x root       root             5872 ./usr/libexec/installed-tests/glib/child-test
 -rwxr-xr-x root       root            10072 ./usr/libexec/installed-tests/glib/closure
 -rwxr-xr-x root       root            10460 ./usr/libexec/installed-tests/glib/collate
@@ -143,7 +143,7 @@ drwxr-xr-x root       root              120 ./usr/libexec/installed-tests/glib/d
 -rwxr-xr-x root       root             9980 ./usr/libexec/installed-tests/glib/error
 -rwxr-xr-x root       root            30852 ./usr/libexec/installed-tests/glib/file
 -rwxr-xr-x root       root             9972 ./usr/libexec/installed-tests/glib/fileattributematcher
--rw-r--r-- root       root            29237 ./usr/libexec/installed-tests/glib/file.c
+-rw-r--r-- root       root            29235 ./usr/libexec/installed-tests/glib/file.c
 -rwxr-xr-x root       root            10000 ./usr/libexec/installed-tests/glib/file-test
 -rwxr-xr-x root       root            26544 ./usr/libexec/installed-tests/glib/fileutils
 -rwxr-xr-x root       root            18324 ./usr/libexec/installed-tests/glib/filter-streams
@@ -188,10 +188,11 @@ drwxr-xr-x root       root              120 ./usr/libexec/installed-tests/glib/d
 -rwxr-xr-x root       root            22592 ./usr/libexec/installed-tests/glib/gnotification
 -rwxr-xr-x root       root            30840 ./usr/libexec/installed-tests/glib/gsubprocess
 -rwxr-xr-x root       root            10048 ./usr/libexec/installed-tests/glib/gsubprocess-testprog
+-rwxr-xr-x root       root             9960 ./usr/libexec/installed-tests/glib/guuid
 -rwxr-xr-x root       root            18304 ./usr/libexec/installed-tests/glib/gvalue-test
 -rwxr-xr-x root       root            88556 ./usr/libexec/installed-tests/glib/gvariant
 -rwxr-xr-x root       root            34800 ./usr/libexec/installed-tests/glib/hash
--rwxr-xr-x root       root            12308 ./usr/libexec/installed-tests/glib/hmac
+-rwxr-xr-x root       root            12764 ./usr/libexec/installed-tests/glib/hmac
 -rwxr-xr-x root       root             5880 ./usr/libexec/installed-tests/glib/hook
 -rwxr-xr-x root       root            14076 ./usr/libexec/installed-tests/glib/hostutils
 -rwxr-xr-x root       root            18316 ./usr/libexec/installed-tests/glib/ifaceproperties
@@ -467,7 +468,7 @@ drwxr-xr-x root       root              260 ./usr/libexec/installed-tests/glib/t
 -rwxr-xr-x root       root            14176 ./usr/libexec/installed-tests/glib/unix-fd
 -rwxr-xr-x root       root            14196 ./usr/libexec/installed-tests/glib/unix-streams
 -rwxr-xr-x root       root            15188 ./usr/libexec/installed-tests/glib/uri
--rwxr-xr-x root       root             9968 ./usr/libexec/installed-tests/glib/utf8-misc
+-rwxr-xr-x root       root            14068 ./usr/libexec/installed-tests/glib/utf8-misc
 -rwxr-xr-x root       root             9992 ./usr/libexec/installed-tests/glib/utf8-performance
 -rwxr-xr-x root       root             9980 ./usr/libexec/installed-tests/glib/utf8-pointer
 -rw-r--r-- root       root             3181 ./usr/libexec/installed-tests/glib/utf8.txt
@@ -491,7 +492,7 @@ drwxr-xr-x root       root               60 ./usr/lib/glib-2.0/ptest
 -rwxr-xr-x root       root              101 ./usr/lib/glib-2.0/ptest/run-ptest
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/installed-tests
-drwxr-xr-x root       root             4440 ./usr/share/installed-tests/glib
+drwxr-xr-x root       root             4460 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               87 ./usr/share/installed-tests/glib/1bit-mutex.test
 -rw-r--r-- root       root               86 ./usr/share/installed-tests/glib/642026-ec.test
 -rw-r--r-- root       root               83 ./usr/share/installed-tests/glib/642026.test
@@ -587,6 +588,7 @@ drwxr-xr-x root       root             4440 ./usr/share/installed-tests/glib
 -rw-r--r-- root       root               87 ./usr/share/installed-tests/glib/gmenumodel.test
 -rw-r--r-- root       root               90 ./usr/share/installed-tests/glib/gnotification.test
 -rw-r--r-- root       root               88 ./usr/share/installed-tests/glib/gsubprocess.test
+-rw-r--r-- root       root               82 ./usr/share/installed-tests/glib/guuid.test
 -rw-r--r-- root       root               71 ./usr/share/installed-tests/glib/gvalue-test.test
 -rw-r--r-- root       root               85 ./usr/share/installed-tests/glib/gvariant.test
 -rw-r--r-- root       root               81 ./usr/share/installed-tests/glib/hash.test

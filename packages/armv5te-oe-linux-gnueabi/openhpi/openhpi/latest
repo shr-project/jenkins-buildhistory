@@ -1,8 +1,8 @@
 PV = 3.6.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.50.3) glibc (>= 2.25) libcrypto (>= 1.0.2k) libgcc (>= 6.3.0) libgcrypt (>= 1.7.6) libssl (>= 1.0.2k) libstdc++ (>= 6.3.0) openhpi-libs util-linux-libuuid (>= 2.29.1)
+RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25) libcrypto (>= 1.0.2k) libgcc (>= 6.3.0) libgcrypt (>= 1.7.6) libssl (>= 1.0.2k) libstdc++ (>= 6.3.0) openhpi-libs util-linux-libuuid (>= 2.29.1)
 RRECOMMENDS = 
 PKGSIZE = 3127800
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openhpi /usr/lib/openhpi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/openhpid.service

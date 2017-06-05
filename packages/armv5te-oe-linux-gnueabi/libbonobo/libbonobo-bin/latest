@@ -1,9 +1,9 @@
 PV = 2.32.1
 PR = r0
 PKG = libbonobo-2-bin
-PKGR = r0.25
+PKGR = r0.26
 RPROVIDES = libbonobo-bin (=2.32.1)
-RDEPENDS = glib-2.0 (>= 2.50.3) glibc (>= 2.25) libbonobo (>= 2.32.1) libxml2 (>= 2.9.4) orbit2 (>= 2.14.19) perl
+RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25) libbonobo (>= 2.32.1) libxml2 (>= 2.9.4) orbit2 (>= 2.14.19) perl
 RRECOMMENDS = 
 PKGSIZE = 41750
 FILES = /usr/bin/* /usr/sbin/*
