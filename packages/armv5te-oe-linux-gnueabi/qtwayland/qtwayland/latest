@@ -1,10 +1,10 @@
-PV = 5.8.0+gitAUTOINC+0e2a950895
+PV = 5.9.0+gitAUTOINC+f1cf62fa8e
 PR = r0
-PKGV = 5.8.0+git0+0e2a950895
-PKGR = r0.36
+PKGV = 5.9.0+git0+f1cf62fa8e
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = fontconfig (>= 2.12.1) freetype (>= 2.8) glib-2.0 (>= 2.52.2) glibc (>= 2.25) libgcc (>= 6.3.0) libgles2-mesa (>= 17.1.1) libstdc++ (>= 6.3.0) libxkbcommon (>= 0.7.1) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19) wayland (>= 1.13.0)
+RDEPENDS = fontconfig (>= 2.12.1) freetype (>= 2.8) glib-2.0 (>= 2.52.2) glibc (>= 2.25) libgcc (>= 6.3.0) libgles2-mesa (>= 17.1.1) libstdc++ (>= 6.3.0) libxkbcommon (>= 0.7.1) qtbase (>= 5.9.0+git0+f6b36eaafe) qtdeclarative (>= 5.9.0+git0+96f6ba5f56) wayland (>= 1.13.0)
 RRECOMMENDS = qtwayland-plugins qtwayland-qmlplugins
-PKGSIZE = 1344172
+PKGSIZE = 1364368
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwayland /usr/lib/qtwayland/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5WaylandClient.so.5 /usr/lib/libQt5WaylandClient.so.5.8 /usr/lib/libQt5WaylandClient.so.5.8.0 /usr/lib/libQt5WaylandCompositor.so.5 /usr/lib/libQt5WaylandCompositor.so.5.8 /usr/lib/libQt5WaylandCompositor.so.5.8.0
+FILELIST = /usr/lib/libQt5WaylandClient.so.5 /usr/lib/libQt5WaylandClient.so.5.9 /usr/lib/libQt5WaylandClient.so.5.9.0 /usr/lib/libQt5WaylandCompositor.so.5 /usr/lib/libQt5WaylandCompositor.so.5.9 /usr/lib/libQt5WaylandCompositor.so.5.9.0
