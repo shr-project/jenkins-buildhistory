@@ -84,7 +84,7 @@ lrwxrwxrwx root       root               10 ./usr/sbin/accept -> cupsaccept
 -r-xr-xr-x root       root             9816 ./usr/sbin/cupsaccept
 -r-xr-xr-x root       root             9844 ./usr/sbin/cupsaddsmb
 -r-xr-xr-x root       root             9832 ./usr/sbin/cupsctl
--r-x------ root       root           495268 ./usr/sbin/cupsd
+-r-x------ root       root           499364 ./usr/sbin/cupsd
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsdisable -> cupsaccept
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsenable -> cupsaccept
 -r-xr-xr-x root       root            26768 ./usr/sbin/cupsfilter
@@ -208,7 +208,7 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/de
 -r--r--r-- root       root              648 ./usr/share/cups/templates/de/job-move.tmpl
 -r--r--r-- root       root              134 ./usr/share/cups/templates/de/job-release.tmpl
 -r--r--r-- root       root              126 ./usr/share/cups/templates/de/job-restart.tmpl
--r--r--r-- root       root              740 ./usr/share/cups/templates/de/jobs-header.tmpl
+-r--r--r-- root       root              751 ./usr/share/cups/templates/de/jobs-header.tmpl
 -r--r--r-- root       root             2808 ./usr/share/cups/templates/de/jobs.tmpl
 -r--r--r-- root       root              649 ./usr/share/cups/templates/de/list-available-printers.tmpl
 -r--r--r-- root       root              855 ./usr/share/cups/templates/de/modify-class.tmpl
@@ -282,7 +282,7 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/es
 -r--r--r-- root       root              630 ./usr/share/cups/templates/es/job-move.tmpl
 -r--r--r-- root       root              120 ./usr/share/cups/templates/es/job-release.tmpl
 -r--r--r-- root       root              125 ./usr/share/cups/templates/es/job-restart.tmpl
--r--r--r-- root       root              762 ./usr/share/cups/templates/es/jobs-header.tmpl
+-r--r--r-- root       root              754 ./usr/share/cups/templates/es/jobs-header.tmpl
 -r--r--r-- root       root             2751 ./usr/share/cups/templates/es/jobs.tmpl
 -r--r--r-- root       root              659 ./usr/share/cups/templates/es/list-available-printers.tmpl
 -r--r--r-- root       root              874 ./usr/share/cups/templates/es/modify-class.tmpl
@@ -357,7 +357,7 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/ja
 -r--r--r-- root       root              653 ./usr/share/cups/templates/ja/job-move.tmpl
 -r--r--r-- root       root              147 ./usr/share/cups/templates/ja/job-release.tmpl
 -r--r--r-- root       root              141 ./usr/share/cups/templates/ja/job-restart.tmpl
--r--r--r-- root       root              791 ./usr/share/cups/templates/ja/jobs-header.tmpl
+-r--r--r-- root       root              772 ./usr/share/cups/templates/ja/jobs-header.tmpl
 -r--r--r-- root       root             2821 ./usr/share/cups/templates/ja/jobs.tmpl
 -r--r--r-- root       root              683 ./usr/share/cups/templates/ja/list-available-printers.tmpl
 -r--r--r-- root       root              863 ./usr/share/cups/templates/ja/modify-class.tmpl
@@ -402,7 +402,7 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/ja
 -r--r--r-- root       root              606 ./usr/share/cups/templates/job-move.tmpl
 -r--r--r-- root       root              125 ./usr/share/cups/templates/job-release.tmpl
 -r--r--r-- root       root              113 ./usr/share/cups/templates/job-restart.tmpl
--r--r--r-- root       root              692 ./usr/share/cups/templates/jobs-header.tmpl
+-r--r--r-- root       root              724 ./usr/share/cups/templates/jobs-header.tmpl
 -r--r--r-- root       root             2728 ./usr/share/cups/templates/jobs.tmpl
 -r--r--r-- root       root              633 ./usr/share/cups/templates/list-available-printers.tmpl
 -r--r--r-- root       root              852 ./usr/share/cups/templates/modify-class.tmpl
@@ -462,7 +462,7 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/pt_BR
 -r--r--r-- root       root              629 ./usr/share/cups/templates/pt_BR/job-move.tmpl
 -r--r--r-- root       root              139 ./usr/share/cups/templates/pt_BR/job-release.tmpl
 -r--r--r-- root       root              122 ./usr/share/cups/templates/pt_BR/job-restart.tmpl
--r--r--r-- root       root              768 ./usr/share/cups/templates/pt_BR/jobs-header.tmpl
+-r--r--r-- root       root              766 ./usr/share/cups/templates/pt_BR/jobs-header.tmpl
 -r--r--r-- root       root             2822 ./usr/share/cups/templates/pt_BR/jobs.tmpl
 -r--r--r-- root       root              666 ./usr/share/cups/templates/pt_BR/list-available-printers.tmpl
 -r--r--r-- root       root              889 ./usr/share/cups/templates/pt_BR/modify-class.tmpl
@@ -534,7 +534,7 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/ru
 -r--r--r-- root       root              759 ./usr/share/cups/templates/ru/job-move.tmpl
 -r--r--r-- root       root              168 ./usr/share/cups/templates/ru/job-release.tmpl
 -r--r--r-- root       root              159 ./usr/share/cups/templates/ru/job-restart.tmpl
--r--r--r-- root       root              814 ./usr/share/cups/templates/ru/jobs-header.tmpl
+-r--r--r-- root       root              816 ./usr/share/cups/templates/ru/jobs-header.tmpl
 -r--r--r-- root       root             3006 ./usr/share/cups/templates/ru/jobs.tmpl
 -r--r--r-- root       root              737 ./usr/share/cups/templates/ru/list-available-printers.tmpl
 -r--r--r-- root       root              927 ./usr/share/cups/templates/ru/modify-class.tmpl
