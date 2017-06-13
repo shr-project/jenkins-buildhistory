@@ -1,9 +1,9 @@
 PV = 1.5.2
 PR = r0
 PKG = libapr-1-ptest
-PKGR = r0.31
+PKGR = r0.32
 RPROVIDES = apr-ptest (=1.5.2)
-RDEPENDS = apr (>= 1.5.2) glibc (>= 2.25) util-linux-libuuid (>= 2.29.1)
+RDEPENDS = apr (>= 1.5.2) glibc (>= 2.25) util-linux-libuuid (>= 2.29.2)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 266092
 FILES = /usr/lib/apr/ptest
