@@ -10,8 +10,8 @@ drwxr-xr-x root       root              180 ./usr/lib/.debug
 -rwxr-xr-x root       root             9236 ./usr/lib/.debug/libwayland-egl.so.1.0.0
 drwxr-xr-x root       root               60 ./usr/lib/dri
 drwxr-xr-x root       root               80 ./usr/lib/dri/.debug
--rwxr-xr-x root       root         42932912 ./usr/lib/dri/.debug/kms_swrast_dri.so
--rwxr-xr-x root       root         42932912 ./usr/lib/dri/.debug/swrast_dri.so
+-rwxr-xr-x root       root         42928320 ./usr/lib/dri/.debug/kms_swrast_dri.so
+-rwxr-xr-x root       root         42928320 ./usr/lib/dri/.debug/swrast_dri.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/mesa
@@ -1465,7 +1465,7 @@ drwxr-xr-x root       root              540 ./usr/src/debug/mesa/2_17.1.1-r0/mes
 drwxr-xr-x root       root               80 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/mesa/x86
 -rw-r--r-- root       root             1881 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/mesa/x86/common_x86_asm.h
 -rw-r--r-- root       root            10393 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/mesa/x86/common_x86.c
-drwxr-xr-x root       root              900 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util
+drwxr-xr-x root       root              920 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util
 -rw-r--r-- root       root             5523 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/bitscan.h
 -rw-r--r-- root       root             4491 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/bitset.h
 -rw-r--r-- root       root             3464 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/build_id.c
@@ -1506,6 +1506,7 @@ drwxr-xr-x root       root               80 ./usr/src/debug/mesa/2_17.1.1-r0/mes
 -rw-r--r-- root       root             2192 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/strtod.c
 -rw-r--r-- root       root             1473 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/strtod.h
 -rw-r--r-- root       root            18078 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/texcompress_rgtc_tmp.h
+-rw-r--r-- root       root             2114 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/u_atomic.c
 -rw-r--r-- root       root             9040 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/u_queue.c
 -rw-r--r-- root       root             3510 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/u_queue.h
 -rw-r--r-- root       root             2656 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/util/u_thread.h

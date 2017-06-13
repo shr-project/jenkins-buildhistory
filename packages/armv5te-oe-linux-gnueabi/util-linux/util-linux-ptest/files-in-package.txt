@@ -12,7 +12,7 @@ drwxr-xr-x root       root             2760 ./usr/lib/util-linux/ptest
 -rwxr-xr-x root       root             6501 ./usr/lib/util-linux/ptest/cfdisk
 -rwxr-xr-x root       root            14188 ./usr/lib/util-linux/ptest/chcpu
 -rwxr-xr-x root       root            22476 ./usr/lib/util-linux/ptest/chrt
--rwxr-xr-x root       root            18308 ./usr/lib/util-linux/ptest/col
+-rwxr-xr-x root       root            22404 ./usr/lib/util-linux/ptest/col
 -rwxr-xr-x root       root            10040 ./usr/lib/util-linux/ptest/colcrt
 -rwxr-xr-x root       root            18296 ./usr/lib/util-linux/ptest/colrm
 -rwxr-xr-x root       root            22456 ./usr/lib/util-linux/ptest/column
@@ -195,7 +195,7 @@ drwxr-xr-x root       root             1460 ./usr/lib/util-linux/ptest/tests/exp
 -rw-r--r-- root       root             1740 ./usr/lib/util-linux/ptest/tests/expected/blkid/md-raid0-whole
 -rw-r--r-- root       root             2216 ./usr/lib/util-linux/ptest/tests/expected/blkid/md-raid1-part
 -rw-r--r-- root       root             1732 ./usr/lib/util-linux/ptest/tests/expected/blkid/md-raid1-whole
-drwxr-xr-x root       root              460 ./usr/lib/util-linux/ptest/tests/expected/build-sys
+drwxr-xr-x root       root              480 ./usr/lib/util-linux/ptest/tests/expected/build-sys
 -rw-r--r-- root       root             2483 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-all
 -rw-r--r-- root       root             2153 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-all-devel
 -rw-r--r-- root       root             2483 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-all-non-nls
@@ -208,6 +208,7 @@ drwxr-xr-x root       root              460 ./usr/lib/util-linux/ptest/tests/exp
 -rw-r--r-- root       root             2247 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-devel-new-mount
 -rw-r--r-- root       root             2755 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-devel-non-docs
 -rw-r--r-- root       root                0 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-disable-all
+-rw-r--r-- root       root               29 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-enable-schedutils
 -rw-r--r-- root       root             1496 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-non-libblkid
 -rw-r--r-- root       root             1755 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-non-libmount
 -rw-r--r-- root       root              984 ./usr/lib/util-linux/ptest/tests/expected/build-sys/config-non-libs
