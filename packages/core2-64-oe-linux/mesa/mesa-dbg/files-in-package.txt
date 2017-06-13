@@ -12,14 +12,14 @@ drwxr-xr-x root       root               60 ./usr/lib/dri
 drwxr-xr-x root       root              240 ./usr/lib/dri/.debug
 -rwxr-xr-x root       root         59552664 ./usr/lib/dri/.debug/i915_dri.so
 -rwxr-xr-x root       root         59552664 ./usr/lib/dri/.debug/i965_dri.so
--rwxr-xr-x root       root         67336248 ./usr/lib/dri/.debug/kms_swrast_dri.so
--rwxr-xr-x root       root         67336248 ./usr/lib/dri/.debug/nouveau_dri.so
+-rwxr-xr-x root       root         67336288 ./usr/lib/dri/.debug/kms_swrast_dri.so
+-rwxr-xr-x root       root         67336288 ./usr/lib/dri/.debug/nouveau_dri.so
 -rwxr-xr-x root       root         59552664 ./usr/lib/dri/.debug/nouveau_vieux_dri.so
 -rwxr-xr-x root       root         59552664 ./usr/lib/dri/.debug/r200_dri.so
--rwxr-xr-x root       root         67336248 ./usr/lib/dri/.debug/r300_dri.so
+-rwxr-xr-x root       root         67336288 ./usr/lib/dri/.debug/r300_dri.so
 -rwxr-xr-x root       root         59552664 ./usr/lib/dri/.debug/radeon_dri.so
--rwxr-xr-x root       root         67336248 ./usr/lib/dri/.debug/swrast_dri.so
--rwxr-xr-x root       root         67336248 ./usr/lib/dri/.debug/vmwgfx_dri.so
+-rwxr-xr-x root       root         67336288 ./usr/lib/dri/.debug/swrast_dri.so
+-rwxr-xr-x root       root         67336288 ./usr/lib/dri/.debug/vmwgfx_dri.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/mesa
@@ -813,7 +813,7 @@ drwxr-xr-x root       root             1400 ./usr/src/debug/mesa/2_17.1.1-r0/mes
 -rw-r--r-- root       root            10856 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/llvmpipe/lp_scene.h
 -rw-r--r-- root       root             3210 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/llvmpipe/lp_scene_queue.c
 -rw-r--r-- root       root             1746 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/llvmpipe/lp_scene_queue.h
--rw-r--r-- root       root            20905 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/llvmpipe/lp_screen.c
+-rw-r--r-- root       root            21108 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/llvmpipe/lp_screen.c
 -rw-r--r-- root       root             2064 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/llvmpipe/lp_screen.h
 -rw-r--r-- root       root            45468 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/llvmpipe/lp_setup.c
 -rw-r--r-- root       root             6874 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/llvmpipe/lp_setup_context.h
@@ -1147,7 +1147,7 @@ drwxr-xr-x root       root             1100 ./usr/src/debug/mesa/2_17.1.1-r0/mes
 -rw-r--r-- root       root             1846 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/softpipe/sp_quad_stipple.c
 -rw-r--r-- root       root            10078 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/softpipe/sp_query.c
 -rw-r--r-- root       root             1597 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/softpipe/sp_query.h
--rw-r--r-- root       root            18783 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/softpipe/sp_screen.c
+-rw-r--r-- root       root            18986 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/softpipe/sp_screen.c
 -rw-r--r-- root       root             1875 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/softpipe/sp_screen.h
 -rw-r--r-- root       root            45246 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/softpipe/sp_setup.c
 -rw-r--r-- root       root             2464 ./usr/src/debug/mesa/2_17.1.1-r0/mesa-17.1.1/src/gallium/drivers/softpipe/sp_setup.h
