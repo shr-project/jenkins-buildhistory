@@ -4,9 +4,9 @@ drwxr-xr-x root       root              160 ./usr/share/alsa
 -rw-r--r-- root       root             9665 ./usr/share/alsa/alsa.conf
 drwxr-xr-x root       root               60 ./usr/share/alsa/alsa.conf.d
 -rw-r--r-- root       root              103 ./usr/share/alsa/alsa.conf.d/README
-drwxr-xr-x root       root             1160 ./usr/share/alsa/cards
+drwxr-xr-x root       root             1220 ./usr/share/alsa/cards
 -rw-r--r-- root       root              669 ./usr/share/alsa/cards/AACI.conf
--rw-r--r-- root       root             1405 ./usr/share/alsa/cards/aliases.conf
+-rw-r--r-- root       root             1460 ./usr/share/alsa/cards/aliases.conf
 -rw-r--r-- root       root             2483 ./usr/share/alsa/cards/ATIIXP.conf
 -rw-r--r-- root       root              302 ./usr/share/alsa/cards/ATIIXP-MODEM.conf
 -rw-r--r-- root       root             2237 ./usr/share/alsa/cards/ATIIXP-SPDMA.conf
@@ -35,6 +35,7 @@ drwxr-xr-x root       root             1160 ./usr/share/alsa/cards
 -rw-r--r-- root       root              333 ./usr/share/alsa/cards/FWSpeakers.conf
 -rw-r--r-- root       root              217 ./usr/share/alsa/cards/GUS.conf
 -rw-r--r-- root       root             6773 ./usr/share/alsa/cards/HDA-Intel.conf
+-rw-r--r-- root       root              897 ./usr/share/alsa/cards/HdmiLpeAudio.conf
 -rw-r--r-- root       root             2409 ./usr/share/alsa/cards/ICE1712.conf
 -rw-r--r-- root       root             2891 ./usr/share/alsa/cards/ICE1724.conf
 -rw-r--r-- root       root             2886 ./usr/share/alsa/cards/ICH4.conf
@@ -44,6 +45,7 @@ drwxr-xr-x root       root             1160 ./usr/share/alsa/cards
 -rw-r--r-- root       root              558 ./usr/share/alsa/cards/Maestro3.conf
 -rw-r--r-- root       root             4803 ./usr/share/alsa/cards/NFORCE.conf
 -rw-r--r-- root       root              657 ./usr/share/alsa/cards/PC-Speaker.conf
+-rw-r--r-- root       root             1889 ./usr/share/alsa/cards/pistachio-card.conf
 -rw-r--r-- root       root              486 ./usr/share/alsa/cards/PMac.conf
 -rw-r--r-- root       root              705 ./usr/share/alsa/cards/PMacToonie.conf
 -rw-r--r-- root       root             1152 ./usr/share/alsa/cards/PS3.conf
@@ -53,6 +55,7 @@ drwxr-xr-x root       root             1160 ./usr/share/alsa/cards
 -rw-r--r-- root       root             2278 ./usr/share/alsa/cards/SI7018.conf
 -rw-r--r-- root       root             1792 ./usr/share/alsa/cards/TRID4DWAVENX.conf
 -rw-r--r-- root       root             9031 ./usr/share/alsa/cards/USB-Audio.conf
+-rw-r--r-- root       root              820 ./usr/share/alsa/cards/vc4-hdmi.conf
 -rw-r--r-- root       root             1199 ./usr/share/alsa/cards/VIA686A.conf
 -rw-r--r-- root       root             2812 ./usr/share/alsa/cards/VIA8233A.conf
 -rw-r--r-- root       root             2756 ./usr/share/alsa/cards/VIA8233.conf
@@ -86,10 +89,15 @@ drwxr-xr-x root       root               60 ./usr/share/alsa/topology/bxtrt298
 -rw-r--r-- root       root            74488 ./usr/share/alsa/topology/bxtrt298/bxt_i2s.conf
 drwxr-xr-x root       root               60 ./usr/share/alsa/topology/sklrt286
 -rw-r--r-- root       root            66635 ./usr/share/alsa/topology/sklrt286/skl_i2s.conf
-drwxr-xr-x root       root              280 ./usr/share/alsa/ucm
+drwxr-xr-x root       root              300 ./usr/share/alsa/ucm
 drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/broadwell-rt286
 -rw-r--r-- root       root              121 ./usr/share/alsa/ucm/broadwell-rt286/broadwell-rt286.conf
 -rw-r--r-- root       root             2369 ./usr/share/alsa/ucm/broadwell-rt286/HiFi
+drwxr-xr-x root       root              120 ./usr/share/alsa/ucm/broxton-rt298
+-rw-r--r-- root       root             1639 ./usr/share/alsa/ucm/broxton-rt298/broxton-rt298.conf
+-rw-r--r-- root       root              560 ./usr/share/alsa/ucm/broxton-rt298/Hdmi1
+-rw-r--r-- root       root              379 ./usr/share/alsa/ucm/broxton-rt298/Hdmi2
+-rw-r--r-- root       root             2564 ./usr/share/alsa/ucm/broxton-rt298/HiFi
 drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/chtrt5645
 -rw-r--r-- root       root               96 ./usr/share/alsa/ucm/chtrt5645/chtrt5645.conf
 -rw-r--r-- root       root             4965 ./usr/share/alsa/ucm/chtrt5645/HiFi.conf

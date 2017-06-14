@@ -12,7 +12,7 @@ drwxr-xr-x root       root              220 ./usr/bin/.debug
 -rwxr-xr-x root       root            35004 ./usr/bin/.debug/rpmspec
 drwxr-xr-x root       root              120 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/lib/.debug
--rwxr-xr-x root       root           440192 ./usr/lib/.debug/librpmbuild.so.7.0.0
+-rwxr-xr-x root       root           440148 ./usr/lib/.debug/librpmbuild.so.7.0.0
 -rwxr-xr-x root       root           411456 ./usr/lib/.debug/librpmio.so.7.0.0
 -rwxr-xr-x root       root            41768 ./usr/lib/.debug/librpmsign.so.7.0.0
 -rwxr-xr-x root       root          1383828 ./usr/lib/.debug/librpm.so.7.0.0
@@ -27,7 +27,7 @@ drwxr-xr-x root       root               60 ./usr/lib/rpm
 drwxr-xr-x root       root              120 ./usr/lib/rpm/.debug
 -rwxr-xr-x root       root            98300 ./usr/lib/rpm/.debug/debugedit
 -rwxr-xr-x root       root            47624 ./usr/lib/rpm/.debug/elfdeps
--rwxr-xr-x root       root            26156 ./usr/lib/rpm/.debug/rpmdeps
+-rwxr-xr-x root       root            26240 ./usr/lib/rpm/.debug/rpmdeps
 -rwxr-xr-x root       root            28592 ./usr/lib/rpm/.debug/sepdebugcrcfix
 drwxr-xr-x root       root               60 ./usr/lib/rpm-plugins
 drwxr-xr-x root       root              100 ./usr/lib/rpm-plugins/.debug
@@ -50,7 +50,7 @@ drwxr-xr-x root       root              740 ./usr/src/debug/rpm/1_4.13.90+gitAUT
 -rw-r--r-- root       root            12777 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/build/include/rpm/rpmcli.h
 -rw-r--r-- root       root             6504 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/build/include/rpm/rpmdb.h
 -rw-r--r-- root       root            15876 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/build/include/rpm/rpmds.h
--rw-r--r-- root       root             3810 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/build/include/rpm/rpmfc.h
+-rw-r--r-- root       root             3775 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/build/include/rpm/rpmfc.h
 -rw-r--r-- root       root            11573 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/build/include/rpm/rpmfi.h
 -rw-r--r-- root       root            15631 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/build/include/rpm/rpmfiles.h
 -rw-r--r-- root       root             5207 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/build/include/rpm/rpmfileutil.h
@@ -99,7 +99,7 @@ drwxr-xr-x root       root              460 ./usr/src/debug/rpm/1_4.13.90+gitAUT
 -rw-r--r-- root       root             1172 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/build/reqprov.c
 -rw-r--r-- root       root            13535 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/build/rpmbuild_internal.h
 -rw-r--r-- root       root             1368 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/build/rpmbuild_misc.h
--rw-r--r-- root       root            38553 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/build/rpmfc.c
+-rw-r--r-- root       root            38585 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/build/rpmfc.c
 -rw-r--r-- root       root            11178 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/build/spec.c
 -rw-r--r-- root       root             1794 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/cliutils.c
 -rw-r--r-- root       root              463 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/cliutils.h
@@ -263,6 +263,6 @@ drwxr-xr-x root       root              180 ./usr/src/debug/rpm/1_4.13.90+gitAUT
 -rw-r--r-- root       root             9560 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/tools/elfdeps.c
 -rw-r--r-- root       root            12858 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/tools/hashtab.c
 -rw-r--r-- root       root             4956 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/tools/hashtab.h
--rw-r--r-- root       root             3182 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/tools/rpmdeps.c
+-rw-r--r-- root       root             3368 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/tools/rpmdeps.c
 -rw-r--r-- root       root             5807 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/tools/rpmgraph.c
 -rw-r--r-- root       root            12014 ./usr/src/debug/rpm/1_4.13.90+gitAUTOINC+a8e51b3bb0-r0/git/tools/sepdebugcrcfix.c
