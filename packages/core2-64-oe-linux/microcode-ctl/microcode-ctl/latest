@@ -1,0 +1,9 @@
+PV = v1.34+git8c8ae77e661bdba298f256948867d5a619bf1588
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = bash glibc (>= 2.25) microcode-ctl-firmware
+RRECOMMENDS = 
+PKGSIZE = 10776
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/microcode-ctl /usr/lib/microcode-ctl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/microcode_ctl.service
+FILELIST = /lib/systemd/system/microcode_ctl.service /usr/sbin/microcode_ctl

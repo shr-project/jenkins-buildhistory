@@ -8,7 +8,7 @@ drwxr-xr-x root       root               60 ./usr/lib/fwts
 drwxr-xr-x root       root              100 ./usr/lib/fwts/.debug
 -rwxr-xr-x root       root          5183920 ./usr/lib/fwts/.debug/libfwtsacpica.so.1.0.0
 -rwxr-xr-x root       root          5930896 ./usr/lib/fwts/.debug/libfwtsiasl.so.1.0.0
--rwxr-xr-x root       root           704560 ./usr/lib/fwts/.debug/libfwts.so.1.0.0
+-rwxr-xr-x root       root           704528 ./usr/lib/fwts/.debug/libfwts.so.1.0.0
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/fwts
@@ -527,7 +527,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/fwts/17.03.00+gitAUT
 drwxr-xr-x root       root               60 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/bios/ebdadump
 -rw-r--r-- root       root             2299 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/bios/ebdadump/ebdadump.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/bios/ebda_region
--rw-r--r-- root       root             3272 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/bios/ebda_region/ebda_region.c
+-rw-r--r-- root       root             3274 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/bios/ebda_region/ebda_region.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/bios/hdaaudio
 -rw-r--r-- root       root             5332 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/bios/hdaaudio/hdaaudio.c
 drwxr-xr-x root       root               60 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/bios/memmapdump
@@ -651,7 +651,7 @@ drwxr-xr-x root       root             1240 ./usr/src/debug/fwts/17.03.00+gitAUT
 -rw-r--r-- root       root             1407 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_acpi.c
 -rw-r--r-- root       root             2739 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_acpid.c
 -rw-r--r-- root       root            17760 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_acpi_object_eval.c
--rw-r--r-- root       root            37415 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_acpi_tables.c
+-rw-r--r-- root       root            37423 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_acpi_tables.c
 -rw-r--r-- root       root            10510 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_alloc.c
 -rw-r--r-- root       root             2349 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_arch.c
 -rw-r--r-- root       root             9299 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_args.c
@@ -689,7 +689,7 @@ drwxr-xr-x root       root             1240 ./usr/src/debug/fwts/17.03.00+gitAUT
 -rw-r--r-- root       root             5006 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_log_plaintext.c
 -rw-r--r-- root       root             4850 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_log_xml.c
 -rw-r--r-- root       root             8706 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_memorymap.c
--rw-r--r-- root       root             2288 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_mmap.c
+-rw-r--r-- root       root             2292 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_mmap.c
 -rw-r--r-- root       root             5409 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_multiproc.c
 -rw-r--r-- root       root             8780 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_olog.c
 -rw-r--r-- root       root             3858 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_oops.c
@@ -700,7 +700,7 @@ drwxr-xr-x root       root             1240 ./usr/src/debug/fwts/17.03.00+gitAUT
 -rw-r--r-- root       root             1728 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_safe_mem.c
 -rw-r--r-- root       root             1546 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_scan_efi_systab.c
 -rw-r--r-- root       root             1110 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_set.c
--rw-r--r-- root       root             7702 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_smbios.c
+-rw-r--r-- root       root             7710 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_smbios.c
 -rw-r--r-- root       root             2540 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_stringextras.c
 -rw-r--r-- root       root             7109 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_summary.c
 -rw-r--r-- root       root             2428 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/lib/src/fwts_text_list.c
@@ -714,7 +714,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/fwts/17.03.00+gitAUT
 -rw-r--r-- root       root             9795 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/opal/mtd_info.c
 -rw-r--r-- root       root            11309 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/opal/power_mgmt_info.c
 -rw-r--r-- root       root             5945 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/opal/prd_info.c
--rw-r--r-- root       root             7994 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/opal/reserv_mem.c
+-rw-r--r-- root       root             8056 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/opal/reserv_mem.c
 drwxr-xr-x root       root              100 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/pci
 drwxr-xr-x root       root               60 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/pci/aspm
 -rw-r--r-- root       root             9129 ./usr/src/debug/fwts/17.03.00+gitAUTOINC+0153ea51cb-r0/git/src/pci/aspm/aspm.c
