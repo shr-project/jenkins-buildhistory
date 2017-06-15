@@ -18,16 +18,16 @@ drwxr-xr-x root       root               60 ./lib/systemd/system/sockets.target.
 lrwxrwxrwx root       root               14 ./lib/systemd/system/sockets.target.wants/dbus.socket -> ../dbus.socket
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              200 ./usr/bin
--rwxr-xr-x root       root            10028 ./usr/bin/dbus-cleanup-sockets
--rwxr-xr-x root       root           122008 ./usr/bin/dbus-daemon
--rwxr-xr-x root       root            18392 ./usr/bin/dbus-launch
--rwxr-xr-x root       root            18368 ./usr/bin/dbus-monitor
--rwxr-xr-x root       root            10004 ./usr/bin/dbus-run-session
--rwxr-xr-x root       root            18384 ./usr/bin/dbus-send
--rwxr-xr-x root       root            10048 ./usr/bin/dbus-update-activation-environment
--rwxr-xr-x root       root             5880 ./usr/bin/dbus-uuidgen
+-rwxr-xr-x root       root             9984 ./usr/bin/dbus-cleanup-sockets
+-rwxr-xr-x root       root           121960 ./usr/bin/dbus-daemon
+-rwxr-xr-x root       root            18344 ./usr/bin/dbus-launch
+-rwxr-xr-x root       root            18324 ./usr/bin/dbus-monitor
+-rwxr-xr-x root       root             9960 ./usr/bin/dbus-run-session
+-rwxr-xr-x root       root            18340 ./usr/bin/dbus-send
+-rwxr-xr-x root       root            10004 ./usr/bin/dbus-update-activation-environment
+-rwxr-xr-x root       root             5836 ./usr/bin/dbus-uuidgen
 drwxr-xr-x root       root               60 ./usr/libexec
--rwsr-xr-x root       messagebus      35192 ./usr/libexec/dbus-daemon-launch-helper
+-rwsr-xr-x root       messagebus      35148 ./usr/libexec/dbus-daemon-launch-helper
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              160 ./usr/share/dbus-1
 drwxr-xr-x root       root               40 ./usr/share/dbus-1/services
