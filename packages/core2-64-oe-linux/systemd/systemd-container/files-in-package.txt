@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./bin
--rwxr-xr-x root       root            80280 ./bin/machinectl
+-rwxr-xr-x root       root            76112 ./bin/machinectl
 drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root               60 ./etc/dbus-1
 drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
@@ -10,7 +10,7 @@ drwxr-xr-x root       root              220 ./lib/systemd/system
 drwxr-xr-x root       root               60 ./lib/systemd/system/busnames.target.wants
 lrwxrwxrwx root       root               35 ./lib/systemd/system/busnames.target.wants/org.freedesktop.machine1.busname -> ../org.freedesktop.machine1.busname
 lrwxrwxrwx root       root               24 ./lib/systemd/system/dbus-org.freedesktop.machine1.service -> systemd-machined.service
--rwxr-xr-x root       root           104840 ./lib/systemd/systemd-machined
+-rwxr-xr-x root       root           104768 ./lib/systemd/systemd-machined
 drwxr-xr-x root       root               60 ./lib/systemd/system/local-fs.target.wants
 lrwxrwxrwx root       root               25 ./lib/systemd/system/local-fs.target.wants/var-lib-machines.mount -> ../var-lib-machines.mount
 -rw-r--r-- root       root              405 ./lib/systemd/system/machine.slice
@@ -21,7 +21,7 @@ lrwxrwxrwx root       root               25 ./lib/systemd/system/local-fs.target
 -rw-r--r-- root       root              475 ./lib/systemd/system/var-lib-machines.mount
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root           182728 ./usr/bin/systemd-nspawn
+-rwxr-xr-x root       root           174464 ./usr/bin/systemd-nspawn
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
 -rw-r--r-- root       root              976 ./usr/lib/tmpfiles.d/systemd-nspawn.conf
