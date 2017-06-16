@@ -1,10 +1,10 @@
 PV = 3.2+gitAUTOINC+70bbf17b13
 PR = r0
 PKGV = 3.2+git0+70bbf17b13
-PKGR = r0.37
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libgcc (>= 6.3.0) libopencv-aruco (>= 3.2+git0+70bbf17b13) libopencv-calib3d (>= 3.2+git0+70bbf17b13) libopencv-core (>= 3.2+git0+70bbf17b13) libopencv-features2d (>= 3.2+git0+70bbf17b13) libopencv-highgui (>= 3.2+git0+70bbf17b13) libopencv-imgcodecs (>= 3.2+git0+70bbf17b13) libopencv-imgproc (>= 3.2+git0+70bbf17b13) libopencv-videoio (>= 3.2+git0+70bbf17b13) libopencv-xobjdetect (>= 3.2+git0+70bbf17b13) libstdc++ (>= 6.3.0) tbb (>= 20170412+0+a2cfdfe946)
+RDEPENDS = glibc (>= 2.25) libgcc (>= 7.1.0) libopencv-aruco (>= 3.2+git0+70bbf17b13) libopencv-calib3d (>= 3.2+git0+70bbf17b13) libopencv-core (>= 3.2+git0+70bbf17b13) libopencv-features2d (>= 3.2+git0+70bbf17b13) libopencv-highgui (>= 3.2+git0+70bbf17b13) libopencv-imgcodecs (>= 3.2+git0+70bbf17b13) libopencv-imgproc (>= 3.2+git0+70bbf17b13) libopencv-videoio (>= 3.2+git0+70bbf17b13) libopencv-xobjdetect (>= 3.2+git0+70bbf17b13) libstdc++ (>= 7.1.0) tbb (>= 20170412+0+a2cfdfe946)
 RRECOMMENDS = 
-PKGSIZE = 10641547
+PKGSIZE = 10608359
 FILES = /usr/bin/* /usr/share/OpenCV
 FILELIST = /usr/bin/opencv_annotation /usr/bin/opencv_createsamples /usr/bin/opencv_interactive-calibration /usr/bin/opencv_traincascade /usr/bin/opencv_version /usr/bin/opencv_visualisation /usr/bin/opencv_waldboost_detector /usr/share/OpenCV/haarcascades/haarcascade_eye.xml /usr/share/OpenCV/haarcascades/haarcascade_eye_tree_eyeglasses.xml /usr/share/OpenCV/haarcascades/haarcascade_frontalcatface.xml /usr/share/OpenCV/haarcascades/haarcascade_frontalcatface_extended.xml /usr/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml /usr/share/OpenCV/haarcascades/haarcascade_frontalface_alt2.xml /usr/share/OpenCV/haarcascades/haarcascade_frontalface_alt_tree.xml /usr/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml /usr/share/OpenCV/haarcascades/haarcascade_fullbody.xml /usr/share/OpenCV/haarcascades/haarcascade_lefteye_2splits.xml /usr/share/OpenCV/haarcascades/haarcascade_licence_plate_rus_16stages.xml /usr/share/OpenCV/haarcascades/haarcascade_lowerbody.xml /usr/share/OpenCV/haarcascades/haarcascade_profileface.xml /usr/share/OpenCV/haarcascades/haarcascade_righteye_2splits.xml /usr/share/OpenCV/haarcascades/haarcascade_russian_plate_number.xml /usr/share/OpenCV/haarcascades/haarcascade_smile.xml /usr/share/OpenCV/haarcascades/haarcascade_upperbody.xml /usr/share/OpenCV/lbpcascades/lbpcascade_frontalcatface.xml /usr/share/OpenCV/lbpcascades/lbpcascade_frontalface.xml /usr/share/OpenCV/lbpcascades/lbpcascade_profileface.xml /usr/share/OpenCV/lbpcascades/lbpcascade_silverware.xml

@@ -1,9 +1,9 @@
-PV = 4.6.2
+PV = 4.6.5
 PR = r0
-PKGR = r0.10
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libauth-samba4 (>= 4.6.2) libsamba-debug-samba4 (>= 4.6.2) libsmbd-shim-samba4 (>= 4.6.2) libtalloc (>= 2.1.9) libwbclient (>= 4.6.2)
+RDEPENDS = glibc (>= 2.25) libauth-samba4 (>= 4.6.5) libsamba-debug-samba4 (>= 4.6.5) libsmbd-shim-samba4 (>= 4.6.5) libtalloc (>= 2.1.9) libwbclient (>= 4.6.5)
 RRECOMMENDS = 
-PKGSIZE = 9432
+PKGSIZE = 9384
 FILES = /usr/lib/samba/auth/wbc.so
 FILELIST = /usr/lib/samba/auth/wbc.so
