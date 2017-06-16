@@ -1,9 +1,9 @@
 PV = 5.5.1
 PR = r0
-PKGR = r0.37
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.25) strongswan
 RRECOMMENDS = 
-PKGSIZE = 10430
+PKGSIZE = 10382
 FILES = /usr/lib/ipsec/plugins/libstrongswan-attr.so /etc/strongswan.d/charon/attr.conf
 FILELIST = /etc/strongswan.d/charon/attr.conf /usr/lib/ipsec/plugins/libstrongswan-attr.so

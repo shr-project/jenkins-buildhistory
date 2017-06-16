@@ -1,9 +1,9 @@
 PV = 1.64
 PR = r0
-PKGR = r0.2
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libgcc (>= 6.3.0) libstdc++ (>= 6.3.0)
+RDEPENDS = glibc (>= 2.25) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0)
 RRECOMMENDS = 
-PKGSIZE = 646087
+PKGSIZE = 642319
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/srecord /usr/lib/srecord/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/srec_cat /usr/bin/srec_cmp /usr/bin/srec_info /usr/lib/libsrecord.so.0 /usr/lib/libsrecord.so.0.0.0

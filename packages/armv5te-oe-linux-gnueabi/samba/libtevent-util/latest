@@ -1,10 +1,10 @@
-PV = 4.6.2
+PV = 4.6.5
 PR = r0
 PKG = libtevent-util0
-PKGR = r0.11
-RPROVIDES = libtevent-util (=4.6.2)
-RDEPENDS = glibc (>= 2.25) libsamba-errors (>= 4.6.2) libtalloc (>= 2.1.9) libtevent (>= 0.9.31) samba-common
+PKGR = r0.0
+RPROVIDES = libtevent-util (=4.6.5)
+RDEPENDS = glibc (>= 2.25) libsamba-errors (>= 4.6.5) libtalloc (>= 2.1.9) libtevent (>= 0.9.31) samba-common
 RRECOMMENDS = 
-PKGSIZE = 9567
+PKGSIZE = 9523
 FILES = /usr/lib/libtevent-util.so.0 /usr/lib/libtevent-util.so.0.0.1
 FILELIST = /usr/lib/libtevent-util.so.0 /usr/lib/libtevent-util.so.0.0.1

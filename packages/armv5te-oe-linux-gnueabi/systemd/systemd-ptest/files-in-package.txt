@@ -3,7 +3,7 @@ drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/systemd
 drwxr-xr-x root       root               80 ./usr/lib/systemd/ptest
 -rwxr-xr-x root       root               76 ./usr/lib/systemd/ptest/run-ptest
-drwxr-xr-x root       root             3240 ./usr/lib/systemd/ptest/tests
+drwxr-xr-x root       root             3380 ./usr/lib/systemd/ptest/tests
 drwxr-xr-x root       root               60 ./usr/lib/systemd/ptest/tests/build-aux
 -rwxr-xr-x root       root             4640 ./usr/lib/systemd/ptest/tests/build-aux/test-driver
 drwxr-xr-x root       root              380 ./usr/lib/systemd/ptest/tests/catalog
@@ -24,7 +24,7 @@ drwxr-xr-x root       root              380 ./usr/lib/systemd/ptest/tests/catalo
 -rwxr-xr-x root       root            10836 ./usr/lib/systemd/ptest/tests/catalog/systemd.sr.catalog.in
 -rwxr-xr-x root       root             7542 ./usr/lib/systemd/ptest/tests/catalog/systemd.zh_CN.catalog.in
 -rwxr-xr-x root       root             7456 ./usr/lib/systemd/ptest/tests/catalog/systemd.zh_TW.catalog.in
--rwxr-xr-x root       root          1720210 ./usr/lib/systemd/ptest/tests/Makefile
+-rwxr-xr-x root       root          1719712 ./usr/lib/systemd/ptest/tests/Makefile
 drwxr-xr-x root       root               60 ./usr/lib/systemd/ptest/tests/rules
 -rwxr-xr-x root       root             3920 ./usr/lib/systemd/ptest/tests/rules/99-systemd.rules
 drwxr-xr-x root       root             1200 ./usr/lib/systemd/ptest/tests/test
@@ -92,6 +92,9 @@ drwxr-xr-x root       root              180 ./usr/lib/systemd/ptest/tests/test/b
 -rwxr-xr-x root       root            12644 ./usr/lib/systemd/ptest/tests/test-dhcp-option
 -rwxr-xr-x root       root            26240 ./usr/lib/systemd/ptest/tests/test-dhcp-server
 -rwxr-xr-x root       root            26176 ./usr/lib/systemd/ptest/tests/test-dns-domain
+-rwxr-xr-x root       root            34428 ./usr/lib/systemd/ptest/tests/test-dns-packet
+-rwxr-xr-x root       root             5692 ./usr/lib/systemd/ptest/tests/test-dnssec
+-rwxr-xr-x root       root            13892 ./usr/lib/systemd/ptest/tests/test-dnssec-complex
 -rw-r--r-- root       root              111 ./usr/lib/systemd/ptest/tests/test/d.service
 -rwxr-xr-x root       root             9792 ./usr/lib/systemd/ptest/tests/test-ellipsize
 -rw-r--r-- root       root              219 ./usr/lib/systemd/ptest/tests/test/end.service
@@ -168,6 +171,9 @@ drwxr-xr-x root       root               60 ./usr/lib/systemd/ptest/tests/test/m
 -rwxr-xr-x root       root            22088 ./usr/lib/systemd/ptest/tests/test-ndisc-rs
 -rwxr-xr-x root       root            26176 ./usr/lib/systemd/ptest/tests/test-netlink
 -rwxr-xr-x root       root             9796 ./usr/lib/systemd/ptest/tests/test-netlink-manual
+-rwxr-xr-x root       root           296716 ./usr/lib/systemd/ptest/tests/test-network
+-rwxr-xr-x root       root            13952 ./usr/lib/systemd/ptest/tests/test-networkd-conf
+-rwxr-xr-x root       root             9936 ./usr/lib/systemd/ptest/tests/test-network-tables
 -rwxr-xr-x root       root            18072 ./usr/lib/systemd/ptest/tests/test-ns
 -rwxr-xr-x root       root            63272 ./usr/lib/systemd/ptest/tests/test-nss
 -rw-r--r-- root       root               63 ./usr/lib/systemd/ptest/tests/test/parent-deep.slice
@@ -184,6 +190,7 @@ drwxr-xr-x root       root               60 ./usr/lib/systemd/ptest/tests/test/m
 -rw-r--r-- root       root             1421 ./usr/lib/systemd/ptest/tests/test/README.testsuite
 -rwxr-xr-x root       root             5700 ./usr/lib/systemd/ptest/tests/test-replace-var
 -rwxr-xr-x root       root             9792 ./usr/lib/systemd/ptest/tests/test-resolve
+-rwxr-xr-x root       root            13952 ./usr/lib/systemd/ptest/tests/test-resolve-tables
 -rwxr-xr-x root       root             9796 ./usr/lib/systemd/ptest/tests/test-rlimit-util
 -rw-r--r-- root       root              102 ./usr/lib/systemd/ptest/tests/test/sched_idle_bad.service
 -rw-r--r-- root       root               97 ./usr/lib/systemd/ptest/tests/test/sched_idle_ok.service

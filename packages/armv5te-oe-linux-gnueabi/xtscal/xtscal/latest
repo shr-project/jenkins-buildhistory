@@ -1,9 +1,9 @@
 PV = 0.6.3
 PR = r13
-PKGR = r13.35
+PKGR = r13.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.25) libx11 (>= 1.6.5) libxcalibrate (>= 0.0+git0+209d83af61) libxft (>= 2.3.2) libxrender (>= 0.9.10)
 RRECOMMENDS = 
-PKGSIZE = 18514
+PKGSIZE = 18470
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xtscal /usr/lib/xtscal/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /etc/X11/Xsession.d/30xTs_Calibrate.sh /usr/bin/xtscal

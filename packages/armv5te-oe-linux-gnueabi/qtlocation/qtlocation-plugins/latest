@@ -1,10 +1,10 @@
 PV = 5.9.0+gitAUTOINC+888d351cb0_d45c177e8a
 PR = r0
 PKGV = 5.9.0+git0+888d351cb0_d45c177e8a
-PKGR = r0.2
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libgcc (>= 6.3.0) libstdc++ (>= 6.3.0) qtbase (>= 5.9.0+git0+f6b36eaafe) qtlocation (>= 5.9.0+git0+888d351cb0_d45c177e8a)
+RDEPENDS = glibc (>= 2.25) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0) qtbase (>= 5.9.0+git0+f6b36eaafe) qtlocation (>= 5.9.0+git0+888d351cb0_d45c177e8a)
 RRECOMMENDS = 
-PKGSIZE = 795292
+PKGSIZE = 791512
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
 FILELIST = /usr/lib/qt5/plugins/geoservices/libqtgeoservices_esri.so /usr/lib/qt5/plugins/geoservices/libqtgeoservices_itemsoverlay.so /usr/lib/qt5/plugins/geoservices/libqtgeoservices_mapbox.so /usr/lib/qt5/plugins/geoservices/libqtgeoservices_nokia.so /usr/lib/qt5/plugins/geoservices/libqtgeoservices_osm.so /usr/lib/qt5/plugins/position/libqtposition_geoclue.so /usr/lib/qt5/plugins/position/libqtposition_positionpoll.so

@@ -1,25 +1,25 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              280 ./usr/bin
 -rwxr-xr-x root       root              499 ./usr/bin/gendiff
--rwxr-xr-x root       root            14424 ./usr/bin/rpm
--rwxr-xr-x root       root            10172 ./usr/bin/rpm2archive
--rwxr-xr-x root       root             5912 ./usr/bin/rpm2cpio
--rwxr-xr-x root       root            19768 ./usr/bin/rpmbuild
--rwxr-xr-x root       root            10392 ./usr/bin/rpmdb
--rwxr-xr-x root       root            10240 ./usr/bin/rpmgraph
--rwxr-xr-x root       root            10292 ./usr/bin/rpmkeys
+-rwxr-xr-x root       root            14380 ./usr/bin/rpm
+-rwxr-xr-x root       root            10128 ./usr/bin/rpm2archive
+-rwxr-xr-x root       root             5868 ./usr/bin/rpm2cpio
+-rwxr-xr-x root       root            19724 ./usr/bin/rpmbuild
+-rwxr-xr-x root       root            10348 ./usr/bin/rpmdb
+-rwxr-xr-x root       root            10196 ./usr/bin/rpmgraph
+-rwxr-xr-x root       root            10248 ./usr/bin/rpmkeys
 lrwxrwxrwx root       root                3 ./usr/bin/rpmquery -> rpm
--rwxr-xr-x root       root            10368 ./usr/bin/rpmsign
--rwxr-xr-x root       root            10476 ./usr/bin/rpmspec
+-rwxr-xr-x root       root            10324 ./usr/bin/rpmsign
+-rwxr-xr-x root       root            10432 ./usr/bin/rpmspec
 lrwxrwxrwx root       root                3 ./usr/bin/rpmverify -> rpm
 drwxr-xr-x root       root              240 ./usr/lib
--rwxr-xr-x root       root           110016 ./usr/lib/librpmbuild.so.7.0.0
+-rwxr-xr-x root       root           109980 ./usr/lib/librpmbuild.so.7.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/librpmbuild.so.7 -> librpmbuild.so.7.0.0
--rwxr-xr-x root       root            86704 ./usr/lib/librpmio.so.7.0.0
+-rwxr-xr-x root       root            86668 ./usr/lib/librpmio.so.7.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/librpmio.so.7 -> librpmio.so.7.0.0
--rwxr-xr-x root       root            14180 ./usr/lib/librpmsign.so.7.0.0
+-rwxr-xr-x root       root            14132 ./usr/lib/librpmsign.so.7.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/librpmsign.so.7 -> librpmsign.so.7.0.0
--rwxr-xr-x root       root           291432 ./usr/lib/librpm.so.7.0.0
+-rwxr-xr-x root       root           287288 ./usr/lib/librpm.so.7.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/librpm.so.7 -> librpm.so.7.0.0
 drwxr-xr-x root       root             1100 ./usr/lib/rpm
 -rwxr-xr-x root       root             1476 ./usr/lib/rpm/brp-compress
@@ -37,10 +37,10 @@ drwxr-xr-x root       root             1100 ./usr/lib/rpm
 -rwxr-xr-x root       root             5047 ./usr/lib/rpm/check-rpaths-worker
 -rwxr-xr-x root       root            43434 ./usr/lib/rpm/config.guess
 -rwxr-xr-x root       root            36132 ./usr/lib/rpm/config.sub
--rwxr-xr-x root       root            27288 ./usr/lib/rpm/debugedit
+-rwxr-xr-x root       root            27244 ./usr/lib/rpm/debugedit
 -rwxr-xr-x root       root              375 ./usr/lib/rpm/debuginfo.prov
 -rwxr-xr-x root       root              602 ./usr/lib/rpm/desktop-file.prov
--rwxr-xr-x root       root            10128 ./usr/lib/rpm/elfdeps
+-rwxr-xr-x root       root            10084 ./usr/lib/rpm/elfdeps
 drwxr-xr-x root       root              300 ./usr/lib/rpm/fileattrs
 -rw-r--r-- root       root               89 ./usr/lib/rpm/fileattrs/debuginfo.attr
 -rw-r--r-- root       root              111 ./usr/lib/rpm/fileattrs/desktop.attr
@@ -202,19 +202,19 @@ drwxr-xr-x root       root               60 ./usr/lib/rpm/platform/sparcv9v-linu
 drwxr-xr-x root       root               60 ./usr/lib/rpm/platform/x86_64-linux
 -rw-r--r-- root       root             2347 ./usr/lib/rpm/platform/x86_64-linux/macros
 drwxr-xr-x root       root              100 ./usr/lib/rpm-plugins
--rwxr-xr-x root       root             5756 ./usr/lib/rpm-plugins/ima.so
--rwxr-xr-x root       root             5780 ./usr/lib/rpm-plugins/syslog.so
--rwxr-xr-x root       root             5796 ./usr/lib/rpm-plugins/systemd_inhibit.so
+-rwxr-xr-x root       root             5708 ./usr/lib/rpm-plugins/ima.so
+-rwxr-xr-x root       root             5732 ./usr/lib/rpm-plugins/syslog.so
+-rwxr-xr-x root       root             5748 ./usr/lib/rpm-plugins/systemd_inhibit.so
 -rwxr-xr-x root       root              875 ./usr/lib/rpm/pythondeps.sh
 -rwxr-xr-x root       root             9812 ./usr/lib/rpm/pythondistdeps.py
 -rwxr-xr-x root       root             1185 ./usr/lib/rpm/rpm2cpio.sh
 -rw-r--r-- root       root              296 ./usr/lib/rpm/rpm.daily
 -rwxr-xr-x root       root             1467 ./usr/lib/rpm/rpmdb_loadcvt
--rwxr-xr-x root       root            10412 ./usr/lib/rpm/rpmdeps
+-rwxr-xr-x root       root            10368 ./usr/lib/rpm/rpmdeps
 -rw-r--r-- root       root               61 ./usr/lib/rpm/rpm.log
 -rw-r--r-- root       root            10218 ./usr/lib/rpm/rpmpopt-4.13.90
 -rw-r--r-- root       root            16985 ./usr/lib/rpm/rpmrc
 -rw-r--r-- root       root              688 ./usr/lib/rpm/rpm.supp
 -rwxr-xr-x root       root              322 ./usr/lib/rpm/script.req
--rwxr-xr-x root       root            10048 ./usr/lib/rpm/sepdebugcrcfix
+-rwxr-xr-x root       root            10004 ./usr/lib/rpm/sepdebugcrcfix
 -rwxr-xr-x root       root              929 ./usr/lib/rpm/tgpg

@@ -1,10 +1,10 @@
 PV = 5.9.0+gitAUTOINC+f27089657a
 PR = r0
 PKGV = 5.9.0+git0+f27089657a
-PKGR = r0.2
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libstdc++ (>= 6.3.0) qtbase (>= 5.9.0+git0+f6b36eaafe) qtdeclarative (>= 5.9.0+git0+96f6ba5f56) qtwebkit (>= 5.9.0+git0+f27089657a)
+RDEPENDS = glibc (>= 2.25) libstdc++ (>= 7.1.0) qtbase (>= 5.9.0+git0+f6b36eaafe) qtdeclarative (>= 5.9.0+git0+96f6ba5f56) qtwebkit (>= 5.9.0+git0+f27089657a)
 RRECOMMENDS = 
-PKGSIZE = 77361
+PKGSIZE = 77681
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.qmlc /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.jsc /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.jsc /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
 FILELIST = /usr/lib/qt5/qml/QtWebKit/experimental/libqmlwebkitexperimentalplugin.so /usr/lib/qt5/qml/QtWebKit/experimental/qmldir /usr/lib/qt5/qml/QtWebKit/libqmlwebkitplugin.so /usr/lib/qt5/qml/QtWebKit/plugins.qmltypes /usr/lib/qt5/qml/QtWebKit/qmldir

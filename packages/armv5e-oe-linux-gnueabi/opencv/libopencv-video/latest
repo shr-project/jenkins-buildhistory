@@ -2,10 +2,10 @@ PV = 3.2+gitAUTOINC+70bbf17b13
 PR = r0
 PKG = libopencv-video3.2
 PKGV = 3.2+git0+70bbf17b13
-PKGR = r0.37
+PKGR = r0.0
 RPROVIDES = libopencv-video (=3.2+git0+70bbf17b13)
-RDEPENDS = glibc (>= 2.25) libgcc (>= 6.3.0) libopencv-core (>= 3.2+git0+70bbf17b13) libopencv-imgproc (>= 3.2+git0+70bbf17b13) libstdc++ (>= 6.3.0)
+RDEPENDS = glibc (>= 2.25) libgcc (>= 7.1.0) libopencv-core (>= 3.2+git0+70bbf17b13) libopencv-imgproc (>= 3.2+git0+70bbf17b13) libstdc++ (>= 7.1.0)
 RRECOMMENDS = 
-PKGSIZE = 252464
+PKGSIZE = 244240
 FILES = /usr/lib/libopencv_video.so /usr/lib/libopencv_video.so.3.2 /usr/lib/libopencv_video.so.3.2.0
 FILELIST = /usr/lib/libopencv_video.so.3.2 /usr/lib/libopencv_video.so.3.2.0
