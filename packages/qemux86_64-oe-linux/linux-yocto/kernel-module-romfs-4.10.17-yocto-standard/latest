@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-romfs
 RDEPENDS = kernel-4.10.17-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 14752
+PKGSIZE = 14840
 FILES = /lib/modules/4.10.17-yocto-standard/kernel/fs/romfs/romfs.ko /etc/modules-load.d/romfs.conf /etc/modprobe.d/romfs.conf
 FILELIST = /lib/modules/4.10.17-yocto-standard/kernel/fs/romfs/romfs.ko

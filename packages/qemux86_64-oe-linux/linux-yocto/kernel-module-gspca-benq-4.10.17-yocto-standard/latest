@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-gspca-benq
 RDEPENDS = kernel-4.10.17-yocto-standard kernel-module-gspca-main-4.10.17-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 8896
+PKGSIZE = 8768
 FILES = /lib/modules/4.10.17-yocto-standard/kernel/drivers/media/usb/gspca/gspca_benq.ko /etc/modules-load.d/gspca_benq.conf /etc/modprobe.d/gspca_benq.conf
 FILELIST = /lib/modules/4.10.17-yocto-standard/kernel/drivers/media/usb/gspca/gspca_benq.ko

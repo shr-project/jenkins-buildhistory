@@ -5,6 +5,6 @@ PKGR = r0.1
 RPROVIDES = kernel-module-kernelcapi
 RDEPENDS = kernel-4.10.17-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 58920
+PKGSIZE = 58736
 FILES = /lib/modules/4.10.17-yocto-standard/kernel/drivers/isdn/capi/kernelcapi.ko /etc/modules-load.d/kernelcapi.conf /etc/modprobe.d/kernelcapi.conf
 FILELIST = /lib/modules/4.10.17-yocto-standard/kernel/drivers/isdn/capi/kernelcapi.ko
