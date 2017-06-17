@@ -1,10 +1,10 @@
 PV = 0.60.6.1
 PR = r1
 PKG = libpspell15
-PKGR = r1.27
+PKGR = r1.0
 RPROVIDES = libpspell (=0.60.6.1)
-RDEPENDS = glibc (>= 2.25) libaspell (>= 0.60.6.1) libgcc (>= 6.3.0) libstdc++ (>= 6.3.0)
+RDEPENDS = glibc (>= 2.25) libaspell (>= 0.60.6.1) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0)
 RRECOMMENDS = 
-PKGSIZE = 6259
+PKGSIZE = 6187
 FILES = /usr/lib/libpspell.so.*
 FILELIST = /usr/lib/libpspell.so.15 /usr/lib/libpspell.so.15.1.5

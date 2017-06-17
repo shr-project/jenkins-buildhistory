@@ -1,10 +1,10 @@
-PV = 4.6.2
+PV = 4.6.5
 PR = r0
 PKG = libsamdb0
-PKGR = r0.7
-RPROVIDES = libsamdb (=4.6.2)
-RDEPENDS = glibc (>= 2.25) libauthkrb5-samba4 (>= 4.6.2) libbsd (>= 0.8.3) libcli-ldap-common-samba4 (>= 4.6.2) libcliauth-samba4 (>= 4.6.2) libgenrand-samba4 (>= 4.6.2) libgssapi-krb5 (>= 1.15.1) libkrb5 (>= 1.15.1) libkrb5samba-samba4 (>= 4.6.2) libldb (>= 1.1.29) libldbsamba-samba4 (>= 4.6.2) libndr (>= 4.6.2) libsamba-credentials (>= 4.6.2) libsamba-debug-samba4 (>= 4.6.2) libsamba-errors (>= 4.6.2) libsamba-hostconfig (>= 4.6.2) libsamba-security-samba4 (>= 4.6.2) libsamba-util (>= 4.6.2) libsamdb-common-samba4 (>= 4.6.2) libtalloc (>= 2.1.9) samba-common
+PKGR = r0.0
+RPROVIDES = libsamdb (=4.6.5)
+RDEPENDS = glibc (>= 2.25) libauthkrb5-samba4 (>= 4.6.5) libbsd (>= 0.8.3) libcli-ldap-common-samba4 (>= 4.6.5) libcliauth-samba4 (>= 4.6.5) libgenrand-samba4 (>= 4.6.5) libgssapi-krb5 (>= 1.15.1) libkrb5 (>= 1.15.1) libkrb5samba-samba4 (>= 4.6.5) libldb (>= 1.1.29) libldbsamba-samba4 (>= 4.6.5) libndr (>= 4.6.5) libsamba-credentials (>= 4.6.5) libsamba-debug-samba4 (>= 4.6.5) libsamba-errors (>= 4.6.5) libsamba-hostconfig (>= 4.6.5) libsamba-security-samba4 (>= 4.6.5) libsamba-util (>= 4.6.5) libsamdb-common-samba4 (>= 4.6.5) libtalloc (>= 2.1.9) samba-common
 RRECOMMENDS = 
-PKGSIZE = 92745
+PKGSIZE = 92673
 FILES = /usr/lib/libsamdb.so.0 /usr/lib/libsamdb.so.0.0.1
 FILELIST = /usr/lib/libsamdb.so.0 /usr/lib/libsamdb.so.0.0.1

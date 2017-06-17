@@ -1,9 +1,9 @@
 PV = 5.5.1
 PR = r0
-PKGR = r0.31
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.25) strongswan
 RRECOMMENDS = 
-PKGSIZE = 11467
+PKGSIZE = 11403
 FILES = /usr/lib/ipsec/plugins/libstrongswan-hmac.so /etc/strongswan.d/charon/hmac.conf
 FILELIST = /etc/strongswan.d/charon/hmac.conf /usr/lib/ipsec/plugins/libstrongswan-hmac.so

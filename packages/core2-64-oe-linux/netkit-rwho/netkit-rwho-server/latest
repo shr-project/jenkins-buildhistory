@@ -1,9 +1,9 @@
 PV = 0.17
 PR = r0
-PKGR = r0.27
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = base-files base-passwd glibc (>= 2.25) shadow
 RRECOMMENDS = 
-PKGSIZE = 20716
+PKGSIZE = 20644
 FILES = /usr/sbin/* /var /etc/default/* /etc/init.d/*
 FILELIST = /etc/default/rwhod /etc/init.d/rwhod /usr/sbin/rwhod

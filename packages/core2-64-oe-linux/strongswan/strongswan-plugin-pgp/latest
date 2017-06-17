@@ -1,9 +1,9 @@
 PV = 5.5.1
 PR = r0
-PKGR = r0.31
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.25) strongswan
 RRECOMMENDS = 
-PKGSIZE = 19538
+PKGSIZE = 19474
 FILES = /usr/lib/ipsec/plugins/libstrongswan-pgp.so /etc/strongswan.d/charon/pgp.conf
 FILELIST = /etc/strongswan.d/charon/pgp.conf /usr/lib/ipsec/plugins/libstrongswan-pgp.so
