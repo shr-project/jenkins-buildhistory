@@ -23,7 +23,7 @@ drwxr-xr-x root       root              120 ./usr/lib/NetworkManager/.debug
 -rwxr-xr-x root       root           122532 ./usr/lib/NetworkManager/.debug/libnm-settings-plugin-ifupdown.so
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/sbin/.debug
--rwxr-xr-x root       root          9347832 ./usr/sbin/.debug/NetworkManager
+-rwxr-xr-x root       root          9376480 ./usr/sbin/.debug/NetworkManager
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/networkmanager
@@ -116,7 +116,7 @@ drwxr-xr-x root       root              120 ./usr/src/debug/networkmanager/1.4.4
 drwxr-xr-x root       root               60 ./usr/src/debug/networkmanager/1.4.4-r0/build/libnm-util
 -rw-r--r-- root       root            40347 ./usr/src/debug/networkmanager/1.4.4-r0/build/libnm-util/nm-utils-enum-types.c
 drwxr-xr-x root       root               80 ./usr/src/debug/networkmanager/1.4.4-r0/build/src
--rw-r--r-- root       root            31553 ./usr/src/debug/networkmanager/1.4.4-r0/build/src/nm-enum-types.c
+-rw-r--r-- root       root            31591 ./usr/src/debug/networkmanager/1.4.4-r0/build/src/nm-enum-types.c
 -rw-r--r-- root       root             3575 ./usr/src/debug/networkmanager/1.4.4-r0/build/src/nm-enum-types.h
 drwxr-xr-x root       root              200 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4
 drwxr-xr-x root       root              100 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/callouts
@@ -668,13 +668,15 @@ drwxr-xr-x root       root              380 ./usr/src/debug/networkmanager/1.4.4
 -rw-r--r-- root       root             1718 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dhcp-manager/nm-dhcp-systemd.h
 -rw-r--r-- root       root            21303 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dhcp-manager/nm-dhcp-utils.c
 -rw-r--r-- root       root             1812 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dhcp-manager/nm-dhcp-utils.h
-drwxr-xr-x root       root              200 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager
+drwxr-xr-x root       root              240 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager
 -rw-r--r-- root       root            19702 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-dnsmasq.c
 -rw-r--r-- root       root             1783 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-dnsmasq.h
--rw-r--r-- root       root            52788 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-manager.c
+-rw-r--r-- root       root            54077 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-manager.c
 -rw-r--r-- root       root             4707 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-manager.h
 -rw-r--r-- root       root             8310 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-plugin.c
 -rw-r--r-- root       root             4326 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-plugin.h
+-rw-r--r-- root       root            12284 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-systemd-resolved.c
+-rw-r--r-- root       root             2030 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-systemd-resolved.h
 -rw-r--r-- root       root             2364 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-unbound.c
 -rw-r--r-- root       root             1781 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dns-manager/nm-dns-unbound.h
 drwxr-xr-x root       root              120 ./usr/src/debug/networkmanager/1.4.4-r0/NetworkManager-1.4.4/src/dnsmasq-manager

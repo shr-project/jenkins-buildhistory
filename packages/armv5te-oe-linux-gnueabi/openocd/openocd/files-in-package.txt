@@ -1,10 +1,10 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root          1566368 ./usr/bin/openocd
+-rwxr-xr-x root       root          1566280 ./usr/bin/openocd
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              100 ./usr/share/openocd
 drwxr-xr-x root       root               80 ./usr/share/openocd/contrib
--rw-r--r-- root       root             6673 ./usr/share/openocd/contrib/60-openocd.rules
+-rw-r--r-- root       root             6935 ./usr/share/openocd/contrib/60-openocd.rules
 drwxr-xr-x root       root              120 ./usr/share/openocd/contrib/libdcc
 -rw-r--r-- root       root             4523 ./usr/share/openocd/contrib/libdcc/dcc_stdio.c
 -rw-r--r-- root       root             1968 ./usr/share/openocd/contrib/libdcc/dcc_stdio.h
@@ -297,7 +297,8 @@ drwxr-xr-x root       root               60 ./usr/share/openocd/scripts/chip/ti
 drwxr-xr-x root       root               80 ./usr/share/openocd/scripts/chip/ti/lm3s
 -rw-r--r-- root       root             5132 ./usr/share/openocd/scripts/chip/ti/lm3s/lm3s_regs.tcl
 -rw-r--r-- root       root               41 ./usr/share/openocd/scripts/chip/ti/lm3s/lm3s.tcl
-drwxr-xr-x root       root              160 ./usr/share/openocd/scripts/cpld
+drwxr-xr-x root       root              180 ./usr/share/openocd/scripts/cpld
+-rw-r--r-- root       root              274 ./usr/share/openocd/scripts/cpld/altera-5m570z-cpld.cfg
 -rw-r--r-- root       root              275 ./usr/share/openocd/scripts/cpld/altera-epm240.cfg
 -rw-r--r-- root       root              934 ./usr/share/openocd/scripts/cpld/jtagspi.cfg
 -rw-r--r-- root       root              131 ./usr/share/openocd/scripts/cpld/lattice-lc4032ze.cfg
@@ -314,7 +315,7 @@ drwxr-xr-x root       root              140 ./usr/share/openocd/scripts/cpu/arm
 drwxr-xr-x root       root               80 ./usr/share/openocd/scripts/fpga
 -rw-r--r-- root       root              298 ./usr/share/openocd/scripts/fpga/altera-10m50.cfg
 -rw-r--r-- root       root              179 ./usr/share/openocd/scripts/fpga/altera-ep3c10.cfg
-drwxr-xr-x root       root              680 ./usr/share/openocd/scripts/interface
+drwxr-xr-x root       root              720 ./usr/share/openocd/scripts/interface
 -rw-r--r-- root       root              190 ./usr/share/openocd/scripts/interface/altera-usb-blaster2.cfg
 -rw-r--r-- root       root              215 ./usr/share/openocd/scripts/interface/altera-usb-blaster.cfg
 -rw-r--r-- root       root               96 ./usr/share/openocd/scripts/interface/arm-jtag-ew.cfg
@@ -397,8 +398,10 @@ drwxr-xr-x root       root             1440 ./usr/share/openocd/scripts/interfac
 -rw-r--r-- root       root              562 ./usr/share/openocd/scripts/interface/ftdi/vpaclink.cfg
 -rw-r--r-- root       root             1759 ./usr/share/openocd/scripts/interface/ftdi/xds100v2.cfg
 -rw-r--r-- root       root              254 ./usr/share/openocd/scripts/interface/ftdi/xds100v3.cfg
+-rw-r--r-- root       root              894 ./usr/share/openocd/scripts/interface/imx-native.cfg
 -rw-r--r-- root       root              268 ./usr/share/openocd/scripts/interface/jlink.cfg
 -rw-r--r-- root       root              354 ./usr/share/openocd/scripts/interface/jtag_vpi.cfg
+-rw-r--r-- root       root              360 ./usr/share/openocd/scripts/interface/kitprog.cfg
 -rw-r--r-- root       root              258 ./usr/share/openocd/scripts/interface/nds32-aice.cfg
 -rw-r--r-- root       root               84 ./usr/share/openocd/scripts/interface/opendous.cfg
 -rw-r--r-- root       root               96 ./usr/share/openocd/scripts/interface/openjtag.cfg
