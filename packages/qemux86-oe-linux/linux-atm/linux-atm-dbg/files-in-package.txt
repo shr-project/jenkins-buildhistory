@@ -10,7 +10,7 @@ drwxr-xr-x root       root              240 ./usr/bin/.debug
 -rwxr-xr-x root       root            12708 ./usr/bin/.debug/sonetdiag
 -rwxr-xr-x root       root            14200 ./usr/bin/.debug/svc_recv
 -rwxr-xr-x root       root            12936 ./usr/bin/.debug/svc_send
--rwxr-xr-x root       root            28600 ./usr/bin/.debug/ttcp_atm
+-rwxr-xr-x root       root            28660 ./usr/bin/.debug/ttcp_atm
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
 -rwxr-xr-x root       root            89116 ./usr/lib/.debug/libatm.so.1.0.0
@@ -20,7 +20,7 @@ drwxr-xr-x root       root              400 ./usr/sbin/.debug
 -rwxr-xr-x root       root            16540 ./usr/sbin/.debug/atmarp
 -rwxr-xr-x root       root            75056 ./usr/sbin/.debug/atmarpd
 -rwxr-xr-x root       root            13452 ./usr/sbin/.debug/atmloop
--rwxr-xr-x root       root           313696 ./usr/sbin/.debug/atmsigd
+-rwxr-xr-x root       root           315740 ./usr/sbin/.debug/atmsigd
 -rwxr-xr-x root       root            38076 ./usr/sbin/.debug/atmtcp
 -rwxr-xr-x root       root            18448 ./usr/sbin/.debug/br2684ctl
 -rwxr-xr-x root       root            86612 ./usr/sbin/.debug/bus
@@ -31,7 +31,7 @@ drwxr-xr-x root       root              400 ./usr/sbin/.debug
 -rwxr-xr-x root       root            13168 ./usr/sbin/.debug/ilmidiag
 -rwxr-xr-x root       root            47516 ./usr/sbin/.debug/lecs
 -rwxr-xr-x root       root           104348 ./usr/sbin/.debug/les
--rwxr-xr-x root       root            87972 ./usr/sbin/.debug/mpcd
+-rwxr-xr-x root       root            88004 ./usr/sbin/.debug/mpcd
 -rwxr-xr-x root       root            83916 ./usr/sbin/.debug/zeppelin
 -rwxr-xr-x root       root            12336 ./usr/sbin/.debug/zntune
 drwxr-xr-x root       root               60 ./usr/src
@@ -204,7 +204,7 @@ drwxr-xr-x root       root              360 ./usr/src/debug/linux-atm/2.5.2-r0/l
 -rw-r--r-- root       root             1714 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/mpoad/get_vars.c
 -rw-r--r-- root       root              199 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/mpoad/get_vars.h
 -rw-r--r-- root       root             2862 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/mpoad/id_list.c
--rw-r--r-- root       root            26646 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/mpoad/io.c
+-rw-r--r-- root       root            26422 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/mpoad/io.c
 -rw-r--r-- root       root             1161 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/mpoad/io.h
 -rw-r--r-- root       root             6214 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/mpoad/k_interf.c
 -rw-r--r-- root       root              143 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/mpoad/k_interf.h
@@ -232,7 +232,7 @@ drwxr-xr-x root       root              240 ./usr/src/debug/linux-atm/2.5.2-r0/l
 -rw-r--r-- root       root            43763 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/saal/sscop.c
 -rw-r--r-- root       root             5240 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/saal/sscop.h
 drwxr-xr-x root       root              340 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/sigd
--rw-r--r-- root       root            12523 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/sigd/atmsigd.c
+-rw-r--r-- root       root            12510 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/sigd/atmsigd.c
 -rw-r--r-- root       root             3769 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/sigd/cfg_y.h
 -rw-r--r-- root       root             9427 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/sigd/io.c
 -rw-r--r-- root       root              539 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/sigd/io.h
@@ -253,4 +253,4 @@ drwxr-xr-x root       root              160 ./usr/src/debug/linux-atm/2.5.2-r0/l
 -rw-r--r-- root       root             1377 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/test/awrite.c
 -rw-r--r-- root       root             3287 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/test/svc_recv.c
 -rw-r--r-- root       root             2035 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/test/svc_send.c
--rw-r--r-- root       root            26065 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/test/ttcp.c
+-rw-r--r-- root       root            26071 ./usr/src/debug/linux-atm/2.5.2-r0/linux-atm-2.5.2/src/test/ttcp.c
