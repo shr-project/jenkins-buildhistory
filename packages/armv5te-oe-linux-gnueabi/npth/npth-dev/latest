@@ -1,10 +1,10 @@
-PV = 1.3
+PV = 1.5
 PR = r0
 PKG = libnpth-dev
-PKGR = r0.3
-RPROVIDES = npth-dev (=1.3)
-RDEPENDS = npth (= 1.3-r0.3)
+PKGR = r0.0
+RPROVIDES = npth-dev (=1.5)
+RDEPENDS = npth (= 1.5-r0.0)
 RRECOMMENDS = glibc-dev
-PKGSIZE = 19334
+PKGSIZE = 19289
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/npth/*.la /lib/*.la /usr/bin/*-config /usr/bin/npth-config
 FILELIST = /usr/bin/npth-config /usr/include/npth.h /usr/lib/libnpth.so /usr/lib/pkgconfig/npth.pc /usr/share/aclocal/npth.m4
