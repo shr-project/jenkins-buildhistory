@@ -3,7 +3,7 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/lz4
 drwxr-xr-x root       root               80 ./usr/lib/lz4/ptest
 -rwxr-xr-x root       root              708 ./usr/lib/lz4/ptest/run-ptest
-drwxr-xr-x root       root              300 ./usr/lib/lz4/ptest/testsuite
+drwxr-xr-x root       root              320 ./usr/lib/lz4/ptest/testsuite
 -rw-r--r-- root       root             5823 ./usr/lib/lz4/ptest/testsuite/appveyor.yml
 drwxr-xr-x root       root              120 ./usr/lib/lz4/ptest/testsuite/contrib
 drwxr-xr-x root       root               80 ./usr/lib/lz4/ptest/testsuite/contrib/cmake_unofficial
@@ -86,6 +86,9 @@ lrwxrwxrwx root       root               15 ./usr/lib/lz4/ptest/testsuite/lib/li
 -rwxr-xr-x root       root           117264 ./usr/lib/lz4/ptest/testsuite/lz4
 -rw-r--r-- root       root             5748 ./usr/lib/lz4/ptest/testsuite/Makefile
 -rw-r--r-- root       root             9999 ./usr/lib/lz4/ptest/testsuite/NEWS
+drwxr-xr-x root       root               80 ./usr/lib/lz4/ptest/testsuite/patches
+lrwxrwxrwx root       root              135 ./usr/lib/lz4/ptest/testsuite/patches/0001-tests-Makefile-don-t-use-LIBDIR-as-variable.patch -> /home/jenkins/oe/world/shr-core/openembedded-core/meta/recipes-support/lz4/files/0001-tests-Makefile-don-t-use-LIBDIR-as-variable.patch
+-rw-r--r-- root       root               59 ./usr/lib/lz4/ptest/testsuite/patches/series
 drwxr-xr-x root       root              460 ./usr/lib/lz4/ptest/testsuite/programs
 -rw-r--r-- root       root            20527 ./usr/lib/lz4/ptest/testsuite/programs/bench.c
 -rw-r--r-- root       root             1441 ./usr/lib/lz4/ptest/testsuite/programs/bench.h
