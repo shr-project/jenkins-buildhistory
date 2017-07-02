@@ -14,9 +14,11 @@ drwxr-xr-x root       root              360 ./usr/bin
 lrwxrwxrwx root       root               18 ./usr/bin/hwloc-ls -> lstopo-no-graphics
 -rwxr-xr-x root       root             9952 ./usr/bin/hwloc-patch
 -rwxr-xr-x root       root            10064 ./usr/bin/hwloc-ps
-lrwxrwxrwx root       root               18 ./usr/bin/lstopo -> lstopo-no-graphics
+-rwxr-xr-x root       root            88484 ./usr/bin/lstopo
 -rwxr-xr-x root       root            80024 ./usr/bin/lstopo-no-graphics
-drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               80 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/applications
+-rw-r--r-- root       root              265 ./usr/share/applications/lstopo.desktop
 drwxr-xr-x root       root              100 ./usr/share/hwloc
 -rw-r--r-- root       root             2442 ./usr/share/hwloc/hwloc.dtd
 -rw-r--r-- root       root              615 ./usr/share/hwloc/hwloc-dump-hwdata.service

@@ -5,7 +5,11 @@ drwxr-xr-x root       root               60 ./usr/bin/.debug
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
 -rwxr-xr-x root       root          2202760 ./usr/lib/.debug/libslang.so.2.3.1
-drwxr-xr-x root       root               60 ./usr/lib/slang
+drwxr-xr-x root       root               80 ./usr/lib/slang
+drwxr-xr-x root       root               60 ./usr/lib/slang/ptest
+drwxr-xr-x root       root               60 ./usr/lib/slang/ptest/test
+drwxr-xr-x root       root               60 ./usr/lib/slang/ptest/test/.debug
+-rwxr-xr-x root       root          2056748 ./usr/lib/slang/ptest/test/.debug/sltest
 drwxr-xr-x root       root               60 ./usr/lib/slang/v2
 drwxr-xr-x root       root               60 ./usr/lib/slang/v2/modules
 drwxr-xr-x root       root              380 ./usr/lib/slang/v2/modules/.debug
@@ -58,7 +62,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/slang/2.3.1a-r0/slan
 -rw-r--r-- root       root            24563 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/slsh/readline.c
 -rw-r--r-- root       root            16571 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/slsh/slsh.c
 -rw-r--r-- root       root             1017 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/slsh/slsh.h
-drwxr-xr-x root       root             1640 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src
+drwxr-xr-x root       root             1660 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src
 -rw-r--r-- root       root             4909 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/keywhash.c
 -rw-r--r-- root       root             3379 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/slagetput.inc
 -rw-r--r-- root       root           271770 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/slang.c
@@ -139,3 +143,7 @@ drwxr-xr-x root       root             1640 ./usr/src/debug/slang/2.3.1a-r0/slan
 -rw-r--r-- root       root           114937 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/slwcwidth.h
 -rw-r--r-- root       root             1521 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/slxstrng.c
 -rw-r--r-- root       root            30052 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/terminfo.inc
+drwxr-xr-x root       root              100 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/test
+-rw-r--r-- root       root             2471 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/test/assoc.c
+-rw-r--r-- root       root             2251 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/test/list.c
+-rw-r--r-- root       root            16643 ./usr/src/debug/slang/2.3.1a-r0/slang-2.3.1a/src/test/sltest.c
