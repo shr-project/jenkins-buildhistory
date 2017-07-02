@@ -3,9 +3,9 @@ drwxr-xr-x root       root               40 ./etc/init.d
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
 -rwxr-xr-x root       root            18056 ./usr/bin/idiscover
--rwxr-xr-x root       root            43724 ./usr/bin/ievents
--rwxr-xr-x root       root           861840 ./usr/bin/ipmiutil
-drwxr-xr-x root       root              420 ./usr/sbin
+-rwxr-xr-x root       root            43788 ./usr/bin/ievents
+-rwxr-xr-x root       root           841616 ./usr/bin/ipmiutil
+drwxr-xr-x root       root              440 ./usr/sbin
 -rwxr-xr-x root       root               29 ./usr/sbin/ialarms
 -rwxr-xr-x root       root               26 ./usr/sbin/icmd
 -rwxr-xr-x root       root               29 ./usr/sbin/iconfig
@@ -24,6 +24,7 @@ drwxr-xr-x root       root              420 ./usr/sbin
 -rwxr-xr-x root       root               29 ./usr/sbin/isensor
 -rwxr-xr-x root       root               29 ./usr/sbin/iserial
 -rwxr-xr-x root       root               26 ./usr/sbin/isol
+-rwxr-xr-x root       root               27 ./usr/sbin/iuser
 -rwxr-xr-x root       root               26 ./usr/sbin/iwdt
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              380 ./usr/share/ipmiutil
@@ -32,7 +33,7 @@ drwxr-xr-x root       root              380 ./usr/share/ipmiutil
 -rwxr-xr-x root       root             1284 ./usr/share/ipmiutil/evt.sh
 -rwxr-xr-x root       root             1595 ./usr/share/ipmiutil/ipmi_if.sh
 -rwxr-xr-x root       root             2395 ./usr/share/ipmiutil/ipmi_info
--rwxr-xr-x root       root             1811 ./usr/share/ipmiutil/ipmi.init.basic
+-rwxr-xr-x root       root             1959 ./usr/share/ipmiutil/ipmi.init.basic
 -rwxr-xr-x root       root             3890 ./usr/share/ipmiutil/ipmi_port
 -rw-r--r-- root       root              289 ./usr/share/ipmiutil/ipmi_port.service
 -rwxr-xr-x root       root             3091 ./usr/share/ipmiutil/ipmiutil_asy
@@ -41,8 +42,8 @@ drwxr-xr-x root       root              380 ./usr/share/ipmiutil
 -rwxr-xr-x root       root             3195 ./usr/share/ipmiutil/ipmiutil_evt
 -rw-r--r-- root       root              304 ./usr/share/ipmiutil/ipmiutil_evt.service
 -rwxr-xr-x root       root              322 ./usr/share/ipmiutil/ipmiutil.pre
--rwxr-xr-x root       root              937 ./usr/share/ipmiutil/ipmiutil.setup
--rwxr-xr-x root       root             3195 ./usr/share/ipmiutil/ipmiutil_wdt
+-rwxr-xr-x root       root             1021 ./usr/share/ipmiutil/ipmiutil.setup
+-rwxr-xr-x root       root             2890 ./usr/share/ipmiutil/ipmiutil_wdt
 -rw-r--r-- root       root              300 ./usr/share/ipmiutil/ipmiutil_wdt.service
 drwxr-xr-x root       root               60 ./var
 drwxr-xr-x root       root               60 ./var/lib

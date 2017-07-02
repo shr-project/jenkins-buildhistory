@@ -38,14 +38,14 @@ drwxr-xr-x root       root             1220 ./usr/share/qt5/examples/webkitwidge
 -rw-r--r-- root       root            31243 ./usr/share/qt5/examples/webkitwidgets/browser/bookmarks.cpp
 -rw-r--r-- root       root             8579 ./usr/share/qt5/examples/webkitwidgets/browser/bookmarks.h
 -rw-r--r-- root       root             2544 ./usr/share/qt5/examples/webkitwidgets/browser/bookmarks.ui
--rwxr-xr-x root       root           653948 ./usr/share/qt5/examples/webkitwidgets/browser/browser
+-rwxr-xr-x root       root           653952 ./usr/share/qt5/examples/webkitwidgets/browser/browser
 -rw-r--r-- root       root            15479 ./usr/share/qt5/examples/webkitwidgets/browser/browserapplication.cpp
 -rw-r--r-- root       root             3530 ./usr/share/qt5/examples/webkitwidgets/browser/browserapplication.h
 -rw-r--r-- root       root            50218 ./usr/share/qt5/examples/webkitwidgets/browser/browser.icns
 -rw-r--r-- root       root            15374 ./usr/share/qt5/examples/webkitwidgets/browser/browser.ico
--rw-r--r-- root       root            33147 ./usr/share/qt5/examples/webkitwidgets/browser/browsermainwindow.cpp
+-rw-r--r-- root       root            33151 ./usr/share/qt5/examples/webkitwidgets/browser/browsermainwindow.cpp
 -rw-r--r-- root       root             4735 ./usr/share/qt5/examples/webkitwidgets/browser/browsermainwindow.h
--rw-r--r-- root       root             1896 ./usr/share/qt5/examples/webkitwidgets/browser/browser.pro
+-rw-r--r-- root       root             1945 ./usr/share/qt5/examples/webkitwidgets/browser/browser.pro
 -rw-r--r-- root       root               63 ./usr/share/qt5/examples/webkitwidgets/browser/browser.rc
 -rw-r--r-- root       root             3849 ./usr/share/qt5/examples/webkitwidgets/browser/chasewidget.cpp
 -rw-r--r-- root       root             2442 ./usr/share/qt5/examples/webkitwidgets/browser/chasewidget.h
@@ -91,7 +91,7 @@ drwxr-xr-x root       root               80 ./usr/share/qt5/examples/webkitwidge
 -rw-r--r-- root       root            18648 ./usr/share/qt5/examples/webkitwidgets/browser/settings.ui
 -rw-r--r-- root       root             2080 ./usr/share/qt5/examples/webkitwidgets/browser/squeezelabel.cpp
 -rw-r--r-- root       root             1852 ./usr/share/qt5/examples/webkitwidgets/browser/squeezelabel.h
--rw-r--r-- root       root            26020 ./usr/share/qt5/examples/webkitwidgets/browser/tabwidget.cpp
+-rw-r--r-- root       root            26024 ./usr/share/qt5/examples/webkitwidgets/browser/tabwidget.cpp
 -rw-r--r-- root       root             6392 ./usr/share/qt5/examples/webkitwidgets/browser/tabwidget.h
 -rw-r--r-- root       root             5356 ./usr/share/qt5/examples/webkitwidgets/browser/toolbarsearch.cpp
 -rw-r--r-- root       root             2271 ./usr/share/qt5/examples/webkitwidgets/browser/toolbarsearch.h
@@ -110,7 +110,7 @@ drwxr-xr-x root       root              160 ./usr/share/qt5/examples/webkitwidge
 -rw-r--r-- root       root             2239 ./usr/share/qt5/examples/webkitwidgets/domtraversal/window.ui
 drwxr-xr-x root       root               80 ./usr/share/qt5/examples/webkitwidgets/embedded
 drwxr-xr-x root       root              120 ./usr/share/qt5/examples/webkitwidgets/embedded/anomaly
--rwxr-xr-x root       root            88612 ./usr/share/qt5/examples/webkitwidgets/embedded/anomaly/anomaly
+-rwxr-xr-x root       root            88616 ./usr/share/qt5/examples/webkitwidgets/embedded/anomaly/anomaly
 -rw-r--r-- root       root              677 ./usr/share/qt5/examples/webkitwidgets/embedded/anomaly/anomaly.pro
 -rw-r--r-- root       root                0 ./usr/share/qt5/examples/webkitwidgets/embedded/anomaly/README.TXT
 drwxr-xr-x root       root              500 ./usr/share/qt5/examples/webkitwidgets/embedded/anomaly/src
@@ -145,7 +145,7 @@ drwxr-xr-x root       root              160 ./usr/share/qt5/examples/webkitwidge
 -rw-r--r-- root       root             2045 ./usr/share/qt5/examples/webkitwidgets/embedded/anomaly/src/ZoomStrip.h
 -rw-r--r-- root       root               39 ./usr/share/qt5/examples/webkitwidgets/embedded/embedded.pro
 drwxr-xr-x root       root              180 ./usr/share/qt5/examples/webkitwidgets/fancybrowser
--rwxr-xr-x root       root            92340 ./usr/share/qt5/examples/webkitwidgets/fancybrowser/fancybrowser
+-rwxr-xr-x root       root            92344 ./usr/share/qt5/examples/webkitwidgets/fancybrowser/fancybrowser
 -rw-r--r-- root       root              235 ./usr/share/qt5/examples/webkitwidgets/fancybrowser/fancybrowser.pro
 -rw-r--r-- root       root            57254 ./usr/share/qt5/examples/webkitwidgets/fancybrowser/jquery.min.js
 -rw-r--r-- root       root               93 ./usr/share/qt5/examples/webkitwidgets/fancybrowser/jquery.qrc
@@ -153,7 +153,7 @@ drwxr-xr-x root       root              180 ./usr/share/qt5/examples/webkitwidge
 -rw-r--r-- root       root             7869 ./usr/share/qt5/examples/webkitwidgets/fancybrowser/mainwindow.cpp
 -rw-r--r-- root       root             2693 ./usr/share/qt5/examples/webkitwidgets/fancybrowser/mainwindow.h
 drwxr-xr-x root       root              240 ./usr/share/qt5/examples/webkitwidgets/formextractor
--rwxr-xr-x root       root            34888 ./usr/share/qt5/examples/webkitwidgets/formextractor/formextractor
+-rwxr-xr-x root       root            34892 ./usr/share/qt5/examples/webkitwidgets/formextractor/formextractor
 -rw-r--r-- root       root             3594 ./usr/share/qt5/examples/webkitwidgets/formextractor/formextractor.cpp
 -rw-r--r-- root       root             2370 ./usr/share/qt5/examples/webkitwidgets/formextractor/formextractor.h
 -rw-r--r-- root       root              416 ./usr/share/qt5/examples/webkitwidgets/formextractor/formextractor.pro
@@ -228,7 +228,7 @@ drwxr-xr-x root       root               60 ./usr/share/qt5/examples/webkitwidge
 -rw-r--r-- root       root             2177 ./usr/share/qt5/examples/webkitwidgets/xmlpatterns/qobjectxmlmodel/main.cpp
 -rw-r--r-- root       root             5055 ./usr/share/qt5/examples/webkitwidgets/xmlpatterns/qobjectxmlmodel/mainwindow.cpp
 -rw-r--r-- root       root             2274 ./usr/share/qt5/examples/webkitwidgets/xmlpatterns/qobjectxmlmodel/mainwindow.h
--rwxr-xr-x root       root            59828 ./usr/share/qt5/examples/webkitwidgets/xmlpatterns/qobjectxmlmodel/qobjectxmlmodel
+-rwxr-xr-x root       root            59832 ./usr/share/qt5/examples/webkitwidgets/xmlpatterns/qobjectxmlmodel/qobjectxmlmodel
 -rw-r--r-- root       root            13208 ./usr/share/qt5/examples/webkitwidgets/xmlpatterns/qobjectxmlmodel/qobjectxmlmodel.cpp
 -rw-r--r-- root       root             5160 ./usr/share/qt5/examples/webkitwidgets/xmlpatterns/qobjectxmlmodel/qobjectxmlmodel.h
 -rw-r--r-- root       root              371 ./usr/share/qt5/examples/webkitwidgets/xmlpatterns/qobjectxmlmodel/qobjectxmlmodel.pro

@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/include
-drwxr-xr-x root       root              180 ./usr/include/tcl8.6
+drwxr-xr-x root       root              320 ./usr/include/tcl8.6
 drwxr-xr-x root       root              100 ./usr/include/tcl8.6.6
 drwxr-xr-x root       root              200 ./usr/include/tcl8.6.6/compat
 -rw-r--r-- root       root             1273 ./usr/include/tcl8.6.6/compat/dirent2.h
@@ -43,14 +43,21 @@ drwxr-xr-x root       root               80 ./usr/include/tcl8.6.6/unix
 -rw-r--r-- root       root              390 ./usr/include/tcl8.6.6/unix/tclUnixThrd.h
 -rw-r--r-- root       root           169681 ./usr/include/tcl8.6/tclDecls.h
 -rw-r--r-- root       root            94743 ./usr/include/tcl8.6/tcl.h
+-rw-r--r-- root       root            54116 ./usr/include/tcl8.6/tclIntDecls.h
+-rw-r--r-- root       root           188162 ./usr/include/tcl8.6/tclInt.h
+-rw-r--r-- root       root            21110 ./usr/include/tcl8.6/tclIntPlatDecls.h
 -rw-r--r-- root       root             9123 ./usr/include/tcl8.6/tclOODecls.h
 -rw-r--r-- root       root             4282 ./usr/include/tcl8.6/tclOO.h
+-rw-r--r-- root       root             7216 ./usr/include/tcl8.6/tclOOIntDecls.h
+-rw-r--r-- root       root            23811 ./usr/include/tcl8.6/tclOOInt.h
 -rw-r--r-- root       root             3279 ./usr/include/tcl8.6/tclPlatDecls.h
+-rw-r--r-- root       root             1053 ./usr/include/tcl8.6/tclPort.h
 -rw-r--r-- root       root            18892 ./usr/include/tcl8.6/tclTomMathDecls.h
 -rw-r--r-- root       root            18385 ./usr/include/tcl8.6/tclTomMath.h
+-rw-r--r-- root       root            20599 ./usr/include/tcl8.6/tclUnixPort.h
 drwxr-xr-x root       root              120 ./usr/lib
 lrwxrwxrwx root       root               14 ./usr/lib/libtcl8.6.so -> libtcl8.6.so.0
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              419 ./usr/lib/pkgconfig/tcl.pc
--rwxr-xr-x root       root             8291 ./usr/lib/tclConfig.sh
+-rwxr-xr-x root       root             8309 ./usr/lib/tclConfig.sh
 -rw-r--r-- root       root              773 ./usr/lib/tclooConfig.sh

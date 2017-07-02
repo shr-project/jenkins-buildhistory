@@ -1,10 +1,10 @@
-PV = 1.7.3+1.7.4-rc8+AUTOINC+588fb4b805
+PV = 1.8.8+AUTOINC+c30301e234
 PR = r0
-PKGV = 1.7.3+1.7.4-rc8+0+588fb4b805
-PKGR = r0.3
+PKGV = 1.8.8+0+c30301e234
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = synergy (= 1.7.3+1.7.4-rc8+0+588fb4b805-r0.3)
-RRECOMMENDS = curl-dev glibc-dev libgcc-dev libstdc++-dev libx11-dev libxext-dev libxi-dev libxinerama-dev libxtst-dev openssl-dev
+RDEPENDS = synergy (= 1.8.8+0+c30301e234-r0.0)
+RRECOMMENDS = curl-dev glibc-dev libcrypto-dev libgcc-dev libssl-dev libstdc++-dev libx11-dev libxext-dev libxi-dev libxinerama-dev libxtst-dev openssl-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/synergy/*.la /lib/*.la
 FILELIST = 
