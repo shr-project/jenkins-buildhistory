@@ -1,11 +1,11 @@
-PV = 5.9.0+gitAUTOINC+84490ff75b
+PV = 5.8.0+gitAUTOINC+a78f8d6bef
 PR = r0
 PKG = libqt5datavisualization-qmlplugins-dbg
-PKGV = 5.9.0+git0+84490ff75b
-PKGR = r0.2
-RPROVIDES = qtdatavis3d-qmlplugins-dbg (=5.9.0+git0+84490ff75b)
+PKGV = 5.8.0+git0+a78f8d6bef
+PKGR = r0.0
+RPROVIDES = qtdatavis3d-qmlplugins-dbg (=5.8.0+git0+a78f8d6bef)
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg qtdatavis3d-dbg qtdeclarative-dbg qtmultimedia-dbg
+RRECOMMENDS = glibc-dbg libgles2-mesa-dbg libstdc++-dbg qtbase-dbg qtdatavis3d-dbg qtdeclarative-dbg qtmultimedia-dbg
 PKGSIZE = 0
 FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/qml/*/*/*/*/.debug /usr/lib/qt5/imports/*/.debug /usr/lib/qt5/imports/*/*/.debug /usr/lib/qt5/imports/*/*/*/.debug
 FILELIST = 
