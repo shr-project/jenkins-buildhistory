@@ -1,10 +1,10 @@
-PV = 1.0.39.1
+PV = 1.0.51.0
 PR = r0
 PKG = libvulkan-bin
-PKGR = r0.4
-RPROVIDES = vulkan-bin (=1.0.39.1)
-RDEPENDS = glibc (>= 2.25) libxcb (>= 1.12) vulkan (>= 1.0.39.1)
+PKGR = r0.0
+RPROVIDES = vulkan-bin (=1.0.51.0)
+RDEPENDS = glibc (>= 2.25) libxcb (>= 1.12) vulkan (>= 1.0.51.0)
 RRECOMMENDS = 
-PKGSIZE = 34440
+PKGSIZE = 38544
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/vulkaninfo
