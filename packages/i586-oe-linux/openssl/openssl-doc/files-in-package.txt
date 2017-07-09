@@ -5,7 +5,7 @@ drwxr-xr-x root       root             1180 ./usr/share/man/man1
 -rw-r--r-- root       root            10120 ./usr/share/man/man1/asn1parse.1ssl
 -rw-r--r-- root       root            30544 ./usr/share/man/man1/ca.1ssl
 -rw-r--r-- root       root            10365 ./usr/share/man/man1/CA.pl.1ssl
--rw-r--r-- root       root            31329 ./usr/share/man/man1/ciphers.1ssl
+-rw-r--r-- root       root            31394 ./usr/share/man/man1/ciphers.1ssl
 -rw-r--r-- root       root            29701 ./usr/share/man/man1/cms.1ssl
 -rw-r--r-- root       root             7774 ./usr/share/man/man1/c_rehash.1ssl
 -rw-r--r-- root       root             7219 ./usr/share/man/man1/crl.1ssl
@@ -21,7 +21,7 @@ lrwxrwxrwx root       root                9 ./usr/share/man/man1/dss1.1ssl -> dg
 -rw-r--r-- root       root             4792 ./usr/share/man/man1/errstr.1ssl
 -rw-r--r-- root       root             6163 ./usr/share/man/man1/gendsa.1ssl
 -rw-r--r-- root       root            11414 ./usr/share/man/man1/genpkey.1ssl
--rw-r--r-- root       root             7160 ./usr/share/man/man1/genrsa.1ssl
+-rw-r--r-- root       root             7740 ./usr/share/man/man1/genrsa.1ssl
 lrwxrwxrwx root       root                9 ./usr/share/man/man1/md2.1ssl -> dgst.1ssl
 lrwxrwxrwx root       root                9 ./usr/share/man/man1/md4.1ssl -> dgst.1ssl
 lrwxrwxrwx root       root                9 ./usr/share/man/man1/md5.1ssl -> dgst.1ssl
@@ -37,11 +37,11 @@ lrwxrwxrwx root       root                9 ./usr/share/man/man1/mdc2.1ssl -> dg
 -rw-r--r-- root       root             5765 ./usr/share/man/man1/pkeyparam.1ssl
 -rw-r--r-- root       root            11774 ./usr/share/man/man1/pkeyutl.1ssl
 -rw-r--r-- root       root             5322 ./usr/share/man/man1/rand.1ssl
--rw-r--r-- root       root            29766 ./usr/share/man/man1/req.1ssl
+-rw-r--r-- root       root            29912 ./usr/share/man/man1/req.1ssl
 lrwxrwxrwx root       root                9 ./usr/share/man/man1/ripemd160.1ssl -> dgst.1ssl
 -rw-r--r-- root       root            11171 ./usr/share/man/man1/rsa.1ssl
 -rw-r--r-- root       root             9983 ./usr/share/man/man1/rsautl.1ssl
--rw-r--r-- root       root            17782 ./usr/share/man/man1/s_client.1ssl
+-rw-r--r-- root       root            18361 ./usr/share/man/man1/s_client.1ssl
 -rw-r--r-- root       root             8487 ./usr/share/man/man1/sess_id.1ssl
 lrwxrwxrwx root       root                9 ./usr/share/man/man1/sha1.1ssl -> dgst.1ssl
 lrwxrwxrwx root       root                9 ./usr/share/man/man1/sha.1ssl -> dgst.1ssl
@@ -52,14 +52,14 @@ lrwxrwxrwx root       root                9 ./usr/share/man/man1/sha512.1ssl -> 
 -rw-r--r-- root       root            21062 ./usr/share/man/man1/smime.1ssl
 -rw-r--r-- root       root             5097 ./usr/share/man/man1/speed.1ssl
 -rw-r--r-- root       root             8102 ./usr/share/man/man1/spkac.1ssl
--rw-r--r-- root       root            18880 ./usr/share/man/man1/s_server.1ssl
+-rw-r--r-- root       root            19357 ./usr/share/man/man1/s_server.1ssl
 -rw-r--r-- root       root            10766 ./usr/share/man/man1/s_time.1ssl
 -rw-r--r-- root       root            26801 ./usr/share/man/man1/ts.1ssl
 -rw-r--r-- root       root            11183 ./usr/share/man/man1/tsget.1ssl
 -rw-r--r-- root       root            24220 ./usr/share/man/man1/verify.1ssl
 -rw-r--r-- root       root             5034 ./usr/share/man/man1/version.1ssl
 -rw-r--r-- root       root            36588 ./usr/share/man/man1/x509.1ssl
-drwxr-xr-x root       root            30820 ./usr/share/man/man3
+drwxr-xr-x root       root            30920 ./usr/share/man/man3
 lrwxrwxrwx root       root               33 ./usr/share/man/man3/ASN1_add_oid_module.3ssl -> OPENSSL_load_builtin_modules.3ssl
 -rw-r--r-- root       root            13756 ./usr/share/man/man3/ASN1_generate_nconf.3ssl
 lrwxrwxrwx root       root               24 ./usr/share/man/man3/ASN1_generate_v3.3ssl -> ASN1_generate_nconf.3ssl
@@ -709,10 +709,14 @@ lrwxrwxrwx root       root               21 ./usr/share/man/man3/ERR_reason_erro
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/ERR_remove_thread_state.3ssl -> ERR_remove_state.3ssl
 -rw-r--r-- root       root             4925 ./usr/share/man/man3/ERR_set_mark.3ssl
 -rw-r--r-- root       root             9235 ./usr/share/man/man3/evp.3ssl
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_128_cbc_hmac_sha1.3ssl -> EVP_EncryptInit.3ssl
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_128_cbc_hmac_sha256.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_128_ccm.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_128_gcm.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_192_ccm.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_192_gcm.3ssl -> EVP_EncryptInit.3ssl
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_256_cbc_hmac_sha1.3ssl -> EVP_EncryptInit.3ssl
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_256_cbc_hmac_sha256.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_256_ccm.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_aes_256_gcm.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_bf_cbc.3ssl -> EVP_EncryptInit.3ssl
@@ -796,7 +800,7 @@ lrwxrwxrwx root       root               19 ./usr/share/man/man3/EVP_EncodeFinal
 lrwxrwxrwx root       root               19 ./usr/share/man/man3/EVP_EncodeUpdate.3ssl -> EVP_EncodeInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_EncryptFinal.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_EncryptFinal_ex.3ssl -> EVP_EncryptInit.3ssl
--rw-r--r-- root       root            33712 ./usr/share/man/man3/EVP_EncryptInit.3ssl
+-rw-r--r-- root       root            33754 ./usr/share/man/man3/EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_EncryptInit_ex.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_EncryptUpdate.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_get_cipherbyname.3ssl -> EVP_EncryptInit.3ssl
@@ -900,6 +904,7 @@ lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_rc2_ecb.3ss
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_rc2_ofb.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_rc4.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_rc4_40.3ssl -> EVP_EncryptInit.3ssl
+lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_rc4_hmac_md5.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_rc5_32_12_16_cbc.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_rc5_32_12_16_cfb.3ssl -> EVP_EncryptInit.3ssl
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/EVP_rc5_32_12_16_ecb.3ssl -> EVP_EncryptInit.3ssl
@@ -1159,9 +1164,9 @@ lrwxrwxrwx root       root               19 ./usr/share/man/man3/RSA_PKCS1_SSLea
 -rw-r--r-- root       root             5417 ./usr/share/man/man3/RSA_print.3ssl
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/RSA_print_fp.3ssl -> RSA_print.3ssl
 lrwxrwxrwx root       root               23 ./usr/share/man/man3/RSA_private_decrypt.3ssl -> RSA_public_encrypt.3ssl
--rw-r--r-- root       root             6281 ./usr/share/man/man3/RSA_private_encrypt.3ssl
+-rw-r--r-- root       root             6292 ./usr/share/man/man3/RSA_private_encrypt.3ssl
 lrwxrwxrwx root       root               24 ./usr/share/man/man3/RSA_public_decrypt.3ssl -> RSA_private_encrypt.3ssl
--rw-r--r-- root       root             6856 ./usr/share/man/man3/RSA_public_encrypt.3ssl
+-rw-r--r-- root       root             6868 ./usr/share/man/man3/RSA_public_encrypt.3ssl
 lrwxrwxrwx root       root               19 ./usr/share/man/man3/RSA_set_default_method.3ssl -> RSA_set_method.3ssl
 lrwxrwxrwx root       root               25 ./usr/share/man/man3/RSA_set_ex_data.3ssl -> RSA_get_ex_new_index.3ssl
 -rw-r--r-- root       root            13381 ./usr/share/man/man3/RSA_set_method.3ssl
@@ -1600,7 +1605,7 @@ lrwxrwxrwx root       root               32 ./usr/share/man/man3/X509_VERIFY_PAR
 lrwxrwxrwx root       root               32 ./usr/share/man/man3/X509_VERIFY_PARAM_set_time.3ssl -> X509_VERIFY_PARAM_set_flags.3ssl
 lrwxrwxrwx root       root               32 ./usr/share/man/man3/X509_VERIFY_PARAM_set_trust.3ssl -> X509_VERIFY_PARAM_set_flags.3ssl
 drwxr-xr-x root       root               80 ./usr/share/man/man5
--rw-r--r-- root       root            17231 ./usr/share/man/man5/config.5ssl
+-rw-r--r-- root       root            17335 ./usr/share/man/man5/config.5ssl
 -rw-r--r-- root       root            22588 ./usr/share/man/man5/x509v3_config.5ssl
 drwxr-xr-x root       root               60 ./usr/share/man/man7
 -rw-r--r-- root       root            10383 ./usr/share/man/man7/des_modes.7ssl
