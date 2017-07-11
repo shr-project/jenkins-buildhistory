@@ -1,10 +1,10 @@
-PV = 5.9.0+gitAUTOINC+f1cf62fa8e
+PV = 5.8.0+gitAUTOINC+0e2a950895
 PR = r0
-PKGV = 5.9.0+git0+f1cf62fa8e
-PKGR = r0.3
+PKGV = 5.8.0+git0+0e2a950895
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libegl-mesa (>= 17.1.1) libgcc (>= 7.1.0) libgles2-mesa (>= 17.1.1) libstdc++ (>= 7.1.0) libwayland-egl (>= 17.1.1) qtbase (>= 5.9.0+git0+f6b36eaafe) qtwayland (>= 5.9.0+git0+f1cf62fa8e) wayland (>= 1.13.0)
+RDEPENDS = glibc (>= 2.25) libegl-mesa (>= 17.1.4) libgcc (>= 7.1.0) libgles2-mesa (>= 17.1.4) libstdc++ (>= 7.1.0) libwayland-egl (>= 17.1.4) qtbase (>= 5.8.0+git0+49dc9aa409) qtwayland (>= 5.8.0+git0+0e2a950895) wayland (>= 1.13.0)
 RRECOMMENDS = 
-PKGSIZE = 238388
+PKGSIZE = 234348
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
 FILELIST = /usr/lib/qt5/plugins/platforms/libqwayland-egl.so /usr/lib/qt5/plugins/platforms/libqwayland-generic.so /usr/lib/qt5/plugins/wayland-decoration-client/libbradient.so /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so /usr/lib/qt5/plugins/wayland-graphics-integration-server/libwayland-egl.so /usr/lib/qt5/plugins/wayland-shell-integration/libivi-shell.so
