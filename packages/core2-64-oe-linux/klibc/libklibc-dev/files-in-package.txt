@@ -182,12 +182,12 @@ lrwxrwxrwx root       root               22 ./usr/lib/klibc/include/linux -> ../
 lrwxrwxrwx root       root               20 ./usr/lib/klibc/include/mtd -> ../../../include/mtd
 drwxr-xr-x root       root              120 ./usr/lib/klibc/include/net
 -rw-r--r-- root       root               80 ./usr/lib/klibc/include/net/if_arp.h
--rw-r--r-- root       root              130 ./usr/lib/klibc/include/net/if.h
+-rw-r--r-- root       root              472 ./usr/lib/klibc/include/net/if.h
 -rw-r--r-- root       root               29 ./usr/lib/klibc/include/net/if_packet.h
 drwxr-xr-x root       root              160 ./usr/lib/klibc/include/netinet
 -rw-r--r-- root       root               28 ./usr/lib/klibc/include/netinet/if_ether.h
 -rw-r--r-- root       root              127 ./usr/lib/klibc/include/netinet/in6.h
--rw-r--r-- root       root              732 ./usr/lib/klibc/include/netinet/in.h
+-rw-r--r-- root       root             1732 ./usr/lib/klibc/include/netinet/in.h
 -rw-r--r-- root       root              194 ./usr/lib/klibc/include/netinet/ip.h
 -rw-r--r-- root       root              183 ./usr/lib/klibc/include/netinet/tcp.h
 -rw-r--r-- root       root              256 ./usr/lib/klibc/include/netinet/udp.h
@@ -235,7 +235,7 @@ drwxr-xr-x root       root              780 ./usr/lib/klibc/include/sys
 -rw-r--r-- root       root               21 ./usr/lib/klibc/include/sys/statfs.h
 -rw-r--r-- root       root             2227 ./usr/lib/klibc/include/sys/stat.h
 -rw-r--r-- root       root              212 ./usr/lib/klibc/include/sys/syscall.h
--rw-r--r-- root       root              173 ./usr/lib/klibc/include/sys/sysinfo.h
+-rw-r--r-- root       root              174 ./usr/lib/klibc/include/sys/sysinfo.h
 -rw-r--r-- root       root              865 ./usr/lib/klibc/include/sys/sysmacros.h
 -rw-r--r-- root       root             1619 ./usr/lib/klibc/include/sys/time.h
 -rw-r--r-- root       root              209 ./usr/lib/klibc/include/sys/times.h
@@ -255,6 +255,6 @@ drwxr-xr-x root       root              780 ./usr/lib/klibc/include/sys
 drwxr-xr-x root       root              120 ./usr/lib/klibc/lib
 -rw-r--r-- root       root              840 ./usr/lib/klibc/lib/crt0.o
 -rw-r--r-- root       root              800 ./usr/lib/klibc/lib/interp.o
--rwxr-xr-x root       root            70488 ./usr/lib/klibc/lib/klibc-W5wPjubEIfx-k2ducsWM126k-Lw.so
--rw-r--r-- root       root            97824 ./usr/lib/klibc/lib/libc.so
-lrwxrwxrwx root       root               36 ./usr/lib/klibc.so -> klibc-W5wPjubEIfx-k2ducsWM126k-Lw.so
+-rwxr-xr-x root       root           136104 ./usr/lib/klibc/lib/klibc-0AJgSzMFVLXZOn2InUla8ul6AS8.so
+-rw-r--r-- root       root           164816 ./usr/lib/klibc/lib/libc.so
+lrwxrwxrwx root       root               36 ./usr/lib/klibc.so -> klibc-0AJgSzMFVLXZOn2InUla8ul6AS8.so
