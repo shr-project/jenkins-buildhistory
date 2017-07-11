@@ -1,5 +1,5 @@
-PV = 0.6.4+git922421cf79
+PV = 0.7.1
 PR = r0
-DEPENDS = libaio libdevmapper liburcu readline systemd-systemctl-native udev virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
-PACKAGES = kpartx multipath-tools-dbg multipath-tools-staticdev multipath-tools-dev multipath-tools-doc multipath-tools-locale multipath-tools
+DEPENDS = json-c libaio libdevmapper liburcu pkgconfig-native readline systemd-systemctl-native udev virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = kpartx multipath-tools-libs multipath-tools-dbg multipath-tools-staticdev multipath-tools-dev multipath-tools-doc multipath-tools-locale multipath-tools
 LAYER = openembedded-layer

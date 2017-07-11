@@ -1,9 +1,9 @@
 PV = 1.0.2
 PR = r0
 PKG = libgssdp-1.0-tools
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = gssdp-tools (=1.0.2)
-RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25) gssdp (>= 1.0.2) gtk+3 (>= 3.22.15) libsoup-2.4 (>= 2.58.1)
+RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25) gssdp (>= 1.0.2) gtk+3 (>= 3.22.16) libsoup-2.4 (>= 2.58.1)
 RRECOMMENDS = 
 PKGSIZE = 23536
 FILES = /usr/bin/gssdp* /usr/share/gssdp/*.glade
