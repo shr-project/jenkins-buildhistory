@@ -1,9 +1,9 @@
 PV = 0.93
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libcdio (>= 0.93) libiso9660 (>= 0.93) libudf (>= 0.93) ncurses-libncurses (>= 6.0+20161126) ncurses-libtinfo (>= 6.0+20161126)
+RDEPENDS = glibc (>= 2.25.90) libcdio (>= 0.93) libiso9660 (>= 0.93) libudf (>= 0.93) ncurses-libncurses (>= 6.0+20161126) ncurses-libtinfo (>= 6.0+20161126)
 RRECOMMENDS = 
-PKGSIZE = 161116
+PKGSIZE = 161124
 FILES = /usr/bin/*
 FILELIST = /usr/bin/cd-drive /usr/bin/cd-info /usr/bin/cd-read /usr/bin/cdda-player /usr/bin/iso-info /usr/bin/iso-read /usr/bin/mmc-tool

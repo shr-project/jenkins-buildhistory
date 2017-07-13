@@ -1,13 +1,13 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              100 ./usr/bin/.debug
--rwxr-xr-x root       root            25412 ./usr/bin/.debug/corrupt_mpeg2
--rwxr-xr-x root       root            22920 ./usr/bin/.debug/extract_mpeg2
--rwxr-xr-x root       root           104540 ./usr/bin/.debug/mpeg2dec
+-rwxr-xr-x root       root            25532 ./usr/bin/.debug/corrupt_mpeg2
+-rwxr-xr-x root       root            22992 ./usr/bin/.debug/extract_mpeg2
+-rwxr-xr-x root       root           104664 ./usr/bin/.debug/mpeg2dec
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/.debug
--rwxr-xr-x root       root            64888 ./usr/lib/.debug/libmpeg2convert.so.0.0.0
--rwxr-xr-x root       root           189500 ./usr/lib/.debug/libmpeg2.so.0.1.0
+-rwxr-xr-x root       root            65024 ./usr/lib/.debug/libmpeg2convert.so.0.0.0
+-rwxr-xr-x root       root           182308 ./usr/lib/.debug/libmpeg2.so.0.1.0
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/mpeg2dec
@@ -17,7 +17,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/mpeg2dec/0.5.1-r0/li
 -rw-r--r-- root       root             1680 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/include/mpeg2convert.h
 -rw-r--r-- root       root             6554 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/include/mpeg2.h
 -rw-r--r-- root       root             2321 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/include/video_out.h
-drwxr-xr-x root       root              300 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2
+drwxr-xr-x root       root              260 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2
 -rw-r--r-- root       root             1919 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/alloc.c
 drwxr-xr-x root       root              100 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/convert
 -rw-r--r-- root       root             1716 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/convert/convert_internal.h
@@ -28,8 +28,6 @@ drwxr-xr-x root       root              100 ./usr/src/debug/mpeg2dec/0.5.1-r0/li
 -rw-r--r-- root       root            12158 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/decode.c
 -rw-r--r-- root       root            32215 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/header.c
 -rw-r--r-- root       root             7918 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/idct.c
--rw-r--r-- root       root             5096 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/motion_comp_arm.c
--rw-r--r-- root       root             7886 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/motion_comp_arm_s.S
 -rw-r--r-- root       root             3685 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/motion_comp.c
 -rw-r--r-- root       root             9447 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/mpeg2_internal.h
 -rw-r--r-- root       root            69791 ./usr/src/debug/mpeg2dec/0.5.1-r0/libmpeg2-0.5.1/libmpeg2/slice.c

@@ -1,8 +1,8 @@
 PV = 1.64.0
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0)
+RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0)
 RRECOMMENDS = 
 PKGSIZE = 658496
 FILES = /usr/lib/libboost_prg_exec_monitor*.so.* \t/usr/lib/libboost_unit_test_framework*.so.*

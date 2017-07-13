@@ -1,9 +1,9 @@
 PV = 1.9.4
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) update-alternatives-opkg xinetd
+RDEPENDS = glibc (>= 2.25.90) update-alternatives-opkg xinetd
 RRECOMMENDS = 
-PKGSIZE = 98312
+PKGSIZE = 98316
 FILES = /usr/bin/ftpd.inetutils
 FILELIST = /usr/bin/ftpd.inetutils

@@ -1,9 +1,9 @@
 PV = 2.32.0
 PR = r3
 PKG = libgnome-keyring0
-PKGR = r3.6
+PKGR = r3.7
 RPROVIDES = libgnome-keyring (=2.32.0)
-RDEPENDS = dbus-lib (>= 1.10.18) glib-2.0 (>= 2.52.2) glibc (>= 2.25) libgcrypt (>= 1.7.6)
+RDEPENDS = dbus-lib (>= 1.10.18) glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) libgcrypt (>= 1.7.6)
 RRECOMMENDS = 
 PKGSIZE = 80401
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libgnome-keyring /usr/lib/libgnome-keyring/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/application-registry /usr/share/mime-info /usr/share/mime/packages /usr/share/mime/application /usr/share/gnome-2.0 /usr/share/polkit* /usr/share/GConf /usr/share/glib-2.0/schemas /usr/share/appdata /usr/share/icons

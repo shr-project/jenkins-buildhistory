@@ -2,9 +2,9 @@ PV = 5.8.0+gitAUTOINC+13bbe6ea37
 PR = r0
 PKG = libqt5gamepad-examples
 PKGV = 5.8.0+git0+13bbe6ea37
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = qtgamepad-examples (=5.8.0+git0+13bbe6ea37)
-RDEPENDS = glibc (>= 2.25) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19) qtgamepad (>= 5.8.0+git0+13bbe6ea37)
+RDEPENDS = glibc (>= 2.25.90) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19) qtgamepad (>= 5.8.0+git0+13bbe6ea37)
 RRECOMMENDS = 
 PKGSIZE = 723253
 FILES = /usr/share/qt5/examples/*

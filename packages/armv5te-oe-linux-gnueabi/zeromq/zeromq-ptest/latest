@@ -1,8 +1,8 @@
 PV = 4.1.6
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0) zeromq (>= 4.1.6)
+RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0) zeromq (>= 4.1.6)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 674103
 FILES = /usr/lib/zeromq/ptest

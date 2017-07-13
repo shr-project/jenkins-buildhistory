@@ -19,14 +19,14 @@ drwxr-xr-x root       root             1920 ./usr/lib/collectd
 -rwxr-xr-x root       root            22284 ./usr/lib/collectd/bind.so
 -rwxr-xr-x root       root            18192 ./usr/lib/collectd/ceph.so
 -rwxr-xr-x root       root             9908 ./usr/lib/collectd/cgroups.so
--rwxr-xr-x root       root            13976 ./usr/lib/collectd/chrony.so
+-rwxr-xr-x root       root            13972 ./usr/lib/collectd/chrony.so
 -rwxr-xr-x root       root             5672 ./usr/lib/collectd/conntrack.so
 -rwxr-xr-x root       root             5692 ./usr/lib/collectd/contextswitch.so
 -rwxr-xr-x root       root             5672 ./usr/lib/collectd/cpufreq.so
 -rwxr-xr-x root       root             5760 ./usr/lib/collectd/cpusleep.so
 -rwxr-xr-x root       root             9896 ./usr/lib/collectd/cpu.so
 -rwxr-xr-x root       root             9860 ./usr/lib/collectd/csv.so
--rwxr-xr-x root       root            18368 ./usr/lib/collectd/curl_json.so
+-rwxr-xr-x root       root            18364 ./usr/lib/collectd/curl_json.so
 -rwxr-xr-x root       root            34760 ./usr/lib/collectd/curl.so
 -rwxr-xr-x root       root            22260 ./usr/lib/collectd/curl_xml.so
 -rwxr-xr-x root       root            14012 ./usr/lib/collectd/df.so
@@ -57,7 +57,7 @@ drwxr-xr-x root       root             1920 ./usr/lib/collectd
 -rwxr-xr-x root       root             9768 ./usr/lib/collectd/match_value.so
 -rwxr-xr-x root       root             9832 ./usr/lib/collectd/mbmon.so
 -rwxr-xr-x root       root             9824 ./usr/lib/collectd/md.so
--rwxr-xr-x root       root            13968 ./usr/lib/collectd/memcached.so
+-rwxr-xr-x root       root            13964 ./usr/lib/collectd/memcached.so
 -rwxr-xr-x root       root             9804 ./usr/lib/collectd/memory.so
 -rwxr-xr-x root       root             9820 ./usr/lib/collectd/multimeter.so
 -rwxr-xr-x root       root            30548 ./usr/lib/collectd/network.so
@@ -71,9 +71,9 @@ drwxr-xr-x root       root             1920 ./usr/lib/collectd
 -rwxr-xr-x root       root            18140 ./usr/lib/collectd/powerdns.so
 -rwxr-xr-x root       root            18084 ./usr/lib/collectd/processes.so
 -rwxr-xr-x root       root             9836 ./usr/lib/collectd/protocols.so
--rwxr-xr-x root       root          1134496 ./usr/lib/collectd/python.so
+-rwxr-xr-x root       root          1134492 ./usr/lib/collectd/python.so
 -rwxr-xr-x root       root            22376 ./usr/lib/collectd/rrdcached.so
--rwxr-xr-x root       root            26584 ./usr/lib/collectd/rrdtool.so
+-rwxr-xr-x root       root            22488 ./usr/lib/collectd/rrdtool.so
 -rwxr-xr-x root       root             5688 ./usr/lib/collectd/serial.so
 -rwxr-xr-x root       root            30648 ./usr/lib/collectd/statsd.so
 -rwxr-xr-x root       root             9816 ./usr/lib/collectd/swap.so
@@ -109,7 +109,7 @@ drwxr-xr-x root       root             1920 ./usr/lib/collectd
 lrwxrwxrwx root       root               26 ./usr/lib/libcollectdclient.so.1 -> libcollectdclient.so.1.0.0
 drwxr-xr-x root       root               80 ./usr/sbin
 -rwxr-xr-x root       root           158192 ./usr/sbin/collectd
--rwxr-xr-x root       root             9996 ./usr/sbin/collectdmon
+-rwxr-xr-x root       root            10000 ./usr/sbin/collectdmon
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/collectd
 -rw-r--r-- root       root             8100 ./usr/share/collectd/postgresql_default.conf

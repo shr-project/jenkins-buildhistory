@@ -1,9 +1,9 @@
 PV = 2.30
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) util-linux-libuuid (>= 2.30)
+RDEPENDS = glibc (>= 2.25.90) util-linux-libuuid (>= 2.30)
 RRECOMMENDS = 
-PKGSIZE = 26656
+PKGSIZE = 26652
 FILES = /usr/sbin/uuidd
 FILELIST = /usr/sbin/uuidd

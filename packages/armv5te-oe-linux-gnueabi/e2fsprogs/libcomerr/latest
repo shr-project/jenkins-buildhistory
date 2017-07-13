@@ -1,9 +1,9 @@
 PV = 1.43.4
 PR = r0
 PKG = libcom-err2
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libcomerr (=1.43.4)
-RDEPENDS = glibc (>= 2.25)
+RDEPENDS = glibc (>= 2.25.90)
 RRECOMMENDS = 
 PKGSIZE = 9981
 FILES = /lib/libcom_err.so.*

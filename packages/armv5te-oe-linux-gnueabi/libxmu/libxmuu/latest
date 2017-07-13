@@ -2,9 +2,9 @@ PE = 1
 PV = 1.1.2
 PR = r0
 PKG = libxmuu1
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libxmuu (=1.1.2)
-RDEPENDS = glibc (>= 2.25) libx11 (>= 1.6.5)
+RDEPENDS = glibc (>= 2.25.90) libx11 (>= 1.6.5)
 RRECOMMENDS = 
 PKGSIZE = 9880
 FILES = /usr/lib/libXmuu.so.*

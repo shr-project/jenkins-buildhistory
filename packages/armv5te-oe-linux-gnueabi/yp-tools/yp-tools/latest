@@ -1,8 +1,8 @@
 PV = 3.3
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = yp-tools-systemd
-RDEPENDS = glibc (>= 2.25) libtirpc (>= 1.0.1)
+RDEPENDS = glibc (>= 2.25.90) libtirpc (>= 1.0.1)
 RRECOMMENDS = 
 RREPLACES = yp-tools-systemd
 RCONFLICTS = yp-tools-systemd

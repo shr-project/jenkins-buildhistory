@@ -2,9 +2,9 @@ PV = 5.8.0+gitAUTOINC+a78f8d6bef
 PR = r0
 PKG = libqt5datavisualization-qmlplugins
 PKGV = 5.8.0+git0+a78f8d6bef
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = qtdatavis3d-qmlplugins (=5.8.0+git0+a78f8d6bef)
-RDEPENDS = glibc (>= 2.25) libgcc (>= 7.1.0) libgles2-mesa (>= 17.1.4) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdatavis3d (>= 5.8.0+git0+a78f8d6bef) qtdeclarative (>= 5.8.0+git0+fffb997e19)
+RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libgles2-mesa (>= 17.1.4) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdatavis3d (>= 5.8.0+git0+a78f8d6bef) qtdeclarative (>= 5.8.0+git0+fffb997e19)
 RRECOMMENDS = 
 PKGSIZE = 284509
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir

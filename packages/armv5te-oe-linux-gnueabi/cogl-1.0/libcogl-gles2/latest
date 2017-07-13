@@ -1,9 +1,9 @@
 PV = 1.22.2
 PR = r0
 PKG = libcogl-gles2-20
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libcogl-gles2 (=1.22.2)
-RDEPENDS = glibc (>= 2.25)
+RDEPENDS = glibc (>= 2.25.90)
 RRECOMMENDS = 
 PKGSIZE = 13815
 FILES = /usr/lib/libcogl-gles2.so.*

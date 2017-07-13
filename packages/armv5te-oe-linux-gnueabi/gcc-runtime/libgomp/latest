@@ -1,9 +1,9 @@
 PV = 7.1.0
 PR = r0
 PKG = libgomp1
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libgomp (=7.1.0)
-RDEPENDS = glibc (>= 2.25)
+RDEPENDS = glibc (>= 2.25.90)
 RRECOMMENDS = 
 PKGSIZE = 129256
 FILES = /usr/lib/libgomp*.so.*

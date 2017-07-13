@@ -1,9 +1,9 @@
 PV = 3.3.2
 PR = r0
 PKG = libavutil55
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = libavutil (=3.3.2)
-RDEPENDS = glibc (>= 2.25)
+RDEPENDS = glibc (>= 2.25.90)
 RRECOMMENDS = 
 PKGSIZE = 465126
 FILES = /usr/lib/libavutil.so.*

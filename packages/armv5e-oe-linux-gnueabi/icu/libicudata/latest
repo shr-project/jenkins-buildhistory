@@ -1,9 +1,9 @@
 PV = 58.2
 PR = r0
 PKG = libicudata58
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libicudata (=58.2)
-RDEPENDS = glibc (>= 2.25)
+RDEPENDS = glibc (>= 2.25.90)
 RRECOMMENDS = 
 PKGSIZE = 26220054
 FILES = /usr/lib/libicudata.so.*

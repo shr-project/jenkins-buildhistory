@@ -1,9 +1,9 @@
 PV = 2.12
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.25.90) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 34852
+PKGSIZE = 34856
 FILES = /sbin/rmt*
 FILELIST = /sbin/rmt.cpio
