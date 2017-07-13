@@ -1,8 +1,8 @@
 PV = 5.45
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.10.18) glib-2.0 (>= 2.52.2) glibc (>= 2.25)
+RDEPENDS = dbus-lib (>= 1.10.18) glib-2.0 (>= 2.52.2) glibc (>= 2.25.90)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 2200176
 FILES = /usr/lib/bluez5/ptest

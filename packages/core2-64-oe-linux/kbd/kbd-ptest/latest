@@ -1,8 +1,8 @@
 PV = 2.0.4
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libcheck (>= 0.10.0) make
+RDEPENDS = glibc (>= 2.25.90) libcheck (>= 0.10.0) make
 RRECOMMENDS = ptest-runner
 PKGSIZE = 2899186
 FILES = /usr/lib/kbd/ptest

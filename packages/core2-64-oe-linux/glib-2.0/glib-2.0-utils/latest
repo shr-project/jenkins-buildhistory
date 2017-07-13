@@ -2,10 +2,10 @@ PE = 1
 PV = 2.52.2
 PR = r0
 PKG = libglib-2.0-utils
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = glib-2.0-utils (=2.52.2)
-RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25)
+RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25.90)
 RRECOMMENDS = 
-PKGSIZE = 258722
+PKGSIZE = 254626
 FILES = /usr/bin/*
 FILELIST = /usr/bin/gapplication /usr/bin/gdbus /usr/bin/gio /usr/bin/glib-compile-schemas /usr/bin/gobject-query /usr/bin/gresource /usr/bin/gsettings /usr/bin/gtester /usr/bin/gtester-report
