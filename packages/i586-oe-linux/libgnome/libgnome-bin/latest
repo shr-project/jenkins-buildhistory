@@ -1,9 +1,9 @@
 PV = 2.32.1
 PR = r2
 PKG = libgnome-2-bin
-PKGR = r2.5
+PKGR = r2.6
 RPROVIDES = libgnome-bin (=2.32.1)
-RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25) libgnome (>= 2.32.1)
+RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) libgnome (>= 2.32.1)
 RRECOMMENDS = 
 PKGSIZE = 5656
 FILES = /usr/bin/* /usr/sbin/*

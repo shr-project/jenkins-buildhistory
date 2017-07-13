@@ -2,9 +2,9 @@ PV = 5.8.0+gitAUTOINC+4704292500
 PR = r0
 PKG = libqt5scxml-examples
 PKGV = 5.8.0+git0+4704292500
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = qtscxml-examples (=5.8.0+git0+4704292500)
-RDEPENDS = glibc (>= 2.25) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19) qtscxml (>= 5.8.0+git0+4704292500)
+RDEPENDS = glibc (>= 2.25.90) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19) qtscxml (>= 5.8.0+git0+4704292500)
 RRECOMMENDS = 
 PKGSIZE = 955353
 FILES = /usr/share/qt5/examples/*

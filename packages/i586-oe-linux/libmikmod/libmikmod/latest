@@ -1,9 +1,9 @@
 PV = 3.3.6
 PR = r0
 PKG = libmikmod3
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = libmikmod (=3.3.6)
-RDEPENDS = glibc (>= 2.25) libpulse (>= 10.0) libpulse-simple (>= 10.0)
+RDEPENDS = glibc (>= 2.25.90) libpulse (>= 10.0) libpulse-simple (>= 10.0)
 RRECOMMENDS = 
 PKGSIZE = 275210
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libmikmod /usr/lib/libmikmod/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

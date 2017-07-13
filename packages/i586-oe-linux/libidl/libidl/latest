@@ -1,9 +1,9 @@
 PV = 0.8.14
 PR = r1
 PKG = libidl-2-0
-PKGR = r1.5
+PKGR = r1.6
 RPROVIDES = libidl (=0.8.14)
-RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25)
+RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25.90)
 RRECOMMENDS = 
 PKGSIZE = 182701
 FILES = /usr/lib/*.so.*

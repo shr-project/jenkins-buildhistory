@@ -2,9 +2,9 @@ PV = 5.8.0+gitAUTOINC+c8fe92ef54
 PR = r0
 PKG = libqt5serialbus-plugins
 PKGV = 5.8.0+git0+c8fe92ef54
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = qtserialbus-plugins (=5.8.0+git0+c8fe92ef54)
-RDEPENDS = glibc (>= 2.25) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtserialbus (>= 5.8.0+git0+c8fe92ef54)
+RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtserialbus (>= 5.8.0+git0+c8fe92ef54)
 RRECOMMENDS = 
 PKGSIZE = 112336
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so

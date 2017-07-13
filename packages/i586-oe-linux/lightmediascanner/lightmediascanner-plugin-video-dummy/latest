@@ -1,9 +1,9 @@
 PV = 0.5.1+gitAUTOINC+adfddb3486
 PR = r0
 PKGV = 0.5.1+git0+adfddb3486
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = file (>= 5.31) glibc (>= 2.25) libsqlite3 (>= 3.19.2) lightmediascanner (>= 0.5.1+git0+adfddb3486)
+RDEPENDS = file (>= 5.31) glibc (>= 2.25.90) libsqlite3 (>= 3.19.2) lightmediascanner (>= 0.5.1+git0+adfddb3486)
 RRECOMMENDS = 
 PKGSIZE = 5696
 FILES = /usr/lib/lightmediascanner/plugins/video-dummy.so

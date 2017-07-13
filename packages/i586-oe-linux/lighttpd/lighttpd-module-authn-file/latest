@@ -1,8 +1,8 @@
 PV = 1.4.45
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libcrypto (>= 1.0.2l) libssl (>= 1.0.2l)
+RDEPENDS = glibc (>= 2.25.90) libcrypto (>= 1.0.2l) libssl (>= 1.0.2l)
 RRECOMMENDS = 
 PKGSIZE = 18188
 FILES = /usr/lib/mod_authn_file.so

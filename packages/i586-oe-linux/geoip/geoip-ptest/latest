@@ -1,8 +1,8 @@
 PV = 1.6.9
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = geoip (>= 1.6.9) glibc (>= 2.25)
+RDEPENDS = geoip (>= 1.6.9) glibc (>= 2.25.90)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 56496
 FILES = /usr/lib/geoip/ptest

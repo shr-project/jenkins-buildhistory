@@ -1,9 +1,9 @@
 PV = 0.1+gitAUTOINC+88343ad23c
 PR = r15
 PKGV = 0.1+git0+88343ad23c
-PKGR = r15.5
+PKGR = r15.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) psplash update-alternatives-opkg
+RDEPENDS = glibc (>= 2.25.90) psplash update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 55080
 FILES = /usr/bin/psplash-default

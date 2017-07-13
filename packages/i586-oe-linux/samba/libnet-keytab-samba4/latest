@@ -1,8 +1,8 @@
 PV = 4.6.5
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) libads-samba4 (>= 4.6.5) libcomerr (>= 1.43.4) libgse-samba4 (>= 4.6.5) libkrb5 (>= 1.15.1) libkrb5samba-samba4 (>= 4.6.5) libsamba-debug-samba4 (>= 4.6.5) libsamba-util (>= 4.6.5) libtalloc (>= 2.1.9) samba-common
+RDEPENDS = glibc (>= 2.25.90) libads-samba4 (>= 4.6.5) libcomerr (>= 1.43.4) libgse-samba4 (>= 4.6.5) libkrb5 (>= 1.15.1) libkrb5samba-samba4 (>= 4.6.5) libsamba-debug-samba4 (>= 4.6.5) libsamba-util (>= 4.6.5) libtalloc (>= 2.1.9) samba-common
 RRECOMMENDS = 
 PKGSIZE = 17648
 FILES = /usr/lib/samba/libnet-keytab-samba4.so

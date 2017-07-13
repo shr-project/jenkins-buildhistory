@@ -1,9 +1,9 @@
 PV = 1.26
 PR = r0
 PKG = libteamdctl0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = libteam-dctl (=1.26)
-RDEPENDS = glibc (>= 2.25)
+RDEPENDS = glibc (>= 2.25.90)
 RRECOMMENDS = 
 PKGSIZE = 18040
 FILES = /usr/lib/libteamdctl.so.*
