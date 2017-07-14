@@ -1,9 +1,9 @@
 PV = 2.9p1
 PR = r0
 PKG = libow-2.9-1
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libow (=2.9p1)
-RDEPENDS = glibc (>= 2.25) libusb-compat (>= 0.1.5)
+RDEPENDS = glibc (>= 2.25.90) libusb-compat (>= 0.1.5)
 RRECOMMENDS = 
 PKGSIZE = 1010210
 FILES = /usr/lib/libow-*

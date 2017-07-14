@@ -1,9 +1,9 @@
 PV = 1.2.12
 PR = r0
 PKG = libsdl-mixer-1.2-0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libsdl-mixer (=1.2.12)
-RDEPENDS = glibc (>= 2.25) libsdl (>= 1.2.15)
+RDEPENDS = glibc (>= 2.25.90) libsdl (>= 1.2.15)
 RRECOMMENDS = 
 PKGSIZE = 162186
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libsdl-mixer /usr/lib/libsdl-mixer/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,8 +1,8 @@
 PV = 2.0.11
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.25) numactl (>= 2.0.11)
+RDEPENDS = bash glibc (>= 2.25.90) numactl (>= 2.0.11)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 163182
 FILES = /usr/lib/numactl/ptest

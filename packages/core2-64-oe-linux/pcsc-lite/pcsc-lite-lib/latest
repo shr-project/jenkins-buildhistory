@@ -1,9 +1,9 @@
 PV = 1.8.13
 PR = r0
 PKG = libpcsclite1
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = pcsc-lite-lib (=1.8.13)
-RDEPENDS = glibc (>= 2.25)
+RDEPENDS = glibc (>= 2.25.90)
 RRECOMMENDS = 
 PKGSIZE = 43484
 FILES = /usr/lib/libpcsclite*.so.*

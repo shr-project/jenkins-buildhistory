@@ -1,9 +1,9 @@
 PV = 1.2.98
 PR = r9
 PKG = libcherokee-server0
-PKGR = r9.3
+PKGR = r9.4
 RPROVIDES = libcherokee-server (=1.2.98)
-RDEPENDS = glibc (>= 2.25) libcherokee-base (>= 1.2.98) libcrypto (>= 1.0.2l) libpcre (>= 8.40)
+RDEPENDS = glibc (>= 2.25.90) libcherokee-base (>= 1.2.98) libcrypto (>= 1.0.2l) libpcre (>= 8.40)
 RRECOMMENDS = 
 PKGSIZE = 174083
 FILES = /usr/lib/libcherokee-server.so.*

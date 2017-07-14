@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r9
 PKGV = 4.10.17
-PKGR = r9.4
+PKGR = r9.5
 RPROVIDES = 
-RDEPENDS = perf (= 4.10.17-r9.4)
+RDEPENDS = perf (= 4.10.17-r9.5)
 RRECOMMENDS = bash-dev binutils-dev bison-dev elfutils-dev flex-dev glibc-dev libbfd-dev libdw-dev libelf-dev liblzma-dev libnewt-dev libpython2-dev libunwind-dev man-dev perl-dev perl-lib-dev perl-modules-dev python-dev python-modules-dev slang-dev xz-dev zlib-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/perf/*.la /lib/*.la

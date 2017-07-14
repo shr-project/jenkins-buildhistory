@@ -1,8 +1,8 @@
 PV = 13.2.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25) python-twisted
+RDEPENDS = glibc (>= 2.25.90) python-twisted
 RRECOMMENDS = 
 PKGSIZE = 6641390
 FILES = /usr/lib/python2.7/site-packages/twisted/test /usr/lib/python2.7/site-packages/twisted/*/test

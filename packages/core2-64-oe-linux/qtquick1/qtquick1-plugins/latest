@@ -2,9 +2,9 @@ PV = 5.8.0+gitAUTOINC+64faeb0d80
 PR = r0
 PKG = libqt5declarative-plugins
 PKGV = 5.8.0+git0+64faeb0d80
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = qtquick1-plugins (=5.8.0+git0+64faeb0d80)
-RDEPENDS = glibc (>= 2.25) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtquick1 (>= 5.8.0+git0+64faeb0d80)
+RDEPENDS = glibc (>= 2.25.90) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtquick1 (>= 5.8.0+git0+64faeb0d80)
 RRECOMMENDS = 
 PKGSIZE = 158792
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
