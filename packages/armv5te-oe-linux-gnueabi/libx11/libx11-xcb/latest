@@ -2,10 +2,10 @@ PE = 1
 PV = 1.6.5
 PR = r0
 PKG = libx11-xcb1
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = libx11-xcb (=1.6.5)
 RDEPENDS = glibc (>= 2.25.90)
 RRECOMMENDS = 
-PKGSIZE = 5611
+PKGSIZE = 5575
 FILES = /usr/lib/libX11-xcb.so.*
 FILELIST = /usr/lib/libX11-xcb.so.1 /usr/lib/libX11-xcb.so.1.0.0

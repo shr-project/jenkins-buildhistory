@@ -1,10 +1,10 @@
 PV = 2.40.17
 PR = r0
 PKG = librsvg-2-gtk
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = librsvg-gtk (=2.40.17)
 RDEPENDS = cairo (>= 1.14.8) gdk-pixbuf (>= 2.36.6) glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) libcroco (>= 0.6.12) libpng (>= 1.6.29) librsvg (>= 2.40.17) libxml2 (>= 2.9.4) pango (>= 1.40.6)
 RRECOMMENDS = 
-PKGSIZE = 5954
+PKGSIZE = 5870
 FILES = /usr/lib/gdk-pixbuf-2.0/*/*/*.so /usr/share/thumbnailers/librsvg.thumbnailer
 FILELIST = /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so /usr/share/thumbnailers/librsvg.thumbnailer

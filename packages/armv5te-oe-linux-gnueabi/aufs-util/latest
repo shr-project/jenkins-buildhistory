@@ -1,5 +1,5 @@
-PV = 3.14+gitAUTOINC+bdfcc0dcfc
+PV = 4.4+gitAUTOINC+89afb1806c
 PR = r0
-DEPENDS = aufs-util-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = aufs-util-native coreutils-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = aufs-util-dbg aufs-util-staticdev aufs-util-dev aufs-util-doc aufs-util-locale aufs-util
 LAYER = filesystems-layer

@@ -1,11 +1,11 @@
 PV = 6.0+20161126
 PR = r0
 PKG = libtinfo5
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = ncurses-libtinfo (=6.0+20161126)
 RDEPENDS = glibc (>= 2.25.90)
 RRECOMMENDS = ncurses-terminfo-base
 RSUGGESTS = ncurses-terminfo
-PKGSIZE = 109179
+PKGSIZE = 108571
 FILES = /lib/libtinfo.so.5 /lib/libtinfo.so.5.9
 FILELIST = /lib/libtinfo.so.5 /lib/libtinfo.so.5.9

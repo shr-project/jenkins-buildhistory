@@ -1,10 +1,10 @@
 PV = 2.40.1
 PR = r0
 PKG = libpangomm-1.4-1
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = pangomm (=2.40.1)
 RDEPENDS = cairo (>= 1.14.8) cairomm (>= 1.12.0) glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) glibmm (>= 2.50.1) libgcc (>= 7.1.0) libsigc++-2.0 (>= 2.10.0) libstdc++ (>= 7.1.0) pango (>= 1.40.6)
 RRECOMMENDS = 
-PKGSIZE = 126952
+PKGSIZE = 132824
 FILES = /usr/lib/lib*.so.*
 FILELIST = /usr/lib/libpangomm-1.4.so.1 /usr/lib/libpangomm-1.4.so.1.0.30

@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root          8491426 ./usr/bin/go
+-rwxr-xr-x root       root          8491505 ./usr/bin/go
 -rwxr-xr-x root       root          3135806 ./usr/bin/gofmt
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/go
@@ -1045,14 +1045,14 @@ drwxr-xr-x 3004       3004              100 ./usr/lib/go/pkg/linux_arm/os
 drwxr-xr-x 3004       3004               60 ./usr/lib/go/pkg/linux_arm/path
 -rw-r--r-- 3004       3004            18228 ./usr/lib/go/pkg/linux_arm/path.a
 -rw-r--r-- 3004       3004            49398 ./usr/lib/go/pkg/linux_arm/path/filepath.a
--rw-r--r-- 3004       3004            44762 ./usr/lib/go/pkg/linux_arm/plugin.a
+-rw-r--r-- 3004       3004            45050 ./usr/lib/go/pkg/linux_arm/plugin.a
 -rw-r--r-- 3004       3004           922820 ./usr/lib/go/pkg/linux_arm/reflect.a
 drwxr-xr-x 3004       3004               60 ./usr/lib/go/pkg/linux_arm/regexp
 -rw-r--r-- 3004       3004           234632 ./usr/lib/go/pkg/linux_arm/regexp.a
 -rw-r--r-- 3004       3004           228826 ./usr/lib/go/pkg/linux_arm/regexp/syntax.a
 drwxr-xr-x 3004       3004              180 ./usr/lib/go/pkg/linux_arm/runtime
 -rw-r--r-- 3004       3004          1592892 ./usr/lib/go/pkg/linux_arm/runtime.a
--rw-r--r-- 3004       3004            42094 ./usr/lib/go/pkg/linux_arm/runtime/cgo.a
+-rw-r--r-- 3004       3004            45340 ./usr/lib/go/pkg/linux_arm/runtime/cgo.a
 -rw-r--r-- 3004       3004            14924 ./usr/lib/go/pkg/linux_arm/runtime/debug.a
 drwxr-xr-x 3004       3004               80 ./usr/lib/go/pkg/linux_arm/runtime/internal
 -rw-r--r-- 3004       3004            15120 ./usr/lib/go/pkg/linux_arm/runtime/internal/atomic.a
@@ -1142,8 +1142,8 @@ drwxr-xr-x 3004       3004              360 ./usr/lib/go/pkg/tool/linux_arm
 -rwxr-xr-x 3004       3004          3007391 ./usr/lib/go/pkg/tool/linux_arm/nm
 -rwxr-xr-x 3004       3004          3282714 ./usr/lib/go/pkg/tool/linux_arm/objdump
 -rwxr-xr-x 3004       3004          1887460 ./usr/lib/go/pkg/tool/linux_arm/pack
--rwxr-xr-x 3004       3004          8436081 ./usr/lib/go/pkg/tool/linux_arm/pprof
--rwxr-xr-x 3004       3004          7669908 ./usr/lib/go/pkg/tool/linux_arm/trace
+-rwxr-xr-x 3004       3004          8436160 ./usr/lib/go/pkg/tool/linux_arm/pprof
+-rwxr-xr-x 3004       3004          7669987 ./usr/lib/go/pkg/tool/linux_arm/trace
 -rwxr-xr-x 3004       3004          5551165 ./usr/lib/go/pkg/tool/linux_arm/vet
 drwxr-xr-x root       root              920 ./usr/lib/go/src
 drwxr-xr-x 3004       3004               80 ./usr/lib/go/src/archive
@@ -1305,7 +1305,7 @@ drwxr-xr-x 3004       3004              200 ./usr/lib/go/src/cmd/cgo
 -rw-r--r-- 3004       3004            10014 ./usr/lib/go/src/cmd/cgo/main.go
 -rw-r--r-- 3004       3004            47085 ./usr/lib/go/src/cmd/cgo/out.go
 -rw-r--r-- 3004       3004             3304 ./usr/lib/go/src/cmd/cgo/util.go
--rw-r--r-- 3004       3004              442 ./usr/lib/go/src/cmd/cgo/zdefaultcc.go
+-rw-r--r-- 3004       3004              635 ./usr/lib/go/src/cmd/cgo/zdefaultcc.go
 drwxr-xr-x 3004       3004              120 ./usr/lib/go/src/cmd/compile
 -rw-r--r-- 3004       3004             5433 ./usr/lib/go/src/cmd/compile/doc.go
 -rw-r--r-- 3004       3004            23154 ./usr/lib/go/src/cmd/compile/fmt_test.go
@@ -2017,7 +2017,7 @@ drwxr-xr-x 3004       3004               60 ./usr/lib/go/src/cmd/go/testdata/tes
 -rw-r--r-- 3004       3004            10207 ./usr/lib/go/src/cmd/go/vendor_test.go
 -rw-r--r-- 3004       3004              565 ./usr/lib/go/src/cmd/go/version.go
 -rw-r--r-- 3004       3004             1418 ./usr/lib/go/src/cmd/go/vet.go
--rw-r--r-- 3004       3004              442 ./usr/lib/go/src/cmd/go/zdefaultcc.go
+-rw-r--r-- 3004       3004              635 ./usr/lib/go/src/cmd/go/zdefaultcc.go
 -rw-r--r-- 3004       3004              946 ./usr/lib/go/src/cmd/go/zosarch.go
 drwxr-xr-x 3004       3004              200 ./usr/lib/go/src/cmd/internal
 drwxr-xr-x 3004       3004               80 ./usr/lib/go/src/cmd/internal/bio

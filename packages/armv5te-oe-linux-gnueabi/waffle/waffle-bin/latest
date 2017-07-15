@@ -1,10 +1,10 @@
 PV = 1.5.2
 PR = r0
 PKG = libwaffle-1-bin
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = waffle-bin (=1.5.2)
 RDEPENDS = glibc (>= 2.25.90) waffle (>= 1.5.2)
 RRECOMMENDS = 
-PKGSIZE = 14104
+PKGSIZE = 18092
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/wflinfo
