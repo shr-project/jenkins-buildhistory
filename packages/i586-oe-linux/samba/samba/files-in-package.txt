@@ -50,7 +50,7 @@ drwxr-xr-x root       root              440 ./usr/bin
 -rwxr-xr-x root       root             4607 ./usr/bin/findsmb
 -rwxr-xr-x root       root            13592 ./usr/bin/ltdbtool
 -rwxr-xr-x root       root             9492 ./usr/bin/mvxattr
--rwxr-xr-x root       root          1031896 ./usr/bin/net
+-rwxr-xr-x root       root          1048280 ./usr/bin/net
 -rwxr-xr-x root       root           128376 ./usr/bin/nmblookup
 -rwxr-xr-x root       root            22620 ./usr/bin/oLschema2ldif
 -rwxr-xr-x root       root             8909 ./usr/bin/onnode
@@ -58,7 +58,7 @@ drwxr-xr-x root       root              440 ./usr/bin
 -rwxr-xr-x root       root             9496 ./usr/bin/ping_pong
 -rwxr-xr-x root       root            46360 ./usr/bin/profiles
 -rwxr-xr-x root       root           104536 ./usr/bin/samba-regedit
--rwxr-xr-x root       root            25932 ./usr/bin/sharesec
+-rwxr-xr-x root       root            30028 ./usr/bin/sharesec
 -rwxr-xr-x root       root            50772 ./usr/bin/smbcontrol
 -rwxr-xr-x root       root            29976 ./usr/bin/smbpasswd
 -rwxr-xr-x root       root            87320 ./usr/bin/smbstatus
@@ -67,7 +67,7 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/libexec
 drwxr-xr-x root       root              260 ./usr/libexec/ctdb
 -rwxr-xr-x root       root           342660 ./usr/libexec/ctdb/ctdb_event
--rwxr-xr-x root       root           215972 ./usr/libexec/ctdb/ctdb_eventd
+-rwxr-xr-x root       root           220068 ./usr/libexec/ctdb/ctdb_eventd
 -rwxr-xr-x root       root           191112 ./usr/libexec/ctdb/ctdb_killtcp
 -rwxr-xr-x root       root            34080 ./usr/libexec/ctdb/ctdb_lock_helper
 -rwxr-xr-x root       root             4388 ./usr/libexec/ctdb/ctdb_lvs
@@ -97,7 +97,7 @@ drwxr-xr-x root       root              680 ./usr/libexec/ctdb/tests
 -rwxr-xr-x root       root            29980 ./usr/libexec/ctdb/tests/pkt_write_test
 -rwxr-xr-x root       root            30104 ./usr/libexec/ctdb/tests/porting_tests
 -rwxr-xr-x root       root           132388 ./usr/libexec/ctdb/tests/protocol_client_test
--rwxr-xr-x root       root           120096 ./usr/libexec/ctdb/tests/protocol_types_test
+-rwxr-xr-x root       root           124192 ./usr/libexec/ctdb/tests/protocol_types_test
 -rwxr-xr-x root       root           129580 ./usr/libexec/ctdb/tests/protocol_util_test
 -rwxr-xr-x root       root            21784 ./usr/libexec/ctdb/tests/rb_test
 -rwxr-xr-x root       root             9496 ./usr/libexec/ctdb/tests/reqid_test
@@ -110,7 +110,7 @@ drwxr-xr-x root       root              680 ./usr/libexec/ctdb/tests
 -rwxr-xr-x root       root           326800 ./usr/libexec/ctdb/tests/update_record
 -rwxr-xr-x root       root           326836 ./usr/libexec/ctdb/tests/update_record_persistent
 drwxr-xr-x root       root               60 ./usr/libexec/samba
--rwxr-xr-x root       root            21900 ./usr/libexec/samba/smbspool_krb5_wrapper
+-rwxr-xr-x root       root            25996 ./usr/libexec/samba/smbspool_krb5_wrapper
 drwxr-xr-x root       root               60 ./usr/lib/samba
 drwxr-xr-x root       root              800 ./usr/lib/samba/vfs
 -rwxr-xr-x root       root            38584 ./usr/lib/samba/vfs/acl_tdb.so
@@ -121,11 +121,11 @@ drwxr-xr-x root       root              800 ./usr/lib/samba/vfs
 -rwxr-xr-x root       root             9912 ./usr/lib/samba/vfs/audit.so
 -rwxr-xr-x root       root            22144 ./usr/lib/samba/vfs/btrfs.so
 -rwxr-xr-x root       root            22140 ./usr/lib/samba/vfs/cap.so
--rwxr-xr-x root       root            50816 ./usr/lib/samba/vfs/catia.so
+-rwxr-xr-x root       root            54912 ./usr/lib/samba/vfs/catia.so
 -rwxr-xr-x root       root            13952 ./usr/lib/samba/vfs/commit.so
 -rwxr-xr-x root       root             9860 ./usr/lib/samba/vfs/crossrename.so
 -rwxr-xr-x root       root             5768 ./usr/lib/samba/vfs/default_quota.so
--rwxr-xr-x root       root             9856 ./usr/lib/samba/vfs/dirsort.so
+-rwxr-xr-x root       root            13952 ./usr/lib/samba/vfs/dirsort.so
 -rwxr-xr-x root       root             9860 ./usr/lib/samba/vfs/expand_msdfs.so
 -rwxr-xr-x root       root            14012 ./usr/lib/samba/vfs/extd_audit.so
 -rwxr-xr-x root       root             5764 ./usr/lib/samba/vfs/fake_perms.so
@@ -145,10 +145,10 @@ drwxr-xr-x root       root              800 ./usr/lib/samba/vfs
 -rwxr-xr-x root       root             9860 ./usr/lib/samba/vfs/shell_snap.so
 -rwxr-xr-x root       root            59064 ./usr/lib/samba/vfs/snapper.so
 -rwxr-xr-x root       root            26248 ./usr/lib/samba/vfs/streams_depot.so
--rwxr-xr-x root       root            30344 ./usr/lib/samba/vfs/streams_xattr.so
+-rwxr-xr-x root       root            26248 ./usr/lib/samba/vfs/streams_xattr.so
 -rwxr-xr-x root       root            13952 ./usr/lib/samba/vfs/syncops.so
--rwxr-xr-x root       root            54916 ./usr/lib/samba/vfs/time_audit.so
--rwxr-xr-x root       root            46784 ./usr/lib/samba/vfs/unityed_media.so
+-rwxr-xr-x root       root            59012 ./usr/lib/samba/vfs/time_audit.so
+-rwxr-xr-x root       root            50880 ./usr/lib/samba/vfs/unityed_media.so
 -rwxr-xr-x root       root             5756 ./usr/lib/samba/vfs/worm.so
 -rwxr-xr-x root       root            22148 ./usr/lib/samba/vfs/xattr_tdb.so
 drwxr-xr-x root       root               80 ./usr/sbin

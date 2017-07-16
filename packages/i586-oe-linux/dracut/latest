@@ -1,6 +1,6 @@
 PE = 1
-PV = 044+git1bc3e733f96033a508841e97fe08da7a12851782
+PV = 045+git39c9b67f86145953aa30def9d77c68597a4ccfe8
 PR = r0
-DEPENDS = bash-completion virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+DEPENDS = bash-completion kmod pkgconfig-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = dracut-dbg dracut-staticdev dracut-dev dracut-doc dracut-locale dracut dracut-bash-completion
 LAYER = meta-initramfs

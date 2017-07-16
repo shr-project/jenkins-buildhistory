@@ -1,9 +1,9 @@
 PV = 5.5.3
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.25.90) strongswan
 RRECOMMENDS = 
-PKGSIZE = 133427
+PKGSIZE = 137299
 FILES = /usr/lib/ipsec/plugins/libstrongswan-x509.so /etc/strongswan.d/charon/x509.conf
 FILELIST = /etc/strongswan.d/charon/x509.conf /usr/lib/ipsec/plugins/libstrongswan-x509.so

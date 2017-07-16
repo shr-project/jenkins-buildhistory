@@ -1,10 +1,10 @@
 PV = 3.3.2
 PR = r0
 PKG = libswscale4
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = libswscale (=3.3.2)
 RDEPENDS = glibc (>= 2.25.90) libavutil (>= 3.3.2)
 RRECOMMENDS = 
-PKGSIZE = 591485
+PKGSIZE = 591365
 FILES = /usr/lib/libswscale.so.*
 FILELIST = /usr/lib/libswscale.so.4 /usr/lib/libswscale.so.4.6.100

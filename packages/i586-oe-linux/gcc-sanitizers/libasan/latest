@@ -1,10 +1,10 @@
 PV = 7.1.0
 PR = r0
 PKG = libasan4
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libasan (=7.1.0)
 RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0)
 RRECOMMENDS = 
-PKGSIZE = 1466764
+PKGSIZE = 1498828
 FILES = /usr/lib/libasan.so.*
 FILELIST = /usr/lib/libasan.so.4 /usr/lib/libasan.so.4.0.0

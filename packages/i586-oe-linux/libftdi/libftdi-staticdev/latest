@@ -1,10 +1,10 @@
 PV = 1.3
 PR = r0
 PKG = libftdi1-staticdev
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libftdi-staticdev (=1.3)
-RDEPENDS = libftdi-dev (= 1.3-r0.6)
+RDEPENDS = libftdi-dev (= 1.3-r0.7)
 RRECOMMENDS = 
-PKGSIZE = 105744
+PKGSIZE = 129152
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libftdi/*.a
 FILELIST = /usr/lib/libftdi1.a

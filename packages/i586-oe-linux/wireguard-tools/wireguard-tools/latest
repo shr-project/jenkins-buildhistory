@@ -1,9 +1,9 @@
 PV = 0.0.20170517
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.25.90) libmnl (>= 1.0.4) wireguard-module
 RRECOMMENDS = 
-PKGSIZE = 68648
+PKGSIZE = 72444
 FILES = /etc /lib/systemd /usr/bin
 FILELIST = /lib/systemd/wg-quick@.service /usr/bin/wg /usr/bin/wg-quick

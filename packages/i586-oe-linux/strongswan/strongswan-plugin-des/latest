@@ -1,9 +1,9 @@
 PV = 5.5.3
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.25.90) strongswan
 RRECOMMENDS = 
-PKGSIZE = 30386
+PKGSIZE = 30354
 FILES = /usr/lib/ipsec/plugins/libstrongswan-des.so /etc/strongswan.d/charon/des.conf
 FILELIST = /etc/strongswan.d/charon/des.conf /usr/lib/ipsec/plugins/libstrongswan-des.so

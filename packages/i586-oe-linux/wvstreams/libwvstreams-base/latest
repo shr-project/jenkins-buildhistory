@@ -1,10 +1,10 @@
 PV = 4.6.1
 PR = r0
 PKG = libwvutils4.6
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libwvstreams-base (=4.6.1)
 RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0) libwvstreams-extras (>= 4.6.1) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 137896
+PKGSIZE = 140876
 FILES = /usr/lib/libwvutils.so.*
 FILELIST = /usr/lib/libwvutils.so.4.6
