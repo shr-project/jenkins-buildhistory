@@ -1,10 +1,10 @@
 PV = 1.9.4
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = rshd
 RDEPENDS = glibc (>= 2.25.90) tcp-wrappers update-alternatives-opkg xinetd
 RRECOMMENDS = 
 RCONFLICTS = netkit-rshd
-PKGSIZE = 177287
+PKGSIZE = 187615
 FILES = /usr/sbin/in.rshd /usr/sbin/in.rlogind /usr/sbin/in.rexecd /etc/xinetd.d/rsh /etc/xinetd.d/rlogin /etc/xinetd.d/rexec
 FILELIST = /etc/xinetd.d/rexec /etc/xinetd.d/rlogin /etc/xinetd.d/rsh /usr/sbin/in.rexecd /usr/sbin/in.rlogind /usr/sbin/in.rshd

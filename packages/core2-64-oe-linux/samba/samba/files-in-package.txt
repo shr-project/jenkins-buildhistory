@@ -43,15 +43,15 @@ drwxr-x--- root       root               60 ./etc/sudoers.d
 -rw-r--r-- root       root              100 ./etc/sudoers.d/ctdb
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              440 ./usr/bin
--rwxr-xr-x root       root           394216 ./usr/bin/ctdb
+-rwxr-xr-x root       root           398312 ./usr/bin/ctdb
 -rwxr-xr-x root       root             8565 ./usr/bin/ctdb_diagnostics
 -rwxr-xr-x root       root            18544 ./usr/bin/dbwrap_tool
 -rwxr-xr-x root       root            34704 ./usr/bin/eventlogadm
 -rwxr-xr-x root       root             4607 ./usr/bin/findsmb
 -rwxr-xr-x root       root            14224 ./usr/bin/ltdbtool
 -rwxr-xr-x root       root            10128 ./usr/bin/mvxattr
--rwxr-xr-x root       root           897080 ./usr/bin/net
--rwxr-xr-x root       root           116800 ./usr/bin/nmblookup
+-rwxr-xr-x root       root           917560 ./usr/bin/net
+-rwxr-xr-x root       root           120896 ./usr/bin/nmblookup
 -rwxr-xr-x root       root            23816 ./usr/bin/oLschema2ldif
 -rwxr-xr-x root       root             8909 ./usr/bin/onnode
 -rwxr-xr-x root       root            40544 ./usr/bin/pdbedit
@@ -89,7 +89,7 @@ drwxr-xr-x root       root              680 ./usr/libexec/ctdb/tests
 -rwxr-xr-x root       root           296208 ./usr/libexec/ctdb/tests/fetch_readonly
 -rwxr-xr-x root       root           300312 ./usr/libexec/ctdb/tests/fetch_readonly_loop
 -rwxr-xr-x root       root           300304 ./usr/libexec/ctdb/tests/fetch_ring
--rwxr-xr-x root       root           296208 ./usr/libexec/ctdb/tests/g_lock_loop
+-rwxr-xr-x root       root           300304 ./usr/libexec/ctdb/tests/g_lock_loop
 -rwxr-xr-x root       root           296208 ./usr/libexec/ctdb/tests/lock_tdb
 -rwxr-xr-x root       root           300304 ./usr/libexec/ctdb/tests/message_ring
 -rwxr-xr-x root       root            26520 ./usr/libexec/ctdb/tests/pidfile_test
@@ -147,7 +147,7 @@ drwxr-xr-x root       root              800 ./usr/lib/samba/vfs
 -rwxr-xr-x root       root            27272 ./usr/lib/samba/vfs/streams_depot.so
 -rwxr-xr-x root       root            27272 ./usr/lib/samba/vfs/streams_xattr.so
 -rwxr-xr-x root       root            14976 ./usr/lib/samba/vfs/syncops.so
--rwxr-xr-x root       root            51840 ./usr/lib/samba/vfs/time_audit.so
+-rwxr-xr-x root       root            55936 ./usr/lib/samba/vfs/time_audit.so
 -rwxr-xr-x root       root            47824 ./usr/lib/samba/vfs/unityed_media.so
 -rwxr-xr-x root       root             6776 ./usr/lib/samba/vfs/worm.so
 -rwxr-xr-x root       root            23168 ./usr/lib/samba/vfs/xattr_tdb.so

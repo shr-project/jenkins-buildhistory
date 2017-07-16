@@ -1,10 +1,10 @@
 PV = 0.24.3
 PR = r0
 PKG = libgit2-24
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = libgit2 (=0.24.3)
 RDEPENDS = glibc (>= 2.25.90) libcrypto (>= 1.0.2l) libcurl (>= 7.54.1) libssh2 (>= 1.8.0) libssl (>= 1.0.2l) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 919649
+PKGSIZE = 947297
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libgit2 /usr/lib/libgit2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libgit2.so.0.24.3 /usr/lib/libgit2.so.24
