@@ -1,10 +1,10 @@
 PV = 1.2.1
 PR = r0
 PKG = libprotobuf-c-compiler
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = protobuf-c-compiler (=1.2.1)
 RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0) protobuf (>= 3.3.0+git0+a6189acd18) protobuf-compiler (>= 3.3.0+git0+a6189acd18)
 RRECOMMENDS = 
-PKGSIZE = 207848
+PKGSIZE = 219544
 FILES = /usr/bin
 FILELIST = /usr/bin/protoc-c

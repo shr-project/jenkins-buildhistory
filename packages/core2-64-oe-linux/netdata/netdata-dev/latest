@@ -1,10 +1,10 @@
-PV = 1.0.1+gitAUTOINC+36c1304e37
+PV = 1.6.0+gitAUTOINC+f5fa346a18
 PR = r0
-PKGV = 1.0.1+git0+36c1304e37
-PKGR = r0.4
+PKGV = 1.6.0+git0+f5fa346a18
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = netdata (= 1.0.1+git0+36c1304e37-r0.4)
-RRECOMMENDS = base-files-dev base-passwd-dev bash-dev glibc-dev shadow-dev shadow-sysroot-dev zlib-dev
+RDEPENDS = netdata (= 1.6.0+git0+f5fa346a18-r0.0)
+RRECOMMENDS = base-files-dev base-passwd-dev bash-dev glibc-dev shadow-dev shadow-sysroot-dev util-linux-dev util-linux-libuuid-dev zlib-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/netdata/*.la /lib/*.la
 FILELIST = 
