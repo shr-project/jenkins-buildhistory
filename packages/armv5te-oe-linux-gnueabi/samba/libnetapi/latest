@@ -1,9 +1,9 @@
 PV = 4.6.5
 PR = r0
 PKG = libnetapi0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = libnetapi (=4.6.5)
-RDEPENDS = glibc (>= 2.25.90) libads-samba4 (>= 4.6.5) libbsd (>= 0.8.3) libcharset3-samba4 (>= 4.6.5) libcli-smb-common-samba4 (>= 4.6.5) libcliauth-samba4 (>= 4.6.5) libdcerpc-samba-samba4 (>= 4.6.5) libflag-mapping-samba4 (>= 4.6.5) libgenrand-samba4 (>= 4.6.5) libgse-samba4 (>= 4.6.5) liblibcli-lsa3-samba4 (>= 4.6.5) liblibcli-netlogon3-samba4 (>= 4.6.5) liblibsmb-samba4 (>= 4.6.5) libmsrpc3-samba4 (>= 4.6.5) libndr (>= 4.6.5) libndr-standard (>= 4.6.5) libsamba-credentials (>= 4.6.5) libsamba-debug-samba4 (>= 4.6.5) libsamba-errors (>= 4.6.5) libsamba-passdb (>= 4.6.5) libsamba-security-samba4 (>= 4.6.5) libsamba-util (>= 4.6.5) libsamba3-util-samba4 (>= 4.6.5) libsecrets3-samba4 (>= 4.6.5) libsmbconf (>= 4.6.5) libtalloc (>= 2.1.9) libtrusts-util-samba4 (>= 4.6.5) libutil-cmdline-samba4 (>= 4.6.5) samba-common
+RDEPENDS = glibc (>= 2.25.90) libads-samba4 (>= 4.6.5) libbsd (>= 0.8.5) libcharset3-samba4 (>= 4.6.5) libcli-smb-common-samba4 (>= 4.6.5) libcliauth-samba4 (>= 4.6.5) libdcerpc-samba-samba4 (>= 4.6.5) libflag-mapping-samba4 (>= 4.6.5) libgenrand-samba4 (>= 4.6.5) libgse-samba4 (>= 4.6.5) liblibcli-lsa3-samba4 (>= 4.6.5) liblibcli-netlogon3-samba4 (>= 4.6.5) liblibsmb-samba4 (>= 4.6.5) libmsrpc3-samba4 (>= 4.6.5) libndr (>= 4.6.5) libndr-standard (>= 4.6.5) libsamba-credentials (>= 4.6.5) libsamba-debug-samba4 (>= 4.6.5) libsamba-errors (>= 4.6.5) libsamba-passdb (>= 4.6.5) libsamba-security-samba4 (>= 4.6.5) libsamba-util (>= 4.6.5) libsamba3-util-samba4 (>= 4.6.5) libsecrets3-samba4 (>= 4.6.5) libsmbconf (>= 4.6.5) libtalloc (>= 2.1.9) libtrusts-util-samba4 (>= 4.6.5) libutil-cmdline-samba4 (>= 4.6.5) samba-common
 RRECOMMENDS = 
 PKGSIZE = 283924
 FILES = /usr/lib/libnetapi.so.0

@@ -1,0 +1,5 @@
+PV = git
+PR = r0
+DEPENDS = assimp cmake-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc vulkan wayland
+PACKAGES = vulkan-demos-dbg vulkan-demos-staticdev vulkan-demos-dev vulkan-demos-doc vulkan-demos-locale vulkan-demos
+LAYER = core
