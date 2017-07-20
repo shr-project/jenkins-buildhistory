@@ -1,9 +1,9 @@
 PV = 2.4.44
 PR = r0
 PKG = libldap-2.4-2
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = openldap (=2.4.44)
-RDEPENDS = glibc (>= 2.25.90) gnutls (>= 3.5.13) libgcrypt (>= 1.7.6)
+RDEPENDS = glibc (>= 2.25.90) gnutls (>= 3.5.13) libgcrypt (>= 1.7.7)
 RRECOMMENDS = 
 PKGSIZE = 657059
 FILES = /usr/lib/lib*.so.* /etc/openldap/ldap.* /var/openldap/data
