@@ -11,7 +11,7 @@ drwxr-xr-x root       root              180 ./usr/bin/.debug
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              100 ./usr/lib/.debug
 -rwxr-xr-x root       root            75980 ./usr/lib/.debug/libguestlib.so.0.0.0
--rwxr-xr-x root       root           336136 ./usr/lib/.debug/libhgfs.so.0.0.0
+-rwxr-xr-x root       root           336144 ./usr/lib/.debug/libhgfs.so.0.0.0
 -rwxr-xr-x root       root          1676496 ./usr/lib/.debug/libvmtools.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/lib/open-vm-tools
 drwxr-xr-x root       root               80 ./usr/lib/open-vm-tools/plugins
@@ -63,9 +63,9 @@ drwxr-xr-x root       root               60 ./usr/src/debug/open-vm-tools/10.1.5
 -rw-r--r-- root       root            35192 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/hgfsmounter/hgfsmounter.c
 drwxr-xr-x root       root              940 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib
 drwxr-xr-x root       root              100 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/asyncsocket
--rw-r--r-- root       root           176745 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/asyncsocket/asyncsocket.c
+-rw-r--r-- root       root           176748 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/asyncsocket/asyncsocket.c
 -rw-r--r-- root       root            27179 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/asyncsocket/asyncSocketInterface.c
--rw-r--r-- root       root            21115 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/asyncsocket/asyncSocketInt.h
+-rw-r--r-- root       root            21111 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/asyncsocket/asyncSocketInt.h
 drwxr-xr-x root       root               60 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/auth
 -rw-r--r-- root       root            12824 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/auth/authPosix.c
 drwxr-xr-x root       root              100 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/backdoor
@@ -82,12 +82,12 @@ drwxr-xr-x root       root               80 ./usr/src/debug/open-vm-tools/10.1.5
 drwxr-xr-x root       root              100 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/err
 -rw-r--r-- root       root             7463 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/err/err.c
 -rw-r--r-- root       root             1231 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/err/errInt.h
--rw-r--r-- root       root             1963 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/err/errPosix.c
+-rw-r--r-- root       root             2038 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/err/errPosix.c
 drwxr-xr-x root       root              240 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/file
 -rw-r--r-- root       root            61483 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/file/file.c
 -rw-r--r-- root       root             9962 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/file/fileInt.h
 -rw-r--r-- root       root            27389 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/file/fileIO.c
--rw-r--r-- root       root            80937 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/file/fileIOPosix.c
+-rw-r--r-- root       root            80934 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/file/fileIOPosix.c
 -rw-r--r-- root       root            29922 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/file/fileLockPosix.c
 -rw-r--r-- root       root            55885 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/file/fileLockPrimitive.c
 -rw-r--r-- root       root            81685 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/file/filePosix.c
@@ -128,9 +128,9 @@ drwxr-xr-x root       root               60 ./usr/src/debug/open-vm-tools/10.1.5
 drwxr-xr-x root       root              260 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer
 -rw-r--r-- root       root             3324 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsDirNotify.h
 -rw-r--r-- root       root             5985 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsDirNotifyStub.c
--rw-r--r-- root       root           287645 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsServer.c
+-rw-r--r-- root       root           287648 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsServer.c
 -rw-r--r-- root       root            38597 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsServerInt.h
--rw-r--r-- root       root           167674 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsServerLinux.c
+-rw-r--r-- root       root           167679 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsServerLinux.c
 -rw-r--r-- root       root            10221 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsServerOplock.c
 -rw-r--r-- root       root             1902 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsServerOplock.h
 -rw-r--r-- root       root            10704 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/hgfsServer/hgfsServerOplockLinux.c
@@ -149,7 +149,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/open-vm-tools/10.1.5
 -rw-r--r-- root       root             2036 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/impersonate/impersonateInt.h
 -rw-r--r-- root       root            11900 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/impersonate/impersonatePosix.c
 drwxr-xr-x root       root             2300 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include
--rw-r--r-- root       root            19822 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/asyncsocket.h
+-rw-r--r-- root       root            19825 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/asyncsocket.h
 -rw-r--r-- root       root             2325 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/auth.h
 -rw-r--r-- root       root             1929 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/backdoor.h
 -rw-r--r-- root       root             4166 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/backdoor_types.h
@@ -194,7 +194,7 @@ drwxr-xr-x root       root             2300 ./usr/src/debug/open-vm-tools/10.1.5
 -rw-r--r-- root       root             7275 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/hgfsServer.h
 -rw-r--r-- root       root             2611 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/hgfsServerManager.h
 -rw-r--r-- root       root             5094 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/hgfsServerPolicy.h
--rw-r--r-- root       root             6476 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/hgfsUtil.h
+-rw-r--r-- root       root             6296 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/hgfsUtil.h
 -rw-r--r-- root       root             7061 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/hostinfo.h
 -rw-r--r-- root       root             1367 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/hostType.h
 -rw-r--r-- root       root             1666 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/impersonate.h
@@ -211,8 +211,7 @@ drwxr-xr-x root       root             2300 ./usr/src/debug/open-vm-tools/10.1.5
 -rw-r--r-- root       root             3810 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/netutil.h
 -rw-r--r-- root       root             2414 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/nicInfo.h
 -rw-r--r-- root       root             2458 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/panic.h
--rw-r--r-- root       root            10310 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/poll.h
--rw-r--r-- root       root             4863 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/pollImpl.h
+-rw-r--r-- root       root             4866 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/pollImpl.h
 -rw-r--r-- root       root            24486 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/posix.h
 -rw-r--r-- root       root             2108 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/preference.h
 -rw-r--r-- root       root             5065 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/procMgr.h
@@ -242,12 +241,13 @@ drwxr-xr-x root       root             2300 ./usr/src/debug/open-vm-tools/10.1.5
 -rw-r--r-- root       root            31549 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vm_basic_asm.h
 -rw-r--r-- root       root            10021 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vm_basic_asm_x86_common.h
 -rw-r--r-- root       root            18344 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vm_basic_asm_x86.h
--rw-r--r-- root       root            20779 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vm_basic_defs.h
+-rw-r--r-- root       root            20800 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vm_basic_defs.h
 -rw-r--r-- root       root            31901 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vm_basic_types.h
 -rw-r--r-- root       root             1280 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vmcheck.h
 -rw-r--r-- root       root            27689 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vmci_defs.h
 -rw-r--r-- root       root            25625 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vmci_sockets.h
 -rw-r--r-- root       root            17257 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vmGuestLib.h
+-rw-r--r-- root       root            10310 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vm_poll.h
 -rw-r--r-- root       root             1092 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vmSessionId.h
 -rw-r--r-- root       root             1275 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vmsignal.h
 -rw-r--r-- root       root             1341 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/include/vmstdio.h
@@ -305,7 +305,7 @@ drwxr-xr-x root       root              760 ./usr/src/debug/open-vm-tools/10.1.5
 -rw-r--r-- root       root           101476 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/misc/hostinfoPosix.c
 -rw-r--r-- root       root             5931 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/misc/hostname.c
 -rw-r--r-- root       root             4235 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/misc/hostType.c
--rw-r--r-- root       root            28052 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/misc/idLinux.c
+-rw-r--r-- root       root            28021 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/misc/idLinux.c
 -rw-r--r-- root       root            25088 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/misc/iovector.c
 -rw-r--r-- root       root             8170 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/misc/logFixed.c
 -rw-r--r-- root       root            15208 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/misc/machineID.c
@@ -330,7 +330,7 @@ drwxr-xr-x root       root              140 ./usr/src/debug/open-vm-tools/10.1.5
 -rw-r--r-- root       root            13699 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/nicInfo/compareNicInfo.c
 -rw-r--r-- root       root            13765 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/nicInfo/nicInfo.c
 -rw-r--r-- root       root             2736 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/nicInfo/nicInfoInt.h
--rw-r--r-- root       root            30549 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/nicInfo/nicInfoPosix.c
+-rw-r--r-- root       root            30555 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/nicInfo/nicInfoPosix.c
 -rw-r--r-- root       root             1889 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/nicInfo/util.c
 drwxr-xr-x root       root               60 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/panic
 drwxr-xr-x root       root               60 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/panicDefault
@@ -350,7 +350,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/open-vm-tools/10.1.5
 -rw-r--r-- root       root             2712 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/rpcChannel/simpleSocket.h
 -rw-r--r-- root       root            13227 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/rpcChannel/vsockChannel.c
 drwxr-xr-x root       root               60 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/rpcIn
--rw-r--r-- root       root            45387 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/rpcIn/rpcin.c
+-rw-r--r-- root       root            45390 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/rpcIn/rpcin.c
 drwxr-xr-x root       root               60 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/rpcOut
 -rw-r--r-- root       root            16290 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/rpcOut/rpcout.c
 drwxr-xr-x root       root               60 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/lib/rpcVmx
@@ -438,7 +438,7 @@ drwxr-xr-x root       root              160 ./usr/src/debug/open-vm-tools/10.1.5
 -rw-r--r-- root       root            39569 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/services/plugins/vix/foundryToolsDaemon.c
 -rw-r--r-- root       root             4858 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/services/plugins/vix/vixPlugin.c
 -rw-r--r-- root       root             1844 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/services/plugins/vix/vixPluginInt.h
--rw-r--r-- root       root           349476 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/services/plugins/vix/vixTools.c
+-rw-r--r-- root       root           349436 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/services/plugins/vix/vixTools.c
 -rw-r--r-- root       root            17282 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/services/plugins/vix/vixToolsEnvVars.c
 -rw-r--r-- root       root             7211 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/services/plugins/vix/vixToolsInt.h
 drwxr-xr-x root       root              140 ./usr/src/debug/open-vm-tools/10.1.5-r0/git/open-vm-tools/services/plugins/vmbackup
