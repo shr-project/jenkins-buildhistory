@@ -1,5 +1,5 @@
-PV = 0.9.6.1
+PV = 0.9.9
 PR = r0
-DEPENDS = pciutils virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = libusb pciutils pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = flashrom-dbg flashrom-staticdev flashrom-dev flashrom-doc flashrom-locale flashrom
 LAYER = openembedded-layer
