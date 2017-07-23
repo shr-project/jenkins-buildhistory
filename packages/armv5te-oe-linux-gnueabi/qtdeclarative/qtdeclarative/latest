@@ -1,9 +1,9 @@
 PV = 5.8.0+gitAUTOINC+fffb997e19
 PR = r0
 PKGV = 5.8.0+git0+fffb997e19
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libgles2-mesa (>= 17.1.4) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409)
+RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libgles2-mesa (>= 17.1.5) libstdc++ (>= 7.1.0) qtbase (>= 5.8.0+git0+49dc9aa409)
 RRECOMMENDS = qtdeclarative-plugins qtdeclarative-qmlplugins
 PKGSIZE = 5953900
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtdeclarative /usr/lib/qtdeclarative/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
