@@ -1,9 +1,9 @@
-PV = 2.11.0
+PV = 2.12.0
 PR = r0
-PKGR = r0.10
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = atk (>= 2.24.0) cairo (>= 1.14.8) dbus-lib (>= 1.10.18) fontconfig (>= 2.12.1) freetype (>= 2.8) gdk-pixbuf (>= 2.36.6) glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) gtk+ (>= 2.24.31) libice (>= 1.0.9) libpurple (>= 2.11.0) libpurple-plugin-ssl-gnutls libpurple-plugin-ssl-nss libsm (>= 1.2.2) pango (>= 1.40.6)
+RDEPENDS = atk (>= 2.24.0) cairo (>= 1.14.8) dbus-lib (>= 1.10.18) fontconfig (>= 2.12.1) freetype (>= 2.8) gdk-pixbuf (>= 2.36.6) glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) gtk+ (>= 2.24.31) libice (>= 1.0.9) libpurple (>= 2.12.0) libpurple-plugin-ssl-gnutls libpurple-plugin-ssl-nss libsm (>= 1.2.2) pango (>= 1.40.6)
 RRECOMMENDS = libpurple-protocol-irc libpurple-protocol-xmpp pidgin-data
-PKGSIZE = 776893
+PKGSIZE = 770241
 FILES = /usr/bin /usr/share/pidgin /usr/lib/pidgin/*.so /usr/share/applications
 FILELIST = /usr/bin/pidgin /usr/lib/pidgin/history.so /usr/lib/pidgin/pidginrc.so /usr/lib/pidgin/ticker.so /usr/lib/pidgin/timestamp.so /usr/lib/pidgin/timestamp_format.so /usr/share/applications/pidgin.desktop
