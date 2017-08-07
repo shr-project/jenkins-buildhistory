@@ -1,7 +1,7 @@
 PE = 1
 PV = 232
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = hotplug udev-systemd
 RDEPENDS = glibc (>= 2.25.90) libacl (>= 2.2.52) libgcc (>= 7.1.0) libkmod (>= 24+git0+ef4257b59c) util-linux-libblkid (>= 2.30)
 RRECOMMENDS = 
