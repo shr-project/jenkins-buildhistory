@@ -1,8 +1,9 @@
-PV = 3.3.1
+PV = 4.0.0
 PR = r0
-PKGR = r0.7
-RPROVIDES = 
-RDEPENDS = assimp-dev (= 3.3.1-r0.7)
+PKG = libassimp-staticdev
+PKGR = r0.0
+RPROVIDES = assimp-staticdev (=4.0.0)
+RDEPENDS = assimp-dev (= 4.0.0-r0.0)
 RRECOMMENDS = 
 PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/assimp/*.a

@@ -1,8 +1,8 @@
 PV = 2.4.2
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.25.90) libqb (>= 1.0.1+git0+0a329683a7) nspr (>= 4.14) nss (>= 3.30.2)
+RDEPENDS = bash glibc (>= 2.25.90) libqb (>= 1.0.2+git0+608de6d59a) nspr (>= 4.14) nss (>= 3.30.2)
 RRECOMMENDS = 
 PKGSIZE = 479343
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/corosync /usr/lib/corosync/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/corosync.service /lib/systemd/system/corosync-notifyd.service
