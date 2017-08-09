@@ -4,11 +4,11 @@ drwxr-xr-x root       root               60 ./usr/bin/.debug
 -rwxr-xr-x root       root            12304 ./usr/bin/.debug/curve_keygen
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
--rwxr-xr-x root       root          5415640 ./usr/lib/.debug/libzmq.so.5.0.2
+-rwxr-xr-x root       root          5423472 ./usr/lib/.debug/libzmq.so.5.0.2
 drwxr-xr-x root       root               60 ./usr/lib/zeromq
 drwxr-xr-x root       root               60 ./usr/lib/zeromq/ptest
 drwxr-xr-x root       root               60 ./usr/lib/zeromq/ptest/tests
-drwxr-xr-x root       root             1280 ./usr/lib/zeromq/ptest/tests/.debug
+drwxr-xr-x root       root             1300 ./usr/lib/zeromq/ptest/tests/.debug
 -rwxr-xr-x root       root            68360 ./usr/lib/zeromq/ptest/tests/.debug/test_abstract_ipc
 -rwxr-xr-x root       root            67976 ./usr/lib/zeromq/ptest/tests/.debug/test_bind_src_address
 -rwxr-xr-x root       root            67428 ./usr/lib/zeromq/ptest/tests/.debug/test_capabilities
@@ -20,6 +20,7 @@ drwxr-xr-x root       root             1280 ./usr/lib/zeromq/ptest/tests/.debug
 -rwxr-xr-x root       root            68408 ./usr/lib/zeromq/ptest/tests/.debug/test_diffserv
 -rwxr-xr-x root       root            71460 ./usr/lib/zeromq/ptest/tests/.debug/test_disconnect_inproc
 -rwxr-xr-x root       root            43980 ./usr/lib/zeromq/ptest/tests/.debug/test_filter_ipc
+-rwxr-xr-x root       root            69016 ./usr/lib/zeromq/ptest/tests/.debug/test_fork
 -rwxr-xr-x root       root            68216 ./usr/lib/zeromq/ptest/tests/.debug/test_getsockopt_memset
 -rwxr-xr-x root       root            73844 ./usr/lib/zeromq/ptest/tests/.debug/test_hwm
 -rwxr-xr-x root       root            72324 ./usr/lib/zeromq/ptest/tests/.debug/test_hwm_pubsub
@@ -226,7 +227,7 @@ drwxr-xr-x root       root             2980 ./usr/src/debug/zeromq/4.1.6-r0/zero
 -rw-r--r-- root       root             7113 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/src/yqueue.hpp
 -rw-r--r-- root       root            30816 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/src/zmq.cpp
 -rw-r--r-- root       root             6750 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/src/zmq_utils.cpp
-drwxr-xr-x root       root             1300 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests
+drwxr-xr-x root       root             1320 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests
 -rw-r--r-- root       root             2224 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_abstract_ipc.cpp
 -rw-r--r-- root       root             1993 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_bind_src_address.cpp
 -rw-r--r-- root       root             2156 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_capabilities.cpp
@@ -238,6 +239,7 @@ drwxr-xr-x root       root             1300 ./usr/src/debug/zeromq/4.1.6-r0/zero
 -rw-r--r-- root       root             2641 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_diffserv.cpp
 -rw-r--r-- root       root             5513 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_disconnect_inproc.cpp
 -rw-r--r-- root       root             5874 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_filter_ipc.cpp
+-rw-r--r-- root       root             3099 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_fork.cpp
 -rw-r--r-- root       root             2191 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_getsockopt_memset.cpp
 -rw-r--r-- root       root             9137 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_hwm.cpp
 -rw-r--r-- root       root             6592 ./usr/src/debug/zeromq/4.1.6-r0/zeromq-4.1.6/tests/test_hwm_pubsub.cpp

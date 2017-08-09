@@ -7,10 +7,10 @@ drwxr-xr-x root       root              280 ./etc/apache2/extra
 -rw-r--r-- root       root             2942 ./etc/apache2/extra/httpd-default.conf
 -rw-r--r-- root       root             1119 ./etc/apache2/extra/httpd-info.conf
 -rw-r--r-- root       root             5078 ./etc/apache2/extra/httpd-languages.conf
--rw-r--r-- root       root             1025 ./etc/apache2/extra/httpd-manual.conf
+-rw-r--r-- root       root             1395 ./etc/apache2/extra/httpd-manual.conf
 -rw-r--r-- root       root             4457 ./etc/apache2/extra/httpd-mpm.conf
 -rw-r--r-- root       root             2222 ./etc/apache2/extra/httpd-multilang-errordoc.conf
--rw-r--r-- root       root            13180 ./etc/apache2/extra/httpd-ssl.conf
+-rw-r--r-- root       root            13192 ./etc/apache2/extra/httpd-ssl.conf
 -rw-r--r-- root       root              694 ./etc/apache2/extra/httpd-userdir.conf
 -rw-r--r-- root       root             1491 ./etc/apache2/extra/httpd-vhosts.conf
 -rw-r--r-- root       root             3161 ./etc/apache2/extra/proxy-html.conf
@@ -35,7 +35,7 @@ drwxr-xr-x root       root              160 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/apache2
 drwxr-xr-x root       root             1800 ./usr/lib/apache2/modules
--rw-r--r-- root       root            15072 ./usr/lib/apache2/modules/httpd.exp
+-rw-r--r-- root       root            15157 ./usr/lib/apache2/modules/httpd.exp
 -rwxr-xr-x root       root             9796 ./usr/lib/apache2/modules/mod_access_compat.so
 -rwxr-xr-x root       root             9788 ./usr/lib/apache2/modules/mod_actions.so
 -rwxr-xr-x root       root            17980 ./usr/lib/apache2/modules/mod_alias.so
@@ -90,7 +90,7 @@ drwxr-xr-x root       root             1800 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root            50756 ./usr/lib/apache2/modules/mod_proxy_balancer.so
 -rwxr-xr-x root       root            17988 ./usr/lib/apache2/modules/mod_proxy_connect.so
 -rwxr-xr-x root       root             9796 ./usr/lib/apache2/modules/mod_proxy_express.so
--rwxr-xr-x root       root            22020 ./usr/lib/apache2/modules/mod_proxy_fcgi.so
+-rwxr-xr-x root       root            26176 ./usr/lib/apache2/modules/mod_proxy_fcgi.so
 -rwxr-xr-x root       root             9792 ./usr/lib/apache2/modules/mod_proxy_fdpass.so
 -rwxr-xr-x root       root            42560 ./usr/lib/apache2/modules/mod_proxy_ftp.so
 -rwxr-xr-x root       root            30272 ./usr/lib/apache2/modules/mod_proxy_hcheck.so
@@ -130,7 +130,7 @@ drwxr-xr-x root       root              200 ./usr/sbin
 -rw-r--r-- root       root             1045 ./usr/sbin/envvars-std
 -rwxr-xr-x root       root             9692 ./usr/sbin/fcgistarter
 -rwxr-xr-x root       root            30180 ./usr/sbin/htcacheclean
--rwxr-xr-x root       root           557820 ./usr/sbin/httpd
+-rwxr-xr-x root       root           561916 ./usr/sbin/httpd
 -rwxr-xr-x root       root            17944 ./usr/sbin/rotatelogs
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/apache2
