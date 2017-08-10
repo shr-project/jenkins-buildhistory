@@ -12,14 +12,14 @@ drwxr-xr-x root       root               60 ./usr/lib/dri
 drwxr-xr-x root       root              240 ./usr/lib/dri/.debug
 -rwxr-xr-x root       root         59727280 ./usr/lib/dri/.debug/i915_dri.so
 -rwxr-xr-x root       root         59727280 ./usr/lib/dri/.debug/i965_dri.so
--rwxr-xr-x root       root         67165008 ./usr/lib/dri/.debug/kms_swrast_dri.so
--rwxr-xr-x root       root         67165008 ./usr/lib/dri/.debug/nouveau_dri.so
+-rwxr-xr-x root       root         68210840 ./usr/lib/dri/.debug/kms_swrast_dri.so
+-rwxr-xr-x root       root         68210840 ./usr/lib/dri/.debug/nouveau_dri.so
 -rwxr-xr-x root       root         59727280 ./usr/lib/dri/.debug/nouveau_vieux_dri.so
 -rwxr-xr-x root       root         59727280 ./usr/lib/dri/.debug/r200_dri.so
--rwxr-xr-x root       root         67165008 ./usr/lib/dri/.debug/r300_dri.so
+-rwxr-xr-x root       root         68210840 ./usr/lib/dri/.debug/r300_dri.so
 -rwxr-xr-x root       root         59727280 ./usr/lib/dri/.debug/radeon_dri.so
--rwxr-xr-x root       root         67165008 ./usr/lib/dri/.debug/swrast_dri.so
--rwxr-xr-x root       root         67165008 ./usr/lib/dri/.debug/vmwgfx_dri.so
+-rwxr-xr-x root       root         68210840 ./usr/lib/dri/.debug/swrast_dri.so
+-rwxr-xr-x root       root         68210840 ./usr/lib/dri/.debug/vmwgfx_dri.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/mesa
@@ -424,7 +424,7 @@ drwxr-xr-x root       root             1100 ./usr/src/debug/mesa/2_17.1.5-r0/mes
 -rw-r--r-- root       root             6236 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/draw/draw_vs.h
 -rw-r--r-- root       root             3771 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/draw/draw_vs_llvm.c
 -rw-r--r-- root       root            12396 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/draw/draw_vs_variant.c
-drwxr-xr-x root       root             1220 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm
+drwxr-xr-x root       root             1200 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm
 -rw-r--r-- root       root           121333 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_arit.c
 -rw-r--r-- root       root            11130 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_arit.h
 -rw-r--r-- root       root             6155 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_arit_overflow.c
@@ -451,7 +451,6 @@ drwxr-xr-x root       root             1220 ./usr/src/debug/mesa/2_17.1.5-r0/mes
 -rw-r--r-- root       root            15597 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_format_yuv.c
 -rw-r--r-- root       root            23083 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_gather.c
 -rw-r--r-- root       root             2579 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_gather.h
--rw-r--r-- root       root             3774 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld.h
 -rw-r--r-- root       root            20607 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_init.c
 -rw-r--r-- root       root             2416 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_init.h
 -rw-r--r-- root       root            13775 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_intr.c
@@ -459,7 +458,7 @@ drwxr-xr-x root       root             1220 ./usr/src/debug/mesa/2_17.1.5-r0/mes
 -rw-r--r-- root       root             4801 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_limits.h
 -rw-r--r-- root       root            16180 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_logic.c
 -rw-r--r-- root       root             2937 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_logic.h
--rw-r--r-- root       root            24412 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_misc.cpp
+-rw-r--r-- root       root            24557 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_misc.cpp
 -rw-r--r-- root       root             2842 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_misc.h
 -rw-r--r-- root       root            33350 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_pack.c
 -rw-r--r-- root       root             4897 ./usr/src/debug/mesa/2_17.1.5-r0/mesa-17.1.5/src/gallium/auxiliary/gallivm/lp_bld_pack.h
