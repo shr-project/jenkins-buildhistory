@@ -1,1 +1,0 @@
-    if [ -f /usr/bin/uim-module-manager ]; then\n        /usr/bin/uim-module-manager --path /etc/uim --register \\\n            tutcode tcode hangul viqr \\\n            ipa-x-sampa latin byeoru\n    fi\n

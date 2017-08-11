@@ -7,10 +7,10 @@ drwxr-xr-x root       root              280 ./etc/apache2/extra
 -rw-r--r-- root       root             2942 ./etc/apache2/extra/httpd-default.conf
 -rw-r--r-- root       root             1119 ./etc/apache2/extra/httpd-info.conf
 -rw-r--r-- root       root             5078 ./etc/apache2/extra/httpd-languages.conf
--rw-r--r-- root       root             1025 ./etc/apache2/extra/httpd-manual.conf
+-rw-r--r-- root       root             1395 ./etc/apache2/extra/httpd-manual.conf
 -rw-r--r-- root       root             4457 ./etc/apache2/extra/httpd-mpm.conf
 -rw-r--r-- root       root             2222 ./etc/apache2/extra/httpd-multilang-errordoc.conf
--rw-r--r-- root       root            13180 ./etc/apache2/extra/httpd-ssl.conf
+-rw-r--r-- root       root            13192 ./etc/apache2/extra/httpd-ssl.conf
 -rw-r--r-- root       root              694 ./etc/apache2/extra/httpd-userdir.conf
 -rw-r--r-- root       root             1491 ./etc/apache2/extra/httpd-vhosts.conf
 -rw-r--r-- root       root             3161 ./etc/apache2/extra/proxy-html.conf
@@ -35,7 +35,7 @@ drwxr-xr-x root       root              160 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/apache2
 drwxr-xr-x root       root             1800 ./usr/lib/apache2/modules
--rw-r--r-- root       root            15072 ./usr/lib/apache2/modules/httpd.exp
+-rw-r--r-- root       root            15157 ./usr/lib/apache2/modules/httpd.exp
 -rwxr-xr-x root       root            10544 ./usr/lib/apache2/modules/mod_access_compat.so
 -rwxr-xr-x root       root            10536 ./usr/lib/apache2/modules/mod_actions.so
 -rwxr-xr-x root       root            18728 ./usr/lib/apache2/modules/mod_alias.so
@@ -84,13 +84,13 @@ drwxr-xr-x root       root             1800 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root            10568 ./usr/lib/apache2/modules/mod_logio.so
 -rwxr-xr-x root       root            18728 ./usr/lib/apache2/modules/mod_macro.so
 -rwxr-xr-x root       root            22816 ./usr/lib/apache2/modules/mod_mime.so
--rwxr-xr-x root       root            51576 ./usr/lib/apache2/modules/mod_mpm_worker.so
+-rwxr-xr-x root       root            47480 ./usr/lib/apache2/modules/mod_mpm_worker.so
 -rwxr-xr-x root       root            35112 ./usr/lib/apache2/modules/mod_negotiation.so
 -rwxr-xr-x root       root            55592 ./usr/lib/apache2/modules/mod_proxy_ajp.so
 -rwxr-xr-x root       root            51504 ./usr/lib/apache2/modules/mod_proxy_balancer.so
 -rwxr-xr-x root       root            18736 ./usr/lib/apache2/modules/mod_proxy_connect.so
 -rwxr-xr-x root       root            10544 ./usr/lib/apache2/modules/mod_proxy_express.so
--rwxr-xr-x root       root            22744 ./usr/lib/apache2/modules/mod_proxy_fcgi.so
+-rwxr-xr-x root       root            26920 ./usr/lib/apache2/modules/mod_proxy_fcgi.so
 -rwxr-xr-x root       root            10536 ./usr/lib/apache2/modules/mod_proxy_fdpass.so
 -rwxr-xr-x root       root            43304 ./usr/lib/apache2/modules/mod_proxy_ftp.so
 -rwxr-xr-x root       root            31016 ./usr/lib/apache2/modules/mod_proxy_hcheck.so
@@ -102,7 +102,7 @@ drwxr-xr-x root       root             1800 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root            14632 ./usr/lib/apache2/modules/mod_remoteip.so
 -rwxr-xr-x root       root            14632 ./usr/lib/apache2/modules/mod_reqtimeout.so
 -rwxr-xr-x root       root            14632 ./usr/lib/apache2/modules/mod_request.so
--rwxr-xr-x root       root            67880 ./usr/lib/apache2/modules/mod_rewrite.so
+-rwxr-xr-x root       root            71976 ./usr/lib/apache2/modules/mod_rewrite.so
 -rwxr-xr-x root       root            35104 ./usr/lib/apache2/modules/mod_sed.so
 -rwxr-xr-x root       root            10544 ./usr/lib/apache2/modules/mod_session_cookie.so
 -rwxr-xr-x root       root            22832 ./usr/lib/apache2/modules/mod_session_crypto.so
@@ -114,7 +114,7 @@ drwxr-xr-x root       root             1800 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root            14640 ./usr/lib/apache2/modules/mod_socache_memcache.so
 -rwxr-xr-x root       root            26928 ./usr/lib/apache2/modules/mod_socache_shmcb.so
 -rwxr-xr-x root       root            14712 ./usr/lib/apache2/modules/mod_speling.so
--rwxr-xr-x root       root           228088 ./usr/lib/apache2/modules/mod_ssl.so
+-rwxr-xr-x root       root           232184 ./usr/lib/apache2/modules/mod_ssl.so
 -rwxr-xr-x root       root            22824 ./usr/lib/apache2/modules/mod_status.so
 -rwxr-xr-x root       root            14632 ./usr/lib/apache2/modules/mod_substitute.so
 -rwxr-xr-x root       root            10456 ./usr/lib/apache2/modules/mod_unique_id.so

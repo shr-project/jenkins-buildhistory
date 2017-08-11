@@ -1,5 +1,5 @@
-PV = 1.7.3
+PV = 1.8.1
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libevdev libtool-cross libtool-native mtdev pkgconfig-native udev virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
-PACKAGES = libinput-dbg libinput-staticdev libinput-dev libinput-doc libinput-locale libinput
+PACKAGES = libinput-dbg libinput-staticdev libinput-dev libinput-doc libinput-locale libinput-bin libinput
 LAYER = core
