@@ -1,9 +1,9 @@
 PV = 1.14.8
 PR = r0
 PKG = libcairo-script-interpreter2
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = cairo-script-interpreter (=1.14.8)
-RDEPENDS = cairo (>= 1.14.8) fontconfig (>= 2.12.1) freetype (>= 2.8) glibc (>= 2.25.90) libpng (>= 1.6.29) libx11 (>= 1.6.5) libxcb (>= 1.12) libxcb-render (>= 1.12) libxcb-shm (>= 1.12) libxext (>= 1.3.3) libxrender (>= 0.9.10) pixman (>= 0.34.0) zlib (>= 1.2.11)
+RDEPENDS = cairo (>= 1.14.8) fontconfig (>= 2.12.1) freetype (>= 2.8) glibc (>= 2.25.90) libpng (>= 1.6.31) libx11 (>= 1.6.5) libxcb (>= 1.12) libxcb-render (>= 1.12) libxcb-shm (>= 1.12) libxext (>= 1.3.3) libxrender (>= 0.9.10) pixman (>= 0.34.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 146536
 FILES = /usr/lib/libcairo-script-interpreter.so.*
