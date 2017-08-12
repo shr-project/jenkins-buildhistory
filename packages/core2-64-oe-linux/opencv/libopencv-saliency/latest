@@ -1,11 +1,11 @@
-PV = 3.2+gitAUTOINC+70bbf17b13
+PV = 3.3+gitAUTOINC+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4
 PR = r0
-PKG = libopencv-saliency3.2
-PKGV = 3.2+git0+70bbf17b13
-PKGR = r0.10
-RPROVIDES = libopencv-saliency (=3.2+git0+70bbf17b13)
-RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libopencv-core (>= 3.2+git0+70bbf17b13) libopencv-highgui (>= 3.2+git0+70bbf17b13) libopencv-imgproc (>= 3.2+git0+70bbf17b13) libstdc++ (>= 7.1.0)
+PKG = libopencv-saliency3.3
+PKGV = 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4
+PKGR = r0.0
+RPROVIDES = libopencv-saliency (=3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4)
+RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libopencv-core (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libopencv-imgproc (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libstdc++ (>= 7.1.0)
 RRECOMMENDS = 
 PKGSIZE = 186763
-FILES = /usr/lib/libopencv_saliency.so /usr/lib/libopencv_saliency.so.3.2 /usr/lib/libopencv_saliency.so.3.2.0
-FILELIST = /usr/lib/libopencv_saliency.so.3.2 /usr/lib/libopencv_saliency.so.3.2.0
+FILES = /usr/lib/libopencv_saliency.so /usr/lib/libopencv_saliency.so.3.3 /usr/lib/libopencv_saliency.so.3.3.0
+FILELIST = /usr/lib/libopencv_saliency.so.3.3 /usr/lib/libopencv_saliency.so.3.3.0
