@@ -5,9 +5,8 @@ drwxr-xr-x root       root               80 ./usr/bin/.debug
 -rwxr-xr-x root       root           478504 ./usr/bin/.debug/squidclient
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
-drwxr-xr-x root       root              480 ./usr/libexec/.debug
+drwxr-xr-x root       root              460 ./usr/libexec/.debug
 -rwxr-xr-x root       root            82116 ./usr/libexec/.debug/basic_ldap_auth
--rwxr-xr-x root       root            55500 ./usr/libexec/.debug/basic_nis_auth
 -rwxr-xr-x root       root            55056 ./usr/libexec/.debug/basic_sasl_auth
 -rwxr-xr-x root       root           383180 ./usr/libexec/.debug/cachemgr.cgi
 -rwxr-xr-x root       root           109604 ./usr/libexec/.debug/digest_edirectory_auth
@@ -81,13 +80,9 @@ drwxr-xr-x root       root              420 ./usr/src/debug/squid/3.5.26-r0/squi
 -rw-r--r-- root       root             3217 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/compat/xstrto.cc
 -rw-r--r-- root       root             1341 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/compat/xstrto.h
 drwxr-xr-x root       root              180 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers
-drwxr-xr-x root       root              100 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth
+drwxr-xr-x root       root               80 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth
 drwxr-xr-x root       root               60 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth/LDAP
 -rw-r--r-- root       root            25480 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth/LDAP/basic_ldap_auth.cc
-drwxr-xr-x root       root              100 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth/NIS
--rw-r--r-- root       root             2241 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth/NIS/basic_nis_auth.cc
--rw-r--r-- root       root             1793 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth/NIS/nis_support.cc
--rw-r--r-- root       root              352 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth/NIS/nis_support.h
 drwxr-xr-x root       root               60 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth/SASL
 -rw-r--r-- root       root             3814 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/basic_auth/SASL/basic_sasl_auth.cc
 drwxr-xr-x root       root              100 ./usr/src/debug/squid/3.5.26-r0/squid-3.5.26/helpers/digest_auth
