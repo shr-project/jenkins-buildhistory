@@ -1,9 +1,9 @@
 PV = 7.1.0
 PR = r0
 PKG = libitm1
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libitm (=7.1.0)
-RDEPENDS = glibc (>= 2.25.90)
+RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = 
 PKGSIZE = 108051
 FILES = /usr/lib/libitm.so.*
