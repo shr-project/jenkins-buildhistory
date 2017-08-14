@@ -1,9 +1,9 @@
 PV = 6.0+20161126
 PR = r0
 PKG = libtinfo5
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = ncurses-libtinfo (=6.0+20161126)
-RDEPENDS = glibc (>= 2.25.90)
+RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = ncurses-terminfo-base
 RSUGGESTS = ncurses-terminfo
 PKGSIZE = 170967

@@ -1,8 +1,8 @@
 PV = 1.1.4
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) libasound (>= 1.1.4.1) libpulse (>= 10.0)
+RDEPENDS = glibc (>= 2.26) libasound (>= 1.1.4.1) libpulse (>= 10.0)
 RRECOMMENDS = 
 PKGSIZE = 22712
 FILES = /usr/lib/alsa-lib/libasound_module_ctl_pulse.so
