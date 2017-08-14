@@ -1,9 +1,9 @@
 PV = 4.2.8p10
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) libcrypto (>= 1.0.2l) libevent (>= 2.1.8)
+RDEPENDS = glibc (>= 2.26) libevent (>= 2.1.8) openssl (>= 1.1.0f)
 RRECOMMENDS = 
-PKGSIZE = 185609
+PKGSIZE = 181513
 FILES = /usr/sbin/sntp /etc/default/sntp /lib/systemd/system/sntp.service /lib/systemd/system/sntp.service
 FILELIST = /etc/default/sntp /lib/systemd/system/sntp.service /usr/sbin/sntp

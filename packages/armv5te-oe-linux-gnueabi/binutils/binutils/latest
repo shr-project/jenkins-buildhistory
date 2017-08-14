@@ -1,8 +1,8 @@
 PV = 2.28
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = binutils-symlinks
-RDEPENDS = glibc (>= 2.25.90) libbfd (>= 2.28) update-alternatives-opkg zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.26) libbfd (>= 2.28) update-alternatives-opkg zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 8263523
 FILES = \t/usr/bin/arm-oe-linux-gnueabi-* \t/usr/lib/lib*-*.so \t/usr/arm-oe-linux-gnueabi/bin/* /usr/bin/embedspu

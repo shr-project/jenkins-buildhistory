@@ -1,8 +1,8 @@
 PV = 3.0.14
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = freeradius (>= 3.0.14) glibc (>= 2.25.90) libcrypto (>= 1.0.2l) libpcap (>= 1.8.1) libpcre (>= 8.41) libssl (>= 1.0.2l) libtalloc (>= 2.1.9)
+RDEPENDS = freeradius (>= 3.0.14) glibc (>= 2.26) libpcap (>= 1.8.1) libpcre (>= 8.41) libtalloc (>= 2.1.9) openssl (>= 1.1.0f)
 RRECOMMENDS = 
 PKGSIZE = 273775
 FILES = /usr/bin/*

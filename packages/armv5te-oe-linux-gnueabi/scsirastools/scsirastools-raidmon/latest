@@ -1,8 +1,8 @@
 PV = 1.6.6
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) scsirastools
+RDEPENDS = glibc (>= 2.26) scsirastools
 RRECOMMENDS = 
 PKGSIZE = 40628
 FILES = /usr/sbin/sgraidmon /etc/init.d/sgraid

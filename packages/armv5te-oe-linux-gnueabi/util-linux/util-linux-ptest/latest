@@ -1,8 +1,8 @@
 PV = 2.30
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = bash coreutils glibc (>= 2.25.90) grep ncurses-libtinfo (>= 6.0+20161126) zlib (>= 1.2.11)
+RDEPENDS = bash coreutils glibc (>= 2.26) grep ncurses-libtinfo (>= 6.0+20161126) zlib (>= 1.2.11)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 4080835
 FILES = /usr/lib/util-linux/ptest

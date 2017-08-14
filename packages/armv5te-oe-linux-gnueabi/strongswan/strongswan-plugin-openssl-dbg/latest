@@ -1,9 +1,9 @@
 PV = 5.5.3
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
 RDEPENDS = strongswan-dbg
-RRECOMMENDS = glibc-dbg gmp-dbg libcrypto-dbg libcurl-dbg libsqlite3-dbg
-PKGSIZE = 749800
+RRECOMMENDS = glibc-dbg gmp-dbg libcurl-dbg libsqlite3-dbg openssl-dbg
+PKGSIZE = 710112
 FILES = /usr/lib/ipsec/plugins/.debug/libstrongswan-openssl.so
 FILELIST = /usr/lib/ipsec/plugins/.debug/libstrongswan-openssl.so

@@ -1,8 +1,8 @@
 PV = 4.6.5
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) libsamba-debug-samba4 (>= 4.6.5) libsamba-hostconfig (>= 4.6.5) libsamba-util (>= 4.6.5) libsmbconf (>= 4.6.5) libtalloc (>= 2.1.9) libutil-cmdline-samba4 (>= 4.6.5) popt (>= 1.16) samba-common
+RDEPENDS = glibc (>= 2.26) libsamba-debug-samba4 (>= 4.6.5) libsamba-hostconfig (>= 4.6.5) libsamba-util (>= 4.6.5) libsmbconf (>= 4.6.5) libtalloc (>= 2.1.9) libutil-cmdline-samba4 (>= 4.6.5) popt (>= 1.16) samba-common
 RRECOMMENDS = 
 PKGSIZE = 14608
 FILES = /usr/lib/samba/libpopt-samba3-samba4.so

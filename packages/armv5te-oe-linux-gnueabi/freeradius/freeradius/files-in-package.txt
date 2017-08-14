@@ -11,14 +11,14 @@ drwxr-x--- radiusd    radiusd           660 ./etc/raddb/certs
 -rwxr-x--- radiusd    radiusd          2706 ./etc/raddb/certs/bootstrap
 -rw-r----- radiusd    radiusd          1432 ./etc/raddb/certs/ca.cnf
 -rw-r--r-- radiusd    radiusd          1256 ./etc/raddb/certs/ca.der
--rw-r--r-- radiusd    radiusd          1834 ./etc/raddb/certs/ca.key
+-rw-r----- radiusd    radiusd          1854 ./etc/raddb/certs/ca.key
 -rw-r--r-- radiusd    radiusd          1757 ./etc/raddb/certs/ca.pem
 -rw-r----- radiusd    radiusd          1103 ./etc/raddb/certs/client.cnf
 -rw-r--r-- radiusd    radiusd          4400 ./etc/raddb/certs/client.crt
 -rw-r--r-- radiusd    radiusd          1045 ./etc/raddb/certs/client.csr
--rw-r--r-- radiusd    radiusd          1834 ./etc/raddb/certs/client.key
--rw-r--r-- radiusd    radiusd          2581 ./etc/raddb/certs/client.p12
--rw-r--r-- radiusd    radiusd          3636 ./etc/raddb/certs/client.pem
+-rw-r----- radiusd    radiusd          1854 ./etc/raddb/certs/client.key
+-rw-r----- radiusd    radiusd          2581 ./etc/raddb/certs/client.p12
+-rw-r----- radiusd    radiusd          3656 ./etc/raddb/certs/client.pem
 -rw-r--r-- radiusd    radiusd           424 ./etc/raddb/certs/dh
 -rw-r--r-- radiusd    radiusd           229 ./etc/raddb/certs/index.txt
 -rw-r--r-- radiusd    radiusd            21 ./etc/raddb/certs/index.txt.attr
@@ -32,10 +32,10 @@ drwxr-x--- radiusd    radiusd           660 ./etc/raddb/certs
 -rw-r----- radiusd    radiusd          1125 ./etc/raddb/certs/server.cnf
 -rw-r--r-- radiusd    radiusd          4423 ./etc/raddb/certs/server.crt
 -rw-r--r-- radiusd    radiusd          1062 ./etc/raddb/certs/server.csr
--rw-r--r-- radiusd    radiusd          1834 ./etc/raddb/certs/server.key
--rw-r--r-- radiusd    radiusd          2589 ./etc/raddb/certs/server.p12
--rw-r--r-- radiusd    radiusd          3659 ./etc/raddb/certs/server.pem
--rw-r--r-- radiusd    radiusd          3636 ./etc/raddb/certs/user@example.org.pem
+-rw-r----- radiusd    radiusd          1854 ./etc/raddb/certs/server.key
+-rw-r----- radiusd    radiusd          2589 ./etc/raddb/certs/server.p12
+-rw-r----- radiusd    radiusd          3679 ./etc/raddb/certs/server.pem
+-rw-r----- radiusd    radiusd          3656 ./etc/raddb/certs/user@example.org.pem
 -rw-r----- radiusd    radiusd           708 ./etc/raddb/certs/xpextensions
 -rw-r----- radiusd    radiusd          7476 ./etc/raddb/clients.conf
 -rw-r----- radiusd    radiusd          1440 ./etc/raddb/dictionary
@@ -298,7 +298,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/rlm_digest.so -> rlm_diges
 -rwxr-xr-x root       root             5700 ./usr/lib/rlm_dynamic_clients.so.0.0.0
 lrwxrwxrwx root       root               28 ./usr/lib/rlm_dynamic_clients.so.0 -> rlm_dynamic_clients.so.0.0.0
 lrwxrwxrwx root       root               28 ./usr/lib/rlm_dynamic_clients.so -> rlm_dynamic_clients.so.0.0.0
--rwxr-xr-x root       root            30404 ./usr/lib/rlm_eap_fast.so.0.0.0
+-rwxr-xr-x root       root            34500 ./usr/lib/rlm_eap_fast.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/rlm_eap_fast.so.0 -> rlm_eap_fast.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/rlm_eap_fast.so -> rlm_eap_fast.so.0.0.0
 -rwxr-xr-x root       root             9784 ./usr/lib/rlm_eap_gtc.so.0.0.0

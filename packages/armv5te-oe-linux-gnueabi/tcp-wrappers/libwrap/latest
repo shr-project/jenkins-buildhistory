@@ -1,9 +1,9 @@
 PV = 7.6
 PR = r10
 PKG = libwrap0
-PKGR = r10.14
+PKGR = r10.15
 RPROVIDES = libwrap (=7.6)
-RDEPENDS = glibc (>= 2.25.90)
+RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = 
 PKGSIZE = 26684
 FILES = /lib/lib*.so.*

@@ -1,8 +1,8 @@
 PV = 0.17
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.25.90) shadow
+RDEPENDS = base-files base-passwd glibc (>= 2.26) shadow
 RRECOMMENDS = 
 PKGSIZE = 19552
 FILES = /usr/sbin/* /var /etc/default/* /etc/init.d/*
