@@ -1,9 +1,9 @@
 PV = 5.1.4
 PR = r0
 PKG = libgif-utils
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = giflib-utils (=5.1.4)
-RDEPENDS = giflib (>= 5.1.4) glibc (>= 2.25.90) perl
+RDEPENDS = giflib (>= 5.1.4) glibc (>= 2.26) perl
 RRECOMMENDS = 
 PKGSIZE = 161448
 FILES = /usr/bin

@@ -1,8 +1,8 @@
 PV = 7.1.0
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90)
+RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = libatomic libatomic-dev libstdc++ libstdc++-dev
 PKGSIZE = 1021600
 FILES = /usr/bin/x86_64-oe-linux-g++* /usr/libexec/gcc/x86_64-oe-linux/7.1.0/cc1plus

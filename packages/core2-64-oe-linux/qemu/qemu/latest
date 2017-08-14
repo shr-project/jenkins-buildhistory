@@ -1,8 +1,8 @@
 PV = 2.8.1.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = bash dtc (>= 1.4.4) glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) libasound (>= 1.1.4.1) libgcc (>= 7.1.0) libsdl (>= 1.2.15) libstdc++ (>= 7.1.0) libx11 (>= 1.6.5) pixman (>= 0.34.0) zlib (>= 1.2.11)
+RDEPENDS = bash dtc (>= 1.4.4) glib-2.0 (>= 2.52.2) glibc (>= 2.26) libasound (>= 1.1.4.1) libgcc (>= 7.1.0) libsdl (>= 1.2.15) libstdc++ (>= 7.1.0) libx11 (>= 1.6.5) pixman (>= 0.34.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 135107733
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qemu /usr/lib/qemu/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

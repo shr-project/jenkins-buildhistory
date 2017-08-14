@@ -1,8 +1,8 @@
 PV = 9100h
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) libanthy0 (>= 9100h)
+RDEPENDS = glibc (>= 2.26) libanthy0 (>= 9100h)
 RRECOMMENDS = 
 PKGSIZE = 24167323
 FILES = /usr/share/* /usr/bin/* /etc/anthy-conf

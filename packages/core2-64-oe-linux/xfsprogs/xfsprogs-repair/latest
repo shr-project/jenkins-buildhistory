@@ -1,8 +1,8 @@
 PV = 4.11.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) util-linux-libuuid (>= 2.30) xfsprogs (>= 4.11.0)
+RDEPENDS = glibc (>= 2.26) util-linux-libuuid (>= 2.30) xfsprogs (>= 4.11.0)
 RRECOMMENDS = 
 PKGSIZE = 265264
 FILES = /sbin/xfs_repair

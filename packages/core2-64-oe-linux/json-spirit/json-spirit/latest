@@ -1,9 +1,9 @@
 PV = 4.08
 PR = r0
 PKG = libjson-spirit4
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = json-spirit (=4.08)
-RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0)
 RRECOMMENDS = 
 PKGSIZE = 1513839
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/json-spirit /usr/lib/json-spirit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,8 +1,8 @@
 PV = 1.5.1
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = cronie-systemd
-RDEPENDS = base-files base-passwd glibc (>= 2.25.90) shadow
+RDEPENDS = base-files base-passwd glibc (>= 2.26) shadow
 RRECOMMENDS = 
 RREPLACES = cronie-systemd
 RCONFLICTS = cronie-systemd

@@ -1,8 +1,8 @@
 PV = 2.28
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = binutils-symlinks
-RDEPENDS = glibc (>= 2.25.90) libbfd (>= 2.28) update-alternatives-opkg zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.26) libbfd (>= 2.28) update-alternatives-opkg zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 14064328
 FILES = \t/usr/bin/x86_64-oe-linux-* \t/usr/lib/lib*-*.so \t/usr/x86_64-oe-linux/bin/* /usr/bin/embedspu

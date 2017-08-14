@@ -1,8 +1,8 @@
 PV = 1.10.4
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) gstreamer1.0 (>= 1.10.4) libgstallocators-1.0 (>= 1.10.4) libgstvideo-1.0 (>= 1.10.4) libgstwayland-1.0 (>= 1.10.4) wayland (>= 1.13.0)
+RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.26) gstreamer1.0 (>= 1.10.4) libgstallocators-1.0 (>= 1.10.4) libgstvideo-1.0 (>= 1.10.4) libgstwayland-1.0 (>= 1.10.4) wayland (>= 1.13.0)
 RRECOMMENDS = 
 PKGSIZE = 51640
 FILES = /usr/lib/gstreamer-1.0/libgstwaylandsink.so

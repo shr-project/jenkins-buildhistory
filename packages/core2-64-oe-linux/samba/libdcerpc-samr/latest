@@ -1,9 +1,9 @@
 PV = 4.6.5
 PR = r0
 PKG = libdcerpc-samr0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = libdcerpc-samr (=4.6.5)
-RDEPENDS = glibc (>= 2.25.90) samba-common
+RDEPENDS = glibc (>= 2.26) samba-common
 RRECOMMENDS = 
 PKGSIZE = 5839
 FILES = /usr/lib/libdcerpc-samr.so.0 /usr/lib/libdcerpc-samr.so.0.0.1
