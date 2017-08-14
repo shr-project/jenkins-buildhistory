@@ -1,9 +1,9 @@
-PV = 2.25.90
+PV = 2.26
 PR = r0
 PKG = libc6-pcprofile
-PKGR = r0.5
-RPROVIDES = eglibc-pcprofile glibc-pcprofile (=2.25.90)
-RDEPENDS = glibc (>= 2.25.90)
+PKGR = r0.0
+RPROVIDES = eglibc-pcprofile glibc-pcprofile (=2.26)
+RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = 
 PKGSIZE = 6032
 FILES = /lib/libpcprofile.so
