@@ -1,9 +1,9 @@
 PV = 2.2.3
 PR = r0
 PKG = libgd-tools
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = gd-tools
-RDEPENDS = gd (>= 2.2.3) glibc (>= 2.25.90) perl perl-module-strict
+RDEPENDS = gd (>= 2.2.3) glibc (>= 2.26) perl perl-module-strict
 RRECOMMENDS = 
 PKGSIZE = 73742
 FILES = /usr/bin/*

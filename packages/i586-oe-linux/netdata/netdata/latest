@@ -1,9 +1,9 @@
 PV = 1.6.0+gitAUTOINC+f5fa346a18
 PR = r0
 PKGV = 1.6.0+git0+f5fa346a18
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = base-files base-passwd bash glibc (>= 2.25.90) shadow util-linux-libuuid (>= 2.30) zlib (>= 1.2.11)
+RDEPENDS = base-files base-passwd bash glibc (>= 2.26) shadow util-linux-libuuid (>= 2.30) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 6940823
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/netdata /usr/lib/netdata/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/netdata.service

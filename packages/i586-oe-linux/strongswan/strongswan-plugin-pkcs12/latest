@@ -1,8 +1,8 @@
 PV = 5.5.3
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) strongswan
+RDEPENDS = glibc (>= 2.26) strongswan
 RRECOMMENDS = 
 PKGSIZE = 14097
 FILES = /usr/lib/ipsec/plugins/libstrongswan-pkcs12.so /etc/strongswan.d/charon/pkcs12.conf

@@ -1,8 +1,8 @@
 PV = git
 PR = r1.0
-PKGR = r1.0.13
+PKGR = r1.0.14
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) libosmocore (>= git)
+RDEPENDS = glibc (>= 2.26) libosmocore (>= git)
 RRECOMMENDS = socat
 PKGSIZE = 56308
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/osmocon /usr/lib/osmocon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

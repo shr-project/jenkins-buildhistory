@@ -1,9 +1,9 @@
 PV = 0.93
 PR = r0
 PKG = libiso9660-10
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libiso9660 (=0.93)
-RDEPENDS = glibc (>= 2.25.90) libcdio (>= 0.93)
+RDEPENDS = glibc (>= 2.26) libcdio (>= 0.93)
 RRECOMMENDS = 
 PKGSIZE = 54736
 FILES = /usr/lib/libiso9660.so.10 /usr/lib/libiso9660.so.10.0.0

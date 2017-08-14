@@ -1,8 +1,8 @@
 PV = 1.3.0
 PR = r5
-PKGR = r5.13
+PKGR = r5.14
 RPROVIDES = libpam-suffix
-RDEPENDS = glibc (>= 2.25.90)
+RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = libpam-runtime-suffix
 PKGSIZE = 90514
 FILES = /lib/lib*.so.*

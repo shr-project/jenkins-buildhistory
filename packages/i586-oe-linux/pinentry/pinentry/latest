@@ -1,8 +1,8 @@
 PV = 1.0.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) libassuan (>= 2.4.3) libcap (>= 2.25) libgpg-error (>= 1.27) ncurses-libncursesw (>= 6.0+20161126) ncurses-libtinfo (>= 6.0+20161126)
+RDEPENDS = glibc (>= 2.26) libassuan (>= 2.4.3) libcap (>= 2.25) libgpg-error (>= 1.27) ncurses-libncursesw (>= 6.0+20161126) ncurses-libtinfo (>= 6.0+20161126)
 RRECOMMENDS = 
 PKGSIZE = 67339
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/pinentry /usr/lib/pinentry/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

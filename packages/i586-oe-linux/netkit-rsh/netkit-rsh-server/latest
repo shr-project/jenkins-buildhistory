@@ -1,8 +1,8 @@
 PV = 0.17
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = rshd
-RDEPENDS = glibc (>= 2.25.90) tcp-wrappers xinetd
+RDEPENDS = glibc (>= 2.26) tcp-wrappers xinetd
 RRECOMMENDS = 
 RCONFLICTS = inetutils-rshd
 PKGSIZE = 43975

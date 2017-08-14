@@ -2,9 +2,9 @@ PE = 2
 PV = 1.0.5.050+svnr82070
 PR = r0
 PKG = libedb1
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = edb (=1.0.5.050+svnr82070)
-RDEPENDS = glibc (>= 2.25.90)
+RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = 
 PKGSIZE = 403031
 FILES = /usr/lib/*.so.* /usr/lib/edje/modules/edb/*/module.so /usr/lib/edb/plugins/*.so /usr/share/dbus-1/services/*

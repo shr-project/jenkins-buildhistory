@@ -1,8 +1,8 @@
 PV = git
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = fuse (>= 2.9.7) glibc (>= 2.25.90) libgcc (>= 7.1.0) libmtp (>= 1.1.5) libstdc++ (>= 7.1.0) libusb1 (>= 1.0.21)
+RDEPENDS = fuse (>= 2.9.7) glibc (>= 2.26) libgcc (>= 7.1.0) libmtp (>= 1.1.5) libstdc++ (>= 7.1.0) libusb1 (>= 1.0.21)
 RRECOMMENDS = 
 PKGSIZE = 128708
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/simple-mtpfs /usr/lib/simple-mtpfs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
