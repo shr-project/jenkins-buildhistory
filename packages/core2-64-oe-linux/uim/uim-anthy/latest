@@ -1,8 +1,8 @@
 PV = 1.8.6
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = anthy glibc (>= 2.25.90) glibc-gconv-euc-jp glibc-utils libanthy0 (>= 9100h) libuim0 (>= 1.8.6) takao-fonts uim (>= 1.8.6)
+RDEPENDS = anthy glibc (>= 2.26) glibc-gconv-euc-jp glibc-utils libanthy0 (>= 9100h) libuim0 (>= 1.8.6) takao-fonts uim (>= 1.8.6)
 RRECOMMENDS = 
 PKGSIZE = 175485
 FILES = /usr/lib/uim/plugin/libuim-anthy.* /usr/share/uim/anthy*.scm
