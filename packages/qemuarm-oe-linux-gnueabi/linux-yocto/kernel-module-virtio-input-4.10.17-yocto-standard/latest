@@ -1,10 +1,10 @@
 PV = 4.10.17+gitAUTOINC+e92bd55409_3926e38630
 PR = r0
 PKGV = 4.10.17+git1+e92bd55409_3926e38630
-PKGR = r0.20
+PKGR = r0.23
 RPROVIDES = kernel-module-virtio-input
 RDEPENDS = kernel-4.10.17-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 10808
+PKGSIZE = 10680
 FILES = /lib/modules/4.10.17-yocto-standard/kernel/drivers/virtio/virtio_input.ko /etc/modules-load.d/virtio_input.conf /etc/modprobe.d/virtio_input.conf
 FILELIST = /lib/modules/4.10.17-yocto-standard/kernel/drivers/virtio/virtio_input.ko

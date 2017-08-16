@@ -1,10 +1,10 @@
 PV = 4.10.17+gitAUTOINC+e92bd55409_3926e38630
 PR = r0
 PKGV = 4.10.17+git1+e92bd55409_3926e38630
-PKGR = r0.20
+PKGR = r0.23
 RPROVIDES = kernel-module-configfs
 RDEPENDS = kernel-4.10.17-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 43772
+PKGSIZE = 42748
 FILES = /lib/modules/4.10.17-yocto-standard/kernel/fs/configfs/configfs.ko /etc/modules-load.d/configfs.conf /etc/modprobe.d/configfs.conf
 FILELIST = /lib/modules/4.10.17-yocto-standard/kernel/fs/configfs/configfs.ko
