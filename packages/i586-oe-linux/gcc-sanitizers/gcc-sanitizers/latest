@@ -1,9 +1,9 @@
-PV = 7.1.0
+PV = 7.2.0
 PR = r0
-PKGR = r0.14
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = libasan liblsan libubsan
 PKGSIZE = 20726
-FILES = /usr/lib/*.spec /usr/lib/gcc/i586-oe-linux/7.1.0/include/sanitizer/*.h
-FILELIST = /usr/lib/gcc/i586-oe-linux/7.1.0/include/sanitizer/asan_interface.h /usr/lib/gcc/i586-oe-linux/7.1.0/include/sanitizer/common_interface_defs.h /usr/lib/gcc/i586-oe-linux/7.1.0/include/sanitizer/lsan_interface.h /usr/lib/libsanitizer.spec
+FILES = /usr/lib/*.spec /usr/lib/gcc/i586-oe-linux/7.2.0/include/sanitizer/*.h
+FILELIST = /usr/lib/gcc/i586-oe-linux/7.2.0/include/sanitizer/asan_interface.h /usr/lib/gcc/i586-oe-linux/7.2.0/include/sanitizer/common_interface_defs.h /usr/lib/gcc/i586-oe-linux/7.2.0/include/sanitizer/lsan_interface.h /usr/lib/libsanitizer.spec

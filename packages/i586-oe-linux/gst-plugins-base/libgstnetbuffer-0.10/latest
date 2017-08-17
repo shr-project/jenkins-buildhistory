@@ -1,9 +1,9 @@
 PV = 0.10.36
 PR = r8
 PKG = libgstnetbuffer-0.10-0
-PKGR = r8.13
+PKGR = r8.14
 RPROVIDES = libgstnetbuffer-0.10 (=0.10.36)
-RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) gstreamer (>= 0.10.36) libxml2 (>= 2.9.4)
+RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.26) gstreamer (>= 0.10.36) libxml2 (>= 2.9.4)
 RRECOMMENDS = 
 PKGSIZE = 9706
 FILES = /usr/lib/libgstnetbuffer-0.10.so /usr/lib/libgstnetbuffer-0.10.so.0 /usr/lib/libgstnetbuffer-0.10.so.0.25.0

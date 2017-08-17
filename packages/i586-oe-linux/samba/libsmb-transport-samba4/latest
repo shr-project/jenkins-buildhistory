@@ -1,9 +1,9 @@
 PV = 4.6.5
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.25.90) libiov-buf-samba4 (>= 4.6.5) libsocket-blocking-samba4 (>= 4.6.5) libtalloc (>= 2.1.9) libtevent (>= 0.9.31) libtevent-util (>= 4.6.5) samba-common
+RDEPENDS = glibc (>= 2.26) libiov-buf-samba4 (>= 4.6.5) libsocket-blocking-samba4 (>= 4.6.5) libtalloc (>= 2.1.9) libtevent (>= 0.9.31) libtevent-util (>= 4.6.5) samba-common
 RRECOMMENDS = 
-PKGSIZE = 21748
+PKGSIZE = 21792
 FILES = /usr/lib/samba/libsmb-transport-samba4.so
 FILELIST = /usr/lib/samba/libsmb-transport-samba4.so

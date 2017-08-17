@@ -9,14 +9,14 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              185 ./lib/systemd/system/sblim-sfcb.service
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              280 ./usr/bin
--rwxr-xr-x root       root            13644 ./usr/bin/sfcbdump
--rwxr-xr-x root       root            14644 ./usr/bin/sfcbinst2mof
--rwxr-xr-x root       root            54884 ./usr/bin/sfcbmof
--rwxr-xr-x root       root             9496 ./usr/bin/sfcbmofpp
--rwxr-xr-x root       root            17836 ./usr/bin/sfcbproc
+-rwxr-xr-x root       root            13688 ./usr/bin/sfcbdump
+-rwxr-xr-x root       root            14688 ./usr/bin/sfcbinst2mof
+-rwxr-xr-x root       root            54928 ./usr/bin/sfcbmof
+-rwxr-xr-x root       root             9540 ./usr/bin/sfcbmofpp
+-rwxr-xr-x root       root            17880 ./usr/bin/sfcbproc
 -rwxr-xr-x root       root             6355 ./usr/bin/sfcbrepos
 -rwxr-xr-x root       root             1615 ./usr/bin/sfcbstage
--rwxr-xr-x root       root             9500 ./usr/bin/sfcbtrace
+-rwxr-xr-x root       root             9544 ./usr/bin/sfcbtrace
 -rwxr-xr-x root       root             1467 ./usr/bin/sfcbunstage
 -rwxr-xr-x root       root             1297 ./usr/bin/sfcbuuid
 -rwxr-xr-x root       root             2783 ./usr/bin/wbemcat
@@ -84,7 +84,7 @@ lrwxrwxrwx root       root               37 ./usr/lib/sfcb/libsfcObjectImplSwapI
 lrwxrwxrwx root       root               32 ./usr/lib/sfcb/libsfcQualifierProvider.so.0 -> libsfcQualifierProvider.so.0.0.0
 lrwxrwxrwx root       root               32 ./usr/lib/sfcb/libsfcQualifierProvider.so -> libsfcQualifierProvider.so.0.0.0
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root            25936 ./usr/sbin/sfcbd
+-rwxr-xr-x root       root            25980 ./usr/sbin/sfcbd
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              180 ./usr/share/sfcb
 -rw-r--r-- root       root             1561 ./usr/share/sfcb/10_interop.mof

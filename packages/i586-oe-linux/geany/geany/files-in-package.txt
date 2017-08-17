@@ -13,7 +13,7 @@ drwxr-xr-x root       root              160 ./usr/lib/geany
 lrwxrwxrwx root       root               17 ./usr/lib/libgeany.so.0 -> libgeany.so.0.0.0
 drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/applications
--rw-r--r-- root       root             6581 ./usr/share/applications/geany.desktop
+-rw-r--r-- root       root             6614 ./usr/share/applications/geany.desktop
 drwxr-xr-x root       root              240 ./usr/share/geany
 drwxr-xr-x root       root               60 ./usr/share/geany/colorschemes
 -rw-r--r-- root       root             2136 ./usr/share/geany/colorschemes/alt.conf
@@ -22,20 +22,20 @@ drwxr-xr-x root       root             1420 ./usr/share/geany/filedefs
 -rw-r--r-- root       root              226 ./usr/share/geany/filedefs/filetypes.abc
 -rw-r--r-- root       root             1980 ./usr/share/geany/filedefs/filetypes.actionscript
 -rw-r--r-- root       root             1975 ./usr/share/geany/filedefs/filetypes.ada
--rw-r--r-- root       root             2165 ./usr/share/geany/filedefs/filetypes.Arduino.conf
+-rw-r--r-- root       root             2616 ./usr/share/geany/filedefs/filetypes.Arduino.conf
 -rw-r--r-- root       root             1038 ./usr/share/geany/filedefs/filetypes.asciidoc
 -rw-r--r-- root       root             1836 ./usr/share/geany/filedefs/filetypes.asm
 -rw-r--r-- root       root             1403 ./usr/share/geany/filedefs/filetypes.batch
 -rw-r--r-- root       root             3718 ./usr/share/geany/filedefs/filetypes.c
 -rw-r--r-- root       root             1940 ./usr/share/geany/filedefs/filetypes.caml
 -rw-r--r-- root       root             5902 ./usr/share/geany/filedefs/filetypes.Clojure.conf
--rw-r--r-- root       root             3820 ./usr/share/geany/filedefs/filetypes.cmake
+-rw-r--r-- root       root             4073 ./usr/share/geany/filedefs/filetypes.cmake
 -rw-r--r-- root       root             3838 ./usr/share/geany/filedefs/filetypes.cobol
 -rw-r--r-- root       root             1433 ./usr/share/geany/filedefs/filetypes.coffeescript
 -rw-r--r-- root       root             6269 ./usr/share/geany/filedefs/filetypes.common
 -rw-r--r-- root       root             1179 ./usr/share/geany/filedefs/filetypes.conf
 -rw-r--r-- root       root             3271 ./usr/share/geany/filedefs/filetypes.cpp
--rw-r--r-- root       root             2097 ./usr/share/geany/filedefs/filetypes.cs
+-rw-r--r-- root       root             2327 ./usr/share/geany/filedefs/filetypes.cs
 -rw-r--r-- root       root             6752 ./usr/share/geany/filedefs/filetypes.css
 -rw-r--r-- root       root             3515 ./usr/share/geany/filedefs/filetypes.CUDA.conf
 -rw-r--r-- root       root             1875 ./usr/share/geany/filedefs/filetypes.Cython.conf
@@ -53,8 +53,8 @@ drwxr-xr-x root       root             1420 ./usr/share/geany/filedefs
 -rw-r--r-- root       root             2758 ./usr/share/geany/filedefs/filetypes.go
 -rw-r--r-- root       root             2963 ./usr/share/geany/filedefs/filetypes.Graphviz.conf
 -rw-r--r-- root       root             2322 ./usr/share/geany/filedefs/filetypes.haskell
--rw-r--r-- root       root             1941 ./usr/share/geany/filedefs/filetypes.haxe
--rw-r--r-- root       root             7661 ./usr/share/geany/filedefs/filetypes.html
+-rw-r--r-- root       root             1928 ./usr/share/geany/filedefs/filetypes.haxe
+-rw-r--r-- root       root             8044 ./usr/share/geany/filedefs/filetypes.html
 -rw-r--r-- root       root             1744 ./usr/share/geany/filedefs/filetypes.java
 -rw-r--r-- root       root             1937 ./usr/share/geany/filedefs/filetypes.javascript
 -rw-r--r-- root       root              242 ./usr/share/geany/filedefs/filetypes.JSON.conf
@@ -63,7 +63,7 @@ drwxr-xr-x root       root             1420 ./usr/share/geany/filedefs
 -rw-r--r-- root       root             3769 ./usr/share/geany/filedefs/filetypes.lua
 -rw-r--r-- root       root             1157 ./usr/share/geany/filedefs/filetypes.makefile
 -rw-r--r-- root       root              634 ./usr/share/geany/filedefs/filetypes.markdown
--rw-r--r-- root       root             1596 ./usr/share/geany/filedefs/filetypes.matlab
+-rw-r--r-- root       root             1603 ./usr/share/geany/filedefs/filetypes.matlab
 -rw-r--r-- root       root             6341 ./usr/share/geany/filedefs/filetypes.nsis
 -rw-r--r-- root       root             1986 ./usr/share/geany/filedefs/filetypes.objectivec
 -rw-r--r-- root       root             2531 ./usr/share/geany/filedefs/filetypes.pascal
@@ -74,7 +74,7 @@ drwxr-xr-x root       root             1420 ./usr/share/geany/filedefs
 -rw-r--r-- root       root             3932 ./usr/share/geany/filedefs/filetypes.python
 -rw-r--r-- root       root             1722 ./usr/share/geany/filedefs/filetypes.r
 -rw-r--r-- root       root             1061 ./usr/share/geany/filedefs/filetypes.restructuredtext
--rw-r--r-- root       root             2238 ./usr/share/geany/filedefs/filetypes.ruby
+-rw-r--r-- root       root             2255 ./usr/share/geany/filedefs/filetypes.ruby
 -rw-r--r-- root       root             2095 ./usr/share/geany/filedefs/filetypes.rust
 -rw-r--r-- root       root             1478 ./usr/share/geany/filedefs/filetypes.Scala.conf
 -rw-r--r-- root       root             1702 ./usr/share/geany/filedefs/filetypes.sh

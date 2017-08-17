@@ -10,7 +10,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              448 ./lib/systemd/system/upower.service
 drwxr-xr-x root       root               60 ./lib/udev
 drwxr-xr-x root       root              100 ./lib/udev/rules.d
--rw-r--r-- root       root             2496 ./lib/udev/rules.d/95-upower-csr.rules
+-rw-r--r-- root       root             2624 ./lib/udev/rules.d/95-upower-csr.rules
 -rw-r--r-- root       root             8109 ./lib/udev/rules.d/95-upower-hid.rules
 -rw-r--r-- root       root              354 ./lib/udev/rules.d/95-upower-wup.rules
 drwxr-xr-x root       root              120 ./usr
@@ -18,16 +18,16 @@ drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            13784 ./usr/bin/upower
 drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
--rwxr-xr-x root       root           251464 ./usr/libexec/upowerd
+-rwxr-xr-x root       root           259740 ./usr/libexec/upowerd
 drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
--rw-r--r-- root       root            11888 ./usr/lib/girepository-1.0/UPowerGlib-1.0.typelib
--rwxr-xr-x root       root           173552 ./usr/lib/libupower-glib.so.3.0.1
+-rw-r--r-- root       root            12192 ./usr/lib/girepository-1.0/UPowerGlib-1.0.typelib
+-rwxr-xr-x root       root           177648 ./usr/lib/libupower-glib.so.3.0.1
 lrwxrwxrwx root       root               23 ./usr/lib/libupower-glib.so.3 -> libupower-glib.so.3.0.1
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/dbus-1
 drwxr-xr-x root       root              120 ./usr/share/dbus-1/interfaces
--rw-r--r-- root       root            24505 ./usr/share/dbus-1/interfaces/org.freedesktop.UPower.Device.xml
--rw-r--r-- root       root             3227 ./usr/share/dbus-1/interfaces/org.freedesktop.UPower.KbdBacklight.xml
+-rw-r--r-- root       root            25704 ./usr/share/dbus-1/interfaces/org.freedesktop.UPower.Device.xml
+-rw-r--r-- root       root             4182 ./usr/share/dbus-1/interfaces/org.freedesktop.UPower.KbdBacklight.xml
 -rw-r--r-- root       root             4137 ./usr/share/dbus-1/interfaces/org.freedesktop.UPower.Wakeups.xml
 -rw-r--r-- root       root             8016 ./usr/share/dbus-1/interfaces/org.freedesktop.UPower.xml
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/system-services
