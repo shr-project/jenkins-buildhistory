@@ -1,1 +1,1 @@
-    if [ -f /usr/bin/uim-module-manager ]; then\n        /usr/bin/uim-module-manager --register anthy --path /etc/uim\n    fi\n
+    if test -n "$D"; then\n        PSEUDO_UNLOAD=1 qemu-arm -r 3.2.0  -L $D -E LD_LIBRARY_PATH=$D/usr/lib:$D/lib $D/usr/bin/uim-module-manager --register anthy --path $D/usr/share/uim\n    else\n\t\tuim-module-manager --register anthy --path /usr/share/uim\n    fi\n

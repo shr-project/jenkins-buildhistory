@@ -1,9 +1,9 @@
 PV = 4.2.2+git20130218-3ubuntu13
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
 RDEPENDS = android-tools-conf glibc (>= 2.26) openssl (>= 1.1.0f) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 222831
+PKGSIZE = 222835
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/android-tools /usr/lib/android-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/android-tools-adbd.service
 FILELIST = /lib/systemd/system/android-tools-adbd.service /usr/bin/adbd /usr/bin/make_ext4fs

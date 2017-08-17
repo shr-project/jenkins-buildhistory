@@ -2,9 +2,9 @@ PE = 2
 PV = 17.1.5
 PR = r0
 PKG = libwayland-egl1
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libwayland-egl (=17.1.5)
-RDEPENDS = glibc (>= 2.25.90)
+RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = 
 PKGSIZE = 5583
 FILES = /usr/lib/libwayland-egl.so.*

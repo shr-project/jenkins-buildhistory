@@ -2,8 +2,9 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/OpenCV
 drwxr-xr-x root       root               80 ./usr/share/OpenCV/samples
-drwxr-xr-x root       root             3140 ./usr/share/OpenCV/samples/bin
+drwxr-xr-x root       root             3220 ./usr/share/OpenCV/samples/bin
 -rwxr-xr-x root       root            46728 ./usr/share/OpenCV/samples/bin/cpp-example-3calibration
+-rwxr-xr-x root       root            22304 ./usr/share/OpenCV/samples/bin/cpp-example-application_trace
 -rwxr-xr-x root       root            30492 ./usr/share/OpenCV/samples/bin/cpp-example-autofocus
 -rwxr-xr-x root       root            18056 ./usr/share/OpenCV/samples/bin/cpp-example-bgfg_segm
 -rwxr-xr-x root       root            59020 ./usr/share/OpenCV/samples/bin/cpp-example-calibration
@@ -28,6 +29,7 @@ drwxr-xr-x root       root             3140 ./usr/share/OpenCV/samples/bin
 -rwxr-xr-x root       root            13952 ./usr/share/OpenCV/samples/bin/cpp-example-example
 -rwxr-xr-x root       root            26244 ./usr/share/OpenCV/samples/bin/cpp-example-facedetect
 -rwxr-xr-x root       root            22152 ./usr/share/OpenCV/samples/bin/cpp-example-facial_features
+-rwxr-xr-x root       root            26392 ./usr/share/OpenCV/samples/bin/cpp-example-falsecolor
 -rwxr-xr-x root       root            13952 ./usr/share/OpenCV/samples/bin/cpp-example-fback
 -rwxr-xr-x root       root            18076 ./usr/share/OpenCV/samples/bin/cpp-example-ffilldemo
 -rwxr-xr-x root       root            22148 ./usr/share/OpenCV/samples/bin/cpp-example-filestorage
@@ -61,7 +63,7 @@ drwxr-xr-x root       root             3140 ./usr/share/OpenCV/samples/bin
 -rwxr-xr-x root       root            22156 ./usr/share/OpenCV/samples/bin/cpp-example-peopledetect
 -rwxr-xr-x root       root            13956 ./usr/share/OpenCV/samples/bin/cpp-example-phase_corr
 -rwxr-xr-x root       root            30348 ./usr/share/OpenCV/samples/bin/cpp-example-points_classifier
--rwxr-xr-x root       root            18060 ./usr/share/OpenCV/samples/bin/cpp-example-polar_transforms
+-rwxr-xr-x root       root            13964 ./usr/share/OpenCV/samples/bin/cpp-example-polar_transforms
 -rwxr-xr-x root       root            18056 ./usr/share/OpenCV/samples/bin/cpp-example-segment_objects
 -rwxr-xr-x root       root            63112 ./usr/share/OpenCV/samples/bin/cpp-example-select3dobj
 -rwxr-xr-x root       root            22152 ./usr/share/OpenCV/samples/bin/cpp-example-shape_example
@@ -83,7 +85,7 @@ drwxr-xr-x root       root             3140 ./usr/share/OpenCV/samples/bin
 -rwxr-xr-x root       root            18052 ./usr/share/OpenCV/samples/bin/cpp-example-watershed
 -rwxr-xr-x root       root            13960 ./usr/share/OpenCV/samples/bin/cpp-tutorial-AddingImages
 -rwxr-xr-x root       root            13968 ./usr/share/OpenCV/samples/bin/cpp-tutorial-AddingImagesTrackbar
--rwxr-xr-x root       root            26396 ./usr/share/OpenCV/samples/bin/cpp-tutorial-AKAZE_match
+-rwxr-xr-x root       root            30492 ./usr/share/OpenCV/samples/bin/cpp-tutorial-AKAZE_match
 -rwxr-xr-x root       root            13968 ./usr/share/OpenCV/samples/bin/cpp-tutorial-BasicLinearTransforms
 -rwxr-xr-x root       root            13976 ./usr/share/OpenCV/samples/bin/cpp-tutorial-BasicLinearTransformsTrackbar
 -rwxr-xr-x root       root            26240 ./usr/share/OpenCV/samples/bin/cpp-tutorial-bg_sub
@@ -92,6 +94,7 @@ drwxr-xr-x root       root             3140 ./usr/share/OpenCV/samples/bin
 -rwxr-xr-x root       root            18056 ./usr/share/OpenCV/samples/bin/cpp-tutorial-calcHist_Demo
 -rwxr-xr-x root       root            67212 ./usr/share/OpenCV/samples/bin/cpp-tutorial-camera_calibration
 -rwxr-xr-x root       root            13980 ./usr/share/OpenCV/samples/bin/cpp-tutorial-CannyDetector_Demo
+-rwxr-xr-x root       root            18088 ./usr/share/OpenCV/samples/bin/cpp-tutorial-changing_contrast_brightness_image
 -rwxr-xr-x root       root            22152 ./usr/share/OpenCV/samples/bin/cpp-tutorial-cloning_demo
 -rwxr-xr-x root       root            34444 ./usr/share/OpenCV/samples/bin/cpp-tutorial-cloning_gui
 -rwxr-xr-x root       root            18060 ./usr/share/OpenCV/samples/bin/cpp-tutorial-compareHist_Demo
@@ -115,9 +118,11 @@ drwxr-xr-x root       root             3140 ./usr/share/OpenCV/samples/bin
 -rwxr-xr-x root       root            13984 ./usr/share/OpenCV/samples/bin/cpp-tutorial-Geometric_Transforms_Demo
 -rwxr-xr-x root       root            13984 ./usr/share/OpenCV/samples/bin/cpp-tutorial-goodFeaturesToTrack_Demo
 -rwxr-xr-x root       root            18056 ./usr/share/OpenCV/samples/bin/cpp-tutorial-hdr_imaging
+-rwxr-xr-x root       root            18052 ./usr/share/OpenCV/samples/bin/cpp-tutorial-HitMiss
 -rwxr-xr-x root       root            13964 ./usr/share/OpenCV/samples/bin/cpp-tutorial-HoughCircle_Demo
--rwxr-xr-x root       root            13980 ./usr/share/OpenCV/samples/bin/cpp-tutorial-HoughLines_Demo
+-rwxr-xr-x root       root            18076 ./usr/share/OpenCV/samples/bin/cpp-tutorial-HoughLines_Demo
 -rwxr-xr-x root       root            22156 ./usr/share/OpenCV/samples/bin/cpp-tutorial-how_to_scan_images
+-rwxr-xr-x root       root            18188 ./usr/share/OpenCV/samples/bin/cpp-tutorial-how_to_use_OpenCV_parallel_for_
 -rwxr-xr-x root       root            18060 ./usr/share/OpenCV/samples/bin/cpp-tutorial-hull_demo
 -rwxr-xr-x root       root            30496 ./usr/share/OpenCV/samples/bin/cpp-tutorial-imageSegmentation
 -rwxr-xr-x root       root            14088 ./usr/share/OpenCV/samples/bin/cpp-tutorial-interoperability_with_OpenCV_1
@@ -135,9 +140,8 @@ drwxr-xr-x root       root             3140 ./usr/share/OpenCV/samples/bin
 -rwxr-xr-x root       root            22300 ./usr/share/OpenCV/samples/bin/cpp-tutorial-Morphology_3
 -rwxr-xr-x root       root            22156 ./usr/share/OpenCV/samples/bin/cpp-tutorial-non_linear_svms
 -rwxr-xr-x root       root            13956 ./usr/share/OpenCV/samples/bin/cpp-tutorial-npr_demo
--rwxr-xr-x root       root            13964 ./usr/share/OpenCV/samples/bin/cpp-tutorial-objectDetection
--rwxr-xr-x root       root            13964 ./usr/share/OpenCV/samples/bin/cpp-tutorial-objectDetection2
--rwxr-xr-x root       root            50976 ./usr/share/OpenCV/samples/bin/cpp-tutorial-planar_tracking
+-rwxr-xr-x root       root            18060 ./usr/share/OpenCV/samples/bin/cpp-tutorial-objectDetection
+-rwxr-xr-x root       root            46880 ./usr/share/OpenCV/samples/bin/cpp-tutorial-planar_tracking
 -rwxr-xr-x root       root           108400 ./usr/share/OpenCV/samples/bin/cpp-tutorial-pnp_detection
 -rwxr-xr-x root       root            96116 ./usr/share/OpenCV/samples/bin/cpp-tutorial-pnp_registration
 -rwxr-xr-x root       root            13968 ./usr/share/OpenCV/samples/bin/cpp-tutorial-pointPolygonTest_demo
@@ -172,7 +176,7 @@ drwxr-xr-x root       root             1140 ./usr/share/OpenCV/samples/python
 -r--r--r-- root       root             5542 ./usr/share/OpenCV/samples/python/demo.py
 -r--r--r-- root       root             2784 ./usr/share/OpenCV/samples/python/dft.py
 -r--r--r-- root       root             4370 ./usr/share/OpenCV/samples/python/digits_adjust.py
--r--r--r-- root       root             5434 ./usr/share/OpenCV/samples/python/digits.py
+-r--r--r-- root       root             5439 ./usr/share/OpenCV/samples/python/digits.py
 -r--r--r-- root       root             2989 ./usr/share/OpenCV/samples/python/digits_video.py
 -r--r--r-- root       root             1538 ./usr/share/OpenCV/samples/python/distrans.py
 -r--r--r-- root       root              573 ./usr/share/OpenCV/samples/python/_doc.py
@@ -197,7 +201,7 @@ drwxr-xr-x root       root             1140 ./usr/share/OpenCV/samples/python
 -r--r--r-- root       root             3148 ./usr/share/OpenCV/samples/python/lk_track.py
 -r--r--r-- root       root              772 ./usr/share/OpenCV/samples/python/logpolar.py
 -r--r--r-- root       root             2448 ./usr/share/OpenCV/samples/python/morphology.py
--r--r--r-- root       root             6435 ./usr/share/OpenCV/samples/python/mosse.py
+-r--r--r-- root       root             6425 ./usr/share/OpenCV/samples/python/mosse.py
 -r--r--r-- root       root             2757 ./usr/share/OpenCV/samples/python/mouse_and_match.py
 -r--r--r-- root       root              817 ./usr/share/OpenCV/samples/python/mser.py
 -r--r--r-- root       root              649 ./usr/share/OpenCV/samples/python/opencv_version.py

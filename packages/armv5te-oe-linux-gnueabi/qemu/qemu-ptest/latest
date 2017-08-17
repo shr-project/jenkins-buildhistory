@@ -1,8 +1,8 @@
 PV = 2.8.1.1
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = bash glib-2.0 (>= 2.52.2) glibc (>= 2.25.90) libgcc (>= 7.1.0) make zlib (>= 1.2.11)
+RDEPENDS = bash glib-2.0 (>= 2.52.2) glibc (>= 2.26) libgcc (>= 7.2.0) make zlib (>= 1.2.11)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 21602946
 FILES = /usr/lib/qemu/ptest

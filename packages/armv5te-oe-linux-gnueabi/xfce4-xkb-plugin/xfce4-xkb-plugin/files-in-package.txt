@@ -1,12 +1,14 @@
 drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root               60 ./usr/libexec
-drwxr-xr-x root       root               60 ./usr/libexec/xfce4
-drwxr-xr-x root       root               60 ./usr/libexec/xfce4/panel-plugins
--rwxr-xr-x root       root            42648 ./usr/libexec/xfce4/panel-plugins/xfce4-xkb-plugin
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/xfce4
+drwxr-xr-x root       root               60 ./usr/lib/xfce4/panel
+drwxr-xr-x root       root               60 ./usr/lib/xfce4/panel/plugins
+-rwxr-xr-x root       root            46632 ./usr/lib/xfce4/panel/plugins/libxkb.so
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/xfce4
-drwxr-xr-x root       root               60 ./usr/share/xfce4/panel-plugins
--rw-r--r-- root       root             5886 ./usr/share/xfce4/panel-plugins/xkb-plugin.desktop
+drwxr-xr-x root       root               60 ./usr/share/xfce4/panel
+drwxr-xr-x root       root               60 ./usr/share/xfce4/panel/plugins
+-rw-r--r-- root       root             5913 ./usr/share/xfce4/panel/plugins/xkb.desktop
 drwxr-xr-x root       root               60 ./usr/share/xfce4/xkb
 drwxr-xr-x root       root             1780 ./usr/share/xfce4/xkb/flags
 -rw-r--r-- root       root              537 ./usr/share/xfce4/xkb/flags/ae.svg
@@ -27,7 +29,6 @@ drwxr-xr-x root       root             1780 ./usr/share/xfce4/xkb/flags
 -rw-r--r-- root       root             1303 ./usr/share/xfce4/xkb/flags/cu.svg
 -rw-r--r-- root       root              591 ./usr/share/xfce4/xkb/flags/cz.svg
 -rw-r--r-- root       root              502 ./usr/share/xfce4/xkb/flags/de.svg
--rw-r--r-- root       root             9618 ./usr/share/xfce4/xkb/flags/dev.svg
 -rw-r--r-- root       root             2810 ./usr/share/xfce4/xkb/flags/dj.svg
 -rw-r--r-- root       root              505 ./usr/share/xfce4/xkb/flags/dk.svg
 -rw-r--r-- root       root             2426 ./usr/share/xfce4/xkb/flags/dvorak.svg
@@ -47,6 +48,7 @@ drwxr-xr-x root       root             1780 ./usr/share/xfce4/xkb/flags
 -rw-r--r-- root       root              360 ./usr/share/xfce4/xkb/flags/hu.svg
 -rw-r--r-- root       root              289 ./usr/share/xfce4/xkb/flags/ie.svg
 -rw-r--r-- root       root             1948 ./usr/share/xfce4/xkb/flags/il.svg
+-rw-r--r-- root       root             9618 ./usr/share/xfce4/xkb/flags/in.svg
 -rw-r--r-- root       root             9540 ./usr/share/xfce4/xkb/flags/iq.svg
 -rw-r--r-- root       root             3062 ./usr/share/xfce4/xkb/flags/ir.svg
 -rw-r--r-- root       root              589 ./usr/share/xfce4/xkb/flags/is.svg
@@ -78,7 +80,7 @@ drwxr-xr-x root       root             1780 ./usr/share/xfce4/xkb/flags
 -rw-r--r-- root       root              536 ./usr/share/xfce4/xkb/flags/qa.svg
 -rw-r--r-- root       root              753 ./usr/share/xfce4/xkb/flags/ro.svg
 -rw-r--r-- root       root           193005 ./usr/share/xfce4/xkb/flags/rs.svg
--rw-r--r-- root       root              279 ./usr/share/xfce4/xkb/flags/ru.svg
+-rw-r--r-- root       root              285 ./usr/share/xfce4/xkb/flags/ru.svg
 -rw-r--r-- root       root            31797 ./usr/share/xfce4/xkb/flags/sa.svg
 -rw-r--r-- root       root              335 ./usr/share/xfce4/xkb/flags/sd.svg
 -rw-r--r-- root       root              399 ./usr/share/xfce4/xkb/flags/se.svg

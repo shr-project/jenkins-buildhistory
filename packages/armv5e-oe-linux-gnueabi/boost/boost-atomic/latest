@@ -1,9 +1,9 @@
 PV = 1.64.0
 PR = r0
 PKG = libboost-atomic1.64.0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = boost-atomic (=1.64.0)
-RDEPENDS = libstdc++ (>= 7.1.0)
+RDEPENDS = libstdc++ (>= 7.2.0)
 RRECOMMENDS = 
 PKGSIZE = 5664
 FILES = /usr/lib/libboost_atomic*.so.*

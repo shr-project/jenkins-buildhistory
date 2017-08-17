@@ -1,9 +1,9 @@
 PV = 1.7.8
 PR = r0
 PKG = libcppunit1
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = poco-cppunit (=1.7.8)
-RDEPENDS = glibc (>= 2.26) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0)
 RRECOMMENDS = 
 PKGSIZE = 42620
 FILES = /usr/lib/libCppUnit.so*
