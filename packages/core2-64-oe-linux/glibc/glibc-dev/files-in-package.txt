@@ -496,10 +496,10 @@ drwxr-xr-x root       root             1720 ./usr/include/sys
 -rw-r--r-- root       root             5548 ./usr/include/wctype.h
 -rw-r--r-- root       root             2501 ./usr/include/wordexp.h
 drwxr-xr-x root       root              640 ./usr/lib
--rw-r--r-- root       root             4168 ./usr/lib/crt1.o
--rw-r--r-- root       root             2608 ./usr/lib/crti.o
--rw-r--r-- root       root             2352 ./usr/lib/crtn.o
--rw-r--r-- root       root             9448 ./usr/lib/gcrt1.o
+-rw-r--r-- root       root             4248 ./usr/lib/crt1.o
+-rw-r--r-- root       root             2776 ./usr/lib/crti.o
+-rw-r--r-- root       root             2528 ./usr/lib/crtn.o
+-rw-r--r-- root       root             9536 ./usr/lib/gcrt1.o
 lrwxrwxrwx root       root               21 ./usr/lib/libanl.so -> ../../lib/libanl.so.1
 lrwxrwxrwx root       root               30 ./usr/lib/libBrokenLocale.so -> ../../lib/libBrokenLocale.so.1
 lrwxrwxrwx root       root               22 ./usr/lib/libcidn.so -> ../../lib/libcidn.so.1
@@ -508,7 +508,7 @@ lrwxrwxrwx root       root               23 ./usr/lib/libcrypt.so -> ../../lib/l
 -rw-r--r-- root       root              247 ./usr/lib/libc.so
 lrwxrwxrwx root       root               20 ./usr/lib/libdl.so -> ../../lib/libdl.so.2
 -rw-r--r-- root       root              135 ./usr/lib/libm.so
--rw-r--r-- root       root             7086 ./usr/lib/libmvec_nonshared.a
+-rw-r--r-- root       root             7262 ./usr/lib/libmvec_nonshared.a
 lrwxrwxrwx root       root               22 ./usr/lib/libmvec.so -> ../../lib/libmvec.so.1
 lrwxrwxrwx root       root               21 ./usr/lib/libnsl.so -> ../../lib/libnsl.so.1
 lrwxrwxrwx root       root               28 ./usr/lib/libnss_compat.so -> ../../lib/libnss_compat.so.2
@@ -525,4 +525,4 @@ lrwxrwxrwx root       root               20 ./usr/lib/librt.so -> ../../lib/libr
 lrwxrwxrwx root       root               27 ./usr/lib/libthread_db.so -> ../../lib/libthread_db.so.1
 lrwxrwxrwx root       root               22 ./usr/lib/libutil.so -> ../../lib/libutil.so.1
 -rw-r--r-- root       root             1336 ./usr/lib/Mcrt1.o
--rw-r--r-- root       root             4168 ./usr/lib/Scrt1.o
+-rw-r--r-- root       root             4248 ./usr/lib/Scrt1.o
