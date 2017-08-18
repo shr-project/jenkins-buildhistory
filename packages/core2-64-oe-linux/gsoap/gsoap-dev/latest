@@ -1,9 +1,9 @@
-PV = 2.8.12
-PR = r1
-PKGR = r1.9
+PV = 2.8.51
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = gsoap (= 2.8.12-r1.9)
-RRECOMMENDS = bison-dev flex-dev glibc-dev gsoap-staticdev libcrypto-dev libgcc-dev libssl-dev libstdc++-dev openssl-dev zlib-dev
-PKGSIZE = 92718
+RDEPENDS = gsoap (= 2.8.51-r0.0)
+RRECOMMENDS = bison-dev flex-dev glibc-dev gsoap-staticdev libgcc-dev libstdc++-dev openssl-dev openssl-ptest-dev zlib-dev
+PKGSIZE = 149175
 FILES = /usr/include
 FILELIST = /usr/include/stdsoap2.h

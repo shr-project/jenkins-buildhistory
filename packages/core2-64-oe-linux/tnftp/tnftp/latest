@@ -1,8 +1,8 @@
 PV = 20151004
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) ncurses-libtinfo (>= 6.0+20161126) openssl (>= 1.1.0f) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.26) ncurses-libtinfo (>= 6.0+20161126) openssl-ptest (>= 1.1.0f) update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 289720
 FILES = /usr/bin/tnftp
