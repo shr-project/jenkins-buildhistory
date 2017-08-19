@@ -10,20 +10,20 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              252 ./lib/systemd/system/openhpid.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              480 ./usr/bin
--rwxr-xr-x root       root            14680 ./usr/bin/hpialarms
+-rwxr-xr-x root       root            14684 ./usr/bin/hpialarms
 -rwxr-xr-x root       root            14284 ./usr/bin/hpicrypt
 -rwxr-xr-x root       root            18504 ./usr/bin/hpidomain
 -rwxr-xr-x root       root            18748 ./usr/bin/hpiel
 -rwxr-xr-x root       root            14412 ./usr/bin/hpievents
 -rwxr-xr-x root       root            14408 ./usr/bin/hpifan
 -rwxr-xr-x root       root            43216 ./usr/bin/hpigensimdata
--rwxr-xr-x root       root            23328 ./usr/bin/hpiinv
+-rwxr-xr-x root       root            23332 ./usr/bin/hpiinv
 -rwxr-xr-x root       root            22728 ./usr/bin/hpionIBMblade
 -rwxr-xr-x root       root            18608 ./usr/bin/hpipower
 -rwxr-xr-x root       root            14432 ./usr/bin/hpireset
 -rwxr-xr-x root       root            18572 ./usr/bin/hpisensor
 -rwxr-xr-x root       root            18520 ./usr/bin/hpisettime
--rwxr-xr-x root       root           129260 ./usr/bin/hpi_shell
+-rwxr-xr-x root       root           129264 ./usr/bin/hpi_shell
 -rwxr-xr-x root       root            22620 ./usr/bin/hpithres
 -rwxr-xr-x root       root            18708 ./usr/bin/hpitop
 -rwxr-xr-x root       root            18708 ./usr/bin/hpitree
@@ -56,12 +56,12 @@ lrwxrwxrwx root       root               21 ./usr/lib/openhpi/libsimulator.so.3 
 lrwxrwxrwx root       root               17 ./usr/lib/openhpi/libslave.so.3 -> libslave.so.3.6.1
 -rwxr-xr-x root       root          1129500 ./usr/lib/openhpi/libsnmp_bc.so.3.6.1
 lrwxrwxrwx root       root               19 ./usr/lib/openhpi/libsnmp_bc.so.3 -> libsnmp_bc.so.3.6.1
--rwxr-xr-x root       root           221024 ./usr/lib/openhpi/libtest_agent.so.3.6.1
+-rwxr-xr-x root       root           221028 ./usr/lib/openhpi/libtest_agent.so.3.6.1
 lrwxrwxrwx root       root               22 ./usr/lib/openhpi/libtest_agent.so.3 -> libtest_agent.so.3.6.1
 -rwxr-xr-x root       root            13904 ./usr/lib/openhpi/libwatchdog.so.3.6.1
 lrwxrwxrwx root       root               20 ./usr/lib/openhpi/libwatchdog.so.3 -> libwatchdog.so.3.6.1
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root           139648 ./usr/sbin/openhpid
+-rwxr-xr-x root       root           139652 ./usr/sbin/openhpid
 drwxr-xr-x root       root               60 ./var
 drwxr-xr-x root       root               60 ./var/lib
 drwxr-xr-x root       root               40 ./var/lib/openhpi

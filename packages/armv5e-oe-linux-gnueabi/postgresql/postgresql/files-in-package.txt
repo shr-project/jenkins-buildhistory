@@ -7,11 +7,11 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              625 ./lib/systemd/system/postgresql.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              420 ./usr/bin
--rwxr-xr-x root       root           751472 ./usr/bin/ecpg
--rwxr-xr-x root       root           100752 ./usr/bin/initdb
+-rwxr-xr-x root       root           751476 ./usr/bin/ecpg
+-rwxr-xr-x root       root           100756 ./usr/bin/initdb
 -rwxr-xr-x root       root            22144 ./usr/bin/pg_archivecleanup
 -rwxr-xr-x root       root            71708 ./usr/bin/pg_basebackup
--rwxr-xr-x root       root            34480 ./usr/bin/pg_config
+-rwxr-xr-x root       root            34484 ./usr/bin/pg_config
 -rwxr-xr-x root       root            30332 ./usr/bin/pg_controldata
 -rwxr-xr-x root       root            42764 ./usr/bin/pg_ctl
 -rwxr-xr-x root       root            30440 ./usr/bin/pg_isready
@@ -38,7 +38,7 @@ drwxr-xr-x root       root              760 ./usr/lib/postgresql
 -rwxr-xr-x root       root            10292 ./usr/lib/postgresql/euc_tw_and_big5.so
 -rwxr-xr-x root       root             5608 ./usr/lib/postgresql/latin2_and_win1250.so
 -rwxr-xr-x root       root             5604 ./usr/lib/postgresql/latin_and_mic.so
--rwxr-xr-x root       root            13796 ./usr/lib/postgresql/libpqwalreceiver.so
+-rwxr-xr-x root       root            13800 ./usr/lib/postgresql/libpqwalreceiver.so
 -rwxr-xr-x root       root             9696 ./usr/lib/postgresql/pg_prewarm.so
 drwxr-xr-x root       root               80 ./usr/lib/postgresql/pgxs
 drwxr-xr-x root       root               80 ./usr/lib/postgresql/pgxs/config
@@ -55,7 +55,7 @@ drwxr-xr-x root       root               60 ./usr/lib/postgresql/pgxs/src/test
 drwxr-xr-x root       root               60 ./usr/lib/postgresql/pgxs/src/test/regress
 -rwxr-xr-x root       root            55368 ./usr/lib/postgresql/pgxs/src/test/regress/pg_regress
 -rwxr-xr-x root       root           157208 ./usr/lib/postgresql/plpgsql.so
--rwxr-xr-x root       root            50716 ./usr/lib/postgresql/postgres_fdw.so
+-rwxr-xr-x root       root            50720 ./usr/lib/postgresql/postgres_fdw.so
 -rwxr-xr-x root       root             9688 ./usr/lib/postgresql/tcn.so
 -rwxr-xr-x root       root             9700 ./usr/lib/postgresql/test_decoding.so
 -rwxr-xr-x root       root            17888 ./usr/lib/postgresql/test_shm_mq.so

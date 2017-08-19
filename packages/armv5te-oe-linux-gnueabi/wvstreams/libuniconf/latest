@@ -1,9 +1,9 @@
 PV = 4.6.1
 PR = r0
 PKG = libuniconf4.6
-PKGR = r0.14
+PKGR = r0.0
 RPROVIDES = libuniconf (=4.6.1)
-RDEPENDS = glibc (>= 2.25.90) libgcc (>= 7.1.0) libstdc++ (>= 7.1.0) libwvstreams-base (>= 4.6.1) libwvstreams-extras (>= 4.6.1)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) libwvstreams-base (>= 4.6.1) libwvstreams-extras (>= 4.6.1)
 RRECOMMENDS = 
 PKGSIZE = 247484
 FILES = /usr/lib/libuniconf.so.*

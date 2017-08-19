@@ -1,9 +1,9 @@
 PV = 2.1.8
 PR = r0
 PKG = libudisks2-0
-PKGR = r0.11
+PKGR = r0.0
 RPROVIDES = udisks2-libs (=2.1.8)
-RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.26)
+RDEPENDS = glib-2.0 (>= 2.52.3) glibc (>= 2.26)
 RRECOMMENDS = 
 PKGSIZE = 259635
 FILES = /usr/lib/lib*.so.*

@@ -1,12 +1,13 @@
-drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root              100 ./usr/lib
--rwxr-xr-x root       root          1588452 ./usr/lib/libcrypto.so.1.1
--rwxr-xr-x root       root           280780 ./usr/lib/libssl.so.1.1
-drwxr-xr-x root       root              140 ./usr/lib/ssl-1.1
-drwxr-xr-x root       root               40 ./usr/lib/ssl-1.1/certs
-drwxr-xr-x root       root               80 ./usr/lib/ssl-1.1/misc
--rwxr-xr-x root       root             6755 ./usr/lib/ssl-1.1/misc/CA.pl
--rwxr-xr-x root       root             6614 ./usr/lib/ssl-1.1/misc/tsget
--rw-r--r-- root       root            10771 ./usr/lib/ssl-1.1/openssl.cnf
--rw-r--r-- root       root            10771 ./usr/lib/ssl-1.1/openssl.cnf.dist
-drwxr-xr-x root       root               40 ./usr/lib/ssl-1.1/private
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               80 ./etc/ssl
+drwxr-xr-x root       root               40 ./etc/ssl/certs
+drwxr-xr-x root       root               40 ./etc/ssl/private
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               80 ./usr/bin
+-rwxr-xr-x root       root             4522 ./usr/bin/c_rehash
+-rwxr-xr-x root       root           428484 ./usr/bin/openssl
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root              100 ./usr/lib/ssl
+lrwxrwxrwx root       root               22 ./usr/lib/ssl/certs -> ../../../etc/ssl/certs
+lrwxrwxrwx root       root               28 ./usr/lib/ssl/openssl.cnf -> ../../../etc/ssl/openssl.cnf
+lrwxrwxrwx root       root               24 ./usr/lib/ssl/private -> ../../../etc/ssl/private

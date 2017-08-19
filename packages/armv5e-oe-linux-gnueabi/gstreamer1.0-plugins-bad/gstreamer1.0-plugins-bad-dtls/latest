@@ -2,8 +2,8 @@ PV = 1.12.2
 PR = r0
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.52.2) glibc (>= 2.26) gstreamer1.0 (>= 1.12.2) openssl (>= 1.1.0f)
+RDEPENDS = glib-2.0 (>= 2.52.3) glibc (>= 2.26) gstreamer1.0 (>= 1.12.2) libcrypto (>= 1.0.2l) libssl (>= 1.0.2l)
 RRECOMMENDS = 
-PKGSIZE = 84048
+PKGSIZE = 84088
 FILES = /usr/lib/gstreamer-1.0/libgstdtls.so
 FILELIST = /usr/lib/gstreamer-1.0/libgstdtls.so
