@@ -1,8 +1,8 @@
 PV = 10.1.5
 PR = r0
-PKGR = r0.13
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = fuse glib-2.0 (>= 2.52.2) glibc (>= 2.26) libdnet (>= 1.12) procps (>= 3.3.12) util-linux
+RDEPENDS = fuse glib-2.0 (>= 2.52.3) glibc (>= 2.26) libdnet (>= 1.12) procps (>= 3.3.12) util-linux
 RRECOMMENDS = 
 PKGSIZE = 1370323
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/open-vm-tools /usr/lib/open-vm-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/open-vm-tools/plugins/vmsvc/lib*.so /usr/lib/open-vm-tools/plugins/common/lib*.so /etc/vmware-tools/tools.conf /lib/systemd/system/vmtoolsd.service

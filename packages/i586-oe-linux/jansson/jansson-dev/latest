@@ -1,9 +1,9 @@
 PV = 2.9
 PR = r0
 PKG = libjansson-dev
-PKGR = r0.15
+PKGR = r0.0
 RPROVIDES = jansson-dev (=2.9)
-RDEPENDS = jansson (= 2.9-r0.15)
+RDEPENDS = jansson (= 2.9-r0.0)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 11591
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/jansson/*.la /lib/*.la

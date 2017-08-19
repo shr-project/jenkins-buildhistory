@@ -1,0 +1,5 @@
+PV = 1.8.3
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libva libxext libxfixes pkgconfig-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc virtual/libx11 wayland wayland-native
+PACKAGES = libva-utils-dbg libva-utils-staticdev libva-utils-dev libva-utils-doc libva-utils-locale libva-utils
+LAYER = core

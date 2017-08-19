@@ -1,9 +1,9 @@
 PV = 9.4.11
 PR = r0
 PKG = libpgtypes3
-PKGR = r0.13
+PKGR = r0.0
 RPROVIDES = libpgtypes (=9.4.11)
-RDEPENDS = glibc (>= 2.25.90)
+RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = 
 PKGSIZE = 81101
 FILES = /usr/lib/libpgtypes*.so.*

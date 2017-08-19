@@ -1,9 +1,9 @@
 PV = 1.9.6
 PR = r0
-PKGR = r0.15
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg openssl-dbg
-PKGSIZE = 22520
+RRECOMMENDS = glibc-dbg libssl-dbg
+PKGSIZE = 22564
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/sbin/.debug/crypt /usr/sbin/.debug/nhttpd

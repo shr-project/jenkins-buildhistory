@@ -1,8 +1,8 @@
 PV = 3.2.0
 PR = r0
-PKGR = r0.14
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = atk (>= 2.24.0) cairo (>= 1.14.8) cairo-gobject (>= 1.14.8) gdk-pixbuf (>= 2.36.6) glib-2.0 (>= 2.52.2) glibc (>= 2.26) gtk+3 (>= 3.22.17) gtk-xfce-engine-themes pango (>= 1.40.6)
+RDEPENDS = atk (>= 2.24.0) cairo (>= 1.14.10) cairo-gobject (>= 1.14.10) gdk-pixbuf (>= 2.36.8) glib-2.0 (>= 2.52.3) glibc (>= 2.26) gtk+3 (>= 3.22.17) gtk-xfce-engine-themes pango (>= 1.40.6)
 RRECOMMENDS = 
 PKGSIZE = 46628
 FILES = /usr/lib/gtk-3.0/*/theming-engines/*.so
