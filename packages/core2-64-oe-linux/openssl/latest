@@ -1,5 +1,5 @@
-PV = 1.1.0f
+PV = 1.0.2l
 PR = r0
-DEPENDS = virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
-PACKAGES = openssl-engines openssl-ptest openssl-dbg openssl-staticdev openssl-dev openssl-doc openssl-locale openssl-bin openssl
+DEPENDS = cryptodev-linux hostperl-runtime-native makedepend-native openssl-native pkgconfig-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = openssl-engines libcrypto libssl openssl-misc openssl-conf openssl-ptest openssl-dbg openssl-staticdev openssl-dev openssl-doc openssl-locale openssl
 LAYER = core
