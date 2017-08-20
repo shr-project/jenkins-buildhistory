@@ -3,9 +3,9 @@ drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              140 ./usr/bin/.debug
 -rwxr-xr-x root       root            90544 ./usr/bin/.debug/cvt
 -rwxr-xr-x root       root            30924 ./usr/bin/.debug/gtf
--rwxr-xr-x root       root         12230140 ./usr/bin/.debug/Xorg
--rwxr-xr-x root       root         10649616 ./usr/bin/.debug/Xvfb
--rwxr-xr-x root       root         15374676 ./usr/bin/.debug/Xwayland
+-rwxr-xr-x root       root         12230264 ./usr/bin/.debug/Xorg
+-rwxr-xr-x root       root         10649740 ./usr/bin/.debug/Xvfb
+-rwxr-xr-x root       root         15374796 ./usr/bin/.debug/Xwayland
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/xorg
 drwxr-xr-x root       root              100 ./usr/lib/xorg/modules
@@ -75,7 +75,7 @@ drwxr-xr-x root       root              720 ./usr/src/debug/xserver-xorg/2_1.19.
 -rw-r--r-- root       root            52271 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/enterleave.c
 -rw-r--r-- root       root             2749 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/enterleave.h
 -rw-r--r-- root       root            27651 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/eventconvert.c
--rw-r--r-- root       root           195259 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/events.c
+-rw-r--r-- root       root           195502 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/events.c
 -rw-r--r-- root       root            10100 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/extension.c
 -rw-r--r-- root       root            31827 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/gc.c
 -rw-r--r-- root       root            67313 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/getevents.c
@@ -95,7 +95,7 @@ drwxr-xr-x root       root              720 ./usr/src/debug/xserver-xorg/2_1.19.
 -rw-r--r-- root       root             9692 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/selection.c
 -rw-r--r-- root       root             1435 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/stubmain.c
 -rw-r--r-- root       root            35855 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/swaprep.c
--rw-r--r-- root       root            24939 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/swapreq.c
+-rw-r--r-- root       root            25183 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/swapreq.c
 -rw-r--r-- root       root            27147 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/tables.c
 -rw-r--r-- root       root            32335 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/touch.c
 -rw-r--r-- root       root           118181 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/dix/window.c
@@ -775,7 +775,7 @@ drwxr-xr-x root       root             1720 ./usr/src/debug/xserver-xorg/2_1.19.
 -rw-r--r-- root       root             5406 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/Xi/queryst.c
 -rw-r--r-- root       root             1633 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/Xi/queryst.h
 -rw-r--r-- root       root             5948 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/Xi/selectev.c
--rw-r--r-- root       root             5436 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/Xi/sendexev.c
+-rw-r--r-- root       root             5721 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/Xi/sendexev.c
 -rw-r--r-- root       root             4630 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/Xi/setbmap.c
 -rw-r--r-- root       root             1669 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/Xi/setbmap.h
 -rw-r--r-- root       root             4944 ./usr/src/debug/xserver-xorg/2_1.19.3-r0/xorg-server-1.19.3/Xi/setdval.c
