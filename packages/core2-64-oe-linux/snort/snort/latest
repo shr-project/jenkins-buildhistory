@@ -1,8 +1,8 @@
 PV = 2.9.7.5
 PR = r0
-PKGR = r0.11
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = daq (>= 2.0.6) glibc (>= 2.26) libdnet (>= 1.12) liblzma (>= 5.2.3) libpcap (>= 1.8.1) libpcre (>= 8.41) openssl-ptest (>= 1.1.0f) util-linux-libuuid (>= 2.30) zlib (>= 1.2.11)
+RDEPENDS = daq (>= 2.0.6) glibc (>= 2.26) libcrypto (>= 1.0.2l) libdnet (>= 1.12) liblzma (>= 5.2.3) libpcap (>= 1.8.1) libpcre (>= 8.41) util-linux-libuuid (>= 2.30) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 2745998
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/snort /usr/lib/snort/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/snort_dynamicengine/*.so.* /usr/lib/snort_dynamicpreprocessor/*.so.* /usr/lib/snort_dynamicrules/*.so.*

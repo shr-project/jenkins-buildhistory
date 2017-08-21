@@ -1,8 +1,8 @@
 PV = 4.12.1
 PR = r0
-PKGR = r0.11
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libxfce4ui (= 4.12.1-r0.11) libxfce4ui-gtk2 libxfce4ui-gtk3
+RDEPENDS = libxfce4ui (= 4.12.1-r0.0) libxfce4ui-gtk2 libxfce4ui-gtk3
 RRECOMMENDS = atk-dev cairo-dev cairo-gobject-dev dbus-glib-dev dbus-lib-dev fontconfig-dev freetype-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gtk+-dev gtk+3-dev hicolor-icon-theme-dev libice-dev libsm-dev libx11-dev libxfce4ui-gtk2-dev libxfce4ui-gtk3-dev libxfce4util-dev pango-dev xfce4-dev-tools-dev xfconf-dev
 PKGSIZE = 72402
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libxfce4ui/*.la /lib/*.la /usr/lib/xfce4/*/*.la /usr/lib/xfce4/*/*/*.la /usr/lib/glade3/modules/*.la /usr/share/glade3/catalogs/*.in

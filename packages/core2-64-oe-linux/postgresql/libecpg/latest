@@ -1,9 +1,9 @@
 PV = 9.4.11
 PR = r0
 PKG = libecpg6
-PKGR = r0.9
+PKGR = r0.0
 RPROVIDES = libecpg (=9.4.11)
-RDEPENDS = glibc (>= 2.25.90) libpgtypes (>= 9.4.11) libpq (>= 9.4.11)
+RDEPENDS = glibc (>= 2.26) libpgtypes (>= 9.4.11) libpq (>= 9.4.11)
 RRECOMMENDS = 
 PKGSIZE = 88446
 FILES = /usr/lib/libecpg*.so.*
