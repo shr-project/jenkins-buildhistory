@@ -15,18 +15,18 @@ drwxr-xr-x root       root              940 ./usr/include/quagga
 -rw-r--r-- root       root             1605 ./usr/include/quagga/jhash.h
 -rw-r--r-- root       root             1472 ./usr/include/quagga/keychain.h
 -rw-r--r-- root       root             3285 ./usr/include/quagga/libospf.h
--rw-r--r-- root       root             4911 ./usr/include/quagga/linklist.h
--rw-r--r-- root       root             8100 ./usr/include/quagga/log.h
+-rw-r--r-- root       root             4999 ./usr/include/quagga/linklist.h
+-rw-r--r-- root       root             8133 ./usr/include/quagga/log.h
 -rw-r--r-- root       root             3050 ./usr/include/quagga/md5.h
--rw-r--r-- root       root             3230 ./usr/include/quagga/memory.h
--rw-r--r-- root       root             5195 ./usr/include/quagga/memtypes.h
+-rw-r--r-- root       root             3232 ./usr/include/quagga/memory.h
+-rw-r--r-- root       root             5494 ./usr/include/quagga/memtypes.h
 -rw-r--r-- root       root             1497 ./usr/include/quagga/network.h
 -rw-r--r-- root       root             3047 ./usr/include/quagga/nexthop.h
 drwxr-xr-x root       root               60 ./usr/include/quagga/ospfapi
 -rw-r--r-- root       root             4629 ./usr/include/quagga/ospfapi/ospf_apiclient.h
 drwxr-xr-x root       root              220 ./usr/include/quagga/ospfd
 -rw-r--r-- root       root            10831 ./usr/include/quagga/ospfd/ospf_api.h
--rw-r--r-- root       root             2777 ./usr/include/quagga/ospfd/ospf_asbr.h
+-rw-r--r-- root       root             2799 ./usr/include/quagga/ospfd/ospf_asbr.h
 -rw-r--r-- root       root            19779 ./usr/include/quagga/ospfd/ospfd.h
 -rw-r--r-- root       root             5065 ./usr/include/quagga/ospfd/ospf_dump.h
 -rw-r--r-- root       root             4277 ./usr/include/quagga/ospfd/ospf_ism.h
@@ -38,21 +38,21 @@ drwxr-xr-x root       root              220 ./usr/include/quagga/ospfd
 -rw-r--r-- root       root             1439 ./usr/include/quagga/pqueue.h
 -rw-r--r-- root       root             8749 ./usr/include/quagga/prefix.h
 -rw-r--r-- root       root             2600 ./usr/include/quagga/privs.h
--rw-r--r-- root       root             5090 ./usr/include/quagga/routemap.h
--rw-r--r-- root       root            11552 ./usr/include/quagga/route_types.h
+-rw-r--r-- root       root             5221 ./usr/include/quagga/routemap.h
+-rw-r--r-- root       root            14283 ./usr/include/quagga/route_types.h
 -rw-r--r-- root       root             1643 ./usr/include/quagga/sigevent.h
 -rw-r--r-- root       root             3742 ./usr/include/quagga/smux.h
 -rw-r--r-- root       root             3985 ./usr/include/quagga/sockopt.h
--rw-r--r-- root       root             4366 ./usr/include/quagga/sockunion.h
--rw-r--r-- root       root             8832 ./usr/include/quagga/stream.h
+-rw-r--r-- root       root             4434 ./usr/include/quagga/sockunion.h
+-rw-r--r-- root       root             8942 ./usr/include/quagga/stream.h
 -rw-r--r-- root       root              639 ./usr/include/quagga/str.h
 -rw-r--r-- root       root             6218 ./usr/include/quagga/table.h
--rw-r--r-- root       root             8385 ./usr/include/quagga/thread.h
+-rw-r--r-- root       root             8681 ./usr/include/quagga/thread.h
 -rw-r--r-- root       root             2216 ./usr/include/quagga/vector.h
 -rw-r--r-- root       root             2499 ./usr/include/quagga/version.h
 -rw-r--r-- root       root             3938 ./usr/include/quagga/vrf.h
--rw-r--r-- root       root             8904 ./usr/include/quagga/vty.h
--rw-r--r-- root       root             4336 ./usr/include/quagga/workqueue.h
+-rw-r--r-- root       root             8881 ./usr/include/quagga/vty.h
+-rw-r--r-- root       root             4388 ./usr/include/quagga/workqueue.h
 -rw-r--r-- root       root             1433 ./usr/include/quagga/zassert.h
 -rw-r--r-- root       root             6856 ./usr/include/quagga/zclient.h
 -rw-r--r-- root       root            15392 ./usr/include/quagga/zebra.h
@@ -61,4 +61,4 @@ lrwxrwxrwx root       root               18 ./usr/lib/libfpm_pb.so -> libfpm_pb.
 lrwxrwxrwx root       root               25 ./usr/lib/libospfapiclient.so -> libospfapiclient.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libospf.so -> libospf.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libquagga_pb.so -> libquagga_pb.so.0.0.0
-lrwxrwxrwx root       root               17 ./usr/lib/libzebra.so -> libzebra.so.0.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libzebra.so -> libzebra.so.1.0.0

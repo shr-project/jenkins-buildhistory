@@ -7,7 +7,7 @@ drwxr-xr-x root       root              120 ./usr/bin
 drwxr-xr-x root       root              280 ./usr/lib
 -rwxr-xr-x root       root          2095444 ./usr/lib/libfontforgeexe.so.2.0.0
 lrwxrwxrwx root       root               24 ./usr/lib/libfontforgeexe.so.2 -> libfontforgeexe.so.2.0.0
--rwxr-xr-x root       root          3068824 ./usr/lib/libfontforge.so.2.0.0
+-rwxr-xr-x root       root          3073256 ./usr/lib/libfontforge.so.2.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libfontforge.so.2 -> libfontforge.so.2.0.0
 -rwxr-xr-x root       root           571932 ./usr/lib/libgdraw.so.5.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/libgdraw.so.5 -> libgdraw.so.5.0.0
@@ -48,14 +48,16 @@ drwxr-xr-x root       root              120 ./usr/share/fontforge/nodejs/collabw
 -rw-r--r-- root       root             5736 ./usr/share/fontforge/nodejs/collabwebview/js/otfeatures.js
 -rw-r--r-- root       root                3 ./usr/share/fontforge/nodejs/collabwebview/package.json
 -rw-r--r-- root       root             2554 ./usr/share/fontforge/nodejs/collabwebview/server.js
-drwxr-xr-x root       root             7000 ./usr/share/fontforge/pixmaps
+drwxr-xr-x root       root             7080 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root            52200 ./usr/share/fontforge/pixmaps/Cantarell-BoldOblique.ttf
 -rw-r--r-- root       root            49276 ./usr/share/fontforge/pixmaps/Cantarell-Bold.ttf
 -rw-r--r-- root       root            50068 ./usr/share/fontforge/pixmaps/Cantarell-Oblique.ttf
 -rw-r--r-- root       root            47504 ./usr/share/fontforge/pixmaps/Cantarell-Regular.ttf
 -rw-r--r-- root       root              566 ./usr/share/fontforge/pixmaps/changeweight.png
 -rw-r--r-- root       root              308 ./usr/share/fontforge/pixmaps/charviewicon.xbm
+-rw-r--r-- root       root              160 ./usr/share/fontforge/pixmaps/check_off_disabled.png
 -rw-r--r-- root       root              128 ./usr/share/fontforge/pixmaps/check_off.png
+-rw-r--r-- root       root              364 ./usr/share/fontforge/pixmaps/check_on_disabled.png
 -rw-r--r-- root       root              336 ./usr/share/fontforge/pixmaps/check_on.png
 -rw-r--r-- root       root              441 ./usr/share/fontforge/pixmaps/chooseraudio.png
 -rw-r--r-- root       root              349 ./usr/share/fontforge/pixmaps/chooserback.png
@@ -278,8 +280,8 @@ drwxr-xr-x root       root             7000 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              314 ./usr/share/fontforge/pixmaps/palettesmallspirocorner.png
 -rw-r--r-- root       root              454 ./usr/share/fontforge/pixmaps/palettesmallspirocurve.png
 -rw-r--r-- root       root              474 ./usr/share/fontforge/pixmaps/palettesmallspirog2curve.png
--rw-r--r-- root       root              432 ./usr/share/fontforge/pixmaps/palettesmallspiroleft.png
--rw-r--r-- root       root              413 ./usr/share/fontforge/pixmaps/palettesmallspiroright.png
+-rw-r--r-- root       root              413 ./usr/share/fontforge/pixmaps/palettesmallspiroleft.png
+-rw-r--r-- root       root              432 ./usr/share/fontforge/pixmaps/palettesmallspiroright.png
 -rw-r--r-- root       root              599 ./usr/share/fontforge/pixmaps/palettesmallstar.png
 -rw-r--r-- root       root              356 ./usr/share/fontforge/pixmaps/palettesmalltangent.png
 -rw-r--r-- root       root              383 ./usr/share/fontforge/pixmaps/palettespirocorner.png
@@ -290,10 +292,10 @@ drwxr-xr-x root       root             7000 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              308 ./usr/share/fontforge/pixmaps/palettespirodown.png
 -rw-r--r-- root       root              610 ./usr/share/fontforge/pixmaps/palettespirog2curve.png
 -rw-r--r-- root       root              636 ./usr/share/fontforge/pixmaps/palettespirog2curve-selected.png
--rw-r--r-- root       root              451 ./usr/share/fontforge/pixmaps/palettespiroleft.png
--rw-r--r-- root       root              510 ./usr/share/fontforge/pixmaps/palettespiroleft-selected.png
--rw-r--r-- root       root              445 ./usr/share/fontforge/pixmaps/palettespiroright.png
--rw-r--r-- root       root              515 ./usr/share/fontforge/pixmaps/palettespiroright-selected.png
+-rw-r--r-- root       root              445 ./usr/share/fontforge/pixmaps/palettespiroleft.png
+-rw-r--r-- root       root              515 ./usr/share/fontforge/pixmaps/palettespiroleft-selected.png
+-rw-r--r-- root       root              451 ./usr/share/fontforge/pixmaps/palettespiroright.png
+-rw-r--r-- root       root              510 ./usr/share/fontforge/pixmaps/palettespiroright-selected.png
 -rw-r--r-- root       root              627 ./usr/share/fontforge/pixmaps/palettespiroup.png
 -rw-r--r-- root       root              937 ./usr/share/fontforge/pixmaps/palettespiroup-selected.png
 -rw-r--r-- root       root              777 ./usr/share/fontforge/pixmaps/palettestar.png
@@ -317,9 +319,11 @@ drwxr-xr-x root       root             7000 ./usr/share/fontforge/pixmaps
 -rw-r--r-- root       root              204 ./usr/share/fontforge/pixmaps/ptinfohvcurve.png
 -rw-r--r-- root       root              193 ./usr/share/fontforge/pixmaps/ptinfotangent.png
 -rw-r--r-- root       root              886 ./usr/share/fontforge/pixmaps/python.png
+-rw-r--r-- root       root              538 ./usr/share/fontforge/pixmaps/radio_off_disabled.png
 -rw-r--r-- root       root              507 ./usr/share/fontforge/pixmaps/radio_off.png
+-rw-r--r-- root       root              639 ./usr/share/fontforge/pixmaps/radio_on_disabled.png
 -rw-r--r-- root       root              604 ./usr/share/fontforge/pixmaps/radio_on.png
--rw-r--r-- root       root            12683 ./usr/share/fontforge/pixmaps/resources
+-rw-r--r-- root       root            12719 ./usr/share/fontforge/pixmaps/resources
 -rw-r--r-- root       root              267 ./usr/share/fontforge/pixmaps/rmoverlap.png
 -rw-r--r-- root       root              201 ./usr/share/fontforge/pixmaps/rotate180.png
 -rw-r--r-- root       root              207 ./usr/share/fontforge/pixmaps/rotateccw.png
