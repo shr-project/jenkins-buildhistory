@@ -28,16 +28,17 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              448 ./lib/systemd/system/zebra.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root          1002416 ./usr/bin/bgp_btoa
+-rwxr-xr-x root       root          1049512 ./usr/bin/bgp_btoa
 -rwxr-xr-x root       root             9700 ./usr/bin/test_igmpv3_join
--rwxr-xr-x root       root           803984 ./usr/bin/vtysh
+-rwxr-xr-x root       root           848184 ./usr/bin/vtysh
 drwxr-xr-x root       root              160 ./usr/lib
 -rwxr-xr-x root       root             5504 ./usr/lib/libfpm_pb.so.0.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libfpm_pb.so.0 -> libfpm_pb.so.0.0.0
 -rwxr-xr-x root       root             5508 ./usr/lib/libquagga_pb.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libquagga_pb.so.0 -> libquagga_pb.so.0.0.0
--rwxr-xr-x root       root           433148 ./usr/lib/libzebra.so.0.0.0
-lrwxrwxrwx root       root               17 ./usr/lib/libzebra.so.0 -> libzebra.so.0.0.0
-drwxr-xr-x root       root               80 ./usr/sbin
--rwxr-xr-x root       root           295516 ./usr/sbin/pimd
--rwxr-xr-x root       root           384740 ./usr/sbin/zebra
+-rwxr-xr-x root       root           437340 ./usr/lib/libzebra.so.1.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libzebra.so.1 -> libzebra.so.1.0.0
+drwxr-xr-x root       root              100 ./usr/sbin
+-rwxr-xr-x root       root           121408 ./usr/sbin/nhrpd
+-rwxr-xr-x root       root           299612 ./usr/sbin/pimd
+-rwxr-xr-x root       root           388868 ./usr/sbin/zebra

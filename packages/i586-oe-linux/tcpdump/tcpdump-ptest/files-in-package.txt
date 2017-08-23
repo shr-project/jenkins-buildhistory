@@ -6,7 +6,7 @@ drwxr-xr-x root       root              140 ./usr/lib/tcpdump/ptest
 -rwxr-xr-x root       root            11616 ./usr/lib/tcpdump/ptest/Makefile
 -rwxr-xr-x root       root              149 ./usr/lib/tcpdump/ptest/run-ptest
 lrwxrwxrwx root       root               17 ./usr/lib/tcpdump/ptest/tcpdump -> /usr/sbin/tcpdump
-drwxr-xr-x root       root            10440 ./usr/lib/tcpdump/ptest/tests
+drwxr-xr-x root       root            10480 ./usr/lib/tcpdump/ptest/tests
 -rw-r--r-- root       root             1352 ./usr/lib/tcpdump/ptest/tests/02-sunrise-sunset-esp.pcap
 -rw-r--r-- root       root             1480 ./usr/lib/tcpdump/ptest/tests/08-sunrise-sunset-aes.pcap
 -rw-r--r-- root       root             1800 ./usr/lib/tcpdump/ptest/tests/08-sunrise-sunset-esp2.pcap
@@ -61,7 +61,7 @@ drwxr-xr-x root       root            10440 ./usr/lib/tcpdump/ptest/tests
 -rw-r--r-- root       root             3387 ./usr/lib/tcpdump/ptest/tests/cdp-v.out
 -rw-r--r-- root       root               62 ./usr/lib/tcpdump/ptest/tests/chdlc-slarp.pcap
 -rw-r--r-- root       root               58 ./usr/lib/tcpdump/ptest/tests/chdlc-slarp-short.pcap
--rwxr-xr-x root       root             1693 ./usr/lib/tcpdump/ptest/tests/crypto.sh
+-rwxr-xr-x root       root             1926 ./usr/lib/tcpdump/ptest/tests/crypto.sh
 -rw-r--r-- root       root              284 ./usr/lib/tcpdump/ptest/tests/cve-2014-8767-OLSR.out
 -rw-r--r-- root       root              115 ./usr/lib/tcpdump/ptest/tests/cve-2014-8767-OLSR.pcap
 -rw-r--r-- root       root              173 ./usr/lib/tcpdump/ptest/tests/cve-2014-8768-Geonet.out
@@ -264,7 +264,7 @@ drwxr-xr-x root       root            10440 ./usr/lib/tcpdump/ptest/tests
 -rw-r--r-- root       root              122 ./usr/lib/tcpdump/ptest/tests/isis_poi.pcap
 -rw-r--r-- root       root             1632 ./usr/lib/tcpdump/ptest/tests/isis-seg-fault-1.pcap
 -rw-r--r-- root       root            14877 ./usr/lib/tcpdump/ptest/tests/isis-seg-fault-1-v.out
--rwxr-xr-x root       root              531 ./usr/lib/tcpdump/ptest/tests/isis-seg-fault-1-v.sh
+-rwxr-xr-x root       root              582 ./usr/lib/tcpdump/ptest/tests/isis-seg-fault-1-v.sh
 -rw-r--r-- root       root             1632 ./usr/lib/tcpdump/ptest/tests/isis-seg-fault-2.pcap
 -rw-r--r-- root       root             9061 ./usr/lib/tcpdump/ptest/tests/isis-seg-fault-2-v.out
 -rw-r--r-- root       root              196 ./usr/lib/tcpdump/ptest/tests/isis-seg-fault-3.pcap
@@ -316,7 +316,7 @@ drwxr-xr-x root       root            10440 ./usr/lib/tcpdump/ptest/tests
 -rw-r--r-- root       root             1419 ./usr/lib/tcpdump/ptest/tests/lmp.out
 -rw-r--r-- root       root             1732 ./usr/lib/tcpdump/ptest/tests/lmp.pcap
 -rw-r--r-- root       root            11121 ./usr/lib/tcpdump/ptest/tests/lmp-v.out
--rwxr-xr-x root       root              763 ./usr/lib/tcpdump/ptest/tests/lmp-v.sh
+-rwxr-xr-x root       root              815 ./usr/lib/tcpdump/ptest/tests/lmp-v.sh
 -rw-r--r-- root       root              500 ./usr/lib/tcpdump/ptest/tests/loopback.out
 -rw-r--r-- root       root              592 ./usr/lib/tcpdump/ptest/tests/loopback.pcap
 -rw-r--r-- root       root             1592 ./usr/lib/tcpdump/ptest/tests/lspping-fec-ldp.out
@@ -353,7 +353,7 @@ drwxr-xr-x root       root            10440 ./usr/lib/tcpdump/ptest/tests
 -rw-r--r-- root       root              167 ./usr/lib/tcpdump/ptest/tests/mtrace.out
 -rw-r--r-- root       root              238 ./usr/lib/tcpdump/ptest/tests/mtrace.pcap
 -rw-r--r-- root       root              542 ./usr/lib/tcpdump/ptest/tests/nflog-e.out
--rwxr-xr-x root       root              276 ./usr/lib/tcpdump/ptest/tests/nflog-e.sh
+-rwxr-xr-x root       root              328 ./usr/lib/tcpdump/ptest/tests/nflog-e.sh
 -rw-r--r-- root       root              840 ./usr/lib/tcpdump/ptest/tests/nflog.pcap
 -rw-r--r-- root       root              288 ./usr/lib/tcpdump/ptest/tests/nfs-seg-fault-1.out
 -rw-r--r-- root       root             8120 ./usr/lib/tcpdump/ptest/tests/nfs-seg-fault-1.pcap
@@ -494,6 +494,8 @@ drwxr-xr-x root       root            10440 ./usr/lib/tcpdump/ptest/tests
 -rw-r--r-- root       root             1076 ./usr/lib/tcpdump/ptest/tests/stp-heapoverflow-4.pcap
 -rw-r--r-- root       root             1899 ./usr/lib/tcpdump/ptest/tests/stp-heapoverflow-5.out
 -rw-r--r-- root       root             1076 ./usr/lib/tcpdump/ptest/tests/stp-heapoverflow-5.pcap
+-rw-r--r-- root       root               86 ./usr/lib/tcpdump/ptest/tests/stp-v4-length-sigsegv.out
+-rw-r--r-- root       root              324 ./usr/lib/tcpdump/ptest/tests/stp-v4-length-sigsegv.pcap
 -rw-r--r-- root       root             2940 ./usr/lib/tcpdump/ptest/tests/stp-v.out
 -rw-r--r-- root       root              515 ./usr/lib/tcpdump/ptest/tests/syslog_udp.pcap
 -rw-r--r-- root       root              980 ./usr/lib/tcpdump/ptest/tests/syslog-v.out
@@ -501,8 +503,8 @@ drwxr-xr-x root       root            10440 ./usr/lib/tcpdump/ptest/tests
 -rw-r--r-- root       root              138 ./usr/lib/tcpdump/ptest/tests/tcp-auth-heapoverflow.pcap
 -rw-r--r-- root       root              161 ./usr/lib/tcpdump/ptest/tests/tcp_header_heapoverflow.out
 -rw-r--r-- root       root              329 ./usr/lib/tcpdump/ptest/tests/tcp_header_heapoverflow.pcap
--rw-r--r-- root       root            19618 ./usr/lib/tcpdump/ptest/tests/TESTLIST
--rwxr-xr-x root       root             1959 ./usr/lib/tcpdump/ptest/tests/TESTonce
+-rw-r--r-- root       root            18758 ./usr/lib/tcpdump/ptest/tests/TESTLIST
+-rwxr-xr-x root       root             1965 ./usr/lib/tcpdump/ptest/tests/TESTonce
 -rwxr-xr-x root       root             1296 ./usr/lib/tcpdump/ptest/tests/TESTrun.sh
 -rw-r--r-- root       root             1084 ./usr/lib/tcpdump/ptest/tests/tfo-5c1fa7f9ae91.pcap
 -rw-r--r-- root       root             1391 ./usr/lib/tcpdump/ptest/tests/tfo.out

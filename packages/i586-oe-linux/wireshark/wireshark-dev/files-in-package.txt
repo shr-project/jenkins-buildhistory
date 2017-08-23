@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              100 ./usr/include/wireshark
--rw-r--r-- root       root            13069 ./usr/include/wireshark/config.h
+-rw-r--r-- root       root            13146 ./usr/include/wireshark/config.h
 drwxr-xr-x root       root             2680 ./usr/include/wireshark/epan
 -rw-r--r-- root       root             1741 ./usr/include/wireshark/epan/addr_and_mask.h
 -rw-r--r-- root       root            14160 ./usr/include/wireshark/epan/address.h
@@ -62,7 +62,7 @@ drwxr-xr-x root       root              320 ./usr/include/wireshark/epan/dfilter
 -rw-r--r-- root       root             2198 ./usr/include/wireshark/epan/diam_dict.h
 -rw-r--r-- root       root             9506 ./usr/include/wireshark/epan/diam_dict_lex.h
 -rw-r--r-- root       root             3612 ./usr/include/wireshark/epan/disabled_protos.h
--rw-r--r-- root       root             2307 ./usr/include/wireshark/epan/dissector_filters.h
+-rw-r--r-- root       root             2691 ./usr/include/wireshark/epan/dissector_filters.h
 drwxr-xr-x root       root             7700 ./usr/include/wireshark/epan/dissectors
 -rw-r--r-- root       root             1243 ./usr/include/wireshark/epan/dissectors/file-file.h
 -rw-r--r-- root       root             1258 ./usr/include/wireshark/epan/dissectors/packet-6lowpan.h
@@ -458,7 +458,7 @@ drwxr-xr-x root       root             7700 ./usr/include/wireshark/epan/dissect
 -rw-r--r-- root       root             1792 ./usr/include/wireshark/epan/epan_dissect.h
 -rw-r--r-- root       root             8805 ./usr/include/wireshark/epan/epan.h
 -rw-r--r-- root       root             1199 ./usr/include/wireshark/epan/epan-int.h
--rw-r--r-- root       root            17594 ./usr/include/wireshark/epan/etypes.h
+-rw-r--r-- root       root            17595 ./usr/include/wireshark/epan/etypes.h
 -rw-r--r-- root       root             7053 ./usr/include/wireshark/epan/except.h
 -rw-r--r-- root       root            16109 ./usr/include/wireshark/epan/exceptions.h
 -rw-r--r-- root       root             1666 ./usr/include/wireshark/epan/ex-opt.h
@@ -567,8 +567,8 @@ drwxr-xr-x root       root              480 ./usr/include/wireshark/epan/wmem
 -rw-r--r-- root       root             5546 ./usr/include/wireshark/epan/xdlc.h
 -rw-r--r-- root       root             2362 ./usr/include/wireshark/register.h
 drwxr-xr-x root       root              140 ./usr/lib
-lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so -> libwireshark.so.8.1.7
-lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so -> libwiretap.so.6.0.7
+lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so -> libwireshark.so.8.1.8
+lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so -> libwiretap.so.6.0.8
 lrwxrwxrwx root       root               20 ./usr/lib/libwscodecs.so -> libwscodecs.so.1.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libwsutil.so -> libwsutil.so.7.0.0
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
