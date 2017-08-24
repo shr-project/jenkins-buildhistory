@@ -59,7 +59,7 @@ drwxr-x--- radiusd    radiusd          1240 ./etc/raddb/mods-available
 -rw-r----- radiusd    radiusd          1862 ./etc/raddb/mods-available/dhcp_sqlippool
 -rw-r----- radiusd    radiusd           316 ./etc/raddb/mods-available/digest
 -rw-r----- radiusd    radiusd           923 ./etc/raddb/mods-available/dynamic_clients
--rw-r----- radiusd    radiusd         26074 ./etc/raddb/mods-available/eap
+-rw-r----- radiusd    radiusd         26288 ./etc/raddb/mods-available/eap
 -rw-r----- radiusd    radiusd          3733 ./etc/raddb/mods-available/echo
 -rw-r----- radiusd    radiusd           863 ./etc/raddb/mods-available/etc_group
 -rw-r----- radiusd    radiusd           822 ./etc/raddb/mods-available/exec
@@ -209,7 +209,7 @@ drwxr-x--- radiusd    radiusd           260 ./etc/raddb/policy.d
 -rw-r----- radiusd    radiusd          7715 ./etc/raddb/policy.d/moonshot-targeted-ids
 -rw-r----- radiusd    radiusd          1323 ./etc/raddb/policy.d/operator-name
 -rw-r----- radiusd    radiusd         28361 ./etc/raddb/proxy.conf
--rw-r----- radiusd    radiusd         28951 ./etc/raddb/radiusd.conf
+-rw-r----- radiusd    radiusd         27395 ./etc/raddb/radiusd.conf
 -rw-r----- radiusd    radiusd         20807 ./etc/raddb/README.rst
 drwxr-x--- radiusd    radiusd           540 ./etc/raddb/sites-available
 -rw-r----- radiusd    radiusd          2116 ./etc/raddb/sites-available/abfab-tls
@@ -412,7 +412,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/rlm_yubikey.so -> rlm_yubi
 drwxr-xr-x root       root              120 ./usr/sbin
 -rwxr-xr-x root       root            38348 ./usr/sbin/checkrad
 -rwxr-xr-x root       root             3626 ./usr/sbin/raddebug
--rwxr-xr-x root       root           454968 ./usr/sbin/radiusd
+-rwxr-xr-x root       root           459064 ./usr/sbin/radiusd
 -rwxr-xr-x root       root            22696 ./usr/sbin/radmin
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root             4300 ./usr/share/freeradius
@@ -463,7 +463,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root             8198 ./usr/share/freeradius/dictionary.cisco
 -rw-r--r-- root       root            14878 ./usr/share/freeradius/dictionary.cisco.asa
 -rw-r--r-- root       root              403 ./usr/share/freeradius/dictionary.cisco.bbsm
--rw-r--r-- root       root            11059 ./usr/share/freeradius/dictionary.cisco.vpn3000
+-rw-r--r-- root       root            11047 ./usr/share/freeradius/dictionary.cisco.vpn3000
 -rw-r--r-- root       root              674 ./usr/share/freeradius/dictionary.cisco.vpn5000
 -rw-r--r-- root       root              636 ./usr/share/freeradius/dictionary.citrix
 -rw-r--r-- root       root              456 ./usr/share/freeradius/dictionary.clavister
@@ -585,7 +585,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root              597 ./usr/share/freeradius/dictionary.riverbed
 -rw-r--r-- root       root             1137 ./usr/share/freeradius/dictionary.riverstone
 -rw-r--r-- root       root              743 ./usr/share/freeradius/dictionary.roaringpenguin
--rw-r--r-- root       root             5432 ./usr/share/freeradius/dictionary.ruckus
+-rw-r--r-- root       root             5758 ./usr/share/freeradius/dictionary.ruckus
 -rw-r--r-- root       root              205 ./usr/share/freeradius/dictionary.ruggedcom
 -rw-r--r-- root       root             4422 ./usr/share/freeradius/dictionary.sangoma
 -rw-r--r-- root       root             6012 ./usr/share/freeradius/dictionary.sg
@@ -596,7 +596,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root             1140 ./usr/share/freeradius/dictionary.sofaware
 -rw-r--r-- root       root             2721 ./usr/share/freeradius/dictionary.sonicwall
 -rw-r--r-- root       root             1065 ./usr/share/freeradius/dictionary.springtide
--rw-r--r-- root       root            60872 ./usr/share/freeradius/dictionary.starent
+-rw-r--r-- root       root            61845 ./usr/share/freeradius/dictionary.starent
 -rw-r--r-- root       root            55716 ./usr/share/freeradius/dictionary.starent.vsa1
 -rw-r--r-- root       root              504 ./usr/share/freeradius/dictionary.surfnet
 -rw-r--r-- root       root             1807 ./usr/share/freeradius/dictionary.symbol

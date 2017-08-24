@@ -1,6 +1,4 @@
-drwxr-xr-x root       root               80 ./etc
-drwxr-xr-x root       root               60 ./etc/init.d
--rwxr-xr-x root       root             1314 ./etc/init.d/webmin
+drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root             1840 ./etc/webmin
 drwx--x--x root       root               60 ./etc/webmin/acl
 -rw------- root       root               42 ./etc/webmin/acl/config
@@ -170,9 +168,13 @@ drwx--x--x root       root               60 ./etc/webmin/webminlog
 -rw------- root       root               14 ./etc/webmin/webminlog/config
 drwx--x--x root       root               60 ./etc/webmin/xinetd
 -rw------- root       root              163 ./etc/webmin/xinetd/config
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              273 ./lib/systemd/system/webmin.service
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/libexec
-drwxr-xr-x root       root             1480 ./usr/libexec/webmin
+drwxr-xr-x root       root             1460 ./usr/libexec/webmin
 -rwxr-xr-x root       root             4622 ./usr/libexec/webmin/acl_security.pl
 -rwxr-xr-x root       root             2220 ./usr/libexec/webmin/changepass.pl
 -rwxr-xr-x root       root             7148 ./usr/libexec/webmin/chooser.cgi
@@ -1795,7 +1797,6 @@ drwxr-xr-x root       root              720 ./usr/libexec/webmin/raid/lang
 -rwxr-xr-x root       root              983 ./usr/libexec/webmin/run-postinstalls.pl
 -rwxr-xr-x root       root              680 ./usr/libexec/webmin/run-uninstalls.pl
 -rwxr-xr-x root       root             3407 ./usr/libexec/webmin/session_login.cgi
--rwxr-xr-x root       root               10 ./usr/libexec/webmin/src_date_epoch.txt
 -rwxr-xr-x root       root              294 ./usr/libexec/webmin/switch_skill.cgi
 -rwxr-xr-x root       root              405 ./usr/libexec/webmin/switch_user.cgi
 -rwxr-xr-x root       root             1770 ./usr/libexec/webmin/thirdparty.pl

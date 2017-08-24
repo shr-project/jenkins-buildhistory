@@ -1,4 +1,4 @@
-PV = 5.5.55
+PV = 5.5.57
 PR = r0
 PKGR = r0.0
 RPROVIDES = mysql5-client
@@ -6,6 +6,6 @@ RDEPENDS = glibc (>= 2.26) libaio (>= 0.3.110) libstdc++ (>= 7.2.0) ncurses-libn
 RRECOMMENDS = 
 RREPLACES = mysql5-client
 RCONFLICTS = mysql5-client
-PKGSIZE = 56757742
+PKGSIZE = 56778623
 FILES = /usr/bin/myisam_ftdump /usr/bin/mysql /usr/bin/mysql_client_test /usr/bin/mysql_client_test_embedded /usr/bin/mysql_find_rows /usr/bin/mysql_fix_extensions /usr/bin/mysql_waitpid /usr/bin/mysqlaccess /usr/bin/mysqladmin /usr/bin/mysqlbug /usr/bin/mysqlcheck /usr/bin/mysqldump /usr/bin/mysqldumpslow /usr/bin/mysqlimport /usr/bin/mysqlshow /usr/bin/mysqlslap /usr/bin/mysqltest_embedded /usr/libexec/mysqlmanager /etc/my.cnf.d/mysql-clients.cnf
 FILELIST = /etc/my.cnf.d/mysql-clients.cnf /usr/bin/myisam_ftdump /usr/bin/mysql /usr/bin/mysql_client_test /usr/bin/mysql_client_test_embedded /usr/bin/mysql_find_rows /usr/bin/mysql_fix_extensions /usr/bin/mysql_waitpid /usr/bin/mysqlaccess /usr/bin/mysqladmin /usr/bin/mysqlbug /usr/bin/mysqlcheck /usr/bin/mysqldump /usr/bin/mysqldumpslow /usr/bin/mysqlimport /usr/bin/mysqlshow /usr/bin/mysqlslap /usr/bin/mysqltest_embedded

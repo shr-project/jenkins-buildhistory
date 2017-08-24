@@ -1,11 +1,11 @@
 PV = 3.1.20
 PR = r0
-PKGR = r0.0
-RPROVIDES = at-systemd
+PKGR = r0.1
+RPROVIDES = 
 RDEPENDS = flex (>= 2.6.0) glibc (>= 2.26)
 RRECOMMENDS = 
-RREPLACES = at-systemd atd
-RCONFLICTS = at-systemd atd
+RREPLACES = atd
+RCONFLICTS = atd
 PKGSIZE = 74806
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/at /usr/lib/at/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/atd.service
 FILELIST = /etc/at.deny /lib/systemd/system/atd.service /usr/bin/at /usr/bin/atq /usr/bin/atrm /usr/bin/batch /usr/sbin/atd /usr/sbin/atrun /var/spool/at/jobs/.SEQ
