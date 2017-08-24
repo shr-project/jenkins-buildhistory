@@ -1,6 +1,15 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
-drwxr-xr-x root       root              520 ./usr/include/qt5
+drwxr-xr-x root       root              560 ./usr/include/qt5
+drwxr-xr-x root       root              140 ./usr/include/qt5/QtAccessibilitySupport
+drwxr-xr-x root       root               60 ./usr/include/qt5/QtAccessibilitySupport/5.8.0
+drwxr-xr-x root       root               60 ./usr/include/qt5/QtAccessibilitySupport/5.8.0/QtAccessibilitySupport
+drwxr-xr-x root       root               60 ./usr/include/qt5/QtAccessibilitySupport/5.8.0/QtAccessibilitySupport/private
+-rw-r--r-- root       root             2645 ./usr/include/qt5/QtAccessibilitySupport/5.8.0/QtAccessibilitySupport/private/qaccessiblebridgeutils_p.h
+-rw-r--r-- root       root              200 ./usr/include/qt5/QtAccessibilitySupport/QtAccessibilitySupport
+-rw-r--r-- root       root              225 ./usr/include/qt5/QtAccessibilitySupport/QtAccessibilitySupportDepends
+-rw-r--r-- root       root               43 ./usr/include/qt5/QtAccessibilitySupport/QtAccessibilitySupportVersion
+-rw-r--r-- root       root              277 ./usr/include/qt5/QtAccessibilitySupport/qtaccessibilitysupportversion.h
 drwxr-xr-x root       root              480 ./usr/include/qt5/QtConcurrent
 -rw-r--r-- root       root              652 ./usr/include/qt5/QtConcurrent/QtConcurrent
 -rw-r--r-- root       root             2453 ./usr/include/qt5/QtConcurrent/qtconcurrentcompilertest.h
@@ -164,7 +173,7 @@ drwxr-xr-x root       root             3300 ./usr/include/qt5/QtCore/5.8.0/QtCor
 -rw-r--r-- root       root             3062 ./usr/include/qt5/QtCore/5.8.0/QtCore/private/qsystemerror_p.h
 -rw-r--r-- root       root             3615 ./usr/include/qt5/QtCore/5.8.0/QtCore/private/qsystemlibrary_p.h
 -rw-r--r-- root       root             3826 ./usr/include/qt5/QtCore/5.8.0/QtCore/private/qsystemsemaphore_p.h
--rw-r--r-- root       root              528 ./usr/include/qt5/QtCore/5.8.0/QtCore/private/qtcore-config_p.h
+-rw-r--r-- root       root              527 ./usr/include/qt5/QtCore/5.8.0/QtCore/private/qtcore-config_p.h
 -rw-r--r-- root       root             3908 ./usr/include/qt5/QtCore/5.8.0/QtCore/private/qtemporaryfile_p.h
 -rw-r--r-- root       root             3753 ./usr/include/qt5/QtCore/5.8.0/QtCore/private/qtextcodec_p.h
 -rw-r--r-- root       root             5841 ./usr/include/qt5/QtCore/5.8.0/QtCore/private/qtextstream_p.h
@@ -260,7 +269,7 @@ drwxr-xr-x root       root             3300 ./usr/include/qt5/QtCore/5.8.0/QtCor
 -rw-r--r-- root       root             4108 ./usr/include/qt5/QtCore/qcommandlineparser.h
 -rw-r--r-- root       root            51097 ./usr/include/qt5/QtCore/qcompilerdetection.h
 -rw-r--r-- root       root             3342 ./usr/include/qt5/QtCore/qconfig-bootstrapped.h
--rw-r--r-- root       root              701 ./usr/include/qt5/QtCore/qconfig.h
+-rw-r--r-- root       root              671 ./usr/include/qt5/QtCore/qconfig.h
 -rw-r--r-- root       root               21 ./usr/include/qt5/QtCore/QConstOverload
 -rw-r--r-- root       root             2595 ./usr/include/qt5/QtCore/qcontainerfwd.h
 -rw-r--r-- root       root               30 ./usr/include/qt5/QtCore/QContiguousCache
@@ -955,7 +964,7 @@ drwxr-xr-x root       root             2620 ./usr/include/qt5/QtGui/5.8.0/QtGui/
 -rw-r--r-- root       root             4290 ./usr/include/qt5/QtGui/5.8.0/QtGui/private/qtextodfwriter_p.h
 -rw-r--r-- root       root             3300 ./usr/include/qt5/QtGui/5.8.0/QtGui/private/qtexttable_p.h
 -rw-r--r-- root       root             5891 ./usr/include/qt5/QtGui/5.8.0/QtGui/private/qtextureglyphcache_p.h
--rw-r--r-- root       root             1420 ./usr/include/qt5/QtGui/5.8.0/QtGui/private/qtgui-config_p.h
+-rw-r--r-- root       root             1419 ./usr/include/qt5/QtGui/5.8.0/QtGui/private/qtgui-config_p.h
 -rw-r--r-- root       root             2353 ./usr/include/qt5/QtGui/5.8.0/QtGui/private/qtguiglobal_p.h
 -rw-r--r-- root       root             2813 ./usr/include/qt5/QtGui/5.8.0/QtGui/private/qt_gui_pch.h
 -rw-r--r-- root       root            14211 ./usr/include/qt5/QtGui/5.8.0/QtGui/private/qt_mips_asm_dsp_p.h
@@ -1358,7 +1367,7 @@ drwxr-xr-x root       root              760 ./usr/include/qt5/QtGui/5.8.0/QtGui/
 -rw-r--r-- root       root               25 ./usr/include/qt5/QtGui/QTextTableFormat
 -rw-r--r-- root       root             4557 ./usr/include/qt5/QtGui/qtexttable.h
 -rw-r--r-- root       root             2801 ./usr/include/qt5/QtGui/QtGui
--rw-r--r-- root       root             1449 ./usr/include/qt5/QtGui/qtgui-config.h
+-rw-r--r-- root       root             1377 ./usr/include/qt5/QtGui/qtgui-config.h
 -rw-r--r-- root       root              166 ./usr/include/qt5/QtGui/QtGuiDepends
 -rw-r--r-- root       root             2270 ./usr/include/qt5/QtGui/qtguiglobal.h
 -rw-r--r-- root       root               26 ./usr/include/qt5/QtGui/QtGuiVersion
@@ -1411,6 +1420,21 @@ drwxr-xr-x root       root              340 ./usr/include/qt5/QtInputSupport/5.8
 -rw-r--r-- root       root              270 ./usr/include/qt5/QtInputSupport/QtInputSupportDepends
 -rw-r--r-- root       root               35 ./usr/include/qt5/QtInputSupport/QtInputSupportVersion
 -rw-r--r-- root       root              237 ./usr/include/qt5/QtInputSupport/qtinputsupportversion.h
+drwxr-xr-x root       root              140 ./usr/include/qt5/QtLinuxAccessibilitySupport
+drwxr-xr-x root       root               60 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0
+drwxr-xr-x root       root               60 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0/QtLinuxAccessibilitySupport
+drwxr-xr-x root       root              180 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0/QtLinuxAccessibilitySupport/private
+-rw-r--r-- root       root             3304 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0/QtLinuxAccessibilitySupport/private/application_p.h
+-rw-r--r-- root       root             9937 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0/QtLinuxAccessibilitySupport/private/atspiadaptor_p.h
+-rw-r--r-- root       root             3081 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0/QtLinuxAccessibilitySupport/private/bridge_p.h
+-rw-r--r-- root       root             2879 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0/QtLinuxAccessibilitySupport/private/cache_p.h
+-rw-r--r-- root       root             5787 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0/QtLinuxAccessibilitySupport/private/constant_mappings_p.h
+-rw-r--r-- root       root             3084 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0/QtLinuxAccessibilitySupport/private/dbusconnection_p.h
+-rw-r--r-- root       root             6798 ./usr/include/qt5/QtLinuxAccessibilitySupport/5.8.0/QtLinuxAccessibilitySupport/private/struct_marshallers_p.h
+-rw-r--r-- root       root              225 ./usr/include/qt5/QtLinuxAccessibilitySupport/QtLinuxAccessibilitySupport
+-rw-r--r-- root       root              317 ./usr/include/qt5/QtLinuxAccessibilitySupport/QtLinuxAccessibilitySupportDepends
+-rw-r--r-- root       root               48 ./usr/include/qt5/QtLinuxAccessibilitySupport/QtLinuxAccessibilitySupportVersion
+-rw-r--r-- root       root              302 ./usr/include/qt5/QtLinuxAccessibilitySupport/qtlinuxaccessibilitysupportversion.h
 drwxr-xr-x root       root             1900 ./usr/include/qt5/QtNetwork
 drwxr-xr-x root       root               60 ./usr/include/qt5/QtNetwork/5.8.0
 drwxr-xr-x root       root               60 ./usr/include/qt5/QtNetwork/5.8.0/QtNetwork
@@ -2405,7 +2429,7 @@ drwxr-xr-x root       root               80 ./usr/include/qt5/QtXml/5.8.0/QtXml/
 drwxr-xr-x root       root               80 ./usr/include/qt5/QtZlib
 -rw-r--r-- root       root            13539 ./usr/include/qt5/QtZlib/zconf.h
 -rw-r--r-- root       root            79631 ./usr/include/qt5/QtZlib/zlib.h
-drwxr-xr-x root       root              800 ./usr/lib
+drwxr-xr-x root       root              840 ./usr/lib
 drwxr-xr-x root       root              300 ./usr/lib/cmake
 drwxr-xr-x root       root              100 ./usr/lib/cmake/Qt5
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5Concurrent
@@ -2474,6 +2498,7 @@ drwxr-xr-x root       root              120 ./usr/lib/cmake/Qt5Widgets
 drwxr-xr-x root       root               80 ./usr/lib/cmake/Qt5Xml
 -rw-r--r-- root       root             5986 ./usr/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake
 -rw-r--r-- root       root              287 ./usr/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake
+-rw-r--r-- root       root             1398 ./usr/lib/libQt5AccessibilitySupport.prl
 -rw-r--r-- root       root             1313 ./usr/lib/libQt5Bootstrap.prl
 -rw-r--r-- root       root             1360 ./usr/lib/libQt5Concurrent.prl
 lrwxrwxrwx root       root               25 ./usr/lib/libQt5Concurrent.so -> libQt5Concurrent.so.5.8.0
@@ -2490,6 +2515,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/libQt5DBus.so -> libQt5DBu
 -rw-r--r-- root       root             1400 ./usr/lib/libQt5Gui.prl
 lrwxrwxrwx root       root               18 ./usr/lib/libQt5Gui.so -> libQt5Gui.so.5.8.0
 -rw-r--r-- root       root             1416 ./usr/lib/libQt5InputSupport.prl
+-rw-r--r-- root       root             1482 ./usr/lib/libQt5LinuxAccessibilitySupport.prl
 -rw-r--r-- root       root             1363 ./usr/lib/libQt5Network.prl
 lrwxrwxrwx root       root               22 ./usr/lib/libQt5Network.so -> libQt5Network.so.5.8.0
 -rw-r--r-- root       root             1398 ./usr/lib/libQt5OpenGLExtensions.prl
@@ -2506,13 +2532,13 @@ lrwxrwxrwx root       root               19 ./usr/lib/libQt5Test.so -> libQt5Tes
 -rw-r--r-- root       root             1458 ./usr/lib/libQt5ThemeSupport.prl
 -rw-r--r-- root       root             1383 ./usr/lib/libQt5Widgets.prl
 lrwxrwxrwx root       root               22 ./usr/lib/libQt5Widgets.so -> libQt5Widgets.so.5.8.0
--rw-r--r-- root       root             1731 ./usr/lib/libQt5XcbQpa.prl
+-rw-r--r-- root       root             1816 ./usr/lib/libQt5XcbQpa.prl
 lrwxrwxrwx root       root               21 ./usr/lib/libQt5XcbQpa.so -> libQt5XcbQpa.so.5.8.0
 -rw-r--r-- root       root             1351 ./usr/lib/libQt5Xml.prl
 lrwxrwxrwx root       root               18 ./usr/lib/libQt5Xml.so -> libQt5Xml.so.5.8.0
 drwxr-xr-x root       root              280 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              304 ./usr/lib/pkgconfig/Qt5Concurrent.pc
--rw-r--r-- root       root              851 ./usr/lib/pkgconfig/Qt5Core.pc
+-rw-r--r-- root       root              893 ./usr/lib/pkgconfig/Qt5Core.pc
 -rw-r--r-- root       root              288 ./usr/lib/pkgconfig/Qt5DBus.pc
 -rw-r--r-- root       root              292 ./usr/lib/pkgconfig/Qt5Gui.pc
 -rw-r--r-- root       root              295 ./usr/lib/pkgconfig/Qt5Network.pc
