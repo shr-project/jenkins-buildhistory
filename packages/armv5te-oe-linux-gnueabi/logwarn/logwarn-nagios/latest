@@ -1,9 +1,9 @@
 PV = 1.0.14
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = bash
+RDEPENDS = bash coreutils sed
 RRECOMMENDS = 
-PKGSIZE = 2882
+PKGSIZE = 2694
 FILES = /usr/lib/nagios
 FILELIST = /usr/lib/nagios/plugins/check_logwarn
