@@ -2,10 +2,10 @@ PV = 5.8.0+gitAUTOINC+ec7663382b
 PR = r0
 PKG = libqt5networkauth-examples-dev
 PKGV = 5.8.0+git0+ec7663382b
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = qtnetworkauth-examples-dev (=5.8.0+git0+ec7663382b)
 RDEPENDS = 
-RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtnetworkauth-dev
+RRECOMMENDS = qtbase-dev
 PKGSIZE = 0
 FILES = /usr/share/qt5/examples/*.so /usr/share/qt5/examples/*/*.so /usr/share/qt5/examples/*/*/*.so /usr/share/qt5/examples/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*/*.so
 FILELIST = 

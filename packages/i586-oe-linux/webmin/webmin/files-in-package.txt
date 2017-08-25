@@ -1,6 +1,4 @@
-drwxr-xr-x root       root               80 ./etc
-drwxr-xr-x root       root               60 ./etc/init.d
--rwxr-xr-x root       root             1314 ./etc/init.d/webmin
+drwxr-xr-x root       root               60 ./etc
 drwxr-xr-x root       root             1840 ./etc/webmin
 drwx--x--x root       root               60 ./etc/webmin/acl
 -rw------- root       root               42 ./etc/webmin/acl/config
@@ -170,6 +168,10 @@ drwx--x--x root       root               60 ./etc/webmin/webminlog
 -rw------- root       root               14 ./etc/webmin/webminlog/config
 drwx--x--x root       root               60 ./etc/webmin/xinetd
 -rw------- root       root              163 ./etc/webmin/xinetd/config
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              273 ./lib/systemd/system/webmin.service
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root             1460 ./usr/libexec/webmin

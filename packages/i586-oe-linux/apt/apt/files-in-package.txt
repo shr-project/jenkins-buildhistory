@@ -5,22 +5,22 @@ drwxr-xr-x root       root               40 ./etc/apt/apt.conf.d
 drwxr-xr-x root       root               40 ./etc/apt/preferences.d
 drwxr-xr-x root       root               40 ./etc/apt/sources.list.d
 drwxr-xr-x root       root               60 ./etc/cron.daily
--rwxr-xr-x root       root              920 ./etc/cron.daily/apt.apt-compat.cron.daily
+-rwxr-xr-x root       root             1474 ./etc/cron.daily/apt.apt-compat.cron.daily
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
--rw-r--r-- root       root              131 ./lib/systemd/system/apt-daily.service
--rw-r--r-- root       root              162 ./lib/systemd/system/apt-daily.timer
+-rw-r--r-- root       root              169 ./lib/systemd/system/apt-daily.service
+-rw-r--r-- root       root              212 ./lib/systemd/system/apt-daily.timer
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
 -rwxr-xr-x root       root            83592 ./usr/bin/apt-cache
 -rwxr-xr-x root       root            22152 ./usr/bin/apt-cdrom
--rwxr-xr-x root       root            17944 ./usr/bin/apt-config
+-rwxr-xr-x root       root            22040 ./usr/bin/apt-config
 -rwxr-xr-x root       root            42628 ./usr/bin/apt-get
--rwxr-xr-x root       root            20667 ./usr/bin/apt-key
+-rwxr-xr-x root       root            20495 ./usr/bin/apt-key
 drwxr-xr-x root       root              200 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/apt
--rw-r--r-- root       root            14947 ./usr/lib/apt/apt.systemd.daily
+-rw-r--r-- root       root            15416 ./usr/lib/apt/apt.systemd.daily
 drwxr-xr-x root       root              360 ./usr/lib/apt/methods
 -rwxr-xr-x root       root            17996 ./usr/lib/apt/methods/bzip2
 -rwxr-xr-x root       root            26188 ./usr/lib/apt/methods/cdrom
@@ -48,7 +48,7 @@ drwxr-xr-x root       root              140 ./usr/lib/dpkg/methods/apt
 -rwxr-xr-x root       root             1242 ./usr/lib/dpkg/methods/apt/update
 -rwxr-xr-x root       root            54824 ./usr/lib/libapt-inst.so.2.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libapt-inst.so.2.0 -> libapt-inst.so.2.0.0
--rwxr-xr-x root       root          1636616 ./usr/lib/libapt-pkg.so.5.0.0
+-rwxr-xr-x root       root          1652936 ./usr/lib/libapt-pkg.so.5.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libapt-pkg.so.5.0 -> libapt-pkg.so.5.0.0
 -rwxr-xr-x root       root           366184 ./usr/lib/libapt-private.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libapt-private.so.0.0 -> libapt-private.so.0.0.0
