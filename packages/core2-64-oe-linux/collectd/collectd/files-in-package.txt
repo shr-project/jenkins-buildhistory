@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./etc
--rw-r----- root       root            37898 ./etc/collectd.conf
+-rw-r----- root       root            37899 ./etc/collectd.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
@@ -10,7 +10,7 @@ drwxr-xr-x root       root              100 ./usr/bin
 -rwxr-xr-x root       root            14496 ./usr/bin/collectd-nagios
 -rwxr-xr-x root       root            14544 ./usr/bin/collectd-tg
 drwxr-xr-x root       root              100 ./usr/lib
-drwxr-xr-x root       root             1940 ./usr/lib/collectd
+drwxr-xr-x root       root             1920 ./usr/lib/collectd
 -rwxr-xr-x root       root            26712 ./usr/lib/collectd/aggregation.so
 -rwxr-xr-x root       root            18512 ./usr/lib/collectd/apache.so
 -rwxr-xr-x root       root            14424 ./usr/lib/collectd/apcups.so
@@ -36,7 +36,7 @@ drwxr-xr-x root       root             1940 ./usr/lib/collectd
 -rwxr-xr-x root       root            18568 ./usr/lib/collectd/email.so
 -rwxr-xr-x root       root             6224 ./usr/lib/collectd/entropy.so
 -rwxr-xr-x root       root            14416 ./usr/lib/collectd/ethstat.so
--rwxr-xr-x root       root            59472 ./usr/lib/collectd/exec.so
+-rwxr-xr-x root       root            63568 ./usr/lib/collectd/exec.so
 -rwxr-xr-x root       root            10344 ./usr/lib/collectd/fhcount.so
 -rwxr-xr-x root       root            14424 ./usr/lib/collectd/filecount.so
 -rwxr-xr-x root       root            10320 ./usr/lib/collectd/fscache.so
@@ -91,7 +91,6 @@ drwxr-xr-x root       root             1940 ./usr/lib/collectd
 -rwxr-xr-x root       root            10344 ./usr/lib/collectd/ted.so
 -rwxr-xr-x root       root            10352 ./usr/lib/collectd/thermal.so
 -rwxr-xr-x root       root            18520 ./usr/lib/collectd/threshold.so
--rwxr-xr-x root       root            26800 ./usr/lib/collectd/turbostat.so
 -rwxr-xr-x root       root            55432 ./usr/lib/collectd/unixsock.so
 -rwxr-xr-x root       root            10320 ./usr/lib/collectd/uptime.so
 -rwxr-xr-x root       root             6224 ./usr/lib/collectd/users.so
