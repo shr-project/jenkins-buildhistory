@@ -1,11 +1,11 @@
-PV = 5.8.0+gitAUTOINC+4704292500
+PV = 5.9.0+gitAUTOINC+eff82ac957
 PR = r0
 PKG = libqt5scxml5
-PKGV = 5.8.0+git0+4704292500
-PKGR = r0.6
-RPROVIDES = qtscxml (=5.8.0+git0+4704292500)
-RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19)
+PKGV = 5.9.0+git0+eff82ac957
+PKGR = r0.0
+RPROVIDES = qtscxml (=5.9.0+git0+eff82ac957)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) qtbase (>= 5.9.0+git0+f6b36eaafe) qtdeclarative (>= 5.9.0+git0+96f6ba5f56)
 RRECOMMENDS = qtscxml-plugins qtscxml-qmlplugins
-PKGSIZE = 300672
+PKGSIZE = 304768
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtscxml /usr/lib/qtscxml/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5Scxml.so.5 /usr/lib/libQt5Scxml.so.5.8 /usr/lib/libQt5Scxml.so.5.8.0
+FILELIST = /usr/lib/libQt5Scxml.so.5 /usr/lib/libQt5Scxml.so.5.9 /usr/lib/libQt5Scxml.so.5.9.0
