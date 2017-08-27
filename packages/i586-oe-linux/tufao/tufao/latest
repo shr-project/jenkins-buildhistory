@@ -2,9 +2,9 @@ PV = 1.2.1+AUTOINC+a4832b4c94
 PR = r0
 PKG = libtufao1-1
 PKGV = 1.2.1+0+a4832b4c94
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = tufao (=1.2.1+0+a4832b4c94)
-RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) qtbase (>= 5.9.0+git0+f6b36eaafe)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) qtbase (>= 5.9.2+git0+73573fce29)
 RRECOMMENDS = 
 PKGSIZE = 378542
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/tufao /usr/lib/tufao/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,10 +1,10 @@
-PV = 5.9.0+gitAUTOINC+0c3c4d01ea
+PV = 5.9.2+gitAUTOINC+1673dbed00
 PR = r0
 PKG = libqt5sensors-plugins
-PKGV = 5.9.0+git0+0c3c4d01ea
+PKGV = 5.9.2+git0+1673dbed00
 PKGR = r0.0
-RPROVIDES = qtsensors-plugins (=5.9.0+git0+0c3c4d01ea)
-RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) qtbase (>= 5.9.0+git0+f6b36eaafe) qtsensors (>= 5.9.0+git0+0c3c4d01ea)
+RPROVIDES = qtsensors-plugins (=5.9.2+git0+1673dbed00)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) qtbase (>= 5.9.2+git0+73573fce29) qtsensors (>= 5.9.2+git0+1673dbed00)
 RRECOMMENDS = 
 PKGSIZE = 213096
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
