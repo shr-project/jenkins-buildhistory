@@ -1,10 +1,10 @@
-PV = 5.8.0+gitAUTOINC+74ac5b0f34
+PV = 5.9.0+gitAUTOINC+f27089657a
 PR = r0
-PKGV = 5.8.0+git0+74ac5b0f34
-PKGR = r0.2
+PKGV = 5.9.0+git0+f27089657a
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.52.3) glibc (>= 2.26) gstreamer1.0 (>= 1.12.2) libgl-mesa (>= 17.1.6) libgstapp-1.0 (>= 1.12.2) libgstaudio-1.0 (>= 1.12.2) libgstpbutils-1.0 (>= 1.12.2) libgstvideo-1.0 (>= 1.12.2) libicui18n (>= 59.1) libicuuc (>= 59.1) libjpeg-turbo (>= 1.5.2) libpng (>= 1.6.31) libsqlite3 (>= 3.20.0) libstdc++ (>= 7.2.0) libx11 (>= 1.6.5) libxcomposite (>= 0.4.4) libxml2 (>= 2.9.4) libxrender (>= 0.9.10) libxslt (>= 1.1.29) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19) qtlocation (>= 5.8.0+git0+41cc347040) qtsensors (>= 5.8.0+git0+1220a31e6c) zlib (>= 1.2.11)
+RDEPENDS = glib-2.0 (>= 2.52.3) glibc (>= 2.26) gstreamer1.0 (>= 1.12.2) libgl-mesa (>= 17.1.6) libgstapp-1.0 (>= 1.12.2) libgstaudio-1.0 (>= 1.12.2) libgstpbutils-1.0 (>= 1.12.2) libgstvideo-1.0 (>= 1.12.2) libicui18n (>= 59.1) libicuuc (>= 59.1) libjpeg-turbo (>= 1.5.2) libpng (>= 1.6.31) libsqlite3 (>= 3.20.0) libstdc++ (>= 7.2.0) libx11 (>= 1.6.5) libxcomposite (>= 0.4.4) libxml2 (>= 2.9.4) libxrender (>= 0.9.10) libxslt (>= 1.1.29) qtbase (>= 5.9.0+git0+f6b36eaafe) qtdeclarative (>= 5.9.0+git0+96f6ba5f56) qtlocation (>= 5.9.0+git0+888d351cb0_d45c177e8a) qtsensors (>= 5.9.0+git0+0c3c4d01ea) zlib (>= 1.2.11)
 RRECOMMENDS = qtwebkit-plugins qtwebkit-qmlplugins
-PKGSIZE = 38704626
+PKGSIZE = 39260386
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwebkit /usr/lib/qtwebkit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5WebKit.so.5 /usr/lib/libQt5WebKit.so.5.8 /usr/lib/libQt5WebKit.so.5.8.0 /usr/lib/libQt5WebKitWidgets.so.5 /usr/lib/libQt5WebKitWidgets.so.5.8 /usr/lib/libQt5WebKitWidgets.so.5.8.0 /usr/lib/qt5/libexec/QtWebProcess
+FILELIST = /usr/lib/libQt5WebKit.so.5 /usr/lib/libQt5WebKit.so.5.9 /usr/lib/libQt5WebKit.so.5.9.0 /usr/lib/libQt5WebKitWidgets.so.5 /usr/lib/libQt5WebKitWidgets.so.5.9 /usr/lib/libQt5WebKitWidgets.so.5.9.0 /usr/lib/qt5/libexec/QtWebPluginProcess /usr/lib/qt5/libexec/QtWebProcess

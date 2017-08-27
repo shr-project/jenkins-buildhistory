@@ -1,10 +1,10 @@
-PV = 5.8.0+gitAUTOINC+cfa4ab4cbf
+PV = 5.9.0+gitAUTOINC+bdf61afe76
 PR = r0
-PKGV = 5.8.0+git0+cfa4ab4cbf
-PKGR = r0.2
+PKGV = 5.9.0+git0+bdf61afe76
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) libxcb (>= 1.12) libxcb-xfixes (>= 1.12) qtbase (>= 5.8.0+git0+49dc9aa409) qtdeclarative (>= 5.8.0+git0+fffb997e19)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) libxcb (>= 1.12) libxcb-xfixes (>= 1.12) qtbase (>= 5.9.0+git0+f6b36eaafe) qtdeclarative (>= 5.9.0+git0+96f6ba5f56)
 RRECOMMENDS = 
-PKGSIZE = 4715200
+PKGSIZE = 4752064
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
 FILELIST = /usr/lib/qt5/plugins/lipi_toolkit/libactivedtw.so /usr/lib/qt5/plugins/lipi_toolkit/libboxfld.so /usr/lib/qt5/plugins/lipi_toolkit/libl7.so /usr/lib/qt5/plugins/lipi_toolkit/liblipiengine.so /usr/lib/qt5/plugins/lipi_toolkit/liblogger.so /usr/lib/qt5/plugins/lipi_toolkit/libneuralnet.so /usr/lib/qt5/plugins/lipi_toolkit/libnn.so /usr/lib/qt5/plugins/lipi_toolkit/libnpen.so /usr/lib/qt5/plugins/lipi_toolkit/libpointfloat.so /usr/lib/qt5/plugins/lipi_toolkit/libpreproc.so /usr/lib/qt5/plugins/lipi_toolkit/libsubstroke.so /usr/lib/qt5/plugins/platforminputcontexts/libqtvirtualkeyboardplugin.so
