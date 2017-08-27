@@ -2,7 +2,7 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/vim
 drwxr-xr-x root       root               60 ./usr/share/vim/vim80
-drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
+drwxr-xr-x root       root            11880 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root            69175 ./usr/share/vim/vim80/syntax/2html.vim
 -rw-r--r-- root       root             2426 ./usr/share/vim/vim80/syntax/a2ps.vim
 -rw-r--r-- root       root             6394 ./usr/share/vim/vim80/syntax/a65.vim
@@ -37,7 +37,7 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             5524 ./usr/share/vim/vim80/syntax/asterisk.vim
 -rw-r--r-- root       root             2332 ./usr/share/vim/vim80/syntax/asteriskvm.vim
 -rw-r--r-- root       root             2602 ./usr/share/vim/vim80/syntax/atlas.vim
--rw-r--r-- root       root            11742 ./usr/share/vim/vim80/syntax/autohotkey.vim
+-rw-r--r-- root       root            11861 ./usr/share/vim/vim80/syntax/autohotkey.vim
 -rw-r--r-- root       root            48014 ./usr/share/vim/vim80/syntax/autoit.vim
 -rw-r--r-- root       root             3972 ./usr/share/vim/vim80/syntax/automake.vim
 -rw-r--r-- root       root             1900 ./usr/share/vim/vim80/syntax/ave.vim
@@ -85,7 +85,7 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             1985 ./usr/share/vim/vim80/syntax/config.vim
 -rw-r--r-- root       root              799 ./usr/share/vim/vim80/syntax/conf.vim
 -rw-r--r-- root       root             6199 ./usr/share/vim/vim80/syntax/context.vim
--rw-r--r-- root       root             2853 ./usr/share/vim/vim80/syntax/cpp.vim
+-rw-r--r-- root       root             2869 ./usr/share/vim/vim80/syntax/cpp.vim
 -rw-r--r-- root       root             1197 ./usr/share/vim/vim80/syntax/crm.vim
 -rw-r--r-- root       root             2215 ./usr/share/vim/vim80/syntax/crontab.vim
 -rw-r--r-- root       root             8449 ./usr/share/vim/vim80/syntax/csc.vim
@@ -100,7 +100,7 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             2687 ./usr/share/vim/vim80/syntax/cuda.vim
 -rw-r--r-- root       root             1916 ./usr/share/vim/vim80/syntax/cuplsim.vim
 -rw-r--r-- root       root             3873 ./usr/share/vim/vim80/syntax/cupl.vim
--rw-r--r-- root       root            25738 ./usr/share/vim/vim80/syntax/c.vim
+-rw-r--r-- root       root            25886 ./usr/share/vim/vim80/syntax/c.vim
 -rw-r--r-- root       root             1254 ./usr/share/vim/vim80/syntax/cvsrc.vim
 -rw-r--r-- root       root              929 ./usr/share/vim/vim80/syntax/cvs.vim
 -rw-r--r-- root       root             2892 ./usr/share/vim/vim80/syntax/cweb.vim
@@ -109,9 +109,9 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             3807 ./usr/share/vim/vim80/syntax/datascript.vim
 -rw-r--r-- root       root             1803 ./usr/share/vim/vim80/syntax/dcd.vim
 -rw-r--r-- root       root             6343 ./usr/share/vim/vim80/syntax/dcl.vim
--rw-r--r-- root       root             2612 ./usr/share/vim/vim80/syntax/debchangelog.vim
+-rw-r--r-- root       root             2636 ./usr/share/vim/vim80/syntax/debchangelog.vim
 -rw-r--r-- root       root             7448 ./usr/share/vim/vim80/syntax/debcontrol.vim
--rw-r--r-- root       root             2111 ./usr/share/vim/vim80/syntax/debsources.vim
+-rw-r--r-- root       root             2129 ./usr/share/vim/vim80/syntax/debsources.vim
 -rw-r--r-- root       root             1097 ./usr/share/vim/vim80/syntax/def.vim
 -rw-r--r-- root       root             7365 ./usr/share/vim/vim80/syntax/denyhosts.vim
 -rw-r--r-- root       root             3077 ./usr/share/vim/vim80/syntax/desc.vim
@@ -149,7 +149,7 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             2348 ./usr/share/vim/vim80/syntax/elf.vim
 -rw-r--r-- root       root            10494 ./usr/share/vim/vim80/syntax/elinks.vim
 -rw-r--r-- root       root             2892 ./usr/share/vim/vim80/syntax/elmfilt.vim
--rw-r--r-- root       root            10486 ./usr/share/vim/vim80/syntax/erlang.vim
+-rw-r--r-- root       root            10911 ./usr/share/vim/vim80/syntax/erlang.vim
 -rw-r--r-- root       root             2908 ./usr/share/vim/vim80/syntax/eruby.vim
 -rw-r--r-- root       root              938 ./usr/share/vim/vim80/syntax/esmtprc.vim
 -rw-r--r-- root       root             2094 ./usr/share/vim/vim80/syntax/esqlc.vim
@@ -205,15 +205,15 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             9318 ./usr/share/vim/vim80/syntax/gtkrc.vim
 -rw-r--r-- root       root             7067 ./usr/share/vim/vim80/syntax/haml.vim
 -rw-r--r-- root       root            13840 ./usr/share/vim/vim80/syntax/hamster.vim
--rw-r--r-- root       root             8503 ./usr/share/vim/vim80/syntax/haskell.vim
+-rw-r--r-- root       root             8504 ./usr/share/vim/vim80/syntax/haskell.vim
 -rw-r--r-- root       root             1422 ./usr/share/vim/vim80/syntax/hastepreproc.vim
 -rw-r--r-- root       root             4994 ./usr/share/vim/vim80/syntax/haste.vim
 -rw-r--r-- root       root             3158 ./usr/share/vim/vim80/syntax/hb.vim
--rw-r--r-- root       root             8106 ./usr/share/vim/vim80/syntax/help.vim
+-rw-r--r-- root       root             8208 ./usr/share/vim/vim80/syntax/help.vim
 -rw-r--r-- root       root             5720 ./usr/share/vim/vim80/syntax/hercules.vim
 -rw-r--r-- root       root             4011 ./usr/share/vim/vim80/syntax/hex.vim
 -rw-r--r-- root       root             1114 ./usr/share/vim/vim80/syntax/hgcommit.vim
--rw-r--r-- root       root             3685 ./usr/share/vim/vim80/syntax/hitest.vim
+-rw-r--r-- root       root             3294 ./usr/share/vim/vim80/syntax/hitest.vim
 -rw-r--r-- root       root            10672 ./usr/share/vim/vim80/syntax/hog.vim
 -rw-r--r-- root       root             3870 ./usr/share/vim/vim80/syntax/hostconf.vim
 -rw-r--r-- root       root              549 ./usr/share/vim/vim80/syntax/hostsaccess.vim
@@ -324,6 +324,7 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             6318 ./usr/share/vim/vim80/syntax/msmessages.vim
 -rw-r--r-- root       root             2390 ./usr/share/vim/vim80/syntax/msql.vim
 -rw-r--r-- root       root            15476 ./usr/share/vim/vim80/syntax/mupad.vim
+-rw-r--r-- root       root             4672 ./usr/share/vim/vim80/syntax/murphi.vim
 -rw-r--r-- root       root            13187 ./usr/share/vim/vim80/syntax/mush.vim
 -rw-r--r-- root       root            64055 ./usr/share/vim/vim80/syntax/muttrc.vim
 -rw-r--r-- root       root            17609 ./usr/share/vim/vim80/syntax/mysql.vim
@@ -360,7 +361,7 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root            36984 ./usr/share/vim/vim80/syntax/perl.vim
 -rw-r--r-- root       root            92737 ./usr/share/vim/vim80/syntax/pfmain.vim
 -rw-r--r-- root       root             5294 ./usr/share/vim/vim80/syntax/pf.vim
--rw-r--r-- root       root            80931 ./usr/share/vim/vim80/syntax/php.vim
+-rw-r--r-- root       root            80429 ./usr/share/vim/vim80/syntax/php.vim
 -rw-r--r-- root       root              151 ./usr/share/vim/vim80/syntax/phtml.vim
 -rw-r--r-- root       root             3333 ./usr/share/vim/vim80/syntax/pic.vim
 -rw-r--r-- root       root             6381 ./usr/share/vim/vim80/syntax/pike.vim
@@ -411,7 +412,7 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root            15331 ./usr/share/vim/vim80/syntax/rexx.vim
 -rw-r--r-- root       root            12134 ./usr/share/vim/vim80/syntax/rhelp.vim
 -rw-r--r-- root       root             2192 ./usr/share/vim/vim80/syntax/rib.vim
--rw-r--r-- root       root             2683 ./usr/share/vim/vim80/syntax/rmd.vim
+-rw-r--r-- root       root             4406 ./usr/share/vim/vim80/syntax/rmd.vim
 -rw-r--r-- root       root             2263 ./usr/share/vim/vim80/syntax/rnc.vim
 -rw-r--r-- root       root              817 ./usr/share/vim/vim80/syntax/rng.vim
 -rw-r--r-- root       root             1908 ./usr/share/vim/vim80/syntax/rnoweb.vim
@@ -422,12 +423,14 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             8834 ./usr/share/vim/vim80/syntax/rst.vim
 -rw-r--r-- root       root             2330 ./usr/share/vim/vim80/syntax/rtf.vim
 -rw-r--r-- root       root            40643 ./usr/share/vim/vim80/syntax/ruby.vim
--rw-r--r-- root       root             8814 ./usr/share/vim/vim80/syntax/r.vim
+-rw-r--r-- root       root            16612 ./usr/share/vim/vim80/syntax/rust.vim
+-rw-r--r-- root       root            14316 ./usr/share/vim/vim80/syntax/r.vim
 -rw-r--r-- root       root             6131 ./usr/share/vim/vim80/syntax/samba.vim
 -rw-r--r-- root       root             6323 ./usr/share/vim/vim80/syntax/sass.vim
--rw-r--r-- root       root            11490 ./usr/share/vim/vim80/syntax/sas.vim
+-rw-r--r-- root       root            34084 ./usr/share/vim/vim80/syntax/sas.vim
 -rw-r--r-- root       root             3490 ./usr/share/vim/vim80/syntax/sather.vim
--rw-r--r-- root       root            11248 ./usr/share/vim/vim80/syntax/scala.vim
+-rw-r--r-- root       root              880 ./usr/share/vim/vim80/syntax/sbt.vim
+-rw-r--r-- root       root            11307 ./usr/share/vim/vim80/syntax/scala.vim
 -rw-r--r-- root       root            17879 ./usr/share/vim/vim80/syntax/scheme.vim
 -rw-r--r-- root       root             3210 ./usr/share/vim/vim80/syntax/scilab.vim
 -rw-r--r-- root       root             9104 ./usr/share/vim/vim80/syntax/screen.vim
@@ -450,7 +453,7 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             1274 ./usr/share/vim/vim80/syntax/sindacmp.vim
 -rw-r--r-- root       root             1961 ./usr/share/vim/vim80/syntax/sindaout.vim
 -rw-r--r-- root       root             3666 ./usr/share/vim/vim80/syntax/sinda.vim
--rw-r--r-- root       root            22177 ./usr/share/vim/vim80/syntax/sisu.vim
+-rw-r--r-- root       root            22180 ./usr/share/vim/vim80/syntax/sisu.vim
 -rw-r--r-- root       root            25769 ./usr/share/vim/vim80/syntax/skill.vim
 -rw-r--r-- root       root             3302 ./usr/share/vim/vim80/syntax/slang.vim
 -rw-r--r-- root       root             2928 ./usr/share/vim/vim80/syntax/slice.vim
@@ -521,7 +524,7 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root             5927 ./usr/share/vim/vim80/syntax/tidy.vim
 -rw-r--r-- root       root             1538 ./usr/share/vim/vim80/syntax/tilde.vim
 -rw-r--r-- root       root             1658 ./usr/share/vim/vim80/syntax/tli.vim
--rw-r--r-- root       root             6383 ./usr/share/vim/vim80/syntax/tmux.vim
+-rw-r--r-- root       root             6413 ./usr/share/vim/vim80/syntax/tmux.vim
 -rw-r--r-- root       root             3481 ./usr/share/vim/vim80/syntax/tpp.vim
 -rw-r--r-- root       root             5033 ./usr/share/vim/vim80/syntax/trasys.vim
 -rw-r--r-- root       root             3668 ./usr/share/vim/vim80/syntax/treetop.vim
@@ -591,4 +594,4 @@ drwxr-xr-x root       root            11820 ./usr/share/vim/vim80/syntax
 -rw-r--r-- root       root            12864 ./usr/share/vim/vim80/syntax/yaml.vim
 -rw-r--r-- root       root             2894 ./usr/share/vim/vim80/syntax/z8a.vim
 -rw-r--r-- root       root             6446 ./usr/share/vim/vim80/syntax/zimbu.vim
--rw-r--r-- root       root            30454 ./usr/share/vim/vim80/syntax/zsh.vim
+-rw-r--r-- root       root            23469 ./usr/share/vim/vim80/syntax/zsh.vim

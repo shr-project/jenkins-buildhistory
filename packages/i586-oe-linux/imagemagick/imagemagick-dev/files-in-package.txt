@@ -4,14 +4,14 @@ drwxr-xr-x root       root              120 ./usr/include/ImageMagick-7
 drwxr-xr-x root       root              340 ./usr/include/ImageMagick-7/Magick++
 -rw-r--r-- root       root             2322 ./usr/include/ImageMagick-7/Magick++/Blob.h
 -rw-r--r-- root       root             1890 ./usr/include/ImageMagick-7/Magick++/CoderInfo.h
--rw-r--r-- root       root            11618 ./usr/include/ImageMagick-7/Magick++/Color.h
+-rw-r--r-- root       root            11728 ./usr/include/ImageMagick-7/Magick++/Color.h
 drwxr-xr-x root       root             1940 ./usr/include/ImageMagick-7/MagickCore
 -rw-r--r-- root       root              974 ./usr/include/ImageMagick-7/MagickCore/animate.h
 -rw-r--r-- root       root             1283 ./usr/include/ImageMagick-7/MagickCore/annotate.h
 -rw-r--r-- root       root             1377 ./usr/include/ImageMagick-7/MagickCore/artifact.h
 -rw-r--r-- root       root             1664 ./usr/include/ImageMagick-7/MagickCore/attribute.h
--rw-r--r-- root       root             3126 ./usr/include/ImageMagick-7/MagickCore/blob.h
--rw-r--r-- root       root             2350 ./usr/include/ImageMagick-7/MagickCore/cache.h
+-rw-r--r-- root       root             3141 ./usr/include/ImageMagick-7/MagickCore/blob.h
+-rw-r--r-- root       root             2489 ./usr/include/ImageMagick-7/MagickCore/cache.h
 -rw-r--r-- root       root             3564 ./usr/include/ImageMagick-7/MagickCore/cache-view.h
 -rw-r--r-- root       root             1306 ./usr/include/ImageMagick-7/MagickCore/channel.h
 -rw-r--r-- root       root             1128 ./usr/include/ImageMagick-7/MagickCore/cipher.h
@@ -20,7 +20,7 @@ drwxr-xr-x root       root             1940 ./usr/include/ImageMagick-7/MagickCo
 -rw-r--r-- root       root             2246 ./usr/include/ImageMagick-7/MagickCore/color.h
 -rw-r--r-- root       root             1069 ./usr/include/ImageMagick-7/MagickCore/colormap.h
 -rw-r--r-- root       root             2206 ./usr/include/ImageMagick-7/MagickCore/colorspace.h
--rw-r--r-- root       root             1830 ./usr/include/ImageMagick-7/MagickCore/compare.h
+-rw-r--r-- root       root             1903 ./usr/include/ImageMagick-7/MagickCore/compare.h
 -rw-r--r-- root       root             2731 ./usr/include/ImageMagick-7/MagickCore/composite.h
 -rw-r--r-- root       root             2124 ./usr/include/ImageMagick-7/MagickCore/compress.h
 -rw-r--r-- root       root             1842 ./usr/include/ImageMagick-7/MagickCore/configure.h
@@ -50,11 +50,11 @@ drwxr-xr-x root       root             1940 ./usr/include/ImageMagick-7/MagickCo
 -rw-r--r-- root       root             2127 ./usr/include/ImageMagick-7/MagickCore/locale_.h
 -rw-r--r-- root       root             2773 ./usr/include/ImageMagick-7/MagickCore/log.h
 -rw-r--r-- root       root             1546 ./usr/include/ImageMagick-7/MagickCore/magic.h
--rw-r--r-- root       root            46345 ./usr/include/ImageMagick-7/MagickCore/magick-baseconfig.h
+-rw-r--r-- root       root            46414 ./usr/include/ImageMagick-7/MagickCore/magick-baseconfig.h
 -rw-r--r-- root       root             6934 ./usr/include/ImageMagick-7/MagickCore/magick-config.h
 -rw-r--r-- root       root             5018 ./usr/include/ImageMagick-7/MagickCore/MagickCore.h
 -rw-r--r-- root       root             3635 ./usr/include/ImageMagick-7/MagickCore/magick.h
--rw-r--r-- root       root             4956 ./usr/include/ImageMagick-7/MagickCore/magick-type.h
+-rw-r--r-- root       root             5573 ./usr/include/ImageMagick-7/MagickCore/magick-type.h
 -rw-r--r-- root       root             1558 ./usr/include/ImageMagick-7/MagickCore/matrix.h
 -rw-r--r-- root       root             2240 ./usr/include/ImageMagick-7/MagickCore/memory_.h
 -rw-r--r-- root       root             4559 ./usr/include/ImageMagick-7/MagickCore/method-attribute.h
@@ -64,13 +64,13 @@ drwxr-xr-x root       root             1940 ./usr/include/ImageMagick-7/MagickCo
 -rw-r--r-- root       root             1468 ./usr/include/ImageMagick-7/MagickCore/monitor.h
 -rw-r--r-- root       root             1818 ./usr/include/ImageMagick-7/MagickCore/montage.h
 -rw-r--r-- root       root             4556 ./usr/include/ImageMagick-7/MagickCore/morphology.h
--rw-r--r-- root       root             8346 ./usr/include/ImageMagick-7/MagickCore/nt-base.h
+-rw-r--r-- root       root             8395 ./usr/include/ImageMagick-7/MagickCore/nt-base.h
 -rw-r--r-- root       root             2019 ./usr/include/ImageMagick-7/MagickCore/opencl.h
--rw-r--r-- root       root             6337 ./usr/include/ImageMagick-7/MagickCore/option.h
+-rw-r--r-- root       root             6367 ./usr/include/ImageMagick-7/MagickCore/option.h
 -rw-r--r-- root       root             1658 ./usr/include/ImageMagick-7/MagickCore/paint.h
 -rw-r--r-- root       root            28096 ./usr/include/ImageMagick-7/MagickCore/pixel-accessor.h
 -rw-r--r-- root       root             7183 ./usr/include/ImageMagick-7/MagickCore/pixel.h
--rw-r--r-- root       root             1736 ./usr/include/ImageMagick-7/MagickCore/policy.h
+-rw-r--r-- root       root             1797 ./usr/include/ImageMagick-7/MagickCore/policy.h
 -rw-r--r-- root       root              934 ./usr/include/ImageMagick-7/MagickCore/prepress.h
 -rw-r--r-- root       root             1673 ./usr/include/ImageMagick-7/MagickCore/profile.h
 -rw-r--r-- root       root             1697 ./usr/include/ImageMagick-7/MagickCore/property.h
@@ -78,7 +78,7 @@ drwxr-xr-x root       root             1940 ./usr/include/ImageMagick-7/MagickCo
 -rw-r--r-- root       root             5044 ./usr/include/ImageMagick-7/MagickCore/quantum.h
 -rw-r--r-- root       root             1502 ./usr/include/ImageMagick-7/MagickCore/random_.h
 -rw-r--r-- root       root             1435 ./usr/include/ImageMagick-7/MagickCore/registry.h
--rw-r--r-- root       root             2761 ./usr/include/ImageMagick-7/MagickCore/resample.h
+-rw-r--r-- root       root             2782 ./usr/include/ImageMagick-7/MagickCore/resample.h
 -rw-r--r-- root       root             1742 ./usr/include/ImageMagick-7/MagickCore/resize.h
 -rw-r--r-- root       root             1701 ./usr/include/ImageMagick-7/MagickCore/resource_.h
 -rw-r--r-- root       root             1110 ./usr/include/ImageMagick-7/MagickCore/segment.h
@@ -90,7 +90,7 @@ drwxr-xr-x root       root             1940 ./usr/include/ImageMagick-7/MagickCo
 -rw-r--r-- root       root             1598 ./usr/include/ImageMagick-7/MagickCore/stream.h
 -rw-r--r-- root       root             3447 ./usr/include/ImageMagick-7/MagickCore/string_.h
 -rw-r--r-- root       root             9341 ./usr/include/ImageMagick-7/MagickCore/studio.h
--rw-r--r-- root       root             1649 ./usr/include/ImageMagick-7/MagickCore/threshold.h
+-rw-r--r-- root       root             1862 ./usr/include/ImageMagick-7/MagickCore/threshold.h
 -rw-r--r-- root       root             1518 ./usr/include/ImageMagick-7/MagickCore/timer.h
 -rw-r--r-- root       root             1378 ./usr/include/ImageMagick-7/MagickCore/token.h
 -rw-r--r-- root       root             1800 ./usr/include/ImageMagick-7/MagickCore/transform.h
@@ -103,11 +103,11 @@ drwxr-xr-x root       root             1940 ./usr/include/ImageMagick-7/MagickCo
 -rw-r--r-- root       root             1128 ./usr/include/ImageMagick-7/MagickCore/xwindow.h
 -rw-r--r-- root       root            68381 ./usr/include/ImageMagick-7/Magick++/Drawable.h
 -rw-r--r-- root       root            11861 ./usr/include/ImageMagick-7/Magick++/Exception.h
--rw-r--r-- root       root             1127 ./usr/include/ImageMagick-7/Magick++/Functions.h
+-rw-r--r-- root       root             1244 ./usr/include/ImageMagick-7/Magick++/Functions.h
 -rw-r--r-- root       root             6650 ./usr/include/ImageMagick-7/Magick++/Geometry.h
 -rw-r--r-- root       root              713 ./usr/include/ImageMagick-7/Magick++.h
--rw-r--r-- root       root            63075 ./usr/include/ImageMagick-7/Magick++/Image.h
--rw-r--r-- root       root            54258 ./usr/include/ImageMagick-7/Magick++/Include.h
+-rw-r--r-- root       root            63481 ./usr/include/ImageMagick-7/Magick++/Image.h
+-rw-r--r-- root       root            54774 ./usr/include/ImageMagick-7/Magick++/Include.h
 -rw-r--r-- root       root             3839 ./usr/include/ImageMagick-7/Magick++/Montage.h
 -rw-r--r-- root       root             3970 ./usr/include/ImageMagick-7/Magick++/Pixels.h
 -rw-r--r-- root       root             2357 ./usr/include/ImageMagick-7/Magick++/ResourceLimits.h
@@ -127,7 +127,7 @@ drwxr-xr-x root       root              500 ./usr/include/ImageMagick-7/MagickWa
 -rw-r--r-- root       root              963 ./usr/include/ImageMagick-7/MagickWand/import.h
 -rw-r--r-- root       root             1139 ./usr/include/ImageMagick-7/MagickWand/magick-cli.h
 -rw-r--r-- root       root            18681 ./usr/include/ImageMagick-7/MagickWand/magick-image.h
--rw-r--r-- root       root             5451 ./usr/include/ImageMagick-7/MagickWand/magick-property.h
+-rw-r--r-- root       root             5505 ./usr/include/ImageMagick-7/MagickWand/magick-property.h
 -rw-r--r-- root       root             3830 ./usr/include/ImageMagick-7/MagickWand/MagickWand.h
 -rw-r--r-- root       root             4199 ./usr/include/ImageMagick-7/MagickWand/method-attribute.h
 -rw-r--r-- root       root             1501 ./usr/include/ImageMagick-7/MagickWand/mogrify.h
@@ -139,15 +139,15 @@ drwxr-xr-x root       root              500 ./usr/include/ImageMagick-7/MagickWa
 -rw-r--r-- root       root             1444 ./usr/include/ImageMagick-7/MagickWand/wandcli.h
 -rw-r--r-- root       root             2425 ./usr/include/ImageMagick-7/MagickWand/wand-view.h
 drwxr-xr-x root       root              120 ./usr/lib
-lrwxrwxrwx root       root               30 ./usr/lib/libMagick++-7.Q16HDRI.so -> libMagick++-7.Q16HDRI.so.2.0.0
-lrwxrwxrwx root       root               32 ./usr/lib/libMagickCore-7.Q16HDRI.so -> libMagickCore-7.Q16HDRI.so.2.0.0
-lrwxrwxrwx root       root               32 ./usr/lib/libMagickWand-7.Q16HDRI.so -> libMagickWand-7.Q16HDRI.so.0.0.0
+lrwxrwxrwx root       root               30 ./usr/lib/libMagick++-7.Q16HDRI.so -> libMagick++-7.Q16HDRI.so.3.0.0
+lrwxrwxrwx root       root               32 ./usr/lib/libMagickCore-7.Q16HDRI.so -> libMagickCore-7.Q16HDRI.so.3.0.0
+lrwxrwxrwx root       root               32 ./usr/lib/libMagickWand-7.Q16HDRI.so -> libMagickWand-7.Q16HDRI.so.3.0.0
 drwxr-xr-x root       root              200 ./usr/lib/pkgconfig
--rw-r--r-- root       root              621 ./usr/lib/pkgconfig/ImageMagick-7.Q16HDRI.pc
--rw-r--r-- root       root              621 ./usr/lib/pkgconfig/ImageMagick.pc
+-rw-r--r-- root       root              622 ./usr/lib/pkgconfig/ImageMagick-7.Q16HDRI.pc
+-rw-r--r-- root       root              622 ./usr/lib/pkgconfig/ImageMagick.pc
 -rw-r--r-- root       root              442 ./usr/lib/pkgconfig/Magick++-7.Q16HDRI.pc
--rw-r--r-- root       root              659 ./usr/lib/pkgconfig/MagickCore-7.Q16HDRI.pc
--rw-r--r-- root       root              659 ./usr/lib/pkgconfig/MagickCore.pc
+-rw-r--r-- root       root              660 ./usr/lib/pkgconfig/MagickCore-7.Q16HDRI.pc
+-rw-r--r-- root       root              660 ./usr/lib/pkgconfig/MagickCore.pc
 -rw-r--r-- root       root              442 ./usr/lib/pkgconfig/Magick++.pc
--rw-r--r-- root       root              627 ./usr/lib/pkgconfig/MagickWand-7.Q16HDRI.pc
--rw-r--r-- root       root              627 ./usr/lib/pkgconfig/MagickWand.pc
+-rw-r--r-- root       root              628 ./usr/lib/pkgconfig/MagickWand-7.Q16HDRI.pc
+-rw-r--r-- root       root              628 ./usr/lib/pkgconfig/MagickWand.pc
