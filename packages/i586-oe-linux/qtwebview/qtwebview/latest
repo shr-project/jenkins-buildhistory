@@ -1,0 +1,11 @@
+PV = 5.9.2+gitAUTOINC+e4016a67bb
+PR = r0
+PKG = libqt5webview5
+PKGV = 5.9.2+git0+e4016a67bb
+PKGR = r0.0
+RPROVIDES = qtwebview (=5.9.2+git0+e4016a67bb)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.2.0) qtbase (>= 5.9.2+git0+73573fce29) qtdeclarative (>= 5.9.2+git0+7c45b035b9) qtwebengine (>= 5.9.2+git0+99f84ffd2c_21508b5b54)
+RRECOMMENDS = qtwebview-plugins qtwebview-qmlplugins
+PKGSIZE = 83588
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwebview /usr/lib/qtwebview/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
+FILELIST = /usr/lib/libQt5WebView.so.5 /usr/lib/libQt5WebView.so.5.9 /usr/lib/libQt5WebView.so.5.9.2
