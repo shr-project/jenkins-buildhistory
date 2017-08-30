@@ -1,9 +1,9 @@
-PV = 4.6.5
+PV = 4.6.7
 PR = r0
 PKG = libndr-nbt0
-PKGR = r0.6
-RPROVIDES = libndr-nbt (=4.6.5)
-RDEPENDS = glibc (>= 2.26) libndr (>= 4.6.5) libsamba-security-samba4 (>= 4.6.5) libsamba-util (>= 4.6.5) libtalloc (>= 2.1.9) samba-common
+PKGR = r0.0
+RPROVIDES = libndr-nbt (=4.6.7)
+RDEPENDS = glibc (>= 2.26) libndr (>= 4.6.7) libsamba-security-samba4 (>= 4.6.7) libsamba-util (>= 4.6.7) libtalloc (>= 2.1.9) samba-common
 RRECOMMENDS = 
 PKGSIZE = 62815
 FILES = /usr/lib/libndr-nbt.so.0 /usr/lib/libndr-nbt.so.0.0.1
