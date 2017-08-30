@@ -1,9 +1,9 @@
-PV = 4.6.5
+PV = 4.6.7
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libmsrpc3-samba4 (>= 4.6.5) libsamba-credentials (>= 4.6.5) libsamba-debug-samba4 (>= 4.6.5) libsamba-errors (>= 4.6.5) libsamba-passdb (>= 4.6.5) libsamba-util (>= 4.6.5) libsecrets3-samba4 (>= 4.6.5) libsmbconf (>= 4.6.5) libtalloc (>= 2.1.9) samba-common
+RDEPENDS = glibc (>= 2.26) libdcerpc-binding (>= 4.6.7) libmsrpc3-samba4 (>= 4.6.7) libsamba-credentials (>= 4.6.7) libsamba-debug-samba4 (>= 4.6.7) libsamba-errors (>= 4.6.7) libsamba-passdb (>= 4.6.7) libsamba-util (>= 4.6.7) libsecrets3-samba4 (>= 4.6.7) libsmbconf (>= 4.6.7) libtalloc (>= 2.1.9) samba-common
 RRECOMMENDS = 
-PKGSIZE = 17696
+PKGSIZE = 21792
 FILES = /usr/lib/samba/libtrusts-util-samba4.so
 FILELIST = /usr/lib/samba/libtrusts-util-samba4.so

@@ -1,6 +1,7 @@
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/udev
-drwxr-xr-x root       root              100 ./lib/udev/.debug
+drwxr-xr-x root       root              120 ./lib/udev/.debug
+-rwxr-xr-x root       root            22356 ./lib/udev/.debug/udisks-dm-export
 -rwxr-xr-x root       root            53872 ./lib/udev/.debug/udisks-part-id
 -rwxr-xr-x root       root            11756 ./lib/udev/.debug/udisks-probe-ata-smart
 -rwxr-xr-x root       root            17072 ./lib/udev/.debug/udisks-probe-sas-expander
@@ -81,8 +82,9 @@ drwxr-xr-x root       root              300 ./usr/src/debug/udisks/1.0.5-r0/udis
 -rw-r--r-- root       root             3225 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/port-private.c
 -rw-r--r-- root       root             1993 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/port-private.h
 -rw-r--r-- root       root             1048 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/private.h
-drwxr-xr-x root       root              100 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/probers
+drwxr-xr-x root       root              120 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/probers
 -rw-r--r-- root       root            16808 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/probers/part-id.c
+-rw-r--r-- root       root             9502 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/probers/udisks-dm-export.c
 -rw-r--r-- root       root             1715 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/probers/udisks-probe-ata-smart.c
 -rw-r--r-- root       root             3487 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/probers/udisks-probe-sas-expander.c
 -rw-r--r-- root       root             1244 ./usr/src/debug/udisks/1.0.5-r0/udisks-1.0.5/src/types.h
