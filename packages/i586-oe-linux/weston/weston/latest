@@ -1,8 +1,8 @@
 PV = 2.0.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = base-files base-passwd cairo (>= 1.14.10) glibc (>= 2.26) libdrm (>= 2.4.81) libinput (>= 1.8.1) libjpeg-turbo (>= 1.5.2) libpng (>= 1.6.31) libsystemd (>= 234) libweston-2 (>= 2.0.0) libxkbcommon (>= 0.7.1) pixman (>= 0.34.0) shadow wayland (>= 1.13.0) xkeyboard-config
+RDEPENDS = base-files base-passwd cairo (>= 1.14.10) glibc (>= 2.26) libdrm (>= 2.4.83) libinput (>= 1.8.1) libjpeg-turbo (>= 1.5.2) libpng (>= 1.6.31) libsystemd (>= 234) libweston-2 (>= 2.0.0) libxkbcommon (>= 0.7.1) pixman (>= 0.34.0) shadow wayland (>= 1.13.0) xkeyboard-config
 RRECOMMENDS = liberation-fonts
 PKGSIZE = 1343154
 FILES = /usr/bin/weston /usr/bin/weston-terminal /usr/bin/weston-info /usr/bin/weston-launch /usr/bin/wcap-decode /usr/libexec /usr/lib/weston/*.so /usr/share
