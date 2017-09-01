@@ -2,9 +2,9 @@ PV = 5.9.2+gitAUTOINC+1f47b1a7ae
 PR = r0
 PKG = libqt5charts-dev
 PKGV = 5.9.2+git0+1f47b1a7ae
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = qtcharts-dev (=5.9.2+git0+1f47b1a7ae)
-RDEPENDS = qtcharts (= 5.9.2+git0+1f47b1a7ae-r0.1)
+RDEPENDS = qtcharts (= 5.9.2+git0+1f47b1a7ae-r0.0)
 RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev qtbase-dev qtcharts qtcharts-mkspecs qtcharts-qmldesigner qtdeclarative-dev qtmultimedia-dev
 PKGSIZE = 589331
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtcharts/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*

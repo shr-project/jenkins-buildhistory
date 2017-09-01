@@ -1,10 +1,10 @@
 PV = 5.15
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.26) watchdog-config
 RRECOMMENDS = kernel-module-softdog
 RCONFLICTS = watchdog
-PKGSIZE = 20629
+PKGSIZE = 18312
 FILES = /etc/init.d/wd_keepalive /usr/sbin/wd_keepalive
-FILELIST = /etc/init.d/wd_keepalive /usr/sbin/wd_keepalive
+FILELIST = /usr/sbin/wd_keepalive
