@@ -1,0 +1,10 @@
+PV = 4.12.10+gitAUTOINC+42965d664f_fd16268214
+PR = r0
+PKGV = 4.12.10+git0+42965d664f_fd16268214
+PKGR = r0.1
+RPROVIDES = kernel-module-cryptoloop
+RDEPENDS = kernel-module-loop-4.12.10-yocto-standard
+RRECOMMENDS = kernel-image
+PKGSIZE = 6276
+FILES = /lib/modules/4.12.10-yocto-standard/kernel/drivers/block/cryptoloop.ko /etc/modules-load.d/cryptoloop.conf /etc/modprobe.d/cryptoloop.conf
+FILELIST = /lib/modules/4.12.10-yocto-standard/kernel/drivers/block/cryptoloop.ko

@@ -1,0 +1,10 @@
+PV = 4.12.10+gitAUTOINC+42965d664f_fd16268214
+PR = r0
+PKGV = 4.12.10+git0+42965d664f_fd16268214
+PKGR = r0.1
+RPROVIDES = kernel-module-ebt-stp
+RDEPENDS = kernel-module-x-tables-4.12.10-yocto-standard
+RRECOMMENDS = kernel-image
+PKGSIZE = 5588
+FILES = /lib/modules/4.12.10-yocto-standard/kernel/net/bridge/netfilter/ebt_stp.ko /etc/modules-load.d/ebt_stp.conf /etc/modprobe.d/ebt_stp.conf
+FILELIST = /lib/modules/4.12.10-yocto-standard/kernel/net/bridge/netfilter/ebt_stp.ko
