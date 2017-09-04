@@ -14,10 +14,10 @@ drwxr-xr-x root       root              300 ./usr/bin
 -rwxr-xr-x root       root           235728 ./usr/bin/tshark
 -rwxr-xr-x root       root          1682904 ./usr/bin/wireshark-gtk
 drwxr-xr-x root       root              220 ./usr/lib
--rwxr-xr-x root       root         51799624 ./usr/lib/libwireshark.so.8.1.8
-lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so.8 -> libwireshark.so.8.1.8
--rwxr-xr-x root       root           373736 ./usr/lib/libwiretap.so.6.0.8
-lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so.6 -> libwiretap.so.6.0.8
+-rwxr-xr-x root       root         51815944 ./usr/lib/libwireshark.so.8.1.9
+lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so.8 -> libwireshark.so.8.1.9
+-rwxr-xr-x root       root           373736 ./usr/lib/libwiretap.so.6.0.9
+lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so.6 -> libwiretap.so.6.0.9
 -rwxr-xr-x root       root            27172 ./usr/lib/libwscodecs.so.1.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libwscodecs.so.1 -> libwscodecs.so.1.0.0
 -rwxr-xr-x root       root           129044 ./usr/lib/libwsutil.so.7.0.0
@@ -27,20 +27,20 @@ drwxr-xr-x root       root               80 ./usr/lib/wireshark/extcap
 -rwxr-xr-x root       root            47020 ./usr/lib/wireshark/extcap/androiddump
 -rwxr-xr-x root       root            19972 ./usr/lib/wireshark/extcap/randpktdump
 drwxr-xr-x root       root               60 ./usr/lib/wireshark/plugins
-drwxr-xr-x root       root              300 ./usr/lib/wireshark/plugins/2.2.8
--rwxr-xr-x root       root           234708 ./usr/lib/wireshark/plugins/2.2.8/docsis.so
--rwxr-xr-x root       root           153240 ./usr/lib/wireshark/plugins/2.2.8/ethercat.so
--rwxr-xr-x root       root            72608 ./usr/lib/wireshark/plugins/2.2.8/gryphon.so
--rwxr-xr-x root       root            39908 ./usr/lib/wireshark/plugins/2.2.8/irda.so
--rwxr-xr-x root       root            15432 ./usr/lib/wireshark/plugins/2.2.8/m2m.so
--rwxr-xr-x root       root            83964 ./usr/lib/wireshark/plugins/2.2.8/mate.so
--rwxr-xr-x root       root           221716 ./usr/lib/wireshark/plugins/2.2.8/opcua.so
--rwxr-xr-x root       root           376456 ./usr/lib/wireshark/plugins/2.2.8/profinet.so
--rwxr-xr-x root       root             9952 ./usr/lib/wireshark/plugins/2.2.8/stats_tree.so
--rwxr-xr-x root       root           109812 ./usr/lib/wireshark/plugins/2.2.8/unistim.so
--rwxr-xr-x root       root            56488 ./usr/lib/wireshark/plugins/2.2.8/wimaxasncp.so
--rwxr-xr-x root       root            62224 ./usr/lib/wireshark/plugins/2.2.8/wimaxmacphy.so
--rwxr-xr-x root       root           542516 ./usr/lib/wireshark/plugins/2.2.8/wimax.so
+drwxr-xr-x root       root              300 ./usr/lib/wireshark/plugins/2.2.9
+-rwxr-xr-x root       root           234708 ./usr/lib/wireshark/plugins/2.2.9/docsis.so
+-rwxr-xr-x root       root           153240 ./usr/lib/wireshark/plugins/2.2.9/ethercat.so
+-rwxr-xr-x root       root            72608 ./usr/lib/wireshark/plugins/2.2.9/gryphon.so
+-rwxr-xr-x root       root            39908 ./usr/lib/wireshark/plugins/2.2.9/irda.so
+-rwxr-xr-x root       root            15432 ./usr/lib/wireshark/plugins/2.2.9/m2m.so
+-rwxr-xr-x root       root            83964 ./usr/lib/wireshark/plugins/2.2.9/mate.so
+-rwxr-xr-x root       root           221716 ./usr/lib/wireshark/plugins/2.2.9/opcua.so
+-rwxr-xr-x root       root           376456 ./usr/lib/wireshark/plugins/2.2.9/profinet.so
+-rwxr-xr-x root       root             9952 ./usr/lib/wireshark/plugins/2.2.9/stats_tree.so
+-rwxr-xr-x root       root           109812 ./usr/lib/wireshark/plugins/2.2.9/unistim.so
+-rwxr-xr-x root       root            56488 ./usr/lib/wireshark/plugins/2.2.9/wimaxasncp.so
+-rwxr-xr-x root       root            62224 ./usr/lib/wireshark/plugins/2.2.9/wimaxmacphy.so
+-rwxr-xr-x root       root           542516 ./usr/lib/wireshark/plugins/2.2.9/wimax.so
 drwxr-xr-x root       root              140 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/appdata
 -rw-r--r-- root       root             2267 ./usr/share/appdata/wireshark.appdata.xml
@@ -92,7 +92,7 @@ drwxr-xr-x root       root               60 ./usr/share/mime/packages
 -rw-r--r-- root       root             7131 ./usr/share/mime/packages/wireshark.xml
 drwxr-xr-x root       root              740 ./usr/share/wireshark
 -rw-r--r-- root       root             8800 ./usr/share/wireshark/androiddump.html
--rw-r--r-- root       root            58015 ./usr/share/wireshark/AUTHORS-SHORT
+-rw-r--r-- root       root            58209 ./usr/share/wireshark/AUTHORS-SHORT
 -rw-r--r-- root       root            13451 ./usr/share/wireshark/capinfos.html
 -rw-r--r-- root       root              575 ./usr/share/wireshark/cfilters
 -rw-r--r-- root       root            10597 ./usr/share/wireshark/ciscodump.html
@@ -149,7 +149,7 @@ drwxr-xr-x root       root              180 ./usr/share/wireshark/help
 -rw-r--r-- root       root             1908 ./usr/share/wireshark/help/overview.txt
 -rw-r--r-- root       root              166 ./usr/share/wireshark/help/toc
 -rw-r--r-- root       root             4147 ./usr/share/wireshark/ipmap.html
--rw-r--r-- root       root          1856204 ./usr/share/wireshark/manuf
+-rw-r--r-- root       root          1873918 ./usr/share/wireshark/manuf
 -rw-r--r-- root       root             7923 ./usr/share/wireshark/mergecap.html
 -rw-r--r-- root       root             6954 ./usr/share/wireshark/pdml2html.xsl
 drwxr-xr-x root       root               80 ./usr/share/wireshark/profiles
@@ -362,7 +362,7 @@ drwxr-xr-x root       root             4040 ./usr/share/wireshark/radius
 -rw-r--r-- root       root             4057 ./usr/share/wireshark/randpkt.html
 -rw-r--r-- root       root            24798 ./usr/share/wireshark/rawshark.html
 -rw-r--r-- root       root             3072 ./usr/share/wireshark/reordercap.html
--rw-r--r-- root       root           957088 ./usr/share/wireshark/services
+-rw-r--r-- root       root           957335 ./usr/share/wireshark/services
 -rw-r--r-- root       root              315 ./usr/share/wireshark/smi_modules
 -rw-r--r-- root       root             9259 ./usr/share/wireshark/sshdump.html
 -rw-r--r-- root       root            12655 ./usr/share/wireshark/text2pcap.html
@@ -373,5 +373,5 @@ drwxr-xr-x root       root               80 ./usr/share/wireshark/wimaxasncp
 -rw-r--r-- root       root              307 ./usr/share/wireshark/wimaxasncp/dictionary.dtd
 -rw-r--r-- root       root            91491 ./usr/share/wireshark/wimaxasncp/dictionary.xml
 -rw-r--r-- root       root            18349 ./usr/share/wireshark/wireshark-filter.html
--rw-r--r-- root       root           183881 ./usr/share/wireshark/wireshark.html
+-rw-r--r-- root       root           184100 ./usr/share/wireshark/wireshark.html
 -rw-r--r-- root       root             4852 ./usr/share/wireshark/ws.css

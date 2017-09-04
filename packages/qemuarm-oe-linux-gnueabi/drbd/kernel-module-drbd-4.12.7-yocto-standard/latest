@@ -1,9 +1,0 @@
-PV = 9.0.8-1
-PR = r0
-PKGR = r0.1
-RPROVIDES = kernel-module-drbd
-RDEPENDS = kernel-module-libcrc32c-4.12.7-yocto-standard
-RRECOMMENDS = kernel-image
-PKGSIZE = 637072
-FILES = /lib/modules/4.12.7-yocto-standard/updates/drbd.ko /etc/modules-load.d/drbd.conf /etc/modprobe.d/drbd.conf
-FILELIST = /lib/modules/4.12.7-yocto-standard/updates/drbd.ko
