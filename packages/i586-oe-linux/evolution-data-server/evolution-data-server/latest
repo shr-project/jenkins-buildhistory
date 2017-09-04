@@ -2,9 +2,9 @@ PV = 3.2.3+gitAUTOINC+a9e4e74ec4
 PR = r0
 PKG = libebackend-1.2-1
 PKGV = 3.2.3+git0+a9e4e74ec4
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = evolution-data-server (=3.2.3+git0+a9e4e74ec4)
-RDEPENDS = db (>= 5.3.28) gconf (>= 3.2.6) glib-2.0 (>= 2.52.3) glibc (>= 2.26) json-glib (>= 1.2.8) libcamel (>= 3.2.3+git0+a9e4e74ec4) libebook (>= 3.2.3+git0+a9e4e74ec4) libecal (>= 3.2.3+git0+a9e4e74ec4) libedata-book (>= 3.2.3+git0+a9e4e74ec4) libedata-cal (>= 3.2.3+git0+a9e4e74ec4) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libgdata (>= 0.16.1) libical (>= 2.0.0) libicui18n (>= 59.1) libicuuc (>= 59.1) libsoup-2.4 (>= 2.58.1) libsqlite3 (>= 3.20.0) libxml2 (>= 2.9.4) nspr (>= 4.16) nss (>= 3.31.1) zlib (>= 1.2.11)
+RDEPENDS = db (>= 5.3.28) gconf (>= 3.2.6) glib-2.0 (>= 2.52.3) glibc (>= 2.26) json-glib (>= 1.2.8) libcamel (>= 3.2.3+git0+a9e4e74ec4) libebook (>= 3.2.3+git0+a9e4e74ec4) libecal (>= 3.2.3+git0+a9e4e74ec4) libedata-book (>= 3.2.3+git0+a9e4e74ec4) libedata-cal (>= 3.2.3+git0+a9e4e74ec4) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libgdata (>= 0.16.1) libical (>= 2.0.0) libicui18n (>= 59.1) libicuuc (>= 59.1) libsoup-2.4 (>= 2.58.2) libsqlite3 (>= 3.20.0) libxml2 (>= 2.9.4) nspr (>= 4.16) nss (>= 3.31.1) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 641942
 FILES = /usr/share/evolution-data-server-*/ui/ /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/evolution-data-server /usr/lib/evolution-data-server/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/girepository-*/*.typelib
