@@ -13,7 +13,7 @@ drwxr-xr-x root       root              440 ./usr/lib/sfcb/.debug
 -rwxr-xr-x root       root           162336 ./usr/lib/sfcb/.debug/libcimcClientSfcbLocal.so.0.0.0
 -rwxr-xr-x root       root             8728 ./usr/lib/sfcb/.debug/libsfcBasicAuthentication.so.0.0.0
 -rwxr-xr-x root       root            13912 ./usr/lib/sfcb/.debug/libsfcBasicPAMAuthentication.so.0.0.0
--rwxr-xr-x root       root          1588016 ./usr/lib/sfcb/.debug/libsfcBrokerCore.so.0.0.0
+-rwxr-xr-x root       root          1587280 ./usr/lib/sfcb/.debug/libsfcBrokerCore.so.0.0.0
 -rwxr-xr-x root       root            23096 ./usr/lib/sfcb/.debug/libsfcCertificateAuthentication.so.0.0.0
 -rwxr-xr-x root       root           498272 ./usr/lib/sfcb/.debug/libsfcCimXmlCodec.so.0.0.0
 -rwxr-xr-x root       root           111720 ./usr/lib/sfcb/.debug/libsfcClassProviderGz.so.0.0.0
@@ -23,7 +23,7 @@ drwxr-xr-x root       root              440 ./usr/lib/sfcb/.debug
 -rwxr-xr-x root       root            10592 ./usr/lib/sfcb/.debug/libsfcCustomLib.so.0.0.0
 -rwxr-xr-x root       root            47224 ./usr/lib/sfcb/.debug/libsfcElementCapabilitiesProvider.so.0.0.0
 -rwxr-xr-x root       root            44280 ./usr/lib/sfcb/.debug/libsfcFileRepository.so.0.0.0
--rwxr-xr-x root       root           175120 ./usr/lib/sfcb/.debug/libsfcHttpAdapter.so.0.0.0
+-rwxr-xr-x root       root           174736 ./usr/lib/sfcb/.debug/libsfcHttpAdapter.so.0.0.0
 -rwxr-xr-x root       root           116432 ./usr/lib/sfcb/.debug/libsfcIndCIMXMLHandler.so.0.0.0
 -rwxr-xr-x root       root            90280 ./usr/lib/sfcb/.debug/libsfcInternalProvider.so.0.0.0
 -rwxr-xr-x root       root           147480 ./usr/lib/sfcb/.debug/libsfcInteropProvider.so.0.0.0
@@ -43,7 +43,7 @@ drwxr-xr-x root       root             1960 ./usr/src/debug/sblim-sfcb/1.4.9-r0/
 -rw-r--r-- root       root             1084 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/array.h
 -rw-r--r-- root       root             8395 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/brokerEnc.c
 -rw-r--r-- root       root             6548 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/brokerOs.c
--rw-r--r-- root       root            43008 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/brokerUpc.c
+-rw-r--r-- root       root            43057 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/brokerUpc.c
 -rw-r--r-- root       root            60695 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/cimcClientSfcbLocal.c
 -rw-r--r-- root       root             6914 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/cimcClientSfcbLocal.h
 -rw-r--r-- root       root            58789 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/cimRequest.c
@@ -74,7 +74,7 @@ drwxr-xr-x root       root             1960 ./usr/src/debug/sblim-sfcb/1.4.9-r0/
 -rw-r--r-- root       root             3997 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/enumeration.c
 -rw-r--r-- root       root            16029 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/fileRepository.c
 -rw-r--r-- root       root             2478 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/fileRepository.h
--rw-r--r-- root       root            73440 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/httpAdapter.c
+-rw-r--r-- root       root            73529 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/httpAdapter.c
 -rw-r--r-- root       root             3614 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/httpComm.c
 -rw-r--r-- root       root             1964 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/httpComm.h
 -rw-r--r-- root       root            13137 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/indCIMXMLExport.c
@@ -138,8 +138,8 @@ drwxr-xr-x root       root              220 ./usr/src/debug/sblim-sfcb/1.4.9-r0/
 -rw-r--r-- root       root             2627 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/sfcCustomLib.c
 -rw-r--r-- root       root             3112 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/string.c
 -rw-r--r-- root       root             3846 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/subcond.c
--rw-r--r-- root       root            29099 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/support.c
+-rw-r--r-- root       root            29327 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/support.c
 -rw-r--r-- root       root             7866 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/support.h
--rw-r--r-- root       root             8233 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/trace.c
+-rw-r--r-- root       root             8331 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/trace.c
 -rw-r--r-- root       root             4749 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/trace.h
 -rw-r--r-- root       root             9905 ./usr/src/debug/sblim-sfcb/1.4.9-r0/sblim-sfcb-1.4.9/value.c
