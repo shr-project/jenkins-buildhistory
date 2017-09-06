@@ -1,8 +1,9 @@
-PV = 1.2.1
+PV = 1.2.1+gitAUTOINC+006d69bd84
 PR = r0
 PKG = libprotobuf-c-compiler
-PKGR = r0.2
-RPROVIDES = protobuf-c-compiler (=1.2.1)
+PKGV = 1.2.1+git0+006d69bd84
+PKGR = r0.0
+RPROVIDES = protobuf-c-compiler (=1.2.1+git0+006d69bd84)
 RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) protobuf (>= 3.3.0+git0+a6189acd18) protobuf-compiler (>= 3.3.0+git0+a6189acd18)
 RRECOMMENDS = 
 PKGSIZE = 132836

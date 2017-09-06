@@ -1,8 +1,9 @@
-PV = 1.2.1
+PV = 1.2.1+gitAUTOINC+006d69bd84
 PR = r0
 PKG = libprotobuf-c1
-PKGR = r0.2
-RPROVIDES = protobuf-c (=1.2.1)
+PKGV = 1.2.1+git0+006d69bd84
+PKGR = r0.0
+RPROVIDES = protobuf-c (=1.2.1+git0+006d69bd84)
 RDEPENDS = glibc (>= 2.26)
 RRECOMMENDS = 
 PKGSIZE = 22026
