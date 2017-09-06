@@ -10,7 +10,7 @@ drwxr-xr-x root       root              460 ./usr/lib/rsyslog/.debug
 -rwxr-xr-x root       root            75952 ./usr/lib/rsyslog/.debug/imtcp.so
 -rwxr-xr-x root       root            92064 ./usr/lib/rsyslog/.debug/imudp.so
 -rwxr-xr-x root       root           107992 ./usr/lib/rsyslog/.debug/imuxsock.so
--rwxr-xr-x root       root          1605448 ./usr/lib/rsyslog/.debug/lmcry_gcry.so
+-rwxr-xr-x root       root          1605688 ./usr/lib/rsyslog/.debug/lmcry_gcry.so
 -rwxr-xr-x root       root            78232 ./usr/lib/rsyslog/.debug/lmnet.so
 -rwxr-xr-x root       root           112424 ./usr/lib/rsyslog/.debug/lmnetstrms.so
 -rwxr-xr-x root       root           123776 ./usr/lib/rsyslog/.debug/lmnsd_gtls.so
@@ -41,7 +41,7 @@ drwxr-xr-x root       root              300 ./usr/lib/rsyslog/ptest/tests/.debug
 -rwxr-xr-x root       root            21016 ./usr/lib/rsyslog/ptest/tests/.debug/uxsockrcvr
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/sbin/.debug
--rwxr-xr-x root       root          2240040 ./usr/sbin/.debug/rsyslogd
+-rwxr-xr-x root       root          2240448 ./usr/sbin/.debug/rsyslogd
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/rsyslog
@@ -152,7 +152,7 @@ drwxr-xr-x root       root             2320 ./usr/src/debug/rsyslog/8.22.0-r0/rs
 -rw-r--r-- root       root            15294 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/runtime/obj-types.h
 -rw-r--r-- root       root            22779 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/runtime/parser.c
 -rw-r--r-- root       root             2789 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/runtime/parser.h
--rw-r--r-- root       root             7461 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/runtime/prop.c
+-rw-r--r-- root       root             7611 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/runtime/prop.c
 -rw-r--r-- root       root             2708 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/runtime/prop.h
 -rw-r--r-- root       root           116372 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/runtime/queue.c
 -rw-r--r-- root       root            11334 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/runtime/queue.h
@@ -229,7 +229,7 @@ drwxr-xr-x root       root              400 ./usr/src/debug/rsyslog/8.22.0-r0/rs
 -rw-r--r-- root       root            11568 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/tools/omusrmsg.c
 -rw-r--r-- root       root            12303 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/tools/pmrfc3164.c
 -rw-r--r-- root       root             9496 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/tools/pmrfc5424.c
--rw-r--r-- root       root            52098 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/tools/rsyslogd.c
+-rw-r--r-- root       root            52178 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/tools/rsyslogd.c
 -rw-r--r-- root       root             3860 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/tools/smfile.c
 -rw-r--r-- root       root             3957 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/tools/smfwd.c
 -rw-r--r-- root       root             3650 ./usr/src/debug/rsyslog/8.22.0-r0/rsyslog-8.22.0/tools/smtradfile.c
