@@ -2,4 +2,4 @@ PV = 4.0.2
 PR = r0
 DEPENDS = corosync pkgconfig-native systemd systemd-systemctl-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = dlm-dbg dlm-staticdev dlm-dev dlm-doc dlm-locale dlm
-LAYER = openembedded-layer
+LAYER = networking-layer
