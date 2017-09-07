@@ -2,4 +2,4 @@ PV = 0.8.0
 PR = r0
 DEPENDS = python python-distribute-native python-m2crypto-native python-native python-native python-typing-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = pywbem-dbg pywbem-staticdev pywbem-dev pywbem-doc pywbem-locale pywbem
-LAYER = openembedded-layer
+LAYER = meta-python
