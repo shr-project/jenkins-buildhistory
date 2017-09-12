@@ -1,0 +1,5 @@
+PV = 0.3.0
+PR = r0
+DEPENDS = go-cross-x86_64 virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = go-dep-dbg go-dep-staticdev go-dep-dev go-dep-doc go-dep-locale go-dep
+LAYER = core
