@@ -1,5 +1,5 @@
-PV = 3.4.0+gitAUTOINC+80a37e0782
+PV = 3.3.0+gitAUTOINC+a6189acd18
 PR = r0
 DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc zlib
-PACKAGES = protobuf-dbg protobuf-staticdev protobuf-dev protobuf-doc protobuf-locale protobuf-compiler protobuf-lite protobuf
+PACKAGES = protobuf-dbg protobuf-staticdev protobuf-dev protobuf-doc protobuf-locale protobuf-compiler protobuf
 LAYER = openembedded-layer

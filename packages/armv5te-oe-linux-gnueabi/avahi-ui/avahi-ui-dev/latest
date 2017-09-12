@@ -1,9 +1,9 @@
 PV = 0.6.32
 PR = r0
 PKG = libavahi-ui-gtk3-dev
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = avahi-ui-dev (=0.6.32)
-RDEPENDS = avahi-daemon (= 0.6.32-r0.4) avahi-ui libavahi-client (= 0.6.32-r0.4) libavahi-core (= 0.6.32-r0.4)
+RDEPENDS = avahi-daemon (= 0.6.32-r0.5) avahi-ui libavahi-client (= 0.6.32-r0.5) libavahi-core (= 0.6.32-r0.5)
 RRECOMMENDS = atk-dev avahi-daemon-dev avahi-dev base-files-dev base-passwd-dev cairo-dev cairo-gobject-dev dbus-dev dbus-lib-dev expat-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gobject-introspection-dev gtk+3-dev libavahi-client-dev libavahi-common-dev libavahi-core-dev libavahi-glib-dev libcap-dev libdaemon-dev pango-dev shadow-dev shadow-sysroot-dev
 PKGSIZE = 7446
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/avahi-ui/*.la /lib/*.la /usr/lib/libavahi-ui.so /usr/share/gir-*/*.gir
