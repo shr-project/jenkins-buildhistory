@@ -1,10 +1,10 @@
 PV = 4.12.10+gitAUTOINC+42965d664f_fd16268214
 PR = r0
 PKGV = 4.12.10+git0+42965d664f_fd16268214
-PKGR = r0.4
+PKGR = r0.7
 RPROVIDES = kernel-module-dummy
-RDEPENDS = 
-RRECOMMENDS = kernel-image
+RDEPENDS = kernel-4.12.10-yocto-standard
+RRECOMMENDS = 
 PKGSIZE = 11800
 FILES = /lib/modules/4.12.10-yocto-standard/kernel/drivers/net/dummy.ko /etc/modules-load.d/dummy.conf /etc/modprobe.d/dummy.conf
 FILELIST = /lib/modules/4.12.10-yocto-standard/kernel/drivers/net/dummy.ko
