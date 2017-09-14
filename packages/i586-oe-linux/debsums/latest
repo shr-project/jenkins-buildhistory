@@ -1,5 +1,5 @@
 PV = 2.2.2
 PR = r0
-DEPENDS = virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+DEPENDS = gettext-native perl-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
 PACKAGES = debsums-cron debsums-dbg debsums-staticdev debsums-dev debsums-doc debsums-locale debsums
 LAYER = openembedded-layer
