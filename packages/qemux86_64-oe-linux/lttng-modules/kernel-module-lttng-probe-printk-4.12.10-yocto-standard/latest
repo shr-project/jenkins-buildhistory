@@ -1,9 +1,9 @@
 PV = 2.9.3
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = kernel-module-lttng-probe-printk
-RDEPENDS = kernel-module-lttng-lib-ring-buffer-4.12.10-yocto-standard kernel-module-lttng-tracer-4.12.10-yocto-standard
-RRECOMMENDS = kernel-image
+RDEPENDS = kernel-4.12.10-yocto-standard kernel-module-lttng-lib-ring-buffer-4.12.10-yocto-standard kernel-module-lttng-tracer-4.12.10-yocto-standard
+RRECOMMENDS = 
 PKGSIZE = 6936
 FILES = /lib/modules/4.12.10-yocto-standard/kernel/lttng-modules/probes/lttng-probe-printk.ko /etc/modules-load.d/lttng-probe-printk.conf /etc/modprobe.d/lttng-probe-printk.conf
 FILELIST = /lib/modules/4.12.10-yocto-standard/kernel/lttng-modules/probes/lttng-probe-printk.ko
