@@ -1,6 +1,6 @@
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
-drwxr-xr-x root       root              600 ./usr/bin/.debug
+drwxr-xr-x root       root              620 ./usr/bin/.debug
 -rwxr-xr-x root       root            34264 ./usr/bin/.debug/wcap-decode
 -rwxr-xr-x root       root           195348 ./usr/bin/.debug/weston
 -rwxr-xr-x root       root           343368 ./usr/bin/.debug/weston-calibrator
@@ -20,6 +20,7 @@ drwxr-xr-x root       root              600 ./usr/bin/.debug
 -rwxr-xr-x root       root           341592 ./usr/bin/.debug/weston-resizor
 -rwxr-xr-x root       root           338716 ./usr/bin/.debug/weston-scaler
 -rwxr-xr-x root       root            69604 ./usr/bin/.debug/weston-simple-damage
+-rwxr-xr-x root       root            43928 ./usr/bin/.debug/weston-simple-dmabuf-intel
 -rwxr-xr-x root       root            57712 ./usr/bin/.debug/weston-simple-dmabuf-v4l
 -rwxr-xr-x root       root            65308 ./usr/bin/.debug/weston-simple-egl
 -rwxr-xr-x root       root            50792 ./usr/bin/.debug/weston-simple-shm
@@ -105,7 +106,7 @@ drwxr-xr-x root       root              920 ./usr/src/debug/weston/2.0.0-r0/buil
 -rw-r--r-- root       root             4969 ./usr/src/debug/weston/2.0.0-r0/build/protocol/xdg-shell-unstable-v6-protocol.c
 -rw-r--r-- root       root            50817 ./usr/src/debug/weston/2.0.0-r0/build/protocol/xdg-shell-unstable-v6-server-protocol.h
 drwxr-xr-x root       root              240 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0
-drwxr-xr-x root       root              680 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients
+drwxr-xr-x root       root              700 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients
 -rw-r--r-- root       root             7079 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/calibrator.c
 -rw-r--r-- root       root             9097 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/clickdot.c
 -rw-r--r-- root       root            15630 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/cliptest.c
@@ -125,6 +126,7 @@ drwxr-xr-x root       root              680 ./usr/src/debug/weston/2.0.0-r0/west
 -rw-r--r-- root       root             9189 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/scaler.c
 -rw-r--r-- root       root             7714 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/screenshot.c
 -rw-r--r-- root       root            24786 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/simple-damage.c
+-rw-r--r-- root       root            14587 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/simple-dmabuf-intel.c
 -rw-r--r-- root       root            24946 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/simple-dmabuf-v4l.c
 -rw-r--r-- root       root            24501 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/simple-egl.c
 -rw-r--r-- root       root            13623 ./usr/src/debug/weston/2.0.0-r0/weston-2.0.0/clients/simple-im.c
