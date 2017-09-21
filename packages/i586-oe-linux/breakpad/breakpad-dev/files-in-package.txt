@@ -11,7 +11,7 @@ drwxr-xr-x root       root              120 ./usr/include/breakpad/client/linux/
 -rw-r--r-- root       root             3037 ./usr/include/breakpad/client/linux/dump_writer_common/mapping_info.h
 -rw-r--r-- root       root             2254 ./usr/include/breakpad/client/linux/dump_writer_common/raw_context_cpu.h
 -rw-r--r-- root       root             3463 ./usr/include/breakpad/client/linux/dump_writer_common/thread_info.h
--rw-r--r-- root       root             2798 ./usr/include/breakpad/client/linux/dump_writer_common/ucontext_reader.h
+-rw-r--r-- root       root             2793 ./usr/include/breakpad/client/linux/dump_writer_common/ucontext_reader.h
 drwxr-xr-x root       root              100 ./usr/include/breakpad/client/linux/handler
 -rw-r--r-- root       root            12717 ./usr/include/breakpad/client/linux/handler/exception_handler.h
 -rw-r--r-- root       root             2175 ./usr/include/breakpad/client/linux/handler/microdump_extra_info.h
@@ -21,9 +21,9 @@ drwxr-xr-x root       root              220 ./usr/include/breakpad/client/linux/
 -rw-r--r-- root       root             3400 ./usr/include/breakpad/client/linux/minidump_writer/directory_reader.h
 -rw-r--r-- root       root             4353 ./usr/include/breakpad/client/linux/minidump_writer/line_reader.h
 -rw-r--r-- root       root             5638 ./usr/include/breakpad/client/linux/minidump_writer/linux_core_dumper.h
--rw-r--r-- root       root            13891 ./usr/include/breakpad/client/linux/minidump_writer/linux_dumper.h
+-rw-r--r-- root       root            13935 ./usr/include/breakpad/client/linux/minidump_writer/linux_dumper.h
 -rw-r--r-- root       root             4458 ./usr/include/breakpad/client/linux/minidump_writer/linux_ptrace_dumper.h
--rw-r--r-- root       root             6286 ./usr/include/breakpad/client/linux/minidump_writer/minidump_writer.h
+-rw-r--r-- root       root             6281 ./usr/include/breakpad/client/linux/minidump_writer/minidump_writer.h
 -rw-r--r-- root       root             2256 ./usr/include/breakpad/client/linux/minidump_writer/minidump_writer_unittest_utils.h
 -rw-r--r-- root       root             4217 ./usr/include/breakpad/client/linux/minidump_writer/proc_cpuinfo_reader.h
 drwxr-xr-x root       root              500 ./usr/include/breakpad/common
@@ -38,7 +38,7 @@ drwxr-xr-x root       root              420 ./usr/include/breakpad/common/linux
 -rw-r--r-- root       root             2242 ./usr/include/breakpad/common/linux/crc32.h
 -rw-r--r-- root       root             3458 ./usr/include/breakpad/common/linux/dump_symbols.h
 -rw-r--r-- root       root             2286 ./usr/include/breakpad/common/linux/eintr_wrapper.h
--rw-r--r-- root       root             5480 ./usr/include/breakpad/common/linux/elf_core_dump.h
+-rw-r--r-- root       root             5549 ./usr/include/breakpad/common/linux/elf_core_dump.h
 -rw-r--r-- root       root             1967 ./usr/include/breakpad/common/linux/elf_gnu_compat.h
 -rw-r--r-- root       root             2454 ./usr/include/breakpad/common/linux/elf_symbols_to_module.h
 -rw-r--r-- root       root             4675 ./usr/include/breakpad/common/linux/elfutils.h
@@ -61,7 +61,7 @@ drwxr-xr-x root       root              420 ./usr/include/breakpad/common/linux
 -rw-r--r-- root       root            13205 ./usr/include/breakpad/common/module.h
 -rw-r--r-- root       root            12803 ./usr/include/breakpad/common/scoped_ptr.h
 -rw-r--r-- root       root             8167 ./usr/include/breakpad/common/simple_string_dictionary.h
--rw-r--r-- root       root            12881 ./usr/include/breakpad/common/stabs_reader.h
+-rw-r--r-- root       root            13271 ./usr/include/breakpad/common/stabs_reader.h
 -rw-r--r-- root       root             5758 ./usr/include/breakpad/common/stabs_to_module.h
 -rw-r--r-- root       root             1849 ./usr/include/breakpad/common/stdio_wrapper.h
 -rw-r--r-- root       root             2999 ./usr/include/breakpad/common/string_conversion.h
@@ -119,7 +119,7 @@ drwxr-xr-x root       root             1140 ./usr/include/breakpad/processor
 -rw-r--r-- root       root             5845 ./usr/include/breakpad/processor/source_line_resolver_base_types.h
 -rw-r--r-- root       root             2200 ./usr/include/breakpad/processor/stackwalk_common.h
 -rw-r--r-- root       root             2932 ./usr/include/breakpad/processor/stackwalker_address_list.h
--rw-r--r-- root       root             4995 ./usr/include/breakpad/processor/stackwalker_amd64.h
+-rw-r--r-- root       root             4563 ./usr/include/breakpad/processor/stackwalker_amd64.h
 -rw-r--r-- root       root             4362 ./usr/include/breakpad/processor/stackwalker_arm64.h
 -rw-r--r-- root       root             4440 ./usr/include/breakpad/processor/stackwalker_arm.h
 -rw-r--r-- root       root             3734 ./usr/include/breakpad/processor/stackwalker_mips.h
@@ -145,7 +145,7 @@ drwxr-xr-x root       root             1140 ./usr/include/breakpad/processor
 -rw-r--r-- root       root             7836 ./usr/include/breakpad/processor/windows_frame_info.h
 drwxr-xr-x root       root               60 ./usr/include/breakpad/third_party
 drwxr-xr-x root       root               60 ./usr/include/breakpad/third_party/lss
--rw-r--r-- root       root           182784 ./usr/include/breakpad/third_party/lss/linux_syscall_support.h
+-rw-r--r-- root       root           182968 ./usr/include/breakpad/third_party/lss/linux_syscall_support.h
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              257 ./usr/lib/pkgconfig/breakpad-client.pc
