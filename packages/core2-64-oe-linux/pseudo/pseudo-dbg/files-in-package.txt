@@ -1,14 +1,14 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              100 ./usr/bin/.debug
--rwxr-xr-x root       root          3780056 ./usr/bin/.debug/pseudo
+-rwxr-xr-x root       root          3781448 ./usr/bin/.debug/pseudo
 -rwxr-xr-x root       root          3675712 ./usr/bin/.debug/pseudodb
--rwxr-xr-x root       root          3750776 ./usr/bin/.debug/pseudolog
+-rwxr-xr-x root       root          3750744 ./usr/bin/.debug/pseudolog
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/pseudo
 drwxr-xr-x root       root               60 ./usr/lib/pseudo/lib64
 drwxr-xr-x root       root               60 ./usr/lib/pseudo/lib64/.debug
--rwxr-xr-x root       root           596928 ./usr/lib/pseudo/lib64/.debug/libpseudo.so
+-rwxr-xr-x root       root           596832 ./usr/lib/pseudo/lib64/.debug/libpseudo.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/pseudo
@@ -29,7 +29,7 @@ drwxr-xr-x root       root             1120 ./usr/src/debug/pseudo/1.8.2-r0/pseu
 -rw-r--r-- root       root              283 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/linux/guts/creat64.c
 -rw-r--r-- root       root              224 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/linux/guts/eaccess.c
 -rw-r--r-- root       root              227 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/linux/guts/euidaccess.c
--rw-r--r-- root       root             1740 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/linux/guts/fcntl.c
+-rw-r--r-- root       root             1518 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/linux/guts/fcntl.c
 -rw-r--r-- root       root              987 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/linux/guts/fopen64.c
 -rw-r--r-- root       root              984 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/linux/guts/freopen64.c
 -rw-r--r-- root       root              216 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/linux/guts/fstat64.c
@@ -192,7 +192,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/pseudo/1.8.2-r0/pseu
 drwxr-xr-x root       root               60 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/unix/syncfs/guts
 -rw-r--r-- root       root              177 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/ports/unix/syncfs/guts/syncfs.c
 -rw-r--r-- root       root            35814 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo.c
--rw-r--r-- root       root            57432 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_client.c
+-rw-r--r-- root       root            57414 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_client.c
 -rw-r--r-- root       root             3841 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_client.h
 -rw-r--r-- root       root            74831 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_db.c
 -rw-r--r-- root       root             1352 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudodb.c
@@ -201,7 +201,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/pseudo/1.8.2-r0/pseu
 -rw-r--r-- root       root             6617 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_ipc.c
 -rw-r--r-- root       root             2379 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_ipc.h
 -rw-r--r-- root       root            21936 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudolog.c
--rw-r--r-- root       root            27796 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_server.c
+-rw-r--r-- root       root            29082 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_server.c
 -rw-r--r-- root       root             1037 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_server.h
 -rw-r--r-- root       root             9160 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_tables.c
 -rw-r--r-- root       root             6663 ./usr/src/debug/pseudo/1.8.2-r0/pseudo-1.8.2/pseudo_tables.h
