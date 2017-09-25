@@ -2,9 +2,9 @@ PV = 5.9.2+gitAUTOINC+e4016a67bb
 PR = r0
 PKG = libqt5webview-dev
 PKGV = 5.9.2+git0+e4016a67bb
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = qtwebview-dev (=5.9.2+git0+e4016a67bb)
-RDEPENDS = qtwebview (= 5.9.2+git0+e4016a67bb-r0.6)
+RDEPENDS = qtwebview (= 5.9.2+git0+e4016a67bb-r0.7)
 RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtdeclarative-dev qtwebengine-dev qtwebview qtwebview-mkspecs qtwebview-qmldesigner
 PKGSIZE = 57717
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtwebview/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*
