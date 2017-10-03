@@ -1,0 +1,5 @@
+PV = 0.20.3
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native python-numpy-native virtual/i586-oe-linux-compilerlibs virtual/i586-oe-linux-gcc virtual/libc
+PACKAGES = python-pandas-dbg python-pandas-staticdev python-pandas-dev python-pandas-doc python-pandas-locale python-pandas
+LAYER = meta-python
