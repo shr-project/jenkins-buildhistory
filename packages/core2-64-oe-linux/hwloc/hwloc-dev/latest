@@ -1,8 +1,8 @@
 PV = 1.11.5
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = hwloc (= 1.11.5-r0.9)
+RDEPENDS = hwloc (= 1.11.5-r0.10)
 RRECOMMENDS = cairo-dev glibc-dev libhwloc-dev libpciaccess-dev libudev-dev libx11-dev libxml2-dev ncurses-dev ncurses-libtinfo-dev udev-dev zlib-dev
 PKGSIZE = 301403
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/hwloc/*.la /lib/*.la
