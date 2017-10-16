@@ -1,10 +1,10 @@
-PV = 5.9.2+gitAUTOINC+3f8ae713df
+PV = 5.9.2+gitAUTOINC+8329a8fb28
 PR = r0
 PKG = libqt5datavisualization-qmlplugins
-PKGV = 5.9.2+git0+3f8ae713df
-PKGR = r0.10
-RPROVIDES = qtdatavis3d-qmlplugins (=5.9.2+git0+3f8ae713df)
-RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.2.0) qtbase (>= 5.9.2+git0+73573fce29) qtdatavis3d (>= 5.9.2+git0+3f8ae713df) qtdeclarative (>= 5.9.2+git0+7c45b035b9)
+PKGV = 5.9.2+git1+8329a8fb28
+PKGR = r0.0
+RPROVIDES = qtdatavis3d-qmlplugins (=5.9.2+git1+8329a8fb28)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.2.0) qtbase (>= 5.9.2+git1+ec16ba393b) qtdatavis3d (>= 5.9.2+git1+8329a8fb28) qtdeclarative (>= 5.9.2+git1+32218c3243)
 RRECOMMENDS = 
 PKGSIZE = 441838
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.qmlc /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.jsc /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.jsc /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
