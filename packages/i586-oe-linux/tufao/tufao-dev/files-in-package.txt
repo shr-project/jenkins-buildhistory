@@ -15,7 +15,7 @@ drwxr-xr-x root       root              980 ./usr/include/tufao-1/Tufao
 -rw-r--r-- root       root               21 ./usr/include/tufao-1/Tufao/Headers
 -rw-r--r-- root       root             2376 ./usr/include/tufao-1/Tufao/headers.h
 -rw-r--r-- root       root               28 ./usr/include/tufao-1/Tufao/HttpFileServer
--rw-r--r-- root       root             5199 ./usr/include/tufao-1/Tufao/httpfileserver.h
+-rw-r--r-- root       root             5608 ./usr/include/tufao-1/Tufao/httpfileserver.h
 -rw-r--r-- root       root               30 ./usr/include/tufao-1/Tufao/HttpPluginServer
 -rw-r--r-- root       root            11624 ./usr/include/tufao-1/Tufao/httppluginserver.h
 -rw-r--r-- root       root               24 ./usr/include/tufao-1/Tufao/HttpServer
@@ -51,7 +51,11 @@ drwxr-xr-x root       root              980 ./usr/include/tufao-1/Tufao
 -rw-r--r-- root       root            15374 ./usr/include/tufao-1/Tufao/websocket.h
 drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/cmake
--rw-r--r-- root       root             1673 ./usr/lib/cmake/FindTufao1.cmake
+drwxr-xr-x root       root              120 ./usr/lib/cmake/Tufao1
+-rw-r--r-- root       root             2072 ./usr/lib/cmake/Tufao1/Tufao1Config.cmake
+-rw-r--r-- root       root             1724 ./usr/lib/cmake/Tufao1/Tufao1ConfigVersion.cmake
+-rw-r--r-- root       root             3585 ./usr/lib/cmake/Tufao1/Tufao1Targets.cmake
+-rw-r--r-- root       root              838 ./usr/lib/cmake/Tufao1/Tufao1Targets-noconfig.cmake
 lrwxrwxrwx root       root               14 ./usr/lib/libtufao1.so -> libtufao1.so.1
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
--rw-r--r-- root       root              312 ./usr/lib/pkgconfig/tufao1.pc
+-rw-r--r-- root       root              313 ./usr/lib/pkgconfig/tufao1.pc

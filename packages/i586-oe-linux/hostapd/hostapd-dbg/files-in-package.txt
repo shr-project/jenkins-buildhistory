@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               80 ./usr/sbin/.debug
--rwxr-xr-x root       root          3107796 ./usr/sbin/.debug/hostapd
+-rwxr-xr-x root       root          3108828 ./usr/sbin/.debug/hostapd
 -rwxr-xr-x root       root           158972 ./usr/sbin/.debug/hostapd_cli
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
@@ -51,7 +51,7 @@ drwxr-xr-x root       root             1500 ./usr/src/debug/hostapd/2.6-r0/hosta
 -rw-r--r-- root       root              833 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/iapp.h
 -rw-r--r-- root       root            18436 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/ieee802_11_auth.c
 -rw-r--r-- root       root             1039 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/ieee802_11_auth.h
--rw-r--r-- root       root            90214 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/ieee802_11.c
+-rw-r--r-- root       root            90536 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/ieee802_11.c
 -rw-r--r-- root       root             5412 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/ieee802_11.h
 -rw-r--r-- root       root            15001 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/ieee802_11_ht.c
 -rw-r--r-- root       root            14228 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/ieee802_11_shared.c
@@ -82,13 +82,13 @@ drwxr-xr-x root       root             1500 ./usr/src/debug/hostapd/2.6-r0/hosta
 -rw-r--r-- root       root              980 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/vlan_util.h
 -rw-r--r-- root       root            10161 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wmm.c
 -rw-r--r-- root       root              653 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wmm.h
--rw-r--r-- root       root           100711 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth.c
+-rw-r--r-- root       root           101380 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth.c
 -rw-r--r-- root       root            18878 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth_glue.c
 -rw-r--r-- root       root              443 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth_glue.h
--rw-r--r-- root       root            12531 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth.h
+-rw-r--r-- root       root            12618 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth.h
 -rw-r--r-- root       root            25158 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth_ie.c
 -rw-r--r-- root       root             1290 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth_ie.h
--rw-r--r-- root       root             7713 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth_i.h
+-rw-r--r-- root       root             7738 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wpa_auth_i.h
 -rw-r--r-- root       root            53816 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wps_hostapd.c
 -rw-r--r-- root       root             2856 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/wps_hostapd.h
 -rw-r--r-- root       root             1326 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/ap/x_snoop.h
@@ -106,7 +106,7 @@ drwxr-xr-x root       root              360 ./usr/src/debug/hostapd/2.6-r0/hosta
 -rw-r--r-- root       root            52787 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/common/ieee802_11_defs.h
 -rw-r--r-- root       root            68904 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/common/qca-vendor.h
 -rw-r--r-- root       root            43578 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/common/wpa_common.c
--rw-r--r-- root       root            14736 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/common/wpa_common.h
+-rw-r--r-- root       root            14991 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/common/wpa_common.h
 -rw-r--r-- root       root            17779 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/common/wpa_ctrl.c
 -rw-r--r-- root       root            20820 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/common/wpa_ctrl.h
 drwxr-xr-x root       root              420 ./usr/src/debug/hostapd/2.6-r0/hostapd-2.6/src/crypto
