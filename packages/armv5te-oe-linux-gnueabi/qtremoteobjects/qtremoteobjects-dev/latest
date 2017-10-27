@@ -2,9 +2,9 @@ PV = 5.9.2+gitAUTOINC+6e0341bc87
 PR = r0
 PKG = libqt5remoteobjects-dev
 PKGV = 5.9.2+git0+6e0341bc87
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = qtremoteobjects-dev (=5.9.2+git0+6e0341bc87)
-RDEPENDS = qtremoteobjects (= 5.9.2+git0+6e0341bc87-r0.14)
+RDEPENDS = qtremoteobjects (= 5.9.2+git0+6e0341bc87-r0.15)
 RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev qtbase-dev qtdeclarative-dev qtremoteobjects qtremoteobjects-mkspecs qtremoteobjects-qmldesigner
 PKGSIZE = 222129
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtremoteobjects/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*
