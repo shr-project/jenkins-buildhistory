@@ -1,0 +1,5 @@
+PV = 5.45
+PR = r1
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native tcl virtual/aarch64-oe-linux-compilerlibs virtual/aarch64-oe-linux-gcc virtual/libc virtual/update-alternatives
+PACKAGES = expect-dbg expect-staticdev expect-dev expect-doc expect-locale expect
+LAYER = core

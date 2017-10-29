@@ -1,0 +1,11 @@
+PV = 1.7.20+gitAUTOINC+e1137cbbda
+PR = r0
+PKG = librepo0
+PKGV = 1.7.20+git0+e1137cbbda
+PKGR = r0.0
+RPROVIDES = librepo (=1.7.20+git0+e1137cbbda)
+RDEPENDS = expat (>= 2.2.3) glib-2.0 (>= 2.52.3) glibc (>= 2.26) gpgme (>= 1.9.0) libcrypto (>= 1.0.2l) libcurl (>= 7.54.1) libpython3 (>= 3.5.3) python3-core
+RRECOMMENDS = 
+PKGSIZE = 322442
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/librepo /usr/lib/librepo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/*
+FILELIST = /usr/lib/librepo.so.0 /usr/lib/python3.5/site-packages/librepo/__init__.py /usr/lib/python3.5/site-packages/librepo/_librepo.so

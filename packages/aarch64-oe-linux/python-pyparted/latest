@@ -1,0 +1,5 @@
+PV = 3.10.7+gitAUTOINC+69c4a478e4
+PR = r0
+DEPENDS = parted python python-native python-native python-re virtual/aarch64-oe-linux-compilerlibs virtual/aarch64-oe-linux-gcc virtual/libc
+PACKAGES = python-pyparted-dbg python-pyparted-staticdev python-pyparted-dev python-pyparted-doc python-pyparted-locale python-pyparted
+LAYER = meta-python

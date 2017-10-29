@@ -1,0 +1,37 @@
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root              160 ./etc/hiawatha
+-rw-r--r-- root       root              463 ./etc/hiawatha/cgi-wrapper.conf
+-rw-r--r-- root       root             1263 ./etc/hiawatha/error.xslt
+-rw-r--r-- root       root             2613 ./etc/hiawatha/hiawatha.conf
+-rw-r--r-- root       root             2903 ./etc/hiawatha/index.xslt
+-rw-r--r-- root       root             2345 ./etc/hiawatha/mimetype.conf
+-rw-r--r-- root       root               96 ./etc/hiawatha/php-fcgi.conf
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               60 ./lib/systemd/system
+-rw-r--r-- root       root              482 ./lib/systemd/system/hiawatha.service
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root            67832 ./usr/bin/ssi-cgi
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root              160 ./usr/lib/hiawatha
+lrwxrwxrwx root       root               22 ./usr/lib/hiawatha/libmbedcrypto.so.0 -> libmbedcrypto.so.2.2.1
+-rwxr-xr-x root       root           331216 ./usr/lib/hiawatha/libmbedcrypto.so.2.2.1
+lrwxrwxrwx root       root               19 ./usr/lib/hiawatha/libmbedtls.so.10 -> libmbedtls.so.2.2.1
+-rwxr-xr-x root       root           198896 ./usr/lib/hiawatha/libmbedtls.so.2.2.1
+lrwxrwxrwx root       root               20 ./usr/lib/hiawatha/libmbedx509.so.0 -> libmbedx509.so.2.2.1
+-rwxr-xr-x root       root           133376 ./usr/lib/hiawatha/libmbedx509.so.2.2.1
+drwxr-xr-x root       root              100 ./usr/sbin
+-rwsr-xr-x root       root            67824 ./usr/sbin/cgi-wrapper
+-rwxr-xr-x root       root           199312 ./usr/sbin/hiawatha
+-rwxr-xr-x root       root            67832 ./usr/sbin/wigwam
+drwxr-xr-x root       root              120 ./var
+drwxr-xr-x root       root               60 ./var/lib
+drwxr-xr-x root       root               40 ./var/lib/hiawatha
+lrwxrwxrwx root       root               12 ./var/log -> volatile/log
+drwxr-xr-x root       root               60 ./var/volatile
+drwxr-xr-x root       root               60 ./var/volatile/log
+drwxr-xr-x root       root               40 ./var/volatile/log/hiawatha
+drwxr-xr-x root       root               60 ./var/www
+drwxr-xr-x root       root               60 ./var/www/hiawatha
+-rw-r--r-- root       root             1768 ./var/www/hiawatha/index.html

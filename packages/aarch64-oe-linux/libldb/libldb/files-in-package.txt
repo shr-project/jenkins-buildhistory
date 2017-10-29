@@ -1,0 +1,23 @@
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              160 ./usr/bin
+-rwxr-xr-x root       root            67736 ./usr/bin/ldbadd
+-rwxr-xr-x root       root            67736 ./usr/bin/ldbdel
+-rwxr-xr-x root       root            67736 ./usr/bin/ldbedit
+-rwxr-xr-x root       root            67744 ./usr/bin/ldbmodify
+-rwxr-xr-x root       root            67744 ./usr/bin/ldbrename
+-rwxr-xr-x root       root            67744 ./usr/bin/ldbsearch
+drwxr-xr-x root       root              100 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib/ldb
+-rwxr-xr-x root       root            68968 ./usr/lib/ldb/libldb-cmdline.so
+drwxr-xr-x root       root               60 ./usr/lib/ldb/modules
+drwxr-xr-x root       root              200 ./usr/lib/ldb/modules/ldb
+-rwxr-xr-x root       root            67744 ./usr/lib/ldb/modules/ldb/asq.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ldb/modules/ldb/paged_results.so
+-rwxr-xr-x root       root            67768 ./usr/lib/ldb/modules/ldb/paged_searches.so
+-rwxr-xr-x root       root            67744 ./usr/lib/ldb/modules/ldb/rdn_name.so
+-rwxr-xr-x root       root            67784 ./usr/lib/ldb/modules/ldb/sample.so
+-rwxr-xr-x root       root            67752 ./usr/lib/ldb/modules/ldb/server_sort.so
+-rwxr-xr-x root       root            67744 ./usr/lib/ldb/modules/ldb/skel.so
+-rwxr-xr-x root       root            67744 ./usr/lib/ldb/modules/ldb/tdb.so
+-rwxr-xr-x root       root           199040 ./usr/lib/libldb.so.1.1.29
+lrwxrwxrwx root       root               16 ./usr/lib/libldb.so.1 -> libldb.so.1.1.29

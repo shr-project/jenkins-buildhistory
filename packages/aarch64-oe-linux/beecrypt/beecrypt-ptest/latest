@@ -1,0 +1,10 @@
+PV = 4.2.1
+PR = r3
+PKG = libbeecrypt-ptest
+PKGR = r3.0
+RPROVIDES = beecrypt-ptest (=4.2.1)
+RDEPENDS = beecrypt (>= 4.2.1) glibc (>= 2.26)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 1424472
+FILES = /usr/lib/beecrypt/ptest
+FILELIST = /usr/lib/beecrypt/ptest/run-ptest /usr/lib/beecrypt/ptest/tests/testaes /usr/lib/beecrypt/ptest/tests/testblowfish /usr/lib/beecrypt/ptest/tests/testdldp /usr/lib/beecrypt/ptest/tests/testdsa /usr/lib/beecrypt/ptest/tests/testelgamal /usr/lib/beecrypt/ptest/tests/testhmacmd5 /usr/lib/beecrypt/ptest/tests/testhmacsha1 /usr/lib/beecrypt/ptest/tests/testmd5 /usr/lib/beecrypt/ptest/tests/testmp /usr/lib/beecrypt/ptest/tests/testmpinv /usr/lib/beecrypt/ptest/tests/testripemd128 /usr/lib/beecrypt/ptest/tests/testripemd160 /usr/lib/beecrypt/ptest/tests/testripemd256 /usr/lib/beecrypt/ptest/tests/testripemd320 /usr/lib/beecrypt/ptest/tests/testrsa /usr/lib/beecrypt/ptest/tests/testrsacrt /usr/lib/beecrypt/ptest/tests/testsha1 /usr/lib/beecrypt/ptest/tests/testsha224 /usr/lib/beecrypt/ptest/tests/testsha256 /usr/lib/beecrypt/ptest/tests/testsha384 /usr/lib/beecrypt/ptest/tests/testsha512

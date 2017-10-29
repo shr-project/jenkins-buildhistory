@@ -1,0 +1,5 @@
+PV = 1.0.2
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/aarch64-oe-linux-compilerlibs virtual/aarch64-oe-linux-gcc virtual/libc
+PACKAGES = python-django-south-dbg python-django-south-staticdev python-django-south-dev python-django-south-doc python-django-south-locale python-django-south
+LAYER = meta-python
