@@ -1,0 +1,10 @@
+PV = 2.30
+PR = r0
+PKG = libmount1
+PKGR = r0.13
+RPROVIDES = util-linux-libmount (=2.30)
+RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc) util-linux-libblkid (>= 2.30) util-linux-libuuid (>= 2.30)
+RRECOMMENDS = 
+PKGSIZE = 378601
+FILES = /lib/libmount.so.1 /lib/libmount.so.1.1.0
+FILELIST = /lib/libmount.so.1 /lib/libmount.so.1.1.0

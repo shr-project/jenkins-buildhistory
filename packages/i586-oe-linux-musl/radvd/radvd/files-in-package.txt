@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/default
+-rw-r--r-- root       root               19 ./etc/default/radvd
+drwxr-xr-x root       root             4096 ./etc/default/volatiles
+-rw-r--r-- root       root               90 ./etc/default/volatiles/volatiles.03_radvd
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              236 ./lib/systemd/system/radvd.service
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root           104800 ./usr/sbin/radvd
+-rwxr-xr-x root       root            21936 ./usr/sbin/radvdump

@@ -1,0 +1,9 @@
+PV = 1.2
+PR = r0
+PKGR = r0.10
+RPROVIDES = 
+RDEPENDS = libesmtp (>= 1.0.6) musl (>= 1.1.16+git0+da438ee1fc) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 54634
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/esmtp /usr/lib/esmtp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/
+FILELIST = /usr/bin/esmtp /usr/bin/mailq /usr/bin/newaliases /usr/sbin/sendmail

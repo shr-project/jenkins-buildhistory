@@ -1,0 +1,158 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/include
+drwxr-xr-x root       root             4096 ./usr/include/snort
+drwxr-xr-x root       root             4096 ./usr/include/snort/dynamic_output
+-rw-r--r-- root       root             1508 ./usr/include/snort/dynamic_output/bitop.h
+-rw-r--r-- root       root             5112 ./usr/include/snort/dynamic_output/ipv6_port.h
+-rw-r--r-- root       root             9369 ./usr/include/snort/dynamic_output/obfuscation.h
+-rw-r--r-- root       root             2923 ./usr/include/snort/dynamic_output/output_api.h
+-rw-r--r-- root       root             2666 ./usr/include/snort/dynamic_output/output_common.h
+-rw-r--r-- root       root             5782 ./usr/include/snort/dynamic_output/output_lib.h
+-rw-r--r-- root       root             5239 ./usr/include/snort/dynamic_output/preprocids.h
+-rw-r--r-- root       root             2472 ./usr/include/snort/dynamic_output/sf_dynamic_common.h
+-rw-r--r-- root       root            14860 ./usr/include/snort/dynamic_output/sf_ip.h
+-rw-r--r-- root       root             4553 ./usr/include/snort/dynamic_output/sfPolicy.h
+-rw-r--r-- root       root             5189 ./usr/include/snort/dynamic_output/sf_protocols.h
+-rw-r--r-- root       root             3372 ./usr/include/snort/dynamic_output/sfrt_dir.h
+-rw-r--r-- root       root            10094 ./usr/include/snort/dynamic_output/sfrt.h
+-rw-r--r-- root       root             4992 ./usr/include/snort/dynamic_output/sfrt_trie.h
+-rw-r--r-- root       root            22739 ./usr/include/snort/dynamic_output/sf_snort_packet.h
+-rw-r--r-- root       root             4382 ./usr/include/snort/dynamic_output/snort_debug.h
+-rw-r--r-- root       root            17951 ./usr/include/snort/dynamic_output/stream_api.h
+drwxr-xr-x root       root             4096 ./usr/include/snort/dynamic_preproc
+-rw-r--r-- root       root            24938 ./usr/include/snort/dynamic_preproc/appId.h
+-rw-r--r-- root       root             1508 ./usr/include/snort/dynamic_preproc/bitop.h
+-rw-r--r-- root       root             3247 ./usr/include/snort/dynamic_preproc/cpuclock.h
+-rw-r--r-- root       root            20162 ./usr/include/snort/dynamic_preproc/file_api.h
+-rw-r--r-- root       root             4935 ./usr/include/snort/dynamic_preproc/file_mail_common.h
+-rw-r--r-- root       root             1192 ./usr/include/snort/dynamic_preproc/idle_processing.h
+-rw-r--r-- root       root             5112 ./usr/include/snort/dynamic_preproc/ipv6_port.h
+-rw-r--r-- root       root             2185 ./usr/include/snort/dynamic_preproc/mempool.h
+-rw-r--r-- root       root             1298 ./usr/include/snort/dynamic_preproc/mpse_methods.h
+-rw-r--r-- root       root             9369 ./usr/include/snort/dynamic_preproc/obfuscation.h
+-rw-r--r-- root       root             1356 ./usr/include/snort/dynamic_preproc/packet_time.h
+-rw-r--r-- root       root             5239 ./usr/include/snort/dynamic_preproc/preprocids.h
+-rw-r--r-- root       root             6395 ./usr/include/snort/dynamic_preproc/profiler.h
+-rw-r--r-- root       root             1365 ./usr/include/snort/dynamic_preproc/segment_mem.h
+-rw-r--r-- root       root            26145 ./usr/include/snort/dynamic_preproc/session_api.h
+-rw-r--r-- root       root             1753 ./usr/include/snort/dynamic_preproc/sfcommon.h
+-rw-r--r-- root       root             2421 ./usr/include/snort/dynamic_preproc/sfcontrol.h
+-rw-r--r-- root       root             2143 ./usr/include/snort/dynamic_preproc/sfdebug.h
+-rw-r--r-- root       root             3604 ./usr/include/snort/dynamic_preproc/sf_decompression.h
+-rw-r--r-- root       root             2472 ./usr/include/snort/dynamic_preproc/sf_dynamic_common.h
+-rw-r--r-- root       root             3826 ./usr/include/snort/dynamic_preproc/sf_dynamic_define.h
+-rw-r--r-- root       root             7329 ./usr/include/snort/dynamic_preproc/sf_dynamic_engine.h
+-rw-r--r-- root       root             1768 ./usr/include/snort/dynamic_preproc/sf_dynamic_meta.h
+-rw-r--r-- root       root            19425 ./usr/include/snort/dynamic_preproc/sf_dynamic_preprocessor.h
+-rw-r--r-- root       root             1348 ./usr/include/snort/dynamic_preproc/sf_dynamic_preproc_lib.h
+-rw-r--r-- root       root            14860 ./usr/include/snort/dynamic_preproc/sf_ip.h
+-rw-r--r-- root       root             4553 ./usr/include/snort/dynamic_preproc/sfPolicy.h
+-rw-r--r-- root       root             4313 ./usr/include/snort/dynamic_preproc/sfPolicyUserData.h
+-rw-r--r-- root       root             1443 ./usr/include/snort/dynamic_preproc/sf_preproc_info.h
+-rw-r--r-- root       root             5189 ./usr/include/snort/dynamic_preproc/sf_protocols.h
+-rw-r--r-- root       root             3372 ./usr/include/snort/dynamic_preproc/sfrt_dir.h
+-rw-r--r-- root       root             3055 ./usr/include/snort/dynamic_preproc/sfrt_flat_dir.h
+-rw-r--r-- root       root             6075 ./usr/include/snort/dynamic_preproc/sfrt_flat.h
+-rw-r--r-- root       root            10094 ./usr/include/snort/dynamic_preproc/sfrt.h
+-rw-r--r-- root       root             4992 ./usr/include/snort/dynamic_preproc/sfrt_trie.h
+-rw-r--r-- root       root             1705 ./usr/include/snort/dynamic_preproc/sf_sdlist_types.h
+-rw-r--r-- root       root             1427 ./usr/include/snort/dynamic_preproc/sf_seqnums.h
+-rw-r--r-- root       root            22739 ./usr/include/snort/dynamic_preproc/sf_snort_packet.h
+-rw-r--r-- root       root            16774 ./usr/include/snort/dynamic_preproc/sf_snort_plugin_api.h
+-rw-r--r-- root       root             2057 ./usr/include/snort/dynamic_preproc/sidechannel_define.h
+-rw-r--r-- root       root             3671 ./usr/include/snort/dynamic_preproc/sip_common.h
+-rw-r--r-- root       root             6189 ./usr/include/snort/dynamic_preproc/snort_bounds.h
+-rw-r--r-- root       root             4382 ./usr/include/snort/dynamic_preproc/snort_debug.h
+-rw-r--r-- root       root             3079 ./usr/include/snort/dynamic_preproc/ssl_config.h
+-rw-r--r-- root       root             7037 ./usr/include/snort/dynamic_preproc/ssl.h
+-rw-r--r-- root       root             2637 ./usr/include/snort/dynamic_preproc/ssl_ha.h
+-rw-r--r-- root       root             2394 ./usr/include/snort/dynamic_preproc/ssl_include.h
+-rw-r--r-- root       root             2623 ./usr/include/snort/dynamic_preproc/ssl_inspect.h
+-rw-r--r-- root       root             1693 ./usr/include/snort/dynamic_preproc/ssl_session.h
+-rw-r--r-- root       root            17951 ./usr/include/snort/dynamic_preproc/stream_api.h
+-rw-r--r-- root       root             4040 ./usr/include/snort/dynamic_preproc/str_search.h
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              595 ./usr/lib/pkgconfig/snort_output.pc
+-rw-r--r-- root       root             1029 ./usr/lib/pkgconfig/snort.pc
+-rw-r--r-- root       root              597 ./usr/lib/pkgconfig/snort_preproc.pc
+drwxr-xr-x root       root             4096 ./usr/lib/snort_dynamicengine
+lrwxrwxrwx root       root               21 ./usr/lib/snort_dynamicengine/libsf_engine.so -> libsf_engine.so.0.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/snort_dynamicpreprocessor
+lrwxrwxrwx root       root               27 ./usr/lib/snort_dynamicpreprocessor/libsf_dce2_preproc.so -> libsf_dce2_preproc.so.0.0.0
+lrwxrwxrwx root       root               27 ./usr/lib/snort_dynamicpreprocessor/libsf_dnp3_preproc.so -> libsf_dnp3_preproc.so.0.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_dns_preproc.so -> libsf_dns_preproc.so.0.0.0
+lrwxrwxrwx root       root               32 ./usr/lib/snort_dynamicpreprocessor/libsf_ftptelnet_preproc.so -> libsf_ftptelnet_preproc.so.0.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_gtp_preproc.so -> libsf_gtp_preproc.so.0.0.0
+lrwxrwxrwx root       root               27 ./usr/lib/snort_dynamicpreprocessor/libsf_imap_preproc.so -> libsf_imap_preproc.so.0.0.0
+lrwxrwxrwx root       root               29 ./usr/lib/snort_dynamicpreprocessor/libsf_modbus_preproc.so -> libsf_modbus_preproc.so.0.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_pop_preproc.so -> libsf_pop_preproc.so.0.0.0
+lrwxrwxrwx root       root               33 ./usr/lib/snort_dynamicpreprocessor/libsf_reputation_preproc.so -> libsf_reputation_preproc.so.0.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_sdf_preproc.so -> libsf_sdf_preproc.so.0.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_sip_preproc.so -> libsf_sip_preproc.so.0.0.0
+lrwxrwxrwx root       root               27 ./usr/lib/snort_dynamicpreprocessor/libsf_smtp_preproc.so -> libsf_smtp_preproc.so.0.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_ssh_preproc.so -> libsf_ssh_preproc.so.0.0.0
+lrwxrwxrwx root       root               26 ./usr/lib/snort_dynamicpreprocessor/libsf_ssl_preproc.so -> libsf_ssl_preproc.so.0.0.0
+drwxr-xr-x root       root             4096 ./usr/src
+drwxr-xr-x root       root             4096 ./usr/src/snort_dynamicsrc
+-rw-r--r-- root       root            24938 ./usr/src/snort_dynamicsrc/appId.h
+-rw-r--r-- root       root             1508 ./usr/src/snort_dynamicsrc/bitop.h
+-rw-r--r-- root       root             2451 ./usr/src/snort_dynamicsrc/event.h
+-rw-r--r-- root       root            20162 ./usr/src/snort_dynamicsrc/file_api.h
+-rw-r--r-- root       root             4935 ./usr/src/snort_dynamicsrc/file_mail_common.h
+-rw-r--r-- root       root             1192 ./usr/src/snort_dynamicsrc/idle_processing.h
+-rw-r--r-- root       root             1298 ./usr/src/snort_dynamicsrc/mpse_methods.h
+-rw-r--r-- root       root             9369 ./usr/src/snort_dynamicsrc/obfuscation.h
+-rw-r--r-- root       root             1534 ./usr/src/snort_dynamicsrc/pcap_pkthdr32.h
+-rw-r--r-- root       root             2247 ./usr/src/snort_dynamicsrc/plugin_enum.h
+-rw-r--r-- root       root             5239 ./usr/src/snort_dynamicsrc/preprocids.h
+-rw-r--r-- root       root             6395 ./usr/src/snort_dynamicsrc/profiler.h
+-rw-r--r-- root       root             2747 ./usr/src/snort_dynamicsrc/rule_option_types.h
+-rw-r--r-- root       root            26145 ./usr/src/snort_dynamicsrc/session_api.h
+-rw-r--r-- root       root             5409 ./usr/src/snort_dynamicsrc/sf_base64decode.c
+-rw-r--r-- root       root             1164 ./usr/src/snort_dynamicsrc/sf_base64decode.h
+-rw-r--r-- root       root             2421 ./usr/src/snort_dynamicsrc/sfcontrol.h
+-rw-r--r-- root       root             2143 ./usr/src/snort_dynamicsrc/sfdebug.h
+-rw-r--r-- root       root             3604 ./usr/src/snort_dynamicsrc/sf_decompression.h
+-rw-r--r-- root       root             2472 ./usr/src/snort_dynamicsrc/sf_dynamic_common.h
+-rw-r--r-- root       root             3826 ./usr/src/snort_dynamicsrc/sf_dynamic_define.h
+-rw-r--r-- root       root             7329 ./usr/src/snort_dynamicsrc/sf_dynamic_engine.h
+-rw-r--r-- root       root             1768 ./usr/src/snort_dynamicsrc/sf_dynamic_meta.h
+-rw-r--r-- root       root            19425 ./usr/src/snort_dynamicsrc/sf_dynamic_preprocessor.h
+-rw-r--r-- root       root             2486 ./usr/src/snort_dynamicsrc/sf_dynamic_preproc_lib.c
+-rw-r--r-- root       root             1348 ./usr/src/snort_dynamicsrc/sf_dynamic_preproc_lib.h
+-rw-r--r-- root       root            19630 ./usr/src/snort_dynamicsrc/sf_email_attach_decode.c
+-rw-r--r-- root       root             6885 ./usr/src/snort_dynamicsrc/sf_email_attach_decode.h
+-rw-r--r-- root       root             3297 ./usr/src/snort_dynamicsrc/sfghash.h
+-rw-r--r-- root       root             2678 ./usr/src/snort_dynamicsrc/sfhashfcn.h
+-rw-r--r-- root       root            14860 ./usr/src/snort_dynamicsrc/sf_ip.h
+-rw-r--r-- root       root             4405 ./usr/src/snort_dynamicsrc/sfparser.c
+-rw-r--r-- root       root             5718 ./usr/src/snort_dynamicsrc/sfPolicyUserData.c
+-rw-r--r-- root       root             4313 ./usr/src/snort_dynamicsrc/sfPolicyUserData.h
+-rw-r--r-- root       root             5189 ./usr/src/snort_dynamicsrc/sf_protocols.h
+-rw-r--r-- root       root             1427 ./usr/src/snort_dynamicsrc/sf_seqnums.h
+-rw-r--r-- root       root             2199 ./usr/src/snort_dynamicsrc/sfsnort_dynamic_detection_lib.c
+-rw-r--r-- root       root             1388 ./usr/src/snort_dynamicsrc/sfsnort_dynamic_detection_lib.h
+-rw-r--r-- root       root            22739 ./usr/src/snort_dynamicsrc/sf_snort_packet.h
+-rw-r--r-- root       root            16774 ./usr/src/snort_dynamicsrc/sf_snort_plugin_api.h
+-rw-r--r-- root       root             6388 ./usr/src/snort_dynamicsrc/sf_types.h
+-rw-r--r-- root       root             2057 ./usr/src/snort_dynamicsrc/sidechannel_define.h
+-rw-r--r-- root       root             4465 ./usr/src/snort_dynamicsrc/signature.h
+-rw-r--r-- root       root             3671 ./usr/src/snort_dynamicsrc/sip_common.h
+-rw-r--r-- root       root             4382 ./usr/src/snort_dynamicsrc/snort_debug.h
+-rw-r--r-- root       root            16648 ./usr/src/snort_dynamicsrc/ssl.c
+-rw-r--r-- root       root            31030 ./usr/src/snort_dynamicsrc/ssl_config.c
+-rw-r--r-- root       root             3079 ./usr/src/snort_dynamicsrc/ssl_config.h
+-rw-r--r-- root       root             7037 ./usr/src/snort_dynamicsrc/ssl.h
+-rw-r--r-- root       root            28423 ./usr/src/snort_dynamicsrc/ssl_ha.c
+-rw-r--r-- root       root             2637 ./usr/src/snort_dynamicsrc/ssl_ha.h
+-rw-r--r-- root       root             2394 ./usr/src/snort_dynamicsrc/ssl_include.h
+-rw-r--r-- root       root            27427 ./usr/src/snort_dynamicsrc/ssl_inspect.c
+-rw-r--r-- root       root             2623 ./usr/src/snort_dynamicsrc/ssl_inspect.h
+-rw-r--r-- root       root             1693 ./usr/src/snort_dynamicsrc/ssl_session.h
+-rw-r--r-- root       root            17951 ./usr/src/snort_dynamicsrc/stream_api.h
+-rw-r--r-- root       root             4040 ./usr/src/snort_dynamicsrc/str_search.h
+-rw-r--r-- root       root             5465 ./usr/src/snort_dynamicsrc/treenodes.h
+-rw-r--r-- root       root             7209 ./usr/src/snort_dynamicsrc/Unified2_common.h
+-rw-r--r-- root       root             5503 ./usr/src/snort_dynamicsrc/util_unfold.c
+-rw-r--r-- root       root             1303 ./usr/src/snort_dynamicsrc/util_unfold.h

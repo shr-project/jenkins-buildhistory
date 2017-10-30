@@ -1,0 +1,9 @@
+PV = 2.7.13
+PR = r1
+PKGR = r1.11
+RPROVIDES = 
+RDEPENDS = libpython2 (>= 2.7.13) musl (>= 1.1.16+git0+da438ee1fc) python-core readline (>= 7.0)
+RRECOMMENDS = 
+PKGSIZE = 37557
+FILES = /usr/lib/python2.7/lib-dynload/readline.so /usr/lib/python2.7/rlcompleter.*
+FILELIST = /usr/lib/python2.7/lib-dynload/readline.so /usr/lib/python2.7/rlcompleter.py /usr/lib/python2.7/rlcompleter.pyc

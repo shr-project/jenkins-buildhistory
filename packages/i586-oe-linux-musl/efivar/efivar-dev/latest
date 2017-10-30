@@ -1,0 +1,9 @@
+PV = 0.31
+PR = r0
+PKGR = r0.11
+RPROVIDES = 
+RDEPENDS = efivar (= 0.31-r0.11)
+RRECOMMENDS = musl-dev popt-dev
+PKGSIZE = 48587
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/efivar/*.la /lib/*.la
+FILELIST = /usr/include/efivar/efiboot-creator.h /usr/include/efivar/efiboot-loadopt.h /usr/include/efivar/efiboot.h /usr/include/efivar/efivar-dp.h /usr/include/efivar/efivar-guids.h /usr/include/efivar/efivar.h /usr/lib/libefiboot.so /usr/lib/libefivar.so /usr/lib/pkgconfig/efiboot.pc /usr/lib/pkgconfig/efivar.pc

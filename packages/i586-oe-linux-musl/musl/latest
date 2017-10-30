@@ -1,0 +1,5 @@
+PV = 1.1.16+gitAUTOINC+da438ee1fc
+PR = r0
+DEPENDS = bsd-headers libgcc-initial linux-libc-headers virtual/i586-oe-linux-musl-binutils virtual/i586-oe-linux-musl-gcc-initial
+PACKAGES = musl-dbg musl-staticdev musl-dev musl-doc musl-locale musl
+LAYER = core

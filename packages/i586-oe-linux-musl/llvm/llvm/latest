@@ -1,0 +1,9 @@
+PV = 5.0
+PR = r0
+PKGR = r0.11
+RPROVIDES = 
+RDEPENDS = libllvm5.0-llvm-5.0 (>= 5.0) libllvm5.0-llvm-5.0.0 libstdc++ (>= 7.2.0) musl (>= 1.1.16+git0+da438ee1fc) ncurses-terminfo
+RRECOMMENDS = 
+PKGSIZE = 120307
+FILES = /usr/lib/llvm5.0/libLTO.so.*
+FILELIST = /usr/lib/llvm5.0/libLTO.so.5 /usr/lib/llvm5.0/libLTO.so.5.0.0

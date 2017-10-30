@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/default
+-rw-r--r-- root       root               75 ./etc/default/tftpd-hpa
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              176 ./lib/systemd/system/tftpd-hpa.service
+-rw-r--r-- root       root              112 ./lib/systemd/system/tftpd-hpa.socket
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            38704 ./usr/sbin/in.tftpd-hpa
+drwxr-xr-x root       root             4096 ./var
+drwxr-xr-x root       root             4096 ./var/lib
+drwxr-xr-x root       root             4096 ./var/lib/tftpboot

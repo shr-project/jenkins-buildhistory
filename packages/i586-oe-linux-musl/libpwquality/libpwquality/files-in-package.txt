@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/security
+-rw-r--r-- root       root             2151 ./etc/security/pwquality.conf
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             5532 ./usr/bin/pwmake
+-rwxr-xr-x root       root             9628 ./usr/bin/pwscore
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            21944 ./usr/lib/libpwquality.so.1.0.2
+lrwxrwxrwx root       root               21 ./usr/lib/libpwquality.so.1 -> libpwquality.so.1.0.2

@@ -1,0 +1,11 @@
+PV = 4.2.2
+PR = r0
+PKGR = r0.10
+RPROVIDES = yp-tools-systemd
+RDEPENDS = libnsl2 (>= 1.0.5+git0+dfa2f31352) libtirpc (>= 1.0.2) musl (>= 1.1.16+git0+da438ee1fc)
+RRECOMMENDS = 
+RREPLACES = yp-tools-systemd
+RCONFLICTS = yp-tools-systemd
+PKGSIZE = 88927
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/yp-tools /usr/lib/yp-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/yp-nis/*.so.*.* /usr/lib/yp-nis/pkgconfig/ /lib/systemd/system/domainname.service
+FILELIST = /lib/systemd/system/domainname.service /usr/bin/ypcat /usr/bin/ypchfn /usr/bin/ypchsh /usr/bin/ypmatch /usr/bin/yppasswd /usr/bin/ypwhich /usr/sbin/yp_dump_binding /usr/sbin/yppoll /usr/sbin/ypset /var/yp/nicknames

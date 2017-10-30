@@ -1,0 +1,11 @@
+PE = 1
+PV = 3.2.29
+PR = r0
+PKG = libnl-nf-3-200
+PKGR = r0.11
+RPROVIDES = libnl-nf (=3.2.29)
+RDEPENDS = libnl (>= 3.2.29) libnl-route (>= 3.2.29) musl (>= 1.1.16+git0+da438ee1fc)
+RRECOMMENDS = 
+PKGSIZE = 102042
+FILES = /usr/lib/libnl-nf-3.so.*
+FILELIST = /usr/lib/libnl-nf-3.so.200 /usr/lib/libnl-nf-3.so.200.24.0

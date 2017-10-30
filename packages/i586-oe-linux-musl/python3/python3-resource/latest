@@ -1,0 +1,9 @@
+PV = 3.5.3
+PR = r1.0
+PKGR = r1.0.11
+RPROVIDES = 
+RDEPENDS = libpython3 (>= 3.5.3) musl (>= 1.1.16+git0+da438ee1fc) python3-core
+RRECOMMENDS = 
+PKGSIZE = 10148
+FILES = /usr/lib/python3.5/lib-dynload/resource.*.so /usr/lib/python3.5/lib-dynload/__pycache__/resource.*.so
+FILELIST = /usr/lib/python3.5/lib-dynload/resource.cpython-35m-i386-linux-gnu.so

@@ -1,0 +1,10 @@
+PV = 1.9.0
+PR = r0
+PKG = libgpgmepp6
+PKGR = r0.11
+RPROVIDES = gpgme-cpp (=1.9.0)
+RDEPENDS = gpgme (>= 1.9.0) libassuan (>= 2.4.3) libgcc (>= 7.2.0) libgpg-error (>= 1.27) libstdc++ (>= 7.2.0) musl (>= 1.1.16+git0+da438ee1fc)
+RRECOMMENDS = 
+PKGSIZE = 358003
+FILES = /usr/lib/libgpgmepp.so.*
+FILELIST = /usr/lib/libgpgmepp.so.6 /usr/lib/libgpgmepp.so.6.4.0

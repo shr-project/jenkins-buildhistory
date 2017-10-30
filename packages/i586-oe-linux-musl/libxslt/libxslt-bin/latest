@@ -1,0 +1,11 @@
+PV = 1.1.29
+PR = r0
+PKGR = r0.11
+RPROVIDES = libxslt-utils
+RDEPENDS = libxml2 (>= 2.9.4) libxslt (>= 1.1.29) musl (>= 1.1.16+git0+da438ee1fc)
+RRECOMMENDS = 
+RREPLACES = libxslt-utils
+RCONFLICTS = libxslt-utils
+PKGSIZE = 21924
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/xsltproc

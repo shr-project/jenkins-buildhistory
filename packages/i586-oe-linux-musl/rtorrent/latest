@@ -1,0 +1,5 @@
+PV = 0.9.6+gitAUTOINC+226e670dec
+PR = r0
+DEPENDS = autoconf-native automake-native cppunit curl gnu-config-native libsigc++-2.0 libtool-cross libtool-native libtorrent ncurses pkgconfig-native virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+PACKAGES = rtorrent-dbg rtorrent-staticdev rtorrent-dev rtorrent-doc rtorrent-locale rtorrent
+LAYER = openembedded-layer

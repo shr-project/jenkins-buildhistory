@@ -1,0 +1,5 @@
+PV = 0.1.6
+PR = r0
+DEPENDS = python python-distribute-native python-gevent python-native python-native virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+PACKAGES = python-gsocketpool-dbg python-gsocketpool-staticdev python-gsocketpool-dev python-gsocketpool-doc python-gsocketpool-locale python-gsocketpool
+LAYER = meta-python

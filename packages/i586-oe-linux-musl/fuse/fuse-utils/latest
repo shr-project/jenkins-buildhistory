@@ -1,0 +1,9 @@
+PV = 2.9.7
+PR = r0
+PKGR = r0.11
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc)
+RRECOMMENDS = 
+PKGSIZE = 53276
+FILES = /usr/bin /sbin
+FILELIST = /sbin/mount.fuse /usr/bin/fusermount /usr/bin/ulockmgr_server

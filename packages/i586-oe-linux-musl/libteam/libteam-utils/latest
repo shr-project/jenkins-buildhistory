@@ -1,0 +1,9 @@
+PV = 1.27
+PR = r0
+PKGR = r0.10
+RPROVIDES = 
+RDEPENDS = bash jansson (>= 2.9) libdaemon (>= 0.14) libteam (>= 1.27) libteam-dctl (>= 1.27) musl (>= 1.1.16+git0+da438ee1fc)
+RRECOMMENDS = 
+PKGSIZE = 200821
+FILES = /usr/bin/bond2team /usr/bin/teamd /usr/bin/teamdctl /usr/bin/teamnl
+FILELIST = /usr/bin/bond2team /usr/bin/teamd /usr/bin/teamdctl /usr/bin/teamnl

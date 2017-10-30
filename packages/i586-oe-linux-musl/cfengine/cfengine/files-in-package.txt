@@ -1,0 +1,41 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/default
+-rw-r--r-- root       root               63 ./etc/default/cfengine3
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              340 ./lib/systemd/system/cfengine3.service
+-rw-r--r-- root       root              420 ./lib/systemd/system/cfengine3-web.service
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root           394664 ./usr/bin/cf-agent
+-rwxr-xr-x root       root            38256 ./usr/bin/cf-execd
+-rwxr-xr-x root       root            21980 ./usr/bin/cf-key
+-rwxr-xr-x root       root            62844 ./usr/bin/cf-monitord
+-rwxr-xr-x root       root            17776 ./usr/bin/cf-promises
+-rwxr-xr-x root       root            17780 ./usr/bin/cf-runagent
+-rwxr-xr-x root       root           128492 ./usr/bin/cf-serverd
+-rwxr-xr-x root       root            17716 ./usr/bin/cf-upgrade
+-rwxr-xr-x root       root             9524 ./usr/bin/rpmvercmp
+drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root          1120404 ./usr/lib/libpromises.so.3.0.6
+lrwxrwxrwx root       root               20 ./usr/lib/libpromises.so.3 -> libpromises.so.3.0.6
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/cfengine
+-rwxr-xr-x root       root            16582 ./usr/share/cfengine/cfengine3
+drwxr-xr-x root       root             4096 ./var
+drwxr-xr-x root       root             4096 ./var/cfengine
+drwxr-xr-x root       root             4096 ./var/cfengine/bin
+lrwxrwxrwx root       root               17 ./var/cfengine/bin/cf-agent -> /usr/bin/cf-agent
+lrwxrwxrwx root       root               17 ./var/cfengine/bin/cf-execd -> /usr/bin/cf-execd
+lrwxrwxrwx root       root               15 ./var/cfengine/bin/cf-key -> /usr/bin/cf-key
+lrwxrwxrwx root       root               20 ./var/cfengine/bin/cf-monitord -> /usr/bin/cf-monitord
+lrwxrwxrwx root       root               20 ./var/cfengine/bin/cf-promises -> /usr/bin/cf-promises
+lrwxrwxrwx root       root               20 ./var/cfengine/bin/cf-runagent -> /usr/bin/cf-runagent
+lrwxrwxrwx root       root               19 ./var/cfengine/bin/cf-serverd -> /usr/bin/cf-serverd
+lrwxrwxrwx root       root               19 ./var/cfengine/bin/cf-upgrade -> /usr/bin/cf-upgrade
+lrwxrwxrwx root       root               18 ./var/cfengine/bin/rpmvercmp -> /usr/bin/rpmvercmp
+drwx------ root       root             4096 ./var/cfengine/inputs
+drwx------ root       root             4096 ./var/cfengine/modules
+drwx------ root       root             4096 ./var/cfengine/outputs
+drwx------ root       root             4096 ./var/cfengine/ppkeys
