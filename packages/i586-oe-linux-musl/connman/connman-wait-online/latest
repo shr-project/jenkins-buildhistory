@@ -1,0 +1,9 @@
+PV = 1.34
+PR = r0
+PKGR = r0.13
+RPROVIDES = 
+RDEPENDS = dbus-lib (>= 1.10.20) glib-2.0 (>= 2.52.3) musl (>= 1.1.16+git0+da438ee1fc)
+RRECOMMENDS = 
+PKGSIZE = 26513
+FILES = /usr/sbin/connmand-wait-online /lib/systemd/system/connman-wait-online.service
+FILELIST = /lib/systemd/system/connman-wait-online.service /usr/sbin/connmand-wait-online

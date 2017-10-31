@@ -1,0 +1,11 @@
+PV = 5.9.2+gitAUTOINC+3caae998c8
+PR = r0
+PKG = libqt5scxml-qmlplugins-dbg
+PKGV = 5.9.2+git1+3caae998c8
+PKGR = r0.3
+RPROVIDES = qtscxml-qmlplugins-dbg (=5.9.2+git1+3caae998c8)
+RDEPENDS = 
+RRECOMMENDS = libgcc-dbg libstdc++-dbg musl-dbg qtbase-dbg qtdeclarative-dbg qtscxml-dbg
+PKGSIZE = 0
+FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/qml/*/*/*/*/.debug /usr/lib/qt5/imports/*/.debug /usr/lib/qt5/imports/*/*/.debug /usr/lib/qt5/imports/*/*/*/.debug
+FILELIST = 

@@ -1,0 +1,11 @@
+PV = 5.9.2+gitAUTOINC+61a638663c
+PR = r0
+PKG = libqt5webchannel-plugins-dbg
+PKGV = 5.9.2+git1+61a638663c
+PKGR = r0.3
+RPROVIDES = qtwebchannel-plugins-dbg (=5.9.2+git1+61a638663c)
+RDEPENDS = 
+RRECOMMENDS = libstdc++-dbg musl-dbg qtbase-dbg qtdeclarative-dbg qtwebchannel-dbg
+PKGSIZE = 0
+FILES = /usr/lib/qt5/plugins/*/.debug/* /usr/lib/qt5/plugins/*/*/.debug/* /usr/lib/qt5/plugins/*/*/*/.debug/*
+FILELIST = 

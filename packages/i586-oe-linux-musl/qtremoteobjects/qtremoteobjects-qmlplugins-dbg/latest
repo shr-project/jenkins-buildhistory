@@ -1,0 +1,11 @@
+PV = 5.9.2+gitAUTOINC+6e0341bc87
+PR = r0
+PKG = libqt5remoteobjects-qmlplugins-dbg
+PKGV = 5.9.2+git0+6e0341bc87
+PKGR = r0.14
+RPROVIDES = qtremoteobjects-qmlplugins-dbg (=5.9.2+git0+6e0341bc87)
+RDEPENDS = 
+RRECOMMENDS = libgcc-dbg libstdc++-dbg musl-dbg qtbase-dbg qtdeclarative-dbg qtremoteobjects-dbg
+PKGSIZE = 0
+FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/qml/*/*/*/*/.debug /usr/lib/qt5/imports/*/.debug /usr/lib/qt5/imports/*/*/.debug /usr/lib/qt5/imports/*/*/*/.debug
+FILELIST = 

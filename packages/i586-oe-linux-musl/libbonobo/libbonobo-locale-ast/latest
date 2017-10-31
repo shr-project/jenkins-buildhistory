@@ -1,0 +1,10 @@
+PV = 2.32.1
+PR = r0
+PKG = libbonobo-2-locale-ast
+PKGR = r0.13
+RPROVIDES = ast-translation libbonobo-locale libbonobo-locale-ast (=2.32.1)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ast
+PKGSIZE = 10744
+FILES = /usr/share/locale/ast
+FILELIST = /usr/share/locale/ast/LC_MESSAGES/libbonobo-2.0.mo

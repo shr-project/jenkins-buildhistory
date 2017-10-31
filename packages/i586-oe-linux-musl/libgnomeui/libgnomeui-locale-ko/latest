@@ -1,0 +1,10 @@
+PV = 2.24.5
+PR = r0
+PKG = libgnomeui-2-locale-ko
+PKGR = r0.13
+RPROVIDES = ko-translation libgnomeui-locale libgnomeui-locale-ko (=2.24.5)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-ko
+PKGSIZE = 25773
+FILES = /usr/share/locale/ko
+FILELIST = /usr/share/locale/ko/LC_MESSAGES/libgnomeui-2.0.mo

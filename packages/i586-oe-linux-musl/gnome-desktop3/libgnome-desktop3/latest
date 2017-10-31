@@ -1,0 +1,10 @@
+PV = 3.24.2
+PR = r0
+PKG = libgnome-desktop-3-12
+PKGR = r0.13
+RPROVIDES = libgnome-desktop3 (=3.24.2)
+RDEPENDS = atk (>= 2.24.0) cairo (>= 1.14.10) cairo-gobject (>= 1.14.10) gdk-pixbuf (>= 2.36.8) glib-2.0 (>= 2.52.3) gtk+3 (>= 3.22.17) libudev (>= 234) libx11 (>= 1.6.5) musl (>= 1.1.16+git0+da438ee1fc) pango (>= 1.40.6)
+RRECOMMENDS = gsettings-desktop-schemas
+PKGSIZE = 248139
+FILES = /usr/lib/lib*.so.* /usr/share/libgnome-desktop*/pnp.ids /usr/share/gnome/*xml
+FILELIST = /usr/lib/libgnome-desktop-3.so.12 /usr/lib/libgnome-desktop-3.so.12.2.0 /usr/share/gnome/gnome-version.xml
