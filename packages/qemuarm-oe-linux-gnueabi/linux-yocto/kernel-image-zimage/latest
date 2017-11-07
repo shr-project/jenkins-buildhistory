@@ -1,11 +1,11 @@
-PV = 4.12.12+gitAUTOINC+eda4d18ce4_67b62d8d7b
+PV = 4.12.14+gitAUTOINC+cebe198870_03489013c6
 PR = r0
-PKG = kernel-image-zimage-4.12.12-yocto-standard
-PKGV = 4.12.12+git0+eda4d18ce4_67b62d8d7b
-PKGR = r0.23
-RPROVIDES = kernel-image-zimage (=4.12.12+git0+eda4d18ce4_67b62d8d7b)
+PKG = kernel-image-zimage-4.12.14-yocto-standard
+PKGV = 4.12.14+git0+cebe198870_03489013c6
+PKGR = r0.1
+RPROVIDES = kernel-image-zimage (=4.12.14+git0+cebe198870_03489013c6)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 5003613
-FILES = /boot/zImage-4.12.12-yocto-standard /boot/zImage
-FILELIST = /boot/zImage /boot/zImage-4.12.12-yocto-standard
+PKGSIZE = 5003717
+FILES = /boot/zImage-4.12.14-yocto-standard /boot/zImage
+FILELIST = /boot/zImage /boot/zImage-4.12.14-yocto-standard
