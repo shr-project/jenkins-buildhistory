@@ -1,7 +1,7 @@
 PV = 1.10.20
 PR = r0
 PKG = libdbus-1-3
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = dbus-lib (=1.10.20)
 RDEPENDS = libsystemd (>= 234) musl (>= 1.1.16+git0+da438ee1fc)
 RRECOMMENDS = dbus

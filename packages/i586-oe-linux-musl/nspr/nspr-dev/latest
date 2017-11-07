@@ -1,8 +1,8 @@
 PV = 4.16
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc) nspr (= 4.16-r0.11) nspr (>= 4.16) perl
+RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc) nspr (= 4.16-r0.12) nspr (>= 4.16) perl
 RRECOMMENDS = musl-dev perl-dev
 PKGSIZE = 1737046
 FILES = /usr/bin/* /usr/lib/nspr/tests/* /usr/lib/pkgconfig /usr/include/* /usr/share/aclocal/*

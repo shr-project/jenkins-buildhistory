@@ -1,8 +1,8 @@
 PV = 1.4.20.3+svn502
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = kernel-module-iscsi-trgt kernel-module-iscsi-trgt-4.12.12-yocto-standard musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = kernel-module-iscsi-trgt kernel-module-iscsi-trgt-4.12.14-yocto-standard musl (>= 1.1.16+git0+da438ee1fc)
 RRECOMMENDS = kernel-module-crc32c kernel-module-libcrc32c
 PKGSIZE = 117861
 FILES = /usr/sbin /etc

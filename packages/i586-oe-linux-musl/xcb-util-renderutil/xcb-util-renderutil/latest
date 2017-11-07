@@ -1,7 +1,7 @@
 PV = 0.3.9
 PR = r0
 PKG = libxcb-render-util0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = xcb-util-renderutil (=0.3.9)
 RDEPENDS = libxcb (>= 1.12) libxcb-render (>= 1.12) musl (>= 1.1.16+git0+da438ee1fc)
 RRECOMMENDS = 
