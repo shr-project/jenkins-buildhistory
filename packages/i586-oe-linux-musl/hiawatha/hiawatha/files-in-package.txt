@@ -1,9 +1,9 @@
 drwxr-xr-x root       root             4096 ./etc
 drwxr-xr-x root       root             4096 ./etc/hiawatha
 -rw-r--r-- root       root              463 ./etc/hiawatha/cgi-wrapper.conf
--rw-r--r-- root       root             1263 ./etc/hiawatha/error.xslt
--rw-r--r-- root       root             2613 ./etc/hiawatha/hiawatha.conf
--rw-r--r-- root       root             2903 ./etc/hiawatha/index.xslt
+-rw-r--r-- root       root             1185 ./etc/hiawatha/error.xslt
+-rw-r--r-- root       root             2606 ./etc/hiawatha/hiawatha.conf
+-rw-r--r-- root       root             2825 ./etc/hiawatha/index.xslt
 -rw-r--r-- root       root             2345 ./etc/hiawatha/mimetype.conf
 -rw-r--r-- root       root               96 ./etc/hiawatha/php-fcgi.conf
 drwxr-xr-x root       root             4096 ./lib
@@ -15,16 +15,16 @@ drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root            42352 ./usr/bin/ssi-cgi
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/hiawatha
-lrwxrwxrwx root       root               22 ./usr/lib/hiawatha/libmbedcrypto.so.0 -> libmbedcrypto.so.2.2.1
--rwxr-xr-x root       root           358388 ./usr/lib/hiawatha/libmbedcrypto.so.2.2.1
-lrwxrwxrwx root       root               19 ./usr/lib/hiawatha/libmbedtls.so.10 -> libmbedtls.so.2.2.1
--rwxr-xr-x root       root           173444 ./usr/lib/hiawatha/libmbedtls.so.2.2.1
-lrwxrwxrwx root       root               20 ./usr/lib/hiawatha/libmbedx509.so.0 -> libmbedx509.so.2.2.1
--rwxr-xr-x root       root            79220 ./usr/lib/hiawatha/libmbedx509.so.2.2.1
+lrwxrwxrwx root       root               22 ./usr/lib/hiawatha/libmbedcrypto.so.0 -> libmbedcrypto.so.2.6.0
+-rwxr-xr-x root       root           358388 ./usr/lib/hiawatha/libmbedcrypto.so.2.6.0
+lrwxrwxrwx root       root               19 ./usr/lib/hiawatha/libmbedtls.so.10 -> libmbedtls.so.2.6.0
+-rwxr-xr-x root       root           177540 ./usr/lib/hiawatha/libmbedtls.so.2.6.0
+lrwxrwxrwx root       root               20 ./usr/lib/hiawatha/libmbedx509.so.0 -> libmbedx509.so.2.6.0
+-rwxr-xr-x root       root            83320 ./usr/lib/hiawatha/libmbedx509.so.2.6.0
 drwxr-xr-x root       root             4096 ./usr/sbin
 -rwsr-xr-x root       root            30064 ./usr/sbin/cgi-wrapper
--rwxr-xr-x root       root           235284 ./usr/sbin/hiawatha
--rwxr-xr-x root       root            50544 ./usr/sbin/wigwam
+-rwxr-xr-x root       root           243476 ./usr/sbin/hiawatha
+-rwxr-xr-x root       root            54640 ./usr/sbin/wigwam
 drwxr-xr-x root       root             4096 ./var
 drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x root       root             4096 ./var/lib/hiawatha
@@ -34,4 +34,4 @@ drwxr-xr-x root       root             4096 ./var/volatile/log
 drwxr-xr-x root       root             4096 ./var/volatile/log/hiawatha
 drwxr-xr-x root       root             4096 ./var/www
 drwxr-xr-x root       root             4096 ./var/www/hiawatha
--rw-r--r-- root       root             1768 ./var/www/hiawatha/index.html
+-rw-r--r-- root       root             1695 ./var/www/hiawatha/index.html
