@@ -16,7 +16,7 @@ drwxr-xr-x root       root              280 ./etc/apache2/extra
 -rw-r--r-- root       root             3161 ./etc/apache2/extra/proxy-html.conf
 -rw-r--r-- root       root            19740 ./etc/apache2/httpd.conf
 -rw-r--r-- root       root            13077 ./etc/apache2/magic
--rw-r--r-- root       root            60855 ./etc/apache2/mime.types
+-rw-r--r-- root       root            60847 ./etc/apache2/mime.types
 drwxr-xr-x root       root               40 ./etc/apache2/modules.d
 drwxr-xr-x root       root               60 ./etc/tmpfiles.d
 -rw-r--r-- root       root               74 ./etc/tmpfiles.d/apache2-volatile.conf
@@ -96,7 +96,7 @@ drwxr-xr-x root       root             1800 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root            22108 ./usr/lib/apache2/modules/mod_proxy_hcheck.so
 -rwxr-xr-x root       root            30348 ./usr/lib/apache2/modules/mod_proxy_http.so
 -rwxr-xr-x root       root            13980 ./usr/lib/apache2/modules/mod_proxy_scgi.so
--rwxr-xr-x root       root            88076 ./usr/lib/apache2/modules/mod_proxy.so
+-rwxr-xr-x root       root            92172 ./usr/lib/apache2/modules/mod_proxy.so
 -rwxr-xr-x root       root            13856 ./usr/lib/apache2/modules/mod_proxy_wstunnel.so
 -rwxr-xr-x root       root             9808 ./usr/lib/apache2/modules/mod_ratelimit.so
 -rwxr-xr-x root       root             9812 ./usr/lib/apache2/modules/mod_remoteip.so
@@ -117,12 +117,12 @@ drwxr-xr-x root       root             1800 ./usr/lib/apache2/modules
 -rwxr-xr-x root       root           161708 ./usr/lib/apache2/modules/mod_ssl.so
 -rwxr-xr-x root       root            26296 ./usr/lib/apache2/modules/mod_status.so
 -rwxr-xr-x root       root             9808 ./usr/lib/apache2/modules/mod_substitute.so
--rwxr-xr-x root       root             9856 ./usr/lib/apache2/modules/mod_unique_id.so
+-rwxr-xr-x root       root             5760 ./usr/lib/apache2/modules/mod_unique_id.so
 -rwxr-xr-x root       root             9812 ./usr/lib/apache2/modules/mod_unixd.so
 -rwxr-xr-x root       root             9812 ./usr/lib/apache2/modules/mod_userdir.so
 -rwxr-xr-x root       root             9812 ./usr/lib/apache2/modules/mod_version.so
 -rwxr-xr-x root       root             9816 ./usr/lib/apache2/modules/mod_vhost_alias.so
--rwxr-xr-x root       root            13920 ./usr/lib/apache2/modules/mod_watchdog.so
+-rwxr-xr-x root       root            18116 ./usr/lib/apache2/modules/mod_watchdog.so
 drwxr-xr-x root       root              200 ./usr/sbin
 -rwxr-xr-x root       root             3547 ./usr/sbin/apachectl
 -rwxr-xr-x root       root             5748 ./usr/sbin/checkgid
@@ -130,7 +130,7 @@ drwxr-xr-x root       root              200 ./usr/sbin
 -rw-r--r-- root       root             1045 ./usr/sbin/envvars-std
 -rwxr-xr-x root       root             9844 ./usr/sbin/fcgistarter
 -rwxr-xr-x root       root            26236 ./usr/sbin/htcacheclean
--rwxr-xr-x root       root           365376 ./usr/sbin/httpd
+-rwxr-xr-x root       root           369472 ./usr/sbin/httpd
 -rwxr-xr-x root       root            18096 ./usr/sbin/rotatelogs
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/apache2
