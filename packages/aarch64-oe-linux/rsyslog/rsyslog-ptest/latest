@@ -1,8 +1,8 @@
 PV = 8.29.0
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = bash coreutils diffutils gawk glibc (>= 2.26) gnutls (>= 3.5.13) gzip liblogging (>= 1.0.5) librelp (>= 1.2.14) make procps rsyslog
+RDEPENDS = bash coreutils diffutils gawk glibc (>= 2.26) gnutls (>= 3.5.16) gzip liblogging (>= 1.0.5) librelp (>= 1.2.14) make procps rsyslog
 RRECOMMENDS = glibc-dbg ptest-runner
 PKGSIZE = 3084255
 FILES = /usr/lib/rsyslog/ptest

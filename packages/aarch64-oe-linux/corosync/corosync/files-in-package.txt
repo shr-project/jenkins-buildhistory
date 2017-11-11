@@ -24,14 +24,14 @@ drwxr-xr-x root       root               80 ./etc/tmpfiles.d
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root              120 ./lib/systemd/system
--rw-r--r-- root       root              274 ./lib/systemd/system/corosync-notifyd.service
--rw-r--r-- root       root              293 ./lib/systemd/system/corosync-qdevice.service
--rw-r--r-- root       root              416 ./lib/systemd/system/corosync-qnetd.service
--rw-r--r-- root       root              790 ./lib/systemd/system/corosync.service
+-rw-r--r-- root       root              309 ./lib/systemd/system/corosync-notifyd.service
+-rw-r--r-- root       root              328 ./lib/systemd/system/corosync-qdevice.service
+-rw-r--r-- root       root              449 ./lib/systemd/system/corosync-qnetd.service
+-rw-r--r-- root       root              857 ./lib/systemd/system/corosync.service
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root             1826 ./usr/bin/corosync-blackbox
--rwxr-xr-x root       root           133792 ./usr/bin/corosync-qnetd
+-rwxr-xr-x root       root           133840 ./usr/bin/corosync-qnetd
 -rwxr-xr-x root       root             6430 ./usr/bin/corosync-qnetd-certutil
 -rwxr-xr-x root       root            67752 ./usr/bin/corosync-qnetd-tool
 drwxr-xr-x root       root              360 ./usr/lib
@@ -52,13 +52,13 @@ lrwxrwxrwx root       root               20 ./usr/lib/libtotem_pg.so.5 -> libtot
 -rwxr-xr-x root       root            67720 ./usr/lib/libvotequorum.so.8.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libvotequorum.so.8 -> libvotequorum.so.8.0.0
 drwxr-xr-x root       root              240 ./usr/sbin
--rwxr-xr-x root       root           285336 ./usr/sbin/corosync
+-rwxr-xr-x root       root           285376 ./usr/sbin/corosync
 -rwxr-xr-x root       root            67752 ./usr/sbin/corosync-cfgtool
 -rwxr-xr-x root       root            67944 ./usr/sbin/corosync-cmapctl
 -rwxr-xr-x root       root            67752 ./usr/sbin/corosync-cpgtool
 -rwxr-xr-x root       root            67872 ./usr/sbin/corosync-keygen
 -rwxr-xr-x root       root            69944 ./usr/sbin/corosync-notifyd
--rwxr-xr-x root       root           213656 ./usr/sbin/corosync-qdevice
+-rwxr-xr-x root       root           218784 ./usr/sbin/corosync-qdevice
 -rwxr-xr-x root       root            11825 ./usr/sbin/corosync-qdevice-net-certutil
 -rwxr-xr-x root       root            67752 ./usr/sbin/corosync-qdevice-tool
 -rwxr-xr-x root       root            67784 ./usr/sbin/corosync-quorumtool
