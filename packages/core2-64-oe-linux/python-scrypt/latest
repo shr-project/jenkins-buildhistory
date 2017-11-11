@@ -1,0 +1,5 @@
+PV = 0.8.0
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = python-scrypt-dbg python-scrypt-staticdev python-scrypt-dev python-scrypt-doc python-scrypt-locale python-scrypt
+LAYER = meta-python

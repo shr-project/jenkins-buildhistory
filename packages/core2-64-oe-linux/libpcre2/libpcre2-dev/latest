@@ -1,9 +1,9 @@
-PV = 10.23
+PV = 10.30
 PR = r0
-PKGR = r0.10
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libpcre2 (= 10.23-r0.10)
+RDEPENDS = libpcre2 (= 10.30-r0.0)
 RRECOMMENDS = bzip2-dev glibc-dev zlib-dev
-PKGSIZE = 40819
+PKGSIZE = 45112
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libpcre2/*.la /lib/*.la /usr/bin/*-config
 FILELIST = /usr/bin/pcre2-config /usr/include/pcre2.h /usr/include/pcre2posix.h /usr/lib/libpcre2-8.so /usr/lib/libpcre2-posix.so /usr/lib/pkgconfig/libpcre2-8.pc /usr/lib/pkgconfig/libpcre2-posix.pc

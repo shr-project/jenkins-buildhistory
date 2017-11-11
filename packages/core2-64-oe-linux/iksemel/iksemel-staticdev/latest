@@ -1,9 +1,11 @@
-PV = 1.4
-PR = r1
-PKGR = r1.1
-RPROVIDES = 
-RDEPENDS = iksemel-dev (= 1.4-r1.1)
+PV = 1.5+gitAUTOINC+978b733462
+PR = r0
+PKG = libiksemel-staticdev
+PKGV = 1.5+git0+978b733462
+PKGR = r0.0
+RPROVIDES = iksemel-staticdev (=1.5+git0+978b733462)
+RDEPENDS = iksemel-dev (= 1.5+git0+978b733462-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 333802
+PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/iksemel/*.a
-FILELIST = /usr/lib/libiksemel.a
+FILELIST = 

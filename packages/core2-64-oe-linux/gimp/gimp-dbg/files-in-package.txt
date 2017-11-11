@@ -1,8 +1,8 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              100 ./usr/bin/.debug
--rwxr-xr-x root       root         27527432 ./usr/bin/.debug/gimp-2.8
--rwxr-xr-x root       root         11610048 ./usr/bin/.debug/gimp-console-2.8
+-rwxr-xr-x root       root         27528248 ./usr/bin/.debug/gimp-2.8
+-rwxr-xr-x root       root         11610064 ./usr/bin/.debug/gimp-console-2.8
 -rwxr-xr-x root       root            37512 ./usr/bin/.debug/gimptool-2.0
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              220 ./usr/lib/.debug
@@ -13,15 +13,15 @@ drwxr-xr-x root       root              220 ./usr/lib/.debug
 -rwxr-xr-x root       root            56616 ./usr/lib/.debug/libgimpmath-2.0.so.0.800.22
 -rwxr-xr-x root       root            54056 ./usr/lib/.debug/libgimpmodule-2.0.so.0.800.22
 -rwxr-xr-x root       root           102664 ./usr/lib/.debug/libgimpthumb-2.0.so.0.800.22
--rwxr-xr-x root       root           742680 ./usr/lib/.debug/libgimpui-2.0.so.0.800.22
--rwxr-xr-x root       root          2345624 ./usr/lib/.debug/libgimpwidgets-2.0.so.0.800.22
+-rwxr-xr-x root       root           742776 ./usr/lib/.debug/libgimpui-2.0.so.0.800.22
+-rwxr-xr-x root       root          2345848 ./usr/lib/.debug/libgimpwidgets-2.0.so.0.800.22
 drwxr-xr-x root       root               60 ./usr/lib/gimp
 drwxr-xr-x root       root               80 ./usr/lib/gimp/2.0
 drwxr-xr-x root       root               60 ./usr/lib/gimp/2.0/modules
 drwxr-xr-x root       root              240 ./usr/lib/gimp/2.0/modules/.debug
--rwxr-xr-x root       root            64496 ./usr/lib/gimp/2.0/modules/.debug/libcolor-selector-cmyk.so
--rwxr-xr-x root       root            65088 ./usr/lib/gimp/2.0/modules/.debug/libcolor-selector-water.so
--rwxr-xr-x root       root           122432 ./usr/lib/gimp/2.0/modules/.debug/libcolor-selector-wheel.so
+-rwxr-xr-x root       root            64512 ./usr/lib/gimp/2.0/modules/.debug/libcolor-selector-cmyk.so
+-rwxr-xr-x root       root            65104 ./usr/lib/gimp/2.0/modules/.debug/libcolor-selector-water.so
+-rwxr-xr-x root       root           122464 ./usr/lib/gimp/2.0/modules/.debug/libcolor-selector-wheel.so
 -rwxr-xr-x root       root            48680 ./usr/lib/gimp/2.0/modules/.debug/libcontroller-linux-input.so
 -rwxr-xr-x root       root            49512 ./usr/lib/gimp/2.0/modules/.debug/libcontroller-midi.so
 -rwxr-xr-x root       root            48608 ./usr/lib/gimp/2.0/modules/.debug/libdisplay-filter-color-blind.so
@@ -67,7 +67,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins/.debug
 -rwxr-xr-x root       root           155472 ./usr/lib/gimp/2.0/plug-ins/.debug/curve-bend
 -rwxr-xr-x root       root            93080 ./usr/lib/gimp/2.0/plug-ins/.debug/decompose
 -rwxr-xr-x root       root            45592 ./usr/lib/gimp/2.0/plug-ins/.debug/deinterlace
--rwxr-xr-x root       root            72760 ./usr/lib/gimp/2.0/plug-ins/.debug/depth-merge
+-rwxr-xr-x root       root            72808 ./usr/lib/gimp/2.0/plug-ins/.debug/depth-merge
 -rwxr-xr-x root       root            85048 ./usr/lib/gimp/2.0/plug-ins/.debug/despeckle
 -rwxr-xr-x root       root            50632 ./usr/lib/gimp/2.0/plug-ins/.debug/destripe
 -rwxr-xr-x root       root            56184 ./usr/lib/gimp/2.0/plug-ins/.debug/diffraction
@@ -101,7 +101,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins/.debug
 -rwxr-xr-x root       root            81408 ./usr/lib/gimp/2.0/plug-ins/.debug/file-mng
 -rwxr-xr-x root       root            55272 ./usr/lib/gimp/2.0/plug-ins/.debug/file-pat
 -rwxr-xr-x root       root            52840 ./usr/lib/gimp/2.0/plug-ins/.debug/file-pcx
--rwxr-xr-x root       root           117696 ./usr/lib/gimp/2.0/plug-ins/.debug/file-pdf-load
+-rwxr-xr-x root       root           117712 ./usr/lib/gimp/2.0/plug-ins/.debug/file-pdf-load
 -rwxr-xr-x root       root            98072 ./usr/lib/gimp/2.0/plug-ins/.debug/file-pdf-save
 -rwxr-xr-x root       root            41992 ./usr/lib/gimp/2.0/plug-ins/.debug/file-pix
 -rwxr-xr-x root       root            86872 ./usr/lib/gimp/2.0/plug-ins/.debug/file-png
@@ -127,7 +127,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins/.debug
 -rwxr-xr-x root       root           157552 ./usr/lib/gimp/2.0/plug-ins/.debug/flame
 -rwxr-xr-x root       root           153680 ./usr/lib/gimp/2.0/plug-ins/.debug/fractal-explorer
 -rwxr-xr-x root       root            59328 ./usr/lib/gimp/2.0/plug-ins/.debug/fractal-trace
--rwxr-xr-x root       root           524424 ./usr/lib/gimp/2.0/plug-ins/.debug/gfig
+-rwxr-xr-x root       root           524456 ./usr/lib/gimp/2.0/plug-ins/.debug/gfig
 -rwxr-xr-x root       root           498008 ./usr/lib/gimp/2.0/plug-ins/.debug/gimpressionist
 -rwxr-xr-x root       root           210520 ./usr/lib/gimp/2.0/plug-ins/.debug/gradient-flare
 -rwxr-xr-x root       root            30584 ./usr/lib/gimp/2.0/plug-ins/.debug/gradient-map
@@ -137,7 +137,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins/.debug
 -rwxr-xr-x root       root            51176 ./usr/lib/gimp/2.0/plug-ins/.debug/hot
 -rwxr-xr-x root       root           194912 ./usr/lib/gimp/2.0/plug-ins/.debug/ifs-compose
 -rwxr-xr-x root       root            50824 ./usr/lib/gimp/2.0/plug-ins/.debug/illusion
--rwxr-xr-x root       root          1240880 ./usr/lib/gimp/2.0/plug-ins/.debug/imagemap
+-rwxr-xr-x root       root          1240960 ./usr/lib/gimp/2.0/plug-ins/.debug/imagemap
 -rwxr-xr-x root       root           107760 ./usr/lib/gimp/2.0/plug-ins/.debug/iwarp
 -rwxr-xr-x root       root           127216 ./usr/lib/gimp/2.0/plug-ins/.debug/jigsaw
 -rwxr-xr-x root       root            96552 ./usr/lib/gimp/2.0/plug-ins/.debug/lcms
@@ -149,7 +149,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins/.debug
 -rwxr-xr-x root       root           252472 ./usr/lib/gimp/2.0/plug-ins/.debug/map-object
 -rwxr-xr-x root       root            42920 ./usr/lib/gimp/2.0/plug-ins/.debug/max-rgb
 -rwxr-xr-x root       root           109072 ./usr/lib/gimp/2.0/plug-ins/.debug/maze
--rwxr-xr-x root       root           294224 ./usr/lib/gimp/2.0/plug-ins/.debug/metadata
+-rwxr-xr-x root       root           294256 ./usr/lib/gimp/2.0/plug-ins/.debug/metadata
 -rwxr-xr-x root       root           134208 ./usr/lib/gimp/2.0/plug-ins/.debug/mosaic
 -rwxr-xr-x root       root            91528 ./usr/lib/gimp/2.0/plug-ins/.debug/newsprint
 -rwxr-xr-x root       root            80264 ./usr/lib/gimp/2.0/plug-ins/.debug/nl-filter
@@ -166,7 +166,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins/.debug
 -rwxr-xr-x root       root            62760 ./usr/lib/gimp/2.0/plug-ins/.debug/plasma
 -rwxr-xr-x root       root            71608 ./usr/lib/gimp/2.0/plug-ins/.debug/plugin-browser
 -rwxr-xr-x root       root            59792 ./usr/lib/gimp/2.0/plug-ins/.debug/polar-coords
--rwxr-xr-x root       root           213840 ./usr/lib/gimp/2.0/plug-ins/.debug/print
+-rwxr-xr-x root       root           213872 ./usr/lib/gimp/2.0/plug-ins/.debug/print
 -rwxr-xr-x root       root            32032 ./usr/lib/gimp/2.0/plug-ins/.debug/procedure-browser
 -rwxr-xr-x root       root            60624 ./usr/lib/gimp/2.0/plug-ins/.debug/qbist
 -rwxr-xr-x root       root            46800 ./usr/lib/gimp/2.0/plug-ins/.debug/red-eye-removal
