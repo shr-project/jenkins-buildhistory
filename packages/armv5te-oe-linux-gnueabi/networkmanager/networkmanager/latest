@@ -1,8 +1,8 @@
 PV = 1.4.4
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
-RDEPENDS = dhcp-client glib-2.0 (>= 2.52.3) glibc (>= 2.26) jansson (>= 2.9) libgudev (>= 231) libndp (>= 1.6) libnl (>= 3.2.29) libsystemd (>= 234) nspr (>= 4.17) nss (>= 3.33) polkit (>= 0.113) readline (>= 7.0) util-linux-libuuid (>= 2.30) wireless-tools wpa-supplicant
+RDEPENDS = dhcp-client glib-2.0 (>= 2.52.3) glibc (>= 2.26) jansson (>= 2.9) libgudev (>= 232) libndp (>= 1.6) libnl (>= 3.2.29) libsystemd (>= 234) nspr (>= 4.17) nss (>= 3.33) polkit (>= 0.113) readline (>= 7.0) util-linux-libuuid (>= 2.31) wireless-tools wpa-supplicant
 RRECOMMENDS = dnsmasq iptables
 RCONFLICTS = connman
 PKGSIZE = 4323268

@@ -1,10 +1,10 @@
 PV = 4.12.14+gitAUTOINC+cebe198870_03489013c6
 PR = r0
 PKGV = 4.12.14+git0+cebe198870_03489013c6
-PKGR = r0.4
+PKGR = r0.7
 RPROVIDES = kernel-module-ip6-tunnel
 RDEPENDS = kernel-4.12.14-yocto-standard kernel-module-tunnel6-4.12.14-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 33148
+PKGSIZE = 33180
 FILES = /lib/modules/4.12.14-yocto-standard/kernel/net/ipv6/ip6_tunnel.ko /etc/modules-load.d/ip6_tunnel.conf /etc/modprobe.d/ip6_tunnel.conf
 FILELIST = /lib/modules/4.12.14-yocto-standard/kernel/net/ipv6/ip6_tunnel.ko

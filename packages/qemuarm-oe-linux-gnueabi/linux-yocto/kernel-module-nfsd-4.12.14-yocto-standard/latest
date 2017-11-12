@@ -1,10 +1,10 @@
 PV = 4.12.14+gitAUTOINC+cebe198870_03489013c6
 PR = r0
 PKGV = 4.12.14+git0+cebe198870_03489013c6
-PKGR = r0.4
+PKGR = r0.7
 RPROVIDES = kernel-module-nfsd
 RDEPENDS = kernel-4.12.14-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 342288
+PKGSIZE = 342480
 FILES = /lib/modules/4.12.14-yocto-standard/kernel/fs/nfsd/nfsd.ko /etc/modules-load.d/nfsd.conf /etc/modprobe.d/nfsd.conf
 FILELIST = /lib/modules/4.12.14-yocto-standard/kernel/fs/nfsd/nfsd.ko

@@ -106,8 +106,8 @@ drwxr-xr-x root       root             8080 ./usr/lib/grub/arm-uboot
 -rwxr-xr-x root       root             3808 ./usr/lib/grub/arm-uboot/exfat.module
 -rw-r--r-- root       root             1748 ./usr/lib/grub/arm-uboot/exfctest.mod
 -rwxr-xr-x root       root              972 ./usr/lib/grub/arm-uboot/exfctest.module
--rw-r--r-- root       root             6908 ./usr/lib/grub/arm-uboot/ext2.mod
--rwxr-xr-x root       root             4248 ./usr/lib/grub/arm-uboot/ext2.module
+-rw-r--r-- root       root             6904 ./usr/lib/grub/arm-uboot/ext2.mod
+-rwxr-xr-x root       root             4244 ./usr/lib/grub/arm-uboot/ext2.module
 -rw-r--r-- root       root             6204 ./usr/lib/grub/arm-uboot/fat.mod
 -rwxr-xr-x root       root             3980 ./usr/lib/grub/arm-uboot/fat.module
 -rw-r--r-- root       root             4320 ./usr/lib/grub/arm-uboot/fdt.mod
@@ -179,8 +179,8 @@ drwxr-xr-x root       root             8080 ./usr/lib/grub/arm-uboot
 -rw-r--r-- root       root            12024 ./usr/lib/grub/arm-uboot/gfxterm.mod
 -rwxr-xr-x root       root             6720 ./usr/lib/grub/arm-uboot/gfxterm.module
 -rw-r--r-- root       root              635 ./usr/lib/grub/arm-uboot/gmodule.pl
--rw-r--r-- root       root             4420 ./usr/lib/grub/arm-uboot/gptsync.mod
--rwxr-xr-x root       root             2676 ./usr/lib/grub/arm-uboot/gptsync.module
+-rw-r--r-- root       root             4416 ./usr/lib/grub/arm-uboot/gptsync.mod
+-rwxr-xr-x root       root             2672 ./usr/lib/grub/arm-uboot/gptsync.module
 -rw-r--r-- root       root             8840 ./usr/lib/grub/arm-uboot/gzio.mod
 -rwxr-xr-x root       root             6788 ./usr/lib/grub/arm-uboot/gzio.module
 -rw-r--r-- root       root             1444 ./usr/lib/grub/arm-uboot/halt.mod
@@ -258,7 +258,7 @@ drwxr-xr-x root       root             8080 ./usr/lib/grub/arm-uboot
 -rw-r--r-- root       root             4100 ./usr/lib/grub/arm-uboot/minix.mod
 -rwxr-xr-x root       root             2628 ./usr/lib/grub/arm-uboot/minix.module
 -rw-r--r-- root       root             3470 ./usr/lib/grub/arm-uboot/moddep.lst
--rw-r--r-- root       root             3650 ./usr/lib/grub/arm-uboot/modinfo.sh
+-rw-r--r-- root       root             2677 ./usr/lib/grub/arm-uboot/modinfo.sh
 -rw-r--r-- root       root            30852 ./usr/lib/grub/arm-uboot/mpi.mod
 -rwxr-xr-x root       root            20488 ./usr/lib/grub/arm-uboot/mpi.module
 -rw-r--r-- root       root             2744 ./usr/lib/grub/arm-uboot/msdospart.mod
@@ -271,8 +271,8 @@ drwxr-xr-x root       root             8080 ./usr/lib/grub/arm-uboot
 -rwxr-xr-x root       root             2064 ./usr/lib/grub/arm-uboot/newc.module
 -rw-r--r-- root       root             7584 ./usr/lib/grub/arm-uboot/nilfs2.mod
 -rwxr-xr-x root       root             4716 ./usr/lib/grub/arm-uboot/nilfs2.module
--rw-r--r-- root       root           111496 ./usr/lib/grub/arm-uboot/normal.mod
--rwxr-xr-x root       root            76220 ./usr/lib/grub/arm-uboot/normal.module
+-rw-r--r-- root       root           111448 ./usr/lib/grub/arm-uboot/normal.mod
+-rwxr-xr-x root       root            76172 ./usr/lib/grub/arm-uboot/normal.module
 -rw-r--r-- root       root             4612 ./usr/lib/grub/arm-uboot/ntfscomp.mod
 -rwxr-xr-x root       root             3316 ./usr/lib/grub/arm-uboot/ntfscomp.module
 -rw-r--r-- root       root            12016 ./usr/lib/grub/arm-uboot/ntfs.mod
@@ -311,8 +311,8 @@ drwxr-xr-x root       root             8080 ./usr/lib/grub/arm-uboot
 -rwxr-xr-x root       root             1008 ./usr/lib/grub/arm-uboot/password.module
 -rw-r--r-- root       root             3152 ./usr/lib/grub/arm-uboot/password_pbkdf2.mod
 -rwxr-xr-x root       root             1628 ./usr/lib/grub/arm-uboot/password_pbkdf2.module
--rw-r--r-- root       root             1500 ./usr/lib/grub/arm-uboot/pbkdf2.mod
--rwxr-xr-x root       root              924 ./usr/lib/grub/arm-uboot/pbkdf2.module
+-rw-r--r-- root       root             1492 ./usr/lib/grub/arm-uboot/pbkdf2.mod
+-rwxr-xr-x root       root              916 ./usr/lib/grub/arm-uboot/pbkdf2.module
 -rw-r--r-- root       root             2552 ./usr/lib/grub/arm-uboot/pbkdf2_test.mod
 -rwxr-xr-x root       root             1452 ./usr/lib/grub/arm-uboot/pbkdf2_test.module
 -rw-r--r-- root       root             8220 ./usr/lib/grub/arm-uboot/png.mod
@@ -365,8 +365,8 @@ drwxr-xr-x root       root             8080 ./usr/lib/grub/arm-uboot
 -rwxr-xr-x root       root             1956 ./usr/lib/grub/arm-uboot/sleep_test.module
 -rw-r--r-- root       root             7696 ./usr/lib/grub/arm-uboot/squash4.mod
 -rwxr-xr-x root       root             4976 ./usr/lib/grub/arm-uboot/squash4.module
--rw-r--r-- root       root            21596 ./usr/lib/grub/arm-uboot/syslinuxcfg.mod
--rwxr-xr-x root       root            14936 ./usr/lib/grub/arm-uboot/syslinuxcfg.module
+-rw-r--r-- root       root            21592 ./usr/lib/grub/arm-uboot/syslinuxcfg.mod
+-rwxr-xr-x root       root            14932 ./usr/lib/grub/arm-uboot/syslinuxcfg.module
 -rw-r--r-- root       root             4016 ./usr/lib/grub/arm-uboot/tar.mod
 -rwxr-xr-x root       root             2276 ./usr/lib/grub/arm-uboot/tar.module
 -rw-r--r-- root       root               18 ./usr/lib/grub/arm-uboot/terminal.lst
@@ -406,8 +406,8 @@ drwxr-xr-x root       root             8080 ./usr/lib/grub/arm-uboot
 -rwxr-xr-x root       root             7036 ./usr/lib/grub/arm-uboot/verify.module
 -rw-r--r-- root       root             6084 ./usr/lib/grub/arm-uboot/video_colors.mod
 -rwxr-xr-x root       root             4112 ./usr/lib/grub/arm-uboot/video_colors.module
--rw-r--r-- root       root            20788 ./usr/lib/grub/arm-uboot/video_fb.mod
--rwxr-xr-x root       root            15568 ./usr/lib/grub/arm-uboot/video_fb.module
+-rw-r--r-- root       root            20780 ./usr/lib/grub/arm-uboot/video_fb.mod
+-rwxr-xr-x root       root            15560 ./usr/lib/grub/arm-uboot/video_fb.module
 -rw-r--r-- root       root             3784 ./usr/lib/grub/arm-uboot/videoinfo.mod
 -rwxr-xr-x root       root             2212 ./usr/lib/grub/arm-uboot/videoinfo.module
 -rw-r--r-- root       root                0 ./usr/lib/grub/arm-uboot/video.lst

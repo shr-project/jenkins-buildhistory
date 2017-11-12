@@ -4,7 +4,7 @@ drwxr-xr-x root       root               60 ./usr/bin/.debug
 -rwxr-xr-x root       root            67328 ./usr/bin/.debug/perl5.24.1
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
--rwxr-xr-x root       root          4615924 ./usr/lib/.debug/libperl.so.5.24.1
+-rwxr-xr-x root       root          4615732 ./usr/lib/.debug/libperl.so.5.24.1
 drwxr-xr-x root       root               80 ./usr/lib/perl
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1
 drwxr-xr-x root       root              720 ./usr/lib/perl/5.24.1/auto
@@ -21,10 +21,10 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Compress
 drwxr-xr-x root       root               80 ./usr/lib/perl/5.24.1/auto/Compress/Raw
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Compress/Raw/Bzip2
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Compress/Raw/Bzip2/.debug
--rwxr-xr-x root       root           188148 ./usr/lib/perl/5.24.1/auto/Compress/Raw/Bzip2/.debug/Bzip2.so
+-rwxr-xr-x root       root           188140 ./usr/lib/perl/5.24.1/auto/Compress/Raw/Bzip2/.debug/Bzip2.so
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Compress/Raw/Zlib
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Compress/Raw/Zlib/.debug
--rwxr-xr-x root       root           285972 ./usr/lib/perl/5.24.1/auto/Compress/Raw/Zlib/.debug/Zlib.so
+-rwxr-xr-x root       root           285992 ./usr/lib/perl/5.24.1/auto/Compress/Raw/Zlib/.debug/Zlib.so
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Cwd
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Cwd/.debug
 -rwxr-xr-x root       root            69068 ./usr/lib/perl/5.24.1/auto/Cwd/.debug/Cwd.so
@@ -106,7 +106,7 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/IPC/SysV/
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/List
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/List/Util
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/List/Util/.debug
--rwxr-xr-x root       root           144960 ./usr/lib/perl/5.24.1/auto/List/Util/.debug/Util.so
+-rwxr-xr-x root       root           144908 ./usr/lib/perl/5.24.1/auto/List/Util/.debug/Util.so
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Math
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Math/BigInt
 drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Math/BigInt/FastCalc
@@ -190,7 +190,7 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/5.24.1/auto/Unicode/N
 -rwxr-xr-x root       root           146140 ./usr/lib/perl/5.24.1/auto/Unicode/Normalize/.debug/Normalize.so
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/.debug
--rwxr-xr-x root       root          4617036 ./usr/lib/perl/ptest/.debug/miniperl-target
+-rwxr-xr-x root       root          4616856 ./usr/lib/perl/ptest/.debug/miniperl-target
 -rwxr-xr-x root       root            67328 ./usr/lib/perl/ptest/.debug/perl
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib
 drwxr-xr-x root       root              740 ./usr/lib/perl/ptest/lib/auto
@@ -207,10 +207,10 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Compre
 drwxr-xr-x root       root               80 ./usr/lib/perl/ptest/lib/auto/Compress/Raw
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Compress/Raw/Bzip2
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Compress/Raw/Bzip2/.debug
--rwxr-xr-x root       root           188148 ./usr/lib/perl/ptest/lib/auto/Compress/Raw/Bzip2/.debug/Bzip2.so
+-rwxr-xr-x root       root           188140 ./usr/lib/perl/ptest/lib/auto/Compress/Raw/Bzip2/.debug/Bzip2.so
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Compress/Raw/Zlib
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Compress/Raw/Zlib/.debug
--rwxr-xr-x root       root           285972 ./usr/lib/perl/ptest/lib/auto/Compress/Raw/Zlib/.debug/Zlib.so
+-rwxr-xr-x root       root           285992 ./usr/lib/perl/ptest/lib/auto/Compress/Raw/Zlib/.debug/Zlib.so
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Cwd
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Cwd/.debug
 -rwxr-xr-x root       root            69068 ./usr/lib/perl/ptest/lib/auto/Cwd/.debug/Cwd.so
@@ -295,7 +295,7 @@ drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/IPC/Sy
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/List
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/List/Util
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/List/Util/.debug
--rwxr-xr-x root       root           144960 ./usr/lib/perl/ptest/lib/auto/List/Util/.debug/Util.so
+-rwxr-xr-x root       root           144908 ./usr/lib/perl/ptest/lib/auto/List/Util/.debug/Util.so
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Math
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Math/BigInt
 drwxr-xr-x root       root               60 ./usr/lib/perl/ptest/lib/auto/Math/BigInt/FastCalc
