@@ -1,8 +1,8 @@
 PV = 2.7.13
 PR = r1
-PKGR = r1.13
+PKGR = r1.14
 RPROVIDES = 
-RDEPENDS = libpython2 (>= 2.7.13) musl (>= 1.1.16+git0+da438ee1fc) python-core python-crypt
+RDEPENDS = libpython2 (>= 2.7.13) musl (>= 1.1.18+git0+eb03bde2f2) python-core python-crypt
 RRECOMMENDS = 
 PKGSIZE = 210680
 FILES = /usr/lib/python2.7/lib-dynload/cmath.so /usr/lib/python2.7/lib-dynload/math.so /usr/lib/python2.7/lib-dynload/_random.so /usr/lib/python2.7/random.* /usr/lib/python2.7/sets.*

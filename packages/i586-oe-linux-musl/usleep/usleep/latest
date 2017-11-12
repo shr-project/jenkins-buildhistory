@@ -1,8 +1,8 @@
 PV = 1.0
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc) popt (>= 1.16)
+RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2) popt (>= 1.16)
 RRECOMMENDS = 
 PKGSIZE = 5532
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/usleep /usr/lib/usleep/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

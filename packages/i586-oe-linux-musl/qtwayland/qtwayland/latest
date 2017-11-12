@@ -1,9 +1,9 @@
 PV = 5.9.2+gitAUTOINC+d483ed2927
 PR = r0
 PKGV = 5.9.2+git1+d483ed2927
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = fontconfig (>= 2.12.4) freetype (>= 2.8) glib-2.0 (>= 2.52.3) libgcc (>= 7.2.0) libgl-mesa (>= 17.1.7) libstdc++ (>= 7.2.0) libxkbcommon (>= 0.7.2) musl (>= 1.1.16+git0+da438ee1fc) qtbase (>= 5.9.2+git1+ec16ba393b) qtdeclarative (>= 5.9.2+git1+32218c3243) wayland (>= 1.14.0)
+RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.8.1) glib-2.0 (>= 2.52.3) libgcc (>= 7.2.0) libgl-mesa (>= 17.2.4) libstdc++ (>= 7.2.0) libxkbcommon (>= 0.7.2) musl (>= 1.1.18+git0+eb03bde2f2) qtbase (>= 5.9.2+git1+ec16ba393b) qtdeclarative (>= 5.9.2+git1+32218c3243) wayland (>= 1.14.0)
 RRECOMMENDS = qtwayland-plugins qtwayland-qmlplugins
 PKGSIZE = 2076572
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwayland /usr/lib/qtwayland/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

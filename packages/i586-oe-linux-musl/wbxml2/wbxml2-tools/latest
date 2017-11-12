@@ -1,9 +1,9 @@
 PV = 0.10.8
 PR = r0
 PKG = libwbxml2-tools
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = wbxml2-tools (=0.10.8)
-RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc) wbxml2 (>= 0.10.8)
+RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2) wbxml2 (>= 0.10.8)
 RRECOMMENDS = 
 PKGSIZE = 23144
 FILES = /usr/bin

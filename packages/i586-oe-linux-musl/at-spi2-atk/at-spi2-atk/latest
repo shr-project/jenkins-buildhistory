@@ -1,9 +1,9 @@
-PV = 2.24.1
+PV = 2.26.0
 PR = r0
 PKG = libatk-bridge-2.0-0
-PKGR = r0.15
-RPROVIDES = at-spi2-atk (=2.24.1)
-RDEPENDS = at-spi2-core (>= 2.24.1) atk (>= 2.24.0) dbus-lib (>= 1.10.20) glib-2.0 (>= 2.52.3) musl (>= 1.1.16+git0+da438ee1fc)
+PKGR = r0.0
+RPROVIDES = at-spi2-atk (=2.26.0)
+RDEPENDS = at-spi2-core (>= 2.26.0) atk (>= 2.26.0) dbus-lib (>= 1.10.20) glib-2.0 (>= 2.52.3) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 204314
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/at-spi2-atk /usr/lib/at-spi2-atk/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

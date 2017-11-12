@@ -1,9 +1,9 @@
-PV = 2.30
+PV = 2.31
 PR = r0
-PKGR = r0.15
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc) util-linux-libsmartcols (>= 2.30)
+RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2) util-linux-libsmartcols (>= 2.31)
 RRECOMMENDS = 
-PKGSIZE = 30452
+PKGSIZE = 30456
 FILES = /usr/bin/prlimit
 FILELIST = /usr/bin/prlimit

@@ -1,8 +1,8 @@
 PV = 2.0.10-4
 PR = r4
-PKGR = r4.12
+PKGR = r4.13
 RPROVIDES = 
-RDEPENDS = bash musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = bash musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = kernel-module-ebtables
 PKGSIZE = 270924
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ebtables /usr/lib/ebtables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/ebtables/*.so /lib/systemd/system/ebtables.service

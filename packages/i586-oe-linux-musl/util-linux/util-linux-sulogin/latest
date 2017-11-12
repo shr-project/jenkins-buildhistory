@@ -1,9 +1,9 @@
-PV = 2.30
+PV = 2.31
 PR = r0
-PKGR = r0.15
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc) update-alternatives-opkg
+RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 46456
+PKGSIZE = 46460
 FILES = /sbin/sulogin*
 FILELIST = /sbin/sulogin.util-linux

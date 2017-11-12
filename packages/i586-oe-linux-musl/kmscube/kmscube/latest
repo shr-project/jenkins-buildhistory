@@ -1,8 +1,8 @@
 PV = git
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.52.3) gstreamer1.0 (>= 1.12.3) libdrm (>= 2.4.83) libegl-mesa (>= 17.1.7) libgbm (>= 17.1.7) libgles2-mesa (>= 17.1.7) libgstallocators-1.0 (>= 1.12.3) libgstapp-1.0 (>= 1.12.3) libgstvideo-1.0 (>= 1.12.3) musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = glib-2.0 (>= 2.52.3) gstreamer1.0 (>= 1.12.3) libdrm (>= 2.4.88) libegl-mesa (>= 17.2.4) libgbm (>= 17.2.4) libgles2-mesa (>= 17.2.4) libgstallocators-1.0 (>= 1.12.3) libgstapp-1.0 (>= 1.12.3) libgstvideo-1.0 (>= 1.12.3) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 1504916
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/kmscube /usr/lib/kmscube/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

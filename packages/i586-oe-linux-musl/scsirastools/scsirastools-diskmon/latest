@@ -1,8 +1,8 @@
 PV = 1.6.6
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc) scsirastools
+RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2) scsirastools
 RRECOMMENDS = 
 PKGSIZE = 52135
 FILES = /usr/sbin/sgdiskmon /etc/init.d/sgdisk

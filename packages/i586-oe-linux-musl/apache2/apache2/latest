@@ -1,8 +1,8 @@
 PV = 2.4.29
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = apr (>= 1.6.2) apr-util (>= 1.6.0) libcrypto (>= 1.0.2l) libgcc libpcre (>= 8.41) libssl (>= 1.0.2l) musl (>= 1.1.16+git0+da438ee1fc) openssl util-linux-libuuid (>= 2.30)
+RDEPENDS = apr (>= 1.6.2) apr-util (>= 1.6.0) libcrypto (>= 1.0.2l) libgcc libpcre (>= 8.41) libssl (>= 1.0.2l) musl (>= 1.1.18+git0+eb03bde2f2) openssl util-linux-libuuid (>= 2.31)
 RRECOMMENDS = 
 PKGSIZE = 3057093
 FILES = /usr/bin /usr/sbin /usr/libexec /usr/lib/lib*.so.* /etc /com /var /bin /sbin /lib/*.so* /usr/lib/apache2 /usr/share/apache2/htdocs /usr/share/apache2/cgi-bin /usr/lib/lib*.so /usr/lib/pkgconfig/* /usr/lib/cgi-bin /usr/share/apache2/ /lib/systemd/system/apache2.service

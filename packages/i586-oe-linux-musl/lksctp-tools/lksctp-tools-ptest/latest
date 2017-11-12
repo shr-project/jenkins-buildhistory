@@ -2,9 +2,9 @@ PV = 1.0.17+gitAUTOINC+736b91d340
 PR = r0
 PKG = libsctp-ptest
 PKGV = 1.0.17+git0+736b91d340
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = lksctp-tools-ptest (=1.0.17+git0+736b91d340)
-RDEPENDS = lksctp-tools (>= 1.0.17+git0+736b91d340) musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = lksctp-tools (>= 1.0.17+git0+736b91d340) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = kernel-module-sctp ptest-runner
 PKGSIZE = 899650
 FILES = /usr/lib/lksctp-tools/ptest

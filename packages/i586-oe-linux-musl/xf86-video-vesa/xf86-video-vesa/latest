@@ -1,9 +1,9 @@
 PE = 2
 PV = 2.3.4
 PR = r21.0
-PKGR = r21.0.14
+PKGR = r21.0.15
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.16+git0+da438ee1fc) xorg-abi-video-23
+RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2) xorg-abi-video-23
 RRECOMMENDS = xserver-xorg-module-libint10
 PKGSIZE = 26488
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/xf86-video-vesa /usr/lib/xf86-video-vesa/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/xorg/modules/drivers/*.so

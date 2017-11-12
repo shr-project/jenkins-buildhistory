@@ -1,8 +1,8 @@
 PV = 0.23
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = libdw (>= 0.170) libelf (>= 0.170) libstdc++ (>= 7.2.0) musl (>= 1.1.16+git0+da438ee1fc) python3 rpm (>= 4.13.90+git0+a8e51b3bb0)
+RDEPENDS = libdw (>= 0.170) libelf (>= 0.170) libstdc++ (>= 7.2.0) musl (>= 1.1.18+git0+eb03bde2f2) python3 rpm (>= 4.13.90+git0+a8e51b3bb0)
 RRECOMMENDS = 
 PKGSIZE = 287053
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/satyr /usr/lib/satyr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

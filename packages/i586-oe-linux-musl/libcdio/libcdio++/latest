@@ -1,9 +1,9 @@
 PV = 0.93
 PR = r0
 PKG = libcdio++0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libcdio++ (=0.93)
-RDEPENDS = libcdio (>= 0.93) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = libcdio (>= 0.93) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 9718
 FILES = /usr/lib/libcdio++.so.0 /usr/lib/libcdio++.so.0.0.2

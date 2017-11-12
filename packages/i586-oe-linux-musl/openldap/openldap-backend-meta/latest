@@ -1,9 +1,9 @@
 PV = 2.4.45
 PR = r0
 PKG = libldap-2.4-backend-meta
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = openldap-backend-meta (=2.4.45)
-RDEPENDS = gnutls (>= 3.5.16) libgcrypt (>= 1.8.1) musl (>= 1.1.16+git0+da438ee1fc) openldap (>= 2.4.45)
+RDEPENDS = gnutls (>= 3.5.16) libgcrypt (>= 1.8.1) musl (>= 1.1.18+git0+eb03bde2f2) openldap (>= 2.4.45)
 RRECOMMENDS = 
 PKGSIZE = 159434
 FILES = /usr/libexec/openldap/back_meta.so /usr/libexec/openldap/back_meta-2.4.so.2 /usr/libexec/openldap/back_meta-2.4.so.2.10.8

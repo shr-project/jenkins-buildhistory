@@ -5,8 +5,8 @@ drwxr-xr-x root       root             4096 ./usr/bin/.debug
 -rwxr-xr-x root       root            15660 ./usr/bin/.debug/vlc-wrapper
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root          2101784 ./usr/lib/.debug/libvlccore.so.8.0.0
--rwxr-xr-x root       root           344056 ./usr/lib/.debug/libvlc.so.5.5.0
+-rwxr-xr-x root       root          2101780 ./usr/lib/.debug/libvlccore.so.8.0.0
+-rwxr-xr-x root       root           344084 ./usr/lib/.debug/libvlc.so.5.5.0
 drwxr-xr-x root       root             4096 ./usr/lib/vlc
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/.debug
 -rwxr-xr-x root       root            47732 ./usr/lib/vlc/.debug/libvlc_vdpau.so.0.0.0
@@ -110,7 +110,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/codec/.debug
 -rwxr-xr-x root       root            24376 ./usr/lib/vlc/plugins/codec/.debug/libpng_plugin.so
 -rwxr-xr-x root       root            23648 ./usr/lib/vlc/plugins/codec/.debug/librawvideo_plugin.so
 -rwxr-xr-x root       root            63784 ./usr/lib/vlc/plugins/codec/.debug/libschroedinger_plugin.so
--rwxr-xr-x root       root            50768 ./usr/lib/vlc/plugins/codec/.debug/libscte27_plugin.so
+-rwxr-xr-x root       root            50756 ./usr/lib/vlc/plugins/codec/.debug/libscte27_plugin.so
 -rwxr-xr-x root       root            22932 ./usr/lib/vlc/plugins/codec/.debug/libsdl_image_plugin.so
 -rwxr-xr-x root       root            39844 ./usr/lib/vlc/plugins/codec/.debug/libspudec_plugin.so
 -rwxr-xr-x root       root            20080 ./usr/lib/vlc/plugins/codec/.debug/libstl_plugin.so
@@ -133,7 +133,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/control/.debug
 -rwxr-xr-x root       root            74716 ./usr/lib/vlc/plugins/control/.debug/libhotkeys_plugin.so
 -rwxr-xr-x root       root            25516 ./usr/lib/vlc/plugins/control/.debug/libmotion_plugin.so
 -rwxr-xr-x root       root            27176 ./usr/lib/vlc/plugins/control/.debug/libnetsync_plugin.so
--rwxr-xr-x root       root            68796 ./usr/lib/vlc/plugins/control/.debug/liboldrc_plugin.so
+-rwxr-xr-x root       root            68812 ./usr/lib/vlc/plugins/control/.debug/liboldrc_plugin.so
 -rwxr-xr-x root       root            26280 ./usr/lib/vlc/plugins/control/.debug/libxcb_hotkeys_plugin.so
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/demux
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/demux/.debug
@@ -199,7 +199,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/misc/.debug
 -rwxr-xr-x root       root            12500 ./usr/lib/vlc/plugins/misc/.debug/libxdg_screensaver_plugin.so
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/mux
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/mux/.debug
--rwxr-xr-x root       root           131728 ./usr/lib/vlc/plugins/mux/.debug/libmux_asf_plugin.so
+-rwxr-xr-x root       root           131744 ./usr/lib/vlc/plugins/mux/.debug/libmux_asf_plugin.so
 -rwxr-xr-x root       root           112492 ./usr/lib/vlc/plugins/mux/.debug/libmux_avi_plugin.so
 -rwxr-xr-x root       root            17812 ./usr/lib/vlc/plugins/mux/.debug/libmux_dummy_plugin.so
 -rwxr-xr-x root       root           169656 ./usr/lib/vlc/plugins/mux/.debug/libmux_mp4_plugin.so
@@ -227,14 +227,14 @@ drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/services_disco
 -rwxr-xr-x root       root            39900 ./usr/lib/vlc/plugins/services_discovery/.debug/libbonjour_plugin.so
 -rwxr-xr-x root       root            32080 ./usr/lib/vlc/plugins/services_discovery/.debug/libmediadirs_plugin.so
 -rwxr-xr-x root       root            27168 ./usr/lib/vlc/plugins/services_discovery/.debug/libmtp_plugin.so
--rwxr-xr-x root       root            27836 ./usr/lib/vlc/plugins/services_discovery/.debug/libpodcast_plugin.so
+-rwxr-xr-x root       root            27864 ./usr/lib/vlc/plugins/services_discovery/.debug/libpodcast_plugin.so
 -rwxr-xr-x root       root            41352 ./usr/lib/vlc/plugins/services_discovery/.debug/libpulselist_plugin.so
 -rwxr-xr-x root       root            79560 ./usr/lib/vlc/plugins/services_discovery/.debug/libsap_plugin.so
 -rwxr-xr-x root       root            32864 ./usr/lib/vlc/plugins/services_discovery/.debug/libudev_plugin.so
 -rwxr-xr-x root       root            28608 ./usr/lib/vlc/plugins/services_discovery/.debug/libxcb_apps_plugin.so
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/stream_filter
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/stream_filter/.debug
--rwxr-xr-x root       root          2814876 ./usr/lib/vlc/plugins/stream_filter/.debug/libdash_plugin.so
+-rwxr-xr-x root       root          2815236 ./usr/lib/vlc/plugins/stream_filter/.debug/libdash_plugin.so
 -rwxr-xr-x root       root            21504 ./usr/lib/vlc/plugins/stream_filter/.debug/libdecomp_plugin.so
 -rwxr-xr-x root       root            16372 ./usr/lib/vlc/plugins/stream_filter/.debug/librecord_plugin.so
 -rwxr-xr-x root       root            84664 ./usr/lib/vlc/plugins/stream_filter/.debug/libsmooth_plugin.so
@@ -260,7 +260,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/stream_out/.de
 -rwxr-xr-x root       root           111548 ./usr/lib/vlc/plugins/stream_out/.debug/libstream_out_transcode_plugin.so
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/text_renderer
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/text_renderer/.debug
--rwxr-xr-x root       root           154916 ./usr/lib/vlc/plugins/text_renderer/.debug/libfreetype_plugin.so
+-rwxr-xr-x root       root           154940 ./usr/lib/vlc/plugins/text_renderer/.debug/libfreetype_plugin.so
 -rwxr-xr-x root       root            16000 ./usr/lib/vlc/plugins/text_renderer/.debug/libtdummy_plugin.so
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/vdpau
 drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/vdpau/.debug
@@ -310,7 +310,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/vlc/plugins/video_filter/.
 -rwxr-xr-x root       root            23652 ./usr/lib/vlc/plugins/video_filter/.debug/libgaussianblur_plugin.so
 -rwxr-xr-x root       root            28828 ./usr/lib/vlc/plugins/video_filter/.debug/libgradfun_plugin.so
 -rwxr-xr-x root       root            33196 ./usr/lib/vlc/plugins/video_filter/.debug/libgradient_plugin.so
--rwxr-xr-x root       root            30960 ./usr/lib/vlc/plugins/video_filter/.debug/libgrain_plugin.so
+-rwxr-xr-x root       root            30924 ./usr/lib/vlc/plugins/video_filter/.debug/libgrain_plugin.so
 -rwxr-xr-x root       root            33584 ./usr/lib/vlc/plugins/video_filter/.debug/libhqdn3d_plugin.so
 -rwxr-xr-x root       root            19236 ./usr/lib/vlc/plugins/video_filter/.debug/libinvert_plugin.so
 -rwxr-xr-x root       root            33552 ./usr/lib/vlc/plugins/video_filter/.debug/liblogo_plugin.so

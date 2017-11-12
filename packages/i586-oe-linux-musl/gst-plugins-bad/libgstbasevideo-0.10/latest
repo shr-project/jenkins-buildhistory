@@ -1,9 +1,9 @@
 PV = 0.10.23
 PR = r4
 PKG = libgstbasevideo-0.10-23
-PKGR = r4.14
+PKGR = r4.15
 RPROVIDES = libgstbasevideo-0.10 (=0.10.23)
-RDEPENDS = glib-2.0 (>= 2.52.3) gstreamer (>= 0.10.36) libgstvideo-0.10 (>= 0.10.36) libxml2 (>= 2.9.5) musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = glib-2.0 (>= 2.52.3) gstreamer (>= 0.10.36) libgstvideo-0.10 (>= 0.10.36) libxml2 (>= 2.9.7) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 99638
 FILES = /usr/lib/libgstbasevideo-0.10.so /usr/lib/libgstbasevideo-0.10.so.23 /usr/lib/libgstbasevideo-0.10.so.23.0.0

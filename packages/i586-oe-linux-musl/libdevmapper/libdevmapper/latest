@@ -1,9 +1,9 @@
 PV = 2.02.171
 PR = r0
 PKG = libdevmapper1.02
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = libdevmapper (=2.02.171)
-RDEPENDS = libudev (>= 234) musl (>= 1.1.16+git0+da438ee1fc) thin-provisioning-tools
+RDEPENDS = libudev (>= 234) musl (>= 1.1.18+git0+eb03bde2f2) thin-provisioning-tools
 RRECOMMENDS = lvm2-udevrules
 PKGSIZE = 407904
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libdevmapper /usr/lib/libdevmapper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

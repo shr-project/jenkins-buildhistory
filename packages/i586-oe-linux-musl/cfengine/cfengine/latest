@@ -1,8 +1,8 @@
 PV = 3.9.0
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = cfengine-masterfiles libcrypto (>= 1.0.2l) libpcre (>= 8.41) libssl (>= 1.0.2l) musl (>= 1.1.16+git0+da438ee1fc) tokyocabinet (>= 1.4.48)
+RDEPENDS = cfengine-masterfiles libcrypto (>= 1.0.2l) libpcre (>= 8.41) libssl (>= 1.0.2l) musl (>= 1.1.18+git0+eb03bde2f2) tokyocabinet (>= 1.4.48)
 RRECOMMENDS = 
 PKGSIZE = 1847026
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cfengine /usr/lib/cfengine/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/cfengine3.service /lib/systemd/system/cfengine3-web.service

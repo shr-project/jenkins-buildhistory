@@ -2,9 +2,9 @@ PE = 1
 PV = 3.2.29
 PR = r0
 PKG = libnl-3-cli
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libnl-cli (=3.2.29)
-RDEPENDS = libnl (>= 3.2.29) libnl-genl (>= 3.2.29) libnl-idiag (>= 3.2.29) libnl-nf (>= 3.2.29) libnl-route (>= 3.2.29) musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = libnl (>= 3.2.29) libnl-genl (>= 3.2.29) libnl-idiag (>= 3.2.29) libnl-nf (>= 3.2.29) libnl-route (>= 3.2.29) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 524059
 FILES = /usr/lib/libnl-cli-3.so.* /usr/lib/libnl/cli/*/*.so /usr/bin/genl-ctrl-list /usr/bin/idiag-socket-details /usr/bin/nf-* /usr/bin/nl-*

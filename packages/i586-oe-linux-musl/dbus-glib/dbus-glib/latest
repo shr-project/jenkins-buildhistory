@@ -1,9 +1,9 @@
 PV = 0.108
 PR = r0
 PKG = libdbus-glib-1-2
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = dbus-glib (=0.108)
-RDEPENDS = dbus-lib (>= 1.10.20) glib-2.0 (>= 2.52.3) musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = dbus-lib (>= 1.10.20) glib-2.0 (>= 2.52.3) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 173587
 FILES = /usr/lib/lib*.so.*

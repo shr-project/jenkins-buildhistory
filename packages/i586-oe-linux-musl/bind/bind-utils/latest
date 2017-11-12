@@ -1,8 +1,8 @@
 PV = 9.10.6
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = bind (>= 9.10.6) musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = bind-libs (>= 9.10.6) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 208044
 FILES = /usr/bin/host /usr/bin/dig

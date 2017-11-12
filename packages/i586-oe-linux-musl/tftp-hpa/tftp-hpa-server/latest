@@ -1,8 +1,8 @@
 PV = 5.2
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = libwrap (>= 7.6) musl (>= 1.1.16+git0+da438ee1fc)
+RDEPENDS = libwrap (>= 7.6) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 39067
 FILES = /usr/sbin /etc /var /lib/systemd/system/tftpd-hpa.socket /lib/systemd/system/tftpd-hpa.service
