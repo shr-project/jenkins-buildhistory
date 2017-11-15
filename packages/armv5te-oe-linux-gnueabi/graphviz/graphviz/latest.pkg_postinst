@@ -1,8 +1,0 @@
-if test "x$D" != "x"; then
-    exit 1
-else
-    ${bindr}/dot -c
-fi
-if [ x"$D" = "x" ]; then
-	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
-fi

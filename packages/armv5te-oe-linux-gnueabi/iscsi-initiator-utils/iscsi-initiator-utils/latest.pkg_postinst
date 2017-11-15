@@ -1,1 +1,0 @@
-    if [ "x$D" = "x" ]; then\n        if [ -e /etc/init.d/populate-volatile.sh ]; then\n            /etc/init.d/populate-volatile.sh update\n        elif command -v systemd-tmpfiles >/dev/null; then\n            systemd-tmpfiles --create /etc/tmpfiles.d/iscsi.conf\n        fi\n    fi\n

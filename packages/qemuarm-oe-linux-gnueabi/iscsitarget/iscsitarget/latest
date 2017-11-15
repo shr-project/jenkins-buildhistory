@@ -1,9 +1,0 @@
-PV = 1.4.20.3+svn502
-PR = r0
-PKGR = r0.15
-RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) kernel-module-iscsi-trgt kernel-module-iscsi-trgt-4.12.14-yocto-standard
-RRECOMMENDS = kernel-module-crc32c kernel-module-libcrc32c
-PKGSIZE = 81493
-FILES = /usr/sbin /etc
-FILELIST = /etc/iet/ietd.conf /etc/iet/initiators.allow /etc/iet/initiators.deny /etc/iet/targets.allow /etc/init.d/iscsi-target /usr/sbin/ietadm /usr/sbin/ietd
