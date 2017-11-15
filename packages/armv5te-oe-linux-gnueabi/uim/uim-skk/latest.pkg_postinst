@@ -1,0 +1,1 @@
+    if test -n "$D"; then\n        PSEUDO_UNLOAD=1 qemu-arm -r 3.2.0  -L $D -E LD_LIBRARY_PATH=$D/usr/lib:$D/lib $D/usr/bin/uim-module-manager --register skk --path $D/usr/share/uim\n    else\n\t\tuim-module-manager --register skk --path /usr/share/uim\n    fi\n

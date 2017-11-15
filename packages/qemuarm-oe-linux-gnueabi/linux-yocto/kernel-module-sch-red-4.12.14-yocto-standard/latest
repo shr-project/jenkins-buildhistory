@@ -1,0 +1,10 @@
+PV = 4.12.14+gitAUTOINC+cebe198870_03489013c6
+PR = r0
+PKGV = 4.12.14+git0+cebe198870_03489013c6
+PKGR = r0.7
+RPROVIDES = kernel-module-sch-red
+RDEPENDS = kernel-4.12.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 11084
+FILES = /lib/modules/4.12.14-yocto-standard/kernel/net/sched/sch_red.ko /etc/modules-load.d/sch_red.conf /etc/modprobe.d/sch_red.conf
+FILELIST = /lib/modules/4.12.14-yocto-standard/kernel/net/sched/sch_red.ko

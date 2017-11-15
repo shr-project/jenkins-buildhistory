@@ -1,0 +1,5 @@
+PV = 1.4.3
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = python-appdirs-dbg python-appdirs-staticdev python-appdirs-dev python-appdirs-doc python-appdirs-locale python-appdirs
+LAYER = meta-python

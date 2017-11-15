@@ -1,0 +1,5 @@
+PV = 2.2.0
+PR = r0
+DEPENDS = cmake-native lcms libpng tiff virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc zlib
+PACKAGES = openjpeg-dbg openjpeg-staticdev openjpeg-dev openjpeg-doc openjpeg-locale openjpeg
+LAYER = openembedded-layer

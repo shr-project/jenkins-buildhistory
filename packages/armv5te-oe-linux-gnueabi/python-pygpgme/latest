@@ -1,0 +1,5 @@
+PV = 0.3
+PR = r0
+DEPENDS = gpgme python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = python-pygpgme-ptest python-pygpgme-dbg python-pygpgme-staticdev python-pygpgme-dev python-pygpgme-doc python-pygpgme-locale python-pygpgme
+LAYER = meta-python

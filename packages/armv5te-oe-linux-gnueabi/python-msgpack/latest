@@ -1,0 +1,5 @@
+PV = 0.4.8
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = python-msgpack-dbg python-msgpack-staticdev python-msgpack-dev python-msgpack-doc python-msgpack-locale python-msgpack
+LAYER = meta-python

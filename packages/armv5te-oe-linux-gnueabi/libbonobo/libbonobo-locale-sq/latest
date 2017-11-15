@@ -1,0 +1,10 @@
+PV = 2.32.1
+PR = r0
+PKG = libbonobo-2-locale-sq
+PKGR = r0.18
+RPROVIDES = libbonobo-locale libbonobo-locale-sq (=2.32.1) sq-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sq
+PKGSIZE = 10530
+FILES = /usr/share/locale/sq
+FILELIST = /usr/share/locale/sq/LC_MESSAGES/libbonobo-2.0.mo

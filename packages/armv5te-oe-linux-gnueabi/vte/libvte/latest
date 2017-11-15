@@ -1,0 +1,10 @@
+PV = 0.50.1
+PR = r0
+PKG = libvte-2.91-0
+PKGR = r0.0
+RPROVIDES = libvte (=0.50.1)
+RDEPENDS = atk (>= 2.26.0) cairo (>= 1.14.10) cairo-gobject (>= 1.14.10) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.52.3) glibc (>= 2.26) gnutls (>= 3.5.16) gtk+3 (>= 3.22.24) libgcc (>= 7.2.0) libpcre2 (>= 10.30) libstdc++ (>= 7.2.0) pango (>= 1.40.12) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 277679
+FILES = /usr/lib/*.so.* /usr/lib/girepository-1.0/*
+FILELIST = /usr/lib/girepository-1.0/Vte-2.91.typelib /usr/lib/libvte-2.91.so.0 /usr/lib/libvte-2.91.so.0.5000.1

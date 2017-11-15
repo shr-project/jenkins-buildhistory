@@ -1,0 +1,5 @@
+PV = 1.12
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = python-jsonpointer-dbg python-jsonpointer-staticdev python-jsonpointer-dev python-jsonpointer-doc python-jsonpointer-locale python-jsonpointer
+LAYER = meta-python

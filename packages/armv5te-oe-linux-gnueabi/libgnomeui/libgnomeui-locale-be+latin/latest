@@ -1,0 +1,10 @@
+PV = 2.24.5
+PR = r0
+PKG = libgnomeui-2-locale-be+latin
+PKGR = r0.19
+RPROVIDES = be+latin-translation libgnomeui-locale libgnomeui-locale-be+latin (=2.24.5)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-be+latin
+PKGSIZE = 24811
+FILES = /usr/share/locale/be@latin
+FILELIST = /usr/share/locale/be@latin/LC_MESSAGES/libgnomeui-2.0.mo

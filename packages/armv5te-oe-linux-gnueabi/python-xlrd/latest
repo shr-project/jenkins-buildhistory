@@ -1,0 +1,5 @@
+PV = 1.1.0
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = python-xlrd-dbg python-xlrd-staticdev python-xlrd-dev python-xlrd-doc python-xlrd-locale python-xlrd
+LAYER = meta-python

@@ -1,0 +1,10 @@
+PV = 4.12.14+gitAUTOINC+cebe198870_03489013c6
+PR = r0
+PKGV = 4.12.14+git0+cebe198870_03489013c6
+PKGR = r0.7
+RPROVIDES = kernel-module-nbd
+RDEPENDS = kernel-4.12.14-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 33056
+FILES = /lib/modules/4.12.14-yocto-standard/kernel/drivers/block/nbd.ko /etc/modules-load.d/nbd.conf /etc/modprobe.d/nbd.conf
+FILELIST = /lib/modules/4.12.14-yocto-standard/kernel/drivers/block/nbd.ko

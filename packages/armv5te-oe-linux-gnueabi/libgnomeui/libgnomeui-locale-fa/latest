@@ -1,0 +1,10 @@
+PV = 2.24.5
+PR = r0
+PKG = libgnomeui-2-locale-fa
+PKGR = r0.19
+RPROVIDES = fa-translation libgnomeui-locale libgnomeui-locale-fa (=2.24.5)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-fa
+PKGSIZE = 28124
+FILES = /usr/share/locale/fa
+FILELIST = /usr/share/locale/fa/LC_MESSAGES/libgnomeui-2.0.mo
