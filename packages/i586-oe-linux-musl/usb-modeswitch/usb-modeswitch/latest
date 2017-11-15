@@ -1,9 +1,0 @@
-PV = 2.5.0
-PR = r0
-PKGR = r0.13
-RPROVIDES = 
-RDEPENDS = libusb1 (>= 1.0.21) musl (>= 1.1.18+git0+eb03bde2f2) tcl
-RRECOMMENDS = usb-modeswitch-data
-PKGSIZE = 87210
-FILES = /usr/bin /etc /lib/udev/usb_modeswitch /usr/sbin /var/lib/usb_modeswitch
-FILELIST = /etc/usb_modeswitch.conf /lib/udev/usb_modeswitch /usr/sbin/usb_modeswitch /usr/sbin/usb_modeswitch_dispatcher

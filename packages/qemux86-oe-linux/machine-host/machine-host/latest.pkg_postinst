@@ -1,1 +1,0 @@
-if ! grep -q '127.0.0.1    qemux86' $D/etc/hosts ; then\n    echo '127.0.0.1    qemux86' >> $D/etc/hosts\nfi\n

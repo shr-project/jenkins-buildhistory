@@ -1,1 +1,0 @@
-#!/bin/sh\n# Begin section update-alternatives\nupdate-alternatives --install /usr/bin/pkg-config pkg-config /usr/bin/pkg-config.pkgconf 10\n# End section update-alternatives\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n

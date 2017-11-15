@@ -1,9 +1,0 @@
-PV = 5.5.3
-PR = r0
-PKGR = r0.15
-RPROVIDES = 
-RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2) strongswan
-RRECOMMENDS = 
-PKGSIZE = 18107
-FILES = /usr/lib/ipsec/plugins/libstrongswan-revocation.so /etc/strongswan.d/charon/revocation.conf
-FILELIST = /etc/strongswan.d/charon/revocation.conf /usr/lib/ipsec/plugins/libstrongswan-revocation.so

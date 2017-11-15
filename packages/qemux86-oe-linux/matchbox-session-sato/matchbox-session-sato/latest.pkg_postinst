@@ -1,1 +1,0 @@
-\tset_value() {\n\t\t#type, name, value\n\t\tgconftool-2 --config-source=xml::$D/etc/gconf/gconf.xml.defaults --direct --type $1 --set /desktop/poky/interface/$2 "$3"\n\t}\n\tset_value string theme Adwaita\n\tset_value string matchbox_theme Sato\n\tset_value string icon_theme Sato\n\tset_value bool touchscreen true\n\tset_value string font_name "Sans 9"\n

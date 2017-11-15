@@ -1,9 +1,0 @@
-PV = 1.6.0
-PR = r0
-PKGR = r0.16
-RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.52.3) musl (>= 1.1.18+git0+eb03bde2f2) rrdtool (>= 1.6.0)
-RRECOMMENDS = 
-PKGSIZE = 76156
-FILES = /usr/bin/rrdcached /lib/systemd/system/rrdcached.service /lib/systemd/system/rrdcached.socket /lib/systemd/system/rrdcached.socket /lib/systemd/system/rrdcached.service
-FILELIST = /lib/systemd/system/rrdcached.service /lib/systemd/system/rrdcached.socket /usr/bin/rrdcached

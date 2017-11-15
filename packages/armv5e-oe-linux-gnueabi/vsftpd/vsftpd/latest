@@ -1,9 +1,0 @@
-PV = 3.0.2
-PR = r0
-PKGR = r0.8
-RPROVIDES = 
-RDEPENDS = base-files base-passwd glibc (>= 2.21) libcap (>= 2.24) libwrap (>= 7.6) shadow
-RRECOMMENDS = update-rc.d
-PKGSIZE = 102319
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/vsftpd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/vsftpd /usr/lib/vsftpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/vsftpd.service
-FILELIST = /etc/default/volatiles/99_vsftpd /etc/tmpfiles.d/vsftpd.conf /etc/vsftpd.conf /etc/vsftpd.ftpusers /etc/vsftpd.user_list /lib/systemd/system/vsftpd.service /usr/sbin/vsftpd
