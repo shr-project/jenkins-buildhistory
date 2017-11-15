@@ -1,0 +1,9 @@
+PV = 1.8.0
+PR = r0
+PKGR = r0.15
+RPROVIDES = 
+RDEPENDS = chkconfig coreutils fontconfig (>= 2.12.6) gnutls (>= 3.5.16) hicolor-icon-theme libgcc (>= 7.2.0) libjpeg-turbo (>= 1.5.2) libpng (>= 1.6.32) libstdc++ (>= 7.2.0) libsystemd (>= 234) libx11 (>= 1.6.5) libxau (>= 1.0.8) libxdamage (>= 1.1.4) libxdmcp (>= 1.1.2) libxext (>= 1.3.3) libxfont2 (>= 2.0.2) libxft (>= 2.3.2) libxrender (>= 0.9.10) libxtst (>= 1.2.3) musl (>= 1.1.18+git0+eb03bde2f2) nettle (>= 3.3) pixman (>= 0.34.0) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 4603081
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/tigervnc /usr/lib/tigervnc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/xorg/modules/extensions /usr/share/icons
+FILELIST = /usr/bin/Xvnc /usr/bin/vncconfig /usr/bin/vncpasswd /usr/bin/vncserver /usr/bin/vncviewer /usr/bin/x0vncserver /usr/lib/xorg/modules/extensions/libvnc.so /usr/share/applications/vncviewer.desktop /usr/share/icons/hicolor/16x16/apps/tigervnc.png /usr/share/icons/hicolor/22x22/apps/tigervnc.png /usr/share/icons/hicolor/24x24/apps/tigervnc.png /usr/share/icons/hicolor/32x32/apps/tigervnc.png /usr/share/icons/hicolor/48x48/apps/tigervnc.png /usr/share/icons/hicolor/scalable/apps/tigervnc.svg

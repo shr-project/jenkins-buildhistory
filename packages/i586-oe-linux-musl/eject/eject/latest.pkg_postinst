@@ -1,0 +1,1 @@
+#!/bin/sh\n# Begin section update-alternatives\nupdate-alternatives --install /usr/bin/volname volname /usr/bin/volname.eject 100\nupdate-alternatives --install /usr/bin/eject eject /usr/bin/eject.eject 100\n# End section update-alternatives\n

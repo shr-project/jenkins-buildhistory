@@ -1,0 +1,11 @@
+PV = 2.1.5+gitAUTOINC+7a98138f27
+PR = r0
+PKG = libmsgpackc-staticdev
+PKGV = 2.1.5+git0+7a98138f27
+PKGR = r0.8
+RPROVIDES = msgpack-c-staticdev (=2.1.5+git0+7a98138f27)
+RDEPENDS = msgpack-c-dev (= 2.1.5+git0+7a98138f27-r0.8)
+RRECOMMENDS = 
+PKGSIZE = 80802
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/msgpack-c/*.a
+FILELIST = /usr/lib/libmsgpackc.a

@@ -1,0 +1,9 @@
+PV = 4.11
+PR = r0
+PKGR = r0.14
+RPROVIDES = 
+RDEPENDS = make musl (>= 1.1.18+git0+eb03bde2f2)
+RRECOMMENDS = ptest-runner
+PKGSIZE = 1165680
+FILES = /usr/lib/ethtool/ptest
+FILELIST = /usr/lib/ethtool/ptest/Makefile /usr/lib/ethtool/ptest/ethtool /usr/lib/ethtool/ptest/run-ptest /usr/lib/ethtool/ptest/test-cmdline /usr/lib/ethtool/ptest/test-features

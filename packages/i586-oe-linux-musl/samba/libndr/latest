@@ -1,0 +1,10 @@
+PV = 4.6.7
+PR = r0
+PKG = libndr0
+PKGR = r0.15
+RPROVIDES = libndr (=4.6.7)
+RDEPENDS = libgenrand-samba4 (>= 4.6.7) libsamba-debug-samba4 (>= 4.6.7) libsamba-errors (>= 4.6.7) libsamba-util (>= 4.6.7) libtalloc (>= 2.1.9) musl (>= 1.1.18+git0+eb03bde2f2) samba-common
+RRECOMMENDS = 
+PKGSIZE = 99671
+FILES = /usr/lib/libndr.so.0 /usr/lib/libndr.so.0.0.8
+FILELIST = /usr/lib/libndr.so.0 /usr/lib/libndr.so.0.0.8

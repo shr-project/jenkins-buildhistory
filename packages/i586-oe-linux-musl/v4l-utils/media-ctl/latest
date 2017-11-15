@@ -1,0 +1,9 @@
+PV = 1.12.3
+PR = r0
+PKGR = r0.15
+RPROVIDES = 
+RDEPENDS = libudev (>= 234) libv4l (>= 1.12.3) musl (>= 1.1.18+git0+eb03bde2f2)
+RRECOMMENDS = 
+PKGSIZE = 44144
+FILES = /usr/bin/media-ctl /usr/lib/libmediactl.so.*
+FILELIST = /usr/bin/media-ctl /usr/lib/libmediactl.so.0 /usr/lib/libmediactl.so.0.0.0

@@ -1,0 +1,5 @@
+PV = 1.10+9164
+PR = r0
+DEPENDS = cmake-native libusb1 openssl pcsc-lite virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+PACKAGES = oscam-dbg oscam-staticdev oscam-dev oscam-doc oscam-locale oscam
+LAYER = multimedia-layer

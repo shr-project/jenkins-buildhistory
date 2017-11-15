@@ -1,0 +1,11 @@
+PV = 5.9.2+gitAUTOINC+23603a3b08
+PR = r0
+PKG = libenginio-examples-dbg
+PKGV = 5.9.2+git1+23603a3b08
+PKGR = r0.6
+RPROVIDES = qtenginio-examples-dbg (=5.9.2+git1+23603a3b08)
+RDEPENDS = 
+RRECOMMENDS = libstdc++-dbg musl-dbg qtbase-dbg qtdeclarative-dbg qtenginio-dbg
+PKGSIZE = 0
+FILES = /usr/share/qt5/examples/.debug /usr/share/qt5/examples/*/.debug /usr/share/qt5/examples/*/*/.debug /usr/share/qt5/examples/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/*/*/*/.debug
+FILELIST = 

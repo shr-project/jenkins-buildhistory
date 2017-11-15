@@ -1,0 +1,5 @@
+PV = 1.7.9
+PR = r0
+DEPENDS = cmake-native expat libpcre openssl openssl sqlite3 virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc zlib zlib
+PACKAGES = poco-dbg poco-xml poco-json poco-mongodb poco-pdf poco-util poco-net poco-netssl poco-crypto poco-data poco-datasqlite poco-zip poco-foundation poco poco-dev poco-staticdev poco-cppunit
+LAYER = openembedded-layer

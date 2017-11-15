@@ -1,0 +1,11 @@
+PV = 3.2.3+gitAUTOINC+a9e4e74ec4
+PR = r0
+PKG = libedataserver-1.2-15
+PKGV = 3.2.3+git0+a9e4e74ec4
+PKGR = r0.16
+RPROVIDES = libedataserver (=3.2.3+git0+a9e4e74ec4)
+RDEPENDS = gconf (>= 3.2.6) glib-2.0 (>= 2.52.3) libsoup-2.4 (>= 2.60.1) libxml2 (>= 2.9.7) musl (>= 1.1.18+git0+eb03bde2f2) nspr (>= 4.17)
+RRECOMMENDS = 
+PKGSIZE = 325540
+FILES = /usr/lib/libedataserver-*.so.*
+FILELIST = /usr/lib/libedataserver-1.2.so.15 /usr/lib/libedataserver-1.2.so.15.0.0

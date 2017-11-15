@@ -1,0 +1,10 @@
+PV = 4.6.7
+PR = r0
+PKG = libdcerpc-binding0
+PKGR = r0.15
+RPROVIDES = libdcerpc-binding (=4.6.7)
+RDEPENDS = libgensec-samba4 (>= 4.6.7) libndr (>= 4.6.7) libsamba-debug-samba4 (>= 4.6.7) libsamba-errors (>= 4.6.7) libsamba-sockets-samba4 (>= 4.6.7) libsamba-util (>= 4.6.7) libtalloc (>= 2.1.9) libtevent (>= 0.9.31) libtevent-util (>= 4.6.7) musl (>= 1.1.18+git0+eb03bde2f2) samba-common
+RRECOMMENDS = 
+PKGSIZE = 148846
+FILES = /usr/lib/libdcerpc-binding.so.0 /usr/lib/libdcerpc-binding.so.0.0.1
+FILELIST = /usr/lib/libdcerpc-binding.so.0 /usr/lib/libdcerpc-binding.so.0.0.1

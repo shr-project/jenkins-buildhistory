@@ -1,0 +1,11 @@
+PV = 3.2.3+gitAUTOINC+a9e4e74ec4
+PR = r0
+PKG = libedata-book-1.2-11
+PKGV = 3.2.3+git0+a9e4e74ec4
+PKGR = r0.16
+RPROVIDES = libedata-book (=3.2.3+git0+a9e4e74ec4)
+RDEPENDS = db (>= 5.3.28) evolution-data-server (>= 3.2.3+git0+a9e4e74ec4) gconf (>= 3.2.6) glib-2.0 (>= 2.52.3) libcamel (>= 3.2.3+git0+a9e4e74ec4) libebook (>= 3.2.3+git0+a9e4e74ec4) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libsoup-2.4 (>= 2.60.1) libsqlite3 (>= 3.20.0) libxml2 (>= 2.9.7) musl (>= 1.1.18+git0+eb03bde2f2) nspr (>= 4.17) nss (>= 3.33) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 248684
+FILES = /usr/libexec/e-addressbook-factory /usr/share/dbus-1/services/*.AddressBook.service /usr/lib/libedata-book-*.so.* /usr/lib/evolution-data-server-*/extensions/libebook*.so /usr/share/evolution-data-server-1.4/weather/Locations.xml
+FILELIST = /usr/lib/libedata-book-1.2.so.11 /usr/lib/libedata-book-1.2.so.11.0.0 /usr/libexec/e-addressbook-factory /usr/share/dbus-1/services/org.gnome.evolution.dataserver.AddressBook.service

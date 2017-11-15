@@ -1,0 +1,9 @@
+PV = 0.93
+PR = r0
+PKGR = r0.14
+RPROVIDES = 
+RDEPENDS = libcdio (>= 0.93) libiso9660 (>= 0.93) libudf (>= 0.93) musl (>= 1.1.18+git0+eb03bde2f2) ncurses-libncurses (>= 6.0+20170715) ncurses-libtinfo (>= 6.0+20170715)
+RRECOMMENDS = 
+PKGSIZE = 248044
+FILES = /usr/bin/*
+FILELIST = /usr/bin/cd-drive /usr/bin/cd-info /usr/bin/cd-read /usr/bin/cdda-player /usr/bin/iso-info /usr/bin/iso-read /usr/bin/mmc-tool

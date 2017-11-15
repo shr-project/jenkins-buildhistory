@@ -1,0 +1,9 @@
+PV = 1.9.4
+PR = r0
+PKGR = r0.13
+RPROVIDES = 
+RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2) update-alternatives-opkg
+RRECOMMENDS = 
+PKGSIZE = 67304
+FILES = /usr/bin/rsh.inetutils /usr/bin/rlogin.inetutils /usr/bin/rexec.inetutils /usr/bin/rcp.inetutils
+FILELIST = /usr/bin/rexec.inetutils

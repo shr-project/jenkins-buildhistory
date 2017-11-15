@@ -1,0 +1,10 @@
+PV = 4.6.7
+PR = r0
+PKG = libsamba-hostconfig0
+PKGR = r0.15
+RPROVIDES = libsamba-hostconfig (=4.6.7)
+RDEPENDS = libsamba-debug-samba4 (>= 4.6.7) libsamba-util (>= 4.6.7) libserver-role-samba4 (>= 4.6.7) libtalloc (>= 2.1.9) musl (>= 1.1.18+git0+eb03bde2f2) samba-common
+RRECOMMENDS = 
+PKGSIZE = 157572
+FILES = /usr/lib/libsamba-hostconfig.so.0 /usr/lib/libsamba-hostconfig.so.0.0.1
+FILELIST = /usr/lib/libsamba-hostconfig.so.0 /usr/lib/libsamba-hostconfig.so.0.0.1

@@ -1,0 +1,1 @@
+#!/bin/sh\n# Begin section update-alternatives\nupdate-alternatives --install /usr/bin/x-window-manager x-window-manager /usr/bin/openbox 10\n# End section update-alternatives\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n

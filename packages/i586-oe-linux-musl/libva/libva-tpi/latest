@@ -1,0 +1,10 @@
+PV = 1.8.3
+PR = r0
+PKG = libva-tpi1
+PKGR = r0.14
+RPROVIDES = libva-tpi (=1.8.3)
+RDEPENDS = libva (>= 1.8.3) musl (>= 1.1.18+git0+eb03bde2f2)
+RRECOMMENDS = 
+PKGSIZE = 5365
+FILES = /usr/lib/libva-tpi*.so.*
+FILELIST = /usr/lib/libva-tpi.so.1 /usr/lib/libva-tpi.so.1.4000.0

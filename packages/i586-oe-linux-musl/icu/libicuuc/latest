@@ -1,0 +1,10 @@
+PV = 59.1
+PR = r0
+PKG = libicuuc59
+PKGR = r0.14
+RPROVIDES = libicuuc (=59.1)
+RDEPENDS = libgcc (>= 7.2.0) libicudata (>= 59.1) libstdc++ (>= 7.2.0) musl (>= 1.1.18+git0+eb03bde2f2)
+RRECOMMENDS = 
+PKGSIZE = 1787528
+FILES = /usr/lib/libicuuc.so.*
+FILELIST = /usr/lib/libicuuc.so.59 /usr/lib/libicuuc.so.59.1

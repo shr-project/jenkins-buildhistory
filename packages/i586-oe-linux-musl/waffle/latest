@@ -1,0 +1,5 @@
+PV = 1.5.2
+PR = r0
+DEPENDS = cmake-native libx11 virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc virtual/libgl
+PACKAGES = waffle-dbg waffle-staticdev waffle-dev waffle-doc waffle-locale waffle-bin waffle
+LAYER = core

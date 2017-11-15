@@ -1,0 +1,10 @@
+PV = 2.32.1
+PR = r0
+PKG = libbonobo-2-locale-eo
+PKGR = r0.16
+RPROVIDES = eo-translation libbonobo-locale libbonobo-locale-eo (=2.32.1)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-eo
+PKGSIZE = 10025
+FILES = /usr/share/locale/eo
+FILELIST = /usr/share/locale/eo/LC_MESSAGES/libbonobo-2.0.mo

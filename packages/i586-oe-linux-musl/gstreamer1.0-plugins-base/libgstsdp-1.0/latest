@@ -1,0 +1,10 @@
+PV = 1.12.3
+PR = r0
+PKG = libgstsdp-1.0-0
+PKGR = r0.2
+RPROVIDES = libgstsdp-1.0 (=1.12.3)
+RDEPENDS = glib-2.0 (>= 2.52.3) gstreamer1.0 (>= 1.12.3) libgstrtp-1.0 (>= 1.12.3) musl (>= 1.1.18+git0+eb03bde2f2)
+RRECOMMENDS = 
+PKGSIZE = 103725
+FILES = /usr/lib/libgstsdp-1.0.so /usr/lib/libgstsdp-1.0.so.0 /usr/lib/libgstsdp-1.0.so.0.1203.0
+FILELIST = /usr/lib/libgstsdp-1.0.so.0 /usr/lib/libgstsdp-1.0.so.0.1203.0
