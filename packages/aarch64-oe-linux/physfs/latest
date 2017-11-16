@@ -1,0 +1,6 @@
+PE = 1
+PV = 2.0.3
+PR = r0
+DEPENDS = cmake-native readline virtual/aarch64-oe-linux-compilerlibs virtual/aarch64-oe-linux-gcc virtual/libc zlib
+PACKAGES = physfs-dbg physfs-staticdev physfs-dev physfs-doc physfs-locale physfs
+LAYER = filesystems-layer

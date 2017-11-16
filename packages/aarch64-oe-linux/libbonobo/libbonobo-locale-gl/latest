@@ -1,0 +1,10 @@
+PV = 2.32.1
+PR = r0
+PKG = libbonobo-2-locale-gl
+PKGR = r0.4
+RPROVIDES = gl-translation libbonobo-locale libbonobo-locale-gl (=2.32.1)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-gl
+PKGSIZE = 10700
+FILES = /usr/share/locale/gl
+FILELIST = /usr/share/locale/gl/LC_MESSAGES/libbonobo-2.0.mo

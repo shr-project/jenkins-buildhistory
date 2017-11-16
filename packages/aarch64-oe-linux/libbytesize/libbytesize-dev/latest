@@ -1,0 +1,10 @@
+PV = 0.10+gitAUTOINC+369127c0ed
+PR = r0
+PKGV = 0.10+git0+369127c0ed
+PKGR = r0.3
+RPROVIDES = 
+RDEPENDS = libbytesize (= 0.10+git0+369127c0ed-r0.3)
+RRECOMMENDS = glibc-dev gmp-dev libpcre-dev mpfr-dev python3-dev
+PKGSIZE = 4422
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libbytesize/*.la /lib/*.la
+FILELIST = /usr/include/bytesize/bs_size.h /usr/lib/libbytesize.so /usr/lib/pkgconfig/bytesize.pc

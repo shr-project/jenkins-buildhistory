@@ -1,0 +1,5 @@
+PV = 1.35
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/aarch64-oe-linux-compilerlibs virtual/aarch64-oe-linux-gcc virtual/libc
+PACKAGES = python-ujson-dbg python-ujson-staticdev python-ujson-dev python-ujson-doc python-ujson-locale python-ujson
+LAYER = meta-python

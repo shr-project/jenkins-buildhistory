@@ -1,0 +1,10 @@
+PV = 0.57.0
+PR = r0
+PKG = libpoppler68
+PKGR = r0.4
+RPROVIDES = libpoppler (=0.57.0)
+RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.8.1) glibc (>= 2.26) lcms (>= 2.7) libgcc (>= 7.2.0) libjpeg-turbo (>= 1.5.2) libpng (>= 1.6.32) libstdc++ (>= 7.2.0) nspr (>= 4.17) nss (>= 3.33) openjpeg (>= 2.2.0) poppler-data tiff (>= 4.0.8) zlib (>= 1.2.11)
+RRECOMMENDS = 
+PKGSIZE = 2513396
+FILES = /usr/lib/libpoppler.so.*
+FILELIST = /usr/lib/libpoppler.so.68 /usr/lib/libpoppler.so.68.0.0

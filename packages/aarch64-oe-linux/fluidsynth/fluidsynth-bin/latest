@@ -1,0 +1,10 @@
+PV = 1.1.8
+PR = r0
+PKG = libfluidsynth-bin
+PKGR = r0.4
+RPROVIDES = fluidsynth-bin (=1.1.8)
+RDEPENDS = fluidsynth (>= 1.1.8) glibc (>= 2.26)
+RRECOMMENDS = 
+PKGSIZE = 68640
+FILES = /usr/bin/* /usr/sbin/*
+FILELIST = /usr/bin/fluidsynth
