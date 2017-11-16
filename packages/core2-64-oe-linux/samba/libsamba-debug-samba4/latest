@@ -1,9 +1,9 @@
-PV = 4.6.7
+PV = 4.7.0
 PR = r0
-PKGR = r0.14
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libbsd (>= 0.8.6) libsocket-blocking-samba4 (>= 4.6.7) libsystemd (>= 234) libtalloc (>= 2.1.9) libtime-basic-samba4 (>= 4.6.7) samba-common
+RDEPENDS = glibc (>= 2.26) libbsd (>= 0.8.6) libsocket-blocking-samba4 (>= 4.7.0) libsystemd (>= 234) libtalloc (>= 2.1.10) libtime-basic-samba4 (>= 4.7.0) samba-common
 RRECOMMENDS = 
-PKGSIZE = 22752
+PKGSIZE = 22816
 FILES = /usr/lib/samba/libsamba-debug-samba4.so
 FILELIST = /usr/lib/samba/libsamba-debug-samba4.so

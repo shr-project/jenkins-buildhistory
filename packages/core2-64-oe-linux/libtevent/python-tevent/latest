@@ -1,9 +1,9 @@
-PV = 0.9.31
+PV = 0.9.33
 PR = r0
-PKGR = r0.13
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libtalloc (>= 2.1.9) libtevent (>= 0.9.31) python
+RDEPENDS = glibc (>= 2.26) libtalloc (>= 2.1.10) libtevent (>= 0.9.33) python
 RRECOMMENDS = 
-PKGSIZE = 27482
+PKGSIZE = 27464
 FILES = /usr/lib/python2.7/site-packages/*
 FILELIST = /usr/lib/python2.7/site-packages/_tevent.so /usr/lib/python2.7/site-packages/tevent.py
