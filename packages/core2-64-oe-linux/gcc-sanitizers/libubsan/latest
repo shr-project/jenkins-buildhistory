@@ -1,0 +1,10 @@
+PV = 7.2.0
+PR = r0
+PKG = libubsan0
+PKGR = r0.12
+RPROVIDES = libubsan (=7.2.0)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0)
+RRECOMMENDS = 
+PKGSIZE = 324313
+FILES = /usr/lib/libubsan.so.*
+FILELIST = /usr/lib/libubsan.so.0 /usr/lib/libubsan.so.0.0.0

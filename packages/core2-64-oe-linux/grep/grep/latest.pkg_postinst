@@ -1,0 +1,1 @@
+#!/bin/sh\n# Begin section update-alternatives\nupdate-alternatives --install /bin/grep grep /bin/grep.grep 100\nupdate-alternatives --install /bin/egrep egrep /bin/egrep.grep 100\nupdate-alternatives --install /bin/fgrep fgrep /bin/fgrep.grep 100\n# End section update-alternatives\n

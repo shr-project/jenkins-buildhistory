@@ -1,0 +1,5 @@
+PV = 1.1.0+gitAUTOINC+43fc870ce0
+PR = r0
+DEPENDS = libaio virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = blktrace-dbg blktrace-staticdev blktrace-dev blktrace-doc blktrace-locale blktrace
+LAYER = core

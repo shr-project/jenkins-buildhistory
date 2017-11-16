@@ -1,0 +1,10 @@
+PV = 2.24.5
+PR = r0
+PKG = libgnomeui-2-locale-cy
+PKGR = r0.16
+RPROVIDES = cy-translation libgnomeui-locale libgnomeui-locale-cy (=2.24.5)
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-cy
+PKGSIZE = 23086
+FILES = /usr/share/locale/cy
+FILELIST = /usr/share/locale/cy/LC_MESSAGES/libgnomeui-2.0.mo

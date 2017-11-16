@@ -1,0 +1,5 @@
+PV = 17.5.0
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = python-incremental-dbg python-incremental-staticdev python-incremental-dev python-incremental-doc python-incremental-locale python-incremental
+LAYER = meta-python

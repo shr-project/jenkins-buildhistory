@@ -1,0 +1,10 @@
+PV = 2.24.5
+PR = r0
+PKG = libgnomeui-2-locale-sq
+PKGR = r0.16
+RPROVIDES = libgnomeui-locale libgnomeui-locale-sq (=2.24.5) sq-translation
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-sq
+PKGSIZE = 24173
+FILES = /usr/share/locale/sq
+FILELIST = /usr/share/locale/sq/LC_MESSAGES/libgnomeui-2.0.mo

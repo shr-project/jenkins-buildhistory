@@ -1,0 +1,5 @@
+PV = 3.4.0
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = python-protobuf-dbg python-protobuf-staticdev python-protobuf-dev python-protobuf-doc python-protobuf-locale python-protobuf
+LAYER = meta-python

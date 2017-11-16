@@ -1,0 +1,5 @@
+PV = 1.4.0+gitAUTOINC+2dddd5f440
+PR = r0
+DEPENDS = openssl systemd-systemctl-native util-linux virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = tcf-agent-dbg tcf-agent-staticdev tcf-agent-dev tcf-agent-doc tcf-agent-locale tcf-agent
+LAYER = core

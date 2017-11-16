@@ -1,0 +1,11 @@
+PV = 5.9.2+gitAUTOINC+167566d228
+PR = r0
+PKG = libqt5gamepad-examples-dbg
+PKGV = 5.9.2+git1+167566d228
+PKGR = r0.6
+RPROVIDES = qtgamepad-examples-dbg (=5.9.2+git1+167566d228)
+RDEPENDS = 
+RRECOMMENDS = glibc-dbg libsdl2-dbg libstdc++-dbg libudev-dbg qtbase-dbg qtdeclarative-dbg qtgamepad-dbg
+PKGSIZE = 0
+FILES = /usr/share/qt5/examples/.debug /usr/share/qt5/examples/*/.debug /usr/share/qt5/examples/*/*/.debug /usr/share/qt5/examples/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/*/*/*/.debug
+FILELIST = 

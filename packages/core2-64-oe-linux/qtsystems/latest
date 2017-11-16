@@ -1,0 +1,5 @@
+PV = 5.9.2+gitAUTOINC+9c204e05ae
+PR = r0
+DEPENDS = bluez5 gconf qtbase qtbase-native qtdeclarative udev virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = qtsystems-qmlplugins-dbg qtsystems-tools-dbg qtsystems-plugins-dbg qtsystems-qmldesigner qtsystems-qmlplugins qtsystems-tools qtsystems-plugins qtsystems-mkspecs qtsystems-examples-dev qtsystems-examples-staticdev qtsystems-examples-dbg qtsystems-examples qtsystems-dbg qtsystems-staticdev qtsystems-dev qtsystems-doc qtsystems-locale qtsystems
+LAYER = qt5-layer
