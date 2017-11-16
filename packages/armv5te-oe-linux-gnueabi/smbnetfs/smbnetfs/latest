@@ -1,9 +1,9 @@
 PV = git
 PR = r0
 PKGV = 0.6.0-2-g21c63ed
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = fuse (>= 2.9.7) glib-2.0 (>= 2.52.3) glibc (>= 2.26) libsmbclient (>= 4.6.7)
+RDEPENDS = fuse (>= 2.9.7) glib-2.0 (>= 2.52.3) glibc (>= 2.26) libsmbclient (>= 4.7.0)
 RRECOMMENDS = 
 PKGSIZE = 90684
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/smbnetfs /usr/lib/smbnetfs/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
