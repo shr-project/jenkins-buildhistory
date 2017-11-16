@@ -1,8 +1,8 @@
 PV = 2.5.6
 PR = r0
-PKGR = r0.14
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = bash libtalloc (>= 2.1.9) libtevent (>= 0.9.31) libtirpc (>= 1.0.2) musl (>= 1.1.18+git0+eb03bde2f2) popt (>= 1.16) procps
+RDEPENDS = bash libtalloc (>= 2.1.10) libtevent (>= 0.9.33) libtirpc (>= 1.0.2) musl (>= 1.1.18+git0+eb03bde2f2) popt (>= 1.16) procps
 RRECOMMENDS = 
 PKGSIZE = 1619843
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ctdb /usr/lib/ctdb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/ctdb.service
