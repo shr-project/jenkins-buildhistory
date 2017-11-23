@@ -2,9 +2,9 @@ PV = 3.2.3+gitAUTOINC+a9e4e74ec4
 PR = r0
 PKG = libedataserverui-3.0-1
 PKGV = 3.2.3+git0+a9e4e74ec4
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = libedataserverui (=3.2.3+git0+a9e4e74ec4)
-RDEPENDS = atk (>= 2.26.0) cairo (>= 1.14.10) cairo-gobject (>= 1.14.10) gconf (>= 3.2.6) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.52.3) gtk+3 (>= 3.22.24) libcamel (>= 3.2.3+git0+a9e4e74ec4) libebook (>= 3.2.3+git0+a9e4e74ec4) libecal (>= 3.2.3+git0+a9e4e74ec4) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libgnome-keyring (>= 2.32.0) libical (>= 2.0.0) libicui18n (>= 59.1) libicuuc (>= 59.1) libsoup-2.4 (>= 2.60.1) libsqlite3 (>= 3.20.0) libxml2 (>= 2.9.7) musl (>= 1.1.18+git0+eb03bde2f2) nspr (>= 4.17) nss (>= 3.33) pango (>= 1.40.12) zlib (>= 1.2.11)
+RDEPENDS = atk (>= 2.26.0) cairo (>= 1.14.10) cairo-gobject (>= 1.14.10) gconf (>= 3.2.6) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.52.3) gtk+3 (>= 3.22.24) libcamel (>= 3.2.3+git0+a9e4e74ec4) libebook (>= 3.2.3+git0+a9e4e74ec4) libecal (>= 3.2.3+git0+a9e4e74ec4) libedataserver (>= 3.2.3+git0+a9e4e74ec4) libgnome-keyring (>= 2.32.0) libical (>= 2.0.0) libicui18n (>= 59.1) libicuuc (>= 59.1) libsoup-2.4 (>= 2.60.1) libsqlite3 (>= 3.21.0) libxml2 (>= 2.9.7) musl (>= 1.1.18+git0+eb03bde2f2) nspr (>= 4.17) nss (>= 3.33) pango (>= 1.40.12) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 308537
 FILES = /usr/lib/libedataserverui-*.so.* /usr/share/evolution-data-server-1.4/glade/*.glade

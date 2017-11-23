@@ -1,9 +1,9 @@
-PV = 1.43.5
+PV = 1.43.7
 PR = r0
-PKGR = r0.15
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libcomerr (>= 1.43.5) libe2p (>= 1.43.5) libext2fs (>= 1.43.5) musl (>= 1.1.18+git0+eb03bde2f2) util-linux-libblkid (>= 2.31) util-linux-libuuid (>= 2.31)
+RDEPENDS = libcomerr (>= 1.43.7) libe2p (>= 1.43.7) libext2fs (>= 1.43.7) musl (>= 1.1.18+git0+eb03bde2f2) util-linux-libblkid (>= 2.31) util-linux-libuuid (>= 2.31)
 RRECOMMENDS = 
-PKGSIZE = 137813
+PKGSIZE = 137652
 FILES = /sbin/mke2fs /sbin/mkfs.ext* /etc/mke2fs.conf
 FILELIST = /etc/mke2fs.conf /sbin/mke2fs /sbin/mkfs.ext2 /sbin/mkfs.ext3 /sbin/mkfs.ext4

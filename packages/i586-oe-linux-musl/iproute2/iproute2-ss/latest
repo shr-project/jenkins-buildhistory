@@ -1,9 +1,9 @@
-PV = 4.11.0
+PV = 4.13.0
 PR = r0
-PKGR = r0.14
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = libmnl (>= 1.0.4) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
-PKGSIZE = 127468
+PKGSIZE = 131672
 FILES = /sbin/ss
 FILELIST = /sbin/ss

@@ -1,0 +1,10 @@
+drwxr-xr-x root       root               40 ./etc
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
+-rw-r--r-- root       root              498 ./lib/systemd/system/watchdog.service
+-rw-r--r-- root       root              593 ./lib/systemd/system/wd_keepalive.service
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/sbin
+-rwxr-xr-x root       root            96456 ./usr/sbin/watchdog
+-rwxr-xr-x root       root            17924 ./usr/sbin/wd_identify

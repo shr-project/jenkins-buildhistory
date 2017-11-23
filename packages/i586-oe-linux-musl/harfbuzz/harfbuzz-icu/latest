@@ -1,10 +1,10 @@
-PV = 1.4.8
+PV = 1.6.3
 PR = r0
 PKG = libharfbuzz-icu0
-PKGR = r0.16
-RPROVIDES = harfbuzz-icu (=1.4.8)
-RDEPENDS = freetype (>= 2.8.1) glib-2.0 (>= 2.52.3) harfbuzz (>= 1.4.8) libgcc (>= 7.2.0) libicudata (>= 59.1) libicuuc (>= 59.1) libstdc++ (>= 7.2.0) musl (>= 1.1.18+git0+eb03bde2f2)
+PKGR = r0.0
+RPROVIDES = harfbuzz-icu (=1.6.3)
+RDEPENDS = freetype (>= 2.8.1) glib-2.0 (>= 2.52.3) harfbuzz (>= 1.6.3) libgcc (>= 7.2.0) libicudata (>= 59.1) libicuuc (>= 59.1) libstdc++ (>= 7.2.0) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 9748
 FILES = /usr/lib/libharfbuzz-icu.so.*
-FILELIST = /usr/lib/libharfbuzz-icu.so.0 /usr/lib/libharfbuzz-icu.so.0.10400.8
+FILELIST = /usr/lib/libharfbuzz-icu.so.0 /usr/lib/libharfbuzz-icu.so.0.10600.3
