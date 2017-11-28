@@ -1,9 +1,9 @@
 PV = 3.3.6
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = 
+RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 2936721
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/fftw /usr/lib/fftw/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = 
+FILELIST = /usr/bin/fftw-wisdom /usr/bin/fftw-wisdom-to-conf /usr/bin/fftwf-wisdom /usr/bin/fftwl-wisdom /usr/lib/libfftw3.so.3 /usr/lib/libfftw3.so.3.5.6 /usr/lib/libfftw3_threads.so.3 /usr/lib/libfftw3_threads.so.3.5.6 /usr/lib/libfftw3f.so.3 /usr/lib/libfftw3f.so.3.5.6 /usr/lib/libfftw3f_threads.so.3 /usr/lib/libfftw3f_threads.so.3.5.6 /usr/lib/libfftw3l.so.3 /usr/lib/libfftw3l.so.3.5.6 /usr/lib/libfftw3l_threads.so.3 /usr/lib/libfftw3l_threads.so.3.5.6
