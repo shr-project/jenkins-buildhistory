@@ -1,8 +1,8 @@
 PV = 1.12.3
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.52.3) gstreamer1.0 (>= 1.12.3) libgstaudio-1.0 (>= 1.12.3) libgstriff-1.0 (>= 1.12.3) musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = glib-2.0 (>= 2.54.2) gstreamer1.0 (>= 1.12.3) libgstaudio-1.0 (>= 1.12.3) libgstriff-1.0 (>= 1.12.3) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 30280
 FILES = /usr/lib/gstreamer-1.0/libgstwavenc.so

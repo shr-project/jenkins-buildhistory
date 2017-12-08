@@ -1,9 +1,9 @@
-PV = 1.6.3
+PV = 1.7.0
 PR = r0
 PKG = libharfbuzz-bin
 PKGR = r0.0
-RPROVIDES = harfbuzz-bin (=1.6.3)
-RDEPENDS = cairo (>= 1.14.10) freetype (>= 2.8.1) glib-2.0 (>= 2.52.3) harfbuzz (>= 1.6.3) musl (>= 1.1.18+git0+eb03bde2f2)
+RPROVIDES = harfbuzz-bin (=1.7.0)
+RDEPENDS = cairo (>= 1.14.10) freetype (>= 2.8.1) glib-2.0 (>= 2.54.2) harfbuzz (>= 1.7.0) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 131232
 FILES = /usr/bin/* /usr/sbin/*

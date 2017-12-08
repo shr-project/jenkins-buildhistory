@@ -1,9 +1,9 @@
-PV = 3.3.6
+PV = 3.3.7
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = 
+RDEPENDS = libfftwl (>= 3.3.7) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 40028
 FILES = /usr/bin/fftwl-wisdom
-FILELIST = 
+FILELIST = /usr/bin/fftwl-wisdom

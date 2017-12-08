@@ -1,8 +1,8 @@
 PV = 0.6
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = dbus-glib (>= 0.108) dbus-lib (>= 1.10.20) glib-2.0 (>= 2.52.3) musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = dbus-glib (>= 0.108) dbus-lib (>= 1.10.20) glib-2.0 (>= 2.54.2) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = 
 PKGSIZE = 586569
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/eggdbus /usr/lib/eggdbus/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
