@@ -1,9 +1,9 @@
 PV = 232
 PR = r0
 PKG = libgudev-1.0-0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = libgudev (=232)
-RDEPENDS = glib-2.0 (>= 2.52.3) glibc (>= 2.26) libudev (>= 234)
+RDEPENDS = glib-2.0 (>= 2.54.2) glibc (>= 2.26) libudev (>= 234)
 RRECOMMENDS = 
 RCONFLICTS = systemd (<= 220)
 PKGSIZE = 37793

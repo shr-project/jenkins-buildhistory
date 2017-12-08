@@ -1,8 +1,8 @@
 PV = 2.1.8
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = 
-RDEPENDS = acl glib-2.0 (>= 2.52.3) glibc (>= 2.26) libacl (>= 2.2.52) libatasmart (>= 0.19) libgudev (>= 232) libsystemd (>= 234) polkit (>= 0.113) udisks2-libs (>= 2.1.8)
+RDEPENDS = acl glib-2.0 (>= 2.54.2) glibc (>= 2.26) libacl (>= 2.2.52) libatasmart (>= 0.19) libgudev (>= 232) libsystemd (>= 234) polkit (>= 0.113) udisks2-libs (>= 2.1.8)
 RRECOMMENDS = 
 PKGSIZE = 688833
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/udisks2 /usr/lib/udisks2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/polkit-1/extensions/*.so /usr/share/dbus-1/ /usr/share/polkit-1 /lib/udev/* /usr/lib/udisks2/* /usr/share/bash-completion /usr/lib/girepository-*/*.typelib /lib/systemd/system/udisks2.service

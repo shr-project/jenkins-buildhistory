@@ -1,8 +1,8 @@
 PV = 3.5.1
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) python-datetime python-netclient python-numbers python-threading
+RDEPENDS = glibc (>= 2.26) python-datetime python-json python-netclient python-numbers python-threading
 RRECOMMENDS = 
 PKGSIZE = 315862
 FILES = /usr/lib/python2.7/site-packages/bson/*

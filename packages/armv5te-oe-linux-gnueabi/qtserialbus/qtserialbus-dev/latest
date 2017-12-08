@@ -2,9 +2,9 @@ PV = 5.9.2+gitAUTOINC+ce5a3ced5e
 PR = r0
 PKG = libqt5serialbus-dev
 PKGV = 5.9.2+git1+ce5a3ced5e
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = qtserialbus-dev (=5.9.2+git1+ce5a3ced5e)
-RDEPENDS = qtserialbus (= 5.9.2+git1+ce5a3ced5e-r0.6)
+RDEPENDS = qtserialbus (= 5.9.2+git1+ce5a3ced5e-r0.7)
 RRECOMMENDS = glibc-dev libgcc-dev libstdc++-dev qtbase-dev qtserialbus qtserialbus-mkspecs qtserialbus-qmldesigner qtserialport-dev
 PKGSIZE = 163954
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtserialbus/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*
