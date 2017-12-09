@@ -1,1 +1,1 @@
-#!/bin/sh\n# Begin section update-alternatives\nupdate-alternatives --remove  vi /usr/bin/vim.vim\nupdate-alternatives --remove  vim /usr/bin/vim.vim\n# End section update-alternatives\n
+#!/bin/sh\n\tupdate-alternatives --remove  vi /usr/bin/vim.vim\n\tupdate-alternatives --remove  vim /usr/bin/vim.vim\n

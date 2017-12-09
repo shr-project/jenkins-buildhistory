@@ -3,7 +3,7 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/nettle
 drwxr-xr-x root       root               80 ./usr/lib/nettle/ptest
 -rwxr-xr-x root       root              593 ./usr/lib/nettle/ptest/run-ptest
-drwxr-xr-x root       root             1860 ./usr/lib/nettle/ptest/testsuite
+drwxr-xr-x root       root             1960 ./usr/lib/nettle/ptest/testsuite
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/aes-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/arcfour-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/arctwo-test
@@ -16,6 +16,7 @@ drwxr-xr-x root       root             1860 ./usr/lib/nettle/ptest/testsuite
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/cast128-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/cbc-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/ccm-test
+-rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/cfb-test
 -rwxr-xr-x root       root            67912 ./usr/lib/nettle/ptest/testsuite/chacha-poly1305-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/chacha-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/ctr-test
@@ -47,6 +48,7 @@ drwxr-xr-x root       root             1860 ./usr/lib/nettle/ptest/testsuite
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/gcm-test
 -rwxr-xr-x root       root            76495 ./usr/lib/nettle/ptest/testsuite/gold-bug.txt
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/gosthash94-test
+-rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/hkdf-test
 -rwxr-xr-x root       root           133440 ./usr/lib/nettle/ptest/testsuite/hmac-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/knuth-lfib-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/md2-test
@@ -64,11 +66,14 @@ drwxr-xr-x root       root             1860 ./usr/lib/nettle/ptest/testsuite
 -rwxr-xr-x root       root             2045 ./usr/lib/nettle/ptest/testsuite/pkcs1-conv-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/pkcs1-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/poly1305-test
+-rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/pss-mgf1-test
+-rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/pss-test
 -rwxr-xr-x root       root            67912 ./usr/lib/nettle/ptest/testsuite/random-prime-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/ripemd160-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/rsa2sexp-test
 -rwxr-xr-x root       root            67912 ./usr/lib/nettle/ptest/testsuite/rsa-encrypt-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/rsa-keygen-test
+-rwxr-xr-x root       root            67912 ./usr/lib/nettle/ptest/testsuite/rsa-pss-sign-tr-test
 -rwxr-xr-x root       root            67912 ./usr/lib/nettle/ptest/testsuite/rsa-sign-tr-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/rsa-test
 -rwxr-xr-x root       root            67904 ./usr/lib/nettle/ptest/testsuite/salsa20-test

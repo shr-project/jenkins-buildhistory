@@ -1,9 +1,9 @@
 PV = 0.10.3
 PR = r4
 PKG = libgstgl-0.10-1
-PKGR = r4.5
+PKGR = r4.6
 RPROVIDES = libgstgl-0.10 (=0.10.3)
-RDEPENDS = glib-2.0 (>= 2.52.3) glibc (>= 2.26) gstreamer (>= 0.10.36) libegl-mesa (>= 17.2.5) libgles2-mesa (>= 17.2.5) libgstvideo-0.10 (>= 0.10.36) libice (>= 1.0.9) libsm (>= 1.2.2) libx11 (>= 1.6.5) libxml2 (>= 2.9.7)
+RDEPENDS = glib-2.0 (>= 2.54.2) glibc (>= 2.26) gstreamer (>= 0.10.36) libegl-mesa (>= 17.2.5) libgles2-mesa (>= 17.2.5) libgstvideo-0.10 (>= 0.10.36) libice (>= 1.0.9) libsm (>= 1.2.2) libx11 (>= 1.6.5) libxml2 (>= 2.9.7)
 RRECOMMENDS = 
 PKGSIZE = 133998
 FILES = /usr/lib/libgstgl-0.10.so /usr/lib/libgstgl-0.10.so.1 /usr/lib/libgstgl-0.10.so.1.0.0
