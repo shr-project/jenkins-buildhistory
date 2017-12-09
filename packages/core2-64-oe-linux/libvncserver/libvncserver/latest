@@ -1,8 +1,8 @@
 PV = 0.9.11
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) gnutls (>= 3.5.16) gtk+ libcrypto (>= 1.0.2l) libgcrypt (>= 1.8.1) libjpeg-turbo (>= 1.5.2) libpng (>= 1.6.32) libssl (>= 1.0.2l) libsystemd (>= 234) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.26) gnutls (>= 3.6.1) gtk+ libcrypto (>= 1.0.2m) libgcrypt (>= 1.8.1) libjpeg-turbo (>= 1.5.2) libpng (>= 1.6.32) libssl (>= 1.0.2m) libsystemd (>= 234) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 443890
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libvncserver /usr/lib/libvncserver/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

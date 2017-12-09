@@ -1,8 +1,8 @@
 PV = 2.0.0b1
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = python-core python-sqlite3
+RDEPENDS = python-argparse python-ctypes python-importlib python-logging python-misc python-netserver python-sqlite3 python-subprocess python-zlib
 RRECOMMENDS = 
 PKGSIZE = 571586
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/python-can /usr/lib/python-can/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*

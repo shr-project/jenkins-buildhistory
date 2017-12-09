@@ -1,9 +1,9 @@
-PV = 3.3.6
+PV = 3.3.7
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = 
+RDEPENDS = glibc (>= 2.26) libfftw (>= 3.3.7)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 41064
 FILES = /usr/bin/fftw-wisdom
-FILELIST = 
+FILELIST = /usr/bin/fftw-wisdom
