@@ -1,7 +1,7 @@
 PV = 1.0.2m
 PR = r0
 PKG = libcrypto1.0.2
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = libcrypto (=1.0.2m)
 RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = openssl-conf

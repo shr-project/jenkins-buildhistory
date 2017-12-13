@@ -1,8 +1,8 @@
 PV = 7.2.0
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = gcc (= 7.2.0-r0.1) musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = gcc (= 7.2.0-r0.2) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = cpp-dev g++-dev gcov-dev gmp-dev libgcc-dev libmpc-dev libstdc++-dev mpfr-dev musl-dev zlib-dev
 PKGSIZE = 190557
 FILES = /usr/lib/gcc/i586-oe-linux-musl/7.2.0/lib*.so /usr/libexec/gcc/i586-oe-linux-musl/7.2.0/lib*.so /usr/lib/gcc/i586-oe-linux-musl/7.2.0/plugin/include/ /usr/libexec/gcc/i586-oe-linux-musl/7.2.0/plugin/gengtype /usr/lib/gcc/i586-oe-linux-musl/7.2.0/plugin/gtype.state

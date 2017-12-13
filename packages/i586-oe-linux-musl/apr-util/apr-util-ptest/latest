@@ -1,7 +1,7 @@
 PV = 1.6.0
 PR = r1
 PKG = libaprutil-1-ptest
-PKGR = r1.1
+PKGR = r1.2
 RPROVIDES = apr-util-ptest (=1.6.0)
 RDEPENDS = apr (>= 1.6.2) apr-util (>= 1.6.0) musl (>= 1.1.18+git0+eb03bde2f2)
 RRECOMMENDS = ptest-runner
