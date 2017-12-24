@@ -1,0 +1,11 @@
+PV = 3.4.1+gitAUTOINC+b04e5cba35
+PR = r0
+PKG = libprotobuf-ptest
+PKGV = 3.4.1+git0+b04e5cba35
+PKGR = r0.3
+RPROVIDES = protobuf-ptest (=3.4.1+git0+b04e5cba35)
+RDEPENDS = bash libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) musl (>= 1.1.18+git0+eb03bde2f2) protobuf (>= 3.4.1+git0+b04e5cba35) python-protobuf
+RRECOMMENDS = ptest-runner
+PKGSIZE = 132830
+FILES = /usr/lib/protobuf/ptest
+FILELIST = /usr/lib/protobuf/ptest/add_person.py /usr/lib/protobuf/ptest/add_person_cpp /usr/lib/protobuf/ptest/add_person_python /usr/lib/protobuf/ptest/addressbook_pb2.py /usr/lib/protobuf/ptest/list_people.py /usr/lib/protobuf/ptest/list_people_cpp /usr/lib/protobuf/ptest/list_people_python /usr/lib/protobuf/ptest/run-ptest

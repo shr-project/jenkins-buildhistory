@@ -19,9 +19,9 @@ drwxr-xr-x root       root               60 ./usr/libexec/pulse/.debug
 drwxr-xr-x root       root               60 ./usr/lib/pulse-11.1
 drwxr-xr-x root       root               60 ./usr/lib/pulse-11.1/modules
 drwxr-xr-x root       root             1840 ./usr/lib/pulse-11.1/modules/.debug
--rwxr-xr-x root       root           498404 ./usr/lib/pulse-11.1/modules/.debug/libalsa-util.so
+-rwxr-xr-x root       root           498364 ./usr/lib/pulse-11.1/modules/.debug/libalsa-util.so
 -rwxr-xr-x root       root            13364 ./usr/lib/pulse-11.1/modules/.debug/libavahi-wrap.so
--rwxr-xr-x root       root           142496 ./usr/lib/pulse-11.1/modules/.debug/libbluez5-util.so
+-rwxr-xr-x root       root           142516 ./usr/lib/pulse-11.1/modules/.debug/libbluez5-util.so
 -rwxr-xr-x root       root            34576 ./usr/lib/pulse-11.1/modules/.debug/libcli.so
 -rwxr-xr-x root       root            16992 ./usr/lib/pulse-11.1/modules/.debug/liboss-util.so
 -rwxr-xr-x root       root            35308 ./usr/lib/pulse-11.1/modules/.debug/libprotocol-cli.so
@@ -47,7 +47,7 @@ drwxr-xr-x root       root             1840 ./usr/lib/pulse-11.1/modules/.debug
 -rwxr-xr-x root       root            97580 ./usr/lib/pulse-11.1/modules/.debug/module-combine-sink.so
 -rwxr-xr-x root       root            31424 ./usr/lib/pulse-11.1/modules/.debug/module-combine.so
 -rwxr-xr-x root       root            43988 ./usr/lib/pulse-11.1/modules/.debug/module-console-kit.so
--rwxr-xr-x root       root           402072 ./usr/lib/pulse-11.1/modules/.debug/module-dbus-protocol.so
+-rwxr-xr-x root       root           402108 ./usr/lib/pulse-11.1/modules/.debug/module-dbus-protocol.so
 -rwxr-xr-x root       root            37108 ./usr/lib/pulse-11.1/modules/.debug/module-default-device-restore.so
 -rwxr-xr-x root       root            38084 ./usr/lib/pulse-11.1/modules/.debug/module-detect.so
 -rwxr-xr-x root       root            84612 ./usr/lib/pulse-11.1/modules/.debug/module-device-manager.so
@@ -64,7 +64,7 @@ drwxr-xr-x root       root             1840 ./usr/lib/pulse-11.1/modules/.debug
 -rwxr-xr-x root       root            38688 ./usr/lib/pulse-11.1/modules/.debug/module-http-protocol-tcp.so
 -rwxr-xr-x root       root            38276 ./usr/lib/pulse-11.1/modules/.debug/module-http-protocol-unix.so
 -rwxr-xr-x root       root            44432 ./usr/lib/pulse-11.1/modules/.debug/module-intended-roles.so
--rwxr-xr-x root       root            88216 ./usr/lib/pulse-11.1/modules/.debug/module-ladspa-sink.so
+-rwxr-xr-x root       root            88224 ./usr/lib/pulse-11.1/modules/.debug/module-ladspa-sink.so
 -rwxr-xr-x root       root            99264 ./usr/lib/pulse-11.1/modules/.debug/module-loopback.so
 -rwxr-xr-x root       root            42736 ./usr/lib/pulse-11.1/modules/.debug/module-match.so
 -rwxr-xr-x root       root            39680 ./usr/lib/pulse-11.1/modules/.debug/module-mmkbd-evdev.so
@@ -89,7 +89,7 @@ drwxr-xr-x root       root             1840 ./usr/lib/pulse-11.1/modules/.debug
 -rwxr-xr-x root       root            37676 ./usr/lib/pulse-11.1/modules/.debug/module-simple-protocol-unix.so
 -rwxr-xr-x root       root            43232 ./usr/lib/pulse-11.1/modules/.debug/module-sine.so
 -rwxr-xr-x root       root            54548 ./usr/lib/pulse-11.1/modules/.debug/module-sine-source.so
--rwxr-xr-x root       root           104568 ./usr/lib/pulse-11.1/modules/.debug/module-stream-restore.so
+-rwxr-xr-x root       root           104584 ./usr/lib/pulse-11.1/modules/.debug/module-stream-restore.so
 -rwxr-xr-x root       root            65568 ./usr/lib/pulse-11.1/modules/.debug/module-suspend-on-idle.so
 -rwxr-xr-x root       root            38872 ./usr/lib/pulse-11.1/modules/.debug/module-switch-on-connect.so
 -rwxr-xr-x root       root            49552 ./usr/lib/pulse-11.1/modules/.debug/module-switch-on-port-available.so
@@ -108,11 +108,11 @@ drwxr-xr-x root       root             1840 ./usr/lib/pulse-11.1/modules/.debug
 -rwxr-xr-x root       root            43008 ./usr/lib/pulse-11.1/modules/.debug/module-x11-publish.so
 -rwxr-xr-x root       root            41356 ./usr/lib/pulse-11.1/modules/.debug/module-x11-xsmp.so
 -rwxr-xr-x root       root            48900 ./usr/lib/pulse-11.1/modules/.debug/module-zeroconf-discover.so
--rwxr-xr-x root       root            67168 ./usr/lib/pulse-11.1/modules/.debug/module-zeroconf-publish.so
+-rwxr-xr-x root       root            67176 ./usr/lib/pulse-11.1/modules/.debug/module-zeroconf-publish.so
 drwxr-xr-x root       root               60 ./usr/lib/pulseaudio
 drwxr-xr-x root       root              100 ./usr/lib/pulseaudio/.debug
--rwxr-xr-x root       root           769180 ./usr/lib/pulseaudio/.debug/libpulsecommon-11.1.so
--rwxr-xr-x root       root          1233980 ./usr/lib/pulseaudio/.debug/libpulsecore-11.1.so
+-rwxr-xr-x root       root           769148 ./usr/lib/pulseaudio/.debug/libpulsecommon-11.1.so
+-rwxr-xr-x root       root          1233944 ./usr/lib/pulseaudio/.debug/libpulsecore-11.1.so
 -rwxr-xr-x root       root            64348 ./usr/lib/pulseaudio/.debug/libpulsedsp.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug

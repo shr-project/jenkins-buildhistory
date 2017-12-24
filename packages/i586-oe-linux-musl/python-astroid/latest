@@ -1,5 +1,5 @@
-PV = 1.5.3
+PV = 1.6.0
 PR = r0
 DEPENDS = python python-distribute-native python-native python-native virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
-PACKAGES = python-astroid-dbg python-astroid-staticdev python-astroid-dev python-astroid-doc python-astroid-locale python-astroid
+PACKAGES = python-astroid-tests python-astroid-dbg python-astroid-staticdev python-astroid-dev python-astroid-doc python-astroid-locale python-astroid
 LAYER = meta-python
