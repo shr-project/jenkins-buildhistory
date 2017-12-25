@@ -1,9 +1,9 @@
-PV = 5.9.2+gitAUTOINC+9c204e05ae
+PV = 5.10.0+gitAUTOINC+ca54870ffd
 PR = r0
-PKGV = 5.9.2+git0+9c204e05ae
-PKGR = r0.8
+PKGV = 5.10.0+git0+ca54870ffd
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.2.0) qtbase (>= 5.9.2+git0+ec16ba393b) qtsystems (>= 5.9.2+git0+9c204e05ae)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.2.0) qtbase (>= 5.10.0+git0+50117d738a) qtsystems (>= 5.10.0+git0+ca54870ffd)
 RRECOMMENDS = 
 PKGSIZE = 135728
 FILES = /usr/bin/qt5/*

@@ -2,9 +2,9 @@ PV = 1.7.0-gitAUTOINC+8ddbcde84e
 PR = r0
 PKG = libmraa-dev
 PKGV = 1.7.0-git0+8ddbcde84e
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = mraa-dev (=1.7.0-git0+8ddbcde84e)
-RDEPENDS = mraa (= 1.7.0-git0+8ddbcde84e-r0.7)
+RDEPENDS = mraa (= 1.7.0-git0+8ddbcde84e-r0.8)
 RRECOMMENDS = glibc-dev json-c-dev libgcc-dev libpython3-dev libstdc++-dev python3-core-dev python3-dev
 PKGSIZE = 146575
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mraa/*.la /lib/*.la /usr/share/pkgconfig /usr/lib/pkgconfig /usr/lib/python3.5/site-packages/*.la

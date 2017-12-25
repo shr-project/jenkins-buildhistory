@@ -1,10 +1,10 @@
-PV = 5.9.2+gitAUTOINC+90a701032e
+PV = 5.10.0+gitAUTOINC+3ce89dc37d
 PR = r0
-PKGV = 5.9.2+git0+90a701032e
-PKGR = r0.8
+PKGV = 5.10.0+git0+3ce89dc37d
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.2.0) qtbase (>= 5.9.2+git0+ec16ba393b)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.2.0) qtbase (>= 5.10.0+git0+50117d738a)
 RRECOMMENDS = qttools-plugins qttools-qmlplugins
-PKGSIZE = 8266326
+PKGSIZE = 8200804
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qttools /usr/lib/qttools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5Designer.so.5 /usr/lib/libQt5Designer.so.5.9 /usr/lib/libQt5Designer.so.5.9.2 /usr/lib/libQt5DesignerComponents.so.5 /usr/lib/libQt5DesignerComponents.so.5.9 /usr/lib/libQt5DesignerComponents.so.5.9.2 /usr/lib/libQt5Help.so.5 /usr/lib/libQt5Help.so.5.9 /usr/lib/libQt5Help.so.5.9.2
+FILELIST = /usr/lib/libQt5Designer.so.5 /usr/lib/libQt5Designer.so.5.10 /usr/lib/libQt5Designer.so.5.10.0 /usr/lib/libQt5DesignerComponents.so.5 /usr/lib/libQt5DesignerComponents.so.5.10 /usr/lib/libQt5DesignerComponents.so.5.10.0 /usr/lib/libQt5Help.so.5 /usr/lib/libQt5Help.so.5.10 /usr/lib/libQt5Help.so.5.10.0
