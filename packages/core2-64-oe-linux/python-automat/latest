@@ -1,5 +1,5 @@
 PV = 0.6.0
 PR = r0
-DEPENDS = python python-distribute-native python-native python-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = python python-distribute-native python-native python-native python-setuptools-scm-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = python-automat-dbg python-automat-staticdev python-automat-dev python-automat-doc python-automat-locale python-automat
 LAYER = meta-python

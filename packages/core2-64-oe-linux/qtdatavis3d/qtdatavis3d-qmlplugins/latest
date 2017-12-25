@@ -1,10 +1,10 @@
-PV = 5.9.2+gitAUTOINC+8329a8fb28
+PV = 5.10.0+gitAUTOINC+d2abb20082
 PR = r0
 PKG = libqt5datavisualization-qmlplugins
-PKGV = 5.9.2+git0+8329a8fb28
-PKGR = r0.3
-RPROVIDES = qtdatavis3d-qmlplugins (=5.9.2+git0+8329a8fb28)
-RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.2.0) qtbase (>= 5.9.2+git0+ec16ba393b) qtdatavis3d (>= 5.9.2+git0+8329a8fb28) qtdeclarative (>= 5.9.2+git0+32218c3243)
+PKGV = 5.10.0+git0+d2abb20082
+PKGR = r0.0
+RPROVIDES = qtdatavis3d-qmlplugins (=5.10.0+git0+d2abb20082)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.2.0) qtbase (>= 5.10.0+git0+50117d738a) qtdatavis3d (>= 5.10.0+git0+d2abb20082) qtdeclarative (>= 5.10.0+git0+dac71f3d6f)
 RRECOMMENDS = 
 PKGSIZE = 441838
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.qmlc /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.jsc /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.jsc /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
