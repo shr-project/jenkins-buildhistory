@@ -1,10 +1,10 @@
 PV = 1.11.5
 PR = r0
 PKG = libhwloc5
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = libhwloc (=1.11.5)
 RDEPENDS = glibc (>= 2.26) libpciaccess (>= 0.14) libudev (>= 234) libxml2 (>= 2.9.7)
 RRECOMMENDS = 
-PKGSIZE = 248802
-FILES = /usr/lib/libhwloc.so*
-FILELIST = /usr/lib/libhwloc.so /usr/lib/libhwloc.so.5 /usr/lib/libhwloc.so.5.7.2
+PKGSIZE = 248785
+FILES = /usr/lib/libhwloc.so.*
+FILELIST = /usr/lib/libhwloc.so.5 /usr/lib/libhwloc.so.5.7.2
