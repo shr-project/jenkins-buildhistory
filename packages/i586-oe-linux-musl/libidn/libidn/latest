@@ -1,9 +1,9 @@
 PV = 1.33
 PR = r0
 PKG = libidn11
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libidn (=1.33)
-RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
 PKGSIZE = 206341
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libidn /usr/lib/libidn/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

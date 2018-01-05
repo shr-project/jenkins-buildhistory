@@ -1,9 +1,9 @@
 PE = 1
 PV = 2017.11
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.0.2m) libssl (>= 1.0.2m) musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = libcrypto (>= 1.0.2m) libssl (>= 1.0.2m) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
 PKGSIZE = 192757
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/u-boot-mkimage /usr/lib/u-boot-mkimage/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

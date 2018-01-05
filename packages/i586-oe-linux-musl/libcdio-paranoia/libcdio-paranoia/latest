@@ -1,9 +1,9 @@
 PV = 10.2+0.93+1
 PR = r0
 PKG = libcdio-paranoia2
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libcdio-paranoia (=10.2+0.93+1)
-RDEPENDS = libcdio (>= 0.93) libcdio-cdda (>= 10.2+0.93+1) musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = libcdio (>= 0.93) libcdio-cdda (>= 10.2+0.93+1) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
 PKGSIZE = 30241
 FILES = /usr/lib/libcdio-paranoia${SOLIB} /usr/lib/libcdio_paranoia.so.2 /usr/lib/libcdio_paranoia.so.2.0.0

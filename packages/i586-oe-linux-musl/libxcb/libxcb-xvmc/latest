@@ -1,9 +1,9 @@
 PV = 1.12
 PR = r0
 PKG = libxcb-xvmc0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libxcb-xvmc (=1.12)
-RDEPENDS = libxau (>= 1.0.8) libxcb (>= 1.12) libxdmcp (>= 1.1.2) musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = libxau (>= 1.0.8) libxcb (>= 1.12) libxdmcp (>= 1.1.2) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
 PKGSIZE = 13668
 FILES = /usr/lib/libxcb-xvmc.so.0 /usr/lib/libxcb-xvmc.so.0.0.0

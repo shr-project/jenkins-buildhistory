@@ -1,8 +1,8 @@
 PV = 0.26.0
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = libasound (>= 1.1.5) libass (>= 0.13.6) libavcodec (>= 3.4) libavdevice (>= 3.4) libavfilter (>= 3.4) libavformat (>= 3.4) libavutil (>= 3.4) libgcc (>= 7.2.0) libjpeg-turbo (>= 1.5.2) libswresample (>= 3.4) libswscale (>= 3.4) libxkbcommon (>= 0.7.2) musl (>= 1.1.18+git0+eb03bde2f2) wayland (>= 1.14.0) zlib (>= 1.2.11)
+RDEPENDS = libasound (>= 1.1.5) libass (>= 0.13.6) libavcodec (>= 3.4) libavdevice (>= 3.4) libavfilter (>= 3.4) libavformat (>= 3.4) libavutil (>= 3.4) libgcc (>= 7.2.0) libjpeg-turbo (>= 1.5.3) libswresample (>= 3.4) libswscale (>= 3.4) libxkbcommon (>= 0.8.0) musl (>= 1.1.18+git1+4000b0107d) wayland (>= 1.14.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 1911142
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mpv /usr/lib/mpv/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/icons

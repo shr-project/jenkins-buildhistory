@@ -1,8 +1,8 @@
 PV = 1.4.48
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = libattr (>= 2.4.47) libcrypto (>= 1.0.2m) libpcre (>= 8.41) lighttpd-module-dirlisting lighttpd-module-indexfile lighttpd-module-staticfile musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = libattr (>= 2.4.47) libcrypto (>= 1.0.2m) libpcre (>= 8.41) lighttpd-module-dirlisting lighttpd-module-indexfile lighttpd-module-staticfile musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = lighttpd-module-access lighttpd-module-accesslog
 PKGSIZE = 340244
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/lighttpd /usr/lib/lighttpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc /www /lib/systemd/system/lighttpd.service

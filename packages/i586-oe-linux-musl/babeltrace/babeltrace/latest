@@ -1,8 +1,8 @@
 PV = 1.5.3
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.54.2) musl (>= 1.1.18+git0+eb03bde2f2) popt (>= 1.16) util-linux-libuuid (>= 2.31)
+RDEPENDS = glib-2.0 (>= 2.54.2) musl (>= 1.1.18+git1+4000b0107d) popt (>= 1.16) util-linux-libuuid (>= 2.31)
 RRECOMMENDS = 
 PKGSIZE = 524367
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/babeltrace /usr/lib/babeltrace/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -2,9 +2,9 @@ PV = 3.14+gitAUTOINC+1df9af4d6c
 PR = r0
 PKG = libinotifytools0
 PKGV = 3.14+git0+1df9af4d6c
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libinotifytools (=3.14+git0+1df9af4d6c)
-RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
 PKGSIZE = 34112
 FILES = /usr/lib/lib*.so.*

@@ -1,8 +1,8 @@
 PV = 9.4.15
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = libpq (>= 9.4.15) libssl (>= 1.0.2m) musl (>= 1.1.18+git0+eb03bde2f2) readline (>= 7.0) zlib (>= 1.2.11)
+RDEPENDS = libpq (>= 9.4.15) libssl (>= 1.0.2m) musl (>= 1.1.18+git1+4000b0107d) readline (>= 7.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 1859822
 FILES = /usr/bin/clusterdb /usr/bin/createdb /usr/bin/createlang /usr/bin/createuser /usr/bin/dropdb /usr/bin/droplang /usr/bin/dropuser /usr/bin/pg_dump /usr/bin/pg_dumpall /usr/bin/pg_restore /usr/bin/psql /usr/bin/reindexdb /usr/bin/vacuumdb /usr/bin/vacuumlo /usr/share/postgresql/psqlrc.sample

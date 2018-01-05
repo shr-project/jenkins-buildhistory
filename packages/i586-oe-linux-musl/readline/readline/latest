@@ -1,9 +1,9 @@
 PV = 7.0
 PR = r0
 PKG = libreadline7
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = readline (=7.0)
-RDEPENDS = musl (>= 1.1.18+git0+eb03bde2f2) ncurses-libtinfo (>= 6.0+20170715)
+RDEPENDS = musl (>= 1.1.18+git1+4000b0107d) ncurses-libtinfo (>= 6.0+20170715)
 RRECOMMENDS = 
 PKGSIZE = 334716
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/readline /usr/lib/readline/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

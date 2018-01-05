@@ -1,9 +1,9 @@
 PV = 5.7.3
 PR = r0
 PKG = libnetsnmp30
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = net-snmp-libs (=5.7.3)
-RDEPENDS = libcrypto (>= 1.0.2m) libpci (>= 3.5.6) musl (>= 1.1.18+git0+eb03bde2f2)
+RDEPENDS = libcrypto (>= 1.0.2m) libpci (>= 3.5.6) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
 PKGSIZE = 2949961
 FILES = /usr/lib/lib*.so.*
