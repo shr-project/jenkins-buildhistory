@@ -1,9 +1,9 @@
 PV = 5.10.0+gitAUTOINC+50117d738a
 PR = r0
 PKGV = 5.10.0+git0+50117d738a
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.8.1) glibc (>= 2.26) libegl-mesa (>= 17.2.6) libgl-mesa (>= 17.2.6) libjpeg-turbo (>= 1.5.2) libstdc++ (>= 7.2.0) libudev (>= 234) libx11 (>= 1.6.5) libxcb (>= 1.12) libxcb-glx (>= 1.12) libxkbcommon (>= 0.7.2) qtbase (>= 5.10.0+git0+50117d738a)
+RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.8.1) glibc (>= 2.26) libegl-mesa (>= 17.3.1) libgl-mesa (>= 17.3.1) libjpeg-turbo (>= 1.5.3) libstdc++ (>= 7.2.0) libudev (>= 234) libx11 (>= 1.6.5) libxcb (>= 1.12) libxcb-glx (>= 1.12) libxkbcommon (>= 0.8.0) qtbase (>= 5.10.0+git0+50117d738a)
 RRECOMMENDS = libx11-locale
 PKGSIZE = 2137600
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
