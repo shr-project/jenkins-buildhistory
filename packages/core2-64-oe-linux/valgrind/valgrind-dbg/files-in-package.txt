@@ -110,7 +110,7 @@ drwxr-xr-x root       root             1400 ./usr/lib/valgrind/ptest/drd/tests/.
 -rwxr-xr-x root       root            12376 ./usr/lib/valgrind/ptest/drd/tests/.debug/threaded-fork
 -rwxr-xr-x root       root            17120 ./usr/lib/valgrind/ptest/drd/tests/.debug/thread_name
 -rwxr-xr-x root       root            13896 ./usr/lib/valgrind/ptest/drd/tests/.debug/trylock
--rwxr-xr-x root       root           616224 ./usr/lib/valgrind/ptest/drd/tests/.debug/tsan_unittest
+-rwxr-xr-x root       root           616192 ./usr/lib/valgrind/ptest/drd/tests/.debug/tsan_unittest
 -rwxr-xr-x root       root           315960 ./usr/lib/valgrind/ptest/drd/tests/.debug/unit_bitmap
 -rwxr-xr-x root       root            18944 ./usr/lib/valgrind/ptest/drd/tests/.debug/unit_vc
 drwxr-xr-x root       root               60 ./usr/lib/valgrind/ptest/helgrind
@@ -1086,7 +1086,7 @@ drwxr-xr-x root       root              220 ./usr/src/debug/valgrind/3.13.0-r0/v
 -rw-r--r-- root       root            38839 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/mc_malloc_wrappers.c
 -rw-r--r-- root       root           268696 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/mc_translate.c
 -rw-r--r-- root       root            14570 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/memcheck.h
-drwxr-xr-x root       root             3160 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests
+drwxr-xr-x root       root             3180 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests
 -rw-r--r-- root       root              232 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/accounting.c
 -rw-r--r-- root       root             3673 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/addressable.c
 drwxr-xr-x root       root              320 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/amd64
@@ -1123,6 +1123,7 @@ drwxr-xr-x root       root               80 ./usr/src/debug/valgrind/3.13.0-r0/v
 -rw-r--r-- root       root              223 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/bug287260.c
 -rw-r--r-- root       root              328 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/bug340392.c
 -rw-r--r-- root       root              564 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/calloc-overflow.c
+-rw-r--r-- root       root               58 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/cdebug.c
 -rw-r--r-- root       root              195 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/client-msg.c
 -rw-r--r-- root       root              790 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/clientperm.c
 -rw-r--r-- root       root             1240 ./usr/src/debug/valgrind/3.13.0-r0/valgrind-3.13.0/memcheck/tests/clireq_nofill.c
