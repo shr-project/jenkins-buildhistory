@@ -1,9 +1,9 @@
 PV = 7.2.0
 PR = r0
 PKG = libgcc-s-dev
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = libgcc-dev (=7.2.0)
-RDEPENDS = libgcc (= 7.2.0-r0.20)
+RDEPENDS = libgcc (= 7.2.0-r0.21)
 RRECOMMENDS = glibc-dev
 PKGSIZE = 25954686
 FILES = /lib/libgcc*.so /usr/lib/arm-oe-linux-gnueabi/7.2.0* /usr/lib/arm-oe*

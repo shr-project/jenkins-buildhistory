@@ -1,5 +1,5 @@
 PV = 1.8.4
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libevdev libtool-cross libtool-native mtdev pkgconfig-native udev virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = libevdev meson-native mtdev ninja-native pkgconfig-native python3-native udev virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = libinput-dbg libinput-staticdev libinput-dev libinput-doc libinput-locale libinput-bin libinput
 LAYER = core
