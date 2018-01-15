@@ -2,8 +2,8 @@ drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root              120 ./lib/udev
 drwxr-xr-x root       root               60 ./lib/udev/hwdb.d
 -rw-r--r-- root       root             8498 ./lib/udev/hwdb.d/90-libinput-model-quirks.hwdb
--rwxr-xr-x root       root            10408 ./lib/udev/libinput-device-group
--rwxr-xr-x root       root            10408 ./lib/udev/libinput-model-quirks
+-rwxr-xr-x root       root            10528 ./lib/udev/libinput-device-group
+-rwxr-xr-x root       root            10504 ./lib/udev/libinput-model-quirks
 drwxr-xr-x root       root               80 ./lib/udev/rules.d
 -rw-r--r-- root       root              277 ./lib/udev/rules.d/80-libinput-device-groups.rules
 -rw-r--r-- root       root             1747 ./lib/udev/rules.d/90-libinput-model-quirks.rules
@@ -11,9 +11,9 @@ drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root              120 ./usr/libexec/libinput
--rwxr-xr-x root       root            44184 ./usr/libexec/libinput/libinput-debug-events
--rwxr-xr-x root       root            26888 ./usr/libexec/libinput/libinput-list-devices
--rwxr-xr-x root       root            18768 ./usr/libexec/libinput/libinput-measure
--rwxr-xr-x root       root            27008 ./usr/libexec/libinput/libinput-measure-touchpad-tap
--rwxr-xr-x root       root           212496 ./usr/lib/libinput.so.10.13.0
+-rwxr-xr-x root       root            45680 ./usr/libexec/libinput/libinput-debug-events
+-rwxr-xr-x root       root            27736 ./usr/libexec/libinput/libinput-list-devices
+-rwxr-xr-x root       root            19280 ./usr/libexec/libinput/libinput-measure
+-rwxr-xr-x root       root            27672 ./usr/libexec/libinput/libinput-measure-touchpad-tap
+-rwxr-xr-x root       root           213776 ./usr/lib/libinput.so.10.13.0
 lrwxrwxrwx root       root               19 ./usr/lib/libinput.so.10 -> libinput.so.10.13.0
