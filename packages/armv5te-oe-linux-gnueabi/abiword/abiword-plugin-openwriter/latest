@@ -1,8 +1,8 @@
 PV = 3.0.2
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = 
-RDEPENDS = abiword (>= 3.0.2) atk (>= 2.26.0) cairo (>= 1.14.10) fontconfig (>= 2.12.6) freetype (>= 2.8.1) fribidi (>= 0.19.7) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.52.3) glibc (>= 2.26) gtk+ (>= 2.24.31) libgcc (>= 7.2.0) libgsf (>= 1.14.29) libjpeg-turbo (>= 1.5.2) libpng (>= 1.6.32) librsvg (>= 2.40.19) libstdc++ (>= 7.2.0) libx11 (>= 1.6.5) libxml2 (>= 2.9.7) libxslt (>= 1.1.31) pango (>= 1.40.12) wv (>= 1.2.4) zlib (>= 1.2.11)
+RDEPENDS = abiword (>= 3.0.2) atk (>= 2.26.0) cairo (>= 1.14.12) evolution-data-server (>= 3.26.3) fontconfig (>= 2.12.6) freetype (>= 2.8.1) fribidi (>= 0.19.7) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.54.2) glibc (>= 2.26) gtk+ (>= 2.24.31) libebook (>= 3.26.3) libecal (>= 3.26.3) libedata-book (>= 3.26.3) libedataserver (>= 3.26.3) libgcc (>= 7.2.0) libgsf (>= 1.14.29) libical (>= 2.0.0) libicui18n (>= 60.1) libicuuc (>= 60.1) libjpeg-turbo (>= 1.5.3) libpng (>= 1.6.32) librsvg (>= 2.40.19) libsecret (>= 0.18.5) libsoup-2.4 (>= 2.60.2) libstdc++ (>= 7.2.0) libx11 (>= 1.6.5) libxml2 (>= 2.9.7) libxslt (>= 1.1.32) pango (>= 1.40.12) wv (>= 1.2.4) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 100024
 FILES = /usr/lib/abiword-3.0/plugins/openwriter.so
