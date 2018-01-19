@@ -1,9 +1,9 @@
 PV = 1.8.4
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = libevdev (>= 1.5.7) libinput (>= 1.8.4) libudev (>= 234) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
-PKGSIZE = 18544
+PKGSIZE = 18292
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/libinput /usr/bin/libinput-debug-events /usr/bin/libinput-list-devices

@@ -1,9 +1,9 @@
 PV = 0.19.8.1
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = glib-2.0 (>= 2.54.2) libcroco (>= 0.6.12) libunistring (>= 0.9.8) libxml2 (>= 2.9.7) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
-PKGSIZE = 1777808
+PKGSIZE = 309008
 FILES = /usr/lib/libgettextlib-*.so*
 FILELIST = /usr/lib/libgettextlib-0.19.8.1.so

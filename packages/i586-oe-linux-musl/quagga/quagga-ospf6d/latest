@@ -1,8 +1,8 @@
-PV = 1.2.1
+PV = 1.2.2
 PR = r0
-PKGR = r0.5
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.18+git1+4000b0107d) quagga (>= 1.2.1)
+RDEPENDS = musl (>= 1.1.18+git1+4000b0107d) quagga (>= 1.2.2)
 RRECOMMENDS = 
 PKGSIZE = 347601
 FILES = /usr/sbin/ospf6d /lib/systemd/system/ospf6d.service

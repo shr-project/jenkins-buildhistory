@@ -1,10 +1,10 @@
 PE = 2
-PV = 17.3.1
+PV = 17.3.2
 PR = r0
 PKG = libgbm1
-PKGR = r0.1
-RPROVIDES = libgbm (=17.3.1)
-RDEPENDS = expat (>= 2.2.5) libdrm (>= 2.4.88) musl (>= 1.1.18+git1+4000b0107d) wayland (>= 1.14.0) zlib (>= 1.2.11)
+PKGR = r0.0
+RPROVIDES = libgbm (=17.3.2)
+RDEPENDS = expat (>= 2.2.5) libdrm (>= 2.4.89) musl (>= 1.1.18+git1+4000b0107d) wayland (>= 1.14.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 55127
 FILES = /usr/lib/libgbm.so.*

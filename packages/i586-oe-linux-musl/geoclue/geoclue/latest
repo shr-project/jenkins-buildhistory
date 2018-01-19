@@ -1,8 +1,8 @@
 PV = 2.4.4
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.54.2) json-glib (>= 1.2.8) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libavahi-glib (>= 0.7) libsoup-2.4 (>= 2.60.2) modemmanager (>= 1.6.4) musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = glib-2.0 (>= 2.54.2) json-glib (>= 1.4.2) libavahi-client (>= 0.7) libavahi-common (>= 0.7) libavahi-glib (>= 0.7) libsoup-2.4 (>= 2.60.2) modemmanager (>= 1.6.4) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
 PKGSIZE = 436422
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/geoclue /usr/lib/geoclue/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/dbus-1/system-services /usr/lib /lib/systemd /usr/libexec

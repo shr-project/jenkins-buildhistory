@@ -1,11 +1,10 @@
-PV = 3.2.3+gitAUTOINC+a9e4e74ec4
+PV = 3.26.3
 PR = r0
 PKG = libebackend-1.2-locale-fr
-PKGV = 3.2.3+git0+a9e4e74ec4
-PKGR = r0.1
-RPROVIDES = evolution-data-server-locale evolution-data-server-locale-fr (=3.2.3+git0+a9e4e74ec4) fr-translation
+PKGR = r0.0
+RPROVIDES = evolution-data-server-locale evolution-data-server-locale-fr (=3.26.3) fr-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-fr
-PKGSIZE = 91911
+PKGSIZE = 117522
 FILES = /usr/share/locale/fr
-FILELIST = /usr/share/locale/fr/LC_MESSAGES/evolution-data-server-3.2.mo
+FILELIST = /usr/share/locale/fr/LC_MESSAGES/evolution-data-server.mo

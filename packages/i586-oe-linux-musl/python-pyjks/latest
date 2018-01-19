@@ -1,0 +1,5 @@
+PV = 17.1.1
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+PACKAGES = python-pyjks-dbg python-pyjks-staticdev python-pyjks-dev python-pyjks-doc python-pyjks-locale python-pyjks
+LAYER = meta-python

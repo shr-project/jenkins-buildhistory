@@ -1,9 +1,9 @@
 PE = 2
 PV = 1.19.6
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.0.2m) libgl-mesa (>= 17.3.1) libsystemd (>= 234) libxau (>= 1.0.8) libxdmcp (>= 1.1.2) libxfont2 (>= 2.0.3) musl (>= 1.1.18+git1+4000b0107d) pixman (>= 0.34.0) xkeyboard-config
+RDEPENDS = libcrypto (>= 1.0.2m) libgl-mesa (>= 17.3.2) libsystemd (>= 234) libxau (>= 1.0.8) libxdmcp (>= 1.1.2) libxfont2 (>= 2.0.3) musl (>= 1.1.18+git1+4000b0107d) pixman (>= 0.34.0) xkeyboard-config
 RRECOMMENDS = 
 PKGSIZE = 2078380
 FILES = /usr/bin/Xvfb
