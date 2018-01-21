@@ -1,5 +1,5 @@
 PV = 5.0.1
 PR = r0
-DEPENDS = cmake-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = libtinyxml2-dbg libtinyxml2-staticdev libtinyxml2-dev libtinyxml2-doc libtinyxml2-locale libtinyxml2
 LAYER = openembedded-layer

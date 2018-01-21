@@ -1,5 +1,5 @@
 PV = 1.2.1
 PR = r0
-DEPENDS = bison cmake-native cmake-native flex gnutls libgcrypt libidn lksctp-tools pkgconfig-native systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = bison cmake-native cmake-native flex gnutls libgcrypt libidn lksctp-tools ninja-native pkgconfig-native systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = freediameter-ptest freediameter-dbg freediameter-staticdev freediameter-dev freediameter-doc freediameter-locale freediameter
 LAYER = networking-layer

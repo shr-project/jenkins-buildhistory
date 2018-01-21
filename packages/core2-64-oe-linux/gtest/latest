@@ -1,5 +1,5 @@
 PV = 1.8.0
 PR = r0
-DEPENDS = cmake-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = cmake-native ninja-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = gtest-dbg gtest-staticdev gtest-dev gtest-doc gtest-locale gtest
 LAYER = openembedded-layer

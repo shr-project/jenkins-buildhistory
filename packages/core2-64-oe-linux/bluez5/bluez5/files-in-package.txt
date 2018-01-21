@@ -4,7 +4,7 @@ drwxr-xr-x root       root               80 ./etc/bluetooth
 -rw-r--r-- root       root              120 ./etc/bluetooth/network.conf
 drwxr-xr-x root       root               60 ./etc/dbus-1
 drwxr-xr-x root       root               60 ./etc/dbus-1/system.d
--rw-r--r-- root       root             1489 ./etc/dbus-1/system.d/bluetooth.conf
+-rw-r--r-- root       root             1315 ./etc/dbus-1/system.d/bluetooth.conf
 drwxr-xr-x root       root               80 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               60 ./lib/systemd/system
@@ -16,10 +16,10 @@ drwxr-xr-x root       root               60 ./lib/udev/rules.d
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              380 ./usr/bin
 -rwxr-xr-x root       root           197088 ./usr/bin/bccmd
--rwxr-xr-x root       root            35056 ./usr/bin/bluemoon
--rwxr-xr-x root       root           186968 ./usr/bin/bluetoothctl
--rwxr-xr-x root       root            26864 ./usr/bin/btattach
--rwxr-xr-x root       root           721056 ./usr/bin/btmon
+-rwxr-xr-x root       root            76016 ./usr/bin/bluemoon
+-rwxr-xr-x root       root           203448 ./usr/bin/bluetoothctl
+-rwxr-xr-x root       root            67824 ./usr/bin/btattach
+-rwxr-xr-x root       root           725152 ./usr/bin/btmon
 -rwxr-xr-x root       root           145152 ./usr/bin/ciptool
 -rwxr-xr-x root       root           137312 ./usr/bin/hciattach
 -rwxr-xr-x root       root           197056 ./usr/bin/hciconfig
@@ -35,7 +35,7 @@ drwxr-xr-x root       root              380 ./usr/bin
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               60 ./usr/libexec/bluetooth
--rwxr-xr-x root       root          1008904 ./usr/libexec/bluetooth/bluetoothd
+-rwxr-xr-x root       root          1058632 ./usr/libexec/bluetooth/bluetoothd
 -rwxr-xr-x root       root           149016 ./usr/lib/libbluetooth.so.3.18.16
 lrwxrwxrwx root       root               23 ./usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.16
 drwxr-xr-x root       root               60 ./usr/share

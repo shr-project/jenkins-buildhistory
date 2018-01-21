@@ -1,9 +1,9 @@
 PV = 0.26.0
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libasound (>= 1.1.5) libass (>= 0.13.6) libavcodec (>= 3.4) libavdevice (>= 3.4) libavfilter (>= 3.4) libavformat (>= 3.4) libavutil (>= 3.4) libgcc (>= 7.2.0) libjpeg-turbo (>= 1.5.3) libswresample (>= 3.4) libswscale (>= 3.4) libxkbcommon (>= 0.8.0) wayland (>= 1.14.0) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.26) libasound (>= 1.1.5) libass (>= 0.13.6) libavcodec (>= 3.4) libavdevice (>= 3.4) libavfilter (>= 3.4) libavformat (>= 3.4) libavutil (>= 3.4) libjpeg-turbo (>= 1.5.3) libswresample (>= 3.4) libswscale (>= 3.4) libxkbcommon (>= 0.8.0) luajit (>= 2.0.5) wayland (>= 1.14.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 1830318
+PKGSIZE = 1396062
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mpv /usr/lib/mpv/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/icons
 FILELIST = /usr/bin/mpv /usr/share/applications/mpv.desktop /usr/share/icons/hicolor/16x16/apps/mpv.png /usr/share/icons/hicolor/32x32/apps/mpv.png /usr/share/icons/hicolor/64x64/apps/mpv.png /usr/share/icons/hicolor/scalable/apps/mpv.svg /usr/share/icons/hicolor/symbolic/apps/mpv-symbolic.svg
