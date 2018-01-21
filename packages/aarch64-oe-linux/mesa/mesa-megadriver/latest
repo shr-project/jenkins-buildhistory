@@ -1,9 +1,9 @@
 PE = 2
-PV = 17.3.1
+PV = 17.3.2
 PR = r0
-PKGR = r0.1
+PKGR = r0.0
 RPROVIDES = mesa-driver-swrast
-RDEPENDS = expat (>= 2.2.5) glibc (>= 2.26) libdrm (>= 2.4.88) libgcc (>= 7.2.0) libglapi (>= 17.3.1) libstdc++ (>= 7.2.0) zlib (>= 1.2.11)
+RDEPENDS = expat (>= 2.2.5) glibc (>= 2.26) libdrm (>= 2.4.89) libgcc (>= 7.2.0) libglapi (>= 17.3.2) libstdc++ (>= 7.2.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 RREPLACES = mesa-driver-swrast
 RCONFLICTS = mesa-driver-swrast

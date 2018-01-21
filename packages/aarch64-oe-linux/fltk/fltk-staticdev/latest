@@ -1,10 +1,10 @@
 PV = 1.3.4-1
 PR = r0
 PKG = libfltk-staticdev
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = fltk-staticdev (=1.3.4-1)
-RDEPENDS = fltk-dev (= 1.3.4-1-r0.11)
+RDEPENDS = fltk-dev (= 1.3.4-1-r0.12)
 RRECOMMENDS = 
-PKGSIZE = 18843784
+PKGSIZE = 18843024
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/fltk/*.a
 FILELIST = /usr/lib/libfltk.a /usr/lib/libfltk_forms.a /usr/lib/libfltk_gl.a /usr/lib/libfltk_images.a

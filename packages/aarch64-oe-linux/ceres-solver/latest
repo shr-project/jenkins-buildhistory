@@ -1,5 +1,5 @@
 PV = 1.13
 PR = r0
-DEPENDS = cmake-native glog libeigen virtual/aarch64-oe-linux-compilerlibs virtual/aarch64-oe-linux-gcc virtual/libc
+DEPENDS = cmake-native glog libeigen ninja-native virtual/aarch64-oe-linux-compilerlibs virtual/aarch64-oe-linux-gcc virtual/libc
 PACKAGES = ceres-solver-dbg ceres-solver-staticdev ceres-solver-dev ceres-solver-doc ceres-solver-locale ceres-solver
 LAYER = openembedded-layer

@@ -2,10 +2,10 @@ PV = 4.12.18+gitAUTOINC+b66a4f9730_558fe84d69
 PR = r0
 PKG = kernel-image-image-4.12.18-yocto-standard
 PKGV = 4.12.18+git0+b66a4f9730_558fe84d69
-PKGR = r0.7
+PKGR = r0.10
 RPROVIDES = kernel-image-image (=4.12.18+git0+b66a4f9730_558fe84d69)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 10277376
+PKGSIZE = 10277404
 FILES = /boot/Image-4.12.18-yocto-standard /boot/Image
-FILELIST = /boot/Image-4.12.18-yocto-standard
+FILELIST = /boot/Image /boot/Image-4.12.18-yocto-standard
