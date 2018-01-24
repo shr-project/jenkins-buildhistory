@@ -1,6 +1,6 @@
 PE = 1
 PV = 2.0.3
 PR = r0
-DEPENDS = cmake-native readline virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc zlib
+DEPENDS = cmake-native ninja-native readline virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc zlib
 PACKAGES = physfs-dbg physfs-staticdev physfs-dev physfs-doc physfs-locale physfs
 LAYER = filesystems-layer

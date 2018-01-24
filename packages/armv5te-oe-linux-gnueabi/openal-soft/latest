@@ -1,5 +1,5 @@
 PV = 1.15.1
 PR = r0
-DEPENDS = alsa-lib cmake-native pulseaudio virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = alsa-lib cmake-native ninja-native pulseaudio virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = openal-soft-dbg openal-soft-staticdev openal-soft-dev openal-soft-doc openal-soft-locale openal-soft
 LAYER = multimedia-layer

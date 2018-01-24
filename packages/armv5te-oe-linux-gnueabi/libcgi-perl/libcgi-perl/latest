@@ -1,8 +1,8 @@
-PV = 4.36
+PV = 4.38
 PR = r0
-PKGR = r0.20
+PKGR = r0.0
 RPROVIDES = perl-module-cgi
-RDEPENDS = perl
+RDEPENDS = perl perl-module-deprecate perl-module-if
 RRECOMMENDS = 
 PKGSIZE = 313968
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcgi-perl /usr/lib/libcgi-perl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/perl /usr/share/perl

@@ -1,5 +1,5 @@
 PV = 1.7.1
 PR = r0
-DEPENDS = cmake-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = cmake-native ninja-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = flatbuffers-dbg flatbuffers-staticdev flatbuffers-dev flatbuffers-doc flatbuffers-locale flatbuffers-compiler flatbuffers
 LAYER = openembedded-layer

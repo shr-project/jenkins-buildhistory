@@ -1,5 +1,5 @@
 PV = 0.0.1+gitAUTOINC+ad0b25ad74
 PR = r0
-DEPENDS = cmake-native libubox virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = cmake-native libubox ninja-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = relayd-dbg relayd-staticdev relayd-dev relayd-doc relayd-locale relayd
 LAYER = networking-layer

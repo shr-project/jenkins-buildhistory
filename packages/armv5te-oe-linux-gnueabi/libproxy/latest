@@ -1,5 +1,5 @@
 PV = 0.4.15
 PR = r0
-DEPENDS = cmake-native gconf glib-2.0 pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+DEPENDS = cmake-native gconf glib-2.0 ninja-native pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
 PACKAGES = libproxy-dbg libproxy-staticdev libproxy-dev libproxy-doc libproxy-locale libproxy
 LAYER = core
