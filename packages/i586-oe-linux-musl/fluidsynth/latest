@@ -1,5 +1,5 @@
 PV = 1.1.9
 PR = r0
-DEPENDS = alsa-lib cmake-native glib-2.0 ncurses pkgconfig-native pulseaudio virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+DEPENDS = alsa-lib cmake-native glib-2.0 ncurses ninja-native pkgconfig-native pulseaudio virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
 PACKAGES = fluidsynth-dbg fluidsynth-staticdev fluidsynth-dev fluidsynth-doc fluidsynth-locale fluidsynth-bin fluidsynth
 LAYER = multimedia-layer

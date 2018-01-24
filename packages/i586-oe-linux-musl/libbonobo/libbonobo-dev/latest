@@ -1,9 +1,9 @@
 PV = 2.32.1
 PR = r0
 PKG = libbonobo-2-dev
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = libbonobo-dev (=2.32.1)
-RDEPENDS = glib-2.0 (>= 2.54.2) libbonobo (= 2.32.1-r0.8) libbonobo (>= 2.32.1) musl (>= 1.1.18+git1+4000b0107d) orbit2 (>= 2.14.19)
+RDEPENDS = glib-2.0 (>= 2.54.2) libbonobo (= 2.32.1-r0.9) libbonobo (>= 2.32.1) musl (>= 1.1.18+git1+4000b0107d) orbit2 (>= 2.14.19)
 RRECOMMENDS = dbus-dev dbus-glib-dev glib-2.0-dev libxml2-dev musl-dev orbit2-dev perl-dev
 PKGSIZE = 575496
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libbonobo/*.la /lib/*.la /usr/lib/orbit-2.0/*.la /usr/lib/bonobo/monikers/*.la /usr/lib/bonobo-2.0/samples

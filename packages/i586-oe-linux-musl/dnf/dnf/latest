@@ -1,8 +1,8 @@
 PV = 2.7.5
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = libcomps libdnf librepo python3-argparse python3-codecs python3-compression python3-core python3-curses python3-distutils python3-email python3-gpg python3-importlib python3-iniparse python3-json python3-misc python3-netclient python3-rpm python3-shell python3-sqlite3 python3-subprocess python3-threading
+RDEPENDS = libcomps libdnf librepo python3-codecs python3-compression python3-core python3-curses python3-distutils python3-email python3-fcntl python3-gpg python3-iniparse python3-json python3-logging python3-misc python3-netclient python3-rpm python3-shell python3-sqlite3 python3-threading
 RRECOMMENDS = gnupg
 PKGSIZE = 889337
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/dnf /usr/lib/dnf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/* /lib/systemd/system/dnf-makecache.service /lib/systemd/system/dnf-makecache.timer /lib/systemd/system/dnf-automatic.service /lib/systemd/system/dnf-automatic.timer /lib/systemd/system/dnf-automatic-download.service /lib/systemd/system/dnf-automatic-download.timer /lib/systemd/system/dnf-automatic-install.service /lib/systemd/system/dnf-automatic-install.timer /lib/systemd/system/dnf-automatic-notifyonly.service /lib/systemd/system/dnf-automatic-notifyonly.timer

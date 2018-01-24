@@ -1,9 +1,9 @@
 PV = 2.7.13
 PR = r1
-PKGR = r1.7
+PKGR = r1.8
 RPROVIDES = 
-RDEPENDS = libpython2 (>= 2.7.13) musl (>= 1.1.18+git1+4000b0107d) python-core python-textutils
+RDEPENDS = libpython2 (>= 2.7.13) musl (>= 1.1.18+git1+4000b0107d) python-codecs python-core python-lang python-resource python-textutils
 RRECOMMENDS = 
 PKGSIZE = 123344
-FILES = /usr/lib/python2.7/profile.* /usr/lib/python2.7/pstats.* /usr/lib/python2.7/cProfile.* /usr/lib/python2.7/lib-dynload/_lsprof.so
+FILES = /usr/lib/python2.7/cProfile.py /usr/lib/python2.7/cProfile.pyc /usr/lib/python2.7/lib-dynload/_lsprof.so /usr/lib/python2.7/profile.py /usr/lib/python2.7/profile.pyc /usr/lib/python2.7/pstats.py /usr/lib/python2.7/pstats.pyc
 FILELIST = /usr/lib/python2.7/cProfile.py /usr/lib/python2.7/cProfile.pyc /usr/lib/python2.7/lib-dynload/_lsprof.so /usr/lib/python2.7/profile.py /usr/lib/python2.7/profile.pyc /usr/lib/python2.7/pstats.py /usr/lib/python2.7/pstats.pyc

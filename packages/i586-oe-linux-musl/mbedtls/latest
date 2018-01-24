@@ -1,5 +1,5 @@
 PV = 1.3.17
 PR = r0
-DEPENDS = cmake-native openssl virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+DEPENDS = cmake-native ninja-native openssl virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
 PACKAGES = mbedtls-dbg mbedtls-staticdev mbedtls-dev mbedtls-doc mbedtls-locale mbedtls
 LAYER = networking-layer

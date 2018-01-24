@@ -1,9 +1,9 @@
-PV = 3.1.2
+PV = 4.0
 PR = r0
-PKGR = r0.6
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
-PKGSIZE = 111944
+PKGSIZE = 111931
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/i2c-tools /usr/lib/i2c-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/sbin/eeprog /usr/sbin/eeprom /usr/sbin/eepromer /usr/sbin/i2cdetect /usr/sbin/i2cdump /usr/sbin/i2cget /usr/sbin/i2cset
+FILELIST = /usr/lib/libi2c.so.0 /usr/lib/libi2c.so.0.1.0 /usr/sbin/eeprog /usr/sbin/i2cdetect /usr/sbin/i2cdump /usr/sbin/i2cget /usr/sbin/i2cset /usr/sbin/i2ctransfer

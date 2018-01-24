@@ -1,8 +1,8 @@
 PV = 2.7.13
 PR = r1
-PKGR = r1.7
+PKGR = r1.8
 RPROVIDES = 
-RDEPENDS = libpython2 (>= 2.7.13) musl (>= 1.1.18+git1+4000b0107d) python-codecs python-core python-math python-re
+RDEPENDS = libpython2 (>= 2.7.13) musl (>= 1.1.18+git1+4000b0107d) python-core
 RRECOMMENDS = 
 PKGSIZE = 227695
 FILES = /usr/lib/python2.7/json /usr/lib/python2.7/lib-dynload/_json.so
