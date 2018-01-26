@@ -1,9 +1,9 @@
 PV = 0.4.5
 PR = r0
 PKG = libtimezonemap1
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = libtimezonemap (=0.4.5)
-RDEPENDS = atk (>= 2.26.0) cairo (>= 1.14.12) cairo-gobject (>= 1.14.12) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.54.2) glibc (>= 2.26) gtk+3 (>= 3.22.24) json-glib (>= 1.2.8) libsoup-2.4 (>= 2.60.2) pango (>= 1.40.12)
+RDEPENDS = atk (>= 2.26.0) cairo (>= 1.14.12) cairo-gobject (>= 1.14.12) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.54.2) glibc (>= 2.26) gtk+3 (>= 3.22.24) json-glib (>= 1.4.2) libsoup-2.4 (>= 2.60.2) pango (>= 1.40.12)
 RRECOMMENDS = 
 PKGSIZE = 5786785
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libtimezonemap /usr/lib/libtimezonemap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/girepository-*/*.typelib
