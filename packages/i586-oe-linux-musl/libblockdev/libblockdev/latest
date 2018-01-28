@@ -1,8 +1,8 @@
 PV = 2.10
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = cryptsetup (>= 1.7.4) glib-2.0 (>= 2.54.2) libbytesize (>= 0.10+git0+369127c0ed) libdevmapper (>= 2.02.171) libkmod (>= 24+git0+ef4257b59c) libudev (>= 234) lvm2 musl (>= 1.1.18+git1+4000b0107d) nspr (>= 4.17) nss (>= 3.34.1) parted (>= 3.2) python3 util-linux-libblkid (>= 2.31) util-linux-libmount (>= 2.31) volume-key (>= 0.3.9)
+RDEPENDS = cryptsetup (>= 1.7.4) glib-2.0 (>= 2.54.2) libbytesize (>= 0.10+git0+369127c0ed) libdevmapper (>= 2.02.171) libkmod (>= 24+git0+ef4257b59c) libudev (>= 234) lvm2 musl (>= 1.1.18+git1+4000b0107d) nspr (>= 4.18) nss (>= 3.34.1) parted (>= 3.2) python3 util-linux-libblkid (>= 2.31) util-linux-libmount (>= 2.31) volume-key (>= 0.3.9)
 RRECOMMENDS = 
 PKGSIZE = 616018
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libblockdev /usr/lib/libblockdev/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/python3.5/site-packages /usr/lib/girepository-*/*.typelib

@@ -1,9 +1,9 @@
 PV = 9.10.6
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
 RDEPENDS = libcap (>= 2.25) libcrypto (>= 1.0.2m) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
-PKGSIZE = 3359488
+PKGSIZE = 3355392
 FILES = /usr/lib/*.so*
 FILELIST = /usr/lib/libbind9.so.141 /usr/lib/libbind9.so.141.0.0 /usr/lib/libdns.so.190 /usr/lib/libdns.so.190.0.1 /usr/lib/libirs.so.141 /usr/lib/libirs.so.141.0.7 /usr/lib/libisc.so.189 /usr/lib/libisc.so.189.1.0 /usr/lib/libisccc.so.140 /usr/lib/libisccc.so.140.0.5 /usr/lib/libisccfg.so.144 /usr/lib/libisccfg.so.144.0.0 /usr/lib/liblwres.so.141 /usr/lib/liblwres.so.141.0.3

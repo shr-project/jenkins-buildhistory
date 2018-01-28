@@ -1,10 +1,10 @@
 PV = 1.65.1
 PR = r0
 PKG = libboost-wave1.65.1
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = boost-wave (=1.65.1)
-RDEPENDS = boost-system (>= 1.65.1) boost-thread (>= 1.65.1) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = boost-system (>= 1.65.1) boost-thread (>= 1.65.1) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
-PKGSIZE = 784504
+PKGSIZE = 788600
 FILES = /usr/lib/libboost_wave*.so.*
 FILELIST = /usr/lib/libboost_wave.so.1.65.1
