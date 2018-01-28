@@ -8,7 +8,7 @@ drwxr-xr-x root       root             1040 ./usr/bin/llvm5.0
 -rwxr-xr-x root       root            13992 ./usr/bin/llvm5.0/llvm-as
 -rwxr-xr-x root       root            59056 ./usr/bin/llvm5.0/llvm-bcanalyzer
 -rwxr-xr-x root       root            18092 ./usr/bin/llvm5.0/llvm-cat
--rwxr-xr-x root       root            52009 ./usr/bin/llvm5.0/llvm-config
+-rwxr-xr-x root       root            56105 ./usr/bin/llvm5.0/llvm-config
 -rwxr-xr-x root       root           231264 ./usr/bin/llvm5.0/llvm-cov
 -rwxr-xr-x root       root            95864 ./usr/bin/llvm5.0/llvm-c-test
 -rwxr-xr-x root       root            26344 ./usr/bin/llvm5.0/llvm-cvtres
@@ -17,7 +17,7 @@ drwxr-xr-x root       root             1040 ./usr/bin/llvm5.0
 -rwxr-xr-x root       root           104120 ./usr/bin/llvm5.0/llvm-diff
 -rwxr-xr-x root       root            26344 ./usr/bin/llvm5.0/llvm-dis
 lrwxrwxrwx root       root                7 ./usr/bin/llvm5.0/llvm-dlltool -> llvm-ar
--rwxr-xr-x root       root           284416 ./usr/bin/llvm5.0/llvm-dsymutil
+-rwxr-xr-x root       root           288512 ./usr/bin/llvm5.0/llvm-dsymutil
 -rwxr-xr-x root       root            38576 ./usr/bin/llvm5.0/llvm-dwarfdump
 -rwxr-xr-x root       root            71344 ./usr/bin/llvm5.0/llvm-dwp
 -rwxr-xr-x root       root            38576 ./usr/bin/llvm5.0/llvm-extract
@@ -32,7 +32,7 @@ lrwxrwxrwx root       root                7 ./usr/bin/llvm5.0/llvm-lib -> llvm-a
 -rwxr-xr-x root       root           100072 ./usr/bin/llvm5.0/llvm-nm
 -rwxr-xr-x root       root           456460 ./usr/bin/llvm5.0/llvm-objdump
 -rwxr-xr-x root       root            46768 ./usr/bin/llvm5.0/llvm-opt-report
--rwxr-xr-x root       root           698172 ./usr/bin/llvm5.0/llvm-pdbutil
+-rwxr-xr-x root       root           702268 ./usr/bin/llvm5.0/llvm-pdbutil
 -rwxr-xr-x root       root            91824 ./usr/bin/llvm5.0/llvm-profdata
 lrwxrwxrwx root       root                7 ./usr/bin/llvm5.0/llvm-ranlib -> llvm-ar
 lrwxrwxrwx root       root               12 ./usr/bin/llvm5.0/llvm-readelf -> llvm-readobj
@@ -43,7 +43,7 @@ lrwxrwxrwx root       root               12 ./usr/bin/llvm5.0/llvm-readelf -> ll
 -rwxr-xr-x root       root            63208 ./usr/bin/llvm5.0/llvm-stress
 -rwxr-xr-x root       root            22192 ./usr/bin/llvm5.0/llvm-strings
 -rwxr-xr-x root       root            30384 ./usr/bin/llvm5.0/llvm-symbolizer
--rwxr-xr-x root       root          2468288 ./usr/bin/llvm5.0/llvm-tblgen
+-rwxr-xr-x root       root          2472384 ./usr/bin/llvm5.0/llvm-tblgen
 -rwxr-xr-x root       root           276228 ./usr/bin/llvm5.0/llvm-xray
 -rwxr-xr-x root       root           255748 ./usr/bin/llvm5.0/obj2yaml
 -rwxr-xr-x root       root           292600 ./usr/bin/llvm5.0/opt
@@ -1234,4 +1234,4 @@ drwxr-xr-x root       root              140 ./usr/include/llvm5.0/llvm/XRay
 -rw-r--r-- root       root             2788 ./usr/include/llvm5.0/llvm/XRay/YAMLXRayRecord.h
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/llvm5.0
--rwxr-xr-x root       root            52009 ./usr/lib/llvm5.0/llvm-config
+-rwxr-xr-x root       root            56105 ./usr/lib/llvm5.0/llvm-config

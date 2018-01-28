@@ -1,9 +1,9 @@
 PV = 0.3.2
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = 
+RDEPENDS = glibc (>= 2.26) libgpiod (>= 0.3.2)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 67680
 FILES = /usr/bin/*
-FILELIST = 
+FILELIST = /usr/bin/gpiodetect /usr/bin/gpiofind /usr/bin/gpioget /usr/bin/gpioinfo /usr/bin/gpiomon /usr/bin/gpioset

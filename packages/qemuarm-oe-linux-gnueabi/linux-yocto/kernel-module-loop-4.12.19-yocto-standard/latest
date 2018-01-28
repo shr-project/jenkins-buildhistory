@@ -1,0 +1,10 @@
+PV = 4.12.19+gitAUTOINC+44a22d45cb_dafca619b2
+PR = r0
+PKGV = 4.12.19+git0+44a22d45cb_dafca619b2
+PKGR = r0.1
+RPROVIDES = kernel-module-loop
+RDEPENDS = kernel-4.12.19-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 29640
+FILES = /lib/modules/4.12.19-yocto-standard/kernel/drivers/block/loop.ko /etc/modules-load.d/loop.conf /etc/modprobe.d/loop.conf
+FILELIST = /lib/modules/4.12.19-yocto-standard/kernel/drivers/block/loop.ko

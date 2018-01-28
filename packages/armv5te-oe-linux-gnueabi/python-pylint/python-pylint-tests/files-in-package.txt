@@ -40,7 +40,7 @@ drwxr-xr-x root       root              220 ./usr/lib/python2.7/site-packages/py
 -rw-r--r-- root       root             1216 ./usr/lib/python2.7/site-packages/pylint/test/extensions/test_emptystring.py
 -rw-r--r-- root       root             2764 ./usr/lib/python2.7/site-packages/pylint/test/extensions/test_overlapping_exceptions.py
 -rw-r--r-- root       root             1608 ./usr/lib/python2.7/site-packages/pylint/test/extensions/test_redefined.py
-drwxr-xr-x root       root            13640 ./usr/lib/python2.7/site-packages/pylint/test/functional
+drwxr-xr-x root       root            13660 ./usr/lib/python2.7/site-packages/pylint/test/functional
 -rw-r--r-- root       root              447 ./usr/lib/python2.7/site-packages/pylint/test/functional/abstract_abc_methods.py
 -rw-r--r-- root       root              346 ./usr/lib/python2.7/site-packages/pylint/test/functional/abstract_class_instantiated_in_class.py
 -rw-r--r-- root       root             1753 ./usr/lib/python2.7/site-packages/pylint/test/functional/abstract_class_instantiated_py2.py
@@ -232,8 +232,8 @@ drwxr-xr-x root       root            13640 ./usr/lib/python2.7/site-packages/py
 -rw-r--r-- root       root              212 ./usr/lib/python2.7/site-packages/pylint/test/functional/formatted_string_literal_with_if_py36.py
 -rw-r--r-- root       root               28 ./usr/lib/python2.7/site-packages/pylint/test/functional/formatted_string_literal_with_if_py36.rc
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/pylint/test/functional/formatting.txt
--rw-r--r-- root       root             1730 ./usr/lib/python2.7/site-packages/pylint/test/functional/function_redefined.py
--rw-r--r-- root       root              341 ./usr/lib/python2.7/site-packages/pylint/test/functional/function_redefined.txt
+-rw-r--r-- root       root             1937 ./usr/lib/python2.7/site-packages/pylint/test/functional/function_redefined.py
+-rw-r--r-- root       root              461 ./usr/lib/python2.7/site-packages/pylint/test/functional/function_redefined.txt
 -rw-r--r-- root       root               53 ./usr/lib/python2.7/site-packages/pylint/test/functional/future_import.py
 -rw-r--r-- root       root              174 ./usr/lib/python2.7/site-packages/pylint/test/functional/future_unicode_literals.py
 -rw-r--r-- root       root               14 ./usr/lib/python2.7/site-packages/pylint/test/functional/future_unicode_literals.rc
@@ -251,8 +251,9 @@ drwxr-xr-x root       root            13640 ./usr/lib/python2.7/site-packages/py
 -rw-r--r-- root       root              168 ./usr/lib/python2.7/site-packages/pylint/test/functional/import_error.txt
 -rw-r--r-- root       root              198 ./usr/lib/python2.7/site-packages/pylint/test/functional/inconsistent_mro.py
 -rw-r--r-- root       root               94 ./usr/lib/python2.7/site-packages/pylint/test/functional/inconsistent_mro.txt
--rw-r--r-- root       root             3150 ./usr/lib/python2.7/site-packages/pylint/test/functional/inconsistent_returns.py
--rw-r--r-- root       root             1138 ./usr/lib/python2.7/site-packages/pylint/test/functional/inconsistent_returns.txt
+-rw-r--r-- root       root             4474 ./usr/lib/python2.7/site-packages/pylint/test/functional/inconsistent_returns.py
+-rw-r--r-- root       root               72 ./usr/lib/python2.7/site-packages/pylint/test/functional/inconsistent_returns.rc
+-rw-r--r-- root       root             1452 ./usr/lib/python2.7/site-packages/pylint/test/functional/inconsistent_returns.txt
 -rw-r--r-- root       root              392 ./usr/lib/python2.7/site-packages/pylint/test/functional/indexing_exception.py
 -rw-r--r-- root       root               62 ./usr/lib/python2.7/site-packages/pylint/test/functional/indexing_exception.rc
 -rw-r--r-- root       root              208 ./usr/lib/python2.7/site-packages/pylint/test/functional/indexing_exception.txt
@@ -495,7 +496,7 @@ drwxr-xr-x root       root            13640 ./usr/lib/python2.7/site-packages/py
 -rw-r--r-- root       root               86 ./usr/lib/python2.7/site-packages/pylint/test/functional/star_needs_assignment_target.txt
 -rw-r--r-- root       root             1712 ./usr/lib/python2.7/site-packages/pylint/test/functional/statement_without_effect.py
 -rw-r--r-- root       root             2264 ./usr/lib/python2.7/site-packages/pylint/test/functional/statement_without_effect.txt
--rw-r--r-- root       root             2307 ./usr/lib/python2.7/site-packages/pylint/test/functional/stop_iteration_inside_generator.py
+-rw-r--r-- root       root             2478 ./usr/lib/python2.7/site-packages/pylint/test/functional/stop_iteration_inside_generator.py
 -rw-r--r-- root       root               28 ./usr/lib/python2.7/site-packages/pylint/test/functional/stop_iteration_inside_generator.rc
 -rw-r--r-- root       root              724 ./usr/lib/python2.7/site-packages/pylint/test/functional/stop_iteration_inside_generator.txt
 -rw-r--r-- root       root               40 ./usr/lib/python2.7/site-packages/pylint/test/functional/string_formatting_disable.py
@@ -631,7 +632,7 @@ drwxr-xr-x root       root            13640 ./usr/lib/python2.7/site-packages/py
 -rw-r--r-- root       root             1858 ./usr/lib/python2.7/site-packages/pylint/test/functional/unsupported_binary_operation.txt
 -rw-r--r-- root       root             2439 ./usr/lib/python2.7/site-packages/pylint/test/functional/unsupported_delete_operation.py
 -rw-r--r-- root       root             1347 ./usr/lib/python2.7/site-packages/pylint/test/functional/unsupported_delete_operation.txt
--rw-r--r-- root       root             1105 ./usr/lib/python2.7/site-packages/pylint/test/functional/unused_argument.py
+-rw-r--r-- root       root             1305 ./usr/lib/python2.7/site-packages/pylint/test/functional/unused_argument.py
 -rw-r--r-- root       root              111 ./usr/lib/python2.7/site-packages/pylint/test/functional/unused_argument_py3.py
 -rw-r--r-- root       root               28 ./usr/lib/python2.7/site-packages/pylint/test/functional/unused_argument_py3.rc
 -rw-r--r-- root       root               94 ./usr/lib/python2.7/site-packages/pylint/test/functional/unused_argument_py3.txt
@@ -914,7 +915,7 @@ drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/py
 -rw-r--r-- root       root            18276 ./usr/lib/python2.7/site-packages/pylint/test/test_self.py
 -rw-r--r-- root       root            17941 ./usr/lib/python2.7/site-packages/pylint/test/unittest_checker_base.py
 -rw-r--r-- root       root             3233 ./usr/lib/python2.7/site-packages/pylint/test/unittest_checker_classes.py
--rw-r--r-- root       root             2353 ./usr/lib/python2.7/site-packages/pylint/test/unittest_checker_exceptions.py
+-rw-r--r-- root       root             2875 ./usr/lib/python2.7/site-packages/pylint/test/unittest_checker_exceptions.py
 -rw-r--r-- root       root            14594 ./usr/lib/python2.7/site-packages/pylint/test/unittest_checker_format.py
 -rw-r--r-- root       root             3542 ./usr/lib/python2.7/site-packages/pylint/test/unittest_checker_imports.py
 -rw-r--r-- root       root             1939 ./usr/lib/python2.7/site-packages/pylint/test/unittest_checker_logging.py

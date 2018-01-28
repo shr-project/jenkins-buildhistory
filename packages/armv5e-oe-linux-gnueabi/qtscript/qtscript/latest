@@ -1,10 +1,10 @@
 PV = 5.10.0+gitAUTOINC+0bb3f3017f
 PR = r0
 PKGV = 5.10.0+git0+0bb3f3017f
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) qtbase (>= 5.10.0+git0+50117d738a)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) qtbase (>= 5.10.0+git0+50117d738a)
 RRECOMMENDS = qtscript-plugins qtscript-qmlplugins
-PKGSIZE = 2747918
+PKGSIZE = 2743822
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtscript /usr/lib/qtscript/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5Script.so.5 /usr/lib/libQt5Script.so.5.10 /usr/lib/libQt5Script.so.5.10.0 /usr/lib/libQt5ScriptTools.so.5 /usr/lib/libQt5ScriptTools.so.5.10 /usr/lib/libQt5ScriptTools.so.5.10.0

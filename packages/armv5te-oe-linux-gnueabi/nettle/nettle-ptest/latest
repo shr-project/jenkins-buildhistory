@@ -1,8 +1,8 @@
 PV = 3.4
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) gmp (>= 6.1.2) libgcc (>= 7.2.0) nettle (>= 3.4)
+RDEPENDS = glibc (>= 2.26) gmp (>= 6.1.2) libgcc (>= 7.3.0) nettle (>= 3.4)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 4623979
 FILES = /usr/lib/nettle/ptest

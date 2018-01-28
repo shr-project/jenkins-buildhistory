@@ -1,8 +1,8 @@
 PV = 2.4.0
 PR = r0
-PKGR = r0.24
+PKGR = r0.25
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libcurl (>= 7.54.1) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.26) libcurl (>= 7.57.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 26700
 FILES = /usr/share/GeoIP /etc/GeoIP.conf /etc/cron.d/geoipupdate.cron /usr/bin/geoipupdate
