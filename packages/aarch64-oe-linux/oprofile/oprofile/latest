@@ -1,8 +1,8 @@
 PV = 1.1.0
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = binutils-symlinks glibc (>= 2.26) libbfd (>= 2.29.1) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0) popt (>= 1.16)
+RDEPENDS = binutils-symlinks glibc (>= 2.26) libbfd (>= 2.29.1) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) popt (>= 1.16)
 RRECOMMENDS = kernel-vmlinux
 PKGSIZE = 5641645
 FILES = /usr/bin /usr/lib/oprofile/lib*.so.* /usr/share/oprofile
