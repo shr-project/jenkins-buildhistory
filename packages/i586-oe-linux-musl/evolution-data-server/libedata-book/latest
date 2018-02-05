@@ -1,9 +1,9 @@
 PV = 3.26.3
 PR = r0
 PKG = libedata-book-1.2-25
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libedata-book (=3.26.3)
-RDEPENDS = evolution-data-server (>= 3.26.3) glib-2.0 (>= 2.54.2) libebook (>= 3.26.3) libedataserver (>= 3.26.3) libgcc (>= 7.3.0) libsoup-2.4 (>= 2.60.2) libsqlite3 (>= 3.22.0) musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = evolution-data-server (>= 3.26.3) glib-2.0 (>= 2.54.2) libebook (>= 3.26.3) libedataserver (>= 3.26.3) libgcc (>= 7.3.0) libsoup-2.4 (>= 2.60.3) libsqlite3 (>= 3.22.0) musl (>= 1.1.18+git1+4000b0107d)
 RRECOMMENDS = 
 PKGSIZE = 563241
 FILES = /usr/libexec/e-addressbook-factory /usr/share/dbus-1/services/*.AddressBook.service /usr/lib/libedata-book-*.so.* /usr/lib/evolution-data-server-*/extensions/libebook*.so /usr/share/evolution-data-server-1.4/weather/Locations.xml
