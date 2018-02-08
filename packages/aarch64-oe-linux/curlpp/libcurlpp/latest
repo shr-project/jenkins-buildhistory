@@ -1,9 +1,9 @@
 PV = 0.8.1
 PR = r0
 PKG = libcurlpp1
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = libcurlpp (=0.8.1)
-RDEPENDS = glibc (>= 2.26) libcurl (>= 7.54.1) libgcc (>= 7.2.0) libstdc++ (>= 7.2.0)
+RDEPENDS = glibc (>= 2.26) libcurl (>= 7.57.0) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0)
 RRECOMMENDS = 
 PKGSIZE = 133402
 FILES = /usr/lib/lib*.so.*

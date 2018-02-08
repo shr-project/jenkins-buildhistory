@@ -1,8 +1,8 @@
 PV = 1.7.4
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libcrypto (>= 1.0.2m) libdevmapper (>= 2.02.171) libssl (>= 1.0.2m) popt (>= 1.16) util-linux-libuuid (>= 2.31)
+RDEPENDS = glibc (>= 2.26) libcrypto (>= 1.0.2n) libdevmapper (>= 2.02.171) libssl (>= 1.0.2n) popt (>= 1.16) util-linux-libuuid (>= 2.31)
 RRECOMMENDS = kernel-module-aes-generic kernel-module-cbc kernel-module-dm-crypt kernel-module-md5 kernel-module-sha256-generic kernel-module-xts
 PKGSIZE = 342902
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cryptsetup /usr/lib/cryptsetup/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

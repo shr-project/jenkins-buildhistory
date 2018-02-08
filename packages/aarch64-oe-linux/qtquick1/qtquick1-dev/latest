@@ -2,9 +2,9 @@ PV = 5.10.0+gitAUTOINC+b2476dcd53
 PR = r0
 PKG = libqt5declarative-dev
 PKGV = 5.10.0+git0+b2476dcd53
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = qtquick1-dev (=5.10.0+git0+b2476dcd53)
-RDEPENDS = qtquick1 (= 5.10.0+git0+b2476dcd53-r0.5)
+RDEPENDS = qtquick1 (= 5.10.0+git0+b2476dcd53-r0.6)
 RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtquick1 qtquick1-mkspecs qtquick1-qmldesigner qtscript-dev qtsvg-dev qtwebkit-dev qtxmlpatterns-dev
 PKGSIZE = 982020
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtquick1/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*

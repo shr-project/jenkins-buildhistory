@@ -1,9 +1,9 @@
-PV = s20151218
+PV = s20161105
 PR = r0
-PKGR = r0.12
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libcap (>= 2.25) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.26) libcap (>= 2.25) libidn (>= 1.33) nettle (>= 3.4) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 68112
+PKGSIZE = 68592
 FILES = /bin/ping.iputils
 FILELIST = /bin/ping.iputils

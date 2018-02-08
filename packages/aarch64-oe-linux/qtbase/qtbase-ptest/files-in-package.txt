@@ -9,7 +9,7 @@ drwxr-xr-x root       root             9560 ./usr/lib/qtbase/ptest
 -rw-r--r-- root       root          1732200 ./usr/lib/qtbase/ptest/tst_json
 -rw-r--r-- root       root          4485256 ./usr/lib/qtbase/ptest/tst_lancelot
 -rw-r--r-- root       root          1087800 ./usr/lib/qtbase/ptest/tst_languagechange
--rw-r--r-- root       root           772640 ./usr/lib/qtbase/ptest/tst_largefile
+-rw-r--r-- root       root           772600 ./usr/lib/qtbase/ptest/tst_largefile
 -rw-r--r-- root       root             8524 ./usr/lib/qtbase/ptest/tst_list
 -rw-r--r-- root       root          2472440 ./usr/lib/qtbase/ptest/tst_modeltest
 -rw-r--r-- root       root          1226520 ./usr/lib/qtbase/ptest/tst_networkselftest
@@ -24,7 +24,7 @@ drwxr-xr-x root       root             9560 ./usr/lib/qtbase/ptest
 -rw-r--r-- root       root          1316328 ./usr/lib/qtbase/ptest/tst_qabstractslider
 -rw-r--r-- root       root           641624 ./usr/lib/qtbase/ptest/tst_qabstractsocket
 -rw-r--r-- root       root           915264 ./usr/lib/qtbase/ptest/tst_qabstracttextdocumentlayout
--rw-r--r-- root       root          2865216 ./usr/lib/qtbase/ptest/tst_qaccessibility
+-rw-r--r-- root       root          2865248 ./usr/lib/qtbase/ptest/tst_qaccessibility
 -rw-r--r-- root       root          1292096 ./usr/lib/qtbase/ptest/tst_qaction
 -rw-r--r-- root       root           792808 ./usr/lib/qtbase/ptest/tst_qactiongroup
 -rw-r--r-- root       root          1287016 ./usr/lib/qtbase/ptest/tst_qalgorithms
@@ -79,7 +79,7 @@ drwxr-xr-x root       root             9560 ./usr/lib/qtbase/ptest
 -rw-r--r-- root       root          1286152 ./usr/lib/qtbase/ptest/tst_qdate
 -rw-r--r-- root       root          1796000 ./usr/lib/qtbase/ptest/tst_qdatetime
 -rw-r--r-- root       root          2206832 ./usr/lib/qtbase/ptest/tst_qdatetimeedit
--rw-r--r-- root       root          4505200 ./usr/lib/qtbase/ptest/tst_qdbusabstractadaptor
+-rw-r--r-- root       root          4505176 ./usr/lib/qtbase/ptest/tst_qdbusabstractadaptor
 -rw-r--r-- root       root          2304744 ./usr/lib/qtbase/ptest/tst_qdbusabstractinterface
 -rw-r--r-- root       root          1557968 ./usr/lib/qtbase/ptest/tst_qdbusconnection
 -rw-r--r-- root       root           731408 ./usr/lib/qtbase/ptest/tst_qdbusconnection_delayed
@@ -88,7 +88,7 @@ drwxr-xr-x root       root             9560 ./usr/lib/qtbase/ptest
 -rw-r--r-- root       root           643328 ./usr/lib/qtbase/ptest/tst_qdbusconnection_no_libdbus
 -rw-r--r-- root       root          1580864 ./usr/lib/qtbase/ptest/tst_qdbusconnection_spyhook
 -rw-r--r-- root       root           674936 ./usr/lib/qtbase/ptest/tst_qdbuscontext
--rw-r--r-- root       root          4044304 ./usr/lib/qtbase/ptest/tst_qdbusinterface
+-rw-r--r-- root       root          4044280 ./usr/lib/qtbase/ptest/tst_qdbusinterface
 -rw-r--r-- root       root           988368 ./usr/lib/qtbase/ptest/tst_qdbuslocalcalls
 -rw-r--r-- root       root          1548240 ./usr/lib/qtbase/ptest/tst_qdbusmetaobject
 -rw-r--r-- root       root          1559632 ./usr/lib/qtbase/ptest/tst_qdbusmetatype
@@ -104,10 +104,10 @@ drwxr-xr-x root       root             9560 ./usr/lib/qtbase/ptest
 -rw-r--r-- root       root           751944 ./usr/lib/qtbase/ptest/tst_qdesktopservices
 -rw-r--r-- root       root           796984 ./usr/lib/qtbase/ptest/tst_qdesktopwidget
 -rw-r--r-- root       root           973304 ./usr/lib/qtbase/ptest/tst_qdial
--rw-r--r-- root       root           953064 ./usr/lib/qtbase/ptest/tst_qdialog
+-rw-r--r-- root       root           953088 ./usr/lib/qtbase/ptest/tst_qdialog
 -rw-r--r-- root       root          1358368 ./usr/lib/qtbase/ptest/tst_qdialogbuttonbox
 -rw-r--r-- root       root          1470488 ./usr/lib/qtbase/ptest/tst_qdir
--rw-r--r-- root       root          1228360 ./usr/lib/qtbase/ptest/tst_qdiriterator
+-rw-r--r-- root       root          1228296 ./usr/lib/qtbase/ptest/tst_qdiriterator
 -rw-r--r-- root       root          1223624 ./usr/lib/qtbase/ptest/tst_qdirmodel
 -rw-r--r-- root       root          1041600 ./usr/lib/qtbase/ptest/tst_qdnslookup
 -rw-r--r-- root       root           651352 ./usr/lib/qtbase/ptest/tst_qdnslookup_appless
@@ -170,7 +170,7 @@ drwxr-xr-x root       root             9560 ./usr/lib/qtbase/ptest
 -rw-r--r-- root       root           897368 ./usr/lib/qtbase/ptest/tst_qgraphicspixmapitem
 -rw-r--r-- root       root           894808 ./usr/lib/qtbase/ptest/tst_qgraphicspolygonitem
 -rw-r--r-- root       root           895808 ./usr/lib/qtbase/ptest/tst_qgraphicstransform
--rw-r--r-- root       root          3282944 ./usr/lib/qtbase/ptest/tst_qgraphicsview
+-rw-r--r-- root       root          3282920 ./usr/lib/qtbase/ptest/tst_qgraphicsview
 -rw-r--r-- root       root          1378328 ./usr/lib/qtbase/ptest/tst_qgridlayout
 -rw-r--r-- root       root          1152904 ./usr/lib/qtbase/ptest/tst_qgroupbox
 -rw-r--r-- root       root           743256 ./usr/lib/qtbase/ptest/tst_qguieventdispatcher
@@ -193,7 +193,7 @@ drwxr-xr-x root       root             9560 ./usr/lib/qtbase/ptest
 -rw-r--r-- root       root          1230896 ./usr/lib/qtbase/ptest/tst_qimagewriter
 -rw-r--r-- root       root           753312 ./usr/lib/qtbase/ptest/tst_qinputcontrol
 -rw-r--r-- root       root          1108440 ./usr/lib/qtbase/ptest/tst_qinputdialog
--rw-r--r-- root       root           970200 ./usr/lib/qtbase/ptest/tst_qinputmethod
+-rw-r--r-- root       root           970192 ./usr/lib/qtbase/ptest/tst_qinputmethod
 -rw-r--r-- root       root          1034496 ./usr/lib/qtbase/ptest/tst_qintvalidator
 -rw-r--r-- root       root          1077552 ./usr/lib/qtbase/ptest/tst_qiodevice
 -rw-r--r-- root       root          1586936 ./usr/lib/qtbase/ptest/tst_qitemdelegate
@@ -401,7 +401,7 @@ drwxr-xr-x root       root             9560 ./usr/lib/qtbase/ptest
 -rw-r--r-- root       root           762880 ./usr/lib/qtbase/ptest/tst_qsystemsemaphore
 -rw-r--r-- root       root           893448 ./usr/lib/qtbase/ptest/tst_qsystemtrayicon
 -rw-r--r-- root       root          1283544 ./usr/lib/qtbase/ptest/tst_qtabbar
--rw-r--r-- root       root          3051784 ./usr/lib/qtbase/ptest/tst_qtableview
+-rw-r--r-- root       root          3051776 ./usr/lib/qtbase/ptest/tst_qtableview
 -rw-r--r-- root       root          1949256 ./usr/lib/qtbase/ptest/tst_qtablewidget
 -rw-r--r-- root       root          1225384 ./usr/lib/qtbase/ptest/tst_qtabwidget
 -rw-r--r-- root       root          4968584 ./usr/lib/qtbase/ptest/tst_qtconcurrentfilter
@@ -460,7 +460,7 @@ drwxr-xr-x root       root             9560 ./usr/lib/qtbase/ptest
 -rw-r--r-- root       root          2913696 ./usr/lib/qtbase/ptest/tst_qvector_strictiterators
 -rw-r--r-- root       root          1391056 ./usr/lib/qtbase/ptest/tst_qversionnumber
 -rw-r--r-- root       root           936416 ./usr/lib/qtbase/ptest/tst_qwaitcondition
--rw-r--r-- root       root          6142040 ./usr/lib/qtbase/ptest/tst_qwidget
+-rw-r--r-- root       root          6142064 ./usr/lib/qtbase/ptest/tst_qwidget
 -rw-r--r-- root       root           859472 ./usr/lib/qtbase/ptest/tst_qwidgetaction
 -rw-r--r-- root       root           759192 ./usr/lib/qtbase/ptest/tst_qwidgetmetatype
 -rw-r--r-- root       root           943272 ./usr/lib/qtbase/ptest/tst_qwidgetsvariant
