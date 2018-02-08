@@ -1,9 +1,9 @@
 PV = 0.11.1
 PR = r0
 PKG = libdnf1
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = libdnf (=0.11.1)
-RDEPENDS = glib-2.0 (>= 2.54.2) glibc (>= 2.26) libpython3 (>= 3.5.3) librepo (>= 1.8.1) libsolv (>= 0.6.29) libsolvext (>= 0.6.29) python3-core rpm (>= 4.14.0)
+RDEPENDS = glib-2.0 (>= 2.54.2) glibc (>= 2.26) libpython3 (>= 3.5.4) librepo (>= 1.8.1) libsolv (>= 0.6.31) libsolvext (>= 0.6.31) python3-core rpm (>= 4.14.1)
 RRECOMMENDS = 
 PKGSIZE = 445901
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libdnf /usr/lib/libdnf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/* /usr/lib/girepository-*/*.typelib

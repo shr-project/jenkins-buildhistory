@@ -2,9 +2,9 @@ PV = 1.7.0-gitAUTOINC+8ddbcde84e
 PR = r0
 PKG = python3-libmraa
 PKGV = 1.7.0-git0+8ddbcde84e
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = python3-mraa (=1.7.0-git0+8ddbcde84e)
-RDEPENDS = glibc (>= 2.26) libgcc (>= 7.3.0) libpython3 (>= 3.5.3) libstdc++ (>= 7.3.0) mraa (>= 1.7.0-git0+8ddbcde84e) python3
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.3.0) libpython3 (>= 3.5.4) libstdc++ (>= 7.3.0) mraa (>= 1.7.0-git0+8ddbcde84e) python3
 RRECOMMENDS = 
 PKGSIZE = 178295
 FILES = /usr/lib/python3.5/site-packages/

@@ -1,9 +1,9 @@
 PV = 5.3.1
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libcap (>= 2.25) ncurses-libtinfo (>= 6.0+20170715)
+RDEPENDS = glibc (>= 2.26) libcap (>= 2.25) ncurses-libtinfo (>= 6.0+20171125) update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 1352928
-FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/zsh /usr/lib/zsh/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/zsh /usr/bin/zsh-5.3.1
+FILES = /bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/zsh /usr/lib/zsh/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILELIST = /bin/zsh /bin/zsh-5.3.1

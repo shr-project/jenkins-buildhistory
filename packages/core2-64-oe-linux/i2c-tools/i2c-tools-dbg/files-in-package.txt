@@ -1,7 +1,7 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
--rwxr-xr-x root       root            15032 ./usr/lib/.debug/libi2c.so.0.1.0
+-rwxr-xr-x root       root            14968 ./usr/lib/.debug/libi2c.so.0.1.0
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root              160 ./usr/sbin/.debug
 -rwxr-xr-x root       root            35344 ./usr/sbin/.debug/eeprog
@@ -9,7 +9,7 @@ drwxr-xr-x root       root              160 ./usr/sbin/.debug
 -rwxr-xr-x root       root            52072 ./usr/sbin/.debug/i2cdump
 -rwxr-xr-x root       root            42232 ./usr/sbin/.debug/i2cget
 -rwxr-xr-x root       root            48696 ./usr/sbin/.debug/i2cset
--rwxr-xr-x root       root            45880 ./usr/sbin/.debug/i2ctransfer
+-rwxr-xr-x root       root            45832 ./usr/sbin/.debug/i2ctransfer
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/i2c-tools
@@ -19,11 +19,9 @@ drwxr-xr-x root       root              100 ./usr/src/debug/i2c-tools/4.0-r0/i2c
 -rw-r--r-- root       root             5149 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/eeprog/24cXX.c
 -rw-r--r-- root       root             2008 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/eeprog/24cXX.h
 -rw-r--r-- root       root             7321 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/eeprog/eeprog.c
-drwxr-xr-x root       root               80 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/include
+drwxr-xr-x root       root               60 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/include
 drwxr-xr-x root       root               60 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/include/i2c
 -rw-r--r-- root       root             2454 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/include/i2c/smbus.h
-drwxr-xr-x root       root               60 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/include/linux
--rw-r--r-- root       root             2427 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/include/linux/i2c-dev.h
 drwxr-xr-x root       root               60 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/lib
 -rw-r--r-- root       root             5727 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/lib/smbus.c
 drwxr-xr-x root       root              220 ./usr/src/debug/i2c-tools/4.0-r0/i2c-tools-4.0/tools

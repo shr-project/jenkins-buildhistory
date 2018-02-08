@@ -1,0 +1,5 @@
+PV = 0.5.0+gitAUTOINC+db6efbb8c7
+PR = r0
+DEPENDS = bash elfutils virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = kpatch-build kpatch-dbg kpatch-staticdev kpatch-dev kpatch-doc kpatch-locale kpatch
+LAYER = openembedded-layer
