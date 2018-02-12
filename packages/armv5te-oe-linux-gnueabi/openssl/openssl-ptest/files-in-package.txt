@@ -26,7 +26,7 @@ drwxr-xr-x root       root               60 ./usr/lib/openssl/ptest/certs/expire
 -rw-r--r-- root       root              471 ./usr/lib/openssl/ptest/certs/expired/ICE.crl
 -rw-r--r-- root       root              165 ./usr/lib/openssl/ptest/certs/README.RootCerts
 -rwxr-xr-x root       root            29440 ./usr/lib/openssl/ptest/config
--rwxr-xr-x root       root           125887 ./usr/lib/openssl/ptest/Configure
+-rwxr-xr-x root       root           125963 ./usr/lib/openssl/ptest/Configure
 drwxr-xr-x root       root               60 ./usr/lib/openssl/ptest/crypto
 -rw-r--r-- root       root             7658 ./usr/lib/openssl/ptest/crypto/constant_time_locl.h
 -rw-r--r-- root       root            25318 ./usr/lib/openssl/ptest/e_os.h
@@ -95,9 +95,9 @@ drwxr-xr-x root       root             1540 ./usr/lib/openssl/ptest/include/open
 -rw-r--r-- root       root             3789 ./usr/lib/openssl/ptest/include/openssl/ssl23.h
 -rw-r--r-- root       root            12049 ./usr/lib/openssl/ptest/include/openssl/ssl2.h
 -rw-r--r-- root       root            33281 ./usr/lib/openssl/ptest/include/openssl/ssl3.h
--rw-r--r-- root       root           149068 ./usr/lib/openssl/ptest/include/openssl/ssl.h
+-rw-r--r-- root       root           149082 ./usr/lib/openssl/ptest/include/openssl/ssl.h
 -rw-r--r-- root       root             4532 ./usr/lib/openssl/ptest/include/openssl/stack.h
--rw-r--r-- root       root            27694 ./usr/lib/openssl/ptest/include/openssl/symhacks.h
+-rw-r--r-- root       root            27817 ./usr/lib/openssl/ptest/include/openssl/symhacks.h
 -rw-r--r-- root       root            39411 ./usr/lib/openssl/ptest/include/openssl/tls1.h
 -rw-r--r-- root       root            34560 ./usr/lib/openssl/ptest/include/openssl/ts.h
 -rw-r--r-- root       root             4631 ./usr/lib/openssl/ptest/include/openssl/txt_db.h
@@ -112,12 +112,12 @@ lrwxrwxrwx root       root               17 ./usr/lib/openssl/ptest/libssl.a -> 
 -rw-r--r-- root       root            25390 ./usr/lib/openssl/ptest/Makefile
 -rw-r--r-- root       root            23805 ./usr/lib/openssl/ptest/Makefile.org
 -rwxr-xr-x root       root               26 ./usr/lib/openssl/ptest/run-ptest
-drwxr-xr-x root       root             4260 ./usr/lib/openssl/ptest/test
+drwxr-xr-x root       root             4320 ./usr/lib/openssl/ptest/test
 -rwxr-xr-x root       root             5752 ./usr/lib/openssl/ptest/test/asn1test
 -rw-r--r-- root       root              593 ./usr/lib/openssl/ptest/test/asn1test.c
 -rw-r--r-- root       root             8664 ./usr/lib/openssl/ptest/test/asn1test.o
 -rwxr-xr-x root       root            14520 ./usr/lib/openssl/ptest/test/bad_dtls_test
--rw-r--r-- root       root            29608 ./usr/lib/openssl/ptest/test/bad_dtls_test.c
+-rw-r--r-- root       root            29710 ./usr/lib/openssl/ptest/test/bad_dtls_test.c
 -rw-r--r-- root       root            92148 ./usr/lib/openssl/ptest/test/bad_dtls_test.o
 -rwxr-xr-x root       root             4204 ./usr/lib/openssl/ptest/test/bctest
 -rw-r--r-- root       root             4707 ./usr/lib/openssl/ptest/test/bctest.com
@@ -197,6 +197,9 @@ drwxr-xr-x root       root              320 ./usr/lib/openssl/ptest/test/certs
 -rwxr-xr-x root       root             9844 ./usr/lib/openssl/ptest/test/exptest
 -rw-r--r-- root       root             9601 ./usr/lib/openssl/ptest/test/exptest.c
 -rw-r--r-- root       root            27628 ./usr/lib/openssl/ptest/test/exptest.o
+-rwxr-xr-x root       root            14028 ./usr/lib/openssl/ptest/test/fatalerrtest
+-rw-r--r-- root       root             2953 ./usr/lib/openssl/ptest/test/fatalerrtest.c
+-rw-r--r-- root       root            53016 ./usr/lib/openssl/ptest/test/fatalerrtest.o
 -rwxr-xr-x root       root             5752 ./usr/lib/openssl/ptest/test/heartbeat_test
 -rw-r--r-- root       root            15103 ./usr/lib/openssl/ptest/test/heartbeat_test.c
 -rw-r--r-- root       root            48864 ./usr/lib/openssl/ptest/test/heartbeat_test.o
@@ -212,8 +215,8 @@ drwxr-xr-x root       root              320 ./usr/lib/openssl/ptest/test/certs
 -rwxr-xr-x root       root             5752 ./usr/lib/openssl/ptest/test/jpaketest
 -rw-r--r-- root       root             1137 ./usr/lib/openssl/ptest/test/jpaketest.c
 -rw-r--r-- root       root             8600 ./usr/lib/openssl/ptest/test/jpaketest.o
--rw-r--r-- root       root            45719 ./usr/lib/openssl/ptest/test/Makefile
--rw-r--r-- root       root            16470 ./usr/lib/openssl/ptest/test/Makefile.bak
+-rw-r--r-- root       root            47543 ./usr/lib/openssl/ptest/test/Makefile
+-rw-r--r-- root       root            16857 ./usr/lib/openssl/ptest/test/Makefile.bak
 -rw-r--r-- root       root            26366 ./usr/lib/openssl/ptest/test/maketests.com
 -rwxr-xr-x root       root             5748 ./usr/lib/openssl/ptest/test/md2test
 -rw-r--r-- root       root             1137 ./usr/lib/openssl/ptest/test/md2test.c
@@ -351,7 +354,7 @@ drwxr-xr-x root       root              300 ./usr/lib/openssl/ptest/test/smime-c
 -rw-r--r-- root       root             3673 ./usr/lib/openssl/ptest/test/srptest.c
 -rw-r--r-- root       root            18932 ./usr/lib/openssl/ptest/test/srptest.o
 -rwxr-xr-x root       root            47212 ./usr/lib/openssl/ptest/test/ssltest
--rw-r--r-- root       root           113088 ./usr/lib/openssl/ptest/test/ssltest.c
+-rw-r--r-- root       root           113136 ./usr/lib/openssl/ptest/test/ssltest.c
 -rw-r--r-- root       root            20030 ./usr/lib/openssl/ptest/test/ssltestlib.c
 -rw-r--r-- root       root             1264 ./usr/lib/openssl/ptest/test/ssltestlib.h
 -rw-r--r-- root       root            73712 ./usr/lib/openssl/ptest/test/ssltestlib.o
