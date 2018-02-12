@@ -1,9 +1,9 @@
 PV = 4.9.3
 PR = r0
 PKG = libproj12
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = proj (=4.9.3)
-RDEPENDS = musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = musl (>= 1.1.18+git2+628cf979b2)
 RRECOMMENDS = 
 PKGSIZE = 1973615
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/proj /usr/lib/proj/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/proj

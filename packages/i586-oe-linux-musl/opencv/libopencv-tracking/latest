@@ -2,9 +2,9 @@ PV = 3.3+gitAUTOINC+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4
 PR = r0
 PKG = libopencv-tracking3.3
 PKGV = 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = libopencv-tracking (=3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4)
-RDEPENDS = libgcc (>= 7.3.0) libopencv-core (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libopencv-imgproc (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libopencv-video (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libstdc++ (>= 7.3.0) musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = libgcc (>= 7.3.0) libopencv-core (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libopencv-imgproc (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libopencv-video (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2)
 RRECOMMENDS = 
 PKGSIZE = 3283235
 FILES = /usr/lib/libopencv_tracking.so /usr/lib/libopencv_tracking.so.3.3 /usr/lib/libopencv_tracking.so.3.3.0

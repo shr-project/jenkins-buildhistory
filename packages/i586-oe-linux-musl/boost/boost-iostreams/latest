@@ -1,10 +1,10 @@
-PV = 1.65.1
+PV = 1.66.0
 PR = r0
-PKG = libboost-iostreams1.65.1
-PKGR = r0.10
-RPROVIDES = boost-iostreams (=1.65.1)
-RDEPENDS = libbz2 (>= 1.0.6) libgcc (>= 7.3.0) liblzma (>= 5.2.3) libstdc++ (>= 7.3.0) musl (>= 1.1.18+git1+4000b0107d) zlib (>= 1.2.11)
+PKG = libboost-iostreams1.66.0
+PKGR = r0.0
+RPROVIDES = boost-iostreams (=1.66.0)
+RDEPENDS = libbz2 (>= 1.0.6) libgcc (>= 7.3.0) liblzma (>= 5.2.3) libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 112180
 FILES = /usr/lib/libboost_iostreams*.so.*
-FILELIST = /usr/lib/libboost_iostreams.so.1.65.1
+FILELIST = /usr/lib/libboost_iostreams.so.1.66.0

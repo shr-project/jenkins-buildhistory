@@ -1,8 +1,8 @@
 PV = 3.5.6
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = libkmod (>= 25+git0+aca4eca103) libpci (>= 3.5.6) libudev (>= 234) musl (>= 1.1.18+git1+4000b0107d) pciutils-ids zlib (>= 1.2.11)
+RDEPENDS = libkmod (>= 25+git0+aca4eca103) libpci (>= 3.5.6) libudev (>= 234) musl (>= 1.1.18+git2+628cf979b2) pciutils-ids zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 116950
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/pciutils /usr/lib/pciutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

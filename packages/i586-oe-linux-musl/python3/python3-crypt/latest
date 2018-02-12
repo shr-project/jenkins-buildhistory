@@ -1,8 +1,8 @@
-PV = 3.5.3
+PV = 3.5.4
 PR = r1.0
-PKGR = r1.0.10
+PKGR = r1.0.0
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.0.2m) libpython3 (>= 3.5.3) musl (>= 1.1.18+git1+4000b0107d) python3-core python3-math python3-stringold
+RDEPENDS = libcrypto (>= 1.0.2n) libpython3 (>= 3.5.4) musl (>= 1.1.18+git2+628cf979b2) python3-core python3-math python3-stringold
 RRECOMMENDS = openssl
 PKGSIZE = 131334
 FILES = /usr/lib/python3.5/crypt.py /usr/lib/python3.5/hashlib.py /usr/lib/python3.5/lib-dynload/_crypt.*.so /usr/lib/python3.5/lib-dynload/_hashlib.*.so /usr/lib/python3.5/lib-dynload/_sha256.*.so /usr/lib/python3.5/lib-dynload/_sha512.*.so /usr/lib/python3.5/__pycache__/crypt.*.pyc /usr/lib/python3.5/__pycache__/hashlib.*.pyc

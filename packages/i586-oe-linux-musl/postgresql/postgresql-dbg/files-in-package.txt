@@ -9,7 +9,7 @@ drwxr-xr-x root       root              700 ./usr/bin/.debug
 -rwxr-xr-x root       root           132844 ./usr/bin/.debug/droplang
 -rwxr-xr-x root       root           103540 ./usr/bin/.debug/dropuser
 -rwxr-xr-x root       root           681332 ./usr/bin/.debug/ecpg
--rwxr-xr-x root       root           204524 ./usr/bin/.debug/initdb
+-rwxr-xr-x root       root           204532 ./usr/bin/.debug/initdb
 -rwxr-xr-x root       root            64040 ./usr/bin/.debug/oid2name
 -rwxr-xr-x root       root            51344 ./usr/bin/.debug/pg_archivecleanup
 -rwxr-xr-x root       root           147008 ./usr/bin/.debug/pg_basebackup
@@ -20,7 +20,7 @@ drwxr-xr-x root       root              700 ./usr/bin/.debug
 -rwxr-xr-x root       root           534616 ./usr/bin/.debug/pg_dump
 -rwxr-xr-x root       root           119564 ./usr/bin/.debug/pg_dumpall
 -rwxr-xr-x root       root            75644 ./usr/bin/.debug/pg_isready
--rwxr-xr-x root       root           112964 ./usr/bin/.debug/pg_receivexlog
+-rwxr-xr-x root       root           112932 ./usr/bin/.debug/pg_receivexlog
 -rwxr-xr-x root       root           114900 ./usr/bin/.debug/pg_recvlogical
 -rwxr-xr-x root       root            90284 ./usr/bin/.debug/pg_resetxlog
 -rwxr-xr-x root       root           284360 ./usr/bin/.debug/pg_restore
@@ -29,8 +29,8 @@ drwxr-xr-x root       root              700 ./usr/bin/.debug
 -rwxr-xr-x root       root            50168 ./usr/bin/.debug/pg_test_timing
 -rwxr-xr-x root       root           212804 ./usr/bin/.debug/pg_upgrade
 -rwxr-xr-x root       root           242936 ./usr/bin/.debug/pg_xlogdump
--rwxr-xr-x root       root         16759436 ./usr/bin/.debug/postgres
--rwxr-xr-x root       root           512692 ./usr/bin/.debug/psql
+-rwxr-xr-x root       root         16757088 ./usr/bin/.debug/postgres
+-rwxr-xr-x root       root           512684 ./usr/bin/.debug/psql
 -rwxr-xr-x root       root           111664 ./usr/bin/.debug/reindexdb
 -rwxr-xr-x root       root           113140 ./usr/bin/.debug/vacuumdb
 -rwxr-xr-x root       root            57012 ./usr/bin/.debug/vacuumlo
@@ -39,7 +39,7 @@ drwxr-xr-x root       root              120 ./usr/lib/.debug
 -rwxr-xr-x root       root            53608 ./usr/lib/.debug/libecpg_compat.so.3.6
 -rwxr-xr-x root       root           192368 ./usr/lib/.debug/libecpg.so.6.6
 -rwxr-xr-x root       root           138356 ./usr/lib/.debug/libpgtypes.so.3.5
--rwxr-xr-x root       root           510632 ./usr/lib/.debug/libpq.so.5.7
+-rwxr-xr-x root       root           510644 ./usr/lib/.debug/libpq.so.5.7
 drwxr-xr-x root       root               80 ./usr/lib/postgresql
 drwxr-xr-x root       root             1660 ./usr/lib/postgresql/.debug
 -rwxr-xr-x root       root            43592 ./usr/lib/postgresql/.debug/adminpack.so
@@ -48,7 +48,7 @@ drwxr-xr-x root       root             1660 ./usr/lib/postgresql/.debug
 -rwxr-xr-x root       root            39664 ./usr/lib/postgresql/.debug/auto_explain.so
 -rwxr-xr-x root       root            33076 ./usr/lib/postgresql/.debug/autoinc.so
 -rwxr-xr-x root       root            68952 ./usr/lib/postgresql/.debug/btree_gin.so
--rwxr-xr-x root       root           354700 ./usr/lib/postgresql/.debug/btree_gist.so
+-rwxr-xr-x root       root           354728 ./usr/lib/postgresql/.debug/btree_gist.so
 -rwxr-xr-x root       root            20984 ./usr/lib/postgresql/.debug/chkpass.so
 -rwxr-xr-x root       root            26524 ./usr/lib/postgresql/.debug/citext.so
 -rwxr-xr-x root       root            76496 ./usr/lib/postgresql/.debug/cube.so
@@ -66,7 +66,7 @@ drwxr-xr-x root       root             1660 ./usr/lib/postgresql/.debug
 -rwxr-xr-x root       root            21900 ./usr/lib/postgresql/.debug/euc_tw_and_big5.so
 -rwxr-xr-x root       root            70180 ./usr/lib/postgresql/.debug/file_fdw.so
 -rwxr-xr-x root       root            62628 ./usr/lib/postgresql/.debug/fuzzystrmatch.so
--rwxr-xr-x root       root           151864 ./usr/lib/postgresql/.debug/hstore.so
+-rwxr-xr-x root       root           151852 ./usr/lib/postgresql/.debug/hstore.so
 -rwxr-xr-x root       root            33120 ./usr/lib/postgresql/.debug/insert_username.so
 -rwxr-xr-x root       root           120648 ./usr/lib/postgresql/.debug/_int.so
 -rwxr-xr-x root       root            59312 ./usr/lib/postgresql/.debug/isn.so
@@ -101,7 +101,7 @@ drwxr-xr-x root       root             1660 ./usr/lib/postgresql/.debug
 -rwxr-xr-x root       root            44868 ./usr/lib/postgresql/.debug/test_decoding.so
 -rwxr-xr-x root       root            10652 ./usr/lib/postgresql/.debug/test_parser.so
 -rwxr-xr-x root       root            54920 ./usr/lib/postgresql/.debug/test_shm_mq.so
--rwxr-xr-x root       root            42092 ./usr/lib/postgresql/.debug/timetravel.so
+-rwxr-xr-x root       root            41996 ./usr/lib/postgresql/.debug/timetravel.so
 -rwxr-xr-x root       root            45748 ./usr/lib/postgresql/.debug/tsearch2.so
 -rwxr-xr-x root       root            36100 ./usr/lib/postgresql/.debug/unaccent.so
 -rwxr-xr-x root       root            11644 ./usr/lib/postgresql/.debug/utf8_and_ascii.so
@@ -128,7 +128,7 @@ drwxr-xr-x root       root               60 ./usr/lib/postgresql/pgxs/src
 drwxr-xr-x root       root               60 ./usr/lib/postgresql/pgxs/src/test
 drwxr-xr-x root       root               60 ./usr/lib/postgresql/pgxs/src/test/regress
 drwxr-xr-x root       root               60 ./usr/lib/postgresql/pgxs/src/test/regress/.debug
--rwxr-xr-x root       root           110392 ./usr/lib/postgresql/pgxs/src/test/regress/.debug/pg_regress
+-rwxr-xr-x root       root           110656 ./usr/lib/postgresql/pgxs/src/test/regress/.debug/pg_regress
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/postgresql

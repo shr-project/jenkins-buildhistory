@@ -1,9 +1,9 @@
 PV = 1.0.2
 PR = r0
 PKG = libgupnp-1.0-4
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = gupnp (=1.0.2)
-RDEPENDS = glib-2.0 (>= 2.54.2) gssdp (>= 1.0.2) libsoup-2.4 (>= 2.60.3) libxml2 (>= 2.9.7) musl (>= 1.1.18+git1+4000b0107d) util-linux-libuuid (>= 2.31)
+RDEPENDS = glib-2.0 (>= 2.54.2) gssdp (>= 1.0.2) libsoup-2.4 (>= 2.60.3) libxml2 (>= 2.9.7) musl (>= 1.1.18+git2+628cf979b2) util-linux-libuuid (>= 2.31)
 RRECOMMENDS = 
 PKGSIZE = 225125
 FILES = /usr/lib/*.so.* /usr/lib/girepository-*/*.typelib

@@ -1,8 +1,8 @@
 PV = 1.32.0
 PR = r0
-PKGR = r0.11
+PKGR = r0.12
 RPROVIDES = 
-RDEPENDS = bash glib-2.0 (>= 2.54.2) libgammu (>= 1.32.0) libgudev (>= 232) musl (>= 1.1.18+git1+4000b0107d) python-core
+RDEPENDS = bash glib-2.0 (>= 2.54.2) libgammu (>= 1.32.0) libgudev (>= 232) musl (>= 1.1.18+git2+628cf979b2) python-core
 RRECOMMENDS = 
 PKGSIZE = 331366
 FILES = /usr/bin/gammu /usr/bin/jadmaker /etc/bash_completion.d/gammu /usr/bin/gammu-detect /etc/gammurc

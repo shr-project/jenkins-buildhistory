@@ -1,0 +1,5 @@
+PV = 0.13.1
+PR = r0
+DEPENDS = virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/i586-oe-linux-musl-go virtual/i586-oe-linux-musl-go-runtime virtual/libc
+PACKAGES = glide-ptest glide-dbg glide-staticdev glide-dev glide-doc glide-locale glide
+LAYER = core

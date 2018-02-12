@@ -1,9 +1,9 @@
 PV = 1.1.9
 PR = r0
 PKG = libfluidsynth-bin
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = fluidsynth-bin (=1.1.9)
-RDEPENDS = fluidsynth (>= 1.1.9) musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = fluidsynth (>= 1.1.9) musl (>= 1.1.18+git2+628cf979b2)
 RRECOMMENDS = 
 PKGSIZE = 22288
 FILES = /usr/bin/* /usr/sbin/*

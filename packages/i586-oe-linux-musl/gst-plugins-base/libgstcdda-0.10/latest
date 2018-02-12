@@ -1,9 +1,9 @@
 PV = 0.10.36
 PR = r8
 PKG = libgstcdda-0.10-0
-PKGR = r8.10
+PKGR = r8.11
 RPROVIDES = libgstcdda-0.10 (=0.10.36)
-RDEPENDS = glib-2.0 (>= 2.54.2) gstreamer (>= 0.10.36) libgsttag-0.10 (>= 0.10.36) libxml2 (>= 2.9.7) musl (>= 1.1.18+git1+4000b0107d) zlib (>= 1.2.11)
+RDEPENDS = glib-2.0 (>= 2.54.2) gstreamer (>= 0.10.36) libgsttag-0.10 (>= 0.10.36) libxml2 (>= 2.9.7) musl (>= 1.1.18+git2+628cf979b2) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 38373
 FILES = /usr/lib/libgstcdda-0.10.so /usr/lib/libgstcdda-0.10.so.0 /usr/lib/libgstcdda-0.10.so.0.25.0

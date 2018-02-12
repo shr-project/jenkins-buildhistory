@@ -1,9 +1,9 @@
 PV = 0.10.8
 PR = r0
 PKG = libwbxml2-0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = wbxml2 (=0.10.8)
-RDEPENDS = expat (>= 2.2.5) musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = expat (>= 2.2.5) musl (>= 1.1.18+git2+628cf979b2)
 RRECOMMENDS = 
 PKGSIZE = 157095
 FILES = /usr/lib/*.so.*

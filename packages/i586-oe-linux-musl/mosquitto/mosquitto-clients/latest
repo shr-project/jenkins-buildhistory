@@ -1,8 +1,8 @@
 PV = 1.4.14
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = libmosquitto1 (>= 1.4.14) musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = libmosquitto1 (>= 1.4.14) musl (>= 1.1.18+git2+628cf979b2)
 RRECOMMENDS = 
 PKGSIZE = 68440
 FILES = /usr/bin/mosquitto_pub /usr/bin/mosquitto_sub

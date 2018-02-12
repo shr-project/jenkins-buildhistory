@@ -1,9 +1,9 @@
 PV = 4.0.1+gitrAUTOINC+2fc92b5f02
 PR = r0
 PKGV = 4.0.1+gitr0+2fc92b5f02
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libudev (>= 234) libx11 (>= 1.6.5) libxrandr (>= 1.5.1) musl (>= 1.1.18+git1+4000b0107d) ncurses-libncurses (>= 6.0+20170715) ncurses-libtinfo (>= 6.0+20170715)
+RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libudev (>= 234) libx11 (>= 1.6.5) libxrandr (>= 1.5.1) musl (>= 1.1.18+git2+628cf979b2) ncurses-libncurses (>= 6.0+20171125) ncurses-libtinfo (>= 6.0+20171125)
 RRECOMMENDS = kernel-module-cdc-acm
 PKGSIZE = 828214
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libcec /usr/lib/libcec/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so

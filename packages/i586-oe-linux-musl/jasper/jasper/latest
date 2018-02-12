@@ -1,9 +1,9 @@
 PV = 1.900.1
 PR = r1
 PKG = libjasper1
-PKGR = r1.9
+PKGR = r1.10
 RPROVIDES = jasper (=1.900.1)
-RDEPENDS = musl (>= 1.1.18+git1+4000b0107d)
+RDEPENDS = musl (>= 1.1.18+git2+628cf979b2)
 RRECOMMENDS = 
 PKGSIZE = 337362
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/jasper /usr/lib/jasper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

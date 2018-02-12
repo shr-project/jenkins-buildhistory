@@ -1,10 +1,10 @@
-PV = 1.1.18+gitAUTOINC+4000b0107d
+PV = 1.1.18+gitAUTOINC+628cf979b2
 PR = r0
-PKGV = 1.1.18+git1+4000b0107d
-PKGR = r0.5
+PKGV = 1.1.18+git2+628cf979b2
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = musl-dev (= 1.1.18+git1+4000b0107d-r0.5)
+RDEPENDS = musl-dev (= 1.1.18+git2+628cf979b2-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 5944584
+PKGSIZE = 5985584
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/musl/*.a
 FILELIST = /usr/lib/libc.a /usr/lib/libcrypt.a /usr/lib/libdl.a /usr/lib/libm.a /usr/lib/libpthread.a /usr/lib/libresolv.a /usr/lib/librt.a /usr/lib/libutil.a /usr/lib/libxnet.a

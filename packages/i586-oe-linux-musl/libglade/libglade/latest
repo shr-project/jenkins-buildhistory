@@ -1,9 +1,9 @@
 PV = 2.6.4
 PR = r5
 PKG = libglade-2.0-0
-PKGR = r5.10
+PKGR = r5.11
 RPROVIDES = libglade (=2.6.4)
-RDEPENDS = atk (>= 2.26.1) cairo (>= 1.14.12) fontconfig (>= 2.12.6) freetype (>= 2.9) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.54.2) gtk+ (>= 2.24.32) musl (>= 1.1.18+git1+4000b0107d) pango (>= 1.40.14) zlib (>= 1.2.11)
+RDEPENDS = atk (>= 2.26.1) cairo (>= 1.14.12) fontconfig (>= 2.12.6) freetype (>= 2.9) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.54.2) gtk+ (>= 2.24.32) musl (>= 1.1.18+git2+628cf979b2) pango (>= 1.40.14) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 107929
 FILES = /usr/lib/lib*.so.*
