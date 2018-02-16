@@ -1,0 +1,10 @@
+PV = 4.15+gitAUTOINC+64ad69e5b4_9c2e6c0fc7
+PR = r0
+PKGV = 4.15+git0+64ad69e5b4_9c2e6c0fc7
+PKGR = r0.1
+RPROVIDES = kernel-module-uvesafb
+RDEPENDS = kernel-4.15.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 33607
+FILES = /lib/modules/4.15.0-yocto-standard/kernel/drivers/video/fbdev/uvesafb.ko /etc/modules-load.d/uvesafb.conf /etc/modprobe.d/uvesafb.conf
+FILELIST = /etc/modprobe.d/uvesafb.conf /etc/modules-load.d/uvesafb.conf /lib/modules/4.15.0-yocto-standard/kernel/drivers/video/fbdev/uvesafb.ko

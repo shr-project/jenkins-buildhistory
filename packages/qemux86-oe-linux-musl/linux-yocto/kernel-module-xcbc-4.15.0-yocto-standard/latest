@@ -1,0 +1,10 @@
+PV = 4.15+gitAUTOINC+64ad69e5b4_9c2e6c0fc7
+PR = r0
+PKGV = 4.15+git0+64ad69e5b4_9c2e6c0fc7
+PKGR = r0.1
+RPROVIDES = kernel-module-xcbc
+RDEPENDS = kernel-4.15.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 5300
+FILES = /lib/modules/4.15.0-yocto-standard/kernel/crypto/xcbc.ko /etc/modules-load.d/xcbc.conf /etc/modprobe.d/xcbc.conf
+FILELIST = /lib/modules/4.15.0-yocto-standard/kernel/crypto/xcbc.ko

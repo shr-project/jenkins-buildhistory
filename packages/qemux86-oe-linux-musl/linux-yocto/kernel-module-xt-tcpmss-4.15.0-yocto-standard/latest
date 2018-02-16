@@ -1,0 +1,10 @@
+PV = 4.15+gitAUTOINC+64ad69e5b4_9c2e6c0fc7
+PR = r0
+PKGV = 4.15+git0+64ad69e5b4_9c2e6c0fc7
+PKGR = r0.1
+RPROVIDES = kernel-module-xt-tcpmss
+RDEPENDS = kernel-4.15.0-yocto-standard kernel-module-x-tables-4.15.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 9468
+FILES = /lib/modules/4.15.0-yocto-standard/kernel/net/netfilter/xt_TCPMSS.ko /etc/modules-load.d/xt_TCPMSS.conf /etc/modprobe.d/xt_TCPMSS.conf /lib/modules/4.15.0-yocto-standard/kernel/net/netfilter/xt_tcpmss.ko /etc/modules-load.d/xt_tcpmss.conf /etc/modprobe.d/xt_tcpmss.conf
+FILELIST = /lib/modules/4.15.0-yocto-standard/kernel/net/netfilter/xt_TCPMSS.ko /lib/modules/4.15.0-yocto-standard/kernel/net/netfilter/xt_tcpmss.ko
