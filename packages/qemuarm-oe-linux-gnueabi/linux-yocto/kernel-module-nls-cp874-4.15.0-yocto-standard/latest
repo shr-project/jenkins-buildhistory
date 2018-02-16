@@ -1,0 +1,10 @@
+PV = 4.15+gitAUTOINC+64ad69e5b4_5fdc3d579c
+PR = r0
+PKGV = 4.15+git0+64ad69e5b4_5fdc3d579c
+PKGR = r0.1
+RPROVIDES = kernel-module-nls-cp874
+RDEPENDS = kernel-4.15.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7312
+FILES = /lib/modules/4.15.0-yocto-standard/kernel/fs/nls/nls_cp874.ko /etc/modules-load.d/nls_cp874.conf /etc/modprobe.d/nls_cp874.conf
+FILELIST = /lib/modules/4.15.0-yocto-standard/kernel/fs/nls/nls_cp874.ko
