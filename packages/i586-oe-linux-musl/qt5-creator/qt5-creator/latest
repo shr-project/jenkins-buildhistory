@@ -1,8 +1,8 @@
 PV = 3.5.1
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = libexecinfo (>= 1.1) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2) perl qtbase (>= 5.10.0+git0+50117d738a) qtdeclarative (>= 5.10.0+git0+dac71f3d6f) qtscript (>= 5.10.0+git0+0bb3f3017f) qtsvg (>= 5.10.0+git0+984ba69772) qttools (>= 5.10.0+git0+3ce89dc37d) qtwebkit (>= 5.10.0+git0+97c4a80a12)
+RDEPENDS = libexecinfo (>= 1.1) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2) perl qtbase (>= 5.10.1+git0+6c6ace9d23) qtdeclarative (>= 5.10.1+git0+3e91062877) qtscript (>= 5.10.1+git0+76bcf9b526) qtsvg (>= 5.10.1+git0+af35137016) qttools (>= 5.10.1+git0+03ebf1c3d6) qtwebkit (>= 5.10.1+git0+97c4a80a12)
 RRECOMMENDS = binutils ccache cpp-symlinks g++-symlinks gcc-symlinks gdb make packagegroup-qt5-toolchain-target
 RCONFLICTS = qt-creator
 PKGSIZE = 64653757

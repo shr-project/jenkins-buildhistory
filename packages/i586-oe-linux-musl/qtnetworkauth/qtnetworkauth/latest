@@ -1,11 +1,11 @@
-PV = 5.10.0+gitAUTOINC+febebfb6f0
+PV = 5.10.1+gitAUTOINC+8f4f2e0cae
 PR = r0
 PKG = libqt5networkauth5
-PKGV = 5.10.0+git0+febebfb6f0
-PKGR = r0.8
-RPROVIDES = qtnetworkauth (=5.10.0+git0+febebfb6f0)
-RDEPENDS = libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2) qtbase (>= 5.10.0+git0+50117d738a)
+PKGV = 5.10.1+git0+8f4f2e0cae
+PKGR = r0.0
+RPROVIDES = qtnetworkauth (=5.10.1+git0+8f4f2e0cae)
+RDEPENDS = libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2) qtbase (>= 5.10.1+git0+6c6ace9d23)
 RRECOMMENDS = qtnetworkauth-plugins qtnetworkauth-qmlplugins
-PKGSIZE = 263826
+PKGSIZE = 267922
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtnetworkauth /usr/lib/qtnetworkauth/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5NetworkAuth.so.5 /usr/lib/libQt5NetworkAuth.so.5.10 /usr/lib/libQt5NetworkAuth.so.5.10.0
+FILELIST = /usr/lib/libQt5NetworkAuth.so.5 /usr/lib/libQt5NetworkAuth.so.5.10 /usr/lib/libQt5NetworkAuth.so.5.10.1
