@@ -1,4 +1,4 @@
-drwxr-xr-x root       root              540 ./bin
+drwxr-xr-x root       root              560 ./bin
 -rwxr-xr-x root       root            26460 ./bin/cat.coreutils
 -rwxr-xr-x root       root            51008 ./bin/chgrp.coreutils
 -rwxr-xr-x root       root            46916 ./bin/chmod.coreutils
@@ -8,6 +8,7 @@ drwxr-xr-x root       root              540 ./bin
 -rwxr-xr-x root       root            55140 ./bin/dd.coreutils
 -rwxr-xr-x root       root            22324 ./bin/echo.coreutils
 -rwxr-xr-x root       root            22324 ./bin/false.coreutils
+-rwxr-xr-x root       root            26436 ./bin/hostname.coreutils
 -rwxr-xr-x root       root            26852 ./bin/kill.coreutils
 -rwxr-xr-x root       root            51016 ./bin/ln.coreutils
 -rwxr-xr-x root       root           112684 ./bin/ls.coreutils
@@ -25,7 +26,7 @@ drwxr-xr-x root       root              540 ./bin
 -rwxr-xr-x root       root            22324 ./bin/true.coreutils
 -rwxr-xr-x root       root            26436 ./bin/uname.coreutils
 drwxr-xr-x root       root              100 ./usr
-drwxr-xr-x root       root             1660 ./usr/bin
+drwxr-xr-x root       root             1640 ./usr/bin
 -rwxr-xr-x root       root            26436 ./usr/bin/arch.coreutils
 -rwxr-xr-x root       root            59204 ./usr/bin/b2sum
 -rwxr-xr-x root       root            30520 ./usr/bin/base32
@@ -50,7 +51,6 @@ drwxr-xr-x root       root             1660 ./usr/bin
 -rwxr-xr-x root       root            26436 ./usr/bin/groups.coreutils
 -rwxr-xr-x root       root            34628 ./usr/bin/head.coreutils
 -rwxr-xr-x root       root            26436 ./usr/bin/hostid.coreutils
--rwxr-xr-x root       root            26428 ./usr/bin/hostname
 -rwxr-xr-x root       root            30532 ./usr/bin/id.coreutils
 -rwxr-xr-x root       root            92004 ./usr/bin/install.coreutils
 -rwxr-xr-x root       root            34644 ./usr/bin/join.coreutils
@@ -100,7 +100,7 @@ drwxr-xr-x root       root             1660 ./usr/bin
 -rwxr-xr-x root       root            30540 ./usr/bin/unexpand.coreutils
 -rwxr-xr-x root       root            34628 ./usr/bin/uniq.coreutils
 -rwxr-xr-x root       root            26436 ./usr/bin/unlink.coreutils
--rwxr-xr-x root       root            34628 ./usr/bin/uptime.coreutils
+-rwxr-xr-x root       root            38724 ./usr/bin/uptime.coreutils
 -rwxr-xr-x root       root            26432 ./usr/bin/users.coreutils
 -rwxr-xr-x root       root           112684 ./usr/bin/vdir.coreutils
 -rwxr-xr-x root       root            38724 ./usr/bin/wc.coreutils
