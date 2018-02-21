@@ -1,11 +1,11 @@
-PV = 5.10.0+gitAUTOINC+54ea23243c
+PV = 5.10.1+gitAUTOINC+7445cd2861
 PR = r0
 PKG = libqt5webview5
-PKGV = 5.10.0+git0+54ea23243c
-PKGR = r0.5
-RPROVIDES = qtwebview (=5.10.0+git0+54ea23243c)
-RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.3.0) qtbase (>= 5.10.0+git0+50117d738a) qtdeclarative (>= 5.10.0+git0+dac71f3d6f) qtwebengine (>= 5.10.0+git0+efa6d3f0d3_e36dcec23b)
+PKGV = 5.10.1+git0+7445cd2861
+PKGR = r0.0
+RPROVIDES = qtwebview (=5.10.1+git0+7445cd2861)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+git0+6c6ace9d23) qtdeclarative (>= 5.10.1+git0+3e91062877) qtwebengine (>= 5.10.1+git0+9dc8dff7a8_c858cc7609)
 RRECOMMENDS = qtwebview-plugins qtwebview-qmlplugins
 PKGSIZE = 92534
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwebview /usr/lib/qtwebview/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5WebView.so.5 /usr/lib/libQt5WebView.so.5.10 /usr/lib/libQt5WebView.so.5.10.0
+FILELIST = /usr/lib/libQt5WebView.so.5 /usr/lib/libQt5WebView.so.5.10 /usr/lib/libQt5WebView.so.5.10.1

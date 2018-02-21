@@ -1,9 +1,9 @@
 PV = 009
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.26) libudev (>= 234) libusb1 (>= 1.0.21)
 RRECOMMENDS = udev-hwdb
-PKGSIZE = 257648
+PKGSIZE = 242344
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/usbutils /usr/lib/usbutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/bin/lsusb /usr/bin/lsusb.py /usr/bin/usb-devices /usr/bin/usbhid-dump
+FILELIST = /usr/bin/lsusb /usr/bin/usb-devices /usr/bin/usbhid-dump
