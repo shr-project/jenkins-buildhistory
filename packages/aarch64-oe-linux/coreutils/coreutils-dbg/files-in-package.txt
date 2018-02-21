@@ -1,14 +1,15 @@
 drwxr-xr-x root       root               60 ./bin
-drwxr-xr-x root       root              540 ./bin/.debug
+drwxr-xr-x root       root              560 ./bin/.debug
 -rwxr-xr-x root       root           177392 ./bin/.debug/cat.coreutils
 -rwxr-xr-x root       root           317728 ./bin/.debug/chgrp.coreutils
 -rwxr-xr-x root       root           268560 ./bin/.debug/chmod.coreutils
--rwxr-xr-x root       root           327040 ./bin/.debug/chown.coreutils
+-rwxr-xr-x root       root           327064 ./bin/.debug/chown.coreutils
 -rwxr-xr-x root       root           517888 ./bin/.debug/cp.coreutils
 -rwxr-xr-x root       root           337120 ./bin/.debug/date.coreutils
 -rwxr-xr-x root       root           320856 ./bin/.debug/dd.coreutils
 -rwxr-xr-x root       root           134424 ./bin/.debug/echo.coreutils
 -rwxr-xr-x root       root           129296 ./bin/.debug/false.coreutils
+-rwxr-xr-x root       root           157112 ./bin/.debug/hostname.coreutils
 -rwxr-xr-x root       root           168064 ./bin/.debug/kill.coreutils
 -rwxr-xr-x root       root           345624 ./bin/.debug/ln.coreutils
 -rwxr-xr-x root       root           662912 ./bin/.debug/ls.coreutils
@@ -27,7 +28,7 @@ drwxr-xr-x root       root              540 ./bin/.debug
 -rwxr-xr-x root       root           154912 ./bin/.debug/uname.coreutils
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
-drwxr-xr-x root       root             1660 ./usr/bin/.debug
+drwxr-xr-x root       root             1640 ./usr/bin/.debug
 -rwxr-xr-x root       root           154920 ./usr/bin/.debug/arch.coreutils
 -rwxr-xr-x root       root           265784 ./usr/bin/.debug/b2sum
 -rwxr-xr-x root       root           188736 ./usr/bin/.debug/base32
@@ -52,8 +53,7 @@ drwxr-xr-x root       root             1660 ./usr/bin/.debug
 -rwxr-xr-x root       root           168184 ./usr/bin/.debug/groups.coreutils
 -rwxr-xr-x root       root           211616 ./usr/bin/.debug/head.coreutils
 -rwxr-xr-x root       root           154096 ./usr/bin/.debug/hostid.coreutils
--rwxr-xr-x root       root           157112 ./usr/bin/.debug/hostname
--rwxr-xr-x root       root           195344 ./usr/bin/.debug/id.coreutils
+-rwxr-xr-x root       root           195368 ./usr/bin/.debug/id.coreutils
 -rwxr-xr-x root       root           574144 ./usr/bin/.debug/install.coreutils
 -rwxr-xr-x root       root           218648 ./usr/bin/.debug/join.coreutils
 -rwxr-xr-x root       root           166432 ./usr/bin/.debug/lbracket.coreutils
@@ -78,7 +78,7 @@ drwxr-xr-x root       root             1660 ./usr/bin/.debug
 -rwxr-xr-x root       root           222688 ./usr/bin/.debug/readlink.coreutils
 -rwxr-xr-x root       root           233632 ./usr/bin/.debug/realpath.coreutils
 -rwxr-xr-x root       root           152272 ./usr/bin/.debug/runcon.coreutils
--rwxr-xr-x root       root           219552 ./usr/bin/.debug/seq.coreutils
+-rwxr-xr-x root       root           219624 ./usr/bin/.debug/seq.coreutils
 -rwxr-xr-x root       root           205568 ./usr/bin/.debug/sha1sum.coreutils
 -rwxr-xr-x root       root           214648 ./usr/bin/.debug/sha224sum.coreutils
 -rwxr-xr-x root       root           214648 ./usr/bin/.debug/sha256sum.coreutils
@@ -102,7 +102,7 @@ drwxr-xr-x root       root             1660 ./usr/bin/.debug
 -rwxr-xr-x root       root           174176 ./usr/bin/.debug/unexpand.coreutils
 -rwxr-xr-x root       root           217712 ./usr/bin/.debug/uniq.coreutils
 -rwxr-xr-x root       root           154192 ./usr/bin/.debug/unlink.coreutils
--rwxr-xr-x root       root           225552 ./usr/bin/.debug/uptime.coreutils
+-rwxr-xr-x root       root           229544 ./usr/bin/.debug/uptime.coreutils
 -rwxr-xr-x root       root           164664 ./usr/bin/.debug/users.coreutils
 -rwxr-xr-x root       root           662936 ./usr/bin/.debug/vdir.coreutils
 -rwxr-xr-x root       root           222448 ./usr/bin/.debug/wc.coreutils
@@ -115,7 +115,7 @@ drwxr-xr-x root       root               60 ./usr/lib/coreutils/.debug
 -rwxr-xr-x root       root            14696 ./usr/lib/coreutils/.debug/libstdbuf.so
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/sbin/.debug
--rwxr-xr-x root       root           186968 ./usr/sbin/.debug/chroot.coreutils
+-rwxr-xr-x root       root           186992 ./usr/sbin/.debug/chroot.coreutils
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/coreutils

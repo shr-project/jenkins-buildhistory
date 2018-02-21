@@ -1,0 +1,11 @@
+PV = 5.10.1+gitAUTOINC+29c34e8f07
+PR = r0
+PKG = libqt5knx5
+PKGV = 5.10.1+git0+29c34e8f07
+PKGR = r0.0
+RPROVIDES = qtknx (=5.10.1+git0+29c34e8f07)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+git0+6c6ace9d23)
+RRECOMMENDS = qtknx-plugins qtknx-qmlplugins
+PKGSIZE = 1181982
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtknx /usr/lib/qtknx/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
+FILELIST = /usr/lib/libQt5Knx.so.5 /usr/lib/libQt5Knx.so.5.10 /usr/lib/libQt5Knx.so.5.10.0

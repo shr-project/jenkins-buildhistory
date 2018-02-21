@@ -1,11 +1,11 @@
-PV = 4.12.19+gitAUTOINC+44a22d45cb_257f843ea3
+PV = 4.15+gitAUTOINC+64ad69e5b4_9c2e6c0fc7
 PR = r0
-PKG = kernel-image-image-4.12.19-yocto-standard
-PKGV = 4.12.19+git0+44a22d45cb_257f843ea3
-PKGR = r0.4
-RPROVIDES = kernel-image-image (=4.12.19+git0+44a22d45cb_257f843ea3)
+PKG = kernel-image-image-4.15.0-yocto-standard
+PKGV = 4.15+git0+64ad69e5b4_9c2e6c0fc7
+PKGR = r0.1
+RPROVIDES = kernel-image-image (=4.15+git0+64ad69e5b4_9c2e6c0fc7)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 10277404
-FILES = /boot/Image-4.12.19-yocto-standard /boot/Image
-FILELIST = /boot/Image /boot/Image-4.12.19-yocto-standard
+PKGSIZE = 10861083
+FILES = /boot/Image-4.15.0-yocto-standard /boot/Image
+FILELIST = /boot/Image /boot/Image-4.15.0-yocto-standard

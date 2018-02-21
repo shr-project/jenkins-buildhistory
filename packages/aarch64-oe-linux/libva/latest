@@ -1,5 +1,5 @@
-PV = 1.8.3
+PV = 2.0.0
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libdrm libtool-cross libtool-native libxext libxfixes pkgconfig-native virtual/aarch64-oe-linux-compilerlibs virtual/aarch64-oe-linux-gcc virtual/egl virtual/libc virtual/libgles1 virtual/libgles2 virtual/libx11 virtual/mesa wayland wayland-native
-PACKAGES = libva-x11 libva-tpi libva-glx libva-egl libva-wayland libva-dbg libva-staticdev libva-dev libva-doc libva-locale libva
+DEPENDS = autoconf-native automake-native gnu-config-native libdrm libtool-cross libtool-native libxext libxfixes pkgconfig-native virtual/aarch64-oe-linux-compilerlibs virtual/aarch64-oe-linux-gcc virtual/libc virtual/libx11 virtual/mesa wayland wayland-native
+PACKAGES = libva-x11 libva-glx libva-wayland libva-dbg libva-staticdev libva-dev libva-doc libva-locale libva
 LAYER = core
