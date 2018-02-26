@@ -1,9 +1,10 @@
-PV = 2.0.0
+PV = 2.0.1+AUTOINC+9c6173559f
 PR = r0
-PKGR = r0.12
+PKGV = 2.0.1+0+9c6173559f
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = lzo (>= 2.10) musl (>= 1.1.18+git2+628cf979b2) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 113032
+PKGSIZE = 104840
 FILES = /usr/sbin/mkfs.jffs2 /usr/sbin/jffs2dump /usr/sbin/jffs2reader /usr/sbin/sumtool
 FILELIST = /usr/sbin/jffs2dump /usr/sbin/jffs2reader /usr/sbin/mkfs.jffs2 /usr/sbin/sumtool

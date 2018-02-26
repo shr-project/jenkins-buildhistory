@@ -1,8 +1,8 @@
 PV = 3.8.1
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = syslog-ng-systemd
-RDEPENDS = eventlog (>= 0.2.13) gawk glib-2.0 (>= 2.54.2) libcrypto (>= 1.0.2n) libpcre (>= 8.41) libssl (>= 1.0.2n) musl (>= 1.1.18+git2+628cf979b2) syslog-ng-libs (>= 3.8.1) update-rc.d
+RDEPENDS = eventlog (>= 0.2.13) gawk glib-2.0 (>= 2.54.3) libcrypto (>= 1.0.2n) libpcre (>= 8.41) libssl (>= 1.0.2n) musl (>= 1.1.18+git2+628cf979b2) syslog-ng-libs (>= 3.8.1) update-rc.d
 RRECOMMENDS = 
 RREPLACES = syslog-ng-systemd
 RCONFLICTS = busybox-syslog rsyslog sysklogd syslog-ng-systemd
