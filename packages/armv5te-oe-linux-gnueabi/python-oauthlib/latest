@@ -1,0 +1,5 @@
+PV = 2.0.6
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = python-oauthlib-dbg python-oauthlib-staticdev python-oauthlib-dev python-oauthlib-doc python-oauthlib-locale python-oauthlib
+LAYER = meta-python

@@ -1,0 +1,10 @@
+PV = 4.15.3+gitAUTOINC+030f397472_312b80a833
+PR = r0
+PKGV = 4.15.3+git0+030f397472_312b80a833
+PKGR = r0.1
+RPROVIDES = kernel-module-ebtable-broute
+RDEPENDS = kernel-4.15.3-yocto-standard kernel-module-bridge-4.15.3-yocto-standard kernel-module-ebtables-4.15.3-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 4896
+FILES = /lib/modules/4.15.3-yocto-standard/kernel/net/bridge/netfilter/ebtable_broute.ko /etc/modules-load.d/ebtable_broute.conf /etc/modprobe.d/ebtable_broute.conf
+FILELIST = /lib/modules/4.15.3-yocto-standard/kernel/net/bridge/netfilter/ebtable_broute.ko
