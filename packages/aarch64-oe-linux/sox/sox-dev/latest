@@ -1,9 +1,9 @@
-PV = 14.4.0
-PR = r2
-PKGR = r2.14
+PV = 14.4.2
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = sox (= 14.4.0-r2.14)
-RRECOMMENDS = alsa-lib-dev ffmpeg-dev file-dev glibc-dev libasound-dev libgomp-dev libltdl-dev libogg-dev libpng-dev libpulse-dev libpulse-simple-dev libsndfile1-dev libvorbis-dev pulseaudio-dev zlib-dev
-PKGSIZE = 92341
+RDEPENDS = sox (= 14.4.2-r0.0)
+RRECOMMENDS = alsa-lib-dev ffmpeg-dev file-dev glibc-dev libasound-dev libgomp-dev libltdl-dev libpng-dev libpulse-dev libpulse-simple-dev libsndfile1-dev libssp-dev pulseaudio-dev zlib-dev
+PKGSIZE = 93220
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sox/*.la /lib/*.la
-FILELIST = /usr/include/sox.h /usr/lib/libsox.so
+FILELIST = /usr/include/sox.h /usr/lib/libsox.so /usr/lib/pkgconfig/sox.pc

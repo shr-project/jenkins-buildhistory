@@ -1,11 +1,11 @@
-PV = 5.10.1+gitAUTOINC+29c34e8f07
+PV = 5.10.1+5.11-alpha+gitAUTOINC+4d5a04a079
 PR = r0
 PKG = libqt5knx-plugins-dbg
-PKGV = 5.10.1+git0+29c34e8f07
+PKGV = 5.10.1+5.11-alpha+git0+4d5a04a079
 PKGR = r0.0
-RPROVIDES = qtknx-plugins-dbg (=5.10.1+git0+29c34e8f07)
+RPROVIDES = qtknx-plugins-dbg (=5.10.1+5.11-alpha+git0+4d5a04a079)
 RDEPENDS = 
-RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg
+RRECOMMENDS = glibc-dbg libstdc++-dbg qtbase-dbg zlib-dbg
 PKGSIZE = 0
 FILES = /usr/lib/qt5/plugins/*/.debug/* /usr/lib/qt5/plugins/*/*/.debug/* /usr/lib/qt5/plugins/*/*/*/.debug/*
 FILELIST = 

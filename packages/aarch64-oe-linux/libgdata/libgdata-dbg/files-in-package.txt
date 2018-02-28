@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
--rwxr-xr-x root       root          3724096 ./usr/lib/.debug/libgdata.so.19.2.1
+-rwxr-xr-x root       root          3721480 ./usr/lib/.debug/libgdata.so.19.2.1
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/libgdata
@@ -68,7 +68,7 @@ drwxr-xr-x root       root              480 ./usr/src/debug/libgdata/0.16.1-r0/l
 -rw-r--r-- root       root             3174 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/gdata-download-stream.h
 -rw-r--r-- root       root            41079 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/gdata-entry.c
 -rw-r--r-- root       root             4243 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/gdata-entry.h
--rw-r--r-- root       root             5342 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/gdata-enums.c
+-rw-r--r-- root       root             5581 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/gdata-enums.c
 -rw-r--r-- root       root            36725 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/gdata-feed.c
 -rw-r--r-- root       root             3334 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/gdata-feed.h
 -rw-r--r-- root       root             7092 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/gdata-marshal.c
@@ -119,8 +119,8 @@ drwxr-xr-x root       root              280 ./usr/src/debug/libgdata/0.16.1-r0/l
 -rw-r--r-- root       root             4401 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-content.h
 -rw-r--r-- root       root             8360 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-credit.c
 -rw-r--r-- root       root             2486 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-credit.h
--rw-r--r-- root       root             1270 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-enums.c
--rw-r--r-- root       root              462 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-enums.h
+-rw-r--r-- root       root             1509 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-enums.c
+-rw-r--r-- root       root              701 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-enums.h
 -rw-r--r-- root       root            23073 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-group.c
 -rw-r--r-- root       root             4010 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-group.h
 -rw-r--r-- root       root            13065 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/media/gdata-media-thumbnail.c
@@ -153,7 +153,7 @@ drwxr-xr-x root       root              540 ./usr/src/debug/libgdata/0.16.1-r0/l
 -rw-r--r-- root       root             4160 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-drawing.h
 -rw-r--r-- root       root            29750 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-entry.c
 -rw-r--r-- root       root             4235 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-entry.h
--rw-r--r-- root       root              738 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-enums.c
+-rw-r--r-- root       root              977 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-enums.c
 -rw-r--r-- root       root             5220 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-feed.c
 -rw-r--r-- root       root             2324 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-feed.h
 -rw-r--r-- root       root             3599 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-folder.c
@@ -173,7 +173,7 @@ drwxr-xr-x root       root              540 ./usr/src/debug/libgdata/0.16.1-r0/l
 -rw-r--r-- root       root            14770 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-upload-query.c
 -rw-r--r-- root       root             3200 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/documents/gdata-documents-upload-query.h
 drwxr-xr-x root       root              340 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/freebase
--rw-r--r-- root       root              772 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/freebase/gdata-freebase-enums.c
+-rw-r--r-- root       root             1011 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/freebase/gdata-freebase-enums.c
 -rw-r--r-- root       root             8025 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/freebase/gdata-freebase-query.c
 -rw-r--r-- root       root             2581 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/freebase/gdata-freebase-query.h
 -rw-r--r-- root       root             5837 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/freebase/gdata-freebase-result.c
@@ -193,8 +193,8 @@ drwxr-xr-x root       root              360 ./usr/src/debug/libgdata/0.16.1-r0/l
 -rw-r--r-- root       root             5084 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-album.h
 -rw-r--r-- root       root             3807 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-comment.c
 -rw-r--r-- root       root             2512 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-comment.h
--rw-r--r-- root       root              561 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-enums.c
--rw-r--r-- root       root              382 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-enums.h
+-rw-r--r-- root       root              800 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-enums.c
+-rw-r--r-- root       root              621 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-enums.h
 -rw-r--r-- root       root             3814 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-feed.c
 -rw-r--r-- root       root             2340 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-feed.h
 -rw-r--r-- root       root            65145 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/picasaweb/gdata-picasaweb-file.c
@@ -225,8 +225,8 @@ drwxr-xr-x root       root              480 ./usr/src/debug/libgdata/0.16.1-r0/l
 -rw-r--r-- root       root             2648 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-control.h
 -rw-r--r-- root       root             5880 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-credit.c
 -rw-r--r-- root       root             2640 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-credit.h
--rw-r--r-- root       root             5526 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-enums.c
--rw-r--r-- root       root             1545 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-enums.h
+-rw-r--r-- root       root             5765 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-enums.c
+-rw-r--r-- root       root             1784 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-enums.h
 -rw-r--r-- root       root             8867 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-group.c
 -rw-r--r-- root       root             2962 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-group.h
 -rw-r--r-- root       root            34306 ./usr/src/debug/libgdata/0.16.1-r0/libgdata-0.16.1/gdata/services/youtube/gdata-youtube-query.c

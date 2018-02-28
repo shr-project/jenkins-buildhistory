@@ -1,11 +1,11 @@
-PV = 5.10.1+gitAUTOINC+61d2de26db
+PV = 5.10.1+5.11-alpha+gitAUTOINC+db6d07b4a5
 PR = r0
 PKG = libqt5remoteobjects-qmlplugins
-PKGV = 5.10.1+git0+61d2de26db
+PKGV = 5.10.1+5.11-alpha+git0+db6d07b4a5
 PKGR = r0.0
-RPROVIDES = qtremoteobjects-qmlplugins (=5.10.1+git0+61d2de26db)
-RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+git0+6c6ace9d23) qtdeclarative (>= 5.10.1+git0+3e91062877) qtremoteobjects (>= 5.10.1+git0+61d2de26db)
+RPROVIDES = qtremoteobjects-qmlplugins (=5.10.1+5.11-alpha+git0+db6d07b4a5)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b) qtdeclarative (>= 5.10.1+5.11-alpha+git0+0975a9c892) qtremoteobjects (>= 5.10.1+5.11-alpha+git0+db6d07b4a5)
 RRECOMMENDS = 
-PKGSIZE = 67920
+PKGSIZE = 70313
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.qmlc /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.jsc /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.jsc /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
-FILELIST = /usr/lib/qt5/qml/QtQml/RemoteObjects/libqtqmlremoteobjects.so /usr/lib/qt5/qml/QtQml/RemoteObjects/qmldir
+FILELIST = /usr/lib/qt5/qml/QtQml/RemoteObjects/libqtqmlremoteobjects.so /usr/lib/qt5/qml/QtQml/RemoteObjects/plugins.qmltypes /usr/lib/qt5/qml/QtQml/RemoteObjects/qmldir

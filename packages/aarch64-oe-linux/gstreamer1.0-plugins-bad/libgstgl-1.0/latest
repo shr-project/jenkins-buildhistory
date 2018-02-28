@@ -1,9 +1,9 @@
 PV = 1.12.4
 PR = r0
 PKG = libgstgl-1.0-0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = libgstgl-1.0 (=1.12.4)
-RDEPENDS = glib-2.0 (>= 2.54.2) glibc (>= 2.26) gstreamer1.0 (>= 1.12.4) libegl-mesa (>= 17.3.3) libgles2-mesa (>= 17.3.3) libgstallocators-1.0 (>= 1.12.4) libgstbadallocators-1.0 (>= 1.12.4) libgstvideo-1.0 (>= 1.12.4) libwayland-egl (>= 17.3.3) libx11 (>= 1.6.5) libx11-xcb (>= 1.6.5) libxcb (>= 1.12) wayland (>= 1.14.0)
+RDEPENDS = glib-2.0 (>= 2.54.3) glibc (>= 2.26) gstreamer1.0 (>= 1.12.4) libegl-mesa (>= 17.3.5) libgles2-mesa (>= 17.3.5) libgstallocators-1.0 (>= 1.12.4) libgstbadallocators-1.0 (>= 1.12.4) libgstvideo-1.0 (>= 1.12.4) libwayland-egl (>= 17.3.5) libx11 (>= 1.6.5) libx11-xcb (>= 1.6.5) libxcb (>= 1.12) wayland (>= 1.14.0)
 RRECOMMENDS = 
 PKGSIZE = 396304
 FILES = /usr/lib/libgstgl-1.0.so /usr/lib/libgstgl-1.0.so.0 /usr/lib/libgstgl-1.0.so.0.1204.0

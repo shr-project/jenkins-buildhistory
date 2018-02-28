@@ -1,11 +1,11 @@
-PV = 5.10.1+gitAUTOINC+fa688ac5c3
+PV = 5.10.1+5.11-alpha+gitAUTOINC+aee027f581
 PR = r0
 PKG = libqt5serialport5
-PKGV = 5.10.1+git0+fa688ac5c3
+PKGV = 5.10.1+5.11-alpha+git0+aee027f581
 PKGR = r0.0
-RPROVIDES = qtserialport (=5.10.1+git0+fa688ac5c3)
-RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.3.0) libudev (>= 234) qtbase (>= 5.10.1+git0+6c6ace9d23)
+RPROVIDES = qtserialport (=5.10.1+5.11-alpha+git0+aee027f581)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.3.0) libudev (>= 234) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b)
 RRECOMMENDS = qtserialport-plugins qtserialport-qmlplugins
 PKGSIZE = 133348
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtserialport /usr/lib/qtserialport/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5SerialPort.so.5 /usr/lib/libQt5SerialPort.so.5.10 /usr/lib/libQt5SerialPort.so.5.10.1
+FILELIST = /usr/lib/libQt5SerialPort.so.5 /usr/lib/libQt5SerialPort.so.5.11 /usr/lib/libQt5SerialPort.so.5.11.0

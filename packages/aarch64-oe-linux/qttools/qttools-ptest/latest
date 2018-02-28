@@ -1,9 +1,9 @@
-PV = 5.10.1+gitAUTOINC+03ebf1c3d6
+PV = 5.10.1+5.11-alpha+gitAUTOINC+c29a1b03fd
 PR = r0
-PKGV = 5.10.1+git0+03ebf1c3d6
+PKGV = 5.10.1+5.11-alpha+git0+c29a1b03fd
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+git0+6c6ace9d23)
+RDEPENDS = glibc (>= 2.26) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 135911
 FILES = /usr/lib/qttools/ptest
