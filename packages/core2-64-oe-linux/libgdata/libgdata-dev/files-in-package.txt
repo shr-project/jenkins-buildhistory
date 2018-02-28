@@ -30,7 +30,7 @@ drwxr-xr-x root       root              240 ./usr/include/libgdata/gdata/gd
 -rw-r--r-- root       root             2563 ./usr/include/libgdata/gdata/gdata-comparable.h
 -rw-r--r-- root       root             3174 ./usr/include/libgdata/gdata/gdata-download-stream.h
 -rw-r--r-- root       root             4243 ./usr/include/libgdata/gdata/gdata-entry.h
--rw-r--r-- root       root             1061 ./usr/include/libgdata/gdata/gdata-enums.h
+-rw-r--r-- root       root             1300 ./usr/include/libgdata/gdata/gdata-enums.h
 -rw-r--r-- root       root             3334 ./usr/include/libgdata/gdata/gdata-feed.h
 -rw-r--r-- root       root             6361 ./usr/include/libgdata/gdata/gdata.h
 -rw-r--r-- root       root             5325 ./usr/include/libgdata/gdata/gdata-oauth1-authorizer.h
@@ -54,7 +54,7 @@ drwxr-xr-x root       root              140 ./usr/include/libgdata/gdata/media
 -rw-r--r-- root       root             2974 ./usr/include/libgdata/gdata/media/gdata-media-category.h
 -rw-r--r-- root       root             4401 ./usr/include/libgdata/gdata/media/gdata-media-content.h
 -rw-r--r-- root       root             2486 ./usr/include/libgdata/gdata/media/gdata-media-credit.h
--rw-r--r-- root       root              462 ./usr/include/libgdata/gdata/media/gdata-media-enums.h
+-rw-r--r-- root       root              701 ./usr/include/libgdata/gdata/media/gdata-media-enums.h
 -rw-r--r-- root       root             2968 ./usr/include/libgdata/gdata/media/gdata-media-thumbnail.h
 drwxr-xr-x root       root              180 ./usr/include/libgdata/gdata/services
 drwxr-xr-x root       root              140 ./usr/include/libgdata/gdata/services/calendar
@@ -72,7 +72,7 @@ drwxr-xr-x root       root              300 ./usr/include/libgdata/gdata/service
 -rw-r--r-- root       root             3224 ./usr/include/libgdata/gdata/services/documents/gdata-documents-document.h
 -rw-r--r-- root       root             4160 ./usr/include/libgdata/gdata/services/documents/gdata-documents-drawing.h
 -rw-r--r-- root       root             4235 ./usr/include/libgdata/gdata/services/documents/gdata-documents-entry.h
--rw-r--r-- root       root              398 ./usr/include/libgdata/gdata/services/documents/gdata-documents-enums.h
+-rw-r--r-- root       root              637 ./usr/include/libgdata/gdata/services/documents/gdata-documents-enums.h
 -rw-r--r-- root       root             2324 ./usr/include/libgdata/gdata/services/documents/gdata-documents-feed.h
 -rw-r--r-- root       root             2558 ./usr/include/libgdata/gdata/services/documents/gdata-documents-folder.h
 -rw-r--r-- root       root             2567 ./usr/include/libgdata/gdata/services/documents/gdata-documents-pdf.h
@@ -83,7 +83,7 @@ drwxr-xr-x root       root              300 ./usr/include/libgdata/gdata/service
 -rw-r--r-- root       root             5756 ./usr/include/libgdata/gdata/services/documents/gdata-documents-text.h
 -rw-r--r-- root       root             3200 ./usr/include/libgdata/gdata/services/documents/gdata-documents-upload-query.h
 drwxr-xr-x root       root              200 ./usr/include/libgdata/gdata/services/freebase
--rw-r--r-- root       root              405 ./usr/include/libgdata/gdata/services/freebase/gdata-freebase-enums.h
+-rw-r--r-- root       root              644 ./usr/include/libgdata/gdata/services/freebase/gdata-freebase-enums.h
 -rw-r--r-- root       root             2581 ./usr/include/libgdata/gdata/services/freebase/gdata-freebase-query.h
 -rw-r--r-- root       root             2562 ./usr/include/libgdata/gdata/services/freebase/gdata-freebase-result.h
 -rw-r--r-- root       root             3965 ./usr/include/libgdata/gdata/services/freebase/gdata-freebase-search-query.h
@@ -94,7 +94,7 @@ drwxr-xr-x root       root              200 ./usr/include/libgdata/gdata/service
 drwxr-xr-x root       root              200 ./usr/include/libgdata/gdata/services/picasaweb
 -rw-r--r-- root       root             5084 ./usr/include/libgdata/gdata/services/picasaweb/gdata-picasaweb-album.h
 -rw-r--r-- root       root             2512 ./usr/include/libgdata/gdata/services/picasaweb/gdata-picasaweb-comment.h
--rw-r--r-- root       root              382 ./usr/include/libgdata/gdata/services/picasaweb/gdata-picasaweb-enums.h
+-rw-r--r-- root       root              621 ./usr/include/libgdata/gdata/services/picasaweb/gdata-picasaweb-enums.h
 -rw-r--r-- root       root             2340 ./usr/include/libgdata/gdata/services/picasaweb/gdata-picasaweb-feed.h
 -rw-r--r-- root       root             6462 ./usr/include/libgdata/gdata/services/picasaweb/gdata-picasaweb-file.h
 -rw-r--r-- root       root             3995 ./usr/include/libgdata/gdata/services/picasaweb/gdata-picasaweb-query.h
@@ -110,7 +110,7 @@ drwxr-xr-x root       root              220 ./usr/include/libgdata/gdata/service
 -rw-r--r-- root       root             2665 ./usr/include/libgdata/gdata/services/youtube/gdata-youtube-comment.h
 -rw-r--r-- root       root             3382 ./usr/include/libgdata/gdata/services/youtube/gdata-youtube-content.h
 -rw-r--r-- root       root             2640 ./usr/include/libgdata/gdata/services/youtube/gdata-youtube-credit.h
--rw-r--r-- root       root             1545 ./usr/include/libgdata/gdata/services/youtube/gdata-youtube-enums.h
+-rw-r--r-- root       root             1784 ./usr/include/libgdata/gdata/services/youtube/gdata-youtube-enums.h
 -rw-r--r-- root       root             7566 ./usr/include/libgdata/gdata/services/youtube/gdata-youtube-query.h
 -rw-r--r-- root       root             9639 ./usr/include/libgdata/gdata/services/youtube/gdata-youtube-service.h
 -rw-r--r-- root       root             2615 ./usr/include/libgdata/gdata/services/youtube/gdata-youtube-state.h

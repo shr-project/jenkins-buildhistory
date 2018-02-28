@@ -1,10 +1,10 @@
-PV = 5.10.1+gitAUTOINC+97c4a80a12
+PV = 5.10.1+5.11-alpha+gitAUTOINC+beaeeb9988
 PR = r0
-PKGV = 5.10.1+git0+97c4a80a12
+PKGV = 5.10.1+5.11-alpha+git0+beaeeb9988
 PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = glib-2.0-dbg glibc-dbg gstreamer1.0-dbg libgl-mesa-dbg libgstapp-1.0-dbg libgstaudio-1.0-dbg libgstpbutils-1.0-dbg libgstvideo-1.0-dbg libicui18n-dbg libicuuc-dbg libjpeg-turbo-dbg libpng-dbg libsqlite3-dbg libstdc++-dbg libx11-dbg libxcomposite-dbg libxml2-dbg libxrender-dbg libxslt-dbg qtbase-dbg qtdeclarative-dbg qtlocation-dbg qtsensors-dbg qtwebkit-plugins-dbg qtwebkit-qmlplugins-dbg zlib-dbg
-PKGSIZE = 9563656
+RRECOMMENDS = qtwebkit-plugins-dbg qtwebkit-qmlplugins-dbg
+PKGSIZE = 0
 FILES = /usr/lib/debug /usr/src/debug /usr/lib/.debug /usr/lib/qt5/libexec/.debug
-FILELIST = /usr/lib/.debug/libQt5WebKit.so.5.9.2 /usr/lib/.debug/libQt5WebKitWidgets.so.5.9.2 /usr/lib/qt5/libexec/.debug/QtWebPluginProcess /usr/lib/qt5/libexec/.debug/QtWebProcess /usr/lib/qt5/qml/QtWebKit/.debug/libqmlwebkitplugin.so /usr/lib/qt5/qml/QtWebKit/experimental/.debug/libqmlwebkitexperimentalplugin.so
+FILELIST = 

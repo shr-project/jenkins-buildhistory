@@ -1,11 +1,11 @@
-PV = 5.10.1+gitAUTOINC+397e501474
+PV = 5.10.1+5.11-alpha+gitAUTOINC+be7e45ca25
 PR = r0
 PKG = libqt5datavisualization5
-PKGV = 5.10.1+git0+397e501474
+PKGV = 5.10.1+5.11-alpha+git0+be7e45ca25
 PKGR = r0.0
-RPROVIDES = qtdatavis3d (=5.10.1+git0+397e501474)
-RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+git0+6c6ace9d23)
+RPROVIDES = qtdatavis3d (=5.10.1+5.11-alpha+git0+be7e45ca25)
+RDEPENDS = glibc (>= 2.26) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b)
 RRECOMMENDS = qtdatavis3d-plugins qtdatavis3d-qmlplugins
 PKGSIZE = 1448338
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtdatavis3d /usr/lib/qtdatavis3d/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5DataVisualization.so.5 /usr/lib/libQt5DataVisualization.so.5.10 /usr/lib/libQt5DataVisualization.so.5.10.1
+FILELIST = /usr/lib/libQt5DataVisualization.so.5 /usr/lib/libQt5DataVisualization.so.5.11 /usr/lib/libQt5DataVisualization.so.5.11.0

@@ -1,8 +1,8 @@
 PV = 1.2.24
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = base-files base-passwd bash debianutils dpkg glibc (>= 2.26) libcurl (>= 7.57.0) libgcc (>= 7.3.0) liblzma (>= 5.2.3) libstdc++ (>= 7.3.0) shadow zlib (>= 1.2.11)
+RDEPENDS = base-files base-passwd bash debianutils dpkg glibc (>= 2.26) libcurl (>= 7.58.0) libgcc (>= 7.3.0) liblzma (>= 5.2.3) libstdc++ (>= 7.3.0) shadow zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 2830139
 FILES = /usr/bin/apt-cdrom /usr/bin/apt-get \t /usr/bin/apt-config /usr/bin/apt-cache \t /usr/lib/apt /usr/lib/libapt*.so.* \t /var /etc \t /usr/lib/dpkg \t /lib/systemd/system /usr/bin/apt-key /lib/systemd/system/apt-daily.timer
