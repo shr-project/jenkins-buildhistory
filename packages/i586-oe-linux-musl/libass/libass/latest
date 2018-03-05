@@ -1,9 +1,9 @@
 PV = 0.13.6
 PR = r0
 PKG = libass9
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libass (=0.13.6)
-RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.9) fribidi (>= 0.19.7) glib-2.0 (>= 2.54.3) musl (>= 1.1.18+git2+628cf979b2)
+RDEPENDS = fontconfig (>= 2.12.6) freetype (>= 2.9) fribidi (>= 0.19.7) glib-2.0 (>= 2.54.3) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
 PKGSIZE = 185891
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libass /usr/lib/libass/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

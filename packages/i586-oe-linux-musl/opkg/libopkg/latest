@@ -1,11 +1,11 @@
 PE = 1
-PV = 0.3.5
+PV = 0.3.6
 PR = r0
 PKG = libopkg1
-PKGR = r0.14
-RPROVIDES = libopkg (=0.3.5)
-RDEPENDS = libarchive (>= 3.3.2) libsolv (>= 0.6.32) musl (>= 1.1.18+git2+628cf979b2)
+PKGR = r0.0
+RPROVIDES = libopkg (=0.3.6)
+RDEPENDS = libarchive (>= 3.3.2) libsolv (>= 0.6.32) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
-PKGSIZE = 195192
+PKGSIZE = 203396
 FILES = /usr/lib/*.so.* /var/lib/opkg/
 FILELIST = /usr/lib/libopkg.so.1 /usr/lib/libopkg.so.1.0.0

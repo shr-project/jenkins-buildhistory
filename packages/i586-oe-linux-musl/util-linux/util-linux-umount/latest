@@ -1,8 +1,8 @@
 PV = 2.31
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.18+git2+628cf979b2) update-alternatives-opkg util-linux-libmount (>= 2.31)
+RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) update-alternatives-opkg util-linux-libmount (>= 2.31)
 RRECOMMENDS = 
 PKGSIZE = 21988
 FILES = /bin/umount.util-linux

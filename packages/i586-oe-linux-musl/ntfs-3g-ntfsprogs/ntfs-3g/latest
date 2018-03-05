@@ -1,8 +1,8 @@
 PV = 2017.3.23
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = fuse libntfs-3g (>= 2017.3.23) musl (>= 1.1.18+git2+628cf979b2)
+RDEPENDS = fuse libntfs-3g (>= 2017.3.23) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = util-linux-mount
 PKGSIZE = 166997
 FILES = /sbin/*.ntfs-3g /usr/bin/ntfs-3g* /sbin/mount.ntfs

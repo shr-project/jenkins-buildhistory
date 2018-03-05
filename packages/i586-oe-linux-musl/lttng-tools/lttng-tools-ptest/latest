@@ -1,8 +1,8 @@
 PV = 2.10.2
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = babeltrace bash gawk liburcu (>= 0.10.1) libxml2 (>= 2.9.7) lttng-tools make musl (>= 1.1.18+git2+628cf979b2) perl perl-module-getopt-long popt (>= 1.16) procps
+RDEPENDS = babeltrace bash gawk liburcu (>= 0.10.1) libxml2 (>= 2.9.7) lttng-tools make musl (>= 1.1.19+git0+55df09bfcc) perl perl-module-getopt-long popt (>= 1.16) procps
 RRECOMMENDS = ptest-runner
 PKGSIZE = 2592026
 FILES = /usr/lib/lttng-tools/ptest

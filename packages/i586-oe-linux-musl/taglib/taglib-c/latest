@@ -1,9 +1,9 @@
 PV = 1.11.1
 PR = r0
 PKG = libtag-c0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = taglib-c (=1.11.1)
-RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2) taglib (>= 1.11.1)
+RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc) taglib (>= 1.11.1)
 RRECOMMENDS = 
 PKGSIZE = 17977
 FILES = /usr/lib/libtag_c.so.*

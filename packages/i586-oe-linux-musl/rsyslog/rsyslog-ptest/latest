@@ -1,8 +1,8 @@
 PV = 8.29.0
 PR = r0
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = bash coreutils diffutils gawk gnutls (>= 3.6.1) gzip liblogging (>= 1.0.5) librelp (>= 1.2.14) make musl (>= 1.1.18+git2+628cf979b2) procps rsyslog
+RDEPENDS = bash coreutils diffutils gawk gnutls (>= 3.6.1) gzip liblogging (>= 1.0.5) librelp (>= 1.2.14) make musl (>= 1.1.19+git0+55df09bfcc) procps rsyslog
 RRECOMMENDS = musl-dbg ptest-runner valgrind
 PKGSIZE = 1802853
 FILES = /usr/lib/rsyslog/ptest

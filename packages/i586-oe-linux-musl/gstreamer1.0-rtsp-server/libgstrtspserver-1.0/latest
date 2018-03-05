@@ -1,9 +1,9 @@
 PV = 1.12.4
 PR = r0
 PKG = libgstrtspserver-1.0-0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = libgstrtspserver-1.0 (=1.12.4)
-RDEPENDS = glib-2.0 (>= 2.54.3) gstreamer1.0 (>= 1.12.4) libgstapp-1.0 (>= 1.12.4) libgstrtp-1.0 (>= 1.12.4) libgstrtsp-1.0 (>= 1.12.4) libgstsdp-1.0 (>= 1.12.4) musl (>= 1.1.18+git2+628cf979b2)
+RDEPENDS = glib-2.0 (>= 2.54.3) gstreamer1.0 (>= 1.12.4) libgstapp-1.0 (>= 1.12.4) libgstrtp-1.0 (>= 1.12.4) libgstrtsp-1.0 (>= 1.12.4) libgstsdp-1.0 (>= 1.12.4) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
 PKGSIZE = 357924
 FILES = /usr/lib/libgstrtspserver-1.0.so /usr/lib/libgstrtspserver-1.0.so.0 /usr/lib/libgstrtspserver-1.0.so.0.1204.0

@@ -1,9 +1,9 @@
 PE = 1
 PV = 6.0
 PR = r5
-PKGR = r5.13
+PKGR = r5.14
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.18+git2+628cf979b2) update-alternatives-opkg
+RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 318429
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/unzip /usr/lib/unzip/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

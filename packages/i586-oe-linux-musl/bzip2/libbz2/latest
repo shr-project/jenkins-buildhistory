@@ -1,9 +1,9 @@
 PV = 1.0.6
 PR = r5
 PKG = libbz2-1
-PKGR = r5.13
+PKGR = r5.14
 RPROVIDES = libbz2 (=1.0.6)
-RDEPENDS = musl (>= 1.1.18+git2+628cf979b2)
+RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
 PKGSIZE = 69999
 FILES = /usr/lib/lib*.so.*

@@ -1,8 +1,8 @@
 PV = 5.15
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.18+git2+628cf979b2) watchdog-config
+RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) watchdog-config
 RRECOMMENDS = kernel-module-softdog
 RCONFLICTS = watchdog
 PKGSIZE = 26212

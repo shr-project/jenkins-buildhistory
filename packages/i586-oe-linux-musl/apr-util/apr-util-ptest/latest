@@ -1,9 +1,9 @@
 PV = 1.6.1
 PR = r0
 PKG = libaprutil-1-ptest
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = apr-util-ptest (=1.6.1)
-RDEPENDS = apr (>= 1.6.3) apr-util (>= 1.6.1) musl (>= 1.1.18+git2+628cf979b2)
+RDEPENDS = apr (>= 1.6.3) apr-util (>= 1.6.1) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 119483
 FILES = /usr/lib/apr-util/ptest

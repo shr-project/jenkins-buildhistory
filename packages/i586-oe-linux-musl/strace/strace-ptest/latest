@@ -1,8 +1,8 @@
 PV = 4.20
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = coreutils gawk grep make musl (>= 1.1.18+git2+628cf979b2) sed
+RDEPENDS = coreutils gawk grep make musl (>= 1.1.19+git0+55df09bfcc) sed
 RRECOMMENDS = ptest-runner
 PKGSIZE = 6840373
 FILES = /usr/lib/strace/ptest

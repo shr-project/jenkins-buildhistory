@@ -1,9 +1,9 @@
 PV = 2.40.1
 PR = r0
 PKG = libxml++-2.6-ptest
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = libxml++-ptest (=2.40.1)
-RDEPENDS = glibmm (>= 2.54.1) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libxml++ (>= 2.40.1) make musl (>= 1.1.18+git2+628cf979b2)
+RDEPENDS = glibmm (>= 2.54.1) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libxml++ (>= 2.40.1) make musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 315804
 FILES = /usr/lib/libxml++/ptest

@@ -1,8 +1,8 @@
 PV = 0.0.20171221
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = bash libmnl (>= 1.0.4) musl (>= 1.1.18+git2+628cf979b2) wireguard-module
+RDEPENDS = bash libmnl (>= 1.0.4) musl (>= 1.1.19+git0+55df09bfcc) wireguard-module
 RRECOMMENDS = 
 PKGSIZE = 82364
 FILES = /etc /lib/systemd /usr/bin

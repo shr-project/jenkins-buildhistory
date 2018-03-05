@@ -1,9 +1,9 @@
 PV = 8.41
 PR = r0
 PKG = libpcreposix0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = libpcreposix (=8.41)
-RDEPENDS = libpcre (>= 8.41) musl (>= 1.1.18+git2+628cf979b2)
+RDEPENDS = libpcre (>= 8.41) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
 PKGSIZE = 9569
 FILES = /usr/lib/libpcreposix.so.*
