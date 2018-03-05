@@ -1,8 +1,8 @@
 PV = 7.3.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) gmp (>= 6.1.2) libmpc (>= 1.0.3) mpfr (>= 3.1.5) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.27) gmp (>= 6.1.2) libmpc (>= 1.1.0) mpfr (>= 3.1.5) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 16545653
 FILES = /usr/bin/arm-oe-linux-gnueabi-cpp* /lib/cpp /usr/libexec/gcc/arm-oe-linux-gnueabi/7.3.0/cc1
