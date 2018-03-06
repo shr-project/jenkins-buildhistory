@@ -1,8 +1,8 @@
 PV = 3.2
 PR = r1
-PKGR = r1.11
+PKGR = r1.12
 RPROVIDES = 
-RDEPENDS = bash coreutils glibc (>= 2.26) parted (>= 3.2) perl python3 util-linux-losetup
+RDEPENDS = bash coreutils glibc (>= 2.27) parted (>= 3.2) perl python3 util-linux-losetup
 RRECOMMENDS = ptest-runner
 PKGSIZE = 362486
 FILES = /usr/lib/parted/ptest

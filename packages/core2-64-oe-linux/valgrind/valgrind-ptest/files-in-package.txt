@@ -40,7 +40,7 @@ drwxr-xr-x root       root              760 ./usr/lib/valgrind/ptest/callgrind/t
 -rw-r--r-- root       root              110 ./usr/lib/valgrind/ptest/callgrind/tests/notpower2.vgtest
 -rw-r--r-- root       root              248 ./usr/lib/valgrind/ptest/callgrind/tests/notpower2-wb.stderr.exp
 -rw-r--r-- root       root              128 ./usr/lib/valgrind/ptest/callgrind/tests/notpower2-wb.vgtest
--rwxr-xr-x root       root             6312 ./usr/lib/valgrind/ptest/callgrind/tests/simwork
+-rwxr-xr-x root       root            10408 ./usr/lib/valgrind/ptest/callgrind/tests/simwork
 -rw-r--r-- root       root              230 ./usr/lib/valgrind/ptest/callgrind/tests/simwork1.stderr.exp
 -rw-r--r-- root       root               13 ./usr/lib/valgrind/ptest/callgrind/tests/simwork1.stdout.exp
 -rw-r--r-- root       root               72 ./usr/lib/valgrind/ptest/callgrind/tests/simwork1.vgtest
@@ -87,7 +87,7 @@ drwxr-xr-x root       root             8520 ./usr/lib/valgrind/ptest/drd/tests
 -rw-r--r-- root       root              164 ./usr/lib/valgrind/ptest/drd/tests/annotate_ignore_rw2.vgtest
 -rw-r--r-- root       root              265 ./usr/lib/valgrind/ptest/drd/tests/annotate_ignore_rw.stderr.exp
 -rw-r--r-- root       root              155 ./usr/lib/valgrind/ptest/drd/tests/annotate_ignore_rw.vgtest
--rwxr-xr-x root       root             6360 ./usr/lib/valgrind/ptest/drd/tests/annotate_ignore_write
+-rwxr-xr-x root       root            10456 ./usr/lib/valgrind/ptest/drd/tests/annotate_ignore_write
 -rw-r--r-- root       root              861 ./usr/lib/valgrind/ptest/drd/tests/annotate_ignore_write2.stderr.exp
 -rw-r--r-- root       root             1121 ./usr/lib/valgrind/ptest/drd/tests/annotate_ignore_write2.stderr.exp-solaris
 -rw-r--r-- root       root              167 ./usr/lib/valgrind/ptest/drd/tests/annotate_ignore_write2.vgtest
@@ -182,7 +182,7 @@ drwxr-xr-x root       root             8520 ./usr/lib/valgrind/ptest/drd/tests
 -rwxr-xr-x root       root              242 ./usr/lib/valgrind/ptest/drd/tests/filter_thread_name_xml
 -rwxr-xr-x root       root              289 ./usr/lib/valgrind/ptest/drd/tests/filter_thread_no
 -rwxr-xr-x root       root              109 ./usr/lib/valgrind/ptest/drd/tests/filter_xml_and_thread_no
--rwxr-xr-x root       root             6384 ./usr/lib/valgrind/ptest/drd/tests/fp_race
+-rwxr-xr-x root       root            10480 ./usr/lib/valgrind/ptest/drd/tests/fp_race
 -rw-r--r-- root       root               65 ./usr/lib/valgrind/ptest/drd/tests/fp_race2.stderr.exp
 -rw-r--r-- root       root               54 ./usr/lib/valgrind/ptest/drd/tests/fp_race2.vgtest
 -rw-r--r-- root       root              736 ./usr/lib/valgrind/ptest/drd/tests/fp_race.stderr.exp
@@ -279,7 +279,7 @@ drwxr-xr-x root       root             8520 ./usr/lib/valgrind/ptest/drd/tests
 -rw-r--r-- root       root              579 ./usr/lib/valgrind/ptest/drd/tests/pth_cancel_locked.stderr.exp
 -rw-r--r-- root       root              764 ./usr/lib/valgrind/ptest/drd/tests/pth_cancel_locked.stderr.exp-darwin
 -rw-r--r-- root       root              105 ./usr/lib/valgrind/ptest/drd/tests/pth_cancel_locked.vgtest
--rwxr-xr-x root       root             6408 ./usr/lib/valgrind/ptest/drd/tests/pth_cleanup_handler
+-rwxr-xr-x root       root            10504 ./usr/lib/valgrind/ptest/drd/tests/pth_cleanup_handler
 -rw-r--r-- root       root              147 ./usr/lib/valgrind/ptest/drd/tests/pth_cleanup_handler.stderr.exp
 -rw-r--r-- root       root              138 ./usr/lib/valgrind/ptest/drd/tests/pth_cleanup_handler.vgtest
 -rwxr-xr-x root       root             6400 ./usr/lib/valgrind/ptest/drd/tests/pth_cond_destroy_busy
@@ -2303,7 +2303,7 @@ drwxr-xr-x root       root              340 ./usr/lib/valgrind/ptest/none/tests/
 -rw-r--r-- root       root                0 ./usr/lib/valgrind/ptest/none/tests/amd64/slahf-amd64.stderr.exp
 -rw-r--r-- root       root             2783 ./usr/lib/valgrind/ptest/none/tests/amd64/slahf-amd64.stdout.exp
 -rw-r--r-- root       root               57 ./usr/lib/valgrind/ptest/none/tests/amd64/slahf-amd64.vgtest
--rwxr-xr-x root       root             6336 ./usr/lib/valgrind/ptest/none/tests/amd64/smc1
+-rwxr-xr-x root       root            10432 ./usr/lib/valgrind/ptest/none/tests/amd64/smc1
 -rw-r--r-- root       root                2 ./usr/lib/valgrind/ptest/none/tests/amd64/smc1.stderr.exp
 -rw-r--r-- root       root               70 ./usr/lib/valgrind/ptest/none/tests/amd64/smc1.stdout.exp
 -rw-r--r-- root       root               35 ./usr/lib/valgrind/ptest/none/tests/amd64/smc1.vgtest
@@ -2329,7 +2329,7 @@ drwxr-xr-x root       root              360 ./usr/lib/valgrind/ptest/none/tests/
 -rw-r--r-- root       root           664100 ./usr/lib/valgrind/ptest/none/tests/amd64/sse4-64.stdout.exp
 -rw-r--r-- root       root           561796 ./usr/lib/valgrind/ptest/none/tests/amd64/sse4-64.stdout.exp-older-glibc
 -rw-r--r-- root       root              109 ./usr/lib/valgrind/ptest/none/tests/amd64/sse4-64.vgtest
--rwxr-xr-x root       root             6368 ./usr/lib/valgrind/ptest/none/tests/amd64/ssse3_misaligned
+-rwxr-xr-x root       root            10464 ./usr/lib/valgrind/ptest/none/tests/amd64/ssse3_misaligned
 -rw-r--r-- root       root               50 ./usr/lib/valgrind/ptest/none/tests/amd64/ssse3_misaligned.stderr.exp
 -rw-r--r-- root       root                0 ./usr/lib/valgrind/ptest/none/tests/amd64/ssse3_misaligned.stdout.exp
 -rw-r--r-- root       root               88 ./usr/lib/valgrind/ptest/none/tests/amd64/ssse3_misaligned.vgtest
@@ -2337,7 +2337,7 @@ drwxr-xr-x root       root              360 ./usr/lib/valgrind/ptest/none/tests/
 -rw-r--r-- root       root                2 ./usr/lib/valgrind/ptest/none/tests/amd64/tm1.stderr.exp
 -rw-r--r-- root       root              112 ./usr/lib/valgrind/ptest/none/tests/amd64/tm1.stdout.exp
 -rw-r--r-- root       root               77 ./usr/lib/valgrind/ptest/none/tests/amd64/tm1.vgtest
--rwxr-xr-x root       root             6328 ./usr/lib/valgrind/ptest/none/tests/amd64/x87trigOOR
+-rwxr-xr-x root       root            10424 ./usr/lib/valgrind/ptest/none/tests/amd64/x87trigOOR
 -rw-r--r-- root       root                2 ./usr/lib/valgrind/ptest/none/tests/amd64/x87trigOOR.stderr.exp
 -rw-r--r-- root       root             4152 ./usr/lib/valgrind/ptest/none/tests/amd64/x87trigOOR.stdout.exp
 -rw-r--r-- root       root               17 ./usr/lib/valgrind/ptest/none/tests/amd64/x87trigOOR.vgtest
@@ -3106,7 +3106,7 @@ drwxr-xr-x root       root             2300 ./usr/lib/valgrind/ptest/none/tests/
 -rw-r--r-- root       root                3 ./usr/lib/valgrind/ptest/none/tests/pth_atfork1.stderr.exp
 -rw-r--r-- root       root                7 ./usr/lib/valgrind/ptest/none/tests/pth_atfork1.stdout.exp
 -rw-r--r-- root       root               18 ./usr/lib/valgrind/ptest/none/tests/pth_atfork1.vgtest
--rwxr-xr-x root       root             6400 ./usr/lib/valgrind/ptest/none/tests/pth_blockedsig
+-rwxr-xr-x root       root            10496 ./usr/lib/valgrind/ptest/none/tests/pth_blockedsig
 -rw-r--r-- root       root                2 ./usr/lib/valgrind/ptest/none/tests/pth_blockedsig.stderr.exp
 -rw-r--r-- root       root               44 ./usr/lib/valgrind/ptest/none/tests/pth_blockedsig.stdout.exp
 -rw-r--r-- root       root               21 ./usr/lib/valgrind/ptest/none/tests/pth_blockedsig.vgtest
@@ -3145,7 +3145,7 @@ drwxr-xr-x root       root             2300 ./usr/lib/valgrind/ptest/none/tests/
 -rw-r--r-- root       root                2 ./usr/lib/valgrind/ptest/none/tests/pth_stackalign.stderr.exp
 -rw-r--r-- root       root               14 ./usr/lib/valgrind/ptest/none/tests/pth_stackalign.stdout.exp
 -rw-r--r-- root       root               21 ./usr/lib/valgrind/ptest/none/tests/pth_stackalign.vgtest
--rwxr-xr-x root       root             6384 ./usr/lib/valgrind/ptest/none/tests/pth_term_signal
+-rwxr-xr-x root       root            10480 ./usr/lib/valgrind/ptest/none/tests/pth_term_signal
 -rw-r--r-- root       root               10 ./usr/lib/valgrind/ptest/none/tests/pth_term_signal.stderr.exp
 -rw-r--r-- root       root               33 ./usr/lib/valgrind/ptest/none/tests/pth_term_signal.vgtest
 -rwxr-xr-x root       root             6304 ./usr/lib/valgrind/ptest/none/tests/rcrl
@@ -3170,7 +3170,7 @@ drwxr-xr-x root       root             2300 ./usr/lib/valgrind/ptest/none/tests/
 -rw-r--r-- root       root                0 ./usr/lib/valgrind/ptest/none/tests/res_search.stderr.exp
 -rw-r--r-- root       root                9 ./usr/lib/valgrind/ptest/none/tests/res_search.stdout.exp
 -rw-r--r-- root       root              146 ./usr/lib/valgrind/ptest/none/tests/res_search.vgtest
--rwxr-xr-x root       root             6376 ./usr/lib/valgrind/ptest/none/tests/rlimit64_nofile
+-rwxr-xr-x root       root            10472 ./usr/lib/valgrind/ptest/none/tests/rlimit64_nofile
 -rw-r--r-- root       root                2 ./usr/lib/valgrind/ptest/none/tests/rlimit64_nofile.stderr.exp
 -rw-r--r-- root       root                0 ./usr/lib/valgrind/ptest/none/tests/rlimit64_nofile.stdout.exp
 -rw-r--r-- root       root               87 ./usr/lib/valgrind/ptest/none/tests/rlimit64_nofile.vgtest

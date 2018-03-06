@@ -1,8 +1,8 @@
 PV = 4.5.1
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) libgcc (>= 7.3.0) libgl-mesa (>= 17.3.5) libstdc++ (>= 7.3.0) perl python qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b) qtdeclarative (>= 5.10.1+5.11-alpha+git0+0975a9c892) qtscript (>= 5.10.1+5.11-alpha+git0+781c745277) qtsvg (>= 5.10.1+5.11-alpha+git0+f4554e29a4) qttools (>= 5.10.1+5.11-alpha+git0+c29a1b03fd)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libgl-mesa (>= 17.3.6) libstdc++ (>= 7.3.0) perl python qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b) qtdeclarative (>= 5.10.1+5.11-alpha+git0+0975a9c892) qtscript (>= 5.10.1+5.11-alpha+git0+781c745277) qtsvg (>= 5.10.1+5.11-alpha+git0+f4554e29a4) qttools (>= 5.10.1+5.11-alpha+git0+c29a1b03fd)
 RRECOMMENDS = binutils ccache cpp-symlinks g++-symlinks gcc-symlinks gdb make packagegroup-qt5-toolchain-target
 RCONFLICTS = qt-creator
 PKGSIZE = 70099955

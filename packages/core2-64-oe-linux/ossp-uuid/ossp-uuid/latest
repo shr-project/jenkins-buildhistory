@@ -1,9 +1,9 @@
 PV = 1.6.2
 PR = r2
 PKG = libossp-uuid16
-PKGR = r2.11
+PKGR = r2.12
 RPROVIDES = ossp-uuid (=1.6.2)
-RDEPENDS = glibc (>= 2.26)
+RDEPENDS = glibc (>= 2.27)
 RRECOMMENDS = 
 PKGSIZE = 47583
 FILES = /usr/lib/libossp-uuid.so.16*

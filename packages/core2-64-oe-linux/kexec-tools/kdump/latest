@@ -1,8 +1,8 @@
 PV = 2.0.16
 PR = r1
-PKGR = r1.7
+PKGR = r1.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.26) liblzma (>= 5.2.3) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.27) liblzma (>= 5.2.3) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 14175
 FILES = /usr/sbin/kdump /etc/sysconfig/kdump.conf /etc/init.d/kdump /usr/libexec/kdump-helper /lib/systemd/system/kdump.service

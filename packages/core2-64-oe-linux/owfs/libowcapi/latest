@@ -1,9 +1,9 @@
 PV = 2.9p1
 PR = r0
 PKG = libowcapi-2.9-1
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = libowcapi (=2.9p1)
-RDEPENDS = glibc (>= 2.26) libow (>= 2.9p1) libusb-compat (>= 0.1.5)
+RDEPENDS = glibc (>= 2.27) libow (>= 2.9p1) libusb-compat (>= 0.1.5)
 RRECOMMENDS = 
 PKGSIZE = 10358
 FILES = /usr/lib/libowcapi-*
