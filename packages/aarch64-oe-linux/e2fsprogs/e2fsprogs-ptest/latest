@@ -1,8 +1,8 @@
 PV = 1.43.8
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = bash coreutils e2fsprogs e2fsprogs-tune2fs glibc (>= 2.26) libcomerr (>= 1.43.8) libext2fs (>= 1.43.8) libss (>= 1.43.8) procps
+RDEPENDS = bash coreutils e2fsprogs e2fsprogs-tune2fs glibc (>= 2.27) libcomerr (>= 1.43.8) libext2fs (>= 1.43.8) libss (>= 1.43.8) procps
 RRECOMMENDS = ptest-runner
 PKGSIZE = 14168490
 FILES = /usr/lib/e2fsprogs/ptest

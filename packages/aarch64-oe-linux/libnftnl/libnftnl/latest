@@ -2,9 +2,9 @@ PV = 1.0.7+gitAUTOINC+4b89c0cb08
 PR = r0
 PKG = libnftnl7
 PKGV = 1.0.7+git0+4b89c0cb08
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = libnftnl (=1.0.7+git0+4b89c0cb08)
-RDEPENDS = glibc (>= 2.26) libmnl (>= 1.0.4)
+RDEPENDS = glibc (>= 2.27) libmnl (>= 1.0.4)
 RRECOMMENDS = 
 PKGSIZE = 201561
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libnftnl /usr/lib/libnftnl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

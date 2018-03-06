@@ -2,9 +2,9 @@ PV = 3.3+gitAUTOINC+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4
 PR = r0
 PKG = libopencv-videoio3.3
 PKGV = 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = libopencv-videoio (=3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4)
-RDEPENDS = glib-2.0 (>= 2.54.3) glibc (>= 2.26) gstreamer1.0 (>= 1.12.4) libavcodec (>= 3.4.1) libavformat (>= 3.4.1) libavutil (>= 3.4.1) libgcc (>= 7.3.0) libgphoto2 (>= 2.5.14) libgphotoport (>= 2.5.14) libgstapp-1.0 (>= 1.12.4) libgstpbutils-1.0 (>= 1.12.4) libgstriff-1.0 (>= 1.12.4) libopencv-core (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libopencv-imgcodecs (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libstdc++ (>= 7.3.0) libswscale (>= 3.4.1) libv4l (>= 1.12.3)
+RDEPENDS = glib-2.0 (>= 2.54.3) glibc (>= 2.27) gstreamer1.0 (>= 1.12.4) libavcodec (>= 3.4.2) libavformat (>= 3.4.2) libavutil (>= 3.4.2) libgcc (>= 7.3.0) libgphoto2 (>= 2.5.14) libgphotoport (>= 2.5.14) libgstapp-1.0 (>= 1.12.4) libgstpbutils-1.0 (>= 1.12.4) libgstriff-1.0 (>= 1.12.4) libopencv-core (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libopencv-imgcodecs (>= 3.3+git0+87c27a074d_2a9d1b22ed_a62e20676a_34e4206aef_fccf7cd6a4) libstdc++ (>= 7.3.0) libswscale (>= 3.4.2) libv4l (>= 1.12.3)
 RRECOMMENDS = 
 PKGSIZE = 264842
 FILES = /usr/lib/libopencv_videoio.so /usr/lib/libopencv_videoio.so.3.3 /usr/lib/libopencv_videoio.so.3.3.0

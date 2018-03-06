@@ -1,9 +1,9 @@
 PV = 1.0.3
 PR = r0
 PKG = liboauth0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = liboauth (=1.0.3)
-RDEPENDS = glibc (>= 2.26) libcrypto (>= 1.0.2n) libcurl (>= 7.58.0)
+RDEPENDS = glibc (>= 2.27) libcrypto (>= 1.0.2n) libcurl (>= 7.58.0)
 RRECOMMENDS = 
 PKGSIZE = 67689
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/liboauth /usr/lib/liboauth/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

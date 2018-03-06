@@ -1,9 +1,9 @@
 PV = 4.2.1
 PR = r3
 PKG = libbeecrypt-ptest
-PKGR = r3.15
+PKGR = r3.16
 RPROVIDES = beecrypt-ptest (=4.2.1)
-RDEPENDS = beecrypt (>= 4.2.1) glibc (>= 2.26)
+RDEPENDS = beecrypt (>= 4.2.1) glibc (>= 2.27)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 1424472
 FILES = /usr/lib/beecrypt/ptest

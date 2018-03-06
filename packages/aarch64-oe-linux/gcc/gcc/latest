@@ -1,8 +1,8 @@
 PV = 7.3.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = cpp glibc (>= 2.26) gmp (>= 6.1.2) libgcc (>= 7.3.0) libmpc (>= 1.0.3) libstdc++ (>= 7.3.0) mpfr (>= 3.1.5) zlib (>= 1.2.11)
+RDEPENDS = cpp glibc (>= 2.27) gmp (>= 6.1.2) libgcc (>= 7.3.0) libmpc (>= 1.1.0) libstdc++ (>= 7.3.0) mpfr (>= 3.1.5) zlib (>= 1.2.11)
 RRECOMMENDS = libssp libssp-dev
 PKGSIZE = 36706966
 FILES = /usr/bin/aarch64-oe-linux-gcc* /usr/libexec/gcc/aarch64-oe-linux/7.3.0/collect2* /usr/libexec/gcc/aarch64-oe-linux/7.3.0/cc1plus /usr/libexec/gcc/aarch64-oe-linux/7.3.0/lto* /usr/libexec/gcc/aarch64-oe-linux/7.3.0/lib*.so.* /usr/libexec/gcc/aarch64-oe-linux/7.3.0/liblto*.so /usr/lib/gcc/aarch64-oe-linux/7.3.0/*.o /usr/lib/gcc/aarch64-oe-linux/7.3.0/specs /usr/lib/gcc/aarch64-oe-linux/7.3.0/lib*.so.* /usr/lib/gcc/aarch64-oe-linux/7.3.0/include /usr/lib/gcc/aarch64-oe-linux/7.3.0/include-fixed

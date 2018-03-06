@@ -1,9 +1,9 @@
 PV = 4.14.0
 PR = r0
 PKG = libhandle1
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = libhandle (=4.14.0)
-RDEPENDS = glibc (>= 2.26)
+RDEPENDS = glibc (>= 2.27)
 RRECOMMENDS = 
 PKGSIZE = 67618
 FILES = /lib/libhandle.so.*
