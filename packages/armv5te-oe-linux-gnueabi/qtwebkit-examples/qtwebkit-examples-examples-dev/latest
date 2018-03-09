@@ -1,10 +1,10 @@
-PV = 5.10.1+gitAUTOINC+a24c780b60
+PV = 5.10.1+5.11-alpha+gitAUTOINC+2d68492004
 PR = r0
-PKGV = 5.10.1+git0+a24c780b60
+PKGV = 5.10.1+5.11-alpha+git0+2d68492004
 PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = ca-certificates-dev glibc-dev libgcc-dev libstdc++-dev qtbase-dev qtdeclarative-dev qtwebkit-dev qtwebkit-qmlplugins-dev qtxmlpatterns-dev
+RRECOMMENDS = ca-certificates-dev qtwebkit-dev qtwebkit-qmlplugins-dev qtxmlpatterns-dev
 PKGSIZE = 0
 FILES = /usr/share/qt5/examples/*.so /usr/share/qt5/examples/*/*.so /usr/share/qt5/examples/*/*/*.so /usr/share/qt5/examples/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*.so /usr/share/qt5/examples/*/*/*/*/*/*/*/*.so
 FILELIST = 

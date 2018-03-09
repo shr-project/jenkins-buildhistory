@@ -1,9 +1,10 @@
 PV = 0.7
 PR = r0
-PKGR = r0.9
-RPROVIDES = 
+PKG = libavahi-ui-gtk3-doc
+PKGR = r0.10
+RPROVIDES = avahi-ui-doc (=0.7)
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 1370
+PKGSIZE = 0
 FILES = /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILELIST = /usr/share/man/man1/bssh.1 /usr/share/man/man1/bvnc.1
+FILELIST = 

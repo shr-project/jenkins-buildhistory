@@ -1,10 +1,10 @@
-PV = 5.10.1+gitAUTOINC+97c4a80a12
+PV = 5.10.1+5.11-alpha+gitAUTOINC+beaeeb9988
 PR = r0
-PKGV = 5.10.1+git0+97c4a80a12
+PKGV = 5.10.1+5.11-alpha+git0+beaeeb9988
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.54.2) glibc (>= 2.26) gstreamer1.0 (>= 1.12.4) libgcc (>= 7.3.0) libgl-mesa (>= 17.3.3) libgstapp-1.0 (>= 1.12.4) libgstaudio-1.0 (>= 1.12.4) libgstpbutils-1.0 (>= 1.12.4) libgstvideo-1.0 (>= 1.12.4) libicui18n (>= 60.2) libicuuc (>= 60.2) libjpeg-turbo (>= 1.5.3) libpng (>= 1.6.32) libsqlite3 (>= 3.22.0) libstdc++ (>= 7.3.0) libx11 (>= 1.6.5) libxcomposite (>= 0.4.4) libxml2 (>= 2.9.7) libxrender (>= 0.9.10) libxslt (>= 1.1.32) qtbase (>= 5.10.1+git0+6c6ace9d23) qtdeclarative (>= 5.10.1+git0+3e91062877) qtlocation (>= 5.10.1+git0+ec00ff89be_8c1be4ec01) qtsensors (>= 5.10.1+git0+d5a94c5595) zlib (>= 1.2.11)
+RDEPENDS = 
 RRECOMMENDS = qtwebkit-plugins qtwebkit-qmlplugins
-PKGSIZE = 30964526
+PKGSIZE = 0
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtwebkit /usr/lib/qtwebkit/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5WebKit.so.5 /usr/lib/libQt5WebKit.so.5.9 /usr/lib/libQt5WebKit.so.5.9.2 /usr/lib/libQt5WebKitWidgets.so.5 /usr/lib/libQt5WebKitWidgets.so.5.9 /usr/lib/libQt5WebKitWidgets.so.5.9.2 /usr/lib/qt5/libexec/QtWebPluginProcess /usr/lib/qt5/libexec/QtWebProcess
+FILELIST = 
