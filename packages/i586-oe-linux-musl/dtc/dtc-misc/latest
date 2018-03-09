@@ -1,8 +1,8 @@
 PV = 1.4.5
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = bash musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = bash diffutils musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
 PKGSIZE = 26616
 FILES = /usr/bin/convert-dtsv0 /usr/bin/ftdump /usr/bin/dtdiff

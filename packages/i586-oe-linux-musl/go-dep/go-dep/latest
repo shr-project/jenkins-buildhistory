@@ -1,9 +1,9 @@
 PV = 0.4.1
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = go-runtime (>= 1.9.4) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = go-runtime (>= 1.10) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
-PKGSIZE = 2928676
+PKGSIZE = 3031460
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/go-dep /usr/lib/go-dep/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/dep
