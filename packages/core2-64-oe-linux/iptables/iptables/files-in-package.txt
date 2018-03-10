@@ -10,11 +10,11 @@ lrwxrwxrwx root       root               17 ./usr/lib/libip6tc.so.0 -> libip6tc.
 lrwxrwxrwx root       root               16 ./usr/lib/libiptc.so.0 -> libiptc.so.0.0.0
 -rwxr-xr-x root       root            51384 ./usr/lib/libxtables.so.12.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libxtables.so.12 -> libxtables.so.12.0.0
-drwxr-xr-x root       root             2280 ./usr/lib/xtables
+drwxr-xr-x root       root             2300 ./usr/lib/xtables
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libebt_802_3.so
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libebt_ip.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libebt_log.so
--rwxr-xr-x root       root            10608 ./usr/lib/xtables/libebt_mark_m.so
+-rwxr-xr-x root       root            10624 ./usr/lib/xtables/libebt_mark_m.so
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libip6t_ah.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libip6t_DNAT.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libip6t_DNPT.so
@@ -35,6 +35,7 @@ drwxr-xr-x root       root             2280 ./usr/lib/xtables
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libip6t_rt.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libip6t_SNAT.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libip6t_SNPT.so
+-rwxr-xr-x root       root            10624 ./usr/lib/xtables/libip6t_srh.so
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libipt_ah.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_CLUSTERIP.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_DNAT.so
@@ -50,7 +51,7 @@ drwxr-xr-x root       root             2280 ./usr/lib/xtables
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libipt_ttl.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_TTL.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_ULOG.so
--rwxr-xr-x root       root            10816 ./usr/lib/xtables/libxt_addrtype.so
+-rwxr-xr-x root       root            14912 ./usr/lib/xtables/libxt_addrtype.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libxt_AUDIT.so
 -rwxr-xr-x root       root            10816 ./usr/lib/xtables/libxt_bpf.so
 -rwxr-xr-x root       root            10816 ./usr/lib/xtables/libxt_cgroup.so
@@ -72,7 +73,7 @@ drwxr-xr-x root       root             2280 ./usr/lib/xtables
 -rwxr-xr-x root       root            10832 ./usr/lib/xtables/libxt_DSCP.so
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libxt_ecn.so
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libxt_esp.so
--rwxr-xr-x root       root            23744 ./usr/lib/xtables/libxt_hashlimit.so
+-rwxr-xr-x root       root            32320 ./usr/lib/xtables/libxt_hashlimit.so
 -rwxr-xr-x root       root             6528 ./usr/lib/xtables/libxt_helper.so
 -rwxr-xr-x root       root            14928 ./usr/lib/xtables/libxt_HMARK.so
 -rwxr-xr-x root       root             6536 ./usr/lib/xtables/libxt_IDLETIMER.so
@@ -130,4 +131,4 @@ lrwxrwxrwx root       root               13 ./usr/sbin/ip6tables -> xtables-mult
 lrwxrwxrwx root       root               13 ./usr/sbin/iptables-restore -> xtables-multi
 lrwxrwxrwx root       root               13 ./usr/sbin/iptables-save -> xtables-multi
 lrwxrwxrwx root       root               13 ./usr/sbin/iptables -> xtables-multi
--rwxr-xr-x root       root            95216 ./usr/sbin/xtables-multi
+-rwxr-xr-x root       root            99376 ./usr/sbin/xtables-multi
