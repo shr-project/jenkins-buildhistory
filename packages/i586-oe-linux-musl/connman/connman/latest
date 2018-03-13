@@ -1,8 +1,8 @@
 PV = 1.35
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = t t tconnman-plugin-ethernet tconnman-plugin-loopback tconnman-plugin-ofono tconnman-plugin-wifi
-RDEPENDS = bluez5 dbus dbus-lib (>= 1.12.2) glib-2.0 (>= 2.54.3) gnutls (>= 3.6.1) iptables (>= 1.6.1) musl (>= 1.1.19+git0+55df09bfcc) ofono update-alternatives-opkg wpa-supplicant
+RDEPENDS = bluez5 dbus dbus-lib (>= 1.12.2) glib-2.0 (>= 2.54.3) gnutls (>= 3.6.1) iptables (>= 1.6.2) musl (>= 1.1.19+git0+55df09bfcc) ofono update-alternatives-opkg wpa-supplicant
 RRECOMMENDS = connman-conf
 PKGSIZE = 1081987
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /usr/lib/connman/plugins /etc /com /var /bin/* /sbin/* /lib/*.so* /usr/share/connman /usr/share/dbus-1/system-services/* /etc/tmpfiles.d/connman_resolvconf.conf /lib/systemd/system/connman.service

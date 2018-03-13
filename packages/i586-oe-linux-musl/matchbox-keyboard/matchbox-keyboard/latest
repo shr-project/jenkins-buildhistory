@@ -1,8 +1,8 @@
 PV = 0.1.1
 PR = r0
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = dbus-wait expat (>= 2.2.5) formfactor libfakekey (>= 0.3+git0+7ad885912e) libpng (>= 1.6.32) libx11 (>= 1.6.5) libxft (>= 2.3.2) libxrender (>= 0.9.10) musl (>= 1.1.18+git2+628cf979b2)
+RDEPENDS = dbus-wait expat (>= 2.2.5) formfactor libfakekey (>= 0.3+git0+7ad885912e) libpng (>= 1.6.34) libx11 (>= 1.6.5) libxft (>= 2.3.2) libxrender (>= 0.9.10) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = matchbox-keyboard-applet
 PKGSIZE = 105821
 FILES = /usr/bin/ \t /etc \t /usr/share/applications \t /usr/share/pixmaps \t /usr/share/matchbox-keyboard

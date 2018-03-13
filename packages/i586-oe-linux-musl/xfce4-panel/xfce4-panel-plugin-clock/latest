@@ -1,8 +1,8 @@
 PV = 4.12.2
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = atk (>= 2.26.1) cairo (>= 1.14.12) dbus-glib (>= 0.108) dbus-lib (>= 1.12.2) exo (>= 0.11.5) fontconfig (>= 2.12.6) freetype (>= 2.9) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.54.2) gtk+ (>= 2.24.32) libxfce4ui-gtk2 (>= 4.12.1) libxfce4util (>= 4.12.1) musl (>= 1.1.18+git2+628cf979b2) pango (>= 1.40.14) xfce4-panel (>= 4.12.2) xfconf (>= 4.12.1)
+RDEPENDS = atk (>= 2.26.1) cairo (>= 1.14.12) dbus-glib (>= 0.108) dbus-lib (>= 1.12.2) exo (>= 0.12.0) fontconfig (>= 2.12.6) freetype (>= 2.9) gdk-pixbuf (>= 2.36.11) glib-2.0 (>= 2.54.3) gtk+ (>= 2.24.32) libxfce4ui-gtk2 (>= 4.12.1) libxfce4util (>= 4.12.1) musl (>= 1.1.19+git0+55df09bfcc) pango (>= 1.40.14) xfce4-panel (>= 4.12.2) xfconf (>= 4.12.1)
 RRECOMMENDS = 
 PKGSIZE = 102965
 FILES = /usr/lib/xfce4/panel/plugins/libclock.so /usr/share/xfce4/panel/plugins/clock.desktop /etc/xdg/xfce/panel/clock-* /usr/share/icons/hicolor/48x48/apps/*-clock.png /usr/bin/*clock*

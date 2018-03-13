@@ -1,5 +1,5 @@
 PV = 1.0.5
 PR = r0
-DEPENDS = autoconf-native automake-native dbus-glib dbus-glib-native dbus-glib-native glib-2.0 gnu-config-native gtk-doc-native intltool-native libatasmart libdevmapper libgudev libtool-cross libtool-native pkgconfig-native polkit qemu-native sg3-utils systemd systemd-systemctl-native virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+DEPENDS = autoconf-native automake-native dbus-glib dbus-glib-native dbus-glib-native glib-2.0 gnu-config-native gtk-doc-native intltool-native libatasmart libdevmapper libgudev libtool-cross libtool-native pkgconfig-native polkit sg3-utils systemd systemd-systemctl-native virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
 PACKAGES = udisks-dbg udisks-staticdev udisks-dev udisks-doc udisks udisks-locale-da
 LAYER = openembedded-layer
