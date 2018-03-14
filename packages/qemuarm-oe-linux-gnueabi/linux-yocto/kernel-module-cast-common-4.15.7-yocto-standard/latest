@@ -1,0 +1,10 @@
+PV = 4.15.7+gitAUTOINC+40cef533a1_c9e3d532f2
+PR = r0
+PKGV = 4.15.7+git0+40cef533a1_c9e3d532f2
+PKGR = r0.1
+RPROVIDES = kernel-module-cast-common
+RDEPENDS = kernel-4.15.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 6680
+FILES = /lib/modules/4.15.7-yocto-standard/kernel/crypto/cast_common.ko /etc/modules-load.d/cast_common.conf /etc/modprobe.d/cast_common.conf
+FILELIST = /lib/modules/4.15.7-yocto-standard/kernel/crypto/cast_common.ko

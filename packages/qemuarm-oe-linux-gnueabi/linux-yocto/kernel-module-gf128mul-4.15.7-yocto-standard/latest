@@ -1,0 +1,10 @@
+PV = 4.15.7+gitAUTOINC+40cef533a1_c9e3d532f2
+PR = r0
+PKGV = 4.15.7+git0+40cef533a1_c9e3d532f2
+PKGR = r0.1
+RPROVIDES = kernel-module-gf128mul
+RDEPENDS = kernel-4.15.7-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 10060
+FILES = /lib/modules/4.15.7-yocto-standard/kernel/crypto/gf128mul.ko /etc/modules-load.d/gf128mul.conf /etc/modprobe.d/gf128mul.conf
+FILELIST = /lib/modules/4.15.7-yocto-standard/kernel/crypto/gf128mul.ko
