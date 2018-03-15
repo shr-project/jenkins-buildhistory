@@ -1,0 +1,5 @@
+PV = 0.0.4
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = python-pyiface-dbg python-pyiface-staticdev python-pyiface-dev python-pyiface-doc python-pyiface-locale python-pyiface
+LAYER = meta-python

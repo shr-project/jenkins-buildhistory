@@ -1,7 +1,8 @@
 PV = 0.7
 PR = r0
-PKGR = r0.7
-RPROVIDES = 
+PKG = libavahi-ui-gtk3-utils
+PKGR = r0.8
+RPROVIDES = avahi-ui-utils (=0.7)
 RDEPENDS = avahi-ui (>= 0.7) glib-2.0 (>= 2.54.3) glibc (>= 2.27) gtk+3 (>= 3.22.28) libavahi-client (>= 0.7) libavahi-common (>= 0.7)
 RRECOMMENDS = 
 PKGSIZE = 22355
