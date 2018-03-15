@@ -2,9 +2,9 @@ PV = 5.10.1+5.11-alpha+gitAUTOINC+b61e7bd318
 PR = r0
 PKG = libqt5mqtt-dev
 PKGV = 5.10.1+5.11-alpha+git0+b61e7bd318
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = qtmqtt-dev (=5.10.1+5.11-alpha+git0+b61e7bd318)
-RDEPENDS = qtmqtt (= 5.10.1+5.11-alpha+git0+b61e7bd318-r0.2)
+RDEPENDS = qtmqtt (= 5.10.1+5.11-alpha+git0+b61e7bd318-r0.3)
 RRECOMMENDS = glibc-dev libstdc++-dev qtbase-dev qtmqtt qtmqtt-mkspecs qtmqtt-qmldesigner
 PKGSIZE = 43703
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtmqtt/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*

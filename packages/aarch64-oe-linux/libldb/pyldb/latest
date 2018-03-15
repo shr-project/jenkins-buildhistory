@@ -1,10 +1,10 @@
-PV = 1.2.2
+PV = 1.3.1
 PR = r0
 PKG = libpyldb-util1
-PKGR = r0.14
-RPROVIDES = pyldb (=1.2.2)
-RDEPENDS = glibc (>= 2.27) libldb (>= 1.2.2) libpython2 (>= 2.7.14) libtalloc (>= 2.1.11) python
+PKGR = r0.1
+RPROVIDES = pyldb (=1.3.1)
+RDEPENDS = glibc (>= 2.27) libldb (>= 1.3.1) libpython2 (>= 2.7.14) libtalloc (>= 2.1.11) python
 RRECOMMENDS = 
 PKGSIZE = 212162
 FILES = /usr/lib/python2.7/site-packages/* /usr/lib/libpyldb-util.so.*
-FILELIST = /usr/lib/libpyldb-util.so.1 /usr/lib/libpyldb-util.so.1.2.2 /usr/lib/python2.7/site-packages/_ldb_text.py /usr/lib/python2.7/site-packages/ldb.so
+FILELIST = /usr/lib/libpyldb-util.so.1 /usr/lib/libpyldb-util.so.1.3.1 /usr/lib/python2.7/site-packages/_ldb_text.py /usr/lib/python2.7/site-packages/ldb.so
