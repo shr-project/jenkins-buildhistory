@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  acpixtract /usr/bin/acpixtract.pmtools\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  acpixtract /usr/bin/acpixtract.pmtools\n

@@ -1,1 +1,1 @@
-    # make sure running on the target\n    if [ x"$D" != "x" ]; then\n        exit 1\n    fi\n    /bin/mknod -m 0622 /dev/grsec c 1 13\n
+set -e\n    # make sure running on the target\n    if [ x"$D" != "x" ]; then\n        exit 1\n    fi\n    /bin/mknod -m 0622 /dev/grsec c 1 13\n

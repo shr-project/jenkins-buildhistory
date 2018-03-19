@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  rexecd /usr/sbin/in.rexecd\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  rexecd /usr/sbin/in.rexecd\n

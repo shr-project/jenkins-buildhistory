@@ -1,8 +1,8 @@
 PV = s20161105
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = libcap (>= 2.25) libidn (>= 1.33) musl (>= 1.1.19+git0+55df09bfcc) nettle (>= 3.4) update-alternatives-opkg
+RDEPENDS = libcap (>= 2.25) musl (>= 1.1.19+git0+55df09bfcc) nettle (>= 3.4) update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 67664
 FILES = /bin/ping.iputils

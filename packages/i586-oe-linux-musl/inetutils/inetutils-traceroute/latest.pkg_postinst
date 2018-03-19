@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --install /usr/bin/traceroute traceroute /usr/bin/traceroute.inetutils 79\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/traceroute traceroute /usr/bin/traceroute.inetutils 79\n

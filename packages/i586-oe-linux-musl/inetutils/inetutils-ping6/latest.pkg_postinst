@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --install /bin/ping6 ping6 /bin/ping6.inetutils 79\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /bin/ping6 ping6 /bin/ping6.inetutils 79\n

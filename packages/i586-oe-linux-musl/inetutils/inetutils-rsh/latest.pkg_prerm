@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  rexec /usr/bin/rexec.inetutils\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  rexec /usr/bin/rexec.inetutils\n

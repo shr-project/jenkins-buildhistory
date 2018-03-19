@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  vi /usr/bin/vim.tiny\n\tupdate-alternatives --remove  vim /usr/bin/vim.tiny\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  vi /usr/bin/vim.tiny\n\tupdate-alternatives --remove  vim /usr/bin/vim.tiny\n
