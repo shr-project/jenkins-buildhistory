@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --install /bin/mktemp mktemp /bin/mktemp.mktemp 60\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /bin/mktemp mktemp /bin/mktemp.mktemp 60\n

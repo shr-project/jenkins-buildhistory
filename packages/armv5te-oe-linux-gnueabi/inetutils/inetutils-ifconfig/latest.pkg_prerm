@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  ifconfig /sbin/ifconfig.inetutils\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  ifconfig /sbin/ifconfig.inetutils\n

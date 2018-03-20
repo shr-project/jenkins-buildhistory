@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  vlock /usr/bin/vlock.vlock\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  vlock /usr/bin/vlock.vlock\n

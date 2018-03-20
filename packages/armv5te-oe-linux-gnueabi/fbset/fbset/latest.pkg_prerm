@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  fbset /usr/sbin/fbset.real\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  fbset /usr/sbin/fbset.real\n

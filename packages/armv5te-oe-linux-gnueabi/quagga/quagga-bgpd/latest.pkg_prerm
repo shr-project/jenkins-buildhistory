@@ -1,1 +1,1 @@
-    /etc/init.d/quagga stop bgpd\nOPTS=""\n\nif [ -n "$D" ]; then\n    OPTS="--root=$D"\nfi\n\nif type systemctl >/dev/null 2>/dev/null; then\n\tif [ -z "$D" ]; then\n\t\tsystemctl stop bgpd.service\n\tfi\n\n\tsystemctl $OPTS disable bgpd.service\nfi\n
+set -e\n    /etc/init.d/quagga stop bgpd\nOPTS=""\n\nif [ -n "$D" ]; then\n    OPTS="--root=$D"\nfi\n\nif type systemctl >/dev/null 2>/dev/null; then\n\tif [ -z "$D" ]; then\n\t\tsystemctl stop bgpd.service\n\tfi\n\n\tsystemctl $OPTS disable bgpd.service\nfi\n
