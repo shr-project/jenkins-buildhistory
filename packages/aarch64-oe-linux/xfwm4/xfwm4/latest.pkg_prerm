@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  x-window-manager /usr/bin/xfwm4\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  x-window-manager /usr/bin/xfwm4\n

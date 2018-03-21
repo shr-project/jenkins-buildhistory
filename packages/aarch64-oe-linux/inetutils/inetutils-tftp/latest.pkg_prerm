@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  tftp /usr/bin/tftp.inetutils\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  tftp /usr/bin/tftp.inetutils\n

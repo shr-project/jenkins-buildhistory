@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --install /usr/share/man/man1/mktemp.1 mktemp.1 /usr/share/man/man1/mktemp.1.mktemp 300\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/share/man/man1/mktemp.1 mktemp.1 /usr/share/man/man1/mktemp.1.mktemp 300\n

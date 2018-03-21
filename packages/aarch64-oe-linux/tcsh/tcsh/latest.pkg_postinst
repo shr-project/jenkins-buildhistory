@@ -1,1 +1,1 @@
-#!/bin/sh -e\necho /usr/bin/tcsh >> $D/etc/shells\necho /usr/bin/csh >> $D/etc/shells\n
+#!/bin/sh -e\nset -e\necho /usr/bin/tcsh >> $D/etc/shells\necho /usr/bin/csh >> $D/etc/shells\n
