@@ -1,1 +1,1 @@
-#! /bin/sh\nset -e\n\nif [ x"$D" = "x" ]; then\n    # On target\n    opkg-key populate\nelse\n    exit 1\nfi\n
+#! /bin/sh\nset -e\nset -e\n\nif [ x"$D" = "x" ]; then\n    # On target\n    opkg-key populate\nelse\n    exit 1\nfi\n

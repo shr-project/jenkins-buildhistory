@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --install /usr/bin/acpixtract acpixtract /usr/bin/acpixtract.pmtools 90\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/acpixtract acpixtract /usr/bin/acpixtract.pmtools 90\n

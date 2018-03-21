@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --install /usr/bin/mkpasswd mkpasswd /usr/bin/mkpasswd.expect 40\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/mkpasswd mkpasswd /usr/bin/mkpasswd.expect 40\n

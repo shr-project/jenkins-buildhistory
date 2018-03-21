@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  traceroute /usr/bin/traceroute.traceroute\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  traceroute /usr/bin/traceroute.traceroute\n

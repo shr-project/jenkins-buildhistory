@@ -1,1 +1,1 @@
-#!/bin/sh\n\tupdate-alternatives --remove  ping /bin/ping.iputils\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  ping /bin/ping.iputils\n
