@@ -1,9 +1,9 @@
-PV = 5.5.3
+PV = 5.6.2
 PR = r0
-PKGR = r0.34
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.27) strongswan
 RRECOMMENDS = 
-PKGSIZE = 57651
+PKGSIZE = 61867
 FILES = /usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.so /etc/strongswan.d/charon/kernel-netlink.conf
 FILELIST = /etc/strongswan.d/charon/kernel-netlink.conf /usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.so
