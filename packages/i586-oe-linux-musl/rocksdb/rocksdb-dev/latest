@@ -2,9 +2,9 @@ PV = 5.8+gitAUTOINC+266ac245af
 PR = r0
 PKG = librocksdb-dev
 PKGV = 5.8+git0+266ac245af
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = rocksdb-dev (=5.8+git0+266ac245af)
-RDEPENDS = rocksdb (= 5.8+git0+266ac245af-r0.17)
+RDEPENDS = rocksdb (= 5.8+git0+266ac245af-r0.18)
 RRECOMMENDS = bzip2-dev libbz2-dev libgcc-dev libstdc++-dev lz4-dev musl-dev zlib-dev
 PKGSIZE = 661675
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rocksdb/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/cmake

@@ -1,9 +1,9 @@
 PV = 3.4.13+gitAUTOINC+fbdef2ccc5
 PR = r0
 PKGV = 3.4.13+git0+fbdef2ccc5
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = mongodb (= 3.4.13+git0+fbdef2ccc5-r0.2)
+RDEPENDS = mongodb (= 3.4.13+git0+fbdef2ccc5-r0.3)
 RRECOMMENDS = boost-dev libcrypto-dev libgcc-dev libpcap-dev libpcre-dev libpcrecpp-dev libssl-dev libstdc++-dev musl-dev openssl-dev python-dev zlib-dev
 PKGSIZE = 0
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mongodb/*.la /lib/*.la

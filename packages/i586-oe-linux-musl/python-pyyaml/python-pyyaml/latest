@@ -1,8 +1,8 @@
 PV = 3.12
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = 
-RDEPENDS = libpython2 (>= 2.7.14) libyaml (>= 0.1.7) musl (>= 1.1.19+git0+55df09bfcc) python-core
+RDEPENDS = libpython2 (>= 2.7.14) libyaml (>= 0.1.7) musl (>= 1.1.19+git0+55df09bfcc) python-core python-datetime
 RRECOMMENDS = 
 PKGSIZE = 604439
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/python-pyyaml /usr/lib/python-pyyaml/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python2.7/*

@@ -1,10 +1,10 @@
 PE = 1
-PV = 234
+PV = 237
 PR = r0
-PKGR = r0.17
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libgcc (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc) systemd (>= 234) util-linux-libmount (>= 2.31)
+RDEPENDS = libacl (>= 2.2.52) musl (>= 1.1.19+git0+55df09bfcc) systemd (>= 237) util-linux-libblkid (>= 2.31) util-linux-libmount (>= 2.31)
 RRECOMMENDS = 
-PKGSIZE = 1050432
+PKGSIZE = 1514088
 FILES = /usr/bin/systemd-analyze
 FILELIST = /usr/bin/systemd-analyze

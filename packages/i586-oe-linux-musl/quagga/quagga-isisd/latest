@@ -1,8 +1,8 @@
-PV = 1.2.2
+PV = 1.2.4
 PR = r0
-PKGR = r0.11
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) quagga (>= 1.2.2)
+RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) quagga (>= 1.2.4)
 RRECOMMENDS = 
 PKGSIZE = 334738
 FILES = /usr/sbin/isisd /lib/systemd/system/isisd.service

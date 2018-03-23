@@ -1,10 +1,10 @@
 PV = 5.15
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) watchdog-config
 RRECOMMENDS = kernel-module-softdog
 RCONFLICTS = watchdog
-PKGSIZE = 26212
-FILES = /etc/init.d/wd_keepalive /usr/sbin/wd_keepalive
-FILELIST = /usr/sbin/wd_keepalive
+PKGSIZE = 26592
+FILES = /etc/init.d/wd_keepalive /lib/systemd/system/wd_keepalive.service /usr/sbin/wd_keepalive /lib/systemd/system/wd_keepalive.service
+FILELIST = /lib/systemd/system/wd_keepalive.service /usr/sbin/wd_keepalive
