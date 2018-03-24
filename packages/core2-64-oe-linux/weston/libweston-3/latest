@@ -1,8 +1,8 @@
 PV = 3.0.0
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = cairo (>= 1.14.12) dbus-lib (>= 1.12.2) glibc (>= 2.27) libdrm (>= 2.4.91) libegl-mesa (>= 17.3.6) libgbm (>= 17.3.6) libgles2-mesa (>= 17.3.6) libinput (>= 1.9.4) libjpeg-turbo (>= 1.5.3) libpng (>= 1.6.34) libsystemd (>= 234) libudev (>= 234) libwayland-egl (>= 17.3.6) libx11 (>= 1.6.5) libx11-xcb (>= 1.6.5) libxcb (>= 1.12) libxcb-shm (>= 1.12) libxcb-xkb (>= 1.12) libxkbcommon (>= 0.8.0) mtdev (>= 1.1.5) pixman (>= 0.34.0) wayland (>= 1.14.0) zlib (>= 1.2.11)
+RDEPENDS = cairo (>= 1.14.12) dbus-lib (>= 1.12.2) glibc (>= 2.27) libdrm (>= 2.4.91) libegl-mesa (>= 17.3.6) libgbm (>= 17.3.6) libgles2-mesa (>= 17.3.6) libinput (>= 1.9.4) libjpeg-turbo (>= 1.5.3) libpng (>= 1.6.34) libsystemd (>= 237) libudev (>= 237) libwayland-egl (>= 17.3.6) libx11 (>= 1.6.5) libx11-xcb (>= 1.6.5) libxcb (>= 1.12) libxcb-shm (>= 1.12) libxcb-xkb (>= 1.12) libxkbcommon (>= 0.8.0) mtdev (>= 1.1.5) pixman (>= 0.34.0) wayland (>= 1.14.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 660776
 FILES = /usr/lib/lib*.so.* /usr/lib/libweston-3/*.so
