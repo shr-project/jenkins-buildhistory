@@ -1,9 +1,9 @@
-PV = 1.1
+PV = 1.15
 PR = r0
-PKGR = r0.18
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) tslib (>= 1.1)
+RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) tslib (>= 1.15)
 RRECOMMENDS = 
-PKGSIZE = 23948
+PKGSIZE = 28112
 FILES = /usr/bin/ts_calibrate
 FILELIST = /usr/bin/ts_calibrate

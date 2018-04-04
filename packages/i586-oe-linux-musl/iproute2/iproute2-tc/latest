@@ -1,9 +1,9 @@
-PV = 4.14.1
+PV = 4.15.0
 PR = r0
-PKGR = r0.11
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = iptables (>= 1.6.2) libelf (>= 0.170) libmnl (>= 1.0.4) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
-PKGSIZE = 517043
+PKGSIZE = 537555
 FILES = /sbin/tc* /usr/lib/tc/*.so
 FILELIST = /sbin/tc /usr/lib/tc/m_ipt.so /usr/lib/tc/m_xt.so

@@ -1,24 +1,32 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/include
-drwxr-xr-x root       root              400 ./usr/include/blockdev
--rw-r--r-- root       root              985 ./usr/include/blockdev/blockdev.h
--rw-r--r-- root       root             3460 ./usr/include/blockdev/btrfs.h
--rw-r--r-- root       root             3794 ./usr/include/blockdev/crypto.h
+drwxr-xr-x root       root              440 ./usr/include/blockdev
+-rw-r--r-- root       root             1077 ./usr/include/blockdev/blockdev.h
+-rw-r--r-- root       root             3912 ./usr/include/blockdev/btrfs.h
+-rw-r--r-- root       root             4337 ./usr/include/blockdev/crypto.h
 -rw-r--r-- root       root             1198 ./usr/include/blockdev/dev_utils.h
--rw-r--r-- root       root             1198 ./usr/include/blockdev/dm.h
--rw-r--r-- root       root             2810 ./usr/include/blockdev/exec.h
+-rw-r--r-- root       root             1558 ./usr/include/blockdev/dm.h
+-rw-r--r-- root       root             2901 ./usr/include/blockdev/exec.h
 -rw-r--r-- root       root              560 ./usr/include/blockdev/extra_arg.h
--rw-r--r-- root       root             6350 ./usr/include/blockdev/fs.h
--rw-r--r-- root       root             3713 ./usr/include/blockdev/kbd.h
--rw-r--r-- root       root             1347 ./usr/include/blockdev/loop.h
--rw-r--r-- root       root             9930 ./usr/include/blockdev/lvm.h
--rw-r--r-- root       root             3592 ./usr/include/blockdev/mdraid.h
--rw-r--r-- root       root              999 ./usr/include/blockdev/mpath.h
--rw-r--r-- root       root             4730 ./usr/include/blockdev/part.h
--rw-r--r-- root       root              828 ./usr/include/blockdev/plugins.h
+drwxr-xr-x root       root              160 ./usr/include/blockdev/fs
+-rw-r--r-- root       root             2603 ./usr/include/blockdev/fs/ext.h
+-rw-r--r-- root       root             1125 ./usr/include/blockdev/fs/generic.h
+-rw-r--r-- root       root             1818 ./usr/include/blockdev/fs.h
+-rw-r--r-- root       root              453 ./usr/include/blockdev/fs/mount.h
+-rw-r--r-- root       root              838 ./usr/include/blockdev/fs/ntfs.h
+-rw-r--r-- root       root              968 ./usr/include/blockdev/fs/vfat.h
+-rw-r--r-- root       root              914 ./usr/include/blockdev/fs/xfs.h
+-rw-r--r-- root       root             3852 ./usr/include/blockdev/kbd.h
+-rw-r--r-- root       root             1712 ./usr/include/blockdev/loop.h
+-rw-r--r-- root       root            10463 ./usr/include/blockdev/lvm.h
+-rw-r--r-- root       root             3935 ./usr/include/blockdev/mdraid.h
+-rw-r--r-- root       root              664 ./usr/include/blockdev/module.h
+-rw-r--r-- root       root             1324 ./usr/include/blockdev/mpath.h
+-rw-r--r-- root       root             5650 ./usr/include/blockdev/part.h
+-rw-r--r-- root       root              873 ./usr/include/blockdev/plugins.h
 -rw-r--r-- root       root              423 ./usr/include/blockdev/sizes.h
--rw-r--r-- root       root             1036 ./usr/include/blockdev/swap.h
--rw-r--r-- root       root              311 ./usr/include/blockdev/utils.h
+-rw-r--r-- root       root             1534 ./usr/include/blockdev/swap.h
+-rw-r--r-- root       root              331 ./usr/include/blockdev/utils.h
 drwxr-xr-x root       root              360 ./usr/lib
 lrwxrwxrwx root       root               20 ./usr/lib/libbd_btrfs.so -> libbd_btrfs.so.2.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libbd_crypto.so -> libbd_crypto.so.2.0.0
@@ -35,8 +43,9 @@ lrwxrwxrwx root       root               19 ./usr/lib/libbd_part.so -> libbd_par
 lrwxrwxrwx root       root               19 ./usr/lib/libbd_swap.so -> libbd_swap.so.2.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libbd_utils.so -> libbd_utils.so.2.1.0
 lrwxrwxrwx root       root               20 ./usr/lib/libblockdev.so -> libblockdev.so.2.0.0
-drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
--rw-r--r-- root       root              278 ./usr/lib/pkgconfig/blockdev.pc
+drwxr-xr-x root       root               80 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              259 ./usr/lib/pkgconfig/blockdev.pc
+-rw-r--r-- root       root              272 ./usr/lib/pkgconfig/blockdev-utils.pc
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/gir-1.0
--rw-r--r-- root       root           330114 ./usr/share/gir-1.0/BlockDev-2.0.gir
+-rw-r--r-- root       root           379290 ./usr/share/gir-1.0/BlockDev-2.0.gir

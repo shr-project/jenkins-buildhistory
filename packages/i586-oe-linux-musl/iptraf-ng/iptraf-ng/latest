@@ -1,8 +1,8 @@
 PV = 1.1.4
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = iptraf
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) ncurses-libncursesw (>= 6.0+20171125) ncurses-libpanel (>= 6.0+20171125) ncurses-libtinfo (>= 6.0+20171125)
+RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) ncurses-libncursesw (>= 6.1) ncurses-libpanel (>= 6.1) ncurses-libtinfo (>= 6.1)
 RRECOMMENDS = 
 RREPLACES = iptraf
 RCONFLICTS = iptraf
