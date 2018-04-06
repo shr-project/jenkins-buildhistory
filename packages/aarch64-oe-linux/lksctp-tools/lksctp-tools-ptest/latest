@@ -2,7 +2,7 @@ PV = 1.0.17+gitAUTOINC+736b91d340
 PR = r0
 PKG = libsctp-ptest
 PKGV = 1.0.17+git0+736b91d340
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = lksctp-tools-ptest (=1.0.17+git0+736b91d340)
 RDEPENDS = glibc (>= 2.27) lksctp-tools (>= 1.0.17+git0+736b91d340)
 RRECOMMENDS = kernel-module-sctp ptest-runner

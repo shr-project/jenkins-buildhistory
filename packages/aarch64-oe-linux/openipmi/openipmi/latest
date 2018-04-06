@@ -1,8 +1,8 @@
 PV = 2.0.24
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = 
-RDEPENDS = gdbm (>= 1.14.1) glib-2.0 (>= 2.54.3) glibc (>= 2.27) libcrypto (>= 1.0.2n) ncurses-libtinfo (>= 6.0+20171125) net-snmp-libs (>= 5.7.3) popt (>= 1.16)
+RDEPENDS = gdbm (>= 1.14.1) glib-2.0 (>= 2.54.3) glibc (>= 2.27) libcrypto (>= 1.0.2o) ncurses-libtinfo (>= 6.1) net-snmp-libs (>= 5.7.3) openipmi-perl (>= 2.0.24) popt (>= 1.16)
 RRECOMMENDS = 
 PKGSIZE = 2746098
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openipmi /usr/lib/openipmi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/ipmi.service

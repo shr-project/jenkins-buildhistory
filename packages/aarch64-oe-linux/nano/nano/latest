@@ -1,8 +1,8 @@
 PV = 2.9.3
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = file (>= 5.32) glibc (>= 2.27) ncurses-libncursesw (>= 6.0+20171125) ncurses-libtinfo (>= 6.0+20171125) ncurses-terminfo
+RDEPENDS = file (>= 5.32) glibc (>= 2.27) ncurses-libncursesw (>= 6.1) ncurses-libtinfo (>= 6.1) ncurses-terminfo
 RRECOMMENDS = 
 PKGSIZE = 381214
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nano /usr/lib/nano/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

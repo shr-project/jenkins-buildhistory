@@ -1,9 +1,9 @@
-PV = 7.1.9
+PV = 7.2.4
 PR = r0
-PKGR = r0.22
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2n) libgcc libmcrypt (>= 2.5.8) libmysqlclient (>= 5.5.57) libsqlite3 (>= 3.22.0) libssl (>= 1.0.2n) libxml2 (>= 2.9.7) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.27) libbz2 (>= 1.0.6) libcrypto (>= 1.0.2o) libgcc libmysqlclient (>= 5.5.57) libsqlite3 (>= 3.22.0) libssl (>= 1.0.2o) libxml2 (>= 2.9.8) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 11960032
+PKGSIZE = 14010496
 FILES = /usr/lib/php7/php /usr/bin
 FILELIST = /usr/bin/phpdbg
