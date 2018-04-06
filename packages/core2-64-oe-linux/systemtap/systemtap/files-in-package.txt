@@ -515,7 +515,7 @@ drwxr-xr-x root       root             1300 ./usr/share/systemtap/runtime
 -rw-r--r-- root       root              485 ./usr/share/systemtap/runtime/debug.h
 -rw-r--r-- root       root              508 ./usr/share/systemtap/runtime/io.c
 -rw-r--r-- root       root              182 ./usr/share/systemtap/runtime/k_syms.h
-drwxr-xr-x root       root             2440 ./usr/share/systemtap/runtime/linux
+drwxr-xr-x root       root             2460 ./usr/share/systemtap/runtime/linux
 -rw-r--r-- root       root             3664 ./usr/share/systemtap/runtime/linux/access_process_vm.h
 -rw-r--r-- root       root             8227 ./usr/share/systemtap/runtime/linux/addr-map.c
 -rw-r--r-- root       root            14712 ./usr/share/systemtap/runtime/linux/alloc.c
@@ -618,7 +618,7 @@ drwxr-xr-x root       root             2440 ./usr/share/systemtap/runtime/linux
 -rw-r--r-- root       root             3741 ./usr/share/systemtap/runtime/linux/regs-ia64.c
 -rw-r--r-- root       root             4865 ./usr/share/systemtap/runtime/linux/runtime_context.h
 -rw-r--r-- root       root             1041 ./usr/share/systemtap/runtime/linux/runtime_defines.h
--rw-r--r-- root       root            10795 ./usr/share/systemtap/runtime/linux/runtime.h
+-rw-r--r-- root       root            10803 ./usr/share/systemtap/runtime/linux/runtime.h
 -rw-r--r-- root       root             1738 ./usr/share/systemtap/runtime/linux/stat_runtime.h
 -rw-r--r-- root       root            11044 ./usr/share/systemtap/runtime/linux/stp_tracepoint.c
 -rw-r--r-- root       root             2148 ./usr/share/systemtap/runtime/linux/stp_tracepoint.h
@@ -629,6 +629,7 @@ drwxr-xr-x root       root             2440 ./usr/share/systemtap/runtime/linux
 -rw-r--r-- root       root             2442 ./usr/share/systemtap/runtime/linux/task_finder_stubs.c
 -rw-r--r-- root       root             1283 ./usr/share/systemtap/runtime/linux/task_work_compatibility.h
 -rw-r--r-- root       root             2200 ./usr/share/systemtap/runtime/linux/timer.c
+-rw-r--r-- root       root             2332 ./usr/share/systemtap/runtime/linux/timer_compatibility.h
 -rw-r--r-- root       root             1383 ./usr/share/systemtap/runtime/linux/timer.h
 drwxr-xr-x root       root              340 ./usr/share/systemtap/runtime/linux/uprobes
 drwxr-xr-x root       root              200 ./usr/share/systemtap/runtime/linux/uprobes2
@@ -710,10 +711,10 @@ drwxr-xr-x root       root              300 ./usr/share/systemtap/runtime/transp
 -rw-r--r-- root       root              536 ./usr/share/systemtap/runtime/transport/relay_compat.h
 -rw-r--r-- root       root             4924 ./usr/share/systemtap/runtime/transport/relayfs.c
 -rw-r--r-- root       root              609 ./usr/share/systemtap/runtime/transport/relayfs.h
--rw-r--r-- root       root            12083 ./usr/share/systemtap/runtime/transport/relay_v2.c
+-rw-r--r-- root       root            12057 ./usr/share/systemtap/runtime/transport/relay_v2.c
 -rw-r--r-- root       root            20050 ./usr/share/systemtap/runtime/transport/ring_buffer.c
 -rw-r--r-- root       root            15806 ./usr/share/systemtap/runtime/transport/symbols.c
--rw-r--r-- root       root            22237 ./usr/share/systemtap/runtime/transport/transport.c
+-rw-r--r-- root       root            22217 ./usr/share/systemtap/runtime/transport/transport.c
 -rw-r--r-- root       root             3457 ./usr/share/systemtap/runtime/transport/transport.h
 -rw-r--r-- root       root             5205 ./usr/share/systemtap/runtime/transport/transport_msgs.h
 -rw-r--r-- root       root              603 ./usr/share/systemtap/runtime/uidgid_compatibility.h
@@ -905,7 +906,7 @@ drwxr-xr-x root       root              360 ./usr/share/systemtap/tapset/linux/s
 -rw-r--r-- root       root             3042 ./usr/share/systemtap/tapset/linux/s390/sysc_sigaltstack.stp
 -rw-r--r-- root       root             1142 ./usr/share/systemtap/tapset/linux/s390/sysc_sysctl32.stp
 -rw-r--r-- root       root            11636 ./usr/share/systemtap/tapset/linux/scheduler.stp
--rw-r--r-- root       root             9687 ./usr/share/systemtap/tapset/linux/scsi.stp
+-rw-r--r-- root       root             9701 ./usr/share/systemtap/tapset/linux/scsi.stp
 -rw-r--r-- root       root            29152 ./usr/share/systemtap/tapset/linux/signal.stp
 -rw-r--r-- root       root            35024 ./usr/share/systemtap/tapset/linux/socket.stp
 -rw-r--r-- root       root             4214 ./usr/share/systemtap/tapset/linux/sysc_accept4.stp

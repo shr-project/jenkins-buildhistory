@@ -1,13 +1,11 @@
 drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root               60 ./usr/bin
--r-xr-xr-x root       root            13495 ./usr/bin/prove
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/perl
 drwxr-xr-x root       root               60 ./usr/lib/perl/vendor_perl
 drwxr-xr-x root       root              100 ./usr/lib/perl/vendor_perl/5.24.1
 drwxr-xr-x root       root               80 ./usr/lib/perl/vendor_perl/5.24.1/App
 drwxr-xr-x root       root               80 ./usr/lib/perl/vendor_perl/5.24.1/App/Prove
--r--r--r-- root       root            18917 ./usr/lib/perl/vendor_perl/5.24.1/App/Prove.pm
+-r--r--r-- root       root            18991 ./usr/lib/perl/vendor_perl/5.24.1/App/Prove.pm
 drwxr-xr-x root       root               80 ./usr/lib/perl/vendor_perl/5.24.1/App/Prove/State
 -r--r--r-- root       root            11689 ./usr/lib/perl/vendor_perl/5.24.1/App/Prove/State.pm
 drwxr-xr-x root       root               60 ./usr/lib/perl/vendor_perl/5.24.1/App/Prove/State/Result
@@ -17,7 +15,7 @@ drwxr-xr-x root       root              180 ./usr/lib/perl/vendor_perl/5.24.1/TA
 -r--r--r-- root       root             2301 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Base.pm
 drwxr-xr-x root       root              180 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Formatter
 -r--r--r-- root       root            11870 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Formatter/Base.pm
--r--r--r-- root       root             3281 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Formatter/Color.pm
+-r--r--r-- root       root             2321 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Formatter/Color.pm
 drwxr-xr-x root       root               80 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Formatter/Console
 -r--r--r-- root       root             4183 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Formatter/Console/ParallelSession.pm
 -r--r--r-- root       root             1995 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Formatter/Console.pm
@@ -33,13 +31,13 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/vendor_perl/5.24.1/TA
 -r--r--r-- root       root             2696 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Object.pm
 drwxr-xr-x root       root              340 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser
 -r--r--r-- root       root             9243 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Aggregator.pm
--r--r--r-- root       root            15663 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Grammar.pm
+-r--r--r-- root       root            15666 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Grammar.pm
 drwxr-xr-x root       root              100 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Iterator
 -r--r--r-- root       root             1696 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Iterator/Array.pm
--r--r--r-- root       root             8022 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/IteratorFactory.pm
+-r--r--r-- root       root             8307 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/IteratorFactory.pm
 -r--r--r-- root       root             2998 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Iterator.pm
 -r--r--r-- root       root             9116 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Iterator/Process.pm
--r--r--r-- root       root             1716 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Iterator/Stream.pm
+-r--r--r-- root       root             1925 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Iterator/Stream.pm
 -r--r--r-- root       root             4265 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Multiplexer.pm
 -r--r--r-- root       root            52145 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser.pm
 drwxr-xr-x root       root              200 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Result
@@ -59,7 +57,7 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/vendor_perl/5.24.1/TA
 -r--r--r-- root       root              990 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/Scheduler/Spinner.pm
 drwxr-xr-x root       root              140 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/SourceHandler
 -r--r--r-- root       root             4045 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/SourceHandler/Executable.pm
--r--r--r-- root       root             2936 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/SourceHandler/File.pm
+-r--r--r-- root       root             2993 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/SourceHandler/File.pm
 -r--r--r-- root       root             2651 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/SourceHandler/Handle.pm
 -r--r--r-- root       root             9447 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/SourceHandler/Perl.pm
 -r--r--r-- root       root             5154 ./usr/lib/perl/vendor_perl/5.24.1/TAP/Parser/SourceHandler.pm
@@ -71,3 +69,6 @@ drwxr-xr-x root       root               80 ./usr/lib/perl/vendor_perl/5.24.1/TA
 drwxr-xr-x root       root               80 ./usr/lib/perl/vendor_perl/5.24.1/Test
 -r--r--r-- root       root             6347 ./usr/lib/perl/vendor_perl/5.24.1/Test/HACKING.pod
 -r--r--r-- root       root            16649 ./usr/lib/perl/vendor_perl/5.24.1/Test/Harness.pm
+drwxr-xr-x root       root               60 ./usr/local
+drwxr-xr-x root       root               60 ./usr/local/bin
+-rwxr-xr-x root       root            13562 ./usr/local/bin/prove

@@ -1,9 +1,9 @@
 PV = 1.8.0.1
 PR = r0
 PKG = libpocofoundation50
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = poco-foundation (=1.8.0.1)
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libpcre (>= 8.41) libstdc++ (>= 7.3.0) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libpcre (>= 8.42) libstdc++ (>= 7.3.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 1788720
 FILES = /usr/lib/libPocoFoundation.so.*

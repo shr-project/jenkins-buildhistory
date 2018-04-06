@@ -1,10 +1,10 @@
-PV = 10.30
+PV = 10.31
 PR = r0
 PKG = libpcre2-32-0
-PKGR = r0.16
-RPROVIDES = libpcre2-32 (=10.30)
+PKGR = r0.0
+RPROVIDES = libpcre2-32 (=10.31)
 RDEPENDS = glibc (>= 2.27)
 RRECOMMENDS = 
-PKGSIZE = 289412
+PKGSIZE = 285316
 FILES = /usr/lib/libpcre2-32.so.*
-FILELIST = /usr/lib/libpcre2-32.so.0 /usr/lib/libpcre2-32.so.0.6.0
+FILELIST = /usr/lib/libpcre2-32.so.0 /usr/lib/libpcre2-32.so.0.7.0
