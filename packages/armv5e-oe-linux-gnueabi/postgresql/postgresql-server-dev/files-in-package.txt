@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root               60 ./usr/include/postgresql
-drwxr-xr-x root       root             1000 ./usr/include/postgresql/server
+drwxr-xr-x root       root             1020 ./usr/include/postgresql/server
 drwxr-xr-x root       root              980 ./usr/include/postgresql/server/access
 -rw-r--r-- root       root             1555 ./usr/include/postgresql/server/access/attnum.h
 -rw-r--r-- root       root             1508 ./usr/include/postgresql/server/access/clog.h
@@ -12,8 +12,8 @@ drwxr-xr-x root       root              980 ./usr/include/postgresql/server/acce
 -rw-r--r-- root       root            19482 ./usr/include/postgresql/server/access/gist_private.h
 -rw-r--r-- root       root              718 ./usr/include/postgresql/server/access/gistscan.h
 -rw-r--r-- root       root            13193 ./usr/include/postgresql/server/access/hash.h
--rw-r--r-- root       root             6899 ./usr/include/postgresql/server/access/heapam.h
--rw-r--r-- root       root            13090 ./usr/include/postgresql/server/access/heapam_xlog.h
+-rw-r--r-- root       root             6959 ./usr/include/postgresql/server/access/heapam.h
+-rw-r--r-- root       root            13160 ./usr/include/postgresql/server/access/heapam_xlog.h
 -rw-r--r-- root       root             1280 ./usr/include/postgresql/server/access/hio.h
 -rw-r--r-- root       root            27900 ./usr/include/postgresql/server/access/htup_details.h
 -rw-r--r-- root       root             3232 ./usr/include/postgresql/server/access/htup.h
@@ -39,7 +39,7 @@ drwxr-xr-x root       root              980 ./usr/include/postgresql/server/acce
 -rw-r--r-- root       root             4463 ./usr/include/postgresql/server/access/tupdesc.h
 -rw-r--r-- root       root             7332 ./usr/include/postgresql/server/access/tupmacs.h
 -rw-r--r-- root       root             7337 ./usr/include/postgresql/server/access/tuptoaster.h
--rw-r--r-- root       root             1854 ./usr/include/postgresql/server/access/twophase.h
+-rw-r--r-- root       root             1866 ./usr/include/postgresql/server/access/twophase.h
 -rw-r--r-- root       root             1272 ./usr/include/postgresql/server/access/twophase_rmgr.h
 -rw-r--r-- root       root             1437 ./usr/include/postgresql/server/access/valid.h
 -rw-r--r-- root       root             1194 ./usr/include/postgresql/server/access/visibilitymap.h
@@ -140,7 +140,7 @@ drwxr-xr-x root       root              640 ./usr/include/postgresql/server/comm
 -rw-r--r-- root       root              471 ./usr/include/postgresql/server/commands/discard.h
 -rw-r--r-- root       root             1953 ./usr/include/postgresql/server/commands/event_trigger.h
 -rw-r--r-- root       root             3529 ./usr/include/postgresql/server/commands/explain.h
--rw-r--r-- root       root             1562 ./usr/include/postgresql/server/commands/extension.h
+-rw-r--r-- root       root             1586 ./usr/include/postgresql/server/commands/extension.h
 -rw-r--r-- root       root              559 ./usr/include/postgresql/server/commands/lockcmds.h
 -rw-r--r-- root       root              894 ./usr/include/postgresql/server/commands/matview.h
 -rw-r--r-- root       root              896 ./usr/include/postgresql/server/commands/portalcmds.h
@@ -210,6 +210,8 @@ drwxr-xr-x root       root              900 ./usr/include/postgresql/server/exec
 -rw-r--r-- root       root             3929 ./usr/include/postgresql/server/executor/spi_priv.h
 -rw-r--r-- root       root              767 ./usr/include/postgresql/server/executor/tstoreReceiver.h
 -rw-r--r-- root       root             8625 ./usr/include/postgresql/server/executor/tuptable.h
+drwxr-xr-x root       root               60 ./usr/include/postgresql/server/fe_utils
+-rw-r--r-- root       root             1069 ./usr/include/postgresql/server/fe_utils/connect.h
 -rw-r--r-- root       root            31032 ./usr/include/postgresql/server/fmgr.h
 drwxr-xr-x root       root               80 ./usr/include/postgresql/server/foreign
 -rw-r--r-- root       root             5211 ./usr/include/postgresql/server/foreign/fdwapi.h
@@ -236,7 +238,7 @@ drwxr-xr-x root       root              280 ./usr/include/postgresql/server/libp
 -rw-r--r-- root       root             5545 ./usr/include/postgresql/server/lib/stringinfo.h
 drwxr-xr-x root       root               60 ./usr/include/postgresql/server/mb
 -rw-r--r-- root       root            20326 ./usr/include/postgresql/server/mb/pg_wchar.h
--rw-r--r-- root       root            15656 ./usr/include/postgresql/server/miscadmin.h
+-rw-r--r-- root       root            15716 ./usr/include/postgresql/server/miscadmin.h
 drwxr-xr-x root       root              380 ./usr/include/postgresql/server/nodes
 -rw-r--r-- root       root             3440 ./usr/include/postgresql/server/nodes/bitmapset.h
 -rw-r--r-- root       root            67230 ./usr/include/postgresql/server/nodes/execnodes.h
@@ -270,7 +272,7 @@ drwxr-xr-x root       root              540 ./usr/include/postgresql/server/opti
 -rw-r--r-- root       root              836 ./usr/include/postgresql/server/optimizer/joininfo.h
 -rw-r--r-- root       root              562 ./usr/include/postgresql/server/optimizer/orclauses.h
 -rw-r--r-- root       root             6035 ./usr/include/postgresql/server/optimizer/pathnode.h
--rw-r--r-- root       root             7015 ./usr/include/postgresql/server/optimizer/paths.h
+-rw-r--r-- root       root             7120 ./usr/include/postgresql/server/optimizer/paths.h
 -rw-r--r-- root       root             1122 ./usr/include/postgresql/server/optimizer/placeholder.h
 -rw-r--r-- root       root             1691 ./usr/include/postgresql/server/optimizer/plancat.h
 -rw-r--r-- root       root             5280 ./usr/include/postgresql/server/optimizer/planmain.h
@@ -283,7 +285,7 @@ drwxr-xr-x root       root              540 ./usr/include/postgresql/server/opti
 -rw-r--r-- root       root             1536 ./usr/include/postgresql/server/optimizer/var.h
 drwxr-xr-x root       root              500 ./usr/include/postgresql/server/parser
 -rw-r--r-- root       root             1563 ./usr/include/postgresql/server/parser/analyze.h
--rw-r--r-- root       root            11166 ./usr/include/postgresql/server/parser/gram.h
+-rw-r--r-- root       root            11168 ./usr/include/postgresql/server/parser/gram.h
 -rw-r--r-- root       root             2150 ./usr/include/postgresql/server/parser/gramparse.h
 -rw-r--r-- root       root             1055 ./usr/include/postgresql/server/parser/keywords.h
 -rw-r--r-- root       root            21204 ./usr/include/postgresql/server/parser/kwlist.h
@@ -312,7 +314,7 @@ drwxr-xr-x root       root              500 ./usr/include/postgresql/server/pars
 -rw-r--r-- root       root             1084 ./usr/include/postgresql/server/pg_getopt.h
 -rw-r--r-- root       root            27969 ./usr/include/postgresql/server/pgstat.h
 -rw-r--r-- root       root              666 ./usr/include/postgresql/server/pgtar.h
--rw-r--r-- root       root             2309 ./usr/include/postgresql/server/pgtime.h
+-rw-r--r-- root       root             2321 ./usr/include/postgresql/server/pgtime.h
 -rw-r--r-- root       root              316 ./usr/include/postgresql/server/pg_trace.h
 -rw-r--r-- root       root            27489 ./usr/include/postgresql/server/plpgsql.h
 drwxr-xr-x root       root              340 ./usr/include/postgresql/server/port
@@ -363,7 +365,7 @@ drwxr-xr-x root       root              240 ./usr/include/postgresql/server/post
 -rw-r--r-- root       root             1291 ./usr/include/postgresql/server/postmaster/bgwriter.h
 -rw-r--r-- root       root              447 ./usr/include/postgresql/server/postmaster/fork_process.h
 -rw-r--r-- root       root             1119 ./usr/include/postgresql/server/postmaster/pgarch.h
--rw-r--r-- root       root             2318 ./usr/include/postgresql/server/postmaster/postmaster.h
+-rw-r--r-- root       root             2342 ./usr/include/postgresql/server/postmaster/postmaster.h
 -rw-r--r-- root       root              661 ./usr/include/postgresql/server/postmaster/startup.h
 -rw-r--r-- root       root             2598 ./usr/include/postgresql/server/postmaster/syslogger.h
 -rw-r--r-- root       root              513 ./usr/include/postgresql/server/postmaster/walwriter.h
@@ -379,7 +381,7 @@ drwxr-xr-x root       root              280 ./usr/include/postgresql/server/repl
 -rw-r--r-- root       root              844 ./usr/include/postgresql/server/replication/logicalfuncs.h
 -rw-r--r-- root       root             2758 ./usr/include/postgresql/server/replication/logical.h
 -rw-r--r-- root       root             2724 ./usr/include/postgresql/server/replication/output_plugin.h
--rw-r--r-- root       root            10623 ./usr/include/postgresql/server/replication/reorderbuffer.h
+-rw-r--r-- root       root            10717 ./usr/include/postgresql/server/replication/reorderbuffer.h
 -rw-r--r-- root       root             5171 ./usr/include/postgresql/server/replication/slot.h
 -rw-r--r-- root       root             2711 ./usr/include/postgresql/server/replication/snapbuild.h
 -rw-r--r-- root       root             1440 ./usr/include/postgresql/server/replication/syncrep.h
@@ -444,7 +446,7 @@ drwxr-xr-x root       root              980 ./usr/include/postgresql/server/stor
 -rw-r--r-- root       root              561 ./usr/include/postgresql/server/storage/copydir.h
 -rw-r--r-- root       root             1889 ./usr/include/postgresql/server/storage/dsm.h
 -rw-r--r-- root       root             2171 ./usr/include/postgresql/server/storage/dsm_impl.h
--rw-r--r-- root       root             4094 ./usr/include/postgresql/server/storage/fd.h
+-rw-r--r-- root       root             4192 ./usr/include/postgresql/server/storage/fd.h
 -rw-r--r-- root       root             1264 ./usr/include/postgresql/server/storage/freespace.h
 -rw-r--r-- root       root             2296 ./usr/include/postgresql/server/storage/fsm_internals.h
 -rw-r--r-- root       root              795 ./usr/include/postgresql/server/storage/indexfsm.h
@@ -465,7 +467,7 @@ drwxr-xr-x root       root              980 ./usr/include/postgresql/server/stor
 -rw-r--r-- root       root             2623 ./usr/include/postgresql/server/storage/predicate.h
 -rw-r--r-- root       root            17386 ./usr/include/postgresql/server/storage/predicate_internals.h
 -rw-r--r-- root       root             3381 ./usr/include/postgresql/server/storage/procarray.h
--rw-r--r-- root       root             9715 ./usr/include/postgresql/server/storage/proc.h
+-rw-r--r-- root       root             9739 ./usr/include/postgresql/server/storage/proc.h
 -rw-r--r-- root       root             1921 ./usr/include/postgresql/server/storage/procsignal.h
 -rw-r--r-- root       root              588 ./usr/include/postgresql/server/storage/reinit.h
 -rw-r--r-- root       root             3899 ./usr/include/postgresql/server/storage/relfilenode.h
@@ -474,16 +476,16 @@ drwxr-xr-x root       root              980 ./usr/include/postgresql/server/stor
 -rw-r--r-- root       root             2053 ./usr/include/postgresql/server/storage/shm_toc.h
 -rw-r--r-- root       root             1619 ./usr/include/postgresql/server/storage/sinvaladt.h
 -rw-r--r-- root       root             5511 ./usr/include/postgresql/server/storage/sinval.h
--rw-r--r-- root       root            27599 ./usr/include/postgresql/server/storage/s_lock.h
+-rw-r--r-- root       root            27958 ./usr/include/postgresql/server/storage/s_lock.h
 -rw-r--r-- root       root             5878 ./usr/include/postgresql/server/storage/smgr.h
 -rw-r--r-- root       root             2775 ./usr/include/postgresql/server/storage/spin.h
 -rw-r--r-- root       root             4184 ./usr/include/postgresql/server/storage/standby.h
 drwxr-xr-x root       root              160 ./usr/include/postgresql/server/tcop
--rw-r--r-- root       root             5738 ./usr/include/postgresql/server/tcop/dest.h
+-rw-r--r-- root       root             5764 ./usr/include/postgresql/server/tcop/dest.h
 -rw-r--r-- root       root              560 ./usr/include/postgresql/server/tcop/fastpath.h
 -rw-r--r-- root       root             1154 ./usr/include/postgresql/server/tcop/pquery.h
 -rw-r--r-- root       root             1317 ./usr/include/postgresql/server/tcop/tcopdebug.h
--rw-r--r-- root       root             3141 ./usr/include/postgresql/server/tcop/tcopprot.h
+-rw-r--r-- root       root             3153 ./usr/include/postgresql/server/tcop/tcopprot.h
 -rw-r--r-- root       root             1727 ./usr/include/postgresql/server/tcop/utility.h
 drwxr-xr-x root       root              160 ./usr/include/postgresql/server/tsearch
 drwxr-xr-x root       root               80 ./usr/include/postgresql/server/tsearch/dicts
@@ -516,7 +518,7 @@ drwxr-xr-x root       root             1500 ./usr/include/postgresql/server/util
 -rw-r--r-- root       root             1181 ./usr/include/postgresql/server/utils/fmgrtab.h
 -rw-r--r-- root       root             1439 ./usr/include/postgresql/server/utils/formatting.h
 -rw-r--r-- root       root            16004 ./usr/include/postgresql/server/utils/geo_decls.h
--rw-r--r-- root       root            14605 ./usr/include/postgresql/server/utils/guc.h
+-rw-r--r-- root       root            14641 ./usr/include/postgresql/server/utils/guc.h
 -rw-r--r-- root       root             7340 ./usr/include/postgresql/server/utils/guc_tables.h
 -rw-r--r-- root       root              459 ./usr/include/postgresql/server/utils/help_config.h
 -rw-r--r-- root       root             5737 ./usr/include/postgresql/server/utils/hsearch.h
@@ -553,7 +555,7 @@ drwxr-xr-x root       root             1500 ./usr/include/postgresql/server/util
 -rw-r--r-- root       root             2579 ./usr/include/postgresql/server/utils/resowner.h
 -rw-r--r-- root       root             3501 ./usr/include/postgresql/server/utils/resowner_private.h
 -rw-r--r-- root       root             7680 ./usr/include/postgresql/server/utils/selfuncs.h
--rw-r--r-- root       root             2331 ./usr/include/postgresql/server/utils/snapmgr.h
+-rw-r--r-- root       root             2379 ./usr/include/postgresql/server/utils/snapmgr.h
 -rw-r--r-- root       root             3796 ./usr/include/postgresql/server/utils/snapshot.h
 -rw-r--r-- root       root             5606 ./usr/include/postgresql/server/utils/sortsupport.h
 -rw-r--r-- root       root              556 ./usr/include/postgresql/server/utils/spccache.h

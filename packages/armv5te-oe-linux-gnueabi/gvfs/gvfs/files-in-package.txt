@@ -20,10 +20,10 @@ drwxr-xr-x root       root              400 ./usr/bin
 -rwxr-xr-x root       root              275 ./usr/bin/gvfs-tree
 drwxr-xr-x root       root              100 ./usr/lib
 drwxr-xr-x root       root              300 ./usr/libexec
--rwxr-xr-x root       root            22128 ./usr/libexec/gvfsd
+-rwxr-xr-x root       root            26224 ./usr/libexec/gvfsd
 -rwxr-xr-x root       root            26284 ./usr/libexec/gvfsd-admin
--rwxr-xr-x root       root            79892 ./usr/libexec/gvfsd-afp
--rwxr-xr-x root       root            67612 ./usr/libexec/gvfsd-afp-browse
+-rwxr-xr-x root       root            88084 ./usr/libexec/gvfsd-afp
+-rwxr-xr-x root       root            71708 ./usr/libexec/gvfsd-afp-browse
 -rwxr-xr-x root       root            22132 ./usr/libexec/gvfsd-burn
 -rwxr-xr-x root       root            30444 ./usr/libexec/gvfsd-computer
 -rwxr-xr-x root       root            50808 ./usr/libexec/gvfsd-gphoto2
@@ -35,7 +35,7 @@ drwxr-xr-x root       root              300 ./usr/libexec
 -rwxr-xr-x root       root           112616 ./usr/libexec/gvfs-udisks2-volume-monitor
 drwxr-xr-x root       root               60 ./usr/lib/gio
 drwxr-xr-x root       root               80 ./usr/lib/gio/modules
--rwxr-xr-x root       root            67312 ./usr/lib/gio/modules/libgioremote-volume-monitor.so
+-rwxr-xr-x root       root            71408 ./usr/lib/gio/modules/libgioremote-volume-monitor.so
 -rwxr-xr-x root       root           141160 ./usr/lib/gio/modules/libgvfsdbus.so
 drwxr-xr-x root       root               80 ./usr/lib/gvfs
 -rwxr-xr-x root       root           149024 ./usr/lib/gvfs/libgvfscommon.so
@@ -75,6 +75,6 @@ drwxr-xr-x root       root               80 ./usr/share/gvfs/remote-volume-monit
 -rw-r--r-- root       root              127 ./usr/share/gvfs/remote-volume-monitors/udisks2.monitor
 drwxr-xr-x root       root               80 ./usr/share/polkit-1
 drwxr-xr-x root       root               60 ./usr/share/polkit-1/actions
--rw-r--r-- root       root            12021 ./usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy
+-rw-r--r-- root       root            13145 ./usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy
 drwx------ polkitd    root               60 ./usr/share/polkit-1/rules.d
 -rw-r--r-- root       root              264 ./usr/share/polkit-1/rules.d/org.gtk.vfs.file-operations.rules

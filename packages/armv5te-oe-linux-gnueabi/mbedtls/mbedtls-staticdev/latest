@@ -1,9 +1,9 @@
-PV = 1.3.17
+PV = 2.8.0
 PR = r0
-PKGR = r0.35
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = mbedtls-dev (= 1.3.17-r0.35)
+RDEPENDS = mbedtls-dev (= 2.8.0-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 2329256
+PKGSIZE = 2459676
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/mbedtls/*.a
-FILELIST = /usr/lib/libmbedtls.a
+FILELIST = /usr/lib/libmbedcrypto.a /usr/lib/libmbedtls.a /usr/lib/libmbedx509.a

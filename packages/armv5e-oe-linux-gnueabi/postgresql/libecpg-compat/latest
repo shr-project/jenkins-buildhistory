@@ -1,9 +1,9 @@
-PV = 9.4.15
+PV = 9.4.17
 PR = r0
 PKG = libecpg-compat3
-PKGR = r0.21
-RPROVIDES = libecpg-compat (=9.4.15)
-RDEPENDS = glibc (>= 2.27) libecpg (>= 9.4.15) libpgtypes (>= 9.4.15)
+PKGR = r0.0
+RPROVIDES = libecpg-compat (=9.4.17)
+RDEPENDS = glibc (>= 2.27) libecpg (>= 9.4.17) libpgtypes (>= 9.4.17)
 RRECOMMENDS = 
 PKGSIZE = 22337
 FILES = /usr/lib/libecpg_compat*.so.*
