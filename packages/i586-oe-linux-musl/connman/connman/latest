@@ -1,6 +1,6 @@
 PV = 1.35
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = t t tconnman-plugin-ethernet tconnman-plugin-loopback tconnman-plugin-ofono tconnman-plugin-wifi
 RDEPENDS = bluez5 dbus dbus-lib (>= 1.12.2) glib-2.0 (>= 2.54.3) gnutls (>= 3.6.2) iptables (>= 1.6.2) musl (>= 1.1.19+git0+55df09bfcc) ofono update-alternatives-opkg wpa-supplicant
 RRECOMMENDS = connman-conf

@@ -1,8 +1,8 @@
 PV = 1.10.0
 PR = r0
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = libassuan (>= 2.5.1) libgpg-error (>= 1.28) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = libassuan (>= 2.5.1) libgpg-error (>= 1.27) musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
 PKGSIZE = 403259
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gpgme /usr/lib/gpgme/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
