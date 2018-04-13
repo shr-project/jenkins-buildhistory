@@ -1,0 +1,10 @@
+PV = 7.3.0
+PR = r0
+PKG = liblsan0
+PKGR = r0.0
+RPROVIDES = liblsan (=7.3.0)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0)
+RRECOMMENDS = 
+PKGSIZE = 340464
+FILES = /usr/lib/liblsan.so.*
+FILELIST = /usr/lib/liblsan.so.0 /usr/lib/liblsan.so.0.0.0

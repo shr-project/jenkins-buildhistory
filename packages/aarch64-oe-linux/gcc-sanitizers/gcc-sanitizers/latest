@@ -1,0 +1,9 @@
+PV = 7.3.0
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = libasan liblsan libtsan libubsan
+PKGSIZE = 20726
+FILES = /usr/lib/*.spec /usr/lib/gcc/aarch64-oe-linux/7.3.0/include/sanitizer/*.h
+FILELIST = /usr/lib/gcc/aarch64-oe-linux/7.3.0/include/sanitizer/asan_interface.h /usr/lib/gcc/aarch64-oe-linux/7.3.0/include/sanitizer/common_interface_defs.h /usr/lib/gcc/aarch64-oe-linux/7.3.0/include/sanitizer/lsan_interface.h /usr/lib/libsanitizer.spec

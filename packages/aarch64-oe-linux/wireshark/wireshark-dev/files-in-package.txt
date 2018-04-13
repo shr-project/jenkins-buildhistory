@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
 drwxr-xr-x root       root              100 ./usr/include/wireshark
--rw-r--r-- root       root            13682 ./usr/include/wireshark/config.h
+-rw-r--r-- root       root            13768 ./usr/include/wireshark/config.h
 drwxr-xr-x root       root             2680 ./usr/include/wireshark/epan
 -rw-r--r-- root       root             1741 ./usr/include/wireshark/epan/addr_and_mask.h
 -rw-r--r-- root       root            14162 ./usr/include/wireshark/epan/address.h
@@ -412,7 +412,7 @@ drwxr-xr-x root       root             7980 ./usr/include/wireshark/epan/dissect
 -rw-r--r-- root       root             2265 ./usr/include/wireshark/epan/dissectors/packet-uaudp.h
 -rw-r--r-- root       root             1457 ./usr/include/wireshark/epan/dissectors/packet-ubertooth.h
 -rw-r--r-- root       root             5163 ./usr/include/wireshark/epan/dissectors/packet-udp.h
--rw-r--r-- root       root             8911 ./usr/include/wireshark/epan/dissectors/packet-umts_fp.h
+-rw-r--r-- root       root             8915 ./usr/include/wireshark/epan/dissectors/packet-umts_fp.h
 -rw-r--r-- root       root             2639 ./usr/include/wireshark/epan/dissectors/packet-umts_mac.h
 -rw-r--r-- root       root             8963 ./usr/include/wireshark/epan/dissectors/packet-usb.h
 -rw-r--r-- root       root             1040 ./usr/include/wireshark/epan/dissectors/packet-usb-hid.h
@@ -581,8 +581,8 @@ drwxr-xr-x root       root              480 ./usr/include/wireshark/epan/wmem
 -rw-r--r-- root       root             5546 ./usr/include/wireshark/epan/xdlc.h
 -rw-r--r-- root       root             2370 ./usr/include/wireshark/register.h
 drwxr-xr-x root       root              140 ./usr/lib
-lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so -> libwireshark.so.9.1.5
-lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so -> libwiretap.so.7.0.5
+lrwxrwxrwx root       root               21 ./usr/lib/libwireshark.so -> libwireshark.so.9.1.6
+lrwxrwxrwx root       root               19 ./usr/lib/libwiretap.so -> libwiretap.so.7.0.6
 lrwxrwxrwx root       root               20 ./usr/lib/libwscodecs.so -> libwscodecs.so.1.1.0
 lrwxrwxrwx root       root               18 ./usr/lib/libwsutil.so -> libwsutil.so.8.0.0
 drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
