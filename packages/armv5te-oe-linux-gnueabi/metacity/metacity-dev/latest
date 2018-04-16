@@ -1,9 +1,9 @@
-PV = 2.34.13
-PR = r1
-PKGR = r1.36
+PV = 3.38.0
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = metacity (= 2.34.13-r1.36)
-RRECOMMENDS = atk-dev cairo-dev fontconfig-dev freetype-dev gconf-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gnome-doc-utils-dev gsettings-desktop-schemas-dev gtk+-dev libcanberra-dev libcanberra-gtk2-dev libgtop-dev libice-dev libsm-dev libx11-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxext-dev libxfixes-dev libxrandr-dev libxrender-dev pango-dev startup-notification-dev update-alternatives-opkg-dev
-PKGSIZE = 76443
+RDEPENDS = metacity (= 3.38.0-r0.0)
+RRECOMMENDS = atk-dev cairo-dev cairo-gobject-dev gdk-pixbuf-dev glib-2.0-dev glibc-dev gnome-doc-utils-dev gsettings-desktop-schemas-dev gtk+3-dev libcanberra-dev libcanberra-gtk3-dev libgtop-dev libice-dev libsm-dev libx11-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxext-dev libxfixes-dev libxrandr-dev libxrender-dev pango-dev startup-notification-dev
+PKGSIZE = 15891
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/metacity/*.la /lib/*.la
-FILELIST = /usr/include/metacity-1/metacity-private/boxes.h /usr/include/metacity-1/metacity-private/common.h /usr/include/metacity-1/metacity-private/gradient.h /usr/include/metacity-1/metacity-private/preview-widget.h /usr/include/metacity-1/metacity-private/theme-parser.h /usr/include/metacity-1/metacity-private/theme.h /usr/include/metacity-1/metacity-private/util.h /usr/lib/libmetacity-private.so /usr/lib/pkgconfig/libmetacity-private.pc
+FILELIST = /usr/include/metacity/libmetacity/meta-button.h /usr/include/metacity/libmetacity/meta-color.h /usr/include/metacity/libmetacity/meta-enum-types.h /usr/include/metacity/libmetacity/meta-frame-borders.h /usr/include/metacity/libmetacity/meta-frame-enums.h /usr/include/metacity/libmetacity/meta-theme.h /usr/lib/libmetacity.so /usr/lib/pkgconfig/libmetacity.pc

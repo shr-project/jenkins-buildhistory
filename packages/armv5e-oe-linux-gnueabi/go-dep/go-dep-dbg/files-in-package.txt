@@ -1,7 +1,7 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
--rwxr-xr-x root       root           479384 ./usr/bin/.debug/dep
+-rwxr-xr-x root       root           483460 ./usr/bin/.debug/dep
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/go-dep
 drwxr-xr-x root       root               60 ./usr/lib/go-dep/ptest
@@ -11,7 +11,7 @@ drwxr-xr-x root       root               60 ./usr/lib/go-dep/ptest/github.com/go
 drwxr-xr-x root       root               60 ./usr/lib/go-dep/ptest/github.com/golang/dep/cmd
 drwxr-xr-x root       root               60 ./usr/lib/go-dep/ptest/github.com/golang/dep/cmd/dep
 drwxr-xr-x root       root               60 ./usr/lib/go-dep/ptest/github.com/golang/dep/cmd/dep/.debug
--rwxr-xr-x root       root          4707644 ./usr/lib/go-dep/ptest/github.com/golang/dep/cmd/dep/.debug/dep.test
+-rwxr-xr-x root       root          4088836 ./usr/lib/go-dep/ptest/github.com/golang/dep/cmd/dep/.debug/dep.test
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/go-dep
@@ -132,7 +132,8 @@ drwxr-xr-x root       root              100 ./usr/src/debug/go-dep/0.4.1-r0/buil
 -rw-r--r-- root       root             2743 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/boltdb/bolt/errors.go
 drwxr-xr-x root       root               60 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang
 drwxr-xr-x root       root               60 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang/protobuf
-drwxr-xr-x root       root              220 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang/protobuf/proto
+drwxr-xr-x root       root              240 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang/protobuf/proto
+-rw-r--r-- root       root             6969 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang/protobuf/proto/clone.go
 -rw-r--r-- root       root            24427 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang/protobuf/proto/decode.go
 -rw-r--r-- root       root            34774 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang/protobuf/proto/encode.go
 -rw-r--r-- root       root            18200 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang/protobuf/proto/extensions.go
@@ -143,9 +144,10 @@ drwxr-xr-x root       root              220 ./usr/src/debug/go-dep/0.4.1-r0/buil
 -rw-r--r-- root       root            21196 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang/protobuf/proto/text.go
 -rw-r--r-- root       root            22429 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/golang/protobuf/proto/text_parser.go
 drwxr-xr-x root       root               60 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/go-yaml
-drwxr-xr-x root       root              240 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/go-yaml/yaml
+drwxr-xr-x root       root              260 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/go-yaml/yaml
 -rw-r--r-- root       root            21246 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/go-yaml/yaml/apic.go
 -rw-r--r-- root       root            15448 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/go-yaml/yaml/decode.go
+-rw-r--r-- root       root            45294 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/go-yaml/yaml/emitterc.go
 -rw-r--r-- root       root             7458 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/go-yaml/yaml/encode.go
 -rw-r--r-- root       root            34761 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/go-yaml/yaml/parserc.go
 -rw-r--r-- root       root            11950 ./usr/src/debug/go-dep/0.4.1-r0/build/src/github.com/golang/dep/vendor/github.com/go-yaml/yaml/readerc.go

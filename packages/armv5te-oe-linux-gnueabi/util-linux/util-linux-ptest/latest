@@ -1,8 +1,8 @@
 PV = 2.31
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = 
-RDEPENDS = bash btrfs-tools coreutils glibc (>= 2.27) grep ncurses-libtinfo (>= 6.1) util-linux-blkid util-linux-fsck util-linux-libblkid (>= 2.31) util-linux-libfdisk (>= 2.31) util-linux-libsmartcols (>= 2.31) util-linux-libuuid (>= 2.31) which
+RDEPENDS = bash btrfs-tools coreutils glibc (>= 2.27) grep ncurses-libtinfo (>= 6.0+20171125) util-linux-blkid util-linux-fsck util-linux-libblkid (>= 2.31) util-linux-libfdisk (>= 2.31) util-linux-libsmartcols (>= 2.31) util-linux-libuuid (>= 2.31) which
 RRECOMMENDS = ptest-runner
 PKGSIZE = 3274703
 FILES = /usr/lib/util-linux/ptest
