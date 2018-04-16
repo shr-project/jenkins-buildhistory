@@ -1,10 +1,10 @@
-PV = 10.31
+PV = 10.30
 PR = r0
 PKG = libpcre2-16-0
-PKGR = r0.1
-RPROVIDES = libpcre2-16 (=10.31)
+PKGR = r0.19
+RPROVIDES = libpcre2-16 (=10.30)
 RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
 RRECOMMENDS = 
-PKGSIZE = 300720
+PKGSIZE = 304816
 FILES = /usr/lib/libpcre2-16.so.*
-FILELIST = /usr/lib/libpcre2-16.so.0 /usr/lib/libpcre2-16.so.0.7.0
+FILELIST = /usr/lib/libpcre2-16.so.0 /usr/lib/libpcre2-16.so.0.6.0

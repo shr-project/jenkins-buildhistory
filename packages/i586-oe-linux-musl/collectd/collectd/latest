@@ -1,8 +1,8 @@
 PV = 5.7.2
 PR = r0
-PKGR = r0.21
+PKGR = r0.22
 RPROVIDES = 
-RDEPENDS = gnutls (>= 3.6.2) libcap (>= 2.25) libcurl (>= 7.59.0) libltdl (>= 2.4.6) libpcap (>= 1.8.1) libpython2 (>= 2.7.14) libudev (>= 237) libxml2 (>= 2.9.8) musl (>= 1.1.19+git0+55df09bfcc) nettle (>= 3.4) rrdtool (>= 1.6.0) yajl (>= 2.1.0) zlib (>= 1.2.11)
+RDEPENDS = gnutls (>= 3.6.1) libcap (>= 2.25) libcurl (>= 7.58.0) libltdl (>= 2.4.6) libpcap (>= 1.8.1) libpython2 (>= 2.7.14) libudev (>= 237) libxml2 (>= 2.9.7) musl (>= 1.1.19+git0+55df09bfcc) nettle (>= 3.4) rrdtool (>= 1.6.0) yajl (>= 2.1.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 1886585
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/collectd /usr/lib/collectd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/collectd.service

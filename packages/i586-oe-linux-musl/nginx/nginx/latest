@@ -1,8 +1,8 @@
 PV = 1.12.2
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = 
-RDEPENDS = base-files base-passwd libcrypto (>= 1.0.2o) libpcre (>= 8.42) libssl (>= 1.0.2o) musl (>= 1.1.19+git0+55df09bfcc) shadow zlib (>= 1.2.11)
+RDEPENDS = base-files base-passwd libcrypto (>= 1.0.2o) libpcre (>= 8.41) libssl (>= 1.0.2o) musl (>= 1.1.19+git0+55df09bfcc) shadow zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 925180
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/nginx /usr/lib/nginx/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /var/ /lib/systemd/system/nginx.service /lib/systemd/system/nginx.service
