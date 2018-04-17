@@ -1,10 +1,10 @@
-PV = 1.7.1
+PV = 1.9.0
 PR = r0
 PKG = libflatbuffers-staticdev
-PKGR = r0.17
-RPROVIDES = flatbuffers-staticdev (=1.7.1)
-RDEPENDS = flatbuffers-dev (= 1.7.1-r0.17)
+PKGR = r0.0
+RPROVIDES = flatbuffers-staticdev (=1.9.0)
+RDEPENDS = flatbuffers-dev (= 1.9.0-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 7981612
+PKGSIZE = 7981652
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/flatbuffers/*.a
 FILELIST = /usr/lib/libflatbuffers.a

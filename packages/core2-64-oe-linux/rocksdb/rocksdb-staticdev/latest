@@ -1,11 +1,10 @@
-PV = 5.8+gitAUTOINC+266ac245af
+PV = 5.12.2
 PR = r0
 PKG = librocksdb-staticdev
-PKGV = 5.8+git0+266ac245af
-PKGR = r0.17
-RPROVIDES = rocksdb-staticdev (=5.8+git0+266ac245af)
-RDEPENDS = rocksdb-dev (= 5.8+git0+266ac245af-r0.17)
+PKGR = r0.0
+RPROVIDES = rocksdb-staticdev (=5.12.2)
+RDEPENDS = rocksdb-dev (= 5.12.2-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 225046358
+PKGSIZE = 215762966
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/rocksdb/*.a
 FILELIST = /usr/lib/librocksdb.a

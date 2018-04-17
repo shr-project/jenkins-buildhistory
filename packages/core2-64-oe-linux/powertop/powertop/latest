@@ -1,8 +1,8 @@
 PV = 2.9
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libnl (>= 3.4.0) libnl-genl (>= 3.4.0) libpci (>= 3.5.6) libstdc++ (>= 7.3.0) ncurses-libncurses (>= 6.1) ncurses-libtinfo (>= 6.1) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libnl (>= 3.4.0) libnl-genl (>= 3.4.0) libpci (>= 3.5.6) libstdc++ (>= 7.3.0) ncurses-libncurses (>= 6.0+20171125) ncurses-libtinfo (>= 6.0+20171125) update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 510544
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/powertop /usr/lib/powertop/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

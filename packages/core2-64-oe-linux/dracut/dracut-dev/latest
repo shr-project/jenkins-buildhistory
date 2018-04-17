@@ -1,9 +1,9 @@
 PE = 1
 PV = 046+gita0799ffb554487a370c2a1adafaedd2021b6dc8c
 PR = r0
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
-RDEPENDS = dracut (= 1:046+gita0799ffb554487a370c2a1adafaedd2021b6dc8c-r0.8)
+RDEPENDS = dracut (= 1:046+gita0799ffb554487a370c2a1adafaedd2021b6dc8c-r0.9)
 RRECOMMENDS = bash-completion-dev bash-dev cpio-dev findutils-dev glibc-dev kmod-dev ldd-dev libkmod-dev systemd-dev util-linux-blkid-dev util-linux-dev util-linux-getopt-dev
 PKGSIZE = 159
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dracut/*.la /lib/*.la
