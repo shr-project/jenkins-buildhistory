@@ -1,10 +1,10 @@
-PV = 5.10.1+5.11-alpha+gitAUTOINC+544f8c4ef7
+PV = 5.10.1+5.11-beta3+gitAUTOINC+67d48807b4
 PR = r0
 PKG = libqt5scxml5
-PKGV = 5.10.1+5.11-alpha+git0+544f8c4ef7
-PKGR = r0.7
-RPROVIDES = qtscxml (=5.10.1+5.11-alpha+git0+544f8c4ef7)
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b) qtdeclarative (>= 5.10.1+5.11-alpha+git0+0975a9c892)
+PKGV = 5.10.1+5.11-beta3+git0+67d48807b4
+PKGR = r0.0
+RPROVIDES = qtscxml (=5.10.1+5.11-beta3+git0+67d48807b4)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1)
 RRECOMMENDS = qtscxml-plugins qtscxml-qmlplugins
 PKGSIZE = 308866
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtscxml /usr/lib/qtscxml/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

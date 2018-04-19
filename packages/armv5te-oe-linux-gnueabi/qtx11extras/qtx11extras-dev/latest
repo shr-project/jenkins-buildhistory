@@ -1,11 +1,11 @@
-PV = 5.10.1+5.11-alpha+gitAUTOINC+78a10dad08
+PV = 5.10.1+5.11-beta3+gitAUTOINC+d80236f505
 PR = r0
 PKG = libqt5x11extras-dev
-PKGV = 5.10.1+5.11-alpha+git0+78a10dad08
-PKGR = r0.7
-RPROVIDES = qtx11extras-dev (=5.10.1+5.11-alpha+git0+78a10dad08)
-RDEPENDS = qtx11extras (= 5.10.1+5.11-alpha+git0+78a10dad08-r0.7)
+PKGV = 5.10.1+5.11-beta3+git0+d80236f505
+PKGR = r0.0
+RPROVIDES = qtx11extras-dev (=5.10.1+5.11-beta3+git0+d80236f505)
+RDEPENDS = qtx11extras (= 5.10.1+5.11-beta3+git0+d80236f505-r0.0)
 RRECOMMENDS = glibc-dev libgcc-dev qtbase-dev qtx11extras qtx11extras-mkspecs qtx11extras-qmldesigner
-PKGSIZE = 15755
+PKGSIZE = 15722
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qtx11extras/*.la /lib/*.la /usr/lib/lib*.so /usr/lib/pkgconfig /usr/lib/cmake/* /usr/lib/*.prl /usr/lib/*.la /usr/include/qt5/*
 FILELIST = /usr/include/qt5/QtX11Extras/QX11Info /usr/include/qt5/QtX11Extras/QtX11Extras /usr/include/qt5/QtX11Extras/QtX11ExtrasDepends /usr/include/qt5/QtX11Extras/QtX11ExtrasVersion /usr/include/qt5/QtX11Extras/qtx11extrasglobal.h /usr/include/qt5/QtX11Extras/qtx11extrasversion.h /usr/include/qt5/QtX11Extras/qx11info_x11.h /usr/lib/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake /usr/lib/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake /usr/lib/libQt5X11Extras.prl /usr/lib/libQt5X11Extras.so /usr/lib/pkgconfig/Qt5X11Extras.pc

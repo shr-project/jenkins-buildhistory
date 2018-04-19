@@ -1,11 +1,11 @@
-PV = 1.2.4+gitAUTOINC+9d98e12ed6
+PV = 1.2.7+gitAUTOINC+ad7fef1c35
 PR = r0
 PKG = libconnman-qt5-1
-PKGV = 1.2.4+git0+9d98e12ed6
-PKGR = r0.28
-RPROVIDES = libconnman-qt5 (=1.2.4+git0+9d98e12ed6)
-RDEPENDS = connman glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b)
+PKGV = 1.2.7+git0+ad7fef1c35
+PKGR = r0.0
+RPROVIDES = libconnman-qt5 (=1.2.7+git0+ad7fef1c35)
+RDEPENDS = connman glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901)
 RRECOMMENDS = libconnman-qt5-plugins libconnman-qt5-qmlplugins
 PKGSIZE = 345854
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libconnman-qt5 /usr/lib/libconnman-qt5/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libconnman-qt5.so.1 /usr/lib/libconnman-qt5.so.1.2 /usr/lib/libconnman-qt5.so.1.2.3
+FILELIST = /usr/lib/libconnman-qt5.so.1 /usr/lib/libconnman-qt5.so.1.2 /usr/lib/libconnman-qt5.so.1.2.7

@@ -1,11 +1,11 @@
-PV = 5.10.1+5.11-alpha+gitAUTOINC+db6d07b4a5
+PV = 5.10.1+5.11-beta3+gitAUTOINC+556539365a
 PR = r0
 PKG = libqt5remoteobjects-tools
-PKGV = 5.10.1+5.11-alpha+git0+db6d07b4a5
-PKGR = r0.7
-RPROVIDES = qtremoteobjects-tools (=5.10.1+5.11-alpha+git0+db6d07b4a5)
+PKGV = 5.10.1+5.11-beta3+git0+556539365a
+PKGR = r0.0
+RPROVIDES = qtremoteobjects-tools (=5.10.1+5.11-beta3+git0+556539365a)
 RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0)
 RRECOMMENDS = 
-PKGSIZE = 1112776
+PKGSIZE = 1108680
 FILES = /usr/bin/qt5/*
 FILELIST = /usr/bin/qt5/repc
