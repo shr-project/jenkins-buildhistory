@@ -1,11 +1,11 @@
-PV = 5.10.1+gitAUTOINC+a751298bc3
+PV = 5.10.1+5.11-beta3+gitAUTOINC+d80236f505
 PR = r0
 PKG = libqt5x11extras5
-PKGV = 5.10.1+git0+a751298bc3
+PKGV = 5.10.1+5.11-beta3+git0+d80236f505
 PKGR = r0.0
-RPROVIDES = qtx11extras (=5.10.1+git0+a751298bc3)
-RDEPENDS = musl (>= 1.1.18+git2+628cf979b2) qtbase (>= 5.10.1+git0+6c6ace9d23)
+RPROVIDES = qtx11extras (=5.10.1+5.11-beta3+git0+d80236f505)
+RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901)
 RRECOMMENDS = qtx11extras-plugins qtx11extras-qmlplugins
 PKGSIZE = 17950
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtx11extras /usr/lib/qtx11extras/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5X11Extras.so.5 /usr/lib/libQt5X11Extras.so.5.10 /usr/lib/libQt5X11Extras.so.5.10.1
+FILELIST = /usr/lib/libQt5X11Extras.so.5 /usr/lib/libQt5X11Extras.so.5.11 /usr/lib/libQt5X11Extras.so.5.11.0

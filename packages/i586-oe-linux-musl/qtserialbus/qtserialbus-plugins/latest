@@ -1,11 +1,11 @@
-PV = 5.10.1+gitAUTOINC+d5d35d64d0
+PV = 5.10.1+5.11-beta3+gitAUTOINC+fb561e9aa5
 PR = r0
 PKG = libqt5serialbus-plugins
-PKGV = 5.10.1+git0+d5d35d64d0
+PKGV = 5.10.1+5.11-beta3+git0+fb561e9aa5
 PKGR = r0.0
-RPROVIDES = qtserialbus-plugins (=5.10.1+git0+d5d35d64d0)
-RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2) qtbase (>= 5.10.1+git0+6c6ace9d23) qtserialbus (>= 5.10.1+git0+d5d35d64d0)
+RPROVIDES = qtserialbus-plugins (=5.10.1+5.11-beta3+git0+fb561e9aa5)
+RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtserialbus (>= 5.10.1+5.11-beta3+git0+fb561e9aa5)
 RRECOMMENDS = 
-PKGSIZE = 123916
+PKGSIZE = 182584
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
-FILELIST = /usr/lib/qt5/plugins/canbus/libqtpeakcanbus.so /usr/lib/qt5/plugins/canbus/libqtsocketcanbus.so /usr/lib/qt5/plugins/canbus/libqttinycanbus.so
+FILELIST = /usr/lib/qt5/plugins/canbus/libqtpassthrucanbus.so /usr/lib/qt5/plugins/canbus/libqtpeakcanbus.so /usr/lib/qt5/plugins/canbus/libqtsocketcanbus.so /usr/lib/qt5/plugins/canbus/libqttinycanbus.so

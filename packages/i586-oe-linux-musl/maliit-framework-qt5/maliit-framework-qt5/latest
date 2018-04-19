@@ -1,9 +1,9 @@
 PV = 0.99.0+gitAUTOINC+60b1b10de1
 PR = r0
 PKGV = 0.99.0+git0+60b1b10de1
-PKGR = r0.13
+PKGR = r0.14
 RPROVIDES = 
-RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libudev (>= 234) musl (>= 1.1.18+git2+628cf979b2) qtbase (>= 5.10.1+git0+6c6ace9d23) qtdeclarative (>= 5.10.1+git0+3e91062877)
+RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libudev (>= 237) musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1)
 RRECOMMENDS = maliit-plugins-qt5
 PKGSIZE = 932569
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/maliit-framework-qt5 /usr/lib/maliit-framework-qt5/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so* /usr/bin /usr/share/applications/maliit-server.desktop /usr/share/dbus-1 /usr/lib/qt5/plugins/platforminputcontexts

@@ -1,10 +1,10 @@
-PV = 5.10.1+gitAUTOINC+7c4113d6e6
+PV = 5.10.1+5.11-beta3+gitAUTOINC+e4abf2c6e3
 PR = r0
 PKG = libqt5xmlpatterns-tools
-PKGV = 5.10.1+git0+7c4113d6e6
+PKGV = 5.10.1+5.11-beta3+git0+e4abf2c6e3
 PKGR = r0.0
-RPROVIDES = qtxmlpatterns-tools (=5.10.1+git0+7c4113d6e6)
-RDEPENDS = libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2) qtbase (>= 5.10.1+git0+6c6ace9d23) qtxmlpatterns (>= 5.10.1+git0+7c4113d6e6)
+RPROVIDES = qtxmlpatterns-tools (=5.10.1+5.11-beta3+git0+e4abf2c6e3)
+RDEPENDS = libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtxmlpatterns (>= 5.10.1+5.11-beta3+git0+e4abf2c6e3)
 RRECOMMENDS = 
 PKGSIZE = 76676
 FILES = /usr/bin/qt5/*

@@ -1,11 +1,11 @@
-PV = 5.10.1+gitAUTOINC+d5d35d64d0
+PV = 5.10.1+5.11-beta3+gitAUTOINC+fb561e9aa5
 PR = r0
 PKG = libqt5serialbus5
-PKGV = 5.10.1+git0+d5d35d64d0
+PKGV = 5.10.1+5.11-beta3+git0+fb561e9aa5
 PKGR = r0.0
-RPROVIDES = qtserialbus (=5.10.1+git0+d5d35d64d0)
-RDEPENDS = libstdc++ (>= 7.3.0) musl (>= 1.1.18+git2+628cf979b2) qtbase (>= 5.10.1+git0+6c6ace9d23) qtserialport (>= 5.10.1+git0+fa688ac5c3)
+RPROVIDES = qtserialbus (=5.10.1+5.11-beta3+git0+fb561e9aa5)
+RDEPENDS = libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtserialport (>= 5.10.1+5.11-beta3+git0+b5f0519e8e)
 RRECOMMENDS = qtserialbus-plugins qtserialbus-qmlplugins
 PKGSIZE = 321166
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtserialbus /usr/lib/qtserialbus/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
-FILELIST = /usr/lib/libQt5SerialBus.so.5 /usr/lib/libQt5SerialBus.so.5.10 /usr/lib/libQt5SerialBus.so.5.10.1
+FILELIST = /usr/lib/libQt5SerialBus.so.5 /usr/lib/libQt5SerialBus.so.5.11 /usr/lib/libQt5SerialBus.so.5.11.0

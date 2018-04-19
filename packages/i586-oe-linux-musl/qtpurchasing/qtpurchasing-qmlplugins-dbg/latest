@@ -1,0 +1,11 @@
+PV = 5.10.1+5.11-beta3+gitAUTOINC+02246cd68c
+PR = r0
+PKG = libqt5purchasing-qmlplugins-dbg
+PKGV = 5.10.1+5.11-beta3+git0+02246cd68c
+PKGR = r0.0
+RPROVIDES = qtpurchasing-qmlplugins-dbg (=5.10.1+5.11-beta3+git0+02246cd68c)
+RDEPENDS = 
+RRECOMMENDS = libstdc++-dbg musl-dbg qtbase-dbg qtdeclarative-dbg qtpurchasing-dbg
+PKGSIZE = 0
+FILES = /usr/lib/qt5/qml/*/.debug /usr/lib/qt5/qml/*/*/.debug /usr/lib/qt5/qml/*/*/*/.debug /usr/lib/qt5/qml/*/*/*/*/.debug /usr/lib/qt5/imports/*/.debug /usr/lib/qt5/imports/*/*/.debug /usr/lib/qt5/imports/*/*/*/.debug
+FILELIST = 

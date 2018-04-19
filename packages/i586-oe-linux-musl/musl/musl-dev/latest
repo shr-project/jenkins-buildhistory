@@ -1,9 +1,9 @@
 PV = 1.1.19+gitAUTOINC+55df09bfcc
 PR = r0
 PKGV = 1.1.19+git0+55df09bfcc
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = libc-dev virtual-libc-dev
-RDEPENDS = bsd-headers-dev linux-libc-headers-dev musl (= 1.1.19+git0+55df09bfcc-r0.7)
+RDEPENDS = bsd-headers-dev linux-libc-headers-dev musl (= 1.1.19+git0+55df09bfcc-r0.8)
 RRECOMMENDS = bsd-headers-dev libgcc-initial-dev linux-libc-headers-dev
 PKGSIZE = 454314
 FILES = /usr/include /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/musl/*.la /lib/*.la

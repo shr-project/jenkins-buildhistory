@@ -1,0 +1,5 @@
+PV = 5.10.1+5.11-beta3+gitAUTOINC+02246cd68c
+PR = r0
+DEPENDS = qtbase qtbase-native qtdeclarative virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+PACKAGES = qtpurchasing-qmlplugins-dbg qtpurchasing-tools-dbg qtpurchasing-plugins-dbg qtpurchasing-qmldesigner qtpurchasing-qmlplugins qtpurchasing-tools qtpurchasing-plugins qtpurchasing-mkspecs qtpurchasing-examples-dev qtpurchasing-examples-staticdev qtpurchasing-examples-dbg qtpurchasing-examples qtpurchasing-dbg qtpurchasing-staticdev qtpurchasing-dev qtpurchasing-doc qtpurchasing-locale qtpurchasing
+LAYER = qt5-layer

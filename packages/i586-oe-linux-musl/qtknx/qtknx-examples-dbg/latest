@@ -1,11 +1,11 @@
-PV = 5.10.1+gitAUTOINC+29c34e8f07
+PV = 5.10.1+5.11-beta3+gitAUTOINC+8a8a343446
 PR = r0
 PKG = libqt5knx-examples-dbg
-PKGV = 5.10.1+git0+29c34e8f07
+PKGV = 5.10.1+5.11-beta3+git0+8a8a343446
 PKGR = r0.0
-RPROVIDES = qtknx-examples-dbg (=5.10.1+git0+29c34e8f07)
+RPROVIDES = qtknx-examples-dbg (=5.10.1+5.11-beta3+git0+8a8a343446)
 RDEPENDS = 
-RRECOMMENDS = libgcc-dbg libstdc++-dbg musl-dbg qtbase-dbg
+RRECOMMENDS = libstdc++-dbg musl-dbg qtbase-dbg zlib-dbg
 PKGSIZE = 0
 FILES = /usr/share/qt5/examples/.debug /usr/share/qt5/examples/*/.debug /usr/share/qt5/examples/*/*/.debug /usr/share/qt5/examples/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/*/*/.debug /usr/share/qt5/examples/*/*/*/*/*/*/*/.debug
 FILELIST = 

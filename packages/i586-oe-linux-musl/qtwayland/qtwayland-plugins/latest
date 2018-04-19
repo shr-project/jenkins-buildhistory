@@ -1,9 +1,9 @@
-PV = 5.10.1+gitAUTOINC+db36bc0d9c
+PV = 5.10.1+5.11-beta3+gitAUTOINC+434f3e9a95
 PR = r0
-PKGV = 5.10.1+git0+db36bc0d9c
+PKGV = 5.10.1+5.11-beta3+git0+434f3e9a95
 PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libegl-mesa (>= 17.3.3) libgcc (>= 7.3.0) libgl-mesa (>= 17.3.3) libstdc++ (>= 7.3.0) libwayland-egl (>= 17.3.3) musl (>= 1.1.18+git2+628cf979b2) qtbase (>= 5.10.1+git0+6c6ace9d23) qtwayland (>= 5.10.1+git0+db36bc0d9c) wayland (>= 1.14.0)
+RDEPENDS = libegl-mesa (>= 17.3.8) libgcc (>= 7.3.0) libgl-mesa (>= 17.3.8) libstdc++ (>= 7.3.0) libwayland-egl (>= 17.3.8) musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtwayland (>= 5.10.1+5.11-beta3+git0+434f3e9a95) wayland (>= 1.14.0)
 RRECOMMENDS = 
 PKGSIZE = 277696
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
