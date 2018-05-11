@@ -1,10 +1,10 @@
 PV = 1.7.5
 PR = r0
 PKG = libharfbuzz0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = harfbuzz (=1.7.5)
-RDEPENDS = freetype (>= 2.9) glib-2.0 (>= 2.54.3) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = freetype (>= 2.9) glib-2.0 (>= 2.56.1) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 726496
+PKGSIZE = 710112
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/harfbuzz /usr/lib/harfbuzz/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libharfbuzz.so.0 /usr/lib/libharfbuzz.so.0.10705.0

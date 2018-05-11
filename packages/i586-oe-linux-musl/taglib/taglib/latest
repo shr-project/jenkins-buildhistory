@@ -1,10 +1,10 @@
 PV = 1.11.1
 PR = r0
 PKG = libtag1
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = taglib (=1.11.1)
-RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc) zlib (>= 1.2.11)
+RDEPENDS = libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) musl (>= 1.1.19+git1+941bd884cc) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 960244
+PKGSIZE = 1009396
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/taglib /usr/lib/taglib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libtag.so.1 /usr/lib/libtag.so.1.17.0

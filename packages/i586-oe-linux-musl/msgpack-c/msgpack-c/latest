@@ -2,9 +2,9 @@ PV = 2.1.5+gitAUTOINC+208595b262
 PR = r0
 PKG = libmsgpackc2
 PKGV = 2.1.5+git1+208595b262
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = msgpack-c (=2.1.5+git1+208595b262)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 25892
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/msgpack-c /usr/lib/msgpack-c/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

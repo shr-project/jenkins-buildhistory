@@ -1,8 +1,8 @@
 PV = 1.15
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) tslib (>= 1.15)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) tslib (>= 1.15)
 RRECOMMENDS = 
 PKGSIZE = 115696
 FILES = /usr/bin/ts_harvest /usr/bin/ts_print /usr/bin/ts_print_raw /usr/bin/ts_print_mt /usr/bin/ts_test /usr/bin/ts_test_mt /usr/bin/ts_verify /usr/bin/ts_finddev

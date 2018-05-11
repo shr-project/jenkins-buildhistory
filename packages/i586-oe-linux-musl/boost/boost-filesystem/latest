@@ -1,10 +1,10 @@
-PV = 1.66.0
+PV = 1.67.0
 PR = r0
-PKG = libboost-filesystem1.66.0
-PKGR = r0.12
-RPROVIDES = boost-filesystem (=1.66.0)
-RDEPENDS = boost-system (>= 1.66.0) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc)
+PKG = libboost-filesystem1.67.0
+PKGR = r0.0
+RPROVIDES = boost-filesystem (=1.67.0)
+RDEPENDS = boost-system (>= 1.67.0) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 104048
+PKGSIZE = 108144
 FILES = /usr/lib/libboost_filesystem*.so.*
-FILELIST = /usr/lib/libboost_filesystem.so.1.66.0
+FILELIST = /usr/lib/libboost_filesystem.so.1.67.0

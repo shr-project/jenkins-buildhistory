@@ -1,10 +1,10 @@
 PV = 8.6.8
 PR = r0
 PKG = libtcl8.6-0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = tcl-lib (=8.6.8)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) zlib (>= 1.2.11)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 1968300
+PKGSIZE = 1976492
 FILES = /usr/lib/libtcl8.6.so.*
 FILELIST = /usr/lib/libtcl8.6.so.0

@@ -1,8 +1,8 @@
 PV = 3.12
 PR = r10
-PKGR = r10.22
+PKGR = r10.23
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) rp-pppoe
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) rp-pppoe
 RRECOMMENDS = 
 PKGSIZE = 59470
 FILES = /etc/default/pppoe-server /etc/init.d/pppoe-server /usr/sbin/pppoe-server /etc/ppp/pppoe-server-options /lib/systemd/system/pppoe-server.service

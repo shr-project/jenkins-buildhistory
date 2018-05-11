@@ -1,8 +1,8 @@
 PV = 20151004
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = libcrypto (>= 1.0.2o) libssl (>= 1.0.2o) musl (>= 1.1.19+git0+55df09bfcc) ncurses-libtinfo (>= 6.0+20171125) update-alternatives-opkg
+RDEPENDS = libcrypto (>= 1.0.2o) libssl (>= 1.0.2o) musl (>= 1.1.19+git1+941bd884cc) ncurses-libtinfo (>= 6.1) update-alternatives-opkg
 RRECOMMENDS = 
 PKGSIZE = 311152
 FILES = /usr/bin/tnftp

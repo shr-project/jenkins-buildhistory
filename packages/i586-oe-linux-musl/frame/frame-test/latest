@@ -1,9 +1,9 @@
 PV = 2.5.0
 PR = r0
 PKG = libframe-test
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = frame-test (=2.5.0)
-RDEPENDS = frame (>= 2.5.0) libx11 (>= 1.6.5) libxi (>= 1.7.9) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = frame (>= 2.5.0) libx11 (>= 1.6.5) libxi (>= 1.7.9) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 21924
 FILES = /usr/bin/frame-test*

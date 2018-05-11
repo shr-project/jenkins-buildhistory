@@ -1,9 +1,9 @@
 PV = 3.2.6
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) ncurses-libncurses (>= 6.0+20171125) ncurses-libtinfo (>= 6.0+20171125)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) ncurses-libncurses (>= 6.1) ncurses-libtinfo (>= 6.1)
 RRECOMMENDS = 
-PKGSIZE = 1499164
+PKGSIZE = 1503260
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/ncftp /usr/lib/ncftp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/ncftp /usr/bin/ncftpbatch /usr/bin/ncftpbookmarks /usr/bin/ncftpget /usr/bin/ncftpls /usr/bin/ncftpput /usr/bin/ncftpspooler

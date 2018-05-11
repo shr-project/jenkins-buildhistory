@@ -1,10 +1,10 @@
 PV = 0.99.0+gitAUTOINC+60b1b10de1
 PR = r0
 PKGV = 0.99.0+git0+60b1b10de1
-PKGR = r0.14
+PKGR = r0.15
 RPROVIDES = 
-RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libudev (>= 237) musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1)
+RDEPENDS = libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) libudev (>= 237) musl (>= 1.1.19+git1+941bd884cc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1)
 RRECOMMENDS = maliit-plugins-qt5
-PKGSIZE = 932569
+PKGSIZE = 1084121
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/maliit-framework-qt5 /usr/lib/maliit-framework-qt5/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/*.so* /usr/bin /usr/share/applications/maliit-server.desktop /usr/share/dbus-1 /usr/lib/qt5/plugins/platforminputcontexts
 FILELIST = /usr/bin/maliit-exampleapp-plainqt /usr/bin/maliit-server /usr/lib/libmaliit-plugins.so.0 /usr/lib/libmaliit-plugins.so.0.99 /usr/lib/libmaliit-plugins.so.0.99.0 /usr/lib/qt5/plugins/platforminputcontexts/libmaliitplatforminputcontextplugin.so /usr/share/applications/maliit-server.desktop /usr/share/dbus-1/services/org.maliit.server.service

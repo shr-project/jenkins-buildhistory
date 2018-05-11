@@ -2,10 +2,10 @@ PV = 0.92+gitrAUTOINC+6916cd030b
 PR = r0
 PKG = libqofono-qt5-0
 PKGV = 0.92+gitr0+6916cd030b
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = libqofono (=0.92+gitr0+6916cd030b)
-RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1) qtxmlpatterns (>= 5.10.1+5.11-beta3+git0+e4abf2c6e3)
+RDEPENDS = libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) musl (>= 1.1.19+git1+941bd884cc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1) qtxmlpatterns (>= 5.10.1+5.11-beta3+git0+e4abf2c6e3)
 RRECOMMENDS = 
-PKGSIZE = 1355089
+PKGSIZE = 1367377
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libqofono /usr/lib/libqofono/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/qt5/qml/MeeGo/QOfono/qmldir /usr/lib/qt5/qml/MeeGo/QOfono/libQOfonoQtDeclarative.so
 FILELIST = /usr/lib/libqofono-qt5.so.0 /usr/lib/libqofono-qt5.so.0.92 /usr/lib/libqofono-qt5.so.0.92.0 /usr/lib/qt5/qml/MeeGo/QOfono/libQOfonoQtDeclarative.so /usr/lib/qt5/qml/MeeGo/QOfono/qmldir

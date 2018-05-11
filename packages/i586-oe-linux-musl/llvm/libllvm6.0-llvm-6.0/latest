@@ -1,9 +1,9 @@
 PV = 6.0
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = libffi (>= 3.2.1) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libxml2 (>= 2.9.7) llvm musl (>= 1.1.19+git0+55df09bfcc) ncurses-libtinfo (>= 6.0+20171125) zlib (>= 1.2.11)
+RDEPENDS = libffi (>= 3.2.1) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) libxml2 (>= 2.9.8) llvm musl (>= 1.1.19+git1+941bd884cc) ncurses-libtinfo (>= 6.1) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 53003406
+PKGSIZE = 52339894
 FILES = /usr/lib/libLLVM-6.0.so /usr/lib/llvm6.0/.debug/libLLVM-6.0.so /usr/lib/llvm6.0/libLLVM-6.0.so
 FILELIST = /usr/lib/libLLVM-6.0.so /usr/lib/llvm6.0/libLLVM-6.0.so

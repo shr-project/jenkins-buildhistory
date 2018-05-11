@@ -1,9 +1,9 @@
 PV = 2.02
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = grub-efi-editenv
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 133040
+PKGSIZE = 128944
 FILES = /usr/bin/grub-editenv
 FILELIST = /usr/bin/grub-editenv

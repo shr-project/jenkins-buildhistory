@@ -1,9 +1,9 @@
 PV = 2.1.0
 PR = r0
 PKG = libwebsockets9
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = libwebsockets (=2.1.0)
-RDEPENDS = libcrypto (>= 1.0.2o) libssl (>= 1.0.2o) libuv (>= 1.11.0) musl (>= 1.1.19+git0+55df09bfcc) zlib (>= 1.2.11)
+RDEPENDS = libcrypto (>= 1.0.2o) libssl (>= 1.0.2o) libuv (>= 1.11.0) musl (>= 1.1.19+git1+941bd884cc) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 173624
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libwebsockets /usr/lib/libwebsockets/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

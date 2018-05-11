@@ -1,9 +1,9 @@
 PV = 1.12.3
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libv4l (>= 1.12.3) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) libv4l (>= 1.12.3) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 1581168
+PKGSIZE = 1589360
 FILES = /usr/bin /usr/sbin
 FILELIST = /usr/bin/cec-compliance /usr/bin/cec-ctl /usr/bin/cec-follower /usr/bin/cx18-ctl /usr/bin/decode_tm6000 /usr/bin/dvb-fe-tool /usr/bin/dvb-format-convert /usr/bin/dvbv5-daemon /usr/bin/dvbv5-scan /usr/bin/dvbv5-zap /usr/bin/ir-ctl /usr/bin/ivtv-ctl /usr/bin/rds-ctl /usr/bin/v4l2-compliance /usr/bin/v4l2-ctl /usr/bin/v4l2-sysfs-path /usr/sbin/v4l2-dbg

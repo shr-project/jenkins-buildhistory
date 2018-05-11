@@ -1,8 +1,8 @@
 PV = 1.16
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = libcomerr (>= 1.43.8) libcrypto (>= 1.0.2o) libk5crypto (>= 1.16) libkrb5 (>= 1.16) libkrb5support (>= 1.16) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = libcomerr (>= 1.43.8) libcrypto (>= 1.0.2o) libk5crypto (>= 1.16) libkrb5 (>= 1.16) libkrb5support (>= 1.16) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 133832
 FILES = /usr/lib/krb5/plugins/preauth/pkinit.so

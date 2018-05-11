@@ -2,10 +2,10 @@ PV = 5.10.1+5.11-beta3+gitAUTOINC+21aefc65d5
 PR = r0
 PKG = libqt5mqtt5
 PKGV = 5.10.1+5.11-beta3+git0+21aefc65d5
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = qtmqtt (=5.10.1+5.11-beta3+git0+21aefc65d5)
-RDEPENDS = libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901)
+RDEPENDS = libstdc++ (>= 8.1.0) musl (>= 1.1.19+git1+941bd884cc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901)
 RRECOMMENDS = qtmqtt-plugins qtmqtt-qmlplugins
-PKGSIZE = 136836
+PKGSIZE = 140932
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtmqtt /usr/lib/qtmqtt/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5Mqtt.so.5 /usr/lib/libQt5Mqtt.so.5.11 /usr/lib/libQt5Mqtt.so.5.11.0

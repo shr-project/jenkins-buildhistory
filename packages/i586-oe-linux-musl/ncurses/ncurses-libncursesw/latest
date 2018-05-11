@@ -1,9 +1,9 @@
-PV = 6.0+20171125
+PV = 6.1
 PR = r0
 PKG = libncursesw5
-PKGR = r0.10
-RPROVIDES = ncurses-libncursesw (=6.0+20171125)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) ncurses-libtinfo (>= 6.0+20171125)
+PKGR = r0.2
+RPROVIDES = ncurses-libncursesw (=6.1)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) ncurses-libtinfo (>= 6.1)
 RRECOMMENDS = 
 PKGSIZE = 218414
 FILES = /lib/libncursesw.so.5 /lib/libncursesw.so.5.9

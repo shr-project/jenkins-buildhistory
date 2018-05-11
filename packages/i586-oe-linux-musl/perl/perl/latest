@@ -1,8 +1,8 @@
 PV = 5.24.1
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = perl-module-config perl-module-strict perl-module-vars perl-module-warnings perl-module-warnings-register
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) perl-lib (>= 5.24.1)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) perl-lib (>= 5.24.1)
 RRECOMMENDS = 
 PKGSIZE = 62191
 FILES = /usr/bin/perl /usr/bin/perl5.24.1 /usr/lib/perl/5.24.1/Config.pm /usr/lib/perl/5.24.1/strict.pm /usr/lib/perl/5.24.1/warnings.pm /usr/lib/perl/5.24.1/warnings /usr/lib/perl/5.24.1/vars.pm

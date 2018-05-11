@@ -1,8 +1,8 @@
 PV = 2.4
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = ypbind-mt-systemd
-RDEPENDS = libnsl2 (>= 1.0.5+git0+dfa2f31352) libsystemd (>= 237) libtirpc (>= 1.0.2) musl (>= 1.1.19+git0+55df09bfcc) yp-tools
+RDEPENDS = libnsl2 (>= 1.2.0+git0+37c5ffe303) libsystemd (>= 237) libtirpc (>= 1.0.3) musl (>= 1.1.19+git1+941bd884cc) yp-tools
 RRECOMMENDS = 
 RREPLACES = ypbind-mt-systemd
 RCONFLICTS = ypbind-mt-systemd

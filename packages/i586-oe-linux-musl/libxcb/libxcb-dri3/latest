@@ -1,10 +1,10 @@
-PV = 1.12
+PV = 1.13
 PR = r0
 PKG = libxcb-dri3-0
-PKGR = r0.20
-RPROVIDES = libxcb-dri3 (=1.12)
-RDEPENDS = libxau (>= 1.0.8) libxcb (>= 1.12) libxdmcp (>= 1.1.2) musl (>= 1.1.19+git0+55df09bfcc)
+PKGR = r0.2
+RPROVIDES = libxcb-dri3 (=1.13)
+RDEPENDS = libxau (>= 1.0.8) libxcb (>= 1.13) libxdmcp (>= 1.1.2) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 9572
+PKGSIZE = 17764
 FILES = /usr/lib/libxcb-dri3.so.0 /usr/lib/libxcb-dri3.so.0.0.0
 FILELIST = /usr/lib/libxcb-dri3.so.0 /usr/lib/libxcb-dri3.so.0.0.0

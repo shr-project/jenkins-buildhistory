@@ -1,9 +1,9 @@
 PE = 2
-PV = 17.3.8
+PV = 18.0.2
 PR = r0
-PKGR = r0.2
+PKGR = r0.0
 RPROVIDES = libgles1 libglesv1-cm1
-RDEPENDS = libdrm (>= 2.4.91) libglapi (>= 17.3.8) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = libdrm (>= 2.4.91) libglapi (>= 18.0.2) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = mesa-megadriver
 RREPLACES = libgles1 libglesv1-cm1
 RCONFLICTS = libgles1 libglesv1-cm1

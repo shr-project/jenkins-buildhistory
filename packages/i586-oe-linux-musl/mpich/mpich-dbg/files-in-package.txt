@@ -1,13 +1,13 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              100 ./usr/bin/.debug
--rwxr-xr-x root       root            50648 ./usr/bin/.debug/mpichversion
--rwxr-xr-x root       root           104180 ./usr/bin/.debug/mpiexec
--rwxr-xr-x root       root            22580 ./usr/bin/.debug/mpivars
+-rwxr-xr-x root       root            51588 ./usr/bin/.debug/mpichversion
+-rwxr-xr-x root       root           127124 ./usr/bin/.debug/mpiexec
+-rwxr-xr-x root       root            26492 ./usr/bin/.debug/mpivars
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/.debug
--rwxr-xr-x root       root         16882164 ./usr/lib/.debug/libmpi.so.12.1.0
--rwxr-xr-x root       root            24532 ./usr/lib/.debug/libtvmpich.so.12.1.0
+-rwxr-xr-x root       root         18523580 ./usr/lib/.debug/libmpi.so.12.1.0
+-rwxr-xr-x root       root            28036 ./usr/lib/.debug/libtvmpich.so.12.1.0
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/mpich
@@ -21,7 +21,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/mpich/3.2-r0/mpich-3
 drwxr-xr-x root       root               80 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/glue/romio
 -rw-r--r-- root       root            13728 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/glue/romio/all_romio_symbols.c
 -rw-r--r-- root       root             2762 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/glue/romio/glue_romio.c
-drwxr-xr-x root       root              420 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include
+drwxr-xr-x root       root              440 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include
 -rw-r--r-- root       root             2358 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/glue_romio.h
 -rw-r--r-- root       root              918 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/mpi_attr.h
 -rw-r--r-- root       root             2854 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/mpibsend.h
@@ -34,6 +34,7 @@ drwxr-xr-x root       root              420 ./usr/src/debug/mpich/3.2-r0/mpich-3
 -rw-r--r-- root       root              264 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/mpiinfo.h
 -rw-r--r-- root       root             1988 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/mpi_lang.h
 -rw-r--r-- root       root            18771 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/mpimem.h
+-rw-r--r-- root       root            23248 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/mpio.h
 -rw-r--r-- root       root             9042 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/mpir_nbc.h
 -rw-r--r-- root       root              699 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/mpir_type_defs.h
 -rw-r--r-- root       root            34323 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/include/mpit.h
@@ -545,7 +546,7 @@ drwxr-xr-x root       root              880 ./usr/src/debug/mpich/3.2-r0/mpich-3
 -rw-r--r-- root       root             3335 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/rma/win_unlock.c
 -rw-r--r-- root       root              634 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/rma/winutil.c
 -rw-r--r-- root       root             2950 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/rma/win_wait.c
-drwxr-xr-x root       root              100 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio
+drwxr-xr-x root       root               80 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio
 drwxr-xr-x root       root              160 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/adio
 drwxr-xr-x root       root               60 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/adio/ad_gpfs
 -rw-r--r-- root       root             4643 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/adio/ad_gpfs/ad_gpfs_tuning.h
@@ -660,8 +661,6 @@ drwxr-xr-x root       root              200 ./usr/src/debug/mpich/3.2-r0/mpich-3
 -rw-r--r-- root       root              613 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/adio/include/heap-sort.h
 -rw-r--r-- root       root              791 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/adio/include/hint_fns.h
 -rw-r--r-- root       root              805 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/adio/include/mpiu_external32.h
-drwxr-xr-x root       root               60 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/include
--rw-r--r-- root       root            23248 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/include/mpio.h
 drwxr-xr-x root       root             1320 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/mpi-io
 -rw-r--r-- root       root             2954 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/mpi-io/close.c
 -rw-r--r-- root       root             2729 ./usr/src/debug/mpich/3.2-r0/mpich-3.2/src/mpi/romio/mpi-io/delete.c

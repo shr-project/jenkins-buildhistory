@@ -1,8 +1,8 @@
 PV = 2.7.14
 PR = r1
-PKGR = r1.13
+PKGR = r1.14
 RPROVIDES = 
-RDEPENDS = libpython2 (>= 2.7.14) musl (>= 1.1.19+git0+55df09bfcc) ncurses-libncursesw (>= 6.0+20171125) ncurses-libpanelw (>= 6.0+20171125) ncurses-libtinfo (>= 6.0+20171125) python-core
+RDEPENDS = libpython2 (>= 2.7.14) musl (>= 1.1.19+git1+941bd884cc) ncurses-libncursesw (>= 6.1) ncurses-libpanelw (>= 6.1) ncurses-libtinfo (>= 6.1) python-core
 RRECOMMENDS = 
 PKGSIZE = 140617
 FILES = /usr/lib/python2.7/curses /usr/lib/python2.7/lib-dynload/_curses.so /usr/lib/python2.7/lib-dynload/_curses_panel.so

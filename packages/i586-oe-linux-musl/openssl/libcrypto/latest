@@ -1,10 +1,10 @@
 PV = 1.0.2o
 PR = r0
 PKG = libcrypto1.0.2
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libcrypto (=1.0.2o)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = openssl-conf
-PKGSIZE = 2111900
+PKGSIZE = 2120092
 FILES = /usr/lib/libcrypto.so.*
 FILELIST = /usr/lib/libcrypto.so.1.0.2

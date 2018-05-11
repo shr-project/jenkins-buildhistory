@@ -1,9 +1,9 @@
 PV = 3.100
 PR = r0
 PKG = libmp3lame0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = libmp3lame (=3.100)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 312739
 FILES = /usr/lib/libmp3lame.so.*

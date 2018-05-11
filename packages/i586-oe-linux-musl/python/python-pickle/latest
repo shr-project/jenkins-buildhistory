@@ -1,8 +1,8 @@
 PV = 2.7.14
 PR = r1
-PKGR = r1.13
+PKGR = r1.14
 RPROVIDES = 
-RDEPENDS = libpython2 (>= 2.7.14) musl (>= 1.1.19+git0+55df09bfcc) python-core python-io
+RDEPENDS = libpython2 (>= 2.7.14) musl (>= 1.1.19+git1+941bd884cc) python-core python-io
 RRECOMMENDS = 
 PKGSIZE = 322540
 FILES = /usr/lib/python2.7/lib-dynload/cPickle.so /usr/lib/python2.7/pickle.py /usr/lib/python2.7/pickle.pyc /usr/lib/python2.7/pickletools.py /usr/lib/python2.7/pickletools.pyc /usr/lib/python2.7/shelve.py /usr/lib/python2.7/shelve.pyc

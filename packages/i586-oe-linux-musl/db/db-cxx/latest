@@ -1,10 +1,10 @@
 PE = 1
 PV = 5.3.28
 PR = r1
-PKGR = r1.22
+PKGR = r1.23
 RPROVIDES = 
-RDEPENDS = libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 1582924
+PKGSIZE = 1595212
 FILES = /usr/lib/*cxx*so
 FILELIST = /usr/lib/libdb_cxx-5.3.so /usr/lib/libdb_cxx-5.so /usr/lib/libdb_cxx.so

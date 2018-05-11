@@ -1,9 +1,9 @@
 PV = 1.16
 PR = r0
 PKG = libkrb5support0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = libkrb5support (=1.16)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 46637
 FILES = /usr/lib/libkrb5support.so.*

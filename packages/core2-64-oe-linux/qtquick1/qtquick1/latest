@@ -1,10 +1,10 @@
-PV = 5.10.1+5.11-alpha+gitAUTOINC+fa02271a18
+PV = 5.10.1+5.11-beta3+gitAUTOINC+fa02271a18
 PR = r0
 PKG = libqt5declarative5
-PKGV = 5.10.1+5.11-alpha+git0+fa02271a18
-PKGR = r0.7
-RPROVIDES = qtquick1 (=5.10.1+5.11-alpha+git0+fa02271a18)
-RDEPENDS = glibc (>= 2.27) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b) qtscript (>= 5.10.1+5.11-alpha+git0+781c745277) qtxmlpatterns (>= 5.10.1+5.11-alpha+git0+c892ceec1c)
+PKGV = 5.10.1+5.11-beta3+git0+fa02271a18
+PKGR = r0.0
+RPROVIDES = qtquick1 (=5.10.1+5.11-beta3+git0+fa02271a18)
+RDEPENDS = glibc (>= 2.27) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtscript (>= 5.10.1+5.11-beta3+git0+c2657d3464) qtxmlpatterns (>= 5.10.1+5.11-beta3+git0+e4abf2c6e3)
 RRECOMMENDS = qtquick1-plugins qtquick1-qmlplugins
 PKGSIZE = 3513212
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtquick1 /usr/lib/qtquick1/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec

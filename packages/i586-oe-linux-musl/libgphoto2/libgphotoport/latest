@@ -1,9 +1,9 @@
 PV = 2.5.16
 PR = r0
 PKG = libgphoto2-port12
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = libgphotoport (=2.5.16)
-RDEPENDS = libltdl (>= 2.4.6) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = libltdl (>= 2.4.6) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 46649
 FILES = /usr/lib/libgphoto2_port.so.*

@@ -1,9 +1,9 @@
-PV = 7.58.0
+PV = 7.59.0
 PR = r0
-PKGR = r0.7
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = libcurl (>= 7.58.0) musl (>= 1.1.19+git0+55df09bfcc) zlib (>= 1.2.11)
+RDEPENDS = libcurl (>= 7.59.0) musl (>= 1.1.19+git1+941bd884cc) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 222572
+PKGSIZE = 226668
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/curl /usr/lib/curl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/zsh
 FILELIST = /usr/bin/curl

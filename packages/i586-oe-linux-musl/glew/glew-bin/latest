@@ -1,9 +1,9 @@
 PV = 2.1.0
 PR = r0
 PKG = libglew-bin
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = glew-bin (=2.1.0)
-RDEPENDS = glew (>= 2.1.0) libgl-mesa (>= 17.3.8) libx11 (>= 1.6.5) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = glew (>= 2.1.0) libgl-mesa (>= 18.0.2) libx11 (>= 1.6.5) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 486020
 FILES = /usr/bin/* /usr/sbin/*

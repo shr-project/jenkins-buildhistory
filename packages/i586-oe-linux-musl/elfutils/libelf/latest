@@ -1,10 +1,10 @@
 PV = 0.170
 PR = r0
 PKG = libelf1
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = libelf (=0.170)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) zlib (>= 1.2.11)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 108019
+PKGSIZE = 112115
 FILES = /usr/lib/libelf-0.170.so /usr/lib/libelf.so.*
 FILELIST = /usr/lib/libelf-0.170.so /usr/lib/libelf.so.1

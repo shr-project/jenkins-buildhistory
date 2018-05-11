@@ -1,9 +1,9 @@
 PE = 1
 PV = 4.14.1
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = rpm-build
-RDEPENDS = bash db (>= 5.3.28) dbus-lib (>= 1.12.2) file (>= 5.32) libarchive (>= 3.3.2) libbz2 (>= 1.0.6) libdw (>= 0.170) libelf (>= 0.170) liblzma (>= 5.2.3) musl (>= 1.1.19+git0+55df09bfcc) nss (>= 3.35) perl popt (>= 1.16) python3-core zlib (>= 1.2.11)
+RDEPENDS = bash db (>= 5.3.28) dbus-lib (>= 1.12.2) file (>= 5.32) libarchive (>= 3.3.2) libbz2 (>= 1.0.6) libdw (>= 0.170) libelf (>= 0.170) liblzma (>= 5.2.3) musl (>= 1.1.19+git1+941bd884cc) nss (>= 3.35) perl popt (>= 1.16) python3-core zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 1377134
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rpm /usr/lib/rpm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/rpm-plugins/*.so

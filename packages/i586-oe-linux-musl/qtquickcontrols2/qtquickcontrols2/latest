@@ -1,10 +1,10 @@
 PV = 5.10.1+5.11-beta3+gitAUTOINC+c0232099a9
 PR = r0
 PKGV = 5.10.1+5.11-beta3+git0+c0232099a9
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1)
+RDEPENDS = libstdc++ (>= 8.1.0) musl (>= 1.1.19+git1+941bd884cc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1)
 RRECOMMENDS = qtquickcontrols2-plugins qtquickcontrols2-qmlplugins
-PKGSIZE = 1469734
+PKGSIZE = 1473830
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtquickcontrols2 /usr/lib/qtquickcontrols2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5QuickControls2.so.5 /usr/lib/libQt5QuickControls2.so.5.11 /usr/lib/libQt5QuickControls2.so.5.11.0 /usr/lib/libQt5QuickTemplates2.so.5 /usr/lib/libQt5QuickTemplates2.so.5.11 /usr/lib/libQt5QuickTemplates2.so.5.11.0

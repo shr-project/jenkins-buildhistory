@@ -1,9 +1,9 @@
 PV = 1.16
 PR = r0
 PKG = libk5crypto3
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = libk5crypto (=1.16)
-RDEPENDS = libkrb5support (>= 1.16) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = libkrb5support (>= 1.16) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 222806
 FILES = /usr/lib/libk5crypto.so.*

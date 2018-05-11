@@ -1,10 +1,10 @@
-PV = 1.1.5
+PV = 1.1.6
 PR = r0
 PKG = libasound2
-PKGR = r0.20
-RPROVIDES = libasound (=1.1.5)
-RDEPENDS = alsa-conf musl (>= 1.1.19+git0+55df09bfcc)
+PKGR = r0.0
+RPROVIDES = libasound (=1.1.6)
+RDEPENDS = alsa-conf musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 1219230
+PKGSIZE = 1157790
 FILES = /usr/lib/libasound.so.*
 FILELIST = /usr/lib/libasound.so.2 /usr/lib/libasound.so.2.0.0

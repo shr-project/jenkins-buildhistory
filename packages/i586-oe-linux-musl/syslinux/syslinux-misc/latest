@@ -1,8 +1,8 @@
 PV = 6.03
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) perl util-linux-libuuid (>= 2.31)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) perl util-linux-libuuid (>= 2.31)
 RRECOMMENDS = 
 PKGSIZE = 1983842
 FILES = /usr/share/syslinux/* /usr/lib/syslinux/* /usr/bin/*

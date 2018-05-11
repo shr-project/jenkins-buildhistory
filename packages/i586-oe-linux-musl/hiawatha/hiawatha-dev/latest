@@ -1,9 +1,9 @@
 PV = 10.7
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = 
-RDEPENDS = hiawatha (= 10.7-r0.23)
-RRECOMMENDS = libxml2-dev libxslt-dev mbedtls-dev musl-dev zlib-dev
+RDEPENDS = hiawatha (= 10.7-r0.24)
+RRECOMMENDS = libxml2-dev libxslt-dev musl-dev zlib-dev
 PKGSIZE = 50
 FILES = /usr/lib/hiawatha/*.so
 FILELIST = /usr/lib/hiawatha/libmbedcrypto.so /usr/lib/hiawatha/libmbedtls.so /usr/lib/hiawatha/libmbedx509.so

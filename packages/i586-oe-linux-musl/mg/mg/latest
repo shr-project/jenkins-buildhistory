@@ -1,8 +1,8 @@
 PV = 20170401
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = libbsd (>= 0.8.7) musl (>= 1.1.19+git0+55df09bfcc) ncurses-libtinfo (>= 6.0+20171125)
+RDEPENDS = libbsd (>= 0.8.7) musl (>= 1.1.19+git1+941bd884cc) ncurses-libtinfo (>= 6.1)
 RRECOMMENDS = 
 PKGSIZE = 203784
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mg /usr/lib/mg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

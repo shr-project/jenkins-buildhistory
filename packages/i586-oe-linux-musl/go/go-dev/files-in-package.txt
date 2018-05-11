@@ -66,7 +66,7 @@ drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/compile/interna
 drwxr-xr-x root       root             1500 ./usr/lib/go/src/cmd/compile/internal/gc
 -rw-r--r-- root       root            13441 ./usr/lib/go/src/cmd/compile/internal/gc/alg.go
 -rw-r--r-- root       root            10102 ./usr/lib/go/src/cmd/compile/internal/gc/align.go
--rw-r--r-- root       root            26929 ./usr/lib/go/src/cmd/compile/internal/gc/asm_test.go
+-rw-r--r-- root       root            27142 ./usr/lib/go/src/cmd/compile/internal/gc/asm_test.go
 -rw-r--r-- root       root            48176 ./usr/lib/go/src/cmd/compile/internal/gc/bexport.go
 -rw-r--r-- root       root            31374 ./usr/lib/go/src/cmd/compile/internal/gc/bimport.go
 -rw-r--r-- root       root             1035 ./usr/lib/go/src/cmd/compile/internal/gc/bitset.go
@@ -100,7 +100,7 @@ drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/compile/interna
 -rw-r--r-- root       root             5466 ./usr/lib/go/src/cmd/compile/internal/gc/mkbuiltin.go
 -rw-r--r-- root       root             4815 ./usr/lib/go/src/cmd/compile/internal/gc/mpfloat.go
 -rw-r--r-- root       root             5605 ./usr/lib/go/src/cmd/compile/internal/gc/mpint.go
--rw-r--r-- root       root            29023 ./usr/lib/go/src/cmd/compile/internal/gc/noder.go
+-rw-r--r-- root       root            30089 ./usr/lib/go/src/cmd/compile/internal/gc/noder.go
 -rw-r--r-- root       root              215 ./usr/lib/go/src/cmd/compile/internal/gc/norace.go
 -rw-r--r-- root       root             9952 ./usr/lib/go/src/cmd/compile/internal/gc/obj.go
 -rw-r--r-- root       root             4533 ./usr/lib/go/src/cmd/compile/internal/gc/opnames.go
@@ -137,7 +137,7 @@ drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/compile/interna
 -rw-r--r-- root       root            11581 ./usr/lib/go/src/cmd/compile/internal/gc/universe.go
 -rw-r--r-- root       root             1832 ./usr/lib/go/src/cmd/compile/internal/gc/unsafe.go
 -rw-r--r-- root       root             2237 ./usr/lib/go/src/cmd/compile/internal/gc/util.go
--rw-r--r-- root       root            96022 ./usr/lib/go/src/cmd/compile/internal/gc/walk.go
+-rw-r--r-- root       root            96428 ./usr/lib/go/src/cmd/compile/internal/gc/walk.go
 drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/compile/internal/mips
 drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/compile/internal/mips64
 -rw-r--r-- root       root              684 ./usr/lib/go/src/cmd/compile/internal/mips64/galign.go
@@ -183,8 +183,8 @@ drwxr-xr-x root       root             1740 ./usr/lib/go/src/cmd/compile/interna
 drwxr-xr-x root       root              540 ./usr/lib/go/src/cmd/compile/internal/ssa/gen
 -rw-r--r-- root       root            33169 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/386Ops.go
 -rw-r--r-- root       root            60887 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/386.rules
--rw-r--r-- root       root            47204 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/AMD64Ops.go
--rw-r--r-- root       root           114322 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/AMD64.rules
+-rw-r--r-- root       root            47290 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/AMD64Ops.go
+-rw-r--r-- root       root           114363 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/AMD64.rules
 -rw-r--r-- root       root            29682 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/ARM64Ops.go
 -rw-r--r-- root       root            64448 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/ARM64.rules
 -rw-r--r-- root       root            33684 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/ARMOps.go
@@ -204,8 +204,8 @@ drwxr-xr-x root       root              540 ./usr/lib/go/src/cmd/compile/interna
 -rw-r--r-- root       root            41017 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/PPC64.rules
 -rw-r--r-- root       root              268 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/README
 -rw-r--r-- root       root            24300 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/rulegen.go
--rw-r--r-- root       root            42695 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/S390XOps.go
--rw-r--r-- root       root            86796 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/S390X.rules
+-rw-r--r-- root       root            42725 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/S390XOps.go
+-rw-r--r-- root       root            86810 ./usr/lib/go/src/cmd/compile/internal/ssa/gen/S390X.rules
 -rw-r--r-- root       root            11631 ./usr/lib/go/src/cmd/compile/internal/ssa/html.go
 -rw-r--r-- root       root              576 ./usr/lib/go/src/cmd/compile/internal/ssa/id.go
 -rw-r--r-- root       root             2929 ./usr/lib/go/src/cmd/compile/internal/ssa/layout.go
@@ -235,7 +235,7 @@ drwxr-xr-x root       root              540 ./usr/lib/go/src/cmd/compile/interna
 -rw-r--r-- root       root            73048 ./usr/lib/go/src/cmd/compile/internal/ssa/regalloc.go
 -rw-r--r-- root       root             5234 ./usr/lib/go/src/cmd/compile/internal/ssa/regalloc_test.go
 -rw-r--r-- root       root           406750 ./usr/lib/go/src/cmd/compile/internal/ssa/rewrite386.go
--rw-r--r-- root       root           986944 ./usr/lib/go/src/cmd/compile/internal/ssa/rewriteAMD64.go
+-rw-r--r-- root       root           987026 ./usr/lib/go/src/cmd/compile/internal/ssa/rewriteAMD64.go
 -rw-r--r-- root       root           370890 ./usr/lib/go/src/cmd/compile/internal/ssa/rewriteARM64.go
 -rw-r--r-- root       root           383149 ./usr/lib/go/src/cmd/compile/internal/ssa/rewriteARM.go
 -rw-r--r-- root       root            69070 ./usr/lib/go/src/cmd/compile/internal/ssa/rewritedec64.go
@@ -245,7 +245,7 @@ drwxr-xr-x root       root              540 ./usr/lib/go/src/cmd/compile/interna
 -rw-r--r-- root       root           230680 ./usr/lib/go/src/cmd/compile/internal/ssa/rewriteMIPS64.go
 -rw-r--r-- root       root           211217 ./usr/lib/go/src/cmd/compile/internal/ssa/rewriteMIPS.go
 -rw-r--r-- root       root           239280 ./usr/lib/go/src/cmd/compile/internal/ssa/rewritePPC64.go
--rw-r--r-- root       root           839561 ./usr/lib/go/src/cmd/compile/internal/ssa/rewriteS390X.go
+-rw-r--r-- root       root           839589 ./usr/lib/go/src/cmd/compile/internal/ssa/rewriteS390X.go
 -rw-r--r-- root       root             2240 ./usr/lib/go/src/cmd/compile/internal/ssa/rewrite_test.go
 -rw-r--r-- root       root            12638 ./usr/lib/go/src/cmd/compile/internal/ssa/schedule.go
 -rw-r--r-- root       root             2976 ./usr/lib/go/src/cmd/compile/internal/ssa/schedule_test.go
@@ -357,7 +357,7 @@ drwxr-xr-x root       root              180 ./usr/lib/go/src/cmd/gofmt
 -rw-r--r-- root       root             8107 ./usr/lib/go/src/cmd/gofmt/rewrite.go
 -rw-r--r-- root       root             4774 ./usr/lib/go/src/cmd/gofmt/simplify.go
 -rw-r--r-- root       root              299 ./usr/lib/go/src/cmd/go/go11.go
--rw-r--r-- root       root           137347 ./usr/lib/go/src/cmd/go/go_test.go
+-rw-r--r-- root       root           138261 ./usr/lib/go/src/cmd/go/go_test.go
 -rw-r--r-- root       root              950 ./usr/lib/go/src/cmd/go/go_unix_test.go
 -rw-r--r-- root       root             1191 ./usr/lib/go/src/cmd/go/go_windows_test.go
 drwxr-xr-x root       root              500 ./usr/lib/go/src/cmd/go/internal
@@ -399,8 +399,8 @@ drwxr-xr-x root       root              160 ./usr/lib/go/src/cmd/go/internal/get
 -rw-r--r-- root       root            17221 ./usr/lib/go/src/cmd/go/internal/get/get.go
 -rw-r--r-- root       root             2529 ./usr/lib/go/src/cmd/go/internal/get/pkg_test.go
 -rw-r--r-- root       root             2223 ./usr/lib/go/src/cmd/go/internal/get/tag_test.go
--rw-r--r-- root       root            30915 ./usr/lib/go/src/cmd/go/internal/get/vcs.go
--rw-r--r-- root       root            10942 ./usr/lib/go/src/cmd/go/internal/get/vcs_test.go
+-rw-r--r-- root       root            31781 ./usr/lib/go/src/cmd/go/internal/get/vcs.go
+-rw-r--r-- root       root            11745 ./usr/lib/go/src/cmd/go/internal/get/vcs_test.go
 drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/go/internal/help
 -rw-r--r-- root       root            22515 ./usr/lib/go/src/cmd/go/internal/help/helpdoc.go
 -rw-r--r-- root       root             4080 ./usr/lib/go/src/cmd/go/internal/help/help.go
@@ -410,7 +410,7 @@ drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/go/internal/lis
 drwxr-xr-x root       root              140 ./usr/lib/go/src/cmd/go/internal/load
 -rw-r--r-- root       root             3801 ./usr/lib/go/src/cmd/go/internal/load/match_test.go
 -rw-r--r-- root       root             2049 ./usr/lib/go/src/cmd/go/internal/load/path.go
--rw-r--r-- root       root            75237 ./usr/lib/go/src/cmd/go/internal/load/pkg.go
+-rw-r--r-- root       root            75310 ./usr/lib/go/src/cmd/go/internal/load/pkg.go
 -rw-r--r-- root       root            10588 ./usr/lib/go/src/cmd/go/internal/load/search.go
 -rw-r--r-- root       root              578 ./usr/lib/go/src/cmd/go/internal/load/testgo.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/go/internal/run
@@ -432,10 +432,10 @@ drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/go/internal/web
 -rw-r--r-- root       root             3182 ./usr/lib/go/src/cmd/go/internal/web/http.go
 -rw-r--r-- root       root              473 ./usr/lib/go/src/cmd/go/internal/web/security.go
 drwxr-xr-x root       root              140 ./usr/lib/go/src/cmd/go/internal/work
--rw-r--r-- root       root           122776 ./usr/lib/go/src/cmd/go/internal/work/build.go
+-rw-r--r-- root       root           123251 ./usr/lib/go/src/cmd/go/internal/work/build.go
 -rw-r--r-- root       root             5732 ./usr/lib/go/src/cmd/go/internal/work/build_test.go
--rw-r--r-- root       root             4527 ./usr/lib/go/src/cmd/go/internal/work/security.go
--rw-r--r-- root       root             5273 ./usr/lib/go/src/cmd/go/internal/work/security_test.go
+-rw-r--r-- root       root             6882 ./usr/lib/go/src/cmd/go/internal/work/security.go
+-rw-r--r-- root       root             5459 ./usr/lib/go/src/cmd/go/internal/work/security_test.go
 -rw-r--r-- root       root              356 ./usr/lib/go/src/cmd/go/internal/work/testgo.go
 -rw-r--r-- root       root             3580 ./usr/lib/go/src/cmd/go/main.go
 -rwxr-xr-x root       root              275 ./usr/lib/go/src/cmd/go/mkalldocs.sh

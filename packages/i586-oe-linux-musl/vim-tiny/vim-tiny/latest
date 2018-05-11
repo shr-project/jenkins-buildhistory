@@ -1,10 +1,10 @@
 PV = 8.0.0983
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = libacl (>= 2.2.52) musl (>= 1.1.19+git0+55df09bfcc) ncurses-libtinfo (>= 6.0+20171125) ncurses-terminfo-base update-alternatives-opkg
+RDEPENDS = libacl (>= 2.2.52) musl (>= 1.1.19+git1+941bd884cc) ncurses-libtinfo (>= 6.1) ncurses-terminfo-base update-alternatives-opkg
 RRECOMMENDS = vim-tiny-common vim-tiny-help vim-tiny-syntax vim-tiny-tutor vim-tiny-vimrc
 RSUGGESTS = diffutils
-PKGSIZE = 892884
+PKGSIZE = 896980
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/vim-tiny /usr/lib/vim-tiny/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/bin/vim.tiny

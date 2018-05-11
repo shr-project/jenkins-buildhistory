@@ -1,9 +1,9 @@
 PV = 4.0.9
 PR = r0
 PKG = libtiff-utils
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = tiff-utils (=4.0.9)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) tiff (>= 4.0.9)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) tiff (>= 4.0.9)
 RRECOMMENDS = 
 PKGSIZE = 477132
 FILES = /usr/bin/*

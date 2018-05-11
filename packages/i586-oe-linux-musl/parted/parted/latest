@@ -1,9 +1,9 @@
 PV = 3.2
 PR = r1
-PKGR = r1.22
+PKGR = r1.23
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) ncurses-libtinfo (>= 6.0+20171125) readline (>= 7.0) util-linux-libblkid (>= 2.31) util-linux-libuuid (>= 2.31)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) ncurses-libtinfo (>= 6.1) readline (>= 7.0) util-linux-libblkid (>= 2.31) util-linux-libuuid (>= 2.31)
 RRECOMMENDS = 
-PKGSIZE = 625346
+PKGSIZE = 629442
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/parted /usr/lib/parted/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libparted-fs-resize.so.0 /usr/lib/libparted-fs-resize.so.0.0.1 /usr/lib/libparted.so.2 /usr/lib/libparted.so.2.0.1 /usr/sbin/parted /usr/sbin/partprobe

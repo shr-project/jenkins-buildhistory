@@ -2,9 +2,9 @@ PV = 1.0.17+gitAUTOINC+736b91d340
 PR = r0
 PKG = libsctp-withsctp
 PKGV = 1.0.17+git0+736b91d340
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = lksctp-tools-withsctp (=1.0.17+git0+736b91d340)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 5413
 FILES = /usr/lib/lksctp-tools/libwithsctp.so.1.0.17 /usr/lib/lksctp-tools/libwithsctp.so.1

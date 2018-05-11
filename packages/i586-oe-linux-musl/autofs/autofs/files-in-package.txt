@@ -13,15 +13,17 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              411 ./lib/systemd/system/autofs.service
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root              380 ./usr/lib/autofs
+drwxr-xr-x root       root              420 ./usr/lib/autofs
 -rwxr-xr-x root       root           190628 ./usr/lib/autofs/lookup_dir.so
--rwxr-xr-x root       root           211100 ./usr/lib/autofs/lookup_file.so
+-rwxr-xr-x root       root           207004 ./usr/lib/autofs/lookup_file.so
 lrwxrwxrwx root       root               14 ./usr/lib/autofs/lookup_files.so -> lookup_file.so
 -rwxr-xr-x root       root           211272 ./usr/lib/autofs/lookup_hosts.so
 -rwxr-xr-x root       root           211108 ./usr/lib/autofs/lookup_multi.so
+-rwxr-xr-x root       root           198816 ./usr/lib/autofs/lookup_nisplus.so
 lrwxrwxrwx root       root               12 ./usr/lib/autofs/lookup_nis.so -> lookup_yp.so
--rwxr-xr-x root       root           198824 ./usr/lib/autofs/lookup_program.so
--rwxr-xr-x root       root           190632 ./usr/lib/autofs/lookup_userhome.so
+-rwxr-xr-x root       root           194728 ./usr/lib/autofs/lookup_program.so
+-rwxr-xr-x root       root           186536 ./usr/lib/autofs/lookup_userhome.so
+-rwxr-xr-x root       root           194716 ./usr/lib/autofs/lookup_yp.so
 -rwxr-xr-x root       root             9484 ./usr/lib/autofs/mount_afs.so
 -rwxr-xr-x root       root           190628 ./usr/lib/autofs/mount_autofs.so
 -rwxr-xr-x root       root            13580 ./usr/lib/autofs/mount_bind.so

@@ -1,5 +1,5 @@
-PV = 1.1.19+gitAUTOINC+55df09bfcc
+PV = 1.1.19+gitAUTOINC+941bd884cc
 PR = r0
-DEPENDS = bsd-headers libgcc-initial linux-libc-headers virtual/i586-oe-linux-musl-binutils virtual/i586-oe-linux-musl-gcc-initial
+DEPENDS = bsd-headers libgcc-initial libssp-nonshared linux-libc-headers virtual/i586-oe-linux-musl-binutils virtual/i586-oe-linux-musl-gcc-initial
 PACKAGES = musl-dbg musl-staticdev musl-dev musl-doc musl-locale musl
 LAYER = core

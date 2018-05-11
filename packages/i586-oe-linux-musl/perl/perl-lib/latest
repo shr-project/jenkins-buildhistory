@@ -1,9 +1,9 @@
 PV = 5.24.1
 PR = r0
 PKG = libperl5
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = perl-lib
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 2209179
 FILES = /usr/lib/libperl.so* /usr/lib/perl5 /usr/lib/perl/config.sh \t\t /usr/lib/perl/5.24.1/Config_git.pl /usr/lib/perl/5.24.1/Config_heavy.pl /usr/lib/perl/5.24.1/Config_heavy-target.pl

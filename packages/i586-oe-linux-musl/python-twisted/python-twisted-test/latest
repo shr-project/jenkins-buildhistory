@@ -1,8 +1,8 @@
 PV = 17.9.0
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = libpython2 (>= 2.7.14) musl (>= 1.1.19+git0+55df09bfcc) python-twisted
+RDEPENDS = libpython2 (>= 2.7.14) musl (>= 1.1.19+git1+941bd884cc) python-twisted
 RRECOMMENDS = 
 PKGSIZE = 8083644
 FILES = /usr/lib/python2.7/site-packages/twisted/test /usr/lib/python2.7/site-packages/twisted/*/test /usr/lib/python2.7/site-packages/twisted/protocols/haproxy/test/

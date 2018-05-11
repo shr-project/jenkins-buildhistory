@@ -2,9 +2,9 @@ PE = 1
 PV = 1.6.5
 PR = r0
 PKG = libx11-xcb1
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = libx11-xcb (=1.6.5)
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 5359
 FILES = /usr/lib/libX11-xcb.so.*

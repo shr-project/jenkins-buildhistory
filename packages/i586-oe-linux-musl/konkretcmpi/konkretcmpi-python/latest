@@ -1,8 +1,8 @@
 PV = 0.9.2
 PR = r0
-PKGR = r0.23
+PKGR = r0.24
 RPROVIDES = 
-RDEPENDS = konkretcmpi (>= 0.9.2) libgcc (>= 7.3.0) libpython2 (>= 2.7.14) libstdc++ (>= 7.3.0) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = konkretcmpi (>= 0.9.2) libgcc (>= 8.1.0) libpython2 (>= 2.7.14) libstdc++ (>= 8.1.0) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
 PKGSIZE = 311432
 FILES = /usr/lib/python2.7/site-packages/konkretmof.py* /usr/lib/python2.7/site-packages/_konkretmof.so

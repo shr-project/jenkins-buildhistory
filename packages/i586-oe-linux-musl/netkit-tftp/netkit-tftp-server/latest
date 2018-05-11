@@ -1,8 +1,8 @@
 PV = 0.17
 PR = r0
-PKGR = r0.22
+PKGR = r0.23
 RPROVIDES = 
-RDEPENDS = musl (>= 1.1.19+git0+55df09bfcc) tcp-wrappers xinetd
+RDEPENDS = musl (>= 1.1.19+git1+941bd884cc) tcp-wrappers xinetd
 RRECOMMENDS = 
 PKGSIZE = 18461
 FILES = /usr/sbin/* /etc/xinetd.d/*

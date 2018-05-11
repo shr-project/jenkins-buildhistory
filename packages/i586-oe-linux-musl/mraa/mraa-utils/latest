@@ -2,10 +2,10 @@ PV = 1.9.0-gitAUTOINC+fbb7d92320
 PR = r0
 PKG = libmraa-utils
 PKGV = 1.9.0-git0+fbb7d92320
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = mraa-utils (=1.9.0-git0+fbb7d92320)
-RDEPENDS = mraa (>= 1.9.0-git0+fbb7d92320) musl (>= 1.1.19+git0+55df09bfcc)
+RDEPENDS = mraa (>= 1.9.0-git0+fbb7d92320) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 40860
+PKGSIZE = 36764
 FILES = /usr/bin/
 FILELIST = /usr/bin/mraa-gpio /usr/bin/mraa-i2c /usr/bin/mraa-uart
