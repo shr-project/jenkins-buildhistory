@@ -11,9 +11,9 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              520 ./usr/bin
 -rwxr-xr-x root       root             1446 ./usr/bin/msql2mysql
--rwxr-xr-x root       root          3285552 ./usr/bin/myisamchk
--rwxr-xr-x root       root          3156976 ./usr/bin/myisamlog
--rwxr-xr-x root       root          3191312 ./usr/bin/myisampack
+-rwxr-xr-x root       root          3277360 ./usr/bin/myisamchk
+-rwxr-xr-x root       root          3148784 ./usr/bin/myisamlog
+-rwxr-xr-x root       root          3187216 ./usr/bin/myisampack
 -rwxr-xr-x root       root          2870584 ./usr/bin/my_print_defaults
 -rwxr-xr-x root       root          3153896 ./usr/bin/mysqlbinlog
 -rwxr-xr-x root       root             4215 ./usr/bin/mysql_convert_table_format
@@ -48,9 +48,9 @@ drwxr-xr-x root       root              580 ./usr/lib/plugin
 -rwxr-xr-x root       root            28304 ./usr/lib/plugin/ha_example.so
 -rwxr-xr-x root       root            55696 ./usr/lib/plugin/ha_federated.so
 -rwxr-xr-x root       root            84160 ./usr/lib/plugin/ha_federatedx.so
--rwxr-xr-x root       root          1538472 ./usr/lib/plugin/ha_innodb.so
--rwxr-xr-x root       root           130576 ./usr/lib/plugin/handlersocket.so
--rwxr-xr-x root       root            67888 ./usr/lib/plugin/ha_sphinx.so
+-rwxr-xr-x root       root          1575336 ./usr/lib/plugin/ha_innodb.so
+-rwxr-xr-x root       root           126480 ./usr/lib/plugin/handlersocket.so
+-rwxr-xr-x root       root            63792 ./usr/lib/plugin/ha_sphinx.so
 -rwxr-xr-x root       root            10520 ./usr/lib/plugin/libdaemon_example.so
 -rwxr-xr-x root       root            11032 ./usr/lib/plugin/mypluglib.so
 -rwxr-xr-x root       root             6080 ./usr/lib/plugin/mysql_clear_password.so
@@ -64,7 +64,7 @@ drwxr-xr-x root       root              580 ./usr/lib/plugin
 -rwxr-xr-x root       root          2885208 ./usr/lib/plugin/sphinx.so
 -rwxr-xr-x root       root            10976 ./usr/lib/plugin/sql_errlog.so
 drwxr-xr-x root       root               60 ./usr/sbin
--rwxr-xr-x root       root         12921256 ./usr/sbin/mysqld
+-rwxr-xr-x root       root         12937640 ./usr/sbin/mysqld
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root              860 ./usr/share/mysql
 -rwxr-xr-x root       root             1153 ./usr/share/mysql/binary-configure

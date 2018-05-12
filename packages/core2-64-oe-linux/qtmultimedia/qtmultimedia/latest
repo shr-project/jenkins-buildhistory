@@ -1,10 +1,10 @@
 PV = 5.10.1+5.11-beta3+gitAUTOINC+bb7ffc4d84
 PR = r0
 PKGV = 5.10.1+5.11-beta3+git0+bb7ffc4d84
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libgl-mesa (>= 17.3.8) libpulse (>= 11.1) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1)
+RDEPENDS = glibc (>= 2.27) libgl-mesa (>= 18.0.2) libpulse (>= 11.1) libstdc++ (>= 8.1.0) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1)
 RRECOMMENDS = qtmultimedia-plugins qtmultimedia-qmlplugins
-PKGSIZE = 1416764
+PKGSIZE = 1408572
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtmultimedia /usr/lib/qtmultimedia/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5Multimedia.so.5 /usr/lib/libQt5Multimedia.so.5.11 /usr/lib/libQt5Multimedia.so.5.11.0 /usr/lib/libQt5MultimediaQuick.so.5 /usr/lib/libQt5MultimediaQuick.so.5.11 /usr/lib/libQt5MultimediaQuick.so.5.11.0 /usr/lib/libQt5MultimediaWidgets.so.5 /usr/lib/libQt5MultimediaWidgets.so.5.11 /usr/lib/libQt5MultimediaWidgets.so.5.11.0

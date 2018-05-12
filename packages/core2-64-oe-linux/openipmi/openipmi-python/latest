@@ -1,9 +1,9 @@
 PV = 2.0.24
 PR = r0
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = 
-RDEPENDS = gdbm (>= 1.14.1) glib-2.0 (>= 2.54.3) glibc (>= 2.27) libcrypto (>= 1.0.2o) openipmi (>= 2.0.24)
+RDEPENDS = gdbm (>= 1.14.1) glib-2.0 (>= 2.56.1) glibc (>= 2.27) libcrypto (>= 1.0.2o) openipmi (>= 2.0.24) openipmi-perl (>= 2.0.24)
 RRECOMMENDS = 
-PKGSIZE = 626709
+PKGSIZE = 630805
 FILES = /usr/lib/python2.7/site-packages
 FILELIST = /usr/lib/python2.7/site-packages/OpenIPMI.py /usr/lib/python2.7/site-packages/_OpenIPMI.so

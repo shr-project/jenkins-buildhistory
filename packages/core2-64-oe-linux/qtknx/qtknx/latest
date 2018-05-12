@@ -1,11 +1,11 @@
-PV = 5.10.1+5.11-alpha+gitAUTOINC+4d5a04a079
+PV = 5.10.1+5.11-beta3+gitAUTOINC+8a8a343446
 PR = r0
 PKG = libqt5knx5
-PKGV = 5.10.1+5.11-alpha+git0+4d5a04a079
-PKGR = r0.7
-RPROVIDES = qtknx (=5.10.1+5.11-alpha+git0+4d5a04a079)
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b) zlib (>= 1.2.11)
+PKGV = 5.10.1+5.11-beta3+git0+8a8a343446
+PKGR = r0.0
+RPROVIDES = qtknx (=5.10.1+5.11-beta3+git0+8a8a343446)
+RDEPENDS = glibc (>= 2.27) libstdc++ (>= 8.1.0) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) zlib (>= 1.2.11)
 RRECOMMENDS = qtknx-plugins qtknx-qmlplugins
-PKGSIZE = 1694054
+PKGSIZE = 1452390
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtknx /usr/lib/qtknx/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so.* /usr/lib/qt5/libexec
 FILELIST = /usr/lib/libQt5Knx.so.5 /usr/lib/libQt5Knx.so.5.11 /usr/lib/libQt5Knx.so.5.11.0

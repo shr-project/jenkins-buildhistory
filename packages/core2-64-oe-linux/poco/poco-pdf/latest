@@ -1,10 +1,10 @@
 PV = 1.8.0.1
 PR = r0
 PKG = libpocopdf50
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = poco-pdf (=1.8.0.1)
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) poco-foundation (>= 1.8.0.1) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) poco-foundation (>= 1.8.0.1) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 997984
+PKGSIZE = 989792
 FILES = /usr/lib/libPocoPDF.so.*
 FILELIST = /usr/lib/libPocoPDF.so.50

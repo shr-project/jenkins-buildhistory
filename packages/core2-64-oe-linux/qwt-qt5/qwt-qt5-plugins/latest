@@ -1,10 +1,10 @@
 PV = 6.1.3
 PR = r0
 PKG = libqwt-plugins
-PKGR = r0.18
+PKGR = r0.19
 RPROVIDES = qwt-qt5-plugins (=6.1.3)
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b) qttools (>= 5.10.1+5.11-alpha+git0+c29a1b03fd) qwt-qt5 (>= 6.1.3)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qttools (>= 5.10.1+5.11-beta3+git0+38b6251197) qwt-qt5 (>= 6.1.3)
 RRECOMMENDS = 
-PKGSIZE = 158112
+PKGSIZE = 162208
 FILES = /usr/plugins/designer/*.so
 FILELIST = /usr/plugins/designer/libqwt_designer_plugin.so

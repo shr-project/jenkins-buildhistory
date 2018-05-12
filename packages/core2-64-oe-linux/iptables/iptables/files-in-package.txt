@@ -8,7 +8,7 @@ lrwxrwxrwx root       root               17 ./usr/lib/libip4tc.so.0 -> libip4tc.
 lrwxrwxrwx root       root               17 ./usr/lib/libip6tc.so.0 -> libip6tc.so.0.1.0
 -rwxr-xr-x root       root             6160 ./usr/lib/libiptc.so.0.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libiptc.so.0 -> libiptc.so.0.0.0
--rwxr-xr-x root       root            51384 ./usr/lib/libxtables.so.12.0.0
+-rwxr-xr-x root       root            55480 ./usr/lib/libxtables.so.12.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libxtables.so.12 -> libxtables.so.12.0.0
 drwxr-xr-x root       root             2300 ./usr/lib/xtables
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libebt_802_3.so
@@ -43,7 +43,7 @@ drwxr-xr-x root       root             2300 ./usr/lib/xtables
 -rwxr-xr-x root       root            14720 ./usr/lib/xtables/libipt_icmp.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_LOG.so
 -rwxr-xr-x root       root            10640 ./usr/lib/xtables/libipt_MASQUERADE.so
--rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_NETMAP.so
+-rwxr-xr-x root       root             6536 ./usr/lib/xtables/libipt_NETMAP.so
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libipt_realm.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_REDIRECT.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_REJECT.so
@@ -52,7 +52,7 @@ drwxr-xr-x root       root             2300 ./usr/lib/xtables
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_TTL.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libipt_ULOG.so
 -rwxr-xr-x root       root            14912 ./usr/lib/xtables/libxt_addrtype.so
--rwxr-xr-x root       root            10632 ./usr/lib/xtables/libxt_AUDIT.so
+-rwxr-xr-x root       root             6536 ./usr/lib/xtables/libxt_AUDIT.so
 -rwxr-xr-x root       root            10816 ./usr/lib/xtables/libxt_bpf.so
 -rwxr-xr-x root       root            10816 ./usr/lib/xtables/libxt_cgroup.so
 -rwxr-xr-x root       root             6536 ./usr/lib/xtables/libxt_CHECKSUM.so
@@ -110,7 +110,7 @@ drwxr-xr-x root       root             2300 ./usr/lib/xtables
 -rwxr-xr-x root       root             6456 ./usr/lib/xtables/libxt_standard.so
 -rwxr-xr-x root       root            33024 ./usr/lib/xtables/libxt_state.so
 -rwxr-xr-x root       root            10624 ./usr/lib/xtables/libxt_statistic.so
--rwxr-xr-x root       root            14912 ./usr/lib/xtables/libxt_string.so
+-rwxr-xr-x root       root            10816 ./usr/lib/xtables/libxt_string.so
 -rwxr-xr-x root       root            10632 ./usr/lib/xtables/libxt_SYNPROXY.so
 -rwxr-xr-x root       root             6528 ./usr/lib/xtables/libxt_tcpmss.so
 -rwxr-xr-x root       root            10832 ./usr/lib/xtables/libxt_TCPMSS.so

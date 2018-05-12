@@ -1,9 +1,9 @@
 drwxr-xr-x root       root               60 ./bin
 drwxr-xr-x root       root               60 ./bin/.debug
--rwxr-xr-x root       root          1900056 ./bin/.debug/tar.tar
+-rwxr-xr-x root       root          2292136 ./bin/.debug/tar.tar
 drwxr-xr-x root       root               60 ./sbin
 drwxr-xr-x root       root               60 ./sbin/.debug
--rwxr-xr-x root       root           217368 ./sbin/.debug/rmt.tar
+-rwxr-xr-x root       root           255112 ./sbin/.debug/rmt.tar
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
@@ -24,7 +24,9 @@ drwxr-xr-x root       root              280 ./usr/src/debug/tar/1.30-r0/build/gn
 -rw-r--r-- root       root            73630 ./usr/src/debug/tar/1.30-r0/build/gnu/unistd.h
 -rw-r--r-- root       root            54853 ./usr/src/debug/tar/1.30-r0/build/gnu/wchar.h
 drwxr-xr-x root       root              120 ./usr/src/debug/tar/1.30-r0/tar-1.30
-drwxr-xr-x root       root             2680 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu
+drwxr-xr-x root       root             2740 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu
+-rw-r--r-- root       root             1625 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/acl-errno-valid.c
+-rw-r--r-- root       root             1245 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/acl.h
 -rw-r--r-- root       root             1642 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/anytostr.c
 -rw-r--r-- root       root             4090 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/areadlinkat-with-size.c
 -rw-r--r-- root       root             1226 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/areadlink.h
@@ -70,6 +72,7 @@ drwxr-xr-x root       root             2680 ./usr/src/debug/tar/1.30-r0/tar-1.30
 -rw-r--r-- root       root            11999 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/fcntl.c
 -rw-r--r-- root       root             1770 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/fd-safer-flag.c
 -rw-r--r-- root       root             1991 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/fdutimensat.c
+-rw-r--r-- root       root            15055 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/file-has-acl.c
 -rw-r--r-- root       root            11486 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/fnmatch.c
 -rw-r--r-- root       root            45970 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/fnmatch_loop.c
 -rw-r--r-- root       root             1263 ./usr/src/debug/tar/1.30-r0/tar-1.30/gnu/fprintftime.h

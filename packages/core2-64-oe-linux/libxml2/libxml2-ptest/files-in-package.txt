@@ -2,7 +2,7 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/libxml2
 drwxr-xr-x root       root              560 ./usr/lib/libxml2/ptest
--rw-r--r-- root       root           122319 ./usr/lib/libxml2/ptest/Makefile
+-rw-r--r-- root       root           122258 ./usr/lib/libxml2/ptest/Makefile
 drwxr-xr-x root       root              460 ./usr/lib/libxml2/ptest/python
 -rw-r--r-- root       root            15252 ./usr/lib/libxml2/ptest/python/drv_libxml2.py
 -rwxr-xr-x root       root            48764 ./usr/lib/libxml2/ptest/python/generator.py
@@ -16,9 +16,9 @@ drwxr-xr-x root       root              460 ./usr/lib/libxml2/ptest/python
 -rw-r--r-- root       root           110022 ./usr/lib/libxml2/ptest/python/libxml.c
 -rw-r--r-- root       root            24469 ./usr/lib/libxml2/ptest/python/libxml.py
 -rw-r--r-- root       root             8334 ./usr/lib/libxml2/ptest/python/libxml_wrap.h
--rw-r--r-- root       root            31792 ./usr/lib/libxml2/ptest/python/Makefile
+-rw-r--r-- root       root            31715 ./usr/lib/libxml2/ptest/python/Makefile
 -rw-r--r-- root       root             1656 ./usr/lib/libxml2/ptest/python/Makefile.am
--rw-r--r-- root       root            32703 ./usr/lib/libxml2/ptest/python/Makefile.in
+-rw-r--r-- root       root            32733 ./usr/lib/libxml2/ptest/python/Makefile.in
 -rw-r--r-- root       root             1272 ./usr/lib/libxml2/ptest/python/README
 -rwxr-xr-x root       root             6967 ./usr/lib/libxml2/ptest/python/setup.py
 -rwxr-xr-x root       root             6995 ./usr/lib/libxml2/ptest/python/setup.py.in
@@ -34,9 +34,9 @@ drwxr-xr-x root       root             1120 ./usr/lib/libxml2/ptest/python/tests
 -rwxr-xr-x root       root             2969 ./usr/lib/libxml2/ptest/python/tests/indexes.py
 -rwxr-xr-x root       root             5127 ./usr/lib/libxml2/ptest/python/tests/input_callback.py
 -rw-r--r-- root       root              106 ./usr/lib/libxml2/ptest/python/tests/invalid.xml
--rw-r--r-- root       root            19563 ./usr/lib/libxml2/ptest/python/tests/Makefile
+-rw-r--r-- root       root            19486 ./usr/lib/libxml2/ptest/python/tests/Makefile
 -rw-r--r-- root       root             1765 ./usr/lib/libxml2/ptest/python/tests/Makefile.am
--rw-r--r-- root       root            19666 ./usr/lib/libxml2/ptest/python/tests/Makefile.in
+-rw-r--r-- root       root            19696 ./usr/lib/libxml2/ptest/python/tests/Makefile.in
 -rwxr-xr-x root       root             1590 ./usr/lib/libxml2/ptest/python/tests/nsdel.py
 -rwxr-xr-x root       root             3146 ./usr/lib/libxml2/ptest/python/tests/outbuf.py
 -rwxr-xr-x root       root              770 ./usr/lib/libxml2/ptest/python/tests/push.py
@@ -78,8 +78,8 @@ drwxr-xr-x root       root             1120 ./usr/lib/libxml2/ptest/python/tests
 -rwxr-xr-x root       root             1196 ./usr/lib/libxml2/ptest/python/tests/xpath.py
 -rwxr-xr-x root       root             1320 ./usr/lib/libxml2/ptest/python/tests/xpathret.py
 -rw-r--r-- root       root             1623 ./usr/lib/libxml2/ptest/python/TODO
--rw-r--r-- root       root            22212 ./usr/lib/libxml2/ptest/python/types.c
-drwxr-xr-x root       root            12200 ./usr/lib/libxml2/ptest/result
+-rw-r--r-- root       root            22163 ./usr/lib/libxml2/ptest/python/types.c
+drwxr-xr-x root       root            12300 ./usr/lib/libxml2/ptest/result
 -rw-r--r-- root       root               65 ./usr/lib/libxml2/ptest/result/att1
 -rw-r--r-- root       root              474 ./usr/lib/libxml2/ptest/result/att10
 -rw-r--r-- root       root              229 ./usr/lib/libxml2/ptest/result/att10.rde
@@ -739,6 +739,11 @@ drwxr-xr-x root       root             2080 ./usr/lib/libxml2/ptest/result/HTML
 -rw-r--r-- root       root            37966 ./usr/lib/libxml2/ptest/result/HTML/wired.html
 -rw-r--r-- root       root            18449 ./usr/lib/libxml2/ptest/result/HTML/wired.html.err
 -rw-r--r-- root       root            79366 ./usr/lib/libxml2/ptest/result/HTML/wired.html.sax
+-rw-r--r-- root       root              233 ./usr/lib/libxml2/ptest/result/icu_parse_test.xml
+-rw-r--r-- root       root              221 ./usr/lib/libxml2/ptest/result/icu_parse_test.xml.rde
+-rw-r--r-- root       root              221 ./usr/lib/libxml2/ptest/result/icu_parse_test.xml.rdr
+-rw-r--r-- root       root              189 ./usr/lib/libxml2/ptest/result/icu_parse_test.xml.sax
+-rw-r--r-- root       root              226 ./usr/lib/libxml2/ptest/result/icu_parse_test.xml.sax2
 -rw-r--r-- root       root            11148 ./usr/lib/libxml2/ptest/result/intsubset2.xml
 -rw-r--r-- root       root               73 ./usr/lib/libxml2/ptest/result/intsubset2.xml.rde
 -rw-r--r-- root       root               73 ./usr/lib/libxml2/ptest/result/intsubset2.xml.rdr
@@ -794,7 +799,7 @@ drwxr-xr-x root       root              520 ./usr/lib/libxml2/ptest/result/names
 -rw-r--r-- root       root              167 ./usr/lib/libxml2/ptest/result/namespaces/err_8.xml.err
 -rw-r--r-- root       root              109 ./usr/lib/libxml2/ptest/result/namespaces/err_9.xml
 -rw-r--r-- root       root              162 ./usr/lib/libxml2/ptest/result/namespaces/err_9.xml.err
-drwxr-xr-x root       root             4720 ./usr/lib/libxml2/ptest/result/noent
+drwxr-xr-x root       root             4760 ./usr/lib/libxml2/ptest/result/noent
 -rw-r--r-- root       root               65 ./usr/lib/libxml2/ptest/result/noent/att1
 -rw-r--r-- root       root              448 ./usr/lib/libxml2/ptest/result/noent/att10
 -rw-r--r-- root       root             1498 ./usr/lib/libxml2/ptest/result/noent/att10.sax2
@@ -953,6 +958,8 @@ drwxr-xr-x root       root             4720 ./usr/lib/libxml2/ptest/result/noent
 -rw-r--r-- root       root             9226 ./usr/lib/libxml2/ptest/result/noent/ent9.sax2
 -rw-r--r-- root       root              150 ./usr/lib/libxml2/ptest/result/noent/eve.xml
 -rw-r--r-- root       root              364 ./usr/lib/libxml2/ptest/result/noent/eve.xml.sax2
+-rw-r--r-- root       root              233 ./usr/lib/libxml2/ptest/result/noent/icu_parse_test.xml
+-rw-r--r-- root       root              226 ./usr/lib/libxml2/ptest/result/noent/icu_parse_test.xml.sax2
 -rw-r--r-- root       root            11148 ./usr/lib/libxml2/ptest/result/noent/intsubset2.xml
 -rw-r--r-- root       root            11534 ./usr/lib/libxml2/ptest/result/noent/intsubset2.xml.sax2
 -rw-r--r-- root       root              100 ./usr/lib/libxml2/ptest/result/noent/intsubset.xml
@@ -2518,8 +2525,8 @@ drwxr-xr-x root       root              260 ./usr/lib/libxml2/ptest/result/XPath
 -rwxr-xr-x root       root            26784 ./usr/lib/libxml2/ptest/runsuite
 -rwxr-xr-x root       root            67168 ./usr/lib/libxml2/ptest/runtest
 -rwxr-xr-x root       root            18608 ./usr/lib/libxml2/ptest/runxmlconf
-drwxr-xr-x root       root             2940 ./usr/lib/libxml2/ptest/test
--rwxr-xr-x root       root           497816 ./usr/lib/libxml2/ptest/testapi
+drwxr-xr-x root       root             2960 ./usr/lib/libxml2/ptest/test
+-rwxr-xr-x root       root           493720 ./usr/lib/libxml2/ptest/testapi
 -rw-r--r-- root       root               43 ./usr/lib/libxml2/ptest/test/att1
 -rw-r--r-- root       root              507 ./usr/lib/libxml2/ptest/test/att10
 -rw-r--r-- root       root              366 ./usr/lib/libxml2/ptest/test/att11
@@ -2843,6 +2850,7 @@ drwxr-xr-x root       root              720 ./usr/lib/libxml2/ptest/test/HTML
 -rw-r--r-- root       root             1826 ./usr/lib/libxml2/ptest/test/HTML/test3.html
 -rw-r--r-- root       root            19868 ./usr/lib/libxml2/ptest/test/HTML/utf8bug.html
 -rw-r--r-- root       root            36896 ./usr/lib/libxml2/ptest/test/HTML/wired.html
+-rw-r--r-- root       root              233 ./usr/lib/libxml2/ptest/test/icu_parse_test.xml
 -rw-r--r-- root       root            11187 ./usr/lib/libxml2/ptest/test/intsubset2.xml
 -rw-r--r-- root       root              102 ./usr/lib/libxml2/ptest/test/intsubset.xml
 -rw-r--r-- root       root               60 ./usr/lib/libxml2/ptest/test/isolat1

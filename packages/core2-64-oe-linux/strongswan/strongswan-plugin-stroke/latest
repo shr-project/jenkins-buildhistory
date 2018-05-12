@@ -1,9 +1,9 @@
 PV = 5.6.2
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.27) strongswan
 RRECOMMENDS = 
-PKGSIZE = 97898
+PKGSIZE = 101994
 FILES = /usr/lib/ipsec/plugins/libstrongswan-stroke.so /etc/strongswan.d/charon/stroke.conf
 FILELIST = /etc/strongswan.d/charon/stroke.conf /usr/lib/ipsec/plugins/libstrongswan-stroke.so

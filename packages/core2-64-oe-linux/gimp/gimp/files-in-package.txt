@@ -10,8 +10,8 @@ drwxr-xr-x root       root              180 ./etc/gimp/2.0
 -rw-r--r-- root       root             1140 ./etc/gimp/2.0/unitrc
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
--rwxr-xr-x root       root          6115896 ./usr/bin/gimp-2.8
--rwxr-xr-x root       root          2817952 ./usr/bin/gimp-console-2.8
+-rwxr-xr-x root       root          6128184 ./usr/bin/gimp-2.8
+-rwxr-xr-x root       root          2822048 ./usr/bin/gimp-console-2.8
 lrwxrwxrwx root       root               16 ./usr/bin/gimp-console -> gimp-console-2.8
 lrwxrwxrwx root       root                8 ./usr/bin/gimp -> gimp-2.8
 -rwxr-xr-x root       root            18680 ./usr/bin/gimptool-2.0
@@ -28,7 +28,7 @@ drwxr-xr-x root       root              240 ./usr/lib/gimp/2.0/modules
 -rwxr-xr-x root       root            34992 ./usr/lib/gimp/2.0/modules/libcolor-selector-wheel.so
 -rwxr-xr-x root       root            22712 ./usr/lib/gimp/2.0/modules/libcontroller-linux-input.so
 -rwxr-xr-x root       root            18680 ./usr/lib/gimp/2.0/modules/libcontroller-midi.so
--rwxr-xr-x root       root            14520 ./usr/lib/gimp/2.0/modules/libdisplay-filter-color-blind.so
+-rwxr-xr-x root       root            18616 ./usr/lib/gimp/2.0/modules/libdisplay-filter-color-blind.so
 -rwxr-xr-x root       root            14512 ./usr/lib/gimp/2.0/modules/libdisplay-filter-gamma.so
 -rwxr-xr-x root       root            14520 ./usr/lib/gimp/2.0/modules/libdisplay-filter-high-contrast.so
 -rwxr-xr-x root       root            22704 ./usr/lib/gimp/2.0/modules/libdisplay-filter-lcms.so
@@ -37,7 +37,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            22848 ./usr/lib/gimp/2.0/plug-ins/alien-map
 -rwxr-xr-x root       root            18712 ./usr/lib/gimp/2.0/plug-ins/align-layers
 -rwxr-xr-x root       root            22776 ./usr/lib/gimp/2.0/plug-ins/animation-optimize
--rwxr-xr-x root       root            35592 ./usr/lib/gimp/2.0/plug-ins/animation-play
+-rwxr-xr-x root       root            39688 ./usr/lib/gimp/2.0/plug-ins/animation-play
 -rwxr-xr-x root       root            14640 ./usr/lib/gimp/2.0/plug-ins/antialias
 -rwxr-xr-x root       root            35072 ./usr/lib/gimp/2.0/plug-ins/apply-canvas
 -rwxr-xr-x root       root            22784 ./usr/lib/gimp/2.0/plug-ins/blinds
@@ -48,7 +48,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            18696 ./usr/lib/gimp/2.0/plug-ins/border-average
 -rwxr-xr-x root       root            31040 ./usr/lib/gimp/2.0/plug-ins/bump-map
 -rwxr-xr-x root       root            26888 ./usr/lib/gimp/2.0/plug-ins/cartoon
--rwxr-xr-x root       root            30968 ./usr/lib/gimp/2.0/plug-ins/channel-mixer
+-rwxr-xr-x root       root            35064 ./usr/lib/gimp/2.0/plug-ins/channel-mixer
 -rwxr-xr-x root       root            18696 ./usr/lib/gimp/2.0/plug-ins/checkerboard
 -rwxr-xr-x root       root            56656 ./usr/lib/gimp/2.0/plug-ins/cml-explorer
 -rwxr-xr-x root       root            18680 ./usr/lib/gimp/2.0/plug-ins/color-cube-analyze
@@ -71,7 +71,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            35256 ./usr/lib/gimp/2.0/plug-ins/decompose
 -rwxr-xr-x root       root            18680 ./usr/lib/gimp/2.0/plug-ins/deinterlace
 -rwxr-xr-x root       root            26864 ./usr/lib/gimp/2.0/plug-ins/depth-merge
--rwxr-xr-x root       root            26880 ./usr/lib/gimp/2.0/plug-ins/despeckle
+-rwxr-xr-x root       root            22784 ./usr/lib/gimp/2.0/plug-ins/despeckle
 -rwxr-xr-x root       root            18688 ./usr/lib/gimp/2.0/plug-ins/destripe
 -rwxr-xr-x root       root            22880 ./usr/lib/gimp/2.0/plug-ins/diffraction
 -rwxr-xr-x root       root            26920 ./usr/lib/gimp/2.0/plug-ins/displace
@@ -117,7 +117,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            26888 ./usr/lib/gimp/2.0/plug-ins/file-sunras
 -rwxr-xr-x root       root            31000 ./usr/lib/gimp/2.0/plug-ins/file-svg
 -rwxr-xr-x root       root            26896 ./usr/lib/gimp/2.0/plug-ins/file-tga
--rwxr-xr-x root       root            39176 ./usr/lib/gimp/2.0/plug-ins/file-tiff-load
+-rwxr-xr-x root       root            35080 ./usr/lib/gimp/2.0/plug-ins/file-tiff-load
 -rwxr-xr-x root       root            30984 ./usr/lib/gimp/2.0/plug-ins/file-tiff-save
 -rwxr-xr-x root       root            18672 ./usr/lib/gimp/2.0/plug-ins/file-uri
 -rwxr-xr-x root       root            31176 ./usr/lib/gimp/2.0/plug-ins/file-xbm
@@ -131,7 +131,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            63952 ./usr/lib/gimp/2.0/plug-ins/fractal-explorer
 -rwxr-xr-x root       root            22832 ./usr/lib/gimp/2.0/plug-ins/fractal-trace
 -rwxr-xr-x root       root           156096 ./usr/lib/gimp/2.0/plug-ins/gfig
--rwxr-xr-x root       root           129280 ./usr/lib/gimp/2.0/plug-ins/gimpressionist
+-rwxr-xr-x root       root           125184 ./usr/lib/gimp/2.0/plug-ins/gimpressionist
 -rwxr-xr-x root       root            78920 ./usr/lib/gimp/2.0/plug-ins/gradient-flare
 -rwxr-xr-x root       root            14584 ./usr/lib/gimp/2.0/plug-ins/gradient-map
 -rwxr-xr-x root       root            31152 ./usr/lib/gimp/2.0/plug-ins/grid
@@ -178,7 +178,7 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            51512 ./usr/lib/gimp/2.0/plug-ins/sample-colorize
 -rwxr-xr-x root       root            35112 ./usr/lib/gimp/2.0/plug-ins/screenshot
 -rwxr-xr-x root       root           172640 ./usr/lib/gimp/2.0/plug-ins/script-fu
--rwxr-xr-x root       root            55696 ./usr/lib/gimp/2.0/plug-ins/selection-to-path
+-rwxr-xr-x root       root            59792 ./usr/lib/gimp/2.0/plug-ins/selection-to-path
 -rwxr-xr-x root       root            10488 ./usr/lib/gimp/2.0/plug-ins/semi-flatten
 -rwxr-xr-x root       root            18680 ./usr/lib/gimp/2.0/plug-ins/sharpen
 -rwxr-xr-x root       root            18680 ./usr/lib/gimp/2.0/plug-ins/shift
