@@ -2,7 +2,7 @@ PV = 5.10.1+5.11-beta3+gitAUTOINC+fb561e9aa5
 PR = r0
 PKG = libqt5serialbus5
 PKGV = 5.10.1+5.11-beta3+git0+fb561e9aa5
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = qtserialbus (=5.10.1+5.11-beta3+git0+fb561e9aa5)
 RDEPENDS = libstdc++ (>= 8.1.0) musl (>= 1.1.19+git1+941bd884cc) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtserialport (>= 5.10.1+5.11-beta3+git0+b5f0519e8e)
 RRECOMMENDS = qtserialbus-plugins qtserialbus-qmlplugins

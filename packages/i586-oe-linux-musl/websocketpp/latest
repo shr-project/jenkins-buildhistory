@@ -1,0 +1,5 @@
+PV = 0.7.0
+PR = r0
+DEPENDS = boost cmake-native ninja-native openssl virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc zlib
+PACKAGES = websocketpp-dbg websocketpp-staticdev websocketpp-dev websocketpp-doc websocketpp-locale websocketpp
+LAYER = openembedded-layer

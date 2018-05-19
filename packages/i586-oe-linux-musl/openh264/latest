@@ -1,0 +1,5 @@
+PV = 1.7.0
+PR = r0
+DEPENDS = nasm-native virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+PACKAGES = openh264-dbg openh264-staticdev openh264-dev openh264-doc openh264-locale openh264
+LAYER = multimedia-layer

@@ -1,9 +1,9 @@
-PV = 0.3.2
+PV = 1.0.1
 PR = r0
-PKGR = r0.23
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libgpiod (>= 0.3.2) musl (>= 1.1.19+git1+941bd884cc)
+RDEPENDS = libgpiod (>= 1.0.1) musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 69856
+PKGSIZE = 65736
 FILES = /usr/bin/*
 FILELIST = /usr/bin/gpiodetect /usr/bin/gpiofind /usr/bin/gpioget /usr/bin/gpioinfo /usr/bin/gpiomon /usr/bin/gpioset

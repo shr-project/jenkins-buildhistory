@@ -1,9 +1,9 @@
-PV = 1.8.22
+PV = 1.8.23
 PR = r0
-PKGR = r0.10
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = musl (>= 1.1.19+git1+941bd884cc)
 RRECOMMENDS = 
-PKGSIZE = 935058
+PKGSIZE = 1199062
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/sudo /usr/lib/sudo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/tmpfiles.d
-FILELIST = /etc/sudoers /etc/sudoers.dist /usr/bin/sudo /usr/bin/sudoedit /usr/bin/sudoreplay /usr/lib/tmpfiles.d/sudo.conf /usr/libexec/sudo/group_file.so /usr/libexec/sudo/libsudo_util.so.0 /usr/libexec/sudo/libsudo_util.so.0.0.0 /usr/libexec/sudo/sudo_noexec.so /usr/libexec/sudo/sudoers.so /usr/libexec/sudo/system_group.so /usr/sbin/visudo
+FILELIST = /etc/sudoers /etc/sudoers.dist /usr/bin/cvtsudoers /usr/bin/sudo /usr/bin/sudoedit /usr/bin/sudoreplay /usr/lib/tmpfiles.d/sudo.conf /usr/libexec/sudo/group_file.so /usr/libexec/sudo/libsudo_util.so.0 /usr/libexec/sudo/libsudo_util.so.0.0.0 /usr/libexec/sudo/sudo_noexec.so /usr/libexec/sudo/sudoers.so /usr/libexec/sudo/system_group.so /usr/sbin/visudo

@@ -1,5 +1,5 @@
-PV = 0.9.33
+PV = 0.9.36
 PR = r0
-DEPENDS = acl attr docbook-xsl-stylesheets-native libtalloc libxslt-native python python-native qemu-native virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
+DEPENDS = acl attr docbook-xsl-stylesheets-native libtalloc libtirpc libxslt-native python python-native qemu-native virtual/i586-oe-linux-musl-compilerlibs virtual/i586-oe-linux-musl-gcc virtual/libc
 PACKAGES = libtevent-dbg libtevent-staticdev libtevent-dev libtevent-doc libtevent-locale libtevent python-tevent python-tevent-dbg
 LAYER = networking-layer

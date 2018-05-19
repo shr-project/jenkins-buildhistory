@@ -1,9 +1,9 @@
-PV = 1.4.4
+PV = 1.10.6
 PR = r0
-PKGR = r0.15
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glib-2.0 (>= 2.54.3) libnewt (>= 0.52.20) musl (>= 1.1.19+git0+55df09bfcc) networkmanager (>= 1.4.4)
+RDEPENDS = glib-2.0 (>= 2.56.1) libnewt (>= 0.52.20) musl (>= 1.1.19+git1+941bd884cc) networkmanager (>= 1.10.6)
 RRECOMMENDS = 
-PKGSIZE = 284967
+PKGSIZE = 272711
 FILES = /usr/bin/nmtui /usr/bin/nmtui-edit /usr/bin/nmtui-connect /usr/bin/nmtui-hostname
 FILELIST = /usr/bin/nmtui /usr/bin/nmtui-connect /usr/bin/nmtui-edit /usr/bin/nmtui-hostname
