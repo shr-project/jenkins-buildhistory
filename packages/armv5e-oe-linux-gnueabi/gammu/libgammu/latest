@@ -1,10 +1,10 @@
 PV = 1.32.0
 PR = r0
 PKG = libgammu7
-PKGR = r0.43
+PKGR = r0.44
 RPROVIDES = libgammu (=1.32.0)
-RDEPENDS = glib-2.0 (>= 2.54.3) glibc (>= 2.27)
+RDEPENDS = glib-2.0 (>= 2.56.1) glibc (>= 2.27)
 RRECOMMENDS = 
-PKGSIZE = 875488
+PKGSIZE = 900064
 FILES = /usr/lib/libGammu.so.*
 FILELIST = /usr/lib/libGammu.so.7 /usr/lib/libGammu.so.7.1.32.0

@@ -102,7 +102,7 @@ drwxr-xr-x root       root               80 ./opt/ltp/scenario_groups
 -rw-r--r-- root       root              295 ./opt/ltp/scenario_groups/default
 -rw-r--r-- root       root               43 ./opt/ltp/scenario_groups/network
 drwxr-xr-x root       root              120 ./opt/ltp/testcases
-drwxr-xr-x root       root            49360 ./opt/ltp/testcases/bin
+drwxr-xr-x root       root            49300 ./opt/ltp/testcases/bin
 -rwxrwxr-x root       root            83760 ./opt/ltp/testcases/bin/abort01
 -rwxrwxr-x root       root            79660 ./opt/ltp/testcases/bin/abs01
 -rwxrwxr-x root       root            88140 ./opt/ltp/testcases/bin/accept01
@@ -213,7 +213,7 @@ drwxr-xr-x root       root            49360 ./opt/ltp/testcases/bin
 -rwxrwxr-x root       root            83824 ./opt/ltp/testcases/bin/chown04
 -rwxrwxr-x root       root            87924 ./opt/ltp/testcases/bin/chown04_16
 -rwxrwxr-x root       root            83800 ./opt/ltp/testcases/bin/chown05
--rwxrwxr-x root       root            87900 ./opt/ltp/testcases/bin/chown05_16
+-rwxrwxr-x root       root            83804 ./opt/ltp/testcases/bin/chown05_16
 -rwxrwxr-x root       root            83780 ./opt/ltp/testcases/bin/chroot01
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/chroot02
 -rwxrwxr-x root       root            84192 ./opt/ltp/testcases/bin/chroot03
@@ -861,7 +861,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/getegid01
 -rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/getegid01_16
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/getegid02
--rwxrwxr-x root       root            87864 ./opt/ltp/testcases/bin/getegid02_16
+-rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/getegid02_16
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/geteuid01
 -rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/geteuid01_16
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/geteuid02
@@ -922,7 +922,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/getuid01
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/getuid01_16
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/getuid03
--rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/getuid03_16
+-rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/getuid03_16
 -rwxrwxr-x root       root            83824 ./opt/ltp/testcases/bin/getxattr01
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/getxattr02
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/getxattr03
@@ -1324,7 +1324,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            83752 ./opt/ltp/testcases/bin/mqns_03
 -rwxrwxr-x root       root            79656 ./opt/ltp/testcases/bin/mqns_04
 -rwxrwxr-x root       root            79768 ./opt/ltp/testcases/bin/mq_open01
--rwxrwxr-x root       root            79772 ./opt/ltp/testcases/bin/mq_timedreceive01
+-rwxrwxr-x root       root            83868 ./opt/ltp/testcases/bin/mq_timedreceive01
 -rwxrwxr-x root       root            83864 ./opt/ltp/testcases/bin/mq_timedsend01
 -rwxrwxr-x root       root            79732 ./opt/ltp/testcases/bin/mq_unlink01
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/mremap01
@@ -1349,7 +1349,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            80764 ./opt/ltp/testcases/bin/msgget01
 -rwxrwxr-x root       root            79832 ./opt/ltp/testcases/bin/msgget02
 -rwxrwxr-x root       root            79732 ./opt/ltp/testcases/bin/msgget03
--rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/msgrcv01
+-rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/msgrcv01
 -rwxrwxr-x root       root            87900 ./opt/ltp/testcases/bin/msgrcv02
 -rwxrwxr-x root       root            83796 ./opt/ltp/testcases/bin/msgrcv03
 -rwxrwxr-x root       root            83800 ./opt/ltp/testcases/bin/msgrcv04
@@ -1417,7 +1417,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root             3526 ./opt/ltp/testcases/bin/ns-echoclient
 -rwxrwxr-x root       root            79708 ./opt/ltp/testcases/bin/ns_exec
 -rwxrwxr-x root       root            18044 ./opt/ltp/testcases/bin/ns-icmp_redirector
--rwxrwxr-x root       root            13948 ./opt/ltp/testcases/bin/ns-icmpv4_sender
+-rwxrwxr-x root       root            18044 ./opt/ltp/testcases/bin/ns-icmpv4_sender
 -rwxrwxr-x root       root            18060 ./opt/ltp/testcases/bin/ns-icmpv6_sender
 -rwxrwxr-x root       root            79656 ./opt/ltp/testcases/bin/ns_ifmove
 -rwxrwxr-x root       root            13944 ./opt/ltp/testcases/bin/ns-igmp_querier
@@ -1476,7 +1476,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            79656 ./opt/ltp/testcases/bin/pidns06
 -rwxrwxr-x root       root            79656 ./opt/ltp/testcases/bin/pidns10
 -rwxrwxr-x root       root            79656 ./opt/ltp/testcases/bin/pidns12
--rwxrwxr-x root       root            79656 ./opt/ltp/testcases/bin/pidns13
+-rwxrwxr-x root       root            83752 ./opt/ltp/testcases/bin/pidns13
 -rwxrwxr-x root       root            79660 ./opt/ltp/testcases/bin/pidns16
 -rwxrwxr-x root       root            79656 ./opt/ltp/testcases/bin/pidns17
 -rwxrwxr-x root       root            79660 ./opt/ltp/testcases/bin/pidns20
@@ -1646,10 +1646,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root             7283 ./opt/ltp/testcases/bin/route6-ifdown
 -rwxrwxr-x root       root             6250 ./opt/ltp/testcases/bin/route6-redirect
 -rwxrwxr-x root       root             7951 ./opt/ltp/testcases/bin/route6-rmmod
--rwxrwxr-x root       root             1533 ./opt/ltp/testcases/bin/rpc01
--rwxrwxr-x root       root             9848 ./opt/ltp/testcases/bin/rpc1
 -rwxrwxr-x root       root             2619 ./opt/ltp/testcases/bin/rpcinfo01
--rwxrwxr-x root       root             9852 ./opt/ltp/testcases/bin/rpc_server
 -rwxrwxr-x root       root             3110 ./opt/ltp/testcases/bin/rsh01
 -rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/rtc01
 -rwxrwxr-x root       root            83788 ./opt/ltp/testcases/bin/rt_sigaction01
@@ -1749,7 +1746,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            83776 ./opt/ltp/testcases/bin/semget06
 -rwxrwxr-x root       root            79660 ./opt/ltp/testcases/bin/sem_nstest
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/semop01
--rwxrwxr-x root       root            87968 ./opt/ltp/testcases/bin/semop02
+-rwxrwxr-x root       root            83872 ./opt/ltp/testcases/bin/semop02
 -rwxrwxr-x root       root            83772 ./opt/ltp/testcases/bin/semop03
 -rwxrwxr-x root       root            83796 ./opt/ltp/testcases/bin/semop04
 -rwxrwxr-x root       root            87924 ./opt/ltp/testcases/bin/semop05
@@ -1784,13 +1781,13 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setfsgid01
 -rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/setfsgid01_16
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setfsgid02
--rwxrwxr-x root       root            87864 ./opt/ltp/testcases/bin/setfsgid02_16
+-rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/setfsgid02_16
 -rwxrwxr-x root       root            83772 ./opt/ltp/testcases/bin/setfsgid03
 -rwxrwxr-x root       root            87872 ./opt/ltp/testcases/bin/setfsgid03_16
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setfsuid01
 -rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/setfsuid01_16
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setfsuid02
--rwxrwxr-x root       root            87864 ./opt/ltp/testcases/bin/setfsuid02_16
+-rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/setfsuid02_16
 -rwxrwxr-x root       root            83772 ./opt/ltp/testcases/bin/setfsuid03
 -rwxrwxr-x root       root            87872 ./opt/ltp/testcases/bin/setfsuid03_16
 -rwxrwxr-x root       root            83796 ./opt/ltp/testcases/bin/setfsuid04
@@ -1843,7 +1840,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            87868 ./opt/ltp/testcases/bin/setresgid03_16
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setresgid04
 -rwxrwxr-x root       root            87864 ./opt/ltp/testcases/bin/setresgid04_16
--rwxrwxr-x root       root            88116 ./opt/ltp/testcases/bin/setresuid01
+-rwxrwxr-x root       root            84020 ./opt/ltp/testcases/bin/setresuid01
 -rwxrwxr-x root       root            88120 ./opt/ltp/testcases/bin/setresuid01_16
 -rwxrwxr-x root       root            83864 ./opt/ltp/testcases/bin/setresuid02
 -rwxrwxr-x root       root            87964 ./opt/ltp/testcases/bin/setresuid02_16
@@ -1867,7 +1864,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/setreuid06_16
 -rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/setreuid07
 -rwxrwxr-x root       root            87868 ./opt/ltp/testcases/bin/setreuid07_16
--rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/setrlimit01
+-rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setrlimit01
 -rwxrwxr-x root       root            79740 ./opt/ltp/testcases/bin/setrlimit02
 -rwxrwxr-x root       root            79732 ./opt/ltp/testcases/bin/setrlimit03
 -rwxrwxr-x root       root            79732 ./opt/ltp/testcases/bin/setrlimit04
@@ -1881,9 +1878,9 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            83768 ./opt/ltp/testcases/bin/settimeofday01
 -rwxrwxr-x root       root            83776 ./opt/ltp/testcases/bin/settimeofday02
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setuid01
--rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/setuid01_16
+-rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setuid01_16
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setuid02
--rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/setuid02_16
+-rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setuid02_16
 -rwxrwxr-x root       root            83772 ./opt/ltp/testcases/bin/setuid03
 -rwxrwxr-x root       root            87868 ./opt/ltp/testcases/bin/setuid03_16
 -rwxrwxr-x root       root            83796 ./opt/ltp/testcases/bin/setuid04
@@ -1892,12 +1889,12 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            79732 ./opt/ltp/testcases/bin/setxattr02
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/setxattr03
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/sgetmask01
--rwxrwxr-x root       root            79732 ./opt/ltp/testcases/bin/shmat01
+-rwxrwxr-x root       root            83828 ./opt/ltp/testcases/bin/shmat01
 -rwxrwxr-x root       root            79784 ./opt/ltp/testcases/bin/shmat02
 -rwxrwxr-x root       root            13996 ./opt/ltp/testcases/bin/shmat1
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/shm_comm
 -rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/shmctl01
--rwxrwxr-x root       root            87992 ./opt/ltp/testcases/bin/shmctl02
+-rwxrwxr-x root       root            83896 ./opt/ltp/testcases/bin/shmctl02
 -rwxrwxr-x root       root            83820 ./opt/ltp/testcases/bin/shmctl03
 -rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/shmctl04
 -rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/shmdt01
@@ -2393,7 +2390,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            79672 ./opt/ltp/testcases/bin/test_1_to_1_recvfrom
 -rwxrwxr-x root       root            79668 ./opt/ltp/testcases/bin/test_1_to_1_recvmsg
 -rwxrwxr-x root       root            79668 ./opt/ltp/testcases/bin/test_1_to_1_rtoinfo
--rwxrwxr-x root       root            79668 ./opt/ltp/testcases/bin/test_1_to_1_send
+-rwxrwxr-x root       root            83764 ./opt/ltp/testcases/bin/test_1_to_1_send
 -rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/test_1_to_1_sendmsg
 -rwxrwxr-x root       root            79668 ./opt/ltp/testcases/bin/test_1_to_1_sendto
 -rwxrwxr-x root       root            79672 ./opt/ltp/testcases/bin/test_1_to_1_shutdown
@@ -2439,7 +2436,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            96048 ./opt/ltp/testcases/bin/test_sockopt_v6
 -rwxrwxr-x root       root            87856 ./opt/ltp/testcases/bin/test_tcp_style
 -rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/test_tcp_style_v6
--rwxrwxr-x root       root            83760 ./opt/ltp/testcases/bin/test_timetolive
+-rwxrwxr-x root       root            87856 ./opt/ltp/testcases/bin/test_timetolive
 -rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/test_timetolive_v6
 -rwxrwxr-x root       root            79728 ./opt/ltp/testcases/bin/thp01
 -rwxrwxr-x root       root            87920 ./opt/ltp/testcases/bin/thp02
@@ -2705,7 +2702,7 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root             1747 ./opt/ltp/testcases/bin/zram02.sh
 -rwxrwxr-x root       root            83760 ./opt/ltp/testcases/bin/zram03
 -rwxrwxr-x root       root             5437 ./opt/ltp/testcases/bin/zram_lib.sh
-drwxr-xr-x root       root              260 ./opt/ltp/testcases/data
+drwxr-xr-x root       root              240 ./opt/ltp/testcases/data
 drwxr-xr-x root       root              140 ./opt/ltp/testcases/data/ar01
 -rwxrwxr-x root       root               17 ./opt/ltp/testcases/data/ar01/file10.in
 -rwxrwxr-x root       root               17 ./opt/ltp/testcases/data/ar01/file1.in
@@ -2765,10 +2762,7 @@ drwxr-xr-x root       root              120 ./opt/ltp/testcases/data/nm01
 -rwxrwxr-x root       root             5740 ./opt/ltp/testcases/data/nm01/f1
 -rwxrwxr-x root       root             5740 ./opt/ltp/testcases/data/nm01/f2
 -rwxrwxr-x root       root             5740 ./opt/ltp/testcases/data/nm01/f3
--rwxrwxr-x root       root            16192 ./opt/ltp/testcases/data/nm01/lib.a
-drwxr-xr-x root       root               80 ./opt/ltp/testcases/data/rpc01
--rwxrwxr-x root       root             1019 ./opt/ltp/testcases/data/rpc01/file.1
--rwxrwxr-x root       root             2038 ./opt/ltp/testcases/data/rpc01/file.2
+-rwxrwxr-x root       root            16084 ./opt/ltp/testcases/data/nm01/lib.a
 drwxr-xr-x root       root               80 ./opt/ltp/testcases/data/stress_floppy
 -rwxrwxr-x root       root          1474560 ./opt/ltp/testcases/data/stress_floppy/dd_file
 drwxr-xr-x root       root              120 ./opt/ltp/testcases/data/stress_floppy/dumpdir

@@ -1,10 +1,10 @@
-PV = 1.1.10
+PV = 1.1.11
 PR = r0
 PKG = libfluidsynth1
-PKGR = r0.5
-RPROVIDES = fluidsynth (=1.1.10)
-RDEPENDS = dbus-lib (>= 1.12.2) glib-2.0 (>= 2.54.3) glibc (>= 2.27) libasound (>= 1.1.5) libpulse-simple (>= 11.1) libsndfile1 (>= 1.0.28) readline (>= 7.0)
+PKGR = r0.0
+RPROVIDES = fluidsynth (=1.1.11)
+RDEPENDS = dbus-lib (>= 1.12.2) glib-2.0 (>= 2.56.1) glibc (>= 2.27) libasound (>= 1.1.6) libpulse-simple (>= 11.1) libsndfile1 (>= 1.0.28) readline (>= 7.0)
 RRECOMMENDS = 
-PKGSIZE = 245634
+PKGSIZE = 237442
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/fluidsynth /usr/lib/fluidsynth/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILELIST = /usr/lib/libfluidsynth.so.1 /usr/lib/libfluidsynth.so.1.7.1
+FILELIST = /usr/lib/libfluidsynth.so.1 /usr/lib/libfluidsynth.so.1.7.2

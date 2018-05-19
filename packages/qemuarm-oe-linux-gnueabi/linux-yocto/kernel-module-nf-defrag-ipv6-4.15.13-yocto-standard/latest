@@ -1,10 +1,10 @@
 PV = 4.15.13+gitAUTOINC+939d935b0c_4b6902b42f
 PR = r0
 PKGV = 4.15.13+git0+939d935b0c_4b6902b42f
-PKGR = r0.1
+PKGR = r0.4
 RPROVIDES = kernel-module-nf-defrag-ipv6
 RDEPENDS = kernel-4.15.13-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 12676
+PKGSIZE = 12868
 FILES = /lib/modules/4.15.13-yocto-standard/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko /etc/modules-load.d/nf_defrag_ipv6.conf /etc/modprobe.d/nf_defrag_ipv6.conf
 FILELIST = /lib/modules/4.15.13-yocto-standard/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko

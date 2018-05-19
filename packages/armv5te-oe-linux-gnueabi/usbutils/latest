@@ -1,5 +1,5 @@
 PV = 009
 PR = r0
-DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libusb pkgconfig-native udev virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc virtual/libiconv zlib
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native libusb pkgconfig-native udev virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc virtual/libiconv virtual/update-alternatives zlib
 PACKAGES = usbutils-dbg usbutils-staticdev usbutils-dev usbutils-doc usbutils-locale usbutils-python usbutils
 LAYER = core

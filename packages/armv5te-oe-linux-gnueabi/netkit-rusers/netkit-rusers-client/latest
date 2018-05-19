@@ -1,8 +1,8 @@
 PV = 0.17
 PR = r0
-PKGR = r0.40
+PKGR = r0.41
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27)
+RDEPENDS = glibc (>= 2.27) libtirpc (>= 1.0.3)
 RRECOMMENDS = 
 PKGSIZE = 23952
 FILES = /usr/bin/*

@@ -1,10 +1,10 @@
-PV = 1.8.0.1
+PV = 1.9.0
 PR = r0
-PKG = libpocoutil50
-PKGR = r0.21
-RPROVIDES = poco-util (=1.8.0.1)
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) poco-foundation (>= 1.8.0.1) poco-json (>= 1.8.0.1) poco-xml (>= 1.8.0.1)
+PKG = libpocoutil60
+PKGR = r0.0
+RPROVIDES = poco-util (=1.9.0)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) poco-foundation (>= 1.9.0) poco-json (>= 1.9.0) poco-xml (>= 1.9.0)
 RRECOMMENDS = 
-PKGSIZE = 312960
-FILES = /usr/lib/libPocoUtil.so.*
-FILELIST = /usr/lib/libPocoUtil.so.50
+PKGSIZE = 317056
+FILES = /usr/lib/libPocoUtil.so.60
+FILELIST = /usr/lib/libPocoUtil.so.60

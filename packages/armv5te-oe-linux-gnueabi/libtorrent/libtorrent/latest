@@ -2,10 +2,10 @@ PV = 0.13.6+gitAUTOINC+c167c5a9e0
 PR = r0
 PKG = libtorrent19
 PKGV = 0.13.6+git0+c167c5a9e0
-PKGR = r0.37
+PKGR = r0.38
 RPROVIDES = libtorrent (=0.13.6+git0+c167c5a9e0)
-RDEPENDS = cppunit (>= 1.13.2) glibc (>= 2.27) libcrypto (>= 1.0.2o) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) zlib (>= 1.2.11)
+RDEPENDS = cppunit (>= 1.13.2) glibc (>= 2.27) libcrypto (>= 1.0.2o) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) zlib (>= 1.2.11)
 RRECOMMENDS = 
-PKGSIZE = 735800
+PKGSIZE = 789048
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libtorrent /usr/lib/libtorrent/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libtorrent.so.19 /usr/lib/libtorrent.so.19.0.0

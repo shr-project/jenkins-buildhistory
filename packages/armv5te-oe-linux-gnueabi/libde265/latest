@@ -1,0 +1,5 @@
+PV = 1.0.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = libde265-tools libde265-dbg libde265-staticdev libde265-dev libde265-doc libde265-locale libde265
+LAYER = multimedia-layer

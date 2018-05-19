@@ -54,7 +54,7 @@ drwxr-xr-x root       root             1220 ./usr/share/alsa/cards
 -rw-r--r-- root       root             1502 ./usr/share/alsa/cards/SB-XFi.conf
 -rw-r--r-- root       root             2278 ./usr/share/alsa/cards/SI7018.conf
 -rw-r--r-- root       root             1792 ./usr/share/alsa/cards/TRID4DWAVENX.conf
--rw-r--r-- root       root             9211 ./usr/share/alsa/cards/USB-Audio.conf
+-rw-r--r-- root       root             9266 ./usr/share/alsa/cards/USB-Audio.conf
 -rw-r--r-- root       root              820 ./usr/share/alsa/cards/vc4-hdmi.conf
 -rw-r--r-- root       root             1199 ./usr/share/alsa/cards/VIA686A.conf
 -rw-r--r-- root       root             2812 ./usr/share/alsa/cards/VIA8233A.conf
@@ -89,7 +89,7 @@ drwxr-xr-x root       root               60 ./usr/share/alsa/topology/bxtrt298
 -rw-r--r-- root       root            74488 ./usr/share/alsa/topology/bxtrt298/bxt_i2s.conf
 drwxr-xr-x root       root               60 ./usr/share/alsa/topology/sklrt286
 -rw-r--r-- root       root            66635 ./usr/share/alsa/topology/sklrt286/skl_i2s.conf
-drwxr-xr-x root       root              320 ./usr/share/alsa/ucm
+drwxr-xr-x root       root              420 ./usr/share/alsa/ucm
 drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/broadwell-rt286
 -rw-r--r-- root       root              121 ./usr/share/alsa/ucm/broadwell-rt286/broadwell-rt286.conf
 -rw-r--r-- root       root             2369 ./usr/share/alsa/ucm/broadwell-rt286/HiFi
@@ -104,6 +104,9 @@ drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/bytcr-rt5651
 drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/chtrt5645
 -rw-r--r-- root       root               96 ./usr/share/alsa/ucm/chtrt5645/chtrt5645.conf
 -rw-r--r-- root       root             4965 ./usr/share/alsa/ucm/chtrt5645/HiFi.conf
+drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/chtrt5645-mono-speaker-analog-mic
+-rw-r--r-- root       root              133 ./usr/share/alsa/ucm/chtrt5645-mono-speaker-analog-mic/chtrt5645-mono-speaker-analog-mic.conf
+-rw-r--r-- root       root            10730 ./usr/share/alsa/ucm/chtrt5645-mono-speaker-analog-mic/HiFi.conf
 drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/DAISY-I2S
 -rw-r--r-- root       root               94 ./usr/share/alsa/ucm/DAISY-I2S/DAISY-I2S.conf
 -rw-r--r-- root       root             1631 ./usr/share/alsa/ucm/DAISY-I2S/HiFi.conf
@@ -114,6 +117,14 @@ drwxr-xr-x root       root              100 ./usr/share/alsa/ucm/DB410c
 drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/GoogleNyan
 -rw-r--r-- root       root               92 ./usr/share/alsa/ucm/GoogleNyan/GoogleNyan.conf
 -rw-r--r-- root       root             2201 ./usr/share/alsa/ucm/GoogleNyan/HiFi.conf
+drwxr-xr-x root       root               60 ./usr/share/alsa/ucm/gpd-win-pocket-rt5645
+-rw-r--r-- root       root              133 ./usr/share/alsa/ucm/gpd-win-pocket-rt5645/gpd-win-pocket-rt5645.conf
+drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/HDAudio-Gigabyte-ALC1220DualCodecs
+-rw-r--r-- root       root              113 ./usr/share/alsa/ucm/HDAudio-Gigabyte-ALC1220DualCodecs/HDAudio-Gigabyte-ALC1220DualCodecs.conf
+-rw-r--r-- root       root             2428 ./usr/share/alsa/ucm/HDAudio-Gigabyte-ALC1220DualCodecs/HiFi.conf
+drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/HDAudio-Lenovo-DualCodecs
+-rw-r--r-- root       root              113 ./usr/share/alsa/ucm/HDAudio-Lenovo-DualCodecs/HDAudio-Lenovo-DualCodecs.conf
+-rw-r--r-- root       root             2428 ./usr/share/alsa/ucm/HDAudio-Lenovo-DualCodecs/HiFi.conf
 drwxr-xr-x root       root              180 ./usr/share/alsa/ucm/PandaBoard
 drwxr-xr-x root       root              180 ./usr/share/alsa/ucm/PandaBoardES
 -rw-r--r-- root       root             1238 ./usr/share/alsa/ucm/PandaBoardES/FMAnalog
@@ -147,6 +158,8 @@ drwxr-xr-x root       root              120 ./usr/share/alsa/ucm/skylake-rt286
 -rw-r--r-- root       root              461 ./usr/share/alsa/ucm/skylake-rt286/Hdmi2
 -rw-r--r-- root       root             2487 ./usr/share/alsa/ucm/skylake-rt286/HiFi
 -rw-r--r-- root       root             1720 ./usr/share/alsa/ucm/skylake-rt286/skylake-rt286.conf
+drwxr-xr-x root       root               60 ./usr/share/alsa/ucm/TECLAST-X80Pro-Defaultstring-CherryTrailCR
+-rw-r--r-- root       root              133 ./usr/share/alsa/ucm/TECLAST-X80Pro-Defaultstring-CherryTrailCR/TECLAST-X80Pro-Defaultstring-CherryTrailCR.conf
 drwxr-xr-x root       root               60 ./usr/share/alsa/ucm/tegraalc5632
 -rw-r--r-- root       root             1063 ./usr/share/alsa/ucm/tegraalc5632/tegraalc5632.conf
 drwxr-xr-x root       root               80 ./usr/share/alsa/ucm/VEYRON-I2S

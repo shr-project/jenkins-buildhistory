@@ -1,9 +1,9 @@
 PV = 2.8.0
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = polarssl
-RDEPENDS = glibc (>= 2.27) hiawatha (>= 10.7)
+RDEPENDS = glibc (>= 2.27)
 RRECOMMENDS = 
-PKGSIZE = 427473
+PKGSIZE = 431569
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mbedtls /usr/lib/mbedtls/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libmbedcrypto.so.1 /usr/lib/libmbedcrypto.so.2.8.0 /usr/lib/libmbedtls.so.10 /usr/lib/libmbedtls.so.2.8.0 /usr/lib/libmbedx509.so.0 /usr/lib/libmbedx509.so.2.8.0

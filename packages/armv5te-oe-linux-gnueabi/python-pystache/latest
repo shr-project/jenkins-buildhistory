@@ -1,0 +1,5 @@
+PV = 0.5.4
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = python-pystache-dbg python-pystache-staticdev python-pystache-dev python-pystache-doc python-pystache-locale python-pystache
+LAYER = meta-python

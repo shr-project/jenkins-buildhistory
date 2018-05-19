@@ -1,9 +1,9 @@
 PV = 2.4.45
 PR = r0
 PKG = libldap-2.4-backend-ldap
-PKGR = r0.39
+PKGR = r0.40
 RPROVIDES = openldap-backend-ldap (=2.4.45)
-RDEPENDS = glibc (>= 2.27) gnutls (>= 3.6.1) libgcrypt (>= 1.8.2) openldap (>= 2.4.45)
+RDEPENDS = glibc (>= 2.27) gnutls (>= 3.6.2) libgcrypt (>= 1.8.2) openldap (>= 2.4.45)
 RRECOMMENDS = 
 PKGSIZE = 111346
 FILES = /usr/libexec/openldap/back_ldap.so /usr/libexec/openldap/back_ldap-2.4.so.2 /usr/libexec/openldap/back_ldap-2.4.so.2.10.8

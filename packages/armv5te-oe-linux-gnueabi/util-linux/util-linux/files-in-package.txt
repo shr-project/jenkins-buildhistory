@@ -1,5 +1,5 @@
 drwxr-xr-x root       root              100 ./bin
--rwxr-xr-x root       root            67388 ./bin/dmesg.util-linux
+-rwxr-xr-x root       root            59192 ./bin/dmesg.util-linux
 -rwxr-xr-x root       root            26296 ./bin/kill.util-linux
 -rwxr-xr-x root       root            30372 ./bin/more.util-linux
 drwxr-xr-x root       root               60 ./etc
@@ -13,7 +13,7 @@ drwxr-xr-x root       root              140 ./sbin
 -rwxr-xr-x root       root             9916 ./sbin/pivot_root.util-linux
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root             1020 ./usr/bin
--rwxr-xr-x root       root            42832 ./usr/bin/cal
+-rwxr-xr-x root       root            46964 ./usr/bin/cal
 -rwxr-xr-x root       root            30384 ./usr/bin/chmem
 -rwxr-xr-x root       root            26296 ./usr/bin/chrt.util-linux
 -rwxr-xr-x root       root            22188 ./usr/bin/col
@@ -23,7 +23,7 @@ drwxr-xr-x root       root             1020 ./usr/bin
 -rwxr-xr-x root       root            38588 ./usr/bin/eject.util-linux
 -rwxr-xr-x root       root            26292 ./usr/bin/fallocate
 -rwxr-xr-x root       root            26320 ./usr/bin/fincore
--rwxr-xr-x root       root            51664 ./usr/bin/findmnt
+-rwxr-xr-x root       root            47568 ./usr/bin/findmnt
 -rwxr-xr-x root       root            26364 ./usr/bin/flock.util-linux
 -rwxr-xr-x root       root            38596 ./usr/bin/hexdump.util-linux
 -rwxr-xr-x root       root            22236 ./usr/bin/ipcmk
@@ -39,8 +39,8 @@ lrwxrwxrwx root       root                7 ./usr/bin/linux64 -> setarch
 -rwxr-xr-x root       root            50864 ./usr/bin/lsipc
 -rwxr-xr-x root       root            30624 ./usr/bin/lslocks
 -rwxr-xr-x root       root            46784 ./usr/bin/lslogins
--rwxr-xr-x root       root            30384 ./usr/bin/lsmem
--rwxr-xr-x root       root            30384 ./usr/bin/lsns
+-rwxr-xr-x root       root            34480 ./usr/bin/lsmem
+-rwxr-xr-x root       root            34484 ./usr/bin/lsns
 -rwxr-xr-x root       root             9908 ./usr/bin/mesg.util-linux
 -rwxr-xr-x root       root            22192 ./usr/bin/namei
 -rwxr-xr-x root       root            26392 ./usr/bin/nsenter
@@ -55,7 +55,7 @@ lrwxrwxrwx root       root                7 ./usr/bin/linux64 -> setarch
 -rwxr-xr-x root       root            26300 ./usr/bin/taskset.util-linux
 -rwxr-xr-x root       root            13992 ./usr/bin/ul
 lrwxrwxrwx root       root                7 ./usr/bin/uname26 -> setarch
--rwxr-xr-x root       root            14092 ./usr/bin/unshare
+-rwxr-xr-x root       root            18188 ./usr/bin/unshare
 -rwxr-xr-x root       root            18104 ./usr/bin/utmpdump.util-linux
 -rwxr-xr-x root       root            30388 ./usr/bin/uuidparse
 -rwxr-xr-x root       root            26296 ./usr/bin/wall.util-linux
