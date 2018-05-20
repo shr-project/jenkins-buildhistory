@@ -1,9 +1,9 @@
-PV = 3.26.3
+PV = 3.26.6
 PR = r0
 PKG = libedataserverui-1.2-1
-PKGR = r0.9
-RPROVIDES = libedataserverui (=3.26.3)
-RDEPENDS = cairo (>= 1.14.12) gcr (>= 3.20.0) glib-2.0 (>= 2.54.3) glibc (>= 2.27) gtk+3 (>= 3.22.28) libcamel (>= 3.26.3) libedataserver (>= 3.26.3) libsoup-2.4 (>= 2.60.3) pango (>= 1.40.14)
+PKGR = r0.0
+RPROVIDES = libedataserverui (=3.26.6)
+RDEPENDS = cairo (>= 1.14.12) gcr (>= 3.28.0) glib-2.0 (>= 2.56.1) glibc (>= 2.27) gtk+3 (>= 3.22.29) libcamel (>= 3.26.6) libedataserver (>= 3.26.6) libsoup-2.4 (>= 2.62.0) pango (>= 1.40.14)
 RRECOMMENDS = 
 PKGSIZE = 108717
 FILES = /usr/lib/libedataserverui-*.so.* /usr/share/evolution-data-server-1.4/glade/*.glade

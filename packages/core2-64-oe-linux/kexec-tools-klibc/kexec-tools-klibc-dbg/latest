@@ -1,9 +1,10 @@
-PV = 2.0.2
-PR = r1
-PKGR = r1.17
+PV = 2.0.17+gitAUTOINC+0481e9ed61
+PR = r0
+PKGV = 2.0.17+git0+0481e9ed61
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 19192
+PKGSIZE = 27064
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/sbin/.debug/kdump /usr/sbin/.debug/kexec
+FILELIST = /usr/sbin/.debug/kdump /usr/sbin/.debug/kexec /usr/sbin/.debug/vmcore-dmesg

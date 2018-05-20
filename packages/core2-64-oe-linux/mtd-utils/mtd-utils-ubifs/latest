@@ -1,9 +1,9 @@
 PV = 2.0.1+AUTOINC+9c6173559f
 PR = r0
 PKGV = 2.0.1+0+9c6173559f
-PKGR = r0.9
+PKGR = r0.10
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) lzo (>= 2.10) update-alternatives-opkg util-linux-libuuid (>= 2.31) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.27) lzo (>= 2.10) update-alternatives-opkg util-linux-libuuid (>= 2.32) zlib (>= 1.2.11)
 RRECOMMENDS = 
 PKGSIZE = 472560
 FILES = /usr/sbin/mkfs.ubifs /usr/sbin/ubi*

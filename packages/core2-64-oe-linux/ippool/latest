@@ -1,5 +1,5 @@
 PV = 1.3
 PR = r0
-DEPENDS = gzip-native ncurses ppp readline systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+DEPENDS = gzip-native libtirpc ncurses ppp readline rpcsvc-proto-native systemd-systemctl-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
 PACKAGES = ippool-test ippool-dbg ippool-staticdev ippool-dev ippool-doc ippool-locale ippool
 LAYER = networking-layer

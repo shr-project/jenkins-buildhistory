@@ -1,8 +1,8 @@
 PV = 2.2.5
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) gnutls (>= 3.6.2) libassuan (>= 2.5.1) libbz2 (>= 1.0.6) libgcrypt (>= 1.8.2) libgpg-error (>= 1.28) libksba (>= 1.3.5) npth (>= 1.5) readline (>= 7.0) zlib (>= 1.2.11)
+RDEPENDS = glibc (>= 2.27) gnutls (>= 3.6.2) libassuan (>= 2.5.1) libbz2 (>= 1.0.6) libgcrypt (>= 1.8.2) libgpg-error (>= 1.31) libksba (>= 1.3.5) npth (>= 1.5) readline (>= 7.0) zlib (>= 1.2.11)
 RRECOMMENDS = pinentry
 PKGSIZE = 5128143
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gnupg /usr/lib/gnupg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

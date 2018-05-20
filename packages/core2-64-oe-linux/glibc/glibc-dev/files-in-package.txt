@@ -442,12 +442,11 @@ drwxr-xr-x root       root             1720 ./usr/include/sys
 -rw-r--r-- root       root            31111 ./usr/include/wchar.h
 -rw-r--r-- root       root             5548 ./usr/include/wctype.h
 -rw-r--r-- root       root             2501 ./usr/include/wordexp.h
-drwxr-xr-x root       root              620 ./usr/lib
--rw-r--r-- root       root            54104 ./usr/lib/crt1.o
+drwxr-xr-x root       root              580 ./usr/lib
+-rw-r--r-- root       root            12192 ./usr/lib/crt1.o
 -rw-r--r-- root       root             2776 ./usr/lib/crti.o
 -rw-r--r-- root       root             2528 ./usr/lib/crtn.o
--rw-r--r-- root       root            64168 ./usr/lib/gcrt1.o
--rw-r--r-- root       root            16808 ./usr/lib/grcrt1.o
+-rw-r--r-- root       root            17328 ./usr/lib/gcrt1.o
 lrwxrwxrwx root       root               21 ./usr/lib/libanl.so -> ../../lib/libanl.so.1
 lrwxrwxrwx root       root               30 ./usr/lib/libBrokenLocale.so -> ../../lib/libBrokenLocale.so.1
 lrwxrwxrwx root       root               22 ./usr/lib/libcidn.so -> ../../lib/libcidn.so.1
@@ -469,6 +468,5 @@ lrwxrwxrwx root       root               24 ./usr/lib/libresolv.so -> ../../lib/
 lrwxrwxrwx root       root               20 ./usr/lib/librt.so -> ../../lib/librt.so.1
 lrwxrwxrwx root       root               27 ./usr/lib/libthread_db.so -> ../../lib/libthread_db.so.1
 lrwxrwxrwx root       root               22 ./usr/lib/libutil.so -> ../../lib/libutil.so.1
--rw-r--r-- root       root             1336 ./usr/lib/Mcrt1.o
--rw-r--r-- root       root            11872 ./usr/lib/rcrt1.o
+-rw-r--r-- root       root             1328 ./usr/lib/Mcrt1.o
 -rw-r--r-- root       root            11872 ./usr/lib/Scrt1.o

@@ -2,7 +2,7 @@ drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              100 ./usr/bin/.debug
 -rwxr-xr-x root       root          1925664 ./usr/bin/.debug/nmcli
--rwxr-xr-x root       root            43464 ./usr/bin/.debug/nm-online
+-rwxr-xr-x root       root            43448 ./usr/bin/.debug/nm-online
 -rwxr-xr-x root       root          1660352 ./usr/bin/.debug/nmtui
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/lib/.debug
@@ -13,7 +13,7 @@ drwxr-xr-x root       root              120 ./usr/lib/.debug
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root              100 ./usr/libexec/.debug
 -rwxr-xr-x root       root            34912 ./usr/libexec/.debug/nm-dhcp-helper
--rwxr-xr-x root       root           154296 ./usr/libexec/.debug/nm-dispatcher
+-rwxr-xr-x root       root           154280 ./usr/libexec/.debug/nm-dispatcher
 -rwxr-xr-x root       root          7226272 ./usr/libexec/.debug/nm-iface-helper
 drwxr-xr-x root       root               60 ./usr/lib/NetworkManager
 drwxr-xr-x root       root              140 ./usr/lib/NetworkManager/.debug
@@ -24,7 +24,7 @@ drwxr-xr-x root       root              140 ./usr/lib/NetworkManager/.debug
 -rwxr-xr-x root       root           153472 ./usr/lib/NetworkManager/.debug/libnm-settings-plugin-ifupdown.so
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/sbin/.debug
--rwxr-xr-x root       root         16417232 ./usr/sbin/.debug/NetworkManager
+-rwxr-xr-x root       root         16417240 ./usr/sbin/.debug/NetworkManager
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/networkmanager
@@ -947,7 +947,7 @@ drwxr-xr-x root       root             1220 ./usr/src/debug/networkmanager/1.10.
 -rw-r--r-- root       root             1708 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/hexdecoct.h
 -rw-r--r-- root       root             7275 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/hostname-util.c
 -rw-r--r-- root       root             1240 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/hostname-util.h
--rw-r--r-- root       root            15650 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/in-addr-util.c
+-rw-r--r-- root       root            15675 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/in-addr-util.c
 -rw-r--r-- root       root             3281 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/in-addr-util.h
 -rw-r--r-- root       root             7370 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/io-util.c
 -rw-r--r-- root       root             2773 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/io-util.h
@@ -973,7 +973,7 @@ drwxr-xr-x root       root             1220 ./usr/src/debug/networkmanager/1.10.
 -rw-r--r-- root       root             1094 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/string-table.c
 -rw-r--r-- root       root             6439 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/string-table.h
 -rw-r--r-- root       root            20568 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/string-util.c
--rw-r--r-- root       root             6897 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/string-util.h
+-rw-r--r-- root       root             7018 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/string-util.h
 -rw-r--r-- root       root            20125 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/strv.c
 -rw-r--r-- root       root             7230 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/strv.h
 -rw-r--r-- root       root            42834 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/basic/time-util.c
@@ -1024,14 +1024,14 @@ drwxr-xr-x root       root               80 ./usr/src/debug/networkmanager/1.10.
 -rw-r--r-- root       root            40101 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/shared/dns-domain.c
 -rw-r--r-- root       root             4292 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/shared/dns-domain.h
 drwxr-xr-x root       root              220 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd
--rw-r--r-- root       root             5045 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-dhcp6-client.h
+-rw-r--r-- root       root             5075 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-dhcp6-client.h
 -rw-r--r-- root       root             1837 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-dhcp6-lease.h
--rw-r--r-- root       root             7091 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-dhcp-client.h
--rw-r--r-- root       root             3089 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-dhcp-lease.h
+-rw-r--r-- root       root             7121 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-dhcp-client.h
+-rw-r--r-- root       root             3119 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-dhcp-lease.h
 -rw-r--r-- root       root             5912 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-event.h
 -rw-r--r-- root       root             6663 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-id128.h
 -rw-r--r-- root       root             2070 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-ipv4acd.h
--rw-r--r-- root       root             2085 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-ipv4ll.h
+-rw-r--r-- root       root             2115 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-ipv4ll.h
 -rw-r--r-- root       root             8067 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/systemd/src/systemd/sd-lldp.h
 drwxr-xr-x root       root              120 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/vpn
 -rw-r--r-- root       root            96146 ./usr/src/debug/networkmanager/1.10.6-r0/NetworkManager-1.10.6/src/vpn/nm-vpn-connection.c

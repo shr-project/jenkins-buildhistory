@@ -1,0 +1,5 @@
+PV = 3.5.0
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = python-configparser-dbg python-configparser-staticdev python-configparser-dev python-configparser-doc python-configparser-locale python-configparser
+LAYER = meta-python

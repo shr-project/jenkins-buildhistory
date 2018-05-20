@@ -3,13 +3,13 @@ drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/qt5
 drwxr-xr-x root       root              240 ./usr/bin/qt5/.debug
 -rwxr-xr-x root       root          1264080 ./usr/bin/qt5/.debug/qml
--rwxr-xr-x root       root         26563704 ./usr/bin/qt5/.debug/qmlcachegen
+-rwxr-xr-x root       root         26563688 ./usr/bin/qt5/.debug/qmlcachegen
 -rwxr-xr-x root       root          2468592 ./usr/bin/qt5/.debug/qmleasing
 -rwxr-xr-x root       root         22203744 ./usr/bin/qt5/.debug/qmlimportscanner
--rwxr-xr-x root       root         17230960 ./usr/bin/qt5/.debug/qmllint
+-rwxr-xr-x root       root         17230944 ./usr/bin/qt5/.debug/qmllint
 -rwxr-xr-x root       root         15532920 ./usr/bin/qt5/.debug/qmlmin
 -rwxr-xr-x root       root          3114520 ./usr/bin/qt5/.debug/qmlplugindump
--rwxr-xr-x root       root         10179168 ./usr/bin/qt5/.debug/qmlprofiler
+-rwxr-xr-x root       root         10179152 ./usr/bin/qt5/.debug/qmlprofiler
 -rwxr-xr-x root       root          1289904 ./usr/bin/qt5/.debug/qmlscene
 -rwxr-xr-x root       root           457144 ./usr/bin/qt5/.debug/qmltestrunner
 drwxr-xr-x root       root               80 ./usr/lib
@@ -123,7 +123,7 @@ drwxr-xr-x root       root              100 ./usr/src/debug/qtdeclarative/5.10.1
 -rw-r--r-- root       root            54890 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/imports/shapes/.moc/moc_qquickshape_p.cpp
 -rw-r--r-- root       root             6914 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/imports/shapes/.moc/plugin.moc
 drwxr-xr-x root       root               60 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/imports/shapes/.rcc
--rw-r--r-- root       root            42134 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/imports/shapes/.rcc/qrc_qtquickshapesplugin.cpp
+-rw-r--r-- root       root            42150 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/imports/shapes/.rcc/qrc_qtquickshapesplugin.cpp
 drwxr-xr-x root       root               60 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/imports/sharedimage
 drwxr-xr-x root       root              100 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/imports/sharedimage/.moc
 -rw-r--r-- root       root             2817 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/imports/sharedimage/.moc/moc_qsharedimageloader_p.cpp
@@ -179,7 +179,7 @@ drwxr-xr-x root       root              600 ./usr/src/debug/qtdeclarative/5.10.1
 -rw-r--r-- root       root             7508 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/particles/.moc/moc_qquickturbulence_p.cpp
 -rw-r--r-- root       root            10423 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/particles/.moc/moc_qquickwander_p.cpp
 drwxr-xr-x root       root               60 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/particles/.rcc
--rw-r--r-- root       root           151900 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/particles/.rcc/qrc_particles.cpp
+-rw-r--r-- root       root           151914 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/particles/.rcc/qrc_particles.cpp
 drwxr-xr-x root       root               60 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/plugins
 drwxr-xr-x root       root              260 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/plugins/qmltooling
 drwxr-xr-x root       root               60 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/plugins/qmltooling/packetprotocol
@@ -444,8 +444,8 @@ drwxr-xr-x root       root             2800 ./usr/src/debug/qtdeclarative/5.10.1
 -rw-r--r-- root       root             3628 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quick/.moc/qsgsoftwarethreadedrenderloop.moc
 -rw-r--r-- root       root             3463 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quick/.moc/qsgthreadedrenderloop.moc
 drwxr-xr-x root       root               80 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quick/.rcc
--rw-r--r-- root       root            13946 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quick/.rcc/qrc_items.cpp
--rw-r--r-- root       root           173829 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quick/.rcc/qrc_scenegraph.cpp
+-rw-r--r-- root       root            13954 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quick/.rcc/qrc_items.cpp
+-rw-r--r-- root       root           173901 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quick/.rcc/qrc_scenegraph.cpp
 drwxr-xr-x root       root               60 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quickwidgets
 drwxr-xr-x root       root               60 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quickwidgets/.moc
 -rw-r--r-- root       root             9757 ./usr/src/debug/qtdeclarative/5.10.1+5.11-beta3+gitAUTOINC+6069cc1cd1-r0/build/src/quickwidgets/.moc/moc_qquickwidget.cpp
