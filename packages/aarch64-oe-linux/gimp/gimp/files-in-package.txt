@@ -10,8 +10,8 @@ drwxr-xr-x root       root              180 ./etc/gimp/2.0
 -rw-r--r-- root       root             1140 ./etc/gimp/2.0/unitrc
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
--rwxr-xr-x root       root          5386912 ./usr/bin/gimp-2.8
--rwxr-xr-x root       root          2494472 ./usr/bin/gimp-console-2.8
+-rwxr-xr-x root       root          6107808 ./usr/bin/gimp-2.8
+-rwxr-xr-x root       root          2822152 ./usr/bin/gimp-console-2.8
 lrwxrwxrwx root       root               16 ./usr/bin/gimp-console -> gimp-console-2.8
 lrwxrwxrwx root       root                8 ./usr/bin/gimp -> gimp-2.8
 -rwxr-xr-x root       root            67832 ./usr/bin/gimptool-2.0
@@ -132,15 +132,15 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            67872 ./usr/lib/gimp/2.0/plug-ins/fractal-trace
 -rwxr-xr-x root       root           201080 ./usr/lib/gimp/2.0/plug-ins/gfig
 -rwxr-xr-x root       root           133376 ./usr/lib/gimp/2.0/plug-ins/gimpressionist
--rwxr-xr-x root       root            70672 ./usr/lib/gimp/2.0/plug-ins/gradient-flare
+-rwxr-xr-x root       root           136208 ./usr/lib/gimp/2.0/plug-ins/gradient-flare
 -rwxr-xr-x root       root            67832 ./usr/lib/gimp/2.0/plug-ins/gradient-map
 -rwxr-xr-x root       root            67984 ./usr/lib/gimp/2.0/plug-ins/grid
 -rwxr-xr-x root       root            67824 ./usr/lib/gimp/2.0/plug-ins/guillotine
 -rwxr-xr-x root       root            67824 ./usr/lib/gimp/2.0/plug-ins/help
 -rwxr-xr-x root       root            67840 ./usr/lib/gimp/2.0/plug-ins/hot
--rwxr-xr-x root       root            68408 ./usr/lib/gimp/2.0/plug-ins/ifs-compose
+-rwxr-xr-x root       root           133944 ./usr/lib/gimp/2.0/plug-ins/ifs-compose
 -rwxr-xr-x root       root            67840 ./usr/lib/gimp/2.0/plug-ins/illusion
--rwxr-xr-x root       root           201328 ./usr/lib/gimp/2.0/plug-ins/imagemap
+-rwxr-xr-x root       root           266864 ./usr/lib/gimp/2.0/plug-ins/imagemap
 -rwxr-xr-x root       root            67904 ./usr/lib/gimp/2.0/plug-ins/iwarp
 -rwxr-xr-x root       root            67848 ./usr/lib/gimp/2.0/plug-ins/jigsaw
 -rwxr-xr-x root       root            67824 ./usr/lib/gimp/2.0/plug-ins/lcms
@@ -204,13 +204,13 @@ drwxr-xr-x root       root             3440 ./usr/lib/gimp/2.0/plug-ins
 -rwxr-xr-x root       root            67824 ./usr/lib/gimp/2.0/plug-ins/web-browser
 -rwxr-xr-x root       root            67848 ./usr/lib/gimp/2.0/plug-ins/whirl-pinch
 -rwxr-xr-x root       root            67848 ./usr/lib/gimp/2.0/plug-ins/wind
--rwxr-xr-x root       root           264488 ./usr/lib/libgimp-2.0.so.0.800.22
+-rwxr-xr-x root       root           330024 ./usr/lib/libgimp-2.0.so.0.800.22
 lrwxrwxrwx root       root               23 ./usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.800.22
 -rwxr-xr-x root       root           133440 ./usr/lib/libgimpbase-2.0.so.0.800.22
 lrwxrwxrwx root       root               27 ./usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.800.22
 -rwxr-xr-x root       root            67768 ./usr/lib/libgimpcolor-2.0.so.0.800.22
 lrwxrwxrwx root       root               28 ./usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.800.22
--rwxr-xr-x root       root            67840 ./usr/lib/libgimpconfig-2.0.so.0.800.22
+-rwxr-xr-x root       root           133376 ./usr/lib/libgimpconfig-2.0.so.0.800.22
 lrwxrwxrwx root       root               29 ./usr/lib/libgimpconfig-2.0.so.0 -> libgimpconfig-2.0.so.0.800.22
 -rwxr-xr-x root       root            67760 ./usr/lib/libgimpmath-2.0.so.0.800.22
 lrwxrwxrwx root       root               27 ./usr/lib/libgimpmath-2.0.so.0 -> libgimpmath-2.0.so.0.800.22
@@ -218,9 +218,9 @@ lrwxrwxrwx root       root               27 ./usr/lib/libgimpmath-2.0.so.0 -> li
 lrwxrwxrwx root       root               29 ./usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.800.22
 -rwxr-xr-x root       root            67768 ./usr/lib/libgimpthumb-2.0.so.0.800.22
 lrwxrwxrwx root       root               28 ./usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.800.22
--rwxr-xr-x root       root           134016 ./usr/lib/libgimpui-2.0.so.0.800.22
+-rwxr-xr-x root       root           199552 ./usr/lib/libgimpui-2.0.so.0.800.22
 lrwxrwxrwx root       root               25 ./usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.800.22
--rwxr-xr-x root       root          1247536 ./usr/lib/libgimpwidgets-2.0.so.0.800.22
+-rwxr-xr-x root       root          1313072 ./usr/lib/libgimpwidgets-2.0.so.0.800.22
 lrwxrwxrwx root       root               30 ./usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.800.22
 drwxr-xr-x root       root              120 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/appdata

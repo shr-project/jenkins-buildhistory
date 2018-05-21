@@ -1,10 +1,10 @@
-PV = 5.10.1+5.11-alpha+gitAUTOINC+e813fb36e7
+PV = 5.10.1+5.11-beta3+gitAUTOINC+6d73c51d44
 PR = r0
-PKGV = 5.10.1+5.11-alpha+git0+e813fb36e7
-PKGR = r0.8
+PKGV = 5.10.1+5.11-beta3+git0+6d73c51d44
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libstdc++ (>= 7.3.0) qt3d (>= 5.10.1+5.11-alpha+git0+e813fb36e7) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b)
+RDEPENDS = glibc (>= 2.27) libstdc++ (>= 8.1.0) qt3d (>= 5.10.1+5.11-beta3+git0+6d73c51d44) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901)
 RRECOMMENDS = 
-PKGSIZE = 535928
+PKGSIZE = 601464
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so
 FILELIST = /usr/lib/qt5/plugins/geometryloaders/libdefaultgeometryloader.so /usr/lib/qt5/plugins/geometryloaders/libgltfgeometryloader.so /usr/lib/qt5/plugins/renderplugins/libscene2d.so /usr/lib/qt5/plugins/sceneparsers/libgltfsceneexport.so /usr/lib/qt5/plugins/sceneparsers/libgltfsceneimport.so

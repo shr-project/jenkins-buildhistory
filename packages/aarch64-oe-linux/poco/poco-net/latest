@@ -1,10 +1,10 @@
-PV = 1.8.0.1
+PV = 1.9.0
 PR = r0
-PKG = libpoconet50
-PKGR = r0.18
-RPROVIDES = poco-net (=1.8.0.1)
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) poco-foundation (>= 1.8.0.1)
+PKG = libpoconet60
+PKGR = r0.0
+RPROVIDES = poco-net (=1.9.0)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) poco-foundation (>= 1.9.0)
 RRECOMMENDS = 
 PKGSIZE = 1313200
-FILES = /usr/lib/libPocoNet.so.*
-FILELIST = /usr/lib/libPocoNet.so.50
+FILES = /usr/lib/libPocoNet.so.60
+FILELIST = /usr/lib/libPocoNet.so.60

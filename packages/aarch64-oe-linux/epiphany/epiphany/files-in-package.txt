@@ -3,8 +3,8 @@ drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root           133488 ./usr/bin/epiphany
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              120 ./usr/lib/epiphany
--rwxr-xr-x root       root           658688 ./usr/lib/epiphany/libephymain.so
--rwxr-xr-x root       root           199144 ./usr/lib/epiphany/libephymisc.so
+-rwxr-xr-x root       root           724224 ./usr/lib/epiphany/libephymain.so
+-rwxr-xr-x root       root           264680 ./usr/lib/epiphany/libephymisc.so
 -rwxr-xr-x root       root           198824 ./usr/lib/epiphany/libephysync.so
 drwxr-xr-x root       root               60 ./usr/lib/epiphany/web-extensions
 -rwxr-xr-x root       root           133296 ./usr/lib/epiphany/web-extensions/libephywebextension.so
@@ -13,10 +13,8 @@ drwxr-xr-x root       root               60 ./usr/libexec/epiphany
 -rwxr-xr-x root       root            67848 ./usr/libexec/epiphany/ephy-profile-migrator
 -rwxr-xr-x root       root            67840 ./usr/libexec/epiphany-search-provider
 drwxr-xr-x root       root              180 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/appdata
--rw-r--r-- root       root            29724 ./usr/share/appdata/org.gnome.Epiphany.appdata.xml
 drwxr-xr-x root       root               60 ./usr/share/applications
--rw-r--r-- root       root            16358 ./usr/share/applications/org.gnome.Epiphany.desktop
+-rw-r--r-- root       root            16621 ./usr/share/applications/org.gnome.Epiphany.desktop
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               60 ./usr/share/dbus-1/services
 -rw-r--r-- root       root               98 ./usr/share/dbus-1/services/org.gnome.Epiphany.SearchProvider.service
@@ -25,7 +23,7 @@ drwxr-xr-x root       root               60 ./usr/share/epiphany
 drwxr-xr-x root       root               60 ./usr/share/glib-2.0
 drwxr-xr-x root       root               80 ./usr/share/glib-2.0/schemas
 -rw-r--r-- root       root             1241 ./usr/share/glib-2.0/schemas/org.gnome.Epiphany.enums.xml
--rw-r--r-- root       root            24725 ./usr/share/glib-2.0/schemas/org.gnome.epiphany.gschema.xml
+-rw-r--r-- root       root            25359 ./usr/share/glib-2.0/schemas/org.gnome.epiphany.gschema.xml
 drwxr-xr-x root       root               60 ./usr/share/gnome-shell
 drwxr-xr-x root       root               60 ./usr/share/gnome-shell/search-providers
 -rw-r--r-- root       root              159 ./usr/share/gnome-shell/search-providers/org.gnome.Epiphany.search-provider.ini
@@ -49,3 +47,5 @@ drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/512x512/ap
 drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/symbolic
 drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/symbolic/apps
 -rw-r--r-- root       root             8150 ./usr/share/icons/hicolor/symbolic/apps/org.gnome.Epiphany-symbolic.svg
+drwxr-xr-x root       root               60 ./usr/share/metainfo
+-rw-r--r-- root       root            30295 ./usr/share/metainfo/org.gnome.Epiphany.appdata.xml

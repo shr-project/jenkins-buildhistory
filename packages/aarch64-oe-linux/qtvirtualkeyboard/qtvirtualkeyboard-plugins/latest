@@ -1,9 +1,9 @@
-PV = 5.10.1+5.11-alpha+gitAUTOINC+9055bd5665
+PV = 5.10.1+5.11-beta3+gitAUTOINC+14f4ea5949
 PR = r0
-PKGV = 5.10.1+5.11-alpha+git0+9055bd5665
-PKGR = r0.7
+PKGV = 5.10.1+5.11-beta3+git0+14f4ea5949
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) libxcb (>= 1.13) libxcb-xfixes (>= 1.13) qtbase (>= 5.10.1+5.11-alpha+git0+17b73b0d2b) qtdeclarative (>= 5.10.1+5.11-alpha+git0+0975a9c892)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) libxcb (>= 1.13) libxcb-xfixes (>= 1.13) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1)
 RRECOMMENDS = 
 PKGSIZE = 6490608
 FILES = /usr/lib/qt5/plugins/*/*.so /usr/lib/qt5/plugins/*/*/*.so /usr/lib/qt5/plugins/*/*/*/*.so

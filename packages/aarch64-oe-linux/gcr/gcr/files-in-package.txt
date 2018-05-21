@@ -2,23 +2,24 @@ drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root            67824 ./usr/bin/gcr-viewer
 drwxr-xr-x root       root              220 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root               80 ./usr/libexec
 -rwxr-xr-x root       root            67744 ./usr/libexec/gcr-prompter
+-rwxr-xr-x root       root            67800 ./usr/libexec/gcr-ssh-askpass
 drwxr-xr-x root       root              100 ./usr/lib/girepository-1.0
 -rw-r--r-- root       root            33048 ./usr/lib/girepository-1.0/Gck-1.typelib
--rw-r--r-- root       root            34852 ./usr/lib/girepository-1.0/Gcr-3.typelib
+-rw-r--r-- root       root            35284 ./usr/lib/girepository-1.0/Gcr-3.typelib
 -rw-r--r-- root       root            15464 ./usr/lib/girepository-1.0/GcrUi-3.typelib
--rwxr-xr-x root       root           198920 ./usr/lib/libgck-1.so.0.0.0
+-rwxr-xr-x root       root           264456 ./usr/lib/libgck-1.so.0.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/libgck-1.so.0 -> libgck-1.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libgcr-3.so.1.0.0 -> libgcr-ui-3.so.1.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libgcr-3.so.1 -> libgcr-ui-3.so.1.0.0
--rwxr-xr-x root       root           594624 ./usr/lib/libgcr-base-3.so.1.0.0
+-rwxr-xr-x root       root           660168 ./usr/lib/libgcr-base-3.so.1.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libgcr-base-3.so.1 -> libgcr-base-3.so.1.0.0
--rwxr-xr-x root       root           462752 ./usr/lib/libgcr-ui-3.so.1.0.0
+-rwxr-xr-x root       root           528408 ./usr/lib/libgcr-ui-3.so.1.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libgcr-ui-3.so.1 -> libgcr-ui-3.so.1.0.0
-drwxr-xr-x root       root              180 ./usr/share
+drwxr-xr-x root       root              160 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/applications
--rw-r--r-- root       root             5541 ./usr/share/applications/gcr-prompter.desktop
+-rw-r--r-- root       root             5753 ./usr/share/applications/gcr-prompter.desktop
 -rw-r--r-- root       root              684 ./usr/share/applications/gcr-viewer.desktop
 drwxr-xr-x root       root               60 ./usr/share/dbus-1
 drwxr-xr-x root       root               80 ./usr/share/dbus-1/services
@@ -28,10 +29,6 @@ drwxr-xr-x root       root               60 ./usr/share/GConf
 drwxr-xr-x root       root               80 ./usr/share/GConf/gsettings
 -rw-r--r-- root       root              248 ./usr/share/GConf/gsettings/org.gnome.crypto.pgp.convert
 -rw-r--r-- root       root               75 ./usr/share/GConf/gsettings/org.gnome.crypto.pgp_keyservers.convert
-drwxr-xr-x root       root               60 ./usr/share/gcr-3
-drwxr-xr-x root       root               80 ./usr/share/gcr-3/ui
--rw-r--r-- root       root            11531 ./usr/share/gcr-3/ui/gcr-pkcs11-import-dialog.ui
--rw-r--r-- root       root             4997 ./usr/share/gcr-3/ui/gcr-unlock-options-widget.ui
 drwxr-xr-x root       root               60 ./usr/share/glib-2.0
 drwxr-xr-x root       root               60 ./usr/share/glib-2.0/schemas
 -rw-r--r-- root       root             1661 ./usr/share/glib-2.0/schemas/org.gnome.crypto.pgp.gschema.xml

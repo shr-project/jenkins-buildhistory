@@ -1,8 +1,8 @@
 PV = 1.0.3
 PR = r0
-PKGR = r0.20
+PKGR = r0.21
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) ncurses-libncursesw (>= 6.1) ncurses-libtinfo (>= 6.1) popt (>= 1.16) util-linux-libuuid (>= 2.31)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0) ncurses-libncursesw (>= 6.1) ncurses-libtinfo (>= 6.1) popt (>= 1.16) util-linux-libuuid (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 665248
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/gptfdisk /usr/lib/gptfdisk/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

@@ -1,9 +1,9 @@
 PV = 11.1
 PR = r0
-PKGR = r0.19
+PKGR = r0.20
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.12.2) glibc (>= 2.27) libcap (>= 2.25) libice (>= 1.0.9) libsm (>= 1.2.2) libsndfile1 (>= 1.0.28) libsystemd (>= 237) libx11 (>= 1.6.5) libx11-xcb (>= 1.6.5) libxcb (>= 1.12) libxtst (>= 1.2.3)
+RDEPENDS = dbus-lib (>= 1.12.2) glibc (>= 2.27) libcap (>= 2.25) libice (>= 1.0.9) libsm (>= 1.2.2) libsndfile1 (>= 1.0.28) libsystemd (>= 237) libx11 (>= 1.6.5) libx11-xcb (>= 1.6.5) libxcb (>= 1.13) libxtst (>= 1.2.3)
 RRECOMMENDS = 
-PKGSIZE = 461184
+PKGSIZE = 526720
 FILES = /usr/lib/pulseaudio/libpulsecommon*.so
 FILELIST = /usr/lib/pulseaudio/libpulsecommon-11.1.so

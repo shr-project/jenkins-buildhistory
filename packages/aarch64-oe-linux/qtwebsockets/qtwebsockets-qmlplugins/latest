@@ -2,9 +2,9 @@ PV = 5.10.1+5.11-beta3+gitAUTOINC+34ce4b65ba
 PR = r0
 PKG = libqt5websockets-qmlplugins
 PKGV = 5.10.1+5.11-beta3+git0+34ce4b65ba
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = qtwebsockets-qmlplugins (=5.10.1+5.11-beta3+git0+34ce4b65ba)
-RDEPENDS = glibc (>= 2.27) libstdc++ (>= 7.3.0) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1) qtwebsockets (>= 5.10.1+5.11-beta3+git0+34ce4b65ba)
+RDEPENDS = glibc (>= 2.27) libstdc++ (>= 8.1.0) qtbase (>= 5.10.1+5.11-beta3+git0+2b5587d901) qtdeclarative (>= 5.10.1+5.11-beta3+git0+6069cc1cd1) qtwebsockets (>= 5.10.1+5.11-beta3+git0+34ce4b65ba)
 RRECOMMENDS = 
 PKGSIZE = 71547
 FILES = /usr/lib/qt5/qml/*.qmltypes /usr/lib/qt5/qml/*/*.so /usr/lib/qt5/qml/*/qmldir /usr/lib/qt5/qml/*/*.qmltypes /usr/lib/qt5/qml/*/*.qml /usr/lib/qt5/qml/*/*.qmlc /usr/lib/qt5/qml/*/*.js /usr/lib/qt5/qml/*/*.jsc /usr/lib/qt5/qml/*/*.png /usr/lib/qt5/qml/*/*/*.so /usr/lib/qt5/qml/*/*/qmldir /usr/lib/qt5/qml/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*.qml /usr/lib/qt5/qml/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*.js /usr/lib/qt5/qml/*/*/*.jsc /usr/lib/qt5/qml/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/images /usr/lib/qt5/qml/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*.png /usr/lib/qt5/qml/*/*/*/*.metainfo /usr/lib/qt5/qml/*/*/*/*/*.so /usr/lib/qt5/qml/*/*/*/*/qmldir /usr/lib/qt5/qml/*/*/*/*/*.qmltypes /usr/lib/qt5/qml/*/*/*/*/*.qml /usr/lib/qt5/qml/*/*/*/*/*.qmlc /usr/lib/qt5/qml/*/*/*/*/*.js /usr/lib/qt5/qml/*/*/*/*/*.jsc /usr/lib/qt5/qml/*/*/*/*/*/*.png /usr/lib/qt5/imports/*.qmltypes /usr/lib/qt5/imports/*/*.so /usr/lib/qt5/imports/*/*.qmltypes /usr/lib/qt5/imports/*/qmldir /usr/lib/qt5/imports/*/*/*.so /usr/lib/qt5/imports/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/qmldir /usr/lib/qt5/imports/*/*/*/*.so /usr/lib/qt5/imports/*/*/*/*.qmltypes /usr/lib/qt5/imports/*/*/*/qmldir
