@@ -1,0 +1,1 @@
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /bin/vi vi /usr/bin/vim.tiny 90\n\tupdate-alternatives --install /usr/bin/vim vim /usr/bin/vim.tiny 90\n

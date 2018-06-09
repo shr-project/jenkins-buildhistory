@@ -1,0 +1,10 @@
+PV = 7.3.0
+PR = r0
+PKG = libtsan0
+PKGR = r0.0
+RPROVIDES = libtsan (=7.3.0)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0)
+RRECOMMENDS = 
+PKGSIZE = 995832
+FILES = /usr/lib/libtsan.so.*
+FILELIST = /usr/lib/libtsan.so.0 /usr/lib/libtsan.so.0.0.0

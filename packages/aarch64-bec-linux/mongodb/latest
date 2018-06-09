@@ -1,0 +1,5 @@
+PV = 3.4.13+gitAUTOINC+fbdef2ccc5
+PR = r0
+DEPENDS = boost gperftools libpcap libpcre openssl python python-scons-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc zlib
+PACKAGES = mongodb-dbg mongodb-staticdev mongodb-dev mongodb-doc mongodb-locale mongodb
+LAYER = openembedded-layer

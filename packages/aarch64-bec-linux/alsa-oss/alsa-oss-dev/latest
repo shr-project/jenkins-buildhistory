@@ -1,0 +1,9 @@
+PV = 1.0.28
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = alsa-oss (= 1.0.28-r0.0)
+RRECOMMENDS = alsa-lib-dev glibc-dev libasound-dev
+PKGSIZE = 2231
+FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/alsa-oss/*.la /lib/*.la
+FILELIST = /usr/include/oss-redir.h /usr/lib/libalsatoss.so /usr/lib/libaoss.so

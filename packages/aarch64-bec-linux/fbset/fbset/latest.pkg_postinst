@@ -1,0 +1,1 @@
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/sbin/fbset fbset /usr/sbin/fbset.real 55\n

@@ -1,0 +1,11 @@
+PV = 1.3.0+gitAUTOINC+dac1a65fea
+PR = r0
+PKG = libprotobuf-c-compiler
+PKGV = 1.3.0+git0+dac1a65fea
+PKGR = r0.0
+RPROVIDES = protobuf-c-compiler (=1.3.0+git0+dac1a65fea)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libstdc++ (>= 7.3.0) protobuf (>= 3.5.1+git0+106ffc04be) protobuf-compiler (>= 3.5.1+git0+106ffc04be)
+RRECOMMENDS = 
+PKGSIZE = 264620
+FILES = /usr/bin
+FILELIST = /usr/bin/protoc-c /usr/bin/protoc-gen-c
