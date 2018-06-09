@@ -1,0 +1,5 @@
+PV = 1.7.1
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = python-passlib-dbg python-passlib-staticdev python-passlib-dev python-passlib-doc python-passlib-locale python-passlib
+LAYER = meta-python

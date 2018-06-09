@@ -1,0 +1,1 @@
+set -e\nif ! grep -q '127.0.0.1    qemuarm' $D/etc/hosts ; then\n    echo '127.0.0.1    qemuarm' >> $D/etc/hosts\nfi\n

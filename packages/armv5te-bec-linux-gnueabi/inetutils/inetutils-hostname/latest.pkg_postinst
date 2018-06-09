@@ -1,0 +1,1 @@
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /bin/hostname hostname /bin/hostname.inetutils 79\n

@@ -1,0 +1,5 @@
+PV = 1.4.2
+PR = r0
+DEPENDS = autoconf-native automake-native gnu-config-native libtool-cross libtool-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc virtual/update-alternatives
+PACKAGES = pkgconf-dbg pkgconf-staticdev pkgconf-dev pkgconf-doc pkgconf-locale pkgconf
+LAYER = core

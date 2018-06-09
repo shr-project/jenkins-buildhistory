@@ -1,0 +1,5 @@
+PV = 1.1.17
+PR = r0
+DEPENDS = python python-distribute-native python-native python-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = python-sqlalchemy-dbg python-sqlalchemy-staticdev python-sqlalchemy-dev python-sqlalchemy-doc python-sqlalchemy-locale python-sqlalchemy
+LAYER = meta-python

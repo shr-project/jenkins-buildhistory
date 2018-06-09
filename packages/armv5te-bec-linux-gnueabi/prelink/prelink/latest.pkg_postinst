@@ -1,0 +1,1 @@
+#!/bin/sh\nset -e\n\nif [ "x$D" != "x" ]; then\n  exit 0\nfi\n\nprelink -a\n

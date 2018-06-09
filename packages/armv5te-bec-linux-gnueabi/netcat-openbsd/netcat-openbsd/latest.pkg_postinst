@@ -1,0 +1,1 @@
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/nc nc /usr/bin/nc.netcat-openbsd 60\n
