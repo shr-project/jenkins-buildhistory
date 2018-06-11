@@ -1,0 +1,1 @@
+#!/bin/sh\nset -e\n\nif [ -n "$D" ]; then\n    $INTERCEPT_DIR/postinst_intercept delay_to_first_boot postinst-delayed-b mlprefix=\n    exit 0\nfi\n    set -e\n\n    if [ ! -e /etc/postinst-test/delayed-a ]; then\n        echo "postinst-delayed-b: /etc/postinst-test/delayed-a not found"\n        exit 1\n    fi\n\n    touch /etc/postinst-test/delayed-b\n
