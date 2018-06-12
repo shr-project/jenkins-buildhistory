@@ -1,6 +1,11 @@
 drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root              120 ./usr/lib
--rwxr-xr-x root       root            34276 ./usr/lib/libconfig.so.9.2.0
--rwxr-xr-x root       root            63108 ./usr/lib/libconfig++.so.9.2.0
-lrwxrwxrwx root       root               18 ./usr/lib/libconfig.so.9 -> libconfig.so.9.2.0
-lrwxrwxrwx root       root               20 ./usr/lib/libconfig++.so.9 -> libconfig++.so.9.2.0
+drwxr-xr-x root       root              140 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib/cmake
+drwxr-xr-x root       root               60 ./usr/lib/cmake/libconfig
+drwxr-xr-x root       root               60 ./usr/lib/cmake/libconfig++
+-rw-r--r-- root       root              219 ./usr/lib/cmake/libconfig/libconfigConfig.cmake
+-rw-r--r-- root       root              235 ./usr/lib/cmake/libconfig++/libconfig++Config.cmake
+-rwxr-xr-x root       root            38372 ./usr/lib/libconfig.so.11.0.2
+-rwxr-xr-x root       root            67204 ./usr/lib/libconfig++.so.11.0.2
+lrwxrwxrwx root       root               19 ./usr/lib/libconfig.so.11 -> libconfig.so.11.0.2
+lrwxrwxrwx root       root               21 ./usr/lib/libconfig++.so.11 -> libconfig++.so.11.0.2
