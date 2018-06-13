@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               60 ./etc
 -rw-r--r-- root       root               33 ./etc/ld.so.conf
 drwxr-xr-x root       root              640 ./lib
--rwxr-xr-x root       root           138392 ./lib/ld-2.27.so
+-rwxr-xr-x root       root           134296 ./lib/ld-2.27.so
 lrwxrwxrwx root       root               10 ./lib/ld-linux.so.3 -> ld-2.27.so
 -rwxr-xr-x root       root             9820 ./lib/libanl-2.27.so
 lrwxrwxrwx root       root               14 ./lib/libanl.so.1 -> libanl-2.27.so
@@ -13,7 +13,7 @@ lrwxrwxrwx root       root               16 ./lib/libcrypt.so.1 -> libcrypt-2.27
 lrwxrwxrwx root       root               12 ./lib/libc.so.6 -> libc-2.27.so
 -rwxr-xr-x root       root             9664 ./lib/libdl-2.27.so
 lrwxrwxrwx root       root               13 ./lib/libdl.so.2 -> libdl-2.27.so
--rwxr-xr-x root       root           722336 ./lib/libm-2.27.so
+-rwxr-xr-x root       root           726432 ./lib/libm-2.27.so
 lrwxrwxrwx root       root               12 ./lib/libm.so.6 -> libm-2.27.so
 -rwxr-xr-x root       root            67360 ./lib/libnsl-2.27.so
 lrwxrwxrwx root       root               14 ./lib/libnsl.so.1 -> libnsl-2.27.so
@@ -32,4 +32,4 @@ lrwxrwxrwx root       root               13 ./lib/librt.so.1 -> librt-2.27.so
 -rwxr-xr-x root       root             9692 ./lib/libutil-2.27.so
 lrwxrwxrwx root       root               15 ./lib/libutil.so.1 -> libutil-2.27.so
 drwxr-xr-x root       root               60 ./sbin
--rwxr-xr-x root       root           521344 ./sbin/ldconfig
+-rwxr-xr-x root       root           517248 ./sbin/ldconfig

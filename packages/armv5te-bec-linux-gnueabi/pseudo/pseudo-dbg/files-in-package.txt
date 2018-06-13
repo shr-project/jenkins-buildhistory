@@ -1,14 +1,14 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root              100 ./usr/bin/.debug
--rwxr-xr-x root       root          2961704 ./usr/bin/.debug/pseudo
--rwxr-xr-x root       root          2878916 ./usr/bin/.debug/pseudodb
--rwxr-xr-x root       root          2936876 ./usr/bin/.debug/pseudolog
+-rwxr-xr-x root       root          3899960 ./usr/bin/.debug/pseudo
+-rwxr-xr-x root       root          3798900 ./usr/bin/.debug/pseudodb
+-rwxr-xr-x root       root          3872332 ./usr/bin/.debug/pseudolog
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/pseudo
 drwxr-xr-x root       root               60 ./usr/lib/pseudo/lib
 drwxr-xr-x root       root               60 ./usr/lib/pseudo/lib/.debug
--rwxr-xr-x root       root           495616 ./usr/lib/pseudo/lib/.debug/libpseudo.so
+-rwxr-xr-x root       root           633592 ./usr/lib/pseudo/lib/.debug/libpseudo.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/pseudo
@@ -23,7 +23,7 @@ drwxr-xr-x root       root              120 ./usr/src/debug/pseudo/1.9.0+gitAUTO
 -rw-r--r-- root       root              418 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/common/guts/fork.c
 -rw-r--r-- root       root             7646 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/common/pseudo_wrappers.c
 drwxr-xr-x root       root              140 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux
-drwxr-xr-x root       root             1120 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts
+drwxr-xr-x root       root             1140 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts
 -rw-r--r-- root       root              252 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/canonicalize_file_name.c
 -rw-r--r-- root       root              231 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/capset.c
 -rw-r--r-- root       root              283 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/creat64.c
@@ -68,6 +68,7 @@ drwxr-xr-x root       root             1120 ./usr/src/debug/pseudo/1.9.0+gitAUTO
 -rw-r--r-- root       root              343 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/scandir.c
 -rw-r--r-- root       root              358 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/setfsgid.c
 -rw-r--r-- root       root              358 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/setfsuid.c
+-rw-r--r-- root       root              341 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/setgroups.c
 -rw-r--r-- root       root              916 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/setresgid.c
 -rw-r--r-- root       root              916 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/setresuid.c
 -rw-r--r-- root       root              242 ./usr/src/debug/pseudo/1.9.0+gitAUTOINC+fddbe854c9-r0/git/ports/linux/guts/stat64.c

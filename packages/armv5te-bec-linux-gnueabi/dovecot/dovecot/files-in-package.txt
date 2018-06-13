@@ -9,7 +9,7 @@ drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              294 ./lib/systemd/system/dovecot.socket
 drwxr-xr-x root       root              140 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root           414296 ./usr/bin/doveadm
+-rwxr-xr-x root       root           410200 ./usr/bin/doveadm
 -rwxr-xr-x root       root           101020 ./usr/bin/doveconf
 lrwxrwxrwx root       root                7 ./usr/bin/dsync -> doveadm
 drwxr-xr-x root       root               60 ./usr/lib
@@ -33,7 +33,7 @@ drwxr-xr-x root       root              140 ./usr/lib/dovecot/doveadm
 -rwxr-xr-x root       root             9764 ./usr/lib/dovecot/lib10_last_login_plugin.so
 -rwxr-xr-x root       root            30400 ./usr/lib/dovecot/lib10_mail_crypt_plugin.so
 -rwxr-xr-x root       root            13892 ./usr/lib/dovecot/lib10_mail_filter_plugin.so
--rwxr-xr-x root       root            63604 ./usr/lib/dovecot/lib10_quota_plugin.so
+-rwxr-xr-x root       root            67700 ./usr/lib/dovecot/lib10_quota_plugin.so
 -rwxr-xr-x root       root             9720 ./usr/lib/dovecot/lib11_imap_quota_plugin.so
 -rwxr-xr-x root       root            13864 ./usr/lib/dovecot/lib11_trash_plugin.so
 -rwxr-xr-x root       root             9776 ./usr/lib/dovecot/lib15_notify_plugin.so
@@ -51,7 +51,7 @@ drwxr-xr-x root       root              140 ./usr/lib/dovecot/doveadm
 -rwxr-xr-x root       root            59704 ./usr/lib/dovecot/lib20_virtual_plugin.so
 -rwxr-xr-x root       root            30324 ./usr/lib/dovecot/lib20_zlib_plugin.so
 -rwxr-xr-x root       root            46672 ./usr/lib/dovecot/lib21_fts_squat_plugin.so
--rwxr-xr-x root       root            30260 ./usr/lib/dovecot/lib30_imap_zlib_plugin.so
+-rwxr-xr-x root       root            26164 ./usr/lib/dovecot/lib30_imap_zlib_plugin.so
 -rwxr-xr-x root       root            18320 ./usr/lib/dovecot/lib90_stats_plugin.so
 -rwxr-xr-x root       root             9736 ./usr/lib/dovecot/lib95_imap_stats_plugin.so
 -rwxr-xr-x root       root             9760 ./usr/lib/dovecot/lib99_welcome_plugin.so
@@ -70,7 +70,7 @@ lrwxrwxrwx root       root               25 ./usr/lib/dovecot/libdovecot-login.s
 lrwxrwxrwx root       root               19 ./usr/lib/dovecot/libdovecot.so.0 -> libdovecot.so.0.0.0
 -rwxr-xr-x root       root            22244 ./usr/lib/dovecot/libdovecot-sql.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/dovecot/libdovecot-sql.so.0 -> libdovecot-sql.so.0.0.0
--rwxr-xr-x root       root           910288 ./usr/lib/dovecot/libdovecot-storage.so.0.0.0
+-rwxr-xr-x root       root           906192 ./usr/lib/dovecot/libdovecot-storage.so.0.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/dovecot/libdovecot-storage.so.0 -> libdovecot-storage.so.0.0.0
 -rwxr-xr-x root       root            13848 ./usr/lib/dovecot/libfs_compress.so
 -rwxr-xr-x root       root            18008 ./usr/lib/dovecot/libfs_crypt.so

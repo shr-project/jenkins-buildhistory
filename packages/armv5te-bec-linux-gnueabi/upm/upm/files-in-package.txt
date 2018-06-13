@@ -44,13 +44,13 @@ lrwxrwxrwx root       root               23 ./usr/lib/libupm-bma250e.so.1 -> lib
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-bmg160.so.1 -> libupm-bmg160.so.1.6.0
 -rwxr-xr-x root       root             9804 ./usr/lib/libupm-bmi160.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-bmi160.so.1 -> libupm-bmi160.so.1.6.0
--rwxr-xr-x root       root            13900 ./usr/lib/libupm-bmm150.so.1.6.0
+-rwxr-xr-x root       root            17996 ./usr/lib/libupm-bmm150.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-bmm150.so.1 -> libupm-bmm150.so.1.6.0
 -rwxr-xr-x root       root            18108 ./usr/lib/libupm-bmp280.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-bmp280.so.1 -> libupm-bmp280.so.1.6.0
 -rwxr-xr-x root       root            14012 ./usr/lib/libupm-bmpx8x.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-bmpx8x.so.1 -> libupm-bmpx8x.so.1.6.0
--rwxr-xr-x root       root            13900 ./usr/lib/libupm-bmx055.so.1.6.0
+-rwxr-xr-x root       root            13852 ./usr/lib/libupm-bmx055.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-bmx055.so.1 -> libupm-bmx055.so.1.6.0
 -rwxr-xr-x root       root            26244 ./usr/lib/libupm-bno055.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-bno055.so.1 -> libupm-bno055.so.1.6.0
@@ -258,7 +258,7 @@ lrwxrwxrwx root       root               21 ./usr/lib/libupm-dfrph.so.1 -> libup
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-ds1307.so.1 -> libupm-ds1307.so.1.6.0
 -rwxr-xr-x root       root            14016 ./usr/lib/libupm-ds1808lc.so.1.6.0
 lrwxrwxrwx root       root               24 ./usr/lib/libupm-ds1808lc.so.1 -> libupm-ds1808lc.so.1.6.0
--rwxr-xr-x root       root             9804 ./usr/lib/libupm-ds18b20.so.1.6.0
+-rwxr-xr-x root       root            13900 ./usr/lib/libupm-ds18b20.so.1.6.0
 lrwxrwxrwx root       root               23 ./usr/lib/libupm-ds18b20.so.1 -> libupm-ds18b20.so.1.6.0
 -rwxr-xr-x root       root            13900 ./usr/lib/libupm-ds2413.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-ds2413.so.1 -> libupm-ds2413.so.1.6.0
@@ -352,7 +352,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/libupm-htu21d.so.1 -> libu
 lrwxrwxrwx root       root               21 ./usr/lib/libupm-hx711.so.1 -> libupm-hx711.so.1.6.0
 -rwxr-xr-x root       root            22148 ./usr/lib/libupm-ili9341.so.1.6.0
 lrwxrwxrwx root       root               23 ./usr/lib/libupm-ili9341.so.1 -> libupm-ili9341.so.1.6.0
--rwxr-xr-x root       root             9856 ./usr/lib/libupm-ims.so.1.6.0
+-rwxr-xr-x root       root            13952 ./usr/lib/libupm-ims.so.1.6.0
 lrwxrwxrwx root       root               19 ./usr/lib/libupm-ims.so.1 -> libupm-ims.so.1.6.0
 -rwxr-xr-x root       root             9804 ./usr/lib/libupm-ina132.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-ina132.so.1 -> libupm-ina132.so.1.6.0
@@ -370,7 +370,7 @@ lrwxrwxrwx root       root               26 ./usr/lib/libupm-joystick12.so.1 -> 
 lrwxrwxrwx root       root               21 ./usr/lib/libupm-kx122.so.1 -> libupm-kx122.so.1.6.0
 -rwxr-xr-x root       root             9808 ./usr/lib/libupm-kxcjk1013.so.1.6.0
 lrwxrwxrwx root       root               25 ./usr/lib/libupm-kxcjk1013.so.1 -> libupm-kxcjk1013.so.1.6.0
--rwxr-xr-x root       root             9804 ./usr/lib/libupm-l298.so.1.6.0
+-rwxr-xr-x root       root            13900 ./usr/lib/libupm-l298.so.1.6.0
 lrwxrwxrwx root       root               20 ./usr/lib/libupm-l298.so.1 -> libupm-l298.so.1.6.0
 -rwxr-xr-x root       root            22092 ./usr/lib/libupm-l3gd20.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-l3gd20.so.1 -> libupm-l3gd20.so.1.6.0
@@ -400,7 +400,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/libupm-lm35.so.1 -> libupm
 lrwxrwxrwx root       root               19 ./usr/lib/libupm-lol.so.1 -> libupm-lol.so.1.6.0
 -rwxr-xr-x root       root             5712 ./usr/lib/libupm-loudness.so.1.6.0
 lrwxrwxrwx root       root               24 ./usr/lib/libupm-loudness.so.1 -> libupm-loudness.so.1.6.0
--rwxr-xr-x root       root            14012 ./usr/lib/libupm-lp8860.so.1.6.0
+-rwxr-xr-x root       root            18108 ./usr/lib/libupm-lp8860.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-lp8860.so.1 -> libupm-lp8860.so.1.6.0
 -rwxr-xr-x root       root             9804 ./usr/lib/libupm-lpd8806.so.1.6.0
 lrwxrwxrwx root       root               23 ./usr/lib/libupm-lpd8806.so.1 -> libupm-lpd8806.so.1.6.0
@@ -480,7 +480,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/libupm-ms5611.so.1 -> libu
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-ms5803.so.1 -> libupm-ms5803.so.1.6.0
 -rwxr-xr-x root       root             9860 ./usr/lib/libupm-my9221.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-my9221.so.1 -> libupm-my9221.so.1.6.0
--rwxr-xr-x root       root            18000 ./usr/lib/libupm-nlgpio16.so.1.6.0
+-rwxr-xr-x root       root            22096 ./usr/lib/libupm-nlgpio16.so.1.6.0
 lrwxrwxrwx root       root               24 ./usr/lib/libupm-nlgpio16.so.1 -> libupm-nlgpio16.so.1.6.0
 -rwxr-xr-x root       root             9808 ./usr/lib/libupm-nmea_gps.so.1.6.0
 lrwxrwxrwx root       root               24 ./usr/lib/libupm-nmea_gps.so.1 -> libupm-nmea_gps.so.1.6.0
@@ -548,7 +548,7 @@ lrwxrwxrwx root       root               26 ./usr/lib/libupm-smartdrive.so.1 -> 
 lrwxrwxrwx root       root               23 ./usr/lib/libupm-speaker.so.1 -> libupm-speaker.so.1.6.0
 -rwxr-xr-x root       root            18052 ./usr/lib/libupm-ssd1351.so.1.6.0
 lrwxrwxrwx root       root               23 ./usr/lib/libupm-ssd1351.so.1 -> libupm-ssd1351.so.1.6.0
--rwxr-xr-x root       root            13956 ./usr/lib/libupm-st7735.so.1.6.0
+-rwxr-xr-x root       root            18052 ./usr/lib/libupm-st7735.so.1.6.0
 lrwxrwxrwx root       root               22 ./usr/lib/libupm-st7735.so.1 -> libupm-st7735.so.1.6.0
 -rwxr-xr-x root       root            13904 ./usr/lib/libupm-stepmotor.so.1.6.0
 lrwxrwxrwx root       root               25 ./usr/lib/libupm-stepmotor.so.1 -> libupm-stepmotor.so.1.6.0

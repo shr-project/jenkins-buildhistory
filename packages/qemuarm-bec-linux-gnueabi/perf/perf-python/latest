@@ -1,9 +1,9 @@
 PV = 1.0
 PR = r9
-PKGV = 4.15.13
-PKGR = r9.0
+PKGV = 4.15.18
+PKGR = r9.1
 RPROVIDES = 
-RDEPENDS = bash glibc (>= 2.27) libgcc (>= 7.3.0) libunwind (>= 1.2.1) python python-modules
+RDEPENDS = bash glibc (>= 2.27) libgcc (>= 8.1.0) libunwind (>= 1.2.1) python python-modules
 RRECOMMENDS = 
 PKGSIZE = 380926
 FILES = /usr/lib/python2.7/site-packages /usr/libexec/perf-core/scripts/python

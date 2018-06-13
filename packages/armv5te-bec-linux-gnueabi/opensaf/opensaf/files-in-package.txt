@@ -44,8 +44,8 @@ drwxr-xr-x root       root              460 ./usr/bin
 -rwxr-xr-x root       root            14120 ./usr/bin/clmprint
 -rwxr-xr-x root       root             3781 ./usr/bin/clm-state
 -rwxr-xr-x root       root            18196 ./usr/bin/immadm
--rwxr-xr-x root       root            67704 ./usr/bin/immcfg
--rwxr-xr-x root       root            38668 ./usr/bin/immdump
+-rwxr-xr-x root       root            71800 ./usr/bin/immcfg
+-rwxr-xr-x root       root            42764 ./usr/bin/immdump
 -rwxr-xr-x root       root             9924 ./usr/bin/immfind
 -rwxr-xr-x root       root            14036 ./usr/bin/immlist
 -rwxr-xr-x root       root            14236 ./usr/bin/ntfread
@@ -78,7 +78,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/libmsg_common.so.0 -> libm
 lrwxrwxrwx root       root               21 ./usr/lib/libntfclient.so.0 -> libntfclient.so.0.0.0
 -rwxr-xr-x root       root            42472 ./usr/lib/libntf_common.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libntf_common.so.0 -> libntf_common.so.0.0.0
--rwxr-xr-x root       root           355764 ./usr/lib/libopensaf_core.so.0.2.0
+-rwxr-xr-x root       root           351668 ./usr/lib/libopensaf_core.so.0.2.0
 lrwxrwxrwx root       root               24 ./usr/lib/libopensaf_core.so.0 -> libopensaf_core.so.0.2.0
 -rwxr-xr-x root       root            63124 ./usr/lib/libosaf_common.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libosaf_common.so.0 -> libosaf_common.so.0.0.0
@@ -179,22 +179,22 @@ lrwxrwxrwx root       root               24 ./usr/lib/opensaf/libsmfsv_common.so
 -rwxr-xr-x root       root            95972 ./usr/lib/opensaf/osafckptd
 -rwxr-xr-x root       root           116368 ./usr/lib/opensaf/osafckptnd
 -rwxr-xr-x root       root           120580 ./usr/lib/opensaf/osafclmd
--rwxr-xr-x root       root            30388 ./usr/lib/opensaf/osafclmna
+-rwxr-xr-x root       root            26292 ./usr/lib/opensaf/osafclmna
 -rwxr-xr-x root       root           108164 ./usr/lib/opensaf/osafdtmd
 -rwxr-xr-x root       root            98184 ./usr/lib/opensaf/osafevtd
 -rwxr-xr-x root       root            34500 ./usr/lib/opensaf/osaffmd
 -rwxr-xr-x root       root            87676 ./usr/lib/opensaf/osafimmd
 -rwxr-xr-x root       root            55032 ./usr/lib/opensaf/osafimmloadd
 -rwxr-xr-x root       root           489232 ./usr/lib/opensaf/osafimmnd
--rwxr-xr-x root       root            59136 ./usr/lib/opensaf/osafimmpbed
+-rwxr-xr-x root       root            63232 ./usr/lib/opensaf/osafimmpbed
 -rwxr-xr-x root       root            50904 ./usr/lib/opensaf/osaflckd
 -rwxr-xr-x root       root            83632 ./usr/lib/opensaf/osaflcknd
 -rwxr-xr-x root       root           291008 ./usr/lib/opensaf/osaflogd
 -rwxr-xr-x root       root            73660 ./usr/lib/opensaf/osafmsgd
 -rwxr-xr-x root       root            83640 ./usr/lib/opensaf/osafmsgnd
--rwxr-xr-x root       root           157588 ./usr/lib/opensaf/osafntfd
+-rwxr-xr-x root       root           153492 ./usr/lib/opensaf/osafntfd
 -rwxr-xr-x root       root            30456 ./usr/lib/opensaf/osafrded
--rwxr-xr-x root       root           653116 ./usr/lib/opensaf/osafsmfd
+-rwxr-xr-x root       root           649020 ./usr/lib/opensaf/osafsmfd
 -rwxr-xr-x root       root            22196 ./usr/lib/opensaf/osafsmfnd
 -rwxr-xr-x root       root            26344 ./usr/lib/opensaf/osaftransportd
 -rwxr-xr-x root       root             1479 ./usr/lib/opensaf/plm_scale_out
@@ -204,7 +204,7 @@ lrwxrwxrwx root       root               24 ./usr/lib/opensaf/libsmfsv_common.so
 -rwxr-xr-x root       root             2400 ./usr/lib/opensaf/smf-node-check
 -rwxr-xr-x root       root             2763 ./usr/lib/opensaf/smf-repository-check
 drwxr-xr-x root       root               80 ./usr/sbin
--rwxr-xr-x root       root            22248 ./usr/sbin/amfclusterstatus
+-rwxr-xr-x root       root            26344 ./usr/sbin/amfclusterstatus
 -rwxr-xr-x root       root            14048 ./usr/sbin/amfpm
 drwxr-xr-x root       root               60 ./usr/share
 drwxr-xr-x root       root               80 ./usr/share/opensaf
