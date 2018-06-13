@@ -43,7 +43,7 @@ drwxr-xr-x root       root              500 ./usr/bin
 -rwxr-xr-x root       root            67840 ./usr/bin/ibv_asyncwatch
 -rwxr-xr-x root       root            67744 ./usr/bin/ibv_devices
 -rwxr-xr-x root       root            67904 ./usr/bin/ibv_devinfo
--rwxr-xr-x root       root            68192 ./usr/bin/ibv_rc_pingpong
+-rwxr-xr-x root       root            68224 ./usr/bin/ibv_rc_pingpong
 -rwxr-xr-x root       root            68168 ./usr/bin/ibv_srq_pingpong
 -rwxr-xr-x root       root            68128 ./usr/bin/ibv_uc_pingpong
 -rwxr-xr-x root       root            68096 ./usr/bin/ibv_ud_pingpong
@@ -51,7 +51,7 @@ drwxr-xr-x root       root              500 ./usr/bin
 -rwxr-xr-x root       root            67752 ./usr/bin/mckey
 -rwxr-xr-x root       root            67744 ./usr/bin/rcopy
 -rwxr-xr-x root       root            67760 ./usr/bin/rdma_client
--rwxr-xr-x root       root            67752 ./usr/bin/rdma_server
+-rwxr-xr-x root       root            67760 ./usr/bin/rdma_server
 -rwxr-xr-x root       root            67760 ./usr/bin/rdma_xclient
 -rwxr-xr-x root       root            67752 ./usr/bin/rdma_xserver
 -rwxr-xr-x root       root            67800 ./usr/bin/riostream
@@ -68,36 +68,36 @@ drwxr-xr-x root       root               60 ./usr/libexec/srp_daemon
 -rwxr-xr-x root       root             8706 ./usr/libexec/truescale-serdes.cmds
 drwxr-xr-x root       root               60 ./usr/lib/ibacm
 -rwxr-xr-x root       root            68184 ./usr/lib/ibacm/libibacmp.so
--rwxr-xr-x root       root            67680 ./usr/lib/libibumad.so.3.0.17.0
-lrwxrwxrwx root       root               21 ./usr/lib/libibumad.so.3 -> libibumad.so.3.0.17.0
+-rwxr-xr-x root       root            67680 ./usr/lib/libibumad.so.3.0.18.0
+lrwxrwxrwx root       root               21 ./usr/lib/libibumad.so.3 -> libibumad.so.3.0.18.0
 lrwxrwxrwx root       root               14 ./usr/lib/libibumad.so -> libibumad.so.3
 drwxr-xr-x root       root              340 ./usr/lib/libibverbs
--rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libbnxt_re-rdmav17.so
--rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/libcxgb3-rdmav17.so
--rwxr-xr-x root       root            67856 ./usr/lib/libibverbs/libcxgb4-rdmav17.so
--rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libhfi1verbs-rdmav17.so
--rwxr-xr-x root       root            67944 ./usr/lib/libibverbs/libhns-rdmav17.so
--rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libi40iw-rdmav17.so
--rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libipathverbs-rdmav17.so
-lrwxrwxrwx root       root               22 ./usr/lib/libibverbs/libmlx4-rdmav17.so -> ../libmlx4.so.1.0.17.0
-lrwxrwxrwx root       root               22 ./usr/lib/libibverbs/libmlx5-rdmav17.so -> ../libmlx5.so.1.4.17.0
--rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/libmthca-rdmav17.so
--rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/libnes-rdmav17.so
--rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libocrdma-rdmav17.so
--rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/libqedr-rdmav17.so
--rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/librxe-rdmav17.so
--rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libvmw_pvrdma-rdmav17.so
--rwxr-xr-x root       root           133344 ./usr/lib/libibverbs.so.1.1.17.0
-lrwxrwxrwx root       root               22 ./usr/lib/libibverbs.so.1 -> libibverbs.so.1.1.17.0
+-rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libbnxt_re-rdmav18.so
+-rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/libcxgb3-rdmav18.so
+-rwxr-xr-x root       root            67856 ./usr/lib/libibverbs/libcxgb4-rdmav18.so
+-rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libhfi1verbs-rdmav18.so
+-rwxr-xr-x root       root            67944 ./usr/lib/libibverbs/libhns-rdmav18.so
+-rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libi40iw-rdmav18.so
+-rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libipathverbs-rdmav18.so
+lrwxrwxrwx root       root               22 ./usr/lib/libibverbs/libmlx4-rdmav18.so -> ../libmlx4.so.1.0.18.0
+lrwxrwxrwx root       root               22 ./usr/lib/libibverbs/libmlx5-rdmav18.so -> ../libmlx5.so.1.5.18.0
+-rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/libmthca-rdmav18.so
+-rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/libnes-rdmav18.so
+-rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libocrdma-rdmav18.so
+-rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/libqedr-rdmav18.so
+-rwxr-xr-x root       root            67832 ./usr/lib/libibverbs/librxe-rdmav18.so
+-rwxr-xr-x root       root            67840 ./usr/lib/libibverbs/libvmw_pvrdma-rdmav18.so
+-rwxr-xr-x root       root           133344 ./usr/lib/libibverbs.so.1.1.18.0
+lrwxrwxrwx root       root               22 ./usr/lib/libibverbs.so.1 -> libibverbs.so.1.1.18.0
 lrwxrwxrwx root       root               15 ./usr/lib/libibverbs.so -> libibverbs.so.1
--rwxr-xr-x root       root            67832 ./usr/lib/libmlx4.so.1.0.17.0
-lrwxrwxrwx root       root               19 ./usr/lib/libmlx4.so.1 -> libmlx4.so.1.0.17.0
+-rwxr-xr-x root       root            67832 ./usr/lib/libmlx4.so.1.0.18.0
+lrwxrwxrwx root       root               19 ./usr/lib/libmlx4.so.1 -> libmlx4.so.1.0.18.0
 lrwxrwxrwx root       root               12 ./usr/lib/libmlx4.so -> libmlx4.so.1
--rwxr-xr-x root       root           133392 ./usr/lib/libmlx5.so.1.4.17.0
-lrwxrwxrwx root       root               19 ./usr/lib/libmlx5.so.1 -> libmlx5.so.1.4.17.0
+-rwxr-xr-x root       root           198928 ./usr/lib/libmlx5.so.1.5.18.0
+lrwxrwxrwx root       root               19 ./usr/lib/libmlx5.so.1 -> libmlx5.so.1.5.18.0
 lrwxrwxrwx root       root               12 ./usr/lib/libmlx5.so -> libmlx5.so.1
--rwxr-xr-x root       root           133424 ./usr/lib/librdmacm.so.1.1.17.0
-lrwxrwxrwx root       root               21 ./usr/lib/librdmacm.so.1 -> librdmacm.so.1.1.17.0
+-rwxr-xr-x root       root           133424 ./usr/lib/librdmacm.so.1.1.18.0
+lrwxrwxrwx root       root               21 ./usr/lib/librdmacm.so.1 -> librdmacm.so.1.1.18.0
 lrwxrwxrwx root       root               14 ./usr/lib/librdmacm.so -> librdmacm.so.1
 drwxr-xr-x root       root              100 ./usr/lib/rsocket
 -rwxr-xr-x root       root            67736 ./usr/lib/rsocket/librspreload.so
@@ -106,7 +106,7 @@ lrwxrwxrwx root       root               15 ./usr/lib/rsocket/librspreload.so.1 
 drwxr-xr-x root       root               60 ./usr/lib/systemd
 drwxr-xr-x root       root              180 ./usr/lib/systemd/system
 -rw-r--r-- root       root              815 ./usr/lib/systemd/system/ibacm.service
--rw-r--r-- root       root              498 ./usr/lib/systemd/system/ibacm.socket
+-rw-r--r-- root       root              493 ./usr/lib/systemd/system/ibacm.socket
 -rw-r--r-- root       root             1050 ./usr/lib/systemd/system/iwpmd.service
 -rw-r--r-- root       root              580 ./usr/lib/systemd/system/rdma-hw.target
 -rw-r--r-- root       root              881 ./usr/lib/systemd/system/rdma-load-modules@.service

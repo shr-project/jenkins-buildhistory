@@ -6,8 +6,8 @@ drwxr-xr-x root       root              220 ./usr/share/doc/rdma-core
 -rw-r--r-- root       root             1790 ./usr/share/doc/rdma-core/ibsrpdm.md
 -rw-r--r-- root       root             2173 ./usr/share/doc/rdma-core/libibverbs.md
 -rw-r--r-- root       root             1358 ./usr/share/doc/rdma-core/librdmacm.md
--rw-r--r-- root       root             5378 ./usr/share/doc/rdma-core/MAINTAINERS
--rw-r--r-- root       root             3489 ./usr/share/doc/rdma-core/README.md
+-rw-r--r-- root       root             5428 ./usr/share/doc/rdma-core/MAINTAINERS
+-rw-r--r-- root       root             3490 ./usr/share/doc/rdma-core/README.md
 -rw-r--r-- root       root              776 ./usr/share/doc/rdma-core/rxe.md
 -rw-r--r-- root       root            14402 ./usr/share/doc/rdma-core/tag_matching.md
 -rw-r--r-- root       root             5553 ./usr/share/doc/rdma-core/udev.md
@@ -15,7 +15,7 @@ drwxr-xr-x root       root              140 ./usr/share/man
 drwxr-xr-x root       root              540 ./usr/share/man/man1
 -rw-r--r-- root       root             1570 ./usr/share/man/man1/cmtime.1
 -rw-r--r-- root       root             8241 ./usr/share/man/man1/ibacm.1
--rw-r--r-- root       root             4172 ./usr/share/man/man1/ib_acme.1
+-rw-r--r-- root       root             4211 ./usr/share/man/man1/ib_acme.1
 -rw-r--r-- root       root              786 ./usr/share/man/man1/ibsrpdm.1
 -rw-r--r-- root       root              643 ./usr/share/man/man1/ibv_asyncwatch.1
 -rw-r--r-- root       root              382 ./usr/share/man/man1/ibv_devices.1
@@ -38,14 +38,14 @@ drwxr-xr-x root       root              540 ./usr/share/man/man1
 -rw-r--r-- root       root             2531 ./usr/share/man/man1/ucmatose.1
 -rw-r--r-- root       root             2158 ./usr/share/man/man1/udaddy.1
 -rw-r--r-- root       root             2022 ./usr/share/man/man1/udpong.1
-drwxr-xr-x root       root             3440 ./usr/share/man/man3
+drwxr-xr-x root       root             3300 ./usr/share/man/man3
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/ibv_ack_async_event.3 -> ibv_get_async_event.3
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/ibv_ack_cq_events.3 -> ibv_get_cq_event.3
+-rw-r--r-- root       root             3929 ./usr/share/man/man3/ibv_alloc_dm.3
 -rw-r--r-- root       root             1904 ./usr/share/man/man3/ibv_alloc_mw.3
--rw-r--r-- root       root             2054 ./usr/share/man/man3/ibv_alloc_parent_domain.3
+-rw-r--r-- root       root             2062 ./usr/share/man/man3/ibv_alloc_parent_domain.3
 -rw-r--r-- root       root             1114 ./usr/share/man/man3/ibv_alloc_pd.3
 -rw-r--r-- root       root             2002 ./usr/share/man/man3/ibv_alloc_td.3
--rw-r--r-- root       root             1553 ./usr/share/man/man3/ibv_attach_mcast.3
 -rw-r--r-- root       root             3412 ./usr/share/man/man3/ibv_bind_mw.3
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/ibv_close_device.3 -> ibv_open_device.3
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/ibv_close_xrcd.3 -> ibv_open_xrcd.3
@@ -54,9 +54,9 @@ lrwxrwxrwx root       root               15 ./usr/share/man/man3/ibv_close_xrcd.
 -rw-r--r-- root       root             1873 ./usr/share/man/man3/ibv_create_comp_channel.3
 -rw-r--r-- root       root             1837 ./usr/share/man/man3/ibv_create_cq.3
 -rw-r--r-- root       root             7711 ./usr/share/man/man3/ibv_create_cq_ex.3
--rw-r--r-- root       root             8106 ./usr/share/man/man3/ibv_create_flow.3
+-rw-r--r-- root       root             8835 ./usr/share/man/man3/ibv_create_flow.3
 -rw-r--r-- root       root             3183 ./usr/share/man/man3/ibv_create_qp.3
--rw-r--r-- root       root             5535 ./usr/share/man/man3/ibv_create_qp_ex.3
+-rw-r--r-- root       root             5577 ./usr/share/man/man3/ibv_create_qp_ex.3
 -rw-r--r-- root       root             2048 ./usr/share/man/man3/ibv_create_rwq_ind_table.3
 -rw-r--r-- root       root             2029 ./usr/share/man/man3/ibv_create_srq.3
 -rw-r--r-- root       root             2703 ./usr/share/man/man3/ibv_create_srq_ex.3
@@ -69,24 +69,24 @@ lrwxrwxrwx root       root               15 ./usr/share/man/man3/ibv_destroy_ah.
 lrwxrwxrwx root       root               25 ./usr/share/man/man3/ibv_destroy_comp_channel.3 -> ibv_create_comp_channel.3
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/ibv_destroy_cq.3 -> ibv_create_cq.3
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/ibv_destroy_flow.3 -> ibv_create_flow.3
+lrwxrwxrwx root       root               24 ./usr/share/man/man3/ibv_destroy_flow_action.3 -> ibv_create_flow_action.3
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/ibv_destroy_qp.3 -> ibv_create_qp.3
 lrwxrwxrwx root       root               26 ./usr/share/man/man3/ibv_destroy_rwq_ind_table.3 -> ibv_create_rwq_ind_table.3
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/ibv_destroy_srq.3 -> ibv_create_srq.3
 lrwxrwxrwx root       root               15 ./usr/share/man/man3/ibv_destroy_wq.3 -> ibv_create_wq.3
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/ibv_detach_mcast.3 -> ibv_attach_mcast.3
--rw-r--r-- root       root             1177 ./usr/share/man/man3/ibv_event_type_str.3
--rw-r--r-- root       root             1916 ./usr/share/man/man3/ibv_fork_init.3
 lrwxrwxrwx root       root               21 ./usr/share/man/man3/ibv_free_device_list.3 -> ibv_get_device_list.3
+lrwxrwxrwx root       root               14 ./usr/share/man/man3/ibv_free_dm.3 -> ibv_alloc_dm.3
 -rw-r--r-- root       root             4762 ./usr/share/man/man3/ibv_get_async_event.3
 -rw-r--r-- root       root             4847 ./usr/share/man/man3/ibv_get_cq_event.3
--rw-r--r-- root       root              737 ./usr/share/man/man3/ibv_get_device_guid.3
 -rw-r--r-- root       root             1911 ./usr/share/man/man3/ibv_get_device_list.3
--rw-r--r-- root       root              754 ./usr/share/man/man3/ibv_get_device_name.3
--rw-r--r-- root       root              977 ./usr/share/man/man3/ibv_get_srq_num.3
--rw-r--r-- root       root              864 ./usr/share/man/man3/ibv_inc_rkey.3
 lrwxrwxrwx root       root               23 ./usr/share/man/man3/ibv_init_ah_from_wc.3 -> ibv_create_ah_from_wc.3
+lrwxrwxrwx root       root               14 ./usr/share/man/man3/ibv_memcpy_from_dm.3 -> ibv_alloc_dm.3
+lrwxrwxrwx root       root               14 ./usr/share/man/man3/ibv_memcpy_to_dm.3 -> ibv_alloc_dm.3
 -rw-r--r-- root       root             1103 ./usr/share/man/man3/ibv_modify_cq.3
+lrwxrwxrwx root       root               24 ./usr/share/man/man3/ibv_modify_flow_action.3 -> ibv_create_flow_action.3
 -rw-r--r-- root       root             7514 ./usr/share/man/man3/ibv_modify_qp.3
+-rw-r--r-- root       root             2002 ./usr/share/man/man3/ibv_modify_qp_rate_limit.3
 -rw-r--r-- root       root             2035 ./usr/share/man/man3/ibv_modify_srq.3
 -rw-r--r-- root       root             1338 ./usr/share/man/man3/ibv_modify_wq.3
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/ibv_node_type_str.3 -> ibv_event_type_str.3
@@ -96,29 +96,23 @@ lrwxrwxrwx root       root               20 ./usr/share/man/man3/ibv_node_type_s
 -rw-r--r-- root       root             3257 ./usr/share/man/man3/ibv_poll_cq.3
 lrwxrwxrwx root       root               20 ./usr/share/man/man3/ibv_port_state_str.3 -> ibv_event_type_str.3
 -rw-r--r-- root       root             2532 ./usr/share/man/man3/ibv_post_recv.3
--rw-r--r-- root       root             6833 ./usr/share/man/man3/ibv_post_send.3
+-rw-r--r-- root       root             6961 ./usr/share/man/man3/ibv_post_send.3
 -rw-r--r-- root       root             3806 ./usr/share/man/man3/ibv_post_srq_ops.3
 -rw-r--r-- root       root             2365 ./usr/share/man/man3/ibv_post_srq_recv.3
 -rw-r--r-- root       root             5272 ./usr/share/man/man3/ibv_query_device.3
--rw-r--r-- root       root             6664 ./usr/share/man/man3/ibv_query_device_ex.3
--rw-r--r-- root       root              849 ./usr/share/man/man3/ibv_query_gid.3
--rw-r--r-- root       root              880 ./usr/share/man/man3/ibv_query_pkey.3
+-rw-r--r-- root       root             6767 ./usr/share/man/man3/ibv_query_device_ex.3
 -rw-r--r-- root       root             2513 ./usr/share/man/man3/ibv_query_port.3
 -rw-r--r-- root       root             4287 ./usr/share/man/man3/ibv_query_qp.3
 -rw-r--r-- root       root             1498 ./usr/share/man/man3/ibv_query_rt_values_ex.3
 -rw-r--r-- root       root             1414 ./usr/share/man/man3/ibv_query_srq.3
--rw-r--r-- root       root             1181 ./usr/share/man/man3/ibv_rate_to_mbps.3
--rw-r--r-- root       root             1266 ./usr/share/man/man3/ibv_rate_to_mult.3
--rw-r--r-- root       root             2296 ./usr/share/man/man3/ibv_reg_mr.3
--rw-r--r-- root       root             1533 ./usr/share/man/man3/ibv_req_notify_cq.3
--rw-r--r-- root       root             2506 ./usr/share/man/man3/ibv_rereg_mr.3
--rw-r--r-- root       root             1147 ./usr/share/man/man3/ibv_resize_cq.3
+lrwxrwxrwx root       root               14 ./usr/share/man/man3/ibv_reg_dm_mr.3 -> ibv_alloc_dm.3
+-rw-r--r-- root       root             2416 ./usr/share/man/man3/ibv_reg_mr.3
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/mbps_to_ibv_rate.3 -> ibv_rate_to_mbps.3
 -rw-r--r-- root       root             2583 ./usr/share/man/man3/mlx4dv_init_obj.3
 -rw-r--r-- root       root             1222 ./usr/share/man/man3/mlx4dv_query_device.3
 -rw-r--r-- root       root             1392 ./usr/share/man/man3/mlx5dv_get_clock_info.3
--rw-r--r-- root       root             2645 ./usr/share/man/man3/mlx5dv_init_obj.3
--rw-r--r-- root       root             3341 ./usr/share/man/man3/mlx5dv_query_device.3
+-rw-r--r-- root       root             2829 ./usr/share/man/man3/mlx5dv_init_obj.3
+-rw-r--r-- root       root             4061 ./usr/share/man/man3/mlx5dv_query_device.3
 -rw-r--r-- root       root             1022 ./usr/share/man/man3/mlx5dv_ts_to_ns.3
 lrwxrwxrwx root       root               18 ./usr/share/man/man3/mult_to_ibv_rate.3 -> ibv_rate_to_mult.3
 -rw-r--r-- root       root             4771 ./usr/share/man/man3/rdma_accept.3
@@ -189,10 +183,9 @@ lrwxrwxrwx root       root               11 ./usr/share/man/man3/umad_done.3 -> 
 -rw-r--r-- root       root              950 ./usr/share/man/man3/umad_get_mad_addr.3
 -rw-r--r-- root       root              618 ./usr/share/man/man3/umad_get_pkey.3
 -rw-r--r-- root       root             2431 ./usr/share/man/man3/umad_get_port.3
--rw-r--r-- root       root             1030 ./usr/share/man/man3/umad_init.3
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/umad_mad_status_str.3 -> umad_class_str.3
 lrwxrwxrwx root       root               16 ./usr/share/man/man3/umad_method_str.3 -> umad_class_str.3
--rw-r--r-- root       root             1051 ./usr/share/man/man3/umad_open_port.3
+-rw-r--r-- root       root             1103 ./usr/share/man/man3/umad_open_port.3
 -rw-r--r-- root       root             1179 ./usr/share/man/man3/umad_poll.3
 -rw-r--r-- root       root             2076 ./usr/share/man/man3/umad_recv.3
 -rw-r--r-- root       root             2278 ./usr/share/man/man3/umad_register2.3

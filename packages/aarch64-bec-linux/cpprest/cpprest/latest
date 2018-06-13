@@ -1,10 +1,10 @@
 PV = 2.10.2
 PR = r0
 PKG = libcpprest2.10
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = cpprest (=2.10.2)
-RDEPENDS = boost-system (>= 1.67.0) glibc (>= 2.27) libcrypto (>= 1.0.2o) libgcc (>= 7.3.0) libssl (>= 1.0.2o) libstdc++ (>= 7.3.0)
+RDEPENDS = boost-system (>= 1.67.0) glibc (>= 2.27) libcrypto (>= 1.0.2o) libgcc (>= 8.1.0) libssl (>= 1.0.2o) libstdc++ (>= 8.1.0)
 RRECOMMENDS = 
-PKGSIZE = 2886152
+PKGSIZE = 2820616
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cpprest /usr/lib/cpprest/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = /usr/lib/libcpprest.so.2.10

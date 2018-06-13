@@ -1,8 +1,8 @@
 PV = 8.42
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libgcc (>= 7.3.0) libpcre (>= 8.42) libpcreposix (>= 8.42) libstdc++ (>= 7.3.0)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libpcre (>= 8.42) libpcreposix (>= 8.42) libstdc++ (>= 8.1.0)
 RRECOMMENDS = ptest-runner
 PKGSIZE = 1942716
 FILES = /usr/lib/libpcre/ptest
