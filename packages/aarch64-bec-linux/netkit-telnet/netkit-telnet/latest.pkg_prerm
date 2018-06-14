@@ -1,1 +1,1 @@
-#!/bin/sh\nset -e\n    update-alternatives --remove telnet telnet.netkit-telnet 100\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --remove  telnet /usr/bin/telnet.netkit-telnet\n

@@ -1,1 +1,1 @@
-#!/bin/sh\nset -e\n    update-alternatives --install /usr/bin/telnet telnet telnet.netkit-telnet 100\n
+#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/telnet telnet /usr/bin/telnet.netkit-telnet 100\n
