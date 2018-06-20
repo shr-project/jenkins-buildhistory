@@ -1,0 +1,5 @@
+PV = 2.0.0+git
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = libnfs-dbg libnfs-staticdev libnfs-dev libnfs-doc libnfs-locale libnfs
+LAYER = multimedia-layer

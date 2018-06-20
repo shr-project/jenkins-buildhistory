@@ -1,0 +1,5 @@
+PV = 4.1.0+gitAUTOINC+550ef1d29d
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+PACKAGES = libfmt-dbg libfmt-staticdev libfmt-dev libfmt-doc libfmt-locale libfmt
+LAYER = multimedia-layer
