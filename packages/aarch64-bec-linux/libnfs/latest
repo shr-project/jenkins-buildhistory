@@ -1,0 +1,5 @@
+PV = 2.0.0+git
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = libnfs-dbg libnfs-staticdev libnfs-dev libnfs-doc libnfs-locale libnfs
+LAYER = multimedia-layer

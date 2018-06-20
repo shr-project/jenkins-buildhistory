@@ -1,15 +1,17 @@
 drwxr-xr-x root       root               80 ./etc
-drwxr-xr-x root       root               60 ./etc/default
+drwxr-xr-x root       root               80 ./etc/default
+-rw-r--r-- root       root              200 ./etc/default/syslog-ng@default
 drwxr-xr-x root       root               60 ./etc/default/volatiles
 -rwxr-xr-x root       root               41 ./etc/default/volatiles/03_syslog-ng
 drwxr-xr-x root       root              100 ./etc/syslog-ng
 drwxr-xr-x root       root               40 ./etc/syslog-ng/patterndb.d
 -rw-r--r-- root       root             1336 ./etc/syslog-ng/scl.conf
--rwxr-xr-x root       root             6058 ./etc/syslog-ng/syslog-ng.conf
+-rwxr-xr-x root       root             6053 ./etc/syslog-ng/syslog-ng.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root               80 ./lib/systemd/system
--rw-r--r-- root       root              190 ./lib/systemd/system/syslog-ng@default
+drwxr-xr-x root       root               60 ./lib/systemd/system/multi-user.target.wants
+lrwxrwxrwx root       root               21 ./lib/systemd/system/multi-user.target.wants/syslog-ng@default.service -> ../syslog-ng@.service
 -rw-r--r-- root       root              522 ./lib/systemd/system/syslog-ng@.service
 drwxr-xr-x root       root              120 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
