@@ -1,11 +1,18 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/include
-drwxr-xr-x root       root             7800 ./usr/include/upm
+drwxr-xr-x root       root             8000 ./usr/include/upm
 -rw-r--r-- root       root             2892 ./usr/include/upm/a110x.h
 -rw-r--r-- root       root             3186 ./usr/include/upm/a110x.hpp
 -rw-r--r-- root       root             4257 ./usr/include/upm/abp.h
 -rw-r--r-- root       root             4491 ./usr/include/upm/abp.hpp
+-rw-r--r-- root       root            11925 ./usr/include/upm/aci_cmds.h
+-rw-r--r-- root       root            11885 ./usr/include/upm/aci_evts.h
+-rw-r--r-- root       root            19983 ./usr/include/upm/aci.h
+-rw-r--r-- root       root             1475 ./usr/include/upm/acilib_defs.h
 -rw-r--r-- root       root             2662 ./usr/include/upm/acilib.h
+-rw-r--r-- root       root            18544 ./usr/include/upm/acilib_if.h
+-rw-r--r-- root       root             1298 ./usr/include/upm/acilib_types.h
+-rw-r--r-- root       root            10436 ./usr/include/upm/aci_protocol_defines.h
 -rw-r--r-- root       root             2857 ./usr/include/upm/aci_queue.h
 -rw-r--r-- root       root             2149 ./usr/include/upm/aci_setup.h
 -rw-r--r-- root       root             2602 ./usr/include/upm/ad8232.h
@@ -58,6 +65,7 @@ drwxr-xr-x root       root             7800 ./usr/include/upm
 -rw-r--r-- root       root            26171 ./usr/include/upm/bno055.h
 -rw-r--r-- root       root            27864 ./usr/include/upm/bno055.hpp
 -rw-r--r-- root       root            30869 ./usr/include/upm/bno055_regs.h
+-rw-r--r-- root       root             1737 ./usr/include/upm/boards.h
 -rw-r--r-- root       root           414247 ./usr/include/upm/bosch_bmi160.h
 -rw-r--r-- root       root             2833 ./usr/include/upm/button.h
 -rw-r--r-- root       root             2917 ./usr/include/upm/button.hpp
@@ -82,6 +90,7 @@ drwxr-xr-x root       root             7800 ./usr/include/upm
 -rw-r--r-- root       root             5111 ./usr/include/upm/ds18b20.h
 -rw-r--r-- root       root             7311 ./usr/include/upm/ds18b20.hpp
 -rw-r--r-- root       root             5604 ./usr/include/upm/ds2413.hpp
+-rw-r--r-- root       root             2804 ./usr/include/upm/dtm.h
 -rw-r--r-- root       root            12665 ./usr/include/upm/eboled.hpp
 -rw-r--r-- root       root             1744 ./usr/include/upm/ecezo_defs.h
 -rw-r--r-- root       root             9406 ./usr/include/upm/ecezo.h
@@ -170,7 +179,8 @@ drwxr-xr-x root       root              620 ./usr/include/upm/fti
 -rw-r--r-- root       root             3214 ./usr/include/upm/guvas12d.h
 -rw-r--r-- root       root             3705 ./usr/include/upm/guvas12d.hpp
 -rw-r--r-- root       root            17410 ./usr/include/upm/h3lis331dl.hpp
--rw-r--r-- root       root             6878 ./usr/include/upm/hal_aci_tl.h
+-rw-r--r-- root       root             6880 ./usr/include/upm/hal_aci_tl.h
+-rw-r--r-- root       root             2876 ./usr/include/upm/hal_platform.h
 -rw-r--r-- root       root             2476 ./usr/include/upm/hcsr04.h
 -rw-r--r-- root       root             2490 ./usr/include/upm/hcsr04.hpp
 -rw-r--r-- root       root             4805 ./usr/include/upm/hdc1000.hpp
@@ -207,8 +217,8 @@ drwxr-xr-x root       root              200 ./usr/include/upm/interfaces
 -rw-r--r-- root       root             7383 ./usr/include/upm/jhd1313m1.hpp
 -rw-r--r-- root       root             4908 ./usr/include/upm/joystick12.h
 -rw-r--r-- root       root             2905 ./usr/include/upm/joystick12.hpp
--rw-r--r-- root       root            20652 ./usr/include/upm/kx122.h
--rw-r--r-- root       root            16650 ./usr/include/upm/kx122.hpp
+-rw-r--r-- root       root            20689 ./usr/include/upm/kx122.h
+-rw-r--r-- root       root            16664 ./usr/include/upm/kx122.hpp
 -rw-r--r-- root       root            20396 ./usr/include/upm/kx122_registers.h
 -rw-r--r-- root       root             3974 ./usr/include/upm/kxcjk1013.hpp
 -rw-r--r-- root       root             5286 ./usr/include/upm/l298.hpp
@@ -316,10 +326,9 @@ drwxr-xr-x root       root              200 ./usr/include/upm/interfaces
 -rw-r--r-- root       root             5813 ./usr/include/upm/my9221.h
 -rw-r--r-- root       root             4399 ./usr/include/upm/my9221.hpp
 -rw-r--r-- root       root             8124 ./usr/include/upm/nlgpio16.hpp
--rw-r--r-- root       root             4901 ./usr/include/upm/nmea_gps.h
--rw-r--r-- root       root             4948 ./usr/include/upm/nmea_gps.hpp
+-rw-r--r-- root       root             5279 ./usr/include/upm/nmea_gps.h
+-rw-r--r-- root       root            16333 ./usr/include/upm/nmea_gps.hpp
 -rw-r--r-- root       root            11349 ./usr/include/upm/nrf24l01.hpp
--rw-r--r-- root       root             2369 ./usr/include/upm/nrf8001.hpp
 -rw-r--r-- root       root             3643 ./usr/include/upm/nunchuck.h
 -rw-r--r-- root       root             3405 ./usr/include/upm/nunchuck.hpp
 -rw-r--r-- root       root             3756 ./usr/include/upm/o2.h
@@ -398,6 +407,7 @@ drwxr-xr-x root       root              200 ./usr/include/upm/interfaces
 -rw-r--r-- root       root             2042 ./usr/include/upm/uartat_defs.h
 -rw-r--r-- root       root            10454 ./usr/include/upm/uartat.h
 -rw-r--r-- root       root            10082 ./usr/include/upm/uartat.hpp
+-rw-r--r-- root       root             2614 ./usr/include/upm/uart_over_ble.h
 -rw-r--r-- root       root             1426 ./usr/include/upm/uln200xa_defs.h
 -rw-r--r-- root       root             3502 ./usr/include/upm/uln200xa.h
 -rw-r--r-- root       root             3572 ./usr/include/upm/uln200xa.hpp
