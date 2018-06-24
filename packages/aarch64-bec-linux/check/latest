@@ -1,0 +1,5 @@
+PV = 0.12.0+gitAUTOINC+285d04b3d4
+PR = r0
+DEPENDS = cmake-native ninja-native virtual/aarch64-bec-linux-compilerlibs virtual/aarch64-bec-linux-gcc virtual/libc
+PACKAGES = check-dbg check-staticdev check-dev check-doc check-locale check
+LAYER = openembedded-layer
