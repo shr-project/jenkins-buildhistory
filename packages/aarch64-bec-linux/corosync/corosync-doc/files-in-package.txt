@@ -26,12 +26,12 @@ drwxr-xr-x root       root             1940 ./usr/share/doc/corosync/html
 -rw-r--r-- root       root             2449 ./usr/share/doc/corosync/html/corosync-blackbox.8.html
 -rw-r--r-- root       root             3762 ./usr/share/doc/corosync/html/corosync-cfgtool.8.html
 -rw-r--r-- root       root             3983 ./usr/share/doc/corosync/html/corosync-cmapctl.8.html
--rw-r--r-- root       root            33539 ./usr/share/doc/corosync/html/corosync.conf.5.html
+-rw-r--r-- root       root            34261 ./usr/share/doc/corosync/html/corosync.conf.5.html
 -rw-r--r-- root       root             3492 ./usr/share/doc/corosync/html/corosync-cpgtool.8.html
 -rw-r--r-- root       root             4440 ./usr/share/doc/corosync/html/corosync-keygen.8.html
 -rw-r--r-- root       root             5609 ./usr/share/doc/corosync/html/corosync-notifyd.8.html
 -rw-r--r-- root       root             9610 ./usr/share/doc/corosync/html/corosync_overview.8.html
--rw-r--r-- root       root            20708 ./usr/share/doc/corosync/html/corosync-qdevice.8.html
+-rw-r--r-- root       root            20990 ./usr/share/doc/corosync/html/corosync-qdevice.8.html
 -rw-r--r-- root       root             4208 ./usr/share/doc/corosync/html/corosync-qdevice-net-certutil.8.html
 -rw-r--r-- root       root             5266 ./usr/share/doc/corosync/html/corosync-qdevice-tool.8.html
 -rw-r--r-- root       root            11136 ./usr/share/doc/corosync/html/corosync-qnetd.8.html
@@ -50,7 +50,7 @@ drwxr-xr-x root       root             1940 ./usr/share/doc/corosync/html
 -rw-r--r-- root       root             4497 ./usr/share/doc/corosync/html/cpg_join.3.html
 -rw-r--r-- root       root             3766 ./usr/share/doc/corosync/html/cpg_leave.3.html
 -rw-r--r-- root       root             3158 ./usr/share/doc/corosync/html/cpg_local_get.3.html
--rw-r--r-- root       root             5568 ./usr/share/doc/corosync/html/cpg_mcast_joined.3.html
+-rw-r--r-- root       root             5573 ./usr/share/doc/corosync/html/cpg_mcast_joined.3.html
 -rw-r--r-- root       root             3714 ./usr/share/doc/corosync/html/cpg_membership_get.3.html
 -rw-r--r-- root       root             7846 ./usr/share/doc/corosync/html/cpg_model_initialize.3.html
 -rw-r--r-- root       root             2903 ./usr/share/doc/corosync/html/cpg_overview.8.html
@@ -64,9 +64,9 @@ drwxr-xr-x root       root             1940 ./usr/share/doc/corosync/html
 -rw-r--r-- root       root             3322 ./usr/share/doc/corosync/html/quorum_fd_get.3.html
 -rw-r--r-- root       root             3203 ./usr/share/doc/corosync/html/quorum_finalize.3.html
 -rw-r--r-- root       root             3147 ./usr/share/doc/corosync/html/quorum_getquorate.3.html
--rw-r--r-- root       root             4858 ./usr/share/doc/corosync/html/quorum_initialize.3.html
+-rw-r--r-- root       root             4859 ./usr/share/doc/corosync/html/quorum_initialize.3.html
 -rw-r--r-- root       root             2301 ./usr/share/doc/corosync/html/quorum_overview.8.html
--rw-r--r-- root       root             3736 ./usr/share/doc/corosync/html/quorum_trackstart.3.html
+-rw-r--r-- root       root             3737 ./usr/share/doc/corosync/html/quorum_trackstart.3.html
 -rw-r--r-- root       root             3047 ./usr/share/doc/corosync/html/quorum_trackstop.3.html
 -rw-r--r-- root       root             3300 ./usr/share/doc/corosync/html/sam_data_getsize.3.html
 -rw-r--r-- root       root             3858 ./usr/share/doc/corosync/html/sam_data_restore.3.html
@@ -97,7 +97,7 @@ drwxr-xr-x root       root             1940 ./usr/share/doc/corosync/html
 -rw-r--r-- root       root             3676 ./usr/share/doc/corosync/html/votequorum_qdevice_update.3.html
 -rw-r--r-- root       root             3512 ./usr/share/doc/corosync/html/votequorum_setexpected.3.html
 -rw-r--r-- root       root             3335 ./usr/share/doc/corosync/html/votequorum_setvotes.3.html
--rw-r--r-- root       root             4045 ./usr/share/doc/corosync/html/votequorum_trackstart.3.html
+-rw-r--r-- root       root             4046 ./usr/share/doc/corosync/html/votequorum_trackstart.3.html
 -rw-r--r-- root       root             3177 ./usr/share/doc/corosync/html/votequorum_trackstop.3.html
 -rw-r--r-- root       root             8786 ./usr/share/doc/corosync/INSTALL
 -rw-r--r-- root       root             3147 ./usr/share/doc/corosync/LICENSE
@@ -133,7 +133,7 @@ drwxr-xr-x root       root             1460 ./usr/share/man/man3
 -rw-r--r-- root       root             4183 ./usr/share/man/man3/cpg_join.3
 -rw-r--r-- root       root             3598 ./usr/share/man/man3/cpg_leave.3
 -rw-r--r-- root       root             3147 ./usr/share/man/man3/cpg_local_get.3
--rw-r--r-- root       root             5039 ./usr/share/man/man3/cpg_mcast_joined.3
+-rw-r--r-- root       root             5043 ./usr/share/man/man3/cpg_mcast_joined.3
 -rw-r--r-- root       root             3684 ./usr/share/man/man3/cpg_membership_get.3
 -rw-r--r-- root       root             7033 ./usr/share/man/man3/cpg_model_initialize.3
 -rw-r--r-- root       root             3620 ./usr/share/man/man3/cpg_zcb_alloc.3
@@ -145,8 +145,8 @@ drwxr-xr-x root       root             1460 ./usr/share/man/man3
 -rw-r--r-- root       root             3246 ./usr/share/man/man3/quorum_fd_get.3
 -rw-r--r-- root       root             3151 ./usr/share/man/man3/quorum_finalize.3
 -rw-r--r-- root       root             3083 ./usr/share/man/man3/quorum_getquorate.3
--rw-r--r-- root       root             4345 ./usr/share/man/man3/quorum_initialize.3
--rw-r--r-- root       root             3484 ./usr/share/man/man3/quorum_trackstart.3
+-rw-r--r-- root       root             4346 ./usr/share/man/man3/quorum_initialize.3
+-rw-r--r-- root       root             3485 ./usr/share/man/man3/quorum_trackstart.3
 -rw-r--r-- root       root             2998 ./usr/share/man/man3/quorum_trackstop.3
 -rw-r--r-- root       root             3120 ./usr/share/man/man3/sam_data_getsize.3
 -rw-r--r-- root       root             3528 ./usr/share/man/man3/sam_data_restore.3
@@ -174,10 +174,10 @@ drwxr-xr-x root       root             1460 ./usr/share/man/man3
 -rw-r--r-- root       root             3576 ./usr/share/man/man3/votequorum_qdevice_update.3
 -rw-r--r-- root       root             3450 ./usr/share/man/man3/votequorum_setexpected.3
 -rw-r--r-- root       root             3265 ./usr/share/man/man3/votequorum_setvotes.3
--rw-r--r-- root       root             3725 ./usr/share/man/man3/votequorum_trackstart.3
+-rw-r--r-- root       root             3726 ./usr/share/man/man3/votequorum_trackstart.3
 -rw-r--r-- root       root             3120 ./usr/share/man/man3/votequorum_trackstop.3
 drwxr-xr-x root       root               80 ./usr/share/man/man5
--rw-r--r-- root       root            25084 ./usr/share/man/man5/corosync.conf.5
+-rw-r--r-- root       root            25558 ./usr/share/man/man5/corosync.conf.5
 -rw-r--r-- root       root            13270 ./usr/share/man/man5/votequorum.5
 drwxr-xr-x root       root              460 ./usr/share/man/man8
 -rw-r--r-- root       root            11529 ./usr/share/man/man8/cmap_keys.8
@@ -190,7 +190,7 @@ drwxr-xr-x root       root              460 ./usr/share/man/man8
 -rw-r--r-- root       root             3837 ./usr/share/man/man8/corosync-keygen.8
 -rw-r--r-- root       root             4406 ./usr/share/man/man8/corosync-notifyd.8
 -rw-r--r-- root       root             8158 ./usr/share/man/man8/corosync_overview.8
--rw-r--r-- root       root            14493 ./usr/share/man/man8/corosync-qdevice.8
+-rw-r--r-- root       root            14670 ./usr/share/man/man8/corosync-qdevice.8
 -rw-r--r-- root       root             3403 ./usr/share/man/man8/corosync-qdevice-net-certutil.8
 -rw-r--r-- root       root             4514 ./usr/share/man/man8/corosync-qdevice-tool.8
 -rw-r--r-- root       root             7734 ./usr/share/man/man8/corosync-qnetd.8
