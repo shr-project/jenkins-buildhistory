@@ -17,8 +17,8 @@ drwxr-xr-x root       root              320 ./usr/bin/.debug
 -rwxr-xr-x root       root           137788 ./usr/bin/.debug/db_verify
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/.debug
--rwxr-xr-x root       root         10179728 ./usr/lib/.debug/libdb-5.3.so
--rwxr-xr-x root       root         11294984 ./usr/lib/.debug/libdb_cxx-5.3.so
+-rwxr-xr-x root       root         10195488 ./usr/lib/.debug/libdb-5.3.so
+-rwxr-xr-x root       root         11310736 ./usr/lib/.debug/libdb_cxx-5.3.so
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/db
@@ -120,7 +120,7 @@ drwxr-xr-x root       root              760 ./usr/src/debug/db/1_5.3.28-r1/db-5.
 -rw-r--r-- root       root            13342 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/db/db_upg.c
 -rw-r--r-- root       root             8397 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/db/db_upg_opd.c
 -rw-r--r-- root       root             2355 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/db/db_vrfy_stub.c
-drwxr-xr-x root       root              600 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc
+drwxr-xr-x root       root              620 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc
 -rw-r--r-- root       root             6618 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/atomic.h
 drwxr-xr-x root       root              580 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc_auto
 -rw-r--r-- root       root            13876 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc_auto/btree_auto.h
@@ -169,7 +169,8 @@ drwxr-xr-x root       root              580 ./usr/src/debug/db/1_5.3.28-r1/db-5.
 -rw-r--r-- root       root            16093 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/log.h
 -rw-r--r-- root       root             6827 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/log_verify.h
 -rw-r--r-- root       root            24408 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/mp.h
--rw-r--r-- root       root            34874 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/mutex_int.h
+-rw-r--r-- root       root             9742 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/mutex.h
+-rw-r--r-- root       root            33995 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/mutex_int.h
 -rw-r--r-- root       root             5252 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/os.h
 -rw-r--r-- root       root             1338 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/partition.h
 -rw-r--r-- root       root             5621 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/dbinc/qam.h
@@ -280,9 +281,9 @@ drwxr-xr-x root       root              160 ./usr/src/debug/db/1_5.3.28-r1/db-5.
 -rw-r--r-- root       root             7568 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/mutex/mut_alloc.c
 -rw-r--r-- root       root             1598 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/mutex/mut_failchk.c
 -rw-r--r-- root       root             9453 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/mutex/mut_method.c
+-rw-r--r-- root       root            20643 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/mutex/mut_pthread.c
 -rw-r--r-- root       root            13365 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/mutex/mut_region.c
 -rw-r--r-- root       root            14961 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/mutex/mut_stat.c
--rw-r--r-- root       root            15467 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/mutex/mut_tas.c
 drwxr-xr-x root       root              660 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/os
 -rw-r--r-- root       root              561 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/os/os_abort.c
 -rw-r--r-- root       root              395 ./usr/src/debug/db/1_5.3.28-r1/db-5.3.28/src/os/os_abs.c
