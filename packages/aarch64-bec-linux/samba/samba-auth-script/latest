@@ -1,8 +1,8 @@
 PV = 4.7.6
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libauth-samba4 (>= 4.7.6) libbsd (>= 0.8.7) libsamba-debug-samba4 (>= 4.7.6) libsmbconf (>= 4.7.6) libtalloc (>= 2.1.11)
+RDEPENDS = glibc (>= 2.27) libauth-samba4 (>= 4.7.6) libbsd (>= 0.9.1) libsamba-debug-samba4 (>= 4.7.6) libsmbconf (>= 4.7.6) libtalloc (>= 2.1.11)
 RRECOMMENDS = 
 PKGSIZE = 9976
 FILES = /usr/lib/samba/auth/script.so
