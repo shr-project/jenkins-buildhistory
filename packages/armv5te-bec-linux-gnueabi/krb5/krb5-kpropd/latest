@@ -1,8 +1,8 @@
-PV = 1.16
+PV = 1.16.1
 PR = r0
-PKGR = r0.6
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) krb5-kdc libcomerr (>= 1.43.8) libgssrpc (>= 1.16) libk5crypto (>= 1.16) libkadm5clnt-mit (>= 1.16) libkdb5 (>= 1.16) libkrb5 (>= 1.16) libkrb5support (>= 1.16)
+RDEPENDS = glibc (>= 2.27) krb5-kdc libcomerr (>= 1.43.8) libgssrpc (>= 1.16.1) libk5crypto (>= 1.16.1) libkadm5clnt-mit (>= 1.16.1) libkdb5 (>= 1.16.1) libkrb5 (>= 1.16.1) libkrb5support (>= 1.16.1)
 RRECOMMENDS = 
 PKGSIZE = 30356
 FILES = /usr/sbin/kpropd
