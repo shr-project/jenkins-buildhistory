@@ -1,9 +1,9 @@
-PV = 9.10.6
+PV = 9.11.3
 PR = r0
-PKGR = r0.5
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = bind-libs (>= 9.10.6) glibc (>= 2.27)
+RDEPENDS = bash bind-libs (>= 9.11.3) glibc (>= 2.27)
 RRECOMMENDS = 
-PKGSIZE = 267504
-FILES = /usr/bin/host /usr/bin/dig
-FILELIST = /usr/bin/dig /usr/bin/host
+PKGSIZE = 335416
+FILES = /usr/bin/host /usr/bin/dig /usr/bin/mdig
+FILELIST = /usr/bin/dig /usr/bin/host /usr/bin/mdig

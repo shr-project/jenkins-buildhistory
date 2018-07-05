@@ -1,9 +1,9 @@
-PV = 4.7.6
+PV = 4.7.8
 PR = r0
 PKG = libdcerpc0
-PKGR = r0.6
-RPROVIDES = libdcerpc (=4.7.6)
-RDEPENDS = glibc (>= 2.27) libauthkrb5-samba4 (>= 4.7.6) libcli-cldap-samba4 (>= 4.7.6) libcli-ldap-samba4 (>= 4.7.6) libcli-smb-common-samba4 (>= 4.7.6) libcliauth-samba4 (>= 4.7.6) libdcerpc-binding (>= 4.7.6) libdcerpc-samba-samba4 (>= 4.7.6) libgenrand-samba4 (>= 4.7.6) libgensec-samba4 (>= 4.7.6) libhttp-samba4 (>= 4.7.6) libndr (>= 4.7.6) libndr-nbt (>= 4.7.6) libndr-samba-samba4 (>= 4.7.6) libndr-standard (>= 4.7.6) libsamba-credentials (>= 4.7.6) libsamba-debug-samba4 (>= 4.7.6) libsamba-errors (>= 4.7.6) libsamba-hostconfig (>= 4.7.6) libsamba-security-samba4 (>= 4.7.6) libsamba-sockets-samba4 (>= 4.7.6) libsamba-util (>= 4.7.6) libsmbclient-raw-samba4 (>= 4.7.6) libtalloc (>= 2.1.11) libtevent (>= 0.9.36) libtevent-util (>= 4.7.6) samba-common
+PKGR = r0.0
+RPROVIDES = libdcerpc (=4.7.8)
+RDEPENDS = glibc (>= 2.27) libauthkrb5-samba4 (>= 4.7.8) libcli-cldap-samba4 (>= 4.7.8) libcli-ldap-samba4 (>= 4.7.8) libcli-smb-common-samba4 (>= 4.7.8) libcliauth-samba4 (>= 4.7.8) libdcerpc-binding (>= 4.7.8) libdcerpc-samba-samba4 (>= 4.7.8) libgenrand-samba4 (>= 4.7.8) libgensec-samba4 (>= 4.7.8) libhttp-samba4 (>= 4.7.8) libndr (>= 4.7.8) libndr-nbt (>= 4.7.8) libndr-samba-samba4 (>= 4.7.8) libndr-standard (>= 4.7.8) libsamba-credentials (>= 4.7.8) libsamba-debug-samba4 (>= 4.7.8) libsamba-errors (>= 4.7.8) libsamba-hostconfig (>= 4.7.8) libsamba-security-samba4 (>= 4.7.8) libsamba-sockets-samba4 (>= 4.7.8) libsamba-util (>= 4.7.8) libsmbclient-raw-samba4 (>= 4.7.8) libtalloc (>= 2.1.11) libtevent (>= 0.9.36) libtevent-util (>= 4.7.8) samba-common
 RRECOMMENDS = 
 PKGSIZE = 206762
 FILES = /usr/lib/libdcerpc.so.0 /usr/lib/libdcerpc.so.0.0.1

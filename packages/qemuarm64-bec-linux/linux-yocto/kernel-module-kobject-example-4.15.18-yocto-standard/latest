@@ -1,0 +1,10 @@
+PV = 4.15.18+gitAUTOINC+45c256a5ca_e25dbfe953
+PR = r0
+PKGV = 4.15.18+git0+45c256a5ca_e25dbfe953
+PKGR = r0.19
+RPROVIDES = kernel-module-kobject-example
+RDEPENDS = kernel-4.15.18-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7408
+FILES = /lib/modules/4.15.18-yocto-standard/kernel/samples/kobject/kobject-example.ko /etc/modules-load.d/kobject-example.conf /etc/modprobe.d/kobject-example.conf
+FILELIST = /lib/modules/4.15.18-yocto-standard/kernel/samples/kobject/kobject-example.ko

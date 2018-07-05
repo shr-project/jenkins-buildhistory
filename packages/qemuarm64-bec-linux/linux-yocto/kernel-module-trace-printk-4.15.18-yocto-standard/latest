@@ -1,0 +1,10 @@
+PV = 4.15.18+gitAUTOINC+45c256a5ca_e25dbfe953
+PR = r0
+PKGV = 4.15.18+git0+45c256a5ca_e25dbfe953
+PKGR = r0.19
+RPROVIDES = kernel-module-trace-printk
+RDEPENDS = kernel-4.15.18-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 8128
+FILES = /lib/modules/4.15.18-yocto-standard/kernel/samples/trace_printk/trace-printk.ko /etc/modules-load.d/trace-printk.conf /etc/modprobe.d/trace-printk.conf
+FILELIST = /lib/modules/4.15.18-yocto-standard/kernel/samples/trace_printk/trace-printk.ko

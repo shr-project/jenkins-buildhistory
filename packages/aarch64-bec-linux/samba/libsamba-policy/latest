@@ -1,9 +1,9 @@
-PV = 4.7.6
+PV = 4.7.8
 PR = r0
 PKG = libsamba-policy0
-PKGR = r0.6
-RPROVIDES = libsamba-policy (=4.7.6)
-RDEPENDS = glibc (>= 2.27) libcli-ldap-common-samba4 (>= 4.7.6) libcli-ldap-samba4 (>= 4.7.6) libdcerpc (>= 4.7.6) libldb (>= 1.3.1) libldbsamba-samba4 (>= 4.7.6) libndr (>= 4.7.6) libsamba-debug-samba4 (>= 4.7.6) libsamba-hostconfig (>= 4.7.6) libsamba-net-samba4 (>= 4.7.6) libsamba-security-samba4 (>= 4.7.6) libsamba-util (>= 4.7.6) libsmbclient-raw-samba4 (>= 4.7.6) libtalloc (>= 2.1.11) samba-common
+PKGR = r0.0
+RPROVIDES = libsamba-policy (=4.7.8)
+RDEPENDS = glibc (>= 2.27) libcli-ldap-common-samba4 (>= 4.7.8) libcli-ldap-samba4 (>= 4.7.8) libdcerpc (>= 4.7.8) libldb (>= 1.3.1) libldbsamba-samba4 (>= 4.7.8) libndr (>= 4.7.8) libsamba-debug-samba4 (>= 4.7.8) libsamba-hostconfig (>= 4.7.8) libsamba-net-samba4 (>= 4.7.8) libsamba-security-samba4 (>= 4.7.8) libsamba-util (>= 4.7.8) libsmbclient-raw-samba4 (>= 4.7.8) libtalloc (>= 2.1.11) samba-common
 RRECOMMENDS = 
 PKGSIZE = 59344
 FILES = /usr/lib/libsamba-policy.so.0 /usr/lib/libsamba-policy.so.0.0.1

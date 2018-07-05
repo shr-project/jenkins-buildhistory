@@ -1,0 +1,10 @@
+PV = 4.15.18+gitAUTOINC+45c256a5ca_e25dbfe953
+PR = r0
+PKGV = 4.15.18+git0+45c256a5ca_e25dbfe953
+PKGR = r0.19
+RPROVIDES = kernel-module-kprobe-example
+RDEPENDS = kernel-4.15.18-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 7168
+FILES = /lib/modules/4.15.18-yocto-standard/kernel/samples/kprobes/kprobe_example.ko /etc/modules-load.d/kprobe_example.conf /etc/modprobe.d/kprobe_example.conf
+FILELIST = /lib/modules/4.15.18-yocto-standard/kernel/samples/kprobes/kprobe_example.ko

@@ -63,7 +63,7 @@ lrwxrwxrwx root       root               10 ./usr/share/man/man3/ldap_add_s.3 ->
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/ldap_attributetype2name.3 -> ldap_schema.3
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/ldap_attributetype2str.3 -> ldap_schema.3
 lrwxrwxrwx root       root               13 ./usr/share/man/man3/ldap_attributetype_free.3 -> ldap_schema.3
--rw-r--r-- root       root            11869 ./usr/share/man/man3/ldap_bind.3
+-rw-r--r-- root       root            12030 ./usr/share/man/man3/ldap_bind.3
 lrwxrwxrwx root       root               11 ./usr/share/man/man3/ldap_bind_s.3 -> ldap_bind.3
 -rw-r--r-- root       root             2787 ./usr/share/man/man3/ldap_compare.3
 lrwxrwxrwx root       root               14 ./usr/share/man/man3/ldap_compare_ext.3 -> ldap_compare.3
@@ -195,18 +195,17 @@ lrwxrwxrwx root       root               10 ./usr/share/man/man3/ldap_url_parse.
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/ldap_value_free.3 -> ldap_get_values.3
 lrwxrwxrwx root       root               17 ./usr/share/man/man3/ldap_value_free_len.3 -> ldap_get_values.3
 lrwxrwxrwx root       root               12 ./usr/share/man/man3/ld_errno.3 -> ldap_error.3
-drwxr-xr-x root       root              960 ./usr/share/man/man5
--rw-r--r-- root       root            16900 ./usr/share/man/man5/ldap.conf.5
+drwxr-xr-x root       root              940 ./usr/share/man/man5
+-rw-r--r-- root       root            16838 ./usr/share/man/man5/ldap.conf.5
 -rw-r--r-- root       root             6734 ./usr/share/man/man5/ldif.5
 -rw-r--r-- root       root            29034 ./usr/share/man/man5/slapd.access.5
 -rw-r--r-- root       root             5036 ./usr/share/man/man5/slapd.backends.5
 -rw-r--r-- root       root            10674 ./usr/share/man/man5/slapd-bdb.5
 -rw-r--r-- root       root            66509 ./usr/share/man/man5/slapd.conf.5
--rw-r--r-- root       root            67633 ./usr/share/man/man5/slapd-config.5
+-rw-r--r-- root       root            67637 ./usr/share/man/man5/slapd-config.5
 -rw-r--r-- root       root             1595 ./usr/share/man/man5/slapd-dnssrv.5
 lrwxrwxrwx root       root               11 ./usr/share/man/man5/slapd-hdb.5 -> slapd-bdb.5
--rw-r--r-- root       root            23295 ./usr/share/man/man5/slapd-ldap.5
--rw-r--r-- root       root              827 ./usr/share/man/man5/slapd-ldbm.5
+-rw-r--r-- root       root            23473 ./usr/share/man/man5/slapd-ldap.5
 -rw-r--r-- root       root             1584 ./usr/share/man/man5/slapd-ldif.5
 -rw-r--r-- root       root             7623 ./usr/share/man/man5/slapd-mdb.5
 -rw-r--r-- root       root            44886 ./usr/share/man/man5/slapd-meta.5
@@ -238,7 +237,7 @@ lrwxrwxrwx root       root               11 ./usr/share/man/man5/slapd-hdb.5 -> 
 -rw-r--r-- root       root            23791 ./usr/share/man/man5/slapo-rwm.5
 lrwxrwxrwx root       root               12 ./usr/share/man/man5/slapo-sock.5 -> slapd-sock.5
 -rw-r--r-- root       root             2054 ./usr/share/man/man5/slapo-sssvlv.5
--rw-r--r-- root       root             2966 ./usr/share/man/man5/slapo-syncprov.5
+-rw-r--r-- root       root             2968 ./usr/share/man/man5/slapo-syncprov.5
 -rw-r--r-- root       root             4661 ./usr/share/man/man5/slapo-translucent.5
 -rw-r--r-- root       root             5103 ./usr/share/man/man5/slapo-unique.5
 -rw-r--r-- root       root             3004 ./usr/share/man/man5/slapo-valsort.5
