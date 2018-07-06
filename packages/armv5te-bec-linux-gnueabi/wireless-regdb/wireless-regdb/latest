@@ -1,10 +1,11 @@
-PV = 2016.06.10
+PV = 2018.05.31
 PR = r0
-PKGR = r0.8
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
 RSUGGESTS = crda
-PKGSIZE = 5419
+RCONFLICTS = wireless-regdb-static
+PKGSIZE = 6199
 FILES = /
 FILELIST = /etc/wireless-regdb/pubkeys/sforshee.key.pub.pem /usr/lib/crda/regulatory.bin
