@@ -1,11 +1,11 @@
-PV = 0.10+gitAUTOINC+369127c0ed
+PV = 1.3+gitAUTOINC+b0dcf6f457
 PR = r0
 PKG = libbytesize1
-PKGV = 0.10+git0+369127c0ed
-PKGR = r0.7
-RPROVIDES = libbytesize (=0.10+git0+369127c0ed)
+PKGV = 1.3+git0+b0dcf6f457
+PKGR = r0.0
+RPROVIDES = libbytesize (=1.3+git0+b0dcf6f457)
 RDEPENDS = glibc (>= 2.27) gmp (>= 6.1.2) libpcre (>= 8.42) mpfr (>= 3.1.5) python3
 RRECOMMENDS = 
-PKGSIZE = 39285
+PKGSIZE = 39385
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libbytesize /usr/lib/libbytesize/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/python3.5/site-packages/bytesize
 FILELIST = /usr/lib/libbytesize.so.1 /usr/lib/libbytesize.so.1.0.0 /usr/lib/python3.5/site-packages/bytesize/__init__.py /usr/lib/python3.5/site-packages/bytesize/bytesize.py

@@ -726,7 +726,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.27-r0/git/li
 -rw-r--r-- root       root             1170 ./usr/src/debug/glibc/2.27-r0/git/libio/wprintf.c
 -rw-r--r-- root       root             1181 ./usr/src/debug/glibc/2.27-r0/git/libio/wscanf.c
 -rw-r--r-- root       root            11687 ./usr/src/debug/glibc/2.27-r0/git/libio/wstrops.c
-drwxr-xr-x root       root             1060 ./usr/src/debug/glibc/2.27-r0/git/locale
+drwxr-xr-x root       root             1220 ./usr/src/debug/glibc/2.27-r0/git/locale
 drwxr-xr-x root       root               60 ./usr/src/debug/glibc/2.27-r0/git/locale/bits
 drwxr-xr-x root       root               80 ./usr/src/debug/glibc/2.27-r0/git/locale/bits/types
 -rw-r--r-- root       root             1721 ./usr/src/debug/glibc/2.27-r0/git/locale/bits/types/__locale_t.h
@@ -757,10 +757,18 @@ drwxr-xr-x root       root               80 ./usr/src/debug/glibc/2.27-r0/git/lo
 -rw-r--r-- root       root             2389 ./usr/src/debug/glibc/2.27-r0/git/locale/global-locale.c
 -rw-r--r-- root       root             1615 ./usr/src/debug/glibc/2.27-r0/git/locale/hashval.h
 -rw-r--r-- root       root            17848 ./usr/src/debug/glibc/2.27-r0/git/locale/langinfo.h
+-rw-r--r-- root       root              902 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-address.c
 -rw-r--r-- root       root              923 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-collate.c
 -rw-r--r-- root       root             4767 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-ctype.c
+-rw-r--r-- root       root              916 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-identification.c
+-rw-r--r-- root       root              910 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-measurement.c
+-rw-r--r-- root       root              904 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-messages.c
 -rw-r--r-- root       root              904 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-monetary.c
+-rw-r--r-- root       root              896 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-name.c
 -rw-r--r-- root       root              902 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-numeric.c
+-rw-r--r-- root       root              898 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-paper.c
+-rw-r--r-- root       root              906 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-telephone.c
+-rw-r--r-- root       root              896 ./usr/src/debug/glibc/2.27-r0/git/locale/lc-time.c
 -rw-r--r-- root       root            17121 ./usr/src/debug/glibc/2.27-r0/git/locale/loadarchive.c
 -rw-r--r-- root       root             8473 ./usr/src/debug/glibc/2.27-r0/git/locale/loadlocale.c
 -rw-r--r-- root       root             3050 ./usr/src/debug/glibc/2.27-r0/git/locale/localeconv.c

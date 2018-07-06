@@ -1,8 +1,8 @@
 PV = 2.32
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) ncurses-libtinfo (>= 6.1) util-linux-libfdisk (>= 2.32) util-linux-libsmartcols (>= 2.32)
+RDEPENDS = glibc (>= 2.27) ncurses-libtinfo (>= 6.1+20180630) util-linux-libfdisk (>= 2.32) util-linux-libsmartcols (>= 2.32)
 RRECOMMENDS = 
 PKGSIZE = 83632
 FILES = /usr/sbin/sfdisk
