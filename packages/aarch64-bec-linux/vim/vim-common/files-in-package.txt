@@ -21,7 +21,7 @@ drwxr-xr-x root       root              760 ./usr/share/vim/vim81/autoload
 -rw-r--r-- root       root             8029 ./usr/share/vim/vim81/autoload/clojurecomplete.vim
 -rw-r--r-- root       root              656 ./usr/share/vim/vim81/autoload/contextcomplete.vim
 -rw-r--r-- root       root             5462 ./usr/share/vim/vim81/autoload/context.vim
--rw-r--r-- root       root            43193 ./usr/share/vim/vim81/autoload/csscomplete.vim
+-rw-r--r-- root       root            43248 ./usr/share/vim/vim81/autoload/csscomplete.vim
 -rw-r--r-- root       root             2998 ./usr/share/vim/vim81/autoload/decada.vim
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/autoload/dist
 -rw-r--r-- root       root            18956 ./usr/share/vim/vim81/autoload/dist/ft.vim
@@ -468,7 +468,7 @@ drwxr-xr-x root       root             2500 ./usr/share/vim/vim81/indent
 -rw-r--r-- root       root             6498 ./usr/share/vim/vim81/indent/rust.vim
 -rw-r--r-- root       root            13905 ./usr/share/vim/vim81/indent/r.vim
 -rw-r--r-- root       root              950 ./usr/share/vim/vim81/indent/sass.vim
--rw-r--r-- root       root             5127 ./usr/share/vim/vim81/indent/sas.vim
+-rw-r--r-- root       root             5270 ./usr/share/vim/vim81/indent/sas.vim
 -rw-r--r-- root       root            19430 ./usr/share/vim/vim81/indent/scala.vim
 -rw-r--r-- root       root              372 ./usr/share/vim/vim81/indent/scheme.vim
 -rw-r--r-- root       root              191 ./usr/share/vim/vim81/indent/scss.vim
@@ -579,7 +579,7 @@ drwxr-xr-x root       root             1540 ./usr/share/vim/vim81/keymap
 -rw-r--r-- root       root             1357 ./usr/share/vim/vim81/keymap/vietnamese-telex_utf-8.vim
 -rw-r--r-- root       root             1247 ./usr/share/vim/vim81/keymap/vietnamese-viqr_utf-8.vim
 -rw-r--r-- root       root             1355 ./usr/share/vim/vim81/keymap/vietnamese-vni_utf-8.vim
-drwxr-xr-x root       root             3520 ./usr/share/vim/vim81/lang
+drwxr-xr-x root       root             3540 ./usr/share/vim/vim81/lang
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/af
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/af/LC_MESSAGES
 -rw-r--r-- root       root           121355 ./usr/share/vim/vim81/lang/af/LC_MESSAGES/vim.mo
@@ -618,10 +618,11 @@ drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ga/LC_MES
 -rw-r--r-- root       root           178306 ./usr/share/vim/vim81/lang/ga/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/it
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/it/LC_MESSAGES
--rw-r--r-- root       root           180258 ./usr/share/vim/vim81/lang/it/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           180018 ./usr/share/vim/vim81/lang/it/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ja
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ja.euc-jp
-drwxr-xr-x root       root               40 ./usr/share/vim/vim81/lang/ja.euc-jp/LC_MESSAGES
+drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ja.euc-jp/LC_MESSAGES
+-rw-r--r-- root       root           176900 ./usr/share/vim/vim81/lang/ja.euc-jp/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ja/LC_MESSAGES
 -rw-r--r-- root       root           201558 ./usr/share/vim/vim81/lang/ja/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ja.sjis
@@ -629,10 +630,10 @@ drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ja.sjis/L
 -rw-r--r-- root       root           176900 ./usr/share/vim/vim81/lang/ja.sjis/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ko
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ko/LC_MESSAGES
--rw-r--r-- root       root           155834 ./usr/share/vim/vim81/lang/ko/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           160858 ./usr/share/vim/vim81/lang/ko/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ko.UTF-8
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/ko.UTF-8/LC_MESSAGES
--rw-r--r-- root       root           172886 ./usr/share/vim/vim81/lang/ko.UTF-8/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           178238 ./usr/share/vim/vim81/lang/ko.UTF-8/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/lv
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/lv/LC_MESSAGES
 -rw-r--r-- root       root             8721 ./usr/share/vim/vim81/lang/lv/LC_MESSAGES/vim.mo
@@ -657,6 +658,7 @@ drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/lv/LC_MES
 -rw-r--r-- root       root            12898 ./usr/share/vim/vim81/lang/menu_czech_czech_republic.1250.vim
 -rw-r--r-- root       root              113 ./usr/share/vim/vim81/lang/menu_czech_czech_republic.1252.vim
 -rw-r--r-- root       root            12915 ./usr/share/vim/vim81/lang/menu_czech_czech_republic.ascii.vim
+-rw-r--r-- root       root               90 ./usr/share/vim/vim81/lang/menu_da.latin1.vim
 -rw-r--r-- root       root            13194 ./usr/share/vim/vim81/lang/menu_da.utf-8.vim
 -rw-r--r-- root       root            13591 ./usr/share/vim/vim81/lang/menu_de_de.latin1.vim
 -rw-r--r-- root       root               89 ./usr/share/vim/vim81/lang/menu_de_de.utf-8.vim
@@ -780,10 +782,9 @@ drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/no/LC_MES
 -rw-r--r-- root       root           142291 ./usr/share/vim/vim81/lang/no/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/pl
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/pl.cp1250
-drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/pl.cp1250/LC_MESSAGES
--rw-r--r-- root       root           166494 ./usr/share/vim/vim81/lang/pl.cp1250/LC_MESSAGES/vim.mo
+drwxr-xr-x root       root               40 ./usr/share/vim/vim81/lang/pl.cp1250/LC_MESSAGES
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/pl/LC_MESSAGES
--rw-r--r-- root       root           166498 ./usr/share/vim/vim81/lang/pl/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           166504 ./usr/share/vim/vim81/lang/pl/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/pl.UTF-8
 drwxr-xr-x root       root               40 ./usr/share/vim/vim81/lang/pl.UTF-8/LC_MESSAGES
 drwxr-xr-x root       root               60 ./usr/share/vim/vim81/lang/pt_BR
@@ -871,7 +872,7 @@ drwxr-xr-x root       root              300 ./usr/share/vim/vim81/plugin
 -rw-r--r-- root       root             2499 ./usr/share/vim/vim81/plugin/gzip.vim
 -rw-r--r-- root       root            10269 ./usr/share/vim/vim81/plugin/logiPat.vim
 -rw-r--r-- root       root              676 ./usr/share/vim/vim81/plugin/manpager.vim
--rw-r--r-- root       root             6748 ./usr/share/vim/vim81/plugin/matchparen.vim
+-rw-r--r-- root       root             7085 ./usr/share/vim/vim81/plugin/matchparen.vim
 -rw-r--r-- root       root            10440 ./usr/share/vim/vim81/plugin/netrwPlugin.vim
 -rw-r--r-- root       root              936 ./usr/share/vim/vim81/plugin/README.txt
 -rw-r--r-- root       root             1414 ./usr/share/vim/vim81/plugin/rrhelper.vim
