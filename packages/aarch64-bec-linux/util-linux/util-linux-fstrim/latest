@@ -1,9 +1,9 @@
 PV = 2.32
 PR = r0
-PKGR = r0.7
+PKGR = r0.8
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) util-linux-libmount (>= 2.32)
+RDEPENDS = glibc (>= 2.27) update-alternatives-opkg util-linux-libmount (>= 2.32)
 RRECOMMENDS = 
-PKGSIZE = 67832
-FILES = /sbin/fstrim
-FILELIST = /sbin/fstrim
+PKGSIZE = 67840
+FILES = /sbin/fstrim.util-linux
+FILELIST = /sbin/fstrim.util-linux
