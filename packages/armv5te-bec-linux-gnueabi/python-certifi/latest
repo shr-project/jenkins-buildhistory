@@ -1,5 +1,5 @@
 PV = 2018.4.16
 PR = r0
-DEPENDS = python python-distribute-native python-native python-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+DEPENDS = python python-native python-native python-setuptools-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
 PACKAGES = python-certifi-dbg python-certifi-staticdev python-certifi-dev python-certifi-doc python-certifi-locale python-certifi
 LAYER = meta-python

@@ -16,7 +16,7 @@ drwxr-xr-x root       root              140 ./sbin
 -rwxr-xr-x root       root             9912 ./sbin/nologin.util-linux
 -rwxr-xr-x root       root             9916 ./sbin/pivot_root.util-linux
 drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root             1000 ./usr/bin
+drwxr-xr-x root       root             1020 ./usr/bin
 -rwxr-xr-x root       root            46964 ./usr/bin/cal
 -rwxr-xr-x root       root            30384 ./usr/bin/chmem
 -rwxr-xr-x root       root            26296 ./usr/bin/chrt.util-linux
@@ -25,7 +25,7 @@ drwxr-xr-x root       root             1000 ./usr/bin
 -rwxr-xr-x root       root            22192 ./usr/bin/colrm
 -rwxr-xr-x root       root            34480 ./usr/bin/column
 -rwxr-xr-x root       root            38588 ./usr/bin/eject.util-linux
--rwxr-xr-x root       root            26292 ./usr/bin/fallocate
+-rwxr-xr-x root       root            26304 ./usr/bin/fallocate.util-linux
 -rwxr-xr-x root       root            26320 ./usr/bin/fincore
 -rwxr-xr-x root       root            47568 ./usr/bin/findmnt
 -rwxr-xr-x root       root            26364 ./usr/bin/flock.util-linux
@@ -59,6 +59,7 @@ lrwxrwxrwx root       root                7 ./usr/bin/linux64 -> setarch
 -rwxr-xr-x root       root            26300 ./usr/bin/taskset.util-linux
 -rwxr-xr-x root       root            13992 ./usr/bin/ul
 lrwxrwxrwx root       root                7 ./usr/bin/uname26 -> setarch
+-rwxr-xr-x root       root            18200 ./usr/bin/unshare.util-linux
 -rwxr-xr-x root       root            18104 ./usr/bin/utmpdump.util-linux
 -rwxr-xr-x root       root            30388 ./usr/bin/uuidparse
 -rwxr-xr-x root       root            26296 ./usr/bin/wall.util-linux
