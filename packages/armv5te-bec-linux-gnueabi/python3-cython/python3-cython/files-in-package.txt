@@ -7,13 +7,13 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/python3.5
 drwxr-xr-x root       root              140 ./usr/lib/python3.5/site-packages
 drwxr-xr-x root       root              460 ./usr/lib/python3.5/site-packages/Cython
-drwxr-xr-x root       root              160 ./usr/lib/python3.5/site-packages/Cython-0.28.3-py3.5.egg-info
--rw-r--r-- root       root                1 ./usr/lib/python3.5/site-packages/Cython-0.28.3-py3.5.egg-info/dependency_links.txt
--rw-r--r-- root       root              140 ./usr/lib/python3.5/site-packages/Cython-0.28.3-py3.5.egg-info/entry_points.txt
--rw-r--r-- root       root                1 ./usr/lib/python3.5/site-packages/Cython-0.28.3-py3.5.egg-info/not-zip-safe
--rw-r--r-- root       root             2756 ./usr/lib/python3.5/site-packages/Cython-0.28.3-py3.5.egg-info/PKG-INFO
--rw-r--r-- root       root            58006 ./usr/lib/python3.5/site-packages/Cython-0.28.3-py3.5.egg-info/SOURCES.txt
--rw-r--r-- root       root               24 ./usr/lib/python3.5/site-packages/Cython-0.28.3-py3.5.egg-info/top_level.txt
+drwxr-xr-x root       root              160 ./usr/lib/python3.5/site-packages/Cython-0.28.4-py3.5.egg-info
+-rw-r--r-- root       root                1 ./usr/lib/python3.5/site-packages/Cython-0.28.4-py3.5.egg-info/dependency_links.txt
+-rw-r--r-- root       root              140 ./usr/lib/python3.5/site-packages/Cython-0.28.4-py3.5.egg-info/entry_points.txt
+-rw-r--r-- root       root                1 ./usr/lib/python3.5/site-packages/Cython-0.28.4-py3.5.egg-info/not-zip-safe
+-rw-r--r-- root       root             2756 ./usr/lib/python3.5/site-packages/Cython-0.28.4-py3.5.egg-info/PKG-INFO
+-rw-r--r-- root       root            58006 ./usr/lib/python3.5/site-packages/Cython-0.28.4-py3.5.egg-info/SOURCES.txt
+-rw-r--r-- root       root               24 ./usr/lib/python3.5/site-packages/Cython-0.28.4-py3.5.egg-info/top_level.txt
 drwxr-xr-x root       root              220 ./usr/lib/python3.5/site-packages/Cython/Build
 -rw-r--r-- root       root             4318 ./usr/lib/python3.5/site-packages/Cython/Build/BuildExecutable.py
 -rw-r--r-- root       root             7061 ./usr/lib/python3.5/site-packages/Cython/Build/Cythonize.py
@@ -48,7 +48,7 @@ drwxr-xr-x root       root             1180 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root            28905 ./usr/lib/python3.5/site-packages/Cython/Compiler/Buffer.py
 -rw-r--r-- root       root            22962 ./usr/lib/python3.5/site-packages/Cython/Compiler/Builtin.py
 -rw-r--r-- root       root             8987 ./usr/lib/python3.5/site-packages/Cython/Compiler/CmdLine.py
--rwxr-xr-x root       root           968932 ./usr/lib/python3.5/site-packages/Cython/Compiler/Code.cpython-35m-arm-linux-gnueabi.so
+-rwxr-xr-x root       root           964836 ./usr/lib/python3.5/site-packages/Cython/Compiler/Code.cpython-35m-arm-linux-gnueabi.so
 -rw-r--r-- root       root             1108 ./usr/lib/python3.5/site-packages/Cython/Compiler/CodeGeneration.py
 -rw-r--r-- root       root             2709 ./usr/lib/python3.5/site-packages/Cython/Compiler/Code.pxd
 -rw-r--r-- root       root            93936 ./usr/lib/python3.5/site-packages/Cython/Compiler/Code.py
@@ -68,7 +68,7 @@ drwxr-xr-x root       root             1180 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root             4837 ./usr/lib/python3.5/site-packages/Cython/Compiler/Lexicon.py
 -rw-r--r-- root       root            30896 ./usr/lib/python3.5/site-packages/Cython/Compiler/Main.py
 -rw-r--r-- root       root            29893 ./usr/lib/python3.5/site-packages/Cython/Compiler/MemoryView.py
--rw-r--r-- root       root           136553 ./usr/lib/python3.5/site-packages/Cython/Compiler/ModuleNode.py
+-rw-r--r-- root       root           136554 ./usr/lib/python3.5/site-packages/Cython/Compiler/ModuleNode.py
 -rw-r--r-- root       root             6107 ./usr/lib/python3.5/site-packages/Cython/Compiler/Naming.py
 -rw-r--r-- root       root           384382 ./usr/lib/python3.5/site-packages/Cython/Compiler/Nodes.py
 -rw-r--r-- root       root           207837 ./usr/lib/python3.5/site-packages/Cython/Compiler/Optimize.py
@@ -100,7 +100,7 @@ drwxr-xr-x root       root              860 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root             3721 ./usr/lib/python3.5/site-packages/Cython/Compiler/__pycache__/Lexicon.cpython-35.pyc
 -rw-r--r-- root       root            22625 ./usr/lib/python3.5/site-packages/Cython/Compiler/__pycache__/Main.cpython-35.pyc
 -rw-r--r-- root       root            24980 ./usr/lib/python3.5/site-packages/Cython/Compiler/__pycache__/MemoryView.cpython-35.pyc
--rw-r--r-- root       root            90833 ./usr/lib/python3.5/site-packages/Cython/Compiler/__pycache__/ModuleNode.cpython-35.pyc
+-rw-r--r-- root       root            90846 ./usr/lib/python3.5/site-packages/Cython/Compiler/__pycache__/ModuleNode.cpython-35.pyc
 -rw-r--r-- root       root             5138 ./usr/lib/python3.5/site-packages/Cython/Compiler/__pycache__/Naming.cpython-35.pyc
 -rw-r--r-- root       root           258189 ./usr/lib/python3.5/site-packages/Cython/Compiler/__pycache__/Nodes.cpython-35.pyc
 -rw-r--r-- root       root           130629 ./usr/lib/python3.5/site-packages/Cython/Compiler/__pycache__/Optimize.cpython-35.pyc
@@ -386,7 +386,7 @@ drwxr-xr-x root       root              120 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root               13 ./usr/lib/python3.5/site-packages/Cython/Runtime/__init__.py
 drwxr-xr-x root       root               60 ./usr/lib/python3.5/site-packages/Cython/Runtime/__pycache__
 -rw-r--r-- root       root              142 ./usr/lib/python3.5/site-packages/Cython/Runtime/__pycache__/__init__.cpython-35.pyc
--rwxr-xr-x root       root            51852 ./usr/lib/python3.5/site-packages/Cython/Runtime/refnanny.cpython-35m-arm-linux-gnueabi.so
+-rwxr-xr-x root       root            55948 ./usr/lib/python3.5/site-packages/Cython/Runtime/refnanny.cpython-35m-arm-linux-gnueabi.so
 -rw-r--r-- root       root             6279 ./usr/lib/python3.5/site-packages/Cython/Runtime/refnanny.pyx
 -rw-r--r-- root       root            12577 ./usr/lib/python3.5/site-packages/Cython/Shadow.py
 -rwxr-xr-x root       root            61856 ./usr/lib/python3.5/site-packages/Cython/StringIOTree.cpython-35m-arm-linux-gnueabi.so
@@ -438,7 +438,7 @@ drwxr-xr-x root       root              720 ./usr/lib/python3.5/site-packages/Cy
 -rw-r--r-- root       root             1159 ./usr/lib/python3.5/site-packages/Cython/Utility/__init__.py
 -rw-r--r-- root       root            28771 ./usr/lib/python3.5/site-packages/Cython/Utility/MemoryView_C.c
 -rw-r--r-- root       root            49393 ./usr/lib/python3.5/site-packages/Cython/Utility/MemoryView.pyx
--rw-r--r-- root       root            46613 ./usr/lib/python3.5/site-packages/Cython/Utility/ModuleSetupCode.c
+-rw-r--r-- root       root            48032 ./usr/lib/python3.5/site-packages/Cython/Utility/ModuleSetupCode.c
 -rw-r--r-- root       root            78152 ./usr/lib/python3.5/site-packages/Cython/Utility/ObjectHandling.c
 -rw-r--r-- root       root            37765 ./usr/lib/python3.5/site-packages/Cython/Utility/Optimize.c
 -rw-r--r-- root       root            12018 ./usr/lib/python3.5/site-packages/Cython/Utility/Overflow.c
