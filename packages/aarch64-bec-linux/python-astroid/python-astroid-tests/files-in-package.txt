@@ -10,7 +10,7 @@ drwxr-xr-x root       root              900 ./usr/lib/python2.7/site-packages/as
 -rw-r--r-- root       root             3189 ./usr/lib/python2.7/site-packages/astroid/tests/resources.pyc
 drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/astroid/tests/testdata
 drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2
-drwxr-xr-x root       root              740 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data
+drwxr-xr-x root       root              760 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data
 drwxr-xr-x root       root              100 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/absimp
 -rw-r--r-- root       root               89 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/absimp/__init__.py
 -rw-r--r-- root       root               78 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/absimport.py
@@ -34,6 +34,7 @@ drwxr-xr-x root       root              140 ./usr/lib/python2.7/site-packages/as
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/find_test/nonregr.py
 drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/foogle
 drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/foogle/fax
+-rw-r--r-- root       root              629 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/foogle_fax-0.12.5-py2.7-nspkg.pth
 -rw-r--r-- root       root                5 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/foogle/fax/a.py
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/foogle/fax/__init__.py
 -rw-r--r-- root       root              421 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/format.py
@@ -99,7 +100,7 @@ drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/as
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/unicode_package/core/__init__.py
 -rw-r--r-- root       root               17 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python2/data/unicode_package/__init__.py
 drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3
-drwxr-xr-x root       root              740 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data
+drwxr-xr-x root       root              760 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data
 drwxr-xr-x root       root              100 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/absimp
 -rw-r--r-- root       root               89 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/absimp/__init__.py
 -rw-r--r-- root       root               40 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/absimport.py
@@ -123,6 +124,7 @@ drwxr-xr-x root       root              140 ./usr/lib/python2.7/site-packages/as
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/find_test/nonregr.py
 drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/foogle
 drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/foogle/fax
+-rw-r--r-- root       root              629 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/foogle_fax-0.12.5-py2.7-nspkg.pth
 -rw-r--r-- root       root                5 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/foogle/fax/a.py
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/foogle/fax/__init__.py
 -rw-r--r-- root       root              421 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/format.py
@@ -189,8 +191,8 @@ drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/as
 -rw-r--r-- root       root               17 ./usr/lib/python2.7/site-packages/astroid/tests/testdata/python3/data/unicode_package/__init__.py
 -rw-r--r-- root       root            10948 ./usr/lib/python2.7/site-packages/astroid/tests/unittest_brain_numpy.py
 -rw-r--r-- root       root            12586 ./usr/lib/python2.7/site-packages/astroid/tests/unittest_brain_numpy.pyc
--rw-r--r-- root       root            30575 ./usr/lib/python2.7/site-packages/astroid/tests/unittest_brain.py
--rw-r--r-- root       root            36352 ./usr/lib/python2.7/site-packages/astroid/tests/unittest_brain.pyc
+-rw-r--r-- root       root            30911 ./usr/lib/python2.7/site-packages/astroid/tests/unittest_brain.py
+-rw-r--r-- root       root            36821 ./usr/lib/python2.7/site-packages/astroid/tests/unittest_brain.pyc
 -rw-r--r-- root       root            28928 ./usr/lib/python2.7/site-packages/astroid/tests/unittest_builder.py
 -rw-r--r-- root       root            30731 ./usr/lib/python2.7/site-packages/astroid/tests/unittest_builder.pyc
 -rw-r--r-- root       root             9201 ./usr/lib/python2.7/site-packages/astroid/tests/unittest_helpers.py
