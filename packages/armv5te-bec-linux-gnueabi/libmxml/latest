@@ -1,5 +1,5 @@
-PV = 2.11
+PV = 2.12+gitAUTOINC+ba3cca82e1
 PR = r0
-DEPENDS = autoconf-native automake-native gettext-native gnu-config-native libtool-cross libtool-native virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
+DEPENDS = virtual/arm-bec-linux-gnueabi-compilerlibs virtual/arm-bec-linux-gnueabi-gcc virtual/libc
 PACKAGES = libmxml-dbg libmxml-staticdev libmxml-dev libmxml-doc libmxml-locale libmxml libmxml-bin
 LAYER = openembedded-layer

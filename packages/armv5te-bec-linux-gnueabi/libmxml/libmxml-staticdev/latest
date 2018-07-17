@@ -1,9 +1,10 @@
-PV = 2.11
+PV = 2.12+gitAUTOINC+ba3cca82e1
 PR = r0
-PKGR = r0.10
+PKGV = 2.12+git0+ba3cca82e1
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = libmxml-dev (= 2.11-r0.10)
+RDEPENDS = libmxml-dev (= 2.12+git0+ba3cca82e1-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 202890
+PKGSIZE = 205462
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libmxml/*.a
 FILELIST = /usr/lib/libmxml.a
