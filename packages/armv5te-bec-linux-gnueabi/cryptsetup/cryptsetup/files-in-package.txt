@@ -1,7 +1,11 @@
 drwxr-xr-x root       root               80 ./usr
-drwxr-xr-x root       root               80 ./usr/lib
--rwxr-xr-x root       root           119260 ./usr/lib/libcryptsetup.so.4.7.0
-lrwxrwxrwx root       root               22 ./usr/lib/libcryptsetup.so.4 -> libcryptsetup.so.4.7.0
-drwxr-xr-x root       root               80 ./usr/sbin
--rwxr-xr-x root       root            48580 ./usr/sbin/cryptsetup
--rwxr-xr-x root       root            26976 ./usr/sbin/veritysetup
+drwxr-xr-x root       root              100 ./usr/lib
+-rwxr-xr-x root       root           238344 ./usr/lib/libcryptsetup.so.12.3.0
+lrwxrwxrwx root       root               23 ./usr/lib/libcryptsetup.so.12 -> libcryptsetup.so.12.3.0
+drwxr-xr-x root       root               60 ./usr/lib/tmpfiles.d
+-rw-r--r-- root       root               35 ./usr/lib/tmpfiles.d/cryptsetup.conf
+drwxr-xr-x root       root              120 ./usr/sbin
+-rwxr-xr-x root       root            73884 ./usr/sbin/cryptsetup
+-rwxr-xr-x root       root            77404 ./usr/sbin/cryptsetup-reencrypt
+-rwxr-xr-x root       root            31296 ./usr/sbin/integritysetup
+-rwxr-xr-x root       root            31188 ./usr/sbin/veritysetup
