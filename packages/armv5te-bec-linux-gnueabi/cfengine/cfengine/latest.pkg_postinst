@@ -1,1 +1,22 @@
-#!/bin/sh\nset -e\nOPTS=""\n\nif [ -n "$D" ]; then\n    OPTS="--root=$D"\nfi\n\nif type systemctl >/dev/null 2>/dev/null; then\n\tif [ -z "$D" ]; then\n\t\tsystemctl daemon-reload\n\tfi\n\n\tsystemctl $OPTS disable cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-consumer.service cf-execd.service cf-monitord.service cf-redis-server.service cf-serverd.service\n\n\tif [ -z "$D" -a "disable" = "enable" ]; then\n\t\tsystemctl --no-block restart cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-consumer.service cf-execd.service cf-monitord.service cf-redis-server.service cf-serverd.service\n\tfi\nfi\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+#!/bin/sh
+set -e
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl daemon-reload
+	fi
+
+	systemctl $OPTS disable cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-consumer.service cf-execd.service cf-monitord.service cf-redis-server.service cf-serverd.service
+
+	if [ -z "$D" -a "disable" = "enable" ]; then
+		systemctl --no-block restart cfengine3.service cf-apache.service cf-hub.service cf-postgres.service cf-runalerts.service cf-consumer.service cf-execd.service cf-monitord.service cf-redis-server.service cf-serverd.service
+	fi
+fi
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

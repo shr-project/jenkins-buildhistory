@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/traceroute traceroute /usr/bin/traceroute.traceroute 60\n
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/traceroute traceroute /usr/bin/traceroute.traceroute 60

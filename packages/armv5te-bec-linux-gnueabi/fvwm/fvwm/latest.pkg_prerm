@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  x-window-manager /usr/bin/fvwm\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  x-window-manager /usr/bin/fvwm

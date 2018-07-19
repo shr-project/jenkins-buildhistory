@@ -1,1 +1,4 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/talk talk /usr/bin/talk.inetutils 79\n\tupdate-alternatives --install /usr/bin/whois whois /usr/bin/whois.inetutils 79\n
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/talk talk /usr/bin/talk.inetutils 79
+	update-alternatives --install /usr/bin/whois whois /usr/bin/whois.inetutils 79

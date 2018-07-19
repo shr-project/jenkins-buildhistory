@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/inetd inetd /usr/bin/inetd.inetutils 79\n
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/inetd inetd /usr/bin/inetd.inetutils 79

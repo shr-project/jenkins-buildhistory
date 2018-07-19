@@ -1,1 +1,6 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/pkg-config pkg-config /usr/bin/pkg-config.pkgconf 10\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/bin/pkg-config pkg-config /usr/bin/pkg-config.pkgconf 10
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

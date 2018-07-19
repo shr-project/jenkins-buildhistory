@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  x-session-manager /usr/bin/mini-x-session\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  x-session-manager /usr/bin/mini-x-session

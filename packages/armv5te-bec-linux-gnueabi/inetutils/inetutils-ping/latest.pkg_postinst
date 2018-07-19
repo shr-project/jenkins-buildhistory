@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /bin/ping ping /bin/ping.inetutils 79\n
+#!/bin/sh
+set -e
+	update-alternatives --install /bin/ping ping /bin/ping.inetutils 79

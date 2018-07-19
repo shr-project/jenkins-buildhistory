@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  htpasswd.1 /usr/share/man/man1/htpasswd.1.apache2\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  htpasswd.1 /usr/share/man/man1/htpasswd.1.apache2

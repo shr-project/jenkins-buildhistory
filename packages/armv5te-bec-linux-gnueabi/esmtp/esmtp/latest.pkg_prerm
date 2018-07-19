@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  sendmail /usr/bin/esmtp\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  sendmail /usr/bin/esmtp

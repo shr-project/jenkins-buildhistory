@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/share/man/man1/htpasswd.1 htpasswd.1 /usr/share/man/man1/htpasswd.1.sthttpd 100\n
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/share/man/man1/htpasswd.1 htpasswd.1 /usr/share/man/man1/htpasswd.1.sthttpd 100

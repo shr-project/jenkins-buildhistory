@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/sbin/telnetd telnetd /usr/sbin/in.telnetd 79\n
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/sbin/telnetd telnetd /usr/sbin/in.telnetd 79

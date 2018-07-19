@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  tftpd /usr/sbin/in.tftpd\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  tftpd /usr/sbin/in.tftpd

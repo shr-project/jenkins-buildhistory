@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  traceroute /usr/bin/traceroute.inetutils\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  traceroute /usr/bin/traceroute.inetutils
