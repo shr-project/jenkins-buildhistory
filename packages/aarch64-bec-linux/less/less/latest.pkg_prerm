@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  less /usr/bin/less.less\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  less /usr/bin/less.less

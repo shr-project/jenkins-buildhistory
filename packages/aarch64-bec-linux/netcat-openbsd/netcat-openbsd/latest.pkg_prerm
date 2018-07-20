@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  nc /usr/bin/nc.netcat-openbsd\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  nc /usr/bin/nc.netcat-openbsd

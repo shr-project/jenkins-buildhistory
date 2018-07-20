@@ -1,1 +1,4 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  py.test /usr/bin/py.test.python3-pytest\n\tupdate-alternatives --remove  pytest /usr/bin/pytest.python3-pytest\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  py.test /usr/bin/py.test.python3-pytest
+	update-alternatives --remove  pytest /usr/bin/pytest.python3-pytest

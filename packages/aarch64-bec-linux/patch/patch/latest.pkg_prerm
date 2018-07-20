@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  patch /usr/bin/patch.patch\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  patch /usr/bin/patch.patch

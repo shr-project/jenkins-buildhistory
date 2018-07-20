@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  mkpasswd /usr/bin/mkpasswd.expect\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  mkpasswd /usr/bin/mkpasswd.expect

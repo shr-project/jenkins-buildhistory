@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  run-parts /bin/run-parts.debianutils\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  run-parts /bin/run-parts.debianutils

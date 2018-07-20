@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  ftpd /usr/bin/ftpd.inetutils\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  ftpd /usr/bin/ftpd.inetutils

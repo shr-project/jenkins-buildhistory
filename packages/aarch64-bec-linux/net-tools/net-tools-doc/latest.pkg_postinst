@@ -1,1 +1,4 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/share/man/man1/hostname.1 hostname.1 /usr/share/man/man1/hostname.1.net-tools 10\n\tupdate-alternatives --install /usr/share/man/man1/dnsdomainname.1 dnsdomainname.1 /usr/share/man/man1/dnsdomainname.1.net-tools 100\n
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/share/man/man1/hostname.1 hostname.1 /usr/share/man/man1/hostname.1.net-tools 10
+	update-alternatives --install /usr/share/man/man1/dnsdomainname.1 dnsdomainname.1 /usr/share/man/man1/dnsdomainname.1.net-tools 100

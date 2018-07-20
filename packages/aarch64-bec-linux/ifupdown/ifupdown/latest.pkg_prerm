@@ -1,1 +1,4 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  ifup /sbin/ifup.ifupdown\n\tupdate-alternatives --remove  ifdown /sbin/ifdown.ifupdown\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  ifup /sbin/ifup.ifupdown
+	update-alternatives --remove  ifdown /sbin/ifdown.ifupdown

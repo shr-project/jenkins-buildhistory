@@ -1,1 +1,8 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  flashcp /usr/sbin/flashcp.mtd-utils\n\tupdate-alternatives --remove  flash_eraseall /usr/sbin/flash_eraseall.mtd-utils\n\tupdate-alternatives --remove  flash_lock /usr/sbin/flash_lock.mtd-utils\n\tupdate-alternatives --remove  flash_unlock /usr/sbin/flash_unlock.mtd-utils\n\tupdate-alternatives --remove  nanddump /usr/sbin/nanddump.mtd-utils\n\tupdate-alternatives --remove  nandwrite /usr/sbin/nandwrite.mtd-utils\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  flashcp /usr/sbin/flashcp.mtd-utils
+	update-alternatives --remove  flash_eraseall /usr/sbin/flash_eraseall.mtd-utils
+	update-alternatives --remove  flash_lock /usr/sbin/flash_lock.mtd-utils
+	update-alternatives --remove  flash_unlock /usr/sbin/flash_unlock.mtd-utils
+	update-alternatives --remove  nanddump /usr/sbin/nanddump.mtd-utils
+	update-alternatives --remove  nandwrite /usr/sbin/nandwrite.mtd-utils

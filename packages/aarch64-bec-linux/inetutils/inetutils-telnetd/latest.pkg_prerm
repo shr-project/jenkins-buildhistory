@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  telnetd /usr/sbin/in.telnetd\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  telnetd /usr/sbin/in.telnetd

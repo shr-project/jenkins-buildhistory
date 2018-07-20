@@ -1,1 +1,4 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  hostname.1 /usr/share/man/man1/hostname.1.net-tools\n\tupdate-alternatives --remove  dnsdomainname.1 /usr/share/man/man1/dnsdomainname.1.net-tools\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  hostname.1 /usr/share/man/man1/hostname.1.net-tools
+	update-alternatives --remove  dnsdomainname.1 /usr/share/man/man1/dnsdomainname.1.net-tools

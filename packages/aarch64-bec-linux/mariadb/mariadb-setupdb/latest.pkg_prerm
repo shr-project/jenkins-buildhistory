@@ -1,1 +1,15 @@
-#!/bin/sh\nset -e\nOPTS=""\n\nif [ -n "$D" ]; then\n    OPTS="--root=$D"\nfi\n\nif type systemctl >/dev/null 2>/dev/null; then\n\tif [ -z "$D" ]; then\n\t\tsystemctl stop install_db.service\n\tfi\n\n\tsystemctl $OPTS disable install_db.service\nfi\n
+#!/bin/sh
+set -e
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	if [ -z "$D" ]; then
+		systemctl stop install_db.service
+	fi
+
+	systemctl $OPTS disable install_db.service
+fi

@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/share/man/man3/uuid.3 uuid.3 /usr/share/man/man3/uuid.3.ossp-uuid 200\n
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/share/man/man3/uuid.3 uuid.3 /usr/share/man/man3/uuid.3.ossp-uuid 200

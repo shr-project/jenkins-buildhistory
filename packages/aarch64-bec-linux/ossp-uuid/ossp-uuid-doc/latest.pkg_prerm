@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --remove  uuid.3 /usr/share/man/man3/uuid.3.ossp-uuid\n
+#!/bin/sh
+set -e
+	update-alternatives --remove  uuid.3 /usr/share/man/man3/uuid.3.ossp-uuid

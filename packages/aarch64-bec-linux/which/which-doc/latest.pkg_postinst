@@ -1,1 +1,3 @@
-#!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/share/man/man1/which.1 which.1 /usr/share/man/man1/which.1.which 100\n
+#!/bin/sh
+set -e
+	update-alternatives --install /usr/share/man/man1/which.1 which.1 /usr/share/man/man1/which.1.which 100
