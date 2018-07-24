@@ -1,9 +1,9 @@
 PV = 4.7.8
 PR = r0
 PKG = libsamba-hostconfig0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = libsamba-hostconfig (=4.7.8)
-RDEPENDS = glibc (>= 2.27) libsamba-debug-samba4 (>= 4.7.8) libsamba-util (>= 4.7.8) libserver-role-samba4 (>= 4.7.8) libtalloc (>= 2.1.11) samba-common
+RDEPENDS = glibc (>= 2.27) libsamba-debug-samba4 (>= 4.7.8) libsamba-util (>= 4.7.8) libserver-role-samba4 (>= 4.7.8) libtalloc (>= 2.1.14) samba-common
 RRECOMMENDS = 
 PKGSIZE = 122728
 FILES = /usr/lib/libsamba-hostconfig.so.0 /usr/lib/libsamba-hostconfig.so.0.0.1
