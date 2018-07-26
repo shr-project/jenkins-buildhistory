@@ -5,7 +5,7 @@ drwxr-xr-x root       root               60 ./etc/default/volatiles
 drwxr-xr-x root       root               40 ./etc/logrotate.d
 drwxr-xr-x root       root               40 ./etc/pam.d
 drwxr-x--- radiusd    radiusd           400 ./etc/raddb
-drwxr-x--- radiusd    radiusd           660 ./etc/raddb/certs
+drwxr-x--- radiusd    radiusd           680 ./etc/raddb/certs
 -rw-r--r-- radiusd    radiusd          4423 ./etc/raddb/certs/01.pem
 -rw-r--r-- radiusd    radiusd          4400 ./etc/raddb/certs/02.pem
 -rwxr-x--- radiusd    radiusd          2706 ./etc/raddb/certs/bootstrap
@@ -24,9 +24,10 @@ drwxr-x--- radiusd    radiusd           660 ./etc/raddb/certs
 -rw-r--r-- radiusd    radiusd            21 ./etc/raddb/certs/index.txt.attr
 -rw-r--r-- radiusd    radiusd            21 ./etc/raddb/certs/index.txt.attr.old
 -rw-r--r-- radiusd    radiusd           120 ./etc/raddb/certs/index.txt.old
--rw-r----- radiusd    radiusd          4698 ./etc/raddb/certs/Makefile
--rw-r--r-- radiusd    radiusd           138 ./etc/raddb/certs/passwords.mk
--rw-r----- radiusd    radiusd          8444 ./etc/raddb/certs/README
+-rw-r----- radiusd    radiusd          1131 ./etc/raddb/certs/inner-server.cnf
+-rw-r----- radiusd    radiusd          6155 ./etc/raddb/certs/Makefile
+-rw-r--r-- radiusd    radiusd           166 ./etc/raddb/certs/passwords.mk
+-rw-r----- radiusd    radiusd          8714 ./etc/raddb/certs/README
 -rw-r--r-- radiusd    radiusd             3 ./etc/raddb/certs/serial
 -rw-r--r-- radiusd    radiusd             3 ./etc/raddb/certs/serial.old
 -rw-r----- radiusd    radiusd          1125 ./etc/raddb/certs/server.cnf
@@ -45,7 +46,7 @@ drwxr-x--- radiusd    radiusd          1240 ./etc/raddb/mods-available
 -rw-r----- radiusd    radiusd           244 ./etc/raddb/mods-available/abfab_psk_sql
 -rw-r----- radiusd    radiusd          1408 ./etc/raddb/mods-available/always
 -rw-r----- radiusd    radiusd          1384 ./etc/raddb/mods-available/attr_filter
--rw-r----- radiusd    radiusd          4930 ./etc/raddb/mods-available/cache
+-rw-r----- radiusd    radiusd          4933 ./etc/raddb/mods-available/cache
 -rw-r----- radiusd    radiusd           237 ./etc/raddb/mods-available/cache_eap
 -rw-r----- radiusd    radiusd           182 ./etc/raddb/mods-available/chap
 -rw-r----- radiusd    radiusd          6687 ./etc/raddb/mods-available/couchbase
@@ -59,7 +60,7 @@ drwxr-x--- radiusd    radiusd          1240 ./etc/raddb/mods-available
 -rw-r----- radiusd    radiusd          1862 ./etc/raddb/mods-available/dhcp_sqlippool
 -rw-r----- radiusd    radiusd           316 ./etc/raddb/mods-available/digest
 -rw-r----- radiusd    radiusd           923 ./etc/raddb/mods-available/dynamic_clients
--rw-r----- radiusd    radiusd         26288 ./etc/raddb/mods-available/eap
+-rw-r----- radiusd    radiusd         27634 ./etc/raddb/mods-available/eap
 -rw-r----- radiusd    radiusd          3733 ./etc/raddb/mods-available/echo
 -rw-r----- radiusd    radiusd           863 ./etc/raddb/mods-available/etc_group
 -rw-r----- radiusd    radiusd           822 ./etc/raddb/mods-available/exec
@@ -67,15 +68,15 @@ drwxr-x--- radiusd    radiusd          1240 ./etc/raddb/mods-available
 -rw-r----- radiusd    radiusd          4180 ./etc/raddb/mods-available/expr
 -rw-r----- radiusd    radiusd           868 ./etc/raddb/mods-available/files
 -rw-r----- radiusd    radiusd           690 ./etc/raddb/mods-available/idn
--rw-r----- radiusd    radiusd          2279 ./etc/raddb/mods-available/inner-eap
+-rw-r----- radiusd    radiusd          2558 ./etc/raddb/mods-available/inner-eap
 -rw-r----- radiusd    radiusd          2082 ./etc/raddb/mods-available/ippool
 -rw-r----- radiusd    radiusd          5680 ./etc/raddb/mods-available/linelog
 -rw-r----- radiusd    radiusd           816 ./etc/raddb/mods-available/logintime
 -rw-r----- radiusd    radiusd           737 ./etc/raddb/mods-available/mac2ip
 -rw-r----- radiusd    radiusd           408 ./etc/raddb/mods-available/mac2vlan
 -rw-r----- radiusd    radiusd          1588 ./etc/raddb/mods-available/moonshot-targeted-ids
--rw-r----- radiusd    radiusd          6955 ./etc/raddb/mods-available/mschap
--rw-r----- radiusd    radiusd           379 ./etc/raddb/mods-available/ntlm_auth
+-rw-r----- radiusd    radiusd          7098 ./etc/raddb/mods-available/mschap
+-rw-r----- radiusd    radiusd           516 ./etc/raddb/mods-available/ntlm_auth
 -rw-r----- radiusd    radiusd           751 ./etc/raddb/mods-available/opendirectory
 -rw-r----- radiusd    radiusd          3148 ./etc/raddb/mods-available/otp
 -rw-r----- radiusd    radiusd           685 ./etc/raddb/mods-available/pam
@@ -85,16 +86,16 @@ drwxr-x--- radiusd    radiusd          1240 ./etc/raddb/mods-available
 -rw-r----- radiusd    radiusd          1562 ./etc/raddb/mods-available/radutmp
 -rw-r----- radiusd    radiusd          2572 ./etc/raddb/mods-available/README.rst
 -rw-r----- radiusd    radiusd          1128 ./etc/raddb/mods-available/realm
--rw-r----- radiusd    radiusd          2935 ./etc/raddb/mods-available/redis
+-rw-r----- radiusd    radiusd          3006 ./etc/raddb/mods-available/redis
 -rw-r----- radiusd    radiusd          1940 ./etc/raddb/mods-available/rediswho
 -rw-r----- radiusd    radiusd          1695 ./etc/raddb/mods-available/replicate
--rw-r----- radiusd    radiusd          8225 ./etc/raddb/mods-available/rest
+-rw-r----- radiusd    radiusd          8996 ./etc/raddb/mods-available/rest
 -rw-r----- radiusd    radiusd           401 ./etc/raddb/mods-available/smbpasswd
 -rw-r----- radiusd    radiusd          2420 ./etc/raddb/mods-available/smsotp
 -rw-r----- radiusd    radiusd            33 ./etc/raddb/mods-available/soh
 -rw-r----- radiusd    radiusd           263 ./etc/raddb/mods-available/sometimes
 -rw-r----- radiusd    radiusd          2996 ./etc/raddb/mods-available/sqlcounter
--rw-r----- radiusd    radiusd          2603 ./etc/raddb/mods-available/sqlippool
+-rw-r----- radiusd    radiusd          3651 ./etc/raddb/mods-available/sqlippool
 -rw-r----- radiusd    radiusd           493 ./etc/raddb/mods-available/sradutmp
 -rw-r----- radiusd    radiusd            95 ./etc/raddb/mods-available/unbound
 -rw-r----- radiusd    radiusd           757 ./etc/raddb/mods-available/unix
@@ -138,32 +139,32 @@ drwxr-x--- radiusd    radiusd            80 ./etc/raddb/mods-config/sql/ippool-d
 -rw-r----- radiusd    radiusd           887 ./etc/raddb/mods-config/sql/ippool-dhcp/sqlite/schema.sql
 drwxr-x--- radiusd    radiusd           100 ./etc/raddb/mods-config/sql/ippool/oracle
 -rw-r----- radiusd    radiusd          1386 ./etc/raddb/mods-config/sql/ippool/oracle/procedures.sql
--rw-r----- radiusd    radiusd          4761 ./etc/raddb/mods-config/sql/ippool/oracle/queries.conf
+-rw-r----- radiusd    radiusd          4881 ./etc/raddb/mods-config/sql/ippool/oracle/queries.conf
 -rw-r----- radiusd    radiusd          1040 ./etc/raddb/mods-config/sql/ippool/oracle/schema.sql
 drwxr-x--- radiusd    radiusd            80 ./etc/raddb/mods-config/sql/ippool/sqlite
--rw-r----- radiusd    radiusd          4392 ./etc/raddb/mods-config/sql/ippool/sqlite/queries.conf
--rw-r----- radiusd    radiusd           767 ./etc/raddb/mods-config/sql/ippool/sqlite/schema.sql
+-rw-r----- radiusd    radiusd          4536 ./etc/raddb/mods-config/sql/ippool/sqlite/queries.conf
+-rw-r----- radiusd    radiusd           776 ./etc/raddb/mods-config/sql/ippool/sqlite/schema.sql
 drwxr-x--- radiusd    radiusd           120 ./etc/raddb/mods-config/sql/main
 drwxr-x--- radiusd    radiusd            80 ./etc/raddb/mods-config/sql/main/mssql
 -rw-r----- radiusd    radiusd          9373 ./etc/raddb/mods-config/sql/main/mssql/queries.conf
--rw-r----- radiusd    radiusd          9008 ./etc/raddb/mods-config/sql/main/mssql/schema.sql
+-rw-r----- radiusd    radiusd          8950 ./etc/raddb/mods-config/sql/main/mssql/schema.sql
 drwxr-x--- radiusd    radiusd           100 ./etc/raddb/mods-config/sql/main/ndb
 -rw-r----- radiusd    radiusd           230 ./etc/raddb/mods-config/sql/main/ndb/README
--rw-r----- radiusd    radiusd          4566 ./etc/raddb/mods-config/sql/main/ndb/schema.sql
+-rw-r----- radiusd    radiusd          4521 ./etc/raddb/mods-config/sql/main/ndb/schema.sql
 -rw-r----- radiusd    radiusd           837 ./etc/raddb/mods-config/sql/main/ndb/setup.sql
 drwxr-x--- radiusd    radiusd            80 ./etc/raddb/mods-config/sql/main/oracle
 -rw-r----- radiusd    radiusd         13954 ./etc/raddb/mods-config/sql/main/oracle/queries.conf
--rw-r----- radiusd    radiusd          5630 ./etc/raddb/mods-config/sql/main/oracle/schema.sql
+-rw-r----- radiusd    radiusd          4704 ./etc/raddb/mods-config/sql/main/oracle/schema.sql
 drwxr-x--- radiusd    radiusd            80 ./etc/raddb/mods-config/sql/main/sqlite
 -rw-r----- radiusd    radiusd         13237 ./etc/raddb/mods-config/sql/main/sqlite/queries.conf
--rw-r----- radiusd    radiusd          4570 ./etc/raddb/mods-config/sql/main/sqlite/schema.sql
+-rw-r----- radiusd    radiusd          4526 ./etc/raddb/mods-config/sql/main/sqlite/schema.sql
 drwxr-x--- radiusd    radiusd            60 ./etc/raddb/mods-config/sql/moonshot-targeted-ids
 drwxr-x--- radiusd    radiusd            80 ./etc/raddb/mods-config/sql/moonshot-targeted-ids/sqlite
 -rw-r----- radiusd    radiusd           511 ./etc/raddb/mods-config/sql/moonshot-targeted-ids/sqlite/queries.conf
 -rw-r----- radiusd    radiusd           354 ./etc/raddb/mods-config/sql/moonshot-targeted-ids/sqlite/schema.sql
 drwxr-x--- radiusd    radiusd            60 ./etc/raddb/mods-config/unbound
 -rw-r----- radiusd    radiusd            24 ./etc/raddb/mods-config/unbound/default.conf
-drwxr-x--- radiusd    radiusd           660 ./etc/raddb/mods-enabled
+drwxr-x--- radiusd    radiusd           640 ./etc/raddb/mods-enabled
 lrwxrwxrwx root       root               24 ./etc/raddb/mods-enabled/always -> ../mods-available/always
 lrwxrwxrwx root       root               29 ./etc/raddb/mods-enabled/attr_filter -> ../mods-available/attr_filter
 lrwxrwxrwx root       root               27 ./etc/raddb/mods-enabled/cache_eap -> ../mods-available/cache_eap
@@ -171,7 +172,6 @@ lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/chap -> ../
 lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/date -> ../mods-available/date
 lrwxrwxrwx root       root               28 ./etc/raddb/mods-enabled/detail.log -> ../mods-available/detail.log
 lrwxrwxrwx root       root               24 ./etc/raddb/mods-enabled/detail -> ../mods-available/detail
-lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/dhcp -> ../mods-available/dhcp
 lrwxrwxrwx root       root               24 ./etc/raddb/mods-enabled/digest -> ../mods-available/digest
 lrwxrwxrwx root       root               33 ./etc/raddb/mods-enabled/dynamic_clients -> ../mods-available/dynamic_clients
 lrwxrwxrwx root       root               21 ./etc/raddb/mods-enabled/eap -> ../mods-available/eap
@@ -199,7 +199,7 @@ lrwxrwxrwx root       root               22 ./etc/raddb/mods-enabled/utf8 -> ../
 drwxr-x--- radiusd    radiusd           260 ./etc/raddb/policy.d
 -rw-r----- radiusd    radiusd          2787 ./etc/raddb/policy.d/abfab-tr
 -rw-r----- radiusd    radiusd          2537 ./etc/raddb/policy.d/accounting
--rw-r----- radiusd    radiusd          2319 ./etc/raddb/policy.d/canonicalization
+-rw-r----- radiusd    radiusd          2703 ./etc/raddb/policy.d/canonicalization
 -rw-r----- radiusd    radiusd           581 ./etc/raddb/policy.d/control
 -rw-r----- radiusd    radiusd          3847 ./etc/raddb/policy.d/cui
 -rw-r----- radiusd    radiusd          1010 ./etc/raddb/policy.d/debug
@@ -209,7 +209,7 @@ drwxr-x--- radiusd    radiusd           260 ./etc/raddb/policy.d
 -rw-r----- radiusd    radiusd          7715 ./etc/raddb/policy.d/moonshot-targeted-ids
 -rw-r----- radiusd    radiusd          1323 ./etc/raddb/policy.d/operator-name
 -rw-r----- radiusd    radiusd         28361 ./etc/raddb/proxy.conf
--rw-r----- radiusd    radiusd         27395 ./etc/raddb/radiusd.conf
+-rw-r----- radiusd    radiusd         27193 ./etc/raddb/radiusd.conf
 -rw-r----- radiusd    radiusd         20807 ./etc/raddb/README.rst
 drwxr-x--- radiusd    radiusd           540 ./etc/raddb/sites-available
 -rw-r----- radiusd    radiusd          2116 ./etc/raddb/sites-available/abfab-tls
@@ -234,7 +234,7 @@ drwxr-x--- radiusd    radiusd           540 ./etc/raddb/sites-available
 -rw-r----- radiusd    radiusd          4718 ./etc/raddb/sites-available/robust-proxy-accounting
 -rw-r----- radiusd    radiusd           820 ./etc/raddb/sites-available/soh
 -rw-r----- radiusd    radiusd          4079 ./etc/raddb/sites-available/status
--rw-r----- radiusd    radiusd         15646 ./etc/raddb/sites-available/tls
+-rw-r----- radiusd    radiusd         15694 ./etc/raddb/sites-available/tls
 -rw-r----- radiusd    radiusd           877 ./etc/raddb/sites-available/virtual.example.com
 -rw-r----- radiusd    radiusd          2571 ./etc/raddb/sites-available/vmps
 drwxr-x--- radiusd    radiusd            80 ./etc/raddb/sites-enabled
@@ -251,7 +251,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              520 ./lib/systemd/system/radiusd.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root             3260 ./usr/lib
--rwxr-xr-x root       root            67760 ./usr/lib/libfreeradius-dhcp.so.0.0.0
+-rwxr-xr-x root       root            67768 ./usr/lib/libfreeradius-dhcp.so.0.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/libfreeradius-dhcp.so.0 -> libfreeradius-dhcp.so.0.0.0
 -rwxr-xr-x root       root            67760 ./usr/lib/libfreeradius-eap.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/libfreeradius-eap.so.0 -> libfreeradius-eap.so.0.0.0
@@ -298,7 +298,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/rlm_digest.so -> rlm_diges
 -rwxr-xr-x root       root            67832 ./usr/lib/rlm_dynamic_clients.so.0.0.0
 lrwxrwxrwx root       root               28 ./usr/lib/rlm_dynamic_clients.so.0 -> rlm_dynamic_clients.so.0.0.0
 lrwxrwxrwx root       root               28 ./usr/lib/rlm_dynamic_clients.so -> rlm_dynamic_clients.so.0.0.0
--rwxr-xr-x root       root            68120 ./usr/lib/rlm_eap_fast.so.0.0.0
+-rwxr-xr-x root       root            68160 ./usr/lib/rlm_eap_fast.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/rlm_eap_fast.so.0 -> rlm_eap_fast.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/rlm_eap_fast.so -> rlm_eap_fast.so.0.0.0
 -rwxr-xr-x root       root            67840 ./usr/lib/rlm_eap_gtc.so.0.0.0
@@ -385,7 +385,7 @@ lrwxrwxrwx root       root               22 ./usr/lib/rlm_sometimes.so -> rlm_so
 -rwxr-xr-x root       root            67904 ./usr/lib/rlm_sqlcounter.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/rlm_sqlcounter.so.0 -> rlm_sqlcounter.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/rlm_sqlcounter.so -> rlm_sqlcounter.so.0.0.0
--rwxr-xr-x root       root            70184 ./usr/lib/rlm_sqlippool.so.0.0.0
+-rwxr-xr-x root       root            70264 ./usr/lib/rlm_sqlippool.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/rlm_sqlippool.so.0 -> rlm_sqlippool.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/rlm_sqlippool.so -> rlm_sqlippool.so.0.0.0
 -rwxr-xr-x root       root            67816 ./usr/lib/rlm_sql_null.so.0.0.0
@@ -413,18 +413,18 @@ lrwxrwxrwx root       root               18 ./usr/lib/rlm_wimax.so -> rlm_wimax.
 lrwxrwxrwx root       root               20 ./usr/lib/rlm_yubikey.so.0 -> rlm_yubikey.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/rlm_yubikey.so -> rlm_yubikey.so.0.0.0
 drwxr-xr-x root       root              120 ./usr/sbin
--rwxr-xr-x root       root            38348 ./usr/sbin/checkrad
+-rwxr-xr-x root       root            38390 ./usr/sbin/checkrad
 -rwxr-xr-x root       root             3626 ./usr/sbin/raddebug
--rwxr-xr-x root       root           470928 ./usr/sbin/radiusd
+-rwxr-xr-x root       root           471088 ./usr/sbin/radiusd
 -rwxr-xr-x root       root            67752 ./usr/sbin/radmin
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x root       root             4300 ./usr/share/freeradius
--rw-r--r-- root       root             8855 ./usr/share/freeradius/dictionary
+drwxr-xr-x root       root             4340 ./usr/share/freeradius
+-rw-r--r-- root       root             8940 ./usr/share/freeradius/dictionary
 -rw-r--r-- root       root             1499 ./usr/share/freeradius/dictionary.3com
 -rw-r--r-- root       root             2346 ./usr/share/freeradius/dictionary.3gpp
 -rw-r--r-- root       root             5414 ./usr/share/freeradius/dictionary.3gpp2
 -rw-r--r-- root       root            10920 ./usr/share/freeradius/dictionary.acc
--rw-r--r-- root       root             9605 ./usr/share/freeradius/dictionary.acme
+-rw-r--r-- root       root            10290 ./usr/share/freeradius/dictionary.acme
 -rw-r--r-- root       root              425 ./usr/share/freeradius/dictionary.actelis
 -rw-r--r-- root       root              366 ./usr/share/freeradius/dictionary.adtran
 -rw-r--r-- root       root              631 ./usr/share/freeradius/dictionary.aerohive
@@ -470,7 +470,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root              674 ./usr/share/freeradius/dictionary.cisco.vpn5000
 -rw-r--r-- root       root              636 ./usr/share/freeradius/dictionary.citrix
 -rw-r--r-- root       root              456 ./usr/share/freeradius/dictionary.clavister
--rw-r--r-- root       root             1495 ./usr/share/freeradius/dictionary.cnergee
+-rw-r--r-- root       root             1783 ./usr/share/freeradius/dictionary.cnergee
 -rw-r--r-- root       root              315 ./usr/share/freeradius/dictionary.colubris
 -rw-r--r-- root       root              641 ./usr/share/freeradius/dictionary.columbia_university
 -rw-r--r-- root       root             1514 ./usr/share/freeradius/dictionary.compat
@@ -489,15 +489,15 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root             6306 ./usr/share/freeradius/dictionary.ericsson
 -rw-r--r-- root       root            17877 ./usr/share/freeradius/dictionary.ericsson.ab
 -rw-r--r-- root       root              302 ./usr/share/freeradius/dictionary.ericsson.packet.core.networks
--rw-r--r-- root       root            12782 ./usr/share/freeradius/dictionary.erx
+-rw-r--r-- root       root            15270 ./usr/share/freeradius/dictionary.erx
 -rw-r--r-- root       root             1134 ./usr/share/freeradius/dictionary.extreme
 -rw-r--r-- root       root             1815 ./usr/share/freeradius/dictionary.f5
 -rw-r--r-- root       root              559 ./usr/share/freeradius/dictionary.fdxtended
 -rw-r--r-- root       root              744 ./usr/share/freeradius/dictionary.fortinet
 -rw-r--r-- root       root             1913 ./usr/share/freeradius/dictionary.foundry
 -rw-r--r-- root       root            17397 ./usr/share/freeradius/dictionary.freedhcp
--rw-r--r-- root       root             7458 ./usr/share/freeradius/dictionary.freeradius
--rw-r--r-- root       root            26967 ./usr/share/freeradius/dictionary.freeradius.internal
+-rw-r--r-- root       root             7507 ./usr/share/freeradius/dictionary.freeradius
+-rw-r--r-- root       root            27035 ./usr/share/freeradius/dictionary.freeradius.internal
 -rw-r--r-- root       root             4605 ./usr/share/freeradius/dictionary.freeswitch
 -rw-r--r-- root       root             3666 ./usr/share/freeradius/dictionary.gandalf
 -rw-r--r-- root       root              508 ./usr/share/freeradius/dictionary.garderos
@@ -513,7 +513,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root              808 ./usr/share/freeradius/dictionary.ipunplugged
 -rw-r--r-- root       root             1306 ./usr/share/freeradius/dictionary.issanni
 -rw-r--r-- root       root             1528 ./usr/share/freeradius/dictionary.itk
--rw-r--r-- root       root             2157 ./usr/share/freeradius/dictionary.juniper
+-rw-r--r-- root       root             2206 ./usr/share/freeradius/dictionary.juniper
 -rw-r--r-- root       root           102779 ./usr/share/freeradius/dictionary.karlnet
 -rw-r--r-- root       root             4644 ./usr/share/freeradius/dictionary.kineto
 -rw-r--r-- root       root             1377 ./usr/share/freeradius/dictionary.lancom
@@ -529,6 +529,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root              568 ./usr/share/freeradius/dictionary.microsemi
 -rw-r--r-- root       root             5529 ./usr/share/freeradius/dictionary.microsoft
 -rw-r--r-- root       root             2148 ./usr/share/freeradius/dictionary.mikrotik
+-rw-r--r-- root       root             1681 ./usr/share/freeradius/dictionary.mimosa
 -rw-r--r-- root       root             2465 ./usr/share/freeradius/dictionary.motorola
 -rw-r--r-- root       root             1037 ./usr/share/freeradius/dictionary.motorola.illegal
 -rw-r--r-- root       root             1320 ./usr/share/freeradius/dictionary.motorola.wimax
@@ -544,7 +545,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root             1399 ./usr/share/freeradius/dictionary.openser
 -rw-r--r-- root       root              614 ./usr/share/freeradius/dictionary.packeteer
 -rw-r--r-- root       root              627 ./usr/share/freeradius/dictionary.paloalto
--rw-r--r-- root       root             8527 ./usr/share/freeradius/dictionary.patton
+-rw-r--r-- root       root             8651 ./usr/share/freeradius/dictionary.patton
 -rw-r--r-- root       root            27890 ./usr/share/freeradius/dictionary.perle
 -rw-r--r-- root       root              491 ./usr/share/freeradius/dictionary.propel
 -rw-r--r-- root       root             1323 ./usr/share/freeradius/dictionary.prosoft
@@ -565,7 +566,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root              268 ./usr/share/freeradius/dictionary.rfc4372
 -rw-r--r-- root       root              559 ./usr/share/freeradius/dictionary.rfc4603
 -rw-r--r-- root       root              786 ./usr/share/freeradius/dictionary.rfc4675
--rw-r--r-- root       root             2172 ./usr/share/freeradius/dictionary.rfc4679
+-rw-r--r-- root       root             2393 ./usr/share/freeradius/dictionary.rfc4679
 -rw-r--r-- root       root              430 ./usr/share/freeradius/dictionary.rfc4818
 -rw-r--r-- root       root              261 ./usr/share/freeradius/dictionary.rfc4849
 -rw-r--r-- root       root              997 ./usr/share/freeradius/dictionary.rfc5090
@@ -597,6 +598,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root              782 ./usr/share/freeradius/dictionary.siemens
 -rw-r--r-- root       root              536 ./usr/share/freeradius/dictionary.slipstream
 -rw-r--r-- root       root             1140 ./usr/share/freeradius/dictionary.sofaware
+-rw-r--r-- root       root             1027 ./usr/share/freeradius/dictionary.softbank
 -rw-r--r-- root       root             2721 ./usr/share/freeradius/dictionary.sonicwall
 -rw-r--r-- root       root             1065 ./usr/share/freeradius/dictionary.springtide
 -rw-r--r-- root       root            61845 ./usr/share/freeradius/dictionary.starent
@@ -630,7 +632,7 @@ drwxr-xr-x root       root             4300 ./usr/share/freeradius
 -rw-r--r-- root       root             1541 ./usr/share/freeradius/dictionary.xylan
 -rw-r--r-- root       root              642 ./usr/share/freeradius/dictionary.yubico
 -rw-r--r-- root       root              202 ./usr/share/freeradius/dictionary.zeus
--rw-r--r-- root       root             2598 ./usr/share/freeradius/dictionary.zte
+-rw-r--r-- root       root             2596 ./usr/share/freeradius/dictionary.zte
 -rw-r--r-- root       root              765 ./usr/share/freeradius/dictionary.zyxel
 drwxr-xr-x root       root              100 ./var
 drwxr-xr-x root       root               60 ./var/lib
