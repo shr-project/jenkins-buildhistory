@@ -1,8 +1,9 @@
-PV = git
+PV = 39+gitAUTOINC+a1b6736e4f
 PR = r0
-PKGR = r0.15
+PKGV = 39+git0+a1b6736e4f
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0)
 RRECOMMENDS = 
 PKGSIZE = 30860
 FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/qtchooser /usr/lib/qtchooser/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers

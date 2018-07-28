@@ -29,7 +29,7 @@ drwxr-xr-x root       root              700 ./usr/bin/.debug
 -rwxr-xr-x root       root            90524 ./usr/bin/.debug/pg_test_timing
 -rwxr-xr-x root       root           378124 ./usr/bin/.debug/pg_upgrade
 -rwxr-xr-x root       root           357880 ./usr/bin/.debug/pg_xlogdump
--rwxr-xr-x root       root         22712240 ./usr/bin/.debug/postgres
+-rwxr-xr-x root       root         22712420 ./usr/bin/.debug/postgres
 -rwxr-xr-x root       root           884556 ./usr/bin/.debug/psql
 -rwxr-xr-x root       root           210356 ./usr/bin/.debug/reindexdb
 -rwxr-xr-x root       root           212316 ./usr/bin/.debug/vacuumdb
@@ -121,7 +121,7 @@ drwxr-xr-x root       root             1660 ./usr/lib/postgresql/.debug
 -rwxr-xr-x root       root            15964 ./usr/lib/postgresql/.debug/utf8_and_sjis.so
 -rwxr-xr-x root       root            15952 ./usr/lib/postgresql/.debug/utf8_and_uhc.so
 -rwxr-xr-x root       root            19348 ./usr/lib/postgresql/.debug/utf8_and_win.so
--rwxr-xr-x root       root            30576 ./usr/lib/postgresql/.debug/uuid-ossp.so
+-rwxr-xr-x root       root            54652 ./usr/lib/postgresql/.debug/uuid-ossp.so
 -rwxr-xr-x root       root            46412 ./usr/lib/postgresql/.debug/worker_spi.so
 drwxr-xr-x root       root               60 ./usr/lib/postgresql/pgxs
 drwxr-xr-x root       root               60 ./usr/lib/postgresql/pgxs/src
@@ -134,7 +134,7 @@ drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/postgresql
 drwxr-xr-x root       root               80 ./usr/src/debug/postgresql/9.4.18-r0
 drwxr-xr-x root       root               80 ./usr/src/debug/postgresql/9.4.18-r0/build
-drwxr-xr-x root       root               60 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib
+drwxr-xr-x root       root               80 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib
 drwxr-xr-x root       root              380 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib/pg_xlogdump
 -rw-r--r-- root       root              935 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib/pg_xlogdump/clogdesc.c
 -rw-r--r-- root       root             1132 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib/pg_xlogdump/dbasedesc.c
@@ -153,6 +153,9 @@ drwxr-xr-x root       root              380 ./usr/src/debug/postgresql/9.4.18-r0
 -rw-r--r-- root       root             5162 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib/pg_xlogdump/xactdesc.c
 -rw-r--r-- root       root             4099 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib/pg_xlogdump/xlogdesc.c
 -rw-r--r-- root       root            28309 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib/pg_xlogdump/xlogreader.c
+drwxr-xr-x root       root               80 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib/uuid-ossp
+-rw-r--r-- root       root            10077 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib/uuid-ossp/md5.c
+-rw-r--r-- root       root             8764 ./usr/src/debug/postgresql/9.4.18-r0/build/contrib/uuid-ossp/sha1.c
 drwxr-xr-x root       root              120 ./usr/src/debug/postgresql/9.4.18-r0/build/src
 drwxr-xr-x root       root               60 ./usr/src/debug/postgresql/9.4.18-r0/build/src/backend
 drwxr-xr-x root       root              100 ./usr/src/debug/postgresql/9.4.18-r0/build/src/backend/port
@@ -318,13 +321,14 @@ drwxr-xr-x root       root               60 ./usr/src/debug/postgresql/9.4.18-r0
 -rw-r--r-- root       root            92000 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgbench/pgbench.c
 drwxr-xr-x root       root               60 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pg_buffercache
 -rw-r--r-- root       root             6381 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pg_buffercache/pg_buffercache_pages.c
-drwxr-xr-x root       root              600 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto
+drwxr-xr-x root       root              640 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto
 -rw-r--r-- root       root            24737 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/crypt-blowfish.c
 -rw-r--r-- root       root            19746 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/crypt-des.c
 -rw-r--r-- root       root             4564 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/crypt-gensalt.c
 -rw-r--r-- root       root             3723 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/crypt-md5.c
 -rw-r--r-- root       root             9497 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/mbuf.c
 -rw-r--r-- root       root             4025 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/mbuf.h
+-rw-r--r-- root       root             2663 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/md5.h
 -rw-r--r-- root       root            23973 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/openssl.c
 -rw-r--r-- root       root            11477 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/pgcrypto.c
 -rw-r--r-- root       root             7774 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/pgp-armor.c
@@ -347,6 +351,7 @@ drwxr-xr-x root       root              600 ./usr/src/debug/postgresql/9.4.18-r0
 -rw-r--r-- root       root             2872 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/px-crypt.h
 -rw-r--r-- root       root             7793 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/px.h
 -rw-r--r-- root       root             3684 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/px-hmac.c
+-rw-r--r-- root       root             2585 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pgcrypto/sha1.h
 drwxr-xr-x root       root               60 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pg_freespacemap
 -rw-r--r-- root       root              953 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pg_freespacemap/pg_freespacemap.c
 drwxr-xr-x root       root               60 ./usr/src/debug/postgresql/9.4.18-r0/postgresql-9.4.18/contrib/pg_prewarm

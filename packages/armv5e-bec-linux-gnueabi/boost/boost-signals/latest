@@ -1,9 +1,9 @@
 PV = 1.67.0
 PR = r0
 PKG = libboost-signals1.67.0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = boost-signals (=1.67.0)
-RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libstdc++ (>= 8.1.0)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0)
 RRECOMMENDS = 
 PKGSIZE = 79496
 FILES = /usr/lib/libboost_signals*.so.*
