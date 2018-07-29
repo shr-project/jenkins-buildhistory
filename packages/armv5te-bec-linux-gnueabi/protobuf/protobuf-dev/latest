@@ -2,9 +2,9 @@ PV = 3.6.0.1+gitAUTOINC+ce044817c7
 PR = r0
 PKG = libprotobuf-dev
 PKGV = 3.6.0.1+git0+ce044817c7
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = protobuf-dev (=3.6.0.1+git0+ce044817c7)
-RDEPENDS = protobuf (= 3.6.0.1+git0+ce044817c7-r0.3) protobuf-compiler protobuf-lite
+RDEPENDS = protobuf (= 3.6.0.1+git0+ce044817c7-r0.4) protobuf-compiler protobuf-lite
 RRECOMMENDS = bash-dev glibc-dev libatomic-dev libgcc-dev libstdc++-dev protobuf-compiler-dev protobuf-lite-dev python-protobuf-dev zlib-dev
 PKGSIZE = 2280931
 FILES = /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/protobuf/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake

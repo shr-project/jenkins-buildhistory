@@ -253,7 +253,7 @@ drwxr-xr-x root       root              120 ./usr/lib/go/pkg/linux_arm_dynlink/m
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/mime/quotedprintable.shlibname
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/mime.shlibname
 drwxr-xr-x root       root              340 ./usr/lib/go/pkg/linux_arm_dynlink/net
--rw-r--r-- root       root          1204270 ./usr/lib/go/pkg/linux_arm_dynlink/net.a
+-rw-r--r-- root       root          1204204 ./usr/lib/go/pkg/linux_arm_dynlink/net.a
 drwxr-xr-x root       root              360 ./usr/lib/go/pkg/linux_arm_dynlink/net/http
 -rw-r--r-- root       root          2331640 ./usr/lib/go/pkg/linux_arm_dynlink/net/http.a
 -rw-r--r-- root       root           118134 ./usr/lib/go/pkg/linux_arm_dynlink/net/http/cgi.a
@@ -297,14 +297,14 @@ drwxr-xr-x root       root              160 ./usr/lib/go/pkg/linux_arm_dynlink/o
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/os.shlibname
 -rw-r--r-- root       root            30750 ./usr/lib/go/pkg/linux_arm_dynlink/os/signal.a
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/os/signal.shlibname
--rw-r--r-- root       root            99672 ./usr/lib/go/pkg/linux_arm_dynlink/os/user.a
+-rw-r--r-- root       root            99606 ./usr/lib/go/pkg/linux_arm_dynlink/os/user.a
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/os/user.shlibname
 drwxr-xr-x root       root               80 ./usr/lib/go/pkg/linux_arm_dynlink/path
 -rw-r--r-- root       root            19472 ./usr/lib/go/pkg/linux_arm_dynlink/path.a
 -rw-r--r-- root       root            54416 ./usr/lib/go/pkg/linux_arm_dynlink/path/filepath.a
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/path/filepath.shlibname
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/path.shlibname
--rw-r--r-- root       root            49908 ./usr/lib/go/pkg/linux_arm_dynlink/plugin.a
+-rw-r--r-- root       root            49840 ./usr/lib/go/pkg/linux_arm_dynlink/plugin.a
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/plugin.shlibname
 -rw-r--r-- root       root           987852 ./usr/lib/go/pkg/linux_arm_dynlink/reflect.a
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/reflect.shlibname
@@ -315,7 +315,7 @@ drwxr-xr-x root       root               80 ./usr/lib/go/pkg/linux_arm_dynlink/r
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/regexp/syntax.shlibname
 drwxr-xr-x root       root              280 ./usr/lib/go/pkg/linux_arm_dynlink/runtime
 -rw-r--r-- root       root          1884630 ./usr/lib/go/pkg/linux_arm_dynlink/runtime.a
--rw-r--r-- root       root            44640 ./usr/lib/go/pkg/linux_arm_dynlink/runtime/cgo.a
+-rw-r--r-- root       root            44574 ./usr/lib/go/pkg/linux_arm_dynlink/runtime/cgo.a
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/runtime/cgo.shlibname
 -rw-r--r-- root       root            17424 ./usr/lib/go/pkg/linux_arm_dynlink/runtime/debug.a
 -rw-r--r-- root       root               10 ./usr/lib/go/pkg/linux_arm_dynlink/runtime/debug.shlibname
@@ -512,7 +512,7 @@ drwxr-xr-x root       root              200 ./usr/lib/go/src/cmd/cgo
 -rw-r--r-- root       root            10141 ./usr/lib/go/src/cmd/cgo/main.go
 -rw-r--r-- root       root            48259 ./usr/lib/go/src/cmd/cgo/out.go
 -rw-r--r-- root       root             3304 ./usr/lib/go/src/cmd/cgo/util.go
--rw-r--r-- root       root              844 ./usr/lib/go/src/cmd/cgo/zdefaultcc.go
+-rw-r--r-- root       root              651 ./usr/lib/go/src/cmd/cgo/zdefaultcc.go
 drwxr-xr-x root       root              120 ./usr/lib/go/src/cmd/compile
 -rw-r--r-- root       root             5575 ./usr/lib/go/src/cmd/compile/doc.go
 -rw-r--r-- root       root            22818 ./usr/lib/go/src/cmd/compile/fmt_test.go
@@ -843,7 +843,7 @@ drwxr-xr-x root       root               80 ./usr/lib/go/src/cmd/go/internal/bui
 -rw-r--r-- root       root             5446 ./usr/lib/go/src/cmd/go/internal/buildid/note.go
 drwxr-xr-x root       root              100 ./usr/lib/go/src/cmd/go/internal/cfg
 -rw-r--r-- root       root             3794 ./usr/lib/go/src/cmd/go/internal/cfg/cfg.go
--rw-r--r-- root       root              843 ./usr/lib/go/src/cmd/go/internal/cfg/zdefaultcc.go
+-rw-r--r-- root       root              650 ./usr/lib/go/src/cmd/go/internal/cfg/zdefaultcc.go
 -rw-r--r-- root       root              945 ./usr/lib/go/src/cmd/go/internal/cfg/zosarch.go
 drwxr-xr-x root       root               60 ./usr/lib/go/src/cmd/go/internal/clean
 -rw-r--r-- root       root             6155 ./usr/lib/go/src/cmd/go/internal/clean/clean.go
