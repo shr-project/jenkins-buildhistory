@@ -1,9 +1,9 @@
 PV = 61.1
 PR = r0
 PKG = libicui18n61
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = libicui18n (=61.1)
-RDEPENDS = glibc (>= 2.27) libgcc (>= 8.1.0) libicudata (>= 61.1) libicuuc (>= 61.1) libstdc++ (>= 8.1.0)
+RDEPENDS = glibc (>= 2.27) libgcc (>= 8.2.0) libicudata (>= 61.1) libicuuc (>= 61.1) libstdc++ (>= 8.2.0)
 RRECOMMENDS = 
 PKGSIZE = 2820738
 FILES = /usr/lib/libicui18n.so.*

@@ -1,8 +1,8 @@
 PV = 1.9.12
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libasound (>= 1.1.6) libgcc (>= 8.1.0) libsamplerate0 (>= 0.1.9) libstdc++ (>= 8.1.0)
+RDEPENDS = glibc (>= 2.27) libasound (>= 1.1.6) libgcc (>= 8.2.0) libsamplerate0 (>= 0.1.9) libstdc++ (>= 8.2.0)
 RRECOMMENDS = 
 PKGSIZE = 2001921
 FILES = /usr/lib/*.so.* /usr/lib/jack/*.so
