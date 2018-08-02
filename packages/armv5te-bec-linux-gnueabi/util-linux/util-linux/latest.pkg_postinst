@@ -14,7 +14,6 @@ set -e
 	update-alternatives --install /usr/bin/mesg mesg /usr/bin/mesg.util-linux 80
 	update-alternatives --install /usr/bin/renice renice /usr/bin/renice.util-linux 80
 	update-alternatives --install /usr/bin/wall wall /usr/bin/wall.util-linux 80
-	update-alternatives --install /usr/bin/fallocate fallocate /usr/bin/fallocate.util-linux 80
 	update-alternatives --install /usr/bin/unshare unshare /usr/bin/unshare.util-linux 80
 	update-alternatives --install /usr/bin/setsid setsid /usr/bin/setsid.util-linux 80
 	update-alternatives --install /usr/bin/chrt chrt /usr/bin/chrt.util-linux 80
@@ -23,4 +22,5 @@ set -e
 	update-alternatives --install /usr/bin/eject eject /usr/bin/eject.util-linux 80
 	update-alternatives --install /sbin/nologin nologin /sbin/nologin.util-linux 80
 	update-alternatives --install /usr/bin/taskset taskset /usr/bin/taskset.util-linux 80
+	update-alternatives --install /usr/bin/fallocate fallocate /usr/bin/fallocate.util-linux 80
 	update-alternatives --install /bin/su su /bin/su.util-linux 80

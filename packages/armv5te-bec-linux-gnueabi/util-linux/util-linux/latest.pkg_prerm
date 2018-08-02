@@ -14,7 +14,6 @@ set -e
 	update-alternatives --remove  mesg /usr/bin/mesg.util-linux
 	update-alternatives --remove  renice /usr/bin/renice.util-linux
 	update-alternatives --remove  wall /usr/bin/wall.util-linux
-	update-alternatives --remove  fallocate /usr/bin/fallocate.util-linux
 	update-alternatives --remove  unshare /usr/bin/unshare.util-linux
 	update-alternatives --remove  setsid /usr/bin/setsid.util-linux
 	update-alternatives --remove  chrt /usr/bin/chrt.util-linux
@@ -23,4 +22,5 @@ set -e
 	update-alternatives --remove  eject /usr/bin/eject.util-linux
 	update-alternatives --remove  nologin /sbin/nologin.util-linux
 	update-alternatives --remove  taskset /usr/bin/taskset.util-linux
+	update-alternatives --remove  fallocate /usr/bin/fallocate.util-linux
 	update-alternatives --remove  su /bin/su.util-linux

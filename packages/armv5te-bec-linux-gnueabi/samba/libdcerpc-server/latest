@@ -1,10 +1,10 @@
-PV = 4.7.8
+PV = 4.8.3
 PR = r0
 PKG = libdcerpc-server0
-PKGR = r0.11
-RPROVIDES = libdcerpc-server (=4.7.8)
-RDEPENDS = glibc (>= 2.27) gnutls (>= 3.6.2) libauth4-samba4 (>= 4.7.8) libauthkrb5-samba4 (>= 4.7.8) libbsd (>= 0.9.1) libcli-ldap-common-samba4 (>= 4.7.8) libcliauth-samba4 (>= 4.7.8) libcommon-auth-samba4 (>= 4.7.8) libdbwrap-samba4 (>= 4.7.8) libdcerpc (>= 4.7.8) libdcerpc-binding (>= 4.7.8) libdcerpc-samba4 (>= 4.7.8) libdnsserver-common-samba4 (>= 4.7.8) libdsdb-module-samba4 (>= 4.7.8) libflag-mapping-samba4 (>= 4.7.8) libgenrand-samba4 (>= 4.7.8) libgensec-samba4 (>= 4.7.8) libkrb5 (>= 1.16.1) libldb (>= 1.3.1) libldbsamba-samba4 (>= 4.7.8) liblibwbclient-old-samba4 (>= 4.7.8) libmessaging-samba4 (>= 4.7.8) libmessaging-send-samba4 (>= 4.7.8) libndr (>= 4.7.8) libndr-samba-samba4 (>= 4.7.8) libndr-samba4 (>= 4.7.8) libndr-standard (>= 4.7.8) libnetif-samba4 (>= 4.7.8) libreplace-samba4 (>= 4.7.8) libsamba-credentials (>= 4.7.8) libsamba-debug-samba4 (>= 4.7.8) libsamba-errors (>= 4.7.8) libsamba-hostconfig (>= 4.7.8) libsamba-modules-samba4 (>= 4.7.8) libsamba-security-samba4 (>= 4.7.8) libsamba-sockets-samba4 (>= 4.7.8) libsamba-util (>= 4.7.8) libsamdb (>= 4.7.8) libsamdb-common-samba4 (>= 4.7.8) libservice-samba4 (>= 4.7.8) libtalloc (>= 2.1.14) libtevent (>= 0.9.36) libtevent-util (>= 4.7.8) samba-common
+PKGR = r0.0
+RPROVIDES = libdcerpc-server (=4.8.3)
+RDEPENDS = glibc (>= 2.27) gnutls (>= 3.6.2) libauth4-samba4 (>= 4.8.3) libauthkrb5-samba4 (>= 4.8.3) libbsd (>= 0.9.1) libcli-ldap-common-samba4 (>= 4.8.3) libcliauth-samba4 (>= 4.8.3) libcommon-auth-samba4 (>= 4.8.3) libdbwrap-samba4 (>= 4.8.3) libdcerpc (>= 4.8.3) libdcerpc-binding (>= 4.8.3) libdcerpc-samba-samba4 (>= 4.8.3) libdcerpc-samba4 (>= 4.8.3) libdnsserver-common-samba4 (>= 4.8.3) libdsdb-module-samba4 (>= 4.8.3) libflag-mapping-samba4 (>= 4.8.3) libgenrand-samba4 (>= 4.8.3) libgensec-samba4 (>= 4.8.3) libkrb5 (>= 1.16.1) libldbsamba-samba4 (>= 4.8.3) liblibwbclient-old-samba4 (>= 4.8.3) libmessaging-samba4 (>= 4.8.3) libmessaging-send-samba4 (>= 4.8.3) libndr (>= 4.8.3) libndr-samba-samba4 (>= 4.8.3) libndr-samba4 (>= 4.8.3) libndr-standard (>= 4.8.3) libnetif-samba4 (>= 4.8.3) libreplace-samba4 (>= 4.8.3) libsamba-credentials (>= 4.8.3) libsamba-debug-samba4 (>= 4.8.3) libsamba-errors (>= 4.8.3) libsamba-hostconfig (>= 4.8.3) libsamba-modules-samba4 (>= 4.8.3) libsamba-security-samba4 (>= 4.8.3) libsamba-sockets-samba4 (>= 4.8.3) libsamba-util (>= 4.8.3) libsamdb (>= 4.8.3) libsamdb-common-samba4 (>= 4.8.3) libservice-samba4 (>= 4.8.3) libtalloc (>= 2.1.14) libtevent (>= 0.9.37) libtevent-util (>= 4.8.3) samba (>= 4.8.3) samba-common
 RRECOMMENDS = 
-PKGSIZE = 575765
+PKGSIZE = 588093
 FILES = /usr/lib/libdcerpc-server.so.0 /usr/lib/libdcerpc-server.so.0.0.1
 FILELIST = /usr/lib/libdcerpc-server.so.0 /usr/lib/libdcerpc-server.so.0.0.1

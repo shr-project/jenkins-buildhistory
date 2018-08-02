@@ -1,8 +1,8 @@
-PV = 4.7.8
+PV = 4.8.3
 PR = r0
-PKGR = r0.11
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.27) libdcerpc-samba-samba4 (>= 4.7.8) libsamba-debug-samba4 (>= 4.7.8) libsamba-errors (>= 4.7.8) libsamba-security-samba4 (>= 4.7.8) libsamba-util (>= 4.7.8) libtalloc (>= 2.1.14) samba-common
+RDEPENDS = glibc (>= 2.27) libdcerpc-samba-samba4 (>= 4.8.3) libsamba-debug-samba4 (>= 4.8.3) libsamba-errors (>= 4.8.3) libsamba-security-samba4 (>= 4.8.3) libsamba-util (>= 4.8.3) libtalloc (>= 2.1.14) samba-common
 RRECOMMENDS = 
 PKGSIZE = 13600
 FILES = /usr/lib/samba/liblibcli-lsa3-samba4.so
