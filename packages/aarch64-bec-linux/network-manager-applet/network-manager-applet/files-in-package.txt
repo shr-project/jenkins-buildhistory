@@ -5,18 +5,16 @@ drwxr-xr-x root       root               60 ./etc/xdg/autostart
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root           266216 ./usr/bin/nm-applet
--rwxr-xr-x root       root           854760 ./usr/bin/nm-connection-editor
+-rwxr-xr-x root       root           854888 ./usr/bin/nm-connection-editor
 drwxr-xr-x root       root              140 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/girepository-1.0
--rw-r--r-- root       root            12124 ./usr/lib/girepository-1.0/NMA-1.0.typelib
+-rw-r--r-- root       root            12292 ./usr/lib/girepository-1.0/NMA-1.0.typelib
 -rw-r--r-- root       root            14336 ./usr/lib/girepository-1.0/NMGtk-1.0.typelib
--rwxr-xr-x root       root           264600 ./usr/lib/libnma.so.0.0.0
+-rwxr-xr-x root       root           330136 ./usr/lib/libnma.so.0.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libnma.so.0 -> libnma.so.0.0.0
 -rwxr-xr-x root       root           264784 ./usr/lib/libnm-gtk.so.0.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libnm-gtk.so.0 -> libnm-gtk.so.0.0.0
 drwxr-xr-x root       root              140 ./usr/share
-drwxr-xr-x root       root               60 ./usr/share/appdata
--rw-r--r-- root       root            15317 ./usr/share/appdata/nm-connection-editor.appdata.xml
 drwxr-xr-x root       root               80 ./usr/share/applications
 -rw-r--r-- root       root             5831 ./usr/share/applications/nm-applet.desktop
 -rw-r--r-- root       root             9853 ./usr/share/applications/nm-connection-editor.desktop
@@ -34,18 +32,24 @@ drwxr-xr-x root       root              100 ./usr/share/icons/hicolor/16x16/apps
 -rw-r--r-- root       root              601 ./usr/share/icons/hicolor/16x16/apps/nm-no-connection.png
 -rw-r--r-- root       root              595 ./usr/share/icons/hicolor/16x16/apps/nm-vpn-standalone-lock.png
 drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/22x22
-drwxr-xr-x root       root             1400 ./usr/share/icons/hicolor/22x22/apps
+drwxr-xr-x root       root             1520 ./usr/share/icons/hicolor/22x22/apps
 -rw-r--r-- root       root              748 ./usr/share/icons/hicolor/22x22/apps/nm-adhoc.png
 -rw-r--r-- root       root              672 ./usr/share/icons/hicolor/22x22/apps/nm-device-wired.png
+-rw-r--r-- root       root              945 ./usr/share/icons/hicolor/22x22/apps/nm-device-wired-secure.png
 -rw-r--r-- root       root              817 ./usr/share/icons/hicolor/22x22/apps/nm-device-wwan.png
 -rw-r--r-- root       root              267 ./usr/share/icons/hicolor/22x22/apps/nm-mb-roam.png
 -rw-r--r-- root       root              811 ./usr/share/icons/hicolor/22x22/apps/nm-no-connection.png
 -rw-r--r-- root       root              335 ./usr/share/icons/hicolor/22x22/apps/nm-secure-lock.png
 -rw-r--r-- root       root              494 ./usr/share/icons/hicolor/22x22/apps/nm-signal-00.png
+-rw-r--r-- root       root              775 ./usr/share/icons/hicolor/22x22/apps/nm-signal-00-secure.png
 -rw-r--r-- root       root              413 ./usr/share/icons/hicolor/22x22/apps/nm-signal-100.png
+-rw-r--r-- root       root              688 ./usr/share/icons/hicolor/22x22/apps/nm-signal-100-secure.png
 -rw-r--r-- root       root              500 ./usr/share/icons/hicolor/22x22/apps/nm-signal-25.png
+-rw-r--r-- root       root              779 ./usr/share/icons/hicolor/22x22/apps/nm-signal-25-secure.png
 -rw-r--r-- root       root              496 ./usr/share/icons/hicolor/22x22/apps/nm-signal-50.png
+-rw-r--r-- root       root              770 ./usr/share/icons/hicolor/22x22/apps/nm-signal-50-secure.png
 -rw-r--r-- root       root              474 ./usr/share/icons/hicolor/22x22/apps/nm-signal-75.png
+-rw-r--r-- root       root              747 ./usr/share/icons/hicolor/22x22/apps/nm-signal-75-secure.png
 -rw-r--r-- root       root             1168 ./usr/share/icons/hicolor/22x22/apps/nm-stage01-connecting01.png
 -rw-r--r-- root       root             1188 ./usr/share/icons/hicolor/22x22/apps/nm-stage01-connecting02.png
 -rw-r--r-- root       root             1206 ./usr/share/icons/hicolor/22x22/apps/nm-stage01-connecting03.png
@@ -114,3 +118,5 @@ drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/scalable
 drwxr-xr-x root       root               80 ./usr/share/icons/hicolor/scalable/apps
 -rw-r--r-- root       root           119570 ./usr/share/icons/hicolor/scalable/apps/nm-device-wired.svg
 -rw-r--r-- root       root           123984 ./usr/share/icons/hicolor/scalable/apps/nm-no-connection.svg
+drwxr-xr-x root       root               60 ./usr/share/metainfo
+-rw-r--r-- root       root            16435 ./usr/share/metainfo/nm-connection-editor.appdata.xml

@@ -17,7 +17,7 @@ drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/systemd
 drwxr-xr-x root       root              140 ./lib/systemd/system
 -r--r--r-- root       root              152 ./lib/systemd/system/org.cups.cupsd.path
--r--r--r-- root       root              195 ./lib/systemd/system/org.cups.cupsd.service
+-r--r--r-- root       root              214 ./lib/systemd/system/org.cups.cupsd.service
 -r--r--r-- root       root              146 ./lib/systemd/system/org.cups.cupsd.socket
 -r--r--r-- root       root              147 ./lib/systemd/system/org.cups.cups-lpd@.service
 -r--r--r-- root       root              148 ./lib/systemd/system/org.cups.cups-lpd.socket
@@ -91,7 +91,7 @@ lrwxrwxrwx root       root               10 ./usr/sbin/cupsdisable -> cupsaccept
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsenable -> cupsaccept
 -rwxr-xr-x root       root            68032 ./usr/sbin/cupsfilter
 lrwxrwxrwx root       root               10 ./usr/sbin/cupsreject -> cupsaccept
--rwxr-xr-x root       root            67736 ./usr/sbin/lpadmin
+-rwxr-xr-x root       root            67824 ./usr/sbin/lpadmin
 -rwxr-xr-x root       root            67776 ./usr/sbin/lpc
 -rwxr-xr-x root       root            67736 ./usr/sbin/lpinfo
 -rwxr-xr-x root       root            67736 ./usr/sbin/lpmove
@@ -103,7 +103,7 @@ drwxr-xr-x root       root              260 ./usr/share/cups
 drwxr-xr-x root       root               40 ./usr/share/cups/banners
 drwxr-xr-x root       root               40 ./usr/share/cups/data
 drwxr-xr-x root       root               60 ./usr/share/cups/drv
--r--r--r-- root       root            41095 ./usr/share/cups/drv/sample.drv
+-r--r--r-- root       root            41221 ./usr/share/cups/drv/sample.drv
 drwxr-xr-x root       root              260 ./usr/share/cups/examples
 -r--r--r-- root       root              921 ./usr/share/cups/examples/color.drv
 -r--r--r-- root       root             1263 ./usr/share/cups/examples/constraint.drv
@@ -133,7 +133,7 @@ drwxr-xr-x root       root              640 ./usr/share/cups/ipptool
 -r--r--r-- root       root             7669 ./usr/share/cups/ipptool/ipp-2.0.test
 -r--r--r-- root       root             4742 ./usr/share/cups/ipptool/ipp-2.1.test
 -r--r--r-- root       root             4061 ./usr/share/cups/ipptool/ipp-2.2.test
--r--r--r-- root       root           318144 ./usr/share/cups/ipptool/ipp-everywhere.test
+-r--r--r-- root       root           318174 ./usr/share/cups/ipptool/ipp-everywhere.test
 -r--r--r-- root       root            43948 ./usr/share/cups/ipptool/onepage-a4.pdf
 -r--r--r-- root       root            43433 ./usr/share/cups/ipptool/onepage-a4.ps
 -r--r--r-- root       root            42394 ./usr/share/cups/ipptool/onepage-letter.pdf
@@ -144,7 +144,7 @@ drwxr-xr-x root       root              640 ./usr/share/cups/ipptool
 -r--r--r-- root       root           197669 ./usr/share/cups/ipptool/testfile.jpg
 -r--r--r-- root       root              146 ./usr/share/cups/ipptool/testfile.pcl
 -r--r--r-- root       root           266692 ./usr/share/cups/ipptool/testfile.pdf
--r--r--r-- root       root             4289 ./usr/share/cups/ipptool/testfile.ps
+-r--r--r-- root       root             4240 ./usr/share/cups/ipptool/testfile.ps
 -r--r--r-- root       root              137 ./usr/share/cups/ipptool/testfile.txt
 -r--r--r-- root       root              603 ./usr/share/cups/ipptool/validate-job.test
 drwxr-xr-x root       root               80 ./usr/share/cups/mime
@@ -330,33 +330,33 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/fr
 -r--r--r-- root       root             6850 ./usr/share/cups/templates/fr/admin.tmpl
 -r--r--r-- root       root             1760 ./usr/share/cups/templates/fr/choose-device.tmpl
 -r--r--r-- root       root             1957 ./usr/share/cups/templates/fr/choose-make.tmpl
--r--r--r-- root       root             2179 ./usr/share/cups/templates/fr/choose-model.tmpl
+-r--r--r-- root       root             2181 ./usr/share/cups/templates/fr/choose-model.tmpl
 -r--r--r-- root       root             1444 ./usr/share/cups/templates/fr/choose-serial.tmpl
--r--r--r-- root       root             1081 ./usr/share/cups/templates/fr/choose-uri.tmpl
+-r--r--r-- root       root             1080 ./usr/share/cups/templates/fr/choose-uri.tmpl
 -r--r--r-- root       root              164 ./usr/share/cups/templates/fr/class-added.tmpl
 -r--r--r-- root       root              462 ./usr/share/cups/templates/fr/class-confirm.tmpl
 -r--r--r-- root       root              144 ./usr/share/cups/templates/fr/class-deleted.tmpl
--r--r--r-- root       root              109 ./usr/share/cups/templates/fr/classes-header.tmpl
--r--r--r-- root       root              548 ./usr/share/cups/templates/fr/classes.tmpl
+-r--r--r-- root       root              108 ./usr/share/cups/templates/fr/classes-header.tmpl
+-r--r--r-- root       root              549 ./usr/share/cups/templates/fr/classes.tmpl
 -r--r--r-- root       root               31 ./usr/share/cups/templates/fr/class-jobs-header.tmpl
 -r--r--r-- root       root              180 ./usr/share/cups/templates/fr/class-modified.tmpl
--r--r--r-- root       root             2474 ./usr/share/cups/templates/fr/class.tmpl
+-r--r--r-- root       root             2488 ./usr/share/cups/templates/fr/class.tmpl
 -r--r--r-- root       root              464 ./usr/share/cups/templates/fr/command.tmpl
 -r--r--r-- root       root              637 ./usr/share/cups/templates/fr/edit-config.tmpl
 -r--r--r-- root       root              131 ./usr/share/cups/templates/fr/error-op.tmpl
 -r--r--r-- root       root              126 ./usr/share/cups/templates/fr/error.tmpl
 -r--r--r-- root       root             1751 ./usr/share/cups/templates/fr/header.tmpl
--r--r--r-- root       root             1668 ./usr/share/cups/templates/fr/help-header.tmpl
+-r--r--r-- root       root             1750 ./usr/share/cups/templates/fr/help-header.tmpl
 -r--r--r-- root       root              370 ./usr/share/cups/templates/fr/help-printable.tmpl
 -r--r--r-- root       root                0 ./usr/share/cups/templates/fr/help-trailer.tmpl
 -r--r--r-- root       root              151 ./usr/share/cups/templates/fr/job-cancel.tmpl
 -r--r--r-- root       root              144 ./usr/share/cups/templates/fr/job-hold.tmpl
--r--r--r-- root       root              314 ./usr/share/cups/templates/fr/job-moved.tmpl
+-r--r--r-- root       root              322 ./usr/share/cups/templates/fr/job-moved.tmpl
 -r--r--r-- root       root              712 ./usr/share/cups/templates/fr/job-move.tmpl
 -r--r--r-- root       root              165 ./usr/share/cups/templates/fr/job-release.tmpl
 -r--r--r-- root       root              162 ./usr/share/cups/templates/fr/job-restart.tmpl
 -r--r--r-- root       root              864 ./usr/share/cups/templates/fr/jobs-header.tmpl
--r--r--r-- root       root             2911 ./usr/share/cups/templates/fr/jobs.tmpl
+-r--r--r-- root       root             2909 ./usr/share/cups/templates/fr/jobs.tmpl
 -r--r--r-- root       root              655 ./usr/share/cups/templates/fr/list-available-printers.tmpl
 -r--r--r-- root       root              876 ./usr/share/cups/templates/fr/modify-class.tmpl
 -r--r--r-- root       root             1328 ./usr/share/cups/templates/fr/modify-printer.tmpl
@@ -373,7 +373,7 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/fr
 -r--r--r-- root       root              275 ./usr/share/cups/templates/fr/printer-cancel-jobs.tmpl
 -r--r--r-- root       root              282 ./usr/share/cups/templates/fr/printer-configured.tmpl
 -r--r--r-- root       root              489 ./usr/share/cups/templates/fr/printer-confirm.tmpl
--r--r--r-- root       root              509 ./usr/share/cups/templates/fr/printer-default.tmpl
+-r--r--r-- root       root              545 ./usr/share/cups/templates/fr/printer-default.tmpl
 -r--r--r-- root       root              150 ./usr/share/cups/templates/fr/printer-deleted.tmpl
 -r--r--r-- root       root               31 ./usr/share/cups/templates/fr/printer-jobs-header.tmpl
 -r--r--r-- root       root              187 ./usr/share/cups/templates/fr/printer-modified.tmpl
@@ -657,7 +657,7 @@ drwxr-xr-x root       root             1440 ./usr/share/cups/templates/ru
 -r--r--r-- root       root              218 ./usr/share/cups/templates/trailer.tmpl
 -r--r--r-- root       root              893 ./usr/share/cups/templates/users.tmpl
 drwxr-xr-x root       root               60 ./usr/share/cups/usb
--r--r--r-- root       root             6217 ./usr/share/cups/usb/org.cups.usb-quirks
+-r--r--r-- root       root             6725 ./usr/share/cups/usb/org.cups.usb-quirks
 drwxr-xr-x root       root               60 ./usr/share/icons
 drwxr-xr-x root       root              120 ./usr/share/icons/hicolor
 drwxr-xr-x root       root               60 ./usr/share/icons/hicolor/128x128
