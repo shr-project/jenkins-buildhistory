@@ -2,9 +2,9 @@ PV = 3.6.0.1+gitAUTOINC+ce044817c7
 PR = r0
 PKG = libprotobuf-ptest
 PKGV = 3.6.0.1+git0+ce044817c7
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = protobuf-ptest (=3.6.0.1+git0+ce044817c7)
-RDEPENDS = bash glibc (>= 2.27) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) protobuf (>= 3.6.0.1+git0+ce044817c7) python-protobuf
+RDEPENDS = bash glibc (>= 2.28) libgcc (>= 8.2.0) libstdc++ (>= 8.2.0) protobuf (>= 3.6.0.1+git0+ce044817c7) python-protobuf
 RRECOMMENDS = ptest-runner
 PKGSIZE = 122030
 FILES = /usr/lib/protobuf/ptest

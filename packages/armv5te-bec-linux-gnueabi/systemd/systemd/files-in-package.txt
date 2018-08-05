@@ -73,7 +73,7 @@ lrwxrwxrwx root       root               25 ./lib/systemd/system/dbus-org.freede
 lrwxrwxrwx root       root               23 ./lib/systemd/system/dbus-org.freedesktop.locale1.service -> systemd-localed.service
 lrwxrwxrwx root       root               22 ./lib/systemd/system/dbus-org.freedesktop.login1.service -> systemd-logind.service
 lrwxrwxrwx root       root               25 ./lib/systemd/system/dbus-org.freedesktop.timedate1.service -> systemd-timedated.service
--rwxr-xr-x root       root            13952 ./lib/systemd/systemd-dissect
+-rwxr-xr-x root       root             9856 ./lib/systemd/systemd-dissect
 -rw-r--r-- root       root             1084 ./lib/systemd/system/debug-shell.service
 lrwxrwxrwx root       root               16 ./lib/systemd/system/default.target -> graphical.target
 -rw-r--r-- root       root              750 ./lib/systemd/system/dev-hugepages.mount
@@ -115,7 +115,7 @@ drwxr-xr-x root       root              180 ./lib/systemd/system-generators
 -rwxr-xr-x root       root            26284 ./lib/systemd/system-generators/systemd-fstab-generator
 -rwxr-xr-x root       root             9804 ./lib/systemd/system-generators/systemd-getty-generator
 -rwxr-xr-x root       root             9816 ./lib/systemd/system-generators/systemd-hibernate-resume-generator
--rwxr-xr-x root       root             9808 ./lib/systemd/system-generators/systemd-rc-local-generator
+-rwxr-xr-x root       root             5712 ./lib/systemd/system-generators/systemd-rc-local-generator
 -rwxr-xr-x root       root             9812 ./lib/systemd/system-generators/systemd-system-update-generator
 -rwxr-xr-x root       root            22152 ./lib/systemd/system-generators/systemd-sysv-generator
 -rw-r--r-- root       root              506 ./lib/systemd/system/getty-pre.target

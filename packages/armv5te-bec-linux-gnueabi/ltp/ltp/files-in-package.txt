@@ -4861,8 +4861,8 @@ drwxr-xr-x root       root              400 ./opt/ltp/testcases/bin/ftrace_stres
 -rwxrwxr-x root       root            87876 ./opt/ltp/testcases/bin/userns06
 -rwxrwxr-x root       root            83772 ./opt/ltp/testcases/bin/userns06_capcheck
 -rwxrwxr-x root       root            87860 ./opt/ltp/testcases/bin/userns07
--rwxrwxr-x root       root            83760 ./opt/ltp/testcases/bin/ustat01
--rwxrwxr-x root       root            83820 ./opt/ltp/testcases/bin/ustat02
+-rwxrwxr-x root       root            79652 ./opt/ltp/testcases/bin/ustat01
+-rwxrwxr-x root       root            79652 ./opt/ltp/testcases/bin/ustat02
 -rwxrwxr-x root       root            87856 ./opt/ltp/testcases/bin/utime01
 -rwxrwxr-x root       root            87864 ./opt/ltp/testcases/bin/utime02
 -rwxrwxr-x root       root            87856 ./opt/ltp/testcases/bin/utime03
@@ -4993,7 +4993,7 @@ drwxr-xr-x root       root              120 ./opt/ltp/testcases/data/nm01
 -rwxrwxr-x root       root             5740 ./opt/ltp/testcases/data/nm01/f1
 -rwxrwxr-x root       root             5740 ./opt/ltp/testcases/data/nm01/f2
 -rwxrwxr-x root       root             5740 ./opt/ltp/testcases/data/nm01/f3
--rwxrwxr-x root       root            16096 ./opt/ltp/testcases/data/nm01/lib.a
+-rwxrwxr-x root       root            15700 ./opt/ltp/testcases/data/nm01/lib.a
 drwxr-xr-x root       root               80 ./opt/ltp/testcases/data/stress_floppy
 -rwxrwxr-x root       root          1474560 ./opt/ltp/testcases/data/stress_floppy/dd_file
 drwxr-xr-x root       root              120 ./opt/ltp/testcases/data/stress_floppy/dumpdir
@@ -5094,7 +5094,7 @@ drwxr-xr-x root       root              600 ./opt/ltp/testcases/open_posix_tests
 -rw-r--r-- root       root             3276 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/mqueue_h/mqueue_h_5-1-buildonly.test
 -rw-r--r-- root       root             3536 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/mqueue_h/mqueue_h_6-1-buildonly.test
 -rw-r--r-- root       root             3412 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/mqueue_h/mqueue_h_7-1-buildonly.test
--rw-r--r-- root       root             5260 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/mqueue_h/mqueue_h_8-1-buildonly.test
+-rw-r--r-- root       root             5128 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/mqueue_h/mqueue_h_8-1-buildonly.test
 -rw-r--r-- root       root             4116 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/mqueue_h/mqueue_h_9-1-buildonly.test
 -rw-r--r-- root       root              736 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/mqueue_h/null.o
 -rwxr-xr-x root       root               91 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/mqueue_h/run.sh
@@ -5196,14 +5196,14 @@ drwxr-xr-x root       root              840 ./opt/ltp/testcases/open_posix_tests
 -rw-r--r-- root       root             2652 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_11-1-buildonly.test
 -rw-r--r-- root       root             2036 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_1-1-buildonly.test
 -rw-r--r-- root       root             2652 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_12-1-buildonly.test
--rw-r--r-- root       root             2880 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_13-1-buildonly.test
+-rw-r--r-- root       root             2916 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_13-1-buildonly.test
 -rw-r--r-- root       root             2756 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_14-1-buildonly.test
 -rw-r--r-- root       root             3300 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_15-1-buildonly.test
--rw-r--r-- root       root             2892 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_16-1-buildonly.test
--rw-r--r-- root       root             2900 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_17-1-buildonly.test
+-rw-r--r-- root       root             2928 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_16-1-buildonly.test
+-rw-r--r-- root       root             2936 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_17-1-buildonly.test
 -rw-r--r-- root       root             2624 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_18-1-buildonly.test
 -rw-r--r-- root       root             2212 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_19-1-buildonly.test
--rw-r--r-- root       root             2960 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_2-1-buildonly.test
+-rw-r--r-- root       root             2980 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_2-1-buildonly.test
 -rw-r--r-- root       root             2296 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_3-1-buildonly.test
 -rw-r--r-- root       root             2296 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_4-1-buildonly.test
 -rw-r--r-- root       root             2036 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/sched_h/sched_h_8-1-buildonly.test
@@ -5539,7 +5539,7 @@ drwxr-xr-x root       root             1960 ./opt/ltp/testcases/open_posix_tests
 -rw-r--r-- root       root             2356 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/time_h/time_h_3-4-buildonly.test
 -rw-r--r-- root       root             2856 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/time_h/time_h_35-1-buildonly.test
 -rw-r--r-- root       root             2856 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/time_h/time_h_35-2-buildonly.test
--rw-r--r-- root       root             5672 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/time_h/time_h_35-3-buildonly.test
+-rw-r--r-- root       root             5560 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/time_h/time_h_35-3-buildonly.test
 -rw-r--r-- root       root             3604 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/time_h/time_h_4-1-buildonly.test
 -rw-r--r-- root       root             3452 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/time_h/time_h_5-1-buildonly.test
 -rw-r--r-- root       root             2356 ./opt/ltp/testcases/open_posix_testsuite/conformance/definitions/time_h/time_h_6-1-buildonly.test
