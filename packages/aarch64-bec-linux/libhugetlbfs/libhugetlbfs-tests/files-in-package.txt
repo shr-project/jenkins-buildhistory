@@ -31,9 +31,9 @@ drwxr-xr-x root       root             1700 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root            77496 ./usr/lib/libhugetlbfs/tests/obj64/get_hugetlbfs_path
 -rwxr-xr-x root       root           115096 ./usr/lib/libhugetlbfs/tests/obj64/heap-overflow
 -rwxr-xr-x root       root           101144 ./usr/lib/libhugetlbfs/tests/obj64/heapshrink
--rwxr-xr-x root       root          6022208 ./usr/lib/libhugetlbfs/tests/obj64/huge_at_4GB_normal_below_static
--rwxr-xr-x root       root          6024240 ./usr/lib/libhugetlbfs/tests/obj64/huge_below_4GB_normal_above_static
--rwxr-xr-x root       root           122504 ./usr/lib/libhugetlbfs/tests/obj64/icache-hygiene
+-rwxr-xr-x root       root          6022064 ./usr/lib/libhugetlbfs/tests/obj64/huge_at_4GB_normal_below_static
+-rwxr-xr-x root       root          6024096 ./usr/lib/libhugetlbfs/tests/obj64/huge_below_4GB_normal_above_static
+-rwxr-xr-x root       root           122360 ./usr/lib/libhugetlbfs/tests/obj64/icache-hygiene
 -rwxr-xr-x root       root           112328 ./usr/lib/libhugetlbfs/tests/obj64/large_mounts
 -rwxr-xr-x root       root            73128 ./usr/lib/libhugetlbfs/tests/obj64/libheapshrink.so
 -rwxr-xr-x root       root           236352 ./usr/lib/libhugetlbfs/tests/obj64/linkhuge
@@ -76,7 +76,7 @@ drwxr-xr-x root       root             1700 ./usr/lib/libhugetlbfs/tests/obj64
 -rwxr-xr-x root       root           115448 ./usr/lib/libhugetlbfs/tests/obj64/shm-perms
 -rwxr-xr-x root       root           111576 ./usr/lib/libhugetlbfs/tests/obj64/slbpacaflush
 -rwxr-xr-x root       root           112904 ./usr/lib/libhugetlbfs/tests/obj64/stack_grow_into_huge
--rwxr-xr-x root       root          6025592 ./usr/lib/libhugetlbfs/tests/obj64/straddle_4GB_static
+-rwxr-xr-x root       root          6025448 ./usr/lib/libhugetlbfs/tests/obj64/straddle_4GB_static
 -rwxr-xr-x root       root           115128 ./usr/lib/libhugetlbfs/tests/obj64/task-size-overrun
 -rwxr-xr-x root       root           107928 ./usr/lib/libhugetlbfs/tests/obj64/test_root
 -rwxr-xr-x root       root           112744 ./usr/lib/libhugetlbfs/tests/obj64/truncate
